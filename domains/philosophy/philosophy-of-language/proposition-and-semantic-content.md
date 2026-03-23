@@ -18,7 +18,7 @@ tags:
 - propositions
 - truth-value
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Propositions and Semantic Content

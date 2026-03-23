@@ -17,7 +17,7 @@ tags:
 - cold
 - thermometer
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Temperature and Weather

@@ -17,7 +17,7 @@ tags:
 - hidden-message
 - limitation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Acrostic and Other Constraint-Based Forms

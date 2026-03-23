@@ -15,7 +15,7 @@ tags:
 - isotype-switching
 - immunoglobulin-m
 stage: expert
-status: draft
+status: validated
 ---
 
 # Class Switch Recombination and Isotype Switching

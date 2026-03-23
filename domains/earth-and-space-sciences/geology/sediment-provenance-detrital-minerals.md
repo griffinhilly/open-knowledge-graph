@@ -16,7 +16,7 @@ tags:
 - minerals
 - source-area
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sediment Provenance: Using Detrital Minerals to Trace Source

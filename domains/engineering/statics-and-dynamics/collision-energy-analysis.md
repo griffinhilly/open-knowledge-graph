@@ -16,7 +16,7 @@ tags:
 - energy dissipation
 - impact velocity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Collision Analysis and Energy

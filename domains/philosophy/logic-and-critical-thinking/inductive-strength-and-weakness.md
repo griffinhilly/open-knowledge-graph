@@ -15,7 +15,7 @@ tags:
 - evidence
 - reasoning-strength
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inductive Strength: When Does Evidence Suffice?

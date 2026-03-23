@@ -11,7 +11,7 @@ tags:
 - sequences
 - optimization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Longest Increasing Subsequence: Dynamic Programming and Optimization

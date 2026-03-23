@@ -15,7 +15,7 @@ tags:
 - observational-methods
 - non-experimental
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Correlational, Longitudinal, and Observational Research

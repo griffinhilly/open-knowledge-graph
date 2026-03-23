@@ -16,7 +16,7 @@ tags:
 - ir
 - compilation-phases
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Intermediate Code Representation

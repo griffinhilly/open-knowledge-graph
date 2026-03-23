@@ -15,7 +15,7 @@ tags:
 - BPD
 - emotion dysregulation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Borderline Personality Disorder

@@ -17,7 +17,7 @@ tags:
 - utility-max
 - consumer-choice
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Consumer Equilibrium and Utility Maximization

@@ -12,7 +12,7 @@ tags:
 - introduction
 - consciousness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Introduction to Philosophy of Mind

@@ -16,7 +16,7 @@ tags:
 - competence
 - childhood
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Peer Relationships and Social Competence

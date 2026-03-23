@@ -16,7 +16,7 @@ tags:
 - meaning
 - representation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cultural History and Meaning-Making Approaches

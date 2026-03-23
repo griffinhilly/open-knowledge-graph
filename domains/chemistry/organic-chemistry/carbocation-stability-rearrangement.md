@@ -20,7 +20,7 @@ tags:
 - rearrangement
 - tertiary
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Carbocation Stability and Rearrangements
 

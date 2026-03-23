@@ -14,7 +14,7 @@ tags:
 - isotope-analysis
 - elemental-mass-spectrometry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Inductively Coupled Plasma-Mass Spectrometry: ICP-MS

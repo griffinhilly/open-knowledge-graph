@@ -15,7 +15,7 @@ tags:
 - identity
 - institutions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Organizational Culture and Member Identity

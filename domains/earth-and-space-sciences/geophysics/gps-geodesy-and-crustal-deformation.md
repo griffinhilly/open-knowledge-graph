@@ -12,7 +12,7 @@ tags:
 - deformation
 - monitoring
 stage: expert
-status: draft
+status: validated
 ---
 
 # GPS Geodesy and Crustal Deformation Monitoring

@@ -15,7 +15,7 @@ tags:
 - patriarchy
 - oppression
 stage: expert
-status: draft
+status: validated
 ---
 
 # Feminist Sociology

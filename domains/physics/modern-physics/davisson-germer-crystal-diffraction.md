@@ -11,7 +11,7 @@ tags:
 - electron-diffraction
 - experimental
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Davisson-Germer Experiment: Crystal Diffraction of Electrons

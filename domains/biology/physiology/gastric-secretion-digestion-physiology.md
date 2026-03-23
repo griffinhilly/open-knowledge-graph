@@ -18,7 +18,7 @@ tags:
 - pepsin
 - digestion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gastric Secretion and Digestion Physiology

@@ -16,7 +16,7 @@ tags:
 - pollination
 - networks
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Plant-Animal Coevolutionary Networks: Pollination, Seed Dispersal, and Herbivory

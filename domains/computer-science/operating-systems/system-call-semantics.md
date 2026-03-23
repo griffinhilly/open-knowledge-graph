@@ -15,7 +15,7 @@ tags:
 - abi
 - interface
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # System Call Semantics and ABI

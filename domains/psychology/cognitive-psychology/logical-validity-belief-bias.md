@@ -16,7 +16,7 @@ tags:
 - bias
 - judgment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Logical Validity and Belief Bias in Reasoning

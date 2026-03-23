@@ -19,7 +19,7 @@ tags:
 - animal-cells
 - comparison
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Plant vs. Animal Cells
 

@@ -17,7 +17,7 @@ tags:
 - minor
 - natural
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Natural Minor Scale

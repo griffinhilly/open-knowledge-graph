@@ -16,7 +16,7 @@ tags:
 - readiness
 - persuasion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kairos: Recognizing the Opportune Moment

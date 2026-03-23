@@ -13,7 +13,7 @@ tags:
 - cratering
 - planetary-defense
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Impact Craters, Impacts, and Hazard Assessment

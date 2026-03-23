@@ -13,7 +13,7 @@ tags:
 - convergence
 - mixing
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Convergence of Markov Chains

@@ -17,7 +17,7 @@ tags:
 - computational
 - wavefunction
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Post-Hartree-Fock Methods: MP and CC Theory

@@ -18,7 +18,7 @@ tags:
 - Humean-theory
 - moral-judgment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moral Motivation

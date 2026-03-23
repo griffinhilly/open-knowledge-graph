@@ -14,7 +14,7 @@ tags:
 - quantifiers
 - first-order-logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Existential Quantification: Meaning and Scope

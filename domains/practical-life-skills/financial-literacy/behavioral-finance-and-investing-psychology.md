@@ -13,7 +13,7 @@ tags:
 - behavior
 - investing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Behavioral Finance and Investing Psychology

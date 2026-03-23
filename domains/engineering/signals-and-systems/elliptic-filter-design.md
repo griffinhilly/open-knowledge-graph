@@ -16,7 +16,7 @@ tags:
 - equiripple
 - optimization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Elliptic (Cauer) Filter Design

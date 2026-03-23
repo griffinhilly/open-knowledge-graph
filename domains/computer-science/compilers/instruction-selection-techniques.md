@@ -18,7 +18,7 @@ tags:
 - backend
 - instruction-selection
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Instruction Selection Techniques

@@ -16,7 +16,7 @@ tags:
 - harmony
 - innovation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Wagner and Music Drama

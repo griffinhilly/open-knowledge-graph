@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - hilbert-spaces
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bessel's Inequality and Parseval's Identity

@@ -14,7 +14,7 @@ tags:
 - basis
 - generating-topologies
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Basis for a Topology

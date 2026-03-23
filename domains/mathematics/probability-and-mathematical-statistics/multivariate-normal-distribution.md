@@ -18,7 +18,7 @@ tags:
 - distributions
 - statistics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Multivariate Normal Distribution

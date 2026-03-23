@@ -17,7 +17,7 @@ tags:
 - self-esteem
 - self-evaluation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Self-Concept and Self-Esteem Development Across Childhood

@@ -17,7 +17,7 @@ tags:
 - maximum-work
 - destroyed-work
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Availability and Exergy Analysis

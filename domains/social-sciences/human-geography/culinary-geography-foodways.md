@@ -16,7 +16,7 @@ tags:
 - food
 - place
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Culinary Geography and Foodways

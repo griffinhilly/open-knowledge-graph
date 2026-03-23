@@ -14,7 +14,7 @@ tags:
 - reasoning-errors
 - argument-criticism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fallacy Detection in Reasoning

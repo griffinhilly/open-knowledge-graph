@@ -16,7 +16,7 @@ tags:
 - exposure
 - contamination
 stage: expert
-status: draft
+status: validated
 ---
 
 # Environmental Health: Contamination Pathways and Exposure Routes

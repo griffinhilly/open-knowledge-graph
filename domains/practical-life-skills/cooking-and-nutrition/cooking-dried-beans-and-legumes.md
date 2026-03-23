@@ -19,7 +19,7 @@ tags:
 - soaking
 - timing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cooking Dried Beans and Legumes

@@ -14,7 +14,7 @@ tags:
 - society
 - economy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Early Modern Urban Growth and Urbanization

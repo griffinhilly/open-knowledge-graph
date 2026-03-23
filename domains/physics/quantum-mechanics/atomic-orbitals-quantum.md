@@ -11,7 +11,7 @@ tags:
 - orbitals
 - wavefunctions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantum Atomic Orbitals

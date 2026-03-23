@@ -15,7 +15,7 @@ tags:
 - metric-spaces
 - completion
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Introduction to p-adic Numbers

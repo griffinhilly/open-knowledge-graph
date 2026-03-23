@@ -16,7 +16,7 @@ tags:
 - multiplication
 - exponentiation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ordinal Arithmetic, Multiplication, and Exponentiation

@@ -15,7 +15,7 @@ tags:
 - awareness
 - cortex
 stage: expert
-status: draft
+status: validated
 ---
 
 # Neural Correlates of Consciousness

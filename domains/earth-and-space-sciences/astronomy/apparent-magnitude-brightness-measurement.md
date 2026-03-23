@@ -17,7 +17,7 @@ tags:
 - photometry
 - magnitude-system
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Apparent Magnitude and Flux Measurement

@@ -11,7 +11,7 @@ tags:
 - typology
 - constraints
 stage: expert
-status: draft
+status: validated
 ---
 
 # Constraint Ranking and Typology in Optimality Theory

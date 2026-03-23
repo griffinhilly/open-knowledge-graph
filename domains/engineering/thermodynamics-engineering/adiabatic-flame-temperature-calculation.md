@@ -16,7 +16,7 @@ tags:
 - adiabatic
 - energy-balance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Adiabatic Flame Temperature

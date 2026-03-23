@@ -17,7 +17,7 @@ tags:
 - ear-training
 - romantic-harmony
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Augmented Sixth Chord Recognition by Ear

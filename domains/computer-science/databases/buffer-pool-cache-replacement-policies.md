@@ -18,7 +18,7 @@ tags:
 - LRU
 - FIFO
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Buffer Pool Management and Cache Replacement Policies

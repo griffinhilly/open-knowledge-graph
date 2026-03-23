@@ -16,7 +16,7 @@ tags:
 - unity
 - romantic
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cyclic Form and Multi-Movement Unity

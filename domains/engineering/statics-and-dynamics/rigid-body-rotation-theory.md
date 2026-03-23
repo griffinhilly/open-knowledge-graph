@@ -14,7 +14,7 @@ tags:
 - rigid-bodies
 - kinematics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rigid Body Rotation: Angular Velocity and Acceleration

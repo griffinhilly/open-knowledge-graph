@@ -18,7 +18,7 @@ tags:
 - immune-reaction
 - allergy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hypersensitivity Reactions: Types I–IV

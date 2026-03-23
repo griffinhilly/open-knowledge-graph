@@ -19,7 +19,7 @@ tags:
 - error-correction
 - fidelity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Evolution of Mutation Rates

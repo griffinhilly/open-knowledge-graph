@@ -16,7 +16,7 @@ tags:
 - Anfinsen
 - native state
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Protein Denaturation and Renaturation

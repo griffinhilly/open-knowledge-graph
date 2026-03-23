@@ -16,7 +16,7 @@ tags:
 - foundations
 - theory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nominal and Real Macroeconomic Variables

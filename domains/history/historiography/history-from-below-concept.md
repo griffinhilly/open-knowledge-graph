@@ -17,7 +17,7 @@ tags:
 - subaltern
 - social history
 stage: expert
-status: draft
+status: validated
 ---
 
 # History from Below: Recovering Subaltern Voices

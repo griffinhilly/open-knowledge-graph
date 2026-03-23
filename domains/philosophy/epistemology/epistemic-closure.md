@@ -17,7 +17,7 @@ tags:
 - skeptical-paradox
 - deductive-closure
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Epistemic Closure
 

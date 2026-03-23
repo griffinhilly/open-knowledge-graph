@@ -19,7 +19,7 @@ tags:
 - liquid-water
 - climate-feedbacks
 stage: expert
-status: draft
+status: validated
 ---
 
 # Habitable Zone Definition and Boundary Constraints

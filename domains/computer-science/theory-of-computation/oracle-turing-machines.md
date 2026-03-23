@@ -16,7 +16,7 @@ tags:
 - oracles
 - relativization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Oracle Turing Machines

@@ -18,7 +18,7 @@ tags:
 - Vmax
 - reversible
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Competitive Enzyme Inhibition

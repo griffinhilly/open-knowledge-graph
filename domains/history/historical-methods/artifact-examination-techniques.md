@@ -16,7 +16,7 @@ tags:
 - examination
 - description
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Artifact Examination Techniques

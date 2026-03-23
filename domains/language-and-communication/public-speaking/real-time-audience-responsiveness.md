@@ -15,7 +15,7 @@ tags:
 - extemporaneous
 - delivery
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Adapting Delivery and Content Based on Live Audience Feedback

@@ -14,7 +14,7 @@ tags:
 - ion-channels
 - repolarization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Voltage-Gated Potassium Channels

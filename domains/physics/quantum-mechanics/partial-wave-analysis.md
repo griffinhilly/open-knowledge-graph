@@ -14,7 +14,7 @@ tags:
 - partial-waves
 - angular-momentum
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Partial Wave Analysis in Scattering

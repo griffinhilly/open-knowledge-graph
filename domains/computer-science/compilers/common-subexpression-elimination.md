@@ -13,7 +13,7 @@ tags:
 - cse
 - expression-reuse
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Common Subexpression Elimination (CSE)

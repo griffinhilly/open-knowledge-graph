@@ -23,7 +23,7 @@ tags:
 - indirect-effects
 - mechanisms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mediation Analysis and Indirect Effects in Causal Pathways

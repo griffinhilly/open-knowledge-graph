@@ -14,7 +14,7 @@ tags:
 - iteration
 - root-finding
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fixed Point Iteration

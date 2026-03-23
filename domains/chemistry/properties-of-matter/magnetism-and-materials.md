@@ -11,7 +11,7 @@ tags:
 - metals
 - iron
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Magnetism: Which Materials Are Magnetic?
 

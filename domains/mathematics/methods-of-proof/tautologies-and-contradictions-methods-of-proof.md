@@ -13,7 +13,7 @@ tags:
 - contradiction
 - validity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tautologies and Contradictions

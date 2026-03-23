@@ -14,7 +14,7 @@ tags:
 - neurotransmitters
 - excitatory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Glutamatergic Signaling and Receptors

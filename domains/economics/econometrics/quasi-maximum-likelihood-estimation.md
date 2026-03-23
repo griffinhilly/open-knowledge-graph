@@ -11,7 +11,7 @@ tags:
 - maximum-likelihood
 - misspecification
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quasi-Maximum Likelihood Estimation

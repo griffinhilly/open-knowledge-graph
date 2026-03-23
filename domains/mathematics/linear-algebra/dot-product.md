@@ -19,7 +19,7 @@ tags:
 - angle
 - projection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dot Product (Inner Product in R^n)

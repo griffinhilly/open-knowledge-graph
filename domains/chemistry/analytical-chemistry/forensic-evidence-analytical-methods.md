@@ -15,7 +15,7 @@ tags:
 - identification
 - legal-compliance
 stage: advanced
-status: draft
+status: validated
 ---
 # Forensic Evidence Analytical Methods
 

@@ -15,7 +15,7 @@ tags:
 - type
 - symmetry
 stage: expert
-status: draft
+status: validated
 ---
 
 # Automorphism Orbits and Galois Types

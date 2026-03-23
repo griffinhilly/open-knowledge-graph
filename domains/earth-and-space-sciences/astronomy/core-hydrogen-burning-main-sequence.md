@@ -13,7 +13,7 @@ tags:
 - nuclear-fusion
 - main-sequence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Core Hydrogen Burning and the Main Sequence

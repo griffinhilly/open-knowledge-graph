@@ -14,7 +14,7 @@ tags:
 - orchestration
 - spectral
 stage: expert
-status: draft
+status: validated
 ---
 
 # Timbre Evolution and Analysis

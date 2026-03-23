@@ -14,7 +14,7 @@ tags:
 - real-gas
 - cooling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Joule-Thomson Coefficient and Throttling

@@ -20,7 +20,7 @@ tags:
 - fibrosis
 - oxidative-stress
 stage: expert
-status: draft
+status: validated
 ---
 # Nonalcoholic Fatty Liver Disease: Lipid Accumulation, Oxidative Stress, and Fibrosis Progression
 

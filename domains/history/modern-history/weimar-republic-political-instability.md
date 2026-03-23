@@ -17,7 +17,7 @@ tags:
 - hyperinflation
 - political-extremism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Weimar Republic and Interwar Political Fragmentation

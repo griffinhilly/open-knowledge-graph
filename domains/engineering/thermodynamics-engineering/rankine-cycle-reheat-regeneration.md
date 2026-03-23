@@ -12,7 +12,7 @@ tags:
 - regeneration
 - power-plants
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rankine Cycle Improvements: Reheat and Regenerative Feedwater Heating

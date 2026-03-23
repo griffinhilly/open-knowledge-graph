@@ -13,7 +13,7 @@ tags:
 - demand-stimulus
 - fiscal-policy-impact
 stage: expert
-status: draft
+status: validated
 ---
 
 # Government Spending Multiplier in Macroeconomic Models

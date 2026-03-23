@@ -16,7 +16,7 @@ tags:
 - minority-protection
 - tyranny-of-majority
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Majority Rule and the Protection of Minorities

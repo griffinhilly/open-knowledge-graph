@@ -15,7 +15,7 @@ tags:
 - sentiments
 - motivation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moral Sentiments and Emotions

@@ -13,7 +13,7 @@ tags:
 - orthography
 - writing-conventions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Capitalization Conventions in English

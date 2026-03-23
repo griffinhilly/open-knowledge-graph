@@ -15,7 +15,7 @@ tags:
 - 30nm-fiber
 - heterochromatin
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chromatin Fiber and Higher-Order Structure

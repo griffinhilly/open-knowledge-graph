@@ -16,7 +16,7 @@ tags:
 - part-whole
 - addition-facts
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Number Bonds to 20

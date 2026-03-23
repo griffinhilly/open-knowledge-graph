@@ -15,7 +15,7 @@ tags:
 - romantic
 - quartet
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # String Quartet: Canonical Chamber Form

@@ -14,7 +14,7 @@ tags:
 - elasticity
 - surfactant
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lung Compliance and Elastic Recoil

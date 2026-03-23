@@ -16,7 +16,7 @@ tags:
 - lattice-strain
 - hume-rothery-rules
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Solid Solution Strengthening

@@ -31,7 +31,7 @@ tags:
 - regulation
 - phosphofructokinase
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Glycolysis: Mechanism and Regulation

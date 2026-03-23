@@ -16,7 +16,7 @@ tags:
 - fundamentals
 - notation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Matrices and Matrix Notation

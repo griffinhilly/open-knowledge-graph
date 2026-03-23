@@ -15,7 +15,7 @@ tags:
 - transmission
 - interest-rate-channel
 stage: expert
-status: draft
+status: validated
 ---
 
 # Monetary Policy Transmission Mechanisms

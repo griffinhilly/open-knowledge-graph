@@ -15,7 +15,7 @@ tags:
 - photons
 - radiation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Planck's Quantization Hypothesis

@@ -20,7 +20,7 @@ tags:
 - modernity
 - optical-mixing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Impressionism: Color, Light, and Optical Perception

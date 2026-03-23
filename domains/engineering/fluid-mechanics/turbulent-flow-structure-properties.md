@@ -15,7 +15,7 @@ tags:
 - dynamics
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Turbulent Flow Structure and Properties

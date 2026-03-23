@@ -15,7 +15,7 @@ tags:
 - particles
 - matter
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # What Is an Atom?
 

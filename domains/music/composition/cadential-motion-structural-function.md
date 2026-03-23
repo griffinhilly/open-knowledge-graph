@@ -19,7 +19,7 @@ tags:
 - phrasing
 - punctuation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cadential Motion and Phrase Punctuation

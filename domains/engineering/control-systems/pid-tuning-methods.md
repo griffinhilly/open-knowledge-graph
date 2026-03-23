@@ -16,7 +16,7 @@ tags:
 - ultimate-gain
 - process-reaction-curve
 stage: expert
-status: draft
+status: validated
 ---
 
 # PID Tuning Methods

@@ -16,7 +16,7 @@ tags:
 - traceability
 - metrology
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Reference Material Traceability

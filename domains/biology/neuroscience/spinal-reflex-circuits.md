@@ -12,7 +12,7 @@ tags:
 - motor-systems
 - reflexes
 stage: expert
-status: draft
+status: validated
 ---
 
 # Spinal Reflex Circuits

@@ -18,7 +18,7 @@ tags:
 - atmosphere
 - dating
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ice Core Paleoclimate Records and Analysis

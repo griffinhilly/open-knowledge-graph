@@ -15,7 +15,7 @@ tags:
 - construct
 - operationalization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Measurement, Validity, and Reliability

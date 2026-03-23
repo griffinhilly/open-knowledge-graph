@@ -15,7 +15,7 @@ tags:
 - telescope
 - magnification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Optical Instruments: Microscopes and Telescopes

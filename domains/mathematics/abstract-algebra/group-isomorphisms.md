@@ -15,7 +15,7 @@ tags:
 - structure-preserving
 - equivalent-groups
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Group Isomorphisms

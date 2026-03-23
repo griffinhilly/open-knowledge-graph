@@ -11,7 +11,7 @@ tags:
 - high-throughput
 - robotics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Automated and High-Throughput Analytical Systems

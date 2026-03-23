@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - closed-sets
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Closed Sets in Topological Spaces

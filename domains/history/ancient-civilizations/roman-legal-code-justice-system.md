@@ -13,7 +13,7 @@ tags:
 - justice
 - system
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Roman Legal Codes and the Justice System

@@ -15,7 +15,7 @@ tags:
 - recycling
 - autophagy
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Lysosomes: Cellular Recycling Centers
 

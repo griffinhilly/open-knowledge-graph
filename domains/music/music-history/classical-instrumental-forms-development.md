@@ -14,7 +14,7 @@ tags:
 - architecture
 - development
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Classical Sonata Principle: Development and Architecture

@@ -16,7 +16,7 @@ tags:
 - meaning
 - inference
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pragmatic Implicature and Context-Dependent Interpretation

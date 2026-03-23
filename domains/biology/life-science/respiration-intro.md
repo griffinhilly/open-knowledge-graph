@@ -18,7 +18,7 @@ tags:
 - mitochondria
 - metabolism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Cellular Respiration Introduction
 

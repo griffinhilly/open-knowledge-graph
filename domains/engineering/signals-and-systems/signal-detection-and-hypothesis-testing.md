@@ -15,7 +15,7 @@ tags:
 - statistics
 - SNR
 stage: expert
-status: draft
+status: validated
 ---
 
 # Signal Detection and Statistical Hypothesis Testing

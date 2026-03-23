@@ -15,7 +15,7 @@ tags:
 - multiplication
 - measurement
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Area as Multiplication

@@ -16,7 +16,7 @@ tags:
 - unobservables
 - metaphysics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Scientific Realism

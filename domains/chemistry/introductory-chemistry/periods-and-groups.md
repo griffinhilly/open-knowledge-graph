@@ -16,7 +16,7 @@ tags:
 - groups
 - families
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Periods and Groups on the Periodic Table
 

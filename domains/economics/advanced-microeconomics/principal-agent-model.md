@@ -16,7 +16,7 @@ tags:
 - delegation
 - incentives
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Principal-Agent Model

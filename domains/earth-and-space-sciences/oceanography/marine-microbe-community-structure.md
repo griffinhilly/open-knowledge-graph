@@ -18,7 +18,7 @@ tags:
 - metabolic-diversity
 - molecular-methods
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Marine Microbial Community Structure and Function

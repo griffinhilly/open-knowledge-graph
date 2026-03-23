@@ -16,7 +16,7 @@ tags:
 - earnings
 - forecasting
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Earnings Models and Forecasting

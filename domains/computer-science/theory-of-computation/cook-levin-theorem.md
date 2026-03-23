@@ -6,8 +6,9 @@ course: theory-of-computation
 prerequisites:
 - id: np-completeness
   type: hard
-- id: boolean-logic-programming
+- id: boolean-logic
   type: soft
+builds-toward:
 tags:
 - Cook-Levin
 - SAT
@@ -17,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # The Cook-Levin Theorem
 
 ## Core Idea

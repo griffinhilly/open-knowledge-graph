@@ -18,7 +18,7 @@ tags:
 - repression
 - limited-accountability
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Authoritarian Political Systems

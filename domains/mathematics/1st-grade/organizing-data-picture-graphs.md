@@ -15,7 +15,7 @@ tags:
 - picture-graphs
 - representation
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Organizing and Representing Data with Picture Graphs

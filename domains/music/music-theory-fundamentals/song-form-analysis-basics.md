@@ -11,7 +11,7 @@ tags:
 - analysis
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Song Form Fundamentals: Structure and Analysis

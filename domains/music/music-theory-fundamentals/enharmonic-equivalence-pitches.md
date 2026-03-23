@@ -17,7 +17,7 @@ tags:
 - spelling
 - accidental
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Enharmonic Equivalence: Same Pitch, Different Names

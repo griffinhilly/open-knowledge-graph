@@ -10,7 +10,7 @@ tags:
 - perturbation-theory
 - degeneracy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Degenerate Perturbation Theory

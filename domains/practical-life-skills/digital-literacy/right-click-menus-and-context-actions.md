@@ -15,7 +15,7 @@ tags:
 - interaction
 - mouse
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Right-Click Menus and Context Actions
 

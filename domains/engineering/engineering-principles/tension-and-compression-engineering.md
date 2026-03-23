@@ -21,7 +21,7 @@ tags:
 - structural-forces
 - internal-forces
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Tension and Compression in Structures
 

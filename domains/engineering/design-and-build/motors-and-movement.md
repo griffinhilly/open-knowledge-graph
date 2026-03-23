@@ -18,7 +18,7 @@ tags:
 - movement
 - engineering
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Motors and Movement
 

@@ -21,7 +21,7 @@ tags:
 - system
 - relation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Structuralism and Relational Systems

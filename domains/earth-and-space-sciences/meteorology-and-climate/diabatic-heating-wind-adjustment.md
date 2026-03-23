@@ -17,7 +17,7 @@ tags:
 - dynamics
 - intensification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diabatic Heating and Wind Adjustment in Cyclones

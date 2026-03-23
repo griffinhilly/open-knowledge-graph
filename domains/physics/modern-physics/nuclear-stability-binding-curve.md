@@ -13,7 +13,7 @@ tags:
 - stability
 - binding
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Nuclear Stability and the Binding Energy per Nucleon Curve

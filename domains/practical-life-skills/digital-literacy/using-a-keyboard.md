@@ -15,7 +15,7 @@ tags:
 - fundamentals
 - typing
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Using a Computer Keyboard

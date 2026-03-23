@@ -16,7 +16,7 @@ tags:
 - ratios
 - subscripts
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # What Chemical Formulas Tell Us
 

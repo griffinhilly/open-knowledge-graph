@@ -14,7 +14,7 @@ tags:
 - actions
 - evaluation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Intentions and Moral Evaluation

@@ -13,7 +13,7 @@ tags:
 - heat
 - materials
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Thermal Insulators
 

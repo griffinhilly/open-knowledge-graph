@@ -17,7 +17,7 @@ tags:
 - meaning
 - symbols
 stage: expert
-status: draft
+status: validated
 ---
 
 # Symbolic Interactionism

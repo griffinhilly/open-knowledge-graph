@@ -16,7 +16,7 @@ tags:
 - subcategorization
 - constraints
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Selectional Restrictions and Lexical Licensing

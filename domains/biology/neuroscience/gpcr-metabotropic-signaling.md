@@ -19,7 +19,7 @@ tags:
 - metabotropic
 - g-proteins
 stage: expert
-status: draft
+status: validated
 ---
 
 # G-Protein Coupled Receptors in Neurons

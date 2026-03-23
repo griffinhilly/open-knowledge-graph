@@ -12,7 +12,7 @@ tags:
 - digital-modulation
 - communication
 stage: expert
-status: draft
+status: validated
 ---
 
 # Frequency Shift Keying Modulation

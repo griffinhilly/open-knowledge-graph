@@ -17,7 +17,7 @@ builds-toward:
   - proof-structure-and-terminology
 tags: [proof, direct-proof, deduction, reasoning]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Introduction to Direct Proof

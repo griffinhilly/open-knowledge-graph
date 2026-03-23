@@ -12,7 +12,7 @@ tags:
 - arithmetic
 - error-detection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Overflow and Underflow Detection

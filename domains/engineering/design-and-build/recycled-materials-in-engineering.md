@@ -16,7 +16,7 @@ tags:
 - engineering
 - environment
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Recycled Materials in Engineering
 

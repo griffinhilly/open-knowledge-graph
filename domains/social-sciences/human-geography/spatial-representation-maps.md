@@ -15,7 +15,7 @@ tags:
 - visualization
 - power
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Spatial Representation, Maps, and Cartography

@@ -23,7 +23,7 @@ tags:
 - AMPA
 - NMDA
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Synaptic Plasticity Mechanisms

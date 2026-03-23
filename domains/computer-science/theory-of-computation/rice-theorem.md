@@ -11,7 +11,7 @@ tags:
 - undecidability
 - machine-properties
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Rice's Theorem and Non-Trivial Turing Machine Properties

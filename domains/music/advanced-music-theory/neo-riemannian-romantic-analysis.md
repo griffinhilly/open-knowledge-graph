@@ -14,7 +14,7 @@ tags:
 - analysis
 - 19th-century
 stage: expert
-status: draft
+status: validated
 ---
 
 # Neo-Riemannian Analysis of Romantic Music

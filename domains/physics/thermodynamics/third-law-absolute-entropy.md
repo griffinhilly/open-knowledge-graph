@@ -14,7 +14,7 @@ tags:
 - third-law
 - absolute-values
 stage: formal-systems
-status: draft
+status: validated
 ---
 # The Third Law of Thermodynamics and Absolute Entropy
 

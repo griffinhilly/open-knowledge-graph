@@ -19,7 +19,7 @@ tags:
 - african-american-music
 - popular-music
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Jazz: Art Form and Cultural Expression

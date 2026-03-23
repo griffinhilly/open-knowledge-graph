@@ -4,11 +4,11 @@ title: Systematic Listing
 domain: formal-sciences-and-logic
 course: reasoning-and-proof
 prerequisites:
-  - id: sorting-and-classifying
+  - id: sorting-by-attributes-logic
     type: soft
   - id: what-is-an-argument
     type: soft
-  - id: number-sequences-patterns
+  - id: number-patterns-logic
     type: soft
 builds-toward:
   - proof-by-exhaustion-intro
@@ -16,7 +16,7 @@ builds-toward:
   - working-backwards-strategy
 tags: [problem-solving, enumeration, systematic, organization]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Systematic Listing

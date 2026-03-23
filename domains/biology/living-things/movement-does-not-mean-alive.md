@@ -13,7 +13,7 @@ tags:
 - movement
 - critical thinking
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Movement Does Not Mean Alive

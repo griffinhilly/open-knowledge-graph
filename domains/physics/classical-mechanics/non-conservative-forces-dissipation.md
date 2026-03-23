@@ -15,7 +15,7 @@ tags:
 - dissipation
 - irreversibility
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Non-Conservative Forces and Energy Dissipation

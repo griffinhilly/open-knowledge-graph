@@ -14,7 +14,7 @@ tags:
 - layers
 - abstraction
 stage: advanced
-status: draft
+status: validated
 ---
 
 # OSI Model and Seven Layers

@@ -10,7 +10,7 @@ tags:
 - hilbert-spaces
 - parseval
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bessel's Inequality and Parseval's Identity

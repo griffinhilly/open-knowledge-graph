@@ -15,7 +15,7 @@ tags:
 - impact-evaluation
 - health-outcomes
 stage: expert
-status: draft
+status: validated
 ---
 
 # Policy Analysis and Health Impact Evaluation

@@ -16,7 +16,7 @@ tags:
 - entire-function
 - periodic
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Complex Exponential Function

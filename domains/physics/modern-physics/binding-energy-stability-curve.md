@@ -14,7 +14,7 @@ tags:
 - nuclear-physics
 - energy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Binding Energy and the Nuclear Stability Curve

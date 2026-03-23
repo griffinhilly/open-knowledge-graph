@@ -13,7 +13,7 @@ tags:
 - factor-markets
 - elasticity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Factor Demands and Substitution Elasticity

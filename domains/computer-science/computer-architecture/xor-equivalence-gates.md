@@ -13,7 +13,7 @@ tags:
 - xor
 - comparison
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # XOR and XNOR Gates

@@ -14,7 +14,7 @@ tags:
 - inverse-operations
 - relationships
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Addition and Subtraction Relationship

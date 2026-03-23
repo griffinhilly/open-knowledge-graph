@@ -18,7 +18,7 @@ tags:
 - spectrum
 - light
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # The Electromagnetic Spectrum
 

@@ -18,7 +18,7 @@ tags:
 - omega fatty acids
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fatty Acid Structure and Classification

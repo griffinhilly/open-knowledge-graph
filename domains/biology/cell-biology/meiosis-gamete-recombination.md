@@ -13,7 +13,7 @@ tags:
 - gamete
 - recombination
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Meiosis: Generating Genetic Diversity

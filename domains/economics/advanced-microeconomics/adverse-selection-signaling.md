@@ -16,7 +16,7 @@ tags:
 - information-asymmetry
 - communication
 stage: expert
-status: draft
+status: validated
 ---
 
 # Adverse Selection and Signaling

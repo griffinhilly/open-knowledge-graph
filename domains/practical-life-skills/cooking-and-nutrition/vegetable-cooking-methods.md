@@ -15,7 +15,7 @@ tags:
 - blanching
 - nutrient-retention
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Vegetable Cooking Methods

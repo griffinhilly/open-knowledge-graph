@@ -14,7 +14,7 @@ tags:
 - lp-spaces
 - banach-spaces
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lᵖ Spaces

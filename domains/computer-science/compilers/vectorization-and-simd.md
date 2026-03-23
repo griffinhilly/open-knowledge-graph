@@ -15,7 +15,7 @@ tags:
 - SIMD
 - parallelism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Vectorization and SIMD Code Generation

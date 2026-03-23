@@ -10,7 +10,7 @@ tags:
 - inequality
 - Kuznets
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Kuznets Curve and Inequality Dynamics

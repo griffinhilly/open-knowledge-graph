@@ -19,7 +19,7 @@ tags:
 - dna-viruses
 - polymerase
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Viral Replication Strategies: RNA vs DNA Viruses

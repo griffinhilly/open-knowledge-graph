@@ -17,7 +17,7 @@ tags:
 - constants
 - language-extension
 stage: expert
-status: draft
+status: validated
 ---
 
 # Diagram and Expansion by Constants

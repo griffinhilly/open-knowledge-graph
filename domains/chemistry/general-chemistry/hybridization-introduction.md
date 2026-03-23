@@ -17,7 +17,7 @@ tags:
 - bonding
 - sp-orbitals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orbital Hybridization and Bonding Models

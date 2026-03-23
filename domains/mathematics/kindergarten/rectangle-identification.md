@@ -12,7 +12,7 @@ tags:
 - rectangle
 - visual perception
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Identifying Rectangles

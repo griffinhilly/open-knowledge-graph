@@ -14,7 +14,7 @@ tags:
 - proof
 - direct
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Direct Proof

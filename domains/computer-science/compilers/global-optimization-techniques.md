@@ -16,7 +16,7 @@ tags:
 - global-opts
 - dataflow
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Global Optimization Techniques

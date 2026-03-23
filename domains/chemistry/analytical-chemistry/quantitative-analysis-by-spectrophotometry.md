@@ -15,7 +15,7 @@ tags:
 - UV-Vis
 - quantitative
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantitative Analysis by Spectrophotometry

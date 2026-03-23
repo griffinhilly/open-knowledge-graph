@@ -17,7 +17,7 @@ tags:
 - technology
 - hybridity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Haraway's Cyborg: Dissolving Nature-Culture Boundaries

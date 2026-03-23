@@ -15,7 +15,7 @@ tags:
 - ubiquitin-ligase
 - cell-cycle
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Anaphase-Promoting Complex and Cell Cycle Control

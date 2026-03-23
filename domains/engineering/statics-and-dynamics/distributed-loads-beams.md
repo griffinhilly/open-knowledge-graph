@@ -18,7 +18,7 @@ tags:
 - equivalent point loads
 - integration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Distributed Loads on Beams

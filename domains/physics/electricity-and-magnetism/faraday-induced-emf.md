@@ -14,7 +14,7 @@ tags:
 - emf
 - induction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Faraday's Law and Induced EMF

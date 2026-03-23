@@ -18,7 +18,7 @@ tags:
 - classification
 - hierarchy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Chomsky Hierarchy

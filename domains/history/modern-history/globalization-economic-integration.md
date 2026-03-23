@@ -20,7 +20,7 @@ tags:
 - capitalism
 - interdependence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Globalization and Economic Integration

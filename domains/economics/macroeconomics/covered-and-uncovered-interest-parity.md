@@ -15,7 +15,7 @@ tags:
 - parity
 - exchange-rates
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Interest Rate Parity

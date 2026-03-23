@@ -14,7 +14,7 @@ tags:
 - GF
 - frobenius
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Finite Fields

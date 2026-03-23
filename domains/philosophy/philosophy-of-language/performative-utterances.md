@@ -13,7 +13,7 @@ tags:
 - speech-acts
 - utterance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Performative Language and Utterance Acts

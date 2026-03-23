@@ -12,7 +12,7 @@ tags:
 - exemplars
 - learning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Prototypes and Exemplars in Category Learning

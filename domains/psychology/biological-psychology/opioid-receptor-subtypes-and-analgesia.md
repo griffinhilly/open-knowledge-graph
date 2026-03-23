@@ -19,7 +19,7 @@ tags:
 - analgesia
 - addiction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Opioid Receptor Subtypes and Analgesic Mechanisms

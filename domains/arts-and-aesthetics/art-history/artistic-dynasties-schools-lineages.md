@@ -12,7 +12,7 @@ tags:
 - lineage
 - influence-networks
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Artistic Dynasties, Schools, and Lines of Artistic Influence

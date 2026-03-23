@@ -17,7 +17,7 @@ tags:
 - design
 - parameters
 stage: expert
-status: draft
+status: validated
 ---
 
 # Filter Specifications and Design Trade-offs

@@ -15,7 +15,7 @@ tags:
 - ancient-life
 - sedimentary
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Fossils in Rocks

@@ -15,7 +15,7 @@ tags:
 - multivariate
 - continuous-distributions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bivariate Normal Distribution

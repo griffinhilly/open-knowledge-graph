@@ -13,7 +13,7 @@ tags:
 - information
 - technology-adoption
 stage: expert
-status: draft
+status: validated
 ---
 
 # Agricultural Extension and Information Asymmetry

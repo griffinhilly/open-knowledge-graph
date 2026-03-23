@@ -16,7 +16,7 @@ tags:
 - open-system
 - particle-exchange
 stage: expert
-status: draft
+status: validated
 ---
 
 # Grand Canonical Ensemble (μVT)

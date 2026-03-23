@@ -15,7 +15,7 @@ tags:
 - rate-constant
 - experimental-kinetics
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Rate Law Determination
 

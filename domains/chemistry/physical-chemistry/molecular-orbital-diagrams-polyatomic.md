@@ -17,7 +17,7 @@ tags:
 - polyatomic
 - diagrams
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Molecular Orbital Diagrams for Polyatomic Molecules

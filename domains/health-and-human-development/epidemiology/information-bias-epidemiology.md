@@ -15,7 +15,7 @@ tags:
 - measurement-error
 - validity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Information Bias and Misclassification Error

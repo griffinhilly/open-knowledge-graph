@@ -4,7 +4,7 @@ title: The Relational Model
 domain: computer-science
 course: databases
 prerequisites:
-- id: boolean-logic-programming
+- id: boolean-logic
   type: soft
 - id: set-theory-basics
   type: soft
@@ -21,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Relational Model
 
 ## Core Idea

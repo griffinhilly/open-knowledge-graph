@@ -13,7 +13,7 @@ tags:
 - tectonics
 - deformation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Structural Geology: Folds, Faults, and Stress Analysis

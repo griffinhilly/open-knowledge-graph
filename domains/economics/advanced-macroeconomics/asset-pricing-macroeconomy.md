@@ -14,7 +14,7 @@ tags:
 - consumption-risk
 - business-cycle
 stage: expert
-status: draft
+status: validated
 ---
 
 # Asset Pricing and Macroeconomic Risk

@@ -17,7 +17,7 @@ tags:
 - fairness
 - entitlements
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Relationship Between Rights and Justice

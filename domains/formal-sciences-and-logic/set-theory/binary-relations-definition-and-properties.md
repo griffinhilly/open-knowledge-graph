@@ -17,7 +17,7 @@ tags:
 - properties
 - structures
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binary Relations and Their Properties

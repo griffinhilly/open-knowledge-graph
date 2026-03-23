@@ -15,7 +15,7 @@ tags:
 - spearman-brown
 - reliability-estimation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Split-Half Reliability and the Spearman-Brown Prophecy Formula

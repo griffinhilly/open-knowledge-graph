@@ -14,7 +14,7 @@ tags:
 - mobile
 - data-collection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # App Permissions and Privacy

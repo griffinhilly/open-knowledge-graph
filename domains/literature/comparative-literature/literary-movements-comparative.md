@@ -16,7 +16,7 @@ tags:
 - comparative
 - periodization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Literary Movements in Comparative Perspective

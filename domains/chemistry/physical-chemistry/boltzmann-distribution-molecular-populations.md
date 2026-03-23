@@ -17,7 +17,7 @@ tags:
 - population-distribution
 - thermodynamics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Boltzmann Distribution and Molecular Populations

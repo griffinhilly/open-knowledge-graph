@@ -15,7 +15,7 @@ tags:
 - screening
 - intervention
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Atypical Development Pathways and Early Identification

@@ -15,7 +15,7 @@ tags:
 - cyanobacteria
 - energy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Photosynthesis in Bacteria and Cyanobacteria

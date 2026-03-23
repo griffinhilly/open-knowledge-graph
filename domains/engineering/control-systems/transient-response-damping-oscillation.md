@@ -14,7 +14,7 @@ tags:
 - damped-frequency
 - decay-envelope
 stage: expert
-status: draft
+status: validated
 ---
 
 # Transient Response Damping and Oscillation

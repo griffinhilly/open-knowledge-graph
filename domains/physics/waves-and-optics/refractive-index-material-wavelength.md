@@ -16,7 +16,7 @@ tags:
 - dispersion
 - optical-properties
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Refractive Index: Definition and Wavelength Dependence

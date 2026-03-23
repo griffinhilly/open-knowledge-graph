@@ -15,7 +15,7 @@ tags:
 - problem-solution
 - causal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Organizational Patterns for Speeches

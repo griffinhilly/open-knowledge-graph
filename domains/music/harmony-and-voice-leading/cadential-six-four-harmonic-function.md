@@ -16,7 +16,7 @@ tags:
 - inversion
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Cadential Six-Four and Its Voice-Leading Requirements

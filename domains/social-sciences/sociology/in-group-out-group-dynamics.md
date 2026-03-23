@@ -15,7 +15,7 @@ tags:
 - boundaries
 - conflict
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # In-Groups, Out-Groups, and Social Boundaries

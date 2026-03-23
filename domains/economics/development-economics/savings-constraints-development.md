@@ -15,7 +15,7 @@ tags:
 - capital
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Savings Constraints and Capital Accumulation

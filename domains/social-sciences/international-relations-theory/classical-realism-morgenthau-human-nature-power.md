@@ -16,7 +16,7 @@ tags:
 - power
 - classical
 stage: expert
-status: draft
+status: validated
 ---
 
 # Classical Realism and the Pursuit of Power

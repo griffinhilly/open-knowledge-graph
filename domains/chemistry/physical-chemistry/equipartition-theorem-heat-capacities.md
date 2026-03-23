@@ -14,7 +14,7 @@ tags:
 - heat-capacity
 - energy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Equipartition Theorem and Molecular Heat Capacities

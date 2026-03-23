@@ -16,7 +16,7 @@ tags:
 - scheduling
 - coordination
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thread Scheduling and Coordination

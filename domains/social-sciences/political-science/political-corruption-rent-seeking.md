@@ -17,7 +17,7 @@ tags:
 - accountability
 - governance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Political Corruption and Rent-Seeking Behavior

@@ -10,7 +10,7 @@ tags:
 - combinatorics
 - matroids
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Introduction to Matroids

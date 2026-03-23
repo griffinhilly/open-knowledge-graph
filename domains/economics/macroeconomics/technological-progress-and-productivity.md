@@ -15,7 +15,7 @@ tags:
 - technology
 - growth
 stage: advanced
-status: draft
+status: validated
 ---
 # Technological Progress and Total Factor Productivity
 

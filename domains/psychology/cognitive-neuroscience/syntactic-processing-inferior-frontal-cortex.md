@@ -18,7 +18,7 @@ tags:
 - inferior-frontal
 - sentence-structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Syntactic Processing and Inferior Frontal Cortex

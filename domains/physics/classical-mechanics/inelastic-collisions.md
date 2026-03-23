@@ -16,7 +16,7 @@ tags:
 - energy
 - dissipation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inelastic Collisions

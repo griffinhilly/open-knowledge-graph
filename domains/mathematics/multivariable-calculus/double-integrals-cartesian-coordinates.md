@@ -15,7 +15,7 @@ tags:
 - integration
 - cartesian
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Double Integrals over Rectangular Regions

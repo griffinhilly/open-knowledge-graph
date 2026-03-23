@@ -15,7 +15,7 @@ tags:
 - schrödinger
 - eigenstates
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Time-Independent Schrödinger Equation and Eigenvalues

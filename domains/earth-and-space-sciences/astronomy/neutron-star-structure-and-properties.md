@@ -11,7 +11,7 @@ tags:
 - neutron-stars
 - pulsars
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Neutron Stars and Pulsars

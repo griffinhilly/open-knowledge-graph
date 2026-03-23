@@ -15,7 +15,7 @@ tags:
 - maximally-flat
 - response-shape
 stage: expert
-status: draft
+status: validated
 ---
 
 # Butterworth Filters and Maximally-Flat Passband

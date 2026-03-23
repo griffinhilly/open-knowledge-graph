@@ -15,7 +15,7 @@ tags:
 - motility
 - motor-proteins
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bacterial Flagellar Motor and Rotation Mechanics

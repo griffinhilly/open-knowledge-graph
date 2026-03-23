@@ -18,7 +18,7 @@ tags:
 - indigenous
 - iconography
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Mesoamerican and Pre-Columbian Visual Expression
 

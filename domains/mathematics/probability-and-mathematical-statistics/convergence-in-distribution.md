@@ -16,7 +16,7 @@ tags:
 - distribution
 - limit-theorems
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Convergence in Distribution

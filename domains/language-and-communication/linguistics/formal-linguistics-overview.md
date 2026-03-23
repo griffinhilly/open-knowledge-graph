@@ -13,7 +13,7 @@ tags:
 - formalism
 - methodology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Formal Linguistics: Overview and Goals

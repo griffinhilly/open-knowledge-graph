@@ -16,7 +16,7 @@ tags:
 - style
 - pacing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Sentence Variety and Rhythm

@@ -15,7 +15,7 @@ tags:
 - equilibrium
 - composition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Visual Weight and Balance Perception

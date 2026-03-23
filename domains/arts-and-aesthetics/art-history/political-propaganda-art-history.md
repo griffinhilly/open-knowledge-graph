@@ -16,7 +16,7 @@ tags:
 - ideology
 - power
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Political Art, Propaganda, and State Ideology Across History

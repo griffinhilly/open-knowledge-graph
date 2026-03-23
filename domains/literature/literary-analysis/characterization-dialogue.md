@@ -19,7 +19,7 @@ tags:
 - subtext
 - voice
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Characterization Through Dialogue

@@ -14,7 +14,7 @@ tags:
 - coset-multiplication
 - G/N
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quotient Groups

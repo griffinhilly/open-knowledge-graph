@@ -16,7 +16,7 @@ tags:
 - hypothesis-testing
 - statistics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Neyman-Pearson Lemma

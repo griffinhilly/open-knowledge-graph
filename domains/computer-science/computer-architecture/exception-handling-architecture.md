@@ -15,7 +15,7 @@ tags:
 - interrupts
 - exception-handling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Exception and Interrupt Handling Architecture

@@ -15,7 +15,7 @@ tags:
 - guidelines
 - efficacy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Evidence-Based Treatment and Practice Guidelines

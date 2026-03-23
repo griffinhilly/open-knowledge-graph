@@ -19,7 +19,7 @@ tags:
 - protocols
 - messaging
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Email Protocols: SMTP, POP3, and IMAP

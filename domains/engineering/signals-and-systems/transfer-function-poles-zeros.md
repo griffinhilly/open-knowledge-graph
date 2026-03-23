@@ -17,7 +17,7 @@ tags:
 - poles
 - zeros
 stage: expert
-status: draft
+status: validated
 ---
 
 # Transfer Function, Poles, and Zeros

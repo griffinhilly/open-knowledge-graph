@@ -19,7 +19,7 @@ tags:
 - systems
 - integration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Organ System Integration and Homeostasis

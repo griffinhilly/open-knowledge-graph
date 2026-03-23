@@ -23,7 +23,7 @@ builds-toward:
   - homeostasis-and-negative-feedback-mechanisms
 tags: [body-systems, integration, organ-systems, homeostasis]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # How Body Systems Connect

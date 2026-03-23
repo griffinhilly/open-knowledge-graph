@@ -16,7 +16,7 @@ tags:
 - connected-spaces
 - disconnected
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Connectedness: Definition and Examples

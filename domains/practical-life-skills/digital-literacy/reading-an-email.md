@@ -16,7 +16,7 @@ tags:
 - communication
 - fundamentals
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Reading an Email

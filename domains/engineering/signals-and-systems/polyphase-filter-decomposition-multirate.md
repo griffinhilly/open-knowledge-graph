@@ -15,7 +15,7 @@ tags:
 - decomposition
 - efficiency
 stage: expert
-status: draft
+status: validated
 ---
 
 # Polyphase Filter Decomposition and Structure

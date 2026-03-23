@@ -25,7 +25,7 @@ tags:
 - classification
 - margin-based
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Support Vector Machines

@@ -16,7 +16,7 @@ tags:
 - joint-embedding
 - extensions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Amalgamation Property and Joint Embedding Property

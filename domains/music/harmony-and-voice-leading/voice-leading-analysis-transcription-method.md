@@ -13,7 +13,7 @@ tags:
 - transcription
 - voice-leading-techniques
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voice Leading Analysis and Transcription Methods

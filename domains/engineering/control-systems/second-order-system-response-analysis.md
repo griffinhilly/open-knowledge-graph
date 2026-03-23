@@ -15,7 +15,7 @@ tags:
 - poles
 - characteristic-equation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Second-Order System Response Analysis

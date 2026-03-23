@@ -14,7 +14,7 @@ tags:
 - cut-elimination
 - hauptsatz
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cut Elimination and Gentzen's Hauptsatz

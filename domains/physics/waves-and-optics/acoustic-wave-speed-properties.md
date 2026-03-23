@@ -16,7 +16,7 @@ tags:
 - acoustics
 - temperature
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sound Wave Speed and Temperature Dependence

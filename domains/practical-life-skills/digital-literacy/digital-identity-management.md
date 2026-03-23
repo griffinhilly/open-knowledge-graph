@@ -14,7 +14,7 @@ tags:
 - accounts
 - privacy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Digital Identity Management

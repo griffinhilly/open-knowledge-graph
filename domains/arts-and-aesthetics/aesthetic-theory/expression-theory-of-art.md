@@ -14,7 +14,7 @@ tags:
 - artist intent
 - authenticity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Expression Theory of Art

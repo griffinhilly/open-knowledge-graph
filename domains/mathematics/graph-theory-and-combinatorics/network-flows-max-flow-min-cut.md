@@ -13,7 +13,7 @@ tags:
 - max-flow-min-cut
 - optimization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Network Flows and the Max-Flow Min-Cut Theorem

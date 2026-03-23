@@ -16,7 +16,7 @@ tags:
 - community-composition
 - species-sorting
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Community Assembly Rules and Metacommunity Dynamics

@@ -11,6 +11,7 @@ prerequisites:
 builds-toward:
 - error-handling-exceptions
 - algorithm-design-basics
+- testing-and-validation-basics
 tags:
 - debugging
 - errors
@@ -20,7 +21,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Debugging Basics
 
 ## Core Idea

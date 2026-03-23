@@ -16,7 +16,7 @@ tags:
 - sinusoids
 - periodicity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Harmonic Waves and Sinusoidal Form

@@ -13,7 +13,7 @@ tags:
 - theory
 - organization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Resource Mobilization and Collective Action Theory

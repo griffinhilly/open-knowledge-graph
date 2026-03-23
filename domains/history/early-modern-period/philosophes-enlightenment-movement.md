@@ -15,7 +15,7 @@ tags:
 - france
 - intellectuals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Philosophes and the French Enlightenment

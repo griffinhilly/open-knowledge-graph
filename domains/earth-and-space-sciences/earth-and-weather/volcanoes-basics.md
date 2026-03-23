@@ -17,7 +17,7 @@ tags:
 - eruption
 - landforms
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Volcanoes Basics

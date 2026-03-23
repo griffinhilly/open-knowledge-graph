@@ -13,7 +13,7 @@ tags:
 - polarizer
 - analyzer
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Polarization: Production and Analysis

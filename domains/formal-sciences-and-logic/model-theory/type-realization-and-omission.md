@@ -15,7 +15,7 @@ tags:
 - realizes type
 - completeness
 stage: expert
-status: draft
+status: validated
 ---
 
 # Type Realization and Omission

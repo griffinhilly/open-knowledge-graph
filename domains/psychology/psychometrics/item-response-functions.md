@@ -18,7 +18,7 @@ tags:
 - item-curves
 - ability-estimation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Item Response Functions and Item Characteristic Curves

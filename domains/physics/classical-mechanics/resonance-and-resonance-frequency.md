@@ -14,7 +14,7 @@ tags:
 - frequency
 - amplification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Resonance and Resonance Frequency

@@ -12,7 +12,7 @@ tags:
 - reflexivity
 - standpoint
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bias, Positionality, and Reflexivity: Researcher Influence

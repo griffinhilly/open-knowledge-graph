@@ -18,7 +18,7 @@ tags:
 - life-history
 - reproductive-value
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Population Age Structure and Life History

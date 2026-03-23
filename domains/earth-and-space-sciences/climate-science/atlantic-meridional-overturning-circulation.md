@@ -17,7 +17,7 @@ tags:
 - heat-transport
 - deep-water
 stage: expert
-status: draft
+status: validated
 ---
 
 # Atlantic Meridional Overturning Circulation (AMOC)

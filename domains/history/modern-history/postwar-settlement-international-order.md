@@ -18,7 +18,7 @@ tags:
 - international-order
 - peace-settlement
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Postwar Settlement and the New International Order (1918-1920)

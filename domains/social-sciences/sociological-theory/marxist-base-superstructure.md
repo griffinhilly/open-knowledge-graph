@@ -19,7 +19,7 @@ tags:
 - culture
 - ideology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Marx's Base and Superstructure Model

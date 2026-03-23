@@ -16,7 +16,7 @@ tags:
 - composition
 - relationship
 stage: expert
-status: draft
+status: validated
 ---
 
 # Seismic Velocity-Density-Composition Relationships

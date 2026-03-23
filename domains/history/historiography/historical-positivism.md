@@ -16,7 +16,7 @@ tags:
 - objectivity
 - 19th-century
 stage: expert
-status: draft
+status: validated
 ---
 
 # Historical Positivism

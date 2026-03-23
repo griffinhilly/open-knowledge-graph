@@ -14,7 +14,7 @@ tags:
 - pretext-task
 - contrastive
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Self-Supervised Learning

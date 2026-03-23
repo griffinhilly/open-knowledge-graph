@@ -15,7 +15,7 @@ tags:
 - privilege-levels
 - access-control
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memory Protection and Access Control Hardware

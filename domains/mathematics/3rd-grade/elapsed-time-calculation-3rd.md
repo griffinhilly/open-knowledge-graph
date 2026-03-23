@@ -13,7 +13,7 @@ tags:
 - duration
 - time-intervals
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Finding Elapsed Time

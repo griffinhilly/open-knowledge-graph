@@ -13,7 +13,7 @@ tags:
 - institutional-design
 - separation-of-powers
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Separation of Powers

@@ -11,7 +11,7 @@ tags:
 - fine motor
 - number formation
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Writing Numerals 0–10

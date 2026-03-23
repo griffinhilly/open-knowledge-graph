@@ -15,7 +15,7 @@ tags:
 - chant
 - liturgy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Liturgical Chant and Medieval Foundations

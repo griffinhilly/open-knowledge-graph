@@ -23,7 +23,7 @@ tags:
 - operations
 - analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Neo-Riemannian Operations and Theory

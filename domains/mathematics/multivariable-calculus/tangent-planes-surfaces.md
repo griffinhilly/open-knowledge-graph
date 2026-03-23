@@ -15,7 +15,7 @@ tags:
 - surfaces
 - normal-vector
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tangent Planes to Surfaces

@@ -18,7 +18,7 @@ tags:
 - availability
 - durability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Replication Strategies and Trade-offs

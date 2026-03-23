@@ -14,7 +14,7 @@ tags:
 - agriculture
 - irrigation
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Mesopotamian Irrigation and Water Management
 

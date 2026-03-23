@@ -18,7 +18,7 @@ tags:
 - timing
 - heat
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Pan Preheating and Readiness

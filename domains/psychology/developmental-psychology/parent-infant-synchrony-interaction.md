@@ -19,7 +19,7 @@ tags:
 - bonding
 - dyadic-reciprocity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Parent-Infant Synchrony and Responsive Caregiving

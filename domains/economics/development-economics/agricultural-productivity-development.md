@@ -15,7 +15,7 @@ tags:
 - agriculture
 - productivity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Agricultural Productivity and Development

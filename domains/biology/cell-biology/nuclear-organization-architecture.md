@@ -15,7 +15,7 @@ tags:
 - nuclear-structure
 - chromosome-topology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nuclear Organization and Three-Dimensional Chromosome Architecture

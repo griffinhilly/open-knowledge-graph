@@ -16,7 +16,7 @@ tags:
 - dimension
 - coordinates
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Basis and Dimension

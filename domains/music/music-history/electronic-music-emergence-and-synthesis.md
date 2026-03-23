@@ -15,7 +15,7 @@ tags:
 - technology
 - innovation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electronic Music Emergence and Synthesis

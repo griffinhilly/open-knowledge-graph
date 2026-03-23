@@ -19,7 +19,7 @@ tags:
 - structure
 - rhythm
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Rhythm and Pacing

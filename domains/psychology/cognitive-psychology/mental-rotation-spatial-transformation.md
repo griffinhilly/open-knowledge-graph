@@ -12,7 +12,7 @@ tags:
 - rotation
 - transformation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mental Rotation and Spatial Transformation

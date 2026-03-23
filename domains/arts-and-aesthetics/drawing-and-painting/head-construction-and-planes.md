@@ -17,7 +17,7 @@ tags:
 - construction
 - planes
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Head Construction and Planes

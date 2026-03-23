@@ -14,7 +14,7 @@ tags:
 - word-recognition
 - literacy-foundations
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Sight Words

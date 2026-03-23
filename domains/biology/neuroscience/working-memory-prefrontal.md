@@ -16,7 +16,7 @@ tags:
 - prefrontal-cortex
 - maintenance
 stage: expert
-status: draft
+status: validated
 ---
 
 # Working Memory and Prefrontal Cortex

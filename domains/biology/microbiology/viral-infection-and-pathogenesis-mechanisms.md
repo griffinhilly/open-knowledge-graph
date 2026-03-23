@@ -15,7 +15,7 @@ tags:
 - infection
 - host-cell
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Viral Infection and Pathogenesis Mechanisms

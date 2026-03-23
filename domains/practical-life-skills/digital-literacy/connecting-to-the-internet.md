@@ -15,7 +15,7 @@ tags:
 - networking
 - fundamentals
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Connecting to the Internet

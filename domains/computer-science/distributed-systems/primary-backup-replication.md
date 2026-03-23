@@ -15,7 +15,7 @@ tags:
 - primary-backup
 - active-passive
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Primary-Backup Replication

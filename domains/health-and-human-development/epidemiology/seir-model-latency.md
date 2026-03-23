@@ -12,7 +12,7 @@ tags:
 - compartmental-models
 - incubation-period
 stage: expert
-status: draft
+status: validated
 ---
 
 # SEIR Models Incorporating Latent Periods

@@ -16,7 +16,7 @@ tags:
 - oxidative phase
 - reductive phase
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Pentose Phosphate Pathway

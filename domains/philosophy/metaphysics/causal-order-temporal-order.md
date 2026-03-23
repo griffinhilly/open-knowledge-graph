@@ -19,7 +19,7 @@ tags:
 - temporal
 - metaphysics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Causal Order and Temporal Order

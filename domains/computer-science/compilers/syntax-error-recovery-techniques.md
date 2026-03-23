@@ -15,7 +15,7 @@ tags:
 - error-handling
 - robustness
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Syntax Error Recovery Techniques

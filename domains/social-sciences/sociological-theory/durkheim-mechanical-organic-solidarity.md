@@ -15,7 +15,7 @@ tags:
 - tradition
 - modernity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mechanical and Organic Solidarity

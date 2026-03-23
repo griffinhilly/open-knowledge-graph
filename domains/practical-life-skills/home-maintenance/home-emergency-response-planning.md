@@ -15,7 +15,7 @@ tags:
 - response
 - safety procedures
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Home Emergency Response and Shutoff Procedures

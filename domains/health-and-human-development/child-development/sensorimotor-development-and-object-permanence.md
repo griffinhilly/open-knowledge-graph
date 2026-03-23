@@ -16,7 +16,7 @@ tags:
 - sensorimotor-stage
 - object-permanence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sensorimotor Development and Object Permanence

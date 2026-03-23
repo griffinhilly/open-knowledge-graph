@@ -18,7 +18,7 @@ tags:
 - primary sources
 - secondary sources
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Finding and Evaluating Sources

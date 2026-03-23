@@ -14,7 +14,7 @@ tags:
 - dispersion
 - filters
 stage: expert
-status: draft
+status: validated
 ---
 
 # Group Delay and Phase Characterization

@@ -16,7 +16,7 @@ tags:
 - hook
 - inciting-incident
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Opening Hook and Inciting Incident

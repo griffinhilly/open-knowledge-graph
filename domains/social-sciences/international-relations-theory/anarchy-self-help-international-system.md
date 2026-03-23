@@ -16,7 +16,7 @@ tags:
 - foundations
 - anarchy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Anarchy and Self-Help in International Politics

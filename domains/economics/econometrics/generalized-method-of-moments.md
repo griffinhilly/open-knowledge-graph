@@ -21,7 +21,7 @@ tags:
 - gmm
 - moment-conditions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Generalized Method of Moments (GMM)

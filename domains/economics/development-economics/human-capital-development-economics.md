@@ -18,7 +18,7 @@ tags:
 - skills
 - productivity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Human Capital and Development

@@ -11,7 +11,7 @@ tags:
 - precession
 - stability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gyroscopic Motion, Precession, and Stability

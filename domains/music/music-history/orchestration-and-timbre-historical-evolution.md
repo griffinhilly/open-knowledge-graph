@@ -15,7 +15,7 @@ tags:
 - instrumentation
 - color
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Orchestration and Timbre: Historical Evolution

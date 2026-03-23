@@ -15,7 +15,7 @@ tags:
 - fieldwork
 - positionality
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Participant Observation and Reflexivity

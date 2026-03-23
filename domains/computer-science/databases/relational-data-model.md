@@ -16,7 +16,7 @@ tags:
 - model
 - tables
 stage: formal-systems
-status: draft
+status: validated
 ---
 # The Relational Data Model
 

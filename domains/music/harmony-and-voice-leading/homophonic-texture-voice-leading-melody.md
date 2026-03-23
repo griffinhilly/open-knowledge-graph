@@ -16,7 +16,7 @@ tags:
 - texture
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Homophonic Texture and Voice-Leading with Melody

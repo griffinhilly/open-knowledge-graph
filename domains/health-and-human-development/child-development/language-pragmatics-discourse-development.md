@@ -15,7 +15,7 @@ tags:
 - discourse
 - social-language
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Language Pragmatics and Discourse Development

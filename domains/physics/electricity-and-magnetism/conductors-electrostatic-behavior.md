@@ -16,7 +16,7 @@ tags:
 - equilibrium
 - charge-distribution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conductors in Electrostatic Equilibrium

@@ -18,7 +18,7 @@ tags:
 - conservation-laws
 - torque
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conservation of Angular Momentum

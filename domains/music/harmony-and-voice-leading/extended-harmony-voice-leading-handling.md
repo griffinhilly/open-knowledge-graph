@@ -17,7 +17,7 @@ tags:
 - voice-leading
 - jazz
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Extended Harmony: Voice Leading with 9ths, 11ths, and 13ths

@@ -18,7 +18,7 @@ tags:
 - Hare
 - Singer
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Preference Utilitarianism

@@ -14,7 +14,7 @@ tags:
 - development
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Textural Layering and Developmental Strategies

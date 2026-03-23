@@ -12,7 +12,7 @@ tags:
 - windows
 - troubleshooting
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Door and Window Function Troubleshooting

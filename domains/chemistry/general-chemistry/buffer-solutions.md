@@ -19,7 +19,7 @@ tags:
 - buffer-preparation
 - buffer-range
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Buffer Solutions
 

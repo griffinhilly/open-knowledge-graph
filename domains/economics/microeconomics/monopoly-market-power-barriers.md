@@ -14,7 +14,7 @@ tags:
 - market-power
 - barriers-to-entry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Monopoly Market Power and Barriers to Entry

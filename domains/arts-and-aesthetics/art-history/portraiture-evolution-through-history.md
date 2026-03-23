@@ -17,7 +17,7 @@ tags:
 - likeness
 - identity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Evolution of Portraiture

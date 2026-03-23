@@ -17,7 +17,7 @@ tags:
 - omega
 - successor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Limit Ordinals and Omega

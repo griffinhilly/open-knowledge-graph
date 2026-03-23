@@ -15,7 +15,7 @@ tags:
 - tidal-evolution
 - orbital-mechanics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Earth-Moon System Dynamics and Evolution

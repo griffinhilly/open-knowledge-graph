@@ -15,7 +15,7 @@ tags:
 - realizability
 - constraints
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # System Causality and Realizability Constraints
 

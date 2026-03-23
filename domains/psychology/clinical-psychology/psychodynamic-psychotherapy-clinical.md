@@ -11,7 +11,7 @@ tags:
 - psychotherapy
 - unconscious
 stage: expert
-status: draft
+status: validated
 ---
 
 # Psychodynamic Psychotherapy: Theory and Application

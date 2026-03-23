@@ -18,7 +18,7 @@ tags:
 - turnover
 - mass-extinction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Extinction Rates and Phylogenetic Patterns

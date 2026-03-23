@@ -5,7 +5,7 @@ domain: biology
 course: life-science
 prerequisites:
 - id: natural-selection-basics
-  type: hard
+  type: soft
 - id: adaptations-for-survival
   type: soft
 - id: what-is-a-life-cycle
@@ -20,7 +20,7 @@ tags:
 - evidence
 - paleontology
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Fossils as Evidence of Change
 

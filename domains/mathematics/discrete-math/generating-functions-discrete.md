@@ -12,7 +12,7 @@ tags:
 - generating-functions
 - sequences
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Generating Functions: Introduction and Applications

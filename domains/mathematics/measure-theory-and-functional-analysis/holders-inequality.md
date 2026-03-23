@@ -12,7 +12,7 @@ tags:
 - lp-spaces
 - inequalities
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hölder's Inequality

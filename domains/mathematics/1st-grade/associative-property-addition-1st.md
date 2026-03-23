@@ -16,7 +16,7 @@ tags:
 - addition
 - grouping
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Associative Property of Addition

@@ -16,7 +16,7 @@ tags:
 - precipitation
 - warm-clouds
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Warm Rain Process and Collision-Coalescence

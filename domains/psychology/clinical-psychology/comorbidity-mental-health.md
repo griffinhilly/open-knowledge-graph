@@ -16,7 +16,7 @@ tags:
 - integration
 - treatment-planning
 stage: expert
-status: draft
+status: validated
 ---
 
 # Comorbidity and Integrated Treatment

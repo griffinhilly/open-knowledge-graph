@@ -19,7 +19,7 @@ tags:
 - rollers
 - fixed
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Support Reactions and Classifications

@@ -13,7 +13,7 @@ tags:
 - frustration
 - glassy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Spin Glasses and Quenched Disorder

@@ -18,7 +18,7 @@ tags:
 - semantics
 - reduction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Naturalism About Semantic Facts

@@ -16,7 +16,7 @@ tags:
 - clock
 - timing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Synchronous Logic Design and Clock Distribution

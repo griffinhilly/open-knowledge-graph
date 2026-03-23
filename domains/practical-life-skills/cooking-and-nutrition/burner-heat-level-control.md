@@ -15,7 +15,7 @@ tags:
 - technique
 - temperature-control
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Controlling Burner Heat Levels

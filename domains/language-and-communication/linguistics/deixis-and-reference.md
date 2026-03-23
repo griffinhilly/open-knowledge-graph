@@ -14,7 +14,7 @@ tags:
 - indexicality
 - demonstratives
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Deixis and Reference

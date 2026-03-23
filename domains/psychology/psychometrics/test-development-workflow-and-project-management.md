@@ -15,7 +15,7 @@ tags:
 - project-management
 - documentation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Test Development Workflow and Project Management

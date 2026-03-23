@@ -14,7 +14,7 @@ tags:
 - conflict
 - war
 stage: expert
-status: draft
+status: validated
 ---
 
 # Escalation Dynamics and Crisis Management

@@ -16,7 +16,7 @@ tags:
 - radiation-zone
 - multipole-expansion
 stage: expert
-status: draft
+status: validated
 ---
 
 # Far-Field Limit and Radiation Zone

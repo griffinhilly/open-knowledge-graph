@@ -13,7 +13,7 @@ tags:
 - hardware
 - io
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Device Drivers and I/O Controllers

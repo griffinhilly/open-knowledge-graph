@@ -17,7 +17,7 @@ tags:
 - expert testimony
 - anecdote
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Evidence Types in Writing

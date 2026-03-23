@@ -15,7 +15,7 @@ tags:
 - protective-factors
 - mental-health
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Protective Factors and Resilience in Childhood

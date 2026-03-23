@@ -16,7 +16,7 @@ tags:
 - agency
 - moral-luck
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moral Responsibility and Control

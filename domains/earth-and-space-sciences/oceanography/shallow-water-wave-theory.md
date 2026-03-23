@@ -14,7 +14,7 @@ tags:
 - wave-speed
 - tsunami
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Shallow-Water Wave Theory and Tidal Waves

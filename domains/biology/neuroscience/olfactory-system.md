@@ -12,7 +12,7 @@ tags:
 - sensory-systems
 - olfaction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Olfactory System: Chemoreception and Odor Coding

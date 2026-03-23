@@ -22,7 +22,7 @@ tags:
 - personal-finance
 - spending
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Expense Tracking and Categorization

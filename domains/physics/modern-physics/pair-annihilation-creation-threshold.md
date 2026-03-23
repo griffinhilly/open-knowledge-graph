@@ -13,7 +13,7 @@ tags:
 - particle-physics
 - energy-momentum
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Pair Production and Annihilation Thresholds

@@ -4,7 +4,7 @@ title: Singly Linked Lists
 domain: computer-science
 course: data-structures-and-algorithms
 prerequisites:
-- id: arrays-and-indexed-collections
+- id: arrays-and-lists
   type: hard
 - id: algorithm-design-basics
   type: soft
@@ -20,9 +20,8 @@ tags:
 - insertion
 - deletion
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Singly Linked Lists
 
 ## Core Idea

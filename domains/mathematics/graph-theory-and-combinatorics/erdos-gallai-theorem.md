@@ -11,7 +11,7 @@ tags:
 - degree-sequences
 - extremal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Erdős-Gallai Theorem

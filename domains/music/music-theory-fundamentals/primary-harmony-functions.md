@@ -16,7 +16,7 @@ tags:
 - subdominant
 - dominant
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Primary Harmonic Functions: Tonic, Subdominant, Dominant

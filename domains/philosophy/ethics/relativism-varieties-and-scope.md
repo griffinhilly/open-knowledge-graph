@@ -16,7 +16,7 @@ tags:
 - cultural
 - truth-relativity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Relativism: Varieties and Scope

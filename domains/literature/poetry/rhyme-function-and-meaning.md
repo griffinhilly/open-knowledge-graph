@@ -19,7 +19,7 @@ tags:
 - meaning-making
 - closure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rhyme Function and Meaning-Making

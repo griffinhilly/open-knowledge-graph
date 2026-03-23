@@ -17,7 +17,7 @@ tags:
 - genomic-variation
 - disease-association
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Copy Number Variation and Structural Variants

@@ -17,7 +17,7 @@ tags:
 - tonicization
 - secondary
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Applied Chords and Tonicization Process

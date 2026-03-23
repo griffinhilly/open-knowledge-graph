@@ -15,7 +15,7 @@ tags:
 - row-space
 - image
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Column Space and Row Space

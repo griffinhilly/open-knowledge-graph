@@ -18,7 +18,7 @@ tags:
 - predictive-modeling
 - extinction-risk
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Population Viability Analysis and Predictive Modeling

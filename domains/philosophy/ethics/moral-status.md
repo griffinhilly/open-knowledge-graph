@@ -16,7 +16,7 @@ tags:
 - sentience
 - marginal-cases
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moral Status

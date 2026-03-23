@@ -15,7 +15,7 @@ tags:
 - kinetic-theory
 - heat-capacity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Degrees of Freedom and Heat Capacity

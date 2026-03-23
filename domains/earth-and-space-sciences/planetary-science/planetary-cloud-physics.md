@@ -16,7 +16,7 @@ tags:
 - atmospheric-composition
 - radiative-transfer
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cloud Physics in Planetary Atmospheres

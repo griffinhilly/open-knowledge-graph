@@ -16,7 +16,7 @@ tags:
 - manorialism
 - village
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Manorial System and Village Agriculture

@@ -14,7 +14,7 @@ tags:
 - subsequence
 - string-comparison
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Longest Common Subsequence (LCS) Problem

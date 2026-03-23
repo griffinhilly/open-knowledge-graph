@@ -12,7 +12,7 @@ tags:
 - assessment
 - observation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mental Status Examination and Documentation

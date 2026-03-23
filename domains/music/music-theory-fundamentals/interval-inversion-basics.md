@@ -12,7 +12,7 @@ tags:
 - intervals
 - transformation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interval Inversion

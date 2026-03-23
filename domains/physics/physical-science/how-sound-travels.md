@@ -13,7 +13,7 @@ tags:
 - medium
 - travel
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # How Sound Travels
 

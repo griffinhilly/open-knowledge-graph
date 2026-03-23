@@ -14,7 +14,7 @@ tags:
 - development
 - body-plan
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hox Genes and Body Plan Evolution

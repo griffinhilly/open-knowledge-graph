@@ -20,7 +20,7 @@ tags:
 - narrative
 - reality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Historical Truth and Representation

@@ -15,7 +15,7 @@ tags:
 - existence
 - fundamentals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ontology and Being

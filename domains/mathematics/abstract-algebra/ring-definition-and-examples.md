@@ -17,7 +17,7 @@ tags:
 - definitions
 - examples
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Ring Definition and Examples

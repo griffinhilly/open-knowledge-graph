@@ -13,7 +13,7 @@ tags:
 - commands
 - imperative
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Imperative Sentences and Commands

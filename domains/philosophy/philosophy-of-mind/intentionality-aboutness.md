@@ -18,7 +18,7 @@ tags:
 - mental-content
 - intentional-inexistence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Intentionality and Aboutness

@@ -18,7 +18,7 @@ tags:
 - post-tonal
 - analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Harmonic Function in Post-Tonal and Atonal Music

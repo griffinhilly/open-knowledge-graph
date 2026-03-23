@@ -18,7 +18,7 @@ tags:
 - well-ordering
 - zorn
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Axiom of Choice and Its Equivalences

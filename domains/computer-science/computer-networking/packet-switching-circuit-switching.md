@@ -14,7 +14,7 @@ tags:
 - circuit-switching
 - network-design
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Packet Switching vs. Circuit Switching

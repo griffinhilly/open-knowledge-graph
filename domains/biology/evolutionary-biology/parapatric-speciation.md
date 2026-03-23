@@ -13,7 +13,7 @@ tags:
 - gene-flow
 - microallopatry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Parapatric Speciation

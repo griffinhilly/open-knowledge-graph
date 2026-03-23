@@ -17,7 +17,7 @@ tags:
 - context-dependence
 - controlled-processing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stereotype Application and Contextual Constraints

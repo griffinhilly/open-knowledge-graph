@@ -17,7 +17,7 @@ tags:
 - local
 - geography
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Regionalism: Place as Shaping Force

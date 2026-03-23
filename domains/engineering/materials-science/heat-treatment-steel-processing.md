@@ -15,7 +15,7 @@ tags:
 - tempering
 - martensitic-transformation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heat Treatment and Steel Microstructure Control

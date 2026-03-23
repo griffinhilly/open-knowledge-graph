@@ -19,7 +19,7 @@ tags:
 - feedback
 - temporary-cooling
 stage: expert
-status: draft
+status: validated
 ---
 
 # Volcanic Aerosol Climate Forcing

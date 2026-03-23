@@ -14,7 +14,7 @@ tags:
 - reef
 - zooxanthellae
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Coral Symbiosis and Reef Ecosystem Function

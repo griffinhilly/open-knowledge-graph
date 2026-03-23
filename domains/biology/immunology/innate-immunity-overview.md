@@ -18,7 +18,7 @@ tags:
 - first-line-defense
 - cellular
 stage: expert
-status: draft
+status: validated
 ---
 
 # Innate Immune System Components

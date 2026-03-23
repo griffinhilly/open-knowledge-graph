@@ -17,7 +17,7 @@ tags:
 - dissonance
 - resolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Suspensions: Preparation and Resolution

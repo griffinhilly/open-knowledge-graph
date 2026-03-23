@@ -15,7 +15,7 @@ tags:
 - price effects
 - decomposition
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Slutsky Equation and Price Effect Decomposition
 

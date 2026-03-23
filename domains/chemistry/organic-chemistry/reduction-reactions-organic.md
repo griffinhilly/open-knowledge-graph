@@ -16,7 +16,7 @@ tags:
 - selectivity
 - hydride
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Reduction Reactions in Organic Chemistry
 

@@ -15,7 +15,7 @@ tags:
 - microprogrammed
 - microcode
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hardwired vs. Microprogrammed Control

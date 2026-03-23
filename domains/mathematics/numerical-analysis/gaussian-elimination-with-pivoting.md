@@ -16,7 +16,7 @@ tags:
 - pivoting
 - linear-systems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gaussian Elimination with Pivoting

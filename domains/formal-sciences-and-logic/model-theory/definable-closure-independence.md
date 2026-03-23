@@ -16,7 +16,7 @@ tags:
 - independence
 - dimension
 stage: expert
-status: draft
+status: validated
 ---
 
 # Definable Closure and Algebraic Independence

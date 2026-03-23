@@ -26,7 +26,7 @@ tags:
 - performance
 - meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Subtext and Unspoken Meaning in Drama

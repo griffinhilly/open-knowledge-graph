@@ -15,7 +15,7 @@ tags:
 - ear-training
 - singing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Hearing and Singing Natural Minor Scales

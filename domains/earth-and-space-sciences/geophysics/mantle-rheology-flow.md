@@ -16,7 +16,7 @@ tags:
 - viscosity
 - flow
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mantle Rheology and Viscosity

@@ -17,7 +17,7 @@ tags:
 - well-founded
 - no-cycles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Axiom of Foundation and Regularity

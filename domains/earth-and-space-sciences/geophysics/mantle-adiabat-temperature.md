@@ -15,7 +15,7 @@ tags:
 - mantle
 - adiabat
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mantle Adiabat and Temperature Estimates

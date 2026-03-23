@@ -18,7 +18,7 @@ tags:
 - cooking-time
 - temperature
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cooking Doneness and Temperature Indicators

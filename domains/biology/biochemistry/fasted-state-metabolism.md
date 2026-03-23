@@ -11,7 +11,7 @@ tags:
 - glucagon
 - catabolism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fasted State Metabolism

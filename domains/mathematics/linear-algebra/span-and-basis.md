@@ -14,7 +14,7 @@ tags:
 - linear-independence
 - basis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Span, Linear Independence, and Basis

@@ -15,7 +15,7 @@ tags:
 - relational
 - intrinsic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Relational and Intrinsic Properties

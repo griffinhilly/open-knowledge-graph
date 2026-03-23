@@ -13,7 +13,7 @@ builds-toward:
   - prosocial-and-aggressive-behavior-development
 tags: [mental-health, bullying, safety, relationships, wellness]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Bullying Awareness

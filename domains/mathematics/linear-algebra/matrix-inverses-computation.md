@@ -16,7 +16,7 @@ tags:
 - invertibility
 - square-matrices
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Matrix Inverses and Invertibility

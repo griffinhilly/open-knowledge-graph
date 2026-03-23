@@ -16,7 +16,7 @@ tags:
 - nondeterminism
 - complexity-classes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nondeterministic Polynomial Time and NP

@@ -15,7 +15,7 @@ tags:
 - autopolyploidy
 - whole-genome-duplication
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Polyploidy and Autopolyploidy: Origins and Consequences

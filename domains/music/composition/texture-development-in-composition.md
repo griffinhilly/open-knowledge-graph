@@ -16,7 +16,7 @@ tags:
 - layering
 - form
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Texture Development in Composition

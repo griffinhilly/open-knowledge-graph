@@ -19,7 +19,7 @@ tags:
 - expression
 - character
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Portraiture: Structure, Features, and Character

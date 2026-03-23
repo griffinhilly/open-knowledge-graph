@@ -18,7 +18,7 @@ tags:
 - non-harmonic-tone
 - dissonance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Suspensions, Appoggiaturas, and Voice-Leading Function

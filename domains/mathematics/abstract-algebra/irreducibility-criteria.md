@@ -15,7 +15,7 @@ tags:
 - content
 - primitive
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Irreducibility Criteria

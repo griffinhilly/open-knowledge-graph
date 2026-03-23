@@ -19,7 +19,7 @@ tags:
 - reliability
 - validity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Psychometric Testing and Assessment Instruments

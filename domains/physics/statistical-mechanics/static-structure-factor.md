@@ -11,7 +11,7 @@ tags:
 - scattering
 - correlations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Static Structure Factor

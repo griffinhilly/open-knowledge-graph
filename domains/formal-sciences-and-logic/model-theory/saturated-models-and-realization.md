@@ -15,7 +15,7 @@ tags:
 - universal properties
 - homogeneity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Saturated Models and Maximal Realization

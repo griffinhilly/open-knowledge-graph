@@ -16,7 +16,7 @@ tags:
 - meaning
 - identity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Place as Socially Constructed

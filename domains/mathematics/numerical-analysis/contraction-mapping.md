@@ -13,7 +13,7 @@ tags:
 - banach
 - fixed-point
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Contraction Mapping Theorem

@@ -16,7 +16,7 @@ tags:
 - rotation
 - general
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # General Plane Motion of Rigid Bodies

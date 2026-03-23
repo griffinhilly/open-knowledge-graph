@@ -16,7 +16,7 @@ tags:
 - socratic
 - methodology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dialectical Reasoning and Socratic Dialogue

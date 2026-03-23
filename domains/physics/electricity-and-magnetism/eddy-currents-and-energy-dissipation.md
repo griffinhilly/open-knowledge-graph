@@ -15,7 +15,7 @@ tags:
 - energy dissipation
 - losses
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Eddy Currents and Energy Dissipation

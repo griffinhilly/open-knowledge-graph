@@ -12,7 +12,7 @@ tags:
 - industrial-organization
 - product-design
 stage: expert
-status: draft
+status: validated
 ---
 
 # Product Differentiation and Monopolistic Competition

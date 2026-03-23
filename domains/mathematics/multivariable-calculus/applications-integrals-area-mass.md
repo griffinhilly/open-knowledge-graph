@@ -15,7 +15,7 @@ tags:
 - moments
 - centroid
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Applications of Double Integrals: Area, Mass, and Moments

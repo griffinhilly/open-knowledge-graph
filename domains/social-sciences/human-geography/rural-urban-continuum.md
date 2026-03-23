@@ -15,7 +15,7 @@ tags:
 - urbanization
 - interdependence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Rural-Urban Continuum

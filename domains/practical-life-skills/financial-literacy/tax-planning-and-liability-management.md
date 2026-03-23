@@ -19,7 +19,7 @@ tags:
 - tax-efficiency
 - withholding
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Tax Planning and Liability Management

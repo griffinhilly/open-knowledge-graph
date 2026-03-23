@@ -16,7 +16,7 @@ tags:
 - single-channel
 - whole-cell
 stage: expert
-status: draft
+status: validated
 ---
 
 # Patch Clamp Recording Technique

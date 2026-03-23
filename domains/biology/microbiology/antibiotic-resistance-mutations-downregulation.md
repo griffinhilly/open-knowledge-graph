@@ -13,7 +13,7 @@ tags:
 - mutations
 - selection
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Antibiotic Resistance: Mutations and Gene Regulation

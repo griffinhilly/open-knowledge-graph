@@ -13,7 +13,7 @@ tags:
 - concepts
 - discipline
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # History of Geographic Thought and Concepts

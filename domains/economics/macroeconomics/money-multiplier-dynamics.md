@@ -14,7 +14,7 @@ tags:
 - banking
 - leverage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Money Multiplier and Money Supply Expansion

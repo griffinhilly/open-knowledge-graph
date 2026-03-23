@@ -10,7 +10,7 @@ tags:
 - time
 - duration
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Elapsed Time

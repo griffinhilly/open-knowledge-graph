@@ -13,7 +13,7 @@ tags:
 - permutations
 - representations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cycle Notation and Decomposition

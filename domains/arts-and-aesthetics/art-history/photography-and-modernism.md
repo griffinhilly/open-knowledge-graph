@@ -18,7 +18,7 @@ tags:
 - medium
 - technology
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Photography and the Crisis of Representation in Modern Art

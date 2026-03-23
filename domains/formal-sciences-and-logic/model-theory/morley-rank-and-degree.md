@@ -16,7 +16,7 @@ tags:
 - strongly-minimal
 - dimension
 stage: expert
-status: draft
+status: validated
 ---
 
 # Morley Rank and Degree: Dimension in Strongly Minimal Sets

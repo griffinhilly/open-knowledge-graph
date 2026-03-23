@@ -20,7 +20,7 @@ tags:
 - calibration
 - cosmology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Cosmic Distance Ladder: Calibrating the Extragalactic Scale

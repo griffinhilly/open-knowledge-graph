@@ -16,7 +16,7 @@ tags:
 - RP
 - ZPP
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Randomized Algorithms and Probabilistic Complexity Classes

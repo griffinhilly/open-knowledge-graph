@@ -17,7 +17,7 @@ tags:
 - hand-written
 - parser
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Recursive Descent Parser Design

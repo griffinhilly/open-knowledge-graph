@@ -16,7 +16,7 @@ tags:
 - representation
 - tally-marks
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Creating Tally Charts

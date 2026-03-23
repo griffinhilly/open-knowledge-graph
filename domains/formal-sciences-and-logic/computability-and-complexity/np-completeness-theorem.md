@@ -17,7 +17,7 @@ tags:
 - sat
 - completeness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # NP-Completeness and the Cook-Levin Theorem

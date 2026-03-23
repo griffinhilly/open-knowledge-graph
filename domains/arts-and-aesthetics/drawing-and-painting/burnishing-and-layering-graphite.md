@@ -16,7 +16,7 @@ tags:
 - blending
 - technique
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Burnishing and Layering Graphite

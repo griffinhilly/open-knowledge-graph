@@ -16,7 +16,7 @@ tags:
 - replacement-cost
 - actual-cash-value
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Homeowners and Renters Insurance

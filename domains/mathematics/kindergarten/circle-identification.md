@@ -12,7 +12,7 @@ tags:
 - circle
 - visual perception
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Identifying Circles

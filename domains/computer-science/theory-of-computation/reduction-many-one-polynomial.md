@@ -13,7 +13,7 @@ tags:
 - hardness
 - complexity-classes
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Polynomial Many-One Reductions

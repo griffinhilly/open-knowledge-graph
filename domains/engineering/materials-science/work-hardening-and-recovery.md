@@ -17,7 +17,7 @@ tags:
 - recrystallization
 - stored-energy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Work Hardening and Recovery

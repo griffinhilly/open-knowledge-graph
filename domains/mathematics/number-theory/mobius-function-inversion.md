@@ -11,7 +11,7 @@ tags:
 - inversion
 - combinatorics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Möbius Function and Möbius Inversion

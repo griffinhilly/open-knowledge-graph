@@ -17,7 +17,7 @@ tags:
 - climate
 - international-law
 stage: expert
-status: draft
+status: validated
 ---
 
 # Transnational Environmental Governance

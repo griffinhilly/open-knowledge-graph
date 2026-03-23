@@ -11,7 +11,7 @@ tags:
 - conservation
 - continuity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conservation of Electric Charge

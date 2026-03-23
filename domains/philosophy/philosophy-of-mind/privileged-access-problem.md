@@ -19,7 +19,7 @@ tags:
 - authority
 - access
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Privileged Access and Epistemic Authority

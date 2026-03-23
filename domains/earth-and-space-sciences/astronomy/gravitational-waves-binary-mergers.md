@@ -21,7 +21,7 @@ tags:
 - compact-objects
 - multi-messenger-astronomy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gravitational Waves from Compact Object Mergers

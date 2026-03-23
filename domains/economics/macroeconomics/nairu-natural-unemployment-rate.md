@@ -18,7 +18,7 @@ tags:
 - inflation
 - equilibrium
 stage: advanced
-status: draft
+status: validated
 ---
 
 # NAIRU: Non-Accelerating Inflation Rate of Unemployment

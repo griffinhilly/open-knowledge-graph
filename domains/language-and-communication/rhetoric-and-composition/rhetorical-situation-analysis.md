@@ -18,7 +18,7 @@ tags:
 - exigence
 - Bitzer
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Rhetorical Situation Analysis

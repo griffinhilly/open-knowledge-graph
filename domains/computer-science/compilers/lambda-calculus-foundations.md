@@ -19,7 +19,7 @@ tags:
 - functional-programming
 - computation-model
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Lambda Calculus Foundations

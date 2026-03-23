@@ -16,7 +16,7 @@ tags:
 - post-war
 - institutions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # League of Nations and International Collective Security

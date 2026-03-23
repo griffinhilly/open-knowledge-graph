@@ -16,7 +16,7 @@ tags:
 - reactance
 - admittance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phasor Notation and Complex Impedance

@@ -17,7 +17,7 @@ tags:
 - object-knowledge
 - infancy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Object Permanence and Sensorimotor Development

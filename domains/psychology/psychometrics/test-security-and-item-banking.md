@@ -15,7 +15,7 @@ tags:
 - form-assembly
 - item-metadata
 stage: expert
-status: draft
+status: validated
 ---
 
 # Test Security and Item Banking Systems

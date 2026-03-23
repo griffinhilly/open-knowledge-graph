@@ -21,7 +21,7 @@ tags:
 - poles
 - closed-loop
 stage: expert
-status: draft
+status: validated
 ---
 
 # Characteristic Equation and Closed-Loop Stability

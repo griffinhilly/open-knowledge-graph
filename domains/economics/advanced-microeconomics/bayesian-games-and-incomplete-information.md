@@ -15,7 +15,7 @@ tags:
 - game-theory
 - information-asymmetry
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bayesian Games and Incomplete Information

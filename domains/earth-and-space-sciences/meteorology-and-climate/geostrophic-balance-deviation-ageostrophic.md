@@ -16,7 +16,7 @@ tags:
 - wind
 - pressure-gradient
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Geostrophic Balance and Ageostrophic Flow

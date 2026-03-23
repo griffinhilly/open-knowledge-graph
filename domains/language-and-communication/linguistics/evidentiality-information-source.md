@@ -16,7 +16,7 @@ tags:
 - semantic-marking
 - information-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Evidentiality (Information Source Marking)

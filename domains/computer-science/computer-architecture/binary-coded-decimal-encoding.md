@@ -10,7 +10,7 @@ tags:
 - number-systems
 - encoding
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binary Coded Decimal (BCD)

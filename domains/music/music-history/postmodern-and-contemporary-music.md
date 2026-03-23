@@ -12,7 +12,7 @@ tags:
 - pluralism
 - digital
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Postmodernism and Contemporary Music: Pluralism and Digital Futures

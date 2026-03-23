@@ -18,7 +18,7 @@ tags:
 - foundations
 - evolutionary-theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Evolutionary Genetics Foundations

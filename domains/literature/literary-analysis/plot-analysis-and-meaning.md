@@ -16,7 +16,7 @@ tags:
 - narrative
 - meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Plot Structure and Narrative Meaning
 

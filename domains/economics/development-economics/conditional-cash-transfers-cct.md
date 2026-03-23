@@ -12,7 +12,7 @@ tags:
 - CCT
 - social-policy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Conditional Cash Transfers and Social Policy

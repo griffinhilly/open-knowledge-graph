@@ -16,7 +16,7 @@ tags:
 - continuous-functions
 - preimages
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Continuity in Topological Spaces

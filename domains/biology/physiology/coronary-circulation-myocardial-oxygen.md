@@ -16,7 +16,7 @@ tags:
 - oxygen
 - metabolism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Coronary Circulation and Myocardial Oxygen Supply-Demand Balance

@@ -14,7 +14,7 @@ tags:
 - electronic-structure
 - dispersion
 stage: expert
-status: draft
+status: validated
 ---
 
 # Fermi Energy and Fermi Surface

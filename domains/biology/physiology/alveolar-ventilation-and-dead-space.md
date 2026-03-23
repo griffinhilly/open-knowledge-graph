@@ -16,7 +16,7 @@ tags:
 - dead space
 - gas exchange
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Alveolar Ventilation and Anatomical and Physiological Dead Space

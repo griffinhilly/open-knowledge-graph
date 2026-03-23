@@ -16,7 +16,7 @@ tags:
 - ursatz
 - form
 stage: expert
-status: draft
+status: validated
 ---
 
 # Schenkerian Interruption Structure

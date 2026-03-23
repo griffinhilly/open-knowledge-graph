@@ -25,7 +25,7 @@ tags:
 - pressure
 - temperature
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Magma Generation: Melting Conditions and Mechanisms

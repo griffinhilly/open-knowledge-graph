@@ -14,7 +14,7 @@ tags:
 - inductive-inference
 - justification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inductive Justification and Generalization

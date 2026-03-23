@@ -15,7 +15,7 @@ tags:
 - domination
 - theory
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Power, Resistance, and Human Agency

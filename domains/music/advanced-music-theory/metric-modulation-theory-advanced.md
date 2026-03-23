@@ -22,7 +22,7 @@ tags:
 - modulation
 - contemporary-technique
 stage: expert
-status: draft
+status: validated
 ---
 
 # Advanced Metric Modulation Theory

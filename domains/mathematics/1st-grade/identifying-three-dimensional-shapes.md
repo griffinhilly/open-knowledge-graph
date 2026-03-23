@@ -13,7 +13,7 @@ tags:
 - 3d-shapes
 - identifying
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Identifying Three-Dimensional Shapes

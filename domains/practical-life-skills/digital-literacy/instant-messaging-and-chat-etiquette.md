@@ -14,7 +14,7 @@ tags:
 - etiquette
 - safety
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Instant Messaging and Chat Etiquette

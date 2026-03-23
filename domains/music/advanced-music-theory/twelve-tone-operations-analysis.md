@@ -21,7 +21,7 @@ tags:
 - row-forms
 - analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Twelve-Tone Operations and Row Forms

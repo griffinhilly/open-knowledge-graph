@@ -12,7 +12,7 @@ tags:
 - fuzzy-set
 - causal-configurations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Qualitative Comparative Analysis (QCA)

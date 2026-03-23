@@ -17,7 +17,7 @@ tags:
 - recursive
 - back-edges
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Depth-First Search and Cycle Detection

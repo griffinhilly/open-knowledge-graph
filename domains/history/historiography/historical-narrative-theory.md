@@ -14,7 +14,7 @@ tags:
 - form
 - meaning
 stage: expert
-status: draft
+status: validated
 ---
 
 # Historical Narrative and Emplotment

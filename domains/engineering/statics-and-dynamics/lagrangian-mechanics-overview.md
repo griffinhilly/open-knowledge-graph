@@ -17,7 +17,7 @@ tags:
 - energy-methods
 - mechanics-formalism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lagrangian Mechanics: Foundations and Applications

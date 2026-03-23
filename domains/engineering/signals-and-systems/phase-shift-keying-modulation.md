@@ -13,7 +13,7 @@ tags:
 - modulation
 - communication
 stage: expert
-status: draft
+status: validated
 ---
 
 # Phase Shift Keying Modulation

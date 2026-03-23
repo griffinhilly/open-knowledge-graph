@@ -16,7 +16,7 @@ tags:
 - paris-law
 - growth-rate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fatigue Crack Propagation and Paris Law

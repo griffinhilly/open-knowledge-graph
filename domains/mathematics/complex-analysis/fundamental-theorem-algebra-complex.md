@@ -13,7 +13,7 @@ tags:
 - roots
 - polynomials
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fundamental Theorem of Algebra (Complex-Analytic Proof)

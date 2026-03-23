@@ -17,7 +17,7 @@ tags:
 - MIN
 - MAX
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # SQL: Aggregation Functions (COUNT, SUM, AVG, MIN, MAX)

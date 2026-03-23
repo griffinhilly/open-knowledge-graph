@@ -16,7 +16,7 @@ tags:
 - global
 - oral-literature
 stage: expert
-status: draft
+status: validated
 ---
 
 # Narrative Forms Across Cultures

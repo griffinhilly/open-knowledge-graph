@@ -18,7 +18,7 @@ tags:
 - violence
 - torture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Algerian War and Violent Decolonization

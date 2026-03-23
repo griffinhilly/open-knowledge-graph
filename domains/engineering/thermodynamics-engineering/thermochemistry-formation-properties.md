@@ -15,7 +15,7 @@ tags:
 - entropy-formation
 - standard-state
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermochemistry and Standard Formation Properties

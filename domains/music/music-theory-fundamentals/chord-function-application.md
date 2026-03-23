@@ -16,7 +16,7 @@ tags:
 - function
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Function: Tonic, Subdominant, and Dominant

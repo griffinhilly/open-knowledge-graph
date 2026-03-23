@@ -16,7 +16,7 @@ tags:
 - upper-level
 - dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tropical Upper-Tropospheric Trough and Upper-Level Features

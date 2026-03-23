@@ -16,7 +16,7 @@ tags:
 - detection
 - monitoring
 stage: expert
-status: draft
+status: validated
 ---
 
 # Seismic Network Design and Station Deployment

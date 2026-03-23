@@ -19,7 +19,7 @@ tags:
 - counterfactual
 - policy-evaluation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Synthetic Control Methods

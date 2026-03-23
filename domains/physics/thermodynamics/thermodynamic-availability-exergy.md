@@ -13,7 +13,7 @@ tags:
 - useful-work
 - efficiency
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Thermodynamic Availability and Exergy

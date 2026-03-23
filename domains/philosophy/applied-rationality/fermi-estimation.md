@@ -12,7 +12,7 @@ builds-toward:
   - expected-value-decision-making
 tags: ["estimation", "quantitative-reasoning", "decomposition", "problem-solving"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

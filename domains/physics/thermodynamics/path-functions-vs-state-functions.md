@@ -16,7 +16,7 @@ tags:
 - energy
 - process-dependence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Path Functions versus State Functions

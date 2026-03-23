@@ -15,7 +15,7 @@ tags:
 - seawater
 - chemical-composition
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Salinity and Seawater Composition
 

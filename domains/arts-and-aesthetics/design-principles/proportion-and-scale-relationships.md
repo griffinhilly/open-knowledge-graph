@@ -16,7 +16,7 @@ tags:
 - size-relationships
 - hierarchy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Proportion and Scale Relationships

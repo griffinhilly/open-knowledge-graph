@@ -15,7 +15,7 @@ tags:
 - education
 - growth
 stage: expert
-status: draft
+status: validated
 ---
 
 # Human Capital Accumulation and Education

@@ -14,7 +14,7 @@ tags:
 - pulsars
 - compact-objects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Neutron Stars and Extreme Matter

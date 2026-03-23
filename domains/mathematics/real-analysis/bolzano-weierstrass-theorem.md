@@ -16,7 +16,7 @@ tags:
 - compactness
 - subsequences
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bolzano-Weierstrass Theorem

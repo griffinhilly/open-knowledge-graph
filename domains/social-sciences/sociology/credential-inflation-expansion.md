@@ -16,7 +16,7 @@ tags:
 - credentials
 - arms-race
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Credential Inflation and Educational Expansion

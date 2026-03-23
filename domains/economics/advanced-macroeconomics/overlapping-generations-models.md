@@ -18,7 +18,7 @@ tags:
 - lifecycle
 - overlapping
 stage: expert
-status: draft
+status: validated
 ---
 
 # Overlapping Generations Models

@@ -24,7 +24,7 @@ tags:
 - rhythm
 - texture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Advanced Polymeter and Polyrhythm Analysis

@@ -12,7 +12,7 @@ tags:
 - DDL
 - schema modification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # SQL: ALTER TABLE and Schema Modification

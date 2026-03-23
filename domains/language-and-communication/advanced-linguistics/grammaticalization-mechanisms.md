@@ -13,7 +13,7 @@ tags:
 - language-change
 - grammaticalization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Grammaticalization: Mechanisms and Pathways

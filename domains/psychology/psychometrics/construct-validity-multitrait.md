@@ -16,7 +16,7 @@ tags:
 - convergent-validity
 - discriminant-validity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Construct Validity and Convergent-Discriminant Evidence

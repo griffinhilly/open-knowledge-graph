@@ -17,7 +17,7 @@ tags:
 - consumers
 - ecosystem
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Food Chains

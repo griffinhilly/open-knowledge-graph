@@ -18,7 +18,7 @@ tags:
 - motion
 - self-motion
 stage: expert
-status: draft
+status: validated
 ---
 
 # Optic Flow and Navigation in Medial Superior Temporal Area

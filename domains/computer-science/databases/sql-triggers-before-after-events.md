@@ -18,7 +18,7 @@ tags:
 - before-after
 - FOR-EACH-ROW
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Database Triggers and Automated Event Handling

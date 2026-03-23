@@ -14,7 +14,7 @@ tags:
 - ω-stability
 - transcendental
 stage: expert
-status: draft
+status: validated
 ---
 
 # Morley's Theorem on Uncountable Categoricity

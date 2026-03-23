@@ -13,7 +13,7 @@ tags:
 - fictitious-forces
 - acceleration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Non-Inertial Reference Frames and Fictitious Forces

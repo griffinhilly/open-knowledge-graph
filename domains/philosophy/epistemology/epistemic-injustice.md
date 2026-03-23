@@ -16,7 +16,7 @@ tags:
 - credibility
 - identity-prejudice
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Epistemic Injustice
 

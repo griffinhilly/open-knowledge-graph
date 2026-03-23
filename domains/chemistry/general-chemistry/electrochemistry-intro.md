@@ -13,7 +13,7 @@ tags:
 - cathode
 - electron flow
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electrochemistry: Galvanic Cells and Electron Flow

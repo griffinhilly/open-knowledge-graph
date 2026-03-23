@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - duality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dual Spaces and Bounded Linear Functionals

@@ -14,7 +14,7 @@ tags:
 - ribosome
 - protein-synthesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Translation Elongation and Elongation Factors

@@ -16,7 +16,7 @@ tags:
 - manifolds
 - spaces
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Introduction to Topological Manifolds

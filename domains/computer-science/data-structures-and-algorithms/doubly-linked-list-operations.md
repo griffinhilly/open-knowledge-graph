@@ -13,7 +13,7 @@ tags:
 - pointers
 - bidirectional
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Doubly Linked Lists: Structure and Operations

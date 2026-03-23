@@ -19,7 +19,7 @@ tags:
 - phonological-awareness
 - academic-skills
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Literacy Acquisition: Reading and Writing

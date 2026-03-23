@@ -16,7 +16,7 @@ tags:
 - okun
 - business-cycle
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Okun's Law: The Unemployment-Output Relationship

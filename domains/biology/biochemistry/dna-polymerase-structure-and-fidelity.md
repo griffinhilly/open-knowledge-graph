@@ -13,7 +13,7 @@ tags:
 - fidelity
 - error-rate
 stage: advanced
-status: draft
+status: validated
 ---
 
 # DNA Polymerase: Structure and Fidelity

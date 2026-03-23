@@ -12,7 +12,7 @@ builds-toward:
   - murphyjitsu
 tags: ["debiasing", "planning", "risk", "technique"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

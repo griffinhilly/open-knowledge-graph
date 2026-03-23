@@ -13,7 +13,7 @@ tags:
 - probability
 - decision
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cognitive Biases in Judgment Under Uncertainty

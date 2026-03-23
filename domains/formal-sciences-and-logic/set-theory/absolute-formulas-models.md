@@ -17,7 +17,7 @@ tags:
 - inner-models
 - formulas
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Absolute Formulas and Model-Theoretic Absoluteness

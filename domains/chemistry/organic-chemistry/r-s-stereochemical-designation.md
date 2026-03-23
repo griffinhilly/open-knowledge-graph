@@ -14,7 +14,7 @@ tags:
 - cahn-ingold-prelog
 - absolute-configuration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # R/S Stereochemical Nomenclature

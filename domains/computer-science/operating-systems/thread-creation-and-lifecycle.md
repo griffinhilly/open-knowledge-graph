@@ -13,7 +13,7 @@ tags:
 - concurrency
 - thread-lifecycle
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thread Creation and Lifecycle

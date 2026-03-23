@@ -16,7 +16,7 @@ tags:
 - subtraction
 - addition
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Subtraction Fact Families

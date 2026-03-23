@@ -16,7 +16,7 @@ tags:
 - translation
 - protein
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ribosomes: Protein Synthesis Machines

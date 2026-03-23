@@ -16,7 +16,7 @@ tags:
 - gcd
 - linear-combinations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bézout's Identity

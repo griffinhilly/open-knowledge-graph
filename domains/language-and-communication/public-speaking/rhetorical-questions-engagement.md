@@ -14,7 +14,7 @@ tags:
 - questions
 - reflection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rhetorical Questions for Engagement and Reflection

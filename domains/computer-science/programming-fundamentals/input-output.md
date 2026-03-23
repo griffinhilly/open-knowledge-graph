@@ -1,5 +1,5 @@
 ---
-id: basic-input-output
+id: input-output
 title: Basic Input and Output
 domain: computer-science
 course: programming-fundamentals

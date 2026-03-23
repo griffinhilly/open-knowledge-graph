@@ -14,7 +14,7 @@ tags:
 - off-policy-learning
 - importance-sampling
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Monte Carlo Methods in Reinforcement Learning

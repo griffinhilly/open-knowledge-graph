@@ -15,7 +15,7 @@ tags:
 - unification
 - sovereignty
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nation-State Consolidation in the Nineteenth Century

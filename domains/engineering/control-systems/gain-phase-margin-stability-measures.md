@@ -18,7 +18,7 @@ tags:
 - stability-margins
 - robustness
 stage: expert
-status: draft
+status: validated
 ---
 
 # Gain and Phase Margins as Stability Measures

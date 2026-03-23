@@ -22,7 +22,7 @@ tags:
 - parallel-trends
 - natural-experiments
 stage: expert
-status: draft
+status: validated
 ---
 
 # Difference-in-Differences Estimation

@@ -18,7 +18,7 @@ tags:
 - branch
 - systematic-proof
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Semantic Tableaux (Propositional)

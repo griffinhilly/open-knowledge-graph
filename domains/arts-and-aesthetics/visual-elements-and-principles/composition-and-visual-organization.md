@@ -16,7 +16,7 @@ tags:
 - arrangement
 - spatial-organization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Composition and Visual Organization

@@ -18,7 +18,7 @@ tags:
 - cooling
 - crystallization
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # How Igneous Rocks Form

@@ -13,7 +13,7 @@ tags:
 - proton-pump
 - intrinsic-factor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gastric Parietal Cell Secretion and Acid Production

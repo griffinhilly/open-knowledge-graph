@@ -15,7 +15,7 @@ tags:
 - gene-duplication
 - genomics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Genome Duplications and Evolution

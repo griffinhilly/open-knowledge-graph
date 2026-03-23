@@ -16,7 +16,7 @@ tags:
 - classification
 - selection
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Typeface Classification and Selection

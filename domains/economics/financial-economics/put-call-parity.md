@@ -16,7 +16,7 @@ tags:
 - parity
 - arbitrage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Put-Call Parity

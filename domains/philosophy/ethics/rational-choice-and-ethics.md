@@ -17,7 +17,7 @@ tags:
 - preference
 - normative-ethics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rational Choice and Ethics

@@ -13,7 +13,7 @@ tags:
 - composition
 - inverses
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Function Composition and Inverse Functions

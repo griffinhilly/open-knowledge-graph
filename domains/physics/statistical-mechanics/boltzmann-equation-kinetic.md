@@ -17,7 +17,7 @@ tags:
 - transport
 - non-equilibrium
 stage: expert
-status: draft
+status: validated
 ---
 
 # Boltzmann Equation

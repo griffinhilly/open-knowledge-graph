@@ -1,10 +1,10 @@
 ---
 id: graph-adjacency-list-matrix-representations
-title: 'Graph Representations: Adjacency List vs. Adjacency Matrix'
+title: "Graph Representations: Adjacency List vs. Adjacency Matrix"
 domain: computer-science
 course: data-structures-and-algorithms
 prerequisites:
-- id: arrays-and-indexed-collections
+- id: arrays-and-lists
   type: hard
 - id: linked-lists
   type: hard
@@ -16,9 +16,8 @@ tags:
 - representation
 - adjacency
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Graph Representations: Adjacency List vs. Adjacency Matrix
 
 ## Core Idea

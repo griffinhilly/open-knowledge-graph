@@ -19,7 +19,7 @@ tags:
 - social-construction
 - social-change
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sociological Frameworks for Understanding Social Problems

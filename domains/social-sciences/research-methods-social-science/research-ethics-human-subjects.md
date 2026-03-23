@@ -15,7 +15,7 @@ tags:
 - integrity
 - vulnerable-populations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Research Ethics in Social Science

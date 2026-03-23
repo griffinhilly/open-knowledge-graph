@@ -11,7 +11,7 @@ tags:
 - möbius-inversion
 - applications
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inclusion-Exclusion: Advanced Applications

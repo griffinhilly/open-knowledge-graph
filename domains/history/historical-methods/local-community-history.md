@@ -14,7 +14,7 @@ tags:
 - methodology
 - social-history
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Local and Community History Approaches

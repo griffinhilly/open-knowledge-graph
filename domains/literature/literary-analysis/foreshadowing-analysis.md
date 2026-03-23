@@ -18,7 +18,7 @@ tags:
 - narrative
 - technique
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Foreshadowing and Flashback as Analytical Tools

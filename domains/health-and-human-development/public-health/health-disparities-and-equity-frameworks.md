@@ -16,7 +16,7 @@ tags:
 - disparities
 - social-determinants
 stage: expert
-status: draft
+status: validated
 ---
 
 # Health Disparities, Equity Frameworks, and Social Determinants

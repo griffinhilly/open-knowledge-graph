@@ -17,7 +17,7 @@ tags:
 - global-state
 - algorithm
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Distributed Snapshots and Chandy-Lamport Algorithm

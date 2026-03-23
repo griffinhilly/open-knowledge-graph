@@ -17,7 +17,7 @@ tags:
 - Davidson
 - Kim
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Event Ontology

@@ -20,7 +20,7 @@ tags:
 - hierarchy-theorem
 - p-np-pspace
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Complexity Classes and the Complexity Hierarchy

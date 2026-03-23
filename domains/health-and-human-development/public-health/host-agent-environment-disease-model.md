@@ -15,7 +15,7 @@ tags:
 - disease-causation
 - frameworks
 stage: expert
-status: draft
+status: validated
 ---
 
 # Host-Agent-Environment Disease Model

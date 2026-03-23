@@ -14,7 +14,7 @@ tags:
 - address-decoding
 - memory-circuits
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memory Address Decoding

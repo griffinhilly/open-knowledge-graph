@@ -14,7 +14,7 @@ tags:
 - genre
 - writing-craft
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conventions and Innovation in Writing

@@ -14,7 +14,7 @@ tags:
 - poststructuralism
 - trace
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Deconstruction, Trace, and Différance

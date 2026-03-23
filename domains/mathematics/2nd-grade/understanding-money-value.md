@@ -15,7 +15,7 @@ tags:
 - money
 - coins
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Understanding Money and Coin Values

@@ -17,7 +17,7 @@ tags:
 - dime
 - quarter
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Coins and Their Values

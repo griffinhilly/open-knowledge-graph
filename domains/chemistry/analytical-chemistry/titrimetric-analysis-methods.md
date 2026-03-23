@@ -17,7 +17,7 @@ tags:
 - volumetric
 - quantitative
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Titrimetric Analysis Methods Overview

@@ -15,7 +15,7 @@ tags:
 - pH electrode
 - fluoride electrode
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Ion-Selective Electrodes

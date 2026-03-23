@@ -15,7 +15,7 @@ tags:
 - convention
 - intention
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linguistic Meaning: Convention Versus Intention

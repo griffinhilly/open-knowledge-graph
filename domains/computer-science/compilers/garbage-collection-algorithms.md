@@ -15,7 +15,7 @@ tags:
 - memory-management
 - runtime-system
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Garbage Collection Algorithms

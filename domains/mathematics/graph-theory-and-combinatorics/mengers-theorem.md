@@ -13,7 +13,7 @@ tags:
 - connectivity
 - paths
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Menger's Theorem and Network Connectivity

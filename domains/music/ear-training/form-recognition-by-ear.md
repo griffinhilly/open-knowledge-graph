@@ -15,7 +15,7 @@ tags:
 - structure
 - analysis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Musical Form Recognition by Ear

@@ -15,7 +15,7 @@ tags:
 - theology
 - predestination
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Calvin's Reformed Theology and Predestination

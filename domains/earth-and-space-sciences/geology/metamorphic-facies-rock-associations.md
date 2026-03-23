@@ -13,7 +13,7 @@ tags:
 - facies
 - equilibrium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metamorphic Facies and Mineral Equilibrium Associations

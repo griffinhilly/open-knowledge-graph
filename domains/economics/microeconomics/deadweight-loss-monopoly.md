@@ -15,7 +15,7 @@ tags:
 - welfare
 - deadweight loss
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Deadweight Loss and Welfare Under Monopoly

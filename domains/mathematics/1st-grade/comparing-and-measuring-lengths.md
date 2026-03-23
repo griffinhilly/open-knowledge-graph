@@ -15,7 +15,7 @@ tags:
 - comparison
 - length
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Comparing and Measuring Lengths

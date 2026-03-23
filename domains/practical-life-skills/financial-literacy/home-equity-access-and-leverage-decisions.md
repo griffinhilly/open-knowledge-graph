@@ -15,7 +15,7 @@ tags:
 - mortgages
 - risk
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Home Equity Access and Leverage Decisions

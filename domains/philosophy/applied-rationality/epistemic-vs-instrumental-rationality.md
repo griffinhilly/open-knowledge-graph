@@ -14,7 +14,7 @@ builds-toward:
   - bayesian-thinking-in-practice
 tags: ["rationality", "epistemology", "decision-making", "foundations"]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 ## Core Idea

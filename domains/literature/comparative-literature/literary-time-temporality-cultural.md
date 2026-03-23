@@ -16,7 +16,7 @@ tags:
 - narrative
 - culture
 stage: expert
-status: draft
+status: validated
 ---
 
 # Literary Time and Temporality Across Cultures

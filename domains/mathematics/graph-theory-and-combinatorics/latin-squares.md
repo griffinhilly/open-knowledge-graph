@@ -12,7 +12,7 @@ tags:
 - combinatorics
 - designs
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Latin Squares and Orthogonal Structures
 

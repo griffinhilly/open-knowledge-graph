@@ -18,7 +18,7 @@ tags:
 - necrosis
 - programmed-cell-death
 stage: expert
-status: draft
+status: validated
 ---
 
 # Apoptosis vs. Necrosis: Molecular Mechanisms and Pathological Consequences

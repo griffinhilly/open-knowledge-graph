@@ -15,7 +15,7 @@ tags:
 - mechanisms
 - integration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Membrane Transport: All Mechanisms Integrated

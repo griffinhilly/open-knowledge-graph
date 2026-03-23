@@ -16,7 +16,7 @@ tags:
 - poverty
 - inequality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Informal Settlements and Slum Geography

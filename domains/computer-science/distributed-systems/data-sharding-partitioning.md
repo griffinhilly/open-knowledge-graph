@@ -13,7 +13,7 @@ tags:
 - partitioning
 - sharding
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Data Sharding and Partitioning Strategies

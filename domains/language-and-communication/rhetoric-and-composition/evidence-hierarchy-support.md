@@ -16,7 +16,7 @@ tags:
 - argument
 - types
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Evidence Hierarchy and Support Levels
 

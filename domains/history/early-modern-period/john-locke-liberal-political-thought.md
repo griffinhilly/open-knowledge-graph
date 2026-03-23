@@ -17,7 +17,7 @@ tags:
 - rights
 - enlightenment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # John Locke and Liberal Political Philosophy

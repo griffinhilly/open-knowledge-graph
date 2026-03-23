@@ -17,7 +17,7 @@ tags:
 - accommodation
 - prose
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Audience Accommodation and Register in Prose

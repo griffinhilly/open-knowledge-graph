@@ -14,7 +14,7 @@ tags:
 - dramatic-form
 - fundamental
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Three-Act Dramatic Structure

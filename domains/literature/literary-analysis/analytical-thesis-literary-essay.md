@@ -18,7 +18,7 @@ tags:
 - analysis
 - writing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Crafting Analytical Thesis Statements for Literary Essays

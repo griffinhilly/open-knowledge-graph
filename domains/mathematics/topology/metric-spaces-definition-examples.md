@@ -15,7 +15,7 @@ tags:
 - metric-spaces
 - distance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metric Spaces: Definition and Examples

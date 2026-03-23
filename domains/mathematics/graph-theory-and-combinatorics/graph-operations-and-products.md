@@ -13,7 +13,7 @@ tags:
 - operations
 - products
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graph Operations and Products

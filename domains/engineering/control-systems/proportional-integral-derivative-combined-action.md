@@ -15,7 +15,7 @@ tags:
 - derivative-action
 - tuning
 stage: expert
-status: draft
+status: validated
 ---
 
 # Proportional-Integral-Derivative Control: Combined Action

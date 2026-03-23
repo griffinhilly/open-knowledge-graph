@@ -19,7 +19,7 @@ tags:
 - neglect
 - awareness
 stage: expert
-status: draft
+status: validated
 ---
 
 # Spatial Attention and Posterior Parietal Cortex

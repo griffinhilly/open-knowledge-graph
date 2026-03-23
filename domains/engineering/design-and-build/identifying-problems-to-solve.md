@@ -15,7 +15,7 @@ tags:
 - design-process
 - problems
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Identifying Problems to Solve
 

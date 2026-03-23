@@ -18,7 +18,7 @@ tags:
 - stability
 - multi-planet-systems
 stage: expert
-status: draft
+status: validated
 ---
 
 # Multi-Planet System Architecture and Orbital Stability Analysis

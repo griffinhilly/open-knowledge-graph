@@ -16,7 +16,7 @@ tags:
 - TSP
 - NP-hard
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hamiltonian Paths and Cycles

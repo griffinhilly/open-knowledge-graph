@@ -16,7 +16,7 @@ tags:
 - features
 - formalism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Feature Matrices in Phonology

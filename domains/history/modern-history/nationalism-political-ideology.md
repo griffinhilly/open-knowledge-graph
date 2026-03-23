@@ -18,7 +18,7 @@ tags:
 - identity
 - political-thought
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nationalism as Political Ideology and Social Force

@@ -13,7 +13,7 @@ tags:
 - identity
 - late-modernity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Reflexivity and Late Modernity

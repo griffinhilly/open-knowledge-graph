@@ -15,7 +15,7 @@ tags:
 - nature
 - necessity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Laws of Nature: Necessity vs. Regularity

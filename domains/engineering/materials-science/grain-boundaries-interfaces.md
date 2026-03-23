@@ -13,7 +13,7 @@ tags:
 - interfaces
 - polycrystalline
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Grain Boundaries and Interfacial Defects

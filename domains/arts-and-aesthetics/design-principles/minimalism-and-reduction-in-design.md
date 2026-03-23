@@ -19,7 +19,7 @@ tags:
 - elegance
 - reduction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Minimalism and Reduction in Design

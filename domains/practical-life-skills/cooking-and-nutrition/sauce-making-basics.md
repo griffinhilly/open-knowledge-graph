@@ -23,7 +23,7 @@ tags:
 - emulsion
 - roux
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Sauce Making Basics

@@ -14,7 +14,7 @@ tags:
 - preservation
 - authenticity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conservation, Restoration, and Historical Understanding

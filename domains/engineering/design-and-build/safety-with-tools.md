@@ -17,7 +17,7 @@ tags:
 - engineering
 - building
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Safety with Tools
 

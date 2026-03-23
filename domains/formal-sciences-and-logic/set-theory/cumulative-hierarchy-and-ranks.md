@@ -17,7 +17,7 @@ tags:
 - ranks
 - foundation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Cumulative Hierarchy and Set Ranks

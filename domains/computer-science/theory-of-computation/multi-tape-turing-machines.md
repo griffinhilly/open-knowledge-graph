@@ -15,7 +15,7 @@ tags:
 - time-complexity
 - encoding
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Multi-Tape Turing Machines and Simulation

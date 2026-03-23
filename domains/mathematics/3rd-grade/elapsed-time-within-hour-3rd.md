@@ -15,7 +15,7 @@ tags:
 - time
 - calculation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Calculating Elapsed Time Within an Hour

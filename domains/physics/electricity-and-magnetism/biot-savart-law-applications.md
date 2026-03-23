@@ -15,7 +15,7 @@ tags:
 - integration
 - current-source
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Biot-Savart Law: Calculating Magnetic Fields

@@ -16,7 +16,7 @@ tags:
 - company
 - asia
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # British East India Company and Commercial Colonialism

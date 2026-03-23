@@ -15,7 +15,7 @@ tags:
 - adaptation
 - audience
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Adjusting Register and Formality Levels During Speech

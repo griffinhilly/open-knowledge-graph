@@ -15,7 +15,7 @@ tags:
 - carryover-cooking
 - food-safety
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Meat and Protein Doneness

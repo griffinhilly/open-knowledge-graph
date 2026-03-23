@@ -17,7 +17,7 @@ tags:
 - authentication
 - security
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Account Creation and Security

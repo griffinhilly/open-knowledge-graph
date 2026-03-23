@@ -18,7 +18,7 @@ tags:
 - water balance
 - collecting duct
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Osmolarity Regulation and Collecting Duct Function

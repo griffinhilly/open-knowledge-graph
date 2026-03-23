@@ -20,7 +20,7 @@ tags:
 - risk-factors
 - adaptation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Resilience and Protective Factors in Development

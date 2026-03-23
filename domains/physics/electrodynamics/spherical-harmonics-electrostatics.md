@@ -19,7 +19,7 @@ tags:
 - boundary-value-problems
 - legendre-polynomials
 stage: expert
-status: draft
+status: validated
 ---
 # Spherical Harmonics in Electrostatics
 

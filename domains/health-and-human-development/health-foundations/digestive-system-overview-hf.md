@@ -6,7 +6,7 @@ course: health-foundations
 prerequisites:
   - id: food-groups-and-balanced-diet
     type: hard
-  - id: my-healthy-eating
+  - id: healthy-foods-and-nutrition
     type: soft
 builds-toward:
   - how-body-systems-connect
@@ -14,7 +14,7 @@ builds-toward:
   - nutrient-digestion-and-absorption
 tags: [body-systems, digestion, organs, anatomy]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Digestive System Overview

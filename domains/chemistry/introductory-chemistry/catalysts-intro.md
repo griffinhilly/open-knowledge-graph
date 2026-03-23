@@ -13,7 +13,7 @@ tags:
 - reaction-rate
 - enzymes
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Catalysts: Speeding Up Reactions
 

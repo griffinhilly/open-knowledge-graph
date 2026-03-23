@@ -12,7 +12,7 @@ tags:
 - pressure
 - temperature
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kinetic Molecular Theory and Gas Behavior

@@ -17,7 +17,7 @@ tags:
 - velocity
 - acceleration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Relative Motion and Moving Reference Frames

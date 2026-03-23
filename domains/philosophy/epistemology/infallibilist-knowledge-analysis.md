@@ -14,7 +14,7 @@ tags:
 - knowledge
 - error
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Infallibilism About Knowledge

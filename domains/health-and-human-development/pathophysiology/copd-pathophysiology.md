@@ -18,7 +18,7 @@ tags:
 - chronic-obstructive-disease
 - lung-disease
 stage: expert
-status: draft
+status: validated
 ---
 
 # COPD: Emphysema and Chronic Bronchitis

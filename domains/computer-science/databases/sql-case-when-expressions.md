@@ -14,7 +14,7 @@ tags:
 - conditional-logic
 - data-transformation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # CASE WHEN: Conditional Expressions in SQL

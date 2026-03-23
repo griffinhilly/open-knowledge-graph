@@ -16,7 +16,7 @@ tags:
 - shared-representation
 - auxiliary
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Multi-Task Learning

@@ -15,7 +15,7 @@ builds-toward:
   - considering-the-opposite
 tags: ["rationality", "biases", "self-deception", "epistemology"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

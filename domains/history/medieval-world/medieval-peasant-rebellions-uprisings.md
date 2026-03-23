@@ -16,7 +16,7 @@ tags:
 - uprising
 - resistance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Peasant Rebellions and Rural Uprisings

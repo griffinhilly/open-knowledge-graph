@@ -16,7 +16,7 @@ tags:
 - inertia
 - equilibrium
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Newton's First Law: Objects Resist Change
 

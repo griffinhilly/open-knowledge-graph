@@ -15,7 +15,7 @@ tags:
 - ghost
 - absence
 stage: expert
-status: draft
+status: validated
 ---
 
 # Spectrality and Hauntology

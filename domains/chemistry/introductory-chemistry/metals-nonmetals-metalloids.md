@@ -16,7 +16,7 @@ tags:
 - nonmetals
 - metalloids
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Metals, Nonmetals, and Metalloids
 

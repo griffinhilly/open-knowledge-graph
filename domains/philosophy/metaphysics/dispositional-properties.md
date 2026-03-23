@@ -14,7 +14,7 @@ tags:
 - powers
 - causation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dispositional Properties

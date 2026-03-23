@@ -20,7 +20,7 @@ tags:
 - sensitivity
 - climate-response
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Climate Feedbacks and Climate Sensitivity

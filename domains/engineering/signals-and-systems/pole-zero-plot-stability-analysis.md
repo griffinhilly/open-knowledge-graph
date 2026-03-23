@@ -14,7 +14,7 @@ tags:
 - stability
 - lti-systems
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pole-Zero Plots and Stability Analysis

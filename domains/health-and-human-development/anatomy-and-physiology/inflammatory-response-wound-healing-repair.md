@@ -27,7 +27,7 @@ tags:
 - wound-healing
 - tissue-repair
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inflammatory Response and Wound Healing Repair

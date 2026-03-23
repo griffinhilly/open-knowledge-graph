@@ -17,7 +17,7 @@ tags:
 - organelles
 - function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cellular Compartmentalization: Organizing Life

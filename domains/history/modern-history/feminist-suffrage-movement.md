@@ -16,7 +16,7 @@ tags:
 - women-rights
 - gender-equality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # First-Wave Feminism and Women's Suffrage

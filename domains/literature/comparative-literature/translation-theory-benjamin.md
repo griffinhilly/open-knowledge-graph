@@ -19,7 +19,7 @@ tags:
 - Benjamin
 - meaning
 stage: expert
-status: draft
+status: validated
 ---
 
 # Benjamin's 'The Task of the Translator'

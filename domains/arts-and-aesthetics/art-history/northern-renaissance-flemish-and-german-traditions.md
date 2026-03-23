@@ -16,7 +16,7 @@ tags:
 - portraiture
 - national-schools
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Northern Renaissance: Flemish and German Traditions

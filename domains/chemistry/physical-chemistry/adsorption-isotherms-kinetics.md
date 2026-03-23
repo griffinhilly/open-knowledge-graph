@@ -14,7 +14,7 @@ tags:
 - kinetics
 - catalysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Adsorption Isotherms and Kinetics

@@ -16,7 +16,7 @@ tags:
 - submodels
 - preservation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Elementary Substructures and Preservation of Formulas

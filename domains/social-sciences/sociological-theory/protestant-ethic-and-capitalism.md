@@ -14,7 +14,7 @@ tags:
 - capitalism
 - ethics
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Protestant Ethic and the Spirit of Capitalism

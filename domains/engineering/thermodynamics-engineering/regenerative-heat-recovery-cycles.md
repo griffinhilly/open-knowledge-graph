@@ -16,7 +16,7 @@ tags:
 - feedwater-heating
 - efficiency-improvement
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Regenerative Heat Recovery and Cycle Efficiency

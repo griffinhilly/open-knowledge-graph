@@ -4,9 +4,9 @@ title: What Is an Argument?
 domain: formal-sciences-and-logic
 course: reasoning-and-proof
 prerequisites:
-  - id: true-false-statements
+  - id: true-and-false-statements
     type: hard
-  - id: if-then-thinking
+  - id: if-then-statements
     type: soft
 builds-toward:
   - valid-vs-invalid-arguments
@@ -14,7 +14,7 @@ builds-toward:
   - conjectures-and-testing
 tags: [arguments, reasoning, evidence, claims]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # What Is an Argument?

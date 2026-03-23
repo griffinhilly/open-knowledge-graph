@@ -17,7 +17,7 @@ tags:
 - fragmentation
 - mtu
 stage: advanced
-status: draft
+status: validated
 ---
 
 # IP Fragmentation and Reassembly

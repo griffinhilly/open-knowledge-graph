@@ -14,7 +14,7 @@ tags:
 - centimeters
 - meters
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Converting Between Centimeters and Meters

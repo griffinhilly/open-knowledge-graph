@@ -13,7 +13,7 @@ tags:
 - separating
 - part-whole
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Separating Sets: Pre-Subtraction Concept

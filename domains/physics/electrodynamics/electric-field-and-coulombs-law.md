@@ -16,7 +16,7 @@ tags:
 - field-theory
 - forces
 stage: expert
-status: draft
+status: validated
 ---
 
 # Electric Field and Coulomb's Law

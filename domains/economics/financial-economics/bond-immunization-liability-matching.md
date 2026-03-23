@@ -13,7 +13,7 @@ tags:
 - portfolio-management
 - liability-matching
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bond Immunization and Liability Matching

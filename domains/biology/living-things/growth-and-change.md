@@ -13,7 +13,7 @@ tags:
 - change
 - development
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Growth and Change in Living Things

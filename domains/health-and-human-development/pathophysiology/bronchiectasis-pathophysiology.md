@@ -17,7 +17,7 @@ tags:
 - airway-dilation
 - chronic-infection
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bronchiectasis: Permanent Airway Dilation, Chronic Infection, and Progressive Lung Damage

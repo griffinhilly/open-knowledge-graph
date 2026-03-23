@@ -16,7 +16,7 @@ tags:
 - symbolism
 - theology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Religious Iconography, Symbolism, and Visual Theology

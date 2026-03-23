@@ -13,7 +13,7 @@ tags:
 - strength
 - materials
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Hardness and Strength of Materials
 

@@ -19,7 +19,7 @@ tags:
 - appeal to authority
 - critical thinking
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Logical Fallacies

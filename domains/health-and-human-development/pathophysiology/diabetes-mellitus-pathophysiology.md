@@ -24,7 +24,7 @@ tags:
 - hyperglycemia
 - metabolic-disease
 stage: expert
-status: draft
+status: validated
 ---
 
 # Diabetes Mellitus: Type 1 and Type 2

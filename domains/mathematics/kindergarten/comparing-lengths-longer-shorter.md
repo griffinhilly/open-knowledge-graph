@@ -11,7 +11,7 @@ tags:
 - length comparison
 - attributes
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Comparing Lengths: Longer and Shorter

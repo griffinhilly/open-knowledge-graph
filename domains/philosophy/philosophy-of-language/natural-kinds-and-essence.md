@@ -17,7 +17,7 @@ tags:
 - essence
 - reference
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Natural Kind Terms and Essential Properties

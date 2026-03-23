@@ -13,7 +13,7 @@ tags:
 - optimization
 - platform
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Target-Specific Code Generation and Platform Tuning

@@ -20,7 +20,7 @@ tags:
 - allocation
 - returns
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Expected Return and Asset Allocation

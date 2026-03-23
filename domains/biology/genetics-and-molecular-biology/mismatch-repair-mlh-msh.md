@@ -17,7 +17,7 @@ tags:
 - msh
 - replication
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mismatch Repair and MLH/MSH Proteins

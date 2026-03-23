@@ -14,7 +14,7 @@ tags:
 - hedging
 - risk-management
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Greeks and Hedging Applications in Practice

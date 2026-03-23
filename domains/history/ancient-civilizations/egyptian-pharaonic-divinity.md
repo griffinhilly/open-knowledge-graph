@@ -17,7 +17,7 @@ tags:
 - divinity
 - politics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Pharaoh as Divine Intermediary

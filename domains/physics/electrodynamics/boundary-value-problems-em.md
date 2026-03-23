@@ -17,7 +17,7 @@ tags:
 - pde
 - separation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Separation of Variables for Boundary Value Problems

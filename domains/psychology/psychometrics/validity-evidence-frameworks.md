@@ -22,7 +22,7 @@ tags:
 - standards
 - test-use
 stage: expert
-status: draft
+status: validated
 ---
 
 # Modern Validity Frameworks and Integrated Evidence

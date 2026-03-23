@@ -14,7 +14,7 @@ tags:
 - mechanics
 - phase-space
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hamiltonian Mechanics (Introduction)

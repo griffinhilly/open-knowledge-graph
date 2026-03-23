@@ -18,7 +18,7 @@ tags:
 - strain-hardening
 - work-hardening
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Plastic Deformation and Yielding

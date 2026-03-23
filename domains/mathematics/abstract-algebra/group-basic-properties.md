@@ -16,7 +16,7 @@ tags:
 - inverse
 - cancellation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Basic Properties of Groups

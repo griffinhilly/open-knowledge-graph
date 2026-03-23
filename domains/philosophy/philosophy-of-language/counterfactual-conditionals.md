@@ -15,7 +15,7 @@ tags:
 - modality
 - counterfactuals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Counterfactual Conditionals and Similarity

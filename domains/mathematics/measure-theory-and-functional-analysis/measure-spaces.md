@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - measure-theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Measure Spaces

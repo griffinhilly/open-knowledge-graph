@@ -23,7 +23,7 @@ tags:
 - lipoic acid
 - oxidative decarboxylation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Pyruvate Dehydrogenase Complex

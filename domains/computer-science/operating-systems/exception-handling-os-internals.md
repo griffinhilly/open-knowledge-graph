@@ -15,7 +15,7 @@ tags:
 - handlers
 - internals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Exception Handling: OS Internals

@@ -17,7 +17,7 @@ tags:
 - energy
 - kinetic-energy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Work, Power, and Energy: Fundamental Definitions

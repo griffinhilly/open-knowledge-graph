@@ -17,7 +17,7 @@ tags:
 - optimization
 - gradient-flow
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Vanishing Gradient Problem

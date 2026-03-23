@@ -18,7 +18,7 @@ tags:
 - technique
 - brushwork
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Impressionist Painting and the Capture of Light

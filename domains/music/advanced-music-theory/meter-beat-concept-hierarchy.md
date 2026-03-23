@@ -16,7 +16,7 @@ tags:
 - meter
 - temporal-structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Meter, Beat, and Metric Hierarchy

@@ -16,7 +16,7 @@ tags:
 - ode-solver
 - higher-order-method
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Runge-Kutta Methods for ODEs

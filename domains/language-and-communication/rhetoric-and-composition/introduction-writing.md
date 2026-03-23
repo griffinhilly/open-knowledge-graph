@@ -18,7 +18,7 @@ tags:
 - context
 - thesis placement
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Introduction Writing

@@ -15,7 +15,7 @@ tags:
 - hysteresis
 - paleoclimate-evidence
 stage: expert
-status: draft
+status: validated
 ---
 
 # Tipping Points and Critical Transitions in Paleoclimate

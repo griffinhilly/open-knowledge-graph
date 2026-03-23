@@ -16,7 +16,7 @@ tags:
 - length
 - larger-units
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Measuring Length: Feet and Meters

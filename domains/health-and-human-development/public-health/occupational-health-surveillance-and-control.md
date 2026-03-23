@@ -13,7 +13,7 @@ tags:
 - surveillance
 - hazard-control
 stage: expert
-status: draft
+status: validated
 ---
 
 # Occupational Health Surveillance and Hazard Control

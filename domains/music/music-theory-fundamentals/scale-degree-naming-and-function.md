@@ -16,7 +16,7 @@ tags:
 - function
 - tonality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Scale Degree Naming and Function

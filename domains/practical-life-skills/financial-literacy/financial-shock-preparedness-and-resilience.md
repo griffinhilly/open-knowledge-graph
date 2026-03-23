@@ -20,7 +20,7 @@ tags:
 - insurance
 - emergency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Financial Shock Preparedness and Resilience

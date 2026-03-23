@@ -11,7 +11,7 @@ tags:
 - pell
 - continued-fractions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Pell's Equation

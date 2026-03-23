@@ -16,7 +16,7 @@ tags:
 - meaning
 - interpretation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Irony and Its Uses

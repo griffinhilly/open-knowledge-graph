@@ -14,7 +14,7 @@ tags:
 - arithmetic
 - single-digit
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Addition Within 20

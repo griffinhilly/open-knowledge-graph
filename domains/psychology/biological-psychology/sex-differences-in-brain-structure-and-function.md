@@ -19,7 +19,7 @@ tags:
 - brain-structure
 - hormones
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sex Differences in Brain Structure and Function

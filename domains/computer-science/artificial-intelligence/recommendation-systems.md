@@ -14,7 +14,7 @@ tags:
 - personalization
 - ranking
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Recommendation Systems

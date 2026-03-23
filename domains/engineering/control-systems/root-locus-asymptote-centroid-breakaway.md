@@ -14,7 +14,7 @@ tags:
 - centroid
 - breakaway-points
 stage: expert
-status: draft
+status: validated
 ---
 
 # Root Locus: Asymptotes, Centroid, and Breakaway Points

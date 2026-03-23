@@ -19,7 +19,7 @@ tags:
 - neighbor-discovery
 - icmp
 stage: advanced
-status: draft
+status: validated
 ---
 
 # ICMPv6 and Neighbor Discovery Protocol

@@ -17,7 +17,7 @@ tags:
 - absorption
 - spectroscopy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Planetary Thermal Inversions in Atmospheres

@@ -15,7 +15,7 @@ tags:
 - social-dilemma
 - sustainability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tragedy of the Commons and Collective Action

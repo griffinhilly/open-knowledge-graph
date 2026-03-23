@@ -13,7 +13,7 @@ tags:
 - change-of-variables
 - transformation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Change of Variables and the Jacobian Determinant

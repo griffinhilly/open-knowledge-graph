@@ -13,7 +13,7 @@ tags:
 - image-rejection
 - multirate
 stage: expert
-status: draft
+status: validated
 ---
 # Interpolation, Image Rejection, and Upsampling
 

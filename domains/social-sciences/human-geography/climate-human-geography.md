@@ -14,7 +14,7 @@ tags:
 - sustainability
 - justice
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Climate Change and Human Geography

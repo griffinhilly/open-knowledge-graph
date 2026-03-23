@@ -15,7 +15,7 @@ tags:
 - foundational
 - modeling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Introduction to Differential Equations

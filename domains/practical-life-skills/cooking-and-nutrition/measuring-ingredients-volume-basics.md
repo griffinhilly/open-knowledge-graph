@@ -30,7 +30,7 @@ tags:
 - precision
 - fractions
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Measuring Ingredients: Cups, Spoons, and Scales

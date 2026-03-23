@@ -15,7 +15,7 @@ tags:
 - delivery
 - body-language
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Establishing Authority and Control of the Speaking Space

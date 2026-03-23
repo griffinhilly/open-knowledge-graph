@@ -27,7 +27,7 @@ tags:
 - ratios
 - cooking-methods
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cooking Rice—Water Ratios and Methods

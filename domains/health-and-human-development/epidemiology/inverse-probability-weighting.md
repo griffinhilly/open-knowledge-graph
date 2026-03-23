@@ -17,7 +17,7 @@ tags:
 - weighting
 - marginal-effects
 stage: expert
-status: draft
+status: validated
 ---
 
 # Inverse Probability Weighting

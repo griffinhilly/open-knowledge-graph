@@ -17,7 +17,7 @@ tags:
 - visual
 - problem-solving
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Visual Puzzles

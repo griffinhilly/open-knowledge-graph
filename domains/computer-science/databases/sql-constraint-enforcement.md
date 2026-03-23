@@ -15,7 +15,7 @@ tags:
 - integrity
 - validation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # SQL: Constraints (PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, DEFAULT)

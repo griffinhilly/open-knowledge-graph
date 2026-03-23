@@ -16,7 +16,7 @@ tags:
 - engineering
 - building
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Measuring and Cutting
 

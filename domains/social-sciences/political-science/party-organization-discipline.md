@@ -15,7 +15,7 @@ tags:
 - discipline
 - leadership
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Party Organization and Internal Party Discipline

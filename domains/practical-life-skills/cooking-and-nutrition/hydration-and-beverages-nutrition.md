@@ -15,7 +15,7 @@ tags:
 - beverages
 - health
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Hydration and Beverages Nutrition

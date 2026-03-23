@@ -15,7 +15,7 @@ tags:
 - bone-disease
 - mineral-metabolism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Renal Osteodystrophy and Mineral Metabolism

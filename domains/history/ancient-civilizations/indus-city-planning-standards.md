@@ -16,7 +16,7 @@ tags:
 - city-planning
 - standards
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Indus Valley Urban Planning and Standardization

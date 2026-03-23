@@ -13,7 +13,7 @@ tags:
 - market-failure
 - quality
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Market for Lemons and Quality Unraveling

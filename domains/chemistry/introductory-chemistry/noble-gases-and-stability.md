@@ -16,7 +16,7 @@ tags:
 - stability
 - inert
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Noble Gases: Why Some Elements Don't React
 

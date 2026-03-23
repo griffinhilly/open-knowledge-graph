@@ -14,7 +14,7 @@ tags:
 - ordering
 - algorithms
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Topological Sorting and Ordering
 

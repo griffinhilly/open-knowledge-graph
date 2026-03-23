@@ -19,7 +19,7 @@ tags:
 - selection
 - molecular-evolution
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Nearly Neutral Evolution and Drift-Selection Balance

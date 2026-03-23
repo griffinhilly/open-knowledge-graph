@@ -14,7 +14,7 @@ tags:
 - cost
 - decision-making
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Opportunity Cost and Economic Decision-Making

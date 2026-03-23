@@ -15,7 +15,7 @@ tags:
 - probability
 - moments
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moment Generating Functions

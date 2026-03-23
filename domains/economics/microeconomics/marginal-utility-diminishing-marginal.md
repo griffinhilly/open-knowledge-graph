@@ -14,7 +14,7 @@ tags:
 - marginal-analysis
 - consumer-choice
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Marginal Utility and the Law of Diminishing Marginal Utility

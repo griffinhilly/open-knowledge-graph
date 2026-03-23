@@ -11,7 +11,7 @@ tags:
 - bidding
 - truthful-revelation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Second-Price Sealed-Bid Auction (Vickrey Auction)

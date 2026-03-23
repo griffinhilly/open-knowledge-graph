@@ -16,7 +16,7 @@ tags:
 - linguistic-turn
 - political-theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Quentin Skinner and Linguistic Contextualism

@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: erosion-by-wind-and-ice
   type: soft
-- id: landforms-intro
+- id: mountains-valleys-and-plains
   type: soft
 builds-toward:
 - sediment-transport-and-deposition
@@ -22,7 +22,7 @@ tags:
 - moraines
 - landforms
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Deposition and Landforms

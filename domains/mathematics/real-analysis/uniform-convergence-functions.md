@@ -16,7 +16,7 @@ tags:
 - function-sequences
 - strengthened
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Uniform Convergence

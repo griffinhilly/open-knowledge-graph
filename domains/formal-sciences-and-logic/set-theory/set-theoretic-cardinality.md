@@ -20,7 +20,7 @@ tags:
 - uncountability
 - equinumerosity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Set-Theoretic Cardinality

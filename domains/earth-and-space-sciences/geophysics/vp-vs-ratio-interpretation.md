@@ -15,7 +15,7 @@ tags:
 - rock-properties
 - interpretation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Vp/Vs Ratio and Rock Properties

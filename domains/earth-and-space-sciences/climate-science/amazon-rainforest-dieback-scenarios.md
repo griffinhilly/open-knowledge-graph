@@ -20,7 +20,7 @@ tags:
 - tipping-point
 - biodiversity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Amazon Rainforest Dieback Scenarios

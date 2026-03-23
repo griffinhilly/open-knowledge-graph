@@ -17,7 +17,7 @@ tags:
 - dynamic-programming
 - cubic-time
 stage: advanced
-status: draft
+status: validated
 ---
 
 # CYK Algorithm and Membership Testing

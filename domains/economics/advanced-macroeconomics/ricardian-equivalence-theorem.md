@@ -16,7 +16,7 @@ tags:
 - tax-timing
 - consumption-smoothing
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ricardian Equivalence Theorem

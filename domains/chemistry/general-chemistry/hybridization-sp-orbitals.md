@@ -16,7 +16,7 @@ tags:
 - sp orbitals
 - molecular geometry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orbital Hybridization: sp, sp², and sp³

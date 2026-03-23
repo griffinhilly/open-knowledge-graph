@@ -14,7 +14,7 @@ tags:
 - ode
 - high-order
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Runge-Kutta Methods

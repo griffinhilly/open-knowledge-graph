@@ -14,7 +14,7 @@ tags:
 - pointers
 - nodes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Doubly Linked Lists

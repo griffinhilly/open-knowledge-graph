@@ -19,7 +19,7 @@ tags:
 - explanation
 - laws
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Covering Law Model

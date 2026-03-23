@@ -18,7 +18,7 @@ tags:
 - semiosis
 - meaning
 stage: expert
-status: draft
+status: validated
 ---
 
 # Eco's Unlimited Semiosis and Interpretive Openness

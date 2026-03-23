@@ -14,7 +14,7 @@ tags:
 - temn-modes
 - dominant-mode
 stage: expert
-status: draft
+status: validated
 ---
 
 # Propagation in Rectangular Waveguides

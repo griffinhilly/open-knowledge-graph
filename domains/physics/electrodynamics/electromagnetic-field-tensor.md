@@ -15,7 +15,7 @@ tags:
 - four-vector
 - relativity
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Electromagnetic Field Tensor

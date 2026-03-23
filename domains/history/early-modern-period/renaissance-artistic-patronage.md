@@ -16,7 +16,7 @@ tags:
 - renaissance
 - culture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Renaissance Artistic Patronage Systems

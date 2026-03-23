@@ -14,7 +14,7 @@ tags:
 - crafts
 - labor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Guild System and Medieval Crafts

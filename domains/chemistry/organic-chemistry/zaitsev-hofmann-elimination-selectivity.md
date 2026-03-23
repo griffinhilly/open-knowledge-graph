@@ -17,7 +17,7 @@ tags:
 - hofmann
 - alkene
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Zaitsev and Hofmann Selectivity in Elimination Reactions

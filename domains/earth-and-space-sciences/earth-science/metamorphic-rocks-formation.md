@@ -17,7 +17,7 @@ tags:
 - transformation
 - foliation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # How Metamorphic Rocks Form

@@ -14,7 +14,7 @@ tags:
 - cognitive-bias
 - reasoning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Base Rate Neglect

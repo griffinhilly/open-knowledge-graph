@@ -18,7 +18,7 @@ tags:
 - coulomb-potential
 - solvable-systems
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantum Mechanical Treatment of Hydrogen

@@ -12,7 +12,7 @@ builds-toward:
   - the-lens-that-sees-its-flaws
 tags: ["rationality", "epistemology", "mental-models", "representation"]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 ## Core Idea

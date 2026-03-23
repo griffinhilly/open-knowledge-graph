@@ -15,7 +15,7 @@ tags:
 - order-parameter
 - mean-field
 stage: expert
-status: draft
+status: validated
 ---
 
 # Landau Theory of Phase Transitions

@@ -15,7 +15,7 @@ tags:
 - dna-transfer
 - mating
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bacterial Conjugation and DNA Transfer

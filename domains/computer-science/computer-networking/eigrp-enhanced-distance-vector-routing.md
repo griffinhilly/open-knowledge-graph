@@ -20,7 +20,7 @@ tags:
 - dynamic-routing
 - cisco
 stage: advanced
-status: draft
+status: validated
 ---
 
 # EIGRP: Enhanced Interior Gateway Routing Protocol

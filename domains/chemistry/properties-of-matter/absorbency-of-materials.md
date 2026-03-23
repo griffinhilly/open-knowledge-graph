@@ -15,7 +15,7 @@ tags:
 - materials
 - water
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Absorbency: Which Materials Soak Up Water?
 

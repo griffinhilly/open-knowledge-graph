@@ -17,7 +17,7 @@ tags:
 - survival
 - food chain
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Predators and Prey

@@ -13,7 +13,7 @@ tags:
 - normal
 - gaussian
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Normal Distribution: Properties and Fundamentals

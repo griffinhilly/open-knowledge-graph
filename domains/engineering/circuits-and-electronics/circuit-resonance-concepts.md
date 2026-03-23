@@ -17,7 +17,7 @@ tags:
 - bandwidth
 - Q-factor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Circuit Resonance Concepts

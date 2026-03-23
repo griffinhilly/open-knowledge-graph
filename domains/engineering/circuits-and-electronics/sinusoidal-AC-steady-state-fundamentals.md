@@ -17,7 +17,7 @@ tags:
 - steady-state
 - RMS
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sinusoidal AC Steady-State Fundamentals

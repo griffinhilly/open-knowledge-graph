@@ -15,7 +15,7 @@ tags:
 - crystals
 - birefringence
 stage: expert
-status: draft
+status: validated
 ---
 
 # Electromagnetic Waves in Anisotropic Media

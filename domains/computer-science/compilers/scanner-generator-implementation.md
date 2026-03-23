@@ -18,7 +18,7 @@ tags:
 - automation
 - regex
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Scanner Generator Implementation

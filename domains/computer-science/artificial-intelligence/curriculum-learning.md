@@ -14,7 +14,7 @@ tags:
 - difficulty-progression
 - pacing
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Curriculum Learning

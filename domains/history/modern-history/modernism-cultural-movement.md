@@ -14,7 +14,7 @@ tags:
 - literature
 - cultural-innovation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Modernism in Art, Literature, and Culture

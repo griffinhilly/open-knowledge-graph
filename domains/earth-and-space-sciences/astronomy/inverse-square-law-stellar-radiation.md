@@ -19,7 +19,7 @@ tags:
 - luminosity
 - distance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inverse Square Law and Stellar Flux

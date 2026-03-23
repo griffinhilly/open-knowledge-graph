@@ -16,7 +16,7 @@ tags:
 - dynamics
 - flow-classification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rossby Number and Flow Classification

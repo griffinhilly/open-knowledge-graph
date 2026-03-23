@@ -14,7 +14,7 @@ tags:
 - direction
 - equilibrium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reaction Quotient (Q) and Equilibrium Direction

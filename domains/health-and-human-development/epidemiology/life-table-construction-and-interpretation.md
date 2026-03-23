@@ -15,7 +15,7 @@ tags:
 - survival-curves
 - population-health
 stage: expert
-status: draft
+status: validated
 ---
 
 # Life Table Construction and Interpretation

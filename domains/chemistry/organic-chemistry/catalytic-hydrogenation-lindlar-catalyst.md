@@ -19,7 +19,7 @@ tags:
 - syn-addition
 - stereoselectivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Catalytic Hydrogenation and Lindlar Catalyst

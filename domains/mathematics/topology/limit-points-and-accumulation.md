@@ -12,7 +12,7 @@ tags:
 - limit-points
 - convergence
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Limit Points and Accumulation Points
 

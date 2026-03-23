@@ -17,7 +17,7 @@ tags:
 - warfare
 - palace-culture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mycenaean Greece and the Late Bronze Age

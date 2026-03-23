@@ -18,7 +18,7 @@ tags:
 - repression
 - unconscious
 stage: expert
-status: draft
+status: validated
 ---
 
 # Symptomal Reading and Ideological Critique

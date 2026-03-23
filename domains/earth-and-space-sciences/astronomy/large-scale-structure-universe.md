@@ -15,7 +15,7 @@ tags:
 - cosmic-web
 - dark-matter
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Large-Scale Structure and the Cosmic Web

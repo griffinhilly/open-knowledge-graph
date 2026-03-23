@@ -16,7 +16,7 @@ tags:
 - syntax
 - effect
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stylistic Analysis: Language Choices and Effects

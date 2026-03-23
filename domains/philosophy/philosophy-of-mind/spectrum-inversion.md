@@ -15,7 +15,7 @@ tags:
 - spectrum
 - thought-experiment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Spectrum Inversion

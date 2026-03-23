@@ -13,7 +13,7 @@ tags:
 - state
 - equations-of-state
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermodynamic Properties and Equations of State

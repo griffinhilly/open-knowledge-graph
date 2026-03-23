@@ -17,7 +17,7 @@ tags:
 - orthogonal-functions
 - periodic
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fourier Series: Definition and Coefficients

@@ -16,7 +16,7 @@ tags:
 - cortex
 - movement
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Primary Motor Cortex and Motor Representation

@@ -14,7 +14,7 @@ tags:
 - divergence
 - differential-operators
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Curl and Divergence of Vector Fields

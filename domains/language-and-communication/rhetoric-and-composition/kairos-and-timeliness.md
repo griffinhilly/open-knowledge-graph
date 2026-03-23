@@ -16,7 +16,7 @@ tags:
 - timing
 - persuasion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Kairos and Timeliness in Rhetoric

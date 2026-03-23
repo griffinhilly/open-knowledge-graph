@@ -20,7 +20,7 @@ tags:
 - boolean-algebra
 - inverter
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Digital Logic Gates Basics

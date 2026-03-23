@@ -17,7 +17,7 @@ tags:
 - test-structure
 - omega
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dimensionality Assessment and Bifactor Models

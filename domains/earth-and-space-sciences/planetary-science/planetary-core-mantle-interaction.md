@@ -13,7 +13,7 @@ tags:
 - geochemistry
 - convection
 stage: expert
-status: draft
+status: validated
 ---
 
 # Planetary Core-Mantle Interaction and Chemical Exchange

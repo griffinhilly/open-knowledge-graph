@@ -19,7 +19,7 @@ tags:
 - recursion
 - induction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Well-Founded Relations and Transfinite Recursion

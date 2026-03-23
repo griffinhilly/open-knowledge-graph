@@ -16,7 +16,7 @@ tags:
 - feedback
 - regulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ventilation Control and Chemoreceptor Feedback Regulation

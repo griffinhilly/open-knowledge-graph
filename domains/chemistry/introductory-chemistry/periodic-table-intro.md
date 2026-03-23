@@ -15,7 +15,7 @@ tags:
 - organization
 - elements
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Introduction to the Periodic Table
 

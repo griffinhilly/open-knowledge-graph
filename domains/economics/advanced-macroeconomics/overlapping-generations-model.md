@@ -20,7 +20,7 @@ tags:
 - non-ricardian-effects
 - life-cycle
 stage: expert
-status: draft
+status: validated
 ---
 
 # Overlapping Generations Model

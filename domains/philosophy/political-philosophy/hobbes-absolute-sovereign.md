@@ -17,7 +17,7 @@ tags:
 - social-contract
 - authority
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hobbes: Absolute Sovereignty

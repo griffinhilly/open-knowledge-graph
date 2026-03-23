@@ -15,7 +15,7 @@ tags:
 - portfolio-management
 - discipline
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Portfolio Rebalancing and Maintenance

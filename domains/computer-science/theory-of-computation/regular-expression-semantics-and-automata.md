@@ -15,7 +15,7 @@ tags:
 - thompson-construction
 - pattern-matching
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Regular Expression Semantics and Automata Conversion

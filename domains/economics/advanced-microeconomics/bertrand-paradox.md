@@ -13,7 +13,7 @@ tags:
 - paradox
 - price-vs-quantity
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Bertrand Paradox

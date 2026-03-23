@@ -16,7 +16,7 @@ tags:
 - closure
 - methodology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moore's Methods and Responses to Skepticism

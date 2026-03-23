@@ -18,7 +18,7 @@ tags:
 - load
 - genome-evolution
 stage: advanced
-status: draft
+status: validated
 ---
 # Slightly Deleterious Mutations and Mutational Load
 

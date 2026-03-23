@@ -16,7 +16,7 @@ tags:
 - industrial-microbiology
 - ethanol
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Yeast Fermentation and Industrial Metabolic Applications

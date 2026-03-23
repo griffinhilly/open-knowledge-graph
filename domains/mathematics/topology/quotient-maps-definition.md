@@ -12,7 +12,7 @@ tags:
 - quotient-maps
 - identification
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quotient Maps and Quotient Topologies

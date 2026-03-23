@@ -16,7 +16,7 @@ tags:
 - concentration
 - saturation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mixing Ratio and Saturation Mixing Ratio

@@ -13,7 +13,7 @@ tags:
 - adams
 - ode
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multistep Methods: Adams-Bashforth and Adams-Moulton

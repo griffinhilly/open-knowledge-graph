@@ -14,7 +14,7 @@ tags:
 - vision
 - senses
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Eyes and Seeing

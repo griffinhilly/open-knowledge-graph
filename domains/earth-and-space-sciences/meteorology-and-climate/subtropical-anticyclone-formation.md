@@ -19,7 +19,7 @@ tags:
 - subtropical
 - descending-air
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Subtropical Anticyclone Formation and Dynamics

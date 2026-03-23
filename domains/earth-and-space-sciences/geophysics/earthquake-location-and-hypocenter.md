@@ -14,7 +14,7 @@ tags:
 - hypocenter
 - arrival-times
 stage: expert
-status: draft
+status: validated
 ---
 
 # Earthquake Location and Hypocenter Determination

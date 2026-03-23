@@ -13,7 +13,7 @@ tags:
 - material
 - tactile
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Texture: Types and Visual Communication

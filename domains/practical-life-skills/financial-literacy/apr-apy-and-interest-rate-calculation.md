@@ -27,7 +27,7 @@ tags:
 - borrowing-costs
 - savings-returns
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # APR vs. APY and Interest Rate Calculation

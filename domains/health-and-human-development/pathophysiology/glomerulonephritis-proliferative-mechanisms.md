@@ -16,7 +16,7 @@ tags:
 - proliferation
 - immune-complex
 stage: expert
-status: draft
+status: validated
 ---
 
 # Proliferative Glomerulonephritis: Immune Deposition and Glomerular Cell Proliferation

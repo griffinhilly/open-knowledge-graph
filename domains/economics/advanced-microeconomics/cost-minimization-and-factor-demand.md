@@ -19,7 +19,7 @@ tags:
 - costs
 - optimization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cost Minimization and Conditional Factor Demand

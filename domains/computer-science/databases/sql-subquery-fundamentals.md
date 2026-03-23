@@ -15,7 +15,7 @@ tags:
 - nested query
 - inner query
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # SQL: Subqueries (Scalar, Row, Table)

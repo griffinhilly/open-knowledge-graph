@@ -15,7 +15,7 @@ tags:
 - economies-of-scale
 - minimum-efficient-scale
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Long-Run Average Cost and Economies of Scale

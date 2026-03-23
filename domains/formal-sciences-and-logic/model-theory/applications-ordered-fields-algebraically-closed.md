@@ -16,7 +16,7 @@ tags:
 - fields
 - algebra
 stage: expert
-status: draft
+status: validated
 ---
 
 # Applications to Ordered and Algebraically Closed Fields

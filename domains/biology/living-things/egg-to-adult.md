@@ -17,7 +17,7 @@ tags:
 - life cycle
 - growth
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Egg to Adult

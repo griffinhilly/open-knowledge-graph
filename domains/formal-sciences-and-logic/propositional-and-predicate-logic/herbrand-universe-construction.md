@@ -19,7 +19,7 @@ tags:
 - herbrand
 - decidability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Herbrand Universe and Herbrand Models

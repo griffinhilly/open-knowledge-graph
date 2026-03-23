@@ -15,7 +15,7 @@ tags:
 - quantum-numbers
 - energy-levels
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Rotational Quantum Numbers and Energy Levels

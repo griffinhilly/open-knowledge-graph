@@ -31,7 +31,7 @@ tags:
 - NADH
 - FADH2
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Citric Acid Cycle: Mechanism and Stoichiometry

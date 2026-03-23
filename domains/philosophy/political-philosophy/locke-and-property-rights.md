@@ -16,7 +16,7 @@ tags:
 - property
 - limited-government
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Locke's Theory of Property and Limited Government

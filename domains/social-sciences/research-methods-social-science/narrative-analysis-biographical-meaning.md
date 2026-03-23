@@ -12,7 +12,7 @@ tags:
 - storytelling
 - meaning
 stage: expert
-status: draft
+status: validated
 ---
 
 # Narrative Analysis: Meaning in Life Stories

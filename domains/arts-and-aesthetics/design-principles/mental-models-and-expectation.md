@@ -19,7 +19,7 @@ tags:
 - intuition
 - convention
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mental Models and User Expectations

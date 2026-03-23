@@ -16,7 +16,7 @@ tags:
 - pyruvate
 - metabolic-integration
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Pyruvate: The Metabolic Crossroads

@@ -14,7 +14,7 @@ tags:
 - interpretivism
 - critical-realism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Positivism, Interpretivism, and Critical Realism: Paradigm Debates

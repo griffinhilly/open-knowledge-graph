@@ -17,7 +17,7 @@ tags:
 - parametric-equations
 - normal-vectors
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Equations of Lines and Planes in 3D

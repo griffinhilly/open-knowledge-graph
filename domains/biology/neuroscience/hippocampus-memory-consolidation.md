@@ -16,7 +16,7 @@ tags:
 - consolidation
 - spatial-cognition
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hippocampus: Memory Consolidation and Spatial Representation

@@ -16,7 +16,7 @@ tags:
 - sovereignty
 - boundaries
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Border Geographies and Frontier Regions

@@ -14,7 +14,7 @@ tags:
 - electron-bookkeeping
 - formal-charge-vs-oxidation-number
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Oxidation Numbers
 

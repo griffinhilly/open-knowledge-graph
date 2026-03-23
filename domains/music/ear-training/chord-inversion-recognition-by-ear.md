@@ -17,7 +17,7 @@ tags:
 - ear-training
 - harmonic-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chord Inversion Recognition by Ear

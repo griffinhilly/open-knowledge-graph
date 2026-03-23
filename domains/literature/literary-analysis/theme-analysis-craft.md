@@ -17,7 +17,7 @@ tags:
 - analysis
 - interpretation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Identifying and Analyzing Themes

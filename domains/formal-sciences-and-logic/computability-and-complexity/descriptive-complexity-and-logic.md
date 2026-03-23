@@ -13,7 +13,7 @@ tags:
 - logic
 - expressibility
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Descriptive Complexity: Expressing Complexity in Logic

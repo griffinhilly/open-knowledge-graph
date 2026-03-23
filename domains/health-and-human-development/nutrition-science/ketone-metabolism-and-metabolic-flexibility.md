@@ -16,7 +16,7 @@ tags:
 - metabolic-flexibility
 - fatty-acid-oxidation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ketone Metabolism, Ketogenic States, and Metabolic Flexibility

@@ -21,7 +21,7 @@ tags:
 - irreversibility
 - generation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Entropy Balance and Irreversibility Analysis

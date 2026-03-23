@@ -17,7 +17,7 @@ tags:
 - asceticism
 - metaphysics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Schopenhauer: Will and Aesthetic Contemplation

@@ -15,7 +15,7 @@ tags:
 - higher-order
 - weak-radiation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Magnetic Dipole and Higher Multipole Radiation

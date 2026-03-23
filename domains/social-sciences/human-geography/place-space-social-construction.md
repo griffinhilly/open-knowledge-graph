@@ -17,7 +17,7 @@ tags:
 - social-construction
 - meaning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Place, Space, and Social Construction

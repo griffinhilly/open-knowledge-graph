@@ -14,7 +14,7 @@ tags:
 - measurement
 - filtering
 stage: advanced
-status: draft
+status: validated
 ---
 # Trend and Cycle Decomposition
 

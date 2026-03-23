@@ -11,7 +11,7 @@ tags:
 - system-representation
 - control
 stage: expert
-status: draft
+status: validated
 ---
 
 # State-Space Representation and Realization

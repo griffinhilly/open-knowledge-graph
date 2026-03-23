@@ -13,7 +13,7 @@ tags:
 - direct-indirect-effects
 - mechanisms
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mediation Analysis and Pathways

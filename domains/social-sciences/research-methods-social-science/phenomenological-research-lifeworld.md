@@ -12,7 +12,7 @@ tags:
 - lived-experience
 - bracketing
 stage: expert
-status: draft
+status: validated
 ---
 
 # Phenomenological Research: Understanding Lived Experience

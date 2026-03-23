@@ -16,7 +16,7 @@ tags:
 - weather barrier
 - maintenance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Exterior Siding, Trim, and Weather Barrier Maintenance

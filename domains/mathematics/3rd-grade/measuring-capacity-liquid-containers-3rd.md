@@ -13,7 +13,7 @@ tags:
 - capacity
 - volume
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Measuring Capacity of Liquid Containers

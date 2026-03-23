@@ -13,7 +13,7 @@ tags:
 - money
 - financial-markets
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Money Demand and Its Motives

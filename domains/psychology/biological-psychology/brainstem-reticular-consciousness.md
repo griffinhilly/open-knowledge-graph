@@ -16,7 +16,7 @@ tags:
 - consciousness
 - brainstem
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Brainstem and Reticular Activating System: Arousal and Consciousness

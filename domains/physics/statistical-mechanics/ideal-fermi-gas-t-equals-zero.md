@@ -14,7 +14,7 @@ tags:
 - degenerate
 - ground-state
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ideal Fermi Gas at T=0

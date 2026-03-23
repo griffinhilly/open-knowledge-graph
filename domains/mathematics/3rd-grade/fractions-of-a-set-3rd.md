@@ -15,7 +15,7 @@ tags:
 - sets
 - groups
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Fractions of a Set

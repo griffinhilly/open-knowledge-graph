@@ -16,7 +16,7 @@ tags:
 - image
 - rank
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kernel, Image, and Rank of Linear Transformations

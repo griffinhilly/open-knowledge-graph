@@ -17,7 +17,7 @@ tags:
 - magnitude-condition
 - locus
 stage: expert
-status: draft
+status: validated
 ---
 
 # Root Locus: Angle and Magnitude Conditions

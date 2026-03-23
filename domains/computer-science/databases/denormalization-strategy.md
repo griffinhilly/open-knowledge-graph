@@ -16,7 +16,7 @@ tags:
 - query performance
 - trade-offs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Denormalization and Performance Trade-offs

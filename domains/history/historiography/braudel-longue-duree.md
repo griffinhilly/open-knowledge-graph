@@ -16,7 +16,7 @@ tags:
 - structures
 - mediterranean
 stage: expert
-status: draft
+status: validated
 ---
 
 # Fernand Braudel and the Longue Durée

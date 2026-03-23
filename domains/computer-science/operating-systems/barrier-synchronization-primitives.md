@@ -13,7 +13,7 @@ tags:
 - coordination
 - parallel
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Barrier Synchronization Primitives

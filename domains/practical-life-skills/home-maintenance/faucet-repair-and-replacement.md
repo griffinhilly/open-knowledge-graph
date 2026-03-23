@@ -13,7 +13,7 @@ tags:
 - leaks
 - faucet
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Faucet Repair and Replacement

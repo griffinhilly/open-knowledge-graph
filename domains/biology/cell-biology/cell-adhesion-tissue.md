@@ -14,7 +14,7 @@ tags:
 - integrins
 - cadherins
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cell Adhesion Molecules and Tissue Interactions

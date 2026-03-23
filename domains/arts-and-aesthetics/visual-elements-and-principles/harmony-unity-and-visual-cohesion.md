@@ -19,7 +19,7 @@ tags:
 - cohesion
 - integration
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Unity: Harmony and Visual Cohesion

@@ -16,7 +16,7 @@ tags:
 - borders
 - sovereignty
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Political Territory, Boundaries, and Geopolitical Power

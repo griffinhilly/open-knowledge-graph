@@ -19,7 +19,7 @@ tags:
 - confounding
 - estimators
 stage: expert
-status: draft
+status: validated
 ---
 
 # Fixed and Random Effects Models

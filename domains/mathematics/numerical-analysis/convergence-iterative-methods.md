@@ -15,7 +15,7 @@ tags:
 - iterative-methods
 - spectral-radius
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Convergence of Iterative Methods

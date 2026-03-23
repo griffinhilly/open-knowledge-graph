@@ -15,7 +15,7 @@ tags:
 - criticism
 - standards
 stage: expert
-status: draft
+status: validated
 ---
 
 # Aesthetic Judgment and Taste

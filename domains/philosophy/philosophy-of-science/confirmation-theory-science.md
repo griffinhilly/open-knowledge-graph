@@ -19,7 +19,7 @@ tags:
 - support
 - hypothesis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Confirmation and Evidence

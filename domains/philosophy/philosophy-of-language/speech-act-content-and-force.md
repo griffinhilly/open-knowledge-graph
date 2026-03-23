@@ -16,7 +16,7 @@ tags:
 - illocution
 - force
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Speech Act Content and Illocutionary Force

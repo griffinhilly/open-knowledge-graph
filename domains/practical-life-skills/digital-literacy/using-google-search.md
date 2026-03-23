@@ -19,7 +19,7 @@ tags:
 - information-finding
 - google
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Using a Search Engine

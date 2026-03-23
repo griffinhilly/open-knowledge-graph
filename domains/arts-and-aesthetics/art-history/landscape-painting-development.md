@@ -15,7 +15,7 @@ tags:
 - nature
 - perspective
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Landscape as Artistic Subject and Genre

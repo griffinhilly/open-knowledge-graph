@@ -18,7 +18,7 @@ tags:
 - fourier-analysis
 - moments
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Characteristic Functions

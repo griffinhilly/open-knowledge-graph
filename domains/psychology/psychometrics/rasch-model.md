@@ -18,7 +18,7 @@ tags:
 - item-response-theory
 - interval-scale
 stage: expert
-status: draft
+status: validated
 ---
 
 # Rasch Model: One-Parameter Item Response Theory

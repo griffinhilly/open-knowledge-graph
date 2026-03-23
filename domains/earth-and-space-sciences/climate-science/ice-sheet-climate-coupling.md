@@ -17,7 +17,7 @@ tags:
 - meltwater-forcing
 - glacial-cycles
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ice-Sheet Dynamics and Climate Feedbacks

@@ -13,7 +13,7 @@ tags:
 - sensitivity
 - specification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sensitivity Analysis and Robustness Checks

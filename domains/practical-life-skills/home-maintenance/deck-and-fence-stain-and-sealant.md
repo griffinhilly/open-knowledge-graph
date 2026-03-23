@@ -19,7 +19,7 @@ tags:
 - maintenance
 - staining
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Deck and Fence Stain and Sealant Application

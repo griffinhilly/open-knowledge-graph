@@ -17,7 +17,7 @@ tags:
 - syslog
 - management
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Syslog: Network Logging and Log Aggregation

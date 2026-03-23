@@ -11,7 +11,7 @@ tags:
 - modes
 - tonality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diatonic Modes: Ionian to Locrian

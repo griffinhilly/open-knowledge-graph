@@ -14,7 +14,7 @@ tags:
 - critique
 - resistance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Counter-Narrative Analysis

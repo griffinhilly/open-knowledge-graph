@@ -16,7 +16,7 @@ tags:
 - renaissance
 - intellectualism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Neoplatonism in Renaissance Philosophy

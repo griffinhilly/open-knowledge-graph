@@ -15,7 +15,7 @@ tags:
 - inheritance
 - ISA
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # ER Model: Weak Entities and Specialization Hierarchies

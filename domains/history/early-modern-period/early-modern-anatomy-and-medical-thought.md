@@ -16,7 +16,7 @@ tags:
 - anatomy
 - knowledge
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Early Modern Anatomy and Medical Thought

@@ -11,7 +11,7 @@ tags:
 - particles
 - dynamics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Planetary Ring Systems

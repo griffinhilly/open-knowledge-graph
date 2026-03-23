@@ -16,7 +16,7 @@ tags:
 - voice-leading
 - functional-harmony
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Root Movement Recognition by Ear

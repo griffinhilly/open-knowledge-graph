@@ -19,7 +19,7 @@ tags:
 - narration
 - technical
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Point of View: Technical Effects and Limitations

@@ -12,7 +12,7 @@ tags:
 - informed-consent
 - integrity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Research Ethics, IRB Oversight, and Research Integrity

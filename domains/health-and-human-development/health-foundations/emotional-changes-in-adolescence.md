@@ -6,7 +6,7 @@ course: health-foundations
 prerequisites:
   - id: puberty-basics
     type: hard
-  - id: my-feelings
+  - id: happy-sad-angry-scared
     type: soft
 builds-toward:
   - healthy-body-image
@@ -15,7 +15,7 @@ builds-toward:
   - emotion-regulation-development-and-coping-skills
 tags: [growth, development, emotions, adolescence, mental-health]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Emotional Changes in Adolescence

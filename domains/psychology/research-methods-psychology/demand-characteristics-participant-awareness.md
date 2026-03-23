@@ -19,7 +19,7 @@ tags:
 - participant-behavior
 - research-artifacts
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Demand Characteristics and Participant Awareness in Research

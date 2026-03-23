@@ -14,7 +14,7 @@ tags:
 - mobility
 - seamless-roaming
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Mobile IP and Handover

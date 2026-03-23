@@ -17,7 +17,7 @@ tags:
 - commitment
 - security
 stage: expert
-status: draft
+status: validated
 ---
 
 # Alliance Formation and Security Partnerships

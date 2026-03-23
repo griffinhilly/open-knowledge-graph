@@ -16,7 +16,7 @@ tags:
 - modified-dihybrid-ratio
 - biochemical-pathway
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Epistasis and Complementary Gene Interactions

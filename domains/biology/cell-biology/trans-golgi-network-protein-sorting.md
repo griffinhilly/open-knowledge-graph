@@ -15,7 +15,7 @@ tags:
 - protein-sorting
 - secretory-pathway
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Trans-Golgi Network and Protein Sorting

@@ -13,7 +13,7 @@ tags:
 - oxidation
 - detoxification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Peroxisomes: Specialized Oxidation Organelles

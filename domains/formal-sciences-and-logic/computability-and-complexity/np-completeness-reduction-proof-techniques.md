@@ -15,7 +15,7 @@ tags:
 - NP-completeness
 - proof-techniques
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reductions for Proving NP-Completeness

@@ -16,7 +16,7 @@ tags:
 - uncomputability
 - hierarchy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Turing Degrees and Degrees of Unsolvability

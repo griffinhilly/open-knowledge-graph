@@ -12,7 +12,7 @@ tags:
 - urban-change
 - housing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gentrification and Displacement

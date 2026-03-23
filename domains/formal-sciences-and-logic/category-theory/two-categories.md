@@ -21,7 +21,7 @@ tags:
 - Cat
 - bicategory
 stage: expert
-status: draft
+status: validated
 ---
 # 2-Categories
 

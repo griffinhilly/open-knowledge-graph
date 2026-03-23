@@ -14,7 +14,7 @@ tags:
 - divergence
 - flux
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Divergence Theorem

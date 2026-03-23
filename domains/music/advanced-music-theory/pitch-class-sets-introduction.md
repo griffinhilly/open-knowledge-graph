@@ -19,7 +19,7 @@ tags:
 - post-tonal
 - atonality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pitch-Class Sets: Introduction

@@ -16,7 +16,7 @@ tags:
 - order property
 - Shelah stability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Stability Theory: Introduction

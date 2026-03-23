@@ -13,7 +13,7 @@ tags:
 - resonance
 - damping
 stage: expert
-status: draft
+status: validated
 ---
 
 # Second-Order Systems and Resonance

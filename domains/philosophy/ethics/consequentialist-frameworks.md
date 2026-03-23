@@ -14,7 +14,7 @@ tags:
 - outcomes
 - framework
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Consequentialist Frameworks

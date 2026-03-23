@@ -10,7 +10,7 @@ prerequisites:
     type: hard
   - id: subsets-and-supersets-intro
     type: hard
-  - id: venn-diagrams-intro
+  - id: venn-diagrams-logic
     type: soft
 builds-toward:
   - set-operations-union-intersection-complement
@@ -18,7 +18,7 @@ builds-toward:
   - power-set-and-boolean-operations
 tags: [set-operations, venn-diagrams, formal-sets, de-morgans-laws]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Set Operations and Venn Diagrams (Formal)

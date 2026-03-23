@@ -18,7 +18,7 @@ tags:
 - shape
 - boundary
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Contour Drawing: Outline and Edge Definition

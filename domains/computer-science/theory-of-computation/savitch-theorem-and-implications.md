@@ -14,7 +14,7 @@ tags:
 - tradeoff
 - quadratic
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Savitch Theorem and Time-Space Tradeoffs

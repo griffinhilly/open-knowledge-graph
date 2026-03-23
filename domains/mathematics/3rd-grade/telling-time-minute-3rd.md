@@ -13,7 +13,7 @@ tags:
 - minutes
 - analog-clock
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Telling Time to the Minute

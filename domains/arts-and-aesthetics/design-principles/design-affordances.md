@@ -17,7 +17,7 @@ tags:
 - perception
 - usability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Design Affordances

@@ -16,7 +16,7 @@ tags:
 - independence
 - stability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Forking and Independence in Stability Theory

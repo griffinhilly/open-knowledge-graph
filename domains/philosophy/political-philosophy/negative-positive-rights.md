@@ -15,7 +15,7 @@ tags:
 - liberty
 - duties
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Negative and Positive Rights in Political Theory

@@ -16,7 +16,7 @@ tags:
 - dramatic-form
 - classical
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Five-Act Classical Dramatic Structure

@@ -18,7 +18,7 @@ tags:
 - income
 - aggregate-demand
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Consumption Function

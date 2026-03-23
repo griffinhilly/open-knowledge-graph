@@ -19,7 +19,7 @@ tags:
 - atlantic-circulation
 - climate-instability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Heinrich Events and Ice-Sheet Instability

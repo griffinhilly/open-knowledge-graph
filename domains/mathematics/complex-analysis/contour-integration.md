@@ -14,7 +14,7 @@ tags:
 - closed-paths
 - circulation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Contour Integration

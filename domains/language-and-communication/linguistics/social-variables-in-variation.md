@@ -14,7 +14,7 @@ tags:
 - age
 - apparent time
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Social Variables in Variation

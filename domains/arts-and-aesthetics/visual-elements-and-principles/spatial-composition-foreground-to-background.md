@@ -17,7 +17,7 @@ tags:
 - depth
 - organization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Spatial Composition: Foreground, Middleground, and Background

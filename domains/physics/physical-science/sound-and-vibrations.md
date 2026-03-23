@@ -14,7 +14,7 @@ tags:
 - vibrations
 - waves
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Sound and Vibrations
 

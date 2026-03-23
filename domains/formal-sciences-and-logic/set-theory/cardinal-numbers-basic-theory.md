@@ -17,7 +17,7 @@ tags:
 - cardinality
 - equivalence-classes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cardinal Numbers and Cardinality

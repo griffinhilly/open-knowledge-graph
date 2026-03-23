@@ -16,7 +16,7 @@ tags:
 - kuhn
 - sociological-schools
 stage: expert
-status: draft
+status: validated
 ---
 
 # Theories and Paradigms in Sociology

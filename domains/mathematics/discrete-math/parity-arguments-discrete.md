@@ -13,7 +13,7 @@ tags:
 - parity
 - proofs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Parity Arguments and Parity Invariants

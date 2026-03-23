@@ -14,7 +14,7 @@ tags:
 - methodology
 - historiography
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Integration of Theory and Historical Practice

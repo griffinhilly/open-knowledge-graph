@@ -14,7 +14,7 @@ tags:
 - low-data
 - rapid-adaptation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Few-Shot Learning

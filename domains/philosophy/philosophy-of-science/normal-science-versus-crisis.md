@@ -13,7 +13,7 @@ tags:
 - normal-science
 - anomalies
 stage: expert
-status: draft
+status: validated
 ---
 
 # Normal Science and Crisis

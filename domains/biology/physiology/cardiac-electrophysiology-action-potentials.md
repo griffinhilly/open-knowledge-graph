@@ -18,7 +18,7 @@ tags:
 - electrophysiology
 - ion-channels
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cardiac Electrophysiology and Action Potentials

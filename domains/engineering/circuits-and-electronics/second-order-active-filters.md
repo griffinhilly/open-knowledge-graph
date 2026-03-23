@@ -18,7 +18,7 @@ tags:
 - active-filter
 - band-pass
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Second-Order Active Filters

@@ -14,7 +14,7 @@ tags:
 - quadrature
 - newton-cotes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Newton-Cotes Quadrature

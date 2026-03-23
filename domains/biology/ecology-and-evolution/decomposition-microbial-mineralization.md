@@ -17,7 +17,7 @@ tags:
 - mineralization
 - nutrient-release
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Decomposition, Microbial Processes, and Nutrient Mineralization

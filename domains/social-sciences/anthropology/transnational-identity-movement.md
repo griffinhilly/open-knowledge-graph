@@ -15,7 +15,7 @@ tags:
 - migration
 - globalization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Transnational Identities and Movement

@@ -18,7 +18,7 @@ tags:
 - detection
 - inspection
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Identifying Hidden Water Damage

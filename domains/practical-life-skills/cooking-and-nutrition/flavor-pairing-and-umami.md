@@ -13,7 +13,7 @@ tags:
 - flavor-profiles
 - synergy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Flavor Pairing and Umami

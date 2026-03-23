@@ -20,7 +20,7 @@ tags:
 - HLA-matching
 - alloimmunity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Graft Rejection: Acute, Chronic, and Hyperacute

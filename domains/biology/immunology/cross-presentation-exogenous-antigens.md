@@ -16,7 +16,7 @@ tags:
 - antigen-processing
 - cd8-activation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cross-Presentation of Exogenous Antigens

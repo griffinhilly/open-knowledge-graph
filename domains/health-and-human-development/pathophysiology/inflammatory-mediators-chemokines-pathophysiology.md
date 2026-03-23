@@ -19,7 +19,7 @@ tags:
 - inflammation
 - signaling
 stage: expert
-status: draft
+status: validated
 ---
 
 # Inflammatory Mediators and Chemokine Signaling in Pathophysiology

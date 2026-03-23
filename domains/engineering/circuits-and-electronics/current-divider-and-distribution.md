@@ -16,7 +16,7 @@ tags:
 - distribution
 - inverse-proportionality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Current Divider Principle and Applications

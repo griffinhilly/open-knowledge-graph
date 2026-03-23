@@ -13,7 +13,7 @@ tags:
 - null-handling
 - functions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # COALESCE and NULLIF: NULL Handling Functions

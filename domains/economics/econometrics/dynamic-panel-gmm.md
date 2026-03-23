@@ -15,7 +15,7 @@ tags:
 - dynamic
 - gmm
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dynamic Panel Models and System GMM Estimation

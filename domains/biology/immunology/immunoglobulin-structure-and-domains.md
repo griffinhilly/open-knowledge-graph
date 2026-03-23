@@ -16,7 +16,7 @@ tags:
 - antibody-structure
 - domains
 stage: expert
-status: draft
+status: validated
 ---
 
 # Immunoglobulin Structure: Domains, Regions, and Organization

@@ -17,7 +17,7 @@ tags:
 - equilibrium
 - symmetry
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Balance: Equilibrium in Visual Design

@@ -15,7 +15,7 @@ tags:
 - applications
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Collision Analysis and Real-World Applications

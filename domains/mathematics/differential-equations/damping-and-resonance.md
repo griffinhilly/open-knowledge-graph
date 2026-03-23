@@ -15,7 +15,7 @@ tags:
 - forced-oscillations
 - resonance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Damping, Forced Vibrations, and Resonance

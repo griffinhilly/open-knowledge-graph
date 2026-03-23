@@ -15,7 +15,7 @@ tags:
 - harmony
 - secondary-dominants
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tonicization and Harmonic Coloring

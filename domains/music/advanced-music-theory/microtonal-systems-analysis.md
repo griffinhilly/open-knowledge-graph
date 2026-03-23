@@ -24,7 +24,7 @@ tags:
 - tuning
 - systems
 stage: expert
-status: draft
+status: validated
 ---
 
 # Microtonal Systems and Harmonic Implications

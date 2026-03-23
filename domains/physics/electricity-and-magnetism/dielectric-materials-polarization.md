@@ -16,7 +16,7 @@ tags:
 - polarization
 - material
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dielectric Materials and Polarization

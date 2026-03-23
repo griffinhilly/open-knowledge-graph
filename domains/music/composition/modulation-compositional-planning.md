@@ -19,7 +19,7 @@ tags:
 - key-planning
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Modulation and Compositional Planning

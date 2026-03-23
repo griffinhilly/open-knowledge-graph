@@ -15,7 +15,7 @@ tags:
 - existential elimination
 - Herbrand
 stage: expert
-status: draft
+status: validated
 ---
 
 # Skolem Functions and Witness Functions

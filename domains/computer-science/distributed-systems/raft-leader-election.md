@@ -17,7 +17,7 @@ tags:
 - consensus
 - terms
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Raft Consensus: Leader Election

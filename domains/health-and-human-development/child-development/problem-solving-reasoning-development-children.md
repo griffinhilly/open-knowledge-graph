@@ -15,7 +15,7 @@ tags:
 - logic
 - strategy-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Problem-Solving and Reasoning Development in Children

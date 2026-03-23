@@ -13,7 +13,7 @@ tags:
 - power-law
 - viscosity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Non-Newtonian Fluids and Power-Law Models

@@ -13,7 +13,7 @@ tags:
 - cubic
 - interpolation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cubic Spline Interpolation

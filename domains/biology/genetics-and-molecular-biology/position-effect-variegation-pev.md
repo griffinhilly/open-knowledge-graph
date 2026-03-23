@@ -16,7 +16,7 @@ tags:
 - epigenetic-silencing
 - chromatin-context
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Position Effect Variegation and Chromatin Context

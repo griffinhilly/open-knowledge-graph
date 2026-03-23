@@ -12,7 +12,7 @@ tags:
 - survey
 - immune-system
 stage: expert
-status: draft
+status: validated
 ---
 
 # Foundations of Immunology

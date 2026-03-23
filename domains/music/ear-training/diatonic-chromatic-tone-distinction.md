@@ -17,7 +17,7 @@ tags:
 - chromatic
 - alteration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diatonic vs. Chromatic Tone Distinction

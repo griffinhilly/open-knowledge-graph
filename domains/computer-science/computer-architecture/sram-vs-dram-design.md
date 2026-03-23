@@ -13,7 +13,7 @@ tags:
 - sram
 - dram
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # SRAM vs DRAM: Design and Tradeoffs

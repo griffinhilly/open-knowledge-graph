@@ -15,7 +15,7 @@ tags:
 - degree-theory
 - reducibility
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Turing Degrees

@@ -11,7 +11,7 @@ tags:
 - consistency
 - preferences
 stage: expert
-status: draft
+status: validated
 ---
 
 # Strong Axiom of Revealed Preference (SARP)

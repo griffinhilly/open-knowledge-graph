@@ -14,7 +14,7 @@ tags:
 - self-consistent
 - quantum-chemistry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hartree-Fock Method and Self-Consistent Field Theory

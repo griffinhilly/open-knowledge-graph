@@ -17,7 +17,7 @@ tags:
 - transcendental-idealism
 - categories
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Synthetic A Priori Knowledge
 

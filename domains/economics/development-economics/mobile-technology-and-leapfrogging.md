@@ -11,7 +11,7 @@ tags:
 - leapfrogging
 - mobile
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mobile Technology and Leapfrogging

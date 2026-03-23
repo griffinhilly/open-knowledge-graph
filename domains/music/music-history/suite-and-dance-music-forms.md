@@ -15,7 +15,7 @@ tags:
 - instrumental
 - stylization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Suite and Dance Music Forms

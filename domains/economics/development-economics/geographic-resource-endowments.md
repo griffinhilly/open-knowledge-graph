@@ -12,7 +12,7 @@ tags:
 - resources
 - curse
 stage: expert
-status: draft
+status: validated
 ---
 
 # Natural Resources and the Resource Curse

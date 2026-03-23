@@ -17,7 +17,7 @@ tags:
 - facilitation
 - depression
 stage: expert
-status: draft
+status: validated
 ---
 
 # Neuromodulation and Presynaptic Dynamics

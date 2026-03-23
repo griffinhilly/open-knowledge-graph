@@ -16,7 +16,7 @@ tags:
 - motivation
 - value
 stage: expert
-status: draft
+status: validated
 ---
 
 # Reward and Motivation Circuits

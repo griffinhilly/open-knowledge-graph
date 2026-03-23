@@ -14,7 +14,7 @@ tags:
 - collective-action
 - institutions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Multilateralism and Coordination Problems

@@ -16,7 +16,7 @@ tags:
 - income
 - marginal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Marginal Propensity to Save

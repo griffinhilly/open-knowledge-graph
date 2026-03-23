@@ -18,7 +18,7 @@ tags:
 - pollution
 - temperature
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Atmospheric Temperature Inversion

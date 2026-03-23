@@ -13,7 +13,7 @@ tags:
 - runtime-compilation
 - dynamic-compilation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Just-In-Time (JIT) Compilation

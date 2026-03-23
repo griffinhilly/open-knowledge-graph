@@ -17,7 +17,7 @@ tags:
 - night-sky
 - patterns
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Stars and Constellations

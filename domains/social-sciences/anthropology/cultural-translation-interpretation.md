@@ -17,7 +17,7 @@ tags:
 - ethnography
 - communication
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cultural Translation and Ethnographic Interpretation

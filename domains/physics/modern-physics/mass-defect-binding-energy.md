@@ -15,7 +15,7 @@ tags:
 - binding-energy
 - mass-energy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Mass Defect and Nuclear Binding Energy

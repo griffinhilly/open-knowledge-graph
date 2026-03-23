@@ -21,7 +21,7 @@ tags:
 - phonetics
 - aesthetic-effect
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Alliteration and Poetic Effect

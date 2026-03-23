@@ -13,7 +13,7 @@ tags:
 - entropy
 - statistical-foundations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Information Theory and Entropy

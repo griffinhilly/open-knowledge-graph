@@ -16,7 +16,7 @@ tags:
 - air
 - shelter
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Needs of Living Things

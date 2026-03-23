@@ -18,7 +18,7 @@ tags:
 - closure
 - aftermath
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Denouement and Resolution in Drama

@@ -15,7 +15,7 @@ tags:
 - dissipation
 - non-equilibrium
 stage: expert
-status: draft
+status: validated
 ---
 
 # Fluctuation-Dissipation Theorem

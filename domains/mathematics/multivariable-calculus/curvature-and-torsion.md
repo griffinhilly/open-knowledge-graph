@@ -13,7 +13,7 @@ tags:
 - torsion
 - geometry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Curvature and Torsion of Space Curves

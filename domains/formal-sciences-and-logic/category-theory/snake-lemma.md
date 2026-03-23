@@ -16,7 +16,7 @@ tags:
 - homological-algebra
 - connecting-map
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Snake Lemma

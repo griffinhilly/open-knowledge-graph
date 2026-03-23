@@ -15,7 +15,7 @@ tags:
 - characteristic-equation
 - closed-form
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Solving Linear Recurrence Relations

@@ -19,7 +19,7 @@ tags:
 - stainless-steel
 - nonstick
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Pan Selection and Heat Management

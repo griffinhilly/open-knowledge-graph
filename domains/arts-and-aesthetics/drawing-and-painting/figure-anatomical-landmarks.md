@@ -17,7 +17,7 @@ tags:
 - landmarks
 - measurement
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Anatomical Landmarks and Proportions

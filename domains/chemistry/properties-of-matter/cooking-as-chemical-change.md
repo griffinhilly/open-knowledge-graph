@@ -13,7 +13,7 @@ tags:
 - chemical-change
 - everyday-chemistry
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Cooking as Chemical Change
 

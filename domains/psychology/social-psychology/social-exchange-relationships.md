@@ -17,7 +17,7 @@ tags:
 - costs-benefits
 - interdependence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Social Exchange Theory and Relationship Satisfaction

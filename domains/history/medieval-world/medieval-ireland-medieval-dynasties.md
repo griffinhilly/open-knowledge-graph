@@ -16,7 +16,7 @@ tags:
 - native
 - medieval
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Medieval Ireland and Native Dynastic Struggles

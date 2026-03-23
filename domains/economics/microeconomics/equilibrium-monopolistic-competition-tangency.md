@@ -14,7 +14,7 @@ tags:
 - zero-profit
 - tangency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Monopolistic Competition: Equilibrium and Product Differentiation

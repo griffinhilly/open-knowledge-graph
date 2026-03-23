@@ -14,7 +14,7 @@ tags:
 - superheated
 - properties
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Subcooled Liquid and Superheated Vapor

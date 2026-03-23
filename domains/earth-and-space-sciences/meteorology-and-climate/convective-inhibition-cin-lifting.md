@@ -16,7 +16,7 @@ tags:
 - stability
 - convection-barriers
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Convective Inhibition and Lifting Barriers

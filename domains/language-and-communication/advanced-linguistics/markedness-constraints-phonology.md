@@ -15,7 +15,7 @@ tags:
 - optimality-theory
 - phonology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Markedness Constraints in Phonology

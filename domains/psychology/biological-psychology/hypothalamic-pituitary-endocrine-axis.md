@@ -20,7 +20,7 @@ tags:
 - hormones
 - feedback
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hypothalamic-Pituitary Endocrine Axis

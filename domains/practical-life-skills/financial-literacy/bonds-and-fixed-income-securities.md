@@ -18,7 +18,7 @@ tags:
 - corporate-bonds
 - interest-payments
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bonds and Fixed Income Securities

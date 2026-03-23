@@ -17,7 +17,7 @@ tags:
 - hygiene
 - foodborne-illness
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Food Handling and Contamination Prevention

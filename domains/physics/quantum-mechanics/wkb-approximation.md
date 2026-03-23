@@ -14,7 +14,7 @@ tags:
 - wkb
 - semiclassical
 stage: formal-systems
-status: draft
+status: validated
 ---
 # The WKB Approximation
 

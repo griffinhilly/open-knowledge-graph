@@ -17,7 +17,7 @@ tags:
 - cip-rules
 - chiral-center
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # R/S Nomenclature and Cahn-Ingold-Prelog Priority Rules

@@ -15,7 +15,7 @@ tags:
 - control
 - engineering
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Switches and Control
 

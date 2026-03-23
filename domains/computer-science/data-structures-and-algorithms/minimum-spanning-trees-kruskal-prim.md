@@ -16,7 +16,7 @@ tags:
 - prim
 - greedy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Minimum Spanning Trees: Kruskal's and Prim's Algorithms

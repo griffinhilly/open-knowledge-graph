@@ -19,7 +19,7 @@ tags:
 - 2D
 - geometry
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Exploring Shape and Two-Dimensional Form

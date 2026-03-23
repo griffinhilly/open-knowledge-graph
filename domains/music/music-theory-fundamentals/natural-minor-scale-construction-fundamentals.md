@@ -16,7 +16,7 @@ tags:
 - construction
 - natural-minor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constructing Natural Minor Scales

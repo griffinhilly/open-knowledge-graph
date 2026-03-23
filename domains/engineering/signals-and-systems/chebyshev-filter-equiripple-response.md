@@ -15,7 +15,7 @@ tags:
 - equiripple
 - ripple
 stage: expert
-status: draft
+status: validated
 ---
 
 # Chebyshev Filters and Equiripple Response

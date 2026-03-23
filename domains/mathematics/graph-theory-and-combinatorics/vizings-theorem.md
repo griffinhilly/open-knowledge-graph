@@ -10,7 +10,7 @@ tags:
 - graph-theory
 - edge-coloring
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vizing's Theorem

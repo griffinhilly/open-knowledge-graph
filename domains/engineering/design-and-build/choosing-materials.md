@@ -18,7 +18,7 @@ tags:
 - design
 - properties
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Choosing Materials
 

@@ -15,7 +15,7 @@ tags:
 - scattering
 - photons
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Compton Scattering and Wavelength Shift

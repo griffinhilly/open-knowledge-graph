@@ -18,7 +18,7 @@ tags:
 - pivot
 - modulation-technique
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Enharmonic Pivot and Modulation Techniques

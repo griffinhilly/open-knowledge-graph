@@ -17,7 +17,7 @@ tags:
 - critical-frequency
 - model-estimation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Process Model Identification and Relay Autotuning

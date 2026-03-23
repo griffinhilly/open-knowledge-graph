@@ -14,7 +14,7 @@ tags:
 - distance-functions
 - examples
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Metric Spaces: Definition and Examples

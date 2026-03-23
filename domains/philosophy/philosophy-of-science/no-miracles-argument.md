@@ -15,7 +15,7 @@ tags:
 - argument
 - justification
 stage: expert
-status: draft
+status: validated
 ---
 
 # The No-Miracles Argument for Realism

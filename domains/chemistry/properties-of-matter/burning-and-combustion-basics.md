@@ -15,7 +15,7 @@ tags:
 - burning
 - fire
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Burning and Fire
 

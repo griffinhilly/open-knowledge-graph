@@ -16,7 +16,7 @@ tags:
 - paths
 - arcs
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Path Connectedness

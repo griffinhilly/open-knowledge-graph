@@ -16,7 +16,7 @@ tags:
 - generative
 - phrase-structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # X-bar Theory

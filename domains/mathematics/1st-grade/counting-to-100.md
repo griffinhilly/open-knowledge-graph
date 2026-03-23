@@ -15,7 +15,7 @@ tags:
 - number-sequence
 - foundational
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Counting to 100

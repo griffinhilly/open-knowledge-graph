@@ -11,7 +11,7 @@ tags:
 - limits
 - indeterminate-forms
 stage: advanced
-status: draft
+status: validated
 ---
 
 # L'Hôpital's Rule (Rigorous)

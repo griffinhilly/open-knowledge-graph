@@ -15,7 +15,7 @@ tags:
 - oxidative-stress
 - fatty-acid-oxidation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Peroxisomes and Reactive Oxygen Metabolism

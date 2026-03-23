@@ -16,7 +16,7 @@ tags:
 - reentry
 - early-after-depolarization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cardiac Arrhythmogenesis Mechanisms

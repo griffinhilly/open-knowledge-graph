@@ -16,7 +16,7 @@ tags:
 - selectivity
 - free-radical
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Allylic Oxidation and Selectivity

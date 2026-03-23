@@ -17,7 +17,7 @@ tags:
 - or
 - not
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Logical Connectives and Operators

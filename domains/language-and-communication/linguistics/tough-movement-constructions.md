@@ -14,7 +14,7 @@ tags:
 - constructions
 - argument-structure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Tough-Movement Constructions

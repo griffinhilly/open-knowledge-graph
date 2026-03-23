@@ -15,7 +15,7 @@ tags:
 - amplification
 - cohen
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moral Panic and Amplification Spirals

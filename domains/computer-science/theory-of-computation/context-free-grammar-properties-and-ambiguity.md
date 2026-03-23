@@ -17,7 +17,7 @@ tags:
 - properties
 - parse-trees
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Context-Free Grammar Properties and Ambiguity

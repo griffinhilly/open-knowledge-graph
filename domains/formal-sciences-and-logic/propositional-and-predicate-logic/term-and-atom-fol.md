@@ -17,7 +17,7 @@ tags:
 - function-symbols
 - ground-terms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Terms and Atomic Formulas in FOL

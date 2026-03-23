@@ -17,7 +17,7 @@ tags:
 - responsiveness
 - constituent-service
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Political Representation: Concepts and Models

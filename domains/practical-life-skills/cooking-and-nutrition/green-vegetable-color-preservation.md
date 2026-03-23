@@ -18,7 +18,7 @@ tags:
 - technique
 - cooking-method
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Green Vegetable Color Preservation

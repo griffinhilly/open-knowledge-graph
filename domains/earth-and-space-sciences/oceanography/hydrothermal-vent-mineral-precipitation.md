@@ -18,7 +18,7 @@ tags:
 - chemical-gradients
 - mixing-zones
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mineral Precipitation and Chemical Gradients at Hydrothermal Vents

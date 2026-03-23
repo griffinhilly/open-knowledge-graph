@@ -16,7 +16,7 @@ tags:
 - dysplasia
 - cellular-transformation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Metaplasia and Dysplasia: Reversible and Irreversible Changes

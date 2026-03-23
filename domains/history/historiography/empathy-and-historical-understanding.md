@@ -17,7 +17,7 @@ tags:
 - interpretation
 - agents
 stage: expert
-status: draft
+status: validated
 ---
 
 # Historical Empathy and Understanding Actors

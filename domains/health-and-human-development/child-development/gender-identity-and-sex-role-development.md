@@ -19,7 +19,7 @@ tags:
 - gender-socialization
 - identity-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gender Identity and Sex Role Development

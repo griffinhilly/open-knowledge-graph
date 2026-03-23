@@ -17,7 +17,7 @@ tags:
 - variance
 - measure-theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Variance and Higher Moments (Rigorous)

@@ -14,7 +14,7 @@ tags:
 - quenching
 - tempering
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heat Treatment Processes and Microstructure Control

@@ -12,7 +12,7 @@ tags:
 - bounds
 - analytic-number-theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Prime Counting Function and Chebyshev Bounds

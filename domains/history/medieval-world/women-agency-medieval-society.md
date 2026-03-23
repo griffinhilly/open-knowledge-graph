@@ -13,7 +13,7 @@ tags:
 - power
 - authority
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Women's Agency and Power in Medieval Society

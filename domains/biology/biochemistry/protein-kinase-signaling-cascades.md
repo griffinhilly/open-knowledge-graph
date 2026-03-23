@@ -15,7 +15,7 @@ tags:
 - phosphorylation
 - phosphatases
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Protein Kinase Signaling Cascades and Phosphatases

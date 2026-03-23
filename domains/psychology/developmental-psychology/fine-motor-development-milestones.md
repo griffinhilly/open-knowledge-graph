@@ -15,7 +15,7 @@ tags:
 - milestones
 - coordination
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fine Motor Development Milestones

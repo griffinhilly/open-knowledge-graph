@@ -18,7 +18,7 @@ tags:
 - normal-grain-growth
 - abnormal-grain-growth
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Grain Growth and Recrystallization

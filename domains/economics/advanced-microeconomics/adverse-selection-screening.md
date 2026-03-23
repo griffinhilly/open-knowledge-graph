@@ -19,7 +19,7 @@ tags:
 - contract-theory
 - information-asymmetry
 stage: expert
-status: draft
+status: validated
 ---
 
 # Adverse Selection and Screening Mechanisms

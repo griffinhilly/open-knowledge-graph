@@ -16,7 +16,7 @@ tags:
 - equal-sharing
 - concept
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Division as Equal Sharing

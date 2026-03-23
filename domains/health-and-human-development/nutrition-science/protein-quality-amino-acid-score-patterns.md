@@ -16,7 +16,7 @@ tags:
 - bioavailability
 - quality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Protein Quality, Amino Acid Scoring Patterns, and Bioavailability

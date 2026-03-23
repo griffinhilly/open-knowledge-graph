@@ -16,7 +16,7 @@ tags:
 - experience
 - consciousness
 stage: expert
-status: draft
+status: validated
 ---
 
 # Phenomenology and Literary Reading

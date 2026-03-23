@@ -13,7 +13,7 @@ tags:
 - fiction
 - reference
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Empty Names and Fictional Discourse

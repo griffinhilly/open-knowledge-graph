@@ -13,7 +13,7 @@ tags:
 - atoms
 - configuration
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Electron Configuration and the Aufbau Principle

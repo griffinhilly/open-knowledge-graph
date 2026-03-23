@@ -18,7 +18,7 @@ tags:
 - preservation
 - completeness
 stage: expert
-status: draft
+status: validated
 ---
 
 # The General Adjoint Functor Theorem

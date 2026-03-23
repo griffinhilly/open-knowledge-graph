@@ -14,7 +14,7 @@ tags:
 - information-literacy
 - research
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Evaluating Credibility of Online Information

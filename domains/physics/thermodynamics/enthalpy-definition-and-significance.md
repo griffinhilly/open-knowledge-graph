@@ -13,7 +13,7 @@ tags:
 - state-function
 - open-systems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Enthalpy and Its Physical Significance

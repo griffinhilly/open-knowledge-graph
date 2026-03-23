@@ -17,7 +17,7 @@ tags:
 - cognitive-processing
 - elm
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Persuasion: Central and Peripheral Routes

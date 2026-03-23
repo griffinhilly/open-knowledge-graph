@@ -15,7 +15,7 @@ tags:
 - psychology
 - risk
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lump Sum vs. Dollar-Cost Averaging

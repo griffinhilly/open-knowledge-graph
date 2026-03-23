@@ -14,7 +14,7 @@ tags:
 - disease-monitoring
 - systems
 stage: expert
-status: draft
+status: validated
 ---
 
 # Passive vs. Active Disease Surveillance

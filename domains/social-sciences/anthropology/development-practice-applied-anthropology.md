@@ -17,7 +17,7 @@ tags:
 - practice
 - change
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Development Practice and Applied Anthropology

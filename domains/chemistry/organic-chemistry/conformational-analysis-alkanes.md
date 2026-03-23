@@ -18,7 +18,7 @@ tags:
 - strain
 - energy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conformational Analysis and Strain Energy

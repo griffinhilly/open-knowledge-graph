@@ -15,7 +15,7 @@ tags:
 - decidability
 - Th(M)
 stage: expert
-status: draft
+status: validated
 ---
 
 # Complete First-Order Theories

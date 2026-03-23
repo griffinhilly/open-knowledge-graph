@@ -11,7 +11,7 @@ tags:
 - visual-form
 - wordplay
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Eye Rhyme and Homographic Rhyme

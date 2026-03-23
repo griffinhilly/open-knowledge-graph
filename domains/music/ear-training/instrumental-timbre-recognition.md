@@ -15,7 +15,7 @@ tags:
 - instrument-identification
 - orchestration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Instrumental Timbre Recognition by Ear

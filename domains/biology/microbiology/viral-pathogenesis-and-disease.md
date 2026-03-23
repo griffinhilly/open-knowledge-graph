@@ -17,7 +17,7 @@ tags:
 - host-viral
 - immune-evasion
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Viral Pathogenesis and Host-Viral Interactions

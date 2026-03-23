@@ -13,7 +13,7 @@ tags:
 - reaction-mechanism
 - molecular-dynamics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bimolecular Collision Dynamics and Trajectory Analysis

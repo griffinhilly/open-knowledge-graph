@@ -15,7 +15,7 @@ tags:
 - free will
 - libertarianism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Agent Causation

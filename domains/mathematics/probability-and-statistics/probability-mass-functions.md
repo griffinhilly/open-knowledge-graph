@@ -15,7 +15,7 @@ tags:
 - discrete-distributions
 - probability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Probability Mass Functions

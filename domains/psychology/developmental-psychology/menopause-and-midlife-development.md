@@ -12,7 +12,7 @@ tags:
 - menopause
 - development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Menopause and Midlife Transition

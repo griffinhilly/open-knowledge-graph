@@ -16,7 +16,7 @@ tags:
 - 2d-shapes
 - identifying
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Identifying Two-Dimensional Shapes

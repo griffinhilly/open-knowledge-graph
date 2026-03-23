@@ -11,7 +11,7 @@ tags:
 - quantity
 - vocabulary
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Comparing Quantities: More, Less, and Equal

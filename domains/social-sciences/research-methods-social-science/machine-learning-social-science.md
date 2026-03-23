@@ -31,7 +31,7 @@ tags:
 - algorithmic
 - computational
 stage: expert
-status: draft
+status: validated
 ---
 
 # Machine Learning Applications in Social Science

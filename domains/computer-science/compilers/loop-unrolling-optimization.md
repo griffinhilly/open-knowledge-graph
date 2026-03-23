@@ -15,7 +15,7 @@ tags:
 - loops
 - performance
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Loop Unrolling

@@ -14,7 +14,7 @@ tags:
 - radiation-reaction
 - abraham-lorentz
 stage: expert
-status: draft
+status: validated
 ---
 
 # Radiation Reaction Force (Abraham-Lorentz Force)

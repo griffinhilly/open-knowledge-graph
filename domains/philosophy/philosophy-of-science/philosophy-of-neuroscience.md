@@ -14,7 +14,7 @@ tags:
 - reduction
 - neural-correlates
 stage: expert
-status: draft
+status: validated
 ---
 
 # Philosophy of Neuroscience

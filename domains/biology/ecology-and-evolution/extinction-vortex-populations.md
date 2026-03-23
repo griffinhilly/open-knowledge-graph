@@ -16,7 +16,7 @@ tags:
 - allee-effect
 - positive-density-dependence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Extinction Vortex and Allee Effects

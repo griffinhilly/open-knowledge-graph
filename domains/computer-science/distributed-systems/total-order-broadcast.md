@@ -16,7 +16,7 @@ tags:
 - consensus
 - replication
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Total Order Broadcast and Strong Consistency

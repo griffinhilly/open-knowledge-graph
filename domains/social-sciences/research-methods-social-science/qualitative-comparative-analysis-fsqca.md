@@ -14,7 +14,7 @@ tags:
 - set-theory
 - equifinality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Qualitative Comparative Analysis: Set-Theoretic Methods

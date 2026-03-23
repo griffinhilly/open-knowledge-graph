@@ -15,7 +15,7 @@ tags:
 - reference
 - clarity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Pronoun-Antecedent Identification

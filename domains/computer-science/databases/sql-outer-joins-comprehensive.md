@@ -14,7 +14,7 @@ tags:
 - RIGHT JOIN
 - FULL OUTER JOIN
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # SQL: OUTER JOINs (LEFT, RIGHT, FULL)

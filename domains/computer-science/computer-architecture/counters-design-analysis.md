@@ -15,7 +15,7 @@ tags:
 - asynchronous
 - synchronous
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binary Counters: Design and Analysis

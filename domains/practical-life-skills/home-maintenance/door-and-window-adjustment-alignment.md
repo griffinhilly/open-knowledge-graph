@@ -18,7 +18,7 @@ tags:
 - alignment
 - function
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Door and Window Adjustment and Alignment

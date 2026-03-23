@@ -16,7 +16,7 @@ tags:
 - computability
 - complexity-theory
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Computability and Complexity: Overview and Connections
 

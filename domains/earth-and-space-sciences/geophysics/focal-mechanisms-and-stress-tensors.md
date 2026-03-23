@@ -18,7 +18,7 @@ tags:
 - stress-tensor
 - earthquake-source
 stage: expert
-status: draft
+status: validated
 ---
 
 # Focal Mechanisms and Stress Tensors

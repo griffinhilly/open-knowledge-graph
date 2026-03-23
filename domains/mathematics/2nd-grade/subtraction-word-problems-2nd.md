@@ -14,7 +14,7 @@ tags:
 - word-problems
 - subtraction
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Solving Subtraction Word Problems

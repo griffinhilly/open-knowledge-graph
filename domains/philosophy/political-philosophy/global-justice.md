@@ -17,7 +17,7 @@ tags:
 - global-poverty
 - international-justice
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Global Justice

@@ -18,7 +18,7 @@ tags:
 - morphosyntax
 - rule-learning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Syntax Acquisition and Grammatical Development

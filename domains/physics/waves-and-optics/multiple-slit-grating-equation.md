@@ -13,7 +13,7 @@ tags:
 - gratings
 - spectroscopy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Diffraction Gratings and the Grating Equation

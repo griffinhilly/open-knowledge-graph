@@ -16,7 +16,7 @@ tags:
 - space
 - competition
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bourdieu: Field and Social Space

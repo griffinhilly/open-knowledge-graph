@@ -17,7 +17,7 @@ tags:
 - volume-overload
 - chamber-remodeling
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mitral Regurgitation: Volume Overload, Chamber Remodeling, and Functional Decline

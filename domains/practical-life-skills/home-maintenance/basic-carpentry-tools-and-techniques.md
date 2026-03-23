@@ -21,7 +21,7 @@ tags:
 - tools
 - building
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Basic Carpentry Tools and Techniques

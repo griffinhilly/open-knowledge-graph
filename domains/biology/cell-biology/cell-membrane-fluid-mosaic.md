@@ -17,7 +17,7 @@ tags:
 - protein
 - fluidity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Cell Membrane: Fluid Mosaic Model

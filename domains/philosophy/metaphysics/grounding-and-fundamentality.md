@@ -17,7 +17,7 @@ tags:
 - dependence
 - metaphysical explanation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Grounding and Fundamentality

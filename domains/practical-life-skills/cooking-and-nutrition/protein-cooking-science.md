@@ -17,7 +17,7 @@ tags:
 - chemistry
 - cooking-science
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # How Cooking Transforms Proteins

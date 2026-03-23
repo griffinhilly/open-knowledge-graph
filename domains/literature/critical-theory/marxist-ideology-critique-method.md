@@ -17,7 +17,7 @@ tags:
 - materialism
 - base-superstructure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Marxist Ideology Critique and Material Analysis

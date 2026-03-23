@@ -30,7 +30,7 @@ tags:
 - friction
 - differential-equations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Damped Harmonic Oscillator

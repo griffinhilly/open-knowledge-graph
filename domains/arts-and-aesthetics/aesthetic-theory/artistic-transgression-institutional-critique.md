@@ -18,7 +18,7 @@ tags:
 - avant-garde
 - institutions
 stage: expert
-status: draft
+status: validated
 ---
 # Artistic Transgression and Institutional Critique
 

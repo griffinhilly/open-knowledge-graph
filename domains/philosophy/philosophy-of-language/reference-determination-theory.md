@@ -16,7 +16,7 @@ tags:
 - naming
 - semantics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reference Determination and Semantic Reference

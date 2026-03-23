@@ -24,7 +24,7 @@ tags:
 - Yoneda embedding
 - Set-valued functor
 stage: expert
-status: draft
+status: validated
 ---
 # Presheaves
 

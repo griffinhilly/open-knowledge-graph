@@ -15,7 +15,7 @@ tags:
 - fallacy
 - area-level-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ecological Analysis and the Ecological Fallacy

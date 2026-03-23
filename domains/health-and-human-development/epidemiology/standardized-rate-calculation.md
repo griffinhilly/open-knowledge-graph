@@ -15,7 +15,7 @@ tags:
 - age-standardization
 - population-comparison
 stage: expert
-status: draft
+status: validated
 ---
 
 # Standardized and Adjusted Rates

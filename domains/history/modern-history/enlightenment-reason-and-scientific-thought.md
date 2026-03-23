@@ -15,7 +15,7 @@ tags:
 - science
 - intellectual-history
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Enlightenment Reason and Scientific Thought

@@ -14,7 +14,7 @@ tags:
 - if-then
 - logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conditional and Biconditional Statements

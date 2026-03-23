@@ -19,7 +19,7 @@ tags:
 - snri
 - psychopharmacology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Antidepressant Medications

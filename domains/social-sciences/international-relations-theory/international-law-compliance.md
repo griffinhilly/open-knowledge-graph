@@ -14,7 +14,7 @@ tags:
 - enforcement
 - legitimacy
 stage: expert
-status: draft
+status: validated
 ---
 
 # International Law and Compliance Mechanisms

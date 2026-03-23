@@ -15,7 +15,7 @@ tags:
 - effectiveness
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Foreign Aid, Conditionality, and Effectiveness

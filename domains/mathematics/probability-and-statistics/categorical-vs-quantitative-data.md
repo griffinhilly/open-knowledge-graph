@@ -11,7 +11,7 @@ tags:
 - data-types
 - descriptive-statistics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Categorical vs. Quantitative Data

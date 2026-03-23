@@ -15,7 +15,7 @@ tags:
 - structure
 - function
 stage: expert
-status: draft
+status: validated
 ---
 
 # Structural Functionalism

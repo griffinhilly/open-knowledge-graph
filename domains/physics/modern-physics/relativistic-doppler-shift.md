@@ -13,7 +13,7 @@ tags:
 - waves
 - doppler
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Relativistic Doppler Effect

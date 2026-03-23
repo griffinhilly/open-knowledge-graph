@@ -13,7 +13,7 @@ tags:
 - general-equilibrium
 - stochastic-shocks
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dynamic Stochastic General Equilibrium Models

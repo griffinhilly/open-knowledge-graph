@@ -13,7 +13,7 @@ tags:
 - myocardial-oxygen
 - autoregulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Coronary Circulation and Myocardial Blood Flow Regulation

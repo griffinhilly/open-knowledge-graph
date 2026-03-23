@@ -14,7 +14,7 @@ tags:
 - mad-bub-proteins
 - anaphase
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mitotic Spindle Checkpoint and Chromosome Segregation

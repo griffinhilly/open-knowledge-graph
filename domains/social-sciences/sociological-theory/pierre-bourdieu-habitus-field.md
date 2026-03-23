@@ -17,7 +17,7 @@ tags:
 - field
 - capital
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pierre Bourdieu: Habitus and Field

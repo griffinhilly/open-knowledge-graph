@@ -18,7 +18,7 @@ tags:
 - facultative
 - coevolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mutualism and Symbiotic Relationships

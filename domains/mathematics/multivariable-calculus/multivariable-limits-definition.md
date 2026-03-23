@@ -16,7 +16,7 @@ tags:
 - multivariable
 - epsilon-delta
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Limits of Multivariable Functions

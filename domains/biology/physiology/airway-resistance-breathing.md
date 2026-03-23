@@ -13,7 +13,7 @@ tags:
 - asthma
 - bronchoconstriction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Airway Resistance and Breathing Mechanics

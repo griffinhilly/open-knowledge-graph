@@ -15,7 +15,7 @@ tags:
 - fairness
 - distributive
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Distributive Justice Principles and Development

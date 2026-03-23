@@ -14,7 +14,7 @@ tags:
 - mapping
 - spatial-autocorrelation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Spatial Epidemiology and Geographic Analysis

@@ -13,7 +13,7 @@ tags:
 - dividends
 - growth
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dividend Growth Valuation Models

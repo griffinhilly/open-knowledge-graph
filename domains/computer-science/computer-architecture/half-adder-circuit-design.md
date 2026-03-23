@@ -14,7 +14,7 @@ tags:
 - adder
 - arithmetic-circuits
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Half Adder Circuit Design

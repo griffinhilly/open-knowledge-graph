@@ -17,7 +17,7 @@ tags:
 - partition-function
 - grand-potential
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Grand Partition Function and Grand Thermodynamic Potential

@@ -17,7 +17,7 @@ tags:
 - C(n,r)
 - unordered
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Combinations and Selections

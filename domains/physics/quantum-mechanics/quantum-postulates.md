@@ -16,7 +16,7 @@ tags:
 - foundations
 - postulates
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Postulates of Quantum Mechanics

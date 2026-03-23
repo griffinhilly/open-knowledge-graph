@@ -17,7 +17,7 @@ tags:
 - marginalized
 - voices
 stage: expert
-status: draft
+status: validated
 ---
 # Subaltern Studies and Postcolonial Historiography
 

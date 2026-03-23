@@ -16,7 +16,7 @@ tags:
 - geochronology
 - tectonics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Thermochronology and Crustal Cooling Ages

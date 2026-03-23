@@ -18,7 +18,7 @@ tags:
 - chromatic
 - parallel-mode
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chromatic Alterations and Mixture Harmony

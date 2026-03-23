@@ -17,7 +17,7 @@ tags:
 - distribution
 - economic-rights
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Property Rights and Political Justice

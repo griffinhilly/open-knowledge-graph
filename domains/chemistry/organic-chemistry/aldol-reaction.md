@@ -19,7 +19,7 @@ tags:
 - LDA
 - carbon-carbon bond formation
 stage: formal-systems
-status: draft
+status: validated
 ---
 # The Aldol Reaction
 

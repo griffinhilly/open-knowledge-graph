@@ -13,7 +13,7 @@ tags:
 - trust
 - reciprocity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Social Capital and Network Resources

@@ -17,7 +17,7 @@ tags:
 - theory-choice
 - methodology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Explanatory Power and Unification

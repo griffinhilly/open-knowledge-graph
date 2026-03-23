@@ -15,7 +15,7 @@ tags:
 - photons
 - thermal-radiation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Planck Distribution and Blackbody Radiation

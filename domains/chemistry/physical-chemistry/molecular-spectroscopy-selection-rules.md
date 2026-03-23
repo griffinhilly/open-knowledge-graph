@@ -19,7 +19,7 @@ tags:
 - transitions
 - symmetry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Selection Rules in Molecular Spectroscopy

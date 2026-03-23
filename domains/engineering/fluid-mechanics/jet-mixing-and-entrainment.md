@@ -11,7 +11,7 @@ tags:
 - mixing
 - entrainment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Incompressible Jet Flow: Mixing and Entrainment

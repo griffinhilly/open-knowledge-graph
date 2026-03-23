@@ -13,7 +13,7 @@ tags:
 - body-language
 - spatial
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Posture, Movement, and Stage Presence

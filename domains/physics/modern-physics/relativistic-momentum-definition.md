@@ -15,7 +15,7 @@ tags:
 - momentum
 - dynamics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Relativistic Momentum and Inertia

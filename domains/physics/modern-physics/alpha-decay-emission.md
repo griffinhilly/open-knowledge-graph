@@ -15,7 +15,7 @@ tags:
 - radioactivity
 - decay
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Alpha Decay and Helium Nucleus Emission

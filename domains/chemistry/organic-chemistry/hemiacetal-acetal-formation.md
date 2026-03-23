@@ -19,7 +19,7 @@ tags:
 - cyclic hemiacetal
 - glycoside
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Hemiacetal and Acetal Formation
 

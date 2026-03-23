@@ -15,7 +15,7 @@ tags:
 - redox
 - respiration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dissolved Oxygen and Biogeochemical Cycling

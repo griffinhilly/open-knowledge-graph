@@ -18,7 +18,7 @@ tags:
 - traits
 - alleles
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Dominant and Recessive Traits Introduction
 

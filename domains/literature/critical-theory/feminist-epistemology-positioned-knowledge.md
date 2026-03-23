@@ -17,7 +17,7 @@ tags:
 - standpoint
 - position
 stage: expert
-status: draft
+status: validated
 ---
 
 # Feminist Epistemology and Positioned Knowledge

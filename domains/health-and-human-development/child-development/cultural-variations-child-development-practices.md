@@ -15,7 +15,7 @@ tags:
 - cultural-norms
 - cross-cultural
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cultural Variations in Child Development Practices

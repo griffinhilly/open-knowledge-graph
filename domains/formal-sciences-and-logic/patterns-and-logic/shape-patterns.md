@@ -17,7 +17,7 @@ tags:
 - geometry
 - visual
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Shape Patterns

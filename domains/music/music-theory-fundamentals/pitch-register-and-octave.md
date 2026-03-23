@@ -15,7 +15,7 @@ tags:
 - register
 - octave
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pitch Register and Octave Identification

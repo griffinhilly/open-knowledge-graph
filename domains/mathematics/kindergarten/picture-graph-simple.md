@@ -13,7 +13,7 @@ tags:
 - graphs
 - representation
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Simple Picture Graphs

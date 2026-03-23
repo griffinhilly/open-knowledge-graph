@@ -16,7 +16,7 @@ tags:
 - categorical-logic
 - reasoning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Quantifiers: ALL, SOME, and NONE

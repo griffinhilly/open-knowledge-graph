@@ -14,7 +14,7 @@ tags:
 - atomic-physics
 - orbitals
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Atomic Orbitals: Shapes and Nodal Structure

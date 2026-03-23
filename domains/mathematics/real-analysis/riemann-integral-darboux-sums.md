@@ -16,7 +16,7 @@ tags:
 - darboux-sums
 - integrability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Riemann Integral via Darboux Sums

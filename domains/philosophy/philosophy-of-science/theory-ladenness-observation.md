@@ -14,7 +14,7 @@ tags:
 - theory-ladenness
 - interpretation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Theory-Ladenness of Observation

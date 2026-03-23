@@ -14,7 +14,7 @@ tags:
 - matching
 - algorithms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # String Matching: Naive and Optimized Approaches

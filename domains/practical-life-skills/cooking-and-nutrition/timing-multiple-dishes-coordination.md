@@ -18,7 +18,7 @@ tags:
 - organization
 - technique
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Timing Multiple Dishes Coordination

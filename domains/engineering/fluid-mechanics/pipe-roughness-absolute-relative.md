@@ -15,7 +15,7 @@ tags:
 - friction-factor
 - surface-texture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pipe Roughness: Absolute and Relative Effects on Friction

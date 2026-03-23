@@ -18,7 +18,7 @@ tags:
 - conditional
 - if-then
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conditional Statements and Implication

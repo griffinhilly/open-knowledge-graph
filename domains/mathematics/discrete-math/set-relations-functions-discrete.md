@@ -17,7 +17,7 @@ tags:
 - functions
 - equivalence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sets, Relations, and Functions in Discrete Mathematics

@@ -13,7 +13,7 @@ tags:
 - secondary-magnetization
 - alteration
 stage: expert
-status: draft
+status: validated
 ---
 
 # Secondary Magnetization and Alteration Products

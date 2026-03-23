@@ -16,7 +16,7 @@ tags:
 - t-scores
 - transformation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Standard Scores and Score Transformations

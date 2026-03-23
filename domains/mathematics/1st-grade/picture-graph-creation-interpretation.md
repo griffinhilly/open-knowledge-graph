@@ -16,7 +16,7 @@ tags:
 - representation
 - graphs
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Creating and Reading Picture Graphs

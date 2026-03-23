@@ -15,7 +15,7 @@ tags:
 - compliance
 - regulation
 stage: advanced
-status: draft
+status: validated
 ---
 # Data Integrity and Regulatory Compliance
 

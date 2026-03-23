@@ -14,7 +14,7 @@ tags:
 - architecture
 - principles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Operating System Design Principles

@@ -13,7 +13,7 @@ tags:
 - performance
 - cpu-management
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Context Switching and CPU Dispatch

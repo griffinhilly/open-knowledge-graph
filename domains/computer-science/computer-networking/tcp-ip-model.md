@@ -16,7 +16,7 @@ tags:
 - network-architecture
 - internet
 stage: advanced
-status: draft
+status: validated
 ---
 
 # TCP/IP Model and Protocol Stack

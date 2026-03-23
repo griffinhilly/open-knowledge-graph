@@ -16,7 +16,7 @@ tags:
 - formal-languages
 - language-design
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Grammar Design for Compilation

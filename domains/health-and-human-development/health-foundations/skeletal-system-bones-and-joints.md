@@ -4,7 +4,7 @@ title: "Skeletal System: Bones and Joints"
 domain: health-and-human-development
 course: health-foundations
 prerequisites:
-  - id: my-bones-and-muscles
+  - id: my-bones-hold-me-up
     type: hard
 builds-toward:
   - muscular-system-overview
@@ -13,7 +13,7 @@ builds-toward:
   - skeletal-structure-and-biomechanics
 tags: [body-systems, skeletal, bones, joints, anatomy]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Skeletal System: Bones and Joints

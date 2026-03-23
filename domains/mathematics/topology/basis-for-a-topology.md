@@ -14,7 +14,7 @@ tags:
 - topology
 - generation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Basis for a Topology

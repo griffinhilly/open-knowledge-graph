@@ -17,7 +17,7 @@ tags:
 - inputs
 - mrts
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Isoquants and Factor Substitution

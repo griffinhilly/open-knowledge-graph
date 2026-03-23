@@ -16,7 +16,7 @@ tags:
 - MTOC
 - spindle-poles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Centrosomes and Spindle Pole Bodies

@@ -19,7 +19,7 @@ tags:
 - age-stratification
 - transitions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Life Course Perspective

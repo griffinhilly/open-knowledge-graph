@@ -14,7 +14,7 @@ tags:
 - transfer-function
 - stability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Minimum Phase Systems and Factorization

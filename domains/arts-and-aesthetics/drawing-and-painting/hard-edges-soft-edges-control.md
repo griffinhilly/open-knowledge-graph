@@ -17,7 +17,7 @@ tags:
 - visual-interest
 - composition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Hard Edges and Soft Edges Control

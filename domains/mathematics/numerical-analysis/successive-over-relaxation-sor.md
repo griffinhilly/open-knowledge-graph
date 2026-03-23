@@ -13,7 +13,7 @@ tags:
 - over-relaxation
 - acceleration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Successive Over-Relaxation (SOR)

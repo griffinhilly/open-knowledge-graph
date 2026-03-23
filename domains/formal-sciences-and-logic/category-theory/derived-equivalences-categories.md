@@ -16,7 +16,7 @@ tags:
 - Morita
 - homological
 stage: expert
-status: draft
+status: validated
 ---
 
 # Derived Equivalences of Categories

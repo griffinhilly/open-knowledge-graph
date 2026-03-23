@@ -14,7 +14,7 @@ tags:
 - definition
 - properties
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Defining Consciousness

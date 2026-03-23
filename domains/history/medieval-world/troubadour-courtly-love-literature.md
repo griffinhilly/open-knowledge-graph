@@ -12,7 +12,7 @@ tags:
 - courtly-love
 - culture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Troubadours and Courtly Love Literature

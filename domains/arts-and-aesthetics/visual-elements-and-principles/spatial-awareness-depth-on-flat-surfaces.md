@@ -17,7 +17,7 @@ tags:
 - perspective
 - composition
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Spatial Awareness: Creating Depth on Flat Surfaces

@@ -17,7 +17,7 @@ tags:
 - orbit
 - night
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # The Moon and Its Phases

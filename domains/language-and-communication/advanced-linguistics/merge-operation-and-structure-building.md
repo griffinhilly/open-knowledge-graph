@@ -16,7 +16,7 @@ tags:
 - syntax
 - structure-building
 stage: expert
-status: draft
+status: validated
 ---
 
 # Merge and Structure-Building

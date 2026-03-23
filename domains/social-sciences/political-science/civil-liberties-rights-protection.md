@@ -17,7 +17,7 @@ tags:
 - freedoms
 - protection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Civil Liberties and Rights Protection Mechanisms

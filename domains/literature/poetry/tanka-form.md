@@ -14,7 +14,7 @@ tags:
 - syllabic
 - five-line
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tanka: Japanese Five-Line Form

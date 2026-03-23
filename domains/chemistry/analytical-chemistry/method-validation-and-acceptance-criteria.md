@@ -13,7 +13,7 @@ tags:
 - acceptance criteria
 - performance parameters
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Method Validation and Acceptance Criteria

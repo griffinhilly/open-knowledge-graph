@@ -20,7 +20,7 @@ tags:
 - capital
 - long-run-equilibrium
 stage: expert
-status: draft
+status: validated
 ---
 
 # Steady-State Growth and Balanced Growth Path

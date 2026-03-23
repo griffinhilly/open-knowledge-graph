@@ -16,7 +16,7 @@ tags:
 - development
 - composition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Motif and Thematic Material

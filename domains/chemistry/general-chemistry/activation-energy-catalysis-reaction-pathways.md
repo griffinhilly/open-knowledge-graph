@@ -16,7 +16,7 @@ tags:
 - reaction-pathway
 - kinetics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Activation Energy and Catalysts

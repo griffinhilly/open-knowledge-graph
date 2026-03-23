@@ -13,7 +13,7 @@ tags:
 - kernel
 - performance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Slab Allocator for Kernel Memory

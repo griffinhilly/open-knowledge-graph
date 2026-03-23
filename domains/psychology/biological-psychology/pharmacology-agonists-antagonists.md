@@ -16,7 +16,7 @@ tags:
 - pharmacology
 - behavior
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Psychopharmacology: Agonists and Antagonists

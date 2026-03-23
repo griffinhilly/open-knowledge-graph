@@ -15,7 +15,7 @@ tags:
 - SI
 - phantom
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Snapshot Isolation and Write Skew Anomalies

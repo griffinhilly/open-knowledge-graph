@@ -17,7 +17,7 @@ tags:
 - pickling
 - food-science
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fermentation and Pickling Basics

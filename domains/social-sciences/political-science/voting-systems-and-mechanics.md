@@ -16,7 +16,7 @@ tags:
 - majoritarian
 - proportional
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voting Systems and Electoral Mechanics

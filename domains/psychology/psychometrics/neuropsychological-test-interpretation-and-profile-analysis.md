@@ -15,7 +15,7 @@ tags:
 - clinical
 - brain-behavior
 stage: expert
-status: draft
+status: validated
 ---
 
 # Neuropsychological Assessment: Test Batteries and Profile Interpretation

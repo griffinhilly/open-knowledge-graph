@@ -11,7 +11,7 @@ tags:
 - demand
 - cost-minimization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conditional Factor Demand

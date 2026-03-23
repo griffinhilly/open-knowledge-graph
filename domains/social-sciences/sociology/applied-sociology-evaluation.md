@@ -17,7 +17,7 @@ tags:
 - program-evaluation
 - community-partnerships
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Applied Sociology and Program Evaluation

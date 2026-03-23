@@ -15,7 +15,7 @@ tags:
 - light
 - sound
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Forms of Energy: Heat, Light, and Sound
 

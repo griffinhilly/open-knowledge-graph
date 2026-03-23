@@ -17,7 +17,7 @@ tags:
 - measurable-functions
 - definitions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Random Variables as Measurable Functions

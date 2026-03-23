@@ -15,7 +15,7 @@ tags:
 - encapsulation
 - virtual-networks
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Overlay Networks and Tunneling

@@ -13,7 +13,7 @@ tags:
 - expected-value
 - mean
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Expected Value: Theory and Properties

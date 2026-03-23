@@ -16,7 +16,7 @@ tags:
 - fundamentality
 - grounding
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Truthmakers and Fundamental Facts

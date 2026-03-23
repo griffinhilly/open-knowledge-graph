@@ -16,7 +16,7 @@ tags:
 - rationalization
 - modernity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Max Weber and Rationalization in Modernity

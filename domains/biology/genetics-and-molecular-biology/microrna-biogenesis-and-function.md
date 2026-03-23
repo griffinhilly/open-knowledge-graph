@@ -15,7 +15,7 @@ tags:
 - post-transcriptional-control
 - non-coding-rna
 stage: formal-systems
-status: draft
+status: validated
 ---
 # microRNA Biogenesis and Target Recognition
 

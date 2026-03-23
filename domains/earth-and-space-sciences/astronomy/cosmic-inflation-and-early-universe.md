@@ -15,7 +15,7 @@ tags:
 - early-universe
 - cosmology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cosmic Inflation and Early Universe Dynamics

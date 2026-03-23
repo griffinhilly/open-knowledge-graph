@@ -14,7 +14,7 @@ tags:
 - propagation
 - epidemic
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Gossip Algorithms and Convergence Properties

@@ -13,7 +13,7 @@ tags:
 - multiples
 - financial-analysis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Enterprise Value and Valuation Multiples

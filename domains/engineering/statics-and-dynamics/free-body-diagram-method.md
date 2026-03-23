@@ -18,7 +18,7 @@ tags:
 - isolation
 - forces
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Free-Body Diagram Method

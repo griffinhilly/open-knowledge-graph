@@ -13,7 +13,7 @@ tags:
 - autosegmental
 - features
 stage: expert
-status: draft
+status: validated
 ---
 
 # Autosegmental Phonology

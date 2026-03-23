@@ -15,7 +15,7 @@ tags:
 - interval-estimation
 - t-distribution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Confidence Intervals for Means

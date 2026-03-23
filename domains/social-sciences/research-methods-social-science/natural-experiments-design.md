@@ -14,7 +14,7 @@ tags:
 - policy-variation
 - validity-threats
 stage: expert
-status: draft
+status: validated
 ---
 
 # Natural Experiments and Quasi-Experimental Design

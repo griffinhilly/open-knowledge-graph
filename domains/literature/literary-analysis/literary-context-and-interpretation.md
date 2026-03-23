@@ -16,7 +16,7 @@ tags:
 - cultural
 - interpretation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Historical and Cultural Context in Literary Interpretation

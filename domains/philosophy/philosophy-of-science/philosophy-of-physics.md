@@ -14,7 +14,7 @@ tags:
 - quantum
 - relativity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Philosophy of Physics

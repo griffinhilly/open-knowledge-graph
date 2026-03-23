@@ -16,7 +16,7 @@ tags:
 - model-theoretic geometry
 - Zilber-Pink
 stage: expert
-status: draft
+status: validated
 ---
 
 # Definability and Applications to Algebraic Geometry

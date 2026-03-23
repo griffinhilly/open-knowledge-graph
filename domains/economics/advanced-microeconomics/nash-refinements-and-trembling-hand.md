@@ -14,7 +14,7 @@ tags:
 - game-theory
 - equilibrium-selection
 stage: expert
-status: draft
+status: validated
 ---
 
 # Nash Refinements: Trembling Hand Perfection

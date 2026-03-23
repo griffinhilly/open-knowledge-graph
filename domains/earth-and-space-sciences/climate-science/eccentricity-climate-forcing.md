@@ -15,7 +15,7 @@ tags:
 - cycles
 - 100-ka
 stage: expert
-status: draft
+status: validated
 ---
 
 # Orbital Eccentricity and Climate Forcing

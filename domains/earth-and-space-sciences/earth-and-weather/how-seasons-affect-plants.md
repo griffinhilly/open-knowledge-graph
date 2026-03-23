@@ -13,7 +13,7 @@ tags:
 - life-science
 - growth-cycles
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # How Seasons Affect Plants

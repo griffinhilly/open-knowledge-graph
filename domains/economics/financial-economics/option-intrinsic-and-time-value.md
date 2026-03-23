@@ -15,7 +15,7 @@ tags:
 - valuation
 - option-pricing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Option Intrinsic Value and Time Value

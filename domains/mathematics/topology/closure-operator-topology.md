@@ -13,7 +13,7 @@ tags:
 - closure
 - operators
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Closure of Sets

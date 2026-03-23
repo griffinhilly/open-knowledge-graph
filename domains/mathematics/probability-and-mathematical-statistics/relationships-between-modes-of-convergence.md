@@ -20,7 +20,7 @@ tags:
 - implications
 - hierarchy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Relationships Between Modes of Convergence

@@ -14,7 +14,7 @@ tags:
 - canon
 - historiography
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Gender and Representation in Music History

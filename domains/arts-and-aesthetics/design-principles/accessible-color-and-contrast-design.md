@@ -18,7 +18,7 @@ tags:
 - contrast
 - wcag
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Accessible Color and Contrast Design

@@ -14,7 +14,7 @@ tags:
 - boundaries
 - classification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermodynamic Systems and System Boundaries

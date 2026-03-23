@@ -15,7 +15,7 @@ tags:
 - estimation
 - statistics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Method of Moments

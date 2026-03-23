@@ -20,7 +20,7 @@ tags:
 - negative-selection
 - lymphocyte-development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lymphocyte Development Checkpoints and Selection

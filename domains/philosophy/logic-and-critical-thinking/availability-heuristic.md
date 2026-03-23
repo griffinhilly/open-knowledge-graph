@@ -12,7 +12,7 @@ tags:
 - heuristics
 - risk-perception
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Availability Heuristic

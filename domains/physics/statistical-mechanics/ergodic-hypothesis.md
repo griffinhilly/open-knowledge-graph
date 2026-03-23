@@ -16,7 +16,7 @@ tags:
 - dynamics
 - equivalence
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Ergodic Hypothesis

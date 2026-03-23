@@ -16,7 +16,7 @@ tags:
 - sensitivity
 - price-change
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Price Elasticity of Demand

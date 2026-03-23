@@ -18,7 +18,7 @@ tags:
 - staging
 - design
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dramatic Space and Setting as Active Element

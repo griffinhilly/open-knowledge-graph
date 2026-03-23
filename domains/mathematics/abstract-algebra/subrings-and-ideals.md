@@ -14,7 +14,7 @@ tags:
 - ideals
 - substructure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Subrings and Ideals

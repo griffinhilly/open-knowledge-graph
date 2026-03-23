@@ -17,7 +17,7 @@ tags:
 - consensus
 - fault-tolerance
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Paxos Consensus Algorithm

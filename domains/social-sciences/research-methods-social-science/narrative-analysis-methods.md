@@ -14,7 +14,7 @@ tags:
 - identity
 - meaning-making
 stage: expert
-status: draft
+status: validated
 ---
 # Narrative Analysis
 

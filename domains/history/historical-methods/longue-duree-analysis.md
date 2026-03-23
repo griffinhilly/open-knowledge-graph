@@ -16,7 +16,7 @@ tags:
 - time-scales
 - methodology
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Longue Durée and Structural Analysis

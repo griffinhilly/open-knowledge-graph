@@ -14,7 +14,7 @@ tags:
 - queries
 - research
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Basic Web Searching Techniques

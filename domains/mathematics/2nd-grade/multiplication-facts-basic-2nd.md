@@ -16,7 +16,7 @@ tags:
 - multiplication
 - fluency
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Basic Multiplication Facts (0s, 1s, 2s, 5s, 10s)

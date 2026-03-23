@@ -15,7 +15,7 @@ tags:
 - evolution
 - antibiotics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Antibiotic Resistance: Genetic Mechanisms and Evolution

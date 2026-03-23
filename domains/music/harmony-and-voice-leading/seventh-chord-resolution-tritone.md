@@ -17,7 +17,7 @@ tags:
 - dissonance-resolution
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Seventh Chord Resolution and Tritone Voice Leading

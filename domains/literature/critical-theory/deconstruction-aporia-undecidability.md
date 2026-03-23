@@ -16,7 +16,7 @@ tags:
 - undecidability
 - trace
 stage: expert
-status: draft
+status: validated
 ---
 
 # Deconstruction, Aporia, and Undecidability

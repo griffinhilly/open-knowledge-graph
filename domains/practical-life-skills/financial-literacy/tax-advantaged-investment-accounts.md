@@ -17,7 +17,7 @@ tags:
 - accounts
 - tax-strategy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tax-Advantaged Investment Accounts

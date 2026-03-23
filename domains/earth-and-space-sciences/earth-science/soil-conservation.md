@@ -21,7 +21,7 @@ tags:
 - topsoil
 - dust-bowl
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Soil Conservation

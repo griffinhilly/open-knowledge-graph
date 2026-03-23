@@ -18,7 +18,7 @@ tags:
 - meso-compounds
 - enumeration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Counting and Classifying Stereoisomers

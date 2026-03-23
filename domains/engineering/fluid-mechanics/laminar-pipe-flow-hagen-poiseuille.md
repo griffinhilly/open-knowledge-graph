@@ -15,7 +15,7 @@ tags:
 - pipe-flow
 - analytical
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Laminar Pipe Flow (Hagen-Poiseuille)

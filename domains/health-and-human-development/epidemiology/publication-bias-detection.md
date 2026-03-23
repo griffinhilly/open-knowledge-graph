@@ -13,7 +13,7 @@ tags:
 - selective-reporting
 - meta-analysis-bias
 stage: expert
-status: draft
+status: validated
 ---
 
 # Publication Bias and Reporting Bias

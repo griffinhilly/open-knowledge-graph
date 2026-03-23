@@ -14,7 +14,7 @@ tags:
 - envelope
 - phase
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hilbert Transform and Analytic Signals

@@ -15,7 +15,7 @@ tags:
 - loop-current
 - systematic-method
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mesh Analysis Method

@@ -15,7 +15,7 @@ tags:
 - constraints
 - formalism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Formal Phonotactics: Constraints on Sound Sequences

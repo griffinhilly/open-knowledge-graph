@@ -13,7 +13,7 @@ tags:
 - relations
 - binary
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binary Relations

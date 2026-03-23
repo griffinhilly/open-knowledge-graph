@@ -14,7 +14,7 @@ tags:
 - excited-states
 - reactions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Photochemistry and Photochemical Reaction Pathways

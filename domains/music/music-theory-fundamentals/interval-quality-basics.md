@@ -19,7 +19,7 @@ tags:
 - major
 - minor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interval Quality Basics

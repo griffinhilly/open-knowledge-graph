@@ -19,7 +19,7 @@ tags:
 - institutions
 - incentives
 stage: expert
-status: draft
+status: validated
 ---
 
 # Introduction to Mechanism Design

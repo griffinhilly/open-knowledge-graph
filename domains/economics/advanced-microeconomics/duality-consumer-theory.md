@@ -17,7 +17,7 @@ tags:
 - optimization
 - utility
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Duality in Consumer Theory

@@ -18,7 +18,7 @@ tags:
 - bayes-theorem
 - conditional-independence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Naive Bayes Classifier

@@ -12,7 +12,7 @@ tags:
 - 19th-century
 - literary-history
 stage: expert
-status: draft
+status: validated
 ---
 
 # European Romanticism: Comparative Movements

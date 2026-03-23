@@ -18,7 +18,7 @@ tags:
 - truth
 - objectivity
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Problem of Historical Objectivity

@@ -21,7 +21,7 @@ tags:
 - extended-harmony
 - alteration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chromatic Alterations and Borrowed Chords by Ear

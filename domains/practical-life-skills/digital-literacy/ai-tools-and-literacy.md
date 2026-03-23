@@ -14,7 +14,7 @@ tags:
 - critical-thinking
 - ethics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # AI Tools and Literacy

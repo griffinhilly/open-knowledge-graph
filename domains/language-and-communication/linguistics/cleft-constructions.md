@@ -14,7 +14,7 @@ tags:
 - pragmatics
 - focus
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cleft Constructions

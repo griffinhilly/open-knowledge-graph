@@ -17,7 +17,7 @@ tags:
 - bernoulli
 - trials
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binomial Distribution

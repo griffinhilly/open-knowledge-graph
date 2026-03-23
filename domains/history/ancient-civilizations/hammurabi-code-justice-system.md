@@ -14,7 +14,7 @@ tags:
 - justice
 - Hammurabi
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Code of Hammurabi and Codified Law

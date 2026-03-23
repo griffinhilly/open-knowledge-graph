@@ -16,7 +16,7 @@ tags:
 - gutters
 - weather protection
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Roof and Gutter Systems: Structure and Maintenance

@@ -15,7 +15,7 @@ tags:
 - cantor
 - real-numbers
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Uncountable Sets and Cantor Diagonalization

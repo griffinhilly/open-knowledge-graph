@@ -15,7 +15,7 @@ tags:
 - AST
 - semantics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Visitor Pattern for AST Traversal

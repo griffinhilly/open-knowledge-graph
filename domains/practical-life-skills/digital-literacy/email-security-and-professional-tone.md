@@ -15,7 +15,7 @@ tags:
 - communication
 - professionalism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Email Safety & Professional Communication

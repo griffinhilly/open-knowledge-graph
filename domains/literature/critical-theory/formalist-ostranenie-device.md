@@ -17,7 +17,7 @@ tags:
 - device
 - form
 stage: expert
-status: draft
+status: validated
 ---
 
 # Formalist Defamiliarization (Ostranenie) and Literary Device

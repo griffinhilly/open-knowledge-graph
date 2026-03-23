@@ -13,7 +13,7 @@ tags:
 - triggering
 - earthquakes
 stage: expert
-status: draft
+status: validated
 ---
 
 # Coulomb Stress Transfer and Earthquake Triggering

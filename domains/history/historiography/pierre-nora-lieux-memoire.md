@@ -14,7 +14,7 @@ tags:
 - sites-of-memory
 - national-memory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pierre Nora and Lieux de Mémoire

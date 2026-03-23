@@ -15,7 +15,7 @@ tags:
 - citizen-assemblies
 - direct-participation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Participatory Democracy

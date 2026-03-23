@@ -16,7 +16,7 @@ tags:
 - sequence
 - fluency
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Counting to 100

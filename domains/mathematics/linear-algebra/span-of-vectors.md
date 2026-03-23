@@ -14,7 +14,7 @@ tags:
 - linear-combination
 - closure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Span and Linear Combinations

@@ -19,7 +19,7 @@ tags:
 - tracking
 - surplus-deficit
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cash Flow Analysis and Management

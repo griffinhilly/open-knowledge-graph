@@ -16,7 +16,7 @@ tags:
 - wireless
 - csma-ca
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Wireless Networking (802.11 WiFi)

@@ -20,7 +20,7 @@ tags:
 - silencers
 - insulators
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Promoters, Enhancers, Silencers, and Cis-Acting Elements

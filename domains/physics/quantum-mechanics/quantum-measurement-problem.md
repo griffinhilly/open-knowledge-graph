@@ -15,7 +15,7 @@ tags:
 - problem
 - foundations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Quantum Measurement Problem

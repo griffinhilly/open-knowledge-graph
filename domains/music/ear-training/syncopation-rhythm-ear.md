@@ -19,7 +19,7 @@ tags:
 - dictation
 - jazz
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Syncopation Recognition and Dictation

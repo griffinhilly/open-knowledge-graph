@@ -17,7 +17,7 @@ tags:
 - polarity
 - dissolving
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Water: The Universal Solvent
 

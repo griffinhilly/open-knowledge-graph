@@ -13,7 +13,7 @@ tags:
 - placement
 - availability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Replica Placement Strategies

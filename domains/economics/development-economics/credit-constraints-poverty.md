@@ -15,7 +15,7 @@ tags:
 - credit
 - constraints
 stage: expert
-status: draft
+status: validated
 ---
 
 # Credit Constraints and Poverty Persistence

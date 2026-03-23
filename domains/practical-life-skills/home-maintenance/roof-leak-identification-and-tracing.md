@@ -18,7 +18,7 @@ tags:
 - detection
 - tracing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Roof Leak Identification and Tracing

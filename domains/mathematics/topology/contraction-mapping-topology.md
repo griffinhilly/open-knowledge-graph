@@ -12,7 +12,7 @@ tags:
 - fixed-points
 - contraction
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Contraction Mapping Theorem (Banach Fixed Point)

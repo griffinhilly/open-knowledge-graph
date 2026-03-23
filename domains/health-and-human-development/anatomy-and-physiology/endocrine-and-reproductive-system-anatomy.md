@@ -13,7 +13,7 @@ tags:
 - gonad
 - pituitary
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Endocrine and Reproductive System Anatomy
 

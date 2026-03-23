@@ -15,7 +15,7 @@ tags:
 - growing-block
 - becoming
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Growing Block Theory of Time

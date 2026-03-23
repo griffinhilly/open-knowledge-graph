@@ -15,7 +15,7 @@ tags:
 - recovery
 - modeling
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Default Probability and Recovery Rate Estimation
 

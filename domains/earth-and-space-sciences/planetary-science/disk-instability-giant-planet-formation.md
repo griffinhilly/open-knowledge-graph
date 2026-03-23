@@ -17,7 +17,7 @@ tags:
 - gravitational-instability
 - fragmentation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Disk Instability and Direct Fragmentation in Giant Planet Formation

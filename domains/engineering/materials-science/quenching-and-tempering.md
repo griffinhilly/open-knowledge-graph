@@ -18,7 +18,7 @@ tags:
 - cct-diagram
 - hardenability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Quenching and Tempering

@@ -18,7 +18,7 @@ tags:
 - Stone's theorem
 - set operations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Boolean Algebras of Sets

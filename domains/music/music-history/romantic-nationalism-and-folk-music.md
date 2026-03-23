@@ -15,7 +15,7 @@ tags:
 - romantic
 - identity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Romantic Nationalism and Folk Music Integration

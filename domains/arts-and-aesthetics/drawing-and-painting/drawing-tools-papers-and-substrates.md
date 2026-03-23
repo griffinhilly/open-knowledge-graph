@@ -16,7 +16,7 @@ tags:
 - equipment
 - texture
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Drawing Tools, Papers, and Painting Substrates

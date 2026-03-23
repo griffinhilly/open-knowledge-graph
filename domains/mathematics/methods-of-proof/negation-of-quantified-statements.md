@@ -16,7 +16,7 @@ tags:
 - quantifiers
 - negation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Negation of Quantified Statements

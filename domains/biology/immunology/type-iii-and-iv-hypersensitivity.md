@@ -15,7 +15,7 @@ tags:
 - immune-complex
 - delayed
 stage: expert
-status: draft
+status: validated
 ---
 
 # Type III and Type IV Hypersensitivity Reactions

@@ -10,7 +10,7 @@ tags:
 - auction-theory
 - mechanism-design
 stage: expert
-status: draft
+status: validated
 ---
 
 # Auction Design: First-Price and Second-Price Sealed-Bid Auctions

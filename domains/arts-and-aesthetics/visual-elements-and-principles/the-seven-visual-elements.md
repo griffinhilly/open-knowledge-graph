@@ -18,7 +18,7 @@ tags:
 - foundational
 - vocabulary
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # The Seven Visual Elements

@@ -16,7 +16,7 @@ tags:
 - hypothetical
 - formal-register
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Subjunctive Mood

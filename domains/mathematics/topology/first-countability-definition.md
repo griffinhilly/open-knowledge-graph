@@ -12,7 +12,7 @@ tags:
 - first-countability
 - countability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # First Countability and Bases

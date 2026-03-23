@@ -16,7 +16,7 @@ tags:
 - capacity
 - volume
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Introduction to Capacity

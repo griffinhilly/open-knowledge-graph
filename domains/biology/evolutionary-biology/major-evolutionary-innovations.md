@@ -19,7 +19,7 @@ tags:
 - evolution
 - constraint
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Evolution of Major Novelties and Body Plans

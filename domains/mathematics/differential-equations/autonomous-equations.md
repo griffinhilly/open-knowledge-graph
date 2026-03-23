@@ -15,7 +15,7 @@ tags:
 - qualitative
 - equilibrium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Autonomous Equations and Equilibrium Solutions

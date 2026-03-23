@@ -14,7 +14,7 @@ tags:
 - social-sources
 - justification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Testimony as a Source of Justification

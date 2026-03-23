@@ -13,7 +13,7 @@ tags:
 - iteration
 - branching-pipes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pipe Network Analysis: Hardy-Cross Iteration Method

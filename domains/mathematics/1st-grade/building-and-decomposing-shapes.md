@@ -15,7 +15,7 @@ tags:
 - composition
 - decomposition
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Building and Decomposing Shapes

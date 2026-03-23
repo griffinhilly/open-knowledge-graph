@@ -11,7 +11,7 @@ tags:
 - order
 - partial-orders
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Partial Orders

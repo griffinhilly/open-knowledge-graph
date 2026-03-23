@@ -14,7 +14,7 @@ tags:
 - nhej
 - double-strand-break
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Non-Homologous End Joining (NHEJ) and DSB Repair

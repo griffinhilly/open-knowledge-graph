@@ -13,7 +13,7 @@ tags:
 - surfaces
 - forces
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # What Is Friction?
 

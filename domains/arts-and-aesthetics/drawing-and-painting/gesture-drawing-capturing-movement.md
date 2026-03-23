@@ -17,7 +17,7 @@ tags:
 - figure
 - expressiveness
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Gesture Drawing: Capturing Movement and Action

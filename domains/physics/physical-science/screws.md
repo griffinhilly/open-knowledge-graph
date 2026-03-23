@@ -13,7 +13,7 @@ tags:
 - simple-machine
 - spiral
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Screws
 

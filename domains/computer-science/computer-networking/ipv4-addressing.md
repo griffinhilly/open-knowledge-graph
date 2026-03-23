@@ -18,7 +18,7 @@ tags:
 - classes
 - layer-3
 stage: advanced
-status: draft
+status: validated
 ---
 
 # IPv4 Addressing and Address Classes

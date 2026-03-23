@@ -14,7 +14,7 @@ tags:
 - resistivity
 - material
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electrical Resistance and Resistivity

@@ -14,7 +14,7 @@ tags:
 - adolescence
 - social-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Peer Influence and Conformity in Social Development

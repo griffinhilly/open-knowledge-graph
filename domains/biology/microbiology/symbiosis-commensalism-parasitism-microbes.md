@@ -15,7 +15,7 @@ tags:
 - interactions
 - ecology
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Symbiosis, Commensalism, and Parasitism in Microbes

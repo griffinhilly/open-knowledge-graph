@@ -14,7 +14,7 @@ tags:
 - universal-properties
 - categorical-structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Monomorphisms and Epimorphisms

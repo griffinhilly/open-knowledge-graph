@@ -17,7 +17,7 @@ tags:
 - buffer layer
 - law of the wall
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Turbulent Boundary Layers
 

@@ -18,7 +18,7 @@ tags:
 - forces
 - charged particles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lorentz Force on Moving Charges

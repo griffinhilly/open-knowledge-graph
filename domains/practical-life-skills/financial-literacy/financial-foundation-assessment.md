@@ -19,7 +19,7 @@ tags:
 - baseline
 - net-worth
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Financial Foundation Assessment

@@ -16,7 +16,7 @@ tags:
 - playful
 - fragmentation
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Postmodern Metafictional Play
 

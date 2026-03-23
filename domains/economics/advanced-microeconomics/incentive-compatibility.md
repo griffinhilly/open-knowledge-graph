@@ -14,7 +14,7 @@ tags:
 - truthfulness
 - incentives
 stage: expert
-status: draft
+status: validated
 ---
 
 # Incentive Compatibility

@@ -17,7 +17,7 @@ tags:
 - giddens
 - theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Agency-Structure Problem

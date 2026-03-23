@@ -17,7 +17,7 @@ tags:
 - storytelling
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Narrative Structure and Persuasion

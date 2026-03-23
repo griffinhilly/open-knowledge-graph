@@ -13,7 +13,7 @@ tags:
 - pulsations
 - asteroseismology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Variable Stars and Stellar Pulsations

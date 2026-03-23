@@ -17,7 +17,7 @@ tags:
 - commons
 - interdependence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cooperation and Social Dilemmas

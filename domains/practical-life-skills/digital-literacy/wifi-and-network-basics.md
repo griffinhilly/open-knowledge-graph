@@ -14,7 +14,7 @@ tags:
 - router
 - security
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # WiFi and Network Basics

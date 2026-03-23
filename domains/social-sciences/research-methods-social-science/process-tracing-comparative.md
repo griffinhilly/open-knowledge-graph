@@ -17,7 +17,7 @@ tags:
 - qualitative
 - case-study
 stage: expert
-status: draft
+status: validated
 ---
 
 # Process Tracing in Comparative Research

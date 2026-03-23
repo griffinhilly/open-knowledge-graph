@@ -11,7 +11,7 @@ tags:
 - flow
 - groundwater
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Groundwater Flow, Porosity, and Aquifer Properties

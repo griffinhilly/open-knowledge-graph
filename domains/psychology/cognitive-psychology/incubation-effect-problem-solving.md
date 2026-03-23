@@ -15,7 +15,7 @@ tags:
 - insight
 - unconscious-processing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Incubation Effects and Unconscious Problem Solving

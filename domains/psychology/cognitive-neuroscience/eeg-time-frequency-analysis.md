@@ -26,7 +26,7 @@ tags:
 - gamma
 - time-frequency
 stage: expert
-status: draft
+status: validated
 ---
 
 # EEG Time-Frequency Analysis and Neural Oscillations

@@ -18,7 +18,7 @@ tags:
 - transition
 - lyric
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Aubade: The Dawn-Greeting Poem

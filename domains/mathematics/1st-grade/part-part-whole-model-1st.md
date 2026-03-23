@@ -16,7 +16,7 @@ tags:
 - model
 - composition
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Part-Part-Whole Relationships

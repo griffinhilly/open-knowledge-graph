@@ -15,7 +15,7 @@ tags:
 - sovereignty
 - human-rights
 stage: expert
-status: draft
+status: validated
 ---
 
 # Humanitarian Intervention and the Sovereignty Dilemma

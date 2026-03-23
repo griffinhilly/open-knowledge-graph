@@ -17,7 +17,7 @@ tags:
 - supernova
 - equation-of-state
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Neutron Star Formation and Core Collapse

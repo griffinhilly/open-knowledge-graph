@@ -15,7 +15,7 @@ tags:
 - PTSD
 - trauma
 stage: expert
-status: draft
+status: validated
 ---
 
 # Posttraumatic Stress Disorder

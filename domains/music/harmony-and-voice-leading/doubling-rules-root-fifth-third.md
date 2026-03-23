@@ -12,7 +12,7 @@ tags:
 - four-part-writing
 - chord-voicing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Doubling Conventions in Major and Minor Triads

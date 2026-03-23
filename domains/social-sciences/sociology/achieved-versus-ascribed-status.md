@@ -14,7 +14,7 @@ tags:
 - social-position
 - role
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Achieved versus Ascribed Status and Social Position

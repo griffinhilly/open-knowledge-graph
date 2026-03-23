@@ -17,7 +17,7 @@ tags:
 - organelles
 - cell-physiology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Eukaryotic Cell Compartmentalization and Functional Specialization

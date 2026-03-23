@@ -15,7 +15,7 @@ tags:
 - equivalence
 - network reduction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thévenin and Norton Circuit Equivalents

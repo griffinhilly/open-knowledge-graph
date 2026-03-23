@@ -17,7 +17,7 @@ tags:
 - computational
 - qualitative-quantitative
 stage: expert
-status: draft
+status: validated
 ---
 
 # Computational Text Analysis for Social Data

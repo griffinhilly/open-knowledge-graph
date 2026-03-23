@@ -21,7 +21,7 @@ tags:
 - markov-models
 - optimization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Markov Decision Processes

@@ -15,7 +15,7 @@ tags:
 - patterns
 - synchronization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Condition Variables: Usage Patterns and Pitfalls

@@ -15,7 +15,7 @@ tags:
 - literal
 - speaker-meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Literal Meaning and Speaker Meaning

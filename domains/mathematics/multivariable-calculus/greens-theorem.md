@@ -15,7 +15,7 @@ tags:
 - greens-theorem
 - circulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Green's Theorem

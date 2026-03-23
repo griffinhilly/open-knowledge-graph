@@ -15,7 +15,7 @@ tags:
 - statistics
 - bayesian
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bayesian Phylogenetics

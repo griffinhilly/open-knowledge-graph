@@ -18,7 +18,7 @@ tags:
 - weber
 - institutions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Institutional Legitimacy and Compliance

@@ -17,7 +17,7 @@ tags:
 - convergence
 - grading
 stage: expert
-status: draft
+status: validated
 ---
 
 # Spectral Sequences and Filtrations

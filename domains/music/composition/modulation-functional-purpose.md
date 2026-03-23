@@ -18,7 +18,7 @@ tags:
 - structure
 - function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Modulation: Function and Structural Purpose

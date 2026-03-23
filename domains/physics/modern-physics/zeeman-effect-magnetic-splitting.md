@@ -15,7 +15,7 @@ tags:
 - energy-levels
 - atomic-physics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Zeeman Effect: Magnetic Field Splitting of Energy Levels

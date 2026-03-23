@@ -19,7 +19,7 @@ tags:
 - von-neumann
 - foundation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Cumulative Hierarchy and Ranks

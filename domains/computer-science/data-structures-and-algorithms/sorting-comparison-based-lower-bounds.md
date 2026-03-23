@@ -17,7 +17,7 @@ tags:
 - lower-bounds
 - comparison
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Comparison-Based Sorting: Lower Bounds and Optimality

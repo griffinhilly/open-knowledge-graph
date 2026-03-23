@@ -22,7 +22,7 @@ tags:
 - energy-balance
 - closed-systems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # First Law of Thermodynamics for Closed Systems

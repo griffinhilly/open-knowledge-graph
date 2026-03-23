@@ -16,7 +16,7 @@ tags:
 - nature
 - climate
 stage: expert
-status: draft
+status: validated
 ---
 
 # Environmental History

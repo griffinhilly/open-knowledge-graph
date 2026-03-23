@@ -16,7 +16,7 @@ tags:
 - NACA profiles
 - pressure distribution
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Airfoil Aerodynamics
 

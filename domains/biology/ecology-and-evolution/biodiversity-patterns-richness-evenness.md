@@ -18,7 +18,7 @@ tags:
 - diversity-gradients
 - latitudinal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Biodiversity Patterns: Richness, Evenness, and Gradients

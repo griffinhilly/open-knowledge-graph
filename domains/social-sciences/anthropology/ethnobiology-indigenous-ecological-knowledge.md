@@ -16,7 +16,7 @@ tags:
 - plants
 - animals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ethnobiology and Indigenous Ecological Knowledge

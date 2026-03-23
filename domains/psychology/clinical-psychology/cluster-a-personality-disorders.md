@@ -11,7 +11,7 @@ tags:
 - paranoia
 - schizoid
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cluster A Personality Disorders (Odd/Eccentric)

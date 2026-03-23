@@ -16,7 +16,7 @@ tags:
 - huygen-principle
 - wave-bending
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diffraction and Huygens' Principle

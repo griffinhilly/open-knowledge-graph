@@ -15,7 +15,7 @@ tags:
 - mass
 - composition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Planetary Mass Determination

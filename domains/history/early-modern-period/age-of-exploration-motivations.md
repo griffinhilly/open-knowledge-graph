@@ -17,7 +17,7 @@ tags:
 - trade
 - empire
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Motivations for Early Modern Exploration

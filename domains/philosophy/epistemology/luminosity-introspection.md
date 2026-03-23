@@ -15,7 +15,7 @@ tags:
 - higher-order
 - williamson
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Luminosity and the KK Principle

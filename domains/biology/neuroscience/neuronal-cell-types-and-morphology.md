@@ -17,7 +17,7 @@ tags:
 - morphology
 - classification
 stage: expert
-status: draft
+status: validated
 ---
 
 # Neuronal Cell Types and Morphology

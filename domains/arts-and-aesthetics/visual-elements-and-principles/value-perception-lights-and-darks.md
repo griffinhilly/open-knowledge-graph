@@ -18,7 +18,7 @@ tags:
 - contrast
 - tone
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Value Perception: Lights and Darks

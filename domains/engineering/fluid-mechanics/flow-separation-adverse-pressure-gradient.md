@@ -13,7 +13,7 @@ tags:
 - boundary-layer
 - pressure-gradient
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Flow Separation: Adverse Pressure Gradient Mechanics

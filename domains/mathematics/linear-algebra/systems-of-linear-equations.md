@@ -14,7 +14,7 @@ tags:
 - linear equations
 - ax=b
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Systems of Linear Equations and Matrix Form

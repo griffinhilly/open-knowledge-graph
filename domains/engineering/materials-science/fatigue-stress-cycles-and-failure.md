@@ -13,7 +13,7 @@ tags:
 - cycles-to-failure
 - notch-sensitivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fatigue and Cyclic Stress Failure

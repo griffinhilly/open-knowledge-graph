@@ -19,7 +19,7 @@ tags:
 - nomenclature
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Haloalkane Structure and Nomenclature

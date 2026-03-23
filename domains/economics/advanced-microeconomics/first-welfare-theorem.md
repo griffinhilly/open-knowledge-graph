@@ -14,7 +14,7 @@ tags:
 - welfare-economics
 - market-efficiency
 stage: expert
-status: draft
+status: validated
 ---
 
 # First Welfare Theorem: Competitive Equilibrium Is Efficient

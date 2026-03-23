@@ -16,7 +16,7 @@ tags:
 - helper
 - cytokines
 stage: expert
-status: draft
+status: validated
 ---
 
 # CD4+ T Helper Cells

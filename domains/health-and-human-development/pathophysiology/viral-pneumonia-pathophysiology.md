@@ -16,7 +16,7 @@ tags:
 - cytotoxicity
 - immune-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # Viral Pneumonia: Host Immune Response, Cytotoxicity, and Secondary Infection

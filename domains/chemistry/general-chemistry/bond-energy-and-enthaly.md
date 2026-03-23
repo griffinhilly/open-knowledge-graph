@@ -16,7 +16,7 @@ tags:
 - bond breaking
 - bond formation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bond Energy and Enthalpy Change

@@ -15,7 +15,7 @@ tags:
 - maximal
 - prime
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Maximal and Prime Ideals

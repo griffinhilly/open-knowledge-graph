@@ -17,7 +17,7 @@ tags:
 - attitude-change
 - motivation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Consistency Principle and Cognitive Coherence

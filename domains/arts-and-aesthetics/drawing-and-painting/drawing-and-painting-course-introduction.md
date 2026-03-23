@@ -15,7 +15,7 @@ tags:
 - painting
 - visual-arts
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Drawing & Painting Course Overview
 

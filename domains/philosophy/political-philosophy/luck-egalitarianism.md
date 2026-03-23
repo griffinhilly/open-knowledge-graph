@@ -16,7 +16,7 @@ tags:
 - option-luck
 - responsibility
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Luck Egalitarianism

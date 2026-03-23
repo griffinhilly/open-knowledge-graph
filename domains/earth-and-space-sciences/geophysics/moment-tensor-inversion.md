@@ -14,7 +14,7 @@ tags:
 - source-inversion
 - focal-mechanism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Moment Tensor Inversion

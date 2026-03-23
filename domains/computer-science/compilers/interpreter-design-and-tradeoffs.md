@@ -13,7 +13,7 @@ tags:
 - execution
 - performance
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Interpreter Design and Execution Models

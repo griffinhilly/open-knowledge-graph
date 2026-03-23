@@ -16,7 +16,7 @@ tags:
 - social-facts
 - methodology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Émile Durkheim and Social Facts

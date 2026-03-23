@@ -18,7 +18,7 @@ tags:
 - type-checking
 - language-semantics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Semantic Analysis Phase

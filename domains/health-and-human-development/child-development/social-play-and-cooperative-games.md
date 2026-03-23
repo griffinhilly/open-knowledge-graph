@@ -20,7 +20,7 @@ tags:
 - peer-interaction
 - peer-competence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Social Play and Cooperative Games

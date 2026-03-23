@@ -20,7 +20,7 @@ tags:
 - value
 - forgery
 stage: expert
-status: draft
+status: validated
 ---
 
 # Artistic Authenticity and Copies

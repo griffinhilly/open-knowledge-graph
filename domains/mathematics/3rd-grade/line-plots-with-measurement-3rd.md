@@ -15,7 +15,7 @@ tags:
 - line-plots
 - measurement
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Creating and Interpreting Line Plots

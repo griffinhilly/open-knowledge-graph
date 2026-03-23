@@ -15,7 +15,7 @@ tags:
 - far-field
 - diffraction-pattern
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fraunhofer Diffraction: Far-Field Diffraction Patterns

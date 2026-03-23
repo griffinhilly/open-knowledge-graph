@@ -13,7 +13,7 @@ tags:
 - symmetric-matrices
 - spectral-theorem
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Symmetric Matrices and the Spectral Theorem

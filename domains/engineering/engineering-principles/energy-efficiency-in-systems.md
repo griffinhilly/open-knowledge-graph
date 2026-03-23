@@ -22,7 +22,7 @@ tags:
 - losses
 - optimization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Energy Efficiency in Engineering Systems
 

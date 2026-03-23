@@ -16,7 +16,7 @@ tags:
 - compressible
 - thermodynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Static Pressure and Temperature Relations in Compressible Flow

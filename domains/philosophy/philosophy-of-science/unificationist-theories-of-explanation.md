@@ -13,7 +13,7 @@ tags:
 - unification
 - understanding
 stage: expert
-status: draft
+status: validated
 ---
 
 # Unificationist Theories of Explanation

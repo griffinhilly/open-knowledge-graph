@@ -17,7 +17,7 @@ tags:
 - forward-contracts
 - no-arbitrage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Spot Rates, Forward Rates, and No-Arbitrage Relationships

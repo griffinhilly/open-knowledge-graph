@@ -16,7 +16,7 @@ tags:
 - explanation
 - reasoning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Identifying and Analyzing Historical Causation

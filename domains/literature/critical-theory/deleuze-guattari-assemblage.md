@@ -16,7 +16,7 @@ tags:
 - becoming
 - rhizome
 stage: expert
-status: draft
+status: validated
 ---
 
 # Deleuze and Guattari's Assemblage Theory and Becoming

@@ -17,7 +17,7 @@ tags:
 - pivot-chord
 - technique
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pivot Chord Modulation Process

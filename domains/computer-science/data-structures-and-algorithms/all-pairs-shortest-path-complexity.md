@@ -11,7 +11,7 @@ tags:
 - algorithms
 - dynamic-programming
 stage: advanced
-status: draft
+status: validated
 ---
 
 # All-Pairs Shortest Paths: Floyd-Warshall Analysis

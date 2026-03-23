@@ -15,7 +15,7 @@ tags:
 - argument-evaluation
 - critical-thinking
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Evaluating the Relevance of Premises

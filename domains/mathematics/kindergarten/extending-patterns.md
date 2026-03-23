@@ -13,7 +13,7 @@ tags:
 - sequencing
 - continuation
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Extending Repeating Patterns

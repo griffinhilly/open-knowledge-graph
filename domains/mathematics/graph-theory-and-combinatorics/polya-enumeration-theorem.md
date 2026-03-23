@@ -10,7 +10,7 @@ tags:
 - combinatorics
 - enumeration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pólya Enumeration Theorem

@@ -16,7 +16,7 @@ tags:
 - corrections
 - bouguer
 stage: expert
-status: draft
+status: validated
 ---
 
 # Gravity Data Reduction: Bouguer, Free-Air, and Terrain Corrections

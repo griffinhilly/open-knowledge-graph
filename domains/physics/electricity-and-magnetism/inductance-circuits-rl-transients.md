@@ -15,7 +15,7 @@ tags:
 - rl-circuit
 - transient
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Inductance and Transient Response in RL Circuits

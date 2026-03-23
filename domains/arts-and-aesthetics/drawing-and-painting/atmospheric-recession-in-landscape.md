@@ -18,7 +18,7 @@ tags:
 - perspective
 - distance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Atmospheric Recession in Landscape

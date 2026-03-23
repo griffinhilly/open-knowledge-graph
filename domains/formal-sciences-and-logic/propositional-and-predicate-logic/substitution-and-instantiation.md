@@ -14,7 +14,7 @@ tags:
 - inference
 - first-order-logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Substitution and Instantiation in Predicate Logic

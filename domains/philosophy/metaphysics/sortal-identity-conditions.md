@@ -18,7 +18,7 @@ tags:
 - ontology
 - metaphysics
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Sortal Concepts and Identity Conditions
 

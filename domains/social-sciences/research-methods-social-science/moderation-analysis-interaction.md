@@ -23,7 +23,7 @@ tags:
 - subgroup-effects
 - moderation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Moderation, Interaction, and Conditional Effects

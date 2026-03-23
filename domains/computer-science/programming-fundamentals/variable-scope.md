@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: return-values
   type: soft
+- id: variables-and-assignment
+  type: hard
+- id: parameters-and-arguments
+  type: hard
 builds-toward:
 - recursion-basics
 - intro-to-classes
@@ -20,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Variable Scope
 
 ## Core Idea

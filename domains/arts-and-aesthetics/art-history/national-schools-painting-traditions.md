@@ -17,7 +17,7 @@ tags:
 - painting
 - cultural-identity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # National Schools and Regional Painting Traditions

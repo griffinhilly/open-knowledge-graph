@@ -22,7 +22,7 @@ tags:
 - cooperativity
 - oxygen-content
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Oxygen Transport and Hemoglobin

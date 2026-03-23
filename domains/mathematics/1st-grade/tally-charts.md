@@ -13,7 +13,7 @@ tags:
 - tallying
 - graphs
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Tally Charts

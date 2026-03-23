@@ -15,7 +15,7 @@ tags:
 - boolean-algebra
 - logic-design
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Karnaugh Map Simplification

@@ -20,7 +20,7 @@ tags:
 - lymphoid-organs
 - tissue-organization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lymphoid Organ Architecture and Lymphocyte Compartmentalization

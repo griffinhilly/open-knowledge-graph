@@ -18,7 +18,7 @@ tags:
 - agriculture
 - productivity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Structural Transformation and Economic Development

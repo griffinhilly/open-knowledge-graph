@@ -15,7 +15,7 @@ tags:
 - afterlife
 - cosmology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ancient Religions and Competing Worldviews

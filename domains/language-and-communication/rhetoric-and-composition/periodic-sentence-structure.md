@@ -17,7 +17,7 @@ tags:
 - rhythm
 - emphasis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Periodic Sentence Structure

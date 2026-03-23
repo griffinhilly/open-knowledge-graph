@@ -15,7 +15,7 @@ tags:
 - wave-particle-duality
 - scattering
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Compton Scattering: Energy and Momentum Analysis

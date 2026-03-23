@@ -14,7 +14,7 @@ tags:
 - ietf
 - rfc
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Network Standards and IETF

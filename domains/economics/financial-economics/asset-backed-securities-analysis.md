@@ -16,7 +16,7 @@ tags:
 - mortgages
 - credit-risk
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Asset-Backed Securities and Securitization Analysis

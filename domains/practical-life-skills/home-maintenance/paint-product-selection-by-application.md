@@ -17,7 +17,7 @@ tags:
 - materials
 - selection
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Paint Product Selection by Application

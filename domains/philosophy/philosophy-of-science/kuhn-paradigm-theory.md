@@ -17,7 +17,7 @@ tags:
 - normal-science
 - revolution
 stage: expert
-status: draft
+status: validated
 ---
 
 # Kuhn's Paradigm Theory

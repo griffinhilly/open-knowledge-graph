@@ -16,7 +16,7 @@ tags:
 - precision
 - argument
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Precision in Vocabulary and Diction for Argument
 

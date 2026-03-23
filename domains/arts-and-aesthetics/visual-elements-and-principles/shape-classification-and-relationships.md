@@ -14,7 +14,7 @@ tags:
 - geometry
 - organic
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Shape: Classification and Relationships

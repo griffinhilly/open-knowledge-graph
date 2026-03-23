@@ -16,7 +16,7 @@ tags:
 - sex hormones
 - HPG axis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reproductive Physiology and Gamete Production

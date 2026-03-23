@@ -13,7 +13,7 @@ tags:
 - rhetoric
 - emphasis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Anaphora and Epistrophe: Repetition for Emphasis

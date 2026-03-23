@@ -15,7 +15,7 @@ builds-toward:
   - counterexample-and-refutation
 tags: [counterexamples, disproof, reasoning, falsification]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Counterexamples in Reasoning

@@ -18,7 +18,7 @@ tags:
 - judgment
 - comparison
 stage: expert
-status: draft
+status: validated
 ---
 
 # Literary Value and Aesthetic Judgment Across Traditions

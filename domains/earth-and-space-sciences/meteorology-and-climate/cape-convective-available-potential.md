@@ -17,7 +17,7 @@ tags:
 - energy
 - severe-weather
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # CAPE and Convective Available Potential Energy

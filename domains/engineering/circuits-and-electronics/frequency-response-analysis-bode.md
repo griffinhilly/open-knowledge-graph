@@ -13,7 +13,7 @@ tags:
 - frequency-response
 - bode-plots
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Frequency Response and Bode Plot Analysis

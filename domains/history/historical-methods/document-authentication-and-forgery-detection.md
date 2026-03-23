@@ -16,7 +16,7 @@ tags:
 - forgery
 - materiality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Document Authentication and Forgery Detection

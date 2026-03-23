@@ -17,7 +17,7 @@ tags:
 - continuity
 - linear-approximation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Differentiability in Multivariable Functions

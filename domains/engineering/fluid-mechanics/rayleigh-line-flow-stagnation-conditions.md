@@ -13,7 +13,7 @@ tags:
 - constant-area
 - stagnation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rayleigh Line Flow: Constant Area with Heat Transfer

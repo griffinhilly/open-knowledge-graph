@@ -17,7 +17,7 @@ tags:
 - religious-war
 - christian
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Reconquista: Christian Reconquest of Iberia

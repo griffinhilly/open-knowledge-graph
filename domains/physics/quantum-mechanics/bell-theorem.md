@@ -12,7 +12,7 @@ tags:
 - bell-theorem
 - nonlocality
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bell's Theorem and Nonlocality

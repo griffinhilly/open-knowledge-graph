@@ -16,7 +16,7 @@ tags:
 - humidity
 - water damage
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moisture Management and Mold Prevention

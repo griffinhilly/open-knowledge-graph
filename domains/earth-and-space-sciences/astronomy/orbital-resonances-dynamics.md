@@ -18,7 +18,7 @@ tags:
 - orbital-dynamics
 - stability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orbital Resonances and Dynamical Stability

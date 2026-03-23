@@ -13,7 +13,7 @@ tags:
 - serotonin
 - mood
 stage: expert
-status: draft
+status: validated
 ---
 
 # Serotonergic System: Mood and Homeostasis

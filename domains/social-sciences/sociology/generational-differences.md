@@ -19,7 +19,7 @@ tags:
 - social-change
 - age-effects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Generational Differences and Cohort Effects

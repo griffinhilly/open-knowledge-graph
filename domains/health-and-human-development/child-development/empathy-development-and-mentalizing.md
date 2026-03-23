@@ -18,7 +18,7 @@ tags:
 - social-emotion
 - prosocial-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Empathy Development and Mentalizing

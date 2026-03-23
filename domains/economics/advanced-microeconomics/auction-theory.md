@@ -22,7 +22,7 @@ tags:
 - mechanism-design
 - bidding
 stage: expert
-status: draft
+status: validated
 ---
 
 # Auction Theory

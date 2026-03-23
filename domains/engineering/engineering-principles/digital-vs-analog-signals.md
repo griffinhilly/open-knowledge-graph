@@ -19,7 +19,7 @@ tags:
 - binary
 - electronics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Digital vs. Analog Signals
 

@@ -14,7 +14,7 @@ tags:
 - industrialization
 - technology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Industrial Catch-Up and Technology Transfer

@@ -19,7 +19,7 @@ tags:
 - oligopoly
 - pricing
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bertrand Price Competition

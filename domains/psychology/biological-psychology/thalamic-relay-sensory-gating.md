@@ -16,7 +16,7 @@ tags:
 - consciousness
 - brain-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thalamus: Sensory Relay and Gating of Consciousness

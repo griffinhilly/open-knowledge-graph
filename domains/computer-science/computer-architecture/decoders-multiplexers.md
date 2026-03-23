@@ -17,7 +17,7 @@ tags:
 - multiplexers
 - combinational
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Decoders, Encoders, and Multiplexers

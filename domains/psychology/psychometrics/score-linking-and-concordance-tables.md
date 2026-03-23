@@ -15,7 +15,7 @@ tags:
 - equating
 - score-conversion
 stage: expert
-status: draft
+status: validated
 ---
 
 # Score Linking and Concordance Tables

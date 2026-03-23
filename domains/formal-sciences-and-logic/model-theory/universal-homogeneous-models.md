@@ -16,7 +16,7 @@ tags:
 - Fraïssé
 - saturated
 stage: expert
-status: draft
+status: validated
 ---
 
 # Universal and Homogeneous Models

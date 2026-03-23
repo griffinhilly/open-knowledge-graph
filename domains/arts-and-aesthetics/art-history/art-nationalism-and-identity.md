@@ -15,7 +15,7 @@ tags:
 - culture
 - politics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Art, Nationalism, and Cultural Identity

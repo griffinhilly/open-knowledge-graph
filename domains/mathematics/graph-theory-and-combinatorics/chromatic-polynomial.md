@@ -11,7 +11,7 @@ tags:
 - coloring
 - polynomials
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chromatic Polynomials and Deletion-Contraction

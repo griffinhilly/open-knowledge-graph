@@ -17,7 +17,7 @@ tags:
 - antigen-presentation
 - mhc
 stage: expert
-status: draft
+status: validated
 ---
 
 # Antigen Processing and Presentation Pathways

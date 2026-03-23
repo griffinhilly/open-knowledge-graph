@@ -17,7 +17,7 @@ tags:
 - optimization
 - factor demand
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cost Minimization and Conditional Input Demand

@@ -17,7 +17,7 @@ tags:
 - nitrogen-disposal
 - liver-metabolism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Urea Cycle

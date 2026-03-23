@@ -13,7 +13,7 @@ tags:
 - preparedness
 - emergency-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pandemic Preparedness, Response Planning, and Surge Capacity

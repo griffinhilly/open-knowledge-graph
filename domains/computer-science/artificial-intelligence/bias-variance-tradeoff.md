@@ -17,7 +17,7 @@ tags:
 - generalization
 - model-complexity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bias-Variance Tradeoff

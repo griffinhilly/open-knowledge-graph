@@ -18,7 +18,7 @@ tags:
 - execute
 - cycle
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Instruction Fetch-Decode-Execute Cycle

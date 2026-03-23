@@ -16,7 +16,7 @@ tags:
 - power-series
 - analytic
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Taylor Series for Complex Functions

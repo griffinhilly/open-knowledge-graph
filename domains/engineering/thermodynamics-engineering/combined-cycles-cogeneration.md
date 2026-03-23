@@ -17,7 +17,7 @@ tags:
 - bottoming-cycle
 - hrsg
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Combined Power Cycles and Cogeneration Analysis

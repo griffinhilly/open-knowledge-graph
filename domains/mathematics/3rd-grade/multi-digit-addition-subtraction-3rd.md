@@ -14,7 +14,7 @@ tags:
 - multi-digit
 - regrouping
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Multi-Digit Addition and Subtraction

@@ -15,7 +15,7 @@ tags:
 - remainder
 - polynomial-approximation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Taylor's Theorem with Remainder

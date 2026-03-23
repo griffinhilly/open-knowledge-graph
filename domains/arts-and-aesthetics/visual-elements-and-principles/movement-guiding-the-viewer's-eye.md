@@ -19,7 +19,7 @@ tags:
 - direction
 - eye-movement
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Movement: Guiding the Viewer's Eye

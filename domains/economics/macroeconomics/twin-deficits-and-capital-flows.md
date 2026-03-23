@@ -13,7 +13,7 @@ tags:
 - capital-flows
 - policy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Twin Deficits and Capital Flows

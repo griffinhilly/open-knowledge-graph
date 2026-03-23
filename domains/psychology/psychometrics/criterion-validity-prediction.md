@@ -16,7 +16,7 @@ tags:
 - prediction
 - utility-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Criterion-Related Validity and Predictive Accuracy

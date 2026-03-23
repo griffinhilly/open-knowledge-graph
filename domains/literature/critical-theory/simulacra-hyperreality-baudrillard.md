@@ -15,7 +15,7 @@ tags:
 - hyperreality
 - media
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Simulacra, Hyperreality, and Jean Baudrillard

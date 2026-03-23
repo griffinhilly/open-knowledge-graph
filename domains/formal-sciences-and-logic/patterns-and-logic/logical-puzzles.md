@@ -23,7 +23,7 @@ tags:
 - problem-solving
 - deduction
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Logical Puzzles

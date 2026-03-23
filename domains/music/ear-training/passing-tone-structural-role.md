@@ -17,7 +17,7 @@ tags:
 - harmony
 - melody
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Passing Tone Identification and Structural Role

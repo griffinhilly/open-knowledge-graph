@@ -15,7 +15,7 @@ tags:
 - autonomic
 - contraction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Smooth Muscle Structure and Distribution

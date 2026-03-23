@@ -14,7 +14,7 @@ tags:
 - properties
 - change
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Temporal Properties and Temporal Change
 

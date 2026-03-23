@@ -19,7 +19,7 @@ tags:
 - weak-base
 - hydroxide-ion
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Weak Base Ionization
 

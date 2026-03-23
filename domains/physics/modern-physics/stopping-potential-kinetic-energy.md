@@ -11,7 +11,7 @@ tags:
 - photons
 - experimental-verification
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Stopping Potential and Maximum Kinetic Energy

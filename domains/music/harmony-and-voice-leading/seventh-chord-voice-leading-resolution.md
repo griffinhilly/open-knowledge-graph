@@ -19,7 +19,7 @@ tags:
 - tritone
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Seventh Chord Resolution and Voice Leading

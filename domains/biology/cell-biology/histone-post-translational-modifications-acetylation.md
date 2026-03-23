@@ -15,7 +15,7 @@ tags:
 - epigenetics
 - transcription
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Histone Post-Translational Modifications: Acetylation

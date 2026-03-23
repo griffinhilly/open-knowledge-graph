@@ -15,7 +15,7 @@ tags:
 - dvt
 - pulmonary-embolism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Venous Thromboembolism: DVT and Pulmonary Embolism

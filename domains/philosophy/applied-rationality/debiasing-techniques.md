@@ -19,7 +19,7 @@ builds-toward:
   - murphyjitsu
 tags: ["debiasing", "rationality", "cognitive-biases", "techniques", "practice"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

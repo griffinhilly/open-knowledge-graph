@@ -18,7 +18,7 @@ tags:
 - causal-inference
 - non-equivalent-groups
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Quasi-Experimental Designs with Nonequivalent Groups

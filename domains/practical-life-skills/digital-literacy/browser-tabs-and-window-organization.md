@@ -14,7 +14,7 @@ tags:
 - organization
 - multitasking
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Browser Tabs and Window Organization

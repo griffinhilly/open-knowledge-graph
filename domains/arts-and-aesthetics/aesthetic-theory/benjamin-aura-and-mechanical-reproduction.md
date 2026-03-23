@@ -18,7 +18,7 @@ tags:
 - authenticity
 - modernity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Benjamin: Aura and Mechanical Reproduction

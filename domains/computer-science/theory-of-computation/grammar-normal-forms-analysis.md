@@ -17,7 +17,7 @@ tags:
 - transformation
 - simplification
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Grammar Normal Forms: CNF and GNF

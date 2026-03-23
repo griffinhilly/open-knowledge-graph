@@ -14,7 +14,7 @@ tags:
 - disjoint-cycles
 - transpositions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cycle Notation and Decomposition

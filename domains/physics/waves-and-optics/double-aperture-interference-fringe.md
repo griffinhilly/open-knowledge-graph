@@ -14,7 +14,7 @@ tags:
 - experiment
 - light
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Young's Double-Slit Experiment and Analysis

@@ -17,7 +17,7 @@ tags:
 - steady-state
 - circuit-solution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # DC Steady-State Circuit Solutions

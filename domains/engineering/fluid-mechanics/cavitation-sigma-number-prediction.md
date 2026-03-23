@@ -15,7 +15,7 @@ tags:
 - sigma-number
 - npsh
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cavitation Number and Cavitation Prediction

@@ -18,7 +18,7 @@ tags:
 - production
 - perception
 stage: expert
-status: draft
+status: validated
 ---
 
 # Imagination in Aesthetic Creation

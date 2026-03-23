@@ -16,7 +16,7 @@ builds-toward:
   - subset-and-proper-subsets
 tags: [subsets, supersets, containment, set-theory]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Subsets and Supersets

@@ -16,7 +16,7 @@ tags:
 - spectrum
 - cardinality-bound
 stage: expert
-status: draft
+status: validated
 ---
 
 # Vaught's Theorem on Number of Countable Models

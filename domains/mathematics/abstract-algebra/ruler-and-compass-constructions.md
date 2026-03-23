@@ -14,7 +14,7 @@ tags:
 - ruler
 - quadratic-extensions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Ruler and Compass Constructions

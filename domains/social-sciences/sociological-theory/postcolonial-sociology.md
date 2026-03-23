@@ -12,7 +12,7 @@ tags:
 - decolonization
 - global-south
 stage: expert
-status: draft
+status: validated
 ---
 
 # Postcolonial Sociology

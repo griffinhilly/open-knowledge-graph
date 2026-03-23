@@ -15,7 +15,7 @@ tags:
 - research-design
 - questions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Formulating Historical Research Questions

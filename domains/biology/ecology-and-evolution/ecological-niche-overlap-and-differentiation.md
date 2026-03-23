@@ -17,7 +17,7 @@ tags:
 - ecology
 - coexistence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ecological Niche Overlap and Niche Differentiation

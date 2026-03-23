@@ -15,7 +15,7 @@ tags:
 - power-tools
 - equipment
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Power Tools: Safety and Operation

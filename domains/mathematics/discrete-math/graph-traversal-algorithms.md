@@ -17,7 +17,7 @@ tags:
 - tree-edges
 - back-edges
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graph Traversal: Depth-First and Breadth-First Search

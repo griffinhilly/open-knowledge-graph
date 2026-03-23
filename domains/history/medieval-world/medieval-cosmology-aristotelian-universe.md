@@ -13,7 +13,7 @@ tags:
 - science
 - astronomy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Medieval Cosmology and the Aristotelian Universe

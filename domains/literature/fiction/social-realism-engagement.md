@@ -18,7 +18,7 @@ tags:
 - engagement
 - class
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Social Realism: Fiction as Social Critique

@@ -18,7 +18,7 @@ tags:
 - replay
 - slow-wave-sleep
 stage: expert
-status: draft
+status: validated
 ---
 
 # Systems Consolidation and Offline Memory Processing

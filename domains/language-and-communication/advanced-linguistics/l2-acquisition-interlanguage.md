@@ -13,7 +13,7 @@ tags:
 - l2
 - interlanguage
 stage: expert
-status: draft
+status: validated
 ---
 
 # Second Language Acquisition and Interlanguage

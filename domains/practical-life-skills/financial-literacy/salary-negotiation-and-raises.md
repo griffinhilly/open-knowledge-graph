@@ -21,7 +21,7 @@ tags:
 - compensation
 - raises
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Salary Negotiation and Raises

@@ -16,7 +16,7 @@ tags:
 - equivalent-circuit
 - source-transformation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thévenin Equivalent Circuits

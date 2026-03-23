@@ -15,7 +15,7 @@ tags:
 - cognitive milestones
 - play
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Symbolic Thought and Pretend Play

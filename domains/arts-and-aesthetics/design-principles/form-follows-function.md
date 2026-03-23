@@ -14,7 +14,7 @@ tags:
 - philosophy
 - design-process
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Form Follows Function

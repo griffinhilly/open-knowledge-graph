@@ -14,7 +14,7 @@ tags:
 - no-zero-divisors
 - cancellation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Integral Domains

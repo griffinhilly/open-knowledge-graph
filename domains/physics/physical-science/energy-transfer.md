@@ -17,7 +17,7 @@ tags:
 - energy-transfer
 - conversion
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Energy Transfer
 

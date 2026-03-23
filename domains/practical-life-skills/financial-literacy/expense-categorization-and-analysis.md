@@ -19,7 +19,7 @@ tags:
 - cash-flow
 - analysis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Expense Categorization and Analysis

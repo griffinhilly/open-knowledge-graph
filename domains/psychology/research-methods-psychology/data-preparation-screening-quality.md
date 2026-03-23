@@ -16,7 +16,7 @@ tags:
 - missing-data
 - outliers
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Data Preparation, Screening, and Quality Assurance

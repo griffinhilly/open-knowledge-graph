@@ -15,7 +15,7 @@ tags:
 - flavor
 - seasoning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Culinary Herbs and Spices

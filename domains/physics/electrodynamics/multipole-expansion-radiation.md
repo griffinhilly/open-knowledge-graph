@@ -15,7 +15,7 @@ tags:
 - expansion
 - far-field
 stage: expert
-status: draft
+status: validated
 ---
 
 # Multipole Expansion and Far-Field Radiation

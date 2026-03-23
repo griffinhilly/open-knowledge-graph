@@ -13,7 +13,7 @@ tags:
 - proxies
 - paleontology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Paleoclimate Proxies and Paleoclimatic Interpretation

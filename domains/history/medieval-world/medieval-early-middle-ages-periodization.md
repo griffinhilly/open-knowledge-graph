@@ -16,7 +16,7 @@ tags:
 - transition
 - rome-decline
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Early Middle Ages Periodization and Transition

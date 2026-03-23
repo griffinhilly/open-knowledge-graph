@@ -20,7 +20,7 @@ tags:
 - empiricism
 - third-person
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heterophenomenology: Third-Person Science of Consciousness

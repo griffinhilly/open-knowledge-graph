@@ -16,7 +16,7 @@ tags:
 - lti
 - impulse-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # LTI Systems and Impulse Response

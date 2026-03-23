@@ -15,7 +15,7 @@ tags:
 - sets
 - comparing
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Fractions of Sets and Comparing Non-Unit Fractions

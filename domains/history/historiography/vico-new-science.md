@@ -14,7 +14,7 @@ tags:
 - verum-factum
 - cycles
 stage: expert
-status: draft
+status: validated
 ---
 
 # Giambattista Vico and the New Science

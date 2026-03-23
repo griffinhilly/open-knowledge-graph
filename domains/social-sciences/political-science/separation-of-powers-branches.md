@@ -18,7 +18,7 @@ tags:
 - legislative
 - judicial
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Separation of Powers and Checks and Balances

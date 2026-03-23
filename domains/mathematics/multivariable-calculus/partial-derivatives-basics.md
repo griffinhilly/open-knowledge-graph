@@ -15,7 +15,7 @@ tags:
 - derivatives
 - rates-of-change
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Partial Derivatives

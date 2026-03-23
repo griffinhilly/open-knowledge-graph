@@ -17,7 +17,7 @@ tags:
 - output
 - regulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cardiac Output and Stroke Volume Regulation

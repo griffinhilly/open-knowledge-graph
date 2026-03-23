@@ -16,7 +16,7 @@ tags:
 - sigma-algebras
 - probability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Conditional Expectation

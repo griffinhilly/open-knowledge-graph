@@ -16,7 +16,7 @@ tags:
 - mating
 - reproduction
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sexual Selection

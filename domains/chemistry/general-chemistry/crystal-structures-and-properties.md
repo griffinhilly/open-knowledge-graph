@@ -16,7 +16,7 @@ tags:
 - unit cell
 - ionic crystals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Crystal Structures and Solid Properties

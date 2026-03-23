@@ -19,7 +19,7 @@ tags:
 - analysis
 - style
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Analyzing Figurative Language in Context

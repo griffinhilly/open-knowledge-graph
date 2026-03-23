@@ -15,7 +15,7 @@ tags:
 - general-will
 - political-theory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rousseau's General Will and Social Contract Theory

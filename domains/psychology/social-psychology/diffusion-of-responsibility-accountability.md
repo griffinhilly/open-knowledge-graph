@@ -17,7 +17,7 @@ tags:
 - accountability
 - social-influence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diffusion of Responsibility and Group Accountability

@@ -4,7 +4,7 @@ title: Eclipses — Solar and Lunar
 domain: earth-and-space-sciences
 course: earth-science
 prerequisites:
-- id: moon-phases
+- id: moon-and-its-phases
   type: hard
 - id: the-moon-in-detail
   type: soft
@@ -18,7 +18,7 @@ tags:
 - alignment
 - orbit
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Eclipses — Solar and Lunar

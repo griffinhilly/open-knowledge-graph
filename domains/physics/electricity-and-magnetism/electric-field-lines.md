@@ -16,7 +16,7 @@ tags:
 - visualization
 - field representation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Electric Field Lines and Visualization

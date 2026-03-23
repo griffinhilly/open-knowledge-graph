@@ -18,7 +18,7 @@ tags:
 - calcium
 - MAP kinase
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Receptor Signaling Pathways (RTKs, GPCRs, and Second Messengers)

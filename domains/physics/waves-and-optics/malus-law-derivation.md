@@ -15,7 +15,7 @@ tags:
 - polarization
 - intensity-transmission
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Malus's Law: Derivation and Applications

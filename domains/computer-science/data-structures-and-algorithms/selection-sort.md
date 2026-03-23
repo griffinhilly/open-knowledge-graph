@@ -4,7 +4,7 @@ title: Selection Sort Algorithm
 domain: computer-science
 course: data-structures-and-algorithms
 prerequisites:
-- id: arrays-and-indexed-collections
+- id: arrays-and-lists
   type: hard
 - id: algorithm-design-basics
   type: soft
@@ -16,9 +16,8 @@ tags:
 - comparison-sort
 - in-place
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Selection Sort Algorithm
 
 ## Core Idea

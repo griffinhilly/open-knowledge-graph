@@ -18,7 +18,7 @@ tags:
 - non-standard-models
 - arithmetic
 stage: expert
-status: draft
+status: validated
 ---
 
 # Models of Peano Arithmetic and Non-Standard Models

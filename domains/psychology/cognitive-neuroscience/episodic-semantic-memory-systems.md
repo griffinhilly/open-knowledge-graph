@@ -13,7 +13,7 @@ tags:
 - systems
 - cortex
 stage: expert
-status: draft
+status: validated
 ---
 
 # Episodic and Semantic Memory Systems

@@ -16,7 +16,7 @@ tags:
 - filter-classification
 - frequency-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # Filter Classification and Design Basics

@@ -17,7 +17,7 @@ tags:
 - huckel-rule
 - conjugated-systems
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Aromaticity and Hückel's Rule for π Systems

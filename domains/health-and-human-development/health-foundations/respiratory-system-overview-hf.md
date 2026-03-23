@@ -4,7 +4,7 @@ title: Respiratory System Overview
 domain: health-and-human-development
 course: health-foundations
 prerequisites:
-  - id: my-heart-and-lungs
+  - id: my-lungs-breathe
     type: hard
 builds-toward:
   - how-body-systems-connect
@@ -12,7 +12,7 @@ builds-toward:
   - gas-exchange-alveoli-and-diffusion
 tags: [body-systems, respiratory, lungs, breathing, oxygen]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Respiratory System Overview

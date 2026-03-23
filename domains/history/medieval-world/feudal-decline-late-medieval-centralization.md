@@ -15,7 +15,7 @@ tags:
 - transition
 - power
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Feudal Decline and Late Medieval Centralization

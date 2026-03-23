@@ -13,7 +13,7 @@ tags:
 - ar-models
 - stationary
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Autoregressive (AR) Models and Order Selection

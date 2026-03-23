@@ -15,7 +15,7 @@ tags:
 - sequencing
 - logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Building and Sequencing Arguments in Live Oral Delivery

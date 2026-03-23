@@ -15,7 +15,7 @@ tags:
 - quasiparticles
 - interactions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bogoliubov Transformation

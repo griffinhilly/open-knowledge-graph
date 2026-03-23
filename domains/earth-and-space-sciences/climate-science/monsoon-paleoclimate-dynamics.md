@@ -18,7 +18,7 @@ tags:
 - orbital-forcing
 - paleoclimate-variability
 stage: expert
-status: draft
+status: validated
 ---
 # Monsoon Climate Dynamics and Paleoclimate Variability
 

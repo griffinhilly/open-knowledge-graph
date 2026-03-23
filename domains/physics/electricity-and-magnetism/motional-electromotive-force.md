@@ -15,7 +15,7 @@ tags:
 - EMF
 - generators
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Motional Electromotive Force

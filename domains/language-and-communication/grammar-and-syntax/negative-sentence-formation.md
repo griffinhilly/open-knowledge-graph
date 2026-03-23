@@ -16,7 +16,7 @@ tags:
 - syntax
 - sentence-structure
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Forming Negative Sentences

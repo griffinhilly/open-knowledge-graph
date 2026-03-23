@@ -13,7 +13,7 @@ tags:
 - near-rhyme
 - modernist-technique
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Slant Rhyme and Imperfect Rhyme

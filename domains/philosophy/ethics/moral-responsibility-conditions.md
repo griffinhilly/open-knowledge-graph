@@ -16,7 +16,7 @@ tags:
 - control
 - intentionality
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Responsibility: Key Conditions

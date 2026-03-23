@@ -20,7 +20,7 @@ tags:
 - descent
 - local-to-global
 stage: expert
-status: draft
+status: validated
 ---
 # Sheaves and Sheafification
 

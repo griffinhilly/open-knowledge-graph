@@ -16,7 +16,7 @@ tags:
 - quantum
 - energy-levels
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Quantum Rotational Spectroscopy

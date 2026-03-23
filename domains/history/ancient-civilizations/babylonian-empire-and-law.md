@@ -14,7 +14,7 @@ tags:
 - law
 - hammurabi
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Babylonian Empire and Early Law Codes

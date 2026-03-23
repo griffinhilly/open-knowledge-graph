@@ -13,7 +13,7 @@ tags:
 - oxidation state
 - chemical form
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Speciation Analysis and Oxidation State Determination

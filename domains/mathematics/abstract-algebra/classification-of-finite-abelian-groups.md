@@ -13,7 +13,7 @@ tags:
 - classification
 - structure-theorem
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Classification of Finite Abelian Groups

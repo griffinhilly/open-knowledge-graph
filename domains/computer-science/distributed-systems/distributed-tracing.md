@@ -11,7 +11,7 @@ tags:
 - debugging
 - monitoring
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Distributed Tracing and Observability

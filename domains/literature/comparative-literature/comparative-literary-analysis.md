@@ -18,7 +18,7 @@ tags:
 - reading-practice
 - analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Methods of Comparative Literary Analysis

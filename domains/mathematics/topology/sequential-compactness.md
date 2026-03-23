@@ -12,7 +12,7 @@ tags:
 - sequential-compactness
 - convergent-subsequences
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sequential Compactness

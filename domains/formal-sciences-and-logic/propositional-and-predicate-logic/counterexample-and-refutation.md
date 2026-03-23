@@ -13,7 +13,7 @@ tags:
 - proof-methods
 - refutation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Counterexamples and Refutation

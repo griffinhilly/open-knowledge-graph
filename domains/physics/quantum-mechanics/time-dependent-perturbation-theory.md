@@ -14,7 +14,7 @@ tags:
 - perturbation-theory
 - time-dependent
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Time-Dependent Perturbation Theory

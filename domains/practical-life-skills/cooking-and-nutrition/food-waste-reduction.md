@@ -15,7 +15,7 @@ tags:
 - composting
 - FIFO
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Food Waste Reduction

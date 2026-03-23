@@ -17,7 +17,7 @@ tags:
 - functor-pairs
 - universal-properties
 stage: expert
-status: draft
+status: validated
 ---
 
 # Left Adjoint Functors

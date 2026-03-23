@@ -13,7 +13,7 @@ tags:
 - epistemic-justification
 - reliability
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Memory and Epistemic Justification
 

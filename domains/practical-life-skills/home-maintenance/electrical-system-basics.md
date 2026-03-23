@@ -15,7 +15,7 @@ tags:
 - safety
 - circuits
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electrical System Components and Safety

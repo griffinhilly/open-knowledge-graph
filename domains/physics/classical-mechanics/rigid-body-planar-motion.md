@@ -17,7 +17,7 @@ tags:
 - motion
 - translation-rotation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rigid Body Planar Motion: Translation and Rotation

@@ -10,7 +10,7 @@ tags:
 - number-theory
 - crt
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Chinese Remainder Theorem and Its Applications

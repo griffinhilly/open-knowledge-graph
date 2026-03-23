@@ -13,7 +13,7 @@ tags:
 - rdd
 - threshold
 stage: expert
-status: draft
+status: validated
 ---
 
 # Regression Discontinuity: Sharp and Fuzzy Designs

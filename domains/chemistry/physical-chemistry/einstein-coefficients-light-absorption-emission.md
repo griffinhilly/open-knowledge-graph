@@ -15,7 +15,7 @@ tags:
 - photon-processes
 - quantum-mechanics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Einstein Coefficients for Light Absorption and Emission

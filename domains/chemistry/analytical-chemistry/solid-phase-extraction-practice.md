@@ -11,7 +11,7 @@ tags:
 - sample preparation
 - extraction
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Solid-Phase Extraction Practice and Applications

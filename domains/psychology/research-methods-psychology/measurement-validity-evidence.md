@@ -16,7 +16,7 @@ tags:
 - criterion-validity
 - measurement-evidence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Measurement Validity: Construct and Criterion Evidence

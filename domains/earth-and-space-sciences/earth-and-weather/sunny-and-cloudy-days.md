@@ -15,7 +15,7 @@ tags:
 - clouds
 - observation
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Sunny and Cloudy Days

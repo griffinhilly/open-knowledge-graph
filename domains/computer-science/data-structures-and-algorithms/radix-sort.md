@@ -16,7 +16,7 @@ tags:
 - digit-by-digit
 - stable
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Radix Sort Algorithm

@@ -17,7 +17,7 @@ tags:
 - epistemic-injustice
 - collective-epistemology
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Social Epistemology
 

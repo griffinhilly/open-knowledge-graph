@@ -17,7 +17,7 @@ tags:
 - mixture
 - postcolonial
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Creolization and Cultural Hybridity

@@ -13,7 +13,7 @@ tags:
 - hydration
 - health
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Why We Drink Water

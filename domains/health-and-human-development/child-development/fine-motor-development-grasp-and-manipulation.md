@@ -17,7 +17,7 @@ tags:
 - manipulation
 - physical-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fine Motor Development: Grasp and Manipulation

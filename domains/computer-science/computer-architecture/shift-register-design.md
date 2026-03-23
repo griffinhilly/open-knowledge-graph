@@ -15,7 +15,7 @@ tags:
 - shift-register
 - serial-parallel
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Shift Register Design and Applications

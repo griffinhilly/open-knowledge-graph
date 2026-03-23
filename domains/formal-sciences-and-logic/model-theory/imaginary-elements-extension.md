@@ -16,7 +16,7 @@ tags:
 - quotient-structures
 - extensions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Imaginary Elements and Quotient Sorts

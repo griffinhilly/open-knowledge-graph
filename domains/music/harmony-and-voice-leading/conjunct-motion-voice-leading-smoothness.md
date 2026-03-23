@@ -13,7 +13,7 @@ tags:
 - voice-leading
 - smoothness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conjunct Motion and Smooth Voice-Leading

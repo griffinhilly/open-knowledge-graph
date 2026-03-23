@@ -15,7 +15,7 @@ tags:
 - type-systems
 - overloading
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Ad Hoc Polymorphism and Function Overloading

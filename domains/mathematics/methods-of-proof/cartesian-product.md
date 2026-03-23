@@ -13,7 +13,7 @@ tags:
 - product
 - pairs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cartesian Product

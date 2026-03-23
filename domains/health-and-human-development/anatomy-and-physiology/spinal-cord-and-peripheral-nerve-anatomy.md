@@ -14,7 +14,7 @@ tags:
 - dorsal-ventral
 - gray-matter
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Spinal Cord and Peripheral Nerve Anatomy

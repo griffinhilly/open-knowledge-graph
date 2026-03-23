@@ -14,7 +14,7 @@ tags:
 - documents
 - writing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Epigraphic Analysis and Inscriptions

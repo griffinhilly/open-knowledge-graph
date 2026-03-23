@@ -16,7 +16,7 @@ tags:
 - crossing-over
 - genetic-diversity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Meiotic Recombination and Crossing Over

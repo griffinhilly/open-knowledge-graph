@@ -18,7 +18,7 @@ tags:
 - ocean
 - landforms
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Beaches and Coastlines

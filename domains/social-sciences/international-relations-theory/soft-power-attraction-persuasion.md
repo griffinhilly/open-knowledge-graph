@@ -17,7 +17,7 @@ tags:
 - nye
 - hegemony
 stage: expert
-status: draft
+status: validated
 ---
 
 # Soft Power, Attraction, and Cultural Influence

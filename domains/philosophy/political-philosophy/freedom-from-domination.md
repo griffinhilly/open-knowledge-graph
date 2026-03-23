@@ -15,7 +15,7 @@ tags:
 - domination
 - republicanism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Freedom as Absence of Domination

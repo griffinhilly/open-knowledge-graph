@@ -19,7 +19,7 @@ tags:
 - selection
 - resistance-mechanisms
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Antibiotic Resistance: Mechanisms and Evolutionary Dynamics

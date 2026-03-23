@@ -17,7 +17,7 @@ tags:
 - paramagnetism
 - energy-levels
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Constructing Molecular Orbital Diagrams for Diatomics

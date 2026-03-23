@@ -18,7 +18,7 @@ tags:
 - limitation
 - primary-production
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Marine Nutrient Cycling and Productivity Limitation

@@ -13,7 +13,7 @@ tags:
 - brand
 - documentation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Design Consistency and Style Guidelines

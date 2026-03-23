@@ -18,7 +18,7 @@ tags:
 - mechanical
 - behavioral
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reproductive Isolation: Types and Mechanisms

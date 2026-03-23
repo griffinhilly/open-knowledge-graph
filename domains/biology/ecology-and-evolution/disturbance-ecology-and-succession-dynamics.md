@@ -16,7 +16,7 @@ tags:
 - community
 - dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Disturbance Ecology and Succession Dynamics

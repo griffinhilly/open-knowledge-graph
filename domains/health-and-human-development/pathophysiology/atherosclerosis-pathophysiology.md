@@ -21,7 +21,7 @@ tags:
 - cardiovascular-disease
 - lipid-metabolism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Atherosclerosis Development and Progression

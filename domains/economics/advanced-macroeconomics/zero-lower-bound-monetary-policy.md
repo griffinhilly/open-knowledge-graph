@@ -13,7 +13,7 @@ tags:
 - zlb
 - monetary-policy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Zero Lower Bound and Monetary Policy Constraints

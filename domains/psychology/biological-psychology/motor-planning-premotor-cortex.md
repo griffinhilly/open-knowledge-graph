@@ -18,7 +18,7 @@ tags:
 - planning
 - cognition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Motor Planning: Premotor and Supplementary Motor Cortex

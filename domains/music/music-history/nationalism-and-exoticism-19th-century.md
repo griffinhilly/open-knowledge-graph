@@ -15,7 +15,7 @@ tags:
 - folk
 - identity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Nationalism and Exoticism in Romantic Music

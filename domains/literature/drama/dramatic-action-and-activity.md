@@ -18,7 +18,7 @@ tags:
 - drama
 - conflict
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dramatic Action Versus Physical Activity

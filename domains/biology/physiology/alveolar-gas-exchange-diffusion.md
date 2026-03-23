@@ -18,7 +18,7 @@ tags:
 - oxygen
 - carbon dioxide
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Alveolar Gas Exchange and Diffusion

@@ -14,7 +14,7 @@ tags:
 - divinity
 - authority
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pharaonic Authority and Divine Kingship

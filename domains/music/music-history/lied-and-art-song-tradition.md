@@ -15,7 +15,7 @@ tags:
 - form
 - song-cycle
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lied and Art Song Tradition

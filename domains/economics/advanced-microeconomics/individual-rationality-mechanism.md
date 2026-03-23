@@ -11,7 +11,7 @@ tags:
 - participation
 - voluntary-participation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Individual Rationality (Participation Constraint)

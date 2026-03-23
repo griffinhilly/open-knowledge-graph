@@ -13,7 +13,7 @@ tags:
 - partials
 - symmetry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mixed Partial Derivatives and Clairaut's Theorem

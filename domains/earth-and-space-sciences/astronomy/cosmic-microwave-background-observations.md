@@ -19,7 +19,7 @@ tags:
 - cmb
 - early-universe
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cosmic Microwave Background Radiation

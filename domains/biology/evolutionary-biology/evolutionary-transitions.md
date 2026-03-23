@@ -18,7 +18,7 @@ tags:
 - body-plan
 - fossil
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Macroevolutionary Transitions Between Major Groups

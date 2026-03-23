@@ -18,7 +18,7 @@ tags:
 - efficacy
 - evolution
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Effective Recombination Rate and Linked Selection

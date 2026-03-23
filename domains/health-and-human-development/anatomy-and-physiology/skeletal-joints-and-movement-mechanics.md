@@ -15,7 +15,7 @@ tags:
 - ligament
 - cartilage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Skeletal Joints and Movement Mechanics

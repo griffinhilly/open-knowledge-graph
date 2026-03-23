@@ -12,7 +12,7 @@ tags:
 - social-epidemiology
 - mechanisms
 stage: expert
-status: draft
+status: validated
 ---
 
 # Social Epidemiology: Mechanisms Linking Social Position to Health

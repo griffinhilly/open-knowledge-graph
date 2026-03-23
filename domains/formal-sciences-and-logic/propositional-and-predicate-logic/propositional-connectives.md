@@ -18,7 +18,7 @@ tags:
 - biconditional
 - truth-functional
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Propositional Connectives

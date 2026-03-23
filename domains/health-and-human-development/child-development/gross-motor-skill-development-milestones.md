@@ -14,7 +14,7 @@ tags:
 - physical-milestones
 - neuromuscular-maturation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gross Motor Skill Development: Milestones

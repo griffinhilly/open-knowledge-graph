@@ -13,7 +13,7 @@ tags:
 - prosody
 - suprasegmental
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Suprasegmental Phonology

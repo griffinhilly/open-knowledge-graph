@@ -18,7 +18,7 @@ tags:
 - laplace
 - differential-equations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Deriving Transfer Functions from Differential Equations

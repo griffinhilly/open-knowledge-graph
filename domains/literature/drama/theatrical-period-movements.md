@@ -19,7 +19,7 @@ tags:
 - tradition
 - cultural-context
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Theatrical Period Movements and History
 

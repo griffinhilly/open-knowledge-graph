@@ -15,7 +15,7 @@ tags:
 - correlation
 - turbulent
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Colebrook-White Friction Factor Correlation

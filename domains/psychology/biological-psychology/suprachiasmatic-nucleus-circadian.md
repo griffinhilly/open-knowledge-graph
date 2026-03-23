@@ -16,7 +16,7 @@ tags:
 - sleep
 - homeostasis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Suprachiasmatic Nucleus and Circadian Rhythm Generation

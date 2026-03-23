@@ -16,7 +16,7 @@ builds-toward:
   - proving-by-contradiction
 tags: [proof, contradiction, indirect-proof, reasoning]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Introduction to Proof by Contradiction

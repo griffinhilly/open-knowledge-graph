@@ -22,7 +22,7 @@ tags:
 - viscosity
 - composition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Magma Composition and Physical Properties

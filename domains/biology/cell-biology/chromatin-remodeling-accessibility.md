@@ -14,7 +14,7 @@ tags:
 - atp-dependent-complexes
 - nucleosomes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chromatin Remodeling and Gene Accessibility

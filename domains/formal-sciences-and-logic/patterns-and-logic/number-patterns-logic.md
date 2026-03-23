@@ -19,7 +19,7 @@ tags:
 - sequences
 - arithmetic
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Number Patterns

@@ -13,7 +13,7 @@ tags:
 - fallacies
 - relevance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Appeal to Emotion Fallacy

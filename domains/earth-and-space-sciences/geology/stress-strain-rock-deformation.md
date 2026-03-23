@@ -17,7 +17,7 @@ tags:
 - deformation
 - mechanics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stress and Strain: Rock Deformation Fundamentals

@@ -15,7 +15,7 @@ tags:
 - mirror-equation
 - focal-length
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Spherical Mirror Formula and Sign Conventions

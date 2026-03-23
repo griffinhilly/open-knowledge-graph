@@ -11,7 +11,7 @@ tags:
 - refinishing
 - maintenance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Hardwood Floor Care and Refinishing

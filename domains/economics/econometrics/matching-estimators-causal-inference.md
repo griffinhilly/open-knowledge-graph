@@ -15,7 +15,7 @@ tags:
 - matching
 - nonparametric
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Matching Estimators: Nearest Neighbor and Kernel Methods

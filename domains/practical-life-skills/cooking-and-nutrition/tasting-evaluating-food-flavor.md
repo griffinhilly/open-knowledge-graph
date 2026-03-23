@@ -14,7 +14,7 @@ tags:
 - evaluation
 - palate
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Tasting Food Critically: Flavor Evaluation

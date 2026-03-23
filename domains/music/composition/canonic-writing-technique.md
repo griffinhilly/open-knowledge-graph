@@ -16,7 +16,7 @@ tags:
 - fugue
 - imitation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Canon and Fugue Composition Basics

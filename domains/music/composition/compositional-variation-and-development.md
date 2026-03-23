@@ -17,7 +17,7 @@ tags:
 - technique
 - composition
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Compositional Variation and Development

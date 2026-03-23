@@ -19,7 +19,7 @@ tags:
 - realized
 - competition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Niche: Fundamental and Realized

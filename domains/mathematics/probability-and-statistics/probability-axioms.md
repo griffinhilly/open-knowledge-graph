@@ -13,7 +13,7 @@ tags:
 - foundations
 - axioms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Probability Axioms

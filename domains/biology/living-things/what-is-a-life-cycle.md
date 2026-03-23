@@ -18,7 +18,7 @@ tags:
 - reproduction
 - generations
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # What Is a Life Cycle?

@@ -15,7 +15,7 @@ tags:
 - causal-inference-approximate
 - non-equivalent-groups
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Quasi-Experimental Designs and Non-Randomized Comparisons

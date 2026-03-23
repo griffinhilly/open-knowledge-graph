@@ -17,7 +17,7 @@ tags:
 - epithelial-injury
 - myofibroblast
 stage: expert
-status: draft
+status: validated
 ---
 
 # Idiopathic Pulmonary Fibrosis: Epithelial Injury, Fibroblast Activation, and Progressive Scarring

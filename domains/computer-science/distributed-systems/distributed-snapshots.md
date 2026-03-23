@@ -16,7 +16,7 @@ tags:
 - snapshots
 - state-capture
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Distributed Snapshots and Consistent State Capture

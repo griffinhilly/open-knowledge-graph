@@ -17,7 +17,7 @@ tags:
 - proxy
 - performance
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Reverse Proxy and Caching Architecture

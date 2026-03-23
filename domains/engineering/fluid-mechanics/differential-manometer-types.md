@@ -13,7 +13,7 @@ tags:
 - pressure-measurement
 - instrumentation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Differential Manometer Types and Applications

@@ -15,7 +15,7 @@ tags:
 - second-countable
 - separable
 stage: advanced
-status: draft
+status: validated
 ---
 
 # First and Second Countability Axioms

@@ -12,7 +12,7 @@ tags:
 - rule-of-law
 - enforcement
 stage: expert
-status: draft
+status: validated
 ---
 
 # Rule of Law and Contract Enforcement

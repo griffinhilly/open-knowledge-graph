@@ -12,7 +12,7 @@ builds-toward:
   - likelihood-ratios-and-belief-updates
 tags: ["bayesian", "evidence", "prior-probability", "sagan-standard"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

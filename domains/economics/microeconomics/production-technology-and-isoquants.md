@@ -16,7 +16,7 @@ tags:
 - production
 - inputs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Production Technology and Isoquant Analysis

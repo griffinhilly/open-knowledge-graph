@@ -17,7 +17,7 @@ tags:
 - schlieren
 - flow visualization
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Flow Visualization Techniques
 

@@ -15,7 +15,7 @@ tags:
 - reduction-to-pole
 - anomaly
 stage: expert
-status: draft
+status: validated
 ---
 
 # Magnetic Field Reduction to the Pole

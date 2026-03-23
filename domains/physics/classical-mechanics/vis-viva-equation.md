@@ -12,7 +12,7 @@ tags:
 - gravitation
 - equations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vis-Viva Equation

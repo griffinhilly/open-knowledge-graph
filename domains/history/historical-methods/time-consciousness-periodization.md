@@ -16,7 +16,7 @@ tags:
 - concepts
 - methodology
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Historical Concepts of Time and Periodization

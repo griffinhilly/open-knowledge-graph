@@ -18,7 +18,7 @@ tags:
 - cognitive-control
 - adjustment
 stage: expert
-status: draft
+status: validated
 ---
 
 # Anterior Cingulate Cortex and Conflict Monitoring

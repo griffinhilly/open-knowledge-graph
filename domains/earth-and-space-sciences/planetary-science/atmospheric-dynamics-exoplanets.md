@@ -13,7 +13,7 @@ tags:
 - dynamics
 - circulation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Atmospheric Dynamics on Exoplanets

@@ -15,7 +15,7 @@ tags:
 - complexity-classes
 - space-bounded
 stage: advanced
-status: draft
+status: validated
 ---
 
 # PSPACE Complexity Class

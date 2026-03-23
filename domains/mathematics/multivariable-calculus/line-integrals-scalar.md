@@ -13,7 +13,7 @@ tags:
 - line-integral
 - arc-length
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Line Integrals of Scalar Functions

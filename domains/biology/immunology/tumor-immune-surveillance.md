@@ -20,7 +20,7 @@ tags:
 - CTL-escape
 - malignant-transformation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Tumor Immune Surveillance and Immunoediting

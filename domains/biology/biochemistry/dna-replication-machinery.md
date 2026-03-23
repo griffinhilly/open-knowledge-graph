@@ -19,7 +19,7 @@ tags:
 - DNA ligase
 - replication fork
 stage: advanced
-status: draft
+status: validated
 ---
 
 # DNA Replication Machinery and Proteins

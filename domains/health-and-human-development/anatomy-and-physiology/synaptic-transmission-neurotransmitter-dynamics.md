@@ -15,7 +15,7 @@ tags:
 - neurotransmitters
 - integration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Synaptic Transmission and Neurotransmitter Dynamics

@@ -16,7 +16,7 @@ tags:
 - money-multiplier
 - central-bank-control
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Monetary Base and Money Supply Relationship

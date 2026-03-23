@@ -22,7 +22,7 @@ tags:
 - metabolism
 - aging
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mitochondrial Function and Energy Supply in the Brain

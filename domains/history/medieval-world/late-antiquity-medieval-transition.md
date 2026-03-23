@@ -15,7 +15,7 @@ tags:
 - late-antiquity
 - social-change
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Late Antiquity and the Transition to Medieval

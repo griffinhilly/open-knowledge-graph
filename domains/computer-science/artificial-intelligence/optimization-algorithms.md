@@ -21,7 +21,7 @@ tags:
 - adam
 - rmsprop
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Optimization Algorithms: SGD, Adam, RMSprop

@@ -15,7 +15,7 @@ tags:
 - spreads
 - trading-costs
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bid-Ask Spreads and Market Liquidity

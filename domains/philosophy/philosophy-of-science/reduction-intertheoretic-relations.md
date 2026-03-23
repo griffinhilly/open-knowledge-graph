@@ -15,7 +15,7 @@ tags:
 - emergence
 - levels
 stage: expert
-status: draft
+status: validated
 ---
 
 # Reduction and Emergence

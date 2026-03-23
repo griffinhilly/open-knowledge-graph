@@ -17,7 +17,7 @@ tags:
 - respiration
 - oxygen-minimum-zones
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dissolved Oxygen Dynamics and Distribution

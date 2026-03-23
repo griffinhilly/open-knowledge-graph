@@ -16,7 +16,7 @@ tags:
 - microstructure
 - cooling-rate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Solidification Microstructure and Dendrite Formation

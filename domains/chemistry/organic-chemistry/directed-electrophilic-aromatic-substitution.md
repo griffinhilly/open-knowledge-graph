@@ -17,7 +17,7 @@ tags:
 - activating
 - deactivating
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Directing Effects in Electrophilic Aromatic Substitution

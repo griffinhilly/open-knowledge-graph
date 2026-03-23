@@ -14,7 +14,7 @@ tags:
 - quantity
 - number-concept
 stage: pre-formal
-status: draft
+status: validated
 ---
 # Understanding Zero
 

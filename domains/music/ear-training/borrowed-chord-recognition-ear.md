@@ -13,7 +13,7 @@ tags:
 - borrowed-chords
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Borrowed Chord Recognition by Ear

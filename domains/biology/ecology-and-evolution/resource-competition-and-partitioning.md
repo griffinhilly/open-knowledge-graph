@@ -16,7 +16,7 @@ tags:
 - partitioning
 - ecology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Resource Competition and Partitioning

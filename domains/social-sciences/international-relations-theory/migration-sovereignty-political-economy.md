@@ -17,7 +17,7 @@ tags:
 - refugees
 - human-rights
 stage: expert
-status: draft
+status: validated
 ---
 
 # Migration, Sovereignty, and International Relations

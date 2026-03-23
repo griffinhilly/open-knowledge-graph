@@ -13,7 +13,7 @@ tags:
 - approximation
 - normal equations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Least Squares Approximation and Normal Equations

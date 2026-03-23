@@ -15,7 +15,7 @@ tags:
 - sequential-games
 - information
 stage: expert
-status: draft
+status: validated
 ---
 
 # Extensive Form Games and Game Trees

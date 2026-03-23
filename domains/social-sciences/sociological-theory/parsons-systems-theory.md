@@ -14,7 +14,7 @@ tags:
 - abstraction
 - action
 stage: expert
-status: draft
+status: validated
 ---
 
 # Talcott Parsons and Systems Theory

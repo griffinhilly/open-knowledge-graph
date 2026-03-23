@@ -15,7 +15,7 @@ tags:
 - social-context
 - production
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Patronage Systems and Their Effects on Artistic Creation

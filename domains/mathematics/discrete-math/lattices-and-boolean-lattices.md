@@ -13,7 +13,7 @@ tags:
 - lattices
 - boolean-algebra
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lattices and Boolean Lattices

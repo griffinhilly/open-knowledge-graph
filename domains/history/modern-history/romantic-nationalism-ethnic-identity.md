@@ -14,7 +14,7 @@ tags:
 - ethnic-identity
 - culture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Romantic Nationalism and Ethnic Identity

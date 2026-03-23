@@ -11,7 +11,7 @@ tags:
 - market-power
 - welfare
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Price Discrimination: Types, Conditions, and Welfare Effects

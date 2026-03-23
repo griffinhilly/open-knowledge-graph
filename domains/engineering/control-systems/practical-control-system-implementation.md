@@ -16,7 +16,7 @@ tags:
 - noise
 - constraints
 stage: expert
-status: draft
+status: validated
 ---
 
 # Practical Control System Implementation Issues

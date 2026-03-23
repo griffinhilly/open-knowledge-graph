@@ -21,7 +21,7 @@ tags:
 - brainstem
 - lobes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Brain Anatomy and Functional Organization

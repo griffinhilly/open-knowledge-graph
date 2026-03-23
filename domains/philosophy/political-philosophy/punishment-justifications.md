@@ -15,7 +15,7 @@ tags:
 - deterrence
 - rehabilitation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Justifying State Punishment: Retribution, Deterrence, Rehabilitation

@@ -17,7 +17,7 @@ tags:
 - frequency
 - wavelength
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Wave Speed: v = fλ
 

@@ -20,7 +20,7 @@ tags:
 - institutions
 - value
 stage: expert
-status: draft
+status: validated
 ---
 
 # Art Market and Taste Formation

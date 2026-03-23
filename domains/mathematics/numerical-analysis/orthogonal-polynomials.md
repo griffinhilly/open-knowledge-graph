@@ -13,7 +13,7 @@ tags:
 - weights
 - quadrature
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orthogonal Polynomials and Weights

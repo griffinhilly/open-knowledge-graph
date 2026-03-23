@@ -12,7 +12,7 @@ tags:
 - complexity-classes
 - exponential-bounds
 stage: advanced
-status: draft
+status: validated
 ---
 
 # EXPTIME and EXPSPACE Complexity Classes

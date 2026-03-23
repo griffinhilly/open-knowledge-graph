@@ -14,7 +14,7 @@ tags:
 - constitutional-theory
 - balance-of-power
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Separation of Powers Doctrine

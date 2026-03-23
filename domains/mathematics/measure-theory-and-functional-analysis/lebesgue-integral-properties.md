@@ -13,7 +13,7 @@ tags:
 - integration
 - properties
 stage: expert
-status: draft
+status: validated
 ---
 
 # Properties of the Lebesgue Integral

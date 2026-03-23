@@ -15,7 +15,7 @@ tags:
 - state-estimation
 - closed-loop-poles
 stage: expert
-status: draft
+status: validated
 ---
 
 # Observer-Based Control

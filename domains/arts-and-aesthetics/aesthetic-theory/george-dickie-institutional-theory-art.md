@@ -14,7 +14,7 @@ tags:
 - definition
 - practices
 stage: expert
-status: draft
+status: validated
 ---
 
 # George Dickie: Institutional Theory of Art

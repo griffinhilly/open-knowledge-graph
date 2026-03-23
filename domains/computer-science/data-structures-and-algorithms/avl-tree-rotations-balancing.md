@@ -17,7 +17,7 @@ tags:
 - self-balancing
 - binary-search
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # AVL Tree Rotations and Balancing

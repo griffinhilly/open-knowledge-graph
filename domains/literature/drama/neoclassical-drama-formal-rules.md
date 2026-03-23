@@ -19,7 +19,7 @@ tags:
 - rules
 - decorum
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Neoclassical Drama: Formal Rules and Decorum

@@ -17,7 +17,7 @@ tags:
 - human-rights
 - foundations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Natural Rights: Foundations and Justifications

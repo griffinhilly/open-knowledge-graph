@@ -15,7 +15,7 @@ tags:
 - philosophy
 - meaning-in-music
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Absolute Music and Program Music Aesthetics

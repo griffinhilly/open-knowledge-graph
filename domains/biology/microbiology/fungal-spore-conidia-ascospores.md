@@ -16,7 +16,7 @@ tags:
 - ascospores
 - reproduction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fungal Spore Formation: Conidia and Ascospores

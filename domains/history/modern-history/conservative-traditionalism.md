@@ -16,7 +16,7 @@ tags:
 - hierarchy
 - gradual-change
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conservative Political Ideology and Tradition

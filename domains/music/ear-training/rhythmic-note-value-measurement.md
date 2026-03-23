@@ -15,7 +15,7 @@ tags:
 - note-values
 - timing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rhythmic Note Value Measurement and Duration

@@ -19,7 +19,7 @@ tags:
 - macroevolution
 - evidence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fossil Record and Paleontological Evidence for Evolution

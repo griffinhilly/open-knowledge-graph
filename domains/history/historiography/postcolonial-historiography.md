@@ -17,7 +17,7 @@ tags:
 - decolonization
 - non-western
 stage: expert
-status: draft
+status: validated
 ---
 
 # Postcolonial Historiography

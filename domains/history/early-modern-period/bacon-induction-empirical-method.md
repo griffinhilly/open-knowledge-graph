@@ -14,7 +14,7 @@ tags:
 - induction
 - scientific-method
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Francis Bacon and the Empirical Method

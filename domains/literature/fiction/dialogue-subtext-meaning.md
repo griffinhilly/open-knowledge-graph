@@ -16,7 +16,7 @@ tags:
 - meaning
 - speech
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dialogue: Speech and Subtext

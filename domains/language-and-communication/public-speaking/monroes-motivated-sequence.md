@@ -12,7 +12,7 @@ tags:
 - call-to-action
 - speech-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Monroe's Motivated Sequence

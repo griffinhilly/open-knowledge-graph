@@ -16,7 +16,7 @@ tags:
 - cauchy-sequences
 - metric-spaces
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Completeness in Metric Spaces

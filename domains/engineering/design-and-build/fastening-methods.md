@@ -19,7 +19,7 @@ tags:
 - tools
 - engineering
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Fastening: Glue, Tape, Screws, and Nails
 

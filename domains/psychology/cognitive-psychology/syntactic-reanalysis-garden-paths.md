@@ -16,7 +16,7 @@ tags:
 - parsing
 - reanalysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Syntactic Reanalysis and Garden-Path Phenomena

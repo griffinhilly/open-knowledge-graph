@@ -23,7 +23,7 @@ tags:
 - engineering
 - design
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Combining Simple Machines
 

@@ -16,7 +16,7 @@ tags:
 - density
 - cdf
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Distribution and Density Functions (Rigorous)

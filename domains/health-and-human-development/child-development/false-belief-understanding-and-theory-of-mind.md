@@ -14,7 +14,7 @@ tags:
 - theory-of-mind
 - social-cognition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # False Belief Understanding and Theory of Mind

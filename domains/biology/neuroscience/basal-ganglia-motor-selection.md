@@ -16,7 +16,7 @@ tags:
 - action-selection
 - planning
 stage: expert
-status: draft
+status: validated
 ---
 
 # Basal Ganglia: Action Selection and Motor Planning

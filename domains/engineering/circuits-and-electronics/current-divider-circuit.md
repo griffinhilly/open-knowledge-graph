@@ -14,7 +14,7 @@ tags:
 - resistive-circuits
 - fundamental
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Current Divider Principle

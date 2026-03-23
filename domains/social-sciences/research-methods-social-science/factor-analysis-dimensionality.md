@@ -24,7 +24,7 @@ tags:
 - dimensionality
 - communalities
 stage: expert
-status: draft
+status: validated
 ---
 
 # Factor Analysis and Dimensionality Reduction

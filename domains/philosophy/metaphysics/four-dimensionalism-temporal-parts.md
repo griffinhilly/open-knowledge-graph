@@ -19,7 +19,7 @@ tags:
 - four-dimensionalism
 - ontology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Four-Dimensionalism and Temporal Parts

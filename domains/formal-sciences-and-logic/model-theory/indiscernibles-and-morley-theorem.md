@@ -16,7 +16,7 @@ tags:
 - morley
 - categoricity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Indiscernible Sequences and Morley's Categoricity Theorem

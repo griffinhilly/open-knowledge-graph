@@ -17,7 +17,7 @@ tags:
 - mental-states
 - ontology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Type Identity Theory

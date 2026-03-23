@@ -13,7 +13,7 @@ tags:
 - constraint
 - development
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Developmental Constraints on Evolution

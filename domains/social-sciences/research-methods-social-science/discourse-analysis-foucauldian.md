@@ -15,7 +15,7 @@ tags:
 - language
 - foucault
 stage: expert
-status: draft
+status: validated
 ---
 # Discourse Analysis: Foucauldian Approaches
 

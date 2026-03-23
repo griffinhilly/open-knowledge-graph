@@ -14,7 +14,7 @@ tags:
 - consequence
 - satisfiability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Consequences and Applications of the Compactness Theorem

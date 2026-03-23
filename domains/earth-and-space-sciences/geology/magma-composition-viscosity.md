@@ -16,7 +16,7 @@ tags:
 - composition
 - silica
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Magma Composition, Viscosity, and Eruption Style

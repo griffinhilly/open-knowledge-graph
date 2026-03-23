@@ -17,7 +17,7 @@ tags:
 - sense-data
 - perceptual-justification
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Perception and Knowledge
 

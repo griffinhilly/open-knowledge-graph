@@ -20,7 +20,7 @@ tags:
 - drama
 - intermedial
 stage: expert
-status: draft
+status: validated
 ---
 
 # Adaptation, Adaptation Theory, and Dramatic Translation

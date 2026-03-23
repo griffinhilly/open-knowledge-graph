@@ -13,7 +13,7 @@ tags:
 - case-selection
 - process-tracing
 stage: expert
-status: draft
+status: validated
 ---
 
 # Comparative Historical Methods: Case Selection and Process Tracing

@@ -14,7 +14,7 @@ tags:
 - notation
 - composition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transcribing Improvisation to Notation

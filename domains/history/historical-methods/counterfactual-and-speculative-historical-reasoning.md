@@ -13,7 +13,7 @@ tags:
 - reasoning
 - speculation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Counterfactual Reasoning and Speculative History

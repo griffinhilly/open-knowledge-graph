@@ -4,12 +4,15 @@ title: File I/O Basics
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- id: basic-input-output
+- id: input-output
   type: hard
 - id: string-operations
   type: hard
 - id: error-handling-exceptions
   type: soft
+- id: string-basics
+  type: hard
+builds-toward: []
 tags:
 - file I/O
 - open
@@ -20,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # File I/O Basics
 
 ## Core Idea

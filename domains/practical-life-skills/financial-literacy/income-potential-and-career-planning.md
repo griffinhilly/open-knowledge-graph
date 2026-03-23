@@ -18,7 +18,7 @@ tags:
 - trajectory
 - planning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Income Potential and Career Path Planning

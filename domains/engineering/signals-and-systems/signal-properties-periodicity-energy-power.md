@@ -14,7 +14,7 @@ tags:
 - properties
 - energy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Signal Properties: Periodicity, Energy, and Power

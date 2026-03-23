@@ -15,7 +15,7 @@ tags:
 - exchange-interaction
 - domain-structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ferromagnetism: Microscopic Theory

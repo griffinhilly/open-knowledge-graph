@@ -17,7 +17,7 @@ tags:
 - t-cell-education
 - tolerance
 stage: expert
-status: draft
+status: validated
 ---
 
 # Thymic Selection: Positive and Negative Selection

@@ -19,7 +19,7 @@ tags:
 - efficient
 - definition
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Complexity Class P: Polynomial Time

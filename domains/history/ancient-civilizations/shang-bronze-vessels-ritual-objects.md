@@ -14,7 +14,7 @@ tags:
 - technology
 - china
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Shang Dynasty Bronze Vessels and Ritual Culture

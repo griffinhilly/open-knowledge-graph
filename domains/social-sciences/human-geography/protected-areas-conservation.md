@@ -16,7 +16,7 @@ tags:
 - justice
 - governance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Protected Areas and Conservation Geography

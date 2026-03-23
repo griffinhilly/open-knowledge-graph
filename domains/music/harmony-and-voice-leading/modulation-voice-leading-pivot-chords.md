@@ -16,7 +16,7 @@ tags:
 - voice-leading
 - key-change
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Modulation Voice Leading Using Pivot Chords

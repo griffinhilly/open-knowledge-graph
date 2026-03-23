@@ -14,7 +14,7 @@ tags:
 - bounded-rationality
 - information-processing
 stage: expert
-status: draft
+status: validated
 ---
 
 # Expectation Formation Mechanisms

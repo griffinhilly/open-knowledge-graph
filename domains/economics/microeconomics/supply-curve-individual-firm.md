@@ -14,7 +14,7 @@ tags:
 - firm
 - production-decision
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Individual Supply Curves: Quantity Supplied vs. Price

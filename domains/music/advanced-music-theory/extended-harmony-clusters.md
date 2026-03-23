@@ -17,7 +17,7 @@ tags:
 - extended
 - timbre
 stage: expert
-status: draft
+status: validated
 ---
 
 # Extended Harmony: Clusters, Microtonality, and Non-Tertian Systems

@@ -15,7 +15,7 @@ tags:
 - legendre-symbol
 - fermat-little-theorem
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Euler's Criterion for Quadratic Residues

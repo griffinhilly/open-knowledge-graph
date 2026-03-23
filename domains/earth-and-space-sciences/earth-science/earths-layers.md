@@ -17,7 +17,7 @@ tags:
 - layers
 - structure
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Earth's Layers: Crust, Mantle, and Core

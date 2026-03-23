@@ -15,7 +15,7 @@ tags:
 - guarantees
 - timeline
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Eventual Consistency and Its Guarantees

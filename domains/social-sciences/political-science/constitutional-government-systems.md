@@ -15,7 +15,7 @@ tags:
 - fundamental-law
 - rights-protection
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Constitutional Government and Limited Authority

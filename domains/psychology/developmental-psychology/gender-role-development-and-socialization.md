@@ -14,7 +14,7 @@ tags:
 - social development
 - sex roles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gender Role Development and Socialization

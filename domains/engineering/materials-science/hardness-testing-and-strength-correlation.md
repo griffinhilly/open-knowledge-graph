@@ -15,7 +15,7 @@ tags:
 - vickers
 - yield-strength
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hardness Testing and Strength Correlation

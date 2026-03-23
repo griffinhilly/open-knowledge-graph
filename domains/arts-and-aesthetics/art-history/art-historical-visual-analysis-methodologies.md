@@ -15,7 +15,7 @@ tags:
 - analysis
 - visual-literacy
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Art Historical Visual Analysis and Methodologies
 

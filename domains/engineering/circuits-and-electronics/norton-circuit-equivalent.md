@@ -17,7 +17,7 @@ tags:
 - current-source
 - duality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Norton Equivalent Circuits

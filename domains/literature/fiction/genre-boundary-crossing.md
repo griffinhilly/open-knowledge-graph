@@ -17,7 +17,7 @@ tags:
 - mixing
 - subversion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Genre Boundary-Crossing and Hybrid Forms

@@ -14,7 +14,7 @@ tags:
 - tarjan
 - graph-algorithm
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Strongly Connected Components: Kosaraju and Tarjan Algorithms

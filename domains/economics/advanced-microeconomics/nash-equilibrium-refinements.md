@@ -16,7 +16,7 @@ tags:
 - equilibrium
 - solution-concepts
 stage: expert
-status: draft
+status: validated
 ---
 
 # Nash Equilibrium Refinements

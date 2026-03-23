@@ -16,7 +16,7 @@ tags:
 - nucleation
 - aerosol
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cloud Condensation Nuclei and Activation Theory

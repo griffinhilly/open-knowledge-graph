@@ -18,7 +18,7 @@ tags:
 - soundness
 - completeness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Syntactic Consequence (⊢) Versus Semantic Consequence (⊨)

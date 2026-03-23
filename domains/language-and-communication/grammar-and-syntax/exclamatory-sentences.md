@@ -11,7 +11,7 @@ tags:
 - exclamations
 - emotion
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Exclamatory Sentences and Exclamations

@@ -15,7 +15,7 @@ tags:
 - form
 - complexity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Aesthetic Autonomy and Formalist Value

@@ -13,7 +13,7 @@ tags:
 - myelin
 - efficiency
 stage: expert
-status: draft
+status: validated
 ---
 
 # Saltatory Conduction: Rapid Propagation in Myelinated Axons

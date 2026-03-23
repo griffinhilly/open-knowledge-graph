@@ -14,7 +14,7 @@ tags:
 - ensemble-methods
 - model-averaging
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Dropout Regularization

@@ -17,7 +17,7 @@ tags:
 - organs
 - nutrition
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # The Digestive System
 

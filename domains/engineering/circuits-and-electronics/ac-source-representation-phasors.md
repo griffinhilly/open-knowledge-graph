@@ -20,7 +20,7 @@ tags:
 - phasors
 - ac-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # AC Sources and Phasor Representation

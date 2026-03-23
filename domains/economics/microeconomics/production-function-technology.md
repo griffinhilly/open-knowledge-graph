@@ -13,7 +13,7 @@ tags:
 - outputs
 - technology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Production Functions and Technological Relationships

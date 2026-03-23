@@ -13,7 +13,7 @@ tags:
 - trauma
 - early-intervention
 stage: expert
-status: draft
+status: validated
 ---
 
 # Acute Stress Disorder

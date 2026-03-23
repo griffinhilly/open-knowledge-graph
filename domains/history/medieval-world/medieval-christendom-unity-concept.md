@@ -18,7 +18,7 @@ tags:
 - religious
 - concept
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Christendom: The Unity Concept

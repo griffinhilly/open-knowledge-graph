@@ -13,7 +13,7 @@ tags:
 - multivariate
 - probability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Marginal Distributions

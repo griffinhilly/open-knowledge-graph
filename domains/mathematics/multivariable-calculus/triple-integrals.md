@@ -13,7 +13,7 @@ tags:
 - triple-integral
 - volume
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Triple Integrals in Cartesian Coordinates

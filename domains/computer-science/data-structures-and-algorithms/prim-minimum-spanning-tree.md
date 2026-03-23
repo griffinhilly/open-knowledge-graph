@@ -15,7 +15,7 @@ tags:
 - priority-queue
 - mst
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Prim's Algorithm for Minimum Spanning Trees

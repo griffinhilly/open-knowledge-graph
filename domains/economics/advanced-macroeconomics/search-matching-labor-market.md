@@ -14,7 +14,7 @@ tags:
 - labor-market-frictions
 - wage-setting
 stage: expert
-status: draft
+status: validated
 ---
 
 # Search and Matching in the Labor Market

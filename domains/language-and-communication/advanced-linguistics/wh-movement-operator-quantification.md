@@ -13,7 +13,7 @@ tags:
 - movement
 - quantification
 stage: expert
-status: draft
+status: validated
 ---
 
 # Wh-Movement and Operator Quantification

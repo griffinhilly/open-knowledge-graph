@@ -15,7 +15,7 @@ tags:
 - modeling
 - scaling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Similitude and Scale Model Testing

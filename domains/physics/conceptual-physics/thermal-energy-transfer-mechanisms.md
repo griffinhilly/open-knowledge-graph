@@ -19,7 +19,7 @@ tags:
 - convection
 - radiation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Thermal Energy Transfer: Conduction, Convection, and Radiation
 

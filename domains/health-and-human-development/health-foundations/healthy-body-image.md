@@ -13,7 +13,7 @@ builds-toward:
   - self-concept-and-identity-development-children
 tags: [growth, development, body-image, self-esteem, mental-health]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Healthy Body Image

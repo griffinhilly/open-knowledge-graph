@@ -16,7 +16,7 @@ tags:
 - passive-investing
 - etf
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Passive Investing and Index Funds

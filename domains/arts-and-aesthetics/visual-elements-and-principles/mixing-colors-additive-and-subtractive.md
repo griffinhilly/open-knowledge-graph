@@ -15,7 +15,7 @@ tags:
 - light
 - pigment
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Color Mixing: Additive and Subtractive

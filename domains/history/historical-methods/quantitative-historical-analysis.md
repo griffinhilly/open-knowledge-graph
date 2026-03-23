@@ -16,7 +16,7 @@ tags:
 - data
 - numbers
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Quantitative Historical Analysis

@@ -15,7 +15,7 @@ tags:
 - number-line
 - comparing
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Fractions on a Number Line and Comparison

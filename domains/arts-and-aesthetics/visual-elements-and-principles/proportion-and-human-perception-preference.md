@@ -20,7 +20,7 @@ tags:
 - golden ratio
 - aesthetics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Proportion and Perception: Universal and Cultural Preferences

@@ -15,7 +15,7 @@ tags:
 - finite-order
 - infinite-order
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Order of a Group Element

@@ -15,7 +15,7 @@ tags:
 - anxiety
 - worry
 stage: expert
-status: draft
+status: validated
 ---
 
 # Generalized Anxiety Disorder

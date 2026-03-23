@@ -17,7 +17,7 @@ tags:
 - moral-residue
 - conflicts-of-duty
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moral Dilemmas

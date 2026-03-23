@@ -16,7 +16,7 @@ tags:
 - logical-properties
 - skepticism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Epistemic Closure and Logical Closure Principles

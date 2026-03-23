@@ -14,7 +14,7 @@ tags:
 - phase-transitions
 - spin-systems
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ising Model Fundamentals

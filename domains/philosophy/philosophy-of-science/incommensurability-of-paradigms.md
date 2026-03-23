@@ -13,7 +13,7 @@ tags:
 - incommensurability
 - paradigm
 stage: expert
-status: draft
+status: validated
 ---
 
 # Incommensurability of Paradigms

@@ -21,7 +21,7 @@ tags:
 - centrality
 - structural-holes
 stage: expert
-status: draft
+status: validated
 ---
 
 # Social Network Analysis: Structural Positions and Dynamics

@@ -15,7 +15,7 @@ tags:
 - macroevolution
 - diversity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Adaptive Radiation

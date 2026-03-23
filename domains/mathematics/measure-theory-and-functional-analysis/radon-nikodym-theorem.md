@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - measure-theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Radon-Nikodym Theorem

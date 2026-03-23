@@ -16,7 +16,7 @@ tags:
 - energy
 - compressible-flow
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stagnation Pressure and Total Head

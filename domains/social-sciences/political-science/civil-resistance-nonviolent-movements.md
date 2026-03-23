@@ -17,7 +17,7 @@ tags:
 - civil-disobedience
 - movements
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Civil Resistance and Nonviolent Movements

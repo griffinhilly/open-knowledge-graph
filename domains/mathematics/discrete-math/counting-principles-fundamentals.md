@@ -12,7 +12,7 @@ tags:
 - counting
 - foundations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Counting Principles and Multiplication Principle

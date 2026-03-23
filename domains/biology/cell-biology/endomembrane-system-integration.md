@@ -16,7 +16,7 @@ tags:
 - secretion
 - membrane-trafficking
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Endomembrane System Integration and Vesicular Transport

@@ -13,7 +13,7 @@ tags:
 - volume ratios
 - molar volume
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gas Stoichiometry and Volume-Volume Calculations

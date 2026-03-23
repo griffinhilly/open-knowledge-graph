@@ -15,7 +15,7 @@ tags:
 - noise
 - error
 stage: expert
-status: draft
+status: validated
 ---
 
 # Quantization Error and Noise Analysis

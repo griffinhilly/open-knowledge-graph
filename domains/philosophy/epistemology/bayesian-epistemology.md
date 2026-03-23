@@ -19,7 +19,7 @@ tags:
 - Dutch-book
 - probabilistic-coherence
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Bayesian Epistemology
 

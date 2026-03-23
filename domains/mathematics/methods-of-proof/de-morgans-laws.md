@@ -13,7 +13,7 @@ tags:
 - negation
 - logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # De Morgan's Laws

@@ -17,7 +17,7 @@ tags:
 - variation
 - universals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Comparative Cross-Cultural Analysis

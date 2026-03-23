@@ -12,7 +12,7 @@ tags:
 - green-growth
 - sustainability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Green Growth and Environmental Sustainability

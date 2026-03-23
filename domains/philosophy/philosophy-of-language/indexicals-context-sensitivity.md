@@ -15,7 +15,7 @@ tags:
 - reference
 - semantics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Indexicals and Context-Sensitive Expressions

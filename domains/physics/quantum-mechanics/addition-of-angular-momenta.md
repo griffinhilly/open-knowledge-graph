@@ -16,7 +16,7 @@ tags:
 - coupling
 - composite-systems
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Addition of Angular Momenta

@@ -17,7 +17,7 @@ tags:
 - semantics
 - intentionality
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Semantic Content and Externalism
 

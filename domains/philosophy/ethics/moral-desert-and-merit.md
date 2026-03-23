@@ -12,7 +12,7 @@ tags:
 - justice
 - responsibility
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moral Desert and Merit

@@ -17,7 +17,7 @@ tags:
 - layering
 - wet-paint-handling
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Oil and Acrylic Painting: Fundamentals and Processes

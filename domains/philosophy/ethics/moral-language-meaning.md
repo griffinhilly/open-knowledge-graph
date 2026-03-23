@@ -16,7 +16,7 @@ tags:
 - language
 - meaning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Language and Meaning

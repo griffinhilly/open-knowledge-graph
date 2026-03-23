@@ -20,7 +20,7 @@ tags:
 - intermediate-representation
 - syntax-trees
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Abstract Syntax Trees (ASTs)

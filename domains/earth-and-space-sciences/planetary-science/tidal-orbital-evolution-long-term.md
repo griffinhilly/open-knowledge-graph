@@ -19,7 +19,7 @@ tags:
 - dissipation
 - long-term-evolution
 stage: expert
-status: draft
+status: validated
 ---
 
 # Tidal Evolution and Long-Term Orbital Decay

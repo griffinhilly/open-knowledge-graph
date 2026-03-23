@@ -16,7 +16,7 @@ tags:
 - two-source
 - pattern
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Two-Source Interference Patterns

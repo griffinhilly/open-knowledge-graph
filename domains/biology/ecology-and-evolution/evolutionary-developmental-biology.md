@@ -16,7 +16,7 @@ tags:
 - evolution
 - hox-genes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Evolutionary Developmental Biology (Evo-Devo)

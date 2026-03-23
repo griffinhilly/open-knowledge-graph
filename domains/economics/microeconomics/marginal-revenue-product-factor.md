@@ -13,7 +13,7 @@ tags:
 - derived-demand
 - labor-demand
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Marginal Revenue Product: Derived Demand for Inputs

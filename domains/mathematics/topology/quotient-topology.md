@@ -16,7 +16,7 @@ tags:
 - identification-spaces
 - equivalence-classes
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quotient Topology

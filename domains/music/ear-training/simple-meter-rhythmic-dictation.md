@@ -19,7 +19,7 @@ tags:
 - beat
 - note-duration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Simple Meter Rhythmic Dictation

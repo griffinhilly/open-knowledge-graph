@@ -14,7 +14,7 @@ tags:
 - microfinance
 - credit
 stage: expert
-status: draft
+status: validated
 ---
 
 # Microfinance and Access to Credit

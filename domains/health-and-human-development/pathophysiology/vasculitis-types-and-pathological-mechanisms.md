@@ -16,7 +16,7 @@ tags:
 - vessel-damage
 - immune-complex
 stage: expert
-status: draft
+status: validated
 ---
 
 # Vasculitis: Types and Pathological Mechanisms

@@ -15,7 +15,7 @@ tags:
 - uniqueness
 - theoretical
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Existence and Uniqueness Theorems (Picard-Lindelöf Theorem)

@@ -14,7 +14,7 @@ tags:
 - citizenship
 - politics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Athenian Democracy and the Limits of Citizenship

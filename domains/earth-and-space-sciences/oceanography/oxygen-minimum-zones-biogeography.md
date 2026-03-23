@@ -14,7 +14,7 @@ tags:
 - biogeography
 - nutrient-cycling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Oxygen Minimum Zones and Marine Biogeography

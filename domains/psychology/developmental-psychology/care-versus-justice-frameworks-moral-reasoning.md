@@ -15,7 +15,7 @@ tags:
 - care
 - ethics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Care Versus Justice Frameworks in Moral Reasoning

@@ -20,7 +20,7 @@ tags:
 - introspection
 - access
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reflexivity and Self-Awareness in Conscious Experience

@@ -18,7 +18,7 @@ tags:
 - stereochemistry
 - concerted
 stage: formal-systems
-status: draft
+status: validated
 ---
 # The Diels-Alder Reaction
 

@@ -16,7 +16,7 @@ tags:
 - free-energy
 - work
 stage: expert
-status: draft
+status: validated
 ---
 
 # Helmholtz Free Energy

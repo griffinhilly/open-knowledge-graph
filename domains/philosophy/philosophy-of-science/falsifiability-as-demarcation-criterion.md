@@ -13,7 +13,7 @@ tags:
 - demarcation
 - testability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Falsifiability as the Criterion of Demarcation

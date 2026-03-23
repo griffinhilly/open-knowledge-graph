@@ -16,7 +16,7 @@ tags:
 - persuasion
 - concession
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Door-in-the-Face Technique and Reciprocity

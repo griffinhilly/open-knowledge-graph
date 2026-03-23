@@ -16,7 +16,7 @@ tags:
 - adaptation
 - strategy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Addressing Audience Heterogeneity

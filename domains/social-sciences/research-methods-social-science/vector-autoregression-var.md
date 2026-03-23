@@ -25,7 +25,7 @@ tags:
 - dynamics
 - causal
 stage: expert
-status: draft
+status: validated
 ---
 
 # Vector Autoregression (VAR) Models

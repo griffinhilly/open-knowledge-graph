@@ -16,7 +16,7 @@ tags:
 - hierarchy
 - provability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Consistency Strength and the Large-Cardinal Hierarchy

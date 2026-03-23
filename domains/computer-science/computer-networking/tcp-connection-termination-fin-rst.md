@@ -16,7 +16,7 @@ tags:
 - connection-management
 - termination
 stage: advanced
-status: draft
+status: validated
 ---
 
 # TCP Connection Termination and FIN/RST Handling

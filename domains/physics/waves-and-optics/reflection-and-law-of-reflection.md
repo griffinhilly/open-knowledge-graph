@@ -14,7 +14,7 @@ tags:
 - law-of-reflection
 - angle
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reflection and the Law of Reflection

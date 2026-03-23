@@ -18,7 +18,7 @@ tags:
 - time-varying-fields
 - maxwell-equations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Faraday's Law of Electromagnetic Induction

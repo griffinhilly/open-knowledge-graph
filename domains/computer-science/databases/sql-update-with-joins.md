@@ -13,7 +13,7 @@ tags:
 - dml
 - joins
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # UPDATE with JOINs: Conditional Updates

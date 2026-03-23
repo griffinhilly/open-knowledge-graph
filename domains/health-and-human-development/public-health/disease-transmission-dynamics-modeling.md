@@ -16,7 +16,7 @@ tags:
 - modeling
 - disease-transmission
 stage: expert
-status: draft
+status: validated
 ---
 
 # Disease Transmission Dynamics and Mathematical Modeling

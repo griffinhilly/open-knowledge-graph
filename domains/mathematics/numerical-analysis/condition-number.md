@@ -15,7 +15,7 @@ tags:
 - conditioning
 - sensitivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Condition Number of a Problem

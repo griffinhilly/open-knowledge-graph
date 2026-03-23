@@ -13,7 +13,7 @@ tags:
 - rref
 - normal form
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reduced Row Echelon Form

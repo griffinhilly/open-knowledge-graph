@@ -16,7 +16,7 @@ tags:
 - contour-integrals
 - path-dependence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Complex Line Integrals

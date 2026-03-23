@@ -16,7 +16,7 @@ tags:
 - evidence-evaluation
 - critical-thinking
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Evaluating Evidence in Inductive Arguments

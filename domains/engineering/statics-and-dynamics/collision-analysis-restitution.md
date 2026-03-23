@@ -17,7 +17,7 @@ tags:
 - inelastic
 - impact
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Collision Analysis and Coefficient of Restitution

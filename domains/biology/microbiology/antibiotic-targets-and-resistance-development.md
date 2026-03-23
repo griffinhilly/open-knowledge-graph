@@ -16,7 +16,7 @@ tags:
 - resistance
 - drug-development
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Antibiotic Targets and Resistance Development Strategies

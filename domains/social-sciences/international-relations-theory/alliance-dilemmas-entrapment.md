@@ -13,7 +13,7 @@ tags:
 - dilemma
 - commitment
 stage: expert
-status: draft
+status: validated
 ---
 
 # Alliance Dilemmas: Entrapment and Abandonment

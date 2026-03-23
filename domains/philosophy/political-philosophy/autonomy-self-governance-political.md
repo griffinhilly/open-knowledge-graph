@@ -17,7 +17,7 @@ tags:
 - individual
 - freedom
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Autonomy and Political Self-Governance

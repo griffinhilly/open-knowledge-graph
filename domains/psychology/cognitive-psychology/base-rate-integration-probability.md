@@ -20,7 +20,7 @@ tags:
 - bias
 - statistics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Base-Rate Integration and Bayesian Reasoning in Probability

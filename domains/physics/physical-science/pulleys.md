@@ -15,7 +15,7 @@ tags:
 - simple-machine
 - lifting
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Pulleys
 

@@ -18,7 +18,7 @@ tags:
 - genetic-variation
 - environmental-effects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phenotypic Variation and Genetic Basis

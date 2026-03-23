@@ -14,7 +14,7 @@ tags:
 - overview
 - foundations
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Understanding Home Systems and How They Work Together

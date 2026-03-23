@@ -12,7 +12,7 @@ tags:
 - nociception
 - emotional-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # Nociception and Pain: Sensory Detection and Emotional Response

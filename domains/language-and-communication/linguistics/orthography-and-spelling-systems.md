@@ -14,7 +14,7 @@ tags:
 - syllabic
 - logographic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orthography and Spelling Systems

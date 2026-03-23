@@ -21,7 +21,7 @@ tags:
 - thermodynamics
 - energy-levels
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Molecular Partition Functions and Thermodynamic Properties

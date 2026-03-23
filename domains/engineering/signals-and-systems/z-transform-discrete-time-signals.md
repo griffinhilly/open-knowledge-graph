@@ -24,7 +24,7 @@ tags:
 - discrete-time
 - digital-systems
 stage: expert
-status: draft
+status: validated
 ---
 
 # Z-Transform: Fundamentals for Discrete-Time Signals

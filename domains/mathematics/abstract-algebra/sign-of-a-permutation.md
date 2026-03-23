@@ -11,7 +11,7 @@ tags:
 - parity
 - permutations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sign of a Permutation

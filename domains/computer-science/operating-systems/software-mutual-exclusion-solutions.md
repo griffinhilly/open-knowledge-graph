@@ -13,7 +13,7 @@ tags:
 - mutual-exclusion
 - software
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Software-Only Mutual Exclusion Solutions

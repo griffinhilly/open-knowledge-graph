@@ -13,7 +13,7 @@ tags:
 - health
 - growth
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Sleep and Rest

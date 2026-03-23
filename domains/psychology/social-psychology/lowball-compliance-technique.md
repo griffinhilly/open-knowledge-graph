@@ -18,7 +18,7 @@ tags:
 - cognitive dissonance
 - deception
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lowball Technique in Compliance

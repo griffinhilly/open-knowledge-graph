@@ -16,7 +16,7 @@ tags:
 - illusion
 - truth
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Realism as Fictional Technique

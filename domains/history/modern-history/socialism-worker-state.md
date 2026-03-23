@@ -17,7 +17,7 @@ tags:
 - collective-ownership
 - class-struggle
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Socialism and Worker Control of Production

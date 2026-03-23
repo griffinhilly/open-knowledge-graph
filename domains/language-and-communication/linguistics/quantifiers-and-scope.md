@@ -14,7 +14,7 @@ tags:
 - binding
 - logical form
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Quantifiers and Scope

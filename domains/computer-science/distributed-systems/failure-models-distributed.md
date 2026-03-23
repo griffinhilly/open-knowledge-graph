@@ -14,7 +14,7 @@ tags:
 - faults
 - robustness
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Failure Models in Distributed Systems

@@ -12,7 +12,7 @@ tags:
 - bulk-loading
 - optimization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bulk Insert Operations and Performance

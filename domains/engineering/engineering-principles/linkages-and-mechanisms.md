@@ -17,7 +17,7 @@ tags:
 - crank
 - motion-conversion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Linkages and Mechanisms
 

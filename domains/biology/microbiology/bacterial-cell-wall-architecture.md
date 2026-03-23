@@ -17,7 +17,7 @@ tags:
 - cell-wall
 - gram-stain
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bacterial Cell Wall Architecture

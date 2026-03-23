@@ -15,7 +15,7 @@ tags:
 - big-push
 - industrialization
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Big Push Model: Rosenstein-Rodan

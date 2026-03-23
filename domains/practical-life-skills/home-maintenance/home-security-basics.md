@@ -13,7 +13,7 @@ tags:
 - lighting
 - safety
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Home Security Basics

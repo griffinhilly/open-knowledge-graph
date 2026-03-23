@@ -16,7 +16,7 @@ tags:
 - DAG
 - second-messengers
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Second Messenger Systems: cAMP, IP₃, and DAG

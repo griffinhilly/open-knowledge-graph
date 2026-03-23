@@ -16,7 +16,7 @@ tags:
 - religion
 - metaphysics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cosmological Systems and Worldviews

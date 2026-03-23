@@ -13,7 +13,7 @@ tags:
 - microbial-evolution
 - genomics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Horizontal Gene Transfer

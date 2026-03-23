@@ -20,7 +20,7 @@ tags:
 - inversion
 - harmonic-progression
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bass Line Recognition and Harmonic Dictation

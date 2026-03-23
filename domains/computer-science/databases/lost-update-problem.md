@@ -14,7 +14,7 @@ tags:
 - data-integrity
 - write-conflicts
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lost Update Problem: Overwriting Concurrent Writes

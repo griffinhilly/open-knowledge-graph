@@ -15,7 +15,7 @@ tags:
 - interpretation
 - motivation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Character Interpretation and Analysis

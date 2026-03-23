@@ -19,7 +19,7 @@ tags:
 - truth-conditions
 - meaning-theory
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Truth Conditions and Meaning
 

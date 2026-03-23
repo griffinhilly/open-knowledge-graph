@@ -16,7 +16,7 @@ tags:
 - truth-conditions
 - extensions-intensions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Model-Theoretic Semantics and Truth Conditions

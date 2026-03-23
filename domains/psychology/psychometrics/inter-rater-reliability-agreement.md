@@ -15,7 +15,7 @@ tags:
 - rater-agreement
 - observational-measures
 stage: expert
-status: draft
+status: validated
 ---
 
 # Inter-Rater Reliability and Observer Agreement

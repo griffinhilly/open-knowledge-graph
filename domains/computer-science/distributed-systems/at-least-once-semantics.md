@@ -14,7 +14,7 @@ tags:
 - delivery
 - correctness
 stage: advanced
-status: draft
+status: validated
 ---
 
 # At-Least-Once Delivery Semantics

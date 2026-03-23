@@ -14,7 +14,7 @@ tags:
 - symbolism
 - composition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Still Life: History and Meaning

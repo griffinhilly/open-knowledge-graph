@@ -18,7 +18,7 @@ tags:
 - equal-groups
 - concept
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Multiplication as Equal Groups

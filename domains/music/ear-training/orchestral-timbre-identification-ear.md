@@ -13,7 +13,7 @@ tags:
 - orchestration
 - instruments
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orchestral Timbre and Instrumentation Identification

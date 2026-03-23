@@ -14,7 +14,7 @@ tags:
 - shadow
 - composition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Still Life Lighting and Shadow Placement

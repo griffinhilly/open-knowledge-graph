@@ -17,7 +17,7 @@ tags:
 - action-perception
 - body-perception
 stage: expert
-status: draft
+status: validated
 ---
 
 # Biological Motion Perception and Superior Temporal Polysensory Cortex

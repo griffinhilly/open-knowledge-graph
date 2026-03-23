@@ -11,7 +11,7 @@ tags:
 - interfacial
 - capillary
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Surface Tension and Capillary Phenomena

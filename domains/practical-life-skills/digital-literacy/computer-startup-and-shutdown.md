@@ -14,7 +14,7 @@ tags:
 - procedures
 - computer-care
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Starting & Shutting Down Your Computer

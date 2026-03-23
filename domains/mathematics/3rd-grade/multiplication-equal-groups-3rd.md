@@ -16,7 +16,7 @@ tags:
 - groups
 - foundational
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Multiplication as Equal Groups

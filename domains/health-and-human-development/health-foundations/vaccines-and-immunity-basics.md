@@ -14,7 +14,7 @@ builds-toward:
   - disease-prevention-levels
 tags: [disease, prevention, vaccines, immunity, immune-system]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Vaccines and Immunity Basics

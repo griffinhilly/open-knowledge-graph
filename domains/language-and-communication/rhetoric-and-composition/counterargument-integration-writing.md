@@ -17,7 +17,7 @@ tags:
 - argument
 - nuance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Counterargument and Refutation Strategies

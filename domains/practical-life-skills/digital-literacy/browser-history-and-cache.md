@@ -14,7 +14,7 @@ tags:
 - history
 - privacy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Browser History and Cache

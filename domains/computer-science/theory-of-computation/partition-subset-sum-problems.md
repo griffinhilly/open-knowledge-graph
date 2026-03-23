@@ -15,7 +15,7 @@ tags:
 - numeric-problems
 - pseudo-polynomial
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Partition and Subset Sum Problems

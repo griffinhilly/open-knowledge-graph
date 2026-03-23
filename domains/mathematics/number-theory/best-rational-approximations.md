@@ -11,7 +11,7 @@ tags:
 - convergents
 - continued-fractions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Best Rational Approximations

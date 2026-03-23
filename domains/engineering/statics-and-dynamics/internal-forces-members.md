@@ -18,7 +18,7 @@ tags:
 - shear force
 - bending moment
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Internal Forces in Structural Members
 

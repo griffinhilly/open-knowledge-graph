@@ -17,7 +17,7 @@ tags:
 - technology
 - lithic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lithic Technology and Stone Tool Analysis

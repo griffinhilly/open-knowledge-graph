@@ -10,7 +10,7 @@ tags:
 - social-choice
 - voting
 stage: expert
-status: draft
+status: validated
 ---
 # Arrow's Impossibility Theorem and Social Choice
 

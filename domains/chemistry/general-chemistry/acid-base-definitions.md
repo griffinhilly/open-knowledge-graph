@@ -19,7 +19,7 @@ tags:
 - proton-donor
 - electron-pair-acceptor
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Acid-Base Definitions
 

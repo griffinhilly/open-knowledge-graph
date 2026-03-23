@@ -19,7 +19,7 @@ tags:
 - anhydrides
 - carboxylic-acid-derivatives
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Carboxylic Acid Derivatives: Esters, Amides, and Acyl Chlorides

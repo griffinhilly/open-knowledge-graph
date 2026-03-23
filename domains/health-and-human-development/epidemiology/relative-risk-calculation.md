@@ -17,7 +17,7 @@ tags:
 - risk-ratio
 - cohort-studies
 stage: expert
-status: draft
+status: validated
 ---
 
 # Relative Risk Calculation and Interpretation

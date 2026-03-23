@@ -15,7 +15,7 @@ tags:
 - tokenization
 - input-processing
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Tokenization and Lexemes

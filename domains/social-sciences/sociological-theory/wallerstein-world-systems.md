@@ -14,7 +14,7 @@ tags:
 - core-periphery
 - capitalism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Wallerstein and World-Systems Theory

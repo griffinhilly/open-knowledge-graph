@@ -18,7 +18,7 @@ tags:
 - godel-incompleteness
 - consistency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # ZFC Axiom System: Consistency and Gödel's Limits

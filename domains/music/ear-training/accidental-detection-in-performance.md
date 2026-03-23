@@ -17,7 +17,7 @@ tags:
 - ear-training
 - notation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Accidental Detection in Performance by Ear

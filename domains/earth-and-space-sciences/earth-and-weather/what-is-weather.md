@@ -15,7 +15,7 @@ tags:
 - observation
 - introduction
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # What Is Weather?

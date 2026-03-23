@@ -20,7 +20,7 @@ tags:
 - henderson-hasselbalch
 - acid-base
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Buffer Systems and pH Control

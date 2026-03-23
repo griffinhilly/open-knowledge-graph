@@ -14,7 +14,7 @@ tags:
 - cultural-fusion
 - empire
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hellenism and Cultural Fusion After Alexander

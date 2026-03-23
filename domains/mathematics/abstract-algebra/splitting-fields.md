@@ -14,7 +14,7 @@ tags:
 - root
 - complete-factorization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Splitting Fields

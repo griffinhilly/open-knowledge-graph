@@ -14,7 +14,7 @@ tags:
 - second-countability
 - separability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Second Countability and Separability

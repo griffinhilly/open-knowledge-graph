@@ -18,7 +18,7 @@ tags:
 - mechanisms
 - natural-selection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Evolution Through Natural Selection

@@ -21,7 +21,7 @@ tags:
 - climate-sensitivity
 - stability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Forcing-Feedback Framework in Climate

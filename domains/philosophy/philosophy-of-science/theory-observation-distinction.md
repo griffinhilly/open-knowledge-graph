@@ -16,7 +16,7 @@ tags:
 - distinction
 - empiricism
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Theory-Observation Distinction

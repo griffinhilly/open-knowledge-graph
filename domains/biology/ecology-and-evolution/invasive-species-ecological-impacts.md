@@ -19,7 +19,7 @@ tags:
 - propagule-pressure
 - ecosystem-impacts
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Invasive Species: Establishment and Ecological Impacts

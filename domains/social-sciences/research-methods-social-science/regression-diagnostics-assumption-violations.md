@@ -17,7 +17,7 @@ tags:
 - assumptions
 - robustness
 stage: expert
-status: draft
+status: validated
 ---
 
 # Regression Diagnostics: Checking Assumptions and Violations

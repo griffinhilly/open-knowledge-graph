@@ -19,7 +19,7 @@ tags:
 - income-statement
 - balance-sheet
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Understanding Financial Statements for Personal Finance

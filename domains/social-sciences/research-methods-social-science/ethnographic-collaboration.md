@@ -17,7 +17,7 @@ tags:
 - reflexive
 - engaged
 stage: expert
-status: draft
+status: validated
 ---
 
 # Collaborative and Reflexive Ethnography

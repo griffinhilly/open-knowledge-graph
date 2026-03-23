@@ -15,7 +15,7 @@ tags:
 - contradiction
 - reductio-ad-absurdum
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Proof by Contradiction

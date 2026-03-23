@@ -15,7 +15,7 @@ tags:
 - circuit
 - branches
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Parallel Circuits
 

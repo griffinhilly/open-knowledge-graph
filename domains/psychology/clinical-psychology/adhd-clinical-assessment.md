@@ -14,7 +14,7 @@ tags:
 - ADHD
 - neurodevelopmental
 stage: expert
-status: draft
+status: validated
 ---
 
 # Attention-Deficit/Hyperactivity Disorder

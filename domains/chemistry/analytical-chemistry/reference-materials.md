@@ -15,7 +15,7 @@ tags:
 - NIST
 - metrological traceability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Reference Materials and Traceability

@@ -15,7 +15,7 @@ tags:
 - persuasion
 - hook
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pitch and Elevator Speeches

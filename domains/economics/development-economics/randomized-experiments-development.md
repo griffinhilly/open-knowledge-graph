@@ -18,7 +18,7 @@ tags:
 - RCT
 - experimental-design
 stage: expert
-status: draft
+status: validated
 ---
 
 # Randomized Experiments in Development Economics

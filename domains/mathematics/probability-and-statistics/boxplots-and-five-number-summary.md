@@ -11,7 +11,7 @@ tags:
 - outlier-detection
 - distribution-shape
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Boxplots and Five-Number Summary

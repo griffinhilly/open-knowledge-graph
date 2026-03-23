@@ -14,7 +14,7 @@ tags:
 - test-forms
 - comparability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Score Linking and Test Equating Methods

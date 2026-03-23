@@ -16,7 +16,7 @@ tags:
 - group-decision-making
 - social-comparison
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Group Polarization and Risky Shift

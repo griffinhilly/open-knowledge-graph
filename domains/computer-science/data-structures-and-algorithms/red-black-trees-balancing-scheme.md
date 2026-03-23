@@ -11,7 +11,7 @@ tags:
 - balancing
 - red-black
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Red-Black Trees: Self-Balancing Properties

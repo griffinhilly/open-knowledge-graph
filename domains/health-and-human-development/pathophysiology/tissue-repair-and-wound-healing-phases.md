@@ -18,7 +18,7 @@ tags:
 - proliferation
 - remodeling
 stage: expert
-status: draft
+status: validated
 ---
 
 # Tissue Repair and Wound Healing Phases

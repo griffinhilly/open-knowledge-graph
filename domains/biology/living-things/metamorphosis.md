@@ -15,7 +15,7 @@ tags:
 - transformation
 - life cycle
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Metamorphosis

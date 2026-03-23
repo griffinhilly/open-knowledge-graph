@@ -14,7 +14,7 @@ tags:
 - word-class-change
 - semantics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Formal Analysis of Derivational Morphology

@@ -14,7 +14,7 @@ tags:
 - anomaly
 - crisis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Normal Science and Anomalies

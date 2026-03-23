@@ -18,7 +18,7 @@ tags:
 - seventh
 - dominant
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Seventh Chord Construction

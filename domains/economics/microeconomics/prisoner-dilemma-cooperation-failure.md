@@ -13,7 +13,7 @@ tags:
 - dominant-strategy
 - conflict
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Prisoner's Dilemma and Cooperation Failure

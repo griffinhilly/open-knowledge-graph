@@ -17,7 +17,7 @@ tags:
 - diagnosis
 - program-evaluation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Screening Program Evaluation and Population-Level Optimization

@@ -16,7 +16,7 @@ tags:
 - chromatin
 - gene-regulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Nucleus: Information Center of the Cell

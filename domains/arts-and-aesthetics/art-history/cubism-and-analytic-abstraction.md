@@ -18,7 +18,7 @@ tags:
 - geometry
 - picasso-braque
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cubism and the Fragmentation of Perspective

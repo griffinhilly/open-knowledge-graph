@@ -13,7 +13,7 @@ tags:
 - emphasis
 - style
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Word Order Variation for Emphasis and Meaning

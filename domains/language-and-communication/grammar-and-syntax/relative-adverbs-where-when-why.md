@@ -13,7 +13,7 @@ tags:
 - adverbs
 - adjective-clauses
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Relative Adverbs: where, when, why

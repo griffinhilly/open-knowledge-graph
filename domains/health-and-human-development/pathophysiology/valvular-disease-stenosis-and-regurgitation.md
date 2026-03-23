@@ -16,7 +16,7 @@ tags:
 - regurgitation
 - hemodynamics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Valvular Disease: Stenosis and Regurgitation

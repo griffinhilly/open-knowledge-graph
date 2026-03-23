@@ -15,7 +15,7 @@ tags:
 - harmony
 - dissonance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Suspension and Resolution Identification by Ear

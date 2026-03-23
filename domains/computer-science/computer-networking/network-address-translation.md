@@ -16,7 +16,7 @@ tags:
 - private-addressing
 - port-forwarding
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Network Address Translation (NAT)

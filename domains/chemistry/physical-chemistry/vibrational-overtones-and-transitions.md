@@ -16,7 +16,7 @@ tags:
 - overtones
 - fine-structure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Vibrational Overtones and Hot Bands

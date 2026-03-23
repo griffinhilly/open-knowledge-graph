@@ -23,7 +23,7 @@ tags:
 - likelihood
 - posterior
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bayesian Approaches to Confirmation

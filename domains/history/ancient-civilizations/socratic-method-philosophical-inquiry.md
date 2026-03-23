@@ -15,7 +15,7 @@ tags:
 - inquiry
 - greece
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Socratic Method and Philosophical Inquiry

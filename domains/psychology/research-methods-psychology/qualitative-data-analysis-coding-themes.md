@@ -20,7 +20,7 @@ tags:
 - coding
 - thematic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Qualitative Data Analysis and Thematic Coding

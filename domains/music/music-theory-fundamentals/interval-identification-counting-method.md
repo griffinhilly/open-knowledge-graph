@@ -17,7 +17,7 @@ tags:
 - counting
 - letter-names
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Identifying Intervals by Letter Name Counting

@@ -15,7 +15,7 @@ tags:
 - autonomy
 - aesthetics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Kant: Aesthetic Disinterestedness

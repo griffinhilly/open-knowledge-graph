@@ -13,7 +13,7 @@ tags:
 - colors
 - spectral-classification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stellar Photometry, Colors, and Spectral Classification

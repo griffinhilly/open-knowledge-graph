@@ -15,7 +15,7 @@ tags:
 - bridging
 - on-camera
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Media and Interview Speaking

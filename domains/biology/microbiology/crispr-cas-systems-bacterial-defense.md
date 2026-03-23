@@ -15,7 +15,7 @@ tags:
 - immunity
 - defense
 stage: advanced
-status: draft
+status: validated
 ---
 
 # CRISPR-Cas Systems and Adaptive Bacterial Immunity

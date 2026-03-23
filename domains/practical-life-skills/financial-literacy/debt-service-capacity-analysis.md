@@ -20,7 +20,7 @@ tags:
 - capacity
 - cash-flow
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Debt Service Capacity Analysis

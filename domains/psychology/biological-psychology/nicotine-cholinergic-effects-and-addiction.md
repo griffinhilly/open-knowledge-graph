@@ -18,7 +18,7 @@ tags:
 - dopamine
 - addiction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nicotine, Cholinergic Effects, and Addiction

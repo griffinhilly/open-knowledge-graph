@@ -15,7 +15,7 @@ tags:
 - sleep
 - consolidation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Systems Consolidation and Sleep-Dependent Memory

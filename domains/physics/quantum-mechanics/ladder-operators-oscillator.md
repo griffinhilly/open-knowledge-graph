@@ -15,7 +15,7 @@ tags:
 - raising-lowering
 - algebra
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Ladder Operators for the Harmonic Oscillator

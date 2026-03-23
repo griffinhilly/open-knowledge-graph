@@ -13,7 +13,7 @@ tags:
 - tense
 - logic
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Formal Semantics of Tense and Time

@@ -11,7 +11,7 @@ tags:
 - winding-number
 - zeros-poles
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Argument Principle

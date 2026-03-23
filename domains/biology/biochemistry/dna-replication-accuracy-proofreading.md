@@ -14,7 +14,7 @@ tags:
 - mismatch repair
 - error rate
 stage: advanced
-status: draft
+status: validated
 ---
 
 # DNA Replication Accuracy and Proofreading

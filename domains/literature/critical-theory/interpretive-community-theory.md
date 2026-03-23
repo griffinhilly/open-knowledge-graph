@@ -15,7 +15,7 @@ tags:
 - meaning
 - convention
 stage: expert
-status: draft
+status: validated
 ---
 
 # Interpretive Community and Social Meaning-Making

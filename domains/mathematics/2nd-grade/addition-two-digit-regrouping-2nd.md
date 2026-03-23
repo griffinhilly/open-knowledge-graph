@@ -16,7 +16,7 @@ tags:
 - regrouping
 - carrying
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Two-Digit Addition With Regrouping

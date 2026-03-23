@@ -14,7 +14,7 @@ tags:
 - iterative
 - linear-systems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gauss-Seidel Method

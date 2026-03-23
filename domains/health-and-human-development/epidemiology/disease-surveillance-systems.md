@@ -15,7 +15,7 @@ tags:
 - data-quality
 - case-reporting
 stage: expert
-status: draft
+status: validated
 ---
 
 # Disease Surveillance Systems and Data Quality

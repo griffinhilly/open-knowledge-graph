@@ -15,7 +15,7 @@ tags:
 - weighted-benefits
 - distributive-justice
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Prioritarianism

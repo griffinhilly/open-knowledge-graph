@@ -15,7 +15,7 @@ tags:
 - integration
 - anomie
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Division of Labor and Social Cohesion

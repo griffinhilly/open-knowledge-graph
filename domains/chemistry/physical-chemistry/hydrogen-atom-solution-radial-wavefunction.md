@@ -18,7 +18,7 @@ tags:
 - wave-functions
 - atomic-orbitals
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hydrogen Atom Solution: Radial Wavefunction

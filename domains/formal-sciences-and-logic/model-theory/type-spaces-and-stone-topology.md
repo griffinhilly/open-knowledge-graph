@@ -15,7 +15,7 @@ tags:
 - compact Hausdorff
 - basis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Type Spaces and Stone Topology

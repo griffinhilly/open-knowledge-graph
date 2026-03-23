@@ -15,7 +15,7 @@ tags:
 - props
 - pacing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Demonstration Speeches

@@ -14,7 +14,7 @@ tags:
 - domination
 - legitimacy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Authority and Domination in Sociology

@@ -19,7 +19,7 @@ tags:
 - '1066'
 - conquest
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Norman Conquest and Feudalism in England

@@ -13,7 +13,7 @@ tags:
 - parsing
 - algorithms
 stage: expert
-status: draft
+status: validated
 ---
 
 # Syntactic Parsing Algorithms and Models

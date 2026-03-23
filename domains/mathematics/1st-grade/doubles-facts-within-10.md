@@ -14,7 +14,7 @@ tags:
 - facts
 - patterns
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Doubles Facts Within 10

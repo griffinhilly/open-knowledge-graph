@@ -15,7 +15,7 @@ tags:
 - satisfaction
 - semantics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Satisfaction Relation in First-Order Logic

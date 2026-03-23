@@ -13,7 +13,7 @@ tags:
 - place-value
 - number-sense
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Rounding to the Nearest Hundred

@@ -15,7 +15,7 @@ tags:
 - closure-properties
 - computability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Properties of Recursively Enumerable Languages

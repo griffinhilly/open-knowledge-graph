@@ -18,7 +18,7 @@ tags:
 - state-violence
 - industrial-murder
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Holocaust and Systematized Industrial Murder

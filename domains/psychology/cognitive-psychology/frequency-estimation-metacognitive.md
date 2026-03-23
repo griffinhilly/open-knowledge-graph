@@ -16,7 +16,7 @@ tags:
 - frequency
 - bias
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Frequency Estimation and Metacognitive Judgment

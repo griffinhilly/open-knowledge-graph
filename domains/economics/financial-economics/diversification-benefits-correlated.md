@@ -15,7 +15,7 @@ tags:
 - diversification
 - risk-reduction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diversification Benefits and Correlation Effects

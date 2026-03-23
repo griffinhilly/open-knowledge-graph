@@ -15,7 +15,7 @@ tags:
 - flux
 - normal-vectors
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Surface Integrals and Flux of Vector Fields

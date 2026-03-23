@@ -20,7 +20,7 @@ tags:
 - anxiety
 - sedation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # GABAergic Inhibition and Benzodiazepine Mechanism of Action

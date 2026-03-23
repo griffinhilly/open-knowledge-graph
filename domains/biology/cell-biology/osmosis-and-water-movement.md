@@ -17,7 +17,7 @@ tags:
 - water
 - potential
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Osmosis: Water Potential and Movement

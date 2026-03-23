@@ -15,7 +15,7 @@ tags:
 - interpretation
 - visual identity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Danto: The Artworld and Indiscernible Objects

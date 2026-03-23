@@ -15,7 +15,7 @@ tags:
 - analysis
 - context
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Identifying and Managing Audience Expectations

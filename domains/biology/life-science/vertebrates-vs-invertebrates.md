@@ -19,7 +19,7 @@ tags:
 - animals
 - backbone
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Vertebrates vs. Invertebrates
 

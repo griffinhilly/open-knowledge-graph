@@ -17,7 +17,7 @@ tags:
 - greenland-oscillations
 - thermohaline-instability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dansgaard-Oeschger Events and Rapid Climate Swings

@@ -18,7 +18,7 @@ tags:
 - diminished
 - augmented
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Perfect vs. Diminished vs. Augmented Intervals

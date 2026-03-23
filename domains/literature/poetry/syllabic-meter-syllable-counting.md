@@ -11,7 +11,7 @@ tags:
 - form
 - haiku
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Syllabic Meter: Counting Syllables

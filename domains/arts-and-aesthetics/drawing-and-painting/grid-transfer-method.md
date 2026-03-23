@@ -17,7 +17,7 @@ tags:
 - reference
 - technique
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Grid Transfer Method

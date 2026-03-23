@@ -17,7 +17,7 @@ tags:
 - tau
 - pathology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Neurodegenerative Disease Pathology

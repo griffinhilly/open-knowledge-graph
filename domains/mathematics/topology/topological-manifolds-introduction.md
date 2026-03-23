@@ -18,7 +18,7 @@ tags:
 - topological-manifolds
 - locally-euclidean
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Introduction to Topological Manifolds

@@ -17,7 +17,7 @@ tags:
 - boosting
 - supervised-learning
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Gradient Boosting Machines

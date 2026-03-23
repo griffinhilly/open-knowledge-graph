@@ -20,7 +20,7 @@ tags:
 - supercell
 - squall-line
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Convective Organization and Mesoscale Convective Systems

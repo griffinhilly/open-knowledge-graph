@@ -13,7 +13,7 @@ tags:
 - fragmentation
 - base-peak
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mass Spectrometry: Molecular Ion and Fragmentation Patterns

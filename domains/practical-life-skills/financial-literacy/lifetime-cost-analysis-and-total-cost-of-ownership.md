@@ -18,7 +18,7 @@ tags:
 - lifetime
 - purchasing-decisions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lifetime Cost Analysis and Total Cost of Ownership

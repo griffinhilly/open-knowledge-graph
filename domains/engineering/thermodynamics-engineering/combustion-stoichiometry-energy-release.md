@@ -19,7 +19,7 @@ tags:
 - energy
 - heating-value
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Combustion Stoichiometry and Energy Release

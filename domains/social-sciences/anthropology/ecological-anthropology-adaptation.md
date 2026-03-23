@@ -17,7 +17,7 @@ tags:
 - resource-management
 - subsistence
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ecological Anthropology and Human Adaptation

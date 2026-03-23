@@ -14,7 +14,7 @@ tags:
 - recurrence
 - fibonacci
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fibonacci Sequence and Properties

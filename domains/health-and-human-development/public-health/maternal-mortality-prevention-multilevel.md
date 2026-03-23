@@ -16,7 +16,7 @@ tags:
 - prevention
 - global-health
 stage: expert
-status: draft
+status: validated
 ---
 
 # Maternal Mortality Prevention Framework

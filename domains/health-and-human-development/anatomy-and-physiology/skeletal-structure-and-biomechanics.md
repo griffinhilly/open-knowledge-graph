@@ -17,7 +17,7 @@ tags:
 - stress-strain
 - microarchitecture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Skeletal Structure and Biomechanics

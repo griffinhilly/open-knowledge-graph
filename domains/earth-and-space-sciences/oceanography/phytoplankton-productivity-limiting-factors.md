@@ -18,7 +18,7 @@ tags:
 - nutrients
 - temperature
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phytoplankton Productivity and Limiting Factors

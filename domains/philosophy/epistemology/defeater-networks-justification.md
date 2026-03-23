@@ -14,7 +14,7 @@ tags:
 - networks
 - stability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Defeater Networks and Justificatory Stability

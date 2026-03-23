@@ -18,7 +18,7 @@ tags:
 - IPS
 - top-down-control
 stage: expert
-status: draft
+status: validated
 ---
 
 # Prefrontal-Parietal Attention Networks and Control

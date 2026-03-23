@@ -19,7 +19,7 @@ tags:
 - allogeneic-transplantation
 - donor-immune-cells
 stage: expert
-status: draft
+status: validated
 ---
 
 # Graft-Versus-Host Disease and Graft-Versus-Tumor Immunity

@@ -16,7 +16,7 @@ tags:
 - observation
 - technique
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Water and Reflections in Landscape

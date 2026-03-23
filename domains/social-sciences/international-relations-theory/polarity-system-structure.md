@@ -16,7 +16,7 @@ tags:
 - system-structure
 - polarity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Polarity and International System Structure

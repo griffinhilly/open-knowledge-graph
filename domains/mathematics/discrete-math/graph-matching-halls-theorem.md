@@ -13,7 +13,7 @@ tags:
 - matching
 - halls-theorem
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graph Matching and Hall's Marriage Theorem

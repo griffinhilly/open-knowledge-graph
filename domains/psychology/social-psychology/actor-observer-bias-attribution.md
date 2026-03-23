@@ -16,7 +16,7 @@ tags:
 - bias
 - self-other-asymmetry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Actor-Observer Bias in Attribution

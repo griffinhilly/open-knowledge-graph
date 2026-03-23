@@ -13,7 +13,7 @@ tags:
 - sects
 - dissent
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heretical Movements: Cathars and Waldensians

@@ -15,7 +15,7 @@ tags:
 - innateness
 - universal-grammar
 stage: expert
-status: draft
+status: validated
 ---
 
 # Universal Grammar and the Innateness Hypothesis

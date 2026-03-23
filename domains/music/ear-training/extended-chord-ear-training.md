@@ -20,7 +20,7 @@ tags:
 - jazz
 - color
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Extended Chord Recognition

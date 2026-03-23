@@ -19,7 +19,7 @@ tags:
 - tone
 - balance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Autonomic Balance and Parasympathetic Dominance

@@ -17,7 +17,7 @@ tags:
 - tradition
 - polyphony
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sacred Music and Liturgical Traditions

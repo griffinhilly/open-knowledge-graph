@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - lebesgue-measure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lebesgue Measure on ℝⁿ

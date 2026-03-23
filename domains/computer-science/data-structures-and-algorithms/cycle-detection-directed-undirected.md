@@ -13,7 +13,7 @@ tags:
 - cycles
 - dfs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cycle Detection in Directed and Undirected Graphs

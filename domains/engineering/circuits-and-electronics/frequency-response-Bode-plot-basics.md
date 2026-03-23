@@ -21,7 +21,7 @@ tags:
 - gain
 - logarithmic-scale
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Frequency Response and Bode Plot Basics

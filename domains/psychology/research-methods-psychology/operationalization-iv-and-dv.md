@@ -16,7 +16,7 @@ tags:
 - measurement
 - manipulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Operationalizing Independent and Dependent Variables

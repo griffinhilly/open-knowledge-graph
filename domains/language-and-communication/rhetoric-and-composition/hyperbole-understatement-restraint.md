@@ -16,7 +16,7 @@ tags:
 - style
 - emotion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hyperbole, Understatement, and Restraint

@@ -16,7 +16,7 @@ tags:
 - dot product
 - inner product
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dot Product and Inner Product

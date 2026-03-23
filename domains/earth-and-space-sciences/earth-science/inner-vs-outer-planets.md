@@ -4,7 +4,7 @@ title: Inner vs. Outer Planets
 domain: earth-and-space-sciences
 course: earth-science
 prerequisites:
-- id: solar-system-intro
+- id: planets-in-our-solar-system
   type: hard
 builds-toward:
 - solar-system-structure
@@ -18,7 +18,7 @@ tags:
 - gas-giants
 - solar-system
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Inner vs. Outer Planets

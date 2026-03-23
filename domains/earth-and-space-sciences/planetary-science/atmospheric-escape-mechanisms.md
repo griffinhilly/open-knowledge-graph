@@ -18,7 +18,7 @@ tags:
 - loss
 - evolution
 stage: expert
-status: draft
+status: validated
 ---
 
 # Atmospheric Escape Mechanisms

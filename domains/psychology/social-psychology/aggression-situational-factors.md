@@ -17,7 +17,7 @@ tags:
 - heat
 - frustration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Aggression: Situational Determinants and Provocation

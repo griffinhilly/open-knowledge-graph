@@ -16,7 +16,7 @@ tags:
 - precipitation
 - mass-measurement
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gravimetric Analysis: Advanced Quantitation Methods

@@ -16,7 +16,7 @@ tags:
 - data-selection
 - routing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multiplexers and Demultiplexers

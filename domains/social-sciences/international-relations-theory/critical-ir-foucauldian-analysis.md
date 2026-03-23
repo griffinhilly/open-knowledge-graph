@@ -13,7 +13,7 @@ tags:
 - knowledge
 - foucault
 stage: expert
-status: draft
+status: validated
 ---
 
 # Critical IR Theory: Power, Knowledge, and Discourse

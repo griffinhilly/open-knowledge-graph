@@ -15,7 +15,7 @@ tags:
 - output
 - acceleration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Accelerator Principle

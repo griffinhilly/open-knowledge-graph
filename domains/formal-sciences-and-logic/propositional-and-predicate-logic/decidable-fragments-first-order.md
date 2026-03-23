@@ -13,7 +13,7 @@ tags:
 - decidability
 - computational-complexity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Decidable Fragments of First-Order Logic

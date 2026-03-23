@@ -15,7 +15,7 @@ tags:
 - feudalism
 - cavalry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Feudal Military Obligation and Knighthood

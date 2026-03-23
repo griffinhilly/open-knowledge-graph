@@ -13,7 +13,7 @@ tags:
 - magnetostratigraphy
 - dating
 stage: expert
-status: draft
+status: validated
 ---
 
 # Magnetostratigraphy and Paleomagnetic Dating

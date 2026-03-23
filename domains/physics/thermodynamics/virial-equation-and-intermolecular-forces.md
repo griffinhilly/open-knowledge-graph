@@ -13,7 +13,7 @@ tags:
 - virial-expansion
 - intermolecular-forces
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Virial Equation and Intermolecular Forces

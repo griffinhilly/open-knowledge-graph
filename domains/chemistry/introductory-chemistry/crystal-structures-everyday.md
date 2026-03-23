@@ -15,7 +15,7 @@ tags:
 - structure
 - lattice
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Crystal Structures in Everyday Life
 

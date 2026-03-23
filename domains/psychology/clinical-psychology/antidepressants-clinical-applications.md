@@ -11,7 +11,7 @@ tags:
 - psychopharmacology
 - ssri
 stage: expert
-status: draft
+status: validated
 ---
 
 # Antidepressants: Mechanisms and Clinical Application

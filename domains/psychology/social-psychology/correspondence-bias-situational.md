@@ -14,7 +14,7 @@ tags:
 - situation-underestimation
 - cognitive-error
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Correspondence Bias and Situational Underestimation

@@ -16,7 +16,7 @@ tags:
 - absorption
 - emission
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Electronic Transitions and Excited State Behavior

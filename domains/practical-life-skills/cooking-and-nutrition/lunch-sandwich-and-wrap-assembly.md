@@ -14,7 +14,7 @@ tags:
 - sandwiches
 - balance
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Assembling Balanced Lunches and Sandwiches

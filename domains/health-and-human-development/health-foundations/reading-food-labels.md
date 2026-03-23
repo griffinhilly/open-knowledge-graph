@@ -15,7 +15,7 @@ builds-toward:
   - nutrient-density-food-quality-and-index-metrics
 tags: [nutrition, food-labels, health-literacy, consumer-health]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Reading Food Labels

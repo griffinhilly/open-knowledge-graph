@@ -16,7 +16,7 @@ tags:
 - degenerate-fermions
 - density-of-states
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Ideal Fermi Gas: Ground State and Excitations

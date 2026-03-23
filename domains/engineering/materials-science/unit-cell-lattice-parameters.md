@@ -13,7 +13,7 @@ tags:
 - lattice-parameter
 - crystal-geometry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Unit Cells and Lattice Parameters

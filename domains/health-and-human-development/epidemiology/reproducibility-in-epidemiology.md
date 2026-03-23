@@ -11,7 +11,7 @@ tags:
 - study-quality
 - open-science
 stage: expert
-status: draft
+status: validated
 ---
 
 # Reproducibility and Replication in Epidemiology

@@ -15,7 +15,7 @@ tags:
 - religion
 - tolerance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voltaire and the Enlightenment Critique of Religion

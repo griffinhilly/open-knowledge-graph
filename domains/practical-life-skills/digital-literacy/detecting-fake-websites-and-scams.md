@@ -15,7 +15,7 @@ tags:
 - fraud
 - credibility
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Detecting Fake Websites and Online Scams

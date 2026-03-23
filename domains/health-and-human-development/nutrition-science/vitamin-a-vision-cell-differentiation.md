@@ -16,7 +16,7 @@ tags:
 - vision
 - epithelial-health
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vitamin A: Vision, Cell Differentiation, and Immune Function

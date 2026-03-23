@@ -16,7 +16,7 @@ tags:
 - development
 - life stages
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Human Growth Stages

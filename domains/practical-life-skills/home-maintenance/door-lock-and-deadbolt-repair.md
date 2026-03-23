@@ -15,7 +15,7 @@ tags:
 - locks
 - interior-repair
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Door Lock and Deadbolt Repair

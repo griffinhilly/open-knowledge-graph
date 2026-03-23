@@ -15,7 +15,7 @@ tags:
 - spores
 - life-cycles
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fungal Reproduction and Life Cycles

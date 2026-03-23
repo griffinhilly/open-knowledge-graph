@@ -14,7 +14,7 @@ tags:
 - parsing
 - ambiguity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Garden-Path Sentences and Syntactic Parsing

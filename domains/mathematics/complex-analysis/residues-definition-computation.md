@@ -16,7 +16,7 @@ tags:
 - laurent-coefficient
 - computation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Residues: Definition and Computation

@@ -13,7 +13,7 @@ tags:
 - questions
 - verb-movement
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Subject-Auxiliary Inversion in Questions

@@ -16,7 +16,7 @@ tags:
 - degree
 - terminology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graphs: Basic Concepts and Terminology

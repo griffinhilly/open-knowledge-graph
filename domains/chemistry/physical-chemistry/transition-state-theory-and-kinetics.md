@@ -16,7 +16,7 @@ tags:
 - activation-barrier
 - rate-constants
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Transition State Theory and Reaction Rate Constants

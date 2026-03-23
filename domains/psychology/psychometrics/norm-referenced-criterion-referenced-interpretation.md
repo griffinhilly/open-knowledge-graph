@@ -14,7 +14,7 @@ tags:
 - norms
 - criterion-referenced
 stage: expert
-status: draft
+status: validated
 ---
 
 # Norm-Referenced and Criterion-Referenced Score Interpretation

@@ -16,7 +16,7 @@ tags:
 - balancing
 - power
 stage: expert
-status: draft
+status: validated
 ---
 
 # Alliance Formation and Balancing Behavior

@@ -15,7 +15,7 @@ tags:
 - banking
 - medici
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Renaissance Banking and Finance: The Medici System

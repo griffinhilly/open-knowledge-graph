@@ -14,7 +14,7 @@ tags:
 - reasoning-errors
 - argument-evaluation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Categories of Logical Fallacies

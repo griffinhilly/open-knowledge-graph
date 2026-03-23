@@ -14,7 +14,7 @@ tags:
 - multilayer
 - surface-area
 stage: advanced
-status: draft
+status: validated
 ---
 
 # BET Theory and Multilayer Adsorption

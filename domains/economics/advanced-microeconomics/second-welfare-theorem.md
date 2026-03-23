@@ -14,7 +14,7 @@ tags:
 - welfare-economics
 - redistribution
 stage: expert
-status: draft
+status: validated
 ---
 
 # Second Welfare Theorem: Efficiency and Income Redistribution

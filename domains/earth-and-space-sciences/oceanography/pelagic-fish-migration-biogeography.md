@@ -18,7 +18,7 @@ tags:
 - reproduction
 - habitat-suitability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pelagic Fish Migration and Biogeographic Distribution

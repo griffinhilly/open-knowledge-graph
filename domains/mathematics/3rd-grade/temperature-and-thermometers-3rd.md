@@ -13,7 +13,7 @@ tags:
 - temperature
 - thermometer
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Temperature and Using Thermometers
 

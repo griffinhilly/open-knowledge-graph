@@ -16,7 +16,7 @@ tags:
 - monorhyme
 - cultural-specificity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Ghazal: Arabic and South Asian Form

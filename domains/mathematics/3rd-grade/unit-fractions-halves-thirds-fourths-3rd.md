@@ -16,7 +16,7 @@ tags:
 - thirds
 - fourths
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Unit Fractions: Halves, Thirds, and Fourths

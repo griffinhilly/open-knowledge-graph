@@ -15,7 +15,7 @@ tags:
 - bare-life
 - exception
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Biopolitics, Sovereign Power, and Giorgio Agamben

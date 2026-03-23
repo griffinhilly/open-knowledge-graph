@@ -12,7 +12,7 @@ tags:
 - sound-design
 - timbre
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electronic Sound Design and Synthesis in Composition

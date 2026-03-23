@@ -18,7 +18,7 @@ tags:
 - aleph-one
 - cardinal successor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Aleph Numbers

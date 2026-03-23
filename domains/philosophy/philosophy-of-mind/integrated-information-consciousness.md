@@ -19,7 +19,7 @@ tags:
 - mechanism
 - integration
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Integrated Information Theory of Consciousness
 

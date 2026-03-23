@@ -14,7 +14,7 @@ tags:
 - comparison
 - ancient-world
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ancient Slavery Systems: Comparison Across Civilizations

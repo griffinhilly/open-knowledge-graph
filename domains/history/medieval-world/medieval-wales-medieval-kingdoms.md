@@ -16,7 +16,7 @@ tags:
 - resistance
 - expansion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Welsh Principalities and Resistance to English Expansion

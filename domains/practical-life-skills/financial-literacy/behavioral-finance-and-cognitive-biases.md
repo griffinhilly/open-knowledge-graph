@@ -12,7 +12,7 @@ tags:
 - decision-making
 - investing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Behavioral Finance and Cognitive Biases

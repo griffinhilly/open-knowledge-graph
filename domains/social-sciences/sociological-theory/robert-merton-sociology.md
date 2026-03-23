@@ -14,7 +14,7 @@ tags:
 - latent-functions
 - unintended-consequences
 stage: expert
-status: draft
+status: validated
 ---
 
 # Robert K. Merton: Manifest and Latent Functions

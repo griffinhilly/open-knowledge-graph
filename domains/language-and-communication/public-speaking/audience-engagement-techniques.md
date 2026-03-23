@@ -17,7 +17,7 @@ tags:
 - audience
 - participation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Audience Engagement and Interactive Speaking

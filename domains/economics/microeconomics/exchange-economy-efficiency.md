@@ -15,7 +15,7 @@ tags:
 - efficiency
 - exchange
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Exchange Economy and Pareto Efficiency

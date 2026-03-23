@@ -14,7 +14,7 @@ tags:
 - jazz
 - spontaneity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Improvisation and Spontaneous Composition

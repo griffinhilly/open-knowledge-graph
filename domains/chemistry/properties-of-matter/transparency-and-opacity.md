@@ -11,7 +11,7 @@ tags:
 - light
 - materials
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Transparency, Translucency, and Opacity
 

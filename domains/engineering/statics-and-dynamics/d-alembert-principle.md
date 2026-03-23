@@ -16,7 +16,7 @@ tags:
 - equilibrium-method
 - inertial-forces
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # D'Alembert's Principle

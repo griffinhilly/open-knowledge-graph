@@ -19,7 +19,7 @@ tags:
 - spatial
 - emotion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Color Temperature: Spatial and Emotional Effects

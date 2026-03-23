@@ -17,7 +17,7 @@ tags:
 - manorial
 - peasant
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Serfdom, Manorial Lords, and Rural Labor

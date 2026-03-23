@@ -16,7 +16,7 @@ tags:
 - Bloom
 - postcolonial
 stage: expert
-status: draft
+status: validated
 ---
 
 # Literary Influence, Tradition, and Anxiety of Influence

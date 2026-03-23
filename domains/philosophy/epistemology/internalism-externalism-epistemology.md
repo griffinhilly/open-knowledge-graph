@@ -13,7 +13,7 @@ tags:
 - external-world
 - justification-sources
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Internalism and Externalism in Epistemology

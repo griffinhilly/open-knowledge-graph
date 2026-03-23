@@ -13,7 +13,7 @@ tags:
 - alphabet
 - literacy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ancient Writing Systems: Cuneiform, Hieroglyphics, and Alphabets

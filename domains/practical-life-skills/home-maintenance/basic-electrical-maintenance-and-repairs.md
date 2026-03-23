@@ -14,7 +14,7 @@ tags:
 - maintenance
 - diy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Basic Electrical Maintenance and Repairs

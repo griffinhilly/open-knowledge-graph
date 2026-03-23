@@ -18,7 +18,7 @@ tags:
 - emotion
 - nature
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Romantic Landscape and the Aesthetics of the Sublime

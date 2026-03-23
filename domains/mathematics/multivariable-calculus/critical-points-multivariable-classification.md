@@ -15,7 +15,7 @@ tags:
 - extrema
 - saddle-points
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Critical Points and Classification of Extrema

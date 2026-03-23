@@ -15,7 +15,7 @@ tags:
 - next-hop
 - longest-prefix-match
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Routing Table Concepts

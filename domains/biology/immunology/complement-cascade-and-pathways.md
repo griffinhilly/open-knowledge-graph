@@ -16,7 +16,7 @@ tags:
 - cascade
 - innate-immunity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Complement System Activation Pathways

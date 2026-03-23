@@ -14,7 +14,7 @@ tags:
 - analysis
 - methodology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linguistic and Textual Analysis of Historical Sources

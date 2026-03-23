@@ -17,7 +17,7 @@ tags:
 - gravity
 - springs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Potential Energy and Conservative Forces

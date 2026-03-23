@@ -18,7 +18,7 @@ tags:
 - political-equality
 - collective-decision
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Core Principles of Democratic Governance

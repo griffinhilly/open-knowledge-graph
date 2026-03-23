@@ -15,7 +15,7 @@ tags:
 - atomic
 - hardware
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Test-and-Set and Atomic Primitives

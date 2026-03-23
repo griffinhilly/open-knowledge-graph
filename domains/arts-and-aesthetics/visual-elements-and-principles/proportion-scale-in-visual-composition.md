@@ -19,7 +19,7 @@ tags:
 - composition
 - visual-weight
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Proportion and Scale in Visual Composition

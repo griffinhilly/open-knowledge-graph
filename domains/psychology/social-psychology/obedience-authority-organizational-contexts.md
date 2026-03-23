@@ -14,7 +14,7 @@ tags:
 - organizational behavior
 - situational factors
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Obedience to Authority in Organizational Contexts

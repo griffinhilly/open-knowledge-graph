@@ -24,7 +24,7 @@ tags:
 - path-analysis
 - confirmatory-factor-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Structural Equation Modeling with Latent Variables

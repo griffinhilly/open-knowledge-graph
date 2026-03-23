@@ -18,7 +18,7 @@ tags:
 - incomplete-information
 - types
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bayesian Games (Games of Incomplete Information)

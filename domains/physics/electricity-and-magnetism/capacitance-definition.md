@@ -16,7 +16,7 @@ tags:
 - device
 - charge-voltage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Capacitance and Capacitors

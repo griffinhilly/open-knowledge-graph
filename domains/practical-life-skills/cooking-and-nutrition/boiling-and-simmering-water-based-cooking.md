@@ -16,7 +16,7 @@ tags:
 - heat
 - water
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Boiling and Simmering: Water-Based Cooking

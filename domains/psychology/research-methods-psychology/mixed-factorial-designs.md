@@ -15,7 +15,7 @@ tags:
 - factorial
 - interaction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mixed-Factorial Designs: Between and Within Factors

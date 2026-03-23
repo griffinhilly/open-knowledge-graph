@@ -15,7 +15,7 @@ tags:
 - equivalence
 - optimization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # DFA State Minimization and Hopcroft Algorithm

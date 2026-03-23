@@ -15,7 +15,7 @@ tags:
 - generics
 - polymorphism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Polymorphism and Type Variables

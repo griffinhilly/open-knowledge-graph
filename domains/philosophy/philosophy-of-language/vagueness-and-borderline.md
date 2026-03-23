@@ -16,7 +16,7 @@ tags:
 - semantics
 - logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vagueness and Borderline Cases

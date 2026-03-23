@@ -21,7 +21,7 @@ tags:
 - protein-metabolism
 - nitrogen-balance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Amino Acid Metabolism: Synthesis and Degradation

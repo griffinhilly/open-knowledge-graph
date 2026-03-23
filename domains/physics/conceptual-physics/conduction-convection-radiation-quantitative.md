@@ -17,7 +17,7 @@ tags:
 - convection
 - radiation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Comparing Conduction, Convection, and Radiation
 

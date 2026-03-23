@@ -13,7 +13,7 @@ tags:
 - accounting
 - valuation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Financial Statement Analysis for Valuation

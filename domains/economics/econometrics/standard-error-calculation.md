@@ -15,7 +15,7 @@ tags:
 - variance-estimation
 - clustering
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Standard Error Calculation and Correction Methods

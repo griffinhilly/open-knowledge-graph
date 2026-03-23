@@ -16,7 +16,7 @@ tags:
 - bone-health
 - immune-function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vitamin D: Intestinal Absorption, Calcium Homeostasis, and Bone Health

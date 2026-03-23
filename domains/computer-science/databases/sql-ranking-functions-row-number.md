@@ -13,7 +13,7 @@ tags:
 - ranking
 - window-functions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ranking Functions: ROW_NUMBER, RANK, DENSE_RANK

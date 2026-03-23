@@ -21,7 +21,7 @@ tags:
 - networks
 - tradition
 stage: expert
-status: draft
+status: validated
 ---
 
 # Literary Influence and Genealogy: Networks Across Traditions

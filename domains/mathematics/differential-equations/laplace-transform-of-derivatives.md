@@ -15,7 +15,7 @@ tags:
 - derivative
 - integral
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Laplace Transform of Derivatives and Integrals

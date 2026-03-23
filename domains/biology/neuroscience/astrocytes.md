@@ -12,7 +12,7 @@ tags:
 - glial-cells
 - synaptic-support
 stage: expert
-status: draft
+status: validated
 ---
 
 # Astrocytes and the Tripartite Synapse

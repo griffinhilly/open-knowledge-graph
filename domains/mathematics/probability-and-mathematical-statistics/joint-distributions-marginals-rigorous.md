@@ -17,7 +17,7 @@ tags:
 - joint-distributions
 - measure-theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Joint Distributions and Marginals (Rigorous)

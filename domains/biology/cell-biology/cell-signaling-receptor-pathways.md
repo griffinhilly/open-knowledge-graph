@@ -15,7 +15,7 @@ tags:
 - receptor
 - pathway
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cell Signaling: External Signals to Internal Response

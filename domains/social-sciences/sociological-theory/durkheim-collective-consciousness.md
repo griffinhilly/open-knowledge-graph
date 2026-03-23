@@ -16,7 +16,7 @@ tags:
 - morality
 - society
 stage: expert
-status: draft
+status: validated
 ---
 
 # Durkheim's Concept of Collective Consciousness

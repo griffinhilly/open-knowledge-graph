@@ -17,7 +17,7 @@ tags:
 - database-indexes
 - disk-based
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # B-Trees and Multi-Way Search Trees

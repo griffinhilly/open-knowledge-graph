@@ -13,7 +13,7 @@ tags:
 - morphology
 - temperature-sensing
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fungal Dimorphism and Environmental Morphology Switching

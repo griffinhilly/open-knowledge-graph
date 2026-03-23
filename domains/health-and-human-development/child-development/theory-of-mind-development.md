@@ -16,7 +16,7 @@ tags:
 - mentalization
 - perspective-taking
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Theory of Mind Development

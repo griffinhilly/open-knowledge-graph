@@ -16,7 +16,7 @@ tags:
 - partial-functions
 - computability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Partial vs. Total Recursive Functions

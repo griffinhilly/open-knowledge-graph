@@ -17,7 +17,7 @@ tags:
 - energy
 - metabolism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Macronutrient Energy Balance and Utilization

@@ -15,7 +15,7 @@ tags:
 - measurement
 - constructs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Construct Validity and Measurement Validity

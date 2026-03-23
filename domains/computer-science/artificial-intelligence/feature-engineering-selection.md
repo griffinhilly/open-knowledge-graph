@@ -14,7 +14,7 @@ tags:
 - dimensionality-reduction
 - feature-importance
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Feature Engineering and Selection

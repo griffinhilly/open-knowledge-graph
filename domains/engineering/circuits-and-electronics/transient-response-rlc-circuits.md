@@ -18,7 +18,7 @@ tags:
 - damping
 - oscillations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transient Response in RLC Circuits

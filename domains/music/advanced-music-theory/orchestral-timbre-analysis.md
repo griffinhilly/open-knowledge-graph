@@ -14,7 +14,7 @@ tags:
 - analysis
 - color
 stage: expert
-status: draft
+status: validated
 ---
 
 # Orchestral Timbre Analysis and Color

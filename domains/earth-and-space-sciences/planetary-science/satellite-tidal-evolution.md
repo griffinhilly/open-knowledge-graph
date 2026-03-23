@@ -14,7 +14,7 @@ tags:
 - orbital-evolution
 - dissipation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Satellite Orbital Evolution and Tidal Dissipation

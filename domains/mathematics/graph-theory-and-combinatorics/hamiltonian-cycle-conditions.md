@@ -11,7 +11,7 @@ tags:
 - sufficient-conditions
 - np-hard
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hamiltonian Cycles: Sufficient Conditions and Challenges

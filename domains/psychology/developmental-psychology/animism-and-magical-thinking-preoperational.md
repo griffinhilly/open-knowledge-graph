@@ -15,7 +15,7 @@ tags:
 - causality
 - piaget
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Animism and Magical Thinking in Preoperational Stage

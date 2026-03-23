@@ -19,7 +19,7 @@ tags:
 - autonomy
 - aesthetic-theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Aesthetic Autonomy Thesis

@@ -14,7 +14,7 @@ tags:
 - torsional-strain
 - notation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Newman Projections and Eclipsing Interactions

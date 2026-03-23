@@ -16,7 +16,7 @@ tags:
 - unity
 - chamber-music
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cyclic Form and Thematic Unity in Chamber Music

@@ -20,7 +20,7 @@ tags:
 - signaling
 - pharmacology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Neurotransmitter Receptor Subtypes and Signaling Mechanisms

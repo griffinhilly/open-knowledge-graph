@@ -13,7 +13,7 @@ tags:
 - coherence
 - pragmatics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Discourse Coherence and Rhetorical Relations

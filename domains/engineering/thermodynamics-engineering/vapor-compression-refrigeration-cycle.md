@@ -15,7 +15,7 @@ tags:
 - refrigeration
 - working-fluids
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vapor-Compression Refrigeration and Working Fluids

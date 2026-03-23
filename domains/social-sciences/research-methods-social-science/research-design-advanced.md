@@ -16,7 +16,7 @@ tags:
 - planning
 - validity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Advanced Research Design

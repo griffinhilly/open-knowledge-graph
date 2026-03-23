@@ -13,7 +13,7 @@ tags:
 - static
 - dynamic
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Gradual Typing and Mixed Static-Dynamic Types

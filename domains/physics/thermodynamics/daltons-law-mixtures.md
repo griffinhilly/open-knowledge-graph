@@ -11,7 +11,7 @@ tags:
 - partial-pressure
 - ideal-gas
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dalton's Law of Partial Pressures

@@ -14,7 +14,7 @@ tags:
 - natural capital
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Environmental Sustainability and Development

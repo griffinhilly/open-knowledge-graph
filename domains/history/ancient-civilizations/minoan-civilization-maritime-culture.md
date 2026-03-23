@@ -17,7 +17,7 @@ tags:
 - bronze-age
 - crete
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Minoan Civilization and Mediterranean Maritime Networks

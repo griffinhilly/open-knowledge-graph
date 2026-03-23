@@ -17,7 +17,7 @@ tags:
 - sigmoidal-binding
 - allosteric
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hemoglobin Cooperativity and the Oxygen-Hemoglobin Dissociation Curve

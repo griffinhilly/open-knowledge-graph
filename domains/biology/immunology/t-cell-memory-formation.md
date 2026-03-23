@@ -15,7 +15,7 @@ tags:
 - effector-memory
 - central-memory
 stage: expert
-status: draft
+status: validated
 ---
 
 # T Cell Memory Formation: Effector and Central Memory

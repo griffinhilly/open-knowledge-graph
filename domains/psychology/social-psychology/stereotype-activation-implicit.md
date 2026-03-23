@@ -18,7 +18,7 @@ tags:
 - semantic-associations
 - priming
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Implicit Stereotype Activation and Automatic Cognition

@@ -17,7 +17,7 @@ tags:
 - iterative-design
 - frequency-domain-design
 stage: expert
-status: draft
+status: validated
 ---
 
 # Control Loop Design via Bode Plots and Loop Shaping

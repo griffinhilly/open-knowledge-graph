@@ -15,7 +15,7 @@ tags:
 - energy
 - spectral-density
 stage: expert
-status: draft
+status: validated
 ---
 
 # Parseval's Theorem and Energy/Power Spectral Density

@@ -21,7 +21,7 @@ tags:
 - assumptions
 - inference
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Statistical Conclusion Validity and Assumptions of Statistical Tests

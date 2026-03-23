@@ -13,7 +13,7 @@ tags:
 - grammar-rules
 - concord
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Grammatical Agreement: A Comprehensive Overview

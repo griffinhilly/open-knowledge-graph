@@ -17,7 +17,7 @@ tags:
 - formation
 - change
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Public Opinion Formation and Change

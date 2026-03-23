@@ -19,7 +19,7 @@ tags:
 - realistic-conflict
 - intergroup
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Prejudice: Intergroup Anxiety and Threat Perception

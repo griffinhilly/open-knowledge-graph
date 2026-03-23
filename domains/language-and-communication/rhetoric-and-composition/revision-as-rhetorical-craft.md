@@ -13,7 +13,7 @@ tags:
 - writing-craft
 - editing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Revision as Rhetorical Craft

@@ -15,7 +15,7 @@ tags:
 - income
 - consumption-path
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Income Consumption Path and Engel Curves

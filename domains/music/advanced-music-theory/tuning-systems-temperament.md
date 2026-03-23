@@ -22,7 +22,7 @@ tags:
 - acoustics
 - intonation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Tuning Systems and Temperament

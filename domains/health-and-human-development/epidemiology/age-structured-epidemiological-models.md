@@ -19,7 +19,7 @@ tags:
 - age-specific-rates
 - vaccination-strategy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Age-Structured Epidemiological Models

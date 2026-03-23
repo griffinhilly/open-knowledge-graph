@@ -18,7 +18,7 @@ tags:
 - parody
 - irony
 stage: expert
-status: draft
+status: validated
 ---
 
 # Postmodern Aesthetics and Critique of Grand Narratives

@@ -17,7 +17,7 @@ tags:
 - sentence-structure
 - ditransitive
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Direct and Indirect Objects

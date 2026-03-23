@@ -16,7 +16,7 @@ tags:
 - tyrosine
 - tryptophan
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Aromatic Amino Acid Metabolism

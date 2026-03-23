@@ -14,7 +14,7 @@ tags:
 - antidepressants
 - SSRIs
 stage: expert
-status: draft
+status: validated
 ---
 
 # Antidepressant Medications: SSRIs and Mechanisms

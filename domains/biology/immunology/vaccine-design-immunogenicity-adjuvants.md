@@ -15,7 +15,7 @@ tags:
 - adjuvants
 - immunogenicity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Vaccine Design: Immunogenicity and Adjuvants

@@ -16,7 +16,7 @@ tags:
 - mechanical-energy
 - systems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Energy Conservation Methods for Systems

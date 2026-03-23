@@ -12,7 +12,7 @@ tags:
 - glial-cells
 - myelin
 stage: expert
-status: draft
+status: validated
 ---
 
 # Oligodendrocytes and Myelination

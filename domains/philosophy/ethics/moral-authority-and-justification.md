@@ -17,7 +17,7 @@ tags:
 - normativity
 - grounding
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Authority and Justification

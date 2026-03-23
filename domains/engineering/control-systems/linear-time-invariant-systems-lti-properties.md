@@ -16,7 +16,7 @@ tags:
 - linearity
 - time-invariance
 stage: expert
-status: draft
+status: validated
 ---
 
 # Linear Time-Invariant (LTI) Systems and Properties

@@ -13,7 +13,7 @@ tags:
 - income effects
 - goods classification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Normal and Inferior Goods: Income Effects

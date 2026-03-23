@@ -23,7 +23,7 @@ tags:
 - MEG
 - methods
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Neuroimaging Methods: Principles and Psychological Applications

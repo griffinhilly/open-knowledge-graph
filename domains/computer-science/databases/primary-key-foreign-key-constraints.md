@@ -16,7 +16,7 @@ tags:
 - referential integrity
 - relationships
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Primary Keys and Foreign Key Relationships

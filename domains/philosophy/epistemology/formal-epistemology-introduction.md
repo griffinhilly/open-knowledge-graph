@@ -20,7 +20,7 @@ tags:
 - logic
 - methodology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Formal Epistemology: Introduction

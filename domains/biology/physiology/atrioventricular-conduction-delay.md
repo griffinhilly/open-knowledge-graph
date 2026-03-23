@@ -17,7 +17,7 @@ tags:
 - delay
 - electrophysiology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Atrioventricular Node Conduction and Physiological Delay

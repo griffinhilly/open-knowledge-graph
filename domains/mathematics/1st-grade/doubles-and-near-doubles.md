@@ -16,7 +16,7 @@ tags:
 - patterns
 - mental-math
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Doubles and Near Doubles

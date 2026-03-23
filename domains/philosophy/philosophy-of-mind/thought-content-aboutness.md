@@ -20,7 +20,7 @@ tags:
 - meaning
 - aboutness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mental Content and Aboutness: What Makes Thoughts About Things

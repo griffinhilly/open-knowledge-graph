@@ -17,7 +17,7 @@ tags:
 - public-reason
 - legitimacy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Deliberative Democracy and Public Reason

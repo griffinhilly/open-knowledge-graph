@@ -15,7 +15,7 @@ tags:
 - chaining
 - conditional-reasoning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hypothetical Syllogism

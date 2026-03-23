@@ -14,7 +14,7 @@ tags:
 - ordering
 - lamport
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Lamport Timestamps

@@ -11,7 +11,7 @@ tags:
 - mvcc
 - read-consistency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multi-Version Concurrency Control (MVCC)

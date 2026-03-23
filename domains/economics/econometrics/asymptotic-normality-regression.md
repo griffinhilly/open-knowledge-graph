@@ -19,7 +19,7 @@ tags:
 - inference
 - clt
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Asymptotic Normality of Regression Estimators

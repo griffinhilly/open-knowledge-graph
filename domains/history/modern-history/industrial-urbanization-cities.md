@@ -14,7 +14,7 @@ tags:
 - industrial-growth
 - society
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Industrial Urbanization and City Growth

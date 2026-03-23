@@ -21,7 +21,7 @@ tags:
 - volume
 - depth
 stage: advanced
-status: draft
+status: validated
 ---
 # Understanding Form and Volume in Visual Art
 

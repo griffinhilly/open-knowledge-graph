@@ -15,7 +15,7 @@ tags:
 - model-checking
 - program-verification
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Temporal Logic

@@ -16,7 +16,7 @@ tags:
 - focal-point
 - hierarchy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Emphasis, Focal Points, and Hierarchy

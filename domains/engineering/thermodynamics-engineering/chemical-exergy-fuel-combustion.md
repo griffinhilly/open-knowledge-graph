@@ -17,7 +17,7 @@ tags:
 - maximum-work-potential
 - environmental-reference
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chemical Exergy and Fuel Combustion Analysis

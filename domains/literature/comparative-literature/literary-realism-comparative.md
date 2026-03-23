@@ -18,7 +18,7 @@ tags:
 - form
 - ideology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Realism in Comparative and Global Perspective

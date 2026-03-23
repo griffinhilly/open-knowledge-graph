@@ -16,7 +16,7 @@ tags:
 - expressivism
 - language
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Expressivism and Noncognitivism

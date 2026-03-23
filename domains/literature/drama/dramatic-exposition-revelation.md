@@ -17,7 +17,7 @@ tags:
 - dialogue
 - realism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dramatic Exposition and Information Revelation

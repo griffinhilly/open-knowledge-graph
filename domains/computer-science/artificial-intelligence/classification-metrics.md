@@ -16,7 +16,7 @@ tags:
 - evaluation
 - performance
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Classification Metrics and Evaluation

@@ -14,7 +14,7 @@ tags:
 - R/I
 - coset-multiplication
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quotient Rings

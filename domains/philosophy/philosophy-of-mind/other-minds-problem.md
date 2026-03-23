@@ -17,7 +17,7 @@ tags:
 - skepticism
 - other-minds
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Other Minds Problem

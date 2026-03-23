@@ -16,7 +16,7 @@ tags:
 - redundancy
 - common-errors
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Avoiding Double Subject Pronouns

@@ -14,7 +14,7 @@ tags:
 - medium-properties
 - elasticity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Wave Speed in Elastic Media

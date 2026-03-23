@@ -15,7 +15,7 @@ tags:
 - concrete operations
 - school age
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Middle Childhood Cognitive Advances

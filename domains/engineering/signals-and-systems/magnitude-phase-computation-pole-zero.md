@@ -15,7 +15,7 @@ tags:
 - magnitude
 - phase
 stage: expert
-status: draft
+status: validated
 ---
 
 # Magnitude and Phase from Pole-Zero Geometry

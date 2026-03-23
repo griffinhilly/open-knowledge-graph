@@ -16,7 +16,7 @@ tags:
 - fine-structure
 - relativistic-effects
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Spin-Orbit Coupling and Fine Structure

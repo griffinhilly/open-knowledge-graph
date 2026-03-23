@@ -12,7 +12,7 @@ tags:
 - nature
 - new-world
 stage: expert
-status: draft
+status: validated
 ---
 
 # William Cronon and Nature's Metropolis

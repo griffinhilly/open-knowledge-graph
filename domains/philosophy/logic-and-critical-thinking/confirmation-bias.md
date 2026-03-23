@@ -12,7 +12,7 @@ tags:
 - reasoning
 - psychology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Confirmation Bias

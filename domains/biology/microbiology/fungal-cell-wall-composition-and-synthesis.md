@@ -17,7 +17,7 @@ tags:
 - glucan
 - fungi-structure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fungal Cell Wall Composition and Biosynthesis

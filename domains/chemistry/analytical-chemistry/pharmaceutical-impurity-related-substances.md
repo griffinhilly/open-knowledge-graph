@@ -16,7 +16,7 @@ tags:
 - impurities
 - quality-control
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Pharmaceutical Impurity and Related Substances Analysis

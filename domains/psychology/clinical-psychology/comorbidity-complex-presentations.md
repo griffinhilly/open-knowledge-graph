@@ -10,7 +10,7 @@ tags:
 - comorbidity
 - complex cases
 stage: expert
-status: draft
+status: validated
 ---
 
 # Comorbidity and Complex Clinical Presentations

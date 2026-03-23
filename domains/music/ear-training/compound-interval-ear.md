@@ -13,7 +13,7 @@ tags:
 - inversion
 - pitch
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Compound Interval Recognition by Ear

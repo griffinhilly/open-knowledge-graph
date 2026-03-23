@@ -16,7 +16,7 @@ tags:
 - intensification
 - extreme-weather
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Explosive Cyclogenesis and Bombogenesis

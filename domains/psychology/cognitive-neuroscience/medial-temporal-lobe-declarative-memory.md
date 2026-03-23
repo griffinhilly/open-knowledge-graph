@@ -19,7 +19,7 @@ tags:
 - amnesia
 - hippocampus
 stage: expert
-status: draft
+status: validated
 ---
 
 # Medial Temporal Lobe and Declarative Memory Systems

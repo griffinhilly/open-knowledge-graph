@@ -14,7 +14,7 @@ tags:
 - system-image
 - disaster-recovery
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # System Backup and Recovery

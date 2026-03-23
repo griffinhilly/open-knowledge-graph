@@ -16,7 +16,7 @@ tags:
 - speech-acts
 - force-and-content
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Searle's Illocutionary Force and Speech Acts

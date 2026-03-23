@@ -13,7 +13,7 @@ tags:
 - kernel
 - initialization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Boot Process and Kernel Initialization

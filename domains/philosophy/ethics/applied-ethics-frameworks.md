@@ -18,7 +18,7 @@ tags:
 - practical
 - problem-solving
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Applied Ethics and Practical Reasoning

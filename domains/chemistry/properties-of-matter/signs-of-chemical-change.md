@@ -13,7 +13,7 @@ tags:
 - observation
 - color-change
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Signs of Chemical Change
 

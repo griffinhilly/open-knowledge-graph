@@ -15,7 +15,7 @@ tags:
 - margin
 - risk
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Leverage and Margin Trading

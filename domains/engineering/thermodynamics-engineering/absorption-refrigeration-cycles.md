@@ -15,7 +15,7 @@ tags:
 - cop
 - heat-pump
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Absorption and Adsorption Refrigeration Cycles

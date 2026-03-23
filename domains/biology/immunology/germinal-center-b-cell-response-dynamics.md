@@ -15,7 +15,7 @@ tags:
 - selection
 - follicular-dendritic-cell
 stage: expert
-status: draft
+status: validated
 ---
 
 # Germinal Center Dynamics: Architecture and B Cell Selection

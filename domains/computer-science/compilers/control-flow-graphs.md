@@ -17,7 +17,7 @@ tags:
 - program-analysis
 - graph-representation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Control Flow Graphs

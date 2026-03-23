@@ -17,7 +17,7 @@ tags:
 - quantum-mechanics
 - schrödinger
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Schrödinger Equation: Time-Dependent Form

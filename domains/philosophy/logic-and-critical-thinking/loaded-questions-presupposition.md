@@ -15,7 +15,7 @@ tags:
 - questions
 - presupposition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Loaded Questions and Hidden Presuppositions

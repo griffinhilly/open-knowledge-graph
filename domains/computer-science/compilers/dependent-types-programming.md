@@ -13,7 +13,7 @@ tags:
 - dependent-types
 - advanced
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Dependent Types and Value-Level Type Constraints

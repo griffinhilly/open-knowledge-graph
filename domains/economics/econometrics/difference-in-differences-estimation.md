@@ -19,7 +19,7 @@ tags:
 - difference-in-differences
 - treatment-effects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Difference-in-Differences: Estimation and Interpretation

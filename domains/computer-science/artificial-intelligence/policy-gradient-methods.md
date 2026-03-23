@@ -19,7 +19,7 @@ tags:
 - policy-optimization
 - on-policy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Policy Gradient Methods

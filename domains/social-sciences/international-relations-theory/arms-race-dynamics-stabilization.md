@@ -22,7 +22,7 @@ tags:
 - security-dilemma
 - action-reaction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Arms Race Dynamics and Stability

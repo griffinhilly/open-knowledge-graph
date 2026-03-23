@@ -16,7 +16,7 @@ tags:
 - friction
 - dissipation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Work by Non-Conservative Forces

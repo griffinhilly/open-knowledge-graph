@@ -13,7 +13,7 @@ tags:
 - efficacy
 - physical-causation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mental Causation and Causal Efficacy

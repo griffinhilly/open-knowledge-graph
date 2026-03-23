@@ -17,7 +17,7 @@ tags:
 - assortative-mating
 - random-mating
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mating Patterns: Inbreeding and Assortative Mating

@@ -17,7 +17,7 @@ tags:
 - reform
 - religious
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mendicant Orders and Religious Reform

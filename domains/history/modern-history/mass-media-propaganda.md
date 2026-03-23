@@ -16,7 +16,7 @@ tags:
 - public-opinion
 - manipulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mass Media, Propaganda, and Public Opinion

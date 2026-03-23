@@ -16,7 +16,7 @@ tags:
 - lexical
 - vocabulary
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Word Recognition and Lexical Access

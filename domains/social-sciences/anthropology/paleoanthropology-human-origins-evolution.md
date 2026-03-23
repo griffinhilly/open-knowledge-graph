@@ -15,7 +15,7 @@ tags:
 - hominins
 - fossil-record
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Paleoanthropology and Human Origins

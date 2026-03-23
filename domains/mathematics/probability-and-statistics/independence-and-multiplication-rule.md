@@ -16,7 +16,7 @@ tags:
 - multiplication-rule
 - dependent-events
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Independence and the Multiplication Rule
 

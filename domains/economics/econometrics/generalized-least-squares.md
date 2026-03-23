@@ -19,7 +19,7 @@ tags:
 - heteroskedasticity
 - gls
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Generalized Least Squares (GLS) for Non-Spherical Errors

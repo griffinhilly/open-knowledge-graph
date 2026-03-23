@@ -16,7 +16,7 @@ tags:
 - germany
 - toleration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Peace of Augsburg

@@ -12,7 +12,7 @@ tags:
 - relationship
 - arc
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Romance as Emotional Narrative Arc

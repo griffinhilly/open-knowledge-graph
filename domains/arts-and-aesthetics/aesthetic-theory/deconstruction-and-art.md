@@ -19,7 +19,7 @@ tags:
 - critique
 - Derrida
 stage: expert
-status: draft
+status: validated
 ---
 # Deconstruction and Aesthetic Meaning
 

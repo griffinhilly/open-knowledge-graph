@@ -19,7 +19,7 @@ tags:
 - preservation
 - learning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Classical Knowledge Preservation and Transmission

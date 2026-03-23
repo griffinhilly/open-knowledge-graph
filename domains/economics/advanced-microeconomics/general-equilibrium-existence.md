@@ -18,7 +18,7 @@ tags:
 - general-equilibrium
 - mathematical-economics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Existence of General Equilibrium: Fixed-Point Theorems

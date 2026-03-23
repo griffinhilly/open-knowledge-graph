@@ -17,7 +17,7 @@ tags:
 - fatty acid synthase
 - NADPH
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fatty Acid Synthesis and Regulation

@@ -17,7 +17,7 @@ tags:
 - reasoning
 - orality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constructing Logical Chains in Oral Argument

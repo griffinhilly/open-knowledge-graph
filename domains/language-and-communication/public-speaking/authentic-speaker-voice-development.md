@@ -15,7 +15,7 @@ tags:
 - delivery
 - style
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Developing a Genuine Personal Speaking Style

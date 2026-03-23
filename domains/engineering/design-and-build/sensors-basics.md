@@ -18,7 +18,7 @@ tags:
 - engineering
 - technology
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Sensors Basics
 

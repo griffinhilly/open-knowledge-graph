@@ -17,7 +17,7 @@ tags:
 - test-quality
 - item-revision
 stage: expert
-status: draft
+status: validated
 ---
 
 # Distractor Analysis and Item Optimization

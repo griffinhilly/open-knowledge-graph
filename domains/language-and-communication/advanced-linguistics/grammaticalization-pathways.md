@@ -11,7 +11,7 @@ tags:
 - language-change
 - diachrony
 stage: expert
-status: draft
+status: validated
 ---
 
 # Grammaticalization Pathways and Mechanisms

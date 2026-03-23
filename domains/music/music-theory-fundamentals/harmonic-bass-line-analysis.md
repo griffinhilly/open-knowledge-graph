@@ -17,7 +17,7 @@ tags:
 - harmony
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Bass Lines and Root Position Implications

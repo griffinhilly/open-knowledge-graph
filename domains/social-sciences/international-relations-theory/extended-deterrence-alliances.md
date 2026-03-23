@@ -10,7 +10,7 @@ tags:
 - credibility
 - commitment
 stage: expert
-status: draft
+status: validated
 ---
 
 # Extended Deterrence and Credible Commitment

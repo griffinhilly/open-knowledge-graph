@@ -19,7 +19,7 @@ tags:
 - ramp
 - input
 stage: expert
-status: draft
+status: validated
 ---
 
 # Standard Test Signals and Input-Output Analysis

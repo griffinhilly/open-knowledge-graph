@@ -18,7 +18,7 @@ tags:
 - status
 - legal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Serfdom and Medieval Unfree Peasantry

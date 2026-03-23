@@ -15,7 +15,7 @@ tags:
 - affinity-maturation
 - aicda
 stage: expert
-status: draft
+status: validated
 ---
 
 # Somatic Hypermutation and Affinity Maturation

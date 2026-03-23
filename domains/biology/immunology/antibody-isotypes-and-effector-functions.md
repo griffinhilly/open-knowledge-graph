@@ -15,7 +15,7 @@ tags:
 - effector-functions
 - fc-receptors
 stage: expert
-status: draft
+status: validated
 ---
 
 # Antibody Isotypes and Effector Functions

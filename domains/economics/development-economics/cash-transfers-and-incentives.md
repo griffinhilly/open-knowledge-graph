@@ -15,7 +15,7 @@ tags:
 - incentives
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cash Transfers: Conditional and Unconditional

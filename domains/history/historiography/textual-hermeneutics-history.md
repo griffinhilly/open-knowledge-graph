@@ -18,7 +18,7 @@ tags:
 - meaning
 - text
 stage: expert
-status: draft
+status: validated
 ---
 # Hermeneutics and Interpretation of Historical Texts
 

@@ -17,7 +17,7 @@ tags:
 - representation
 - lawmaking
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Legislative Systems and Representative Bodies

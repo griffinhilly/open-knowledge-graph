@@ -20,7 +20,7 @@ tags:
 - troponin
 - mechanics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Myocardial Contractility and Contraction Mechanics

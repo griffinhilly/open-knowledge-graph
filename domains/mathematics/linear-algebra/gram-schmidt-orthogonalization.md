@@ -14,7 +14,7 @@ tags:
 - orthogonalization
 - qr-decomposition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gram-Schmidt Process and QR Decomposition

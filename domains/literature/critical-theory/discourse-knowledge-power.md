@@ -17,7 +17,7 @@ tags:
 - power-knowledge
 - history-present
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Discourse, Knowledge, and Power (Foucault)

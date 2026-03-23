@@ -15,7 +15,7 @@ tags:
 - recursive-descent
 - predictive-parsing
 stage: advanced
-status: draft
+status: validated
 ---
 
 # LL Parsing and Predictive Parsing

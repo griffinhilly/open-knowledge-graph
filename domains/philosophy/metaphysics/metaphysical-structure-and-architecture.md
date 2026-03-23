@@ -16,7 +16,7 @@ tags:
 - ontology
 - architecture
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Metaphysical Structure and Architectural Form
 

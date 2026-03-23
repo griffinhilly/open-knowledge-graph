@@ -15,7 +15,7 @@ tags:
 - derivatives
 - payoff-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Call and Put Options: Rights, Exercise, and Payoffs

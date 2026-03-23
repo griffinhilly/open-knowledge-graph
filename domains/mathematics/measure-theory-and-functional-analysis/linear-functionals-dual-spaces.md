@@ -13,7 +13,7 @@ tags:
 - functional-analysis
 - dual-spaces
 stage: expert
-status: draft
+status: validated
 ---
 
 # Linear Functionals and Dual Spaces

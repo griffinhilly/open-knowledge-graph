@@ -13,7 +13,7 @@ tags:
 - prevention
 - wildlife
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Pest Prevention and Integrated Pest Management

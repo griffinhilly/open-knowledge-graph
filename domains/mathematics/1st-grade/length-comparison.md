@@ -10,7 +10,7 @@ tags:
 - measurement
 - comparison
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Length Comparison

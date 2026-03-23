@@ -17,7 +17,7 @@ tags:
 - inflammation
 - fibrosis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Tubulointerstitial Inflammation: Tubular Injury, Fibrosis, and Chronic Kidney Disease Progression

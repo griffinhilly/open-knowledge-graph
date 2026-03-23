@@ -15,7 +15,7 @@ tags:
 - causality
 - bias
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Endogenous Regressors: Bias and Consequences

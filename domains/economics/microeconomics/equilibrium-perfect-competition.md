@@ -16,7 +16,7 @@ tags:
 - perfect-competition
 - price-taker
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Market Equilibrium in Perfect Competition

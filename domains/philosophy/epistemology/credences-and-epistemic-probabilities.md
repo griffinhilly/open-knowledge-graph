@@ -19,7 +19,7 @@ tags:
 - probability
 - bayesian
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Credences and Epistemic Probabilities

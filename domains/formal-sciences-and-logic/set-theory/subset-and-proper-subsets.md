@@ -15,7 +15,7 @@ tags:
 - containment
 - relations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Subsets and Proper Subsets

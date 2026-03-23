@@ -17,7 +17,7 @@ tags:
 - ionotropic
 - synaptic-current
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ligand-Gated Ion Channels

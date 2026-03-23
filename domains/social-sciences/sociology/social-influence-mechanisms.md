@@ -17,7 +17,7 @@ tags:
 - conformity-mechanisms
 - authority
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Social Influence Mechanisms: Obedience, Compliance, and Conformity

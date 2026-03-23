@@ -18,7 +18,7 @@ tags:
 - neoglacial
 - climate-oscillations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Holocene Climate Variability and Millennial-Scale Oscillations

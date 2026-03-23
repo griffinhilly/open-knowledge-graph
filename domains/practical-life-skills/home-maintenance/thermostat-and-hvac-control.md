@@ -15,7 +15,7 @@ tags:
 - energy-efficiency
 - smart-home
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Thermostat and HVAC Control

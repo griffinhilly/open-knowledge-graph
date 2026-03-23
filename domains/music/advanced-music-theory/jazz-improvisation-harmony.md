@@ -14,7 +14,7 @@ tags:
 - harmony
 - analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Harmonic Analysis of Jazz Improvisation

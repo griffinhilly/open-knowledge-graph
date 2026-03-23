@@ -17,7 +17,7 @@ tags:
 - observation
 - light-and-shadow
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Drapery and Fabric Drawing

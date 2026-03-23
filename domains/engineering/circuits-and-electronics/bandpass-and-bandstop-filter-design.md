@@ -16,7 +16,7 @@ tags:
 - notch
 - cascade-filters
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bandpass and Bandstop Filter Design

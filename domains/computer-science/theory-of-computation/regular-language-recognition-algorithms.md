@@ -17,7 +17,7 @@ tags:
 - recognition
 - algorithms
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Regular Language Recognition Algorithms

@@ -16,7 +16,7 @@ tags:
 - energy-flow
 - energy-density
 stage: expert
-status: draft
+status: validated
 ---
 
 # Poynting Vector and Electromagnetic Energy Flow

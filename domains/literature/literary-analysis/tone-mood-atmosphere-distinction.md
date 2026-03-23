@@ -16,7 +16,7 @@ tags:
 - atmosphere
 - emotional-effect
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Tone, Mood, and Atmosphere Distinguished
 

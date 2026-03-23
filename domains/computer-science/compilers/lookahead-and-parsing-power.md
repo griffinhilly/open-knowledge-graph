@@ -15,7 +15,7 @@ tags:
 - theory
 - lookahead
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Lookahead in Parsing and Grammar Classes

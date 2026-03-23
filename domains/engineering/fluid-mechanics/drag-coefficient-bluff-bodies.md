@@ -16,7 +16,7 @@ tags:
 - streamlining
 - drag crisis
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Drag Coefficient for Bluff Bodies
 

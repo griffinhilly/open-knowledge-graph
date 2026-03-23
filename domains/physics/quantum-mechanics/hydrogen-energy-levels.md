@@ -10,7 +10,7 @@ tags:
 - hydrogen-atom
 - energy-levels
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Energy Levels of the Hydrogen Atom

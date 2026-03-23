@@ -11,7 +11,7 @@ tags:
 - proof
 - quantifiers
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Existence Proofs

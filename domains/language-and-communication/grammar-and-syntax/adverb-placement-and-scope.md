@@ -14,7 +14,7 @@ tags:
 - ambiguity
 - modification
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Adverb Placement and Scope

@@ -16,7 +16,7 @@ tags:
 - promotion
 - structure
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Constraints vs Promotion

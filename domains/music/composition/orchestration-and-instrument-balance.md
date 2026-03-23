@@ -16,7 +16,7 @@ tags:
 - balance
 - composition
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Orchestration and Instrument Balance

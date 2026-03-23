@@ -15,7 +15,7 @@ tags:
 - liquidity
 - motives
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Keynes's Demand for Money

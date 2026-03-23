@@ -17,7 +17,7 @@ tags:
 - gift
 - kula
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reciprocity and Gift Economies

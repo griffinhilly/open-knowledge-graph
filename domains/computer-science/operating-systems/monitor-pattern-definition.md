@@ -15,7 +15,7 @@ tags:
 - synchronization
 - formal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Monitors: Formal Definition and Properties

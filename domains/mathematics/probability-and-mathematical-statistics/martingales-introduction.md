@@ -13,7 +13,7 @@ tags:
 - stochastic-processes
 - probability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Introduction to Martingales

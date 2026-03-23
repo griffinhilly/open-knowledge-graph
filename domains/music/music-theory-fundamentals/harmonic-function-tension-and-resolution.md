@@ -17,7 +17,7 @@ tags:
 - resolution
 - tonal-center
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Function: Tension and Resolution

@@ -13,7 +13,7 @@ tags:
 - scaling
 - critical
 stage: expert
-status: draft
+status: validated
 ---
 
 # Renormalization Group Methods

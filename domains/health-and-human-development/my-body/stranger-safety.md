@@ -13,7 +13,7 @@ tags:
 - personal safety
 - boundaries
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Stranger Safety

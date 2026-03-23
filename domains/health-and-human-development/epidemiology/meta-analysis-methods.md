@@ -15,7 +15,7 @@ tags:
 - random-effects
 - heterogeneity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Meta-Analysis Methods and Heterogeneity Assessment

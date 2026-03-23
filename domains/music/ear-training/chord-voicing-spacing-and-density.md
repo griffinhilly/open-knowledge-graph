@@ -17,7 +17,7 @@ tags:
 - spacing
 - texture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chord Voicing: Spacing and Density

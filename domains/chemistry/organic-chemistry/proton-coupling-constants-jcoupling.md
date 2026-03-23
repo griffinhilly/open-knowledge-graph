@@ -13,7 +13,7 @@ tags:
 - multiplet
 - first-order
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Proton Coupling Constants and Spin-Spin Splitting

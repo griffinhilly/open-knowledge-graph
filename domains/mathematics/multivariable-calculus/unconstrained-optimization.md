@@ -13,7 +13,7 @@ tags:
 - extrema
 - applications
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Unconstrained Optimization: Finding Extrema

@@ -16,7 +16,7 @@ tags:
 - defects
 - line-defects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dislocations: Types and Movement

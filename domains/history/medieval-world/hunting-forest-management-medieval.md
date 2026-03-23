@@ -13,7 +13,7 @@ tags:
 - ecology
 - rights
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hunting, Forests, and Medieval Ecology

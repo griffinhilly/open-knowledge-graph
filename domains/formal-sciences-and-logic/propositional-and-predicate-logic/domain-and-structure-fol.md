@@ -19,7 +19,7 @@ tags:
 - domain
 - structures
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Domain and Structure in First-Order Logic

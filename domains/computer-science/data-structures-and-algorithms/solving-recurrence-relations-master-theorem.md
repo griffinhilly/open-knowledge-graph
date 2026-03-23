@@ -16,7 +16,7 @@ tags:
 - master-theorem
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Solving Recurrence Relations: Master Theorem and Methods

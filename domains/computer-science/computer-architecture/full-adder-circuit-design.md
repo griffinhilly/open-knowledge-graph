@@ -12,7 +12,7 @@ tags:
 - adder
 - arithmetic-circuits
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Full Adder Circuit Design

@@ -14,7 +14,7 @@ tags:
 - self
 - mind
 stage: expert
-status: draft
+status: validated
 ---
 
 # George Herbert Mead and Social Interaction

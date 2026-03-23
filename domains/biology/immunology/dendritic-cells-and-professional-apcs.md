@@ -20,7 +20,7 @@ tags:
 - innate-adaptive-bridge
 - antigen-presentation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dendritic Cells and Professional Antigen-Presenting Cells

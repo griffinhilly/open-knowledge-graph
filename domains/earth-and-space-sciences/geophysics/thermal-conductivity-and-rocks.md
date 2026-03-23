@@ -14,7 +14,7 @@ tags:
 - rocks
 - minerals
 stage: expert
-status: draft
+status: validated
 ---
 
 # Thermal Conductivity of Rocks

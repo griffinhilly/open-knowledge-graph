@@ -20,7 +20,7 @@ tags:
 - acute-coronary-syndrome
 - cardiac-ischemia
 stage: expert
-status: draft
+status: validated
 ---
 
 # Myocardial Infarction and Ischemia-Reperfusion Injury

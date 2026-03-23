@@ -17,7 +17,7 @@ tags:
 - territory
 - modern-state
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # State Centralization and Territorial Sovereignty

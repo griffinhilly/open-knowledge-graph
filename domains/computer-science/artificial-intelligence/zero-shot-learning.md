@@ -16,7 +16,7 @@ tags:
 - semantic-attributes
 - transfer
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Zero-Shot Learning

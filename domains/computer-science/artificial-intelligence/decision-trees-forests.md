@@ -13,7 +13,7 @@ tags:
 - tree-models
 - ensemble
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Decision Trees and Random Forests

@@ -24,7 +24,7 @@ tags:
 - base strength
 - solvent effects
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Substitution vs Elimination Competition
 

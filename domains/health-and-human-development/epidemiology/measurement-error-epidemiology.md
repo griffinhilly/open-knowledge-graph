@@ -16,7 +16,7 @@ tags:
 - outcome-error
 - bias
 stage: expert
-status: draft
+status: validated
 ---
 
 # Measurement Error and Bias

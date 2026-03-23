@@ -19,7 +19,7 @@ tags:
 - speed-selectivity
 - optical-flow
 stage: expert
-status: draft
+status: validated
 ---
 
 # Motion Perception and Middle Temporal (MT) Area

@@ -17,7 +17,7 @@ tags:
 - responsibility
 - desert
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Punishment and Criminal Justice

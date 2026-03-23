@@ -16,7 +16,7 @@ tags:
 - word-order
 - inversion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Forming Questions with Inverted Word Order

@@ -17,7 +17,7 @@ tags:
 - orbits
 - dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Central Force Motion and Orbital Dynamics

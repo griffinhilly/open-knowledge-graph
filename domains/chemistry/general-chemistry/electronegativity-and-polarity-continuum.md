@@ -18,7 +18,7 @@ tags:
 - periodic-trends
 - bonding
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electronegativity and Bond Polarity

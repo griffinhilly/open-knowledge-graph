@@ -19,7 +19,7 @@ tags:
 - exterior-maintenance
 - wood-care
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Deck and Patio Maintenance

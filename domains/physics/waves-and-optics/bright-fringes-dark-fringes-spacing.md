@@ -12,7 +12,7 @@ tags:
 - interference
 - patterns
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fringe Spacing in Interference Patterns

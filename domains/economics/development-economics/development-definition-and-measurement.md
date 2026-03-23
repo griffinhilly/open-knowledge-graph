@@ -18,7 +18,7 @@ tags:
 - definition
 - well-being
 stage: expert
-status: draft
+status: validated
 ---
 
 # What Is Development?

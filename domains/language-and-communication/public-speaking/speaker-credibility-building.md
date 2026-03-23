@@ -14,7 +14,7 @@ tags:
 - trustworthiness
 - authority
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Building and Maintaining Speaker Credibility

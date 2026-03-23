@@ -16,7 +16,7 @@ tags:
 - linkage
 - meiosis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Genetic Mapping and Recombination Frequency

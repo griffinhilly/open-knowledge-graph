@@ -14,7 +14,7 @@ tags:
 - bureaucracy
 - organization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Weber's Ideal Type of Bureaucracy

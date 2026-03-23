@@ -17,7 +17,7 @@ tags:
 - small-populations
 - risk
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Population Stochasticity and Extinction Risk

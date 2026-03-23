@@ -16,7 +16,7 @@ tags:
 - undercutter
 - gettier
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Epistemic Defeat: Defeaters and Undercutters

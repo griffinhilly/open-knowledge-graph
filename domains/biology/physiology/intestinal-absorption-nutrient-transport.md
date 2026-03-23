@@ -17,7 +17,7 @@ tags:
 - nutrients
 - epithelium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Intestinal Absorption and Nutrient Transport

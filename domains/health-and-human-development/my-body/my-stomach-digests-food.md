@@ -16,7 +16,7 @@ tags:
 - digestive system
 - food
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # My Stomach Digests Food

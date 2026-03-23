@@ -19,7 +19,7 @@ tags:
 - vascular-disease
 - hemostasis-failure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Thrombosis and Virchow's Triad

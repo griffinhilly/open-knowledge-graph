@@ -15,7 +15,7 @@ tags:
 - inference
 - testing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inference in Linear Regression

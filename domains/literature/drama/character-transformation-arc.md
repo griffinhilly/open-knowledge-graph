@@ -20,7 +20,7 @@ tags:
 - transformation
 - discovery
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Character Transformation and Dramatic Arc

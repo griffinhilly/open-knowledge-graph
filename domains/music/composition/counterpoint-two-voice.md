@@ -19,7 +19,7 @@ tags:
 - composition
 - polyphony
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Two-Voice Counterpoint

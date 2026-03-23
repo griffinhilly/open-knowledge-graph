@@ -16,7 +16,7 @@ tags:
 - excited-states
 - computational
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Configuration Interaction and Wavefunction Expansion

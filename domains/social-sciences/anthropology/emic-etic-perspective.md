@@ -15,7 +15,7 @@ tags:
 - etic
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Emic and Etic Perspectives in Anthropology

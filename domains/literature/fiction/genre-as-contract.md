@@ -17,7 +17,7 @@ tags:
 - reader
 - expectations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Genre as Reader Contract

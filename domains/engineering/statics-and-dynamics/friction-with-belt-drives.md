@@ -13,7 +13,7 @@ tags:
 - rope-tension
 - capstan
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Friction in Belt and Rope Systems

@@ -18,7 +18,7 @@ tags:
 - mle
 - asymptotics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Asymptotic Normality of MLEs

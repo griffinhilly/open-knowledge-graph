@@ -14,7 +14,7 @@ tags:
 - condition-variables
 - monitors
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Condition Variables and Monitors

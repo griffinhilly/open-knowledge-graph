@@ -14,7 +14,7 @@ tags:
 - algorithms
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Scheduling Algorithm Classification and Analysis

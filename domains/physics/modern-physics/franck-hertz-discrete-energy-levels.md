@@ -13,7 +13,7 @@ tags:
 - energy-levels
 - experimental-verification
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Franck-Hertz Experiment: Verification of Discrete Energy Levels

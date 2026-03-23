@@ -18,7 +18,7 @@ tags:
 - stochastic-evolution
 - population-size
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Genetic Drift: Process and Population Effects

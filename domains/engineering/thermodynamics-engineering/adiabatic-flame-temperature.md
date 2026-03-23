@@ -17,7 +17,7 @@ tags:
 - maximum-temperature
 - dissociation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Adiabatic Flame Temperature Calculations

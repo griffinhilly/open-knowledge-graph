@@ -15,7 +15,7 @@ tags:
 - spaces
 - orthogonality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inner Product Spaces

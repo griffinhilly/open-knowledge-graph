@@ -15,7 +15,7 @@ tags:
 - structure-elucidation
 - chemical-shift
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nuclear Magnetic Resonance: Quantitative Analysis

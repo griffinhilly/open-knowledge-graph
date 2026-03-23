@@ -16,7 +16,7 @@ tags:
 - cloud-radiation
 - paleoclimate-constraints
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cloud Feedbacks in Paleoclimate Systems

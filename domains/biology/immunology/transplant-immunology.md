@@ -15,7 +15,7 @@ tags:
 - transplantation
 - immunosuppression
 stage: expert
-status: draft
+status: validated
 ---
 
 # Transplant Immunology and Rejection

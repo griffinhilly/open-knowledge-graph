@@ -16,7 +16,7 @@ tags:
 - de novo
 - salvage pathway
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nucleotide Synthesis Pathways (De Novo and Salvage)

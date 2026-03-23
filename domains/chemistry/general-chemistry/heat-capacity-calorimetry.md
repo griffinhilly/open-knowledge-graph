@@ -16,7 +16,7 @@ tags:
 - bomb-calorimeter
 - q-equals-mcDeltaT
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Heat Capacity and Calorimetry
 

@@ -19,7 +19,7 @@ tags:
 - verb-classes
 - telicity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Aktionsart (Lexical Aspect)

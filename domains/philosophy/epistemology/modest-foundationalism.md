@@ -15,7 +15,7 @@ tags:
 - non-inferential-justification
 - basic-beliefs
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Modest Foundationalism
 

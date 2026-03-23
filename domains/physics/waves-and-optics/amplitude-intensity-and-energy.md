@@ -13,7 +13,7 @@ tags:
 - intensity
 - energy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Amplitude, Intensity, and Wave Energy

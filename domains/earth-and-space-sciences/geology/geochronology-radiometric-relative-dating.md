@@ -18,7 +18,7 @@ tags:
 - dating
 - time-scale
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Geochronology: Radiometric and Relative Dating Methods

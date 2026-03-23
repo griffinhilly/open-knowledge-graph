@@ -18,7 +18,7 @@ tags:
 - first-order-logic
 - wff
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Well-Formed Formulas (WFF) in Propositional and First-Order Logic

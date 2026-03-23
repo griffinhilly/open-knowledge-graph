@@ -15,7 +15,7 @@ tags:
 - spacetime
 - simultaneity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Relativity of Simultaneity

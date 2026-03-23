@@ -18,7 +18,7 @@ tags:
 - resistance
 - motion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Inertia and Mass
 

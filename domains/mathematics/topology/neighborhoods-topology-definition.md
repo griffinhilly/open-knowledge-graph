@@ -13,7 +13,7 @@ tags:
 - neighborhoods
 - local-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Neighborhoods and Neighborhood Bases

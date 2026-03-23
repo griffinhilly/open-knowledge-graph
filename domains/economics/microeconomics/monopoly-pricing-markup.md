@@ -16,7 +16,7 @@ tags:
 - deadweight-loss
 - economic-profit
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Monopoly Pricing and Markup Behavior

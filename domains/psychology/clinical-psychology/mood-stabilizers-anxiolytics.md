@@ -17,7 +17,7 @@ tags:
 - bipolar
 - anxiety
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mood Stabilizers and Anxiolytic Medications

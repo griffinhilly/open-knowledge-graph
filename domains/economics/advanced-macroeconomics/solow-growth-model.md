@@ -23,7 +23,7 @@ tags:
 - neoclassical
 - capital-accumulation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Solow Growth Model

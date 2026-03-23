@@ -15,7 +15,7 @@ tags:
 - probabilistic
 - memory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bloom Filters: Space-Efficient Probabilistic Set Membership

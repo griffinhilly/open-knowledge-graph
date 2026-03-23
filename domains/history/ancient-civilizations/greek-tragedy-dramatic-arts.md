@@ -16,7 +16,7 @@ tags:
 - culture
 - arts
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Greek Tragedy and Dramatic Arts

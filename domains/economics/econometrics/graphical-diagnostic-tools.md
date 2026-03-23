@@ -13,7 +13,7 @@ tags:
 - residuals
 - visualization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graphical Diagnostics: Residual Plots and QQ Plots

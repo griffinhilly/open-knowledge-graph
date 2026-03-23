@@ -17,7 +17,7 @@ tags:
 - towns
 - class
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Urban Growth and the Burgher Merchant Class

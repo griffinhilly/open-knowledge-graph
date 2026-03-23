@@ -14,7 +14,7 @@ tags:
 - thermal
 - metrics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Performance Metrics, Power, and Thermal Management

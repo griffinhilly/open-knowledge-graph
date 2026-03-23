@@ -16,7 +16,7 @@ tags:
 - moment
 - molecular
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Dipole Moment and Molecular Polarity

@@ -16,7 +16,7 @@ tags:
 - prime-factorization
 - integers
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fundamental Theorem of Arithmetic (Rigorous)

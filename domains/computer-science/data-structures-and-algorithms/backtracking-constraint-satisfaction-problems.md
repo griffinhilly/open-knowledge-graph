@@ -14,7 +14,7 @@ tags:
 - csp
 - search
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Backtracking and Constraint Satisfaction

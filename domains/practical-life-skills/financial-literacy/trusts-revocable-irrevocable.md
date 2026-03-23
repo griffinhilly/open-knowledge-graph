@@ -16,7 +16,7 @@ tags:
 - estate-planning
 - living-trust
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Trusts — Revocable and Irrevocable

@@ -16,7 +16,7 @@ tags:
 - dynamics
 - correlation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # NMR Relaxation Times and Correlation Functions

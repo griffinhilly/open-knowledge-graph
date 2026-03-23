@@ -18,7 +18,7 @@ tags:
 - infinite-cardinals
 - power-sets
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Aleph and Beth Hierarchies of Infinities

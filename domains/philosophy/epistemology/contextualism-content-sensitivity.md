@@ -16,7 +16,7 @@ tags:
 - context-sensitivity
 - knowledge
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Contextualism and Knowledge Attributions

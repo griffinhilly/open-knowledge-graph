@@ -17,7 +17,7 @@ tags:
 - structure
 - composition-technique
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Melody Writing and Phrasing

@@ -15,7 +15,7 @@ tags:
 - random-effects
 - error-components
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Random Effects: Error Component Model

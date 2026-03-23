@@ -15,7 +15,7 @@ tags:
 - voice-leading
 - harmony
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voice-Leading as Expression of Harmonic Function

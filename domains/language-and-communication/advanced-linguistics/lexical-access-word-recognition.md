@@ -13,7 +13,7 @@ tags:
 - lexical-access
 - word-recognition
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lexical Access and Word Recognition in Real Time

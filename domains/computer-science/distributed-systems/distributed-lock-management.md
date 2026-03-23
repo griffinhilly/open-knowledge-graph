@@ -17,7 +17,7 @@ tags:
 - consensus
 - deadlock
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Distributed Lock Management

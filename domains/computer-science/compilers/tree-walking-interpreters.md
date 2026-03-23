@@ -15,7 +15,7 @@ tags:
 - execution
 - ast-traversal
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Tree-Walking Interpreters

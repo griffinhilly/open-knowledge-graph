@@ -16,7 +16,7 @@ tags:
 - verbs
 - clause-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Serial Verb Constructions (SVCs)

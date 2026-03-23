@@ -20,7 +20,7 @@ tags:
 - action-potential
 - electrophysiology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Action Potential Phases

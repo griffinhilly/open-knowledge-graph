@@ -20,7 +20,7 @@ tags:
 - rapid-climate-reversal
 - megaflood
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Younger Dryas: A Glacial Reversal in the Holocene

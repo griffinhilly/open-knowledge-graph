@@ -14,7 +14,7 @@ tags:
 - word-recognition
 - frequency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lexical Frequency Effects in Word Processing

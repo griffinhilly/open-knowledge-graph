@@ -13,7 +13,7 @@ tags:
 - thermodynamic-properties
 - specific-heat
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heat Capacity at Constant Volume and Pressure

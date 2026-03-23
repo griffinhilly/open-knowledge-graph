@@ -11,7 +11,7 @@ tags:
 - existence
 - Walrasian
 stage: advanced
-status: draft
+status: validated
 ---
 
 # General Equilibrium and Existence of Walrasian Equilibrium

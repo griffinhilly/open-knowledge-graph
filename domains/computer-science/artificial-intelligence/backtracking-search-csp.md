@@ -18,7 +18,7 @@ tags:
 - backtracking
 - variable-ordering
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Backtracking Search for CSPs

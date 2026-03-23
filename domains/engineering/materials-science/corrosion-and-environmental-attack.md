@@ -13,7 +13,7 @@ tags:
 - passivation
 - electrochemistry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Corrosion and Environmental Degradation

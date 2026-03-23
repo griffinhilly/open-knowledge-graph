@@ -13,7 +13,7 @@ tags:
 - work
 - circulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Work and Circulation

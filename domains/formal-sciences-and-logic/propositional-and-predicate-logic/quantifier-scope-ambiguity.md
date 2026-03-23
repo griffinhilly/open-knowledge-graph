@@ -17,7 +17,7 @@ tags:
 - scope-ambiguity
 - translation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Quantifier Scope and Ambiguity

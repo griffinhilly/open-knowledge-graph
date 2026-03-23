@@ -12,7 +12,7 @@ tags:
 - latent-manifest
 - functions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Robert Merton and Functional Analysis

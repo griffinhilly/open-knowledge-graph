@@ -15,7 +15,7 @@ tags:
 - theoretical-saturation
 - constant-comparison
 stage: expert
-status: draft
+status: validated
 ---
 
 # Grounded Theory Methods

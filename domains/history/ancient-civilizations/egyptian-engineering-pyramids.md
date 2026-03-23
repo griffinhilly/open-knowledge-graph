@@ -14,7 +14,7 @@ tags:
 - pyramids
 - technology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Egyptian Engineering and the Pyramids

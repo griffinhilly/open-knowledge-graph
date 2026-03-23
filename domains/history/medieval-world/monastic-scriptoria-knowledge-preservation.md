@@ -15,7 +15,7 @@ tags:
 - manuscripts
 - knowledge
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Monastic Scriptoria and the Preservation of Knowledge

@@ -11,7 +11,7 @@ tags:
 - minors
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graph Minors and Minor-Closed Families

@@ -15,7 +15,7 @@ tags:
 - repeated-measures
 - longitudinal-survival
 stage: expert
-status: draft
+status: validated
 ---
 
 # Joint Longitudinal-Competing Event Models

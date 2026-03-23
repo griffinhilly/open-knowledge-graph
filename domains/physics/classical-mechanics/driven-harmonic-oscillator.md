@@ -24,7 +24,7 @@ tags:
 - forcing
 - steady-state
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Driven Harmonic Oscillator

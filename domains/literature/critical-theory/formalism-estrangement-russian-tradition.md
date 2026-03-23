@@ -14,7 +14,7 @@ tags:
 - estrangement
 - defamiliarization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Russian Formalism and Estrangement

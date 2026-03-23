@@ -15,7 +15,7 @@ tags:
 - penicillins
 - mechanism-of-action
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Beta-Lactam Antibiotics and Penicillin-Binding Protein Inhibition

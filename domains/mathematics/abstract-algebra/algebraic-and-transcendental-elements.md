@@ -14,7 +14,7 @@ tags:
 - transcendental
 - minimal-polynomial
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Algebraic and Transcendental Elements

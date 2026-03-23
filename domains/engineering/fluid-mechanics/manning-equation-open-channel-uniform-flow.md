@@ -11,7 +11,7 @@ tags:
 - manning-equation
 - uniform-flow
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Manning Equation for Open Channel Uniform Flow

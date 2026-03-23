@@ -4,18 +4,17 @@ title: Immutability and Mutation
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- id: accessing-and-modifying-elements
+- id: array-indexing
   type: hard
 builds-toward:
-- introducing-objects-and-classes
+- intro-to-classes
 tags:
 - mutation
 - immutability
 - data
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Immutability and Mutation
 
 ## Core Idea

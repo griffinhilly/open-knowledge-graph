@@ -21,7 +21,7 @@ tags:
 - attention
 - sequence-models
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Attention Mechanisms

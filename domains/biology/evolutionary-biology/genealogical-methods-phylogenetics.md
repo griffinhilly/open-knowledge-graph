@@ -19,7 +19,7 @@ tags:
 - genealogy
 - population-history
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Genealogical and Coalescent Methods in Phylogenetics

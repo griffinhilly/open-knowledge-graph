@@ -16,7 +16,7 @@ tags:
 - adaptation
 - tolerance
 stage: expert
-status: draft
+status: validated
 ---
 
 # Receptor Desensitization and Adaptation

@@ -19,7 +19,7 @@ tags:
 - logic
 - analysis
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Classifying with Multiple Attributes

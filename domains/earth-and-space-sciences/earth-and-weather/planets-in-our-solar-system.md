@@ -14,7 +14,7 @@ tags:
 - space
 - astronomy
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Planets in Our Solar System

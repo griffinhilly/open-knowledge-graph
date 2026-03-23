@@ -13,7 +13,7 @@ tags:
 - dipole
 - rotation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Torque on Magnetic Dipoles

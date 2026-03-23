@@ -18,7 +18,7 @@ tags:
 - complexity
 - progressive
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Progressive Disclosure of Information

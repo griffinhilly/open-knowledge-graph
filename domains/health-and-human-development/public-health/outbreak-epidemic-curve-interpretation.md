@@ -16,7 +16,7 @@ tags:
 - epidemiology
 - case-investigation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Epidemic Curves and Outbreak Dynamics

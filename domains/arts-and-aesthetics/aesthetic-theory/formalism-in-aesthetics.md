@@ -18,7 +18,7 @@ tags:
 - abstraction
 - aesthetic value
 stage: expert
-status: draft
+status: validated
 ---
 
 # Formalism in Aesthetics

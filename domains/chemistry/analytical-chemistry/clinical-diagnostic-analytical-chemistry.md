@@ -16,7 +16,7 @@ tags:
 - diagnostics
 - biomarkers
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Clinical Diagnostic Analytical Chemistry

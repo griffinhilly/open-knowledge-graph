@@ -16,7 +16,7 @@ tags:
 - markovnikov
 - mercurinium-ion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Oxymercuration: Markovnikov Hydration of Alkenes

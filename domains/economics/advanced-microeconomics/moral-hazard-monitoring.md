@@ -15,7 +15,7 @@ tags:
 - information-asymmetry
 - incentives
 stage: expert
-status: draft
+status: validated
 ---
 
 # Moral Hazard and Incentive Contracting

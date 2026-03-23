@@ -16,7 +16,7 @@ tags:
 - state-context
 - retrieval
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # State-Dependent Learning and Context-Dependent Memory

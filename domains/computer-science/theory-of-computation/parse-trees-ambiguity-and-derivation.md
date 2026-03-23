@@ -14,7 +14,7 @@ tags:
 - parse-trees
 - ambiguity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Parse Trees, Derivations, and Ambiguity in CFGs

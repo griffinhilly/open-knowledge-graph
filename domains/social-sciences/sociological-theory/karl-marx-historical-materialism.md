@@ -17,7 +17,7 @@ tags:
 - materialism
 - conflict
 stage: expert
-status: draft
+status: validated
 ---
 
 # Karl Marx and Historical Materialism

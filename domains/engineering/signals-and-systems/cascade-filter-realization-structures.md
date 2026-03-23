@@ -15,7 +15,7 @@ tags:
 - cascade
 - structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cascade Filter Realization Structures

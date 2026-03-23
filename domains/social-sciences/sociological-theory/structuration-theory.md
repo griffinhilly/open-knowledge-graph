@@ -14,7 +14,7 @@ tags:
 - agency-structure
 - duality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Giddens: Structuration Theory

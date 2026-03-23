@@ -16,7 +16,7 @@ tags:
 - flow
 - signposting
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transitions and Cohesion in Spoken Language

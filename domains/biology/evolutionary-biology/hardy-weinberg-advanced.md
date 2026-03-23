@@ -15,7 +15,7 @@ tags:
 - equilibrium
 - null-hypothesis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hardy-Weinberg Equilibrium: Advanced Applications

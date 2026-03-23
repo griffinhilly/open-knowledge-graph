@@ -15,7 +15,7 @@ tags:
 - productivity
 - derivation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Word Formation Rules and Productivity

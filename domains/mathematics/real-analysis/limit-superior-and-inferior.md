@@ -16,7 +16,7 @@ tags:
 - convergence
 - oscillation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Limit Superior and Inferior

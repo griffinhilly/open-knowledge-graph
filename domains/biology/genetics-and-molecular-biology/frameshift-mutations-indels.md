@@ -17,7 +17,7 @@ tags:
 - reading-frame
 - genetic-mutations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Frameshift Mutations and Reading Frame Disruption

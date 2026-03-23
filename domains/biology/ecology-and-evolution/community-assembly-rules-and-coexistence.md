@@ -16,7 +16,7 @@ tags:
 - rules
 - ecology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Community Assembly Rules and Species Coexistence

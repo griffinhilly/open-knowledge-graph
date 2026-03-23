@@ -14,7 +14,7 @@ tags:
 - periodic-trends
 - reactivity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Periodic Trends: Size and Reactivity Patterns
 

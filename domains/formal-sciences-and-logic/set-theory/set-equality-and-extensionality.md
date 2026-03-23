@@ -15,7 +15,7 @@ tags:
 - extensionality
 - foundation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Set Equality and Extensionality

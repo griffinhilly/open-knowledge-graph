@@ -19,7 +19,7 @@ tags:
 - trustworthiness
 - quality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Qualitative Research Validity and Trustworthiness

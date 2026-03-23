@@ -16,7 +16,7 @@ tags:
 - system
 - integration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # I/O Architecture and System Integration

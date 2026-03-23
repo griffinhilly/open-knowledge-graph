@@ -19,7 +19,7 @@ tags:
 - feedback
 - projection-uncertainty
 stage: expert
-status: draft
+status: validated
 ---
 
 # Equilibrium Climate Sensitivity and Its Uncertainty

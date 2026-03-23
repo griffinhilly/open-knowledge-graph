@@ -15,7 +15,7 @@ tags:
 - grouping
 - repeated-subtraction
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Division: Grouping (Repeated Subtraction) Model

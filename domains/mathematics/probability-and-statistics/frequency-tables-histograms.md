@@ -12,7 +12,7 @@ tags:
 - data-visualization
 - descriptive-statistics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Histograms and Frequency Visualizations

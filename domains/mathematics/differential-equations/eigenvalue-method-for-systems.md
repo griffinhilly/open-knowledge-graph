@@ -15,7 +15,7 @@ tags:
 - eigenvalue
 - diagonalization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Eigenvalue Method for Systems of ODEs

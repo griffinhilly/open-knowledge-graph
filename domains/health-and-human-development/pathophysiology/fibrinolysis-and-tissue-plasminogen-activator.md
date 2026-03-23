@@ -16,7 +16,7 @@ tags:
 - urokinase
 - thrombosis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Fibrinolysis and Tissue Plasminogen Activator

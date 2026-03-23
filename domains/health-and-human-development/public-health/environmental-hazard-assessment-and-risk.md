@@ -16,7 +16,7 @@ tags:
 - exposure-assessment
 - risk
 stage: expert
-status: draft
+status: validated
 ---
 
 # Environmental Hazard Assessment and Risk Characterization

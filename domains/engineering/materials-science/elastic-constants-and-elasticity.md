@@ -18,7 +18,7 @@ tags:
 - stiffness
 - mechanical-properties
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Elastic Constants and Elasticity Theory

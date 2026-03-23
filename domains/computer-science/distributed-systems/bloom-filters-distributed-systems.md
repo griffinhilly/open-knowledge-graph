@@ -14,7 +14,7 @@ tags:
 - membership
 - space-efficient
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bloom Filters in Distributed Systems

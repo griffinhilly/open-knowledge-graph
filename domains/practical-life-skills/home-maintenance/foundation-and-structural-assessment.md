@@ -15,7 +15,7 @@ tags:
 - structure
 - structural damage
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Foundation and Structural Inspection Basics
 

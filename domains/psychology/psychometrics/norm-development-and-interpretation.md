@@ -21,7 +21,7 @@ tags:
 - score-interpretation
 - normative-samples
 stage: expert
-status: draft
+status: validated
 ---
 
 # Norm Development and Score Interpretation

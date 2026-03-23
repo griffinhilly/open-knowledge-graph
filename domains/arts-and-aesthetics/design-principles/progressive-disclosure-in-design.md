@@ -14,7 +14,7 @@ tags:
 - complexity
 - interaction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Progressive Disclosure in Design

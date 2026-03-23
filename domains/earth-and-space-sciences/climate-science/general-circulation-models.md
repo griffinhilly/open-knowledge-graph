@@ -28,7 +28,7 @@ tags:
 - parameterization
 - numerical
 stage: expert
-status: draft
+status: validated
 ---
 
 # General Circulation Models (GCMs) and Climate Simulation

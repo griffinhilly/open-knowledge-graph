@@ -12,7 +12,7 @@ tags:
 - productivity
 - digital-wellbeing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Notification Management

@@ -15,7 +15,7 @@ tags:
 - readability
 - text
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Typography for Readability and Legibility

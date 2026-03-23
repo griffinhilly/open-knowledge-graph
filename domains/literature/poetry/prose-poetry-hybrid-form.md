@@ -18,7 +18,7 @@ tags:
 - lyric
 - compression
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Prose Poetry as Hybrid Form

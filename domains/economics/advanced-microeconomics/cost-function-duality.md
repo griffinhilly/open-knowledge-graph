@@ -17,7 +17,7 @@ tags:
 - producer-theory
 - cost-minimization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Duality in Producer Theory

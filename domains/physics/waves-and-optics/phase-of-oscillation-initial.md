@@ -13,7 +13,7 @@ tags:
 - waves
 - phase
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Phase and Phase Relationships Between Waves

@@ -19,7 +19,7 @@ tags:
 - temperature-reconstruction
 - drought
 stage: expert
-status: draft
+status: validated
 ---
 
 # Tree Ring Climate Reconstruction

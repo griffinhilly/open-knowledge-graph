@@ -16,7 +16,7 @@ tags:
 - diagnostics
 - prevention
 stage: expert
-status: draft
+status: validated
 ---
 
 # Screening, Positive Predictive Value, and Disease Prevalence

@@ -16,7 +16,7 @@ tags:
 - transcription-factors
 - development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cell Differentiation and Lineage Specification

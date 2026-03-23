@@ -11,7 +11,7 @@ tags:
 - algorithms
 - negative-weights
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bellman-Ford Algorithm: Shortest Paths with Negative Weights

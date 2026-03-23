@@ -12,7 +12,7 @@ tags:
 - square
 - visual perception
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Identifying Squares

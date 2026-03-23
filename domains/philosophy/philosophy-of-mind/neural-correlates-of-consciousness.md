@@ -16,7 +16,7 @@ tags:
 - constitution
 - neuroscience-of-consciousness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Neural Correlates of Consciousness

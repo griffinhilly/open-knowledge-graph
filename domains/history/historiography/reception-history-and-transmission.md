@@ -17,7 +17,7 @@ tags:
 - transformation
 - circulation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Reception History: Tracking Idea Transmission

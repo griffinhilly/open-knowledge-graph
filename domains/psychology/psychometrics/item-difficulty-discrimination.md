@@ -16,7 +16,7 @@ tags:
 - point-biserial
 - item-revision
 stage: expert
-status: draft
+status: validated
 ---
 
 # Item Difficulty and Item Discrimination Analysis

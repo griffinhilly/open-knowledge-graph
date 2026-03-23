@@ -15,7 +15,7 @@ tags:
 - healthcare
 - tax-advantaged
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Healthcare Savings Accounts

@@ -15,7 +15,7 @@ tags:
 - demand
 - utility
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hicksian (Compensated) Demand

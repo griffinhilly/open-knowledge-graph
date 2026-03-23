@@ -15,7 +15,7 @@ tags:
 - transparency
 - preregistration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Analysis Planning and Preregistration of Hypotheses

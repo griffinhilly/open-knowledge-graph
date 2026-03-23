@@ -16,7 +16,7 @@ tags:
 - cycles
 - tropical
 stage: expert
-status: draft
+status: validated
 ---
 
 # Orbital Precession and Tropical Climate Forcing

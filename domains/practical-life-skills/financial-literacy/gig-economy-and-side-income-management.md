@@ -15,7 +15,7 @@ tags:
 - taxes
 - income-tracking
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Gig Economy and Side Income Management

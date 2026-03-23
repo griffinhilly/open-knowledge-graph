@@ -17,7 +17,7 @@ tags:
 - management
 - mib
 stage: advanced
-status: draft
+status: validated
 ---
 
 # SNMP: Simple Network Management Protocol

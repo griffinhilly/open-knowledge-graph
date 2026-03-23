@@ -13,7 +13,7 @@ tags:
 - 2d-shapes
 - attributes
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Attributes of Two-Dimensional Shapes

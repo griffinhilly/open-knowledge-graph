@@ -16,7 +16,7 @@ tags:
 - flow
 - measurement
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Static and Dynamic Pressure

@@ -16,7 +16,7 @@ tags:
 - sinusoidal
 - rms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # AC Steady-State Circuit Analysis

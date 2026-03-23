@@ -16,7 +16,7 @@ tags:
 - church-corruption
 - ecclesiastical-authority
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Indulgence Practices and the Reformation Controversy

@@ -14,7 +14,7 @@ tags:
 - ordered-pairs
 - relations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cartesian Product and Ordered Pairs

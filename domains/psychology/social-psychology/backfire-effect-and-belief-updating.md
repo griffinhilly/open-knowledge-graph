@@ -16,7 +16,7 @@ tags:
 - misinformation
 - attitude change
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Backfire Effect and Belief Updating Phenomena

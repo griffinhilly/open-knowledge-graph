@@ -22,7 +22,7 @@ tags:
 - osmolarity
 - water-balance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Body Water, Electrolytes, and Osmotic Balance

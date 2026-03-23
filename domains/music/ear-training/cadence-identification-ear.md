@@ -17,7 +17,7 @@ tags:
 - harmonic-function
 - form
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cadence Identification by Ear

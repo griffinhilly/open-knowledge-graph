@@ -17,7 +17,7 @@ tags:
 - INNER JOIN
 - combining tables
 stage: formal-systems
-status: draft
+status: validated
 ---
 # SQL: INNER JOIN and Basic Joins
 

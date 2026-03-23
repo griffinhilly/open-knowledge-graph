@@ -13,7 +13,7 @@ tags:
 - driven-systems
 - dissipation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Non-Equilibrium Statistical Mechanics: Foundations

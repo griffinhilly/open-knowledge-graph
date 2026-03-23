@@ -18,7 +18,7 @@ tags:
 - taste
 - market
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Salon System and the Formation of Artistic Taste

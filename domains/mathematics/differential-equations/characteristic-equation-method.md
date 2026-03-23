@@ -16,7 +16,7 @@ tags:
 - constant-coefficients
 - solution-method
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Characteristic Equation Method for Linear ODEs

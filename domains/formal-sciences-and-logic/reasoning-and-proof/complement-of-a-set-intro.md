@@ -14,7 +14,7 @@ builds-toward:
   - de-morgans-laws
 tags: [complement, set-operations, universal-set, logic]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Complement of a Set

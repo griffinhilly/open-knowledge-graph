@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - t-distribution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # T-Distribution: Theory and Inference

@@ -15,7 +15,7 @@ tags:
 - cycling
 - communities
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Microbial Communities and Biogeochemical Cycling

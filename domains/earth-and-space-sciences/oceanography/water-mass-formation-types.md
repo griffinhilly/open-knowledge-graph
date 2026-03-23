@@ -18,7 +18,7 @@ tags:
 - NADW
 - AABW
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Water Mass Formation and Classification
 

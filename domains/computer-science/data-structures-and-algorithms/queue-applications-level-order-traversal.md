@@ -16,7 +16,7 @@ tags:
 - traversal
 - bfs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Queue Applications: Level-Order Traversal and Breadth-First Search

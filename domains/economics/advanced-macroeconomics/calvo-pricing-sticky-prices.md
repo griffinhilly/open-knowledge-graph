@@ -15,7 +15,7 @@ tags:
 - sticky-prices
 - nominal-rigidities
 stage: expert
-status: draft
+status: validated
 ---
 
 # Calvo Pricing and Sticky Prices

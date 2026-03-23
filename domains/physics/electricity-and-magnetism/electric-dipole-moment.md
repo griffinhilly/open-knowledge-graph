@@ -15,7 +15,7 @@ tags:
 - moment
 - polarization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electric Dipoles and Dipole Moment

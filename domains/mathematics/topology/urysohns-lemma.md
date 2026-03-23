@@ -15,7 +15,7 @@ tags:
 - urysohn
 - lemma
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Urysohn's Lemma

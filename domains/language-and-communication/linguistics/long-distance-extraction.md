@@ -16,7 +16,7 @@ tags:
 - constraints
 - locality
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Long-Distance Extraction

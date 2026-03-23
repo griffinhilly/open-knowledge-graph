@@ -13,7 +13,7 @@ tags:
 - analytic-number-theory
 - special-functions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Introduction to the Riemann Zeta Function

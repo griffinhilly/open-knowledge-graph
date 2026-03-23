@@ -16,7 +16,7 @@ tags:
 - deposition
 - diagenesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sedimentary Rock Types: Detrital and Chemical

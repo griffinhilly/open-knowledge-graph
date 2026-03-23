@@ -18,7 +18,7 @@ tags:
 - large-forms
 - instrumental-music
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Symphony and Large Instrumental Forms

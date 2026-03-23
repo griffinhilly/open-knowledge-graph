@@ -16,7 +16,7 @@ tags:
 - ensemble
 - thermodynamics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Microstates and Macrostates

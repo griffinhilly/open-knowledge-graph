@@ -15,7 +15,7 @@ tags:
 - equality-before-law
 - procedural-fairness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rule of Law and Justice Systems

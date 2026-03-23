@@ -14,7 +14,7 @@ tags:
 - truth
 - metaphysical-fundamentals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Truthmakers and Grounding

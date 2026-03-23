@@ -17,7 +17,7 @@ tags:
 - hierarchy
 - performance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cache Memory: Design Principles and Trade-Offs

@@ -4,7 +4,7 @@ title: Insertion Sort Algorithm
 domain: computer-science
 course: data-structures-and-algorithms
 prerequisites:
-- id: arrays-and-indexed-collections
+- id: arrays-and-lists
   type: hard
 - id: algorithm-design-basics
   type: soft
@@ -17,9 +17,8 @@ tags:
 - in-place
 - stable
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Insertion Sort Algorithm
 
 ## Core Idea

@@ -18,7 +18,7 @@ tags:
 - kepler-laws
 - planetary-orbits
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kepler's Laws of Planetary Motion

@@ -15,7 +15,7 @@ tags:
 - algebraic-number-fields
 - ideals
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Failure of Unique Factorization in Algebraic Number Fields

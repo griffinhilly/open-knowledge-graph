@@ -14,7 +14,7 @@ tags:
 - legitimacy
 - power
 stage: expert
-status: draft
+status: validated
 ---
 # Symbolic Violence
 

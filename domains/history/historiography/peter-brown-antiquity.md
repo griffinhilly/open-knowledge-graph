@@ -17,7 +17,7 @@ tags:
 - transformation
 - method
 stage: expert
-status: draft
+status: validated
 ---
 
 # Peter Brown and Late Antique Transformation

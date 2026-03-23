@@ -13,7 +13,7 @@ tags:
 - assumptions
 - diagnostics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heteroskedasticity: Types and Causes

@@ -15,7 +15,7 @@ tags:
 - phase-transitions
 - interior-structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mineral Physics and High-Pressure Phase Transitions

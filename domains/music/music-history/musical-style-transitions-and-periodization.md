@@ -15,7 +15,7 @@ tags:
 - methodology
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Musical Style Transitions and Periodization

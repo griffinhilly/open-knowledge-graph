@@ -16,7 +16,7 @@ tags:
 - ideal
 - beauty
 stage: expert
-status: draft
+status: validated
 ---
 
 # Plato: Form, Beauty, and Mimesis

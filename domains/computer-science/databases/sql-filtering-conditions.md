@@ -15,7 +15,7 @@ tags:
 - filtering
 - conditions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # SQL: WHERE Clause and Filtering

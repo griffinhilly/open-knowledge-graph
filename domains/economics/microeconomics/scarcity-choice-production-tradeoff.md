@@ -13,7 +13,7 @@ tags:
 - choice
 - tradeoffs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Scarcity, Choice, and Production Tradeoffs

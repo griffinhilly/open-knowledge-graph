@@ -16,7 +16,7 @@ tags:
 - types
 - classification
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Types and Categories of Historical Evidence

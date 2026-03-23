@@ -18,7 +18,7 @@ tags:
 - sufficient condition
 - reasoning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Causal Reasoning in Writing

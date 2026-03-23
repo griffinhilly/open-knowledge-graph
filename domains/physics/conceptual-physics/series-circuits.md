@@ -15,7 +15,7 @@ tags:
 - circuit
 - resistance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Series Circuits
 

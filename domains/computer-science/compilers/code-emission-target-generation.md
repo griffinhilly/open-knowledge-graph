@@ -13,7 +13,7 @@ tags:
 - backend
 - assembly
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Code Emission and Target Generation

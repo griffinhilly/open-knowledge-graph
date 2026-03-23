@@ -13,7 +13,7 @@ tags:
 - foundations
 - rn
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vectors in R^n and Vector Notation

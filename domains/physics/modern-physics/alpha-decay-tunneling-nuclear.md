@@ -13,7 +13,7 @@ tags:
 - tunneling
 - nuclear-physics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Alpha Decay and Tunneling Through the Coulomb Barrier

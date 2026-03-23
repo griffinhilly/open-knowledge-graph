@@ -13,7 +13,7 @@ tags:
 - inlining
 - heuristics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Inlining Heuristics and Decision Making

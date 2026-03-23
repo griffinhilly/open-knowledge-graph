@@ -28,7 +28,7 @@ tags:
 - coefficients
 - assumptions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Linear Regression for Social Science

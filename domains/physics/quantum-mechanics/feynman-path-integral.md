@@ -10,7 +10,7 @@ tags:
 - feynman-diagrams
 - path-integrals
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Feynman Diagrams and Perturbative Expansion

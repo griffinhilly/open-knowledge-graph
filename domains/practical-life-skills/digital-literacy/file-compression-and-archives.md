@@ -14,7 +14,7 @@ tags:
 - archives
 - files
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # File Compression and Archives

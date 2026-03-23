@@ -16,7 +16,7 @@ tags:
 - borrowing
 - credit-types
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Revolving vs. Installment Credit

@@ -15,7 +15,7 @@ tags:
 - geology
 - identification
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Minerals Basics

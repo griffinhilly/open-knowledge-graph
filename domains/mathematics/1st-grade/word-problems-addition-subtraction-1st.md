@@ -18,7 +18,7 @@ tags:
 - problem-solving
 - application
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Word Problems: Addition and Subtraction

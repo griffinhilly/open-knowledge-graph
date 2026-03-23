@@ -19,7 +19,7 @@ tags:
 - disturbance
 - resilience
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Secondary Succession and Post-Disturbance Recovery

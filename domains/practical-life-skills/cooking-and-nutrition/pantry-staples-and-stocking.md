@@ -17,7 +17,7 @@ tags:
 - staples
 - shopping
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Pantry Staples and Stocking

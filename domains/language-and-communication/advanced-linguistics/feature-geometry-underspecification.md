@@ -13,7 +13,7 @@ tags:
 - features
 - underspecification
 stage: expert
-status: draft
+status: validated
 ---
 
 # Feature Geometry and Underspecification

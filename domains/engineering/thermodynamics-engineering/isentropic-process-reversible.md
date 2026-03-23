@@ -15,7 +15,7 @@ tags:
 - reversible
 - adiabatic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Isentropic Processes and Reversible Adiabatic Expansion/Compression

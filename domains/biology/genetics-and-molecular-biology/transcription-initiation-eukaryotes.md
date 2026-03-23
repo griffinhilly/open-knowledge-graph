@@ -22,7 +22,7 @@ tags:
 - mediator-complex
 - chromatin-accessibility
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Eukaryotic Transcription Initiation: TFIID, Mediator, and Chromatin

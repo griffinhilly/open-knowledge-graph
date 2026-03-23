@@ -13,7 +13,7 @@ tags:
 - buffering
 - cache
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # I/O Buffering and Kernel Buffer Caches

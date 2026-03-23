@@ -6,7 +6,7 @@ course: reasoning-and-proof
 prerequisites:
   - id: variables-in-logic
     type: hard
-  - id: if-then-thinking
+  - id: if-then-statements
     type: hard
 builds-toward:
   - converse-inverse-contrapositive-intro
@@ -15,7 +15,7 @@ builds-toward:
   - conditional-implication-statements
 tags: [conditional, if-then, hypothesis, conclusion, implication]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Conditional Statements (If-Then Formal)

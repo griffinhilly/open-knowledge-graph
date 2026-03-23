@@ -13,7 +13,7 @@ tags:
 - oxidation
 - chemical-change
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Rusting and Tarnishing
 

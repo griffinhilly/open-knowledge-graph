@@ -18,7 +18,7 @@ tags:
 - internalism
 - representation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Narrow Content and Mental Individuation

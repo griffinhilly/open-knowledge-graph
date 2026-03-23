@@ -14,7 +14,7 @@ tags:
 - verb-tense
 - verbs
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Verb Tense: Past, Present, and Future

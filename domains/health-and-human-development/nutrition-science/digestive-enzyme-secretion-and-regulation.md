@@ -19,7 +19,7 @@ tags:
 - hormonal-control
 - stomach-pancreas-intestine
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Digestive Enzyme Secretion and Regulation

@@ -17,7 +17,7 @@ tags:
 - temperature-gradient
 - dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermal Wind Relationship and Shear

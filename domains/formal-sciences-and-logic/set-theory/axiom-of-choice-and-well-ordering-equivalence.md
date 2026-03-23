@@ -16,7 +16,7 @@ tags:
 - zorn-lemma
 - equivalence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Axiom of Choice and Equivalence with Well-Ordering and Zorn's Lemma

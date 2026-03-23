@@ -13,7 +13,7 @@ tags:
 - bosons
 - statistics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fermions and Bosons

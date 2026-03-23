@@ -16,7 +16,7 @@ tags:
 - antipsychotics
 - dopamine
 stage: expert
-status: draft
+status: validated
 ---
 
 # Antipsychotic Medications: Types and Mechanisms

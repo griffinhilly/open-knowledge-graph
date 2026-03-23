@@ -16,7 +16,7 @@ tags:
 - optimal-filtering
 - correlation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Matched Filter for Signal Detection

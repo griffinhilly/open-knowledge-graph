@@ -26,7 +26,7 @@ tags:
 - composition
 - algorithm
 stage: expert
-status: draft
+status: validated
 ---
 
 # Stochastic and Probabilistic Compositional Techniques

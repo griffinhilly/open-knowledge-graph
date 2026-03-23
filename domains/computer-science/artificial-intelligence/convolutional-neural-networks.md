@@ -17,7 +17,7 @@ tags:
 - computer-vision
 - neural-networks
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Convolutional Neural Networks

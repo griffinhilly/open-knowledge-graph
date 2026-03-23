@@ -16,7 +16,7 @@ tags:
 - unsupervised-learning
 - outlier-detection
 stage: advanced
-status: draft
+status: validated
 ---
 
 # DBSCAN Clustering

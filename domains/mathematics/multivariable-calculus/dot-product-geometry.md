@@ -16,7 +16,7 @@ tags:
 - projections
 - orthogonality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dot Product and Projections

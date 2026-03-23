@@ -15,7 +15,7 @@ tags:
 - quantifier-scope
 - alpha-equivalence
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Variable Binding and Scope
 

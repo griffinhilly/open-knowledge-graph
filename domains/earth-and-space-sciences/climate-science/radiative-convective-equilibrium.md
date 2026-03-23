@@ -21,7 +21,7 @@ tags:
 - atmospheric-structure
 - climate-modeling
 stage: expert
-status: draft
+status: validated
 ---
 
 # Radiative-Convective Equilibrium

@@ -15,7 +15,7 @@ tags:
 - NMDA-receptors
 - molecular-mechanisms
 stage: expert
-status: draft
+status: validated
 ---
 
 # NMDA Receptors and Ca2+-Dependent Signaling in Synaptic Plasticity

@@ -17,7 +17,7 @@ tags:
 - notch-sensitivity
 - absorbed-energy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Impact Testing and Toughness

@@ -19,7 +19,7 @@ tags:
 - precipitation
 - risk
 stage: expert
-status: draft
+status: validated
 ---
 # Climate Extremes and Event Attribution
 

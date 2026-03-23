@@ -13,7 +13,7 @@ tags:
 - arithmetic-functions
 - multiplicative
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Arithmetic Functions and Multiplicativity

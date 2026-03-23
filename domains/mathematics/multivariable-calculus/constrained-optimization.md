@@ -10,7 +10,7 @@ tags:
 - constraints
 - applications
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constrained Optimization Applications

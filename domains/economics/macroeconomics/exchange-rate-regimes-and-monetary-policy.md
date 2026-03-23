@@ -17,7 +17,7 @@ tags:
 - regimes
 - policy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Exchange Rate Regimes and Monetary Policy

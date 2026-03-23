@@ -13,7 +13,7 @@ tags:
 - anti-aliasing
 - reconstruction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Aliasing, Anti-Aliasing Filters, and Signal Reconstruction

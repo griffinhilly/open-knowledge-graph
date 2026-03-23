@@ -16,7 +16,7 @@ tags:
 - amplification
 - feedback-loops
 stage: expert
-status: draft
+status: validated
 ---
 
 # Financial Frictions and Amplification Mechanisms

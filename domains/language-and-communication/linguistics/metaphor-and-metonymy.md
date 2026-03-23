@@ -15,7 +15,7 @@ tags:
 - figurative language
 - mapping
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metaphor and Metonymy

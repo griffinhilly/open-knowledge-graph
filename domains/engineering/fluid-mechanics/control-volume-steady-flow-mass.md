@@ -15,7 +15,7 @@ tags:
 - continuity
 - mass-flow
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Control Volume Analysis: Mass Balance

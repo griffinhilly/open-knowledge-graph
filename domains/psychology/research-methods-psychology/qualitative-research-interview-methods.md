@@ -14,7 +14,7 @@ tags:
 - phenomenology
 - interpretive-inquiry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Qualitative Research: Interview Methods and Phenomenology

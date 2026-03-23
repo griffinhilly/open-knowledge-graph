@@ -13,7 +13,7 @@ tags:
 - edge-triggered
 - sequential-logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Master-Slave Flip-Flop Design

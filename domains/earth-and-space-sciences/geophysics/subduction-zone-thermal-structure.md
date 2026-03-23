@@ -14,7 +14,7 @@ tags:
 - metamorphism
 - cold-slab
 stage: expert
-status: draft
+status: validated
 ---
 
 # Subduction Zone Thermal Structure and Metamorphism

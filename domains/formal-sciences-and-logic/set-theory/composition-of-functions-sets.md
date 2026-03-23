@@ -14,7 +14,7 @@ tags:
 - structure
 - identity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Function Composition and Functional Structure

@@ -17,7 +17,7 @@ tags:
 - safari
 - edge
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Web Browser Essentials

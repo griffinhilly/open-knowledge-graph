@@ -20,7 +20,7 @@ tags:
 - lift
 - mountains
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orographic Forcing and Precipitation Patterns

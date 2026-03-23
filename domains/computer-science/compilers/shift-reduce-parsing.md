@@ -14,7 +14,7 @@ tags:
 - parsing-algorithm
 - stack-operations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Shift-Reduce Parsing Mechanics

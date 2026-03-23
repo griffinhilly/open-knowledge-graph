@@ -17,7 +17,7 @@ tags:
 - reference
 - semantics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Descriptivism About Proper Names

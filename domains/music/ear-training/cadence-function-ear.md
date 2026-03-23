@@ -22,7 +22,7 @@ tags:
 - authentic
 - plagal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cadence Types and Harmonic Closure by Ear

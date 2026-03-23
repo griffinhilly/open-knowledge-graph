@@ -19,7 +19,7 @@ tags:
 - buffering
 - gas exchange
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Carbon Dioxide Transport and Bicarbonate Buffering

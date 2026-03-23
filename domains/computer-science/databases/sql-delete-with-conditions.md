@@ -13,7 +13,7 @@ tags:
 - dml
 - data-integrity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # DELETE Statements: Removing Rows with Conditions

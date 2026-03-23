@@ -11,7 +11,7 @@ tags:
 - phenylalanine
 - inborn-error-metabolism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Phenylketonuria and Metabolic Disease

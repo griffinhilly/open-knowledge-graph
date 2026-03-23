@@ -14,7 +14,7 @@ tags:
 - level-curves
 - perpendicular
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Geometric Properties of the Gradient Vector

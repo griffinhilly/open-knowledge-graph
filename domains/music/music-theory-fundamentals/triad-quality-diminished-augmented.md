@@ -16,7 +16,7 @@ tags:
 - diminished
 - augmented
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Triad Quality: Diminished and Augmented

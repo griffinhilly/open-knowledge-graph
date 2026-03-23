@@ -16,7 +16,7 @@ tags:
 - vulnerability
 - justice
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Environmental Hazards and Risk Perception

@@ -17,7 +17,7 @@ tags:
 - merton
 - hyman
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reference Groups and Social Comparison

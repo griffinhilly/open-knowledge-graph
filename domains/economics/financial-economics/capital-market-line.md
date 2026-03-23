@@ -13,7 +13,7 @@ tags:
 - efficient-frontier
 - capm
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Capital Market Line and Optimal Portfolios

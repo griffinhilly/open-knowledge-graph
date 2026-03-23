@@ -15,7 +15,7 @@ tags:
 - membrane-fusion
 - neurotransmitter-release
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Exocytosis and SNARE-Mediated Membrane Fusion

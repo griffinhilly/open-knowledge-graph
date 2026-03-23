@@ -17,7 +17,7 @@ tags:
 - mood
 - sensory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Setting, Mood, and Atmosphere

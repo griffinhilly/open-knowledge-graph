@@ -18,7 +18,7 @@ tags:
 - basic-beliefs
 - certainty
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Classical Foundationalism
 

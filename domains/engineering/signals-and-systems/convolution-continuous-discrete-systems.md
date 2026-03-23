@@ -18,7 +18,7 @@ tags:
 - systems
 - lti
 stage: expert
-status: draft
+status: validated
 ---
 
 # Convolution in Continuous and Discrete Time

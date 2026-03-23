@@ -20,7 +20,7 @@ tags:
 - hypoperfusion
 - organ-failure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Shock: Cardiogenic, Septic, Hypovolemic, and Anaphylactic

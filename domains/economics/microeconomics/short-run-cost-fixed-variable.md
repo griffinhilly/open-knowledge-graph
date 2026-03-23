@@ -16,7 +16,7 @@ tags:
 - short-run
 - cost-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Short-Run Cost Structure: Fixed and Variable Costs

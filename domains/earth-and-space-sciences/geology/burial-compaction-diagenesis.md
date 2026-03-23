@@ -14,7 +14,7 @@ tags:
 - burial
 - lithification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Burial, Compaction, and Diagenesis

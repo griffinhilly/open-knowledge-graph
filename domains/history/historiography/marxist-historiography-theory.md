@@ -18,7 +18,7 @@ tags:
 - theory
 - social history
 stage: expert
-status: draft
+status: validated
 ---
 
 # Marxist Historiography and Historical Materialism

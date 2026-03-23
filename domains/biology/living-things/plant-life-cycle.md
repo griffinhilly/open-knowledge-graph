@@ -19,7 +19,7 @@ tags:
 - growth
 - reproduction
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Plant Life Cycle

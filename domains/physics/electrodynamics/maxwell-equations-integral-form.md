@@ -22,7 +22,7 @@ tags:
 - vector-calculus
 - foundations
 stage: expert
-status: draft
+status: validated
 ---
 # Maxwell's Equations in Integral Form
 

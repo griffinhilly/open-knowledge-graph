@@ -14,7 +14,7 @@ tags:
 - general-equilibrium
 - exchange-economy
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Edgeworth Box and Contract Curve

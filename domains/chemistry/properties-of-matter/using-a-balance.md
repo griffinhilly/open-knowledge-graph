@@ -11,7 +11,7 @@ tags:
 - mass
 - measurement
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Using a Balance to Measure Mass
 

@@ -17,7 +17,7 @@ tags:
 - heat
 - energy expenditure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thyroid Hormone Metabolism and Thermoregulation

@@ -16,7 +16,7 @@ tags:
 - symmetry
 - transitions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Selection Rules for Electronic Transitions

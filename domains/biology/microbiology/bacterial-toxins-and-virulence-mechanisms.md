@@ -15,7 +15,7 @@ tags:
 - virulence
 - pathogenesis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bacterial Toxins and Virulence Mechanisms

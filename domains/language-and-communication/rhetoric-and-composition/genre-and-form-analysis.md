@@ -16,7 +16,7 @@ tags:
 - writing-modes
 - rhetoric
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Genre and Form Analysis

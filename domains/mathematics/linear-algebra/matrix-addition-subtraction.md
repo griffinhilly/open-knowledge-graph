@@ -14,7 +14,7 @@ tags:
 - operations
 - addition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Matrix Addition and Subtraction

@@ -18,7 +18,7 @@ tags:
 - heat-management
 - cooking-techniques
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fats and Oils: Smoke Points and Uses

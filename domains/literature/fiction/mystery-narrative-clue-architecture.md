@@ -14,7 +14,7 @@ tags:
 - information
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mystery Narrative: The Architecture of Clues

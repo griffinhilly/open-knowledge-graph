@@ -21,7 +21,7 @@ tags:
 - first-order-methods
 - learning-algorithms
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Gradient Descent and Optimization

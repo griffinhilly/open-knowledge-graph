@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - inequalities
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hölder's and Minkowski's Inequalities

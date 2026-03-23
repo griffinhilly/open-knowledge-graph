@@ -14,7 +14,7 @@ tags:
 - cross-section
 - asymptotic-states
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Scattering Theory

@@ -13,7 +13,7 @@ tags:
 - equal-parts
 - numerator-denominator
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Fractions: Understanding Equal Parts

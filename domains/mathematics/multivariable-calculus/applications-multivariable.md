@@ -14,7 +14,7 @@ tags:
 - applications
 - physics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Applications of Multivariable Calculus

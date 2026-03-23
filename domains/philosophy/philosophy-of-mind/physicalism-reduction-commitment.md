@@ -17,7 +17,7 @@ tags:
 - materialism
 - reduction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Physicalism: The Core Thesis

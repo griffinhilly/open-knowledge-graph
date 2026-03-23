@@ -17,7 +17,7 @@ tags:
 - diagram-chasing
 - connecting-morphism
 stage: expert
-status: draft
+status: validated
 ---
 # The Snake Lemma
 

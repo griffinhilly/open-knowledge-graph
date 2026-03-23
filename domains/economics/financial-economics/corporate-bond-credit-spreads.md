@@ -17,7 +17,7 @@ tags:
 - spreads
 - risk
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Corporate Bond Credit Spreads

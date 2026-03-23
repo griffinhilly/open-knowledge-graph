@@ -14,7 +14,7 @@ tags:
 - cyk-algorithm
 - membership
 stage: advanced
-status: draft
+status: validated
 ---
 
 # CYK Parsing Algorithm and CFL Membership

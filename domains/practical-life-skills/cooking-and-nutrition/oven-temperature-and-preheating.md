@@ -13,7 +13,7 @@ tags:
 - baking
 - heat-management
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Oven Temperature and Preheating

@@ -17,7 +17,7 @@ tags:
 - states of affairs
 - Armstrong
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Facts and Truthmakers

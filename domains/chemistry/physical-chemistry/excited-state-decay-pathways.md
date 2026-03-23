@@ -16,7 +16,7 @@ tags:
 - relaxation
 - photochemistry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Excited State Relaxation and Decay Pathways

@@ -18,7 +18,7 @@ tags:
 - uniqueness
 - rigid theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Categorical Theories and Uniqueness of Models

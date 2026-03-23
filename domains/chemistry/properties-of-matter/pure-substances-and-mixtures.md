@@ -13,7 +13,7 @@ tags:
 - pure-substances
 - classification
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Pure Substances and Mixtures
 

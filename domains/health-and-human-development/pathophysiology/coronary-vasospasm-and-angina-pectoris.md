@@ -16,7 +16,7 @@ tags:
 - prinzmetal
 - myocardial-ischemia
 stage: expert
-status: draft
+status: validated
 ---
 
 # Coronary Vasospasm and Angina Pectoris

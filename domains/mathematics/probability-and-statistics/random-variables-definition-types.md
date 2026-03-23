@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - random-variables
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Random Variables: Definition and Classification

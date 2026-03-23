@@ -14,7 +14,7 @@ tags:
 - van-t-hoff
 - solution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Osmotic Pressure and Colligative Properties

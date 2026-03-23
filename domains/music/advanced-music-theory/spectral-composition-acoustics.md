@@ -18,7 +18,7 @@ tags:
 - acoustics
 - timbre
 stage: expert
-status: draft
+status: validated
 ---
 
 # Spectral Composition and Harmonic Spectrum Derivation

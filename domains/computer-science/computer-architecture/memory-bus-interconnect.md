@@ -17,7 +17,7 @@ tags:
 - interconnect
 - protocol
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memory Bus Architecture and Interconnect

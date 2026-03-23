@@ -14,7 +14,7 @@ tags:
 - foundational
 - ought
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Normativity and the Concept of Ought

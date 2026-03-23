@@ -16,7 +16,7 @@ tags:
 - medium-of-exchange
 - store-of-value
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Money: Fundamentals, Definition, and Characteristics

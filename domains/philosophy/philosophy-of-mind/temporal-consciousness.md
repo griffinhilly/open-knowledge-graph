@@ -14,7 +14,7 @@ tags:
 - consciousness
 - flow
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Consciousness of Time and Temporal Experience

@@ -16,7 +16,7 @@ tags:
 - motor-systems
 - movement
 stage: expert
-status: draft
+status: validated
 ---
 
 # Primary Motor Cortex: Movement Planning and Execution

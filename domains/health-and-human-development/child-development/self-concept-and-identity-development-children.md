@@ -17,7 +17,7 @@ tags:
 - self-awareness
 - psychosocial-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Self-Concept and Identity Development in Children

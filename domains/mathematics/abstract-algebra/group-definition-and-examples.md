@@ -15,7 +15,7 @@ tags:
 - definitions
 - examples
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Group Definition and Examples

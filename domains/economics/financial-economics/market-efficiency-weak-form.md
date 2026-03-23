@@ -13,7 +13,7 @@ tags:
 - market-microstructure
 - information
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Market Efficiency: Weak, Semi-Strong, and Strong Forms

@@ -17,7 +17,7 @@ tags:
 - isentropic
 - mach
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermodynamic Relations in Compressible Flow

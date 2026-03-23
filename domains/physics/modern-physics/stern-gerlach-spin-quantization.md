@@ -14,7 +14,7 @@ tags:
 - quantum-mechanics
 - experimental
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Stern-Gerlach Experiment: Spin Quantization and Measurement

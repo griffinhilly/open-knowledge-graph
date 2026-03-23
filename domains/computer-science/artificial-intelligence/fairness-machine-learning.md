@@ -14,7 +14,7 @@ tags:
 - bias
 - discrimination
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fairness in Machine Learning

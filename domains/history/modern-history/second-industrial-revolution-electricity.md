@@ -17,7 +17,7 @@ tags:
 - chemistry
 - steel
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Second Industrial Revolution: Electricity, Chemistry, and Steel

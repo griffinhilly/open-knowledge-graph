@@ -15,7 +15,7 @@ tags:
 - indigenous-exploitation
 - spain
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Encomienda: Colonial Labor and Indigenous Exploitation

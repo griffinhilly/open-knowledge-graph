@@ -16,7 +16,7 @@ tags:
 - spatial
 - construction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Perspective Grid Construction

@@ -18,7 +18,7 @@ tags:
 - mixed
 - fluency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mixed Interval Ear Training and Integration

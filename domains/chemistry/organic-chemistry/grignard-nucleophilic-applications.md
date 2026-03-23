@@ -15,7 +15,7 @@ tags:
 - organometallic
 - synthetic-strategy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Grignard Reagents and Carbon-Carbon Bond Formation

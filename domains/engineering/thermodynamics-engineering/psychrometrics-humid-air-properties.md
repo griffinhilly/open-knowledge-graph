@@ -11,7 +11,7 @@ tags:
 - humid-air
 - HVAC
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Psychrometrics and Humid Air Properties

@@ -14,7 +14,7 @@ tags:
 - proteostasis
 - cell-death
 stage: expert
-status: draft
+status: validated
 ---
 
 # Autophagy in Cell Death and Disease

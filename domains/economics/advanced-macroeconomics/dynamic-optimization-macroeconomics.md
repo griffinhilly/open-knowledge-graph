@@ -18,7 +18,7 @@ tags:
 - dynamic
 - foundations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dynamic Optimization in Macroeconomics

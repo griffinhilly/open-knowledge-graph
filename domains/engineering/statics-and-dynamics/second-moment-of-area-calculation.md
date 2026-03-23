@@ -15,7 +15,7 @@ tags:
 - second-moment
 - integration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Calculation of Second Moment of Area

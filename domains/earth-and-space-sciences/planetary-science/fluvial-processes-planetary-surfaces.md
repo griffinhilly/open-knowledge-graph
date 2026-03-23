@@ -16,7 +16,7 @@ tags:
 - surface-processes
 - mars
 stage: expert
-status: draft
+status: validated
 ---
 
 # Fluvial Processes and Water Erosion on Planetary Surfaces

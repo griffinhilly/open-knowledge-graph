@@ -18,7 +18,7 @@ tags:
 - efficiency
 - bioaccumulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Marine Food Web Structure and Energy Transfer

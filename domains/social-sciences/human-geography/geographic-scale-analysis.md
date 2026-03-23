@@ -14,7 +14,7 @@ tags:
 - spatial-analysis
 - local-global
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Geographic Scale and Multi-Scalar Analysis

@@ -15,7 +15,7 @@ tags:
 - defamiliarization
 - form
 stage: expert
-status: draft
+status: validated
 ---
 
 # Russian Formalism and Literary Theory

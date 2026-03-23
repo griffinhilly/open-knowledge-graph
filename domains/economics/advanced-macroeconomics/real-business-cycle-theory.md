@@ -19,7 +19,7 @@ tags:
 - competitive-equilibrium
 - flexible-prices
 stage: expert
-status: draft
+status: validated
 ---
 
 # Real Business Cycle Theory

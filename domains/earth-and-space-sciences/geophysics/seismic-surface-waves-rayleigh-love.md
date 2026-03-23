@@ -16,7 +16,7 @@ tags:
 - dispersion
 - wave-propagation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Seismic Surface Waves: Rayleigh and Love Waves

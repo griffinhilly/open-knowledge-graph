@@ -18,7 +18,7 @@ tags:
 - neuroscience
 - perception
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Binding Problem in Consciousness

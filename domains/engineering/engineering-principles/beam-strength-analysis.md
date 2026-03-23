@@ -23,7 +23,7 @@ tags:
 - cross-section
 - moment-of-inertia
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Beam Strength and Deflection
 

@@ -12,7 +12,7 @@ tags:
 - normality
 - t4-axiom
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Normality and T₄ Spaces

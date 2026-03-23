@@ -23,7 +23,7 @@ tags:
 - neurodegeneration
 - aging
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Protein Aggregation and Neurodegeneration

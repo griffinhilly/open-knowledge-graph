@@ -13,7 +13,7 @@ tags:
 - combinatorics
 - combinations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Combinations and Unordered Selections

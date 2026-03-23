@@ -18,7 +18,7 @@ tags:
 - desire-satisfaction
 - objective-list
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Welfare and Wellbeing
 

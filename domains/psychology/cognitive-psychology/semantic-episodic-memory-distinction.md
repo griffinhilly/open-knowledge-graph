@@ -16,7 +16,7 @@ tags:
 - episodic
 - neurobiology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Semantic vs. Episodic Memory: Distinct Systems

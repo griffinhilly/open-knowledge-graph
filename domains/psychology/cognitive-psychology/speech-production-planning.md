@@ -14,7 +14,7 @@ tags:
 - production
 - planning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Speech Production and Articulation Planning

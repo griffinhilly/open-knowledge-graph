@@ -14,7 +14,7 @@ tags:
 - comparisons
 - grammar
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Pronoun Case in Compounds, Comparisons, and Who/Whom

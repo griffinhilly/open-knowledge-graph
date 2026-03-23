@@ -18,7 +18,7 @@ tags:
 - reabsorption
 - Starling forces
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Capillary Microcirculation and Fluid Exchange

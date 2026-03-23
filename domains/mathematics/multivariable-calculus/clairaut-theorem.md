@@ -13,7 +13,7 @@ tags:
 - continuity
 - symmetry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Clairaut's Theorem: Equality of Mixed Partials

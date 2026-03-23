@@ -11,7 +11,7 @@ tags:
 - waves
 - velocity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Seismic Wave Velocity, Attenuation, and Crustal Structure

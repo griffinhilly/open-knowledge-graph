@@ -21,7 +21,7 @@ tags:
 - carbon
 - acidification
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ocean Carbonate System and Buffering Capacity

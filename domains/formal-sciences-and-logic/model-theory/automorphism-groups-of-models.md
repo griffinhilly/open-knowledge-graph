@@ -20,7 +20,7 @@ tags:
 - group-structure
 - orbits
 stage: expert
-status: draft
+status: validated
 ---
 
 # Automorphism Groups and Their Structure

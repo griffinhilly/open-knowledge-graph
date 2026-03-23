@@ -14,7 +14,7 @@ tags:
 - distribution-shape
 - descriptive-statistics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Distribution Shape: Skewness and Kurtosis

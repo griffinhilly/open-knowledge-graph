@@ -20,7 +20,7 @@ tags:
 - pharmacology
 - systems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # GABA and Glutamate: The Main Inhibitory and Excitatory Systems

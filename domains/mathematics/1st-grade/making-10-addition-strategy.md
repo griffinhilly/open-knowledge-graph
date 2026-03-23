@@ -16,7 +16,7 @@ tags:
 - addition
 - ten
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Making 10 as an Addition Strategy

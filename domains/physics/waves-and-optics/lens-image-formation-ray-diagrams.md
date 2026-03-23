@@ -13,7 +13,7 @@ tags:
 - lens
 - ray-diagram
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lens Image Formation and Ray Diagrams

@@ -13,7 +13,7 @@ tags:
 - oscillations
 - linearization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Small Angle Approximation in Mechanics

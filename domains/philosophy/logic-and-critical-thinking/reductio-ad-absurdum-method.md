@@ -17,7 +17,7 @@ tags:
 - contradiction
 - indirect-proof
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reductio ad Absurdum: Proof by Contradiction

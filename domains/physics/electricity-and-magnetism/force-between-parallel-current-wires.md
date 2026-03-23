@@ -15,7 +15,7 @@ tags:
 - forces
 - current interaction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Force Between Parallel Current-Carrying Wires

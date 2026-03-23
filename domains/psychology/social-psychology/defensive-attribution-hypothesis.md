@@ -16,7 +16,7 @@ tags:
 - self-protective
 - bias
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Defensive Attribution Hypothesis

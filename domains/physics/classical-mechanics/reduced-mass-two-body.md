@@ -18,7 +18,7 @@ tags:
 - effective-systems
 - kinematics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reduced Mass and Two-Body Problems

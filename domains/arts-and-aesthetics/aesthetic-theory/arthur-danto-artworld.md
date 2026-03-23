@@ -15,7 +15,7 @@ tags:
 - definition
 - transfiguration
 stage: expert
-status: draft
+status: validated
 ---
 
 # Arthur Danto: The Artworld and Transfiguration

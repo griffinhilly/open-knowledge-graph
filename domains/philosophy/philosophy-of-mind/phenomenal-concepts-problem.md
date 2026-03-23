@@ -18,7 +18,7 @@ tags:
 - explanatory-gap
 - phenomenal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phenomenal Concepts and the Concept Gap

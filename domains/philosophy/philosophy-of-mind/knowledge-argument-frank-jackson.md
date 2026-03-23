@@ -13,7 +13,7 @@ tags:
 - qualia
 - physicalism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Knowledge Argument

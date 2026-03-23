@@ -17,7 +17,7 @@ tags:
 - ionization energy
 - electronegativity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Periodic Table Trends: Atomic Radius, Ionization Energy, and Electronegativity

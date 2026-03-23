@@ -20,7 +20,7 @@ tags:
 - wealth
 - optimization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fee Impact on Long-Term Wealth

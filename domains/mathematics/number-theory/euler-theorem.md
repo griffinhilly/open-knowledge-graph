@@ -15,7 +15,7 @@ tags:
 - euler-phi
 - group-theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Euler's Theorem

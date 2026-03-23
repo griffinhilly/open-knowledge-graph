@@ -15,7 +15,7 @@ tags:
 - bode-design
 - error-constants
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lag Compensator Design

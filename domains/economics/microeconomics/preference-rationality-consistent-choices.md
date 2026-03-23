@@ -12,7 +12,7 @@ tags:
 - consistency
 - axioms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Revealed Preference and Consumer Rationality

@@ -13,7 +13,7 @@ tags:
 - independence
 - greedy-algorithms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Introduction to Matroids

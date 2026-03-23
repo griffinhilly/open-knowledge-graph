@@ -15,7 +15,7 @@ tags:
 - antithrombin
 - thrombomodulin
 stage: expert
-status: draft
+status: validated
 ---
 
 # Natural Anticoagulants and Inhibitors

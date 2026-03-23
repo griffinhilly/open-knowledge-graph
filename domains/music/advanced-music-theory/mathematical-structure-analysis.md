@@ -24,7 +24,7 @@ tags:
 - structure
 - form
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mathematical Symmetries and Structures in Composition

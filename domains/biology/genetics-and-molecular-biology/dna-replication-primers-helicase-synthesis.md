@@ -15,7 +15,7 @@ tags:
 - primase
 - replication-machinery
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Primer Synthesis, Helicase, and Polymerase Function

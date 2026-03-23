@@ -15,7 +15,7 @@ tags:
 - distribution
 - history
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Music Copyright and Publishing History

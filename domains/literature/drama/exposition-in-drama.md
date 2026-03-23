@@ -14,7 +14,7 @@ tags:
 - technique
 - playwriting
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Exposition: Communicating Background Information

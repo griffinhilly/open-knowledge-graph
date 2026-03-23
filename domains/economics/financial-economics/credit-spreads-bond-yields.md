@@ -15,7 +15,7 @@ tags:
 - credit-risk
 - yield-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Credit Spreads and Bond Yields

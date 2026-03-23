@@ -4,12 +4,15 @@ title: Conditional Statements
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- id: operators-and-expressions
+- id: comparison-operators
+  type: hard
+- id: boolean-logic
   type: hard
 builds-toward:
-- boolean-logic-programming
 - while-loops
 - error-handling-exceptions
+- else-if-chains
+- switch-statements
 tags:
 - if
 - else
@@ -19,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Conditional Statements
 
 ## Core Idea

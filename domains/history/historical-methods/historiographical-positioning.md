@@ -14,7 +14,7 @@ tags:
 - interpretation
 - methodology
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Historiographical Positioning and Schools of Thought

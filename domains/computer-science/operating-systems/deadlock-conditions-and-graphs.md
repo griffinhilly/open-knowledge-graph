@@ -17,7 +17,7 @@ tags:
 - conditions
 - graphs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Deadlock Conditions and Resource Graphs

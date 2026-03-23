@@ -15,7 +15,7 @@ tags:
 - inhibition
 - cognitive-control
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Executive Function Development and Prefrontal Cortex

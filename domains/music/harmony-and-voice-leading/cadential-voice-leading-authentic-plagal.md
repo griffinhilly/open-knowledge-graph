@@ -20,7 +20,7 @@ tags:
 - voice-leading
 - phrase-ending
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voice Leading in Authentic and Plagal Cadences

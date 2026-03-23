@@ -23,7 +23,7 @@ tags:
 - counterexamples
 - formal-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gettier Cases and Formal Analysis

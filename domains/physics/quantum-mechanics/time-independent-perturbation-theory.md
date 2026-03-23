@@ -15,7 +15,7 @@ tags:
 - perturbation-theory
 - approximations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Time-Independent Perturbation Theory

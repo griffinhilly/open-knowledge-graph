@@ -17,7 +17,7 @@ tags:
 - meditation
 - voice
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lyric Poetry and the Lyric Mode

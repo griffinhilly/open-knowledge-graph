@@ -16,7 +16,7 @@ tags:
 - acceleration
 - one-dimensional
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rectilinear Motion of Particles

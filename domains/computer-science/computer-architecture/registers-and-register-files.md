@@ -17,7 +17,7 @@ tags:
 - register-file
 - datapath
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Registers and Register Files

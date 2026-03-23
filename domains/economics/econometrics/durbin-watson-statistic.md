@@ -13,7 +13,7 @@ tags:
 - diagnostics
 - testing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Durbin-Watson Statistic for Autocorrelation

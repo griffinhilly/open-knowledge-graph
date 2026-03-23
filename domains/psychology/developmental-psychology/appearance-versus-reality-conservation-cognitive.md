@@ -14,7 +14,7 @@ tags:
 - concrete-operations
 - cognitive-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Appearance Versus Reality and Conservation Cognitive Tasks

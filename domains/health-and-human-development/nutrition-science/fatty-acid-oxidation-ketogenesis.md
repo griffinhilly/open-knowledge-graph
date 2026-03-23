@@ -21,7 +21,7 @@ tags:
 - ketone-bodies
 - energy-metabolism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fatty Acid Oxidation and Ketogenesis

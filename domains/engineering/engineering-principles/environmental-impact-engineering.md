@@ -19,7 +19,7 @@ tags:
 - pollution
 - green-engineering
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Environmental Impact of Engineering
 

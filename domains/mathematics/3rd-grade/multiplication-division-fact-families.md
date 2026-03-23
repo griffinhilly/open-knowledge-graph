@@ -16,7 +16,7 @@ tags:
 - relationships
 - fact-families
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Multiplication and Division Fact Families

@@ -19,7 +19,7 @@ tags:
 - contrast
 - rendering
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Value Scale and Tonal Range

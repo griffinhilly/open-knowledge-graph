@@ -18,7 +18,7 @@ tags:
 - wie-es-eigentlich-gewesen
 - 19th-century
 stage: expert
-status: draft
+status: validated
 ---
 
 # Leopold Ranke and Scientific History

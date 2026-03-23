@@ -16,7 +16,7 @@ tags:
 - matrices
 - spectrum
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Adjacency Matrix and Spectral Basics

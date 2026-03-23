@@ -13,7 +13,7 @@ tags:
 - quality
 - void-fraction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Quality and Void Fraction in Two-Phase Flow

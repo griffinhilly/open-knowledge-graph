@@ -16,7 +16,7 @@ tags:
 - covariant
 - relativistic
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lorenz Gauge

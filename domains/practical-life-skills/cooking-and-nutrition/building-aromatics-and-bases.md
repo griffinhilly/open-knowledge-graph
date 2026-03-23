@@ -20,7 +20,7 @@ tags:
 - technique
 - vegetables
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Building Flavor with Aromatic Bases

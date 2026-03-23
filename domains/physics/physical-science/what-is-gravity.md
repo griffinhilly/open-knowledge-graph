@@ -14,7 +14,7 @@ tags:
 - forces
 - falling
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # What Is Gravity?
 

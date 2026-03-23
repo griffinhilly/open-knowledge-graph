@@ -18,7 +18,7 @@ tags:
 - ACC
 - ERP
 stage: expert
-status: draft
+status: validated
 ---
 
 # Error-Related Negativity and Error Processing

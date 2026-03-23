@@ -14,7 +14,7 @@ tags:
 - IP
 - Arthur-Merlin
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Interactive Proofs

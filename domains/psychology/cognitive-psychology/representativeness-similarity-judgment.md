@@ -14,7 +14,7 @@ tags:
 - representativeness
 - similarity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Representativeness Heuristic and Similarity Judgment

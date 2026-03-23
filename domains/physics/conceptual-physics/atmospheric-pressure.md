@@ -15,7 +15,7 @@ tags:
 - pressure
 - air
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Atmospheric Pressure
 

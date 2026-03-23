@@ -15,7 +15,7 @@ tags:
 - entropy
 - thermodynamics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Statistical Entropy and Molecular Disorder

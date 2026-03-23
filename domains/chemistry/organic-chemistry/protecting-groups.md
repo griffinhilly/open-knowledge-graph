@@ -20,7 +20,7 @@ tags:
 - orthogonal protection
 - deprotection
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Protecting Groups in Organic Synthesis
 

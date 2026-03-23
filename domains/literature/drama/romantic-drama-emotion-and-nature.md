@@ -19,7 +19,7 @@ tags:
 - individualism
 - rebellion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Romantic Drama: Emotion and Nature

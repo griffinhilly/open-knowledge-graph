@@ -20,7 +20,7 @@ tags:
 - consumption
 - first-order-conditions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Euler Equation and Intertemporal Consumption Choice

@@ -18,7 +18,7 @@ tags:
 - unconscious
 - aesthetics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Psychoanalytic Approaches to Aesthetics

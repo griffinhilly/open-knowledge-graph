@@ -17,7 +17,7 @@ tags:
 - facts
 - data
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mary Poovey: History of Statistical Thinking

@@ -17,7 +17,7 @@ tags:
 - reference
 - literary-echo
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Intertextuality and Literary Allusion

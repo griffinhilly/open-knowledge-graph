@@ -11,7 +11,7 @@ tags:
 - fragments
 - run-ons
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Sentence Fragments and Run-ons: Identification and Correction

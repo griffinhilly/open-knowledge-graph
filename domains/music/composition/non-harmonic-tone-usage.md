@@ -14,7 +14,7 @@ tags:
 - dissonance
 - technique
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Non-Harmonic Tones and Dissonance Treatment

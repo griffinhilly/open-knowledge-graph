@@ -14,7 +14,7 @@ tags:
 - authority
 - order
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Power and Political Order

@@ -16,7 +16,7 @@ tags:
 - continuity
 - topology
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Limits and Continuity of Complex Functions

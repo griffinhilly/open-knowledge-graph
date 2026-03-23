@@ -17,7 +17,7 @@ tags:
 - duality
 - algebraic-logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Boolean Algebra and Propositional Logic

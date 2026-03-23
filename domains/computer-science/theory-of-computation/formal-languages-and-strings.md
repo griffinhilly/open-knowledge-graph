@@ -12,7 +12,7 @@ tags:
 - formal-languages
 - definitions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Formal Languages and Strings

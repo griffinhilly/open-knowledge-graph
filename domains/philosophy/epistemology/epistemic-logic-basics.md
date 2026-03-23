@@ -20,7 +20,7 @@ tags:
 - knowledge-operators
 - belief
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Epistemic Logic Basics

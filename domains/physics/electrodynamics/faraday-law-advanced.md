@@ -18,7 +18,7 @@ tags:
 - induction
 - emf
 stage: expert
-status: draft
+status: validated
 ---
 
 # Faraday's Law of Induction

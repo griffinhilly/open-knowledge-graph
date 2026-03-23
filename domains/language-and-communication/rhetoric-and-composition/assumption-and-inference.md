@@ -17,7 +17,7 @@ tags:
 - critical-thinking
 - argument
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Assumption and Inference Analysis

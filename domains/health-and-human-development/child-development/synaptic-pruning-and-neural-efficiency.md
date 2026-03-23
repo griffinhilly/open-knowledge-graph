@@ -22,7 +22,7 @@ tags:
 - neural-plasticity
 - brain-maturation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Synaptic Pruning and Neural Efficiency

@@ -15,7 +15,7 @@ tags:
 - grain-refinement
 - dislocation-strengthening
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Strengthening Mechanisms in Materials

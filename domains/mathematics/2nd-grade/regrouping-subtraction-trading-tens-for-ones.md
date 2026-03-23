@@ -16,7 +16,7 @@ tags:
 - subtraction
 - place-value
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Regrouping in Subtraction: Trading Tens for Ones

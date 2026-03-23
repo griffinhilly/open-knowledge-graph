@@ -17,7 +17,7 @@ tags:
 - ear-training
 - scale-degrees
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Scale Degree Singing by Ear

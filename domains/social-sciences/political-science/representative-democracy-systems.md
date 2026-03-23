@@ -16,7 +16,7 @@ tags:
 - elected-officials
 - constituent-accountability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Representative Democracy and Delegation

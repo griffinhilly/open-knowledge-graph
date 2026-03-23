@@ -14,7 +14,7 @@ tags:
 - dark-matter
 - cosmology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Baryon Acoustic Oscillations and Large-Scale Structure

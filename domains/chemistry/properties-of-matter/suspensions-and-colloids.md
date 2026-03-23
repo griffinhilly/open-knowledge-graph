@@ -13,7 +13,7 @@ tags:
 - mixtures
 - settling
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Suspensions: Mixtures That Don't Dissolve
 

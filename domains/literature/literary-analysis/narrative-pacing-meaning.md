@@ -19,7 +19,7 @@ tags:
 - rhythm
 - meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Narrative Pacing and Its Effect on Meaning

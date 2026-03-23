@@ -12,7 +12,7 @@ tags:
 - homeomorphism
 - equivalence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Homeomorphisms and Topological Equivalence

@@ -14,7 +14,7 @@ tags:
 - head-waves
 - critical-angle
 stage: expert
-status: draft
+status: validated
 ---
 
 # Critical Angle Refraction and Head Waves

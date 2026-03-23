@@ -20,7 +20,7 @@ tags:
 - experimental
 - architecture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dramatic Form and Structure Types

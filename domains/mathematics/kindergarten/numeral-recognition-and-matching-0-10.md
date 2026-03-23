@@ -14,7 +14,7 @@ tags:
 - number identification
 - visual perception
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Recognizing and Matching Numerals 0–10

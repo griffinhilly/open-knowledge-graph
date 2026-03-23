@@ -14,7 +14,7 @@ tags:
 - welfare-economics
 - competitive-equilibrium
 stage: expert
-status: draft
+status: validated
 ---
 
 # First Welfare Theorem: Competition Implies Efficiency

@@ -13,7 +13,7 @@ tags:
 - reconciliation
 - hashing
 stage: advanced
-status: draft
+status: validated
 ---
 # Merkle Trees for Distributed Data Consistency
 

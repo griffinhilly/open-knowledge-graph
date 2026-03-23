@@ -14,7 +14,7 @@ tags:
 - fimbriae
 - attachment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bacterial Pili and Fimbriae: Types and Functions

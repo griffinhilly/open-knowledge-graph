@@ -19,7 +19,7 @@ tags:
 - upwelling
 - freshwater-discharge
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Continental Shelf Circulation and Exchange Dynamics

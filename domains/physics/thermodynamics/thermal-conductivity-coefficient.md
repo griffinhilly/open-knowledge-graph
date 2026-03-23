@@ -11,7 +11,7 @@ tags:
 - materials
 - conductivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermal Conductivity and Material Properties

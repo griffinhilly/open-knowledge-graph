@@ -11,7 +11,7 @@ tags:
 - cross product
 - r3
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cross Product in R^3

@@ -17,7 +17,7 @@ tags:
 - variability
 - teleconnection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Climate Oscillations and Modes: ENSO, NAO, and Others

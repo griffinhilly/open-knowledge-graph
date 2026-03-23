@@ -16,7 +16,7 @@ tags:
 - cultural-accommodation
 - recognition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multiculturalism

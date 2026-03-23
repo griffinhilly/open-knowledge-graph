@@ -18,7 +18,7 @@ tags:
 - design-decisions
 - optimization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Constraints and Tradeoffs in Engineering
 

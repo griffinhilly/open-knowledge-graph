@@ -22,7 +22,7 @@ tags:
 - protein sequencing
 - genetic code
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Protein Primary Structure

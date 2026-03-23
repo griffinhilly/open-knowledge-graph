@@ -18,7 +18,7 @@ tags:
 - training-acceleration
 - internal-covariate-shift
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Batch Normalization

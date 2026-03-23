@@ -13,7 +13,7 @@ tags:
 - medieval
 - historiography
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Medieval World: Definition and Periodization

@@ -16,7 +16,7 @@ tags:
 - spectrum
 - left-right
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Political Ideologies and Belief Systems

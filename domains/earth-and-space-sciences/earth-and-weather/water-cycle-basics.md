@@ -20,7 +20,7 @@ tags:
 - condensation
 - precipitation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # The Water Cycle

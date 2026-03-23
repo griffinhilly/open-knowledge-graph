@@ -17,7 +17,7 @@ tags:
 - resolution
 - dissonance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Seventh Chord Resolution and Voice Leading

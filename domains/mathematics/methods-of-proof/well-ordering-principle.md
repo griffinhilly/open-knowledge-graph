@@ -11,7 +11,7 @@ tags:
 - ordering
 - proof
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Well-Ordering Principle

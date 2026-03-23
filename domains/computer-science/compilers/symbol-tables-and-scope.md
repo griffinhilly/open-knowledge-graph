@@ -16,7 +16,7 @@ tags:
 - scope
 - name-resolution
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Symbol Tables and Scope Resolution

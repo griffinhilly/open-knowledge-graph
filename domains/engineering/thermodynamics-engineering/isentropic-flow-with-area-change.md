@@ -16,7 +16,7 @@ tags:
 - mach-number
 - nozzles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Isentropic Flow with Area Change and Nozzles

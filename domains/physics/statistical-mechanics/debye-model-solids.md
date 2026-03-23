@@ -16,7 +16,7 @@ tags:
 - phonons
 - heat-capacity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Debye Model of Solids

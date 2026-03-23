@@ -14,7 +14,7 @@ tags:
 - greedy-coloring
 - bounds
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graph Coloring and Chromatic Numbers

@@ -14,7 +14,7 @@ tags:
 - collisions
 - parameters
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Coefficient of Restitution

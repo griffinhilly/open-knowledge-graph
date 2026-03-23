@@ -18,7 +18,7 @@ tags:
 - harmony
 - drama
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Baroque Musical Style and Aesthetics

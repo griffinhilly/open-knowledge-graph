@@ -17,7 +17,7 @@ tags:
 - decision-making
 - long-term-planning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rent vs. Buy Financial Decision Framework

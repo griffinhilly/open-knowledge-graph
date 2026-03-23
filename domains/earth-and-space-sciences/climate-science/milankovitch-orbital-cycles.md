@@ -20,7 +20,7 @@ tags:
 - eccentricity
 - obliquity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Milankovitch Orbital Cycles and Insolation Forcing

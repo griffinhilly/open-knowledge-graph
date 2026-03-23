@@ -22,7 +22,7 @@ tags:
 - transformation
 - harmonic-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Triadic Transformation Cycles

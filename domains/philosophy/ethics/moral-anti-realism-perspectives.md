@@ -15,7 +15,7 @@ tags:
 - non-realism
 - alternative-positions
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Anti-Realism

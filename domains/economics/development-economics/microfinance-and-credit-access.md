@@ -14,7 +14,7 @@ tags:
 - financial inclusion
 - entrepreneurship
 stage: expert
-status: draft
+status: validated
 ---
 
 # Microfinance and Financial Inclusion

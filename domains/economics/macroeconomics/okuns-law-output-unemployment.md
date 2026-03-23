@@ -16,7 +16,7 @@ tags:
 - output
 - empirical
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Okun's Law: The Output-Unemployment Relationship

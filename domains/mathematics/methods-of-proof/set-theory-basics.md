@@ -11,7 +11,7 @@ tags:
 - sets
 - foundations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Set Theory Basics

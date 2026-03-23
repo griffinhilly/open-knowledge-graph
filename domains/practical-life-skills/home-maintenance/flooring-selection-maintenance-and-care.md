@@ -18,7 +18,7 @@ tags:
 - surfaces
 - care
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Flooring Selection, Maintenance, and Care

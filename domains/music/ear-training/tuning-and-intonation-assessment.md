@@ -16,7 +16,7 @@ tags:
 - ear-training
 - acoustics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Tuning and Intonation Assessment by Ear

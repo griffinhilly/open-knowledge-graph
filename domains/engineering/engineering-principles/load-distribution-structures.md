@@ -19,7 +19,7 @@ tags:
 - structural-analysis
 - force-paths
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Load Distribution in Structures
 

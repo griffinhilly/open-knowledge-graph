@@ -16,7 +16,7 @@ tags:
 - inference
 - framework
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hypothesis Testing: Framework and Logic

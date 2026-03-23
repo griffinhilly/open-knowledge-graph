@@ -13,7 +13,7 @@ tags:
 - quantification
 - ambiguity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Quantifier Scope and Ambiguity

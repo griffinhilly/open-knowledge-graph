@@ -16,7 +16,7 @@ tags:
 - modifiers
 - sentence-structure
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Participial and Absolute Phrases

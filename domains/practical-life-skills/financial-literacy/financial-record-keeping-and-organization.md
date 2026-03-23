@@ -17,7 +17,7 @@ tags:
 - receipts
 - statements
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Financial Record-Keeping and Organization

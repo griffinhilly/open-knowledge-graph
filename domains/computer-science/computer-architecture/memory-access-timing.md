@@ -11,7 +11,7 @@ tags:
 - timing
 - performance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memory Access Timing and Performance

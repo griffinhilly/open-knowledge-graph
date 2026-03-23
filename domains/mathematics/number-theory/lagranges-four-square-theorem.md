@@ -11,7 +11,7 @@ tags:
 - representation
 - diophantine
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Lagrange's Four-Square Theorem

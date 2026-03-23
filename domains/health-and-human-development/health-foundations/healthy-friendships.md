@@ -6,7 +6,7 @@ course: health-foundations
 prerequisites:
   - id: emotional-changes-in-adolescence
     type: soft
-  - id: my-feelings
+  - id: happy-sad-angry-scared
     type: soft
 builds-toward:
   - bullying-awareness
@@ -14,7 +14,7 @@ builds-toward:
   - peer-friendships-and-cooperative-play
 tags: [mental-health, friendships, relationships, social-health, wellness]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Healthy Friendships

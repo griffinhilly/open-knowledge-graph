@@ -14,7 +14,7 @@ tags:
 - open-covers
 - compactness
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Open Covers and Finite Subcovers

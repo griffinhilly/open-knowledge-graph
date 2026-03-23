@@ -17,7 +17,7 @@ tags:
 - start-codon
 - ribosome
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # mRNA Translation Start Sites and Initiation

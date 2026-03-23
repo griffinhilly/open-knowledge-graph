@@ -16,7 +16,7 @@ tags:
 - facts
 - fluency
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Multiplication Facts: 3s Through 9s

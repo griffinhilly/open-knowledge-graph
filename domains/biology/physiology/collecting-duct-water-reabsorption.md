@@ -13,7 +13,7 @@ tags:
 - aquaporins
 - urine-concentration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Collecting Duct Water Reabsorption and ADH Regulation

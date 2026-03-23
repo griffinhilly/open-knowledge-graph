@@ -13,7 +13,7 @@ tags:
 - geography
 - determinants
 stage: expert
-status: draft
+status: validated
 ---
 
 # Geographic Determinants of Development

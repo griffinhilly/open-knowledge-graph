@@ -22,7 +22,7 @@ tags:
 - periodic-signals
 - frequency-domain
 stage: expert
-status: draft
+status: validated
 ---
 
 # Fourier Series Representation of Periodic Signals

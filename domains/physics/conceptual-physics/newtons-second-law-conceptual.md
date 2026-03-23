@@ -19,7 +19,7 @@ tags:
 - force
 - acceleration
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Newton's Second Law: Force, Mass, and Acceleration
 

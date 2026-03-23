@@ -16,7 +16,7 @@ tags:
 - convergence
 - partial-sums
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Rigorous Series Convergence

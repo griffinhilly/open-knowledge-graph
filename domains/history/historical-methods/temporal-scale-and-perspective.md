@@ -13,7 +13,7 @@ tags:
 - scale
 - perspective
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Temporal Scale and Long-Term Perspective in Historical Analysis
 

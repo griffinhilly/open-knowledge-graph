@@ -13,7 +13,7 @@ tags:
 - workspace
 - broadcasting
 stage: expert
-status: draft
+status: validated
 ---
 
 # Global Workspace Theory

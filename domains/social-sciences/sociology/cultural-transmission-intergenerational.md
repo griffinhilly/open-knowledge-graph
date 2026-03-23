@@ -16,7 +16,7 @@ tags:
 - culture-continuity
 - socialization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cultural Transmission and Intergenerational Continuity

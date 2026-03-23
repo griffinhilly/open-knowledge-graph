@@ -13,7 +13,7 @@ tags:
 - permittivity
 - relative
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dielectric Susceptibility and Permittivity

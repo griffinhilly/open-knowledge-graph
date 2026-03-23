@@ -16,7 +16,7 @@ tags:
 - helper-t-cells
 - differentiation
 stage: expert
-status: draft
+status: validated
 ---
 
 # CD4+ Helper T Cell Differentiation and Function

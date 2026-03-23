@@ -19,7 +19,7 @@ tags:
 - Arctic
 - ice-albedo
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Polar Oceanography and Sea Ice-Ocean Interactions

@@ -14,7 +14,7 @@ tags:
 - memory
 - development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cognitive Development and Information Processing

@@ -14,7 +14,7 @@ tags:
 - encryption
 - security
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # USB and Portable Device Security

@@ -15,7 +15,7 @@ tags:
 - ambiguity
 - antagonist
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moral Ambiguity and Complex Antagonists

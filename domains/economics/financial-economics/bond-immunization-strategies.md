@@ -13,7 +13,7 @@ tags:
 - duration
 - immunization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bond Immunization Strategies

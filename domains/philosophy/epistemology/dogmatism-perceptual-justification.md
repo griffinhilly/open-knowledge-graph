@@ -14,7 +14,7 @@ tags:
 - justification
 - foundationalism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Perceptual Dogmatism and Immediate Justification

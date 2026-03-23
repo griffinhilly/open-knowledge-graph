@@ -18,7 +18,7 @@ tags:
 - safety
 - hazard
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electrical Breaker Panel Safety

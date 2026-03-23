@@ -12,7 +12,7 @@ tags:
 - inference
 - entailment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Warrant and Transmission Through Inference

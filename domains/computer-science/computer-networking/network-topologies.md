@@ -13,7 +13,7 @@ tags:
 - network-design
 - graph-structure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Network Topologies and Architectures

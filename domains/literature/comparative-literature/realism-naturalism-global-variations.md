@@ -14,7 +14,7 @@ tags:
 - 19th-century
 - literary-movements
 stage: expert
-status: draft
+status: validated
 ---
 
 # Realism and Naturalism: Global Variations

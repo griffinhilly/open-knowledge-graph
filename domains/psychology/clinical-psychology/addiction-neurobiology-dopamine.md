@@ -19,7 +19,7 @@ tags:
 - reward
 - craving
 stage: expert
-status: draft
+status: validated
 ---
 
 # Neurobiological Mechanisms of Addiction

@@ -16,7 +16,7 @@ tags:
 - homology
 - comparative
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Evolutionary Comparative Anatomy: Homology and Analogy

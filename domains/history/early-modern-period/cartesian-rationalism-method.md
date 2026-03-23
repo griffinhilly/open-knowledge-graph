@@ -15,7 +15,7 @@ tags:
 - descartes
 - philosophy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cartesian Rationalism and Systematic Method

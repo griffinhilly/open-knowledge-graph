@@ -13,7 +13,7 @@ tags:
 - normal
 - t4
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Normal Spaces (T4 Spaces)

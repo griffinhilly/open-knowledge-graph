@@ -14,7 +14,7 @@ tags:
 - resources
 - sustainability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Environmental Commons and Governance

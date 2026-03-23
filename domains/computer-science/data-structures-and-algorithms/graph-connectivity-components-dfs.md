@@ -17,7 +17,7 @@ tags:
 - components
 - dfs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graph Connectivity: Finding Connected Components

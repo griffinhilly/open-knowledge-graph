@@ -14,7 +14,7 @@ tags:
 - respiratory system
 - oxygen
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # My Lungs Breathe

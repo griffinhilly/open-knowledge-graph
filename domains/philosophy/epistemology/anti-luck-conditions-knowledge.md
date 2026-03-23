@@ -16,7 +16,7 @@ tags:
 - sensitivity
 - knowledge
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Anti-Luck Conditions and Sensitivity

@@ -12,7 +12,7 @@ tags:
 - comparison
 - inequalities
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Comparing Two-Digit Numbers

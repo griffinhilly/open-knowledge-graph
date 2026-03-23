@@ -17,7 +17,7 @@ tags:
 - absorption-band-shape
 - potential-energy-curves
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Franck-Condon Principle and Vibronic Transitions

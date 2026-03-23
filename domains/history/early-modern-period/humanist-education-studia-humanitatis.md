@@ -14,7 +14,7 @@ tags:
 - curriculum
 - rhetorical-training
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Humanist Education and the Studia Humanitatis

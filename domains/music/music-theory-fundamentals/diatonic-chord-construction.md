@@ -16,7 +16,7 @@ tags:
 - scales
 - chord-construction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Building Diatonic Chords from Scales

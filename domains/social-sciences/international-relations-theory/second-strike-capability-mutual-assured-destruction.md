@@ -17,7 +17,7 @@ tags:
 - stability
 - submarines
 stage: expert
-status: draft
+status: validated
 ---
 
 # Second-Strike Capability and Nuclear Stability

@@ -16,7 +16,7 @@ tags:
 - ecology
 - climate
 stage: expert
-status: draft
+status: validated
 ---
 
 # Vector Competence, Ecology, and Climate Effects

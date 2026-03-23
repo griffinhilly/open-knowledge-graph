@@ -12,7 +12,7 @@ tags:
 - axoneme
 - motility
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cilia and Flagella: Structure and Function

@@ -14,7 +14,7 @@ tags:
 - place-value
 - decomposition
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Decomposing Three-Digit Numbers by Place Value

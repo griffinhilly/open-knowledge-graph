@@ -16,7 +16,7 @@ tags:
 - education
 - habituation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moral Education and Development

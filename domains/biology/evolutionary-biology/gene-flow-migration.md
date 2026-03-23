@@ -16,7 +16,7 @@ tags:
 - population-structure
 - differentiation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Gene Flow and Population Structure

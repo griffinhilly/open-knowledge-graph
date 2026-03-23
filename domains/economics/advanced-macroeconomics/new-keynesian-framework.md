@@ -21,7 +21,7 @@ tags:
 - nominal-rigidities
 - imperfect-competition
 stage: expert
-status: draft
+status: validated
 ---
 
 # New Keynesian Economics Framework

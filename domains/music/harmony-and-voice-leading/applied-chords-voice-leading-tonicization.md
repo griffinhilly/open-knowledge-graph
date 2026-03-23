@@ -16,7 +16,7 @@ tags:
 - secondary-dominants
 - tonicization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Applied Chords and Voice-Leading in Tonicization

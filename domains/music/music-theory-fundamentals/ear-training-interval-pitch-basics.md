@@ -11,7 +11,7 @@ tags:
 - listening
 - interval
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ear Training: Interval and Pitch Identification

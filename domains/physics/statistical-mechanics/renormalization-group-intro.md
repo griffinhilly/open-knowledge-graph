@@ -13,7 +13,7 @@ tags:
 - scaling
 - critical-phenomena
 stage: expert
-status: draft
+status: validated
 ---
 
 # Renormalization Group: Introduction

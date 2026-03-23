@@ -19,7 +19,7 @@ tags:
 - continuum hypothesis
 - forcing conditions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Introduction to Forcing

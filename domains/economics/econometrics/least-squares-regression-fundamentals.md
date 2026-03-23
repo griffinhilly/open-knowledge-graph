@@ -28,7 +28,7 @@ tags:
 - estimation
 - regression
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Least Squares Regression: Fundamentals and Derivation

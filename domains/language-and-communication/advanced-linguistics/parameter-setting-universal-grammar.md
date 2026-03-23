@@ -15,7 +15,7 @@ tags:
 - UG
 - language-variation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Parameter Setting and Universal Grammar

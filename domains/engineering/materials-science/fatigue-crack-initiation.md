@@ -17,7 +17,7 @@ tags:
 - slip-bands
 - surface-damage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fatigue Crack Initiation Mechanisms

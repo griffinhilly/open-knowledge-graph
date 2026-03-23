@@ -15,7 +15,7 @@ tags:
 - interstitials
 - point-defects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Point Defects: Vacancies, Interstitials, and Impurities

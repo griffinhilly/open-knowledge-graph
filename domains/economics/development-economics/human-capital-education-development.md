@@ -13,7 +13,7 @@ tags:
 - education
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Human Capital, Education, and Development

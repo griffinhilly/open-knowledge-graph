@@ -16,7 +16,7 @@ tags:
 - rc-circuits
 - time-domain
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transient Response in RC Circuits

@@ -18,7 +18,7 @@ tags:
 - inflammation
 - cellular-recruitment
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cellular Mechanisms of Inflammation

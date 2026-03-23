@@ -15,7 +15,7 @@ tags:
 - group-generators
 - primitive-root
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Primitive Roots and Cyclic Groups Modulo a Prime

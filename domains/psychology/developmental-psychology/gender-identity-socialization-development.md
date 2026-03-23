@@ -16,7 +16,7 @@ tags:
 - gender-roles
 - gender-stereotypes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gender Identity and Gender-Role Socialization

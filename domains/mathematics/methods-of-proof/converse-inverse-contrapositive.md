@@ -15,7 +15,7 @@ tags:
 - converse
 - contrapositive
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Converse, Inverse, and Contrapositive

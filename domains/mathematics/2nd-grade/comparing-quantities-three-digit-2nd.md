@@ -15,7 +15,7 @@ tags:
 - ordering
 - place-value
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Comparing and Ordering Three-Digit Quantities

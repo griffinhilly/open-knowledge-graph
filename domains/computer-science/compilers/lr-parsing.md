@@ -16,7 +16,7 @@ tags:
 - shift-reduce
 - parsing-tables
 stage: advanced
-status: draft
+status: validated
 ---
 
 # LR Parsing Fundamentals

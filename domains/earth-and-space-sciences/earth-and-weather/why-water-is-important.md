@@ -5,7 +5,7 @@ domain: earth-and-space-sciences
 course: earth-and-weather
 prerequisites:
 - id: water-cycle-basics
-  type: hard
+  type: soft
 - id: rivers-lakes-and-oceans
   type: soft
 builds-toward: []
@@ -15,7 +15,7 @@ tags:
 - conservation
 - environment
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Why Water Is Important

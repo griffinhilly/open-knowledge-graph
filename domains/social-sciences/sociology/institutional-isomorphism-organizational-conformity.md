@@ -14,7 +14,7 @@ tags:
 - coercive-normative
 - organizational-conformity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Institutional Isomorphism and Organizational Conformity

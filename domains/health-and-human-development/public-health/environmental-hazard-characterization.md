@@ -14,7 +14,7 @@ tags:
 - dose-response
 - vulnerable-populations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Environmental Hazard Characterization

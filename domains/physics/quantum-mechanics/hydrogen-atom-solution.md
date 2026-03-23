@@ -15,7 +15,7 @@ tags:
 - hydrogen-atom
 - solvable-systems
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Solution of the Hydrogen Atom

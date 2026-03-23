@@ -24,7 +24,7 @@ tags:
 - neuroinflammation
 - brain-immunity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Neuroimmunology and Neuroinflammation

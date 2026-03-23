@@ -16,7 +16,7 @@ tags:
 - observation
 - drawing
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Observing Line in Visual Art

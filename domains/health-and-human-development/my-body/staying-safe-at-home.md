@@ -13,7 +13,7 @@ tags:
 - hazards
 - prevention
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Staying Safe at Home

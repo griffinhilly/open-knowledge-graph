@@ -16,7 +16,7 @@ tags:
 - pragmatics
 - word-meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metalinguistic Negation

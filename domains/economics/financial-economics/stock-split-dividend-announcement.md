@@ -14,7 +14,7 @@ tags:
 - stock-splits
 - valuation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Corporate Actions: Stock Splits and Dividend Announcements

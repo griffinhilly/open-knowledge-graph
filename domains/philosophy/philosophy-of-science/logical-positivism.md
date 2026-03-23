@@ -19,7 +19,7 @@ tags:
 - verification
 - meaningfulness
 stage: expert
-status: draft
+status: validated
 ---
 
 # Logical Positivism

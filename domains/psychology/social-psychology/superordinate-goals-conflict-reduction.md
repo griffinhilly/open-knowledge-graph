@@ -16,7 +16,7 @@ tags:
 - superordinate goals
 - prejudice reduction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Superordinate Goals and Conflict Reduction

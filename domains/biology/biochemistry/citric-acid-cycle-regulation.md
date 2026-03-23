@@ -14,7 +14,7 @@ tags:
 - feedback inhibition
 - energy status
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Citric Acid Cycle Regulation

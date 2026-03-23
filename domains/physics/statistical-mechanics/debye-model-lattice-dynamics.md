@@ -17,7 +17,7 @@ tags:
 - specific-heat
 - debye-temperature
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Debye Model of Lattice Vibrations

@@ -15,7 +15,7 @@ tags:
 - oncotic-pressure
 - edema
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Capillary Filtration and Fluid Reabsorption (Starling Equation)

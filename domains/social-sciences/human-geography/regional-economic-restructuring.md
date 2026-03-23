@@ -16,7 +16,7 @@ tags:
 - deindustrialization
 - unequal-exchange
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Regional Economic Restructuring and Unequal Exchange

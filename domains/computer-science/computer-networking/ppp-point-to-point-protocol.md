@@ -17,7 +17,7 @@ tags:
 - serial
 - protocols
 stage: advanced
-status: draft
+status: validated
 ---
 
 # PPP: Point-to-Point Protocol

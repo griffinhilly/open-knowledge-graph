@@ -13,7 +13,7 @@ tags:
 - circuit-elements
 - basic-definitions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Circuit Element Types and Definitions

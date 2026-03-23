@@ -17,7 +17,7 @@ tags:
 - common-extension
 - construction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Amalgamation: Constructing Common Extensions

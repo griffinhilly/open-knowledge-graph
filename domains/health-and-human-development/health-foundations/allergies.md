@@ -12,7 +12,7 @@ builds-toward:
   - hypersensitivity-reactions-types
 tags: [disease, prevention, allergies, immune-system, health]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Allergies

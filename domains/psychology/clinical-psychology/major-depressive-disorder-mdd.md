@@ -15,7 +15,7 @@ tags:
 - depression
 - mood
 stage: expert
-status: draft
+status: validated
 ---
 
 # Major Depressive Disorder

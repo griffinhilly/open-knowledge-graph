@@ -16,7 +16,7 @@ tags:
 - limits
 - universal-properties
 stage: expert
-status: draft
+status: validated
 ---
 
 # Preservation and Reflection of Limits

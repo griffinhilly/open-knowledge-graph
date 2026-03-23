@@ -19,7 +19,7 @@ tags:
 - phrasing
 - composition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cadential Formulas and Phrase Endings

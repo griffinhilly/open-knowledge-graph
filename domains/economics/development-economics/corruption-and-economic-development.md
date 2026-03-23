@@ -16,7 +16,7 @@ tags:
 - governance
 - incentives
 stage: expert
-status: draft
+status: validated
 ---
 
 # Corruption as a Drag on Development

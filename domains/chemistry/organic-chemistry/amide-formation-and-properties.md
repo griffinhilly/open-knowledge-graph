@@ -18,7 +18,7 @@ tags:
 - restricted-rotation
 - peptide-bond
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Amide Formation and Properties

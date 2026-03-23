@@ -15,7 +15,7 @@ tags:
 - truth-tables
 - evaluation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Truth Tables and Evaluation

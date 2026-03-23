@@ -12,7 +12,7 @@ tags:
 - invariant-factors
 - elementary-divisors
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Classification of Finite Abelian Groups

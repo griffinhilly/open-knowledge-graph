@@ -14,7 +14,7 @@ tags:
 - intellectual-virtues
 - knowledge
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Virtue Epistemology and Knowledge

@@ -18,7 +18,7 @@ tags:
 - prevention
 - entry
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Pest Exclusion and Sealing Entry Points

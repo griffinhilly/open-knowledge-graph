@@ -17,7 +17,7 @@ tags:
 - voltage
 - resistance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Current, Voltage, and Resistance
 

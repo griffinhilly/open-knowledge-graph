@@ -12,7 +12,7 @@ tags:
 - experimental
 - performance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graphic Notation and Experimental Score Systems

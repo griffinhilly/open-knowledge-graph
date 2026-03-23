@@ -16,7 +16,7 @@ tags:
 - speciation
 - diversification
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Molecular Basis of Adaptive Radiation

@@ -14,7 +14,7 @@ tags:
 - dfa
 - formal-models
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Deterministic Finite Automata

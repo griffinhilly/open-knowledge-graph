@@ -14,7 +14,7 @@ tags:
 - inference
 - standard-error
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Standard Error of Estimators

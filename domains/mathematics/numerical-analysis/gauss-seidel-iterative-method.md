@@ -14,7 +14,7 @@ tags:
 - iterative-solver
 - fast-convergence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gauss-Seidel Iterative Method

@@ -11,7 +11,7 @@ tags:
 - eigenstates
 - spectrum
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Energy Levels and Eigenstates of the Quantum Harmonic Oscillator

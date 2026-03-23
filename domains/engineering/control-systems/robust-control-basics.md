@@ -17,7 +17,7 @@ tags:
 - multiplicative-uncertainty
 - robust-stability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Robust Control Basics

@@ -13,7 +13,7 @@ tags:
 - real-images
 - virtual-images
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Real and Virtual Images: Formation and Characteristics

@@ -20,7 +20,7 @@ tags:
 - scale-degree
 - chord-progression
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diatonic Triads: Harmonizing Scale Degrees

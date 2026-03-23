@@ -15,7 +15,7 @@ tags:
 - investment
 - golden-rule
 stage: expert
-status: draft
+status: validated
 ---
 
 # Capital Accumulation and the Golden Rule

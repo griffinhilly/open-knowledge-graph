@@ -14,7 +14,7 @@ tags:
 - navigation
 - links
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Website Anatomy & Hyperlinks

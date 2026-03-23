@@ -15,7 +15,7 @@ tags:
 - critical-points
 - extrema
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Critical Points and Local Extrema

@@ -12,7 +12,7 @@ tags:
 - model-fit
 - goodness-of-fit
 stage: advanced
-status: draft
+status: validated
 ---
 
 # R-Squared: Goodness of Fit

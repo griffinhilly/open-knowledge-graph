@@ -16,7 +16,7 @@ tags:
 - international-transactions
 - gdp
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Current Account Balance

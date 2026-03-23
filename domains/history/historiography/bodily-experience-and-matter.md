@@ -17,7 +17,7 @@ tags:
 - material
 - sensory
 stage: expert
-status: draft
+status: validated
 ---
 
 # History of the Body and Embodiment

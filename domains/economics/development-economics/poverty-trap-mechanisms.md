@@ -17,7 +17,7 @@ tags:
 - poverty-traps
 - mechanisms
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mechanisms of Poverty Traps

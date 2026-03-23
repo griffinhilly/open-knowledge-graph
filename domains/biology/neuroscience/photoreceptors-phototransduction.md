@@ -14,7 +14,7 @@ tags:
 - phototransduction
 - signal-transduction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Photoreceptors and Phototransduction: Converting Light to Neural Signals

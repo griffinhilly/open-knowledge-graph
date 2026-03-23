@@ -16,7 +16,7 @@ tags:
 - production
 - mechanization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Industrial Mechanization and the Factory System

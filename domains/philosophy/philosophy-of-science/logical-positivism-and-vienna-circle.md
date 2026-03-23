@@ -18,7 +18,7 @@ tags:
 - logical-empiricism
 - history
 stage: expert
-status: draft
+status: validated
 ---
 
 # Logical Positivism and the Vienna Circle

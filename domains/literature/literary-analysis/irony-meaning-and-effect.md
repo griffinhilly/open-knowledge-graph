@@ -16,7 +16,7 @@ tags:
 - meaning
 - effect
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Irony: Contradiction, Meaning, and Effect

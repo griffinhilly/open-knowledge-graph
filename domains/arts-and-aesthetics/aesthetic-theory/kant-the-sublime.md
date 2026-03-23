@@ -15,7 +15,7 @@ tags:
 - formless
 - reason
 stage: expert
-status: draft
+status: validated
 ---
 
 # Kant and the Sublime

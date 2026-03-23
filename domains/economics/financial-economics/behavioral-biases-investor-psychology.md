@@ -13,7 +13,7 @@ tags:
 - investor-behavior
 - psychology
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Behavioral Biases and Investor Psychology

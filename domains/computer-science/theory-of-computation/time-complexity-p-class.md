@@ -16,7 +16,7 @@ tags:
 - p-class
 - polynomial
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Time Complexity and the P Class

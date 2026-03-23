@@ -17,7 +17,7 @@ tags:
 - cardinality
 - reals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Uncountability and the Diagonal Argument

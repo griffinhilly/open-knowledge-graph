@@ -11,7 +11,7 @@ tags:
 - quadratic-forms
 - diophantine
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Lagrange's Four-Square Theorem

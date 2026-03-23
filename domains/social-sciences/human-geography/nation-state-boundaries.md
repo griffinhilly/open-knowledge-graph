@@ -13,7 +13,7 @@ tags:
 - nationalism
 - imagined-communities
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Nation-State Formation and Contested Boundaries
 

@@ -13,7 +13,7 @@ tags:
 - protons
 - neutrons
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Inside the Atom: Protons, Neutrons, and Electrons
 

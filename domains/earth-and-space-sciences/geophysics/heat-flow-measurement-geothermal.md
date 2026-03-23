@@ -16,7 +16,7 @@ tags:
 - gradient
 - measurement
 stage: expert
-status: draft
+status: validated
 ---
 
 # Heat Flow Measurement and Geothermal Gradient

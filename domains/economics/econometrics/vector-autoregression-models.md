@@ -17,7 +17,7 @@ tags:
 - var
 - multivariate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vector Autoregression (VAR) Models and Impulse Responses

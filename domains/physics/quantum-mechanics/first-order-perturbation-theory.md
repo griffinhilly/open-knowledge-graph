@@ -12,7 +12,7 @@ tags:
 - perturbation-theory
 - corrections
 stage: advanced
-status: draft
+status: validated
 ---
 
 # First-Order Perturbation Theory

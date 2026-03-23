@@ -17,7 +17,7 @@ tags:
 - sodium
 - sweat
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hydration, Electrolyte Balance, and Physical Performance

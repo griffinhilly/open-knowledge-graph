@@ -12,7 +12,7 @@ tags:
 - angular-momentum
 - composition
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Addition of Angular Momenta

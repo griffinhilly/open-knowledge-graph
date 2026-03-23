@@ -15,7 +15,7 @@ tags:
 - transitions
 - rehearsal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Group Presentation Coordination

@@ -8,7 +8,7 @@ prerequisites:
     type: hard
   - id: subsets-and-supersets-intro
     type: hard
-  - id: venn-diagrams-intro
+  - id: venn-diagrams-logic
     type: soft
 builds-toward:
   - complement-of-a-set-intro
@@ -16,7 +16,7 @@ builds-toward:
   - set-operations-union-intersection-complement
 tags: [union, intersection, set-operations, logic]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Union and Intersection

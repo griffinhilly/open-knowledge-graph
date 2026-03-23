@@ -19,7 +19,7 @@ tags:
 - value
 - economics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Neuroeconomics and Value Computation

@@ -18,7 +18,7 @@ tags:
 - value
 - philosophy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Aesthetics and Moral Philosophy

@@ -17,7 +17,7 @@ tags:
 - rise-time
 - bandwidth
 stage: expert
-status: draft
+status: validated
 ---
 
 # Response Specifications and Performance Metrics

@@ -16,7 +16,7 @@ tags:
 - imaging
 - depth-conversion
 stage: expert
-status: draft
+status: validated
 ---
 
 # Seismic Migration and Depth Imaging

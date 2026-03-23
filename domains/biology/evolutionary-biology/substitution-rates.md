@@ -19,7 +19,7 @@ tags:
 - neutral-theory
 - mutation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Substitution Rates and Neutral Theory

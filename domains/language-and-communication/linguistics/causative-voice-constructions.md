@@ -16,7 +16,7 @@ tags:
 - valency
 - morphology
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Causative Voice Constructions

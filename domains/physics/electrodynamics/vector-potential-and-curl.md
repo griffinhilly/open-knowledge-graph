@@ -16,7 +16,7 @@ tags:
 - magnetostatics
 - potentials
 stage: expert
-status: draft
+status: validated
 ---
 
 # Vector Potential and Curl Relationships

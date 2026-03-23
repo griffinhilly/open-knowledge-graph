@@ -17,7 +17,7 @@ tags:
 - behavioral
 - evidence-based
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cognitive-Behavioral Therapy (CBT)

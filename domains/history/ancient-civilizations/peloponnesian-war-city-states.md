@@ -15,7 +15,7 @@ tags:
 - sparta
 - conflict
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Peloponnesian War and City-State Rivalry

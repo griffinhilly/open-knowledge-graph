@@ -14,7 +14,7 @@ tags:
 - vocal
 - sung-text
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Prosody and Text-Setting Adaptation

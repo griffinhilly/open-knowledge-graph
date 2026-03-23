@@ -12,7 +12,7 @@ tags:
 - loss
 - coping
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Grief, Bereavement, and Developmental Stages

@@ -16,7 +16,7 @@ tags:
 - consistency
 - rationality
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Demand Systems and Integrability Conditions

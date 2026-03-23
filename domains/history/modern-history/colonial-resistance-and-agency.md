@@ -15,7 +15,7 @@ tags:
 - agency
 - indigenous
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Colonial Resistance and Indigenous Agency

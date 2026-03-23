@@ -15,7 +15,7 @@ tags:
 - optimality-theory
 - phonology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Faithfulness Constraints in Optimality Theory

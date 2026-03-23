@@ -17,7 +17,7 @@ tags:
 - keys
 - intervals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transposition Basics

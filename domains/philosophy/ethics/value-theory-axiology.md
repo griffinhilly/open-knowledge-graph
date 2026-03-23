@@ -18,7 +18,7 @@ tags:
 - pluralism
 - incommensurability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Value Theory (Axiology)

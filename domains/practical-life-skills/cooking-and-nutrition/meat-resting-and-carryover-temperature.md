@@ -18,7 +18,7 @@ tags:
 - meat
 - juiciness
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Meat Resting and Carryover Temperature

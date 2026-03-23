@@ -14,7 +14,7 @@ tags:
 - elementary
 - foundations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Elementary Signals: Impulse, Step, and Exponential Functions

@@ -15,7 +15,7 @@ tags:
 - constraints
 - contact-mechanics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rolling Without Slipping: Kinematics and Dynamics

@@ -16,7 +16,7 @@ tags:
 - decidability
 - undecidability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Many-One Reducibility in Computability

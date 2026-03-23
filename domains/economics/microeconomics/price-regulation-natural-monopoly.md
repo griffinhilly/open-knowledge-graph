@@ -13,7 +13,7 @@ tags:
 - regulation
 - natural monopoly
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Price Regulation and Natural Monopoly

@@ -14,7 +14,7 @@ tags:
 - breakfast
 - nutrition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Understanding and Cooking Eggs
 

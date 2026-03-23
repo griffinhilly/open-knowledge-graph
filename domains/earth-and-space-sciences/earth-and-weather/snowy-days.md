@@ -17,7 +17,7 @@ tags:
 - precipitation
 - winter
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Snowy Days

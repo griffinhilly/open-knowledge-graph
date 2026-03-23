@@ -17,7 +17,7 @@ tags:
 - igp
 - dynamic-routing
 stage: advanced
-status: draft
+status: validated
 ---
 
 # RIP: Routing Information Protocol

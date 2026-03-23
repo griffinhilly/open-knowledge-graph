@@ -16,7 +16,7 @@ tags:
 - hormones
 - fed-fasted states
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Glucose Homeostasis and Fed-Fasted Metabolic States

@@ -17,7 +17,7 @@ tags:
 - hierarchy
 - grouping
 stage: expert
-status: draft
+status: validated
 ---
 
 # Metric Hierarchy and Temporal Grouping

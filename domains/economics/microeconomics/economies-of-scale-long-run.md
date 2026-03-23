@@ -14,7 +14,7 @@ tags:
 - scale
 - cost-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Economies and Diseconomies of Scale in the Long Run

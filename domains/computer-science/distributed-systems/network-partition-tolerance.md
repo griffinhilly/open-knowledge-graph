@@ -16,7 +16,7 @@ tags:
 - partitions
 - split-brain
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Network Partition Tolerance and Split-Brain

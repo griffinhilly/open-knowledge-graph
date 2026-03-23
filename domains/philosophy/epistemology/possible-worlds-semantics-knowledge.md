@@ -20,7 +20,7 @@ tags:
 - semantics
 - knowledge
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Possible Worlds Semantics for Knowledge

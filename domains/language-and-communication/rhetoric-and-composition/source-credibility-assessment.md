@@ -13,7 +13,7 @@ tags:
 - credibility
 - evidence
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Source Credibility Assessment

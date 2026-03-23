@@ -16,7 +16,7 @@ tags:
 - population-regulation
 - negative-feedback
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Density-Dependence: Mechanisms and Regulation

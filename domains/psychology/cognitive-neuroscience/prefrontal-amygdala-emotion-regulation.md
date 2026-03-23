@@ -18,7 +18,7 @@ tags:
 - cognitive-reappraisal
 - inhibition
 stage: expert
-status: draft
+status: validated
 ---
 
 # Prefrontal-Amygdala Circuits and Emotion Regulation

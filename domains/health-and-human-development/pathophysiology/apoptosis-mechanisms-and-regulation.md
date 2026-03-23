@@ -19,7 +19,7 @@ tags:
 - caspases
 - bcl2
 stage: expert
-status: draft
+status: validated
 ---
 
 # Apoptosis Mechanisms and Regulation

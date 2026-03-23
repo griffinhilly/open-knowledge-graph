@@ -17,7 +17,7 @@ tags:
 - alkenone-index
 - paleoceanography
 stage: expert
-status: draft
+status: validated
 ---
 
 # Alkenone Paleothermometry

@@ -17,7 +17,7 @@ tags:
 - oligodendrocytes
 - microglia
 stage: expert
-status: draft
+status: validated
 ---
 
 # Glial Cells and Their Functions

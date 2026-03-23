@@ -16,7 +16,7 @@ tags:
 - soil
 - organic-matter
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Litter Decomposition and Soil Development

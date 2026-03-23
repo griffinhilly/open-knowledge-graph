@@ -13,7 +13,7 @@ tags:
 - completeness
 - quantified-formulas
 stage: advanced
-status: draft
+status: validated
 ---
 
 # PSPACE-Complete Problems

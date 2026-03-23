@@ -13,7 +13,7 @@ tags:
 - graph-theory
 - walks-paths
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Walks, Trails, Paths, and Cycles in Graphs

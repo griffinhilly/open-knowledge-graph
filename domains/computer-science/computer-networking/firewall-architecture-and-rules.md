@@ -16,7 +16,7 @@ tags:
 - stateful-inspection
 - access-control
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Firewall Architecture and Rules

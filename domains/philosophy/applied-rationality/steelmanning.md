@@ -13,7 +13,7 @@ builds-toward:
   - intellectual-humility-and-calibrated-uncertainty
 tags: ["argumentation", "charity", "rationality", "epistemics"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

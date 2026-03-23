@@ -14,7 +14,7 @@ tags:
 - mode-mixture
 - color
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Borrowed Chords and Parallel-Mode Harmony

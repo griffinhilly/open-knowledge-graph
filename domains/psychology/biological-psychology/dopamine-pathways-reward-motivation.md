@@ -18,7 +18,7 @@ tags:
 - motivation
 - learning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dopamine Pathways: Reward, Motivation, and Learning

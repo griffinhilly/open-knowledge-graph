@@ -13,7 +13,7 @@ tags:
 - propagation
 - technology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Technology Shocks and Propagation Mechanisms

@@ -15,7 +15,7 @@ tags:
 - first-order
 - partial-derivatives
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Exact Differential Equations

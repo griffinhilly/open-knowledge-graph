@@ -15,7 +15,7 @@ tags:
 - thick-paint
 - expressive
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Impasto: Thick Paint Application

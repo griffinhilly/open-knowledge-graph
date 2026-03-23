@@ -17,7 +17,7 @@ tags:
 - stability
 - flap-damping
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Routing Convergence, Flapping, and Damping

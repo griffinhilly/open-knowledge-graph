@@ -17,7 +17,7 @@ tags:
 - counterargument
 - attitude-protection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inoculation Theory and Persuasion Resistance

@@ -16,7 +16,7 @@ tags:
 - biological development
 - timing
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Pubertal Development and Timing Effects
 

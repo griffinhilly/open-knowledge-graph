@@ -12,7 +12,7 @@ tags:
 - 128-bit
 - next-generation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # IPv6 Addressing and Autoconfiguration

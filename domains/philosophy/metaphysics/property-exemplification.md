@@ -16,7 +16,7 @@ tags:
 - exemplification
 - instantiation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Property Exemplification and Instantiation

@@ -16,7 +16,7 @@ tags:
 - unitary
 - self-adjoint
 stage: expert
-status: draft
+status: validated
 ---
 # Dagger Categories and Involutions
 

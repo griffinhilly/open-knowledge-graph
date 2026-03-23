@@ -18,7 +18,7 @@ tags:
 - components
 - projectile motion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Curvilinear Motion of Particles

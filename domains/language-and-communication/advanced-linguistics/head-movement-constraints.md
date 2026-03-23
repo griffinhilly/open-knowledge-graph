@@ -13,7 +13,7 @@ tags:
 - movement
 - constraints
 stage: expert
-status: draft
+status: validated
 ---
 
 # Head Movement and Locality Constraints

@@ -15,7 +15,7 @@ tags:
 - proteinuria
 - albuminuria
 stage: expert
-status: draft
+status: validated
 ---
 
 # Nephrotic Syndrome and Proteinuria

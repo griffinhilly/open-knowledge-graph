@@ -15,7 +15,7 @@ tags:
 - NP-completeness
 - hard-problems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Boolean Satisfiability and Standard NP-Complete Problems

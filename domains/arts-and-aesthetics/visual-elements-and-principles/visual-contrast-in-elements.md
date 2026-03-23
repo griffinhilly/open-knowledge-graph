@@ -21,7 +21,7 @@ tags:
 - visual-interest
 - composition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Contrast in Visual Elements

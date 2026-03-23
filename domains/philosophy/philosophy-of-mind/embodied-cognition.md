@@ -18,7 +18,7 @@ tags:
 - sensorimotor
 - situated-cognition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Embodied Cognition

@@ -16,7 +16,7 @@ tags:
 - leverage
 - valuation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Collateral Valuation and Haircuts in Repo Markets

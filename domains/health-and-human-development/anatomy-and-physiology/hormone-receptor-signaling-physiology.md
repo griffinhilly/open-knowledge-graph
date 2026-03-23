@@ -27,7 +27,7 @@ tags:
 - receptor-types
 - second-messengers
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hormone Receptor Signaling Physiology

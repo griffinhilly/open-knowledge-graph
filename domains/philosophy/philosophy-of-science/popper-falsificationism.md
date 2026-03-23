@@ -18,7 +18,7 @@ tags:
 - critique
 - hypothesis-testing
 stage: expert
-status: draft
+status: validated
 ---
 
 # Popper's Falsificationism

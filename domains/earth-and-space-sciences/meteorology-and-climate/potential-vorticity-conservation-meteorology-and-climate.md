@@ -17,7 +17,7 @@ tags:
 - dynamics
 - potential
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Potential Vorticity and Conservation

@@ -15,7 +15,7 @@ tags:
 - competence
 - dna-uptake
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Natural Competence and Bacterial DNA Transformation

@@ -16,7 +16,7 @@ tags:
 - potential
 - gradient
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Relating Electric Field to Potential

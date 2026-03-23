@@ -17,7 +17,7 @@ builds-toward:
   - propositional-logic-introduction
 tags: [equivalence, logic, truth-tables, tautology]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Logical Equivalence

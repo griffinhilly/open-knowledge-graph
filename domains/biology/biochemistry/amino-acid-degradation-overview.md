@@ -17,7 +17,7 @@ tags:
 - catabolism
 - nitrogen-metabolism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Amino Acid Degradation Pathways

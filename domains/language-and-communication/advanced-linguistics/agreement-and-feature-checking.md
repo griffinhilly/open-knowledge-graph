@@ -13,7 +13,7 @@ tags:
 - morphology
 - agreement
 stage: expert
-status: draft
+status: validated
 ---
 
 # Agreement and Feature Checking in Syntax

@@ -16,7 +16,7 @@ tags:
 - voicing
 - distribution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Four-Part Writing: Distributing Harmony Across Voices

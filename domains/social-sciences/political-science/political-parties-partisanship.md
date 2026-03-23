@@ -16,7 +16,7 @@ tags:
 - political-competition
 - ideology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Political Parties and Party Systems

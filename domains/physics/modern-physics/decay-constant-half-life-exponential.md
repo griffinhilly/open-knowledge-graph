@@ -15,7 +15,7 @@ tags:
 - radioactivity
 - exponential
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Radioactive Decay Constant and Half-Life

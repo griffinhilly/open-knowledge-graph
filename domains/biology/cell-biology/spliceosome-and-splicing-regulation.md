@@ -15,7 +15,7 @@ tags:
 - spliceosome
 - snRNP
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Spliceosome and Splicing Regulation

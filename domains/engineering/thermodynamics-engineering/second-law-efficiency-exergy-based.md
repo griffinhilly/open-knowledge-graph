@@ -14,7 +14,7 @@ tags:
 - raquette-inequality
 - lost-work
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Second Law Efficiency and Exergy-Based Metrics

@@ -17,7 +17,7 @@ tags:
 - diversity
 - human-variation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Human Biological Diversity and Adaptation

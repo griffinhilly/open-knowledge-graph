@@ -15,7 +15,7 @@ tags:
 - composition
 - word-formation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Morphological Composition and Word Formation

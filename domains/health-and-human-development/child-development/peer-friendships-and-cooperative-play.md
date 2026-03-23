@@ -15,7 +15,7 @@ tags:
 - social-development
 - play-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Peer Friendships and Cooperative Play Development

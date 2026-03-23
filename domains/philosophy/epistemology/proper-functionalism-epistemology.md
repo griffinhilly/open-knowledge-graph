@@ -14,7 +14,7 @@ tags:
 - reliabilism
 - plantinga
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Proper Functionalism and Reliable Belief Formation

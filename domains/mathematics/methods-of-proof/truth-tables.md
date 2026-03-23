@@ -14,7 +14,7 @@ tags:
 - truth-values
 - systematic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Truth Tables

@@ -18,7 +18,7 @@ tags:
 - ghrelin
 - hunger-hormones
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Satiety Signals and Appetite Regulation

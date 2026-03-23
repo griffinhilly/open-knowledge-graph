@@ -16,7 +16,7 @@ tags:
 - interpolant
 - consequence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Craig-Lyndon Interpolation Theorem

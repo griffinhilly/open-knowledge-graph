@@ -15,7 +15,7 @@ tags:
 - sour
 - corrosive
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Acids: Properties and Everyday Examples
 

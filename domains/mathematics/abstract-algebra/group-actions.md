@@ -15,7 +15,7 @@ tags:
 - orbit
 - stabilizer
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Group Actions

@@ -14,7 +14,7 @@ tags:
 - justification
 - perception
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phenomenal Justification from Experience

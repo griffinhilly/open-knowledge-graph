@@ -14,7 +14,7 @@ tags:
 - kernel
 - ideal
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Ring Homomorphisms

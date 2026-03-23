@@ -15,7 +15,7 @@ tags:
 - power
 - classification
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Signal Energy and Power Classification
 

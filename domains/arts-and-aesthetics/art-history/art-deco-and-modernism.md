@@ -18,7 +18,7 @@ tags:
 - design
 - streamline
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Art Deco: Geometric Modernism and Machine Aesthetics

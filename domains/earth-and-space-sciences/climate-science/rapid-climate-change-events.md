@@ -18,7 +18,7 @@ tags:
 - dansgaard-oeschger
 - instability
 stage: expert
-status: draft
+status: validated
 ---
 # Rapid Climate Change Events in Paleoclimate
 

@@ -16,7 +16,7 @@ tags:
 - dots
 - pointillism
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Stippling and Pointillism

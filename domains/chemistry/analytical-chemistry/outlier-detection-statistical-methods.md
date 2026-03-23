@@ -16,7 +16,7 @@ tags:
 - outliers
 - quality-control
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Outlier Detection and Statistical Methods

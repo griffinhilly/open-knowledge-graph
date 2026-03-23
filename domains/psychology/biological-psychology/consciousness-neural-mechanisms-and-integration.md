@@ -16,7 +16,7 @@ tags:
 - binding
 - integration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Consciousness: Neural Mechanisms and Integration

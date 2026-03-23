@@ -15,7 +15,7 @@ tags:
 - second-derivative-test
 - eigenvalues
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Hessian Matrix and Second Derivative Test

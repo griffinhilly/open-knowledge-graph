@@ -18,7 +18,7 @@ tags:
 - adjoint
 - universal-property
 stage: expert
-status: draft
+status: validated
 ---
 
 # Free and Forgetful Functors

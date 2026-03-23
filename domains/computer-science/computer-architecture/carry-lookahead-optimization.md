@@ -11,7 +11,7 @@ tags:
 - adder
 - performance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Carry Lookahead Optimization

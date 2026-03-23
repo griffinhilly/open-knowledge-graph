@@ -17,7 +17,7 @@ tags:
 - emotion
 - contrast
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Color Temperature: Warm and Cool

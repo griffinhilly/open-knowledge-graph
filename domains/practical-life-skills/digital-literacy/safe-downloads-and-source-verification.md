@@ -17,7 +17,7 @@ tags:
 - downloads
 - file-safety
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Safe Downloads and Source Verification

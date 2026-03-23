@@ -16,7 +16,7 @@ tags:
 - light-and-shadow
 - observation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Eye Structure and Portrait Rendering

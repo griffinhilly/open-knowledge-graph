@@ -10,7 +10,7 @@ tags:
 - wkb
 - quantization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # WKB Quantization and Bohr-Sommerfeld Rule

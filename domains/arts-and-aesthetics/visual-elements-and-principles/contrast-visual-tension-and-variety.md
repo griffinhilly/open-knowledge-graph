@@ -16,7 +16,7 @@ tags:
 - variety
 - emphasis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Contrast: Visual Tension and Variety

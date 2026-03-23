@@ -17,7 +17,7 @@ tags:
 - trade
 - harappa
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Indus Valley Urban Planning and Long-Distance Trade

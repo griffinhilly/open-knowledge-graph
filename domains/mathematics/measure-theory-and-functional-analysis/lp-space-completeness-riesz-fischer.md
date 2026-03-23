@@ -12,7 +12,7 @@ tags:
 - lp-spaces
 - banach-spaces
 stage: expert
-status: draft
+status: validated
 ---
 
 # Completeness of L^p Spaces (Riesz-Fischer Theorem)

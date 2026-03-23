@@ -17,7 +17,7 @@ tags:
 - expansion
 - joule-thomson
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Throttling and Isenthalpic Expansion Processes

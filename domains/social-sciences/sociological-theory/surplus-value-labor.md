@@ -17,7 +17,7 @@ tags:
 - exploitation
 - value
 stage: expert
-status: draft
+status: validated
 ---
 
 # Surplus Value and Labor Exploitation

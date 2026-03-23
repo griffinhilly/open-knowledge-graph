@@ -14,7 +14,7 @@ tags:
 - risk-measurement
 - statistics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Correlation and Covariance Between Assets

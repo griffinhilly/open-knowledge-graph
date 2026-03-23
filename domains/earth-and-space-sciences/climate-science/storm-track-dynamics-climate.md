@@ -19,7 +19,7 @@ tags:
 - climate-variability
 - extreme-events
 stage: expert
-status: draft
+status: validated
 ---
 
 # Storm Track Dynamics and Climate

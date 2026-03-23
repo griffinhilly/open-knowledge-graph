@@ -15,7 +15,7 @@ tags:
 - local-opts
 - peephole
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Local Optimization Techniques

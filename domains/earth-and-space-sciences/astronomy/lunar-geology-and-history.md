@@ -13,7 +13,7 @@ tags:
 - volcanism
 - impact-cratering
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lunar Geology and Geological History

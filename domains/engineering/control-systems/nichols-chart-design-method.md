@@ -16,7 +16,7 @@ tags:
 - closed-loop-response
 - design
 stage: expert
-status: draft
+status: validated
 ---
 
 # Nichols Chart: Magnitude-Phase Design Tool

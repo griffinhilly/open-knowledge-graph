@@ -18,7 +18,7 @@ tags:
 - single-cycle
 - architecture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Single-Cycle Processor Architecture

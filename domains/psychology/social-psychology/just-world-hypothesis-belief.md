@@ -16,7 +16,7 @@ tags:
 - attribution
 - justice
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Just-World Hypothesis and Belief in a Just World

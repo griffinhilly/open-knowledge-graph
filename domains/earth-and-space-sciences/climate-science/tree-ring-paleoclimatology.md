@@ -15,7 +15,7 @@ tags:
 - temperature
 - growth
 stage: expert
-status: draft
+status: validated
 ---
 
 # Tree Ring Paleoclimatology and Dendrochronology

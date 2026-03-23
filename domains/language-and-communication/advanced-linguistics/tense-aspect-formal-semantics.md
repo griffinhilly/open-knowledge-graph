@@ -13,7 +13,7 @@ tags:
 - tense
 - aspect
 stage: expert
-status: draft
+status: validated
 ---
 
 # Tense and Aspect in Formal Semantics

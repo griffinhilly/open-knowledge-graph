@@ -11,7 +11,7 @@ tags:
 - ionic-bonding
 - brittle-materials
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ceramic Materials: Structure and Properties

@@ -13,7 +13,7 @@ tags:
 - hydrogen
 - orbitals
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Radial Wavefunctions and Probability Distributions in Hydrogen

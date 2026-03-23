@@ -15,7 +15,7 @@ tags:
 - one-to-one
 - onto
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Injections, Surjections, and Bijections

@@ -16,7 +16,7 @@ tags:
 - genres
 - ceremony
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Epideictic Rhetoric: Praise and Blame

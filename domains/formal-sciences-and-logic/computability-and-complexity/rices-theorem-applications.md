@@ -15,7 +15,7 @@ tags:
 - semantic-properties
 - undecidability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Rice's Theorem: Deciding Properties of Programs

@@ -17,7 +17,7 @@ tags:
 - structure
 - reduction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Schenkerian Analysis Fundamentals

@@ -13,7 +13,7 @@ tags:
 - non-regular
 - hierarchy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Limitations of Finite Automata and Non-Regular Languages

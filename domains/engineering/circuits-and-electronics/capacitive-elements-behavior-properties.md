@@ -15,7 +15,7 @@ tags:
 - energy-storage
 - reactive-elements
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Capacitive Elements: Behavior and Properties

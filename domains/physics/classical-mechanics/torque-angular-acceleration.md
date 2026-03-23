@@ -18,7 +18,7 @@ tags:
 - angular-dynamics
 - mechanics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Torque and Angular Acceleration Relations

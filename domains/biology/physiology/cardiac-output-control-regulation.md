@@ -18,7 +18,7 @@ tags:
 - regulation
 - exercise
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cardiac Output Control and Regulation

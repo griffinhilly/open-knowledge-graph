@@ -14,7 +14,7 @@ tags:
 - symphony
 - tone-poem
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Romantic Orchestration and Large-Scale Forms

@@ -11,7 +11,7 @@ tags:
 - diagnostic-overlap
 - complex-cases
 stage: expert
-status: draft
+status: validated
 ---
 
 # Comorbidity in Mental Disorders: Patterns and Treatment

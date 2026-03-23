@@ -15,7 +15,7 @@ tags:
 - optimization
 - meta
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Partial Evaluation and Program Specialization

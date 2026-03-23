@@ -19,7 +19,7 @@ tags:
 - homeostasis
 - diabetes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Insulin, Glucagon, and Glucose Homeostasis

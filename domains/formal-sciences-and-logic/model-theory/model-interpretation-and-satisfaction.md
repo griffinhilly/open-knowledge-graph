@@ -28,7 +28,7 @@ tags:
 - Tarski
 - valuation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Model Interpretation and Satisfaction

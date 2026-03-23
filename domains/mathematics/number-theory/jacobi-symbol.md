@@ -11,7 +11,7 @@ tags:
 - quadratic-reciprocity
 - composite-moduli
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Jacobi Symbol

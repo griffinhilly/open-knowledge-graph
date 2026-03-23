@@ -15,7 +15,7 @@ tags:
 - trace-analysis
 - selectivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fluorescence Spectroscopy: Quantitative Methods

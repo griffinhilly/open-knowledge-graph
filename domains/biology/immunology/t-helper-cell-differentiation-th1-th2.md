@@ -17,7 +17,7 @@ tags:
 - differentiation
 - cytokines
 stage: expert
-status: draft
+status: validated
 ---
 
 # T Helper Cell Differentiation: Th1, Th2, Th17, and Tfh

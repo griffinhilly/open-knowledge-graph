@@ -19,7 +19,7 @@ tags:
 - regress
 - regress-argument
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Regress Problem: Formal Analysis

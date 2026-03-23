@@ -20,7 +20,7 @@ tags:
 - parapatric
 - sympatric
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Modes of Speciation

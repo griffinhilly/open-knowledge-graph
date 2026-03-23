@@ -13,7 +13,7 @@ tags:
 - legendre-symbol
 - number-theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Law of Quadratic Reciprocity

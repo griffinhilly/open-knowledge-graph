@@ -17,7 +17,7 @@ tags:
 - unemployment
 - oil-shocks
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Supply Shocks and Stagflation

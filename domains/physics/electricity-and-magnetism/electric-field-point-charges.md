@@ -18,7 +18,7 @@ tags:
 - point-charge
 - calculation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electric Field from Point Charges

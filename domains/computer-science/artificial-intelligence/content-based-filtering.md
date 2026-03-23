@@ -15,7 +15,7 @@ tags:
 - item-features
 - user-profile
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Content-Based Filtering

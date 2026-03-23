@@ -13,7 +13,7 @@ tags:
 - caulk
 - weatherproofing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Sealant Selection and Application Basics

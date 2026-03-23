@@ -20,7 +20,7 @@ tags:
 - properties
 - ontology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Universals: Nominalism and Realism

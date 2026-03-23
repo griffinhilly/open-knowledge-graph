@@ -13,7 +13,7 @@ tags:
 - interchange
 - uniform-convergence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Interchange of Limit and Integral

@@ -17,7 +17,7 @@ tags:
 - waldensian
 - dissent
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Medieval Heresy: Albigensian and Waldensian Movements

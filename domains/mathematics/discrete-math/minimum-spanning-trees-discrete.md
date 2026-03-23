@@ -17,7 +17,7 @@ tags:
 - weighted-graphs
 - optimization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Minimum Spanning Trees and Algorithms

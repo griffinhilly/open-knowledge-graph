@@ -23,7 +23,7 @@ tags:
 - moons
 - interiors
 stage: expert
-status: draft
+status: validated
 ---
 
 # Tidal Heating and Moon Interior Evolution

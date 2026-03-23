@@ -14,7 +14,7 @@ tags:
 - rheology
 - mechanics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Brittle-Ductile Transition in Crustal Rocks

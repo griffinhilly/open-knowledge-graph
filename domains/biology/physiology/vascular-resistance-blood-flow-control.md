@@ -17,7 +17,7 @@ tags:
 - resistance
 - vascular control
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vascular Resistance and Blood Flow Control

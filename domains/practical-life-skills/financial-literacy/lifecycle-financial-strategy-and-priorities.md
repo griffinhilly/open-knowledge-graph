@@ -20,7 +20,7 @@ tags:
 - planning
 - priorities
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lifecycle Financial Strategy and Priorities

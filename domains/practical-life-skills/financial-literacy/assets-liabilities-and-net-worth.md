@@ -23,7 +23,7 @@ tags:
 - accounting
 - financial-health
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Assets, Liabilities, and Net Worth

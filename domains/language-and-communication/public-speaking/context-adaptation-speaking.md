@@ -14,7 +14,7 @@ tags:
 - format
 - delivery
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Adapting Speeches for Different Contexts and Formats

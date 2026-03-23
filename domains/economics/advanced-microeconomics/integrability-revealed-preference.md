@@ -13,7 +13,7 @@ tags:
 - demand
 - preferences
 stage: expert
-status: draft
+status: validated
 ---
 
 # Integrability and Preference Recovery

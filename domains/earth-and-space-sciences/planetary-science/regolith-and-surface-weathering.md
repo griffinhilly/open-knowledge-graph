@@ -16,7 +16,7 @@ tags:
 - weathering
 - surface-alteration
 stage: expert
-status: draft
+status: validated
 ---
 
 # Regolith and Surface Weathering Processes

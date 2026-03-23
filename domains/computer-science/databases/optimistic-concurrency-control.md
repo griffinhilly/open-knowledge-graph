@@ -11,7 +11,7 @@ tags:
 - conflict-detection
 - mvcc
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Optimistic Concurrency Control: Version Numbers

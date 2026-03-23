@@ -18,7 +18,7 @@ tags:
 - patronage
 - society
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Classical Public Concert Culture

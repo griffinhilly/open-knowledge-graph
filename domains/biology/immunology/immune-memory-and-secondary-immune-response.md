@@ -15,7 +15,7 @@ tags:
 - secondary-response
 - anamnestic
 stage: expert
-status: draft
+status: validated
 ---
 
 # Immunological Memory and Secondary Immune Response

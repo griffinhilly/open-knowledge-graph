@@ -15,7 +15,7 @@ tags:
 - short-term
 - long-term
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Disability Insurance Overview

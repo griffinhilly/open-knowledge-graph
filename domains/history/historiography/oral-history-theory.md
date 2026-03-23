@@ -16,7 +16,7 @@ tags:
 - narrative
 - methodology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Oral History Theory

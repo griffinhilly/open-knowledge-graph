@@ -11,7 +11,7 @@ tags:
 - electron-transfer
 - kinetics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Electrode Kinetics and Butler-Volmer Equation

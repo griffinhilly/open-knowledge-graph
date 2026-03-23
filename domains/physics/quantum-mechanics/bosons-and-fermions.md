@@ -14,7 +14,7 @@ tags:
 - statistics
 - spin
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bosons and Fermions

@@ -15,7 +15,7 @@ tags:
 - clt
 - convergence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Central Limit Theorem: Rigor and Applications

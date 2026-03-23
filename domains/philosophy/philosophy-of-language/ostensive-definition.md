@@ -14,7 +14,7 @@ tags:
 - learning-language
 - context
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ostensive Definition and the Problem of Pointing

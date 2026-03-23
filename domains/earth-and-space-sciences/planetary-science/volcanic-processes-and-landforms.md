@@ -16,7 +16,7 @@ tags:
 - magma
 - landforms
 stage: expert
-status: draft
+status: validated
 ---
 
 # Volcanic Processes and Landforms on Planets

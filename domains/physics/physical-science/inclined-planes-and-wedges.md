@@ -16,7 +16,7 @@ tags:
 - wedge
 - simple-machine
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Inclined Planes and Wedges
 

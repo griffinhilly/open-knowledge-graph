@@ -16,7 +16,7 @@ tags:
 - micromechanics
 - failure-criteria
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Composite Failure Modes and Strength Prediction

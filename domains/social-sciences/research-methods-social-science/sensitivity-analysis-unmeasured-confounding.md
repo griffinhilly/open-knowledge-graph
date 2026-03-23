@@ -13,7 +13,7 @@ tags:
 - unmeasured-confounding
 - robustness
 stage: expert
-status: draft
+status: validated
 ---
 
 # Sensitivity Analysis: Robustness to Unmeasured Confounding

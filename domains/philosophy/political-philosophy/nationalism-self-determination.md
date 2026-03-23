@@ -15,7 +15,7 @@ tags:
 - borders
 - secession
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nationalism, Self-Determination, and Political Boundaries

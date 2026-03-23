@@ -17,7 +17,7 @@ tags:
 - tonality
 - key-relationships
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Parallel and Relative Major-Minor Relationships

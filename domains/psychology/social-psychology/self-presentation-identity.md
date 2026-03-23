@@ -17,7 +17,7 @@ tags:
 - dramaturgy
 - impression-management
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Self-Presentation and Identity Management

@@ -14,7 +14,7 @@ tags:
 - pda
 - recognition
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Pushdown Automata and CFG Recognition

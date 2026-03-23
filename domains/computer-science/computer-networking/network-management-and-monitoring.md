@@ -14,7 +14,7 @@ tags:
 - management
 - alerting
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Network Management and Monitoring

@@ -12,7 +12,7 @@ tags:
 - fine-structure
 - relativistic
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fine Structure and Relativistic Corrections

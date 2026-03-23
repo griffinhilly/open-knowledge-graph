@@ -18,7 +18,7 @@ tags:
 - cmp
 - processing
 stage: expert
-status: draft
+status: validated
 ---
 
 # Seismic Reflection Surveys and Common Midpoint Processing

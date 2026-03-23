@@ -15,7 +15,7 @@ tags:
 - age-dating
 - isochrones
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Star Clusters and Age Determination via Isochrones

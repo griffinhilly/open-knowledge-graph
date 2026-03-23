@@ -17,7 +17,7 @@ tags:
 - group favoritism
 - intergroup
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ingroup Favoritism and Bias

@@ -15,7 +15,7 @@ tags:
 - leaves
 - flower
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Parts of a Plant

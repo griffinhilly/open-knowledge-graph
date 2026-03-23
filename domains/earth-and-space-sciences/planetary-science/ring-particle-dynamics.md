@@ -14,7 +14,7 @@ tags:
 - collisions
 - dynamics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ring Particle Dynamics and Collisional Evolution

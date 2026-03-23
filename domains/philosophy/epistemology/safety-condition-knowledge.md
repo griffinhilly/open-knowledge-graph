@@ -16,7 +16,7 @@ tags:
 - modal-conditions
 - gettier
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Safety Condition for Knowledge

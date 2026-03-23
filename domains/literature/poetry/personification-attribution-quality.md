@@ -11,7 +11,7 @@ tags:
 - abstraction
 - animation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Personification: Giving Human Qualities

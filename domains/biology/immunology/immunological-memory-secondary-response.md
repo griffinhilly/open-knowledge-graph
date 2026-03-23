@@ -15,7 +15,7 @@ tags:
 - memory
 - recall-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # Immunological Memory and Secondary Immune Response

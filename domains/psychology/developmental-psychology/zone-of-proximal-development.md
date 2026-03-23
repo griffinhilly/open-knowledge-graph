@@ -17,7 +17,7 @@ tags:
 - instruction
 - sociocultural
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Zone of Proximal Development

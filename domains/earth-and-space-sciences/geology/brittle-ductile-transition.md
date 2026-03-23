@@ -18,7 +18,7 @@ tags:
 - temperature
 - depth
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Brittle-Ductile Transition and Rock Rheology

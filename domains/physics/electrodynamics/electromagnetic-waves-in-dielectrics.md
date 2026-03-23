@@ -15,7 +15,7 @@ tags:
 - polarization
 - dielectrics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Electromagnetic Waves in Dielectric Materials

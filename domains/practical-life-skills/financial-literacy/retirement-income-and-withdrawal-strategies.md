@@ -15,7 +15,7 @@ tags:
 - withdrawal
 - income
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Retirement Income and Withdrawal Strategies

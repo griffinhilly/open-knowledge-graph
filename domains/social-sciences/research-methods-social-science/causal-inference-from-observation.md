@@ -21,7 +21,7 @@ tags:
 - confounding
 - identification
 stage: expert
-status: draft
+status: validated
 ---
 
 # Causal Inference from Observational Data: Fundamental Problem

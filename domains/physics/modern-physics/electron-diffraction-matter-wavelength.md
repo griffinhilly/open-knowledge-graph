@@ -15,7 +15,7 @@ tags:
 - quantum-mechanics
 - experimental
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Electron Diffraction and Matter Wave Properties

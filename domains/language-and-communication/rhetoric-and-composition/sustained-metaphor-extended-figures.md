@@ -14,7 +14,7 @@ tags:
 - meaning
 - imagery
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sustained Metaphor and Extended Figures

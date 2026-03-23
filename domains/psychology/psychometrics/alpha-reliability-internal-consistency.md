@@ -16,7 +16,7 @@ tags:
 - internal-consistency
 - reliability-coefficient
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cronbach's Alpha and Internal Consistency Reliability

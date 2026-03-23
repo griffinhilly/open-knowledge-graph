@@ -14,7 +14,7 @@ tags:
 - allelic-heterogeneity
 - phenotypic-pleiotropy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Genetic Heterogeneity and Locus Heterogeneity

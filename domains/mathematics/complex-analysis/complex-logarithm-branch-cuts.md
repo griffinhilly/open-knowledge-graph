@@ -11,7 +11,7 @@ tags:
 - branch-cut
 - multi-valued
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Complex Logarithm and Branch Cuts

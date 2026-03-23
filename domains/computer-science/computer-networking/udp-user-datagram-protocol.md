@@ -16,7 +16,7 @@ tags:
 - unreliable
 - low-overhead
 stage: advanced
-status: draft
+status: validated
 ---
 
 # UDP: User Datagram Protocol

@@ -17,7 +17,7 @@ tags:
 - bias-correction
 - impact-modeling
 stage: expert
-status: draft
+status: validated
 ---
 # Regional Climate Downscaling and Projections
 

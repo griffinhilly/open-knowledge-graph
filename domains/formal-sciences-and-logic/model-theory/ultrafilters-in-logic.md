@@ -14,7 +14,7 @@ tags:
 - maximal filter
 - free ultrafilter
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ultrafilters in Logic and Model Theory

@@ -16,7 +16,7 @@ tags:
 - pyramids
 - pharaohs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Old Kingdom Egypt and the Pyramid Age

@@ -27,7 +27,7 @@ tags:
 - Kristeva
 - semiotics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Intertextuality and Kristeva's Semiotic Theory

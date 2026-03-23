@@ -27,7 +27,7 @@ tags:
 - drift
 - estimation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Effective Population Size (Ne) and Its Estimation

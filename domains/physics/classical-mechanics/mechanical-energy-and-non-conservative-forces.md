@@ -16,7 +16,7 @@ tags:
 - non-conservative
 - dissipation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mechanical Energy and Non-Conservative Forces

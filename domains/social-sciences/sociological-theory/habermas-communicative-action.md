@@ -12,7 +12,7 @@ tags:
 - public-sphere
 - deliberation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Jürgen Habermas and Communicative Action

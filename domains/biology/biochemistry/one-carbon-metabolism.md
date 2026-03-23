@@ -13,7 +13,7 @@ tags:
 - methylation
 - nucleotide-synthesis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # One-Carbon Metabolism and Methylation

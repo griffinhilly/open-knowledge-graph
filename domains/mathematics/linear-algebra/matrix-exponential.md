@@ -13,7 +13,7 @@ tags:
 - odes
 - systems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Matrix Exponential and Differential Equations

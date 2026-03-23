@@ -13,7 +13,7 @@ tags:
 - related-goods
 - demand-shift
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Substitutes and Complements: Cross-Price Elasticity

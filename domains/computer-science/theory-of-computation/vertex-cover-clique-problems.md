@@ -15,7 +15,7 @@ tags:
 - graph-problems
 - reduction-chains
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Vertex Cover and Clique Problems

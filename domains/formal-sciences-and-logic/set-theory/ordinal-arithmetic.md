@@ -16,7 +16,7 @@ tags:
 - non-commutativity
 - Cantor normal form
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ordinal Arithmetic

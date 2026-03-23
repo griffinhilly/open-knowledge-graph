@@ -17,7 +17,7 @@ tags:
 - crisis
 - economy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Subsistence Agriculture and Famine Crisis

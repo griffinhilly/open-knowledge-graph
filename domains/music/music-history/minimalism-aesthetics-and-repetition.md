@@ -15,7 +15,7 @@ tags:
 - repetition
 - process
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Minimalism: Aesthetics and Repetition

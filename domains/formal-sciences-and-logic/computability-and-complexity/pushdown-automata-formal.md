@@ -14,7 +14,7 @@ tags:
 - context-free-languages
 - stack
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pushdown Automata

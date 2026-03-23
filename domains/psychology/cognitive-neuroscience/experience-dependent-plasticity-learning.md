@@ -13,7 +13,7 @@ tags:
 - learning
 - experience
 stage: expert
-status: draft
+status: validated
 ---
 
 # Experience-Dependent Plasticity and Learning

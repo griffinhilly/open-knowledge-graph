@@ -20,7 +20,7 @@ tags:
 - binary
 - arithmetic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binary Adders: Half-Adders and Full-Adders

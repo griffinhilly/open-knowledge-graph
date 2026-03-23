@@ -14,7 +14,7 @@ tags:
 - directories
 - structure
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Organizing Files & Creating Folders

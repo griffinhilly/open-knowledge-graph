@@ -17,7 +17,7 @@ tags:
 - harmony
 - function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tonicization and Secondary Dominants

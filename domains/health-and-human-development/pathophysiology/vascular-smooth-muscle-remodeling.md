@@ -17,7 +17,7 @@ tags:
 - stiffness
 - hypertension
 stage: expert
-status: draft
+status: validated
 ---
 
 # Vascular Smooth Muscle Remodeling and Arterial Stiffness

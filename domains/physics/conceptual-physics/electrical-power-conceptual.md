@@ -16,7 +16,7 @@ tags:
 - electrical-power
 - watts
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Electrical Power: P = IV
 

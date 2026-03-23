@@ -14,7 +14,7 @@ tags:
 - derivatives
 - holomorphic
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Complex Differentiability

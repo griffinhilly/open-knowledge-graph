@@ -19,7 +19,7 @@ tags:
 - conflict
 - modern
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Domestic Tragedy: Intimate Conflict

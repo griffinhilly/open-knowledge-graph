@@ -19,7 +19,7 @@ tags:
 - internal-hom
 - lambda-calculus
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cartesian Closed Categories

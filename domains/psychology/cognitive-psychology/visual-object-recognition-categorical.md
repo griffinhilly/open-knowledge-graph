@@ -16,7 +16,7 @@ tags:
 - visual
 - objects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Visual Object Recognition and Categorization

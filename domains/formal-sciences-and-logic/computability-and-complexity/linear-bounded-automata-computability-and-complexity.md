@@ -13,7 +13,7 @@ tags:
 - context-sensitive-languages
 - Chomsky-hierarchy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linear Bounded Automata

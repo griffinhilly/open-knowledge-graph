@@ -17,7 +17,7 @@ tags:
 - wake
 - von Karman vortex street
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Flow Around Cylinders and Spheres
 

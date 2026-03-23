@@ -18,7 +18,7 @@ tags:
 - false-beliefs
 - mental-state-reasoning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Theory of Mind and False-Belief Understanding

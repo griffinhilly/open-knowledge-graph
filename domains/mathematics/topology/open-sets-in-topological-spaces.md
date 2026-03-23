@@ -14,7 +14,7 @@ tags:
 - topology
 - definitions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Open Sets in Topological Spaces

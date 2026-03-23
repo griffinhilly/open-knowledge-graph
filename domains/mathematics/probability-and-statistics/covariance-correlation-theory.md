@@ -15,7 +15,7 @@ tags:
 - covariance
 - correlation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Covariance and Correlation Coefficients

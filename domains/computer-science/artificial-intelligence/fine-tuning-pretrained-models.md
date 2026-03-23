@@ -18,7 +18,7 @@ tags:
 - adaptation
 - feature-learning
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fine-Tuning Pretrained Models

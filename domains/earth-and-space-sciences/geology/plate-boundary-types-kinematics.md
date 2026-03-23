@@ -15,7 +15,7 @@ tags:
 - boundaries
 - kinematics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Plate Boundary Types and Kinematic Signatures

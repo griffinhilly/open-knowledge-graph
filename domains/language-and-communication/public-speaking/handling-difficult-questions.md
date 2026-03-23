@@ -13,7 +13,7 @@ tags:
 - deflection
 - audience-management
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Handling Difficult Questions

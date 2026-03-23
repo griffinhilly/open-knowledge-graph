@@ -15,7 +15,7 @@ tags:
 - alkene-synthesis
 - stereospecific
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Wittig Reaction: Ylides and Alkene Synthesis

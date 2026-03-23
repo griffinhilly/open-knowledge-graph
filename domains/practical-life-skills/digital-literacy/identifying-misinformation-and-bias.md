@@ -13,7 +13,7 @@ tags:
 - security
 - scams
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Identifying Misinformation, Bias & Phishing

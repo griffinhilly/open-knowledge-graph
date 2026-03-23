@@ -17,7 +17,7 @@ tags:
 - equilibrium
 - special-cases
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Two-Force and Three-Force Members

@@ -16,7 +16,7 @@ tags:
 - prime-powers
 - modular-exponentiation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fermat's Little Theorem

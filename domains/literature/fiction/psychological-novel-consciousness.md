@@ -18,7 +18,7 @@ tags:
 - modernism
 - subjective
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Psychological Novel: Consciousness as Subject

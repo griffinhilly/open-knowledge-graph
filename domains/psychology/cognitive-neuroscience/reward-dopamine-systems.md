@@ -15,7 +15,7 @@ tags:
 - dopamine
 - learning
 stage: expert
-status: draft
+status: validated
 ---
 
 # Reward Learning and Dopamine Circuits

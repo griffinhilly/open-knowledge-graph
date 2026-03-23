@@ -17,7 +17,7 @@ tags:
 - atypical-HUS
 - meningococcal-sepsis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Complement Regulation and Disease Associated with Deficiency

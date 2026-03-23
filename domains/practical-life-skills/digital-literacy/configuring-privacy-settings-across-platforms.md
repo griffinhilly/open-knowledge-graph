@@ -15,7 +15,7 @@ tags:
 - settings
 - social-media
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Configuring Privacy Settings Across Platforms

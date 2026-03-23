@@ -19,7 +19,7 @@ tags:
 - decline
 - modernity
 stage: expert
-status: draft
+status: validated
 ---
 # Progress and Teleology in Historical Thought
 

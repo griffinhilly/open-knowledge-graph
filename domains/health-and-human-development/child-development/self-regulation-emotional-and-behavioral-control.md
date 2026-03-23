@@ -19,7 +19,7 @@ tags:
 - emotion-regulation
 - behavioral-control
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Self-Regulation: Emotional and Behavioral Control

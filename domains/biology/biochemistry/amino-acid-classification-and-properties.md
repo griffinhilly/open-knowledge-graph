@@ -19,7 +19,7 @@ tags:
 - charge
 - pKa
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Amino Acid Classification and Biochemical Properties

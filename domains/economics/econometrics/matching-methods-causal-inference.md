@@ -15,7 +15,7 @@ tags:
 - causal-inference
 - observational
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Matching Methods for Causal Inference

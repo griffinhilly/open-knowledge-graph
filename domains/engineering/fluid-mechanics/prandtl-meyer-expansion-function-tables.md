@@ -13,7 +13,7 @@ tags:
 - isentropic
 - mach-number
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Prandtl-Meyer Expansion Function and Expansion Fan Theory

@@ -15,7 +15,7 @@ tags:
 - multiplication
 - fluency
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Multiplication Facts: 6s, 7s, 8s, and 9s

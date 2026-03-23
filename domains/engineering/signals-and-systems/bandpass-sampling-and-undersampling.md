@@ -13,7 +13,7 @@ tags:
 - undersampling
 - sampling-theorem
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bandpass Sampling and Undersampling

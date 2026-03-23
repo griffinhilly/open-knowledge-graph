@@ -18,7 +18,7 @@ tags:
 - paleocirculation
 - proxy-inference
 stage: expert
-status: draft
+status: validated
 ---
 
 # Reconstructing Paleoclimate Atmospheric Circulation

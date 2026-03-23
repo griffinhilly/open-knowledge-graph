@@ -15,7 +15,7 @@ tags:
 - multiplication
 - inverse-operations
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Division as the Inverse of Multiplication

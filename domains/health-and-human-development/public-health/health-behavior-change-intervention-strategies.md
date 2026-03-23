@@ -16,7 +16,7 @@ tags:
 - health-promotion
 - intervention
 stage: expert
-status: draft
+status: validated
 ---
 
 # Health Behavior Change and Population Intervention Strategies

@@ -14,7 +14,7 @@ tags:
 - intrinsic-nature
 - identity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Essence and Intrinsic Nature

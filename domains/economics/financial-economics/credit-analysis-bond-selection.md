@@ -16,7 +16,7 @@ tags:
 - fundamental-analysis
 - selection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Credit Analysis and Bond Selection Framework

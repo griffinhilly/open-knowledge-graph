@@ -16,7 +16,7 @@ tags:
 - training
 - tradition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Art Academies and Formal Instruction

@@ -19,7 +19,7 @@ tags:
 - TCR-clustering
 - cytoskeletal-reorganization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Immunological Synapse and T Cell-APC Interaction

@@ -12,7 +12,7 @@ tags:
 - geometric
 - waiting-time
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Geometric Distribution: Waiting Times

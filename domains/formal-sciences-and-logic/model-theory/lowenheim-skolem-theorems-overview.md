@@ -21,7 +21,7 @@ tags:
 - spectrum
 - model size
 stage: expert
-status: draft
+status: validated
 ---
 
 # Löwenheim-Skolem Theorems: Overview and Unification

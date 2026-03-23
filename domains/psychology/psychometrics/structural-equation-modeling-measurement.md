@@ -22,7 +22,7 @@ tags:
 - structural-model
 - latent-variables
 stage: expert
-status: draft
+status: validated
 ---
 
 # Structural Equation Modeling: Measurement and Structural Components

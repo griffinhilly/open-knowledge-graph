@@ -16,7 +16,7 @@ tags:
 - matrix-factorization
 - user-item
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Collaborative Filtering

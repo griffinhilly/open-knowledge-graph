@@ -18,7 +18,7 @@ tags:
 - notation
 - existence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linear Systems: Notation and Solution Existence

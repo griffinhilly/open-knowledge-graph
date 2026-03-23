@@ -17,7 +17,7 @@ tags:
 - correctness
 - models
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Consistency Models in Distributed Systems

@@ -15,7 +15,7 @@ tags:
 - atomic
 - lock-free
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Atomic Operations and Compare-and-Swap

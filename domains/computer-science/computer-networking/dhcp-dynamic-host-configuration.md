@@ -14,7 +14,7 @@ tags:
 - dynamic-configuration
 - leasing
 stage: advanced
-status: draft
+status: validated
 ---
 
 # DHCP (Dynamic Host Configuration Protocol)

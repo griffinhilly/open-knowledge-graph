@@ -12,7 +12,7 @@ tags:
 - rotation
 - kinematics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Instantaneous Center of Rotation Method

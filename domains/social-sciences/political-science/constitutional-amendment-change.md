@@ -17,7 +17,7 @@ tags:
 - change
 - reform
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constitutional Amendment and Constitutional Change

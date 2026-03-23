@@ -13,7 +13,7 @@ tags:
 - disk-instability
 - direct-collapse
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Planetary Formation II: Gravitational Instability and Direct Collapse

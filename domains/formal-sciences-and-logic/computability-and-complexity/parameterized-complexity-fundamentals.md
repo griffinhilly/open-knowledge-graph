@@ -15,7 +15,7 @@ tags:
 - FPT
 - kernelization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Parameterized Complexity and Fixed-Parameter Tractability

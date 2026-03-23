@@ -15,7 +15,7 @@ tags:
 - prophage
 - excision
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Specialized Transduction and Prophage Excision

@@ -18,7 +18,7 @@ tags:
 - colonialism
 - resistance
 stage: expert
-status: draft
+status: validated
 ---
 
 # Postcolonial Literature: Narrative of Encounter and Resistance

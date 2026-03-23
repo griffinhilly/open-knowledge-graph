@@ -17,7 +17,7 @@ tags:
 - two-digit
 - place-value
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Multiplying Two-Digit by One-Digit Numbers

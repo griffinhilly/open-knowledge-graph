@@ -18,7 +18,7 @@ tags:
 - systemic-inflammation
 - infection
 stage: expert
-status: draft
+status: validated
 ---
 
 # Sepsis and Systemic Inflammatory Response Syndrome

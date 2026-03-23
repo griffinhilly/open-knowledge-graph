@@ -14,7 +14,7 @@ tags:
 - depression
 - dysthymia
 stage: expert
-status: draft
+status: validated
 ---
 
 # Persistent Depressive Disorder (Dysthymia)

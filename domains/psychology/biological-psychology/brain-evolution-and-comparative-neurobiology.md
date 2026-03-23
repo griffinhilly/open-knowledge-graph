@@ -21,7 +21,7 @@ tags:
 - natural-selection
 - encephalization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Brain Evolution and Comparative Neurobiology

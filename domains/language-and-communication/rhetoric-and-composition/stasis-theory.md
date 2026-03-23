@@ -15,7 +15,7 @@ tags:
 - invention
 - logic
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Stasis Theory

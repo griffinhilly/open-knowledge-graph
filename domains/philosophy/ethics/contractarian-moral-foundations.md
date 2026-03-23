@@ -17,7 +17,7 @@ tags:
 - obligation
 - agreement
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Contractarian Moral Foundations

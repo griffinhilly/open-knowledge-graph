@@ -12,7 +12,7 @@ tags:
 - par-proteins
 - development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cell Polarity and Establishment of Asymmetry

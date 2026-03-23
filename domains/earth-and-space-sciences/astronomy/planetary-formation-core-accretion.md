@@ -16,7 +16,7 @@ tags:
 - core-accretion
 - migration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Planetary Formation I: Core Accretion and Migration

@@ -15,7 +15,7 @@ tags:
 - parallel circuits
 - conductance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Parallel Circuits: Conductance and Current Division

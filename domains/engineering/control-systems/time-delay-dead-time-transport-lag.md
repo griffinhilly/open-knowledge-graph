@@ -16,7 +16,7 @@ tags:
 - transport-lag
 - stability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Time Delay and Dead-Time Effects in Control

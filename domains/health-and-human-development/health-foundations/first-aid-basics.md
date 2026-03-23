@@ -14,7 +14,7 @@ builds-toward:
   - disease-prevention-levels
 tags: [first-aid, safety, emergency, health-skills]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # First Aid Basics: Cuts, Burns, and Choking

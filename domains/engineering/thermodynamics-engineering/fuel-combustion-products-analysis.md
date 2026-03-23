@@ -16,7 +16,7 @@ tags:
 - emissions
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Analysis of Combustion Products and Emissions

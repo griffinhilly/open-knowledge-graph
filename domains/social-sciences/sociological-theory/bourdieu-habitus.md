@@ -17,7 +17,7 @@ tags:
 - dispositions
 - internalization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bourdieu: Habitus and Dispositions

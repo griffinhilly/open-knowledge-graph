@@ -17,7 +17,7 @@ tags:
 - integration
 - exchange
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ancient World Trade Networks and Economic Integration

@@ -18,7 +18,7 @@ tags:
 - A1-receptors
 - basal-forebrain
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Adenosine Accumulation and Sleep Pressure Homeostasis

@@ -17,7 +17,7 @@ tags:
 - legitimacy
 - domination
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Power and Legitimate Authority

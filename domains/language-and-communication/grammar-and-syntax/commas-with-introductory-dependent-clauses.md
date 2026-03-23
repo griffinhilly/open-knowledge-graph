@@ -17,7 +17,7 @@ tags:
 - clauses
 - syntax
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Commas with Introductory Dependent Clauses

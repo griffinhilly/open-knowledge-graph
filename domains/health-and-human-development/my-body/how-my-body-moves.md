@@ -16,7 +16,7 @@ tags:
 - joints
 - bones
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # How My Body Moves

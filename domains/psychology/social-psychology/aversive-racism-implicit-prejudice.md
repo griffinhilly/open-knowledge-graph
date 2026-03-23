@@ -17,7 +17,7 @@ tags:
 - modern-discrimination
 - egalitarian-values
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Aversive Racism and Modern Implicit Prejudice

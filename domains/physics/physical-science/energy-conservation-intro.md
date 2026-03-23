@@ -16,7 +16,7 @@ tags:
 - energy
 - total
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Energy Is Never Created or Destroyed
 

@@ -16,7 +16,7 @@ tags:
 - equilibrium
 - ionic-compounds
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Solubility Product Constant (Ksp) and Equilibrium

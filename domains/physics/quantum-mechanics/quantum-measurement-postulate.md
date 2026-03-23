@@ -16,7 +16,7 @@ tags:
 - collapse
 - interpretation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantum Measurement and Collapse

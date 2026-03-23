@@ -19,7 +19,7 @@ tags:
 - brain-development
 - intervention-window
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Developmental Plasticity and Sensitive Periods

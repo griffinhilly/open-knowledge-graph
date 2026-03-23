@@ -14,7 +14,7 @@ tags:
 - mind-body
 - physicalism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Causal Closure Principle

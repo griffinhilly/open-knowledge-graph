@@ -12,7 +12,7 @@ tags:
 - combinatorics
 - counting
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Stirling Numbers of the First and Second Kind
 

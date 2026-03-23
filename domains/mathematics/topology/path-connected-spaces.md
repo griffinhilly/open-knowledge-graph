@@ -13,7 +13,7 @@ tags:
 - path-connected
 - connectedness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Path Connected Spaces

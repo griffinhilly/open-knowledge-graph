@@ -17,7 +17,7 @@ tags:
 - normal-forms
 - automated-reasoning
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Conversion to Clausal Form

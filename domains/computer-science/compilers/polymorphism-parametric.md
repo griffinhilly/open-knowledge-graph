@@ -13,7 +13,7 @@ tags:
 - generics
 - type-parameters
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Parametric Polymorphism

@@ -15,7 +15,7 @@ tags:
 - comprehensive
 - complex-mixtures
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Two-Dimensional Chromatography: Comprehensive Analysis

@@ -13,7 +13,7 @@ tags:
 - risk
 - bonds
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interest Rate Risk Management

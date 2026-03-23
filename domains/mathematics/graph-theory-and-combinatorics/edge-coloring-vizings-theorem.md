@@ -13,7 +13,7 @@ tags:
 - vizings-theorem
 - chromatic-index
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Edge Coloring and Vizing's Theorem

@@ -16,7 +16,7 @@ tags:
 - poverty
 - labor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Informal Economies and Street Livelihoods

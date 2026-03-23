@@ -18,7 +18,7 @@ tags:
 - league-of-nations
 - united-nations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # International Organizations and Global Governance

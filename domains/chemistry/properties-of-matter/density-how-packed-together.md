@@ -17,7 +17,7 @@ tags:
 - mass
 - volume
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Density: How Tightly Packed Is It?
 

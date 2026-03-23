@@ -18,7 +18,7 @@ tags:
 - axiom
 - real-numbers
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Completeness Axiom (Least Upper Bound Property)

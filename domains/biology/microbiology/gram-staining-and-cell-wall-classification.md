@@ -16,7 +16,7 @@ tags:
 - classification
 - diagnosis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gram Staining and Cell Wall Classification

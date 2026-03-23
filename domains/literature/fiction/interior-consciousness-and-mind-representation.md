@@ -13,7 +13,7 @@ tags:
 - interior-monologue
 - psychology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interior Consciousness and Mind Representation

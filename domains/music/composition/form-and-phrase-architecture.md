@@ -20,7 +20,7 @@ tags:
 - phrase
 - design
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Form and Phrase Architecture

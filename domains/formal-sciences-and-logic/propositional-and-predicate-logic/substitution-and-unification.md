@@ -18,7 +18,7 @@ tags:
 - variable-capture
 - automated-reasoning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Substitution and Unification

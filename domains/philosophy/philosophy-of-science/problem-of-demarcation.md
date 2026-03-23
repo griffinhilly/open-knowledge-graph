@@ -14,7 +14,7 @@ tags:
 - scientific-method
 - pseudoscience
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Problem of Demarcation

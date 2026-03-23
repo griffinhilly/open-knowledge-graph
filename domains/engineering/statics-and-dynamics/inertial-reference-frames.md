@@ -15,7 +15,7 @@ tags:
 - inertial-systems
 - mechanics-foundations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inertial Reference Frames and Galilean Relativity

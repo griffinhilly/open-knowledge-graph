@@ -15,7 +15,7 @@ tags:
 - environment
 - exit
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Process Environment and Exit Codes

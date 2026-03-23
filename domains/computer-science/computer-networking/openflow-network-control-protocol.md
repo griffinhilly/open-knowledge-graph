@@ -17,7 +17,7 @@ tags:
 - control-plane
 - switching
 stage: advanced
-status: draft
+status: validated
 ---
 
 # OpenFlow and Network Control Plane

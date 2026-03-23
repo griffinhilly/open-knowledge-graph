@@ -14,7 +14,7 @@ tags:
 - ethics
 - test-consequences
 stage: expert
-status: draft
+status: validated
 ---
 
 # Consequential Validity and the Social Consequences of Testing

@@ -18,7 +18,7 @@ tags:
 - inverse
 - relationship
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Division Facts as Inverse of Multiplication

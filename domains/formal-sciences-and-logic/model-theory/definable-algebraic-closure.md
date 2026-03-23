@@ -16,7 +16,7 @@ tags:
 - algebraic-closure
 - closure-operators
 stage: expert
-status: draft
+status: validated
 ---
 
 # Definable Closure and Algebraic Closure

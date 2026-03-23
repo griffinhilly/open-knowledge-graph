@@ -14,7 +14,7 @@ tags:
 - conditionals
 - deductive
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Necessary and Sufficient Conditions

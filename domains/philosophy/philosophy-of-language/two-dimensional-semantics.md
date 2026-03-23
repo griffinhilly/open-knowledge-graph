@@ -18,7 +18,7 @@ tags:
 - two-dimensionalism
 - meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Two-Dimensional Semantics
 

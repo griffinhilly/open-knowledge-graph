@@ -20,7 +20,7 @@ tags:
 - odds-ratios
 - probability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Logistic Regression for Binary Outcomes

@@ -11,7 +11,7 @@ tags:
 - paradox
 - contradiction
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Paradox and Logical Contradiction in Poetry
 

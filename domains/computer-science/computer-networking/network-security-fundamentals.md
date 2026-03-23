@@ -13,7 +13,7 @@ tags:
 - threats
 - defense
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Network Security: Firewalls, Filtering, and Threat Models

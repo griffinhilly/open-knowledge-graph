@@ -13,7 +13,7 @@ tags:
 - growth
 - credit
 stage: expert
-status: draft
+status: validated
 ---
 
 # Banking, Financial Services, and Economic Development

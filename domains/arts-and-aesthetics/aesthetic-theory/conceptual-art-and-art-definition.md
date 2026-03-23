@@ -22,7 +22,7 @@ tags:
 - art-object
 - meaning
 stage: expert
-status: draft
+status: validated
 ---
 
 # Conceptual Art and the Definition of Art

@@ -14,7 +14,7 @@ tags:
 - frequency
 - wave-speed
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Wavelength, Frequency, and Wave Speed

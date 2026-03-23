@@ -16,7 +16,7 @@ tags:
 - search
 - insertion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binary Search Trees: Search, Insertion, Deletion

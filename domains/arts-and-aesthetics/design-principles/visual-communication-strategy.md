@@ -16,7 +16,7 @@ tags:
 - strategy
 - meaning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Visual Communication Strategy

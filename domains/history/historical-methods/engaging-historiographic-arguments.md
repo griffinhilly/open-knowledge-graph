@@ -14,7 +14,7 @@ tags:
 - argument
 - critical-reading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reading and Evaluating Historiographic Arguments

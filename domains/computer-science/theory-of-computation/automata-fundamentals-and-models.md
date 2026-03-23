@@ -16,7 +16,7 @@ tags:
 - models
 - acceptance
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Automata Fundamentals and Computational Models

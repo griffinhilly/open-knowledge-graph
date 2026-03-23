@@ -13,7 +13,7 @@ tags:
 - lab-skills
 - scientific-tools
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Using a Microscope
 

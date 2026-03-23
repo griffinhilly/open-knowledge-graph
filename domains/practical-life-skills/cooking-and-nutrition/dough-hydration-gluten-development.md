@@ -24,7 +24,7 @@ tags:
 - bread
 - baking
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dough Hydration and Gluten Development

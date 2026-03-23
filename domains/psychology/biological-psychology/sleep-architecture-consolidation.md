@@ -20,7 +20,7 @@ tags:
 - memory
 - consolidation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sleep Architecture and Memory Consolidation

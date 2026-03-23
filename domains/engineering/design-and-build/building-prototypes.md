@@ -16,7 +16,7 @@ tags:
 - prototypes
 - building
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Building Prototypes
 

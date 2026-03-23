@@ -15,7 +15,7 @@ tags:
 - justification
 - support
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Foundationalist Regress and Epistemic Support

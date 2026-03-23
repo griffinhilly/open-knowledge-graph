@@ -17,7 +17,7 @@ tags:
 - molecular-motion
 - pressure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kinetic Molecular Theory of Gases

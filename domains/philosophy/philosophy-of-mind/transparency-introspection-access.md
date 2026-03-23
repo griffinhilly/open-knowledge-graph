@@ -18,7 +18,7 @@ tags:
 - access
 - knowledge
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transparency and Privileged Access to Consciousness

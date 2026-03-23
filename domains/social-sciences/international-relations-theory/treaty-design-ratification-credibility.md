@@ -18,7 +18,7 @@ tags:
 - design
 - institutions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Treaty Design and Ratification Mechanisms

@@ -17,7 +17,7 @@ tags:
 - assembly
 - lowering
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Assembly Code Generation from IR

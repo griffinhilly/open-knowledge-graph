@@ -12,7 +12,7 @@ tags:
 - local-compactness
 - compact-neighborhoods
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Local Compactness

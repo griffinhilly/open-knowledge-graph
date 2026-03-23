@@ -16,7 +16,7 @@ tags:
 - reinterpretation
 - pastiche
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Revival Movements, Historicism, and Reinterpretation of Past Styles

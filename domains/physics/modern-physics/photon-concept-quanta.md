@@ -15,7 +15,7 @@ tags:
 - photons
 - light
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Photon Concept and Light as Quanta

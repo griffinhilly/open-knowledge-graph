@@ -17,7 +17,7 @@ tags:
 - gender
 - desire
 stage: expert
-status: draft
+status: validated
 ---
 # Queer Aesthetics
 

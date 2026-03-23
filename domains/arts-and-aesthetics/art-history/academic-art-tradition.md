@@ -18,7 +18,7 @@ tags:
 - neoclassicism
 - salon
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Academic Art Training and the System of Genres

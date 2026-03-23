@@ -14,7 +14,7 @@ tags:
 - organization
 - navigation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Browser Bookmarks and Favorites Management

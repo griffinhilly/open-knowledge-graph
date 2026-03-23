@@ -22,7 +22,7 @@ tags:
 - fifth
 - octave
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Perfect Intervals by Ear

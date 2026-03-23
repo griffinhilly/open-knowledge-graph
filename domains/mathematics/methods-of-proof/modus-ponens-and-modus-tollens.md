@@ -17,7 +17,7 @@ tags:
 - modus tollens
 - inference
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Modus Ponens and Modus Tollens

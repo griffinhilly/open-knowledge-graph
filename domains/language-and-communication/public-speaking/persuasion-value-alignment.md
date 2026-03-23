@@ -16,7 +16,7 @@ tags:
 - audience
 - alignment
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Persuasion Through Value Alignment
 

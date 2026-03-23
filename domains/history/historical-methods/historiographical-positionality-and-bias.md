@@ -15,7 +15,7 @@ tags:
 - bias
 - reflection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Recognizing Historiographical Positionality and Limitations

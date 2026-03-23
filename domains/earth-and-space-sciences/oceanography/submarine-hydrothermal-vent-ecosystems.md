@@ -19,7 +19,7 @@ tags:
 - tube-worms
 - extremophiles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Submarine Hydrothermal Vent Ecosystems and Chemosynthesis

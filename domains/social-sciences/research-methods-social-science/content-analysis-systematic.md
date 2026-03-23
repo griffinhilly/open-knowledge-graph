@@ -14,7 +14,7 @@ tags:
 - reliability
 - manifest-latent
 stage: expert
-status: draft
+status: validated
 ---
 
 # Systematic Content Analysis

@@ -14,7 +14,7 @@ tags:
 - tangent-plane
 - linearization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tangent Planes and Linear Approximation

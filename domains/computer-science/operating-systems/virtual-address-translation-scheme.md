@@ -16,7 +16,7 @@ tags:
 - paging
 - translation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Virtual Address Translation: Paging and TLBs

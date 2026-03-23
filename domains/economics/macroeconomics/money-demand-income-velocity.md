@@ -12,7 +12,7 @@ tags:
 - quantity-theory
 - income
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Money Demand and the Velocity of Money

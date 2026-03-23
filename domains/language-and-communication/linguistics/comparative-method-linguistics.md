@@ -15,7 +15,7 @@ tags:
 - cognates
 - reconstruction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Comparative Method in Linguistics

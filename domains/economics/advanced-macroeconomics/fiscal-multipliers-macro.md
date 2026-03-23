@@ -16,7 +16,7 @@ tags:
 - multipliers
 - demand
 stage: expert
-status: draft
+status: validated
 ---
 
 # Fiscal Multipliers in Macroeconomic Models

@@ -15,7 +15,7 @@ tags:
 - capital-stock
 - consumption-optimization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Golden Rule of Capital Accumulation

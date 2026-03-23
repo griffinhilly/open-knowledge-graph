@@ -16,7 +16,7 @@ tags:
 - closing
 - offer
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Home Buying Process and Inspections

@@ -16,7 +16,7 @@ tags:
 - public-health
 - resistance-spread
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Antimicrobial Resistance Epidemiology and Global Spread

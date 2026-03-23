@@ -16,7 +16,7 @@ tags:
 - constructivism
 - idealization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moral Constructivism Essentials

@@ -19,7 +19,7 @@ tags:
 - asset-allocation
 - portfolio
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diversification and Asset Allocation

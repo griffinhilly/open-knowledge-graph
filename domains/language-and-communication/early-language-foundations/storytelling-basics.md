@@ -14,7 +14,7 @@ tags:
 - story-structure
 - oral-language
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Storytelling Basics

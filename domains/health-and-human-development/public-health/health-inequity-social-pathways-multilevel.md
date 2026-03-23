@@ -16,7 +16,7 @@ tags:
 - social-determinants
 - disparities
 stage: expert
-status: draft
+status: validated
 ---
 
 # Health Inequity, Social Determinants, and Multilevel Pathways

@@ -17,7 +17,7 @@ tags:
 - mechanisms
 - prefrontal
 stage: expert
-status: draft
+status: validated
 ---
 
 # Neural Mechanisms of Decision-Making

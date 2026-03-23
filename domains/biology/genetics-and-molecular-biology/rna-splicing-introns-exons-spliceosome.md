@@ -18,7 +18,7 @@ tags:
 - spliceosome
 - rna-processing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # RNA Splicing, Introns, Exons, and the Spliceosome

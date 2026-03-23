@@ -18,7 +18,7 @@ tags:
 - histone-acetyltransferase
 - acetylation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chromatin Remodeling Complexes and Histone Acetylation

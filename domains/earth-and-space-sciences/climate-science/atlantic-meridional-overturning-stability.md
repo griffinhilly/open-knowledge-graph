@@ -19,7 +19,7 @@ tags:
 - bistability
 - freshwater-forcing
 stage: expert
-status: draft
+status: validated
 ---
 
 # Atlantic Meridional Overturning Circulation Stability

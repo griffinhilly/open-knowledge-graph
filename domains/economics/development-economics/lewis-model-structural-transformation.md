@@ -15,7 +15,7 @@ tags:
 - lewis-model
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Lewis Model and Structural Transformation

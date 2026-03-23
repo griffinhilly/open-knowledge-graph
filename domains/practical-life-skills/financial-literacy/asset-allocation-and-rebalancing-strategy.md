@@ -21,7 +21,7 @@ tags:
 - rebalancing
 - portfolio
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Asset Allocation and Rebalancing Strategy

@@ -15,7 +15,7 @@ tags:
 - equal-groups
 - arrays
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Multiplication: Equal Groups Model

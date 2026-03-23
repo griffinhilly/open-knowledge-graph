@@ -15,7 +15,7 @@ tags:
 - line-structure
 - breath
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Caesura: Pause and Break Within the Line

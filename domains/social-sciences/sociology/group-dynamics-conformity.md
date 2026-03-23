@@ -18,7 +18,7 @@ tags:
 - norms
 - group-behavior
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Group Dynamics and Conformity Pressure

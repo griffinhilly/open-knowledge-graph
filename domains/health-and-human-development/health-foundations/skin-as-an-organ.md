@@ -4,7 +4,7 @@ title: Skin as an Organ
 domain: health-and-human-development
 course: health-foundations
 prerequisites:
-  - id: my-hygiene
+  - id: washing-hands-and-hygiene
     type: soft
 builds-toward:
   - how-body-systems-connect
@@ -12,7 +12,7 @@ builds-toward:
   - integumentary-structure-and-function
 tags: [body-systems, skin, integumentary, organs]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Skin as an Organ

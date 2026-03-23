@@ -16,7 +16,7 @@ tags:
 - portable
 - in-situ
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Field Portable Analytical Instruments

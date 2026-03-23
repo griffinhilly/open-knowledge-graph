@@ -15,7 +15,7 @@ tags:
 - individuality
 - personhood
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Personhood and Self Concepts Across Cultures

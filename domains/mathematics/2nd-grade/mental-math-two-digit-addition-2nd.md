@@ -16,7 +16,7 @@ tags:
 - two-digit
 - strategies
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Mental Math Strategies for Two-Digit Addition

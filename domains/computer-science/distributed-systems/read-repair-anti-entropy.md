@@ -16,7 +16,7 @@ tags:
 - eventual-consistency
 - durability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Read Repair and Anti-Entropy Mechanisms

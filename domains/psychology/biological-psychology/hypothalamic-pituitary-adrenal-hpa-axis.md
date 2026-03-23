@@ -20,7 +20,7 @@ tags:
 - hormones
 - homeostasis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hypothalamic-Pituitary-Adrenal (HPA) Axis and Stress Response

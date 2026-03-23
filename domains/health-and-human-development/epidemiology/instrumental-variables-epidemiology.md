@@ -15,7 +15,7 @@ tags:
 - unmeasured-confounding
 - two-stage-regression
 stage: expert
-status: draft
+status: validated
 ---
 
 # Instrumental Variables in Epidemiology

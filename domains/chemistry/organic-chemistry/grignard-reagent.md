@@ -18,7 +18,7 @@ tags:
 - carbon-carbon bond
 - moisture sensitivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Grignard Reagents
 

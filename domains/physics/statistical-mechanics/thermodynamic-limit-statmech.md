@@ -16,7 +16,7 @@ tags:
 - extensivity
 - large-N-limit
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Thermodynamic Limit and Extensivity

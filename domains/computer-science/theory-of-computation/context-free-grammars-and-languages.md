@@ -14,7 +14,7 @@ tags:
 - cfg
 - language-generation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Context-Free Grammars and Languages

@@ -14,7 +14,7 @@ tags:
 - computation
 - theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Models of Distributed Computation

@@ -21,7 +21,7 @@ tags:
 - cooperativity
 - oxygen saturation
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Oxygen Transport and Hemoglobin Dynamics
 

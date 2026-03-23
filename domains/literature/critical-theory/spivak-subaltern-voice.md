@@ -18,7 +18,7 @@ tags:
 - voice
 - colonialism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Spivak's Subaltern and the Politics of Representation

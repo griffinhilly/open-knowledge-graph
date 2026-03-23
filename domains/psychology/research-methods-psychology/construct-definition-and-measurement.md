@@ -15,7 +15,7 @@ tags:
 - measurement
 - conceptualization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Construct Definition and Measurement Development

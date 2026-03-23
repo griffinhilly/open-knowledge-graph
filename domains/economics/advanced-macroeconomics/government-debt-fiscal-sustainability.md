@@ -13,7 +13,7 @@ tags:
 - fiscal-sustainability
 - long-run
 stage: expert
-status: draft
+status: validated
 ---
 
 # Government Debt and Fiscal Sustainability

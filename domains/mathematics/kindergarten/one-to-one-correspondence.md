@@ -14,7 +14,7 @@ tags:
 - matching
 - counting-principle
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # One-to-One Correspondence

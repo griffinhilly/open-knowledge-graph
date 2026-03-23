@@ -19,7 +19,7 @@ tags:
 - chromosome-pairs
 - dihybrid-test-cross
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dihybrid Crosses and Mendel's Law of Independent Assortment

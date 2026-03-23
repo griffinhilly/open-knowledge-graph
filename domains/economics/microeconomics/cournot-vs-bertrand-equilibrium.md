@@ -13,7 +13,7 @@ tags:
 - game theory
 - competition models
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cournot versus Bertrand Competition Models

@@ -1,22 +1,21 @@
 ---
 id: functions-decomposing-problems
-title: 'Functions: Decomposing Problems'
+title: "Functions: Decomposing Problems"
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
 - id: functions-defining-calling
   type: hard
 builds-toward:
-- function-parameters-passing-data
+- parameters-and-arguments
 - function-design-and-contracts
 tags:
 - functions
 - decomposition
 - design
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Functions: Decomposing Problems
 
 ## Core Idea

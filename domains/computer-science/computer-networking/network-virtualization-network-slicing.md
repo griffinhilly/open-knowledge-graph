@@ -12,7 +12,7 @@ tags:
 - multi-tenancy
 - resource-isolation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Network Virtualization and Network Slicing

@@ -14,7 +14,7 @@ tags:
 - composition
 - messaging
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Email Composition, Sending & Organization

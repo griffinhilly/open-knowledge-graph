@@ -18,7 +18,7 @@ tags:
 - social-order
 - face-to-face
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Microsociology and Everyday Interaction

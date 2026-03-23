@@ -16,7 +16,7 @@ tags:
 - fundamentals
 - valuation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Financial Ratio Analysis and Comparative Valuation

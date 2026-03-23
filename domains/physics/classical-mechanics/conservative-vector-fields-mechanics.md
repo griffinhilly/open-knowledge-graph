@@ -18,7 +18,7 @@ tags:
 - fields
 - energy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conservative Force Fields and Potential Energy

@@ -18,7 +18,7 @@ tags:
 - structure
 - development
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sonata Form Composition and Development

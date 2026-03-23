@@ -16,7 +16,7 @@ tags:
 - 3NF
 - redundancy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Database Normalization (1NF, 2NF, 3NF)

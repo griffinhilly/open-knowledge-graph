@@ -20,7 +20,7 @@ tags:
 - radiative-decay
 - nonradiative-decay
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fluorescence, Phosphorescence, and Photophysical Decay Pathways

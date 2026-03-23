@@ -19,7 +19,7 @@ tags:
 - activation
 - bioavailability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vitamin Activation and Metabolic Roles

@@ -13,7 +13,7 @@ tags:
 - threshold
 - distributive-justice
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sufficientarianism

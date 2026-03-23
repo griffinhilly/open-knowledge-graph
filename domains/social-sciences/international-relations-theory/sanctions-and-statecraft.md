@@ -15,7 +15,7 @@ tags:
 - statecraft
 - economics
 stage: expert
-status: draft
+status: validated
 ---
 # Sanctions and Economic Statecraft
 

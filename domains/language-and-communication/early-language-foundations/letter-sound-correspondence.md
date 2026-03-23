@@ -18,7 +18,7 @@ tags:
 - decoding
 - literacy-foundations
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Letter-Sound Correspondence

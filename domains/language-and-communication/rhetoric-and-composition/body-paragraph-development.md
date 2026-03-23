@@ -19,7 +19,7 @@ tags:
 - analysis
 - development
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Body Paragraph Development

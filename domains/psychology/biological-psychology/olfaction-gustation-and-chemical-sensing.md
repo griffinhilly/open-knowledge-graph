@@ -14,7 +14,7 @@ tags:
 - chemoreceptors
 - flavor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Olfaction, Gustation, and Chemical Sensing

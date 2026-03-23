@@ -15,7 +15,7 @@ tags:
 - strategy
 - equilibrium
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Game Theory and Strategic Form Analysis

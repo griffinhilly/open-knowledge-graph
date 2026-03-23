@@ -15,7 +15,7 @@ tags:
 - modes
 - confinement
 stage: expert
-status: draft
+status: validated
 ---
 
 # Electromagnetic Waveguides and Propagation Modes

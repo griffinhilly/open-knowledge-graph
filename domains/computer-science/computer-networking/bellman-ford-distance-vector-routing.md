@@ -14,7 +14,7 @@ tags:
 - rip
 - distributed-algorithm
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bellman-Ford Algorithm and Distance-Vector Routing

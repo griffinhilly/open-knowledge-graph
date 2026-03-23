@@ -18,7 +18,7 @@ tags:
 - outgroup perception
 - individuation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Outgroup Homogeneity Effect

@@ -11,7 +11,7 @@ tags:
 - locking
 - locks
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pessimistic Concurrency Control: Locking

@@ -15,7 +15,7 @@ tags:
 - dynamics
 - noise
 stage: expert
-status: draft
+status: validated
 ---
 
 # Langevin Equation

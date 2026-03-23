@@ -16,7 +16,7 @@ tags:
 - puzzles
 - attributes
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Odd One Out

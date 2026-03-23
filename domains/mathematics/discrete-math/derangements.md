@@ -12,7 +12,7 @@ tags:
 - combinatorics
 - permutations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Derangements and Fixed-Point-Free Permutations

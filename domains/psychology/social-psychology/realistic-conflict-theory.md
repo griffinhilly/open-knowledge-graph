@@ -19,7 +19,7 @@ tags:
 - prejudice
 - group conflict
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Realistic Conflict Theory

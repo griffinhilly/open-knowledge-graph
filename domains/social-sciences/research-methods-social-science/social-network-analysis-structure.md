@@ -22,7 +22,7 @@ tags:
 - clustering
 - social-capital
 stage: expert
-status: draft
+status: validated
 ---
 
 # Social Network Analysis

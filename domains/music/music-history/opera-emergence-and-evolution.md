@@ -16,7 +16,7 @@ tags:
 - vocal-music
 - theatre
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Opera: Emergence and Evolution

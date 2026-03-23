@@ -22,7 +22,7 @@ tags:
 - internal logic
 - sheaf category
 stage: expert
-status: draft
+status: validated
 ---
 # Introduction to Topos Theory
 

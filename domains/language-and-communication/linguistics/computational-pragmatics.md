@@ -16,7 +16,7 @@ tags:
 - reasoning
 - computation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Computational Models of Pragmatic Reasoning

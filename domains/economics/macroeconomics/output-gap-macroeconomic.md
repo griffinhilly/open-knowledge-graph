@@ -15,7 +15,7 @@ tags:
 - gap
 - measurement
 stage: advanced
-status: draft
+status: validated
 ---
 # The Output Gap
 

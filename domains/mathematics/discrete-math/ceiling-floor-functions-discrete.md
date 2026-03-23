@@ -13,7 +13,7 @@ tags:
 - functions
 - notation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ceiling and Floor Functions

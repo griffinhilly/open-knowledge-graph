@@ -12,7 +12,7 @@ tags:
 - community
 - religion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Medieval Jewish Diaspora and Communities

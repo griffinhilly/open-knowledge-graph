@@ -18,7 +18,7 @@ tags:
 - emptying
 - control-volume
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transient Processes in Control Volumes

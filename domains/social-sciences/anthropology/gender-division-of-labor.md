@@ -16,7 +16,7 @@ tags:
 - work
 - roles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gender and Division of Labor

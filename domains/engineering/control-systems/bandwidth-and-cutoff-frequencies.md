@@ -15,7 +15,7 @@ tags:
 - frequency-domain
 - specifications
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bandwidth and Frequency Domain Specifications

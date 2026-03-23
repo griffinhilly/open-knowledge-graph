@@ -18,7 +18,7 @@ tags:
 - distance-measurement
 - cosmic-distance-ladder
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Parallax Measurement and Cosmic Distance Ladder

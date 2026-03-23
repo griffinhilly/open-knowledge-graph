@@ -15,7 +15,7 @@ tags:
 - velocity profile development
 - entrance effects
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Entrance Length and Developing Flow
 

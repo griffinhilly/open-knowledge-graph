@@ -16,7 +16,7 @@ tags:
 - realism
 - power
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Machiavelli and Political Realism

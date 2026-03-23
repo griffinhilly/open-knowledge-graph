@@ -15,7 +15,7 @@ tags:
 - starch
 - sauce-pairing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Pasta and Noodle Cooking

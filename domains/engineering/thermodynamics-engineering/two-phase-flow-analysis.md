@@ -17,7 +17,7 @@ tags:
 - dryness-fraction
 - mixture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Two-Phase Flow and Quality Determination

@@ -19,7 +19,7 @@ tags:
 - individuation
 - metaphysics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Haecceity and Primitive Thisness

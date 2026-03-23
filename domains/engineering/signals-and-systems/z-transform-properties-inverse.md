@@ -14,7 +14,7 @@ tags:
 - properties
 - inverse-transform
 stage: expert
-status: draft
+status: validated
 ---
 
 # Z-Transform Properties and Inverse Techniques

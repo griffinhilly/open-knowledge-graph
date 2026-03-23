@@ -16,7 +16,7 @@ tags:
 - process-lifecycle
 - unix-api
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Process Creation: fork() and exec()

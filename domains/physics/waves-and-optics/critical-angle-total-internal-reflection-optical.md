@@ -15,7 +15,7 @@ tags:
 - total-internal-reflection
 - optical
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Critical Angle and Total Internal Reflection

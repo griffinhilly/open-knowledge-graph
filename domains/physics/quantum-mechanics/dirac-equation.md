@@ -13,7 +13,7 @@ tags:
 - relativistic
 - spinors
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Dirac Equation

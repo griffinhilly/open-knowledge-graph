@@ -13,7 +13,7 @@ tags:
 - relativity
 - electric-magnetic-duality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lorentz Transformations of Electromagnetic Fields

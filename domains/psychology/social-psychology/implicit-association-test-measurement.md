@@ -17,7 +17,7 @@ tags:
 - psychometrics
 - assessment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Implicit Association Test and Implicit Bias Measurement

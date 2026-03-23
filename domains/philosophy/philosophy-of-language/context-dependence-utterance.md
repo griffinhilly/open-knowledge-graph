@@ -16,7 +16,7 @@ tags:
 - modulation
 - semantics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Context-Dependence of Utterance Content

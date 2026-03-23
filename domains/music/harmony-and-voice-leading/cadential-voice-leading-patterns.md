@@ -17,7 +17,7 @@ tags:
 - voice-leading
 - closure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voice Leading Patterns in Cadences

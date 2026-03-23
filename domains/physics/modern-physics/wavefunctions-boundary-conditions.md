@@ -13,7 +13,7 @@ tags:
 - quantum-mechanics
 - boundary-conditions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Wavefunctions and Boundary Conditions

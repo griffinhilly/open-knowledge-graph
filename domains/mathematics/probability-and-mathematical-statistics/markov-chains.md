@@ -16,7 +16,7 @@ tags:
 - stochastic-processes
 - probability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Markov Chains

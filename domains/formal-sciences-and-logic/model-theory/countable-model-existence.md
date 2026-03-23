@@ -19,7 +19,7 @@ tags:
 - existence
 - cardinality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Countable Model Existence and Representation

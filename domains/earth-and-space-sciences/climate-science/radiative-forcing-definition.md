@@ -19,7 +19,7 @@ tags:
 - aerosol
 - perturbation-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Radiative Forcing and Its Calculation

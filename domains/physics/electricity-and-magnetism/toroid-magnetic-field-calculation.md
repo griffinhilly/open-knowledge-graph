@@ -15,7 +15,7 @@ tags:
 - toroids
 - Ampere's law
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Toroid Magnetic Field and Calculation

@@ -15,7 +15,7 @@ tags:
 - remediation
 - safety
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Water Damage and Mold: Identification and Response

@@ -11,7 +11,7 @@ tags:
 - diophantine
 - history
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fermat's Last Theorem (Overview)

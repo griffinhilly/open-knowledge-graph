@@ -17,7 +17,7 @@ tags:
 - VLDL
 - chylomicrons
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lipoproteins: Structure and Lipid Transport

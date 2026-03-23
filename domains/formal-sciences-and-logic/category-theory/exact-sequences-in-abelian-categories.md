@@ -18,7 +18,7 @@ tags:
 - images
 - homology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Exact Sequences in Abelian Categories

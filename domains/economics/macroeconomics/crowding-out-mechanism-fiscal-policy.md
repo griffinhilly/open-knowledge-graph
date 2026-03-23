@@ -16,7 +16,7 @@ tags:
 - interest-rates
 - investment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Crowding Out and Fiscal Policy

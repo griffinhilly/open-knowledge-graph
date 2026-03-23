@@ -14,7 +14,7 @@ tags:
 - longitudinal
 - wave-type
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Transverse vs. Longitudinal Waves
 

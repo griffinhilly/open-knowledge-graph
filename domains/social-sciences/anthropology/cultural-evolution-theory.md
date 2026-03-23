@@ -18,7 +18,7 @@ tags:
 - theory
 - sociocultural
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cultural Evolution and Theory of Sociocultural Change

@@ -15,7 +15,7 @@ tags:
 - democracy
 - general-will
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rousseau and the General Will

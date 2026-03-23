@@ -20,7 +20,7 @@ tags:
 - human-capital
 - increasing-returns
 stage: expert
-status: draft
+status: validated
 ---
 
 # Endogenous Growth Theory

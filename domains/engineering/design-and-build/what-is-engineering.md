@@ -12,7 +12,7 @@ tags:
 - design
 - introduction
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # What Is Engineering?
 

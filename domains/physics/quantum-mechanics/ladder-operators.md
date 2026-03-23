@@ -13,7 +13,7 @@ tags:
 - ladder-operators
 - raising-lowering
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Ladder Operators for the Harmonic Oscillator

@@ -17,7 +17,7 @@ tags:
 - adjustment
 - multicollinearity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Multivariable Regression in Epidemiology

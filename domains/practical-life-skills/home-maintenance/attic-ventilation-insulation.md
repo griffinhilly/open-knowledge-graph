@@ -16,7 +16,7 @@ tags:
 - insulation
 - energy-efficiency
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Attic Ventilation and Insulation

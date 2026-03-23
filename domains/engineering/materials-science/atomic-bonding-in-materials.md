@@ -21,7 +21,7 @@ tags:
 - atomic-interactions
 - foundational
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Atomic Bonding in Solids

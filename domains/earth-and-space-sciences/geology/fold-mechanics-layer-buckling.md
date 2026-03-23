@@ -14,7 +14,7 @@ tags:
 - compression
 - mechanics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fold Mechanics: Layer Buckling and Flexural Folding

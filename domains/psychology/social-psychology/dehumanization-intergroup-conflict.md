@@ -19,7 +19,7 @@ tags:
 - violence
 - aggression
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dehumanization and Moral Disengagement in Conflict

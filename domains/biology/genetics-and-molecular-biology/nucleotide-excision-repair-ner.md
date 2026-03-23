@@ -16,7 +16,7 @@ tags:
 - ner
 - uv-damage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nucleotide Excision Repair (NER) and UV Lesions

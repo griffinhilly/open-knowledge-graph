@@ -16,7 +16,7 @@ tags:
 - definitive method
 - high-accuracy quantification
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Isotope Dilution

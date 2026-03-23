@@ -10,6 +10,8 @@ builds-toward:
 - operators-and-expressions
 - type-conversion
 - string-basics
+- arithmetic-operators
+- numeric-types
 tags:
 - types
 - integers
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Primitive Data Types
 
 ## Core Idea

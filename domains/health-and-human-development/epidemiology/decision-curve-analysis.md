@@ -15,7 +15,7 @@ tags:
 - clinical-decision-making
 - test-utility
 stage: expert
-status: draft
+status: validated
 ---
 
 # Decision Curve Analysis

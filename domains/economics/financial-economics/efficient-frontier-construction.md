@@ -15,7 +15,7 @@ tags:
 - optimization
 - efficient-frontier
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Efficient Frontier Construction and Mean-Variance Analysis

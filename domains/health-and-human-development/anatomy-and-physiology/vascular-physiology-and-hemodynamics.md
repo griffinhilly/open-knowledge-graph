@@ -18,7 +18,7 @@ tags:
 - resistance
 - poiseuille
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vascular Physiology and Hemodynamics

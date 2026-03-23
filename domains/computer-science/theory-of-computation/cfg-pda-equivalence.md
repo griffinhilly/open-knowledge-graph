@@ -13,7 +13,7 @@ tags:
 - pda
 - equivalence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Equivalence of CFGs and Pushdown Automata

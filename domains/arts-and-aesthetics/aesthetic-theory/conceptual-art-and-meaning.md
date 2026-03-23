@@ -16,7 +16,7 @@ tags:
 - dematerialization
 - meaning
 stage: expert
-status: draft
+status: validated
 ---
 
 # Conceptual Art and the Dematerialization of Art

@@ -15,7 +15,7 @@ tags:
 - social-anxiety
 - self-consciousness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Imaginary Audience in Adolescent Egocentrism

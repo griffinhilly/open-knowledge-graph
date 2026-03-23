@@ -18,7 +18,7 @@ tags:
 - airway-inflammation
 - reversible-obstruction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Asthma: Airway Inflammation and Reversible Obstruction

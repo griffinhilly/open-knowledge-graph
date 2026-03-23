@@ -13,7 +13,7 @@ tags:
 - recombination
 - crossover
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Meiotic Recombination Nodules and Crossover

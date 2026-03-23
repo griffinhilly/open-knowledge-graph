@@ -12,7 +12,7 @@ tags:
 - factorials
 - wilson
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Wilson's Theorem

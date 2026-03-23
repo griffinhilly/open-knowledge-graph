@@ -12,7 +12,7 @@ tags:
 - transparency
 - euphotic-zone
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Photic Zone and Light Penetration in the Ocean

@@ -15,7 +15,7 @@ tags:
 - differentiability
 - smoothness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Differentiability in Multiple Variables

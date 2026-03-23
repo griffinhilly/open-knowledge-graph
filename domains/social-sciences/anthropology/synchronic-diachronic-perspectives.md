@@ -15,7 +15,7 @@ tags:
 - theory
 - analysis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Synchronic and Diachronic Perspectives
 

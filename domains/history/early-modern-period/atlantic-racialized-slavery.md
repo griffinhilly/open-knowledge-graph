@@ -17,7 +17,7 @@ tags:
 - labor
 - atlantic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Atlantic Racialized Slavery

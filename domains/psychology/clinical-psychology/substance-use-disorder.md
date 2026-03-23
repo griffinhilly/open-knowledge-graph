@@ -14,7 +14,7 @@ tags:
 - substance use
 - addiction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Substance Use Disorder: Diagnosis and Types

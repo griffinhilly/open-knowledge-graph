@@ -18,7 +18,7 @@ tags:
 - structure
 - phrasing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phrase and Period Structure

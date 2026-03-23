@@ -13,7 +13,7 @@ tags:
 - style
 - formality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Grammatical Register and Style: Formal vs. Informal

@@ -19,7 +19,7 @@ tags:
 - infinity
 - exponentiation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cardinal Arithmetic for Infinite Sets

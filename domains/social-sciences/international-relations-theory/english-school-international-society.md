@@ -15,7 +15,7 @@ tags:
 - norms
 - rules
 stage: expert
-status: draft
+status: validated
 ---
 
 # The English School and International Society

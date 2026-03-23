@@ -17,7 +17,7 @@ tags:
 - logic
 - operations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Arithmetic-Logic Unit (ALU) Design

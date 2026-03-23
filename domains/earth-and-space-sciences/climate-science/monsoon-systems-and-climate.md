@@ -19,7 +19,7 @@ tags:
 - regional-climate
 - seasonal-variability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Monsoon Systems and Climate

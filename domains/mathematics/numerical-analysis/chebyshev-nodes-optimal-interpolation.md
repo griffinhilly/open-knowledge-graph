@@ -14,7 +14,7 @@ tags:
 - optimal-nodes
 - equioscillation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chebyshev Nodes and Optimal Interpolation

@@ -18,7 +18,7 @@ tags:
 - magnitude
 - earthquake
 stage: expert
-status: draft
+status: validated
 ---
 
 # Seismic Moment and Moment Magnitude

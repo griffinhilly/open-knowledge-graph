@@ -25,7 +25,7 @@ tags:
 - inference
 - statistics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phylogenetic Inference: Parsimony, Distance, and Maximum Likelihood

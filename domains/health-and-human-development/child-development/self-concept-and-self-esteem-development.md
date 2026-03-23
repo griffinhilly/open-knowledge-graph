@@ -20,7 +20,7 @@ tags:
 - self-worth
 - social-comparison
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Self-Concept and Self-Esteem Development

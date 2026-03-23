@@ -14,7 +14,7 @@ tags:
 - conductivity
 - metals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metallic Bonding and Properties of Metals

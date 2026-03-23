@@ -14,7 +14,7 @@ tags:
 - mathematical-biology
 - altruism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hamilton's Rule

@@ -17,7 +17,7 @@ tags:
 - pulleys
 - V-belts
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Belt and Rope Friction

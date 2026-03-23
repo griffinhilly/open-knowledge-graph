@@ -15,7 +15,7 @@ tags:
 - enthalpy-of-reaction
 - thermodynamic-equilibrium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The van't Hoff Equation: Temperature Dependence of Equilibrium

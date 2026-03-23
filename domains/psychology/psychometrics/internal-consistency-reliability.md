@@ -15,7 +15,7 @@ tags:
 - alpha-coefficient
 - internal-structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Internal Consistency and Homogeneity

@@ -13,7 +13,7 @@ tags:
 - irreversibility
 - second-law
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Entropy and the Second Law: Irreversibility

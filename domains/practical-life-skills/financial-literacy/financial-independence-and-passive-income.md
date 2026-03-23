@@ -20,7 +20,7 @@ tags:
 - wealth
 - goals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Financial Independence and Passive Income

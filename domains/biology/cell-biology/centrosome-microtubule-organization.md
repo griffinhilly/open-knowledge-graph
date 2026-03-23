@@ -14,7 +14,7 @@ tags:
 - microtubules
 - centrioles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Centrosome Function and Microtubule Organizing Centers

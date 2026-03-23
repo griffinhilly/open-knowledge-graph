@@ -14,7 +14,7 @@ tags:
 - inhalation
 - airway
 stage: expert
-status: draft
+status: validated
 ---
 
 # Aspiration Pneumonia and Inhalation Injury

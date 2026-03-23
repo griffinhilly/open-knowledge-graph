@@ -12,7 +12,7 @@ tags:
 - grouping
 - multiplication-readiness
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Equal Groups

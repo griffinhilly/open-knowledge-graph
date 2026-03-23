@@ -18,7 +18,7 @@ tags:
 - counterculture
 - global-movements
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Global Upheaval and the 1968 Revolutions

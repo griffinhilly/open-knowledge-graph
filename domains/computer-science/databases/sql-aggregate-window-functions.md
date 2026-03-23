@@ -13,7 +13,7 @@ tags:
 - aggregation
 - window-functions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Aggregate Window Functions: SUM, AVG, MIN, MAX OVER

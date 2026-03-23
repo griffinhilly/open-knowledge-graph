@@ -19,7 +19,7 @@ tags:
 - diction
 - audience awareness
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Tone and Register in Writing

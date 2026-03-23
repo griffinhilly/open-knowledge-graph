@@ -18,7 +18,7 @@ tags:
 - selection
 - population-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gene Flow and Selection: Opposing Forces

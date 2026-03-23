@@ -14,7 +14,7 @@ tags:
 - exploration
 - environmental
 stage: expert
-status: draft
+status: validated
 ---
 
 # Near-Surface Geophysics Methods

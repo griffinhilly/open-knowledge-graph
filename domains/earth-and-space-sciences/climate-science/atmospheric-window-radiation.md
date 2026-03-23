@@ -17,7 +17,7 @@ tags:
 - window
 - thermal-escape
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Atmospheric Window and Thermal Radiation Escape

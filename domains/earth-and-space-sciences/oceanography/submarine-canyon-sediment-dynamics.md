@@ -15,7 +15,7 @@ tags:
 - sediment-transport
 - deep-sea-fans
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Submarine Canyon Sediment Transport and Gravity Flows

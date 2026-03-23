@@ -14,7 +14,7 @@ tags:
 - revision
 - authorship
 stage: expert
-status: draft
+status: validated
 ---
 
 # Genetic Criticism and Manuscript Study

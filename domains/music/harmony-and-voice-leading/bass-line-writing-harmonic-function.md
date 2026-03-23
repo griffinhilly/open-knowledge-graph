@@ -16,7 +16,7 @@ tags:
 - figured-bass
 - harmonization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bass Line Writing with Harmonic Function and Voice Leading

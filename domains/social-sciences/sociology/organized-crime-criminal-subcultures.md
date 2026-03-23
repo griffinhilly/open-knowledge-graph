@@ -14,7 +14,7 @@ tags:
 - subculture
 - socialization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Organized Crime and Criminal Subcultures

@@ -14,7 +14,7 @@ tags:
 - geometry
 - design
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Shape: Geometric and Organic

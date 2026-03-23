@@ -16,7 +16,7 @@ tags:
 - antigen-presentation
 - proteasome
 stage: expert
-status: draft
+status: validated
 ---
 
 # MHC Class I Antigen Presentation Pathway

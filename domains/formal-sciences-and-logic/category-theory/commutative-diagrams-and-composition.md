@@ -14,7 +14,7 @@ tags:
 - composition
 - fundamentals
 stage: expert
-status: draft
+status: validated
 ---
 
 # Commutative Diagrams and Composition

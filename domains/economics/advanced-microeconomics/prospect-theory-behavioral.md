@@ -13,7 +13,7 @@ tags:
 - risk
 - decision-making
 stage: expert
-status: draft
+status: validated
 ---
 
 # Prospect Theory and Loss Aversion

@@ -16,7 +16,7 @@ tags:
 - holism
 - theory-choice
 stage: expert
-status: draft
+status: validated
 ---
 
 # Underdetermination and the Duhem-Quine Thesis

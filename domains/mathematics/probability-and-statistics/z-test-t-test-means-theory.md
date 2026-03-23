@@ -12,7 +12,7 @@ tags:
 - z-test
 - t-test
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Z-Tests and T-Tests for Means

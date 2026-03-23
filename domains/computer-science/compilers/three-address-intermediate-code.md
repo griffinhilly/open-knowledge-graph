@@ -16,7 +16,7 @@ tags:
 - intermediate-representation
 - code-generation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Three-Address Intermediate Code

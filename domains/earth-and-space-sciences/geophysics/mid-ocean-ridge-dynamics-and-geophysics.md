@@ -16,7 +16,7 @@ tags:
 - tectonics
 - volcanism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mid-Ocean Ridge Dynamics and Geophysics

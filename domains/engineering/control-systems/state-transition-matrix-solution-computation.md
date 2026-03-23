@@ -16,7 +16,7 @@ tags:
 - time-domain-solution
 - discretization
 stage: expert
-status: draft
+status: validated
 ---
 
 # State Transition Matrix and Solution Computation

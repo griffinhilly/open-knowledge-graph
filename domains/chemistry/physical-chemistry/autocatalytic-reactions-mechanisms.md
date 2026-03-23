@@ -14,7 +14,7 @@ tags:
 - kinetics
 - oscillation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Autocatalytic Reactions and Nonlinear Kinetics

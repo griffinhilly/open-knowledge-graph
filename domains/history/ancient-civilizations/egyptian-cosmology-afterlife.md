@@ -14,7 +14,7 @@ tags:
 - cosmology
 - religion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Egyptian Cosmology and Afterlife Beliefs

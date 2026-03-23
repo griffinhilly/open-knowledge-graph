@@ -16,7 +16,7 @@ tags:
 - gradient-descent
 - convergence
 stage: expert
-status: draft
+status: validated
 ---
 
 # Adaptive Filtering with LMS Algorithm

@@ -14,7 +14,7 @@ tags:
 - erasure
 - transformation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Found Poetry and Erasure

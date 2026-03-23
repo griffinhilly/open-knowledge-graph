@@ -15,7 +15,7 @@ tags:
 - cantata
 - vocal
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Baroque Vocal Music: Opera, Oratorio, and Cantata

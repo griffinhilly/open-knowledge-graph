@@ -17,7 +17,7 @@ tags:
 - quality-assessment
 - error-detection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voice Leading Error Detection by Ear

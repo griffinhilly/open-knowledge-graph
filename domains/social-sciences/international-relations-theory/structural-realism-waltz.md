@@ -18,7 +18,7 @@ tags:
 - anarchy
 - power
 stage: expert
-status: draft
+status: validated
 ---
 
 # Structural Realism (Neorealism)

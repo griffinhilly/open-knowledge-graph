@@ -15,7 +15,7 @@ tags:
 - exposure
 - anxiety
 stage: expert
-status: draft
+status: validated
 ---
 
 # Exposure and Response Prevention for Anxiety and OCD

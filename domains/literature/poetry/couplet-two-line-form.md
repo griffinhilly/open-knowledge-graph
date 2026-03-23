@@ -11,7 +11,7 @@ tags:
 - rhyme
 - closure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Couplet: Two-Line Form

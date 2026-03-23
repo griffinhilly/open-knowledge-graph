@@ -17,7 +17,7 @@ tags:
 - anarchy
 - arms-race
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Security Dilemma

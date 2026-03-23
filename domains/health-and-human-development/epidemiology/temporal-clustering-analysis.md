@@ -16,7 +16,7 @@ tags:
 - clustering
 - trend-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Temporal Clustering and Seasonality Analysis

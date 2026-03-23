@@ -17,7 +17,7 @@ tags:
 - direction
 - form
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Directional Light and Shadow Casting

@@ -11,7 +11,7 @@ tags:
 - linear-time
 - counting-radix
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linear-Time Sorting: Counting Sort and Radix Sort

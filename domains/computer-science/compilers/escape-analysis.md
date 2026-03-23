@@ -15,7 +15,7 @@ tags:
 - memory
 - allocation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Escape Analysis for Allocation Optimization

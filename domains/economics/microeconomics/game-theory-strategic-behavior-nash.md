@@ -16,7 +16,7 @@ tags:
 - strategic-interaction
 - equilibrium
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Game Theory: Strategic Behavior and Nash Equilibrium

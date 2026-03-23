@@ -15,7 +15,7 @@ tags:
 - accretion
 - compact-objects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Black Holes and Accretion Physics

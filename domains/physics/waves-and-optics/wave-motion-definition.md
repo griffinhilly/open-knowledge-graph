@@ -16,7 +16,7 @@ tags:
 - oscillation
 - propagation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Wave Motion: Definition and Classification

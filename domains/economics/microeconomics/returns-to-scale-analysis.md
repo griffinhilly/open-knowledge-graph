@@ -15,7 +15,7 @@ tags:
 - returns
 - homogeneity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Returns to Scale and Production Function Homogeneity

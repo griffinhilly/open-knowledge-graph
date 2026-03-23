@@ -17,7 +17,7 @@ tags:
 - structure
 - phrasing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Rhythm and Structural Function

@@ -14,7 +14,7 @@ tags:
 - sociological-perspective
 - individual-society
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Sociological Imagination

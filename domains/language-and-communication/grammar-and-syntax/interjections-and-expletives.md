@@ -13,7 +13,7 @@ tags:
 - parts-of-speech
 - sentence-structure
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Interjections and Expletive Constructions

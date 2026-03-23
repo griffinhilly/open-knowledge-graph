@@ -16,7 +16,7 @@ tags:
 - methodology
 - interpretation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Literary Analysis: Overview and Approaches

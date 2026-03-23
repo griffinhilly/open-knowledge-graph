@@ -16,7 +16,7 @@ tags:
 - contextualism
 - political-thought
 stage: expert
-status: draft
+status: validated
 ---
 
 # Intellectual History and the Cambridge School

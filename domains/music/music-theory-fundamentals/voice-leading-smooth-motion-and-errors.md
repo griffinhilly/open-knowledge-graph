@@ -15,7 +15,7 @@ tags:
 - parallel-fifths
 - error-correction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voice Leading: Smooth Motion and Common Errors

@@ -16,7 +16,7 @@ tags:
 - coagulation
 - bone-proteins
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vitamin K: Coagulation and Bone Protein Carboxylation

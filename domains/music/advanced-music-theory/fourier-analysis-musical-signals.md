@@ -22,7 +22,7 @@ tags:
 - signal-processing
 - spectral
 stage: expert
-status: draft
+status: validated
 ---
 
 # Fourier Analysis of Musical Signals

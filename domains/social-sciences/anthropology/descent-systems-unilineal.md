@@ -18,7 +18,7 @@ tags:
 - social-structure
 - cultural-organization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Descent Systems: Unilineal and Cognatic

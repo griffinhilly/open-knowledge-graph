@@ -14,7 +14,7 @@ tags:
 - methodology
 - philosophy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Theories of Historical Causation

@@ -12,7 +12,7 @@ tags:
 - relativistic-qm
 - special-relativity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Relativistic Quantum Mechanics

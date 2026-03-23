@@ -14,7 +14,7 @@ tags:
 - binary-systems
 - azeotropes
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Phase Diagrams of Binary Mixtures

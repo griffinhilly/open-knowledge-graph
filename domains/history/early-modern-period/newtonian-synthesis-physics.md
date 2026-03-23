@@ -17,7 +17,7 @@ tags:
 - gravity
 - scientific-revolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Newtonian Synthesis and Mathematical Physics

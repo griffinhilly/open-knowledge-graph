@@ -17,7 +17,7 @@ tags:
 - rights
 - belonging
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Citizenship and Political Membership

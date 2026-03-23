@@ -11,7 +11,7 @@ tags:
 - algorithms
 - operations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linked-List Advanced Operations: Reversal, Cycle Detection, Merging

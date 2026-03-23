@@ -16,7 +16,7 @@ tags:
 - modal
 - alternatives
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Non-Classical Logics: Intuitionistic, Modal, and Alternatives

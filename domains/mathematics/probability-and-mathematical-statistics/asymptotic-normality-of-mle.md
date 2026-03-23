@@ -17,7 +17,7 @@ tags:
 - asymptotics
 - normal-approximation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Asymptotic Normality of the MLE

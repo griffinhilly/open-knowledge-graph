@@ -13,7 +13,7 @@ tags:
 - skills assessment
 - costs
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Deciding Between DIY and Professional Repairs

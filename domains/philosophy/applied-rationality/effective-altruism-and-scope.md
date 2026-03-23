@@ -12,7 +12,7 @@ prerequisites:
     type: soft
 tags: ["effective-altruism", "scope", "rationality", "ethics", "impact"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

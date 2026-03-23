@@ -15,7 +15,7 @@ tags:
 - prevention
 - multifactorial
 stage: expert
-status: draft
+status: validated
 ---
 
 # Non-Communicable Disease Epidemiology

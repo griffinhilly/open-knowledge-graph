@@ -15,7 +15,7 @@ tags:
 - continuity
 - maps
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Continuity in Topological Spaces

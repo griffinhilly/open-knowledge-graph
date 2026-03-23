@@ -21,7 +21,7 @@ tags:
 - force-gradation
 - fatigue
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Motor Control and Neural Activation

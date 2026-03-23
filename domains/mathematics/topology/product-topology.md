@@ -14,7 +14,7 @@ tags:
 - cartesian-products
 - finite-products
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Product Topology

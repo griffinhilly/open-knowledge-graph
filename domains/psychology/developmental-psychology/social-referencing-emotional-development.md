@@ -18,7 +18,7 @@ tags:
 - infant-behavior
 - affiliation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Social Referencing and Early Emotional Development

@@ -17,7 +17,7 @@ tags:
 - phishing
 - social-engineering
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Recognizing Online Scams and Fraud

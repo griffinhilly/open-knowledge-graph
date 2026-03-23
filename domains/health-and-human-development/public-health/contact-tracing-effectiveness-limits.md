@@ -16,7 +16,7 @@ tags:
 - outbreak-control
 - prevention
 stage: expert
-status: draft
+status: validated
 ---
 
 # Contact Tracing and Transmission Interruption

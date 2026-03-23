@@ -16,7 +16,7 @@ tags:
 - isostasy
 - crustal-structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Airy Isostasy and Crustal Thickness Variation

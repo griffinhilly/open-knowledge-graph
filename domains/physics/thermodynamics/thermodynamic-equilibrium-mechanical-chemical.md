@@ -16,7 +16,7 @@ tags:
 - stability
 - conditions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermodynamic Equilibrium: Mechanical, Thermal, and Chemical

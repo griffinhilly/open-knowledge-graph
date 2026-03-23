@@ -16,7 +16,7 @@ tags:
 - broadcasting
 - cognitive-architecture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Global Workspace Theory

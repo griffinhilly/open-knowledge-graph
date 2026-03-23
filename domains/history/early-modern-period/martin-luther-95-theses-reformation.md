@@ -15,7 +15,7 @@ tags:
 - catholic-church
 - religious-reform
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Martin Luther and the 95 Theses

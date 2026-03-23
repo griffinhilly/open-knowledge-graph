@@ -13,7 +13,7 @@ tags:
 - prevention
 - haccp
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Food Safety, Contamination Sources, and Prevention of Foodborne Illness

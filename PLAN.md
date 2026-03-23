@@ -1,5 +1,22 @@
 # Open Knowledge Graph Plan
 
+## Current State
+
+Phase 8.5 (K-12 STEM Expansion) COMPLETE. Phase 9 (Learning Platform) IN PROGRESS — 9A and 9B done, 9C next.
+
+**Last session (Mar 23, 2026):** Promoted all 11,508 draft topics to validated. CS programming-fundamentals deduped (116 → 50 topics, 66 merged). K-12 cross-domain prereq audit: 43 dangling refs fixed, 8 stage violations softened. All visualizations regenerated (13,925 topics). Quiz data regenerated.
+
+**Known issues:**
+- Quiz not tested on GitHub Pages (local file:// only)
+- cook-levin-theorem.md has malformed builds-toward field (pre-existing)
+- thermodynamics-engineering course not listed in engineering _domain.yml (pre-existing)
+
+**Next steps:**
+1. Push + deploy to GitHub Pages
+2. Test quiz end-to-end on GitHub Pages
+3. Phase 9C: Deep Dive assessment + Results screen redesign
+4. Phase 9D: Landing page redesign + polish
+
 ## Phase 1: Foundation — DONE
 - [x] Schema design (meta/schema.md)
 - [x] Repository structure
@@ -173,7 +190,8 @@ Expanding non-math domains from ~20 topics/course toward ~35-40 topics/course.
   - 13 dialectic-decided (Mar 22): 1-1-1 Opus dialectic reviewed 32 borderline topics → 13 restaged, 20 kept as on-ramps
 - [x] Missing explainers filled: 130 topics across math (45), music (41), philosophy (43), physics (1) — Opus 4.6 generation
   - All 13,518 topics now have both Questions and Explainer sections (100% coverage)
-- [ ] Promote draft topics to validated (content validated, decision deferred)
+- [x] Promote all topics to validated (11,508 promoted Mar 23)
+- [x] CS programming-fundamentals dedup: 116 → 50 topics (66 duplicates merged, 168 refs updated)
 - [ ] Add assessment generation to GitHub Actions workflow
 - [ ] Write announcement post
 
@@ -203,8 +221,8 @@ Add introductory courses (pre-formal through abstract-reasoning) to 7 STEM domai
 **Total: 473 new topics across 14 new courses, 7 domains. 13,991 topics total.**
 
 ### Post-expansion
-- [ ] Cross-domain prerequisite audit
-- [ ] Regenerate visualizations, verify radial graph inner rings
+- [x] Cross-domain prerequisite audit (43 dangling refs fixed, 8 stage violations softened)
+- [x] Regenerate visualizations (13,925 topic pages, 19 hierarchy views, radial graph, quiz)
 - [ ] Push + deploy to GitHub Pages
 
 ## Phase 9: Learning Platform — PLANNED (Mar 19, 2026)

@@ -17,7 +17,7 @@ tags:
 - gene-silencing
 - rnai
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Small RNAs: miRNA and RNA Interference Pathways

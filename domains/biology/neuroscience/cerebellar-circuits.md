@@ -16,7 +16,7 @@ tags:
 - purkinje-cells
 - granule-cells
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cerebellar Circuits and Function

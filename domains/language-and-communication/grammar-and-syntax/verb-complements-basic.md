@@ -16,7 +16,7 @@ tags:
 - objects
 - verb-patterns
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Verb Complements and Completers

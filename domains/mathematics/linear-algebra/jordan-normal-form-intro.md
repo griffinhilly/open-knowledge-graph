@@ -13,7 +13,7 @@ tags:
 - generalized-eigenvectors
 - canonical-form
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Jordan Normal Form and Generalized Eigenvectors

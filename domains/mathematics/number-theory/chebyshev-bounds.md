@@ -11,7 +11,7 @@ tags:
 - bounds
 - analytic-number-theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Chebyshev's Bounds on π(x)

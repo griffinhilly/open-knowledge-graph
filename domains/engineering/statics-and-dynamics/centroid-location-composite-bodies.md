@@ -15,7 +15,7 @@ tags:
 - composite shapes
 - distributed forces
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Centroid Location in Composite Bodies

@@ -12,7 +12,7 @@ tags:
 - kinetic-theory
 - heat
 stage: expert
-status: draft
+status: validated
 ---
 # Thermal Conductivity from Kinetic Theory
 

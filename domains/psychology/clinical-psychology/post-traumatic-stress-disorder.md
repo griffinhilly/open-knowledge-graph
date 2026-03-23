@@ -19,7 +19,7 @@ tags:
 - memory
 - stress-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # Post-Traumatic Stress Disorder (PTSD)

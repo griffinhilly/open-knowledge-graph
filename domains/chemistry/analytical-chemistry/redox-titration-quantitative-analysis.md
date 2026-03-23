@@ -19,7 +19,7 @@ tags:
 - permanganate
 - dichromate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Redox Titration: Quantitative Determination

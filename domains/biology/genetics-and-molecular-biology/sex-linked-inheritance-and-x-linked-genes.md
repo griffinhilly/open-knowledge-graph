@@ -19,7 +19,7 @@ tags:
 - y-linked
 - criss-cross-inheritance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sex-Linked Inheritance and X-Linked Genes

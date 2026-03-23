@@ -13,7 +13,7 @@ tags:
 - interview
 - diagnosis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Clinical Assessment and Interview Methods

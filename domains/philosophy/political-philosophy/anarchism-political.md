@@ -15,7 +15,7 @@ tags:
 - legitimacy
 - statelessness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Political Anarchism

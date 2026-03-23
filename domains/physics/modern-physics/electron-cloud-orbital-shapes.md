@@ -13,7 +13,7 @@ tags:
 - orbitals
 - probability-density
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Electron Cloud Spatial Distribution and Orbital Shapes

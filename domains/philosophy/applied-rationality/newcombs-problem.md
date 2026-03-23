@@ -12,7 +12,7 @@ builds-toward:
   - causal-vs-evidential-decision-theory
 tags: ["decision-theory", "thought-experiment", "newcomb", "rationality"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

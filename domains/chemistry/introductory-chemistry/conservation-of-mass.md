@@ -18,7 +18,7 @@ tags:
 - mass
 - reactions
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Conservation of Mass in Chemical Reactions
 

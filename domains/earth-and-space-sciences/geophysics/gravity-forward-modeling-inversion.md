@@ -18,7 +18,7 @@ tags:
 - inversion
 - density
 stage: expert
-status: draft
+status: validated
 ---
 
 # Gravity Forward Modeling and Density Inversion

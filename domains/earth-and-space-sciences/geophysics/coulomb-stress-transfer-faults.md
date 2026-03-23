@@ -13,7 +13,7 @@ tags:
 - stress-transfer
 - fault-interaction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Coulomb Stress Transfer and Fault Interaction

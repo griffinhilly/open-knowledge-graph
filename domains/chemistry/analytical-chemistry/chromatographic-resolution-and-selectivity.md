@@ -16,7 +16,7 @@ tags:
 - resolution
 - separation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Chromatographic Resolution and Selectivity

@@ -6,7 +6,7 @@ course: data-structures-and-algorithms
 prerequisites:
 - id: algorithm-design-basics
   type: hard
-- id: arrays-and-indexed-collections
+- id: arrays-and-lists
   type: soft
 builds-toward:
 - binary-trees
@@ -21,9 +21,8 @@ tags:
 - edges
 - terminology
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Tree Structure and Node Properties
 
 ## Core Idea

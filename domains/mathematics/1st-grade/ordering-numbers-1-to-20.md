@@ -16,7 +16,7 @@ tags:
 - sequence
 - number-sense
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Ordering Numbers 1 to 20

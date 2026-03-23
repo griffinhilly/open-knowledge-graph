@@ -16,7 +16,7 @@ tags:
 - vision
 - cues
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Depth Perception: Monocular and Binocular Cues

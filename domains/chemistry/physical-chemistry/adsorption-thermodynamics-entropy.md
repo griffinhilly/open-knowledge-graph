@@ -16,7 +16,7 @@ tags:
 - entropy
 - surface
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Adsorption Thermodynamics and Surface Entropy

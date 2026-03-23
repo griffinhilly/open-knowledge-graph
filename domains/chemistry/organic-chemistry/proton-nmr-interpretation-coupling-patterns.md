@@ -17,7 +17,7 @@ tags:
 - coupling
 - spectroscopy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # ¹H NMR Spectroscopy: Chemical Shift and Coupling Patterns

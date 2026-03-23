@@ -16,7 +16,7 @@ tags:
 - reactions
 - methodology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Free-Body Diagram Methodology

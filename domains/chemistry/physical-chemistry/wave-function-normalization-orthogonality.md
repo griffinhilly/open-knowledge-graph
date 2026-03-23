@@ -16,7 +16,7 @@ tags:
 - wave-functions
 - mathematical-foundations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Wave Function Normalization and Orthogonality

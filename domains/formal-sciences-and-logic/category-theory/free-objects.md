@@ -22,7 +22,7 @@ tags:
 - left adjoint
 - forgetful functor
 stage: expert
-status: draft
+status: validated
 ---
 # Free Objects
 

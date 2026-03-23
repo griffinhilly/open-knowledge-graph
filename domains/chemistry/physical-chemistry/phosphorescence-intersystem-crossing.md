@@ -15,7 +15,7 @@ tags:
 - triplet-states
 - photochemistry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Phosphorescence and Intersystem Crossing

@@ -17,7 +17,7 @@ tags:
 - empiricism
 - peloponnesian-war
 stage: expert
-status: draft
+status: validated
 ---
 
 # Thucydides and Scientific History

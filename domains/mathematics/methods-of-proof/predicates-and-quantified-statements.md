@@ -15,7 +15,7 @@ tags:
 - quantifiers
 - variables
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Predicates and Quantified Statements

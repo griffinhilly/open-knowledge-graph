@@ -16,7 +16,7 @@ tags:
 - products
 - enumeration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cantor Pairing Functions and Product Countability

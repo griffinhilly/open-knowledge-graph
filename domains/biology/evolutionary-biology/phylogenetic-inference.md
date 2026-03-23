@@ -17,7 +17,7 @@ tags:
 - evolution
 - methods
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Phylogenetic Inference Fundamentals

@@ -13,7 +13,7 @@ tags:
 - entanglement
 - correlations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantum Entanglement

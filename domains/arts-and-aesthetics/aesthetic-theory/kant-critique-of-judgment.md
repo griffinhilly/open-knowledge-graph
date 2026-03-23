@@ -17,7 +17,7 @@ tags:
 - beauty
 - disinterestedness
 stage: expert
-status: draft
+status: validated
 ---
 
 # Kant's Critique of Judgment and Aesthetic Theory

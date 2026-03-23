@@ -15,7 +15,7 @@ tags:
 - transition
 - preparation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Major Life Transitions Financial Planning

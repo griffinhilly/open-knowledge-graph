@@ -17,7 +17,7 @@ tags:
 - inference
 - quantification
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Scalar Implicature and Pragmatics

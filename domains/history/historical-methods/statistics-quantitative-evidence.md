@@ -16,7 +16,7 @@ tags:
 - methodology
 - evidence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Statistics and Quantitative Evidence in Historical Argument

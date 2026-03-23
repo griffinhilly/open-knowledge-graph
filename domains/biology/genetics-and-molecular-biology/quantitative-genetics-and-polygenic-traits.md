@@ -20,7 +20,7 @@ tags:
 - selection-response
 - quantitative-trait
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Quantitative Genetics and Polygenic Traits

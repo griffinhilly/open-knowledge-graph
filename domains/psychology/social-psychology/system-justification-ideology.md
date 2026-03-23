@@ -19,7 +19,7 @@ tags:
 - status quo
 - motivated reasoning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # System Justification and Ideological Reasoning

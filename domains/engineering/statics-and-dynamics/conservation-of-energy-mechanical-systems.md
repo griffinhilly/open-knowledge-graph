@@ -17,7 +17,7 @@ tags:
 - conservation-laws
 - mechanical-systems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conservation of Mechanical Energy in Systems

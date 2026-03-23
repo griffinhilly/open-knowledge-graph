@@ -26,7 +26,7 @@ tags:
 - electron-correlation
 - mean-field
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Hartree-Fock Self-Consistent Field Method

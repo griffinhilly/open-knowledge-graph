@@ -13,7 +13,7 @@ tags:
 - fallacies
 - presumption
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Begging the Question

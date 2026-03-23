@@ -17,7 +17,7 @@ tags:
 - ratios
 - whole-grains
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Rice and Grain Cooking

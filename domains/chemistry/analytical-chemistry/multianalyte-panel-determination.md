@@ -16,7 +16,7 @@ tags:
 - multianalyte
 - screening
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Multianalyte Panel Determination

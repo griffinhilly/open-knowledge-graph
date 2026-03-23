@@ -17,7 +17,7 @@ tags:
 - ALTER
 - DROP
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # SQL: Creating and Modifying Tables

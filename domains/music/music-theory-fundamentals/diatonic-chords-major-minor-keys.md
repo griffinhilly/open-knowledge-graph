@@ -17,7 +17,7 @@ tags:
 - minor-key
 - harmony
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diatonic Chords in Major and Minor Keys

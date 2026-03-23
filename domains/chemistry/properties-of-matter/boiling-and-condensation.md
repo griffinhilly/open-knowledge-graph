@@ -17,7 +17,7 @@ tags:
 - boiling
 - condensation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Boiling and Condensation
 

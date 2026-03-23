@@ -12,7 +12,7 @@ tags:
 - spinal-cord
 - movement
 stage: expert
-status: draft
+status: validated
 ---
 
 # Descending Motor Pathways: Corticospinal and Brainstem Tracts

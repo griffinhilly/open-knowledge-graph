@@ -17,7 +17,7 @@ tags:
 - complementary
 - combinations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Food Pairing: Building Complementary Flavors

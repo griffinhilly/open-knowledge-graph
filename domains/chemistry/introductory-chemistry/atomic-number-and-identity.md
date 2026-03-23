@@ -16,7 +16,7 @@ tags:
 - elements
 - identity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Atomic Number: What Makes an Element Unique
 

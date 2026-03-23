@@ -11,7 +11,7 @@ tags:
 - matching
 - algorithms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Boyer-Moore String Matching Algorithm

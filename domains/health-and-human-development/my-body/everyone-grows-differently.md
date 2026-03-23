@@ -14,7 +14,7 @@ tags:
 - body differences
 - self-acceptance
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Everyone Grows Differently

@@ -16,7 +16,7 @@ tags:
 - countercurrent
 - osmolarity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Loop of Henle and Countercurrent Multiplication Mechanism

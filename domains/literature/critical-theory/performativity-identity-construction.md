@@ -17,7 +17,7 @@ tags:
 - construction
 - speech-acts
 stage: expert
-status: draft
+status: validated
 ---
 
 # Performativity and Identity Construction

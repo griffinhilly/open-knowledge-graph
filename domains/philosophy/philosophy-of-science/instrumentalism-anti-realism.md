@@ -13,7 +13,7 @@ tags:
 - instrumentalism
 - pragmatism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Instrumentalism and Anti-Realism

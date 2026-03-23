@@ -21,7 +21,7 @@ tags:
 - first-order-logic
 - introduction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Introduction to Predicate Logic (First-Order Logic)

@@ -16,7 +16,7 @@ tags:
 - structure
 - composition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cadential Design and Structural Closure

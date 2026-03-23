@@ -13,7 +13,7 @@ tags:
 - errors
 - power
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Type I and Type II Errors and Power

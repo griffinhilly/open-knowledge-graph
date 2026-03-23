@@ -13,7 +13,7 @@ tags:
 - combinatorics
 - generating-functions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Generating Functions: Advanced Techniques and Asymptotic Analysis

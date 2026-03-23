@@ -13,7 +13,7 @@ tags:
 - diagnostics
 - robustness
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Lexical Error Handling and Reporting

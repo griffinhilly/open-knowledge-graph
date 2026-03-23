@@ -17,7 +17,7 @@ tags:
 - composition
 - spectroscopy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Asteroid Composition and Spectroscopic Properties

@@ -16,7 +16,7 @@ tags:
 - valency
 - argument structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Argument Structure and Thematic Roles

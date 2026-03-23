@@ -14,7 +14,7 @@ tags:
 - result-reporting
 - interpretation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Effect Sizes, Practical Significance, and Results Reporting

@@ -17,7 +17,7 @@ tags:
 - generating-functions
 - moments
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Moment Generating Functions

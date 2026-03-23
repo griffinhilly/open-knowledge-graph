@@ -17,7 +17,7 @@ tags:
 - political-philosophy
 - human-rights
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Enlightenment Natural Rights Philosophy

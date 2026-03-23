@@ -17,7 +17,7 @@ tags:
 - apoptosis
 - necrosis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Necrosis and Apoptosis

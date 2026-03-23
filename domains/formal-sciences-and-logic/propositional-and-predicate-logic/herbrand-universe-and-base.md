@@ -13,7 +13,7 @@ tags:
 - herbrand
 - model-theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Herbrand Universe and Herbrand Base

@@ -18,7 +18,7 @@ tags:
 - computation
 - new-media
 stage: expert
-status: draft
+status: validated
 ---
 
 # Digital Media and Aesthetic Experience

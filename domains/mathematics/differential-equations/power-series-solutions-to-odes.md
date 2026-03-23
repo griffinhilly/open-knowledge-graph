@@ -16,7 +16,7 @@ tags:
 - method
 - special-functions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Power Series Solutions to Differential Equations

@@ -16,7 +16,7 @@ tags:
 - crystallization
 - texture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Igneous Rock Texture and Cooling History

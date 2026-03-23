@@ -20,7 +20,7 @@ tags:
 - planning
 - blocking
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Compositional Blocking and Value Thumbnails

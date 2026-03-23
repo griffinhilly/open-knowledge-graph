@@ -15,7 +15,7 @@ tags:
 - axiom
 - foundations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Completeness Axiom (Least Upper Bound Property)

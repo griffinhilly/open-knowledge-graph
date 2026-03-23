@@ -15,7 +15,7 @@ tags:
 - health-metrics
 - comparative-health
 stage: expert
-status: draft
+status: validated
 ---
 
 # Disease Burden Estimation and Comparative Health Assessment

@@ -18,7 +18,7 @@ tags:
 - limit-theorems
 - probability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Weak Law of Large Numbers

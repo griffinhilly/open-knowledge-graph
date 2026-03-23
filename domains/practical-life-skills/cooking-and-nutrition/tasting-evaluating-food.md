@@ -14,7 +14,7 @@ tags:
 - adjustment
 - feedback
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tasting Food and Making Flavor Adjustments

@@ -12,7 +12,7 @@ tags:
 - visual-perception
 - infant-cognition
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Visual Development: Acuity and Perception
 

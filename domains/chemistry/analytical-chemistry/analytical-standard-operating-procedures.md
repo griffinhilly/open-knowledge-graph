@@ -16,7 +16,7 @@ tags:
 - sop
 - quality-assurance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Analytical Standard Operating Procedures Development

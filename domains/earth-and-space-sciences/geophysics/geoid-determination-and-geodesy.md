@@ -14,7 +14,7 @@ tags:
 - ellipsoid
 - gravity-field
 stage: expert
-status: draft
+status: validated
 ---
 
 # Geoid Determination and Geodesy

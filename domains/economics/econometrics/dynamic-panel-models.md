@@ -15,7 +15,7 @@ tags:
 - gmm
 - arellano-bond
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dynamic Panel Models and Arellano-Bond/Blundell-Bond Estimation

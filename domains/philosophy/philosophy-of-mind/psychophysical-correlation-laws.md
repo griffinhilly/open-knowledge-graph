@@ -19,7 +19,7 @@ tags:
 - physical-causation
 - laws
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Psychophysical Laws and Correlations

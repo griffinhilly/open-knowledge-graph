@@ -18,7 +18,7 @@ tags:
 - adaptive
 - responsive
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Context-Appropriate Design

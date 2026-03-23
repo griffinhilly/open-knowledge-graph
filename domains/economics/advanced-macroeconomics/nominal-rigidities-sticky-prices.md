@@ -13,7 +13,7 @@ tags:
 - frictions
 - monetary-non-neutrality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Nominal Rigidities and Sticky Prices

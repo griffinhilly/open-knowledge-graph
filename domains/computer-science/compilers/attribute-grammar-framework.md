@@ -15,7 +15,7 @@ tags:
 - attributes
 - grammars
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Attribute Grammar Framework

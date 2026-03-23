@@ -26,7 +26,7 @@ tags:
 - post-tonal
 - space
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pitch-Class Set Cartography

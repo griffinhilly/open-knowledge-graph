@@ -18,7 +18,7 @@ tags:
 - compressors
 - performance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Isentropic Efficiency of Turbines and Compressors

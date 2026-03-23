@@ -14,7 +14,7 @@ tags:
 - DBT
 - emotion regulation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dialectical Behavior Therapy: Components and Mechanisms

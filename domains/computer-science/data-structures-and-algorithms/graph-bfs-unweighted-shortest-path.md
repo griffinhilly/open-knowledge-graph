@@ -17,7 +17,7 @@ tags:
 - level-by-level
 - graph-traversal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Breadth-First Search for Shortest Paths in Unweighted Graphs

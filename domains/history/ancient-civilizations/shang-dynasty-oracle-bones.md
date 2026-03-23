@@ -17,7 +17,7 @@ tags:
 - divination
 - oracle-bones
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Shang Dynasty and Oracle Bone Divination

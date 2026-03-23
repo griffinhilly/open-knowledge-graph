@@ -15,7 +15,7 @@ tags:
 - capital-flows
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Foreign Direct Investment and Capital Flows

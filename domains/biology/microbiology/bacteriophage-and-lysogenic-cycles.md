@@ -17,7 +17,7 @@ tags:
 - lysogeny
 - phage-biology
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bacteriophage Lytic and Lysogenic Cycles

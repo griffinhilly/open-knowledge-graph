@@ -14,7 +14,7 @@ tags:
 - tense-change
 - syntax
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Reported Speech and Indirect Quotations

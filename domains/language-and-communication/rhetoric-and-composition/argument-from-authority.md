@@ -13,7 +13,7 @@ tags:
 - evidence
 - credibility
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Argument From Authority

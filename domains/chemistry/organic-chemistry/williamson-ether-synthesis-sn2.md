@@ -18,7 +18,7 @@ tags:
 - alkoxide
 - ether-formation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Williamson Ether Synthesis via SN2

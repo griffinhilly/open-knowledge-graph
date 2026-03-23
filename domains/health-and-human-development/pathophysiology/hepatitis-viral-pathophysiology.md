@@ -18,7 +18,7 @@ tags:
 - inflammation
 - chronicity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Viral Hepatitis: Acute Hepatocellular Necrosis, Inflammation, and Recovery vs. Chronicity

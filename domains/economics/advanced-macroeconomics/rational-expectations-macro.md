@@ -23,7 +23,7 @@ tags:
 - information
 - model-consistency
 stage: expert
-status: draft
+status: validated
 ---
 
 # Rational Expectations in Macroeconomics

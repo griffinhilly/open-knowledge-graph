@@ -14,7 +14,7 @@ tags:
 - seismic
 - joint-inversion
 stage: expert
-status: draft
+status: validated
 ---
 
 # Joint Inversion of Gravity and Seismic Data

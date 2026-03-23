@@ -19,7 +19,7 @@ tags:
 - instant-isolation
 - plants
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Polyploidy and Instant Reproductive Isolation

@@ -20,7 +20,7 @@ tags:
 - smooth-muscle
 - cardiac-muscle
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # The Muscular System
 

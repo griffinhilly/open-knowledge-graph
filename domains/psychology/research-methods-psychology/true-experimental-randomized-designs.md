@@ -14,7 +14,7 @@ tags:
 - randomization
 - causal-inference
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # True Experimental Design and Randomization

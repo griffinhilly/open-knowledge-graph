@@ -15,7 +15,7 @@ tags:
 - shapes
 - unit-squares
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Area of Irregular Shapes Using Unit Squares

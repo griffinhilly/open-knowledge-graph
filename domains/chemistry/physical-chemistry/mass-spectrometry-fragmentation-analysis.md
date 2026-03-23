@@ -14,7 +14,7 @@ tags:
 - ion
 - analysis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Mass Spectrometry: Fragmentation Patterns and Structure Elucidation

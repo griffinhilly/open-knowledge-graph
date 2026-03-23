@@ -6,7 +6,7 @@ course: earth-science
 prerequisites:
 - id: earths-layers
   type: soft
-- id: basic-weather
+- id: what-is-weather
   type: soft
 builds-toward:
 - atmosphere-composition-and-structure
@@ -19,7 +19,7 @@ tags:
 - ozone
 - layers
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Layers of the Atmosphere

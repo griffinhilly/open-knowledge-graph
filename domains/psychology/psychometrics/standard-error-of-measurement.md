@@ -17,7 +17,7 @@ tags:
 - score-uncertainty
 - confidence-intervals
 stage: expert
-status: draft
+status: validated
 ---
 
 # Standard Error of Measurement and Score Confidence Intervals

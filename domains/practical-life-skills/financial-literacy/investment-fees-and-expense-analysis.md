@@ -19,7 +19,7 @@ tags:
 - expenses
 - investing-costs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Investment Fees and Expense Analysis

@@ -23,7 +23,7 @@ tags:
 - depression
 - anxiety
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Serotonin Reuptake and SSRI Pharmacological Action

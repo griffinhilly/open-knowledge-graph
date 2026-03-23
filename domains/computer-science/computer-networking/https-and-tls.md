@@ -16,7 +16,7 @@ tags:
 - certificate
 - public-key
 stage: advanced
-status: draft
+status: validated
 ---
 
 # HTTPS and TLS (Transport Layer Security)

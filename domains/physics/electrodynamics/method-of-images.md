@@ -15,7 +15,7 @@ tags:
 - images
 - boundary-conditions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Method of Images in Electrostatics

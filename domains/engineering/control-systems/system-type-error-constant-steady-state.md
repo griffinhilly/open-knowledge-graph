@@ -17,7 +17,7 @@ tags:
 - tracking
 - regulation
 stage: expert
-status: draft
+status: validated
 ---
 
 # System Type and Steady-State Error Constants

@@ -12,7 +12,7 @@ tags:
 - sensory-systems
 - vision
 stage: expert
-status: draft
+status: validated
 ---
 
 # Visual System: Retina to Visual Cortex

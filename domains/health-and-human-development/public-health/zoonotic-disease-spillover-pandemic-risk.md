@@ -16,7 +16,7 @@ tags:
 - spillover
 - pandemic-preparedness
 stage: expert
-status: draft
+status: validated
 ---
 
 # Zoonotic Disease Spillover and Pandemic Risk

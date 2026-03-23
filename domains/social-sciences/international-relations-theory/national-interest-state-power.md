@@ -15,7 +15,7 @@ tags:
 - state-behavior
 - power
 stage: expert
-status: draft
+status: validated
 ---
 
 # National Interest and State Power

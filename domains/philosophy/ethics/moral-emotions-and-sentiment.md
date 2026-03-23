@@ -18,7 +18,7 @@ tags:
 - morality
 - affective
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Emotions and Sentiment

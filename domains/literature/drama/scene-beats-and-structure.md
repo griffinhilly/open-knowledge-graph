@@ -16,7 +16,7 @@ tags:
 - performance-technique
 - pacing
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Scene Beats and Dramatic Structure
 

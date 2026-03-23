@@ -17,7 +17,7 @@ tags:
 - stability
 - visualization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phase Line Analysis for Autonomous Equations

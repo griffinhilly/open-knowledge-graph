@@ -16,7 +16,7 @@ tags:
 - selection
 - evolution
 stage: expert
-status: draft
+status: validated
 ---
 
 # Antimicrobial Resistance: Selection Pressure and Population Dynamics

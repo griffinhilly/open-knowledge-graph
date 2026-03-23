@@ -15,7 +15,7 @@ tags:
 - antenna
 - patterns
 stage: expert
-status: draft
+status: validated
 ---
 
 # Electric Dipole Radiation and Radiation Patterns

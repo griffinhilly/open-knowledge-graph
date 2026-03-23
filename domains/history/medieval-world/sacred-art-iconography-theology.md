@@ -15,7 +15,7 @@ tags:
 - sacred
 - visual
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sacred Art, Iconography, and Theology

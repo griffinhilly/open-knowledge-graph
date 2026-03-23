@@ -17,7 +17,7 @@ tags:
 - trophic-efficiency
 - 10-percent-rule
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Energy Pyramids and Trophic Transfer Efficiency

@@ -17,7 +17,7 @@ tags:
 - foundation
 - overview
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Understanding Home Structure and Systems

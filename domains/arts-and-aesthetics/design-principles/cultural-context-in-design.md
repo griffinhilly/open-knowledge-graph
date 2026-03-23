@@ -18,7 +18,7 @@ tags:
 - diversity
 - inclusivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cultural Context in Design

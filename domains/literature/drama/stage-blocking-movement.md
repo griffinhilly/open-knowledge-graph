@@ -17,7 +17,7 @@ tags:
 - visual-language
 - performance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Stage Blocking and Meaningful Movement
 

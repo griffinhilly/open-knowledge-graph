@@ -15,7 +15,7 @@ tags:
 - edge-triggered
 - sequential
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # D (Data) Flip-Flop and Edge Triggering

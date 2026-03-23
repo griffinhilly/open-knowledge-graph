@@ -18,7 +18,7 @@ tags:
 - structure
 - verticality
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Gothic Architecture and the Vertical Sublime

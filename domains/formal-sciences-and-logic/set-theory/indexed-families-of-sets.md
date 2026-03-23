@@ -16,7 +16,7 @@ tags:
 - families
 - generalization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Indexed Families and Generalized Operations

@@ -18,7 +18,7 @@ tags:
 - technique
 - texture
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Breading and Coating Techniques

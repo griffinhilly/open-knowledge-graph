@@ -20,7 +20,7 @@ tags:
 - accountability
 - civil-liberties
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Democracy: Fundamentals and Varieties

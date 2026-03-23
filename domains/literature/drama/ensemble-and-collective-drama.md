@@ -18,7 +18,7 @@ tags:
 - structure
 - community
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ensemble and Collective Drama Structures

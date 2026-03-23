@@ -12,7 +12,7 @@ tags:
 - persuasion
 - critical-thinking
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rhetorical vs. Logical Fallacies

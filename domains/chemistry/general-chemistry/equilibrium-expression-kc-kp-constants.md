@@ -21,7 +21,7 @@ tags:
 - equilibrium-constant
 - equilibrium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Equilibrium Constants: Kc and Kp

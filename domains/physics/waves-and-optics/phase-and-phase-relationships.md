@@ -13,7 +13,7 @@ tags:
 - phase-difference
 - coherence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phase and Phase Relationships in Waves

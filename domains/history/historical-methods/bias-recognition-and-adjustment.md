@@ -16,7 +16,7 @@ tags:
 - epistemology
 - sources
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Recognizing and Accounting for Bias

@@ -19,7 +19,7 @@ tags:
 - eras
 - periods
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Introduction to Geologic Time

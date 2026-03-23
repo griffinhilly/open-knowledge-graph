@@ -16,7 +16,7 @@ tags:
 - public-art
 - memory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Public Monuments and Commemorative Art

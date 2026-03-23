@@ -18,7 +18,7 @@ tags:
 - regulation
 - self-control
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Emotional Development and Regulation in Infancy

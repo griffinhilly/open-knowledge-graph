@@ -16,7 +16,7 @@ tags:
 - magnetic-field
 - core
 stage: expert
-status: draft
+status: validated
 ---
 
 # Earth's Magnetic Dipole Field Basics

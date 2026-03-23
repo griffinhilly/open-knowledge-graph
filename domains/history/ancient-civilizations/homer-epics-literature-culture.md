@@ -14,7 +14,7 @@ tags:
 - culture
 - identity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Homer, Epic Poetry, and Greek Cultural Identity

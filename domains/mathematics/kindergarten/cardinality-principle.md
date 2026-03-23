@@ -16,7 +16,7 @@ tags:
 - number meaning
 - counting principle
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Cardinality: The Last Number Counted

@@ -13,7 +13,7 @@ tags:
 - messaging
 - health-promotion
 stage: expert
-status: draft
+status: validated
 ---
 
 # Health Communication, Message Design, and Audience Engagement

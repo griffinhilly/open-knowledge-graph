@@ -13,7 +13,7 @@ tags:
 - rings
 - fundamental
 stage: advanced
-status: draft
+status: validated
 ---
 
 # First Isomorphism Theorem for Rings

@@ -15,7 +15,7 @@ tags:
 - intensity
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Novella: Form Between Story and Novel

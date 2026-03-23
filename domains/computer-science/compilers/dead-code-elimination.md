@@ -11,7 +11,7 @@ tags:
 - code-quality
 - dead-code
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Dead Code Elimination

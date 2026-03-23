@@ -17,7 +17,7 @@ tags:
 - security
 - hijacking
 stage: advanced
-status: draft
+status: validated
 ---
 
 # BGP Route Filtering and Hijacking Prevention

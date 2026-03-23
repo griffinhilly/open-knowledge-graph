@@ -13,7 +13,7 @@ tags:
 - solving
 - systematic-method
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Solving Initial Value Problems with Laplace Transforms

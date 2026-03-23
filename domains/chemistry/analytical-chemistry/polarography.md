@@ -15,7 +15,7 @@ tags:
 - diffusion current
 - mercury
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Polarography

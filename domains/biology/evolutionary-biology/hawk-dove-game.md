@@ -14,7 +14,7 @@ tags:
 - mixed-strategy
 - behavior
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Hawk-Dove Game

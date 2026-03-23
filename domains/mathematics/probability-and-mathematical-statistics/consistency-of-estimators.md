@@ -15,7 +15,7 @@ tags:
 - asymptotics
 - estimation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Consistency of Estimators

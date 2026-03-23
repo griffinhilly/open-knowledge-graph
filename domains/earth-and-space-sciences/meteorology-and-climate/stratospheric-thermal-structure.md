@@ -16,7 +16,7 @@ tags:
 - radiation
 - thermal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stratospheric Thermal Structure and Ozone

@@ -17,7 +17,7 @@ tags:
 - wto
 - protectionism
 stage: expert
-status: draft
+status: validated
 ---
 
 # International Trade and Cooperation

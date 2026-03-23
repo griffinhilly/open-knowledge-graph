@@ -14,7 +14,7 @@ tags:
 - rights
 - duties
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Citizenship and Political Participation

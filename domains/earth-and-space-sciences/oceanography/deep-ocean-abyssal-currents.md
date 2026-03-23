@@ -18,7 +18,7 @@ tags:
 - transport
 - nutrients
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Deep Ocean and Abyssal Currents

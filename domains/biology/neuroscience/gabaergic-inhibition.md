@@ -13,7 +13,7 @@ tags:
 - inhibition
 - circuit-balance
 stage: expert
-status: draft
+status: validated
 ---
 
 # GABAergic Inhibition: Balance and Regulation in Neural Circuits

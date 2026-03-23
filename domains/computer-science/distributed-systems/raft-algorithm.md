@@ -15,7 +15,7 @@ tags:
 - consensus
 - leader-based
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Raft Consensus Algorithm

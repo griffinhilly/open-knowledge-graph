@@ -14,7 +14,7 @@ tags:
 - polynomial
 - checksum
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cyclic Redundancy Check (CRC)

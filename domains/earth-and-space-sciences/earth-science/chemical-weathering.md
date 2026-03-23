@@ -19,7 +19,7 @@ tags:
 - oxidation
 - dissolution
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Chemical Weathering

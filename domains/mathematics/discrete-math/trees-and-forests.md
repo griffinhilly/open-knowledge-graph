@@ -14,7 +14,7 @@ tags:
 - graph-theory
 - trees
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Trees, Forests, and Spanning Trees

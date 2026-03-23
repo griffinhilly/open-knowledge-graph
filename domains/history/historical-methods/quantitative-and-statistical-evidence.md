@@ -13,7 +13,7 @@ tags:
 - statistics
 - methods
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Quantitative Methods and Statistical Evidence in History

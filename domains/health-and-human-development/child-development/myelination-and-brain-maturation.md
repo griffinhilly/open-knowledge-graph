@@ -28,7 +28,7 @@ tags:
 - brain-maturation
 - neural-transmission
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Myelination and Brain Maturation

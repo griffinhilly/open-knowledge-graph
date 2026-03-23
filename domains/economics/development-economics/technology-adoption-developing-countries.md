@@ -16,7 +16,7 @@ tags:
 - diffusion
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Technology Adoption and Innovation in Developing Countries

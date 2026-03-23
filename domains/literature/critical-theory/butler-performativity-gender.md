@@ -17,7 +17,7 @@ tags:
 - identity
 - construction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Butler's Performativity: Gender as Repeated Acts

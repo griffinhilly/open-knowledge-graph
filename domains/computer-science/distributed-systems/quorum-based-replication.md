@@ -15,7 +15,7 @@ tags:
 - replication
 - majority
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quorum-Based Replication

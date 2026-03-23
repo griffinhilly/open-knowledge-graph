@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - integration
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lebesgue Integral (Full Construction)

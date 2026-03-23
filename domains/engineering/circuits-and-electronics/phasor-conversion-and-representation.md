@@ -16,7 +16,7 @@ tags:
 - complex-representation
 - frequency-domain
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phasor Conversion and Representation

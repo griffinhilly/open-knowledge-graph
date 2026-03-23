@@ -16,7 +16,7 @@ tags:
 - grayscale
 - contrast
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Value Scale: Light to Dark

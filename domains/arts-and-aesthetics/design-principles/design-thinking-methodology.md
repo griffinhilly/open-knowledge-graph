@@ -14,7 +14,7 @@ tags:
 - methodology
 - problem-solving
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Design Thinking Methodology

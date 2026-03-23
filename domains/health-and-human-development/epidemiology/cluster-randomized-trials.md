@@ -14,7 +14,7 @@ tags:
 - group-level
 - intraclass-correlation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cluster Randomized Trials

@@ -15,7 +15,7 @@ tags:
 - approach-notes
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chromatic Approach Notes in Voice Leading

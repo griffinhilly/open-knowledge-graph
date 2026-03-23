@@ -15,7 +15,7 @@ tags:
 - problem-solving
 - reference
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Using Steam Tables and Thermodynamic Diagrams
 

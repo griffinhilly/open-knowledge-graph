@@ -13,7 +13,7 @@ tags:
 - QC
 - lab management
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quality Control and Quality Assurance in Analytical Labs

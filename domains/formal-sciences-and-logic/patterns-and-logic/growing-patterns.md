@@ -20,7 +20,7 @@ tags:
 - algebra-readiness
 - visual
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Growing Patterns

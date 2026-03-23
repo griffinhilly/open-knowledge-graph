@@ -20,7 +20,7 @@ tags:
 - limits
 - homological-algebra
 stage: expert
-status: draft
+status: validated
 ---
 
 # Additive Categories and Direct Sums

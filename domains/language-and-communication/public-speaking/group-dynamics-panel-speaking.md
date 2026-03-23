@@ -14,7 +14,7 @@ tags:
 - discussion
 - collaboration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Managing Group Dynamics in Panel Discussions

@@ -14,7 +14,7 @@ tags:
 - stochastic
 - power-spectral-density
 stage: expert
-status: draft
+status: validated
 ---
 
 # Random Signals, Autocorrelation, and Power Spectral Density

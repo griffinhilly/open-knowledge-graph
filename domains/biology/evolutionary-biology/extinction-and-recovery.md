@@ -14,7 +14,7 @@ tags:
 - diversity-dynamics
 - macroevolution
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Extinction and Diversification Dynamics

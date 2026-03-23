@@ -13,7 +13,7 @@ tags:
 - collusion
 - repeated-games
 stage: expert
-status: draft
+status: validated
 ---
 
 # Collusion, Cartels, and Stability

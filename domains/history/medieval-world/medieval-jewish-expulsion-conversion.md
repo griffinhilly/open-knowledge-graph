@@ -16,7 +16,7 @@ tags:
 - expulsion
 - conversion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Medieval Jewish Expulsion, Persecution, and Conversion

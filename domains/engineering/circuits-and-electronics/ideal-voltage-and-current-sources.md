@@ -18,7 +18,7 @@ tags:
 - ideal
 - dependent
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ideal Voltage and Current Sources

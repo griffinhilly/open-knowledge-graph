@@ -11,7 +11,7 @@ tags:
 - nuclear-effects
 - atomic-structure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hyperfine Structure: Nuclear-Electron Spin Coupling

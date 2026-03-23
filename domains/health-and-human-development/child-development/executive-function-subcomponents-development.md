@@ -18,7 +18,7 @@ tags:
 - working-memory
 - cognitive-flexibility
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Executive Function Subcomponents Development

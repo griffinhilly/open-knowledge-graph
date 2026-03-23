@@ -17,7 +17,7 @@ tags:
 - development
 - tolerance
 stage: expert
-status: draft
+status: validated
 ---
 
 # T Cell Development and Thymic Selection

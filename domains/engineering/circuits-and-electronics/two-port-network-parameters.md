@@ -12,7 +12,7 @@ tags:
 - two-port-networks
 - network-parameters
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Two-Port Network Parameters and Characterization

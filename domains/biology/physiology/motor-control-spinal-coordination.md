@@ -19,7 +19,7 @@ tags:
 - coordination
 - reflexes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Motor Control and Spinal Coordination

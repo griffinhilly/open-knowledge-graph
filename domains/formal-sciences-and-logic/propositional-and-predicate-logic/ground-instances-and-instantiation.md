@@ -15,7 +15,7 @@ tags:
 - instances
 - substitution
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Ground Instances and Variable Instantiation

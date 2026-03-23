@@ -15,7 +15,7 @@ tags:
 - hypertrophy
 - ventricular-remodeling
 stage: expert
-status: draft
+status: validated
 ---
 
 # Left Ventricular Hypertrophy

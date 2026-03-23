@@ -28,7 +28,7 @@ tags:
 - M+1
 - base peak
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Mass Spectrometry in Organic Chemistry
 

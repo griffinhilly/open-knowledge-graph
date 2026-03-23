@@ -13,7 +13,7 @@ tags:
 - fresnel
 - wavefront
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fresnel Zones and Wavefront Propagation

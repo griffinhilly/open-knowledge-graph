@@ -17,7 +17,7 @@ tags:
 - body features
 - environment
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Adaptation Basics

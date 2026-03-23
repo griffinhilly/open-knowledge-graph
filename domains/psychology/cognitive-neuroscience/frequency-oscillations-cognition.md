@@ -13,7 +13,7 @@ tags:
 - frequency
 - dynamics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Neural Oscillations and Cognitive Dynamics

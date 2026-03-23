@@ -16,7 +16,7 @@ tags:
 - HMG-CoA-reductase
 - sterol-regulation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cholesterol Metabolism and Regulation

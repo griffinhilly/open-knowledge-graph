@@ -15,7 +15,7 @@ tags:
 - truth-telling
 - incentive-compatibility
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Revelation Principle

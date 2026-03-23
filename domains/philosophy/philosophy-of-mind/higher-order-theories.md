@@ -16,7 +16,7 @@ tags:
 - higher-order-representation
 - consciousness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Higher-Order Theories of Consciousness

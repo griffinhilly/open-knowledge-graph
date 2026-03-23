@@ -17,7 +17,7 @@ tags:
 - composition
 - support
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Harmonic Accompaniment Basics

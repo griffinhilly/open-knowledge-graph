@@ -15,7 +15,7 @@ tags:
 - institutions
 - governance
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Role of Institutions in Development

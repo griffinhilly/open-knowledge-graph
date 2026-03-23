@@ -14,7 +14,7 @@ tags:
 - discourse
 - subjectivity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Foucault and Power-Knowledge in Sociology

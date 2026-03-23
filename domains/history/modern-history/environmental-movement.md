@@ -16,7 +16,7 @@ tags:
 - conservation
 - sustainability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Environmental Movement and Ecological Consciousness

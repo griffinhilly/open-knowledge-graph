@@ -18,7 +18,7 @@ tags:
 - geography
 - civilization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Egypt: Geography, the Nile, and Civilization

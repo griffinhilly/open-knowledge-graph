@@ -15,7 +15,7 @@ tags:
 - reading-strategies
 - word-meaning
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Vocabulary from Context

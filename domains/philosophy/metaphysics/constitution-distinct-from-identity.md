@@ -18,7 +18,7 @@ tags:
 - composition
 - relations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constitution and the Constitution Relation

@@ -18,7 +18,7 @@ tags:
 - meaning
 - spatial
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Concrete Poetry and Visual Form

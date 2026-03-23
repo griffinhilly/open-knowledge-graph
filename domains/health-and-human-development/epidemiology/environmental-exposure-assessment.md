@@ -15,7 +15,7 @@ tags:
 - biomarkers
 - environmental-health
 stage: expert
-status: draft
+status: validated
 ---
 
 # Environmental Exposure Assessment

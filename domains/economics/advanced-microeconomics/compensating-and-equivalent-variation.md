@@ -17,7 +17,7 @@ tags:
 - consumer-theory
 - policy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Compensating and Equivalent Variation: Welfare Measurement

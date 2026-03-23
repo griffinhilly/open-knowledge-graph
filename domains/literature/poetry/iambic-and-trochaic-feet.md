@@ -13,7 +13,7 @@ tags:
 - iambic
 - trochaic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Iambic and Trochaic Feet: Common Patterns

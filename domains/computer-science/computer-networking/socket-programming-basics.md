@@ -15,7 +15,7 @@ tags:
 - udp-client
 - bind-listen-accept
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Socket Programming and Network APIs

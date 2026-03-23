@@ -12,7 +12,7 @@ tags:
 - reduced-mass
 - orbital-mechanics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reduced Mass Problem

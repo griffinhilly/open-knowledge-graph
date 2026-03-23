@@ -16,7 +16,7 @@ tags:
 - specifications
 - content-validity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Test Development and Specification Tables

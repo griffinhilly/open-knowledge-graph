@@ -13,7 +13,7 @@ tags:
 - theory
 - analysis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cross-Cultural Comparison and Typologies

@@ -16,7 +16,7 @@ tags:
 - web-skills
 - information-retrieval
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Advanced Search Operators and Filters

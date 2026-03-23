@@ -11,7 +11,7 @@ tags:
 - hazards
 - risk-assessment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Volcanic Hazards: Pyroclastic Flows, Lahars, and Ash Falls

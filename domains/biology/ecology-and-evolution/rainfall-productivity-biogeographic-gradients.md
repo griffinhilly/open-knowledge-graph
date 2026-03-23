@@ -18,7 +18,7 @@ tags:
 - diversity-gradient
 - biogeography
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rainfall, Productivity, and Biogeographic Diversity Gradients

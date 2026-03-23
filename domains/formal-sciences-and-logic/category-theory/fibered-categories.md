@@ -22,7 +22,7 @@ tags:
 - descent
 - cleavage
 stage: expert
-status: draft
+status: validated
 ---
 # Fibered Categories
 

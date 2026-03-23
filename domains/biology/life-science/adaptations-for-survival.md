@@ -5,7 +5,7 @@ domain: biology
 course: life-science
 prerequisites:
 - id: natural-selection-basics
-  type: hard
+  type: soft
 - id: adaptation-basics
   type: hard
 - id: what-is-a-habitat
@@ -22,7 +22,7 @@ tags:
 - camouflage
 - mimicry
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Adaptations for Survival
 

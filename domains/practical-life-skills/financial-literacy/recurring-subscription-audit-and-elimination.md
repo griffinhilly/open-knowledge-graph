@@ -12,7 +12,7 @@ tags:
 - subscriptions
 - spending
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Recurring Subscription Audit and Elimination

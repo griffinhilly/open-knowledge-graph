@@ -15,7 +15,7 @@ tags:
 - chord-selection
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonizing Melody: Voice Leading Choices

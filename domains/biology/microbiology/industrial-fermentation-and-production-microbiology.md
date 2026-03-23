@@ -13,7 +13,7 @@ tags:
 - biotechnology
 - production
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Industrial Fermentation and Production Microbiology

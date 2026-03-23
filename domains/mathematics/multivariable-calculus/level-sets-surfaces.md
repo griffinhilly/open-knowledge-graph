@@ -17,7 +17,7 @@ tags:
 - surfaces
 - implicit-functions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Level Sets and Surfaces in 3D

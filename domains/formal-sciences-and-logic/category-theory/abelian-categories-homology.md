@@ -18,7 +18,7 @@ tags:
 - kernel
 - cokernel
 stage: expert
-status: draft
+status: validated
 ---
 
 # Abelian Categories and Homological Algebra

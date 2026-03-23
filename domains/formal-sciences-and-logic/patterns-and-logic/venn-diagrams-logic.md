@@ -16,7 +16,7 @@ tags:
 - classification
 - visual
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Venn Diagrams

@@ -19,7 +19,7 @@ tags:
 - respiration
 - circulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Brainstem Integration of Vital Functions

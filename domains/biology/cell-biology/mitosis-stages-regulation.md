@@ -15,7 +15,7 @@ tags:
 - division
 - cytokinesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mitosis: Regulated Chromosome Distribution

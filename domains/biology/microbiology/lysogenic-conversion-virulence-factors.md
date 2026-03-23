@@ -13,7 +13,7 @@ tags:
 - virulence-factors
 - phage-genes
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Lysogenic Conversion and Phage-Encoded Virulence

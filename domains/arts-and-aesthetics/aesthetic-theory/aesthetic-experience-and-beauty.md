@@ -13,7 +13,7 @@ tags:
 - beauty
 - experience
 stage: expert
-status: draft
+status: validated
 ---
 
 # Aesthetic Experience and Beauty

@@ -16,7 +16,7 @@ tags:
 - expectation
 - meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Genre Conventions and Literary Meaning

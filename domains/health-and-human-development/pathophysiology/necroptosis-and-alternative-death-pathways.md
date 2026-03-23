@@ -17,7 +17,7 @@ tags:
 - programmed-necrosis
 - inflammation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Necroptosis and Alternative Cell Death Pathways

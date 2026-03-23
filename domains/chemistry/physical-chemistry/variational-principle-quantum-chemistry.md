@@ -17,7 +17,7 @@ tags:
 - approximation
 - basis-sets
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Variational Principle and Basis Set Methods

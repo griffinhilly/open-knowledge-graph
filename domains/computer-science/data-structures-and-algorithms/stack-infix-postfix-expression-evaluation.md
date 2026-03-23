@@ -11,7 +11,7 @@ tags:
 - expression
 - parsing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Expression Evaluation: Infix, Postfix, Prefix

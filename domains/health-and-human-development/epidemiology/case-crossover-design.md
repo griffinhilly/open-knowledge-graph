@@ -15,7 +15,7 @@ tags:
 - acute-exposures
 - within-subject-comparison
 stage: expert
-status: draft
+status: validated
 ---
 
 # Case-Crossover Design

@@ -17,7 +17,7 @@ tags:
 - ZF minus infinity
 - cumulative hierarchy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hereditarily Finite Sets

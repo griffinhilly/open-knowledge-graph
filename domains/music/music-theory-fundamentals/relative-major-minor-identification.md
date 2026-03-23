@@ -17,7 +17,7 @@ tags:
 - major-minor-relationship
 - relative
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Identifying Relative Major and Minor Keys

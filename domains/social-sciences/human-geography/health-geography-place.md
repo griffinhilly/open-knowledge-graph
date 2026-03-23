@@ -16,7 +16,7 @@ tags:
 - place
 - inequality
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Health Geography and Place-Based Wellbeing

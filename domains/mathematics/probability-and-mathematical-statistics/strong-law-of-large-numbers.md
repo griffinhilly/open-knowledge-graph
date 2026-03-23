@@ -17,7 +17,7 @@ tags:
 - limit-theorems
 - probability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Strong Law of Large Numbers

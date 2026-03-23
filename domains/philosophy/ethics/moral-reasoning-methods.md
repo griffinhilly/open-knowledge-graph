@@ -15,7 +15,7 @@ tags:
 - reasoning
 - justification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moral Reasoning and Justification

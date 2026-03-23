@@ -15,7 +15,7 @@ tags:
 - ultrafiltration
 - afferent-efferent-arterioles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Glomerular Filtration and Filtration Rate Regulation

@@ -16,7 +16,7 @@ tags:
 - crisis
 - peak-tension
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Climax and Central Crisis

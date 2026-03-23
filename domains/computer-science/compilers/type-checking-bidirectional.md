@@ -14,7 +14,7 @@ tags:
 - type-checking
 - type-inference
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bidirectional Type Checking

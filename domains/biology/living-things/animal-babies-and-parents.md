@@ -15,7 +15,7 @@ tags:
 - offspring
 - animal families
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Animal Babies and Parents

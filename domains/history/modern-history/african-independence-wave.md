@@ -17,7 +17,7 @@ tags:
 - 1960s
 - nationalism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # African Independence and the 1960s Transformation

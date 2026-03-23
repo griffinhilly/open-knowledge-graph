@@ -14,7 +14,7 @@ tags:
 - jacobian
 - determinant
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Change of Variables and the Jacobian

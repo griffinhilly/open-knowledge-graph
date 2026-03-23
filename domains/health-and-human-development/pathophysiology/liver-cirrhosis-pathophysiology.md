@@ -19,7 +19,7 @@ tags:
 - liver-disease
 - portal-hypertension
 stage: expert
-status: draft
+status: validated
 ---
 
 # Liver Cirrhosis and Portal Hypertension

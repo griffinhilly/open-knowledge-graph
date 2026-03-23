@@ -16,7 +16,7 @@ tags:
 - methodology
 - global
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Transnational and Connected History Methods

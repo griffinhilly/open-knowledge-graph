@@ -12,7 +12,7 @@ tags:
 - cooling
 - maintenance
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # HVAC System Basics and Filter Maintenance

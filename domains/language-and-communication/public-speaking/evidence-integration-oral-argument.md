@@ -16,7 +16,7 @@ tags:
 - citation
 - orality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Evidence Integration in Oral Argument

@@ -16,7 +16,7 @@ tags:
 - adhesion
 - cell-surface
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bacterial Flagella, Pili, and Cell-Surface Structures

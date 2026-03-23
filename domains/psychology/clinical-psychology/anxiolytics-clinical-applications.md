@@ -11,7 +11,7 @@ tags:
 - benzodiazepine
 - treatment
 stage: expert
-status: draft
+status: validated
 ---
 
 # Anxiolytics: Clinical Application and Limitations

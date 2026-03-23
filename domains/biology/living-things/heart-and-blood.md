@@ -16,7 +16,7 @@ tags:
 - circulation
 - human body
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Heart and Blood

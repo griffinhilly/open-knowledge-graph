@@ -15,7 +15,7 @@ tags:
 - probability-assignments
 - prior-belief
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Permissible Probability Distributions

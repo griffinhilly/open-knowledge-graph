@@ -16,7 +16,7 @@ tags:
 - propositions
 - abstracta
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Abstract Objects

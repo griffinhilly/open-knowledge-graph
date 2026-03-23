@@ -18,7 +18,7 @@ tags:
 - women
 - intersectionality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Feminist International Relations and Gender Analysis

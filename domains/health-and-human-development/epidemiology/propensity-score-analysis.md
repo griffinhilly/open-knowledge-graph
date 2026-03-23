@@ -16,7 +16,7 @@ tags:
 - confounding
 - observational-studies
 stage: expert
-status: draft
+status: validated
 ---
 
 # Propensity Score Analysis

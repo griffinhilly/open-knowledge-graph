@@ -21,7 +21,7 @@ tags:
 - inhibition
 - prefrontal-cortex
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Executive Function Development: Components and Trajectories

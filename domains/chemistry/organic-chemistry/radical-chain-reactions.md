@@ -15,7 +15,7 @@ tags:
 - chain-reaction
 - initiation-propagation-termination
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Free Radical Halogenation and Chain Reactions

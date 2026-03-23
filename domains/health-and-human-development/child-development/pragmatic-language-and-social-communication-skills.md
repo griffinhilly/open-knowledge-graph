@@ -13,7 +13,7 @@ tags:
 - social-communication
 - pragmatics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pragmatic Language and Social Communication Skills

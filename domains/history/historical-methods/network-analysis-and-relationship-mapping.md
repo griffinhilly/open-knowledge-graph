@@ -14,7 +14,7 @@ tags:
 - connections
 - mapping
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Network Analysis and Relationship Mapping

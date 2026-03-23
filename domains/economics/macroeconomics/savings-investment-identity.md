@@ -17,7 +17,7 @@ tags:
 - identity
 - national-accounts
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Savings-Investment Identity

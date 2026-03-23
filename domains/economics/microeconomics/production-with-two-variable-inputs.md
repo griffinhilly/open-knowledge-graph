@@ -13,7 +13,7 @@ tags:
 - inputs
 - isoquants
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Production with Two Variable Inputs: Isoquants

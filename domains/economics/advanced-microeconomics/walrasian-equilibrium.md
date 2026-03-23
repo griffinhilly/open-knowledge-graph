@@ -22,7 +22,7 @@ tags:
 - markets
 - pricing
 stage: expert
-status: draft
+status: validated
 ---
 
 # Walrasian General Equilibrium

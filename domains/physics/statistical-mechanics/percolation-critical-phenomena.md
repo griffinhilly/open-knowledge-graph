@@ -15,7 +15,7 @@ tags:
 - networks
 - phase-transitions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Percolation and Critical Phenomena

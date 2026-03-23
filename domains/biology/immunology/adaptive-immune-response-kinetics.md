@@ -18,7 +18,7 @@ tags:
 - antibody-titers
 - T-cell-expansion
 stage: expert
-status: draft
+status: validated
 ---
 
 # Kinetics of Adaptive Immune Response and Response Phases

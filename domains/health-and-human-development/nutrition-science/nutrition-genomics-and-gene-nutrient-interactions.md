@@ -18,7 +18,7 @@ tags:
 - personalized-nutrition
 - precision
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nutrition Genomics and Gene-Nutrient Interactions

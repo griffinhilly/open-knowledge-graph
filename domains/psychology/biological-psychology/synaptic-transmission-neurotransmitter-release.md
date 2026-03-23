@@ -21,7 +21,7 @@ tags:
 - communication
 - vesicle-dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Synaptic Transmission and Neurotransmitter Release

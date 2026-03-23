@@ -18,7 +18,7 @@ tags:
 - frequency
 - wavelength
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Wave Properties: Amplitude, Frequency, and Wavelength
 

@@ -16,7 +16,7 @@ tags:
 - foundations
 - flows
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Savings and Investment Accounting Identity

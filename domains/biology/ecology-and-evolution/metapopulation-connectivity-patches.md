@@ -20,7 +20,7 @@ tags:
 - colonization
 - extinction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metapopulation Connectivity and Patch Dynamics

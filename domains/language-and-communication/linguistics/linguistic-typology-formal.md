@@ -14,7 +14,7 @@ tags:
 - variation
 - universals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Formal Linguistic Typology and Cross-Linguistic Variation

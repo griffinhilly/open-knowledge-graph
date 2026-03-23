@@ -17,7 +17,7 @@ tags:
 - beaches
 - deltas
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Coastal Sediment Transport Dynamics

@@ -13,7 +13,7 @@ tags:
 - error-reduction
 - rates
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Order of Convergence

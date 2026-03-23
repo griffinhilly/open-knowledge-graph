@@ -18,7 +18,7 @@ tags:
 - immune-injury
 - proteinuria
 stage: expert
-status: draft
+status: validated
 ---
 
 # Glomerulonephritis: Immune and Non-Immune Mechanisms

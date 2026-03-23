@@ -17,7 +17,7 @@ tags:
 - acceptance
 - examples
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Undecidable Languages: Examples and Techniques

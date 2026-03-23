@@ -29,7 +29,7 @@ tags:
 - theory
 - propagation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Seismic Ray Theory and Ray Tracing

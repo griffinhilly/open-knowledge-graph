@@ -16,7 +16,7 @@ tags:
 - igneous
 - differentiation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bowen's Reaction Series and Fractional Crystallization

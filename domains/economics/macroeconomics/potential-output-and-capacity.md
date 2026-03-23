@@ -18,7 +18,7 @@ tags:
 - capacity
 - long-run
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Potential Output and Economic Capacity

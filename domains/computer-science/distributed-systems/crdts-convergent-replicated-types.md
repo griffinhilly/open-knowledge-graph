@@ -13,7 +13,7 @@ tags:
 - replicated-data-types
 - eventual-consistency
 stage: advanced
-status: draft
+status: validated
 ---
 
 # CRDTs: Conflict-Free Replicated Data Types

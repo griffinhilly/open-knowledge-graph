@@ -18,7 +18,7 @@ tags:
 - multipole-expansion
 - systematic-expansion
 stage: expert
-status: draft
+status: validated
 ---
 
 # Multipole Expansion of Electromagnetic Fields

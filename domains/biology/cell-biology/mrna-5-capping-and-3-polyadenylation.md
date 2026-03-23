@@ -15,7 +15,7 @@ tags:
 - capping
 - polyadenylation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # mRNA 5' Capping and 3' Polyadenylation

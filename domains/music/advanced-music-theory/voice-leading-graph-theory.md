@@ -22,7 +22,7 @@ tags:
 - graph
 - topology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Voice-Leading as Graph Optimization

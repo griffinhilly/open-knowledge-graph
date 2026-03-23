@@ -13,7 +13,7 @@ tags:
 - functional-form
 - testing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Specification Error: RESET Test

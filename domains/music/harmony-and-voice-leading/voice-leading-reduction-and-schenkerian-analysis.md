@@ -15,7 +15,7 @@ tags:
 - structure
 - levels
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Voice-Leading Reduction and Schenkerian Analysis

@@ -17,7 +17,7 @@ tags:
 - nineteenth-century
 - modernist-rebellion
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Salon Culture, Academic Training, and Artistic Authority
 

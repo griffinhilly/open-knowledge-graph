@@ -21,7 +21,7 @@ tags:
 - niche
 - resources
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Competition and Niches
 

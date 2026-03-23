@@ -16,7 +16,7 @@ tags:
 - assessment-process
 - rapport
 stage: expert
-status: draft
+status: validated
 ---
 
 # Clinical Interviewing and Diagnostic Processes

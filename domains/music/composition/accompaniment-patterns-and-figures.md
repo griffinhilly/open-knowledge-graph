@@ -17,7 +17,7 @@ tags:
 - pattern
 - composition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Accompaniment Patterns and Figures

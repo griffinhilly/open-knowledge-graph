@@ -17,7 +17,7 @@ tags:
 - voice-leading
 - chromatic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Secondary Dominant Voice Leading

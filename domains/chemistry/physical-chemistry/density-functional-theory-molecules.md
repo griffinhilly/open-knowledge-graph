@@ -16,7 +16,7 @@ tags:
 - electronic-structure
 - functional
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Density Functional Theory for Molecular Structure

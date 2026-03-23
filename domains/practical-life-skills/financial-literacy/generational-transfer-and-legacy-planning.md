@@ -18,7 +18,7 @@ tags:
 - generational
 - transfer
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Generational Transfer and Legacy Planning

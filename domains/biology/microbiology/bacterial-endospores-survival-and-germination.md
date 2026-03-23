@@ -17,7 +17,7 @@ tags:
 - germination
 - dormancy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bacterial Endospore Formation, Structure, and Germination

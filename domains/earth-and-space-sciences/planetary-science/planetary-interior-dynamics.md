@@ -19,7 +19,7 @@ tags:
 - convection
 - heat-flow
 stage: expert
-status: draft
+status: validated
 ---
 
 # Planetary Interior Dynamics

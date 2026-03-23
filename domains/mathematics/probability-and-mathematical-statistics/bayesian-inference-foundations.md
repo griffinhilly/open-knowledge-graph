@@ -16,7 +16,7 @@ tags:
 - probability
 - statistics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bayesian Inference Foundations

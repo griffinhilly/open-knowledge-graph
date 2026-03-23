@@ -16,7 +16,7 @@ tags:
 - audience
 - rhetoric
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diction and Register in Argument

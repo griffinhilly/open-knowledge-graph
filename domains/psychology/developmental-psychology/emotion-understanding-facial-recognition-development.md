@@ -15,7 +15,7 @@ tags:
 - emotion-understanding
 - social-cognition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Emotion Understanding and Facial Recognition Development

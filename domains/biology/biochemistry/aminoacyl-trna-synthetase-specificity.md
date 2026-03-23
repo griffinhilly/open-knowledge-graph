@@ -15,7 +15,7 @@ tags:
 - aminoacylation
 - specificity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Aminoacyl-tRNA Synthetase Specificity

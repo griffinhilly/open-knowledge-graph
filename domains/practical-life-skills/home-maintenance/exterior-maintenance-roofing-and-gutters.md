@@ -12,7 +12,7 @@ tags:
 - gutters
 - maintenance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Exterior Maintenance: Roofing and Gutters

@@ -13,7 +13,7 @@ tags:
 - knowledge-truth
 - operator-properties
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Factive Knowledge Operator

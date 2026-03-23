@@ -15,7 +15,7 @@ tags:
 - objects
 - evidence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interpreting Material Culture and Physical Evidence

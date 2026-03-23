@@ -14,7 +14,7 @@ tags:
 - everyday-life
 - methods
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ethnomethodology

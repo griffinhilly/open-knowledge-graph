@@ -14,7 +14,7 @@ tags:
 - rules
 - foundations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Probability Rules: Addition, Multiplication, and Complement

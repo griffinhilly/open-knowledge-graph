@@ -14,7 +14,7 @@ tags:
 - technique
 - forward
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Direct Proof

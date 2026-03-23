@@ -12,7 +12,7 @@ tags:
 - rationality
 - perspectival
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Constructivism

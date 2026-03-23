@@ -15,7 +15,7 @@ tags:
 - software
 - windows-mac-linux-android-ios
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Operating System Fundamentals

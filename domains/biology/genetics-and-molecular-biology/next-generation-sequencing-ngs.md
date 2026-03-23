@@ -17,7 +17,7 @@ tags:
 - dna-sequencing
 - high-throughput-sequencing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Next Generation Sequencing Technologies and Platforms

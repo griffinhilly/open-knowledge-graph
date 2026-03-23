@@ -14,7 +14,7 @@ tags:
 - allomorphy
 - paradigms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Suppletion (Irregular Forms)

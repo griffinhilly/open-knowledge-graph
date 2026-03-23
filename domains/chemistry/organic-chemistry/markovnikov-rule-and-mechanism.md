@@ -16,7 +16,7 @@ tags:
 - carbocation
 - mechanistic-selectivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Markovnikov's Rule and Electrophilic Addition Mechanisms

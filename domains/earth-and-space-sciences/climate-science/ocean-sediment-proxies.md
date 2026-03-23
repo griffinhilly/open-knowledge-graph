@@ -17,7 +17,7 @@ tags:
 - geochemistry
 - dating
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ocean Sediment Paleoclimate Proxies and Archives

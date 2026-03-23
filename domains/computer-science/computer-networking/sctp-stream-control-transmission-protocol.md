@@ -19,7 +19,7 @@ tags:
 - reliable-delivery
 - streaming
 stage: advanced
-status: draft
+status: validated
 ---
 
 # SCTP: Stream Control Transmission Protocol

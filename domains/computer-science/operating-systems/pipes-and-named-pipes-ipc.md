@@ -15,7 +15,7 @@ tags:
 - pipes
 - fifo
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pipes and Named Pipes (FIFOs) for IPC

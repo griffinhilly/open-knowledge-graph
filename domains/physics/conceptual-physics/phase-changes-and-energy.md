@@ -19,7 +19,7 @@ tags:
 - boiling
 - latent-heat
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Phase Changes and Energy
 

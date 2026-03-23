@@ -14,7 +14,7 @@ tags:
 - measurement
 - estimation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Estimating Length Before Measuring

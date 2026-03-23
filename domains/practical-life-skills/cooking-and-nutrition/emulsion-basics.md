@@ -16,7 +16,7 @@ tags:
 - sauce
 - chemistry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Emulsions: Combining Oil and Water

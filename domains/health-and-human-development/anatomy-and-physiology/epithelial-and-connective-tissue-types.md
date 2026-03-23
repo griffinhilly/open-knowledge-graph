@@ -20,7 +20,7 @@ tags:
 - connective
 - histology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Epithelial and Connective Tissue Types

@@ -10,7 +10,7 @@ tags:
 - number-properties
 - patterns
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Even and Odd Numbers

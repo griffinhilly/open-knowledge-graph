@@ -16,7 +16,7 @@ tags:
 - open-balls
 - induced-topology
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Metric Topology

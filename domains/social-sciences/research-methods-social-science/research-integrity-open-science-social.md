@@ -12,7 +12,7 @@ tags:
 - reproducibility
 - preregistration
 stage: expert
-status: draft
+status: validated
 ---
 
 # Research Integrity and Open Science: Transparency and Reproducibility

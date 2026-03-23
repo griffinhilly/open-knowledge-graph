@@ -23,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Defining and Calling Functions
 
 ## Core Idea

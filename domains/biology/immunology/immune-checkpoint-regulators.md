@@ -19,7 +19,7 @@ tags:
 - T-cell-exhaustion
 - immune-regulation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Immune Checkpoint Molecules and T Cell Exhaustion

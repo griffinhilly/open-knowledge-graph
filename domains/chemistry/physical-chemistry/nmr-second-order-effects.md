@@ -15,7 +15,7 @@ tags:
 - second-order-effects
 - quantum-effects
 stage: advanced
-status: draft
+status: validated
 ---
 
 # NMR Second-Order Effects and Complex Spectra

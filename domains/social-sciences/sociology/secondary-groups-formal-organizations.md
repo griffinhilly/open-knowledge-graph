@@ -13,7 +13,7 @@ tags:
 - organizations
 - institutions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Secondary Groups and Formal Organization

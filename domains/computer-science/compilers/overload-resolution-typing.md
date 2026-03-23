@@ -13,7 +13,7 @@ tags:
 - polymorphism
 - overloading
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Overload Resolution in Type Systems

@@ -10,7 +10,7 @@ prerequisites:
     type: hard
 tags: ["decision-theory", "causation", "evidence", "rationality", "philosophy"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

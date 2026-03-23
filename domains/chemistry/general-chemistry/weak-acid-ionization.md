@@ -22,7 +22,7 @@ tags:
 - weak-acid
 - small-x-approximation
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Weak Acid Ionization
 

@@ -16,7 +16,7 @@ tags:
 - coordination
 - syntax
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Correlative Conjunctions: Paired Connectors

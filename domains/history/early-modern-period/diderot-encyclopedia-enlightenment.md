@@ -15,7 +15,7 @@ tags:
 - knowledge
 - enlightenment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diderot's Encyclopedia and Enlightenment Knowledge

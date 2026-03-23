@@ -4,9 +4,9 @@ title: Climate vs. Weather
 domain: earth-and-space-sciences
 course: earth-science
 prerequisites:
-- id: basic-weather
+- id: what-is-weather
   type: hard
-- id: seasons-and-sunlight
+- id: what-causes-seasons
   type: soft
 builds-toward:
 - climate-zones-and-biomes
@@ -19,7 +19,7 @@ tags:
 - averages
 - long-term
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Climate vs. Weather

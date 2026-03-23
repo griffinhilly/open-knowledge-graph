@@ -12,7 +12,7 @@ tags:
 - sobolev-spaces
 - pde
 stage: expert
-status: draft
+status: validated
 ---
 
 # Introduction to Sobolev Spaces

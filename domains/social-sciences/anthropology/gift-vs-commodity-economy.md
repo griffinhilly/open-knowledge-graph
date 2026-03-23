@@ -17,7 +17,7 @@ tags:
 - reciprocity
 - market
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gift Exchange Versus Commodity Exchange

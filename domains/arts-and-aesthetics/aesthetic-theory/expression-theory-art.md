@@ -16,7 +16,7 @@ tags:
 - content
 - artist
 stage: expert
-status: draft
+status: validated
 ---
 
 # Expression Theory of Art

@@ -20,7 +20,7 @@ tags:
 - human-impact
 - climate-change
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Human Impact on Ecosystems
 

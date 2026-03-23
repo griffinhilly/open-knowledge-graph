@@ -13,7 +13,7 @@ tags:
 - generalization
 - external
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # External Validity and Generalization of Findings

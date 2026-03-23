@@ -14,7 +14,7 @@ tags:
 - spacing
 - readability
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Leading and Line Spacing

@@ -16,7 +16,7 @@ tags:
 - rotation
 - energy
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Rotational Kinetic Energy
 

@@ -13,7 +13,7 @@ tags:
 - divisor-functions
 - multiplicative
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Divisor Functions and Multiplicative Functions

@@ -10,7 +10,7 @@ prerequisites:
     type: soft
 tags: ["decision-theory", "information", "exploration", "exploitation", "VoI"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

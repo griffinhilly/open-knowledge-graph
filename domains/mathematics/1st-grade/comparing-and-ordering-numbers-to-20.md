@@ -15,7 +15,7 @@ tags:
 - ordering
 - less-greater-equal
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Comparing and Ordering Numbers to 20

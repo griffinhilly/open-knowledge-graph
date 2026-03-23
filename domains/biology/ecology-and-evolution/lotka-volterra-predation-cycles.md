@@ -20,7 +20,7 @@ tags:
 - cycles
 - oscillation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lotka-Volterra Predator-Prey Dynamics and Cycles

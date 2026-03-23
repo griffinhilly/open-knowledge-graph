@@ -15,7 +15,7 @@ tags:
 - pressure-drop
 - pipe-flow
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Friction Factor and the Darcy-Weisbach Equation

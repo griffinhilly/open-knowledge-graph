@@ -15,7 +15,7 @@ tags:
 - steam-power
 - two-phase
 stage: formal-systems
-status: draft
+status: validated
 ---
 # The Rankine Cycle and Steam Power Plants
 

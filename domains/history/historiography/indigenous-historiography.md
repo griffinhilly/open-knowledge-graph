@@ -17,7 +17,7 @@ tags:
 - oral
 - perspective
 stage: expert
-status: draft
+status: validated
 ---
 
 # Indigenous Perspectives and Historiography

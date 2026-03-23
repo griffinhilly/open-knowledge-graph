@@ -16,7 +16,7 @@ tags:
 - interpolation
 - filter-banks
 stage: expert
-status: draft
+status: validated
 ---
 
 # Multirate Signal Processing and Filter Banks

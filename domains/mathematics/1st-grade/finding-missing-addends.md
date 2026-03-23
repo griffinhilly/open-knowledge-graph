@@ -16,7 +16,7 @@ tags:
 - inverse
 - equations
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Finding Missing Addends

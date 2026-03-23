@@ -16,7 +16,7 @@ tags:
 - metamorphic
 - transformation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # The Rock Cycle

@@ -15,7 +15,7 @@ tags:
 - table-construction
 - state-machines
 stage: advanced
-status: draft
+status: validated
 ---
 
 # LR State Machine and Table Construction

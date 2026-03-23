@@ -13,7 +13,7 @@ tags:
 - nitro-group
 - meisenheimer-complex
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nucleophilic Aromatic Substitution (SNAr)

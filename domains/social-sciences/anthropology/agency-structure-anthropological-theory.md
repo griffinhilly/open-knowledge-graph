@@ -18,7 +18,7 @@ tags:
 - action
 - practice
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Agency and Structure in Anthropological Theory

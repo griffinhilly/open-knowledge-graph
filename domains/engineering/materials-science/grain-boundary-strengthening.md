@@ -16,7 +16,7 @@ tags:
 - nanocrystalline-materials
 - grain-boundaries
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Grain Boundary Strengthening

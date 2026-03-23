@@ -15,7 +15,7 @@ tags:
 - productivity
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Health, Nutrition, and Economic Development

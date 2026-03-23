@@ -15,7 +15,7 @@ tags:
 - underdetermination
 - empiricism
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Duhem-Quine Thesis

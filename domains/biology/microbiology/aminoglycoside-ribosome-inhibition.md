@@ -15,7 +15,7 @@ tags:
 - ribosome
 - protein-synthesis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Aminoglycoside Antibiotics and Ribosomal Inhibition

@@ -16,7 +16,7 @@ tags:
 - ordering
 - causality
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Logical Clocks and Event Ordering

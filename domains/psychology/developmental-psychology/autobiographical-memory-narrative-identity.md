@@ -12,7 +12,7 @@ tags:
 - identity
 - self-concept
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Autobiographical Memory and Narrative Identity Formation

@@ -15,7 +15,7 @@ tags:
 - fieldwork
 - epistemology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Emic and Etic Perspectives
 

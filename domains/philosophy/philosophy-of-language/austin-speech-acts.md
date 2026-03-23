@@ -16,7 +16,7 @@ tags:
 - Austin
 - action
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Austin's Theory of Speech Acts

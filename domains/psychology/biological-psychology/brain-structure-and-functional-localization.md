@@ -15,7 +15,7 @@ tags:
 - function
 - localization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Brain Structure and Functional Localization

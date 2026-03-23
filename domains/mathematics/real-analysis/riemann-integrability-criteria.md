@@ -16,7 +16,7 @@ tags:
 - criteria
 - discontinuities
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Criteria for Riemann Integrability

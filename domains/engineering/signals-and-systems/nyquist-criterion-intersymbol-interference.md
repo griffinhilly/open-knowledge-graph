@@ -16,7 +16,7 @@ tags:
 - pulse-shaping
 - communication
 stage: expert
-status: draft
+status: validated
 ---
 
 # Nyquist Criterion for Zero Intersymbol Interference

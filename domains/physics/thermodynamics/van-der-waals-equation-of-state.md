@@ -14,7 +14,7 @@ tags:
 - intermolecular-forces
 - phase-transitions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The van der Waals Equation of State

@@ -19,7 +19,7 @@ tags:
 - limit-theorems
 - probability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Central Limit Theorem (Rigorous via Characteristic Functions)

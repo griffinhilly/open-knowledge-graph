@@ -19,7 +19,7 @@ tags:
 - enhancers
 - constraint
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Evolution of Gene Regulation and Cis-Elements

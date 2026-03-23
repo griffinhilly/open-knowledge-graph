@@ -11,7 +11,7 @@ tags:
 - irreversibility
 - lost-work
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Exergy Destruction and Sources of Irreversibility

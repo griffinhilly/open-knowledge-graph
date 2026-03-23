@@ -16,7 +16,7 @@ tags:
 - cascade
 - opsonization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Complement System and Activation Pathways

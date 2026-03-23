@@ -16,7 +16,7 @@ tags:
 - irt
 - comparison
 stage: expert
-status: draft
+status: validated
 ---
 
 # Classical and IRT-Based Item Analysis Compared

@@ -17,7 +17,7 @@ tags:
 - available-work
 - spontaneity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Helmholtz and Gibbs Free Energy: Maximum Work

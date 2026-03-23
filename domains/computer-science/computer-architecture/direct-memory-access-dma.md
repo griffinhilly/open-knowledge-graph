@@ -15,7 +15,7 @@ tags:
 - io-transfer
 - memory-access
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Direct Memory Access (DMA) Controllers and Design

@@ -6,19 +6,18 @@ course: programming-fundamentals
 prerequisites:
 - id: functions-decomposing-problems
   type: hard
-- id: return-values-and-function-returns
+- id: return-values
   type: hard
 builds-toward:
-- recursion-thinking-recursively
+- recursion-basics
 - testing-and-validation-basics
 tags:
 - functions
 - design
 - contracts
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Function Design and Contracts
 
 ## Core Idea

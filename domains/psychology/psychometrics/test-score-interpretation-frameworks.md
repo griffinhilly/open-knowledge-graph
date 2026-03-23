@@ -19,7 +19,7 @@ tags:
 - ipsative
 - frameworks
 stage: expert
-status: draft
+status: validated
 ---
 
 # Test Score Interpretation Frameworks

@@ -15,7 +15,7 @@ tags:
 - person-centered
 - profiles
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mixture Models and Latent Class Analysis in Testing

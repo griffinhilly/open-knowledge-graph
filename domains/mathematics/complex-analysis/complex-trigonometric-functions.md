@@ -13,7 +13,7 @@ tags:
 - entire-function
 - periodicity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Complex Trigonometric Functions

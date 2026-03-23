@@ -16,7 +16,7 @@ tags:
 - battering
 - safety
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Frying and Deep Frying

@@ -15,7 +15,7 @@ tags:
 - multiples
 - equity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Equity Valuation Using Multiples

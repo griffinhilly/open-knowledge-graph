@@ -15,7 +15,7 @@ tags:
 - functions
 - path-independence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # State Variables and Functions

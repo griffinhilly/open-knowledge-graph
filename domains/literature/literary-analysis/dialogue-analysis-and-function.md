@@ -18,7 +18,7 @@ tags:
 - subtext
 - function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dialogue: Analysis and Narrative Function

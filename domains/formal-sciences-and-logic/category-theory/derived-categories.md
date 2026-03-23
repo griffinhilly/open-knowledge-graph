@@ -18,7 +18,7 @@ tags:
 - localization
 - derived-equivalence
 stage: expert
-status: draft
+status: validated
 ---
 
 # Derived Categories and Derived Equivalences

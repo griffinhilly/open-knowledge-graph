@@ -18,7 +18,7 @@ tags:
 - power
 - milgram
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Obedience to Authority and Legitimacy

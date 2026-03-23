@@ -14,7 +14,7 @@ tags:
 - chi-square
 - independence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chi-Square Test for Independence

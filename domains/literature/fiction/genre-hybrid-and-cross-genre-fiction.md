@@ -15,7 +15,7 @@ tags:
 - cross-genre
 - blending
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Genre Hybrid and Cross-Genre Fiction

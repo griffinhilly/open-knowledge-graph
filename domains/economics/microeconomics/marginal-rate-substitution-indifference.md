@@ -17,7 +17,7 @@ tags:
 - substitution
 - preference-intensity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Marginal Rate of Substitution and Indifference Curves

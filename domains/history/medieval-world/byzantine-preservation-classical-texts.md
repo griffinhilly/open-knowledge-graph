@@ -14,7 +14,7 @@ tags:
 - preservation
 - intellectual
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Byzantine Preservation and Transmission of Classical Learning

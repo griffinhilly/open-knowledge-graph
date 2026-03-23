@@ -14,7 +14,7 @@ tags:
 - integration
 - error-control
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Composite Quadrature Rules

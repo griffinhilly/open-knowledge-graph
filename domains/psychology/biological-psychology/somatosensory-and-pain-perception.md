@@ -16,7 +16,7 @@ tags:
 - proprioception
 - nociception
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Somatosensory and Pain Perception

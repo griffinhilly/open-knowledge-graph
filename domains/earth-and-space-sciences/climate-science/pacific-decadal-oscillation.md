@@ -15,7 +15,7 @@ tags:
 - ocean-climate
 - variability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pacific Decadal Oscillation and Multi-Decadal Variability

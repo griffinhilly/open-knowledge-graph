@@ -15,7 +15,7 @@ tags:
 - sequences
 - number-sense
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Patterns in Addition and Multiplication

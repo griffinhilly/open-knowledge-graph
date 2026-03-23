@@ -18,7 +18,7 @@ tags:
 - phosphoric-acid
 - sulfuric-acid
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Polyprotic Acids
 

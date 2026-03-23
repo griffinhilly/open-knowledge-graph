@@ -16,7 +16,7 @@ tags:
 - MVD
 - normalization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multivalued Dependencies and Fourth Normal Form

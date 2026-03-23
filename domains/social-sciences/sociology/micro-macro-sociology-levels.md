@@ -14,7 +14,7 @@ tags:
 - levels-of-analysis
 - methodology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Micro and Macro Sociology: Levels of Analysis

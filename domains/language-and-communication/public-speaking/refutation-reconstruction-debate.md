@@ -16,7 +16,7 @@ tags:
 - argument
 - reconstruction
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Refutation Through Reconstruction in Debate
 

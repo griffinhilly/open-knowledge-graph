@@ -15,7 +15,7 @@ tags:
 - thermodynamic-relation
 - coexistence
 stage: expert
-status: draft
+status: validated
 ---
 
 # Clausius-Clapeyron Equation

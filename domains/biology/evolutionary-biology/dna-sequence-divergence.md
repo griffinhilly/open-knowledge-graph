@@ -11,7 +11,7 @@ tags:
 - sequence-comparison
 - evolutionary-distance
 stage: advanced
-status: draft
+status: validated
 ---
 
 # DNA Sequence Divergence and Phylogenetic Distance

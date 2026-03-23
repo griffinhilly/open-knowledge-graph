@@ -14,7 +14,7 @@ tags:
 - pathfinding
 - heuristics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # A* Search Algorithm

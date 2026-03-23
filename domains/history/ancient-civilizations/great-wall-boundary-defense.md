@@ -13,7 +13,7 @@ tags:
 - military
 - china
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Great Wall of China and Border Defense

@@ -15,7 +15,7 @@ tags:
 - solvent extraction
 - back extraction
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Liquid-Liquid Extraction

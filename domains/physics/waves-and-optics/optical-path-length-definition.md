@@ -15,7 +15,7 @@ tags:
 - phase
 - interference
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Optical Path Length and Its Role in Interference

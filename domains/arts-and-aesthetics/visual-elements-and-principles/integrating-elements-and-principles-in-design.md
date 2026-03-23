@@ -31,7 +31,7 @@ tags:
 - composition
 - synthesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Integrating Elements and Principles in Design

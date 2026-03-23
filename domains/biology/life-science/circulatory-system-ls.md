@@ -19,7 +19,7 @@ tags:
 - veins
 - circulation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # The Circulatory System
 

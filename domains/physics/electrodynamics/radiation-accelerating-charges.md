@@ -16,7 +16,7 @@ tags:
 - accelerating-charges
 - energy-loss
 stage: expert
-status: draft
+status: validated
 ---
 
 # Radiation from Accelerating Charges

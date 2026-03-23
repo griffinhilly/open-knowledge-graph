@@ -13,7 +13,7 @@ tags:
 - queue
 - data-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Deque: Double-Ended Queue Operations and Applications

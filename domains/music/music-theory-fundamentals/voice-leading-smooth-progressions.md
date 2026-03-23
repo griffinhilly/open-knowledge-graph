@@ -15,7 +15,7 @@ tags:
 - harmony
 - counterpoint
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voice Leading: Smooth Motion and Efficient Progressions

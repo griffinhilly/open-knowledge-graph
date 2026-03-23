@@ -13,7 +13,7 @@ tags:
 - monetary-policy-rule
 - optimal-policy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Taylor Rule and Optimal Monetary Policy

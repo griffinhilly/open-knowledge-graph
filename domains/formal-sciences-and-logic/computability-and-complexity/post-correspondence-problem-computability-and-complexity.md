@@ -13,7 +13,7 @@ tags:
 - undecidability
 - formal-languages
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Post Correspondence Problem

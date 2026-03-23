@@ -14,7 +14,7 @@ tags:
 - wind-driven
 - wave-energy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gravity Waves and Wind-Driven Ocean Surface Waves

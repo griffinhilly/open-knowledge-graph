@@ -17,7 +17,7 @@ tags:
 - recovery
 - glycogen
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Macronutrient Timing, Athletic Performance, and Recovery Optimization

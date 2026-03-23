@@ -19,7 +19,7 @@ tags:
 - mineral-sequence
 - magmatism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bowen's Reaction Series and Mineral Crystallization Sequence

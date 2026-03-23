@@ -15,7 +15,7 @@ tags:
 - repair
 - hardware
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Interior Door Repair

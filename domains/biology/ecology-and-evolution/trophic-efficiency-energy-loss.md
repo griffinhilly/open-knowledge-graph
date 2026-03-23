@@ -18,7 +18,7 @@ tags:
 - productivity
 - biomass
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Trophic Efficiency and Energy Loss Between Levels

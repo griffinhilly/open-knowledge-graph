@@ -15,7 +15,7 @@ tags:
 - memory
 - fragmentation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Buddy System Memory Allocation

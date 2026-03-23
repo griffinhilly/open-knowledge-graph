@@ -17,7 +17,7 @@ tags:
 - oven
 - heat
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Using the Oven: Baking and Roasting

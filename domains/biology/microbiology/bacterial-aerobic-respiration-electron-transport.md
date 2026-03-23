@@ -16,7 +16,7 @@ tags:
 - atp
 - energy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bacterial Aerobic Respiration and Electron Transport

@@ -18,7 +18,7 @@ tags:
 - authority
 - representation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Narrative Authority and Historical Meaning-Making

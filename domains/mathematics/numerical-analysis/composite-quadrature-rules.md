@@ -13,7 +13,7 @@ tags:
 - piecewise-integration
 - accuracy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Composite Quadrature Rules

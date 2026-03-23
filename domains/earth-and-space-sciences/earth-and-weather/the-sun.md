@@ -17,7 +17,7 @@ tags:
 - heat
 - sky
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # The Sun

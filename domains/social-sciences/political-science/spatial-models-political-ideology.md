@@ -21,7 +21,7 @@ tags:
 - positioning
 - voting
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Spatial Models of Politics and Ideological Positioning

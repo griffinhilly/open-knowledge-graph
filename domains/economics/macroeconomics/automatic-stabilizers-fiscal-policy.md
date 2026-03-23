@@ -16,7 +16,7 @@ tags:
 - unemployment-insurance
 - progressive-taxes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Automatic Stabilizers in Fiscal Policy

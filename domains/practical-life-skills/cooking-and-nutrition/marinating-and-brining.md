@@ -16,7 +16,7 @@ tags:
 - flavor-penetration
 - food-safety
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Marinating and Brining

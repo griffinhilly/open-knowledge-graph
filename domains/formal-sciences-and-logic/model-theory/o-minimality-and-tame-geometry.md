@@ -16,7 +16,7 @@ tags:
 - cell decomposition
 - linear order
 stage: expert
-status: draft
+status: validated
 ---
 
 # O-Minimality and Tame Geometry

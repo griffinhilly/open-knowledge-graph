@@ -17,7 +17,7 @@ tags:
 - equilibrium
 - acid-base
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Keto-Enol Tautomerism and Mechanism

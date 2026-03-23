@@ -15,7 +15,7 @@ tags:
 - causal-inference
 - covariate-balance
 stage: expert
-status: draft
+status: validated
 ---
 
 # Propensity Score Methods

@@ -15,7 +15,7 @@ tags:
 - risk
 - salience
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Message Framing Effects and Decision-Making

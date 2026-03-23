@@ -16,7 +16,7 @@ tags:
 - concurrency
 - scalability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Distributed Systems: Overview and Challenges

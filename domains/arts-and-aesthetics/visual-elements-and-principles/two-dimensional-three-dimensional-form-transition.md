@@ -23,7 +23,7 @@ tags:
 - depth
 - transition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # From Two Dimensions to Three: Form Transition and Illusion

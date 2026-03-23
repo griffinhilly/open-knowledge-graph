@@ -13,7 +13,7 @@ tags:
 - demonstration
 - clarity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Informative Explanation Techniques

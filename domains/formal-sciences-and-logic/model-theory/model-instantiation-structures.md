@@ -21,7 +21,7 @@ tags:
 - semantic-interpretation
 - universe
 stage: expert
-status: draft
+status: validated
 ---
 
 # Model Instantiation and Structure Realization

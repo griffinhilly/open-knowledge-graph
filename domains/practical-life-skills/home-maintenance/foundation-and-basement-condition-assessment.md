@@ -13,7 +13,7 @@ tags:
 - basement
 - assessment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Foundation and Basement Condition Assessment

@@ -17,7 +17,7 @@ tags:
 - filters
 - unbounded
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stationary Sets and Club Filters

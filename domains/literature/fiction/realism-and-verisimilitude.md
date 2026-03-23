@@ -17,7 +17,7 @@ tags:
 - mimesis
 - representation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Realism and Verisimilitude in Prose

@@ -20,7 +20,7 @@ tags:
 - statics
 - zero acceleration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Particle Equilibrium Conditions

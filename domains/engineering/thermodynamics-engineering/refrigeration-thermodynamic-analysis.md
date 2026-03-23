@@ -16,7 +16,7 @@ tags:
 - COP
 - thermodynamic-cycles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Refrigeration Cycles and Coefficient of Performance

@@ -23,7 +23,7 @@ tags:
 - twelve-tone
 - structure
 stage: expert
-status: draft
+status: validated
 ---
 # Twelve-Tone Aggregate Formations
 

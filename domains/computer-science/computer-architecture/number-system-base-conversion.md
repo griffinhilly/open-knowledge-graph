@@ -12,7 +12,7 @@ tags:
 - number-systems
 - conversion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Number System Conversions

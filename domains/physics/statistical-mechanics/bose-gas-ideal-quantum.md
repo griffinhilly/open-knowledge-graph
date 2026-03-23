@@ -16,7 +16,7 @@ tags:
 - quantum-degeneracy
 - thermal-wavelength
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Ideal Bose Gas and Critical Temperature

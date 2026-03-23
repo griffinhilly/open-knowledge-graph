@@ -15,7 +15,7 @@ tags:
 - series circuits
 - resistance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Series Circuits: Resistance and Voltage Division

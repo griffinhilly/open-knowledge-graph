@@ -19,7 +19,7 @@ tags:
 - spectroscopy
 - structure-determination
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # ¹³C NMR and IR Spectroscopy for Structure Determination

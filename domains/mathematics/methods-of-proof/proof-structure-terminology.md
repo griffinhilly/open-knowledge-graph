@@ -15,7 +15,7 @@ tags:
 - terminology
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Proof Structure and Mathematical Terminology

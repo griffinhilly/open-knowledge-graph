@@ -14,7 +14,7 @@ tags:
 - group-management
 - membership
 stage: advanced
-status: draft
+status: validated
 ---
 
 # IGMP (Internet Group Management Protocol)

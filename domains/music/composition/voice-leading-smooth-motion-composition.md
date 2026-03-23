@@ -19,7 +19,7 @@ tags:
 - motion
 - smoothness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Smooth Voice Leading in Composition

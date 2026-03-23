@@ -19,7 +19,7 @@ tags:
 - two-dimensional
 - three equations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rigid Body Equilibrium: Planar Analysis

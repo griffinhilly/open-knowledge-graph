@@ -15,7 +15,7 @@ tags:
 - induction
 - probability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Inductive-Statistical Explanation

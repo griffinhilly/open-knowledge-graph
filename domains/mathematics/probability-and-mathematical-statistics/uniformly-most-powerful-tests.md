@@ -15,7 +15,7 @@ tags:
 - hypothesis-testing
 - statistics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Uniformly Most Powerful Tests

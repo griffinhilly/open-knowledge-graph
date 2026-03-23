@@ -14,7 +14,7 @@ tags:
 - standard-normal
 - standardization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Standard Normal Distribution and Z-Scores

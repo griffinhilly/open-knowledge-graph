@@ -17,7 +17,7 @@ tags:
 - register
 - range
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Octave and Register Identification

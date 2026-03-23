@@ -22,7 +22,7 @@ tags:
 - cancer-biology
 - transformation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Carcinogenesis and the Multi-Hit Hypothesis

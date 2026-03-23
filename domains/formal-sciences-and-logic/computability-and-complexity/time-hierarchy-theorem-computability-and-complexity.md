@@ -15,7 +15,7 @@ tags:
 - resource-bounded
 - computability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Time Hierarchy Theorem

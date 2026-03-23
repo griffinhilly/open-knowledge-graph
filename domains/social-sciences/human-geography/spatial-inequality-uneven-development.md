@@ -15,7 +15,7 @@ tags:
 - capitalism
 - uneven-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Spatial Inequality and Uneven Development
 

@@ -14,7 +14,7 @@ tags:
 - classification
 - properties
 stage: expert
-status: draft
+status: validated
 ---
 
 # System Classification and Properties

@@ -17,7 +17,7 @@ tags:
 - semantics
 - essence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Natural Kind Terms and Semantic Externalism

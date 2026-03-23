@@ -16,7 +16,7 @@ tags:
 - morphological-changes
 - structural-learning
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dendritic Spine Morphology and Structural Plasticity

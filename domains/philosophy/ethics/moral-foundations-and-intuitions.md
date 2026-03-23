@@ -16,7 +16,7 @@ tags:
 - moral-psychology
 - metaethics
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Moral Foundations and Intuitions
 

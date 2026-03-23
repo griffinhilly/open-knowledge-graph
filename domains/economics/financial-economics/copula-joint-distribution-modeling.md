@@ -14,7 +14,7 @@ tags:
 - copulas
 - risk-modeling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Copulas and Modeling Asset Dependence

@@ -13,7 +13,7 @@ tags:
 - satisfiability
 - canonical-problem
 stage: advanced
-status: draft
+status: validated
 ---
 
 # SAT: Boolean Satisfiability Problem

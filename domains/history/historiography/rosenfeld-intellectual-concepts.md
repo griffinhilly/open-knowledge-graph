@@ -17,7 +17,7 @@ tags:
 - concepts
 - usage
 stage: expert
-status: draft
+status: validated
 ---
 
 # Sophia Rosenfeld on Intellectual History

@@ -19,7 +19,7 @@ tags:
 - response-bias
 - modes
 stage: expert
-status: draft
+status: validated
 ---
 
 # Advanced Survey Design

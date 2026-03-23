@@ -16,7 +16,7 @@ tags:
 - symmetry
 - potentials
 stage: expert
-status: draft
+status: validated
 ---
 
 # Gauge Transformations and Gauge Invariance

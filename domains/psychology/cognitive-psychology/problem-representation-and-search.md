@@ -16,7 +16,7 @@ tags:
 - search
 - heuristics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Problem Representation and Solution Search

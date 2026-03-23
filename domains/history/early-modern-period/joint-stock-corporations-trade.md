@@ -15,7 +15,7 @@ tags:
 - colonialism
 - commerce
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Joint-Stock Companies and Corporate Monopolies

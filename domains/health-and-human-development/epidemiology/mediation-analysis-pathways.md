@@ -16,7 +16,7 @@ tags:
 - pathways
 - indirect-effects
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mediation Analysis and Causal Pathways

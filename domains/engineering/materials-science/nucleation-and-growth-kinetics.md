@@ -17,7 +17,7 @@ tags:
 - kinetics
 - thermodynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nucleation and Growth Kinetics in Phase Transformations

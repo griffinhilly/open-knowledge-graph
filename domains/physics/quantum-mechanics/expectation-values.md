@@ -15,7 +15,7 @@ tags:
 - observables
 - averages
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Expectation Values and Averages

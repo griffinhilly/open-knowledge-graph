@@ -16,7 +16,7 @@ tags:
 - probability
 - counting
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Probability with Combinatorics

@@ -16,7 +16,7 @@ tags:
 - clocks
 - measurement
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Telling Time to the Half Hour

@@ -17,7 +17,7 @@ tags:
 - nature
 - literature
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Romantic Era: Emotion, Nature, and Individual Voice

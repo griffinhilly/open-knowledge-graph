@@ -15,7 +15,7 @@ tags:
 - Kripke
 - semantics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Proper Names: Their Meaning and Reference

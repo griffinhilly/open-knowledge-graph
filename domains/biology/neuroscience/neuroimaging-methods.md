@@ -17,7 +17,7 @@ tags:
 - imaging
 - measurement
 stage: expert
-status: draft
+status: validated
 ---
 
 # Functional Brain Imaging: EEG and fMRI

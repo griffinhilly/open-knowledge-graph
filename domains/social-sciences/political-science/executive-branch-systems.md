@@ -15,7 +15,7 @@ tags:
 - administration
 - government-formation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Executive Power and Governmental Systems

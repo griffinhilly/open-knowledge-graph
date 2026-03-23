@@ -19,7 +19,7 @@ tags:
 - dominant
 - subdominant
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Function Basics

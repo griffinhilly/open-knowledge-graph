@@ -17,7 +17,7 @@ tags:
 - bending moment
 - V and M diagrams
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Shear Force and Bending Moment Diagrams

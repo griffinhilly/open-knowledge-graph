@@ -16,7 +16,7 @@ tags:
 - glycemic-response
 - insulin
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Glycemic Index, Glycemic Load, and Postprandial Glucose Response

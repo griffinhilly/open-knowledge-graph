@@ -18,7 +18,7 @@ tags:
 - transport
 - potential
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Membrane Potential and Ion Dynamics

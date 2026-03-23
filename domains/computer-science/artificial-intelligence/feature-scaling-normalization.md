@@ -18,7 +18,7 @@ tags:
 - normalization
 - standardization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Feature Scaling and Normalization

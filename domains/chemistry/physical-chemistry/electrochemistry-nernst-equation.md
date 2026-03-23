@@ -14,7 +14,7 @@ tags:
 - potential
 - cell
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electrochemistry and the Nernst Equation

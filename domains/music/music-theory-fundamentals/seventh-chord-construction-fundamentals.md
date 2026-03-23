@@ -15,7 +15,7 @@ tags:
 - seventh-chords
 - extended-harmony
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Seventh Chord Construction: Types and Qualities

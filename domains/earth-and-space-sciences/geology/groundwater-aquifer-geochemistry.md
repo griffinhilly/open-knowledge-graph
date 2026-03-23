@@ -12,7 +12,7 @@ tags:
 - aquifer
 - water-rock
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Groundwater Chemistry: Water-Rock Interaction in Aquifers

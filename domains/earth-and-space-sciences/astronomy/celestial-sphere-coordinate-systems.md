@@ -13,7 +13,7 @@ tags:
 - celestial-mechanics
 - foundational
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Celestial Sphere and Equatorial Coordinates

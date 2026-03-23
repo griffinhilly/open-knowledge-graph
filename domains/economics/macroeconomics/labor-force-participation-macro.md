@@ -16,7 +16,7 @@ tags:
 - labor-supply
 - demographics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Labor Force Participation and Macro Labor Markets

@@ -14,7 +14,7 @@ tags:
 - principle
 - linear
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Superposition Principle in Electrostatics

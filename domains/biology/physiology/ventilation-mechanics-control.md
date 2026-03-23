@@ -21,7 +21,7 @@ tags:
 - compliance
 - resistance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ventilation Mechanics and Respiratory Control

@@ -16,7 +16,7 @@ tags:
 - equilibrium
 - concentration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Saturated, Unsaturated, and Supersaturated Solutions

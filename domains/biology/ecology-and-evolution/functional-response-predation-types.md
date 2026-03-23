@@ -16,7 +16,7 @@ tags:
 - efficiency
 - consumption-rate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Functional Response: Types and Predation Efficiency

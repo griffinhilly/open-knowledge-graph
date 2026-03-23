@@ -19,7 +19,7 @@ tags:
 - M
 - mol/L
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Concentration Units and Molarity Calculations

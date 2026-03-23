@@ -14,7 +14,7 @@ tags:
 - intro
 - unifying-principles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cell Biology: Unifying Principles

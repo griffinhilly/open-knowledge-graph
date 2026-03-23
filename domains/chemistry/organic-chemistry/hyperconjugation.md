@@ -16,7 +16,7 @@ tags:
 - alkene stability
 - orbital overlap
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Hyperconjugation
 

@@ -16,7 +16,7 @@ tags:
 - order
 - decline
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hegemonic Stability and Long-Term Order

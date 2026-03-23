@@ -16,7 +16,7 @@ tags:
 - kingship
 - british-isles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Scottish Independence and Medieval Kingdom Formation

@@ -14,7 +14,7 @@ tags:
 - complex-arguments
 - reasoning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Complex Arguments with Multiple Stages

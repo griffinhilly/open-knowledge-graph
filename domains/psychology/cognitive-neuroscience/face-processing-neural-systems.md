@@ -19,7 +19,7 @@ tags:
 - identity
 - expression
 stage: expert
-status: draft
+status: validated
 ---
 
 # Face Processing Neural Systems and Perception

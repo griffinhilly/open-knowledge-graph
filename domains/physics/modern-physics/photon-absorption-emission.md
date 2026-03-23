@@ -14,7 +14,7 @@ tags:
 - atomic-physics
 - spectroscopy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Photon Absorption and Emission by Atoms

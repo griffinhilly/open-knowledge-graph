@@ -15,7 +15,7 @@ tags:
 - pde
 - parabolic
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Heat Equation and Diffusion Problems

@@ -11,7 +11,7 @@ tags:
 - hadamard
 - existence-uniqueness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Well-Posed Problems

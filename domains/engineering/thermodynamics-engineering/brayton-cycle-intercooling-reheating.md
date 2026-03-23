@@ -12,7 +12,7 @@ tags:
 - reheating
 - gas-turbines
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Brayton Cycle Modifications: Intercooling and Reheating

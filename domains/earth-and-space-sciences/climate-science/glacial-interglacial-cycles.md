@@ -17,7 +17,7 @@ tags:
 - precession
 - feedback-amplification
 stage: expert
-status: draft
+status: validated
 ---
 
 # Glacial-Interglacial Cycles and Orbital Forcing

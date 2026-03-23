@@ -17,7 +17,7 @@ tags:
 - compression
 - expansion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Polytropic Processes in Compressors and Turbines

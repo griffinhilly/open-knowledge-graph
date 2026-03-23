@@ -17,7 +17,7 @@ tags:
 - closed-bounded
 - covering
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Compact Sets and the Heine-Borel Theorem

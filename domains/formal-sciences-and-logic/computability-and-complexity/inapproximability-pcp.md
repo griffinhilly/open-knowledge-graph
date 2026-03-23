@@ -13,7 +13,7 @@ tags:
 - hardness
 - pcp
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Inapproximability and the PCP Theorem

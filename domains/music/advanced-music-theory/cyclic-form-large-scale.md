@@ -19,7 +19,7 @@ tags:
 - cyclic
 - unity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cyclic Form and Large-Scale Unity

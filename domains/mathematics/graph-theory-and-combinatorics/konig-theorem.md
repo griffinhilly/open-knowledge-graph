@@ -13,7 +13,7 @@ tags:
 - min-max
 - vertex-cover
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # König's Theorem and Min-Max Relations

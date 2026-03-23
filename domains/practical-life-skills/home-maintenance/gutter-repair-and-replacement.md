@@ -15,7 +15,7 @@ tags:
 - water-management
 - exterior-maintenance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Gutter Repair and Replacement

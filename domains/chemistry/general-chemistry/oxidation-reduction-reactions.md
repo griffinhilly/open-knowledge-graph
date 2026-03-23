@@ -16,7 +16,7 @@ tags:
 - reduction
 - electron transfer
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Oxidation-Reduction Reactions: Electron Transfer

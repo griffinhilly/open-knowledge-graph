@@ -13,7 +13,7 @@ tags:
 - coupling
 - interactions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Spin-Orbit Coupling

@@ -16,7 +16,7 @@ tags:
 - chord-quality
 - extension
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Seventh Chord Types and Their Qualities

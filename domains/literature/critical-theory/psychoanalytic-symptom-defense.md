@@ -17,7 +17,7 @@ tags:
 - defense
 - unconscious
 stage: expert
-status: draft
+status: validated
 ---
 
 # Psychoanalytic Symptom Analysis and Defense Mechanisms

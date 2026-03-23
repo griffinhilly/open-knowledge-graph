@@ -12,7 +12,7 @@ tags:
 - ame
 - mem
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Marginal Effects and Partial Effects Measurement

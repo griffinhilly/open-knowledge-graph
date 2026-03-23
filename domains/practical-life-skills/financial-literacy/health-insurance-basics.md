@@ -18,7 +18,7 @@ tags:
 - copay
 - coinsurance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Health Insurance Basics

@@ -18,7 +18,7 @@ tags:
 - mineralization
 - osteocytes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bone Structure, Composition, and Remodeling

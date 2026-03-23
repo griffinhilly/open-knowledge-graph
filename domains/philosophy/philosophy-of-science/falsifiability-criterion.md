@@ -17,7 +17,7 @@ tags:
 - criticism
 - methodology
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Falsifiability Criterion and Its Problems

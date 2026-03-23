@@ -15,7 +15,7 @@ tags:
 - spacing
 - chord-position
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voicing Triads: Spacing and Position

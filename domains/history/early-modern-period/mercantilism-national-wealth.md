@@ -16,7 +16,7 @@ tags:
 - wealth
 - colonialism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mercantilism and National Economic Theory

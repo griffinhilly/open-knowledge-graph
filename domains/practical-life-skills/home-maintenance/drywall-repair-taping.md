@@ -15,7 +15,7 @@ tags:
 - joint-compound
 - finishing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Drywall Repair: Taping, Mudding, and Finishing

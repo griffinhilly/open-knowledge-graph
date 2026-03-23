@@ -17,7 +17,7 @@ tags:
 - entities
 - relationships
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Entity-Relationship Model and Conceptual Design

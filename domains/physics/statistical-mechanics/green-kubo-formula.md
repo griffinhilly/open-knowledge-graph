@@ -16,7 +16,7 @@ tags:
 - transport
 - fluctuation-dissipation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Green-Kubo Formula

@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - fourier-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Fourier Series as Lᵖ Theory

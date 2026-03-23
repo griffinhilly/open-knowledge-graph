@@ -16,7 +16,7 @@ tags:
 - ZFC
 - set construction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Axiom of Union

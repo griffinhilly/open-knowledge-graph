@@ -15,7 +15,7 @@ tags:
 - ideal-solutions
 - chemical-potential
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Solution Thermodynamics: Partial Molar Quantities and Activity

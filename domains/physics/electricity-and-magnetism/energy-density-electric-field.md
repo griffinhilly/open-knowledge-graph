@@ -15,7 +15,7 @@ tags:
 - density
 - field
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Energy Density in Electric Fields

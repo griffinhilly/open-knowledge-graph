@@ -14,7 +14,7 @@ tags:
 - currents
 - synaptic-transmission
 stage: expert
-status: draft
+status: validated
 ---
 
 # Postsynaptic Currents: EPSCs and IPSCs

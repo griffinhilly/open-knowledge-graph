@@ -16,7 +16,7 @@ tags:
 - ambiguity
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interpretation, Ambiguity, and Validity in Literary Analysis

@@ -11,7 +11,7 @@ tags:
 - dimensional-changes
 - materials
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermal Expansion: Linear and Volumetric

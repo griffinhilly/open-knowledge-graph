@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - duality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Reflexive Spaces

@@ -16,7 +16,7 @@ tags:
 - normal force
 - impending motion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Static Friction in Equilibrium

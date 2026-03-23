@@ -18,7 +18,7 @@ tags:
 - activation
 - aggregation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Platelet Function and Von Willebrand Disease

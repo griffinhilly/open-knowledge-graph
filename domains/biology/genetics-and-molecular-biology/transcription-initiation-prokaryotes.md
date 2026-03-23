@@ -18,7 +18,7 @@ tags:
 - -35-element
 - promoter-specificity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Prokaryotic Transcription Initiation: Sigma Factors and Promoters

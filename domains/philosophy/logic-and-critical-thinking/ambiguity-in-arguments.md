@@ -15,7 +15,7 @@ tags:
 - vagueness
 - language-clarity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ambiguity and Vagueness in Arguments

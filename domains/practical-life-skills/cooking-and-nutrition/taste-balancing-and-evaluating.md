@@ -19,7 +19,7 @@ tags:
 - balance
 - evaluation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Taste, Balance, and Evaluating Food

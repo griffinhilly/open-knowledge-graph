@@ -12,7 +12,7 @@ tags:
 - corruption
 - rent-seeking
 stage: expert
-status: draft
+status: validated
 ---
 
 # Corruption and Rent-Seeking in Development

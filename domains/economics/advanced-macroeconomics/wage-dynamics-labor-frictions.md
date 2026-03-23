@@ -11,7 +11,7 @@ tags:
 - labor-frictions
 - unemployment
 stage: expert
-status: draft
+status: validated
 ---
 
 # Wage Dynamics and Labor Market Frictions

@@ -19,7 +19,7 @@ tags:
 - sentience
 - animal-rights
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Animal Ethics

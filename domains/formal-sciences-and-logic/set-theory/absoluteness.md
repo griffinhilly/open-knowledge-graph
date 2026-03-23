@@ -17,7 +17,7 @@ tags:
 - transitive models
 - inner models
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Absoluteness

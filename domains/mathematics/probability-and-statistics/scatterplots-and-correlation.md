@@ -12,7 +12,7 @@ tags:
 - bivariate-data
 - association
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Scatterplots and Correlation

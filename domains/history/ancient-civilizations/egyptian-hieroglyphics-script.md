@@ -13,7 +13,7 @@ tags:
 - script
 - language
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Egyptian Hieroglyphics and Writing Systems

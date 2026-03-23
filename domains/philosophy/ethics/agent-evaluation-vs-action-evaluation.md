@@ -16,7 +16,7 @@ tags:
 - agents
 - actions
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Agent Evaluation vs Action Evaluation

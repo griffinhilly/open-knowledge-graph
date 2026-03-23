@@ -16,7 +16,7 @@ tags:
 - free-electrons
 - plasma-frequency
 stage: expert
-status: draft
+status: validated
 ---
 
 # Drude Model of Conductivity

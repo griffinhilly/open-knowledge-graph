@@ -15,7 +15,7 @@ tags:
 - reciprocity
 - law
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Feudal Contract and Reciprocal Obligation

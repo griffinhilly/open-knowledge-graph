@@ -15,7 +15,7 @@ tags:
 - rapport
 - interview-guide
 stage: expert
-status: draft
+status: validated
 ---
 
 # In-Depth Interview Methods

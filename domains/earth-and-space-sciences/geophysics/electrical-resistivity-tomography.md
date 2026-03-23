@@ -14,7 +14,7 @@ tags:
 - tomography
 - imaging
 stage: expert
-status: draft
+status: validated
 ---
 
 # Electrical Resistivity Tomography and 2D Imaging

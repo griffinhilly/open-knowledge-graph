@@ -16,7 +16,7 @@ tags:
 - multiples
 - fundamentals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Price-to-Earnings Multiples and Comparable Company Valuation

@@ -12,7 +12,7 @@ tags:
 - transnational
 - world-history
 stage: expert
-status: draft
+status: validated
 ---
 
 # Comparative and Global History

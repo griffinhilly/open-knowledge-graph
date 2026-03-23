@@ -12,7 +12,7 @@ tags:
 - algebraic-graph-theory
 - laplacian
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graph Laplacian and Spectral Properties

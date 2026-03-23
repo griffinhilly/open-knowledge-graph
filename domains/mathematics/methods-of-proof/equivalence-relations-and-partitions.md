@@ -11,7 +11,7 @@ tags:
 - partition
 - equivalence class
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Equivalence Relations and Partitions

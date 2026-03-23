@@ -15,7 +15,7 @@ tags:
 - testing
 - time-series
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chow Test and Detection of Structural Breaks

@@ -15,7 +15,7 @@ tags:
 - elite-rule
 - concentrated-power
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Autocracy and Oligarchy as Forms of Rule

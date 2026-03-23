@@ -14,7 +14,7 @@ tags:
 - monopoly
 - pricing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Monopoly Output and Pricing Decisions

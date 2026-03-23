@@ -14,7 +14,7 @@ tags:
 - properties
 - proofs
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Basic Group Properties

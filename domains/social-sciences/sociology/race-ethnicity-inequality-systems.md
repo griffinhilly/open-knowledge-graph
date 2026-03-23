@@ -17,7 +17,7 @@ tags:
 - stratification
 - inequality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Race, Ethnicity, and Social Inequality

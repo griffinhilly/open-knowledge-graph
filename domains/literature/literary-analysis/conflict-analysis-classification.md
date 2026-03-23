@@ -19,7 +19,7 @@ tags:
 - analysis
 - plot
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Classifying and Analyzing Literary Conflict

@@ -17,7 +17,7 @@ tags:
 - chemical-formulas
 - subscripts
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Molecules and Reading Chemical Formulas
 

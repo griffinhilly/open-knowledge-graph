@@ -19,7 +19,7 @@ tags:
 - spring-mass systems
 - free vibration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vibrations of Single-DOF Systems

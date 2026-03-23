@@ -16,7 +16,7 @@ tags:
 - quantum-state
 - wave-nature
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantum Superposition

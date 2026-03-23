@@ -17,7 +17,7 @@ tags:
 - dating
 - isotopes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Radiometric Dating Methods and Absolute Geochronology

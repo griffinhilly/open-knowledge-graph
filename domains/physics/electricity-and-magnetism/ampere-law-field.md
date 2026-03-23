@@ -17,7 +17,7 @@ tags:
 - symmetry
 - circulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ampere's Law and Magnetic Field Symmetry

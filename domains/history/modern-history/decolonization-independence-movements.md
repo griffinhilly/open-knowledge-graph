@@ -20,7 +20,7 @@ tags:
 - nationalism
 - global-south
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Decolonization and Global Independence Movements

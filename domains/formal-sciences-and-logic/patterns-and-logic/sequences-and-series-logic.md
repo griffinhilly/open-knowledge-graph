@@ -19,7 +19,7 @@ tags:
 - order
 - patterns
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Sequences and Series

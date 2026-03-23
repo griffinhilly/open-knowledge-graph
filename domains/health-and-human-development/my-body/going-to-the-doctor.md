@@ -14,7 +14,7 @@ tags:
 - health
 - preventive care
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Going to the Doctor

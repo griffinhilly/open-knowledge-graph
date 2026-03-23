@@ -17,7 +17,7 @@ tags:
 - mantle
 - heat-transport
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mantle Convection and Planetary Evolution

@@ -16,7 +16,7 @@ tags:
 - comparative
 - diversity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Comparative Religion and Diverse Worldviews
 

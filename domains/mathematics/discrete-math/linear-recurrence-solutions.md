@@ -12,7 +12,7 @@ tags:
 - recurrence-relations
 - characteristic-equations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Solving Linear Recurrence Relations via Characteristic Equations

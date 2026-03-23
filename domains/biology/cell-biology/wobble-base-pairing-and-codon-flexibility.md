@@ -13,7 +13,7 @@ tags:
 - genetic-code
 - translation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Wobble Base Pairing and Codon Flexibility

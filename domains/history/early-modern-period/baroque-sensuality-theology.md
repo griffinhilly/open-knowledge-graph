@@ -15,7 +15,7 @@ tags:
 - theology
 - sensuality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Baroque Aesthetics and Counter-Reformation Theology

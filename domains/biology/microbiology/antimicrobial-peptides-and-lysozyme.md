@@ -15,7 +15,7 @@ tags:
 - innate-immunity
 - peptides
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Antimicrobial Peptides and Natural Host Defenses

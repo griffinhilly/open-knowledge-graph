@@ -19,7 +19,7 @@ tags:
 - fixation
 - molecular-evolution
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Positive (Directional) Selection on Beneficial Mutations

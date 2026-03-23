@@ -17,7 +17,7 @@ tags:
 - simplification
 - models
 stage: expert
-status: draft
+status: validated
 ---
 
 # Idealization in Science

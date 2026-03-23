@@ -12,7 +12,7 @@ tags:
 - self-renewal
 - oct4-sox2-nanog
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stem Cells and Maintenance of Pluripotency

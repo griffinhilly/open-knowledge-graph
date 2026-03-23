@@ -18,7 +18,7 @@ tags:
 - agency
 - voice
 stage: expert
-status: draft
+status: validated
 ---
 
 # History from Below: Non-Elite Perspectives

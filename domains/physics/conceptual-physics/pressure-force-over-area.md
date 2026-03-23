@@ -15,7 +15,7 @@ tags:
 - force
 - area
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Pressure: Force Divided by Area
 

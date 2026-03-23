@@ -16,7 +16,7 @@ tags:
 - feedback
 - sensitivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Climate Feedbacks and Amplification Mechanisms

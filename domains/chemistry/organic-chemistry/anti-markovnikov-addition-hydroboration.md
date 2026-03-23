@@ -13,7 +13,7 @@ tags:
 - borane
 - oxidation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Anti-Markovnikov Addition and Hydroboration

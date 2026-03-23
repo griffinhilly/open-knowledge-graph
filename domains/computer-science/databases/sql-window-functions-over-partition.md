@@ -18,7 +18,7 @@ tags:
 - ranking
 - frame
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Window Functions: OVER Clause, PARTITION BY, and Frames

@@ -16,7 +16,7 @@ tags:
 - roman-empire
 - enlightenment
 stage: expert
-status: draft
+status: validated
 ---
 
 # Edward Gibbon and Narrative History

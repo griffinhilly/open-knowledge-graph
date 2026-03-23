@@ -13,7 +13,7 @@ tags:
 - framework
 - formalism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Head-Driven Phrase Structure Grammar

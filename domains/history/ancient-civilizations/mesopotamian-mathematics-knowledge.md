@@ -14,7 +14,7 @@ tags:
 - Mesopotamia
 - knowledge
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mesopotamian Mathematics and Astronomical Knowledge

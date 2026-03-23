@@ -13,7 +13,7 @@ tags:
 - flux
 - generator
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Motional EMF and Flux Change

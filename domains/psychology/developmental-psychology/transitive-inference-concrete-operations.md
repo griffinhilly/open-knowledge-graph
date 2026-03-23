@@ -15,7 +15,7 @@ tags:
 - piaget
 - inference
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transitive Inference in Concrete Operations

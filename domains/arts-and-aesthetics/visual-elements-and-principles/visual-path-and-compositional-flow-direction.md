@@ -21,7 +21,7 @@ tags:
 - hierarchy
 - eye movement
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Visual Path and Flow: Directing the Viewer's Journey

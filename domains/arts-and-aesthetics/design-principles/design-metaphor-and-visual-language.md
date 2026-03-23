@@ -17,7 +17,7 @@ tags:
 - metaphor
 - symbolism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Design Metaphor and Visual Language

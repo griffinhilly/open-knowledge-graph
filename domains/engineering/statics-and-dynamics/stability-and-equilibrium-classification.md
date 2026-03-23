@@ -13,7 +13,7 @@ tags:
 - equilibrium
 - dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stability of Equilibrium: Stable, Unstable, and Neutral

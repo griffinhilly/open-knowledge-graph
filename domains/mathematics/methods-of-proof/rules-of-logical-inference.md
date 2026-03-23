@@ -17,7 +17,7 @@ tags:
 - deduction
 - validity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rules of Logical Inference

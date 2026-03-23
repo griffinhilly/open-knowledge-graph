@@ -20,7 +20,7 @@ tags:
 - representation
 - qualia
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Illusionism About Consciousness

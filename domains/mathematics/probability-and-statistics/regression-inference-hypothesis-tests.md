@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - regression-inference
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hypothesis Tests and Inference in Regression

@@ -19,7 +19,7 @@ tags:
 - motion
 - orientation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Feature-Based Attention in Visual Cortex

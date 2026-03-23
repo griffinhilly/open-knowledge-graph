@@ -22,7 +22,7 @@ tags:
 - tactile
 - visual
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Texture on Form: Surface Quality and Structural Integration

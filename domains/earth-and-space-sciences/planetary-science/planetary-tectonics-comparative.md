@@ -15,7 +15,7 @@ tags:
 - plate-motion
 - deformation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Comparative Planetary Tectonics

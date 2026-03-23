@@ -15,7 +15,7 @@ tags:
 - cck
 - secretin
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pancreatic Acinar Enzyme Secretion

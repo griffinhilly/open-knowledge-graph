@@ -14,7 +14,7 @@ tags:
 - degradation
 - cellular-homeostasis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lysosomal Degradation and Autophagy

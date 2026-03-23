@@ -15,7 +15,7 @@ tags:
 - null-subjects
 - parameters
 stage: expert
-status: draft
+status: validated
 ---
 
 # Null Elements and Pro-Drop Parameters

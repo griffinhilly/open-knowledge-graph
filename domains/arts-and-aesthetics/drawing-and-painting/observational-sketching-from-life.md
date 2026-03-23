@@ -18,7 +18,7 @@ tags:
 - accuracy
 - direct-from-sight
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Observational Sketching from Life

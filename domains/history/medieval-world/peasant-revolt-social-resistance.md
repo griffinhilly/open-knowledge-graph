@@ -17,7 +17,7 @@ tags:
 - uprising
 - social
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Peasant Revolt and Social Resistance

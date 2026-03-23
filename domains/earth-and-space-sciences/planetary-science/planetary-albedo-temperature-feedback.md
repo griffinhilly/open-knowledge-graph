@@ -14,7 +14,7 @@ tags:
 - climate
 - feedback
 stage: expert
-status: draft
+status: validated
 ---
 
 # Planetary Albedo and Temperature Feedback Processes

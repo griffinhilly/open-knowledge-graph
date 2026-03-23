@@ -13,7 +13,7 @@ tags:
 - spectroscopy
 - quantum-mechanics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Rydberg Constant and Spectroscopic Line Formula

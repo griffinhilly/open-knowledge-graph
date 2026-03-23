@@ -13,7 +13,7 @@ tags:
 - demonstratives
 - context
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Indexicality and Demonstratives

@@ -13,7 +13,7 @@ tags:
 - cases
 - exhaustion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Proof by Cases (Proof by Exhaustion)

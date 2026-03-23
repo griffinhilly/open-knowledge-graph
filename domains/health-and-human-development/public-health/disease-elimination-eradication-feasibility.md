@@ -18,7 +18,7 @@ tags:
 - elimination
 - control-targets
 stage: expert
-status: draft
+status: validated
 ---
 
 # Disease Elimination and Eradication: Feasibility and Requirements

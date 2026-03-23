@@ -13,7 +13,7 @@ tags:
 - investing
 - strategy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tax-Efficient Investment Strategies

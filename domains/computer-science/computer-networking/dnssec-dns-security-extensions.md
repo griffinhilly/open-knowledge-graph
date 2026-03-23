@@ -17,7 +17,7 @@ tags:
 - dnssec
 - cryptography
 stage: advanced
-status: draft
+status: validated
 ---
 
 # DNSSEC: DNS Security Extensions

@@ -13,7 +13,7 @@ tags:
 - measure-theory
 - integration
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Introduction to the Lebesgue Integral

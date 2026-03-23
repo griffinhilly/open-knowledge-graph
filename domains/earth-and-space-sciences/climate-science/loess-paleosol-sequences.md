@@ -18,7 +18,7 @@ tags:
 - dust-paleoclimate
 - orbital-forcing
 stage: expert
-status: draft
+status: validated
 ---
 
 # Loess-Paleosol Sequences and Glacial Climate

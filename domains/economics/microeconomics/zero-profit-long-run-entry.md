@@ -12,7 +12,7 @@ tags:
 - zero-profit
 - competitive-equilibrium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Long-Run Equilibrium with Free Entry and Exit

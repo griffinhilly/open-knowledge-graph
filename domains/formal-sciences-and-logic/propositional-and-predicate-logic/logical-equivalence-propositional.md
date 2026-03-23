@@ -14,7 +14,7 @@ tags:
 - equivalence
 - propositional
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Logical Equivalence in Propositional Logic

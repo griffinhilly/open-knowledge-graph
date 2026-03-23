@@ -11,7 +11,7 @@ tags:
 - information asymmetry
 - screening
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Screening and Optimal Mechanism Design

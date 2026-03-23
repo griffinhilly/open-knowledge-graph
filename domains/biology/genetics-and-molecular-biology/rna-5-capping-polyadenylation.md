@@ -17,7 +17,7 @@ tags:
 - transcription
 - nucleotides
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # 5' Capping and 3' Polyadenylation of mRNA

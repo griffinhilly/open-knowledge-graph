@@ -14,7 +14,7 @@ tags:
 - prior-research
 - synthesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Literature Review and Research Synthesis

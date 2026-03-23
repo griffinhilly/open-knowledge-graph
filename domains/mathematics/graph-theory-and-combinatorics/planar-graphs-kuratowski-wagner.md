@@ -17,7 +17,7 @@ tags:
 - wagner
 - forbidden-subgraphs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Planar Graphs: Kuratowski's and Wagner's Theorems

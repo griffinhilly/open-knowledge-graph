@@ -23,7 +23,7 @@ tags:
 - cool
 - perspective
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Color Temperature and Spatial Depth: Warm and Cool Interactions

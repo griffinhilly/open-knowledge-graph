@@ -21,7 +21,7 @@ tags:
 - training-algorithms
 - gradient-computation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Backpropagation Algorithm

@@ -11,7 +11,7 @@ tags:
 - four-vectors
 - mass
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Invariant Mass and Rest Frame Properties

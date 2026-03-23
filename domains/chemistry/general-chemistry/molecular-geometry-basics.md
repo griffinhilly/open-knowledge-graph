@@ -17,7 +17,7 @@ tags:
 - shape
 - bonds
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Molecular Geometry and Electron Pair Geometry

@@ -17,7 +17,7 @@ tags:
 - acid-secretion
 - ammonia-excretion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Renal Regulation of Acid-Base Balance

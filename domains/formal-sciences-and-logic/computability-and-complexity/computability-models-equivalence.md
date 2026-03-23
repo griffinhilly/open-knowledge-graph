@@ -20,7 +20,7 @@ tags:
 - models-of-computation
 - church-turing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Equivalence of Computational Models

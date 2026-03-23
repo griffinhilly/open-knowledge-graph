@@ -17,7 +17,7 @@ tags:
 - representativeness
 - generalizability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Sampling Strategies in Social Research

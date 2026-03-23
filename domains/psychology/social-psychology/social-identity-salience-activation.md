@@ -18,7 +18,7 @@ tags:
 - cognitive-activation
 - self-concept
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Social Identity Salience and Contextual Activation

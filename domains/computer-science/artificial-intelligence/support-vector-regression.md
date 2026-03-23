@@ -16,7 +16,7 @@ tags:
 - support-vector
 - regression
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Support Vector Regression

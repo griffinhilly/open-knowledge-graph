@@ -18,7 +18,7 @@ tags:
 - protest
 - social-movement
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # American Civil Rights Activism and Social Struggle

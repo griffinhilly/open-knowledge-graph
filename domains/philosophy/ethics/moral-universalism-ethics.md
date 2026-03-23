@@ -12,7 +12,7 @@ tags:
 - cross-cultural
 - objectivity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Universalism

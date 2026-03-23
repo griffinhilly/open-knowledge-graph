@@ -16,7 +16,7 @@ tags:
 - parsing
 - syntax
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sentence Comprehension and Parsing

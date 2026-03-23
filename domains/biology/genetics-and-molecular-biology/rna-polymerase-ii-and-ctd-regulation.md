@@ -18,7 +18,7 @@ tags:
 - splicing-factors
 - elongation-control
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # RNA Polymerase II CTD and Coupling to mRNA Processing

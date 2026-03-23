@@ -18,7 +18,7 @@ tags:
 - lateral-hypothalamus
 - sleep-wake
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orexin/Hypocretin System and Wakefulness Promotion

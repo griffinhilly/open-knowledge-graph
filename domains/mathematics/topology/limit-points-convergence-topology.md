@@ -14,7 +14,7 @@ tags:
 - convergence
 - accumulation-points
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Limit Points and Convergence

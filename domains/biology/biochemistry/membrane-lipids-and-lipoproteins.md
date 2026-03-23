@@ -18,7 +18,7 @@ tags:
 - membranes
 - lipid bilayer
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Membrane Lipids and Lipoproteins

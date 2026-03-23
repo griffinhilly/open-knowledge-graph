@@ -18,7 +18,7 @@ tags:
 - metamorphic
 - geology
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Types of Rocks

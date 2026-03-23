@@ -17,7 +17,7 @@ tags:
 - home-buying
 - savings
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Down Payments and Closing Costs

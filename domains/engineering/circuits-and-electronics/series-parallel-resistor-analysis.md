@@ -18,7 +18,7 @@ tags:
 - resistive-circuits
 - network-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Series and Parallel Resistor Networks

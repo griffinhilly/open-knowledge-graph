@@ -12,7 +12,7 @@ tags:
 - seismic-moment
 - energy-release
 stage: expert
-status: draft
+status: validated
 ---
 
 # Seismic Moment and Magnitude Scales

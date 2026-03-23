@@ -21,7 +21,7 @@ tags:
 - waves
 - dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Atmospheric Waves and Barotropic Instability

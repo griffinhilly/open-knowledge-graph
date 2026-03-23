@@ -19,7 +19,7 @@ tags:
 - norms
 - bystander
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Helping Behavior: Decision Processes and Social Norms

@@ -14,7 +14,7 @@ tags:
 - ethics
 - culture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chivalry: Code and Practice

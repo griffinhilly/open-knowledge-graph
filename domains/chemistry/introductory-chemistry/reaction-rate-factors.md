@@ -15,7 +15,7 @@ tags:
 - temperature
 - concentration
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # What Affects How Fast a Reaction Happens?
 

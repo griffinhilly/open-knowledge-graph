@@ -16,7 +16,7 @@ tags:
 - idealism
 - Forms
 stage: expert
-status: draft
+status: validated
 ---
 
 # Plato and Idealism in Art

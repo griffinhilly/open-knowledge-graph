@@ -6,8 +6,11 @@ course: programming-fundamentals
 prerequisites:
 - id: objects-and-instances
   type: hard
+- id: intro-to-classes
+  type: hard
 builds-toward:
 - algorithm-design-basics
+- object-oriented-thinking-and-design
 tags:
 - methods
 - attributes
@@ -17,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Methods and Attributes
 
 ## Core Idea

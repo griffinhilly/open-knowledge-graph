@@ -20,7 +20,7 @@ tags:
 - 17th-century
 - manners
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Restoration Comedy: Wit and Manners

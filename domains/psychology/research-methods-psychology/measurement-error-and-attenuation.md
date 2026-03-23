@@ -16,7 +16,7 @@ tags:
 - error
 - reliability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Measurement Error and Attenuation of Effects

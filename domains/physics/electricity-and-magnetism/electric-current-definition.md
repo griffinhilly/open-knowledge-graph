@@ -14,7 +14,7 @@ tags:
 - charge-flow
 - density
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electric Current and Current Density

@@ -15,7 +15,7 @@ tags:
 - policy-evaluation
 - temporal-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Difference-in-Differences Analysis

@@ -16,7 +16,7 @@ tags:
 - emergence
 - causal-closure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Downward Causation

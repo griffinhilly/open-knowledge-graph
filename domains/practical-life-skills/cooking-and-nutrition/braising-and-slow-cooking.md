@@ -15,7 +15,7 @@ tags:
 - collagen
 - low-and-slow
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Braising and Slow Cooking

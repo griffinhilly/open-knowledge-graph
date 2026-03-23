@@ -14,7 +14,7 @@ tags:
 - testing
 - vickers-knoop
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hardness Testing and Strength Correlations

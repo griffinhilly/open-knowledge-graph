@@ -16,7 +16,7 @@ tags:
 - mental-math
 - decomposition
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Making Ten Strategy

@@ -16,7 +16,7 @@ tags:
 - multiplier
 - dynamics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Demand Shocks and the Multiplier Mechanism

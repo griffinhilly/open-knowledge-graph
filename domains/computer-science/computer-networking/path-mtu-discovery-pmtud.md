@@ -17,7 +17,7 @@ tags:
 - path-discovery
 - icmp
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Path MTU Discovery and Handling MTU Issues

@@ -19,7 +19,7 @@ tags:
 - loop-prevention
 - stp
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Spanning Tree Protocol and Loop Prevention

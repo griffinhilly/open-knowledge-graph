@@ -13,7 +13,7 @@ tags:
 - control-systems
 - stability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Feedback Control Systems and Stability Analysis

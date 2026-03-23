@@ -16,7 +16,7 @@ tags:
 - qualia
 - experience
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phenomenal Consciousness and Qualia

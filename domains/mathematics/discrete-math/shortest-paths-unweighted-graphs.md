@@ -12,7 +12,7 @@ tags:
 - shortest-paths
 - graph-algorithms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Shortest Paths in Unweighted Graphs

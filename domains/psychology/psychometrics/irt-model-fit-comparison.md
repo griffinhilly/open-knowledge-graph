@@ -22,7 +22,7 @@ tags:
 - likelihood-ratio
 - aic-bic
 stage: expert
-status: draft
+status: validated
 ---
 
 # IRT Model Comparison and Fit Evaluation

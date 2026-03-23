@@ -15,7 +15,7 @@ tags:
 - synapsis
 - homologous-pairing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Prophase I: Homolog Pairing and Synapsis

@@ -12,7 +12,7 @@ tags:
 - dysfunction
 - system-problems
 stage: expert
-status: draft
+status: validated
 ---
 
 # Social Dysfunction in Functionalist Analysis

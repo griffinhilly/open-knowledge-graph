@@ -20,7 +20,7 @@ tags:
 - building
 - engineering
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Building a Simple Circuit
 

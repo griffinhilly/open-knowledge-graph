@@ -18,7 +18,7 @@ tags:
 - societal-transformation
 - rationalization
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Social Change and Modernization
 

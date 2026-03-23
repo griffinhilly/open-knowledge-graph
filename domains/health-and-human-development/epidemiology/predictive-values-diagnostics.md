@@ -14,7 +14,7 @@ tags:
 - negative-predictive-value
 - prevalence-dependence
 stage: expert
-status: draft
+status: validated
 ---
 
 # Positive and Negative Predictive Values

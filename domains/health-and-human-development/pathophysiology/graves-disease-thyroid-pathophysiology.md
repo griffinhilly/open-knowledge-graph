@@ -17,7 +17,7 @@ tags:
 - thyroid
 - hyperthyroidism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Graves' Disease: Autoimmune TSH Receptor Activation and Thyroid Overproduction

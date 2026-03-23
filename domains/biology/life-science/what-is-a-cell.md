@@ -18,7 +18,7 @@ tags:
 - biology-foundations
 - microscopy
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # What Is a Cell?
 

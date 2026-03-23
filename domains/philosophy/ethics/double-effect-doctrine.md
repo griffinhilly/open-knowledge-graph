@@ -18,7 +18,7 @@ tags:
 - Aquinas
 - just-war
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Doctrine of Double Effect

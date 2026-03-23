@@ -17,7 +17,7 @@ tags:
 - label-switching
 - traffic-engineering
 stage: advanced
-status: draft
+status: validated
 ---
 
 # MPLS: Multiprotocol Label Switching

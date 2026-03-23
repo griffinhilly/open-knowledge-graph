@@ -19,7 +19,7 @@ tags:
 - migration
 - coupled-motion
 stage: expert
-status: draft
+status: validated
 ---
 
 # Orbital Resonance Capture and Locked Migration

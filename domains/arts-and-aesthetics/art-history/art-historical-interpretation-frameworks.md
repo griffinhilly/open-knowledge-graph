@@ -14,7 +14,7 @@ tags:
 - methodology
 - meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interpretive Frameworks for Art Historical Analysis and Meaning-Making

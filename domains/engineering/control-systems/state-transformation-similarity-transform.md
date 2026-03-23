@@ -17,7 +17,7 @@ tags:
 - change-of-basis
 - invariants
 stage: expert
-status: draft
+status: validated
 ---
 
 # State Transformations and Similarity Transformations

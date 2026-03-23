@@ -13,7 +13,7 @@ tags:
 - pv-diagram
 - expansion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Boundary Work and P-V Diagrams

@@ -17,7 +17,7 @@ tags:
 - error budget
 - measurement uncertainty
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Uncertainty in Analytical Measurement

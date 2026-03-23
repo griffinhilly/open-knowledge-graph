@@ -12,7 +12,7 @@ tags:
 - neural-development
 - plasticity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Adult Neurogenesis and Neural Plasticity

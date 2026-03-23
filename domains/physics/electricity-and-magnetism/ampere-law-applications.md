@@ -16,7 +16,7 @@ tags:
 - symmetry
 - current
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ampere's Law and Its Applications

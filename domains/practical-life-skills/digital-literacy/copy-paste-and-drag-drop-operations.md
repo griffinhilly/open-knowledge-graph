@@ -14,7 +14,7 @@ tags:
 - interaction
 - efficiency
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Copy, Paste, and Drag-Drop Operations

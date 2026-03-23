@@ -17,7 +17,7 @@ tags:
 - observables
 - anti-realism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Constructive Empiricism

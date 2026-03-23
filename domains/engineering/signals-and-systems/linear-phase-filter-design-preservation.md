@@ -15,7 +15,7 @@ tags:
 - distortion
 - group-delay
 stage: expert
-status: draft
+status: validated
 ---
 
 # Linear Phase Response and Signal Distortion

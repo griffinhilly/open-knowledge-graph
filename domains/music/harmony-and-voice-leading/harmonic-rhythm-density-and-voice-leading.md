@@ -16,7 +16,7 @@ tags:
 - voice-leading
 - pacing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Rhythm, Density, and Voice-Leading Texture

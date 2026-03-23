@@ -15,7 +15,7 @@ tags:
 - perception
 - group-identity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hostile Media Effect and Partisan Perception

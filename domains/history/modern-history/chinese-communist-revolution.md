@@ -20,7 +20,7 @@ tags:
 - civil-war
 - ideology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chinese Communist Revolution and Mao's Rise

@@ -14,7 +14,7 @@ tags:
 - distribution
 - analytic-number-theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Distribution of Primes

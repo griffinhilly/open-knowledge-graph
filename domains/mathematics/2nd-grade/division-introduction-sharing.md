@@ -15,7 +15,7 @@ tags:
 - sharing
 - equal-groups
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Division: Fair Sharing Model

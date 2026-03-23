@@ -17,7 +17,7 @@ tags:
 - psychology
 - realism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Given Circumstances in Acting

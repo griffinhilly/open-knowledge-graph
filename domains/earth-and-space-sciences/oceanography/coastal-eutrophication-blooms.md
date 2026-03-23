@@ -19,7 +19,7 @@ tags:
 - nitrogen
 - phosphorus
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Coastal Eutrophication and Phytoplankton Blooms

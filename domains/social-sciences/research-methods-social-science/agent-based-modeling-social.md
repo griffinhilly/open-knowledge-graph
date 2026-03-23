@@ -23,7 +23,7 @@ tags:
 - agents
 - modeling
 stage: expert
-status: draft
+status: validated
 ---
 
 # Agent-Based Modeling in Social Science

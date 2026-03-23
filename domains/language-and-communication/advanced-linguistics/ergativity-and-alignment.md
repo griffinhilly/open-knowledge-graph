@@ -13,7 +13,7 @@ tags:
 - alignment
 - morphosyntax
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ergativity and Grammatical Alignment

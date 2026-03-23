@@ -13,7 +13,7 @@ tags:
 - asynchronous
 - concurrency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Asynchronous I/O (AIO) Operations

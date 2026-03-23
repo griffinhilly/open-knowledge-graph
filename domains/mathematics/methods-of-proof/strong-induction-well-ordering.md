@@ -11,7 +11,7 @@ tags:
 - strong-induction
 - well-ordering
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Strong Induction and the Well-Ordering Principle

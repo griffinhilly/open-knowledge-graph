@@ -15,7 +15,7 @@ tags:
 - sensation
 - force
 stage: expert
-status: draft
+status: validated
 ---
 
 # Affect Theory and Literary Analysis

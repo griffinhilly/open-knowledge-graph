@@ -19,7 +19,7 @@ tags:
 - attention
 - neural-architecture
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Transformer Architecture

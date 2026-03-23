@@ -16,7 +16,7 @@ tags:
 - justification
 - defeaters
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Defeasibility Conditions and Knowledge

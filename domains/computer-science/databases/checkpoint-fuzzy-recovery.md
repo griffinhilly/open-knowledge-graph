@@ -14,7 +14,7 @@ tags:
 - recovery-time
 - log-truncation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Checkpointing: Sharp and Fuzzy Checkpoints

@@ -21,7 +21,7 @@ tags:
 - climate-change
 - forcing-metrics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Radiative Forcing by Greenhouse Gases

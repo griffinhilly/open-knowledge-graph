@@ -14,7 +14,7 @@ tags:
 - imperialism
 - global-inequality
 stage: expert
-status: draft
+status: validated
 ---
 
 # World-Systems Theory

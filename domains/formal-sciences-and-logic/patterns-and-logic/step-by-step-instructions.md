@@ -19,7 +19,7 @@ tags:
 - order
 - computational-thinking
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Step-by-Step Instructions (Algorithms)

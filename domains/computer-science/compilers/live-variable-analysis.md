@@ -14,7 +14,7 @@ tags:
 - dataflow
 - code-quality
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Live Variable Analysis

@@ -13,7 +13,7 @@ tags:
 - counting
 - proofs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Double Counting Principle

@@ -13,7 +13,7 @@ tags:
 - tolerance
 - self-reactive
 stage: expert
-status: draft
+status: validated
 ---
 
 # Autoimmune Disease: Loss of Self-Tolerance

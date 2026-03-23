@@ -13,7 +13,7 @@ tags:
 - open-addressing
 - collision
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hash Tables: Collision Resolution by Open Addressing

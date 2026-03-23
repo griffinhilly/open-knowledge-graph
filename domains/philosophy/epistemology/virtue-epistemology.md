@@ -18,7 +18,7 @@ tags:
 - reliabilism
 - responsibilism
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Virtue Epistemology
 

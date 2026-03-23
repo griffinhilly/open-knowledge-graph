@@ -14,7 +14,7 @@ tags:
 - senses
 - protection
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Skin and Touch

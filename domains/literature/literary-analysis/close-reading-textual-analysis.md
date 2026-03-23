@@ -19,7 +19,7 @@ tags:
 - evidence
 - detail
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Close Reading and Textual Analysis Practice

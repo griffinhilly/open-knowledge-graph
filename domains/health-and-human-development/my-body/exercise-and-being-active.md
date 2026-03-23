@@ -15,7 +15,7 @@ tags:
 - fitness
 - health
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Exercise and Being Active

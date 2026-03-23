@@ -12,7 +12,7 @@ tags:
 - justice
 - institutions
 stage: expert
-status: draft
+status: validated
 ---
 
 # International Courts and Judicial Institutions

@@ -17,7 +17,7 @@ tags:
 - dynein
 - vesicles
 stage: expert
-status: draft
+status: validated
 ---
 
 # Axonal Transport and Vesicular Trafficking

@@ -16,7 +16,7 @@ tags:
 - production
 - perception
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Coarticulation and Phonetic Context Effects in Speech

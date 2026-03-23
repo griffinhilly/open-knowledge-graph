@@ -11,7 +11,7 @@ tags:
 - analytic-number-theory
 - primes
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Prime Number Theorem

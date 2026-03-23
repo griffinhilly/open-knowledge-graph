@@ -16,7 +16,7 @@ tags:
 - loops
 - optimization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Loop Detection and Analysis

@@ -16,7 +16,7 @@ tags:
 - strategies
 - fluency
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Mental Math Strategies for Subtraction

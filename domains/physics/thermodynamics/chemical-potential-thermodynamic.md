@@ -14,7 +14,7 @@ tags:
 - chemical-potential
 - mixtures
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Chemical Potential and Partial Molar Properties

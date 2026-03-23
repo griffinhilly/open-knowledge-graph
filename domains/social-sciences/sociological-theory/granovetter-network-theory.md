@@ -12,7 +12,7 @@ tags:
 - weak-ties
 - social-capital
 stage: expert
-status: draft
+status: validated
 ---
 
 # Granovetter and Network Theory

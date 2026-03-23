@@ -17,7 +17,7 @@ tags:
 - cooking
 - adaptation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ingredient Substitution and Flexibility

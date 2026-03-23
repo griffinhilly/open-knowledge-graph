@@ -15,7 +15,7 @@ tags:
 - combinatorics
 - multiplication-principle
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Counting Principles
 

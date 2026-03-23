@@ -17,7 +17,7 @@ tags:
 - culture
 - struggle
 stage: expert
-status: draft
+status: validated
 ---
 
 # Gramscian Hegemony and Cultural Struggle

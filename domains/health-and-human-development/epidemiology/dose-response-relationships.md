@@ -16,7 +16,7 @@ tags:
 - effect-estimation
 - causality-criteria
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dose-Response Analysis and Exposure-Outcome Curves

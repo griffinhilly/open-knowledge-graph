@@ -16,7 +16,7 @@ tags:
 - fracture-toughness
 - crack-mechanics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stress Intensity Factor and Fracture Mechanics

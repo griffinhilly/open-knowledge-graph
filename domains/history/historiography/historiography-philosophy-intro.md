@@ -17,7 +17,7 @@ tags:
 - theory
 - methodology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Historiography and Philosophy of History: An Introduction

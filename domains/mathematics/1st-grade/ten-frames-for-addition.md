@@ -16,7 +16,7 @@ tags:
 - addition
 - ten-structure
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Ten Frames for Addition

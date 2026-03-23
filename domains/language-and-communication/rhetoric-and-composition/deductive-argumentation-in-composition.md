@@ -13,7 +13,7 @@ tags:
 - reasoning
 - logic
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Deductive Argumentation in Composition

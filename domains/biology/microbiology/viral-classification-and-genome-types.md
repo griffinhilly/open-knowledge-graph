@@ -16,7 +16,7 @@ tags:
 - classification
 - genomes
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Viral Classification and Genome Types

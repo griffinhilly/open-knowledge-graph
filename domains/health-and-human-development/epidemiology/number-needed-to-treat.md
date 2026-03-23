@@ -13,7 +13,7 @@ tags:
 - clinical-significance
 - decision-making
 stage: expert
-status: draft
+status: validated
 ---
 
 # Number Needed to Treat and Number Needed to Harm

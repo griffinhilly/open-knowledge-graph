@@ -16,7 +16,7 @@ tags:
 - refractive-index
 - frequency-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # Frequency-Dependent Permittivity and Dispersion

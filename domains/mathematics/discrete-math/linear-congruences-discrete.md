@@ -16,7 +16,7 @@ tags:
 - modular-arithmetic
 - congruences
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linear Congruences and Solutions

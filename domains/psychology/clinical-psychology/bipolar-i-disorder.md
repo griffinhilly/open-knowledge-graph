@@ -14,7 +14,7 @@ tags:
 - bipolar I
 - mania
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bipolar I Disorder and Manic Episodes

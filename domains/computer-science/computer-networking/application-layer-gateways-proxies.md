@@ -14,7 +14,7 @@ tags:
 - application-layer
 - filtering
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Application-Layer Gateways and Proxies

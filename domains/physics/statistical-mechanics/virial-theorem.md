@@ -11,7 +11,7 @@ tags:
 - energy-relations
 - interactions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Virial Theorem

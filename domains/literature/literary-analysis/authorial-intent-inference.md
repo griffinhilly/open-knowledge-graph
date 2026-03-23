@@ -18,7 +18,7 @@ tags:
 - purpose
 - interpretation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inferring Authorial Purpose and Intent

@@ -15,7 +15,7 @@ tags:
 - orthonormal
 - bases
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orthogonal Vectors and Orthonormal Bases

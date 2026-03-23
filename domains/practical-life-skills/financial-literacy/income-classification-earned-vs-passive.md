@@ -14,7 +14,7 @@ tags:
 - earnings
 - financial-planning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Income Classification: Earned, Passive, and Portfolio

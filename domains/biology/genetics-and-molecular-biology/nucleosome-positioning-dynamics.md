@@ -16,7 +16,7 @@ tags:
 - nucleosome-occupancy
 - gene-activation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nucleosome Positioning and Occupancy Dynamics

@@ -17,7 +17,7 @@ tags:
 - simple-machines
 - engineering
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Gears and Wheels
 

@@ -15,7 +15,7 @@ tags:
 - uncertainty
 - measurement
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Heisenberg Uncertainty Principle and Measurement Limits

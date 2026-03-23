@@ -19,7 +19,7 @@ tags:
 - sand-dunes
 - moraines
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Erosion by Wind and Ice

@@ -13,7 +13,7 @@ tags:
 - durbin-watson
 - breusch-godfrey
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Testing for Autocorrelation: Durbin-Watson and Breusch-Godfrey

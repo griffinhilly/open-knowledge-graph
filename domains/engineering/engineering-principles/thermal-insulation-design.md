@@ -21,7 +21,7 @@ tags:
 - R-value
 - energy-conservation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Thermal Insulation Design
 

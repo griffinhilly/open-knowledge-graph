@@ -18,7 +18,7 @@ tags:
 - kidney
 - volume
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Renal Blood Pressure Regulation and the Renin-Angiotensin System

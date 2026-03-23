@@ -14,7 +14,7 @@ tags:
 - survival-analysis
 - semi-parametric
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cox Proportional Hazards Model

@@ -18,7 +18,7 @@ tags:
 - ritual
 - religion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sacred and Profane: Fundamental Classification Systems

@@ -17,7 +17,7 @@ tags:
 - primordial-abundances
 - early-universe
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Big Bang Nucleosynthesis and Primordial Abundances

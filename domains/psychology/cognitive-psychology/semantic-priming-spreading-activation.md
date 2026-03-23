@@ -14,7 +14,7 @@ tags:
 - activation
 - networks
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Semantic Priming and Spreading Activation

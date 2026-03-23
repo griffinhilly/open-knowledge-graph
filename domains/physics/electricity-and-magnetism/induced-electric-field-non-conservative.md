@@ -15,7 +15,7 @@ tags:
 - non-conservative
 - Maxwell's equations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Induced Electric Field: Non-Conservative Behavior

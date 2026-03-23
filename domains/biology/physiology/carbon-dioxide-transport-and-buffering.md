@@ -15,7 +15,7 @@ tags:
 - carbaminohemoglobin
 - haldane-effect
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Carbon Dioxide Transport and the Bicarbonate Buffer System

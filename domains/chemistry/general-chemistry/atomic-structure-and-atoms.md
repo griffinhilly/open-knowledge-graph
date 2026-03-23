@@ -18,7 +18,7 @@ tags:
 - subatomic particles
 - nuclear structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Atomic Structure: Protons, Neutrons, and Electrons

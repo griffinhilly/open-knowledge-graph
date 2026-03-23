@@ -15,7 +15,7 @@ tags:
 - astronomy
 - observation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Galileo's Telescope and Observational Astronomy

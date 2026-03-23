@@ -13,7 +13,7 @@ tags:
 - writing-craft
 - imitation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Stylistic Analysis and Imitation

@@ -18,7 +18,7 @@ tags:
 - reception-history
 - damrosch
 stage: expert
-status: draft
+status: validated
 ---
 
 # Damrosch: World Literature as Circulation and Reception

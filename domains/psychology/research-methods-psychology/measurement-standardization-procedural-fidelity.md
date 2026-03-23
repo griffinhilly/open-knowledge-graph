@@ -18,7 +18,7 @@ tags:
 - standardization
 - implementation
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Measurement Standardization and Procedural Fidelity in Implementation
 

@@ -13,7 +13,7 @@ tags:
 - organization
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Central and Peripheral Nervous System Organization

@@ -15,7 +15,7 @@ tags:
 - polyphony
 - vocal
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Renaissance Polyphonic Sacred Music

@@ -13,7 +13,7 @@ tags:
 - iteration
 - convergence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fixpoint Computation and Iteration

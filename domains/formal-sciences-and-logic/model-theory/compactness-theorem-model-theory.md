@@ -20,7 +20,7 @@ tags:
 - finite approximation
 - infinite model
 stage: expert
-status: draft
+status: validated
 ---
 
 # Compactness Theorem in Model Theory

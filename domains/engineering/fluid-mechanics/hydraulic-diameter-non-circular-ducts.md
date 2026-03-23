@@ -16,7 +16,7 @@ tags:
 - diameter
 - correlations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hydraulic Diameter and Non-Circular Conduits

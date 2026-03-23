@@ -15,7 +15,7 @@ tags:
 - thermometer
 - measurement
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Reading a Thermometer
 

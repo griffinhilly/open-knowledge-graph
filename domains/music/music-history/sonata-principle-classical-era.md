@@ -14,7 +14,7 @@ tags:
 - classical
 - harmony
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Sonata Principle in the Classical Era

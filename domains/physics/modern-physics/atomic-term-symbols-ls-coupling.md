@@ -13,7 +13,7 @@ tags:
 - ls-coupling
 - atomic-structure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Atomic Term Symbols and LS Coupling Scheme

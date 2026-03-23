@@ -11,7 +11,7 @@ tags:
 - möbius-inversion
 - number-theoretic-functions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Möbius Function and Möbius Inversion

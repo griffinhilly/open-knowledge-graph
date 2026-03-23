@@ -19,7 +19,7 @@ tags:
 - fed-state
 - fasted-state
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fed-Fasted Metabolic State and Hormonal Signaling

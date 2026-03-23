@@ -16,7 +16,7 @@ tags:
 - tradition
 - composition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Folk Traditions and Art Music Dialogue

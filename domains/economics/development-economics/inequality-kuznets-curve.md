@@ -13,7 +13,7 @@ tags:
 - kuznets
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Kuznets Curve and Development Inequality

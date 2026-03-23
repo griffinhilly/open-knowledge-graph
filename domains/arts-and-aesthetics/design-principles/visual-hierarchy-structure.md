@@ -18,7 +18,7 @@ tags:
 - visual-organization
 - emphasis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Visual Hierarchy and Information Structure

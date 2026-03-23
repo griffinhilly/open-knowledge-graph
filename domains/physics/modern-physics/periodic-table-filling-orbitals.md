@@ -14,7 +14,7 @@ tags:
 - atomic-physics
 - chemistry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Periodic Table and Orbital Filling Rules

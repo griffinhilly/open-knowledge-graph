@@ -12,7 +12,7 @@ tags:
 - screen-readers
 - inclusion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Digital Accessibility Tools

@@ -12,7 +12,7 @@ tags:
 - ordering
 - sequences
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Ordering Numbers to 20

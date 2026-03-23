@@ -12,7 +12,7 @@ tags:
 - binge-eating
 - eating-disorder
 stage: expert
-status: draft
+status: validated
 ---
 
 # Binge Eating Disorder

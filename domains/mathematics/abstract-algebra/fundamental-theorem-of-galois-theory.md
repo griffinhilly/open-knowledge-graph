@@ -15,7 +15,7 @@ tags:
 - correspondence
 - fundamental
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fundamental Theorem of Galois Theory

@@ -14,7 +14,7 @@ tags:
 - practical-reasoning
 - knowledge
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pragmatic Encroachment and Knowledge Standards

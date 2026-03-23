@@ -13,7 +13,7 @@ tags:
 - message-queues
 - asynchronous
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Message Queues and Message Passing IPC

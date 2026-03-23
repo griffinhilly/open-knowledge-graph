@@ -19,7 +19,7 @@ tags:
 - categorical
 - glm
 stage: expert
-status: draft
+status: validated
 ---
 
 # Logistic Regression and Generalized Linear Models

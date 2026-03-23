@@ -15,7 +15,7 @@ tags:
 - glucose-reabsorption
 - organic-secretion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Proximal Tubule Reabsorption and Secretion

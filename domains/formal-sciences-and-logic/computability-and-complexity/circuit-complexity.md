@@ -18,7 +18,7 @@ tags:
 - non-uniform-computation
 - P/poly
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Circuit Complexity

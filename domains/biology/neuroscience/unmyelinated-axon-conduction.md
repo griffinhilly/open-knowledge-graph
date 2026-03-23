@@ -14,7 +14,7 @@ tags:
 - conduction-velocity
 - propagation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Conduction in Unmyelinated Axons

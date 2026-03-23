@@ -14,7 +14,7 @@ tags:
 - light
 - dark
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Day and Night

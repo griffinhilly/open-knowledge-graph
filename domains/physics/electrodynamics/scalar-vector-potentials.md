@@ -15,7 +15,7 @@ tags:
 - potentials
 - alternative-formulation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Scalar and Vector Potentials

@@ -12,7 +12,7 @@ tags:
 - measurement
 - foundations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Measurement Problem

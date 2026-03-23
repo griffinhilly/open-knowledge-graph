@@ -14,7 +14,7 @@ tags:
 - democracy
 - sovereignty
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Popular Sovereignty

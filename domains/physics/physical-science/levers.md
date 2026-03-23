@@ -16,7 +16,7 @@ tags:
 - simple-machine
 - fulcrum
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Levers
 

@@ -15,7 +15,7 @@ tags:
 - use-def-chains
 - optimization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Use-Definition Chains

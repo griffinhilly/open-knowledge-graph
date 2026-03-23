@@ -13,7 +13,7 @@ tags:
 - neuroimaging
 - fmri
 stage: expert
-status: draft
+status: validated
 ---
 
 # Neuroimaging Studies of Language: fMRI and PET

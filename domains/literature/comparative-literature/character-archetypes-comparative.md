@@ -16,7 +16,7 @@ tags:
 - comparative
 - types
 stage: expert
-status: draft
+status: validated
 ---
 
 # Character Archetypes and Types Across Literatures

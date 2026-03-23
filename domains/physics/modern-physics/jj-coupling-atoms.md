@@ -13,7 +13,7 @@ tags:
 - atoms
 - coupling
 stage: advanced
-status: draft
+status: validated
 ---
 
 # LS and jj Coupling Schemes in Multi-Electron Atoms

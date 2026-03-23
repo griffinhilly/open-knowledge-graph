@@ -19,7 +19,7 @@ tags:
 - spike-timing
 - causality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Spike-Timing-Dependent Plasticity

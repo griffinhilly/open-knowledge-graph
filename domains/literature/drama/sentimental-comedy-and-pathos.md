@@ -19,7 +19,7 @@ tags:
 - pathos
 - 18th-century
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sentimental Comedy: Laughter and Tears

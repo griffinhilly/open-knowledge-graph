@@ -15,7 +15,7 @@ tags:
 - crystal-symmetry
 - direction-dependent-properties
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Elastic Anisotropy and Directional Dependence

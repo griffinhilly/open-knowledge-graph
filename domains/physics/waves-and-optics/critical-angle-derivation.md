@@ -14,7 +14,7 @@ tags:
 - total-internal-reflection
 - critical-angle
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Critical Angle and Total Internal Reflection Derivation

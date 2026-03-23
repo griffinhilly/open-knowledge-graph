@@ -15,7 +15,7 @@ tags:
 - interpretation
 - fallacy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Anachronism and Presentism in Historical Interpretation

@@ -16,7 +16,7 @@ tags:
 - theoretical yield
 - actual yield
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Percent Yield and Theoretical Yield Calculations

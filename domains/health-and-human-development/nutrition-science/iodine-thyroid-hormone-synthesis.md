@@ -14,7 +14,7 @@ tags:
 - thyroxine
 - metabolic-rate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Iodine: Thyroid Hormone Synthesis and Metabolic Regulation

@@ -18,7 +18,7 @@ tags:
 - harmonic-minor
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Minor Tonality and Voice-Leading Choices

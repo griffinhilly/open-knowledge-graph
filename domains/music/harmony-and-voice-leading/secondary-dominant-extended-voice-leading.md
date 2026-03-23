@@ -19,7 +19,7 @@ tags:
 - tonicization
 - tritone
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Secondary Dominants and Extended Voice-Leading Applications

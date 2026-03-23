@@ -13,7 +13,7 @@ tags:
 - root-finding
 - finite-difference
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Secant Method

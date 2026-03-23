@@ -14,7 +14,7 @@ tags:
 - measurement
 - adaptation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Energy Expenditure: Components, Measurement Methods, and Adaptation

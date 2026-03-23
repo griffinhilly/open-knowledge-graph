@@ -14,7 +14,7 @@ tags:
 - energy
 - quality-factor
 stage: expert
-status: draft
+status: validated
 ---
 
 # Seismic Attenuation and Quality Factor

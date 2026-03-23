@@ -16,7 +16,7 @@ tags:
 - quality-control
 - sequence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Analytical Batch and Sequence Optimization

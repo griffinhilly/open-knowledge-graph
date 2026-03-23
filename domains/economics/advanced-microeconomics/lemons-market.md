@@ -13,7 +13,7 @@ tags:
 - adverse-selection
 - unraveling
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Market for Lemons

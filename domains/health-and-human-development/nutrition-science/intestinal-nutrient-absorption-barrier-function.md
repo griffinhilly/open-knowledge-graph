@@ -18,7 +18,7 @@ tags:
 - tight-junctions
 - intestinal-permeability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Intestinal Barrier Function and Selective Nutrient Absorption

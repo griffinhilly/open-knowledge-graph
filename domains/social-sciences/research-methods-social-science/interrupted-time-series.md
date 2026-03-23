@@ -18,7 +18,7 @@ tags:
 - causal
 - temporal
 stage: expert
-status: draft
+status: validated
 ---
 
 # Interrupted Time Series Design

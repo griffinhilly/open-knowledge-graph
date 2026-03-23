@@ -13,7 +13,7 @@ tags:
 - profit
 - duality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Duality in Production: Profit Function and Hotelling's Lemma

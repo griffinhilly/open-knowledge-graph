@@ -22,7 +22,7 @@ tags:
 - incentives
 - implementation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mechanism Design: Strategic Implementation

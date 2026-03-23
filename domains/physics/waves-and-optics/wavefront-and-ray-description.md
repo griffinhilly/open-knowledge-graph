@@ -16,7 +16,7 @@ tags:
 - wavefronts
 - ray-optics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Wavefronts and Ray Description of Wave Propagation

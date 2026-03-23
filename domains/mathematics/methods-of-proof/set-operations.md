@@ -14,7 +14,7 @@ tags:
 - union
 - intersection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Set Operations

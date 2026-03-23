@@ -20,7 +20,7 @@ tags:
 - nucleophile
 - electrophile
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nucleophiles and Electrophiles: Definitions and Reactivity

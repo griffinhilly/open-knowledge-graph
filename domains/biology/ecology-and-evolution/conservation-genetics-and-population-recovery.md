@@ -14,7 +14,7 @@ tags:
 - population-management
 - restoration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conservation Genetics and Population Recovery

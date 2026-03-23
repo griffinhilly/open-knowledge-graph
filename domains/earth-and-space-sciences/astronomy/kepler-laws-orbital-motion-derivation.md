@@ -30,7 +30,7 @@ tags:
 - celestial-mechanics
 - foundational
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kepler's Laws and Orbital Motion

@@ -14,7 +14,7 @@ tags:
 - electrophysiology
 - membrane-potential
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Goldman-Hodgkin-Katz Equation

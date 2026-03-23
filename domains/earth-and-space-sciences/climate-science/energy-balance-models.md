@@ -25,7 +25,7 @@ tags:
 - temperature
 - feedback
 stage: expert
-status: draft
+status: validated
 ---
 
 # Energy Balance Models of Climate

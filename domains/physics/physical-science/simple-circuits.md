@@ -17,7 +17,7 @@ tags:
 - bulb
 - wire
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Simple Circuits
 

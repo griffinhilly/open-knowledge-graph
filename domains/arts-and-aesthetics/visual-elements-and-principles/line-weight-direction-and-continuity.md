@@ -15,7 +15,7 @@ tags:
 - expression
 - drawing
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Line: Weight, Direction, and Continuity

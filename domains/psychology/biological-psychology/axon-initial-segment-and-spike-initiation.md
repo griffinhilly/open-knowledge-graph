@@ -17,7 +17,7 @@ tags:
 - excitability
 - plasticity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Axon Initial Segment and Action Potential Initiation

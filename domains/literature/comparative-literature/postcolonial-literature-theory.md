@@ -21,7 +21,7 @@ tags:
 - global
 - resistance
 stage: expert
-status: draft
+status: validated
 ---
 
 # Postcolonial Literature and Theory

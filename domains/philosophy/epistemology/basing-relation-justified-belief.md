@@ -16,7 +16,7 @@ tags:
 - belief-forming
 - intentionality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Basing Relation in Justified Belief

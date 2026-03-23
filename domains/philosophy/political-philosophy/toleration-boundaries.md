@@ -15,7 +15,7 @@ tags:
 - liberal-limits
 - intolerance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Political Toleration: Principles and Boundaries

@@ -16,7 +16,7 @@ tags:
 - ABAB
 - N-of-1
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Single-Case and Intensive Within-Subject Designs

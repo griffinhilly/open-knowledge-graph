@@ -31,7 +31,7 @@ tags:
 - dynamics
 - plate-tectonics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mantle Convection and Dynamics

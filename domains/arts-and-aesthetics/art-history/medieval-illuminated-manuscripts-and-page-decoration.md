@@ -16,7 +16,7 @@ tags:
 - book-arts
 - craftsmanship
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Medieval Illuminated Manuscripts and Page Decoration

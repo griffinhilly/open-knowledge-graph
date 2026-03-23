@@ -15,7 +15,7 @@ tags:
 - taxes
 - budgeting
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Paycheck Deductions and Net Pay

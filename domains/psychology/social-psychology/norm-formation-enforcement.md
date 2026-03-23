@@ -17,7 +17,7 @@ tags:
 - sanctions
 - deviance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Norm Formation and Social Enforcement Mechanisms

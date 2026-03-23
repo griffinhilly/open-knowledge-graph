@@ -19,7 +19,7 @@ tags:
 - hemostasis
 - blood
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hemostasis and Coagulation Pathophysiology

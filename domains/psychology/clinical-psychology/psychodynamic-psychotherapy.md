@@ -14,7 +14,7 @@ tags:
 - psychodynamic
 - transference
 stage: expert
-status: draft
+status: validated
 ---
 
 # Psychodynamic Psychotherapy and Transference

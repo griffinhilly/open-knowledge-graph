@@ -13,7 +13,7 @@ tags:
 - rectangles
 - squares
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Finding Perimeter of Rectangles and Squares

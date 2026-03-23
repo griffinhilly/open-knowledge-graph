@@ -17,7 +17,7 @@ tags:
 - expansion
 - mediterranean
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Punic Wars and Roman Imperial Expansion

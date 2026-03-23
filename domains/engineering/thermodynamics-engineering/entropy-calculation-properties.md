@@ -18,7 +18,7 @@ tags:
 - property-tables
 - calculations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Entropy Calculations from Property Tables and Equations

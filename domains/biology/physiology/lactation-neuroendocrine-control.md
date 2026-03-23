@@ -14,7 +14,7 @@ tags:
 - oxytocin
 - neuroendocrine
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lactation and Neuroendocrine Control

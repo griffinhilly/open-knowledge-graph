@@ -13,7 +13,7 @@ tags:
 - heteroskedasticity
 - fgls
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Feasible GLS (FGLS) with Estimated Covariance Structure

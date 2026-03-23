@@ -16,7 +16,7 @@ tags:
 - point-charges
 - law
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Coulomb's Law for Point Charges

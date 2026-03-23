@@ -16,7 +16,7 @@ tags:
 - reflections
 - spatial-reasoning
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Rotations and Reflections

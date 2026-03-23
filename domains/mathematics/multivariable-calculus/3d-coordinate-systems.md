@@ -13,7 +13,7 @@ tags:
 - 3d-space
 - coordinates
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # 3D Cartesian Coordinate Systems

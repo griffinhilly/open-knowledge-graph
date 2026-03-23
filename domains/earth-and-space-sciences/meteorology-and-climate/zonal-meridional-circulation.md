@@ -21,7 +21,7 @@ tags:
 - heat-transport
 - Hadley-cell
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Zonal and Meridional Atmospheric Circulation

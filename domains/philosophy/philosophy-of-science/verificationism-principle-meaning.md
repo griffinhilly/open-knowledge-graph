@@ -14,7 +14,7 @@ tags:
 - analytic-synthetic
 - empiricism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Verificationism and the Principle of Meaning

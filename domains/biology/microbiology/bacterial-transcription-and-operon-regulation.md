@@ -15,7 +15,7 @@ tags:
 - operons
 - regulation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bacterial Transcription and Operon Regulation

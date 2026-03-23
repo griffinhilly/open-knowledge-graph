@@ -25,7 +25,7 @@ tags:
 - nitrogen-balance
 - turnover
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Amino Acid Metabolism and Protein Turnover

@@ -14,7 +14,7 @@ tags:
 - governance
 - empire
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mongol Administration and Governance Innovations

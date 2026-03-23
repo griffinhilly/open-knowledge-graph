@@ -17,7 +17,7 @@ tags:
 - nucleosome-sliding
 - transcription-activation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chromatin Remodeling Complexes and SWI/SNF Family

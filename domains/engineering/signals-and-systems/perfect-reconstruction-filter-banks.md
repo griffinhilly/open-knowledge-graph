@@ -14,7 +14,7 @@ tags:
 - PR-FB
 - multirate
 stage: expert
-status: draft
+status: validated
 ---
 
 # Perfect Reconstruction Filter Banks and Constraints

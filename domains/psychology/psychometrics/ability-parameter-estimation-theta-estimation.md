@@ -16,7 +16,7 @@ tags:
 - ability-estimation
 - mle
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ability Parameter Estimation and Theta Estimation Methods

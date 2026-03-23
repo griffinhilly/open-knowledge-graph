@@ -15,7 +15,7 @@ tags:
 - word-problems
 - applications
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Division Word Problems

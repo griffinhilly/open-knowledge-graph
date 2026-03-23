@@ -13,7 +13,7 @@ tags:
 - script
 - communication
 stage: formal-systems
-status: draft
+status: validated
 ---
 # The Phoenician Alphabet and Writing System Origins
 

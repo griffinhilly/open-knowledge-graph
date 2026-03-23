@@ -15,7 +15,7 @@ tags:
 - notation
 - formalism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Symbolic Representation in Grammar

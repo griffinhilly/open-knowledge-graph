@@ -13,7 +13,7 @@ tags:
 - computer-basics
 - components
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Computer Hardware Components & Functions
 

@@ -16,7 +16,7 @@ tags:
 - controllable-canonical-form
 - observable-canonical-form
 stage: expert
-status: draft
+status: validated
 ---
 
 # State-Space to Transfer Function Conversion

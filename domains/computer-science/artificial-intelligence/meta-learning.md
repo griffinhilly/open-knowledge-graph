@@ -16,7 +16,7 @@ tags:
 - learning-to-learn
 - adaptation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Meta-Learning (Learning to Learn)

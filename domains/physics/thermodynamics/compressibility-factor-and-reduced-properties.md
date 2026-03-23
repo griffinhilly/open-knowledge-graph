@@ -12,7 +12,7 @@ tags:
 - reduced-properties
 - corresponding-states
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Compressibility Factor and Reduced Properties

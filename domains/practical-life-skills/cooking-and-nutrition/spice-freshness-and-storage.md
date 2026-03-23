@@ -19,7 +19,7 @@ tags:
 - grinding
 - flavor
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Spice Freshness and Storage

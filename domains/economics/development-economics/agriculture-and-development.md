@@ -16,7 +16,7 @@ tags:
 - structural-transformation
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Agriculture, Transformation, and Development

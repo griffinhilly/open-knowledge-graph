@@ -12,7 +12,7 @@ tags:
 - subtraction
 - arithmetic-circuits
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binary Subtraction Using Two's Complement

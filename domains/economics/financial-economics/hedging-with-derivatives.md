@@ -15,7 +15,7 @@ tags:
 - risk-management
 - derivatives
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hedging with Derivatives

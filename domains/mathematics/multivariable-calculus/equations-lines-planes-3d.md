@@ -14,7 +14,7 @@ tags:
 - planes
 - vector-equations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Equations of Lines and Planes in 3D

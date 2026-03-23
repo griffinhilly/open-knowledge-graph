@@ -17,7 +17,7 @@ tags:
 - testing
 - feedback-loop
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Iterative Design and Continuous Improvement
 

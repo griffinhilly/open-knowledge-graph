@@ -15,7 +15,7 @@ tags:
 - parentheses
 - style
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Colons, Dashes, and Parentheses

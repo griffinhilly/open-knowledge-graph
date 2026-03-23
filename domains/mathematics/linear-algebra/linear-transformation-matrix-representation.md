@@ -16,7 +16,7 @@ tags:
 - coordinates
 - bases
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Matrix Representation of Linear Transformations

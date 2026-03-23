@@ -13,7 +13,7 @@ tags:
 - eigenvectors
 - invariant
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Eigenvalues and Eigenvectors

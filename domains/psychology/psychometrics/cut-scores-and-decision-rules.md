@@ -19,7 +19,7 @@ tags:
 - sensitivity-specificity
 - accuracy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cut Scores, Decision Rules, and Classification Accuracy

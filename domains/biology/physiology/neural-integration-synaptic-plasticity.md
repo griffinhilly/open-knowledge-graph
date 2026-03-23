@@ -19,7 +19,7 @@ tags:
 - memory
 - integration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Neural Integration and Synaptic Plasticity

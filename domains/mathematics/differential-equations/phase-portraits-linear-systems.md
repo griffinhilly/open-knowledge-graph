@@ -15,7 +15,7 @@ tags:
 - trajectories
 - visualization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Phase Portraits for Linear Systems

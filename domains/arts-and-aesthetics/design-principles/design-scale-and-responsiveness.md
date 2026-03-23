@@ -20,7 +20,7 @@ tags:
 - context
 - multi-platform
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Design Scale and Responsiveness

@@ -11,7 +11,7 @@ tags:
 - ip
 - frequency-domain
 stage: expert
-status: draft
+status: validated
 ---
 
 # Induced Polarization and Frequency-Domain Response

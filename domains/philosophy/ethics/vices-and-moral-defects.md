@@ -15,7 +15,7 @@ tags:
 - defects
 - virtue
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Vices and Moral Defects of Character

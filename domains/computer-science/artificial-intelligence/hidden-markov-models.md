@@ -17,7 +17,7 @@ tags:
 - sequence-models
 - probabilistic-reasoning
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hidden Markov Models

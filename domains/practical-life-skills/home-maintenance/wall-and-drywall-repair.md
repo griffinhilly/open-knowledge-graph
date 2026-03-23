@@ -14,7 +14,7 @@ tags:
 - repairs
 - interior
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Wall and Drywall Repair

@@ -19,7 +19,7 @@ tags:
 - risk-measurement
 - quantitative
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Value-at-Risk Measurement

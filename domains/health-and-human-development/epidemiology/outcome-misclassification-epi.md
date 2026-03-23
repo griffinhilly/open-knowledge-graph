@@ -16,7 +16,7 @@ tags:
 - bias
 - outcome-validity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Outcome Misclassification and Differential Error

@@ -13,7 +13,7 @@ tags:
 - interior
 - repair
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Drywall Patch and Finish Techniques

@@ -16,7 +16,7 @@ tags:
 - photons
 - particle-properties
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Photons as Particles with Energy and Momentum

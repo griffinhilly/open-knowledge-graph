@@ -15,7 +15,7 @@ tags:
 - moisture
 - waterproofing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Basement Waterproofing Assessment and Methods

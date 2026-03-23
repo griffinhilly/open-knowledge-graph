@@ -15,7 +15,7 @@ tags:
 - engagement
 - online
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Virtual Presentation Skills

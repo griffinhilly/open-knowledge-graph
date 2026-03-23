@@ -20,7 +20,7 @@ tags:
 - immune-tolerance
 - self-reactivity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Autoimmune Disease Pathophysiology (Advanced)

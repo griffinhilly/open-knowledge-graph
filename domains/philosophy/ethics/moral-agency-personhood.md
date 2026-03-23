@@ -15,7 +15,7 @@ tags:
 - responsibility
 - moral-status
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Agency and Personhood

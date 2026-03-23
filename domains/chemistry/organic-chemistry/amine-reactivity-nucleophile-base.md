@@ -17,7 +17,7 @@ tags:
 - pka
 - lone-pair
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Amine Reactivity: Nucleophilicity and Basicity

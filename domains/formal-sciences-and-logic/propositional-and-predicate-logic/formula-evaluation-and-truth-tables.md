@@ -19,7 +19,7 @@ tags:
 - truth-tables
 - semantic-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Formula Evaluation and Truth Tables

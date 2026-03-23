@@ -13,7 +13,7 @@ tags:
 - distribution
 - validity-rules
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Middle Term Distribution and Validity Rules

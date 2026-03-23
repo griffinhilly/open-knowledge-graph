@@ -15,7 +15,7 @@ tags:
 - lexical access
 - priming
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Introduction to Psycholinguistics

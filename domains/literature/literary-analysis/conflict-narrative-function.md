@@ -16,7 +16,7 @@ tags:
 - tension
 - narrative-drive
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conflict and Its Narrative Function

@@ -11,7 +11,7 @@ tags:
 - daltons-law
 - partial-pressures
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gas Mixtures and Dalton's Law of Partial Pressures

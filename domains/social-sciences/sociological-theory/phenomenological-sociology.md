@@ -13,7 +13,7 @@ tags:
 - consciousness
 - lifeworld
 stage: expert
-status: draft
+status: validated
 ---
 # Phenomenological Sociology
 

@@ -13,7 +13,7 @@ tags:
 - nature
 - daoism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Taoism and Alternative Chinese Worldview

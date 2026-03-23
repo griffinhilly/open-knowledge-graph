@@ -13,7 +13,7 @@ tags:
 - position
 - sequencing
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Ordinal Numbers: First Through Tenth

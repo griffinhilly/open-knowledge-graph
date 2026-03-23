@@ -17,7 +17,7 @@ tags:
 - doubling-time
 - growth-phases
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Microbial Growth Kinetics and Population Dynamics

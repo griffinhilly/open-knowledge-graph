@@ -14,7 +14,7 @@ tags:
 - compactness
 - characterization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Heine-Borel Theorem

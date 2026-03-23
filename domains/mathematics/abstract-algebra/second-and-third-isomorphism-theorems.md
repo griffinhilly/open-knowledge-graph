@@ -11,7 +11,7 @@ tags:
 - subgroups
 - structure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Second and Third Isomorphism Theorems

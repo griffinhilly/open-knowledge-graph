@@ -17,7 +17,7 @@ tags:
 - decidability
 - quantifier-free
 stage: expert
-status: draft
+status: validated
 ---
 
 # Quantifier Elimination and Decidability

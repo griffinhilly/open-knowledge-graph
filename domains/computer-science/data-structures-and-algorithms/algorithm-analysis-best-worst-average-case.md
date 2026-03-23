@@ -16,7 +16,7 @@ tags:
 - analysis
 - asymptotics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Best, Worst, and Average Case Complexity Analysis

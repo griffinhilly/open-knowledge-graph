@@ -18,7 +18,7 @@ tags:
 - ion-channels
 - selectivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Selective Permeability and Membrane Channels

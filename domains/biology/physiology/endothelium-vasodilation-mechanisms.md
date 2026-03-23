@@ -13,7 +13,7 @@ tags:
 - nitric-oxide
 - prostacyclin
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Endothelial Function and Vasodilation Mechanisms

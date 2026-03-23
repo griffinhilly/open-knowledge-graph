@@ -18,7 +18,7 @@ tags:
 - halocline
 - water-masses
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ocean Stratification and Water Column Structure

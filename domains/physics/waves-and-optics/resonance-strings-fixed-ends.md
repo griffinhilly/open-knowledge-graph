@@ -13,7 +13,7 @@ tags:
 - standing-waves
 - musical-strings
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Resonance in Strings with Fixed Ends

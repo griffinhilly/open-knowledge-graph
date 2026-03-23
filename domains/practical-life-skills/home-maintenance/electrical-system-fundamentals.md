@@ -15,7 +15,7 @@ tags:
 - safety
 - power
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electrical System Fundamentals

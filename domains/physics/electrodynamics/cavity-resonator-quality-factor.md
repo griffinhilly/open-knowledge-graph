@@ -14,7 +14,7 @@ tags:
 - bandwidth
 - dissipation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Quality Factor and Energy Dissipation in Cavities

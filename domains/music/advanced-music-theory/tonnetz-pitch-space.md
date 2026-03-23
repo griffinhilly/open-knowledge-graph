@@ -26,7 +26,7 @@ tags:
 - visualization
 - neo-riemannian
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Tonnetz and Pitch Space Visualization

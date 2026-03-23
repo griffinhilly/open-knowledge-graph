@@ -14,7 +14,7 @@ tags:
 - development
 - Gini
 stage: expert
-status: draft
+status: validated
 ---
 
 # Inequality and Development

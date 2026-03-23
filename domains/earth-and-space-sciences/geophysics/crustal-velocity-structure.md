@@ -16,7 +16,7 @@ tags:
 - seismic
 - structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Crustal Velocity Structure and Seismic Layering

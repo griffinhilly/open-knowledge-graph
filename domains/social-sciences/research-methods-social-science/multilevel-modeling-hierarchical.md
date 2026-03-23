@@ -18,7 +18,7 @@ tags:
 - random-effects
 - cross-level-interactions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Multilevel Modeling for Hierarchical Data

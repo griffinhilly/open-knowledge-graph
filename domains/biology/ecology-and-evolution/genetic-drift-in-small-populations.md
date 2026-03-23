@@ -25,7 +25,7 @@ tags:
 - bottleneck
 - founder-effect
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Genetic Drift and Random Change in Small Populations
 

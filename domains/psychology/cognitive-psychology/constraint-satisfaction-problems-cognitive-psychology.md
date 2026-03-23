@@ -12,7 +12,7 @@ tags:
 - satisfaction
 - reasoning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constraint Satisfaction in Problem-Solving

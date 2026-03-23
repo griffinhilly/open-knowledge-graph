@@ -13,7 +13,7 @@ tags:
 - adams-bashforth
 - adams-moulton
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multistep Methods (Adams-Bashforth/Moulton)

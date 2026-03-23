@@ -18,7 +18,7 @@ tags:
 - internal-energy
 - equipartition
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Partition Function Applications: From Molecular Properties to Thermodynamics

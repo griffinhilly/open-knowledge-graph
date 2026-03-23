@@ -18,7 +18,7 @@ tags:
 - renaissance
 - mural
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Fresco Technique and Renaissance Mural Painting

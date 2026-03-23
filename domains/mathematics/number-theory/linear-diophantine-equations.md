@@ -15,7 +15,7 @@ tags:
 - linear-equations
 - integer-solutions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Linear Diophantine Equations

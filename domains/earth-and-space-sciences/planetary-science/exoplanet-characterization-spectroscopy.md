@@ -17,7 +17,7 @@ tags:
 - characterization
 - spectra
 stage: expert
-status: draft
+status: validated
 ---
 
 # Exoplanet Characterization via Spectroscopy

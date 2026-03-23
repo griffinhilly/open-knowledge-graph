@@ -17,7 +17,7 @@ tags:
 - ISE
 - electrochemistry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Potentiometry: pH and Ion-Selective Electrode Measurement

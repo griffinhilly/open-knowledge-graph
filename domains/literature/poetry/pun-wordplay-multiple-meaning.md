@@ -11,7 +11,7 @@ tags:
 - ambiguity
 - meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Pun and Wordplay: Multiple Meanings
 

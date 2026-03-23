@@ -17,7 +17,7 @@ tags:
 - harmony
 - quality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dominant Seventh Chord: Recognizing Its Unique Quality

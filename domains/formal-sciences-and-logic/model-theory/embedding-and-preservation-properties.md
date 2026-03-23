@@ -17,7 +17,7 @@ tags:
 - homomorphism
 - formula-classes
 stage: expert
-status: draft
+status: validated
 ---
 
 # Embeddings and Preservation of Formulas

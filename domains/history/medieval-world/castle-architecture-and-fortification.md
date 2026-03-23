@@ -14,7 +14,7 @@ tags:
 - fortification
 - technology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Castle Architecture and Medieval Fortification

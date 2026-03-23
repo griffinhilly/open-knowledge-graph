@@ -23,7 +23,7 @@ tags:
 - emulsification
 - absorption
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lipid Digestion, Emulsification, and Absorption

@@ -19,7 +19,7 @@ tags:
 - visual-interest
 - tension
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Contrast: Creating Visual Interest

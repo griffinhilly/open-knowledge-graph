@@ -14,7 +14,7 @@ tags:
 - twelve-tone
 - technique
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Systematic Approaches to Modernist Composition

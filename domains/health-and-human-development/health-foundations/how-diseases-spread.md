@@ -13,7 +13,7 @@ builds-toward:
   - communicable-disease-epidemiology
 tags: [disease, prevention, transmission, hygiene, public-health]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # How Diseases Spread

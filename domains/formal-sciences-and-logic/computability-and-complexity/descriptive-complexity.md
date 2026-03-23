@@ -14,7 +14,7 @@ tags:
 - finite-model-theory
 - characterization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Descriptive Complexity

@@ -27,7 +27,7 @@ tags:
 - spiral-rotation
 - transport
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ekman Spiral and Wind-Driven Ocean Transport

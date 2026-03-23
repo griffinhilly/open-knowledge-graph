@@ -11,7 +11,7 @@ tags:
 - concurrency
 - strongest-level
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Isolation Level: SERIALIZABLE

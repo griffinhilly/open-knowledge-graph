@@ -16,7 +16,7 @@ tags:
 - signaling
 - innate-immunity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Toll-Like Receptors and Signal Transduction

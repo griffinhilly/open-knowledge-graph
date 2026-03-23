@@ -15,7 +15,7 @@ tags:
 - decision-support
 - upstream
 stage: expert
-status: draft
+status: validated
 ---
 
 # Health Impact Assessment

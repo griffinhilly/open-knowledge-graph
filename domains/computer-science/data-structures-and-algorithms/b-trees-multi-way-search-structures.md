@@ -12,7 +12,7 @@ tags:
 - disk
 - database
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # B-Trees: Multi-Way Search Trees for Disk Access

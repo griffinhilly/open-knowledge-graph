@@ -17,7 +17,7 @@ tags:
 - equations
 - em-waves
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Maxwell's Equations and Electromagnetic Waves

@@ -22,7 +22,7 @@ tags:
 - post-tonal
 - interval-structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Z-Related Pitch-Class Sets

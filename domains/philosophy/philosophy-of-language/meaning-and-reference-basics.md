@@ -17,7 +17,7 @@ tags:
 - semantics
 - core-concepts
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Meaning and Reference: Core Distinctions

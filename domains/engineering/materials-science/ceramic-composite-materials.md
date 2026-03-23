@@ -14,7 +14,7 @@ tags:
 - matrix
 - rule-of-mixtures
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ceramic Materials and Fiber Composites

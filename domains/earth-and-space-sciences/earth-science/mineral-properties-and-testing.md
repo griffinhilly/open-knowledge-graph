@@ -20,7 +20,7 @@ tags:
 - cleavage
 - mohs-scale
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Mineral Properties and Testing

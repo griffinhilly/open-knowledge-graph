@@ -15,7 +15,7 @@ tags:
 - inflation
 - price-level
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Price Level Measurement and Price Indices
 

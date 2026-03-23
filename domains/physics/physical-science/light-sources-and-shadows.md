@@ -13,7 +13,7 @@ tags:
 - shadows
 - sources
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Light Sources and Shadows
 

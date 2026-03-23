@@ -16,7 +16,7 @@ tags:
 - structure
 - classical
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sonata Form Composition

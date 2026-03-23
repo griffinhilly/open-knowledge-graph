@@ -14,7 +14,7 @@ tags:
 - legitimacy
 - politics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mandate of Heaven and Political Legitimacy

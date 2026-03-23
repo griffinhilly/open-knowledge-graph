@@ -15,7 +15,7 @@ tags:
 - identity
 - adult-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Resocialization and Adult Identity Transformation

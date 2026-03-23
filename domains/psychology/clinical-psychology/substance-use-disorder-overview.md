@@ -20,7 +20,7 @@ tags:
 - tolerance
 - withdrawal
 stage: expert
-status: draft
+status: validated
 ---
 
 # Substance Use Disorders: Overview and Classification

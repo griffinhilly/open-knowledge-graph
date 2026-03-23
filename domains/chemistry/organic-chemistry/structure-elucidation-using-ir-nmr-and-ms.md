@@ -19,7 +19,7 @@ tags:
 - nmr-signals
 - mass-fragmentation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Structure Elucidation Using IR, NMR, and Mass Spectrometry

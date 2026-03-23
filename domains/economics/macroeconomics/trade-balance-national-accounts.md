@@ -17,7 +17,7 @@ tags:
 - gdp
 - national-accounts
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Trade Balance in National Accounts

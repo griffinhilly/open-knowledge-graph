@@ -19,7 +19,7 @@ tags:
 - capitalism
 - geopolitics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Iron Curtain and the Geopolitical Division of Europe

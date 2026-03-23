@@ -16,7 +16,7 @@ tags:
 - state
 - social-contract
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thomas Hobbes and the Leviathan

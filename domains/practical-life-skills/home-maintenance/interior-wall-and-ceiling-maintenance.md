@@ -15,7 +15,7 @@ tags:
 - drywall
 - plaster
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Interior Wall and Ceiling Assessment and Repair

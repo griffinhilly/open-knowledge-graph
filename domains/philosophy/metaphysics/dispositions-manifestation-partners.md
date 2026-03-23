@@ -19,7 +19,7 @@ tags:
 - modality
 - metaphysics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dispositions, Manifestations, and Stimulus Conditions

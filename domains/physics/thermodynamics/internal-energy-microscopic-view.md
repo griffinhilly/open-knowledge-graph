@@ -13,7 +13,7 @@ tags:
 - molecular-motion
 - state-function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Internal Energy: Microscopic Perspective

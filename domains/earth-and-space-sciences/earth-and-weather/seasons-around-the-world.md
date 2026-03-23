@@ -16,7 +16,7 @@ tags:
 - tropics
 - global
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Seasons Around the World

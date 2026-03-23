@@ -15,7 +15,7 @@ tags:
 - international-relations
 - treaties
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Diplomacy, Statecraft, and International Negotiation

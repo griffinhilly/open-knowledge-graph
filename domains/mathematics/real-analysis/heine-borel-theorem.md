@@ -16,7 +16,7 @@ tags:
 - compactness
 - closed-bounded
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Heine-Borel Theorem

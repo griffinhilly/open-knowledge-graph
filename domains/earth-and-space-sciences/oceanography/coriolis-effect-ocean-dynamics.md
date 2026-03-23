@@ -15,7 +15,7 @@ tags:
 - inertial-force
 - ocean-currents
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Coriolis Effect and Ocean Dynamics

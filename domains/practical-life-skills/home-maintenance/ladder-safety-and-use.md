@@ -15,7 +15,7 @@ tags:
 - tools
 - physical-safety
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ladder Safety and Use

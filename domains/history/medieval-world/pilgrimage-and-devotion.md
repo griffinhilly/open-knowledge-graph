@@ -14,7 +14,7 @@ tags:
 - pilgrimage
 - Christianity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pilgrimage and Medieval Devotion

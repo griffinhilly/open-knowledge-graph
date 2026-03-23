@@ -15,7 +15,7 @@ tags:
 - hypothesis-testing
 - intervals
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Confidence Intervals and Hypothesis Tests in Regression

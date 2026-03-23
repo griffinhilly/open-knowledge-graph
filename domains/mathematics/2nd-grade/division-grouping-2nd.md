@@ -15,7 +15,7 @@ tags:
 - grouping
 - concept
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Division as Grouping

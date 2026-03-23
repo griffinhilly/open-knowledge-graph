@@ -17,7 +17,7 @@ tags:
 - large models
 - cardinality spectrum
 stage: expert
-status: draft
+status: validated
 ---
 
 # Upward Löwenheim-Skolem Theorem

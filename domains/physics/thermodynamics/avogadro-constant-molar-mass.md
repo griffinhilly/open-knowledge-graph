@@ -13,7 +13,7 @@ tags:
 - molecules
 - molar-properties
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Avogadro's Number and Molar Mass
 

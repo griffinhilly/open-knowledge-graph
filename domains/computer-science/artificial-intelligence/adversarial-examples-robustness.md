@@ -20,7 +20,7 @@ tags:
 - security
 - perturbations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Adversarial Examples and Robustness

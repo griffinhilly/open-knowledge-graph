@@ -15,7 +15,7 @@ tags:
 - lipid-biosynthesis
 - membrane-components
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phospholipid Biosynthesis

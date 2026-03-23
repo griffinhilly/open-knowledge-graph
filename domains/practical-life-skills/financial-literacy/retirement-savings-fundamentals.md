@@ -19,7 +19,7 @@ tags:
 - savings
 - compound-interest
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Retirement Savings Fundamentals

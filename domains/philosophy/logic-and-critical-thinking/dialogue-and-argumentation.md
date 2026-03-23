@@ -14,7 +14,7 @@ tags:
 - cooperative-reasoning
 - argumentation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Dialogue and Cooperative Argumentation

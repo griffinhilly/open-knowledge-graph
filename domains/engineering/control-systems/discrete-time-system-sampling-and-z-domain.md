@@ -17,7 +17,7 @@ tags:
 - aliasing
 - sampler-hold
 stage: expert
-status: draft
+status: validated
 ---
 
 # Discrete-Time Systems: Sampling and z-Domain Analysis

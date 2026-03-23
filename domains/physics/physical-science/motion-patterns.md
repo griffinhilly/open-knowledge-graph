@@ -15,7 +15,7 @@ tags:
 - motion
 - prediction
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Motion Patterns
 

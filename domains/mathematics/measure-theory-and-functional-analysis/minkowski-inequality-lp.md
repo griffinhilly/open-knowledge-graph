@@ -12,7 +12,7 @@ tags:
 - lp-spaces
 - triangle-inequality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Minkowski's Inequality for L^p Spaces

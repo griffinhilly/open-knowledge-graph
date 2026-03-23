@@ -15,7 +15,7 @@ tags:
 - solidarity
 - deviance
 stage: expert
-status: draft
+status: validated
 ---
 
 # Anomie and Social Solidarity

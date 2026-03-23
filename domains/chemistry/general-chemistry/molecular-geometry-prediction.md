@@ -17,7 +17,7 @@ tags:
 - electron geometry
 - 3D structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Molecular Geometry: VSEPR Theory and 3D Structure

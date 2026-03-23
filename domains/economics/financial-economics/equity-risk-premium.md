@@ -15,7 +15,7 @@ tags:
 - expected-return
 - risk-premium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Equity Risk Premium and Market Return Expectations

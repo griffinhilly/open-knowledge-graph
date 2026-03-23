@@ -15,7 +15,7 @@ tags:
 - prediction
 - pragmatism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Instrumentalism

@@ -19,7 +19,7 @@ tags:
 - adjectives
 - prepositional-phrases
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Noun Phrase Modification and Expansion

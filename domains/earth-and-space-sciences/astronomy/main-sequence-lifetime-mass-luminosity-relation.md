@@ -17,7 +17,7 @@ tags:
 - mass-luminosity
 - scaling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Main Sequence Lifetime and the Mass-Luminosity Relation

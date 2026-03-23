@@ -11,7 +11,7 @@ tags:
 - diophantine
 - representation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sum of Two Squares Theorem

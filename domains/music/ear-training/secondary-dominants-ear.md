@@ -21,7 +21,7 @@ tags:
 - harmony
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Secondary Dominants and Tonicization by Ear

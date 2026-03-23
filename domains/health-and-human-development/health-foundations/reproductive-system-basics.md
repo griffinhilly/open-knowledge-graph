@@ -13,7 +13,7 @@ builds-toward:
   - reproductive-hormonal-cycles-gametogenesis
 tags: [growth, development, reproductive-system, puberty, anatomy]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Reproductive System Basics

@@ -14,7 +14,7 @@ tags:
 - feedback
 - system-structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Open-Loop vs Closed-Loop Control

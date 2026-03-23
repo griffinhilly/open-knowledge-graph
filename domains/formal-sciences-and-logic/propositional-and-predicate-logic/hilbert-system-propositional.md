@@ -17,7 +17,7 @@ tags:
 - deduction-theorem
 - axiomatic-proof
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hilbert System for Propositional Logic

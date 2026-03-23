@@ -14,7 +14,7 @@ tags:
 - protection
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Learning by Doing and Infant Industry Protection

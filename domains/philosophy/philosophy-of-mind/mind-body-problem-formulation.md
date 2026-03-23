@@ -16,7 +16,7 @@ tags:
 - metaphysics
 - consciousness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Mind-Body Problem

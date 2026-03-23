@@ -16,7 +16,7 @@ tags:
 - iterative
 - linear-systems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Jacobi Iterative Method

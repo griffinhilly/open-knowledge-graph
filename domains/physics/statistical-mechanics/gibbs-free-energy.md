@@ -15,7 +15,7 @@ tags:
 - free-energy
 - phase-transitions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Gibbs Free Energy

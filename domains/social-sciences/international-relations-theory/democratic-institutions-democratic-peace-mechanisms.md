@@ -17,7 +17,7 @@ tags:
 - institutions
 - constraints
 stage: expert
-status: draft
+status: validated
 ---
 
 # Democratic Institutions and the Democratic Peace

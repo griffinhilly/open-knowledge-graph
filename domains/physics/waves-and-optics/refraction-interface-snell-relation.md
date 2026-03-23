@@ -13,7 +13,7 @@ tags:
 - refraction
 - optics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Refraction at Boundaries and Snell's Law

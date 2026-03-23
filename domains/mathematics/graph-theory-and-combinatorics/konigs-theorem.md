@@ -11,7 +11,7 @@ tags:
 - matching
 - vertex-cover
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # König's Theorem and Matching-Cover Duality

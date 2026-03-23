@@ -12,7 +12,7 @@ tags:
 - fact-families
 - relationships
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Fact Families

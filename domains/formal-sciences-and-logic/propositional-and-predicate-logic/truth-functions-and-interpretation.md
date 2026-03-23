@@ -15,7 +15,7 @@ tags:
 - semantics
 - truth-functions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Truth Functions and Interpretation

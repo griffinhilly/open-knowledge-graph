@@ -14,7 +14,7 @@ tags:
 - tangent-vectors
 - normal-vectors
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Parametric Surfaces and Tangent Vectors

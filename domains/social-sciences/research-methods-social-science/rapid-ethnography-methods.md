@@ -17,7 +17,7 @@ tags:
 - urgent
 - compressed
 stage: expert
-status: draft
+status: validated
 ---
 
 # Rapid Ethnography and Compressed Fieldwork

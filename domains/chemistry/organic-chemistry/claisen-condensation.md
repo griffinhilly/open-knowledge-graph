@@ -17,7 +17,7 @@ tags:
 - beta-keto-ester
 - c-c-coupling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Claisen Condensation and β-Keto Esters

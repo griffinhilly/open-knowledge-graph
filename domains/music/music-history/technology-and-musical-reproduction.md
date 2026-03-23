@@ -16,7 +16,7 @@ tags:
 - reproduction
 - media
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Technology and Musical Reproduction

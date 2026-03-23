@@ -16,7 +16,7 @@ tags:
 - half-reaction method
 - electron balance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Balancing Redox Equations by Half-Reaction Method

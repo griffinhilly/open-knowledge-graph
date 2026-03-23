@@ -14,7 +14,7 @@ tags:
 - visual-models
 - strategies
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Multiplication Strategies Using Arrays

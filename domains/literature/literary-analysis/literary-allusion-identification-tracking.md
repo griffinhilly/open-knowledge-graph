@@ -18,7 +18,7 @@ tags:
 - intertextuality
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Literary Allusion: Identification and Interpretation

@@ -16,7 +16,7 @@ tags:
 - meaning
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Compositionality and Its Limits

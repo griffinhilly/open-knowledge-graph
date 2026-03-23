@@ -14,7 +14,7 @@ tags:
 - distribution
 - communication
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Music Notation, Publishing, and Distribution

@@ -18,7 +18,7 @@ tags:
 - network
 - homeostasis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Excitatory-Inhibitory Balance in Neural Circuits

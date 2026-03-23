@@ -15,7 +15,7 @@ tags:
 - ionic-bonds
 - covalent-bonds
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Ionic and Covalent Bonds: An Introduction
 

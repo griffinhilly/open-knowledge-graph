@@ -15,7 +15,7 @@ builds-toward:
   - loop-design-and-invariants
 tags: [invariants, monovariants, problem-solving, proof]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Invariants and Monovariants

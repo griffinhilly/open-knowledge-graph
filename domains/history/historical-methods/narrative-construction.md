@@ -16,7 +16,7 @@ tags:
 - representation
 - methodology
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Narrative Construction and Historical Representation

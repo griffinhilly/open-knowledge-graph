@@ -17,7 +17,7 @@ tags:
 - integration
 - qualitative-quantitative
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mixed-Methods Research and Integration of Qualitative and Quantitative Approaches

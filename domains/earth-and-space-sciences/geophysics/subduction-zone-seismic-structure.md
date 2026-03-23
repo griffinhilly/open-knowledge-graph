@@ -14,7 +14,7 @@ tags:
 - slab
 - tomography
 stage: expert
-status: draft
+status: validated
 ---
 
 # Subduction Zone Seismic Architecture and Slab Imaging

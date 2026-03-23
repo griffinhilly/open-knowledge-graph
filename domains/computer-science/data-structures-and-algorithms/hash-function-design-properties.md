@@ -14,7 +14,7 @@ tags:
 - design
 - properties
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hash Function Design: Properties and Requirements

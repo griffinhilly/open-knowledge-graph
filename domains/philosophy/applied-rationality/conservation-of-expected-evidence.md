@@ -15,7 +15,7 @@ builds-toward:
   - calibration-training
 tags: ["bayesian", "evidence", "probability", "rationality"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

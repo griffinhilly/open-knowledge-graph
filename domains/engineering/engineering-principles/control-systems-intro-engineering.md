@@ -20,7 +20,7 @@ tags:
 - regulation
 - set-point
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Introduction to Control Systems
 

@@ -13,7 +13,7 @@ tags:
 - fluctuations
 - thermodynamics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Response Functions and Susceptibilities

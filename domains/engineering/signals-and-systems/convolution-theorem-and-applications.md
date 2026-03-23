@@ -14,7 +14,7 @@ tags:
 - frequency-domain
 - fourier
 stage: expert
-status: draft
+status: validated
 ---
 
 # Convolution Theorem and Frequency Domain Applications

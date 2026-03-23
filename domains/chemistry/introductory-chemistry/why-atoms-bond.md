@@ -16,7 +16,7 @@ tags:
 - stability
 - electrons
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Why Atoms Bond
 

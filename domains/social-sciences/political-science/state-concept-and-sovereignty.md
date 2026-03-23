@@ -16,7 +16,7 @@ tags:
 - territory
 - recognition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The State: Concept, Definition, and Sovereignty

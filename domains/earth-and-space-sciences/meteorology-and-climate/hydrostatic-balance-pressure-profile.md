@@ -21,7 +21,7 @@ tags:
 - pressure
 - vertical-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hydrostatic Balance and Pressure Profile

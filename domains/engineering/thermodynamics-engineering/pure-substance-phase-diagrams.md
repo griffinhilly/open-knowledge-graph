@@ -15,7 +15,7 @@ tags:
 - phases
 - saturation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pure Substance Phase Diagrams

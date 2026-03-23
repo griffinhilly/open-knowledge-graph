@@ -16,7 +16,7 @@ tags:
 - construction
 - anatomy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Portrait Mouth and Nose Construction

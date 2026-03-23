@@ -16,7 +16,7 @@ tags:
 - advanced
 - voice-exchange
 stage: expert
-status: draft
+status: validated
 ---
 
 # Invertible Counterpoint and Multiple Counterpoint

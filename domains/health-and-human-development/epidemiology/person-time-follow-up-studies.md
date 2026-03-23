@@ -14,7 +14,7 @@ tags:
 - cohort-studies
 - censoring
 stage: expert
-status: draft
+status: validated
 ---
 
 # Person-Time Calculations and Follow-Up Study Design

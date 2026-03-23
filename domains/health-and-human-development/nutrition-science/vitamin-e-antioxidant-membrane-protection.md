@@ -16,7 +16,7 @@ tags:
 - lipophilic-antioxidant
 - membrane-stability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vitamin E: Antioxidant and Membrane Protection

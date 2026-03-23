@@ -18,7 +18,7 @@ tags:
 - mentalizing
 - resting-state
 stage: expert
-status: draft
+status: validated
 ---
 
 # Default-Mode Network and Self/Social Cognition

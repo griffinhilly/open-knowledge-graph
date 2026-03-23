@@ -17,7 +17,7 @@ tags:
 - hill-climbing
 - metaheuristics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Local Search Optimization

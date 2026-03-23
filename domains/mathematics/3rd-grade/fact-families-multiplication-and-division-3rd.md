@@ -15,7 +15,7 @@ tags:
 - multiplication
 - division
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Fact Families: Multiplication and Division

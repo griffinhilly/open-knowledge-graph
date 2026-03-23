@@ -19,7 +19,7 @@ tags:
 - troposphere
 - stratosphere
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermal Structure of the Atmosphere

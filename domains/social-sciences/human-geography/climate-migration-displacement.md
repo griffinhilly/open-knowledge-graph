@@ -16,7 +16,7 @@ tags:
 - displacement
 - environmental
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Climate Migration and Environmental Displacement

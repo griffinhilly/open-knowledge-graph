@@ -14,7 +14,7 @@ tags:
 - processing
 - fourier
 stage: expert
-status: draft
+status: validated
 ---
 
 # Time-Series and Frequency-Domain Analysis in Seismology

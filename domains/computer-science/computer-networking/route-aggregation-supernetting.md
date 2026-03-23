@@ -14,7 +14,7 @@ tags:
 - cidr
 - routing-scalability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Route Aggregation and Supernetting

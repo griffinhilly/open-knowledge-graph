@@ -16,7 +16,7 @@ tags:
 - futures
 - forwards
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Futures and Forward Contracts

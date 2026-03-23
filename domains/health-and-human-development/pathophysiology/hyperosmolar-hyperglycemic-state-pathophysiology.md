@@ -17,7 +17,7 @@ tags:
 - hyperglycemia
 - osmotic-diuresis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hyperosmolar Hyperglycemic State: Severe Hyperglycemia, Osmotic Diuresis, and Dehydration

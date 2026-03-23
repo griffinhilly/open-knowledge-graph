@@ -15,7 +15,7 @@ tags:
 - frequency-shift
 - relative-motion
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Doppler Effect: Complete Analysis for Moving Source and Observer

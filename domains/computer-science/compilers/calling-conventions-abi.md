@@ -11,7 +11,7 @@ tags:
 - calling-conventions
 - function-calls
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Calling Conventions and ABI

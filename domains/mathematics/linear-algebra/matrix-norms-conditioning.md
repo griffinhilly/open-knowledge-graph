@@ -15,7 +15,7 @@ tags:
 - conditioning
 - numerical-stability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Matrix Norms and Condition Numbers

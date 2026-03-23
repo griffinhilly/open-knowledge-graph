@@ -18,7 +18,7 @@ tags:
 - time-signature
 - contemporary
 stage: expert
-status: draft
+status: validated
 ---
 
 # Additive Meter and Complex Time Signatures

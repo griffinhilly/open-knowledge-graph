@@ -11,7 +11,7 @@ prerequisites:
 - id: order-of-operations
   type: soft
 builds-toward:
-- conditional-statements
+- arithmetic-operators
 - type-conversion
 - string-operations
 tags:
@@ -23,7 +23,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Operators and Expressions
 
 ## Core Idea

@@ -13,7 +13,7 @@ tags:
 - EXCEPT
 - set operations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # SQL: Set Operations (UNION, INTERSECT, EXCEPT)

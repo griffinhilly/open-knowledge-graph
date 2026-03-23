@@ -16,7 +16,7 @@ tags:
 - authority
 - credibility
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Evaluating Testimony and Authority

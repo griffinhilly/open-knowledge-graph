@@ -14,7 +14,7 @@ tags:
 - sustainability
 - foreign-debt
 stage: expert
-status: draft
+status: validated
 ---
 
 # Capital Flows and Balance of Payments

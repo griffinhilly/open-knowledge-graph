@@ -16,7 +16,7 @@ tags:
 - A-theory
 - B-theory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The A-Theory and B-Theory of Time

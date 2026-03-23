@@ -18,7 +18,7 @@ tags:
 - citizenship
 - protection
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Basic Rules for Staying Safe Online

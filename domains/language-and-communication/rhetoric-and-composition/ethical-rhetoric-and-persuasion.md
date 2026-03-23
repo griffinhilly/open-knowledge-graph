@@ -16,7 +16,7 @@ tags:
 - persuasion
 - honesty
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ethical Rhetoric and Persuasion

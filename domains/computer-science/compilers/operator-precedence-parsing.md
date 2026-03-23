@@ -15,7 +15,7 @@ tags:
 - operators
 - grammars
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Operator Precedence Parsing

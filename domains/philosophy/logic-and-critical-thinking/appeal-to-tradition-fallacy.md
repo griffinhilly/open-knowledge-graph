@@ -13,7 +13,7 @@ tags:
 - tradition
 - informal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Appeal to Tradition: The Fallacy of 'We've Always Done It This Way'

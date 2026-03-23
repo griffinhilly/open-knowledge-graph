@@ -17,7 +17,7 @@ tags:
 - contradiction
 - strategy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Proof Strategies in Discrete Mathematics

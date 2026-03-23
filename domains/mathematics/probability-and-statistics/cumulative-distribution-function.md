@@ -15,7 +15,7 @@ tags:
 - probability
 - distributions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cumulative Distribution Functions

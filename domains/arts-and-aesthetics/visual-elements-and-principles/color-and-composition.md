@@ -16,7 +16,7 @@ tags:
 - spatial-effects
 - harmony
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Color and Composition

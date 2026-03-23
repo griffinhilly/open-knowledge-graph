@@ -14,7 +14,7 @@ tags:
 - electroanalysis
 - electrode-reactions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Coulometric Titration and Electroanalysis

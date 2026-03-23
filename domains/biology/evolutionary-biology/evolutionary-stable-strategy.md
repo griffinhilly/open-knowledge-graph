@@ -11,7 +11,7 @@ tags:
 - strategy
 - evolution
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Evolutionary Stable Strategy (ESS)

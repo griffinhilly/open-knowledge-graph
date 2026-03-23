@@ -13,7 +13,7 @@ tags:
 - eigenvalues
 - iteration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Power Method for Eigenvalues

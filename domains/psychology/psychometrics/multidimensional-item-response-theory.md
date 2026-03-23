@@ -25,7 +25,7 @@ tags:
 - latent-traits
 - complex-constructs
 stage: expert
-status: draft
+status: validated
 ---
 # Multidimensional Item Response Theory
 

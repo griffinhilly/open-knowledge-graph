@@ -21,7 +21,7 @@ tags:
 - parallax
 - geometric
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stellar Parallax and Direct Distance Measurement

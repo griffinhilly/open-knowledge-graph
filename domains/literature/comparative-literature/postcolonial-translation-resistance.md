@@ -24,7 +24,7 @@ tags:
 - politics
 - power
 stage: expert
-status: draft
+status: validated
 ---
 
 # Translation as Postcolonial Resistance and Rewriting

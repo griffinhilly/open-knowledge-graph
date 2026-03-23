@@ -20,7 +20,7 @@ tags:
 - greeks
 - sensitivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Option Greeks and Sensitivity Analysis

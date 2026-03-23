@@ -14,7 +14,7 @@ tags:
 - foundations
 - discrete-math
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Propositional Logic Foundations
 

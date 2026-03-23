@@ -19,7 +19,7 @@ tags:
 - orbitals
 - structure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Molecular Orbital Diagrams and Bond Order

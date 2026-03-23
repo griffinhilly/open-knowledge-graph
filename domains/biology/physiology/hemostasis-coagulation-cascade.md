@@ -13,7 +13,7 @@ tags:
 - thrombin
 - platelet-plug
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hemostasis and the Coagulation Cascade

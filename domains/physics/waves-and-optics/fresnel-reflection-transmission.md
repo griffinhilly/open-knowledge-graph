@@ -16,7 +16,7 @@ tags:
 - reflection
 - transmission
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fresnel Equations: Reflection and Transmission at Interfaces

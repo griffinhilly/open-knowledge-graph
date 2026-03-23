@@ -16,7 +16,7 @@ tags:
 - stratification
 - inequality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Social Mobility and Life Chances

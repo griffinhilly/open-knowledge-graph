@@ -16,7 +16,7 @@ tags:
 - skolemization
 - automated-reasoning
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Skolemization and Witness Functions

@@ -15,7 +15,7 @@ tags:
 - capital-flows
 - finance
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Capital Flows and the Financial Account

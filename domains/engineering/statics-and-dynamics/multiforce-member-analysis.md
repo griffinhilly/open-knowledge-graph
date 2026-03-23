@@ -18,7 +18,7 @@ tags:
 - pin reactions
 - internal forces
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multi-Force Member Analysis

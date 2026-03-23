@@ -13,7 +13,7 @@ tags:
 - hilbert-spaces
 - projections
 stage: expert
-status: draft
+status: validated
 ---
 
 # Orthogonality and Orthogonal Projections

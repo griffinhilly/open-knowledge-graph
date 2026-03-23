@@ -18,7 +18,7 @@ builds-toward:
   - sunk-cost-recognition
 tags: ["decision-theory", "expected-value", "risk", "quantitative-reasoning"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

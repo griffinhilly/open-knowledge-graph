@@ -11,7 +11,7 @@ tags:
 - algebraic-number-fields
 - number-theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Norm in Algebraic Number Fields

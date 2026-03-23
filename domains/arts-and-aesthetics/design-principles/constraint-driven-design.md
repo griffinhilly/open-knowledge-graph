@@ -19,7 +19,7 @@ tags:
 - problem-solving
 - design-process
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constraint-Driven Design

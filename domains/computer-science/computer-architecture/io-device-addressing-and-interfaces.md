@@ -15,7 +15,7 @@ tags:
 - device-addressing
 - memory-mapped-io
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # I/O Device Addressing and Interface Design

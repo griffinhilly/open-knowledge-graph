@@ -15,7 +15,7 @@ tags:
 - parsing
 - compilation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Error Recovery in Compilation

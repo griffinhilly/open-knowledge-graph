@@ -16,7 +16,7 @@ tags:
 - orchestration
 - color
 stage: advanced
-status: draft
+status: validated
 ---
 # Texture and Orchestral Color
 

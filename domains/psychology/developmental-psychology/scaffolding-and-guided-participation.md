@@ -15,7 +15,7 @@ tags:
 - guidance
 - support
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Scaffolding and Guided Participation

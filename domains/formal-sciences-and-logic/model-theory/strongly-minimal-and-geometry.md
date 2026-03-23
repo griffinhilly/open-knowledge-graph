@@ -16,7 +16,7 @@ tags:
 - geometry
 - stability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Strongly Minimal Sets and Geometric Structure

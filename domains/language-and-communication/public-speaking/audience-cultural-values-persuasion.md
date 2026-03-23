@@ -16,7 +16,7 @@ tags:
 - culture
 - values
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Audience Cultural Values and Persuasion

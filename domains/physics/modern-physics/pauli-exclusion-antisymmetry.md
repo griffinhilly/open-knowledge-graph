@@ -15,7 +15,7 @@ tags:
 - fermions
 - antisymmetry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Pauli Exclusion Principle and Antisymmetric Wavefunctions

@@ -13,7 +13,7 @@ tags:
 - events
 - formalism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Event Semantics: Formal Representation of Eventualities

@@ -12,7 +12,7 @@ tags:
 - evidence
 - cultural-history
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Literature as Historical Evidence

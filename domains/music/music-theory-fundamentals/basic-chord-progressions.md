@@ -17,7 +17,7 @@ tags:
 - progressions
 - function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Basic Chord Progressions

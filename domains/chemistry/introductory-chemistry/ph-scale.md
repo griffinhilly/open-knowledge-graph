@@ -18,7 +18,7 @@ tags:
 - scale
 - acidity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # The pH Scale
 

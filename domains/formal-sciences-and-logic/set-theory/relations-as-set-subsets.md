@@ -13,7 +13,7 @@ tags:
 - binary-relations
 - formal-definition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Relations as Subsets of Cartesian Products

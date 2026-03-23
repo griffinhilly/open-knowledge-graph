@@ -16,7 +16,7 @@ tags:
 - lifting
 - thermodynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lifted Condensation Level and Cloud Base

@@ -16,7 +16,7 @@ tags:
 - guided-modes
 - dispersion-relations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Waveguide Field Equations

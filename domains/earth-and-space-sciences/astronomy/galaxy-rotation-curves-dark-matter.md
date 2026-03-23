@@ -15,7 +15,7 @@ tags:
 - galaxy-dynamics
 - mass-distribution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Galaxy Rotation Curves and Dark Matter

@@ -14,7 +14,7 @@ tags:
 - structural-innovation
 - aesthetics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Architectural Styles and Evolution Across Historical Periods

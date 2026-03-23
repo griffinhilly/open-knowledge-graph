@@ -16,7 +16,7 @@ tags:
 - bounds
 - real-numbers
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Supremum and Infimum

@@ -12,7 +12,7 @@ tags:
 - motor-systems
 - action-selection
 stage: expert
-status: draft
+status: validated
 ---
 
 # Basal Ganglia: Action Selection and Initiation

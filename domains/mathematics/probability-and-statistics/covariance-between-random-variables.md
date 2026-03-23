@@ -16,7 +16,7 @@ tags:
 - covariance
 - correlation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Covariance and Correlation of Random Variables

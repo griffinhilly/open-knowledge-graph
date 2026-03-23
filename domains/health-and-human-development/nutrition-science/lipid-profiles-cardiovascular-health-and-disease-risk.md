@@ -16,7 +16,7 @@ tags:
 - cardiovascular-health
 - lipoproteins
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lipid Profiles, Lipoprotein Metabolism, and Cardiovascular Disease Risk

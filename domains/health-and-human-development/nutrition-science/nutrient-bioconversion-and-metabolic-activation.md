@@ -17,7 +17,7 @@ tags:
 - pro-vitamins
 - conversion-efficiency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nutrient Bioconversion and Metabolic Activation

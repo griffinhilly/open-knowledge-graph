@@ -19,7 +19,7 @@ tags:
 - repetition
 - theme
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Motif Recognition and Analysis

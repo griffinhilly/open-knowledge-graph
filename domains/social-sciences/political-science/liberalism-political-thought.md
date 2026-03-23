@@ -17,7 +17,7 @@ tags:
 - free-market
 - democracy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Liberalism in Political Thought and Practice

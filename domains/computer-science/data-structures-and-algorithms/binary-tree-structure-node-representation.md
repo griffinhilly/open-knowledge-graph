@@ -13,7 +13,7 @@ tags:
 - structure
 - representation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binary Tree Structure and Node Representation

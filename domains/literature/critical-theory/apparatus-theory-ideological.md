@@ -15,7 +15,7 @@ tags:
 - formation
 - interpellation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Apparatus Theory and Ideological Formation

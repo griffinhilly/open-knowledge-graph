@@ -17,7 +17,7 @@ tags:
 - embeddings
 - representation-learning
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Word Embeddings and Representations

@@ -17,7 +17,7 @@ tags:
 - tragedy
 - aristotelian
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Anagnorisis: Discovery and Recognition

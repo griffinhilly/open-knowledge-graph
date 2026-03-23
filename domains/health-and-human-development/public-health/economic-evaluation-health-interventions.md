@@ -15,7 +15,7 @@ tags:
 - health-economics
 - icer
 stage: expert
-status: draft
+status: validated
 ---
 
 # Economic Evaluation of Health Interventions

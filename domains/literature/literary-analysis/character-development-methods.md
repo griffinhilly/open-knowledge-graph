@@ -16,7 +16,7 @@ tags:
 - development
 - techniques
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Methods of Character Development

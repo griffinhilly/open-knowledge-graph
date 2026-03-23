@@ -21,7 +21,7 @@ tags:
 - modernism
 - formalism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Twentieth-Century Geometric Abstraction and Reduction

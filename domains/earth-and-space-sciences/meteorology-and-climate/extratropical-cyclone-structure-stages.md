@@ -19,7 +19,7 @@ tags:
 - weather
 - life-cycle
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Extratropical Cyclone Structure and Life Cycle Stages

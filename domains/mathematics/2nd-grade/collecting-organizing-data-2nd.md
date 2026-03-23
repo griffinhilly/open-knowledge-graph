@@ -14,7 +14,7 @@ tags:
 - collection
 - organization
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Collecting and Organizing Data

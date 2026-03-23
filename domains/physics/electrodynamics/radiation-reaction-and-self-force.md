@@ -15,7 +15,7 @@ tags:
 - abraham-lorentz
 - self-force
 stage: expert
-status: draft
+status: validated
 ---
 
 # Radiation Reaction and Self-Force

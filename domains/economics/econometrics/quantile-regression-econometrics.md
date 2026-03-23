@@ -13,7 +13,7 @@ tags:
 - distributional
 - robust
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantile Regression and Distributional Effects

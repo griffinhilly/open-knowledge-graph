@@ -16,7 +16,7 @@ tags:
 - coordination
 - syntax
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Subject Agreement with and, or, nor Connectors

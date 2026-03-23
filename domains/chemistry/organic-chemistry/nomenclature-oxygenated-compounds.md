@@ -18,7 +18,7 @@ tags:
 - thiols
 - functional-groups
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # IUPAC Nomenclature of Alcohols, Ethers, and Thiols

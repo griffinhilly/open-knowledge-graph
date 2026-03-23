@@ -18,7 +18,7 @@ tags:
 - facilitation
 - bare-rock
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Primary Succession: Bare Substrate Colonization and Facilitation

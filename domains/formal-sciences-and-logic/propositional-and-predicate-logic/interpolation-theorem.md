@@ -17,7 +17,7 @@ tags:
 - explicit-definition
 - interpolant
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Craig Interpolation Theorem

@@ -16,7 +16,7 @@ tags:
 - humanitarian
 - sovereignty
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Refugee and Asylum Geographies

@@ -14,7 +14,7 @@ tags:
 - guided-waves
 - cutoff-frequency
 stage: expert
-status: draft
+status: validated
 ---
 
 # Transverse Electric (TE) Modes

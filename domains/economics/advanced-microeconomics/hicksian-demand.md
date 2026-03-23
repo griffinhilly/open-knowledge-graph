@@ -13,7 +13,7 @@ tags:
 - demand
 - price-effect
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hicksian Demand (Compensated Demand)

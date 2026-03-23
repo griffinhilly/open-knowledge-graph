@@ -16,7 +16,7 @@ tags:
 - predation
 - evolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Antipredator Defenses and Mimicry

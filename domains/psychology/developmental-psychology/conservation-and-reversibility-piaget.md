@@ -15,7 +15,7 @@ tags:
 - cognitive development
 - logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conservation and Reversibility in Piaget's Theory

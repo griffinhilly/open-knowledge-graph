@@ -16,7 +16,7 @@ tags:
 - methodology
 - world-literature
 stage: expert
-status: draft
+status: validated
 ---
 
 # Comparative Literature: Scope and Methods

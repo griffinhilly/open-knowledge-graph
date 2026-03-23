@@ -19,7 +19,7 @@ tags:
 - initiation factors
 - elongation factors
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Translation: Initiation and Elongation

@@ -16,7 +16,7 @@ tags:
 - substitution-rate
 - dating
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Molecular Clock Hypothesis

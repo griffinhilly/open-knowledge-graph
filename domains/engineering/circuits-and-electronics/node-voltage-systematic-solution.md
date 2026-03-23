@@ -15,7 +15,7 @@ tags:
 - node-voltage
 - systematic-method
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nodal Analysis Method

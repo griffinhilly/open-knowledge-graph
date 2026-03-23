@@ -16,7 +16,7 @@ tags:
 - extinction
 - observational
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Extinction and Interstellar Reddening

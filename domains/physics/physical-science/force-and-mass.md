@@ -15,7 +15,7 @@ tags:
 - mass
 - acceleration
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Force and Mass
 

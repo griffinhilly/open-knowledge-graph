@@ -16,7 +16,7 @@ tags:
 - contour-integrals
 - applications
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Residue Theorem

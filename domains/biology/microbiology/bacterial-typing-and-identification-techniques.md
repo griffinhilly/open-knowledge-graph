@@ -15,7 +15,7 @@ tags:
 - typing
 - diagnostics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bacterial Typing and Identification Techniques

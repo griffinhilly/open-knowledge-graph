@@ -16,7 +16,7 @@ tags:
 - adaptation
 - visualization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fitness Landscapes

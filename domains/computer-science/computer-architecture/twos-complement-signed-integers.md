@@ -16,7 +16,7 @@ tags:
 - signed-arithmetic
 - integer-encoding
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Two's Complement and Signed Integer Representation

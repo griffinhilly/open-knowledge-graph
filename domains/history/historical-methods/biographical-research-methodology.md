@@ -14,7 +14,7 @@ tags:
 - life-history
 - research
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Biographical Research Methodology

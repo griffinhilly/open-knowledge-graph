@@ -13,7 +13,7 @@ tags:
 - voice-leading
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voice Leading Analysis and Structural Reduction

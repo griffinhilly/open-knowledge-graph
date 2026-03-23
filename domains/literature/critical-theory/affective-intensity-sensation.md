@@ -13,7 +13,7 @@ tags:
 - sensation
 - deleuze
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Affect Theory, Intensity, and Emotional Economies

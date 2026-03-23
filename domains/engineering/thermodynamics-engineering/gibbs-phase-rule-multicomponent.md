@@ -16,7 +16,7 @@ tags:
 - multicomponent
 - phase-envelope
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gibbs Phase Rule and Phase Equilibrium

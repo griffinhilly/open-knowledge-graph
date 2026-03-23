@@ -14,7 +14,7 @@ tags:
 - composition
 - vocal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Text Setting and Vocal Composition

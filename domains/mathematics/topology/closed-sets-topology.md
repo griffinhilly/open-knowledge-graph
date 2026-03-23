@@ -13,7 +13,7 @@ tags:
 - closed-sets
 - complements
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Closed Sets in Topological Spaces

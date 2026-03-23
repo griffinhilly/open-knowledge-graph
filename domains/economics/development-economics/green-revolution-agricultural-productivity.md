@@ -11,7 +11,7 @@ tags:
 - technology
 - productivity
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Green Revolution and Agricultural Productivity

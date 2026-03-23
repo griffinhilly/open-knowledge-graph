@@ -18,7 +18,7 @@ tags:
 - thermochemistry
 - calculation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hess's Law and Enthalpy Calculations

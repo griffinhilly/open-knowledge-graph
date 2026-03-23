@@ -6,7 +6,7 @@ course: computer-architecture
 prerequisites:
 - id: boolean-algebra-and-laws
   type: hard
-- id: logical-operators-and-gates
+- id: logical-operators
   type: hard
 builds-toward:
 - combinational-logic-implementation
@@ -16,9 +16,8 @@ tags:
 - gates
 - truth-tables
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Logic Gates and Truth Tables
 
 ## Core Idea

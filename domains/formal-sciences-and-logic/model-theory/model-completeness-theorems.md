@@ -18,7 +18,7 @@ tags:
 - universal-formulas
 - decidability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Model Completeness and the Model Completeness Test

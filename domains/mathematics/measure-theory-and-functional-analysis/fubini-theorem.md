@@ -14,7 +14,7 @@ tags:
 - integration
 - fubini-theorem
 stage: expert
-status: draft
+status: validated
 ---
 
 # Fubini's Theorem and Tonelli's Theorem

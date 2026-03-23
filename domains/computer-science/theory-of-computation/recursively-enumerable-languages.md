@@ -16,7 +16,7 @@ tags:
 - formal-languages
 - turing-completeness
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Recursively Enumerable Languages

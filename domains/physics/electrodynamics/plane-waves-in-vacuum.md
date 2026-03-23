@@ -14,7 +14,7 @@ tags:
 - propagation
 - vacuum
 stage: expert
-status: draft
+status: validated
 ---
 
 # Plane Waves in Vacuum

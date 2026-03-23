@@ -20,7 +20,7 @@ tags:
 - harmonic-series
 - contemporary
 stage: expert
-status: draft
+status: validated
 ---
 
 # Spectral Analysis and Acoustic Properties

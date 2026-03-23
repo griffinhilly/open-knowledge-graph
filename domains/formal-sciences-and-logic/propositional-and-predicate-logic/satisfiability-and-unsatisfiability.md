@@ -13,7 +13,7 @@ tags:
 - satisfiability
 - sat-problem
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Satisfiability and Unsatisfiability

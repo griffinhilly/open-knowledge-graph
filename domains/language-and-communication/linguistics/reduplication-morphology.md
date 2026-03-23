@@ -14,7 +14,7 @@ tags:
 - reduplication
 - typology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reduplication (Morphological Process)

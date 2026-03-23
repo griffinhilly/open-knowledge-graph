@@ -14,7 +14,7 @@ tags:
 - expressions
 - figurative-language
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Fixed Idioms and Expressions

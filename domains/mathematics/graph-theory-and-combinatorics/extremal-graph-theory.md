@@ -10,7 +10,7 @@ tags:
 - graph-theory
 - extremal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Extremal Graph Theory and Forbidden Subgraphs

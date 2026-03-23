@@ -12,7 +12,7 @@ tags:
 - recurrence-relations
 - sequences
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Recurrence Relations and Recursive Sequences

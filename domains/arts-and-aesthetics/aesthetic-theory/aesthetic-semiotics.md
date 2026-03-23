@@ -20,7 +20,7 @@ tags:
 - interpretation
 - representation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Aesthetic Semiotics

@@ -18,7 +18,7 @@ tags:
 - Hill plot
 - sigmoidal kinetics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Enzyme Cooperativity and Hill Coefficient

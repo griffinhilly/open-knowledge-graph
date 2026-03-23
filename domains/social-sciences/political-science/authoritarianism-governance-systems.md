@@ -15,7 +15,7 @@ tags:
 - non-democracy
 - coercion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Authoritarianism: Systems and Variation

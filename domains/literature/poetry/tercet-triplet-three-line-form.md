@@ -11,7 +11,7 @@ tags:
 - stanza
 - three-line
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Tercet and Triplet: Three-Line Forms

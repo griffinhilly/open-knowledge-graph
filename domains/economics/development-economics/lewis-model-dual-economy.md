@@ -16,7 +16,7 @@ tags:
 - labor supply
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Lewis Model: Dual Economies and Unlimited Labor Supply

@@ -14,7 +14,7 @@ tags:
 - transient-metrics
 - design-constraints
 stage: expert
-status: draft
+status: validated
 ---
 
 # Rise Time, Settling Time, and Overshoot Specifications

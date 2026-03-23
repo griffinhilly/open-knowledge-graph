@@ -19,7 +19,7 @@ tags:
 - ignorance
 - tragedy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tragic Irony: Fate and Knowledge

@@ -16,7 +16,7 @@ tags:
 - sovereignty
 - absolutism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hobbesian Absolutism and Sovereign Power

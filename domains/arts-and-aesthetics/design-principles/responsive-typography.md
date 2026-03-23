@@ -13,7 +13,7 @@ tags:
 - responsive
 - mobile
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Responsive Typography Across Devices

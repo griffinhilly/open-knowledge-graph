@@ -14,7 +14,7 @@ tags:
 - generators
 - powers
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cyclic Groups

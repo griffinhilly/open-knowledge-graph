@@ -13,7 +13,7 @@ tags:
 - physical-humor
 - genre
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Farce and Physical Comedy
 

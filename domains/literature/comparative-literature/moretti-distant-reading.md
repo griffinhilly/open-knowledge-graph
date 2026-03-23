@@ -16,7 +16,7 @@ tags:
 - moretti
 - method
 stage: expert
-status: draft
+status: validated
 ---
 
 # Moretti: Distant Reading and Literary Patterns

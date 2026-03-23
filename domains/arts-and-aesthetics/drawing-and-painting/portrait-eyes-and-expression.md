@@ -16,7 +16,7 @@ tags:
 - expression
 - emotion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Portrait Eyes and Expression

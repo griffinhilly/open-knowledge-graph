@@ -13,7 +13,7 @@ tags:
 - position
 - sequence
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Ordinal Position Language: First Through Tenth

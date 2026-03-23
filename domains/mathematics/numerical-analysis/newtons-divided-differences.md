@@ -13,7 +13,7 @@ tags:
 - newton-polynomial
 - efficiency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Newton's Divided Differences

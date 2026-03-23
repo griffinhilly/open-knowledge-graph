@@ -11,7 +11,7 @@ tags:
 - isentropic
 - devices
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Isentropic Efficiency of Turbines, Compressors, and Pumps

@@ -15,7 +15,7 @@ tags:
 - meaning
 - normativity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Rule-Following and Meaning Constitution
 

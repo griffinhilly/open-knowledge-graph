@@ -22,7 +22,7 @@ tags:
 - type
 - meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Analyzing Irony: Types, Function, and Effect
 

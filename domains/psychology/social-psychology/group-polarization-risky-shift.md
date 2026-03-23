@@ -18,7 +18,7 @@ tags:
 - risky shift
 - group decision-making
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Group Polarization and the Risky Shift Phenomenon

@@ -18,7 +18,7 @@ tags:
 - identity
 - possible-worlds
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cross-World Identity and Counterpart Theory

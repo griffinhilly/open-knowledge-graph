@@ -16,7 +16,7 @@ tags:
 - connecting-morphism
 - homological-algebra
 stage: expert
-status: draft
+status: validated
 ---
 
 # Long Exact Sequences and the Connecting Morphism

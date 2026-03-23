@@ -13,7 +13,7 @@ tags:
 - theory
 - critique
 stage: expert
-status: draft
+status: validated
 ---
 
 # Postmodern Challenges to Historical Knowledge

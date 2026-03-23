@@ -19,7 +19,7 @@ tags:
 - kingdoms
 - domains
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Kingdoms of Life
 

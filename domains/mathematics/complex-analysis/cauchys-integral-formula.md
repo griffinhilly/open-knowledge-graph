@@ -14,7 +14,7 @@ tags:
 - reconstruction
 - values-from-boundary
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cauchy's Integral Formula

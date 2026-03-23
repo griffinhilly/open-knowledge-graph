@@ -14,7 +14,7 @@ tags:
 - nucleus
 - mass number
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Isotopes and Nuclear Composition

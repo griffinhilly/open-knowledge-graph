@@ -14,7 +14,7 @@ tags:
 - operations
 - querying
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Relational Algebra: Operations and Queries

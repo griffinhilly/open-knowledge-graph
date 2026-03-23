@@ -15,7 +15,7 @@ tags:
 - code-generation
 - local
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Peephole Optimization

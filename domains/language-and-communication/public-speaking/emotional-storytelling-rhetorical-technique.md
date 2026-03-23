@@ -15,7 +15,7 @@ tags:
 - rhetorical-strategy
 - persuasion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Structuring Stories to Create Emotional Impact and Support Arguments

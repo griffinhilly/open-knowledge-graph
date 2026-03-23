@@ -13,7 +13,7 @@ tags:
 - parallelism
 - style
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Parallel Structure in Sentences

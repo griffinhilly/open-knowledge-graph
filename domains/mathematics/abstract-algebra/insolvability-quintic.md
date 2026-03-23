@@ -12,7 +12,7 @@ tags:
 - galois-theory
 - radical-extensions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Insolvability of the Quintic

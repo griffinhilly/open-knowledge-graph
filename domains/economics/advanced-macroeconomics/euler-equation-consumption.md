@@ -21,7 +21,7 @@ tags:
 - consumption
 - substitution
 stage: expert
-status: draft
+status: validated
 ---
 
 # Euler Equation and Intertemporal Substitution

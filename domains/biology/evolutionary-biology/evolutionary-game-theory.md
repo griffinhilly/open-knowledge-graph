@@ -16,7 +16,7 @@ tags:
 - behavior
 - evolution
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Evolutionary Game Theory

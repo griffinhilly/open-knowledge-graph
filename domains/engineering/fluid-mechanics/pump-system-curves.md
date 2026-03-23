@@ -16,7 +16,7 @@ tags:
 - pump selection
 - cavitation
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Pump and System Curves
 

@@ -16,7 +16,7 @@ tags:
 - part-whole
 - number-sense
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Number Bonds to 10

@@ -15,7 +15,7 @@ tags:
 - mobilization
 - change
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Political Revolution and Social Transformation

@@ -15,7 +15,7 @@ tags:
 - algebraic-integers
 - algebraic-number-theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Algebraic Integers

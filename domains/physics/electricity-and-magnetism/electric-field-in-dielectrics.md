@@ -15,7 +15,7 @@ tags:
 - field modification
 - polarization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electric Field Inside Dielectric Materials

@@ -17,7 +17,7 @@ tags:
 - conservation
 - biogeography
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Endemism and Geographic Range Restriction

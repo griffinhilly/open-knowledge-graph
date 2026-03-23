@@ -15,7 +15,7 @@ tags:
 - communication
 - coping
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Expressing Feelings

@@ -24,7 +24,7 @@ tags:
 - functionalism
 - AI
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Computational Theory of Mind

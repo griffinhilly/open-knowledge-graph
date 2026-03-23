@@ -15,7 +15,7 @@ tags:
 - poynting-vector
 - power-flow
 stage: expert
-status: draft
+status: validated
 ---
 
 # Poynting Theorem and Energy Conservation

@@ -19,7 +19,7 @@ tags:
 - political-institutions
 - political-participation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Sociology of Politics

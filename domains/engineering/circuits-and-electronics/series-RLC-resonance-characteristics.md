@@ -13,7 +13,7 @@ tags:
 - current-magnification
 - voltage-magnification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Series RLC Resonance Characteristics

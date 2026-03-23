@@ -14,7 +14,7 @@ tags:
 - modern-subject-matter
 - academy-challenge
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Realist Painting and Modern Social Observation

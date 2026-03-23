@@ -16,7 +16,7 @@ tags:
 - structure
 - correlation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Two-Dimensional NMR Techniques

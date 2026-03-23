@@ -14,7 +14,7 @@ tags:
 - authorship
 - stylometry
 stage: expert
-status: draft
+status: validated
 ---
 
 # Stylometry and Quantitative Textual Analysis

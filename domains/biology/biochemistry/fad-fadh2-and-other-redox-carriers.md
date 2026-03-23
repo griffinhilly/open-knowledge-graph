@@ -18,7 +18,7 @@ tags:
 - cofactors
 - redox
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # FAD, FADH₂, and Other Redox Carriers

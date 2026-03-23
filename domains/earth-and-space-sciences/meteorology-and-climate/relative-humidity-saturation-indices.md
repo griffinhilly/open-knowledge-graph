@@ -16,7 +16,7 @@ tags:
 - indices
 - stability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Relative Humidity, Saturation, and Moisture Indices

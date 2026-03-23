@@ -11,7 +11,7 @@ tags:
 - self-reference
 - logic-limits
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Paradox and Self-Reference

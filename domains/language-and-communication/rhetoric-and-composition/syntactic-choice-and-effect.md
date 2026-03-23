@@ -16,7 +16,7 @@ tags:
 - rhetoric
 - writing-craft
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Syntactic Choice and Effect

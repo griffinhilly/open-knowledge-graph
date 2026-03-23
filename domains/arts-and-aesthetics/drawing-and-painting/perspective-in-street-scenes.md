@@ -14,7 +14,7 @@ tags:
 - street
 - outdoor
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Perspective in Street Scenes and Outdoor Spaces

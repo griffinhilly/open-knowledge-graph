@@ -16,7 +16,7 @@ tags:
 - pragmatics
 - meaning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Grice's Theory of Conversational Implicature

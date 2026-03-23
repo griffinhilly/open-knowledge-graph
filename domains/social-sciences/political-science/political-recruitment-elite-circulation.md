@@ -17,7 +17,7 @@ tags:
 - representation
 - candidates
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Political Recruitment and Elite Circulation

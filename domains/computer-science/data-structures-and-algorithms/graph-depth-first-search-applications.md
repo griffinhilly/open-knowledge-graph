@@ -16,7 +16,7 @@ tags:
 - search
 - graph-algorithm
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Depth-First Search: Implementation and Applications

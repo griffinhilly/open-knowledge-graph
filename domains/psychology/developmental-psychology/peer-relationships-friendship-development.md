@@ -18,7 +18,7 @@ tags:
 - peer-play
 - social-competence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Peer Relationships and Friendship Development

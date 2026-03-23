@@ -18,7 +18,7 @@ tags:
 - form
 - genre
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dramatic Conventions and the Audience Contract

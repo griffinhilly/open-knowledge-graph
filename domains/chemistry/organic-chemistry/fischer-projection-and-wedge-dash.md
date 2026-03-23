@@ -18,7 +18,7 @@ tags:
 - stereochemistry
 - 2d-representation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fischer Projections and Wedge-Dash Representation

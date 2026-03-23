@@ -14,7 +14,7 @@ tags:
 - p53
 - atm-atr
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # DNA Damage Detection and Checkpoint Responses

@@ -16,7 +16,7 @@ tags:
 - plurality
 - alternatives
 stage: expert
-status: draft
+status: validated
 ---
 
 # Contesting the Canon: Plurality and Alternative Values

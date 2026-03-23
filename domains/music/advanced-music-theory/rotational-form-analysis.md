@@ -22,7 +22,7 @@ tags:
 - rotation
 - structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Rotational Forms and Structural Rotation

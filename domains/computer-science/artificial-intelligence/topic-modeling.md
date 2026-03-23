@@ -14,7 +14,7 @@ tags:
 - lda
 - latent-dirichlet
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Topic Modeling and Latent Dirichlet Allocation

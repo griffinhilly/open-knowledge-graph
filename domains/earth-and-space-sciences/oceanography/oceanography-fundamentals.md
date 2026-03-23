@@ -15,7 +15,7 @@ tags:
 - introduction
 - disciplines
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Oceanography Fundamentals

@@ -13,7 +13,7 @@ tags:
 - genetic-instruments
 - gwas
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mendelian Randomization and Genetic Causal Inference

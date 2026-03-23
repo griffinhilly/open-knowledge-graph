@@ -15,7 +15,7 @@ tags:
 - equivalence
 - universal-property
 stage: expert
-status: draft
+status: validated
 ---
 
 # Natural Isomorphisms and Universal Constructions

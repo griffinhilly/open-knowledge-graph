@@ -15,7 +15,7 @@ tags:
 - representational-thought
 - social-cognition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # False Belief Task and Understanding of Mind

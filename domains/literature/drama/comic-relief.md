@@ -16,7 +16,7 @@ tags:
 - technique
 - relief
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Comic Relief and Humor in Drama

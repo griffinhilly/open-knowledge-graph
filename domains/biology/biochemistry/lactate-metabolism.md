@@ -15,7 +15,7 @@ tags:
 - gluconeogenesis
 - exercise-metabolism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Lactate Metabolism and the Cori Cycle

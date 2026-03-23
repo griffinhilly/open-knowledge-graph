@@ -16,7 +16,7 @@ tags:
 - dihedral-angle
 - steric-strain
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conformational Isomerism and Newman Projections

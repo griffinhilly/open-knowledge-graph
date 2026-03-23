@@ -16,7 +16,7 @@ tags:
 - model-count
 - vaught-conjecture
 stage: expert
-status: draft
+status: validated
 ---
 
 # Spectrum of a Theory and Vaught's Conjecture

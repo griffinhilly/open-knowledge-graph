@@ -11,7 +11,7 @@ tags:
 - triple-meter
 - epic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dactylic and Anapestic Feet: Triple Meters

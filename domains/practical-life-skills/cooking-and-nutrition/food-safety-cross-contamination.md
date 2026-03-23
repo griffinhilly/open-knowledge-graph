@@ -14,7 +14,7 @@ tags:
 - bacteria
 - prevention
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Preventing Cross-Contamination

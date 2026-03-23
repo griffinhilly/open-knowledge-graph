@@ -17,7 +17,7 @@ tags:
 - hidden-action
 - incentives
 stage: expert
-status: draft
+status: validated
 ---
 
 # Moral Hazard

@@ -15,7 +15,7 @@ tags:
 - game-theory
 - strategic-interaction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Strategic Form Games and Normal Form

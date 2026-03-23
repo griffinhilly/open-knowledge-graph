@@ -13,7 +13,7 @@ tags:
 - position-momentum
 - foundations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Canonical Commutation Relations

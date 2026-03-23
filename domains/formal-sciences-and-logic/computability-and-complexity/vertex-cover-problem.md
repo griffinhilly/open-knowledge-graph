@@ -17,7 +17,7 @@ tags:
 - np-complete
 - optimization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vertex Cover and Set Cover Problems

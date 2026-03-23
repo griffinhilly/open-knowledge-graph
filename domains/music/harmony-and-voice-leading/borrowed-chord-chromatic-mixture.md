@@ -17,7 +17,7 @@ tags:
 - chromatic
 - mixture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Borrowed Chords and Chromatic Mixture

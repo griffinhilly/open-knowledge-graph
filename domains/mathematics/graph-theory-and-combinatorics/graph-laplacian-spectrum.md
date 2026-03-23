@@ -13,7 +13,7 @@ tags:
 - spectral-gaps
 - connectivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graph Laplacian and Laplacian Spectrum

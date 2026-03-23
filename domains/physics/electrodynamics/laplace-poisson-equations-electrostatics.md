@@ -16,7 +16,7 @@ tags:
 - poisson-equation
 - potential
 stage: expert
-status: draft
+status: validated
 ---
 
 # Laplace's and Poisson's Equations

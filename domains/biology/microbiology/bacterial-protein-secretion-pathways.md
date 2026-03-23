@@ -15,7 +15,7 @@ tags:
 - protein-export
 - pathways
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bacterial Protein Secretion Pathways and Systems

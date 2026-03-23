@@ -14,7 +14,7 @@ tags:
 - ordering
 - formal-semantics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sequential Consistency

@@ -12,7 +12,7 @@ tags:
 - power
 - ideology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Discourse Analysis: Language, Power, and Ideology

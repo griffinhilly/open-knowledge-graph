@@ -14,7 +14,7 @@ tags:
 - graph-theory
 - euler
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Eulerian Paths, Circuits, and Characterization

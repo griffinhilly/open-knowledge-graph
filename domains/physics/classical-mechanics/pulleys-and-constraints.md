@@ -13,7 +13,7 @@ tags:
 - pulleys
 - mechanics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pulley Systems and Constraint Forces

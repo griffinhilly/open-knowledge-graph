@@ -15,7 +15,7 @@ tags:
 - checksums
 - integrity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Error Detection and Correction

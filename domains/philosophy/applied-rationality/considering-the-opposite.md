@@ -15,7 +15,7 @@ builds-toward:
   - intellectual-humility-and-calibrated-uncertainty
 tags: ["debiasing", "confirmation-bias", "technique", "critical-thinking"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

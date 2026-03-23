@@ -15,7 +15,7 @@ tags:
 - efficiency
 - cohort-substudies
 stage: expert
-status: draft
+status: validated
 ---
 
 # Nested Case-Control and Case-Cohort Studies

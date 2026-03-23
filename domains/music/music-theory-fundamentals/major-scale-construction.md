@@ -18,7 +18,7 @@ tags:
 - whole-half
 - intervals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Major Scale Construction

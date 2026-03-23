@@ -4,7 +4,7 @@ title: "Comets, Asteroids, and Meteors"
 domain: earth-and-space-sciences
 course: earth-science
 prerequisites:
-- id: solar-system-intro
+- id: planets-in-our-solar-system
   type: hard
 - id: inner-vs-outer-planets
   type: soft
@@ -20,7 +20,7 @@ tags:
 - meteorites
 - small-bodies
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Comets, Asteroids, and Meteors

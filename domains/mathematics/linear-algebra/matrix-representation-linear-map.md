@@ -15,7 +15,7 @@ tags:
 - matrices
 - representation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Matrix Representation of Linear Transformations

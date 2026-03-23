@@ -17,7 +17,7 @@ tags:
 - Coulomb
 - stress
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fault Mechanics: Friction and Earthquake Rupture

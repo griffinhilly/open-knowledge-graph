@@ -16,7 +16,7 @@ tags:
 - focal-point
 - hierarchy
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Emphasis: Creating Focal Points Through Visual Weight
 

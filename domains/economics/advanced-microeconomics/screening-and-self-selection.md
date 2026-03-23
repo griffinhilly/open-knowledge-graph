@@ -13,7 +13,7 @@ tags:
 - information-asymmetry
 - mechanism-design
 stage: expert
-status: draft
+status: validated
 ---
 
 # Screening and Contract Menus

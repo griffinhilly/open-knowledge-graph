@@ -18,7 +18,7 @@ tags:
 - form
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tonal Planning and Long-Range Harmonic Progression

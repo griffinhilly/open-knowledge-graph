@@ -18,7 +18,7 @@ tags:
 - strategy
 - constraints
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Principle Hierarchy and Priority

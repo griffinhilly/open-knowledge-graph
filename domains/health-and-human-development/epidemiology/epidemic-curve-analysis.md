@@ -12,7 +12,7 @@ tags:
 - mode-of-transmission
 - common-source
 stage: expert
-status: draft
+status: validated
 ---
 
 # Epidemic Curve Interpretation and Outbreak Analysis

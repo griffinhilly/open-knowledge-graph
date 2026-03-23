@@ -19,7 +19,7 @@ tags:
 - immunization-programs
 - disease-prevention
 stage: expert
-status: draft
+status: validated
 ---
 
 # Vaccine Effectiveness Evaluation

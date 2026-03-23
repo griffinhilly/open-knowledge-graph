@@ -15,7 +15,7 @@ tags:
 - portfolio
 - discipline
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Portfolio Rebalancing Strategies

@@ -14,7 +14,7 @@ tags:
 - foundations
 - justification-theory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Epistemic Regress Argument

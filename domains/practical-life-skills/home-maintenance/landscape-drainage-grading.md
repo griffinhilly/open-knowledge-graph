@@ -19,7 +19,7 @@ tags:
 - landscaping
 - foundation-protection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Landscape Drainage and Grading

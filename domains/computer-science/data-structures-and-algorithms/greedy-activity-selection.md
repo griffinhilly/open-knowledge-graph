@@ -13,7 +13,7 @@ tags:
 - optimization
 - correctness-proof
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Activity Selection Problem Using Greedy Algorithms

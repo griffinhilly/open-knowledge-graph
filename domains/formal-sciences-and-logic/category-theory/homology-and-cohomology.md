@@ -26,7 +26,7 @@ tags:
 - connecting homomorphism
 - homological algebra
 stage: expert
-status: draft
+status: validated
 ---
 # Homology and Cohomology
 

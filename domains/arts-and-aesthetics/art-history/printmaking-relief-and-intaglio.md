@@ -18,7 +18,7 @@ tags:
 - etching
 - reproduction
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Printmaking: Relief and Intaglio Traditions

@@ -27,7 +27,7 @@ tags:
 - left derived
 - right derived
 stage: expert
-status: draft
+status: validated
 ---
 # Derived Functors
 

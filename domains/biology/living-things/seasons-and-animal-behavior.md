@@ -17,7 +17,7 @@ tags:
 - behavior
 - animal responses
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Seasons and Animal Behavior

@@ -15,7 +15,7 @@ tags:
 - 5-minute-intervals
 - clock
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Telling Time by 5-Minute Intervals

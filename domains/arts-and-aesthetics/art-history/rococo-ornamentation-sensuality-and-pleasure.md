@@ -16,7 +16,7 @@ tags:
 - sensuality
 - aristocratic-culture
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Rococo: Ornamentation, Sensuality, and Pleasure
 

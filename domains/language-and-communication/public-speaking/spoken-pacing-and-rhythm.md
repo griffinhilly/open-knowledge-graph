@@ -17,7 +17,7 @@ tags:
 - rhythm
 - vocal-control
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pacing and Rhythm in Spoken Delivery

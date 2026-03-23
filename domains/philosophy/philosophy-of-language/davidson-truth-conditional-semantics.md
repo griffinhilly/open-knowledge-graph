@@ -15,7 +15,7 @@ tags:
 - semantics
 - meaning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Davidson's Truth-Conditional Semantics

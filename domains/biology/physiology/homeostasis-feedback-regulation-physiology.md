@@ -18,7 +18,7 @@ tags:
 - regulation
 - setpoint
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Homeostasis and Negative Feedback Regulation

@@ -18,7 +18,7 @@ tags:
 - reactive-circuits
 - energy-storage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Series and Parallel Inductor Networks

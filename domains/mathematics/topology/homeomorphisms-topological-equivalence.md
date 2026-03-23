@@ -14,7 +14,7 @@ tags:
 - topological-equivalence
 - isomorphisms
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Homeomorphisms and Topological Equivalence

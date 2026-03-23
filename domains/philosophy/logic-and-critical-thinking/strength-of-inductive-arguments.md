@@ -17,7 +17,7 @@ tags:
 - argument-strength
 - evidence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Strength of Inductive Arguments

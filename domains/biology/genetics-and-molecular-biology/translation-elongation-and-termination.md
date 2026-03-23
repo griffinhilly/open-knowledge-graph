@@ -17,7 +17,7 @@ tags:
 - release-factors
 - stop-codons
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Translation Elongation and Termination: Peptide Bond Formation

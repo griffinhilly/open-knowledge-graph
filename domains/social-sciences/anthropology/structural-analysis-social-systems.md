@@ -15,7 +15,7 @@ tags:
 - analysis
 - meaning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Structural Analysis of Social Systems

@@ -19,7 +19,7 @@ tags:
 - engineering
 - design-challenge
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Building Bridges
 

@@ -15,7 +15,7 @@ tags:
 - comparison
 - imagery
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metaphor and Simile in Poetry

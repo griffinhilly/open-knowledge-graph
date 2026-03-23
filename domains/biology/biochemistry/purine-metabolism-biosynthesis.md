@@ -15,7 +15,7 @@ tags:
 - de-novo-synthesis
 - PRPP
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Purine Biosynthesis

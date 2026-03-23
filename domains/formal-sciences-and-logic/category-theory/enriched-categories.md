@@ -20,7 +20,7 @@ tags:
 - hom-objects
 - monoidal-category
 stage: expert
-status: draft
+status: validated
 ---
 
 # Enriched Categories and Enrichment

@@ -26,7 +26,7 @@ tags:
 - organic chemistry
 - stereochemistry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Amino Acid Structure and Properties

@@ -15,7 +15,7 @@ tags:
 - regioselectivity
 - sn2
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Epoxide Ring-Opening Reactions

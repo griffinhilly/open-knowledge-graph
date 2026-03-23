@@ -15,7 +15,7 @@ tags:
 - equivocation
 - word-meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Semantic Ambiguity in Argument

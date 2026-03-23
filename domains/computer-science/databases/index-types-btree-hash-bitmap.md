@@ -19,7 +19,7 @@ tags:
 - bitmap
 - tradeoffs
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Index Types: B-Trees, Hash Indexes, and Bitmap Indexes
 

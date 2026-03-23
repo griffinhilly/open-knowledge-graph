@@ -19,7 +19,7 @@ tags:
 - cementation
 - fossils
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # How Sedimentary Rocks Form

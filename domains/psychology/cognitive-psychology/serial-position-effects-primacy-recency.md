@@ -15,7 +15,7 @@ tags:
 - working-memory
 - serial-position
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Serial Position Effects: Primacy and Recency

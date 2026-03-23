@@ -10,7 +10,7 @@ tags:
 - bell-inequalities
 - quantum-nonlocality
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bell Inequalities and Their Violation

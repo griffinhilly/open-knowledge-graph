@@ -15,7 +15,7 @@ tags:
 - memory
 - function-calls
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Activation Records and Stack Frames

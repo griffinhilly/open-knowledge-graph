@@ -13,7 +13,7 @@ tags:
 - philosophy-and-literature
 - 20th-century
 stage: expert
-status: draft
+status: validated
 ---
 
 # Existentialism in Literature: Comparative Perspectives

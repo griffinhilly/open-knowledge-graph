@@ -15,7 +15,7 @@ tags:
 - execution
 - processes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Shell Execution Model and Command Processing

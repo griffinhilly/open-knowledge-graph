@@ -20,7 +20,7 @@ tags:
 - food-chains
 - interconnection
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Food Webs
 

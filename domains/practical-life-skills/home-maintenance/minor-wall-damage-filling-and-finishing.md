@@ -15,7 +15,7 @@ tags:
 - repair
 - finishing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Minor Wall Damage Filling and Finishing

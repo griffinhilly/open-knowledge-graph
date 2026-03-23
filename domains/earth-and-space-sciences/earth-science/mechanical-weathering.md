@@ -18,7 +18,7 @@ tags:
 - erosion
 - breakdown
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Mechanical Weathering

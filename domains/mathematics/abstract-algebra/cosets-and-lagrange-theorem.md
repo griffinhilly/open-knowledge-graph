@@ -16,7 +16,7 @@ tags:
 - lagrange
 - order-divisibility
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cosets and Lagrange's Theorem

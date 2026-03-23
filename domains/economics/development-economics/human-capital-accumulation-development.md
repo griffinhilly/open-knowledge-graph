@@ -15,7 +15,7 @@ tags:
 - human-capital
 - education
 stage: expert
-status: draft
+status: validated
 ---
 
 # Human Capital Accumulation and Development

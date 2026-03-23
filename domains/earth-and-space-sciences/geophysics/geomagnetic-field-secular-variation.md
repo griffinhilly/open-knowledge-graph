@@ -13,7 +13,7 @@ tags:
 - secular-variation
 - long-term
 stage: expert
-status: draft
+status: validated
 ---
 
 # Geomagnetic Secular Variation and Long-Term Changes

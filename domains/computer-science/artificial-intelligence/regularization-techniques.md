@@ -16,7 +16,7 @@ tags:
 - learning-theory
 - overfitting-prevention
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Regularization Techniques

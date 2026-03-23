@@ -19,7 +19,7 @@ tags:
 - Ekman
 - Coriolis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Wind-Driven Surface Ocean Circulation

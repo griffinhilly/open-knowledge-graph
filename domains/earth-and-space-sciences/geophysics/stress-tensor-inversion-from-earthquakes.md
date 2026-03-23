@@ -16,7 +16,7 @@ tags:
 - inversion
 - focal-mechanisms
 stage: expert
-status: draft
+status: validated
 ---
 
 # Stress Tensor Inversion from Focal Mechanisms

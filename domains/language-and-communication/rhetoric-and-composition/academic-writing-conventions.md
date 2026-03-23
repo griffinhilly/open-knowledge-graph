@@ -17,7 +17,7 @@ tags:
 - evidence density
 - third person
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Academic Writing Conventions

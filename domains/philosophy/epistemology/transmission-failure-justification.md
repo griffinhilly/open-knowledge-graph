@@ -16,7 +16,7 @@ tags:
 - skepticism
 - foundationalism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transmission Failure and Epistemic Warrant

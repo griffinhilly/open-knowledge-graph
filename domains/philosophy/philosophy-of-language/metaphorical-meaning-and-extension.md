@@ -13,7 +13,7 @@ tags:
 - meaning
 - semantics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metaphor and Semantic Innovation

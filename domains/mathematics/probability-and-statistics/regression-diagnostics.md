@@ -13,7 +13,7 @@ tags:
 - diagnostics
 - residuals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Regression Diagnostics and Residual Analysis

@@ -14,7 +14,7 @@ tags:
 - volume
 - mass
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Applications of Double Integrals: Area, Volume, and Mass

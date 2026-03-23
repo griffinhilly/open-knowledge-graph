@@ -15,7 +15,7 @@ tags:
 - prediction
 - uncertainty
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Prediction Intervals and Out-of-Sample Forecasting

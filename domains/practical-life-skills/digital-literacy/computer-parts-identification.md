@@ -11,7 +11,7 @@ tags:
 - fundamentals
 - computer-basics
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Identifying Computer Parts

@@ -16,7 +16,7 @@ tags:
 - optimization
 - american
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Optimal Exercise Decisions for American Options

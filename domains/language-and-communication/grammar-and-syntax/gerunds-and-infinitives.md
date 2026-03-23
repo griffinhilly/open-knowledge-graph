@@ -15,7 +15,7 @@ tags:
 - verbals
 - noun-function
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Gerunds and Infinitives

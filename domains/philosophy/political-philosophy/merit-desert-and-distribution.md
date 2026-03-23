@@ -17,7 +17,7 @@ tags:
 - fairness
 - distribution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Merit, Desert, and Fair Distribution

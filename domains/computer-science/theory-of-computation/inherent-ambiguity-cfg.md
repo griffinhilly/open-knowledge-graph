@@ -13,7 +13,7 @@ tags:
 - ambiguity
 - language-properties
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Inherent Ambiguity in Context-Free Grammars

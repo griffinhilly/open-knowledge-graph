@@ -14,7 +14,7 @@ tags:
 - character-tables
 - spectroscopy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Character Tables and Spectroscopic Selection Rules

@@ -19,7 +19,7 @@ tags:
 - consequence
 - deduction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Complete Theory and Consequence Relations

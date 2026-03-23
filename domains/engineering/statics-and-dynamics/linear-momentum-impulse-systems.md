@@ -18,7 +18,7 @@ tags:
 - force-time
 - collisions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linear Momentum and Impulse in Systems

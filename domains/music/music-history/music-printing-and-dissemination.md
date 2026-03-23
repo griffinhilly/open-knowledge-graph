@@ -15,7 +15,7 @@ tags:
 - distribution
 - cultural-change
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Music Printing and Dissemination

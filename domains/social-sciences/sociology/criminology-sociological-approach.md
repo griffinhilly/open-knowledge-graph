@@ -18,7 +18,7 @@ tags:
 - social-control
 - structural-causes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Criminology: A Sociological Approach

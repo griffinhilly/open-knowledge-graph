@@ -16,7 +16,7 @@ tags:
 - classification
 - methodology
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Making and Debate of Historical Periods

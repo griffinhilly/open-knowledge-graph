@@ -17,7 +17,7 @@ tags:
 - intentions
 - jervis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Defensive Realism and Security Seeking

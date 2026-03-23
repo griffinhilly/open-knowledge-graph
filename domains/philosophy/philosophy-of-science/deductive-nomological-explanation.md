@@ -21,7 +21,7 @@ tags:
 - laws
 - phenomena
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Deductive-Nomological Model of Explanation

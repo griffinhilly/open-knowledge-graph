@@ -13,7 +13,7 @@ tags:
 - glucose-sensing
 - insulin
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pancreatic Beta Cell Insulin Secretion and Glucose Sensing

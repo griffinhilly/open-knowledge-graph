@@ -16,7 +16,7 @@ tags:
 - productivity
 - stability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Biodiversity and Ecosystem Function Relationships

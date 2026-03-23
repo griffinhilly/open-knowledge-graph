@@ -14,7 +14,7 @@ tags:
 - properties
 - bias
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Properties of Point Estimators

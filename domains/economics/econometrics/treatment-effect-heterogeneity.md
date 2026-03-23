@@ -13,7 +13,7 @@ tags:
 - cate
 - subgroup-analysis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Treatment Effect Heterogeneity and Conditional Average Treatment Effects

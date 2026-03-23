@@ -17,7 +17,7 @@ tags:
 - parents
 - offspring
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Inherited Traits

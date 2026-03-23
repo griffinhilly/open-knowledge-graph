@@ -12,7 +12,7 @@ tags:
 - counting strategy
 - matching
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # One-to-One Correspondence in Counting

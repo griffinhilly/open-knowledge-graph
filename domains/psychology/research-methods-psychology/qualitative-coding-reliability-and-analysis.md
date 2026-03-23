@@ -14,7 +14,7 @@ tags:
 - thematic-analysis
 - data-synthesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Qualitative Data Analysis, Coding, and Thematic Synthesis

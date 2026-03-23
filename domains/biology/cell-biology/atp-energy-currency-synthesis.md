@@ -15,7 +15,7 @@ tags:
 - energy
 - currency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # ATP: The Universal Energy Currency

@@ -16,7 +16,7 @@ tags:
 - soundings
 - visualization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermodynamic Diagrams and Skew-T Analysis

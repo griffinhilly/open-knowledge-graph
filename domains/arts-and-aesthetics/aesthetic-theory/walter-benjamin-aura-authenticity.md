@@ -16,7 +16,7 @@ tags:
 - authenticity
 - presence
 stage: expert
-status: draft
+status: validated
 ---
 
 # Walter Benjamin: Aura, Authenticity, and Presence

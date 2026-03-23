@@ -16,7 +16,7 @@ tags:
 - intermediate
 - kinetics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reaction Mechanisms and Elementary Steps

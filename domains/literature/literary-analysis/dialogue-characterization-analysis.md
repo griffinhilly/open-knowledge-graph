@@ -19,7 +19,7 @@ tags:
 - analysis
 - speech
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Using Dialogue to Analyze Character and Theme

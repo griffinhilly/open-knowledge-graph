@@ -13,7 +13,7 @@ tags:
 - development
 - enrollment
 stage: expert
-status: draft
+status: validated
 ---
 
 # Education Quality and Economic Development

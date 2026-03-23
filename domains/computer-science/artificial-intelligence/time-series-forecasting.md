@@ -24,7 +24,7 @@ tags:
 - forecasting
 - sequence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Time Series Forecasting

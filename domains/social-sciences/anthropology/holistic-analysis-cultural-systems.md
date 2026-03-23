@@ -15,7 +15,7 @@ tags:
 - epistemology
 - integration
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Holism and Integrated Cultural Systems
 

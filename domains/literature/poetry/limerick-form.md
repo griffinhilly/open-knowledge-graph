@@ -19,7 +19,7 @@ tags:
 - anapestic
 - wordplay
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Limerick Form

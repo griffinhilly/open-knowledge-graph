@@ -16,7 +16,7 @@ tags:
 - wavefunction
 - foundations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # State Vectors and Wavefunctions

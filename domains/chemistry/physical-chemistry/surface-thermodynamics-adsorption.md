@@ -16,7 +16,7 @@ tags:
 - interfacial
 - energy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Surface Thermodynamics and Interfacial Phenomena

@@ -14,7 +14,7 @@ tags:
 - 3d-motion
 - euler-angles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rotation About an Arbitrary Axis and Euler Angles

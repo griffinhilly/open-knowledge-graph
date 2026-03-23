@@ -17,7 +17,7 @@ tags:
 - environment
 - culture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Biocultural Human Ecology and Adaptation

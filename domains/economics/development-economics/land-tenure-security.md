@@ -13,7 +13,7 @@ tags:
 - tenure
 - agriculture
 stage: expert
-status: draft
+status: validated
 ---
 
 # Land Tenure Security and Agricultural Investment

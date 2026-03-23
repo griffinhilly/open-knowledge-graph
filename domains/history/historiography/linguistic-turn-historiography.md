@@ -15,7 +15,7 @@ tags:
 - postmodern
 - narrative
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Linguistic Turn and Postmodern Historiography

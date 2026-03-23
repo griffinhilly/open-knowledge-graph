@@ -15,7 +15,7 @@ tags:
 - sampling
 - design
 stage: expert
-status: draft
+status: validated
 ---
 
 # Anti-Aliasing Filters and Pre-Sampling Design

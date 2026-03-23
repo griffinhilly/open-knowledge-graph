@@ -13,7 +13,7 @@ tags:
 - rotation
 - 2d-shapes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Perpendicular Axis Theorem

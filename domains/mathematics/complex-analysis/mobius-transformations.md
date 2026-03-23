@@ -11,7 +11,7 @@ tags:
 - linear-fractional
 - conformal
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Möbius Transformations

@@ -14,7 +14,7 @@ tags:
 - trivial-fundamental-group
 - contractible
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Simply Connected Spaces

@@ -16,7 +16,7 @@ tags:
 - rockwell
 - brinell
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hardness Testing Methods and Hardness Equivalence

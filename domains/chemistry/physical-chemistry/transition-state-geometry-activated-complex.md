@@ -15,7 +15,7 @@ tags:
 - reaction-mechanism
 - activation-energy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Transition State Geometry and Activated Complex

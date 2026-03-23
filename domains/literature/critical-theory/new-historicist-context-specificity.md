@@ -16,7 +16,7 @@ tags:
 - contingency
 - specificity
 stage: expert
-status: draft
+status: validated
 ---
 
 # New Historicist Context and Contingency

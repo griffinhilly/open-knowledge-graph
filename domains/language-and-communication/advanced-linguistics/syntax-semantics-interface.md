@@ -13,7 +13,7 @@ tags:
 - semantics
 - interface
 stage: expert
-status: draft
+status: validated
 ---
 
 # Syntax-Semantics Interface and Compositionality

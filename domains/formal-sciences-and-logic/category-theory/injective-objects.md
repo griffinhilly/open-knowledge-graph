@@ -15,7 +15,7 @@ tags:
 - universal-properties
 - extensions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Injective Objects and Injective Envelopes

@@ -22,7 +22,7 @@ tags:
 - measurement-error
 - score-variance
 stage: expert
-status: draft
+status: validated
 ---
 
 # Classical Test Theory Foundations

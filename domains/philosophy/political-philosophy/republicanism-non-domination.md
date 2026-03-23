@@ -15,7 +15,7 @@ tags:
 - arbitrary-power
 - neo-Roman-liberty
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Republicanism and Non-Domination

@@ -19,7 +19,7 @@ tags:
 - lower-bounds
 - boolean-functions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Boolean Circuit Complexity and Lower Bounds

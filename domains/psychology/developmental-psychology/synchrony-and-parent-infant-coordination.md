@@ -13,7 +13,7 @@ tags:
 - interaction
 - caregiver-infant
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Synchrony and Parent-Infant Interaction

@@ -15,7 +15,7 @@ tags:
 - lipids
 - glycoproteins
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Viral Envelopes: Lipids and Glycoproteins

@@ -14,7 +14,7 @@ tags:
 - cascade
 - complement
 stage: expert
-status: draft
+status: validated
 ---
 
 # Classical, Alternative, and Lectin Complement Pathways

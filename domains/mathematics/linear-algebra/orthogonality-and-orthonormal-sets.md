@@ -15,7 +15,7 @@ tags:
 - orthonormal
 - orthogonal-sets
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orthogonality and Orthonormal Bases

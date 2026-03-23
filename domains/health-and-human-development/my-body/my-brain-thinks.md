@@ -16,7 +16,7 @@ tags:
 - nervous system
 - learning
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # My Brain Thinks

@@ -18,7 +18,7 @@ tags:
 - wave-solutions
 - em-waves
 stage: expert
-status: draft
+status: validated
 ---
 
 # Plane Electromagnetic Waves

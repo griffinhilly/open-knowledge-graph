@@ -12,7 +12,7 @@ tags:
 - implicit-functions
 - differentiation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Implicit Differentiation in Several Variables

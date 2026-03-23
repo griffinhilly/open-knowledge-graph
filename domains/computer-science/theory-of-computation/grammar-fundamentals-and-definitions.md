@@ -16,7 +16,7 @@ tags:
 - parse-trees
 - chomsky-hierarchy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Grammar Fundamentals: Productions and Derivations

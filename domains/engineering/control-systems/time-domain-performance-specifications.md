@@ -17,7 +17,7 @@ tags:
 - specifications
 - metrics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Time-Domain Performance Metrics and Specifications

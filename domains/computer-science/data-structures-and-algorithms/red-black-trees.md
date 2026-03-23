@@ -15,7 +15,7 @@ tags:
 - balancing
 - rotations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Red-Black Trees

@@ -16,7 +16,7 @@ tags:
 - gfci
 - safety
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Outlet and Switch Replacement

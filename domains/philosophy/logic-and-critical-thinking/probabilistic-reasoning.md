@@ -12,7 +12,7 @@ tags:
 - reasoning
 - induction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Probabilistic Reasoning

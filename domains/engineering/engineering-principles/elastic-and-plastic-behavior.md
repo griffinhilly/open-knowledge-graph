@@ -21,7 +21,7 @@ tags:
 - yield-point
 - material-behavior
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Elastic and Plastic Behavior of Materials
 

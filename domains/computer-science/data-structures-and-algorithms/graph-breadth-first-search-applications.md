@@ -15,7 +15,7 @@ tags:
 - search
 - graph-algorithm
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Breadth-First Search: Implementation and Applications

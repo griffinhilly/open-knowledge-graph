@@ -16,7 +16,7 @@ tags:
 - space
 - composition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Perspective in Interior Spaces

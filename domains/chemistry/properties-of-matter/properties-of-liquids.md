@@ -13,7 +13,7 @@ tags:
 - flow
 - volume
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Properties of Liquids
 

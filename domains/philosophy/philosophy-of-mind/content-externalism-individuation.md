@@ -20,7 +20,7 @@ tags:
 - semantics
 - individuation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Content Externalism and Mental Individuation

@@ -15,7 +15,7 @@ tags:
 - graphical-models
 - inference
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bayesian Networks and Inference

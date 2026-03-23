@@ -19,7 +19,7 @@ tags:
 - circulation
 - feedback-mechanisms
 stage: expert
-status: draft
+status: validated
 ---
 
 # Eddy-Mean Flow Interactions

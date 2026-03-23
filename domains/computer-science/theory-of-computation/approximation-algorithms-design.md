@@ -15,7 +15,7 @@ tags:
 - approximation
 - optimization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Approximation Algorithms and Approximation Ratios

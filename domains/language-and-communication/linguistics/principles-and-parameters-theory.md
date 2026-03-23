@@ -14,7 +14,7 @@ tags:
 - principles
 - language-acquisition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Principles and Parameters Theory of Universal Grammar

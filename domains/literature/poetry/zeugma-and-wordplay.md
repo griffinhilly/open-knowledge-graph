@@ -14,7 +14,7 @@ tags:
 - pun
 - meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Zeugma and Wordplay: Semantic Wit

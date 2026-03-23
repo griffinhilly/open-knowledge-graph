@@ -16,7 +16,7 @@ tags:
 - ir-form
 - dataflow
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Static Single Assignment (SSA) Form

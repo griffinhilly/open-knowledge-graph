@@ -16,7 +16,7 @@ tags:
 - inbreeding
 - conservation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Effective Population Size

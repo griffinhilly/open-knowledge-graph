@@ -17,7 +17,7 @@ tags:
 - opacity
 - pigment
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Paint Properties: Transparency and Opacity

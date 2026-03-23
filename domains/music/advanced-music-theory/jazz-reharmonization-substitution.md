@@ -16,7 +16,7 @@ tags:
 - harmony
 - improvisation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Advanced Jazz Reharmonization and Chord Substitution

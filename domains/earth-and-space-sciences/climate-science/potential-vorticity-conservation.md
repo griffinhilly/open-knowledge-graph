@@ -17,7 +17,7 @@ tags:
 - flow
 - pv-thinking
 stage: expert
-status: draft
+status: validated
 ---
 
 # Potential Vorticity Conservation in Atmospheric Flows

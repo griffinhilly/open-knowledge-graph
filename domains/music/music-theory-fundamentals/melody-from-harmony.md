@@ -16,7 +16,7 @@ tags:
 - harmony
 - chord-tones
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Melody from Harmony

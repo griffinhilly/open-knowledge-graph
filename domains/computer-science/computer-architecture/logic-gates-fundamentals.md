@@ -16,7 +16,7 @@ tags:
 - digital-logic
 - fundamentals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Logic Gates Fundamentals

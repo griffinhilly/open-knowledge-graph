@@ -16,7 +16,7 @@ tags:
 - isolation
 - durability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transactions and ACID Properties

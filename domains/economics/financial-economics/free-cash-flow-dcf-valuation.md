@@ -17,7 +17,7 @@ tags:
 - dcf
 - cash-flow
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Free Cash Flow and DCF Valuation

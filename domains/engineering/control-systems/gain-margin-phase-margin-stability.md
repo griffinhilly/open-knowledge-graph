@@ -17,7 +17,7 @@ tags:
 - phase-margin
 - uncertainty
 stage: expert
-status: draft
+status: validated
 ---
 
 # Gain Margin and Phase Margin Stability Quantification

@@ -15,7 +15,7 @@ tags:
 - reference-frames
 - symmetry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Two-Body Collisions in the Center-of-Mass Frame

@@ -19,7 +19,7 @@ tags:
 - rhetorical-appeals
 - strategy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Integrating Ethos, Pathos, and Logos in Persuasion

@@ -11,7 +11,7 @@ tags:
 - robertson-seymour
 - well-quasi-order
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graph Minors and the Robertson–Seymour Theorem

@@ -14,7 +14,7 @@ tags:
 - data-structure
 - operations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heap Structure and Heapify Operations

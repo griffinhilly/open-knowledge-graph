@@ -15,7 +15,7 @@ tags:
 - game-theory
 - equilibrium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nash Equilibrium in Simultaneous-Move Games

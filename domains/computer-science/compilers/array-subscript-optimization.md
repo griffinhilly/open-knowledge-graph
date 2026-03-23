@@ -15,7 +15,7 @@ tags:
 - loops
 - memory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Array Subscript Optimization

@@ -17,7 +17,7 @@ tags:
 - neural-mechanisms
 - groups
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Emotional Contagion and Affective Sharing

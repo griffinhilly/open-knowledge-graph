@@ -25,7 +25,7 @@ tags:
 - pitch-class
 - analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Transformational Analysis in Pitch-Class Sets

@@ -13,7 +13,7 @@ tags:
 - redundancy
 - CSE
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Value Numbering and Redundancy Elimination

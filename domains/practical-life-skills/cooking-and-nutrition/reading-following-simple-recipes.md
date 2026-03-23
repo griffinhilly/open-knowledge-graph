@@ -14,7 +14,7 @@ tags:
 - cooking
 - sequencing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Reading and Following Recipes

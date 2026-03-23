@@ -17,7 +17,7 @@ tags:
 - lalr
 - parser-generation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # LALR Grammar Construction

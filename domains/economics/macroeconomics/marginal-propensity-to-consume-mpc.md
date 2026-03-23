@@ -16,7 +16,7 @@ tags:
 - marginal
 - income
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Marginal Propensity to Consume

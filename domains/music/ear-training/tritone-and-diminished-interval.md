@@ -17,7 +17,7 @@ tags:
 - diminished
 - dissonance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tritone and Diminished Intervals

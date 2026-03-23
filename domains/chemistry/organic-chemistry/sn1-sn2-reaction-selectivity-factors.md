@@ -21,7 +21,7 @@ tags:
 - nucleophile
 - solvent
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # SN1 vs SN2 Selectivity: Factors and Competition

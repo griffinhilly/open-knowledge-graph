@@ -20,7 +20,7 @@ tags:
 - technique
 - balance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Balancing Salt, Acid, Fat, and Heat in Cooking

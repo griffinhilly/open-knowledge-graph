@@ -16,7 +16,7 @@ tags:
 - homogeneous
 - linear
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Second-Order Linear Homogeneous Differential Equations

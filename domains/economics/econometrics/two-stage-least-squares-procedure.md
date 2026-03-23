@@ -19,7 +19,7 @@ tags:
 - two-stage
 - estimation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Two-Stage Least Squares: Procedure and Inference

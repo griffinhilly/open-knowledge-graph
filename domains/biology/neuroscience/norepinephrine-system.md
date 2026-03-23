@@ -17,7 +17,7 @@ tags:
 - adrenergic
 - arousal
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Norepinephrine System

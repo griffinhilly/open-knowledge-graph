@@ -17,7 +17,7 @@ tags:
 - grouping
 - tens-and-ones
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Understanding Tens and Ones Place Value

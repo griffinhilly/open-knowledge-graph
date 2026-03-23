@@ -16,7 +16,7 @@ tags:
 - dsm5
 - criteria
 stage: expert
-status: draft
+status: validated
 ---
 # DSM-5 Classification System
 

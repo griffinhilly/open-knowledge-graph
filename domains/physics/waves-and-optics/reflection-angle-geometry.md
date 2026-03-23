@@ -13,7 +13,7 @@ tags:
 - optics
 - geometry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Law of Reflection and Angle Relationships

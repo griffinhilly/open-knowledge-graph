@@ -13,7 +13,7 @@ tags:
 - outlier-detection
 - anomaly
 stage: advanced
-status: draft
+status: validated
 ---
 # Anomaly Detection Methods
 

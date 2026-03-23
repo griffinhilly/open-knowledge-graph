@@ -16,7 +16,7 @@ tags:
 - steady-flow
 - engineering-devices
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Control Volume Analysis and Steady-Flow Devices

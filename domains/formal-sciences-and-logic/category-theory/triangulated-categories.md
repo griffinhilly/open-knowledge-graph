@@ -16,7 +16,7 @@ tags:
 - long-exact-sequence
 - derived-category
 stage: expert
-status: draft
+status: validated
 ---
 
 # Triangulated Categories

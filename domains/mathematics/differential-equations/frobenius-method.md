@@ -16,7 +16,7 @@ tags:
 - singular-points
 - series-solution
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Frobenius Method and Equations with Singular Points

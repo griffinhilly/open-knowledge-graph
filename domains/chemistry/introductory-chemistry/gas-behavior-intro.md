@@ -17,7 +17,7 @@ tags:
 - pressure
 - volume
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Gas Behavior: Pressure, Volume, and Temperature
 

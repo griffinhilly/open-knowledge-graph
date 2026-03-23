@@ -15,7 +15,7 @@ tags:
 - constraint-solving
 - algorithm
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Unification Algorithm

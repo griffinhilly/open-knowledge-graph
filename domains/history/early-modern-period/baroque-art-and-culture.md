@@ -17,7 +17,7 @@ tags:
 - music
 - religion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Baroque Art and Culture

@@ -16,7 +16,7 @@ tags:
 - voice
 - effect
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tone, Register, and Emotional Register in Literature

@@ -16,7 +16,7 @@ tags:
 - longitudinal
 - compression
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sound Waves and Longitudinal Propagation

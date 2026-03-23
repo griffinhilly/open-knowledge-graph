@@ -15,7 +15,7 @@ tags:
 - group-velocity
 - phase-velocity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dispersion Relations and Group Velocity

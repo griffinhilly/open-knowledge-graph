@@ -18,7 +18,7 @@ tags:
 - natural-frequency
 - oscillation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Simple Harmonic Motion and Natural Frequency

@@ -20,7 +20,7 @@ tags:
 - thrombin
 - prothrombin
 stage: expert
-status: draft
+status: validated
 ---
 
 # Coagulation Cascade: Extrinsic, Intrinsic, and Common Pathways

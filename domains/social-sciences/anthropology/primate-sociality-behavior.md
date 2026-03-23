@@ -17,7 +17,7 @@ tags:
 - sociality
 - evolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Primate Sociality and Behavior

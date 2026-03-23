@@ -21,7 +21,7 @@ tags:
 - cooling
 - interior-modeling
 stage: expert
-status: draft
+status: validated
 ---
 
 # Parameterized Thermal Models of Planetary Interiors

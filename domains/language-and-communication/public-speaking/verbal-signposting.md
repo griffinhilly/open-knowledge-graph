@@ -14,7 +14,7 @@ tags:
 - internal-previews
 - internal-summaries
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Verbal Signposting

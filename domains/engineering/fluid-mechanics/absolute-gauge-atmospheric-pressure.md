@@ -13,7 +13,7 @@ tags:
 - pressure
 - measurement
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Absolute, Gauge, and Atmospheric Pressure

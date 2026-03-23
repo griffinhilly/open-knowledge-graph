@@ -16,7 +16,7 @@ tags:
 - land-use
 - inequality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Urban Sprawl and Suburbanization

@@ -21,7 +21,7 @@ tags:
 - manipulation
 - capacity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Working Memory: Prefrontal-Parietal Neural Mechanisms

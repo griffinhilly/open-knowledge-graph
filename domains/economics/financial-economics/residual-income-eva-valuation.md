@@ -13,7 +13,7 @@ tags:
 - eva
 - performance-measurement
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Residual Income and Economic Value Added (EVA)

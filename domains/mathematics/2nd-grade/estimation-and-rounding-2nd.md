@@ -15,7 +15,7 @@ tags:
 - rounding
 - approximation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Estimation and Rounding

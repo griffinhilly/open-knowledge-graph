@@ -16,7 +16,7 @@ tags:
 - magnetics
 - interpretation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Potential Field Methods: Gravity and Magnetics

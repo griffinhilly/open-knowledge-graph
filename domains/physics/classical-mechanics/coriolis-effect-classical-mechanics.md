@@ -12,7 +12,7 @@ tags:
 - geophysics
 - deflection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Coriolis Effect

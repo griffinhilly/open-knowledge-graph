@@ -17,7 +17,7 @@ tags:
 - benzodiazepines
 - GABA
 stage: expert
-status: draft
+status: validated
 ---
 
 # Anxiolytic and Sedative Medications: Benzodiazepines

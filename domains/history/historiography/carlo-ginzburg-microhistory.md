@@ -14,7 +14,7 @@ tags:
 - inquisition
 - reconstruction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Carlo Ginzburg and the Inquisitor's Archive

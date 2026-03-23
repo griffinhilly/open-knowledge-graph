@@ -18,7 +18,7 @@ tags:
 - IT-cortex
 - category-selectivity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ventral Stream and Visual Object Recognition

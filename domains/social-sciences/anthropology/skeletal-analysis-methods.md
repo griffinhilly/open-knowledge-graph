@@ -16,7 +16,7 @@ tags:
 - analysis
 - paleopathology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Skeletal Analysis in Bioarchaeology

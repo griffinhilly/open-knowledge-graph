@@ -14,7 +14,7 @@ tags:
 - mechanics
 - systems-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Holonomic and Nonholonomic Constraints

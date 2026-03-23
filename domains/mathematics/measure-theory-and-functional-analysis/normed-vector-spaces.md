@@ -12,7 +12,7 @@ tags:
 - functional-analysis
 - normed-spaces
 stage: expert
-status: draft
+status: validated
 ---
 
 # Normed Vector Spaces

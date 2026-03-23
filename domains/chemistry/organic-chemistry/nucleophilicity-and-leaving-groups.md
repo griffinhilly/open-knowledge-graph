@@ -17,7 +17,7 @@ tags:
 - leaving-group
 - solvent-effects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nucleophilicity, Basicity, and Leaving Group Ability

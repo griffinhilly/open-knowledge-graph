@@ -19,7 +19,7 @@ tags:
 - receptor
 - recognition
 stage: expert
-status: draft
+status: validated
 ---
 
 # T Cell Receptor Structure and Recognition

@@ -13,7 +13,7 @@ tags:
 - electronegativity
 - ring-current
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chemical Shift Prediction and Shielding Effects

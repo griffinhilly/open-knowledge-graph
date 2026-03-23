@@ -24,7 +24,7 @@ tags:
 - energy
 - composition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Movement and Direction: Creating Visual Flow Through Line

@@ -13,7 +13,7 @@ tags:
 - least-squares
 - parameter-estimation
 stage: expert
-status: draft
+status: validated
 ---
 
 # System Identification Using Least-Squares Methods

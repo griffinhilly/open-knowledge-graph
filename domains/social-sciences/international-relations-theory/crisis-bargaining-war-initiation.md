@@ -21,7 +21,7 @@ tags:
 - war-initiation
 - signaling
 stage: expert
-status: draft
+status: validated
 ---
 # Crisis Bargaining and Escalation to War
 

@@ -13,7 +13,7 @@ tags:
 - spatial-relations
 - temporal-relations
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Prepositions: Location, Time, and Direction

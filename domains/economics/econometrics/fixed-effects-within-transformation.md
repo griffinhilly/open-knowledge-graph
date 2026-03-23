@@ -15,7 +15,7 @@ tags:
 - fixed-effects
 - within-transformation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fixed Effects: Within Transformation

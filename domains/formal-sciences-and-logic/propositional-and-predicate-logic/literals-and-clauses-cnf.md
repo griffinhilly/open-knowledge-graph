@@ -18,7 +18,7 @@ tags:
 - normal-forms
 - resolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Literals and Clauses in Conjunctive Normal Form

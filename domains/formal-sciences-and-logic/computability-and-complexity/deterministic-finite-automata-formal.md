@@ -20,7 +20,7 @@ tags:
 - regular-languages
 - computation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Deterministic Finite Automata

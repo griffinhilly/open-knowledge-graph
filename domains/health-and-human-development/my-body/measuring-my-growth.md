@@ -15,7 +15,7 @@ tags:
 - height
 - weight
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Measuring My Growth

@@ -14,7 +14,7 @@ tags:
 - foundations
 - membership
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Set Theory Fundamentals

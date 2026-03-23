@@ -15,7 +15,7 @@ tags:
 - specification
 - testing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Model Specification Testing and Diagnostics

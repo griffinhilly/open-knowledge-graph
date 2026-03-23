@@ -26,7 +26,7 @@ tags:
 - bases
 - nomenclature
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nucleotide Structure and Nomenclature

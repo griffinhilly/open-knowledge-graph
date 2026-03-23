@@ -17,7 +17,7 @@ tags:
 - germinal-center
 - selection
 stage: expert
-status: draft
+status: validated
 ---
 
 # Germinal Center Reactions and B Cell Selection

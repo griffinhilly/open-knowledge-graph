@@ -14,7 +14,7 @@ tags:
 - statistical-properties
 - inference
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Estimator Properties: Consistency, Unbiasedness, and Efficiency

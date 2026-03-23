@@ -14,7 +14,7 @@ tags:
 - air
 - compression
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Properties of Gases
 

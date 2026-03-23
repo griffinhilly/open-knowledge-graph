@@ -1,9 +1,11 @@
 # Open Knowledge Graph Memory
 
-## Status (Mar 22, 2026)
-- **13,991 topics** across **19 domains**, **163 courses** (14 new K-12 courses)
+## Status (Mar 23, 2026)
+- **13,925 topics** across **19 domains**, **163 courses** (14 new K-12 courses)
 - **6 developmental stages**: pre-formal (204), concrete-operations (813), abstract-reasoning (1,266), formal-systems (7,206), advanced (1,840), expert (2,662)
+- **All topics at `status: validated`** (11,508 promoted Mar 23)
 - **100% Q+E coverage**: All topics have Questions + Explainer sections
+- **CS programming-fundamentals deduped**: 116 → 50 topics (66 duplicates merged)
 - GitHub Pages: `griffinhilly.github.io/open-knowledge-graph/`
 - Phase 9A COMPLETE, Phase 9B BUILT, Phase 8.5 (K-12 STEM) COMPLETE
 

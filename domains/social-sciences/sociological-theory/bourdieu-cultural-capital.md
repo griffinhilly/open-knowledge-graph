@@ -14,7 +14,7 @@ tags:
 - inequality
 - reproduction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bourdieu: Cultural Capital and Social Reproduction

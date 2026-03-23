@@ -13,7 +13,7 @@ tags:
 - oligopoly
 - strategy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Oligopoly and Strategic Firm Interaction

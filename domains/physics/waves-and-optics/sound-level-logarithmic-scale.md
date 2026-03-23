@@ -11,7 +11,7 @@ tags:
 - sound
 - logarithm
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sound Intensity Level and the Decibel Scale

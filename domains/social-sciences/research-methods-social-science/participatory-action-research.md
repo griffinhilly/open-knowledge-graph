@@ -17,7 +17,7 @@ tags:
 - engaged
 - reflexive
 stage: expert
-status: draft
+status: validated
 ---
 
 # Participatory Action Research Methods

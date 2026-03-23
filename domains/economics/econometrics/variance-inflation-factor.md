@@ -15,7 +15,7 @@ tags:
 - diagnostics
 - vif
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Variance Inflation Factor and Multicollinearity Diagnosis

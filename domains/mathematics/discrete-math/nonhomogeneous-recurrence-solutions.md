@@ -12,7 +12,7 @@ tags:
 - recurrence-relations
 - nonhomogeneous
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nonhomogeneous Recurrence Relations and Particular Solutions

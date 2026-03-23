@@ -13,7 +13,7 @@ tags:
 - equivalence
 - transformation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Logical Equivalence of Formulas

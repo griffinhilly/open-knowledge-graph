@@ -14,7 +14,7 @@ tags:
 - growth
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Institutions as Drivers of Development Divergence

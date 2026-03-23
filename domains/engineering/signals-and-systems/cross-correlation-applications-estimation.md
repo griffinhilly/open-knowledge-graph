@@ -15,7 +15,7 @@ tags:
 - time-delay
 - estimation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cross-Correlation Applications and Time Delay Estimation

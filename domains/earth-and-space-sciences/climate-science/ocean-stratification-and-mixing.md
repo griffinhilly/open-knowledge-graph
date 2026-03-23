@@ -19,7 +19,7 @@ tags:
 - ocean-physics
 - heat-transport
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ocean Stratification and Mixing in Climate

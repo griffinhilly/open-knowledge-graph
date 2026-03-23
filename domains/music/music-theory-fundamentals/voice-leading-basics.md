@@ -16,7 +16,7 @@ tags:
 - smooth
 - spacing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voice Leading Basics

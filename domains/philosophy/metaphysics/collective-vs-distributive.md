@@ -15,7 +15,7 @@ tags:
 - collective
 - distributive
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Collective and Distributive Properties

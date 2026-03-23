@@ -19,7 +19,7 @@ tags:
 - pressure-drop
 - deepening
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pressure Tendency and Vertical Motion Relationships

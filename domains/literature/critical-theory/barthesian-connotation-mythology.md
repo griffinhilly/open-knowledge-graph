@@ -19,7 +19,7 @@ tags:
 - myth
 - semiotics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Barthesian Connotation and Mythology

@@ -15,7 +15,7 @@ tags:
 - power
 - rotation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Work and Power in Rotational Motion

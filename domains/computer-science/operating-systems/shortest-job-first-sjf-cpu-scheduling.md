@@ -14,7 +14,7 @@ tags:
 - algorithms
 - cpu
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Shortest Job First (SJF) CPU Scheduling

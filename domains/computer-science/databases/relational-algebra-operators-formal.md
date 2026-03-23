@@ -14,7 +14,7 @@ tags:
 - operators
 - set-operations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Relational Algebra Operators

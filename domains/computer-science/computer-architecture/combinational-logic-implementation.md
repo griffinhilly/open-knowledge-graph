@@ -16,7 +16,7 @@ tags:
 - boolean-functions
 - circuit-design
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Combinational Logic Circuit Implementation

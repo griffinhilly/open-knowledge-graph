@@ -16,7 +16,7 @@ tags:
 - consistency
 - cohesion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Repetition and Visual Unity

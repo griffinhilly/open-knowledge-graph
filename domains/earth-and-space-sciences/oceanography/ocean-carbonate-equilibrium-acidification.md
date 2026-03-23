@@ -24,7 +24,7 @@ tags:
 - saturation
 - buffering
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ocean Carbonate Equilibrium and Acidification

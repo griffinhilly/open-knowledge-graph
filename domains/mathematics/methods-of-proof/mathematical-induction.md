@@ -13,7 +13,7 @@ tags:
 - proof
 - recursion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mathematical Induction

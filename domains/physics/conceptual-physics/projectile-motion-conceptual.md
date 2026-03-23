@@ -16,7 +16,7 @@ tags:
 - trajectory
 - gravity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Projectile Motion
 

@@ -16,7 +16,7 @@ tags:
 - pointwise
 - convergence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Pointwise Convergence of Function Sequences

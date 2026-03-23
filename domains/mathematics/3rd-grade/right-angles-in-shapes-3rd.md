@@ -15,7 +15,7 @@ tags:
 - shapes
 - right-angles
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Identifying Right Angles in 2D Shapes

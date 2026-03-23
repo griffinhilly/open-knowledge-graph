@@ -17,7 +17,7 @@ tags:
 - social-institutions
 - economic-behavior
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Sociology of Economy and Markets

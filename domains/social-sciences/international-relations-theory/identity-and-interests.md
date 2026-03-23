@@ -15,7 +15,7 @@ tags:
 - interests
 - theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Identity and the Social Construction of Interests

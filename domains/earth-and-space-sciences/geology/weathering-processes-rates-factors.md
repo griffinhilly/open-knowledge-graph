@@ -15,7 +15,7 @@ tags:
 - erosion
 - surface-processes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Weathering Processes, Rates, and Controlling Factors

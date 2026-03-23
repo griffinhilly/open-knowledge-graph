@@ -18,7 +18,7 @@ tags:
 - seafloor
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Global Ocean Basin Structure

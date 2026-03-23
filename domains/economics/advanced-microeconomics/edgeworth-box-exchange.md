@@ -15,7 +15,7 @@ tags:
 - exchange
 - visualization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Edgeworth Box Analysis

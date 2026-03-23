@@ -15,7 +15,7 @@ tags:
 - operationalization
 - measurement
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Variables: Definition, Operationalization, and Measurement

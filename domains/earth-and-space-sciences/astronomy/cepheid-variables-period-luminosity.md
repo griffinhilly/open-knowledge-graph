@@ -16,7 +16,7 @@ tags:
 - variable-star
 - distance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cepheid Variables and the Period-Luminosity Relation

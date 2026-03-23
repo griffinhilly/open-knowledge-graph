@@ -16,7 +16,7 @@ tags:
 - approximation
 - exactness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Total Differential and Linear Approximation

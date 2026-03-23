@@ -16,7 +16,7 @@ tags:
 - economic-domination
 - dependency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Economic Imperialism and Neo-Colonialism

@@ -15,7 +15,7 @@ tags:
 - cortex
 - production-comprehension
 stage: expert
-status: draft
+status: validated
 ---
 
 # Broca's and Wernicke's Areas

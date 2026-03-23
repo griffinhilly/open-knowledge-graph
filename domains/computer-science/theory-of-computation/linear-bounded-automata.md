@@ -15,7 +15,7 @@ tags:
 - resource-bounds
 - complexity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Linear Bounded Automata

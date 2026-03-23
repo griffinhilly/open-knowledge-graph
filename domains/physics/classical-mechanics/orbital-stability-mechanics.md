@@ -15,7 +15,7 @@ tags:
 - stability
 - perturbations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orbital Stability and Perturbation Analysis

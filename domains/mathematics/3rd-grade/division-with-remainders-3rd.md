@@ -12,7 +12,7 @@ tags:
 - division
 - remainders
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Division with Remainders

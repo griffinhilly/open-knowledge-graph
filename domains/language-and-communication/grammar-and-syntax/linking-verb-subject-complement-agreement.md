@@ -14,7 +14,7 @@ tags:
 - agreement
 - syntax
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Linking Verbs and Subject Complements

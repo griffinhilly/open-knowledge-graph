@@ -17,7 +17,7 @@ tags:
 - colonialism
 - africa
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Atlantic Slave Trade and Commercial Systems

@@ -17,7 +17,7 @@ tags:
 - fallibilism
 - truth
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Pragmatist Epistemology
 

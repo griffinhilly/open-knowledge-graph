@@ -17,7 +17,7 @@ tags:
 - possible-worlds
 - modal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rigid Designators and Necessary Reference

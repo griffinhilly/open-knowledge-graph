@@ -18,7 +18,7 @@ tags:
 - atomic-physics
 - hydrogen
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hydrogen Atom: Quantum Energy Levels and Orbitals

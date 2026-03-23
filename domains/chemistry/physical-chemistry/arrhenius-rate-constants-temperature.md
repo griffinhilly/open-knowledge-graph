@@ -13,7 +13,7 @@ tags:
 - rate-constant
 - temperature
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Arrhenius Equation and Temperature Dependence of Rate Constants

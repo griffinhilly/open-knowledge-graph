@@ -15,7 +15,7 @@ tags:
 - column-stats
 - MFV
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Table Statistics, Histograms, and Column Statistics

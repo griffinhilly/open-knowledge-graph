@@ -17,7 +17,7 @@ tags:
 - principles
 - large-cardinals
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Reflection Principles and the Universe

@@ -15,7 +15,7 @@ tags:
 - sequential-games
 - equilibrium-refinement
 stage: expert
-status: draft
+status: validated
 ---
 
 # Subgame Perfect Equilibrium

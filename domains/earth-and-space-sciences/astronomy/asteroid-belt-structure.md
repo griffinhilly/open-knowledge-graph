@@ -15,7 +15,7 @@ tags:
 - resonances
 - orbital-dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Asteroid Belt Structure and Dynamics

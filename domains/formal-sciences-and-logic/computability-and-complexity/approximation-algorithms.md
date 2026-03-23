@@ -14,7 +14,7 @@ tags:
 - optimization
 - intractability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Approximation Algorithms

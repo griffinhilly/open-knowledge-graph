@@ -15,7 +15,7 @@ tags:
 - complexity-classes
 - quantifiers
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Polynomial Hierarchy Beyond NP

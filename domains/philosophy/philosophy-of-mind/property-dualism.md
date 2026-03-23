@@ -16,7 +16,7 @@ tags:
 - reduction
 - physical
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Property Dualism
 

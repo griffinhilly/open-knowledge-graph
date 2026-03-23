@@ -19,7 +19,7 @@ tags:
 - analysis
 - function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Progression: Analyzing Chord Sequences

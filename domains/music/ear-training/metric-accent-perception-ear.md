@@ -16,7 +16,7 @@ tags:
 - rhythm
 - beat
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Metric Accent and Stress Perception

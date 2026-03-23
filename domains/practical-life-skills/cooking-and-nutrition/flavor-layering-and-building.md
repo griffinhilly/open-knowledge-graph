@@ -17,7 +17,7 @@ tags:
 - cooking-method
 - balance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Flavor Layering and Building

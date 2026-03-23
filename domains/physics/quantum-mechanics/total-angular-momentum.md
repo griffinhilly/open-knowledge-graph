@@ -14,7 +14,7 @@ tags:
 - angular-momentum
 - quantum-numbers
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Total Angular Momentum

@@ -15,7 +15,7 @@ tags:
 - phonons
 - collective
 stage: expert
-status: draft
+status: validated
 ---
 
 # Collective Excitations and Phonons

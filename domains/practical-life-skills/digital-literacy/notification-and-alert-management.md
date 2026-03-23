@@ -14,7 +14,7 @@ tags:
 - settings
 - distraction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Notification and Alert Management

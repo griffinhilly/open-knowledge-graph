@@ -14,7 +14,7 @@ tags:
 - character
 - intellectual
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rational Belief and Epistemic Character

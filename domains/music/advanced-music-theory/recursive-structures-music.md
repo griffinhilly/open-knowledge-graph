@@ -24,7 +24,7 @@ tags:
 - form
 - structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Recursive and Self-Similar Structures in Composition

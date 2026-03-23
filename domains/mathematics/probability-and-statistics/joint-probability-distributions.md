@@ -16,7 +16,7 @@ tags:
 - multivariate
 - probability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Joint Probability Distributions

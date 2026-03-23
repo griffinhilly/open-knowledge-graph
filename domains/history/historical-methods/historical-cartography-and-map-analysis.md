@@ -12,7 +12,7 @@ tags:
 - geography
 - space
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Historical Cartography and Map Analysis

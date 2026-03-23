@@ -17,7 +17,7 @@ tags:
 - finite-dimensionality
 - linear-logic
 stage: expert
-status: draft
+status: validated
 ---
 
 # Compact Closed Categories

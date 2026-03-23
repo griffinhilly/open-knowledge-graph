@@ -15,7 +15,7 @@ tags:
 - spirit
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hegel: Aesthetics and the History of Spirit

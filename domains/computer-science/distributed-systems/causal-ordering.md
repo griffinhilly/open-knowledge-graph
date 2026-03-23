@@ -13,7 +13,7 @@ tags:
 - ordering
 - happened-before
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Causal Ordering and Happened-Before Relations

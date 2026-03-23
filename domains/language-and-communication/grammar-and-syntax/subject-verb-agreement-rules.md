@@ -13,7 +13,7 @@ tags:
 - verbs
 - subject
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Subject-Verb Agreement Rules

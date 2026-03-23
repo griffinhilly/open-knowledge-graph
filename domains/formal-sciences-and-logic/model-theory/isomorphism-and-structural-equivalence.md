@@ -17,7 +17,7 @@ tags:
 - bijection
 - structure-preserving
 stage: expert
-status: draft
+status: validated
 ---
 
 # Isomorphisms and Structural Equivalence

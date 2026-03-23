@@ -17,7 +17,7 @@ tags:
 - metabolic-rate
 - homeostasis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Body Thermoregulation and Metabolic Heat Production

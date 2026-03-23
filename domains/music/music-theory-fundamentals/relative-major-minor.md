@@ -18,7 +18,7 @@ tags:
 - minor
 - relative
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Relative Major and Minor Keys

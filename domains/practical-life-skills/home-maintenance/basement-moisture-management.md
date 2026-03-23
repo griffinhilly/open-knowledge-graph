@@ -16,7 +16,7 @@ tags:
 - waterproofing
 - foundation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Basement Moisture Management

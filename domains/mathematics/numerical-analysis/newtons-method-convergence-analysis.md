@@ -13,7 +13,7 @@ tags:
 - root-finding
 - quadratic-convergence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Newton's Method for Root-Finding (Convergence Analysis)

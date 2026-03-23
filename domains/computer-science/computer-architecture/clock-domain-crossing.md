@@ -15,7 +15,7 @@ tags:
 - synchronization
 - metastability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Clock Domain Crossing and Synchronization

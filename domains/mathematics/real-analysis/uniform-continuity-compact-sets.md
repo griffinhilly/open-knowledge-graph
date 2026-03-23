@@ -15,7 +15,7 @@ tags:
 - compact
 - compactness
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Uniform Continuity on Compact Sets

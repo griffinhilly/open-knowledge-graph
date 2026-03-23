@@ -17,7 +17,7 @@ tags:
 - place-cells
 - grid-cells
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hippocampus and Spatial Memory

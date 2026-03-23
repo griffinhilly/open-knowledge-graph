@@ -16,7 +16,7 @@ tags:
 - order
 - bijection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Comparing Cardinalities: The Schröder-Bernstein Theorem

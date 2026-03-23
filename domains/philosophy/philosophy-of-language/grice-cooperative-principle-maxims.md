@@ -15,7 +15,7 @@ tags:
 - maxims
 - pragmatics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Cooperative Principle and Conversational Maxims

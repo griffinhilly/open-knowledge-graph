@@ -12,7 +12,7 @@ tags:
 - ensemble
 - supervised-learning
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Advanced Ensemble Methods

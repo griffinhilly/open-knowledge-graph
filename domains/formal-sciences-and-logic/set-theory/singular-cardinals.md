@@ -17,7 +17,7 @@ tags:
 - König's theorem
 - cardinal arithmetic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Singular Cardinals

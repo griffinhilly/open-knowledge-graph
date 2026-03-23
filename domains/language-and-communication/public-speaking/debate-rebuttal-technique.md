@@ -16,7 +16,7 @@ tags:
 - rebuttal
 - response
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rebuttal and Counter-Argument in Debate

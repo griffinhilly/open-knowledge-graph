@@ -20,7 +20,7 @@ tags:
 - supervised-learning
 - universal-approximation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Multilayer Perceptrons (MLPs)

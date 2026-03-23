@@ -16,7 +16,7 @@ tags:
 - capsnet
 - routing
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Capsule Networks

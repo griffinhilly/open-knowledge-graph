@@ -15,7 +15,7 @@ tags:
 - atoms
 - hydrogen
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hydrogen Atom in Quantum Mechanics

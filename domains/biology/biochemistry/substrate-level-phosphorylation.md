@@ -17,7 +17,7 @@ tags:
 - phosphorylation
 - glycolysis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Substrate-Level Phosphorylation

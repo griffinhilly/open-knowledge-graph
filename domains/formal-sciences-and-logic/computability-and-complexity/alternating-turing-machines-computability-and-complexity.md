@@ -15,7 +15,7 @@ tags:
 - quantifiers
 - complexity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Alternating Turing Machines

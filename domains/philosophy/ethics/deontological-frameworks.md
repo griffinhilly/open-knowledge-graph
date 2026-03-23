@@ -14,7 +14,7 @@ tags:
 - duties
 - framework
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Deontological Frameworks

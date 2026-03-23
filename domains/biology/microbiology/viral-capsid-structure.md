@@ -15,7 +15,7 @@ tags:
 - structure
 - assembly
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Viral Capsid Structure and Assembly

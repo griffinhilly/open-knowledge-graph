@@ -11,7 +11,7 @@ tags:
 - sustainability
 - alternative methods
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Green and Sustainable Analytical Chemistry

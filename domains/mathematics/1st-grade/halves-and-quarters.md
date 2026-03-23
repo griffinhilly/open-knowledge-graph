@@ -12,7 +12,7 @@ tags:
 - fractions
 - equal-parts
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Halves and Quarters

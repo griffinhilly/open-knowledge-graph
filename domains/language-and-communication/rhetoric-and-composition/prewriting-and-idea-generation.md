@@ -15,7 +15,7 @@ tags:
 - ideation
 - planning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Prewriting and Idea Generation

@@ -16,7 +16,7 @@ tags:
 - cylindrical-coordinates
 - boundary-value-problems
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cylindrical Harmonics and Bessel Functions

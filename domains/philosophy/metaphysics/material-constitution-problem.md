@@ -19,7 +19,7 @@ tags:
 - material
 - metaphysics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Material Constitution and the Lump-Statue Problem

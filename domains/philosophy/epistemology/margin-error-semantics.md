@@ -12,7 +12,7 @@ tags:
 - knowledge
 - williamson
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Margin for Error and Knowledge Conditions

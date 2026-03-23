@@ -17,7 +17,7 @@ tags:
 - commerce
 - networks
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mediterranean Medieval Trade and Merchant Networks

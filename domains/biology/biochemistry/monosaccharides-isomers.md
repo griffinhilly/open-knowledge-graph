@@ -18,7 +18,7 @@ tags:
 - fructose
 - mutarotation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Monosaccharide Isomerism and Properties

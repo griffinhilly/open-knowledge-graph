@@ -18,7 +18,7 @@ tags:
 - pharmacology
 - behavior
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Psychoactive Drugs: Mechanisms of Action and Behavioral Effects

@@ -14,7 +14,7 @@ tags:
 - measurement
 - probability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Born Rule and Quantum Measurement

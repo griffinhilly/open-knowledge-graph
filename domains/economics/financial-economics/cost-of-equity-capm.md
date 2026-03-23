@@ -18,7 +18,7 @@ tags:
 - discount-rate
 - equity-valuation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cost of Equity and CAPM Application

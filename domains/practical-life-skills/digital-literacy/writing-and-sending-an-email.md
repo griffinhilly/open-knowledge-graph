@@ -16,7 +16,7 @@ tags:
 - fundamentals
 - writing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Writing and Sending an Email

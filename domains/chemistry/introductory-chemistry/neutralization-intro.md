@@ -15,7 +15,7 @@ tags:
 - acid-base
 - salt
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Neutralization: When Acids Meet Bases
 

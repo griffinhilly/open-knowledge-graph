@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - anova
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # One-Way ANOVA: Theory and F-Test

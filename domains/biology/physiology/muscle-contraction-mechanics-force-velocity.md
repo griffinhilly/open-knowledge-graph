@@ -16,7 +16,7 @@ tags:
 - contraction
 - power
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Muscle Contraction Mechanics and Force-Velocity Relationships

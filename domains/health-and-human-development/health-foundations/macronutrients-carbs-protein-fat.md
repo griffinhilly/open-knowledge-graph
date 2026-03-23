@@ -16,7 +16,7 @@ builds-toward:
   - dietary-protein-and-amino-acids
 tags: [nutrition, macronutrients, carbohydrates, protein, fat]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Macronutrients: Carbohydrates, Protein, and Fat

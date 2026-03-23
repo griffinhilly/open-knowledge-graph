@@ -19,7 +19,7 @@ tags:
 - spectroscopy
 - multivariate-analysis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Multivariate Calibration: PLS and PCR Models

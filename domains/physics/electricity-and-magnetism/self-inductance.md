@@ -15,7 +15,7 @@ tags:
 - energy
 - induction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Self-Inductance and Magnetic Energy

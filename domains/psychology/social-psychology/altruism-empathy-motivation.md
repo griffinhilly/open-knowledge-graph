@@ -17,7 +17,7 @@ tags:
 - helping
 - prosocial
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Altruism: Empathy as Motivation for Helping

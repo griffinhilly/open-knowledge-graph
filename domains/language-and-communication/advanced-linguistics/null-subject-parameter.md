@@ -15,7 +15,7 @@ tags:
 - parameters
 - universal-grammar
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Null Subject Parameter

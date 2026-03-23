@@ -19,7 +19,7 @@ tags:
 - sustainability
 - energy-systems
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Introduction to Renewable Energy Systems
 

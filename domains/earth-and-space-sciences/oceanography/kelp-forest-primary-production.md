@@ -18,7 +18,7 @@ tags:
 - trophic-dynamics
 - disturbance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kelp Forest Ecosystems and Macroalgal Primary Production

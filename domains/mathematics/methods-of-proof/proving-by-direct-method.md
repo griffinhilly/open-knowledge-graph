@@ -18,7 +18,7 @@ tags:
 - direct proof
 - deduction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Proving by Direct Method

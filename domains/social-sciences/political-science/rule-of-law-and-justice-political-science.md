@@ -17,7 +17,7 @@ tags:
 - accountability
 - rights
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Rule of Law and Justice Systems

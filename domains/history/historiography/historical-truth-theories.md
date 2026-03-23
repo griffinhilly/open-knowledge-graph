@@ -16,7 +16,7 @@ tags:
 - epistemology
 - theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Theories of Historical Truth

@@ -16,7 +16,7 @@ tags:
 - interpretation
 - methodology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Source Contextualization and Historical Circumstance

@@ -18,7 +18,7 @@ tags:
 - counting
 - multiplication-readiness
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Number Patterns: Skip Counting

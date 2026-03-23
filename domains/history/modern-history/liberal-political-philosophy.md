@@ -17,7 +17,7 @@ tags:
 - democracy
 - rights
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Liberal Political Philosophy in the Modern Era

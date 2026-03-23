@@ -16,7 +16,7 @@ tags:
 - enthalpy
 - entropy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermodynamic Properties of Humid Air Mixtures

@@ -16,7 +16,7 @@ tags:
 - moral disengagement
 - violence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dehumanization, Moral Disengagement, and Aggression

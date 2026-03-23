@@ -16,7 +16,7 @@ tags:
 - cascode
 - no-phase-inversion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Common-Base Amplifier

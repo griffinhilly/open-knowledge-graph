@@ -16,7 +16,7 @@ tags:
 - networks
 - travel
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pilgrimage Routes and Networks in Medieval Europe

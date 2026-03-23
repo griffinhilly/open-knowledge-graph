@@ -21,7 +21,7 @@ tags:
 - wind
 - landforms
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Erosion and Weathering Basics

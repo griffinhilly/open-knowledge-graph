@@ -16,7 +16,7 @@ tags:
 - plasmids
 - gene-transfer
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bacterial Conjugation and Plasmid Transfer

@@ -13,7 +13,7 @@ tags:
 - morphology
 - case
 stage: expert
-status: draft
+status: validated
 ---
 
 # Case Theory and Abstract Case Assignment

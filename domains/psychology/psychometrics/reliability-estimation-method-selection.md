@@ -17,7 +17,7 @@ tags:
 - method-selection
 - measurement-error
 stage: expert
-status: draft
+status: validated
 ---
 
 # Reliability Estimation Methods and Method Selection

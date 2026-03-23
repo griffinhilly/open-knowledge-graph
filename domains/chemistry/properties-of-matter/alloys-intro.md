@@ -15,7 +15,7 @@ tags:
 - metals
 - mixtures
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Alloys: Mixing Metals
 

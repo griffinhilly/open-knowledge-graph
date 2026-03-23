@@ -16,7 +16,7 @@ tags:
 - Frege
 - Bedeutung
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Frege's Sense and Reference

@@ -16,7 +16,7 @@ tags:
 - subtropical
 - western-boundary-currents
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Subtropical Ocean Gyres and Large-Scale Circulation

@@ -13,7 +13,7 @@ tags:
 - bipartite
 - coloring
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bipartite Graphs: Detection and Two-Coloring

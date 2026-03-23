@@ -17,7 +17,7 @@ tags:
 - movement
 - aesthetics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Development of Secular Art Movements and Non-Religious Aesthetics

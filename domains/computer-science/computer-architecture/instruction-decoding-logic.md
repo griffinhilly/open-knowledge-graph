@@ -16,7 +16,7 @@ tags:
 - control-signals
 - instruction-format
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Instruction Decoding and Control Signal Generation

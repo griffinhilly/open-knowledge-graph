@@ -12,7 +12,7 @@ tags:
 - mortality
 - population
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Demographic Transition and Development

@@ -19,7 +19,7 @@ tags:
 - riboflavin
 - niacin
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # B Vitamins as Coenzymes in Energy Metabolism

@@ -17,7 +17,7 @@ tags:
 - perspective
 - experimental
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Second-Person Narration: 'You' as Narratee

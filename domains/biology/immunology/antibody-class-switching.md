@@ -17,7 +17,7 @@ tags:
 - antibody
 - gene-rearrangement
 stage: expert
-status: draft
+status: validated
 ---
 
 # Antibody Class Switching (Isotype Switching)

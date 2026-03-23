@@ -17,7 +17,7 @@ tags:
 - legitimacy
 - contract
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Consent Theory and Political Obligation

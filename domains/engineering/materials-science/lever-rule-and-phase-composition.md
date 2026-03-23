@@ -15,7 +15,7 @@ tags:
 - composition
 - two-phase-regions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Lever Rule and Phase Diagram Composition Analysis

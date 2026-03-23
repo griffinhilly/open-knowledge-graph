@@ -13,7 +13,7 @@ tags:
 - compactness
 - finiteness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Compactness Theorem for Propositional Logic

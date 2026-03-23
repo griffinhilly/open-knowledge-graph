@@ -16,7 +16,7 @@ tags:
 - probability
 - foundations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Weak Law of Large Numbers

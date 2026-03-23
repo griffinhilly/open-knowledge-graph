@@ -12,7 +12,7 @@ tags:
 - attribution
 - sources
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Oral Citation Technique

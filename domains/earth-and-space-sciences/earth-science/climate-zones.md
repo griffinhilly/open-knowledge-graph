@@ -6,7 +6,7 @@ course: earth-science
 prerequisites:
 - id: climate-vs-weather
   type: hard
-- id: seasons-and-sunlight
+- id: what-causes-seasons
   type: hard
 builds-toward:
 - climate-zones-and-biomes
@@ -19,7 +19,7 @@ tags:
 - latitude
 - biomes
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Climate Zones

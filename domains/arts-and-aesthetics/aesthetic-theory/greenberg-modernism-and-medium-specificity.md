@@ -15,7 +15,7 @@ tags:
 - flatness
 - abstract art
 stage: expert
-status: draft
+status: validated
 ---
 
 # Greenberg: Modernism and Medium Specificity

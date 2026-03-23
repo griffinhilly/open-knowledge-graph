@@ -16,7 +16,7 @@ tags:
 - cpu
 - feedback
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multilevel Feedback Queue (MLFQ) Scheduling

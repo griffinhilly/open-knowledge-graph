@@ -16,7 +16,7 @@ tags:
 - industrial-organization
 - sequential-games
 stage: expert
-status: draft
+status: validated
 ---
 
 # Stackelberg Competition: Sequential Quantity Leadership

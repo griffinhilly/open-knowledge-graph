@@ -20,7 +20,7 @@ tags:
 - life-stage
 - individual-variation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nutrient Requirements and Dietary Reference Intakes

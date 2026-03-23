@@ -16,7 +16,7 @@ tags:
 - strategy
 - credibility
 stage: expert
-status: draft
+status: validated
 ---
 
 # Deterrence Theory and Nuclear Strategy

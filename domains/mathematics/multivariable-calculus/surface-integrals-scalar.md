@@ -15,7 +15,7 @@ tags:
 - surface-integral
 - area
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Surface Integrals of Scalar Functions

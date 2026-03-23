@@ -19,7 +19,7 @@ tags:
 - kernel-trick
 - implicit-mapping
 stage: advanced
-status: draft
+status: validated
 ---
 # Kernel Methods and the Kernel Trick
 

@@ -15,7 +15,7 @@ tags:
 - justification
 - religion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Crusade Theology and Holy War Justification

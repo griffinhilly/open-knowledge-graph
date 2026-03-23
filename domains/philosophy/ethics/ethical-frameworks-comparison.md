@@ -19,7 +19,7 @@ tags:
 - comparison
 - normative-ethics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Comparing Ethical Frameworks

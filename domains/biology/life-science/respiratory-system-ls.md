@@ -18,7 +18,7 @@ tags:
 - oxygen
 - gas-exchange
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # The Respiratory System
 

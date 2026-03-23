@@ -14,7 +14,7 @@ tags:
 - pronouns
 - pronoun-types
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Pronoun Types and Usage

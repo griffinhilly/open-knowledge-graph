@@ -17,7 +17,7 @@ tags:
 - fusional
 - agglutinative
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inflectional Morphology

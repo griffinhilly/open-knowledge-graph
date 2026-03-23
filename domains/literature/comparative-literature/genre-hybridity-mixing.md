@@ -18,7 +18,7 @@ tags:
 - form
 - adaptation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Genre Hybridity and Mixing

@@ -13,7 +13,7 @@ tags:
 - rapid-assessment
 - field-epidemiology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Rapid Epidemiologic Assessment in Emergencies

@@ -19,7 +19,7 @@ tags:
 - debt
 - strategy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Credit Card Mechanics and Strategy

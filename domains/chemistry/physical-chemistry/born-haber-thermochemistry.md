@@ -16,7 +16,7 @@ tags:
 - lattice-energy
 - ionic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Born-Haber Cycle and Lattice Energy

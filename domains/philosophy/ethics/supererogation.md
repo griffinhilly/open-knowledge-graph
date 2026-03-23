@@ -17,7 +17,7 @@ tags:
 - demandingness
 - beyond-duty
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Supererogation

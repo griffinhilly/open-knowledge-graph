@@ -12,7 +12,7 @@ tags:
 - mechanoreception
 - somatosensory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Somatosensory Mechanoreceptors: Touch, Pressure, and Texture

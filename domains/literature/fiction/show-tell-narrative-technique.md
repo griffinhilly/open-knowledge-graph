@@ -16,7 +16,7 @@ tags:
 - narrative
 - style
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Showing and Telling in Narrative

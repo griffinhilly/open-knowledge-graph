@@ -15,7 +15,7 @@ tags:
 - kramers-kronig
 - absorption
 stage: expert
-status: draft
+status: validated
 ---
 
 # Complex Conductivity and Dielectric Function

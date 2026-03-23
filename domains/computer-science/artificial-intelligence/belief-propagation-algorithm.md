@@ -14,7 +14,7 @@ tags:
 - factor-graphs
 - loopy-belief-propagation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Belief Propagation Algorithm

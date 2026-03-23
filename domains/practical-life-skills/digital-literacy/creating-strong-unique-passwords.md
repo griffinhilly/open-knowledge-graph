@@ -16,7 +16,7 @@ tags:
 - passwords
 - account-protection
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Creating Strong and Unique Passwords

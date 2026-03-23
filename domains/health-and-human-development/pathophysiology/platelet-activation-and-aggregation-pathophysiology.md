@@ -17,7 +17,7 @@ tags:
 - thrombosis
 - hemostasis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Platelet Activation, Aggregation, and Pathological Thrombosis

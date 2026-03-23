@@ -13,7 +13,7 @@ tags:
 - IC
 - ionic species
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ion Chromatography for Ionic Species

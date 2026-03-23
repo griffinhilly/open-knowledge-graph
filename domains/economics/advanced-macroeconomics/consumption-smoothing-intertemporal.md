@@ -17,7 +17,7 @@ tags:
 - permanent-income
 - intertemporal-substitution
 stage: expert
-status: draft
+status: validated
 ---
 
 # Consumption Smoothing and Permanent Income Hypothesis

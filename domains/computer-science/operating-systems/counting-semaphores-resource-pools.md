@@ -13,7 +13,7 @@ tags:
 - resource-management
 - synchronization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Counting Semaphores and Resource Pools

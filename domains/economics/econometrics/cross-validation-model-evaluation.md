@@ -13,7 +13,7 @@ tags:
 - out-of-sample
 - model-evaluation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cross-Validation and Out-of-Sample Model Evaluation

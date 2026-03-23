@@ -14,7 +14,7 @@ tags:
 - engagement
 - speech-strategy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Comparing and Choosing Speech Introduction Strategies

@@ -18,7 +18,7 @@ tags:
 - hypothalamus
 - metabolism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermoregulation Mechanisms

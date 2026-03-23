@@ -20,7 +20,7 @@ tags:
 - analysis
 - contemporary
 stage: expert
-status: draft
+status: validated
 ---
 
 # Polymetric and Polyrhythmic Analysis

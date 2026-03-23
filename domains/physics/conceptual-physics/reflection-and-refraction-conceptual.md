@@ -18,7 +18,7 @@ tags:
 - refraction
 - bending
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Reflection and Refraction
 

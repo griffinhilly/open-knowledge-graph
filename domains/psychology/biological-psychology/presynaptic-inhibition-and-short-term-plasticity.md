@@ -18,7 +18,7 @@ tags:
 - facilitation
 - depression
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Presynaptic Inhibition and Short-Term Synaptic Plasticity

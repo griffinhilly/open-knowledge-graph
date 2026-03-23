@@ -18,7 +18,7 @@ tags:
 - test-forms
 - irt
 stage: expert
-status: draft
+status: validated
 ---
 
 # Test Equating and Score Linking Methods

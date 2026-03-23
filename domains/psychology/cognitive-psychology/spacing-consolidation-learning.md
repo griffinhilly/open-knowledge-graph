@@ -16,7 +16,7 @@ tags:
 - spacing
 - consolidation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Spacing Effect and Memory Consolidation

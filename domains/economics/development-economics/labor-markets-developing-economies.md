@@ -17,7 +17,7 @@ tags:
 - wages
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Labor Markets and Employment in Developing Economies

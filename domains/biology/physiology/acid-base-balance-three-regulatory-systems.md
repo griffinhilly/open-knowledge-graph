@@ -18,7 +18,7 @@ tags:
 - homeostasis
 - buffering
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Acid-Base Balance and Three Regulatory Systems

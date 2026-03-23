@@ -18,7 +18,7 @@ tags:
 - air-mass
 - temperature
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cold Front Structure and Dynamics

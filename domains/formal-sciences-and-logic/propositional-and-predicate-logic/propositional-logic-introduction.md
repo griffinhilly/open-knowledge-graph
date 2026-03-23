@@ -17,7 +17,7 @@ tags:
 - propositional-logic
 - introduction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Introduction to Propositional Logic

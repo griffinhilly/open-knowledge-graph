@@ -16,7 +16,7 @@ tags:
 - high-resolution
 - continental-paleoclimate
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lake Sediments and High-Resolution Paleoclimate

@@ -14,7 +14,7 @@ tags:
 - constraints
 - costs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Short Selling: Mechanics, Costs, and Constraints

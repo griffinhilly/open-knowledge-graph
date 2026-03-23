@@ -16,7 +16,7 @@ tags:
 - logarithmic-frequency
 - asymptotic-approximation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Logarithmic Plots and Frequency Scales

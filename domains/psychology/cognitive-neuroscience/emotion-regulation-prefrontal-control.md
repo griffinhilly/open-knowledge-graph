@@ -13,7 +13,7 @@ tags:
 - regulation
 - control
 stage: expert
-status: draft
+status: validated
 ---
 
 # Emotion Regulation and Prefrontal Control

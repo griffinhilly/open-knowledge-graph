@@ -16,7 +16,7 @@ tags:
 - von-neumann
 - ordinal-construction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Successor Ordinals, Limit Ordinals, and Von Neumann Construction

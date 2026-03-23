@@ -15,7 +15,7 @@ tags:
 - light-curves
 - stellar-properties
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Eclipsing Binary Stars and Light Curves

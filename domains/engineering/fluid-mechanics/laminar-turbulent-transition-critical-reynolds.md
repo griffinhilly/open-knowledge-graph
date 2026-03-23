@@ -16,7 +16,7 @@ tags:
 - turbulent
 - instability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Laminar-Turbulent Transition and Critical Reynolds Number

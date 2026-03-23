@@ -13,7 +13,7 @@ tags:
 - collision
 - tectonics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Continental Collision and Orogenic Crustal Thickening

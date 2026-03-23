@@ -17,7 +17,7 @@ tags:
 - wiener
 - frequency-domain
 stage: expert
-status: draft
+status: validated
 ---
 
 # Wiener Filter for Optimal Estimation

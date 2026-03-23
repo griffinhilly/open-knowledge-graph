@@ -16,7 +16,7 @@ tags:
 - screening
 - automation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # High-Throughput Analytical Screening

@@ -16,7 +16,7 @@ tags:
 - learning
 - coordination
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cerebellum: Motor Coordination and Skill Learning

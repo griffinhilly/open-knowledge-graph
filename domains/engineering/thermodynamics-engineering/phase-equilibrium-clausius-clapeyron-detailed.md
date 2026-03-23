@@ -20,7 +20,7 @@ tags:
 - saturation
 - transitions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phase Equilibrium and Clausius-Clapeyron Equation

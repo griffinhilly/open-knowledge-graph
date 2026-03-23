@@ -15,7 +15,7 @@ tags:
 - observation
 - empiricism
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Scientific Method and Observation

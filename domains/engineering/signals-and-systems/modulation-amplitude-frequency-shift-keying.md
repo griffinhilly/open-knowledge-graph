@@ -11,7 +11,7 @@ tags:
 - communications
 - signal-transmission
 stage: expert
-status: draft
+status: validated
 ---
 
 # Modulation: Amplitude, Frequency, and Phase Shift Keying

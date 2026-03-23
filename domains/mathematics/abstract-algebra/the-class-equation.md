@@ -13,7 +13,7 @@ tags:
 - conjugacy
 - center
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Class Equation

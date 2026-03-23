@@ -10,7 +10,7 @@ tags:
 - ac-power
 - power-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # AC Power: Real, Reactive, and Apparent Power

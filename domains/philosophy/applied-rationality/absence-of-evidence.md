@@ -12,7 +12,7 @@ builds-toward:
   - extraordinary-claims-and-evidence-scaling
 tags: ["bayesian", "evidence", "probability", "reasoning"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

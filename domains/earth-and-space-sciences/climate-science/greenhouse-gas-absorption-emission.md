@@ -25,7 +25,7 @@ tags:
 - infrared-radiation
 - molecular-properties
 stage: expert
-status: draft
+status: validated
 ---
 
 # Greenhouse Gas Absorption and Emission Spectra

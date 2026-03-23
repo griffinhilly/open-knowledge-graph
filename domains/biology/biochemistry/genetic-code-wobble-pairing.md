@@ -11,7 +11,7 @@ tags:
 - wobble
 - codon-recognition
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Genetic Code and Wobble Base Pairing

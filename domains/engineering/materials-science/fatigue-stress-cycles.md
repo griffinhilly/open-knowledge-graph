@@ -14,7 +14,7 @@ tags:
 - s-n-curves
 - endurance-limit
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fatigue Behavior Under Cyclic Loading

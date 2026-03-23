@@ -16,7 +16,7 @@ tags:
 - diagnosis
 - clinical-practice
 stage: expert
-status: draft
+status: validated
 ---
 
 # Clinical Assessment and Diagnosis

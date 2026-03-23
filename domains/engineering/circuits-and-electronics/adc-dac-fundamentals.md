@@ -20,7 +20,7 @@ tags:
 - flash-adc
 - successive-approximation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # ADC and DAC Fundamentals

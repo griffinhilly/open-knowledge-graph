@@ -15,7 +15,7 @@ tags:
 - prosody
 - phonology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Syllable Structure and Prosodic Organization

@@ -16,7 +16,7 @@ tags:
 - harmonic-oscillator
 - solvable-systems
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Quantum Harmonic Oscillator

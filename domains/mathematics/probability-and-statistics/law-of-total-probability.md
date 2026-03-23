@@ -13,7 +13,7 @@ tags:
 - conditional-probability
 - partitions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Law of Total Probability

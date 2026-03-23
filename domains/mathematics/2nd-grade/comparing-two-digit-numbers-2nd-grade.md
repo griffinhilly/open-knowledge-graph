@@ -16,7 +16,7 @@ tags:
 - greater-than
 - less-than
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Comparing Two-Digit Numbers

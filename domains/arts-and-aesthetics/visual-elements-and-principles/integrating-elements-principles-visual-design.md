@@ -48,7 +48,7 @@ tags:
 - principles
 - elements
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Integration: Applying Elements and Principles Together

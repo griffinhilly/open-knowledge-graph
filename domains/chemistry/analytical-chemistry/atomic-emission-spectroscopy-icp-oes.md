@@ -29,7 +29,7 @@ tags:
 - multi-element
 - trace-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Atomic Emission Spectroscopy: ICP-OES Methods

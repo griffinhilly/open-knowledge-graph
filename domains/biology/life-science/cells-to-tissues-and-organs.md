@@ -23,7 +23,7 @@ tags:
 - organ-systems
 - organization
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Cells, Tissues, Organs, and Organ Systems
 

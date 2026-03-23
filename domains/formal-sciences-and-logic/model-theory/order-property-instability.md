@@ -13,7 +13,7 @@ tags:
 - IP
 - instability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Order Property and Independence Property: Marks of Instability

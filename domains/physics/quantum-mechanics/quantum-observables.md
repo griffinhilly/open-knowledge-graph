@@ -16,7 +16,7 @@ tags:
 - hermitian
 - measurement
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Observables and Hermitian Operators

@@ -13,7 +13,7 @@ tags:
 - standard-normal
 - z-score
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Standard Normal Distribution and Z-Score Standardization

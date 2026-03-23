@@ -16,7 +16,7 @@ tags:
 - approximation-methods
 - quantum-mechanics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Time-Independent Perturbation Theory

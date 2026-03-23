@@ -13,7 +13,7 @@ tags:
 - place-value
 - positional-notation
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Place Value: Tens and Ones

@@ -14,7 +14,7 @@ tags:
 - development
 - aging
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Baby, Child, Teenager, Adult

@@ -17,7 +17,7 @@ tags:
 - dopamine
 - tolerance
 stage: expert
-status: draft
+status: validated
 ---
 
 # Addiction Neurobiology and Neuroplasticity

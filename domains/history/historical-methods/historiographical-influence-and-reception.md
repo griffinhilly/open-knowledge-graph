@@ -13,7 +13,7 @@ tags:
 - influence
 - reception
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Historiographical Influence and How Historical Interpretations Change

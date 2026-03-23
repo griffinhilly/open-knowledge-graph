@@ -16,7 +16,7 @@ tags:
 - agreement
 - computation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Unification and Feature Agreement

@@ -17,7 +17,7 @@ tags:
 - sediment-composition
 - paleoclimate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Carbonate Compensation Depth and Calcite Preservation in Sediments

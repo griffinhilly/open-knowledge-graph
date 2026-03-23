@@ -18,7 +18,7 @@ tags:
 - epilepsy
 - synchronization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Seizures and Epilepsy Mechanisms

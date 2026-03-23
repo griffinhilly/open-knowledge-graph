@@ -13,7 +13,7 @@ tags:
 - spectroscopy
 - transitions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Selection Rules for Atomic Transitions

@@ -17,7 +17,7 @@ tags:
 - reason
 - narrative
 stage: expert
-status: draft
+status: validated
 ---
 
 # Enlightenment Historiography

@@ -15,7 +15,7 @@ tags:
 - participant-observation
 - reflexivity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Advanced Ethnographic Methods

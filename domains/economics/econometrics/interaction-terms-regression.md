@@ -15,7 +15,7 @@ tags:
 - specification
 - interaction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interaction Terms in Regression

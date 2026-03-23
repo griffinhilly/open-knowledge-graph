@@ -15,7 +15,7 @@ tags:
 - power-cycle
 - efficiency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transcritical and Supercritical Power Cycles

@@ -13,7 +13,7 @@ tags:
 - relationship
 - repair
 stage: expert
-status: draft
+status: validated
 ---
 
 # Therapeutic Alliance and Working Relationship

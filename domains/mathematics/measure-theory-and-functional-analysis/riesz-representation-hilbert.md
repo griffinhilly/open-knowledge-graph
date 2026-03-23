@@ -12,7 +12,7 @@ tags:
 - hilbert-spaces
 - representation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Riesz Representation Theorem for Hilbert Spaces

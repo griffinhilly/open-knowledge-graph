@@ -17,7 +17,7 @@ tags:
 - stability
 - heat-of-combustion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ring Strain and Cycloalkane Stability

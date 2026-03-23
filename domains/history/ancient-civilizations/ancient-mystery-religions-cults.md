@@ -13,7 +13,7 @@ tags:
 - practice
 - ritual
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Ancient Mystery Religions and Cult Practices
 

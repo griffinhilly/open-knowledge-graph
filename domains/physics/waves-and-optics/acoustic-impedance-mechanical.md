@@ -15,7 +15,7 @@ tags:
 - acoustic-properties
 - material-properties
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Acoustic Impedance and Mechanical Impedance

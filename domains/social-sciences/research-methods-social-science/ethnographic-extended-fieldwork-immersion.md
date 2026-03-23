@@ -16,7 +16,7 @@ tags:
 - immersion
 - observation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ethnography: Extended Fieldwork and Immersion

@@ -14,7 +14,7 @@ tags:
 - evidence
 - epistemology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Testimony and Credibility

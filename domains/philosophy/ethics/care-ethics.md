@@ -18,7 +18,7 @@ tags:
 - feminist-ethics
 - relationships
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Care Ethics

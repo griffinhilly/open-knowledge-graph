@@ -14,7 +14,7 @@ tags:
 - noun-phrases
 - parts-of-speech
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Determiners and Articles: Opening the Noun Phrase

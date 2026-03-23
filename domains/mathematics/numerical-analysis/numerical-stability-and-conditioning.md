@@ -14,7 +14,7 @@ tags:
 - conditioning
 - well-posed-problems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Numerical Stability and Conditioning

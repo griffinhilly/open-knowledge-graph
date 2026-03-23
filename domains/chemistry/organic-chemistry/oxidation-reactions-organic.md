@@ -19,7 +19,7 @@ tags:
 - alcohol oxidation
 - selectivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Oxidation Reactions in Organic Chemistry
 

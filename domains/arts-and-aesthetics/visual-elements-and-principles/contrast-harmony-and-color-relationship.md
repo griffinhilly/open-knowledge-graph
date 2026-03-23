@@ -22,7 +22,7 @@ tags:
 - balance
 - emotion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Contrast and Harmony: Managing Color Relationships

@@ -16,7 +16,7 @@ tags:
 - interpretation
 - practice
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Performance Authenticity and Historical Interpretation

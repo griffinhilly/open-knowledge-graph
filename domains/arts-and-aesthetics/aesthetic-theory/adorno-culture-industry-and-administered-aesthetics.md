@@ -17,7 +17,7 @@ tags:
 - autonomy
 - instrumental reason
 stage: expert
-status: draft
+status: validated
 ---
 
 # Adorno: The Culture Industry and Administered Aesthetics

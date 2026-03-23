@@ -11,7 +11,7 @@ tags:
 - goodness-of-fit
 - independence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chi-Square Test

@@ -18,7 +18,7 @@ tags:
 - constructive
 - destructive
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constructive and Destructive Interference

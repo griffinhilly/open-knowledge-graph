@@ -18,7 +18,7 @@ tags:
 - effective-potential
 - orbits
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Effective Potential in Central Force Motion

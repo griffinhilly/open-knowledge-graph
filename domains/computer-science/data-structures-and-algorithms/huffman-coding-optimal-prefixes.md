@@ -15,7 +15,7 @@ tags:
 - coding
 - compression
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Huffman Coding: Optimal Prefix Codes via Greedy

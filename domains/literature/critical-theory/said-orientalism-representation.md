@@ -18,7 +18,7 @@ tags:
 - representation
 - power
 stage: expert
-status: draft
+status: validated
 ---
 
 # Said's Orientalism: Representation and Colonial Power

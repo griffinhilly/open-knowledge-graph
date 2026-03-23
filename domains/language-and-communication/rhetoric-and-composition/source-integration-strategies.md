@@ -17,7 +17,7 @@ tags:
 - integration
 - academic-writing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Source Integration Strategies

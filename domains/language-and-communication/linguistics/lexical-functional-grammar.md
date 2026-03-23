@@ -13,7 +13,7 @@ tags:
 - framework
 - formalism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Lexical-Functional Grammar: Formal Framework

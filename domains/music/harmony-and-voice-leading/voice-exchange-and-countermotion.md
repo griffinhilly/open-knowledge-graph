@@ -18,7 +18,7 @@ tags:
 - contrapuntal
 - independence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voice Exchange and Countermotion Techniques

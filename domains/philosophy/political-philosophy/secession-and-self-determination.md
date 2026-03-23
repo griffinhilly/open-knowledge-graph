@@ -15,7 +15,7 @@ tags:
 - remedial-right
 - primary-right
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Secession and Self-Determination

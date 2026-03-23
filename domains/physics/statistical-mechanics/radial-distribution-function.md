@@ -13,7 +13,7 @@ tags:
 - correlations
 - liquids
 stage: expert
-status: draft
+status: validated
 ---
 
 # Radial Distribution Function and Liquid Structure

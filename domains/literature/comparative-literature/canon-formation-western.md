@@ -17,7 +17,7 @@ tags:
 - history
 - Western
 stage: expert
-status: draft
+status: validated
 ---
 
 # Canon Formation and Western Literary Traditions

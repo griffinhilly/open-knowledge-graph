@@ -13,7 +13,7 @@ tags:
 - forces
 - applications
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Forces on Submerged Surfaces

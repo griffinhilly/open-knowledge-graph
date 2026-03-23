@@ -17,7 +17,7 @@ tags:
 - evaluation
 - change
 stage: expert
-status: draft
+status: validated
 ---
 
 # Qualitative Impact Assessment Methods

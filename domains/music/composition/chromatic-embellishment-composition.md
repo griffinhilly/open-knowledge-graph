@@ -15,7 +15,7 @@ tags:
 - non-chord-tones
 - embellishment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chromatic Embellishment in Composition

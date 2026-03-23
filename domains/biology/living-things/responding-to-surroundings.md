@@ -16,7 +16,7 @@ tags:
 - senses
 - observation
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Responding to Surroundings

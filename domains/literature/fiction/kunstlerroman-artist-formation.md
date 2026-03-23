@@ -18,7 +18,7 @@ tags:
 - formation
 - modernism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Kunstlerroman: Artist as Protagonist

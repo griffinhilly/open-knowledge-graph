@@ -15,7 +15,7 @@ tags:
 - union-find
 - mst
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kruskal's Algorithm for Minimum Spanning Trees

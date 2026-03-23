@@ -15,7 +15,7 @@ tags:
 - chromatography
 - extraction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Separation Science Fundamentals

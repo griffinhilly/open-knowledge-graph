@@ -14,7 +14,7 @@ tags:
 - vowel-teams
 - word-study
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Spelling Patterns

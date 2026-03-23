@@ -17,7 +17,7 @@ tags:
 - spending
 - keynes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Keynesian Consumption Function

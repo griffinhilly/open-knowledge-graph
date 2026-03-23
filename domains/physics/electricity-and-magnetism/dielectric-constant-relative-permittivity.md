@@ -18,7 +18,7 @@ tags:
 - material properties
 - permittivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dielectric Constant and Relative Permittivity

@@ -19,7 +19,7 @@ tags:
 - acceleration
 - F=ma
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Particle Dynamics and Accelerated Motion

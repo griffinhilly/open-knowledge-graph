@@ -16,7 +16,7 @@ tags:
 - representation
 - tree-structures
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constituent Trees and Formal Notation

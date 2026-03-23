@@ -15,7 +15,7 @@ tags:
 - topology
 - writes
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Multi-Master Replication

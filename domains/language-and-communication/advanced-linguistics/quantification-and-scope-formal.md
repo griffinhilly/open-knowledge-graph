@@ -18,7 +18,7 @@ tags:
 - quantification
 - scope
 stage: expert
-status: draft
+status: validated
 ---
 
 # Quantification and Scope in Formal Semantics

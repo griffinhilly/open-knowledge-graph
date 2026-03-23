@@ -16,7 +16,7 @@ tags:
 - narrative
 - linguistic-turn
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hayden White and the Linguistic Turn

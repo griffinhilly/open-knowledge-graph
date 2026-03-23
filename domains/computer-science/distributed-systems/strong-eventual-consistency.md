@@ -15,7 +15,7 @@ tags:
 - eventual-consistency
 - convergence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Strong Eventual Consistency

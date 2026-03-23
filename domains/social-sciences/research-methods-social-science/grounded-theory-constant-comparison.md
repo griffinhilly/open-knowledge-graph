@@ -14,7 +14,7 @@ tags:
 - coding
 - theory-building
 stage: expert
-status: draft
+status: validated
 ---
 
 # Grounded Theory: Constant Comparison and Coding

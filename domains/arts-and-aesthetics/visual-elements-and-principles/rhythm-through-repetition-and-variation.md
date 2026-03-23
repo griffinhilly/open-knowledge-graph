@@ -18,7 +18,7 @@ tags:
 - pattern
 - variation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Rhythm: Repetition with Variation

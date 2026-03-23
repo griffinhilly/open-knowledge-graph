@@ -14,7 +14,7 @@ tags:
 - utilitarianism
 - consequentialism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Utilitarian Approaches to Politics

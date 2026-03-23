@@ -17,7 +17,7 @@ tags:
 - function
 - progression
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Function and Chord Progressions

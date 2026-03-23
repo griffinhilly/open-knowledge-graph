@@ -14,7 +14,7 @@ tags:
 - rot
 - preservation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Exterior Wood Assessment and Preservation

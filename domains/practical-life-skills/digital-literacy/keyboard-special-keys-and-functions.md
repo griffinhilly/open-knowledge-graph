@@ -14,7 +14,7 @@ tags:
 - efficiency
 - navigation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Keyboard Special Keys and Functions
 

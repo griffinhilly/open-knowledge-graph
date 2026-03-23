@@ -15,7 +15,7 @@ tags:
 - half-hour
 - clock
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Telling Time to the Hour and Half Hour

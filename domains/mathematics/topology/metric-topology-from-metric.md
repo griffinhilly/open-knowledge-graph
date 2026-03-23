@@ -15,7 +15,7 @@ tags:
 - metric-topology
 - induced-topology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Topology Induced by a Metric

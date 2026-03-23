@@ -16,7 +16,7 @@ tags:
 - thermodynamics
 - evaporative-cooling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Wet-Bulb Temperature and Psychrometric Process

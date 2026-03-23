@@ -12,7 +12,7 @@ tags:
 - ASPD
 - psychopathy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Antisocial Personality Disorder

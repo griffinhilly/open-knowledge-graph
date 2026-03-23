@@ -17,7 +17,7 @@ tags:
 - local-knowledge
 - ontology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Indigenous Knowledge Systems and Local Epistemologies

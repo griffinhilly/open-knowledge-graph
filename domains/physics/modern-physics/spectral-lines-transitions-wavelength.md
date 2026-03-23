@@ -15,7 +15,7 @@ tags:
 - spectroscopy
 - atoms
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Spectral Lines and Energy Transitions

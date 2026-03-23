@@ -17,7 +17,7 @@ tags:
 - levels
 - learning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memory Encoding and Levels of Processing

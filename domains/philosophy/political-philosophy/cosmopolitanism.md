@@ -16,7 +16,7 @@ tags:
 - universal-obligations
 - moral-cosmopolitanism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cosmopolitanism

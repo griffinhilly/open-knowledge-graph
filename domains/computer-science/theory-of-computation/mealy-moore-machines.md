@@ -13,7 +13,7 @@ tags:
 - output-machines
 - transducers
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Mealy and Moore Machines

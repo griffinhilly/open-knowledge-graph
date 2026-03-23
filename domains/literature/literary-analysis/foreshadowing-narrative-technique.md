@@ -16,7 +16,7 @@ tags:
 - anticipation
 - narrative-design
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Foreshadowing as a Narrative Technique

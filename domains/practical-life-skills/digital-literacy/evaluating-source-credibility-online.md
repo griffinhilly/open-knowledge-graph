@@ -17,7 +17,7 @@ tags:
 - misinformation
 - sources
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Evaluating Source Credibility Online

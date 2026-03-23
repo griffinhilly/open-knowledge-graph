@@ -13,7 +13,7 @@ tags:
 - joint-distribution
 - marginal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Joint and Marginal Distributions

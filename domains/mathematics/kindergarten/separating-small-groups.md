@@ -13,7 +13,7 @@ tags:
 - separating
 - early-arithmetic
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Separating Small Groups Within 5

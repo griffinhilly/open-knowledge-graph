@@ -15,7 +15,7 @@ tags:
 - flavor
 - texture
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Salt in Cooking: More Than Just Flavor

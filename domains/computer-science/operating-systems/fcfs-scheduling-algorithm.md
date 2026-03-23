@@ -14,7 +14,7 @@ tags:
 - non-preemptive
 - fairness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # First-Come-First-Served (FCFS) Scheduling

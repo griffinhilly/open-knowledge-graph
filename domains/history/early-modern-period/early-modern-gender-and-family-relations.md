@@ -16,7 +16,7 @@ tags:
 - patriarchy
 - social-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Early Modern Gender and Family Relations

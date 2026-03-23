@@ -13,7 +13,7 @@ tags:
 - lp-spaces
 - functional-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # L^p Spaces: Definition and Basic Properties

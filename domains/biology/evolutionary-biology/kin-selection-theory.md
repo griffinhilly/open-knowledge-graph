@@ -15,7 +15,7 @@ tags:
 - sociobiology
 - genetics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Kin Selection Theory

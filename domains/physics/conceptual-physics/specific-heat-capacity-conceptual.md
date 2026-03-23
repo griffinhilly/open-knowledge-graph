@@ -20,7 +20,7 @@ tags:
 - capacity
 - temperature
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Specific Heat Capacity
 

@@ -17,7 +17,7 @@ tags:
 - unstated-premises
 - argument-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Recognizing Implicit Premises

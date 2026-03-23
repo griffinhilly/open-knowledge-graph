@@ -15,7 +15,7 @@ tags:
 - part-part-whole
 - composing-numbers
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Number Bonds Within 5

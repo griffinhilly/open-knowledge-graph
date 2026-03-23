@@ -16,7 +16,7 @@ tags:
 - wind
 - shear
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Absolute and Relative Vorticity

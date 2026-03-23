@@ -17,7 +17,7 @@ tags:
 - potential-difference
 - emf
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electric Potential and Voltage

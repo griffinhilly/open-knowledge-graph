@@ -19,7 +19,7 @@ tags:
 - clinical-interpretation
 - subtest-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Intelligence Testing: Score Interpretation and Profile Analysis

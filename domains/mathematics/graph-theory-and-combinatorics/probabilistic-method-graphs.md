@@ -13,7 +13,7 @@ tags:
 - probability
 - method
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Probabilistic Method in Graph Theory

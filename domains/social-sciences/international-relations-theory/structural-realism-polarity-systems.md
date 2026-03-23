@@ -18,7 +18,7 @@ tags:
 - waltz
 - system
 stage: expert
-status: draft
+status: validated
 ---
 
 # Structural Realism and International System Polarity

@@ -16,7 +16,7 @@ tags:
 - tension
 - meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conflict: Types, Functions, and Narrative Meaning

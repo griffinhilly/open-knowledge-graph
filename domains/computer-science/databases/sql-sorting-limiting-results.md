@@ -14,7 +14,7 @@ tags:
 - LIMIT
 - pagination
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # SQL: Sorting, Limiting, and Pagination

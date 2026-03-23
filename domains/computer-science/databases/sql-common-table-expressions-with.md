@@ -14,7 +14,7 @@ tags:
 - readability
 - composition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Common Table Expressions (CTEs): WITH Clause

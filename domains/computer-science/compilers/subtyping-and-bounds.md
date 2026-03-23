@@ -15,7 +15,7 @@ tags:
 - subtyping
 - generics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Subtyping and Type Bounds

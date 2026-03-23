@@ -17,7 +17,7 @@ tags:
 - symmetric-group
 - bijections
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Permutation Groups

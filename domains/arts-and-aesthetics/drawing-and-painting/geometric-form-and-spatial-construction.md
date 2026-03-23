@@ -20,7 +20,7 @@ tags:
 - volume
 - structure
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Geometric Form and Spatial Construction

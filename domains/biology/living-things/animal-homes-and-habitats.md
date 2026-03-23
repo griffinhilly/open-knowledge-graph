@@ -17,7 +17,7 @@ tags:
 - burrows
 - shelters
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Animal Homes and Habitats

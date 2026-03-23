@@ -13,7 +13,7 @@ tags:
 - picture-graphs
 - scale
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Picture Graphs with Scales

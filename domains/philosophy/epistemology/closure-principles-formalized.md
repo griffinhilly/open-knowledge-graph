@@ -17,7 +17,7 @@ tags:
 - deductive-closure
 - knowledge-transmission
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Closure Principles Formalized

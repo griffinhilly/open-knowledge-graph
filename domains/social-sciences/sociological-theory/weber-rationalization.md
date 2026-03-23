@@ -16,7 +16,7 @@ tags:
 - rationalization
 - modernity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Weber and the Iron Cage of Rationalization

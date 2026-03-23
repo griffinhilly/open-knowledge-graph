@@ -14,7 +14,7 @@ tags:
 - capabilities
 - polarity
 stage: expert
-status: draft
+status: validated
 ---
 # Power and Capabilities Distribution
 

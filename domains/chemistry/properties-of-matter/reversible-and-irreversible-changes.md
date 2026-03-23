@@ -15,7 +15,7 @@ tags:
 - reversible
 - irreversible
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Reversible and Irreversible Changes
 

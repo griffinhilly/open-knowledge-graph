@@ -13,7 +13,7 @@ tags:
 - grammaticalization
 - diachrony
 stage: expert
-status: draft
+status: validated
 ---
 
 # Grammaticalization and Semantic Bleaching

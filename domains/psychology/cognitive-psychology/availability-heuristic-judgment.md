@@ -12,7 +12,7 @@ tags:
 - availability
 - bias
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Availability Heuristic in Frequency Judgment

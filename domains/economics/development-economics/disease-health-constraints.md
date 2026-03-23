@@ -14,7 +14,7 @@ tags:
 - health
 - disease
 stage: expert
-status: draft
+status: validated
 ---
 
 # Disease Burden and Development

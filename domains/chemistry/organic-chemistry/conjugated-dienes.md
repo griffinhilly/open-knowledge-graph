@@ -20,7 +20,7 @@ tags:
 - kinetic control
 - thermodynamic control
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Conjugated Dienes
 

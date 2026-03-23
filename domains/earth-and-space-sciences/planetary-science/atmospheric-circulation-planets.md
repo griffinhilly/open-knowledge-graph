@@ -17,7 +17,7 @@ tags:
 - winds
 - rotation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Atmospheric Circulation on Planets

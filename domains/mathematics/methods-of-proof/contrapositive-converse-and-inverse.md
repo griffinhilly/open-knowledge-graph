@@ -11,7 +11,7 @@ tags:
 - logical-relationships
 - implications
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Contrapositive, Converse, and Inverse

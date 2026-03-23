@@ -18,7 +18,7 @@ tags:
 - moisture
 - efficiency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Attic Ventilation and Airflow Management

@@ -19,7 +19,7 @@ tags:
 - heart rate
 - regulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heart Rate Control and Autonomic Modulation

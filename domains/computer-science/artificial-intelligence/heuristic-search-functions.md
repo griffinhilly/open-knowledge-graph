@@ -17,7 +17,7 @@ tags:
 - admissibility
 - optimization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Heuristic Search Functions

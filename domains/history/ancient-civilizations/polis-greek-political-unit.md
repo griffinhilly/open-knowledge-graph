@@ -18,7 +18,7 @@ tags:
 - city-state
 - politics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Polis: Greek City-State and Political Unit

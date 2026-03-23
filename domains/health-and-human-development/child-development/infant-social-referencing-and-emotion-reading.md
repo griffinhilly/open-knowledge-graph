@@ -15,7 +15,7 @@ tags:
 - infant-development
 - emotional-communication
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Infant Social Referencing and Emotion Reading

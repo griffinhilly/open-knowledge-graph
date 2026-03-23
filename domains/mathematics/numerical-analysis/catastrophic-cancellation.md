@@ -13,7 +13,7 @@ tags:
 - subtraction
 - error-amplification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Catastrophic Cancellation

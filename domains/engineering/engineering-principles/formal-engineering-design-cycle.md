@@ -17,7 +17,7 @@ tags:
 - engineering-process
 - systematic-design
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # The Formal Engineering Design Cycle
 

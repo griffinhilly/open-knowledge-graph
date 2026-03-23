@@ -13,7 +13,7 @@ tags:
 - scaling-flow
 - fixed-points
 stage: expert
-status: draft
+status: validated
 ---
 
 # Renormalization Group and Scaling Analysis

@@ -18,7 +18,7 @@ tags:
 - culture
 - aesthetics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Symbolism and Symbolic Systems in Cultural Context

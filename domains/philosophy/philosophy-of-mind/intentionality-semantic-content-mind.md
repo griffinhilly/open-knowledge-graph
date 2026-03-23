@@ -17,7 +17,7 @@ tags:
 - content
 - semantics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Intentionality and Mental Content

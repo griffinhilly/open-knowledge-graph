@@ -13,7 +13,7 @@ tags:
 - liver
 - pancreas
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Digestive Glands, Secretions, and Nutrient Absorption

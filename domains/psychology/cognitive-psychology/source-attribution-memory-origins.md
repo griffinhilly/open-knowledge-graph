@@ -16,7 +16,7 @@ tags:
 - source-monitoring
 - judgment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Source Attribution and Metamemory Monitoring

@@ -16,7 +16,7 @@ tags:
 - transformations
 - natural-variables
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Legendre Transformations and Thermodynamic Potentials

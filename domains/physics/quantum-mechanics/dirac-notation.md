@@ -16,7 +16,7 @@ tags:
 - hilbert-spaces
 - foundations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dirac Notation (Bra-Ket Notation)

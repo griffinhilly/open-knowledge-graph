@@ -16,7 +16,7 @@ tags:
 - code
 - governance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Code of Hammurabi and Legal Governance

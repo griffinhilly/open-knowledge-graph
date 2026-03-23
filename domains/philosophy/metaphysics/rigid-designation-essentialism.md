@@ -22,7 +22,7 @@ tags:
 - modality
 - reference
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rigid Designation and Essentialism

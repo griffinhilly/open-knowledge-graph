@@ -14,7 +14,7 @@ tags:
 - precision
 - floating-point
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Machine Epsilon and Unit Roundoff

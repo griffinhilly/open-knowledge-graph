@@ -16,7 +16,7 @@ tags:
 - completeness
 - finiteness
 stage: expert
-status: draft
+status: validated
 ---
 
 # Finite Axiomatizability and Complete Theories

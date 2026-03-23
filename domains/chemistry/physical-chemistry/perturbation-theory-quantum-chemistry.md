@@ -17,7 +17,7 @@ tags:
 - approximation
 - computational
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Perturbation Theory in Quantum Chemistry

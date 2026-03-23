@@ -15,7 +15,7 @@ tags:
 - reference-frames
 - mechanics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Galilean Relativity and Classical Reference Frames

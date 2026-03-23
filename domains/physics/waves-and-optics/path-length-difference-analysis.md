@@ -15,7 +15,7 @@ tags:
 - geometry
 - waves
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Path Difference and Constructive/Destructive Interference

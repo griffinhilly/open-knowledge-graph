@@ -16,7 +16,7 @@ tags:
 - history
 - non-Western
 stage: expert
-status: draft
+status: validated
 ---
 
 # Periodization Beyond Europe: Time and Literary History

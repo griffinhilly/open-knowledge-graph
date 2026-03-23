@@ -16,7 +16,7 @@ tags:
 - perspective
 - three-dimensionality
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Creating Depth and Spatial Illusion in 2D

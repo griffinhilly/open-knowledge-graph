@@ -13,7 +13,7 @@ tags:
 - adolescence
 - prefrontal
 stage: expert
-status: draft
+status: validated
 ---
 
 # Adolescent Brain Development and Behavior

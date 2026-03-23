@@ -16,7 +16,7 @@ tags:
 - bombardment
 - asteroids
 stage: expert
-status: draft
+status: validated
 ---
 
 # Late Heavy Bombardment and Planetary Migration

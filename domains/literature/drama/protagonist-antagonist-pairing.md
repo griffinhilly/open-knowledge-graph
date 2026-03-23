@@ -18,7 +18,7 @@ tags:
 - structure
 - dramatic-core
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Protagonist and Antagonist Pairing

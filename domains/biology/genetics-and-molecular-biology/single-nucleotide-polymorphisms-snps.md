@@ -17,7 +17,7 @@ tags:
 - allelic-variation
 - gwas
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Single Nucleotide Polymorphisms and Genetic Variation

@@ -18,7 +18,7 @@ tags:
 - morphology
 - lamellae
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Semicrystalline Polymer Structure and Morphology

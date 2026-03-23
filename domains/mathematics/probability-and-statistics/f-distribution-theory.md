@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - f-distribution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # F-Distribution: Comparing Variances

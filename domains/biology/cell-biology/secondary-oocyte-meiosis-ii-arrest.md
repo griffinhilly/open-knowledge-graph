@@ -13,7 +13,7 @@ tags:
 - oocyte-arrest
 - cell-cycle
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Secondary Oocyte Arrest in Metaphase II

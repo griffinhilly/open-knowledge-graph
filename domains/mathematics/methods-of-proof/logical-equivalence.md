@@ -14,7 +14,7 @@ tags:
 - equivalence
 - tautology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Logical Equivalence

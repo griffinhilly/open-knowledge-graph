@@ -14,7 +14,7 @@ tags:
 - ionosphere
 - particle-acceleration
 stage: expert
-status: draft
+status: validated
 ---
 
 # Auroras and Magnetosphere-Ionosphere Coupling

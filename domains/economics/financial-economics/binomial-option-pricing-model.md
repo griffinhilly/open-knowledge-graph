@@ -21,7 +21,7 @@ tags:
 - option-pricing
 - replicating-portfolio
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binomial Option Pricing and Replicating Portfolios

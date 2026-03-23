@@ -18,7 +18,7 @@ tags:
 - glucocorticoid
 - adaptation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cortisol, Stress Response, and Adaptation

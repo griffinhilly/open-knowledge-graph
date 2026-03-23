@@ -17,7 +17,7 @@ tags:
 - repressor-proteins
 - chromatin-compaction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Silencer Elements and Transcriptional Repression

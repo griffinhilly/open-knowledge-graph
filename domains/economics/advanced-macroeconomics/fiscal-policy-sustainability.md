@@ -11,7 +11,7 @@ tags:
 - government-debt
 - long-run-solvency
 stage: expert
-status: draft
+status: validated
 ---
 
 # Fiscal Sustainability and Long-Run Debt Dynamics

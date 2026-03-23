@@ -16,7 +16,7 @@ tags:
 - extrinsic
 - axiology
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Intrinsic vs Extrinsic Value
 

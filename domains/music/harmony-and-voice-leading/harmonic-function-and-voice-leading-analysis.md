@@ -18,7 +18,7 @@ tags:
 - voice-leading
 - function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Function and Voice-Leading Analysis

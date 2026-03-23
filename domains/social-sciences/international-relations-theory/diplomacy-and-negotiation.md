@@ -15,7 +15,7 @@ tags:
 - negotiation
 - bargaining
 stage: expert
-status: draft
+status: validated
 ---
 
 # Diplomacy, Negotiation, and Bargaining

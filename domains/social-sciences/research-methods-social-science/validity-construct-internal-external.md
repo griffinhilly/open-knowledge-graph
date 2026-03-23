@@ -13,7 +13,7 @@ tags:
 - threats
 - inference
 stage: expert
-status: draft
+status: validated
 ---
 
 # Validity: Construct, Internal, External, and Statistical

@@ -19,7 +19,7 @@ tags:
 - elliptical
 - universe
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Introduction to Galaxies

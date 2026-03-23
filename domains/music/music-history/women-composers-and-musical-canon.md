@@ -15,7 +15,7 @@ tags:
 - history
 - representation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Women Composers and the Musical Canon

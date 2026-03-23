@@ -14,7 +14,7 @@ tags:
 - caspases
 - bcl2-family
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Apoptosis and Programmed Cell Death

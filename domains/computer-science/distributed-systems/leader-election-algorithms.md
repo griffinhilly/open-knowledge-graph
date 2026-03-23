@@ -14,7 +14,7 @@ tags:
 - coordination
 - agreements
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Leader Election Algorithms

@@ -14,7 +14,7 @@ tags:
 - auc
 - roc-curve
 stage: advanced
-status: draft
+status: validated
 ---
 
 # ROC Curves and AUC Metrics

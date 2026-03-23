@@ -15,7 +15,7 @@ tags:
 - progression
 - form
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Progression Patterns in Tonal Music

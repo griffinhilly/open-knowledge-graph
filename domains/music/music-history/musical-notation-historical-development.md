@@ -14,7 +14,7 @@ tags:
 - technology
 - composition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Musical Notation Historical Development

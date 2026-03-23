@@ -14,7 +14,7 @@ tags:
 - foundations
 - definitions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Formal Definitions in Graph Theory

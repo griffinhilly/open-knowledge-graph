@@ -16,7 +16,7 @@ tags:
 - arrival-angles
 - real-axis-segments
 stage: expert
-status: draft
+status: validated
 ---
 
 # Root Locus Construction Rules

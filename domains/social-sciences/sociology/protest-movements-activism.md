@@ -16,7 +16,7 @@ tags:
 - activism
 - change
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Protest Movements and Social Activism

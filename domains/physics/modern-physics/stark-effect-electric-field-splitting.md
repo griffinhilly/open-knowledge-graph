@@ -13,7 +13,7 @@ tags:
 - energy-levels
 - atomic-physics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Stark Effect: Energy Level Splitting in Electric Fields

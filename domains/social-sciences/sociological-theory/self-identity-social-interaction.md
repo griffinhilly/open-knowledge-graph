@@ -12,7 +12,7 @@ tags:
 - interaction
 - symbolic-interactionism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Self and Identity in Social Interaction

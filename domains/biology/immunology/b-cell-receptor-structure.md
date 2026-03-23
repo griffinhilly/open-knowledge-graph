@@ -18,7 +18,7 @@ tags:
 - receptor
 - signaling
 stage: expert
-status: draft
+status: validated
 ---
 
 # B Cell Receptor Structure and Signaling

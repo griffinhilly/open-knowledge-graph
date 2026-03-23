@@ -15,7 +15,7 @@ tags:
 - reactions
 - bonds
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Energy in Chemical Reactions
 

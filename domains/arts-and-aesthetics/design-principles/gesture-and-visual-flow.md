@@ -17,7 +17,7 @@ tags:
 - eye-movement
 - direction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Gesture and Visual Flow

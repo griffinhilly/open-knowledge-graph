@@ -17,7 +17,7 @@ tags:
 - carbonyl
 - phosphorus
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Wittig Reaction: Ylides and Alkene Formation

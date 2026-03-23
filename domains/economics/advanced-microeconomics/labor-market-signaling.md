@@ -12,7 +12,7 @@ tags:
 - labor-economics
 - information-asymmetry
 stage: expert
-status: draft
+status: validated
 ---
 
 # Labor Market Signaling: Education as a Signal

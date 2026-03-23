@@ -11,7 +11,7 @@ tags:
 - digestion
 - acid dissolution
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sample Dissolution and Digestion Procedures

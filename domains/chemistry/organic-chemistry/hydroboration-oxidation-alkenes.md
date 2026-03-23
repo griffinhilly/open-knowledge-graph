@@ -16,7 +16,7 @@ tags:
 - alcohol-synthesis
 - non-markovnikov
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hydroboration-Oxidation: Anti-Markovnikov Hydration

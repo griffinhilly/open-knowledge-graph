@@ -15,7 +15,7 @@ tags:
 - consumption
 - savings
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Intertemporal Choice and Consumption-Savings Decisions

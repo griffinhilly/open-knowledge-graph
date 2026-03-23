@@ -15,7 +15,7 @@ tags:
 - asset-pricing
 - stock-market
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Tobin's Q and Investment

@@ -17,7 +17,7 @@ tags:
 - surface-hardness
 - case-depth
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Case Hardening and Surface Treatments

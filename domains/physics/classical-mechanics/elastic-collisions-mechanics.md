@@ -17,7 +17,7 @@ tags:
 - conservation
 - energy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Elastic Collisions

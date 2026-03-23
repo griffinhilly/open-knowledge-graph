@@ -14,7 +14,7 @@ tags:
 - recursive
 - kalman
 stage: expert
-status: draft
+status: validated
 ---
 
 # Kalman Filter for State Estimation

@@ -13,7 +13,7 @@ tags:
 - circuits
 - depth-bounds
 stage: advanced
-status: draft
+status: validated
 ---
 
 # NC Class and Parallel Circuit Complexity

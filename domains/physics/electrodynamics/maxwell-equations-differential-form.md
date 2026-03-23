@@ -22,7 +22,7 @@ tags:
 - pdes
 - differential-forms
 stage: expert
-status: draft
+status: validated
 ---
 
 # Maxwell's Equations in Differential Form

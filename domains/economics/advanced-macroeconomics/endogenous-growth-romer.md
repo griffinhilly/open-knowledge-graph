@@ -18,7 +18,7 @@ tags:
 - endogenous
 - innovation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Endogenous Growth Theory: Romer Model

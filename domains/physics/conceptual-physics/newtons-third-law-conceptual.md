@@ -13,7 +13,7 @@ tags:
 - action
 - reaction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Newton's Third Law: Action and Reaction
 

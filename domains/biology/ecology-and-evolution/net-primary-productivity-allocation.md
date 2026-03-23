@@ -18,7 +18,7 @@ tags:
 - allocation
 - growth
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Net Primary Productivity and Biomass Allocation

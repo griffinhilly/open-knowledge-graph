@@ -17,7 +17,7 @@ tags:
 - interconnection
 - consistency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Systems Thinking in Design

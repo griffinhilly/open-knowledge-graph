@@ -16,7 +16,7 @@ tags:
 - secondary-dominant
 - tonal-center
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voice-Leading Distinctions Between Tonicization and Modulation

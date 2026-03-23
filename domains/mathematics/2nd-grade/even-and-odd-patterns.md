@@ -13,7 +13,7 @@ tags:
 - patterns
 - number-properties
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Even and Odd Numbers: Patterns and Properties

@@ -15,7 +15,7 @@ tags:
 - directed-graphs
 - digraphs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Directed Graphs and Digraphs

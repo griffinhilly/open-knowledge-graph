@@ -16,7 +16,7 @@ tags:
 - spatial
 - observation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Spatial Relationships in Still Life

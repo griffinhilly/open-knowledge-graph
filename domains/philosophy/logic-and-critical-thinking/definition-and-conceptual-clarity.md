@@ -14,7 +14,7 @@ tags:
 - concept
 - clarity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Definition and Conceptual Clarity

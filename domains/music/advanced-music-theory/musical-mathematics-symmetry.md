@@ -22,7 +22,7 @@ tags:
 - symmetry
 - structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Musical Mathematics and Symmetry Operations

@@ -17,7 +17,7 @@ tags:
 - seventh-chord
 - function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dominant Seventh: Function and Resolution

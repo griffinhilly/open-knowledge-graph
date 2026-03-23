@@ -15,7 +15,7 @@ tags:
 - planning
 - introduction
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Home Maintenance Fundamentals

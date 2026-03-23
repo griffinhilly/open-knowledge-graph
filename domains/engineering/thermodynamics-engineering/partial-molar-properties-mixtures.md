@@ -17,7 +17,7 @@ tags:
 - mixtures
 - interactions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Partial Molar Properties and Solutions

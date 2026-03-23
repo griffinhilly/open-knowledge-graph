@@ -16,7 +16,7 @@ tags:
 - engineering
 - geometry
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Shapes in Structures: Triangles and Arches
 

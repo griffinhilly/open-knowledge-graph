@@ -18,7 +18,7 @@ tags:
 - edema
 - neuroinflammation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Secondary Traumatic Brain Injury: Ischemia, Edema, and Neuroinflammation After Initial Impact

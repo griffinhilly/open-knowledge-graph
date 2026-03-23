@@ -13,7 +13,7 @@ tags:
 - syllable
 - phonotactics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Syllable Structure and Phonotactics

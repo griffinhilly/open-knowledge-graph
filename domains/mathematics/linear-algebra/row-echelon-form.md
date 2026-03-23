@@ -13,7 +13,7 @@ tags:
 - row echelon form
 - matrices
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Row Echelon Form and Back Substitution

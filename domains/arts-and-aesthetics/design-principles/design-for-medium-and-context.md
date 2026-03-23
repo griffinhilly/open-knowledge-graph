@@ -13,7 +13,7 @@ tags:
 - medium
 - adaptation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Designing for Medium and Context

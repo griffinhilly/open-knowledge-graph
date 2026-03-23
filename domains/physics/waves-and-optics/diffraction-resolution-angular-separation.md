@@ -13,7 +13,7 @@ tags:
 - diffraction
 - optics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Diffraction Limit and the Rayleigh Criterion

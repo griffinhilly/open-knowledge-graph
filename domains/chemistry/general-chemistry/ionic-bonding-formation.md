@@ -15,7 +15,7 @@ tags:
 - cations
 - anions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ionic Bonding: Electron Transfer and Electrostatic Forces

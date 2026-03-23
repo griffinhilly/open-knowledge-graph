@@ -16,7 +16,7 @@ tags:
 - mental-math
 - subtraction
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Subtraction Strategy: Counting Back

@@ -15,7 +15,7 @@ tags:
 - ubiquitination
 - glycosylation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Post-Translational Modifications

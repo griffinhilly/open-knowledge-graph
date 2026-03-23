@@ -16,7 +16,7 @@ tags:
 - chromosome-segregation
 - spindle-attachment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kinetochore Structure and Function

@@ -18,7 +18,7 @@ tags:
 - antigen-presentation
 - mhc
 stage: expert
-status: draft
+status: validated
 ---
 
 # Major Histocompatibility Complex Structure and Function

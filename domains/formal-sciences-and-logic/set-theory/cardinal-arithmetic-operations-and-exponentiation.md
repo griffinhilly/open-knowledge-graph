@@ -15,7 +15,7 @@ tags:
 - cardinal-exponentiation
 - power-set
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cardinal Arithmetic, Exponentiation, and Hierarchy

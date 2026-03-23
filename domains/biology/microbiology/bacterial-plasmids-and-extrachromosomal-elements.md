@@ -16,7 +16,7 @@ tags:
 - genetics
 - horizontal-transfer
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Plasmids and Extrachromosomal Elements

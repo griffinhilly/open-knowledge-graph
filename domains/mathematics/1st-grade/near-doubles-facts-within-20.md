@@ -15,7 +15,7 @@ tags:
 - facts
 - strategies
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Near Doubles Facts Within 20

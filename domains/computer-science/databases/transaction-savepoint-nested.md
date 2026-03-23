@@ -11,7 +11,7 @@ tags:
 - rollback
 - error-handling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Savepoints: Partial Rollback Within Transactions

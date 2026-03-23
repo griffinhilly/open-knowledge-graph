@@ -17,7 +17,7 @@ tags:
 - cancer-vaccines
 - therapeutic-efficacy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cancer Immunotherapy: CAR-T, Checkpoint Inhibitors, and Vaccines

@@ -21,7 +21,7 @@ tags:
 - temporal
 - multilevel
 stage: expert
-status: draft
+status: validated
 ---
 
 # Longitudinal and Panel Data Analysis

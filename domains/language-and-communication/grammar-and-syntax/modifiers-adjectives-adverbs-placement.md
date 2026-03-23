@@ -14,7 +14,7 @@ tags:
 - adverbs
 - sentence-clarity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Modifier Placement: Adjectives and Adverbs

@@ -19,7 +19,7 @@ tags:
 - contradiction
 - argument
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Logical Consistency and Internal Contradiction

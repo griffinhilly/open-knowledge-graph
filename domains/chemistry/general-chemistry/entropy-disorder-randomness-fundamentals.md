@@ -16,7 +16,7 @@ tags:
 - randomness
 - second-law
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Entropy and Disorder in Chemistry

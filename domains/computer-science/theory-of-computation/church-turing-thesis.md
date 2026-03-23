@@ -14,7 +14,7 @@ tags:
 - computability
 - foundations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Church-Turing Thesis and Computability

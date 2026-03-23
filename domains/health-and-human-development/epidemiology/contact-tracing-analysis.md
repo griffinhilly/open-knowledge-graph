@@ -13,7 +13,7 @@ tags:
 - transmission-chains
 - outbreak-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # Contact Tracing and Chain of Transmission

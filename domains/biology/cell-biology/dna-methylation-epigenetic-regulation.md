@@ -15,7 +15,7 @@ tags:
 - epigenetics
 - gene-regulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # DNA Methylation and Epigenetic Regulation

@@ -13,7 +13,7 @@ tags:
 - credit
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Microfinance and Microcredit Markets

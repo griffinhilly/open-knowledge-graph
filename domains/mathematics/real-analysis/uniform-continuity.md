@@ -14,7 +14,7 @@ tags:
 - epsilon-delta
 - strengthened
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Uniform Continuity

@@ -16,7 +16,7 @@ tags:
 - syllogisms
 - deductive
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Categorical Logic and Syllogisms

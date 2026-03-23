@@ -14,7 +14,7 @@ tags:
 - representation
 - identity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Gender, Representation, and Feminist Art History

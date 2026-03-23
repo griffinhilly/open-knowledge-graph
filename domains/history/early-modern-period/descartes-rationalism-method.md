@@ -14,7 +14,7 @@ tags:
 - epistemology
 - method
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Descartes and Methodological Rationalism

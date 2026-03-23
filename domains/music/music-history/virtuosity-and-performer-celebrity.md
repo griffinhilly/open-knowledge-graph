@@ -14,7 +14,7 @@ tags:
 - celebrity
 - romantic
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Virtuosity and Performer Celebrity

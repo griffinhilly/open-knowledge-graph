@@ -15,7 +15,7 @@ tags:
 - electricity
 - power
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Electrical Energy
 

@@ -19,7 +19,7 @@ tags:
 - canon
 - debates
 stage: expert
-status: draft
+status: validated
 ---
 
 # World Literature Debates: Damrosch, Casanova, Moretti

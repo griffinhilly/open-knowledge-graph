@@ -21,7 +21,7 @@ tags:
 - flowering
 - conifers
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Classifying Plants
 

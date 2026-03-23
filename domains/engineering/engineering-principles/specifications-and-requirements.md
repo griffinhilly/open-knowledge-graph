@@ -19,7 +19,7 @@ tags:
 - design-criteria
 - measurable-goals
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Specifications and Requirements
 

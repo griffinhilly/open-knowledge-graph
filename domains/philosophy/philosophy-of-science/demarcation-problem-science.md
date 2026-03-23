@@ -14,7 +14,7 @@ tags:
 - criteria
 - pseudo-science
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Demarcation Problem

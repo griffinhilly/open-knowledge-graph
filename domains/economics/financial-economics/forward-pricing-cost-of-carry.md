@@ -16,7 +16,7 @@ tags:
 - pricing
 - arbitrage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Forward Pricing and Cost of Carry

@@ -16,7 +16,7 @@ tags:
 - methodology
 - research
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Music Historiography and Historical Sources

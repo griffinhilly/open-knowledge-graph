@@ -15,7 +15,7 @@ tags:
 - cache-mapping
 - address-mapping
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cache Associativity and Address Mapping Strategies

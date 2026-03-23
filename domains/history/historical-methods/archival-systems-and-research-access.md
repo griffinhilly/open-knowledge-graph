@@ -15,7 +15,7 @@ tags:
 - research
 - organization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Archival Systems and Research Access

@@ -15,7 +15,7 @@ tags:
 - middleground
 - foreground
 stage: expert
-status: draft
+status: validated
 ---
 
 # Schenkerian Levels of Analysis

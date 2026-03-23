@@ -13,7 +13,7 @@ tags:
 - splenomegaly
 - cirrhosis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Portal Hypertension: Complications and Outcomes

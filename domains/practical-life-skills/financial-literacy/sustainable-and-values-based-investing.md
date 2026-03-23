@@ -14,7 +14,7 @@ tags:
 - esg
 - investing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sustainable and Values-Based Investing

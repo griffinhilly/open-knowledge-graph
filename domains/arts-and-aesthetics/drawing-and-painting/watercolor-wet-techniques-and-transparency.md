@@ -17,7 +17,7 @@ tags:
 - glazing
 - lifting
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Watercolor: Wet Techniques and Transparency

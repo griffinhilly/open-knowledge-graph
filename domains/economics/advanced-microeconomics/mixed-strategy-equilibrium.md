@@ -12,7 +12,7 @@ tags:
 - game-theory
 - probability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mixed Strategy Equilibrium and Equilibrium in Randomized Strategies

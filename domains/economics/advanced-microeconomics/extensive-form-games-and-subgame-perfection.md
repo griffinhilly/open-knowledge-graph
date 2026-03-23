@@ -12,7 +12,7 @@ tags:
 - game-theory
 - sequential-play
 stage: expert
-status: draft
+status: validated
 ---
 
 # Extensive Form Games and Subgame Perfect Equilibrium

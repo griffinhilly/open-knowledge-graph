@@ -13,7 +13,7 @@ tags:
 - conflicts
 - debugging
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Parser Conflict Resolution

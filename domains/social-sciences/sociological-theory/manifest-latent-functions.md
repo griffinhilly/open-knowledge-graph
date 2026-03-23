@@ -15,7 +15,7 @@ tags:
 - purposes
 - institutions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Manifest and Latent Functions

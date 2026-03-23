@@ -16,7 +16,7 @@ tags:
 - critical-section
 - formal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Critical Section Problem: Formal Definition

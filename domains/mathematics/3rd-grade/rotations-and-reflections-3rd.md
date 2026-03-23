@@ -13,7 +13,7 @@ tags:
 - rotations
 - reflections
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Rotations and Reflections of Shapes

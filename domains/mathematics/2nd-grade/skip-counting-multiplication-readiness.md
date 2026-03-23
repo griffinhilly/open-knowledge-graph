@@ -19,7 +19,7 @@ tags:
 - readiness
 - patterns
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Skip Counting for Multiplication Readiness

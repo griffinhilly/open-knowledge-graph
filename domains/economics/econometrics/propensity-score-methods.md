@@ -13,7 +13,7 @@ tags:
 - treatment-effects
 - observational
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Propensity Score Methods and Estimation

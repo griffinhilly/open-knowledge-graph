@@ -12,7 +12,7 @@ tags:
 - empirical-inquiry
 - research-foundation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Scientific Method and Empirical Inquiry in Psychology

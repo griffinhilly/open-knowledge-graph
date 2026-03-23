@@ -17,7 +17,7 @@ tags:
 - oral
 - tradition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Ballad: Narrative Folk Form

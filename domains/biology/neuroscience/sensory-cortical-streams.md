@@ -17,7 +17,7 @@ tags:
 - ventral
 - dorsal
 stage: expert
-status: draft
+status: validated
 ---
 
 # Sensory Cortical Processing Streams

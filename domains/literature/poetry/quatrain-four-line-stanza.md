@@ -11,7 +11,7 @@ tags:
 - stanza
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Quatrain: Four-Line Stanza

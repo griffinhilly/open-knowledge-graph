@@ -13,7 +13,7 @@ tags:
 - resonance
 - standing-waves
 stage: expert
-status: draft
+status: validated
 ---
 
 # Resonant Cavities and Standing Waves

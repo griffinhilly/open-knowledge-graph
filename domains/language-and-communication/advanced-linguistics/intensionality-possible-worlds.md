@@ -14,7 +14,7 @@ tags:
 - possible-worlds
 - modality
 stage: expert
-status: draft
+status: validated
 ---
 # Intensionality and Possible Worlds Semantics
 

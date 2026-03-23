@@ -6,7 +6,7 @@ course: programming-fundamentals
 prerequisites:
 - id: scope-binding-resolution
   type: hard
-- id: variable-names-and-conventions
+- id: variables-and-assignment
   type: soft
 builds-toward:
 - parameter-passing-value-vs-reference
@@ -15,9 +15,8 @@ tags:
 - variables
 - lifetime
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Scope, Shadowing, and Variable Lifetime
 
 ## Core Idea

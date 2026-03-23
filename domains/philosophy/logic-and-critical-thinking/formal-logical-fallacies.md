@@ -13,7 +13,7 @@ tags:
 - deduction
 - logical-form
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Formal Logical Fallacies

@@ -16,7 +16,7 @@ tags:
 - universality
 - scaling-laws
 stage: expert
-status: draft
+status: validated
 ---
 
 # Critical Exponents and Universality Classes

@@ -16,7 +16,7 @@ tags:
 - reasoning
 - formal-systems
 stage: advanced
-status: draft
+status: validated
 ---
 
 # First-Order Logic for AI

@@ -15,7 +15,7 @@ tags:
 - iso-iec-17025
 - quality
 stage: advanced
-status: draft
+status: validated
 ---
 
 # ISO/IEC 17025 Laboratory Accreditation

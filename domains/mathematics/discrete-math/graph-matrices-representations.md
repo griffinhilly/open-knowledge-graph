@@ -16,7 +16,7 @@ tags:
 - representation
 - computation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graph Representation: Adjacency and Incidence Matrices

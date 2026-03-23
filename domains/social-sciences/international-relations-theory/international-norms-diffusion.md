@@ -16,7 +16,7 @@ tags:
 - constructivism
 - international-society
 stage: expert
-status: draft
+status: validated
 ---
 
 # International Norms and Norm Diffusion

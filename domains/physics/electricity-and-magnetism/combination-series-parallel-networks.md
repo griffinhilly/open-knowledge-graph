@@ -15,7 +15,7 @@ tags:
 - network analysis
 - reduction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Combination Series-Parallel Networks and Reduction

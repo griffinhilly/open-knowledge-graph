@@ -16,7 +16,7 @@ tags:
 - microtubules
 - motility
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cilia and Flagella: Axonemal Structure

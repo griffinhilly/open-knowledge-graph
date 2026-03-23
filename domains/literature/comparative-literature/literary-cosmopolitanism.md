@@ -19,7 +19,7 @@ tags:
 - ethics
 - global
 stage: expert
-status: draft
+status: validated
 ---
 
 # Literary Cosmopolitanism

@@ -18,7 +18,7 @@ tags:
 - intertheory-relations
 - levels
 stage: expert
-status: draft
+status: validated
 ---
 
 # Reduction and Emergence

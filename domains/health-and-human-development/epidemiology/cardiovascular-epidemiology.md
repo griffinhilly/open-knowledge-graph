@@ -15,7 +15,7 @@ tags:
 - risk-prediction
 - prevention
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cardiovascular Disease Epidemiology

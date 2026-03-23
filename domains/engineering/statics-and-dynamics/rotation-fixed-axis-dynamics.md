@@ -16,7 +16,7 @@ tags:
 - angular-acceleration
 - torque
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rotation about a Fixed Axis: Kinematics and Kinetics

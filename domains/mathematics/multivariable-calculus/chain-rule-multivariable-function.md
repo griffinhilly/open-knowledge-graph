@@ -13,7 +13,7 @@ tags:
 - composition
 - derivatives
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chain Rule for Multivariable Functions

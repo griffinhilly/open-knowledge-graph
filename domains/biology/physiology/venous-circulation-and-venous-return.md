@@ -16,7 +16,7 @@ tags:
 - venous return
 - circulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Venous Circulation and Venous Return

@@ -15,7 +15,7 @@ tags:
 - integral
 - curves
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Arc Length of Curves in 3D

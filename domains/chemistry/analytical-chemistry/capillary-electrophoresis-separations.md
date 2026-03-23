@@ -11,7 +11,7 @@ tags:
 - CE
 - electrophoresis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Capillary Electrophoresis Separations

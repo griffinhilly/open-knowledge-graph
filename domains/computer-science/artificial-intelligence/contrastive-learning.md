@@ -16,7 +16,7 @@ tags:
 - similarity
 - representation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Contrastive Learning

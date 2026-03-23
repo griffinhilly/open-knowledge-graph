@@ -16,7 +16,7 @@ tags:
 - limited
 - perspective
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Third-Person Limited: Distance and Interiority

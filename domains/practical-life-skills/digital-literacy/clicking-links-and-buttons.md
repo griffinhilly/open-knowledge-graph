@@ -16,7 +16,7 @@ tags:
 - interaction
 - clicking
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Clicking Links and Buttons on Web Pages

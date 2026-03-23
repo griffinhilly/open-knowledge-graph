@@ -15,7 +15,7 @@ tags:
 - fundamentals
 - organization
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Understanding Computer Files
 

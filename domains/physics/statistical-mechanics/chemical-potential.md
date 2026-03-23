@@ -14,7 +14,7 @@ tags:
 - particle-exchange
 - equilibrium
 stage: expert
-status: draft
+status: validated
 ---
 
 # Chemical Potential

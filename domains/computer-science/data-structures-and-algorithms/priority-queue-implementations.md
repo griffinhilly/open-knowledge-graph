@@ -14,7 +14,7 @@ tags:
 - heap
 - queue
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Priority Queues: Heap-Based and Binary Search Tree Implementations

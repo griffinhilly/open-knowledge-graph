@@ -18,7 +18,7 @@ tags:
 - correlation
 - learning-rule
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hebbian Learning Mechanisms

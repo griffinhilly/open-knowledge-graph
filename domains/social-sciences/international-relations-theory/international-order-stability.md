@@ -13,7 +13,7 @@ tags:
 - stability
 - system
 stage: expert
-status: draft
+status: validated
 ---
 
 # International Order and System Stability

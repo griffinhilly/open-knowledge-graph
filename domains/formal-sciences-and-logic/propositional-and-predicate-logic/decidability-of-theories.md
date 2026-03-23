@@ -17,7 +17,7 @@ tags:
 - decision-procedures
 - undecidable-theories
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Decidability of Theories

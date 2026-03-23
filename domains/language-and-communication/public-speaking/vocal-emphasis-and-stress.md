@@ -16,7 +16,7 @@ tags:
 - stress
 - intonation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Vocal Emphasis and Linguistic Stress

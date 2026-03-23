@@ -15,7 +15,7 @@ tags:
 - hessian
 - eigenvalues
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Second Partial Test for Local Extrema (Hessian)

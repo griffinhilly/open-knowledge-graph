@@ -10,7 +10,7 @@ tags:
 - variational-methods
 - approximations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Variational Method: Application

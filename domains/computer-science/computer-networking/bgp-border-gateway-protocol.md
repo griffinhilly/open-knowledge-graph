@@ -13,7 +13,7 @@ tags:
 - autonomous-system
 - path-vector
 stage: advanced
-status: draft
+status: validated
 ---
 
 # BGP: Border Gateway Protocol

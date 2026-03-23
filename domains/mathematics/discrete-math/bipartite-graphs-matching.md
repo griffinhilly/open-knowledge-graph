@@ -16,7 +16,7 @@ tags:
 - Hall's-theorem
 - perfect-matching
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bipartite Graphs and Matching Problems

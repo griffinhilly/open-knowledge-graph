@@ -14,7 +14,7 @@ tags:
 - nfa
 - nondeterminism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Nondeterministic Finite Automata

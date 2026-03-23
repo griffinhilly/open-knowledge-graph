@@ -14,7 +14,7 @@ tags:
 - exterior-maintenance
 - repair
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Exterior Siding Repair

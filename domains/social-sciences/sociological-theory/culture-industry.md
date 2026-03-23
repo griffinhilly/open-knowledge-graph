@@ -15,7 +15,7 @@ tags:
 - mass-culture
 - ideology
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Culture Industry

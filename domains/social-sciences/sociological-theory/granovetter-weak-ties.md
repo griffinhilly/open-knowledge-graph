@@ -12,7 +12,7 @@ tags:
 - social-capital
 - network
 stage: expert
-status: draft
+status: validated
 ---
 
 # Granovetter and the Strength of Weak Ties

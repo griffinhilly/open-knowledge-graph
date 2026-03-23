@@ -14,7 +14,7 @@ tags:
 - suprasegmental
 - tone-accent
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Intonational Phonology and Pitch Structuring

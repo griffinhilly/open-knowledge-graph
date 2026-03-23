@@ -16,7 +16,7 @@ tags:
 - institutions
 - cooperation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Trade Regimes and International Cooperation

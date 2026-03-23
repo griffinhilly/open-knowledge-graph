@@ -17,7 +17,7 @@ tags:
 - refraction
 - velocity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Seismic Refraction Surveys and Interpretation

@@ -24,7 +24,7 @@ tags:
 - gmm
 - gaussian-mixture
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Mixture Models and Gaussian Mixture Models

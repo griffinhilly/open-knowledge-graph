@@ -15,7 +15,7 @@ tags:
 - planes
 - slip-systems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Crystallographic Planes and Directions

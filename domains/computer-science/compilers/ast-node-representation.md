@@ -15,7 +15,7 @@ tags:
 - data-structures
 - representation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # AST Node Representation

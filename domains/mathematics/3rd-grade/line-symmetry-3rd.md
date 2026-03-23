@@ -13,7 +13,7 @@ tags:
 - geometry
 - shapes
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Line Symmetry in Shapes

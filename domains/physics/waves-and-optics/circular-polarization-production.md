@@ -11,7 +11,7 @@ tags:
 - elliptical-polarization
 - polarization-states
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Circular and Elliptical Polarization Production

@@ -18,7 +18,7 @@ tags:
 - ultimate attribution error
 - stereotypes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ultimate Attribution Error in Intergroup Contexts

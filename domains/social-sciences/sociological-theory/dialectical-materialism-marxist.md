@@ -16,7 +16,7 @@ tags:
 - dialectics
 - method
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dialectical Materialism

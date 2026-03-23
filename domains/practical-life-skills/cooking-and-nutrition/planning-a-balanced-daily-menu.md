@@ -16,7 +16,7 @@ tags:
 - balance
 - food-groups
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Planning Balanced Meals for a Day

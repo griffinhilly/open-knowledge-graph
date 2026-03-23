@@ -19,7 +19,7 @@ tags:
 - permeability
 - thrombosis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Endothelial Dysfunction: Loss of Vasodilation, Increased Permeability, and Thrombosis

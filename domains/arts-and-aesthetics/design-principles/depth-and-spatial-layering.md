@@ -19,7 +19,7 @@ tags:
 - shadow
 - dimension
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Depth and Spatial Layering in Design

@@ -13,7 +13,7 @@ tags:
 - velocity
 - calculus
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Particle Velocity in Wave Motion

@@ -13,7 +13,7 @@ tags:
 - sequences
 - convergence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Convergence of Sequences in Topological Spaces

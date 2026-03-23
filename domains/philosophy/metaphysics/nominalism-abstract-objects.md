@@ -16,7 +16,7 @@ tags:
 - abstract-objects
 - ontology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nominalism and Abstract Objects

@@ -19,7 +19,7 @@ tags:
 - development
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tracing Tone Development and Shift

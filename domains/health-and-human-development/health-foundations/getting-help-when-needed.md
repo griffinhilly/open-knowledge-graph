@@ -5,7 +5,7 @@ domain: health-and-human-development
 course: health-foundations
 prerequisites:
   - id: stress-and-coping
-    type: hard
+    type: soft
   - id: bullying-awareness
     type: soft
   - id: healthy-friendships
@@ -15,7 +15,7 @@ builds-toward:
   - resilience-and-protective-factors-development
 tags: [mental-health, help-seeking, safety, wellness, resources]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Getting Help When Needed

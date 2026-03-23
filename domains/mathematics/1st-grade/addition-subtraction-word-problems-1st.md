@@ -16,7 +16,7 @@ tags:
 - application
 - real-world
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Solving Word Problems with Addition and Subtraction

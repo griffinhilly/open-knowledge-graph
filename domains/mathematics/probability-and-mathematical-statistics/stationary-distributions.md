@@ -15,7 +15,7 @@ tags:
 - markov-chains
 - probability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Stationary Distributions

@@ -16,7 +16,7 @@ tags:
 - communal-living
 - idealism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Utopian Socialism and Perfectionist Visions

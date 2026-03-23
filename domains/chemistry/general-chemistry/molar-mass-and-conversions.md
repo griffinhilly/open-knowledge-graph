@@ -16,7 +16,7 @@ tags:
 - conversion factors
 - dimensional analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Molar Mass Calculations and Mole Conversions

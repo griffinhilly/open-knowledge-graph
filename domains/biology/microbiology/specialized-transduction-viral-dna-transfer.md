@@ -15,7 +15,7 @@ tags:
 - phage
 - dna-transfer
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Specialized and Generalized Transduction

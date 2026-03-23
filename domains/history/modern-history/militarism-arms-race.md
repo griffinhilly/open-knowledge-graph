@@ -16,7 +16,7 @@ tags:
 - military-buildup
 - deterrence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Militarism and Arms Race Dynamics

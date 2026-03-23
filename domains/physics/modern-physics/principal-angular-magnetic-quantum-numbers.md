@@ -15,7 +15,7 @@ tags:
 - atomic-physics
 - quantum-mechanics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Principal, Angular, and Magnetic Quantum Numbers in Atoms

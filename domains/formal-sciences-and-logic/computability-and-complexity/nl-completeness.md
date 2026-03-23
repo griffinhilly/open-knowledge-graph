@@ -13,7 +13,7 @@ tags:
 - completeness
 - reductions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # NL-Completeness and Space-Bounded Reductions

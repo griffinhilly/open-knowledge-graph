@@ -16,7 +16,7 @@ tags:
 - expression
 - composition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chromatic Expression and Color

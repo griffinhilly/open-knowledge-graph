@@ -14,7 +14,7 @@ tags:
 - weathering
 - soil-horizon
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Paleosols as Paleoclimatic and Weathering Indicators

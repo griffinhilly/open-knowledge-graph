@@ -17,7 +17,7 @@ tags:
 - interpretation
 - significance
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Theme Development Through Dramatic Action
 

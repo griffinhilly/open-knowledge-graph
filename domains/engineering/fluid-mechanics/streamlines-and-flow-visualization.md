@@ -14,7 +14,7 @@ tags:
 - flow
 - visualization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Streamlines, Pathlines, and Flow Visualization

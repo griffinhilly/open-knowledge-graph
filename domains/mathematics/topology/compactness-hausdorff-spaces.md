@@ -16,7 +16,7 @@ tags:
 - hausdorff
 - closed-sets
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Compactness in Hausdorff Spaces

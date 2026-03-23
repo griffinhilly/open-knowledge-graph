@@ -13,7 +13,7 @@ tags:
 - compounds
 - lexical-creation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Compound Nouns and Noun Compounds

@@ -15,7 +15,7 @@ tags:
 - psychiatric-epidemiology
 - genetic-environment
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mental Health Epidemiology

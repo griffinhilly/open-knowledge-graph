@@ -17,7 +17,7 @@ tags:
 - population
 - governance
 stage: expert
-status: draft
+status: validated
 ---
 
 # Biopolitics and Literature

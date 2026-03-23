@@ -17,7 +17,7 @@ tags:
 - strong-AI
 - functional-consciousness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Artificial Consciousness

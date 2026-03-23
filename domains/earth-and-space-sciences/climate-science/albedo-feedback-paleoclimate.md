@@ -17,7 +17,7 @@ tags:
 - snow-albedo
 - paleoclimate-forcing
 stage: expert
-status: draft
+status: validated
 ---
 
 # Albedo Feedbacks and Paleoclimate

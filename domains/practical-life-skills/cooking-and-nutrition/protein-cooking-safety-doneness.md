@@ -17,7 +17,7 @@ tags:
 - cooking-methods
 - food-safety
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cooking Protein Safely to Proper Doneness

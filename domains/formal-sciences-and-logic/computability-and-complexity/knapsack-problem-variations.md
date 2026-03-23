@@ -15,7 +15,7 @@ tags:
 - optimization
 - dynamic-programming
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Knapsack Problem and Pseudo-Polynomial Time

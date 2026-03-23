@@ -18,7 +18,7 @@ tags:
 - acoustics
 - analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Timbre Analysis in the Frequency Domain

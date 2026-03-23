@@ -15,7 +15,7 @@ tags:
 - energy-methods
 - generalized-forces
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Principle of Virtual Work and Generalized Forces

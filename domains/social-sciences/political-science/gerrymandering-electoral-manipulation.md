@@ -15,7 +15,7 @@ tags:
 - representation
 - fairness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gerrymandering and Electoral System Manipulation

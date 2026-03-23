@@ -14,7 +14,7 @@ tags:
 - simultaneous-congruences
 - solution-existence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linear Congruences and the Chinese Remainder Theorem

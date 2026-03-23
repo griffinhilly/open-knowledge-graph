@@ -14,7 +14,7 @@ tags:
 - domain-knowledge
 - organization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Expertise and Knowledge Reorganization

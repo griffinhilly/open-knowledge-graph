@@ -15,7 +15,7 @@ tags:
 - magellan
 - global-trade
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Magellan's Voyage and the First Global Circumnavigation

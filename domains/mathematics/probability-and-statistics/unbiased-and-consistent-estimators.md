@@ -13,7 +13,7 @@ tags:
 - unbiased
 - consistency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Unbiased and Consistent Estimators

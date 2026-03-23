@@ -12,7 +12,7 @@ tags:
 - np-complete
 - clause-restrictions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # 3-SAT and k-SAT Variants

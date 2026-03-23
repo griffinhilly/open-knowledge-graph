@@ -17,7 +17,7 @@ tags:
 - alkene-synthesis
 - carbonyl-olefination
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Wittig Reaction: Phosphorus Ylides and Alkene Synthesis

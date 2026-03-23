@@ -17,7 +17,7 @@ tags:
 - theory
 - flp
 stage: advanced
-status: draft
+status: validated
 ---
 
 # FLP Impossibility Theorem

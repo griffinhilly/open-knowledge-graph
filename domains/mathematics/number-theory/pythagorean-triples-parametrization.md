@@ -13,7 +13,7 @@ tags:
 - diophantine
 - parametrization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Pythagorean Triples (Parametrization)

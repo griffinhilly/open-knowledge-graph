@@ -18,7 +18,7 @@ tags:
 - acylium-ion
 - aromatic-ketones
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Friedel-Crafts Acylation Mechanism

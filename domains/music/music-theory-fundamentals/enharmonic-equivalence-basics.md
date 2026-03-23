@@ -15,7 +15,7 @@ tags:
 - notation
 - enharmonics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Enharmonic Equivalence and Pitch Spelling

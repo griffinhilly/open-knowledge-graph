@@ -23,7 +23,7 @@ tags:
 - close-reading
 - comparative
 stage: expert
-status: draft
+status: validated
 ---
 
 # Literary Translation as Interpretation

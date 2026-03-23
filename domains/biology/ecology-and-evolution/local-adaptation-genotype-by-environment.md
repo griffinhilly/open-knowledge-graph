@@ -18,7 +18,7 @@ tags:
 - genotype-environment-interaction
 - fitness-landscape
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Local Adaptation and Genotype-by-Environment Interaction

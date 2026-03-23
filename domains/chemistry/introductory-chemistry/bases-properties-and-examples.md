@@ -15,7 +15,7 @@ tags:
 - slippery
 - bitter
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Bases: Properties and Everyday Examples
 

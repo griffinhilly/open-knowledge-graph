@@ -15,7 +15,7 @@ tags:
 - moving-charges
 - retarded-fields
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lienard-Wiechert Potentials

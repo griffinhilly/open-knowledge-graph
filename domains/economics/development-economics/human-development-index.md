@@ -11,7 +11,7 @@ tags:
 - measurement
 - welfare
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Human Development Index

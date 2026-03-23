@@ -16,7 +16,7 @@ tags:
 - procedural
 - BEGIN-COMMIT-ROLLBACK
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stored Procedures: Procedural Logic and Transaction Control

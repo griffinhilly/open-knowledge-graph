@@ -19,7 +19,7 @@ tags:
 - decision-making
 - choice
 stage: expert
-status: draft
+status: validated
 ---
 
 # Orbitofrontal Cortex and Reward Valuation

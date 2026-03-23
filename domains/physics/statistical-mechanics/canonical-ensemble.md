@@ -18,7 +18,7 @@ tags:
 - thermal-reservoir
 - temperature-control
 stage: expert
-status: draft
+status: validated
 ---
 
 # Canonical Ensemble (NVT)

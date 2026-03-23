@@ -17,7 +17,7 @@ tags:
 - pseudoaxial
 - 1,3-diaxial
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chair Conformation and Axial-Equatorial Positioning

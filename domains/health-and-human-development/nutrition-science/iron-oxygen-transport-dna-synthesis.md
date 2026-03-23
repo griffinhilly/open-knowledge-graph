@@ -15,7 +15,7 @@ tags:
 - dna-synthesis
 - ribonucleotide-reductase
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Iron: Oxygen Transport, Electron Transfer, and DNA Synthesis

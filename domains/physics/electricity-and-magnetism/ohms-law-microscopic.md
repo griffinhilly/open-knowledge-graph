@@ -13,7 +13,7 @@ tags:
 - resistivity
 - conductivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ohm's Law: Microscopic and Macroscopic Forms

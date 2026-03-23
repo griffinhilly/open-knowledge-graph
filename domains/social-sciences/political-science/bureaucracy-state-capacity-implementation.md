@@ -17,7 +17,7 @@ tags:
 - state-capacity
 - administration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bureaucracy and State Capacity for Policy Implementation

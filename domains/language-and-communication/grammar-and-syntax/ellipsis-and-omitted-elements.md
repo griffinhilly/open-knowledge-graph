@@ -13,7 +13,7 @@ tags:
 - omission
 - efficiency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ellipsis and Understood Elements

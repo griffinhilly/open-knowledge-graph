@@ -17,7 +17,7 @@ tags:
 - hard-core
 - protective-belt
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lakatos and Research Programs

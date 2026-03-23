@@ -11,7 +11,7 @@ tags:
 - graphs
 - visualization
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Picture Graphs

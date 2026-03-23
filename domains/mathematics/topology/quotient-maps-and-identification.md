@@ -16,7 +16,7 @@ tags:
 - identification-spaces
 - gluing
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quotient Maps and Identification Spaces

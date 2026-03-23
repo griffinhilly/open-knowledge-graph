@@ -13,7 +13,7 @@ tags:
 - dividends
 - growth
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sustainable Growth Rate and Retention Policy

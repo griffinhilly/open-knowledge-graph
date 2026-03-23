@@ -17,7 +17,7 @@ tags:
 - kinetic-energy
 - formula
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Kinetic Energy: KE = ½mv²
 

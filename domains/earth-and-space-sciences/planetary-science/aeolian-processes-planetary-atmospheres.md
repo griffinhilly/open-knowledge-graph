@@ -16,7 +16,7 @@ tags:
 - atmosphere-surface-interaction
 - dust
 stage: expert
-status: draft
+status: validated
 ---
 
 # Aeolian Processes and Wind-Driven Surface Evolution

@@ -23,7 +23,7 @@ tags:
 - composition
 - structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Planetary Atmospheres: Composition and Structure

@@ -13,7 +13,7 @@ tags:
 - arrhythmia
 - cardiac-conduction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electrocardiogram and Cardiac Rhythm

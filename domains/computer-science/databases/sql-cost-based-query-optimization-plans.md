@@ -17,7 +17,7 @@ tags:
 - cost-model
 - plan-selection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cost-Based Query Optimization and Execution Plan Selection

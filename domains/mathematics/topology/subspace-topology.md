@@ -14,7 +14,7 @@ tags:
 - relative-topology
 - induced-topology
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Subspace Topology

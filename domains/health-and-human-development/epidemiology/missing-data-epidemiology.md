@@ -18,7 +18,7 @@ tags:
 - data-quality
 - bias-handling
 stage: expert
-status: draft
+status: validated
 ---
 
 # Missing Data and Imputation Methods

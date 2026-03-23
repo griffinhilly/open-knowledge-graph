@@ -14,7 +14,7 @@ tags:
 - dignity
 - kantian
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Autonomy and Moral Worth

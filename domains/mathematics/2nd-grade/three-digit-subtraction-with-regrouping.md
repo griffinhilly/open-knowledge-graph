@@ -14,7 +14,7 @@ tags:
 - subtraction
 - regrouping
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Three-Digit Subtraction With Regrouping

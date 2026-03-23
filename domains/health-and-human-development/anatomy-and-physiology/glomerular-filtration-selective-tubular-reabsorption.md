@@ -28,7 +28,7 @@ tags:
 - renal-physiology
 - GFR
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Glomerular Filtration and Selective Tubular Reabsorption

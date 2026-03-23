@@ -18,7 +18,7 @@ tags:
 - plagal
 - half-cadence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cadences: Function and Types

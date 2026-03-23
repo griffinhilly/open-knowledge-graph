@@ -12,7 +12,7 @@ tags:
 - overconfidence
 - bias
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Overconfidence and Metacognitive Illusions

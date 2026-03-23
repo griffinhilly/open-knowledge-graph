@@ -15,7 +15,7 @@ tags:
 - place-value
 - decomposition
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Composing and Decomposing Two-Digit Numbers

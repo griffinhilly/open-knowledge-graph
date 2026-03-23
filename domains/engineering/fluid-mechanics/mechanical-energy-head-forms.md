@@ -13,7 +13,7 @@ tags:
 - head
 - applications
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mechanical Energy and Head Forms

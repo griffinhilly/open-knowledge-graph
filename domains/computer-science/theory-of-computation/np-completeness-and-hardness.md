@@ -17,7 +17,7 @@ tags:
 - hardest-problems
 - equivalence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # NP-Completeness and NP-Hardness

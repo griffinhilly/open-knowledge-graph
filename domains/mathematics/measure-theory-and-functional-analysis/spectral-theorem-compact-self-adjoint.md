@@ -12,7 +12,7 @@ tags:
 - spectral-theorem
 - operators
 stage: expert
-status: draft
+status: validated
 ---
 
 # Spectral Theorem for Compact Self-Adjoint Operators

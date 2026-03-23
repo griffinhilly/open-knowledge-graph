@@ -14,7 +14,7 @@ tags:
 - timing
 - magnetosphere
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pulsars: Rotating Neutron Stars and Precision Timing

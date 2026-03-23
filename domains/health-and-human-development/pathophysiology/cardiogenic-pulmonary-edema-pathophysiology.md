@@ -17,7 +17,7 @@ tags:
 - hydrostatic-pressure
 - hypoxemia
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cardiogenic Pulmonary Edema: Elevated Hydrostatic Pressure, Fluid Accumulation, and Hypoxemia

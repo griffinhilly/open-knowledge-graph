@@ -21,7 +21,7 @@ tags:
 - dispersal
 - connectivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metapopulation Dynamics and Habitat Connectivity

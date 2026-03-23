@@ -15,7 +15,7 @@ tags:
 - aesthetic judgment
 - history of aesthetics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Beauty and Taste in Aesthetic Tradition

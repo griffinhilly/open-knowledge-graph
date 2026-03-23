@@ -12,7 +12,7 @@ tags:
 - model-comparison
 - model-selection
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Adjusted R-Squared for Model Comparison

@@ -18,7 +18,7 @@ tags:
 - duration
 - censoring
 stage: expert
-status: draft
+status: validated
 ---
 
 # Survival Analysis and Event History Methods

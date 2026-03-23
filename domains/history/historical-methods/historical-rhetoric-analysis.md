@@ -15,7 +15,7 @@ tags:
 - persuasion
 - language
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Historical Rhetoric Analysis

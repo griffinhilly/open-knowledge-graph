@@ -13,7 +13,7 @@ tags:
 - development
 - specialization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cell Differentiation: Specifying Cell Type

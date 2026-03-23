@@ -20,7 +20,7 @@ tags:
 - UV-detection
 - method-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # High-Performance Liquid Chromatography: Quantitative Methods

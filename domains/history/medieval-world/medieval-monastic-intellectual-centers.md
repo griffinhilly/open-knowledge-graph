@@ -17,7 +17,7 @@ tags:
 - learning
 - culture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Monasteries as Intellectual and Cultural Centers

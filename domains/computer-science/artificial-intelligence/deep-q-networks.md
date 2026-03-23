@@ -14,7 +14,7 @@ tags:
 - value-based-methods
 - atari-games
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Deep Q-Networks (DQN)

@@ -15,7 +15,7 @@ tags:
 - charge-transfer
 - grounding
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Static Electricity and Charge Transfer
 

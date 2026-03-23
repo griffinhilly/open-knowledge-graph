@@ -15,7 +15,7 @@ tags:
 - rearrangement
 - polyalkylation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Friedel-Crafts Alkylation and Limitations

@@ -13,7 +13,7 @@ tags:
 - compilation
 - self-hosting
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Compiler Bootstrapping and Self-Hosting

@@ -16,7 +16,7 @@ tags:
 - hormone-sensitive-lipase
 - fatty-acid-release
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lipolysis and Fatty Acid Mobilization

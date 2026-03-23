@@ -17,7 +17,7 @@ tags:
 - navigation
 - urls
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Typing a Web Address in a Browser

@@ -13,7 +13,7 @@ tags:
 - multi-protagonist
 - multiple-POV
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multi-Protagonist Ensemble Narrative

@@ -16,7 +16,7 @@ tags:
 - luenberger-observer
 - measurement-equation
 stage: expert
-status: draft
+status: validated
 ---
 
 # State Observer: Full-State and Partial Observation

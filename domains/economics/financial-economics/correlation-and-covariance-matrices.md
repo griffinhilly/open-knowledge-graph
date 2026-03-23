@@ -17,7 +17,7 @@ tags:
 - covariance
 - diversification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Correlation and Covariance Matrices in Portfolio Optimization

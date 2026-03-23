@@ -16,7 +16,7 @@ tags:
 - culture
 - modernity
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Protestant Work Ethic and Capitalism

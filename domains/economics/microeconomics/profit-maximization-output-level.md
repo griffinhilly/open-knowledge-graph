@@ -15,7 +15,7 @@ tags:
 - marginal-revenue
 - marginal-cost
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Profit Maximization and Output Decisions

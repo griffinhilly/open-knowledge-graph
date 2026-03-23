@@ -14,7 +14,7 @@ tags:
 - monitoring
 - self-regulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metacognition and Self-Monitoring of Cognition

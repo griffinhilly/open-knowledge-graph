@@ -20,7 +20,7 @@ tags:
 - active-transport
 - visual-predation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diel Vertical Migration in Zooplankton: Behavior and Biogeochemistry

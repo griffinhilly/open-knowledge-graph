@@ -14,7 +14,7 @@ tags:
 - voice-leading
 - correction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voice Leading Error Recognition and Correction

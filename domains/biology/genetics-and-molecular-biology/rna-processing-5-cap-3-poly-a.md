@@ -17,7 +17,7 @@ tags:
 - poly-a-tail
 - mRNA-stability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # eRNA Processing: 5' Capping and 3' Polyadenylation

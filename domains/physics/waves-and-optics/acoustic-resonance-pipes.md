@@ -16,7 +16,7 @@ tags:
 - air-columns
 - open-closed
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Acoustic Resonance in Pipes and Air Columns

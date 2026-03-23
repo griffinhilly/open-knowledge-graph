@@ -17,7 +17,7 @@ tags:
 - narrow-sense
 - additive-genetic-variance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heritability: Broad-Sense and Narrow-Sense

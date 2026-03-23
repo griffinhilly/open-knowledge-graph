@@ -19,7 +19,7 @@ tags:
 - distance
 - joules
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Work: Force Times Distance
 

@@ -14,7 +14,7 @@ tags:
 - rounding
 - error-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Machine Epsilon and Rounding Errors

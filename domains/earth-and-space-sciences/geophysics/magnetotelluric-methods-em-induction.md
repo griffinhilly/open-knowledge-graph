@@ -12,7 +12,7 @@ tags:
 - induction
 - conductivity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Magnetotelluric Methods and Electromagnetic Induction

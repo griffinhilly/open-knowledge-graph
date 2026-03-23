@@ -11,7 +11,7 @@ tags:
 - unconventional-policy
 - monetary-policy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Quantitative Easing and Unconventional Monetary Policy

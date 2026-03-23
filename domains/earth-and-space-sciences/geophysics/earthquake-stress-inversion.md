@@ -14,7 +14,7 @@ tags:
 - inversion
 - focal-mechanism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Stress Inversion and Focal Mechanism Analysis

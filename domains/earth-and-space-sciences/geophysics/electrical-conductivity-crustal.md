@@ -17,7 +17,7 @@ tags:
 - rocks
 - minerals
 stage: expert
-status: draft
+status: validated
 ---
 
 # Electrical Properties of Crustal Materials

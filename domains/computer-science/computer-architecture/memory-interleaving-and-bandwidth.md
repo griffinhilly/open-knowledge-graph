@@ -15,7 +15,7 @@ tags:
 - bandwidth
 - memory-access
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memory Interleaving and Bandwidth Optimization

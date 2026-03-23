@@ -15,7 +15,7 @@ tags:
 - peristalsis
 - sphincter-control
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gastrointestinal Motility and Sphincter Coordination

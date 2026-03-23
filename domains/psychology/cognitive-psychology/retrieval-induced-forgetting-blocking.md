@@ -16,7 +16,7 @@ tags:
 - interference
 - forgetting
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Retrieval-Induced Forgetting and Output Interference

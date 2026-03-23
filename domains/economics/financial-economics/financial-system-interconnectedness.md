@@ -13,7 +13,7 @@ tags:
 - interconnectedness
 - crises
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Financial System Interconnectedness and Systemic Risk

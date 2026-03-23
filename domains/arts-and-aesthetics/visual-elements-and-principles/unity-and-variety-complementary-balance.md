@@ -21,7 +21,7 @@ tags:
 - interest
 - composition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Unity and Variety: Complementary Principles in Balance

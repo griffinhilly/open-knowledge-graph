@@ -17,7 +17,7 @@ tags:
 - metaphysics
 - fundamentals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Substance as Bearer of Properties

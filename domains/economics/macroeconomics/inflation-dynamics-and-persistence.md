@@ -16,7 +16,7 @@ tags:
 - monetary-policy
 - dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inflation Dynamics and Inflation Persistence

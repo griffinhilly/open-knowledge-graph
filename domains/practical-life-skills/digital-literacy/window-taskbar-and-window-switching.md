@@ -14,7 +14,7 @@ tags:
 - interface
 - navigation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Window, Taskbar, and Window Switching

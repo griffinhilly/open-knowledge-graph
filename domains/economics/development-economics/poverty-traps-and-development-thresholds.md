@@ -18,7 +18,7 @@ tags:
 - dynamics
 - nonconvexity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Poverty Traps and Development Thresholds

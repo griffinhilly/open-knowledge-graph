@@ -16,7 +16,7 @@ tags:
 - molecular-orbitals
 - group-theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Molecular Orbital Symmetry Classification

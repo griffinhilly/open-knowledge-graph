@@ -16,7 +16,7 @@ tags:
 - symbolism
 - cultural-meaning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Color Psychology and Association

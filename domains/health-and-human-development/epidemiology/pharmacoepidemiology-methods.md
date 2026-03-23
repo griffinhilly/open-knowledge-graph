@@ -13,7 +13,7 @@ tags:
 - spontaneous-reporting
 - surveillance
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pharmacoepidemiology: Drug Safety and Adverse Event Surveillance

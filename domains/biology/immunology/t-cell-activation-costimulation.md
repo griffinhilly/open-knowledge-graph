@@ -20,7 +20,7 @@ tags:
 - activation
 - signaling
 stage: expert
-status: draft
+status: validated
 ---
 
 # T Cell Activation and Costimulatory Signals

@@ -18,7 +18,7 @@ tags:
 - mcar-mar
 - multiple-imputation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Missing Data: Mechanisms, Diagnostics, and Multiple Imputation

@@ -20,7 +20,7 @@ tags:
 - parallel-axis-theorem
 - composite
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moment of Inertia about Centroidal Axes

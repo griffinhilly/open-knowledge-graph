@@ -18,7 +18,7 @@ tags:
 - barrier-function
 - thermoregulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Integumentary Structure and Function

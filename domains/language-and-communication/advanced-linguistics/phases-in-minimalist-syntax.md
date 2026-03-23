@@ -15,7 +15,7 @@ tags:
 - minimalism
 - locality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Phases and Phase Theory

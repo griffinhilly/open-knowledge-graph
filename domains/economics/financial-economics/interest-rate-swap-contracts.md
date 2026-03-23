@@ -15,7 +15,7 @@ tags:
 - interest-rates
 - derivatives
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interest Rate Swap Contracts

@@ -15,7 +15,7 @@ tags:
 - trophic-levels
 - food-web
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Zooplankton and Marine Food Web Structure

@@ -18,7 +18,7 @@ tags:
 - statements
 - foundational
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # True and False Statements

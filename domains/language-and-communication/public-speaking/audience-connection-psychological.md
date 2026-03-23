@@ -15,7 +15,7 @@ tags:
 - engagement
 - emotional-appeal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Building Emotional Rapport and Psychological Connection

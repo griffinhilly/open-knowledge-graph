@@ -14,7 +14,7 @@ tags:
 - proof-strategies
 - tactics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Proof Strategies and Heuristics in Natural Deduction

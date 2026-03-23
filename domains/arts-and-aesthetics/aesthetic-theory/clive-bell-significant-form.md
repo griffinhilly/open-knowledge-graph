@@ -12,7 +12,7 @@ tags:
 - formal properties
 - aesthetic emotion
 stage: expert
-status: draft
+status: validated
 ---
 
 # Clive Bell and Significant Form

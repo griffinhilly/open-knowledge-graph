@@ -16,7 +16,7 @@ tags:
 - productivity
 - blocking
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Derivational Morphology

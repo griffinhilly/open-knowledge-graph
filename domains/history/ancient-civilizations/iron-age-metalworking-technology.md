@@ -13,7 +13,7 @@ tags:
 - tools
 - weapons
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Iron Age Technology and Metalworking
 

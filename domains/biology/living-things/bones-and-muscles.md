@@ -17,7 +17,7 @@ tags:
 - movement
 - human body
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Bones and Muscles

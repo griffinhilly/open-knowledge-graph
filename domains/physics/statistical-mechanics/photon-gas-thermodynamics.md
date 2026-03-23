@@ -13,7 +13,7 @@ tags:
 - radiation-thermodynamics
 - blackbody
 stage: expert
-status: draft
+status: validated
 ---
 
 # Photon Gas Thermodynamics

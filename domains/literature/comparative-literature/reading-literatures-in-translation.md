@@ -26,7 +26,7 @@ tags:
 - methodology
 - pragmatics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Reading Literatures in Translation

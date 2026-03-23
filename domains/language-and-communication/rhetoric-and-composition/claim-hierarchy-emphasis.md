@@ -17,7 +17,7 @@ tags:
 - organization
 - argument
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Claim Hierarchy and Emphasis in Arguments

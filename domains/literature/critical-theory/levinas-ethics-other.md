@@ -17,7 +17,7 @@ tags:
 - responsibility
 - face
 stage: expert
-status: draft
+status: validated
 ---
 
 # Levinas' Ethics: Responsibility to the Other

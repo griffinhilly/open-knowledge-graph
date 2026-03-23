@@ -16,7 +16,7 @@ tags:
 - empiricism
 - realism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Underdetermination of Theory by Evidence

@@ -16,7 +16,7 @@ tags:
 - formulas
 - transformations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Logical Equivalence and Classes of Equivalent Formulas

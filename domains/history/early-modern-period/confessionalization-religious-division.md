@@ -16,7 +16,7 @@ tags:
 - theology
 - early-modern-state
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Confessionalization and Religious Identity Formation

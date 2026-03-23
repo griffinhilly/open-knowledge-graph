@@ -16,7 +16,7 @@ tags:
 - morphology
 - sound-design
 stage: expert
-status: draft
+status: validated
 ---
 
 # Electroacoustic Morphology and Analysis

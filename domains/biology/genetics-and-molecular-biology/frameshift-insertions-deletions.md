@@ -16,7 +16,7 @@ tags:
 - frameshift
 - translation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Frameshift Mutations and Insertions/Deletions

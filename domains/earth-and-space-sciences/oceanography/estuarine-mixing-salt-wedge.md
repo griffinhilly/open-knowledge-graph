@@ -17,7 +17,7 @@ tags:
 - stratification
 - river-ocean-mixing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Estuarine Mixing and Salt-Wedge Dynamics

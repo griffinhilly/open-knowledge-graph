@@ -23,7 +23,7 @@ tags:
 - digital-traces
 - scale
 stage: expert
-status: draft
+status: validated
 ---
 
 # Big Data Collection and Analysis in Social Science

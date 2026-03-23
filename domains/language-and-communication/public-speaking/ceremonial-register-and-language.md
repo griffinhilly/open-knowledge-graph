@@ -16,7 +16,7 @@ tags:
 - formality
 - diction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ceremonial Register and Formal Language

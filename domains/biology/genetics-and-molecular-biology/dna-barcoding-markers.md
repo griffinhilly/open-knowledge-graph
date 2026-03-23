@@ -17,7 +17,7 @@ tags:
 - cox1-gene
 - biodiversity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # DNA Barcoding and Species Identification

@@ -13,7 +13,7 @@ tags:
 - allomorphy
 - phonology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Allomorphy and Morphophonological Processes

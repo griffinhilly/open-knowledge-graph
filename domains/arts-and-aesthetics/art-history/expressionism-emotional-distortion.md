@@ -18,7 +18,7 @@ tags:
 - color
 - intensity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Expressionism and the Distortion of Form for Emotional Effect

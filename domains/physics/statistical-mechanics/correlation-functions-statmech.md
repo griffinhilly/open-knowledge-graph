@@ -15,7 +15,7 @@ tags:
 - pair-correlation
 - correlation-length
 stage: expert
-status: draft
+status: validated
 ---
 
 # Correlation Functions and Spatial Correlations

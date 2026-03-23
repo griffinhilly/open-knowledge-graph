@@ -13,7 +13,7 @@ tags:
 - syntax
 - first-order-logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Formulas and Well-Formed Expressions

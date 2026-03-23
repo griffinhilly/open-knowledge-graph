@@ -16,7 +16,7 @@ tags:
 - oxidation
 - reduction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Half-Reactions and Oxidation States

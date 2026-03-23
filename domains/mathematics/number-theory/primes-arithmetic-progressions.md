@@ -11,7 +11,7 @@ tags:
 - arithmetic-progressions
 - primes
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Primes in Arithmetic Progressions (Dirichlet's Theorem)

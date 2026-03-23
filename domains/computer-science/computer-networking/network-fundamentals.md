@@ -15,7 +15,7 @@ tags:
 - foundations
 - basics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Network Fundamentals

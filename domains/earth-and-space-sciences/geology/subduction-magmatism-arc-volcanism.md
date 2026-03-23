@@ -16,7 +16,7 @@ tags:
 - volcanic-arcs
 - water
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Subduction Zone Magmatism and Volcanic Arcs

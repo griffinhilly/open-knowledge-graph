@@ -13,7 +13,7 @@ tags:
 - field
 - current
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Magnetic Field from Biot-Savart Law

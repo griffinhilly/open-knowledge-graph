@@ -16,7 +16,7 @@ tags:
 - spectral-methods
 - eigenvalues
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Adjacency Matrix and Spectral Graph Theory

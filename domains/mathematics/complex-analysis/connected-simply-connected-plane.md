@@ -14,7 +14,7 @@ tags:
 - connectivity
 - simply-connected
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Connected and Simply Connected Regions

@@ -14,7 +14,7 @@ tags:
 - identity
 - multiple-systems
 stage: expert
-status: draft
+status: validated
 ---
 
 # Intersectionality in Sociological Analysis

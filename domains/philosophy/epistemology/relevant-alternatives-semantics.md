@@ -18,7 +18,7 @@ tags:
 - skepticism
 - contextualism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Relevant Alternatives Theory

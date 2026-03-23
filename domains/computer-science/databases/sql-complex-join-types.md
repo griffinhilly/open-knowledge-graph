@@ -14,7 +14,7 @@ tags:
 - CROSS JOIN
 - cartesian product
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # SQL: Self-Joins and Cross Joins

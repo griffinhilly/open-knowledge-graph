@@ -19,7 +19,7 @@ tags:
 - homomorphism-extension
 - partial-map
 stage: expert
-status: draft
+status: validated
 ---
 
 # Extension Lemma for Embeddings

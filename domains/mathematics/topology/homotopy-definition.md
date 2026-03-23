@@ -14,7 +14,7 @@ tags:
 - homotopy
 - algebraic-topology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Homotopy of Continuous Maps

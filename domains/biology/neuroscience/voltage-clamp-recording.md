@@ -16,7 +16,7 @@ tags:
 - measurement-technique
 - quantitative-methods
 stage: expert
-status: draft
+status: validated
 ---
 
 # Voltage Clamp: Measuring Ionic Currents in Isolation

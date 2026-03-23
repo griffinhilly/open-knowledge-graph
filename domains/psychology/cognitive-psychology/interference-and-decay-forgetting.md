@@ -14,7 +14,7 @@ tags:
 - decay
 - memory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interference and Decay in Forgetting

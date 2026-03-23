@@ -16,7 +16,7 @@ tags:
 - occupation-number
 - condensation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bose-Einstein Distribution and Condensation Onset

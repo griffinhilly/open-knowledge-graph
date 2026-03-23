@@ -18,7 +18,7 @@ builds-toward:
   - intellectual-humility-and-calibrated-uncertainty
 tags: ["calibration", "forecasting", "metacognition", "probability"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

@@ -13,7 +13,7 @@ tags:
 - optical-crystals
 - anisotropic-materials
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Birefringence in Optical Crystals and Materials

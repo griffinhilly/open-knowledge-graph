@@ -13,7 +13,7 @@ tags:
 - transitions
 - spectroscopy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hydrogen Atom Spectral Series

@@ -12,7 +12,7 @@ tags:
 - sequential-compactness
 - metric-spaces
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sequential Compactness in Metric Spaces

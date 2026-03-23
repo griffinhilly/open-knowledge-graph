@@ -18,7 +18,7 @@ tags:
 - model-theory
 - axiomatization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dense Linear Orders without Endpoints

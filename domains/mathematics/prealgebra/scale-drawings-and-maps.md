@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - similar-triangles-aa
-- similar-triangles-aa
 tags:
 - scale
 - proportions

@@ -16,7 +16,7 @@ tags:
 - neutral-evolution
 - population-genetics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Neutral Theory of Molecular Evolution

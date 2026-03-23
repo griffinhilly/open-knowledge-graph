@@ -15,7 +15,7 @@ tags:
 - posets
 - order-theory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Partially Ordered Sets and Hasse Diagrams

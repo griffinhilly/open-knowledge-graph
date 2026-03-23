@@ -15,7 +15,7 @@ tags:
 - implicit-meaning
 - discourse
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ellipsis and Covert Structure

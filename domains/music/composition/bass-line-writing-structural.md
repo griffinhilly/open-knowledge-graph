@@ -14,7 +14,7 @@ tags:
 - structure
 - harmony
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Structural Bass-Line Composition

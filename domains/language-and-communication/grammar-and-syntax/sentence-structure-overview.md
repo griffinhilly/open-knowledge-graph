@@ -12,7 +12,7 @@ tags:
 - sentence-structure
 - clauses
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Sentence Structure: Simple, Compound, and Complex

@@ -25,7 +25,7 @@ tags:
 - deep-learning
 - function-approximation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Neural Network Fundamentals

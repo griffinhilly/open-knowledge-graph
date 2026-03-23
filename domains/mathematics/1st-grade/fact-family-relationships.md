@@ -16,7 +16,7 @@ tags:
 - relationships
 - four-facts
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Fact Family Relationships

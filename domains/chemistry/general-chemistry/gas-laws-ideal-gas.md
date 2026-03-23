@@ -18,7 +18,7 @@ tags:
 - pressure
 - volume
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gas Laws and the Ideal Gas Equation

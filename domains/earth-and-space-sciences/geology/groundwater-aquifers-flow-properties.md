@@ -13,7 +13,7 @@ tags:
 - groundwater
 - aquifers
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Groundwater and Aquifer Properties

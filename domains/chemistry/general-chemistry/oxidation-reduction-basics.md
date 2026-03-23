@@ -19,7 +19,7 @@ tags:
 - oxidation
 - reduction
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Oxidation-Reduction Basics
 

@@ -19,7 +19,7 @@ tags:
 - pitch-recognition
 - accidentals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chromatic Note Detection by Ear

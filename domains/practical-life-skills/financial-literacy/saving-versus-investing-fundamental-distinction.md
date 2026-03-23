@@ -19,7 +19,7 @@ tags:
 - returns
 - time-horizon
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Saving vs. Investing: Fundamental Distinction and Strategy

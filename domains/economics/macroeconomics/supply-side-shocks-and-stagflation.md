@@ -15,7 +15,7 @@ tags:
 - inflation
 - unemployment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Supply-Side Shocks and Stagflation

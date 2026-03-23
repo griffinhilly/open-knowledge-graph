@@ -17,7 +17,7 @@ tags:
 - magnetism
 - convection
 stage: expert
-status: draft
+status: validated
 ---
 
 # Planetary Magnetic Field Generation

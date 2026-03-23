@@ -17,7 +17,7 @@ tags:
 - dynamo
 - cooling
 stage: expert
-status: draft
+status: validated
 ---
 
 # Core Crystallization Dynamics and Magnetic Field Reversals

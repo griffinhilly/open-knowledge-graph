@@ -13,7 +13,7 @@ tags:
 - decision-making
 - judgment-bias
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sunk Cost Fallacy and Escalation of Commitment

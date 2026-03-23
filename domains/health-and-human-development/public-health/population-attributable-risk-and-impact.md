@@ -16,7 +16,7 @@ tags:
 - burden-of-disease
 - risk-metrics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Population Attributable Risk and Disease Burden Estimation

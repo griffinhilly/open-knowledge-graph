@@ -18,7 +18,7 @@ tags:
 - attributes
 - logic
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Sorting by Attributes

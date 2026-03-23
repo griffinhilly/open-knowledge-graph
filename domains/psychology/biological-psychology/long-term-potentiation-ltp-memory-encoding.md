@@ -30,7 +30,7 @@ tags:
 - learning
 - memory-encoding
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Long-Term Potentiation (LTP): Synaptic Strengthening

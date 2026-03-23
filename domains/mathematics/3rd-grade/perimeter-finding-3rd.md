@@ -15,7 +15,7 @@ tags:
 - distance
 - measurement
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Finding Perimeter

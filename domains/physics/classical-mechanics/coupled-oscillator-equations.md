@@ -21,7 +21,7 @@ tags:
 - coupled-systems
 - dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Coupled Oscillator Systems and Equations of Motion

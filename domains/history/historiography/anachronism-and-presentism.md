@@ -17,7 +17,7 @@ tags:
 - critique
 - temporal projection
 stage: expert
-status: draft
+status: validated
 ---
 
 # Anachronism and Presentism in Historical Writing

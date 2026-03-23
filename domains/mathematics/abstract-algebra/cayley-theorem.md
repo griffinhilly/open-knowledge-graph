@@ -13,7 +13,7 @@ tags:
 - embedding
 - permutation-representation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cayley's Theorem

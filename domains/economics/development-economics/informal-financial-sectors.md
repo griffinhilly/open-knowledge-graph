@@ -12,7 +12,7 @@ tags:
 - ROSCAs
 - shadow banking
 stage: expert
-status: draft
+status: validated
 ---
 
 # Informal Finance and Shadow Banking in Developing Economies

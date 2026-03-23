@@ -15,7 +15,7 @@ tags:
 - lp-spaces
 - functional-analysis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Convergence in L^p

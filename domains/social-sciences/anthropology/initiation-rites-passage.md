@@ -18,7 +18,7 @@ tags:
 - life-stages
 - transition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Initiation Rites and Rites of Passage

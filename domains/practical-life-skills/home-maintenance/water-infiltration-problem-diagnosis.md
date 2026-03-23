@@ -18,7 +18,7 @@ tags:
 - moisture
 - detection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Water Infiltration Problem Diagnosis

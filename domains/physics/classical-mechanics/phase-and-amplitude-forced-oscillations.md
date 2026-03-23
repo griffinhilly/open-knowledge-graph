@@ -14,7 +14,7 @@ tags:
 - amplitude
 - forcing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phase and Amplitude in Forced Oscillations

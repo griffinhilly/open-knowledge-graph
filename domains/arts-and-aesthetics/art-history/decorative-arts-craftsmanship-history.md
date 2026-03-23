@@ -14,7 +14,7 @@ tags:
 - design
 - function-and-beauty
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Decorative Arts, Craftsmanship, and the Functional-Aesthetic Boundary

@@ -13,7 +13,7 @@ tags:
 - vector spaces
 - basis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dimension of Vector Spaces

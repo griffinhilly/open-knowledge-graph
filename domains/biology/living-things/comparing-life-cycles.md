@@ -19,7 +19,7 @@ tags:
 - animals
 - diversity
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Comparing Life Cycles

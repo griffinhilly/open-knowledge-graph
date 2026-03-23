@@ -16,7 +16,7 @@ tags:
 - experience
 - temporality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Phenomenological Reading and Embodied Experience

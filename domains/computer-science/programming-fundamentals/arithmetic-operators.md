@@ -1,24 +1,23 @@
 ---
-id: arithmetic-operators-and-precedence
+id: arithmetic-operators
 title: Arithmetic Operators and Operator Precedence
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
 - id: operators-and-expressions
   type: hard
-- id: working-with-numbers-integers-floats
+- id: numeric-types
   type: soft
 builds-toward:
-- expressions-and-evaluation
-- type-conversion-intro
+- type-conversion
+- comparison-operators
 tags:
 - operators
 - precedence
 - expressions
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Arithmetic Operators and Operator Precedence
 
 ## Core Idea

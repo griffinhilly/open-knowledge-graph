@@ -15,7 +15,7 @@ tags:
 - induction
 - generalization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hasty Generalization: Jumping to Universal Conclusions

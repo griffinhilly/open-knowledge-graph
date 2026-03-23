@@ -14,7 +14,7 @@ tags:
 - measure-theory
 - measure-spaces
 stage: expert
-status: draft
+status: validated
 ---
 
 # Measure Spaces: Definition and Examples

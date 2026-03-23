@@ -15,7 +15,7 @@ tags:
 - continuity
 - limits
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Continuity in Multiple Variables

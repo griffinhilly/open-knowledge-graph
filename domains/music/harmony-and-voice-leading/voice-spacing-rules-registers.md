@@ -14,7 +14,7 @@ tags:
 - register
 - rules
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Voice Spacing Rules and Register Management

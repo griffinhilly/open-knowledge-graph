@@ -16,7 +16,7 @@ tags:
 - consumer-behavior
 - behavioral
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Consumption Determinants and the Consumption Function

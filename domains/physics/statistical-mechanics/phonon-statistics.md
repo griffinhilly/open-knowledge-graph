@@ -13,7 +13,7 @@ tags:
 - phonons
 - bosons
 stage: expert
-status: draft
+status: validated
 ---
 
 # Phonon Statistics and Dispersion Relations

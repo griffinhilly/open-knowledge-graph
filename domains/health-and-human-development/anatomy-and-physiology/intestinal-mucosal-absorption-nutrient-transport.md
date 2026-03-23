@@ -15,7 +15,7 @@ tags:
 - intestinal-transport
 - brush-border
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Intestinal Mucosal Absorption and Nutrient Transport

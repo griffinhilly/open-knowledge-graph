@@ -17,7 +17,7 @@ tags:
 - legitimacy
 - cooperation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Anarchism and the Necessity of Political Authority

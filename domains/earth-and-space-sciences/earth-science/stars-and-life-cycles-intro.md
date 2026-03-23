@@ -4,7 +4,7 @@ title: Introduction to Stars and Their Life Cycles
 domain: earth-and-space-sciences
 course: earth-science
 prerequisites:
-- id: solar-system-intro
+- id: planets-in-our-solar-system
   type: hard
 - id: gravity-and-orbits-intro
   type: soft
@@ -21,7 +21,7 @@ tags:
 - fusion
 - life-cycle
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Introduction to Stars and Their Life Cycles

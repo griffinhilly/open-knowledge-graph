@@ -18,7 +18,7 @@ tags:
 - collecting duct
 - homeostasis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Collecting Duct Water Reabsorption and Antidiuretic Hormone

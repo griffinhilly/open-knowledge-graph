@@ -16,7 +16,7 @@ tags:
 - power
 - representation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Colonial Art History and Postcolonial Perspectives

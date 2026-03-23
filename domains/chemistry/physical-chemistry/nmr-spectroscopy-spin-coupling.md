@@ -15,7 +15,7 @@ tags:
 - spin
 - structure-determination
 stage: advanced
-status: draft
+status: validated
 ---
 
 # NMR Spectroscopy: Chemical Shifts and Spin Coupling

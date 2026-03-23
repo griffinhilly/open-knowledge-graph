@@ -14,7 +14,7 @@ tags:
 - action
 - integration
 stage: expert
-status: draft
+status: validated
 ---
 
 # Talcott Parsons and Action Systems Theory

@@ -14,7 +14,7 @@ tags:
 - notation
 - accidentals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Accidentals: Sharps, Flats, and Naturals

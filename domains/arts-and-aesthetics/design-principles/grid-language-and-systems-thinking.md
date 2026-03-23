@@ -15,7 +15,7 @@ tags:
 - structure
 - mathematical-harmony
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Grid Language and Systems Thinking

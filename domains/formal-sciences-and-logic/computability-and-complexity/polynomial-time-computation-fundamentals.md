@@ -18,7 +18,7 @@ tags:
 - complexity-classes
 - tractability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Polynomial-Time Computation and the Class P

@@ -20,7 +20,7 @@ tags:
 - simple-machines
 - effort
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Mechanical Advantage: Doing More with Less
 

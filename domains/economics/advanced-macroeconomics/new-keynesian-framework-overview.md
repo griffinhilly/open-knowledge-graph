@@ -16,7 +16,7 @@ tags:
 - price-stickiness
 - monetary-policy-effectiveness
 stage: expert
-status: draft
+status: validated
 ---
 
 # New Keynesian Macroeconomics Framework

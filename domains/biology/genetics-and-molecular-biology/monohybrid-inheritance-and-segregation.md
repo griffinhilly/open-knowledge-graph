@@ -19,7 +19,7 @@ tags:
 - gamete-formation
 - punnett-square
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Monohybrid Crosses and Mendel's Law of Segregation

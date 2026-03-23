@@ -11,7 +11,7 @@ tags:
 - infinity
 - countability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cardinality and Countability

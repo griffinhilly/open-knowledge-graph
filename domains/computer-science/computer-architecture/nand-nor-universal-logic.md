@@ -13,7 +13,7 @@ tags:
 - universal
 - nand-nor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # NAND and NOR as Universal Gates

@@ -18,7 +18,7 @@ tags:
 - competitive-exclusion
 - coexistence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Competition: Types and Outcomes

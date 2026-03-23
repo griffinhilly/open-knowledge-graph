@@ -16,7 +16,7 @@ tags:
 - potential-theory
 - energy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Electric Potential and Potential Energy

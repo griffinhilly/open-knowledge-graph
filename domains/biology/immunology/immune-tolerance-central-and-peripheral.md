@@ -20,7 +20,7 @@ tags:
 - regulatory-mechanisms
 - autoimmunity-prevention
 stage: expert
-status: draft
+status: validated
 ---
 
 # Immune Tolerance: Central and Peripheral Mechanisms

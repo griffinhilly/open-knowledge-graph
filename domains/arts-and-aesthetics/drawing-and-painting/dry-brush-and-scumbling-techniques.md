@@ -16,7 +16,7 @@ tags:
 - texture
 - broken-color
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Dry Brush and Scumbling Techniques

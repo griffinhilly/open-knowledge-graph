@@ -6,11 +6,17 @@ course: programming-fundamentals
 prerequisites:
 - id: while-loops
   type: hard
+- id: program-structure
+  type: hard
+- id: variables-and-assignment
+  type: hard
 builds-toward:
 - loop-control-statements
 - arrays-and-lists
 - nested-loops
 - list-comprehensions
+- iterating-over-collections
+- loop-design-and-invariants
 tags:
 - for
 - iteration
@@ -20,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # For Loops
 
 ## Core Idea

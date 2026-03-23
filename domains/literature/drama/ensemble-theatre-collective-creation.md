@@ -19,7 +19,7 @@ tags:
 - creation
 - process-based
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ensemble Theatre: Collective Creation

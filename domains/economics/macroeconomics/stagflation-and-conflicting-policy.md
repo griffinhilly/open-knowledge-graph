@@ -13,7 +13,7 @@ tags:
 - policy
 - tradeoff
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Stagflation and Policy Conflict

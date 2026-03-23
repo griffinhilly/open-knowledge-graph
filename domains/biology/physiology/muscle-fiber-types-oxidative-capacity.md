@@ -17,7 +17,7 @@ tags:
 - metabolism
 - exercise
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Muscle Fiber Types and Oxidative Capacity

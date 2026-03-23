@@ -14,7 +14,7 @@ tags:
 - energy
 - mass
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mass-Energy Equivalence and E=mc²

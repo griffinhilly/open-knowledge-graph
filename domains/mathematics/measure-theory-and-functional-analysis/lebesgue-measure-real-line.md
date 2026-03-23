@@ -15,7 +15,7 @@ tags:
 - measure-theory
 - lebesgue-measure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lebesgue Measure on ℝ and ℝⁿ

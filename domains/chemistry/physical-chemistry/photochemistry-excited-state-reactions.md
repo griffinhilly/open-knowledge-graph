@@ -14,7 +14,7 @@ tags:
 - excited-states
 - reaction-mechanisms
 stage: advanced
-status: draft
+status: validated
 ---
 # Photochemistry: Excited State Reactions
 

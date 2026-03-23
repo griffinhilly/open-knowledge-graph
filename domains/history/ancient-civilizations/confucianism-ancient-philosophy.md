@@ -13,7 +13,7 @@ tags:
 - ethics
 - governance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Confucianism and Ancient Chinese Thought

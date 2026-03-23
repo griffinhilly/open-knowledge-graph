@@ -14,7 +14,7 @@ tags:
 - stratification
 - mixing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Internal Waves in Stratified Ocean

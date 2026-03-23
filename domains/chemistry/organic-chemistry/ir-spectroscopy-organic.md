@@ -22,7 +22,7 @@ tags:
 - hydroxyl
 - amine
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Infrared Spectroscopy: Functional Group Identification

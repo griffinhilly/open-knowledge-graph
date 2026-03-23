@@ -12,7 +12,7 @@ tags:
 - mechanotransduction
 - auditory-coding
 stage: expert
-status: draft
+status: validated
 ---
 
 # Auditory Hair Cells: Mechanotransduction and Sound Coding

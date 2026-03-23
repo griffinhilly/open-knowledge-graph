@@ -17,7 +17,7 @@ tags:
 - production
 - power
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cultural Materialism

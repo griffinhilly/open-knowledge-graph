@@ -16,7 +16,7 @@ tags:
 - mode
 - systemic functional linguistics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Genre and Register

@@ -15,7 +15,7 @@ tags:
 - acids
 - bases
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Acids and Bases in Everyday Life
 

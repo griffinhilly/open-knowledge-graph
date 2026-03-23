@@ -15,7 +15,7 @@ tags:
 - economy
 - society
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Total War: Economic, Social, and Technological Mobilization

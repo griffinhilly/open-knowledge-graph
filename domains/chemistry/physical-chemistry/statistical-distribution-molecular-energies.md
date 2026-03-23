@@ -17,7 +17,7 @@ tags:
 - distribution
 - energy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Statistical Distribution of Molecular Energies

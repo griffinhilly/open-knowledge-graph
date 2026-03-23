@@ -14,7 +14,7 @@ tags:
 - repeated-measures
 - order-effects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Within-Subjects Design Implementation and Counterbalancing

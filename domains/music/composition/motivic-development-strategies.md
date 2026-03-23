@@ -19,7 +19,7 @@ tags:
 - variation
 - coherence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Motivic Development Strategies

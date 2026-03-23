@@ -15,7 +15,7 @@ tags:
 - item-construction
 - large-scale-data
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Survey Design, Construction, and Administration

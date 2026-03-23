@@ -15,7 +15,7 @@ tags:
 - transnational
 - methodology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Global and Transnational History Methods

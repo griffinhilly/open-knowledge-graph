@@ -16,7 +16,7 @@ tags:
 - hybridity
 - cultural-exchange
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Global Music Systems and Cross-Cultural Exchange

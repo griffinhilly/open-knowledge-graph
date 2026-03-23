@@ -17,7 +17,7 @@ tags:
 - epistemology
 - representation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Disability Epistemology and Crip Theory

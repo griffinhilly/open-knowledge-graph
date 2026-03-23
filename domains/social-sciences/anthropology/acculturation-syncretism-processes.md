@@ -17,7 +17,7 @@ tags:
 - culture-change
 - adaptation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Acculturation and Syncretism in Culture Change

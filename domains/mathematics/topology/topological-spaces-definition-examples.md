@@ -15,7 +15,7 @@ tags:
 - foundations
 - definition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Topological Spaces: Definition and Examples

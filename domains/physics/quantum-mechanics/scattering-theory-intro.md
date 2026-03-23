@@ -13,7 +13,7 @@ tags:
 - scattering
 - cross-sections
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Introduction to Scattering Theory

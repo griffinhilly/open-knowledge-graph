@@ -16,7 +16,7 @@ tags:
 - dependence
 - properties
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Supervenience and Dependence Relations

@@ -16,7 +16,7 @@ tags:
 - judgment
 - evidence
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Forensic Rhetoric and Judicial Argument

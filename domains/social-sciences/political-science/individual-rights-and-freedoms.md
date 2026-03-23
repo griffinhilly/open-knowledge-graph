@@ -17,7 +17,7 @@ tags:
 - civil-liberties
 - human-rights
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Individual Rights and Fundamental Freedoms

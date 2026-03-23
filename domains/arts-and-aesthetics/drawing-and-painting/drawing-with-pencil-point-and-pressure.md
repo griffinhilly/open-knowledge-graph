@@ -16,7 +16,7 @@ tags:
 - pressure
 - line-weight
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Pencil Point and Pressure Control

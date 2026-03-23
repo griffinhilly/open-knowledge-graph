@@ -14,7 +14,7 @@ tags:
 - formal-semantics
 - correctness
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Linearizability

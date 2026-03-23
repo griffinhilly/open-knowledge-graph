@@ -15,7 +15,7 @@ tags:
 - electrophysiology
 - ion-channels
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Nernst Equation

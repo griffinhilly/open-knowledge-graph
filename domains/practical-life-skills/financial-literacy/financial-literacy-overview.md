@@ -15,7 +15,7 @@ tags:
 - overview
 - financial-planning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Financial Literacy Overview

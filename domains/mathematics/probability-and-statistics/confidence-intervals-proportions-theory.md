@@ -14,7 +14,7 @@ tags:
 - confidence-interval
 - proportions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Confidence Intervals for Proportions

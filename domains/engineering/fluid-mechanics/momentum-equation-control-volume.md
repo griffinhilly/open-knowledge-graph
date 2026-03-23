@@ -22,7 +22,7 @@ tags:
 - control-volume
 - forces
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Momentum Equation and Control Volume Analysis

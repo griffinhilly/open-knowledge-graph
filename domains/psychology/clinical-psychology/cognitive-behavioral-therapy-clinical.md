@@ -14,7 +14,7 @@ tags:
 - cognitive-therapy
 - evidence-based
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cognitive-Behavioral Therapy (CBT): Theory and Application

@@ -17,7 +17,7 @@ tags:
 - risk-sensitivity
 - hedging
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Option Greeks: Delta, Gamma, Vega, and Theta

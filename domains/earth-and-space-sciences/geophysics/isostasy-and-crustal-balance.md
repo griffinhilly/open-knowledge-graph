@@ -16,7 +16,7 @@ tags:
 - crustal-balance
 - density
 stage: expert
-status: draft
+status: validated
 ---
 
 # Isostasy and Crustal Balance

@@ -16,7 +16,7 @@ tags:
 - robustness
 - defense
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Adversarial Robustness and Certified Defenses

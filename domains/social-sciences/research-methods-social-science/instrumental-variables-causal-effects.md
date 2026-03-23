@@ -14,7 +14,7 @@ tags:
 - endogeneity
 - 2sls
 stage: expert
-status: draft
+status: validated
 ---
 
 # Instrumental Variables: Exogenous Variation for Causal Estimation

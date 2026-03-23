@@ -15,7 +15,7 @@ tags:
 - recovery
 - security
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Account Login and Password Recovery

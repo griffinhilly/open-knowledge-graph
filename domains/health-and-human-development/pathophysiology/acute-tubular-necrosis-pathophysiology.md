@@ -14,7 +14,7 @@ tags:
 - acute-kidney-injury
 - tubular-damage
 stage: expert
-status: draft
+status: validated
 ---
 
 # Acute Tubular Necrosis Pathophysiology

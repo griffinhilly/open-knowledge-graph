@@ -17,7 +17,7 @@ tags:
 - balance-of-power
 - westphalian-system
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The International State System and Anarchic Order

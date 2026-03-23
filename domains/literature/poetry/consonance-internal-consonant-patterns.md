@@ -14,7 +14,7 @@ tags:
 - sound-devices
 - phonetics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Consonance and Internal Consonant Patterns

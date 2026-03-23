@@ -16,7 +16,7 @@ tags:
 - inflation
 - exchange-rates
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Relative Purchasing Power Parity and Inflation Differentials

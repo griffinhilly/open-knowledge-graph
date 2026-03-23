@@ -17,7 +17,7 @@ tags:
 - argument revision
 - drafting
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Global Revision Strategies

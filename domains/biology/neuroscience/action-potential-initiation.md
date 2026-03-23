@@ -19,7 +19,7 @@ tags:
 - excitability
 - nonlinear-dynamics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Action Potential Initiation: Threshold, All-or-None, and Depolarization

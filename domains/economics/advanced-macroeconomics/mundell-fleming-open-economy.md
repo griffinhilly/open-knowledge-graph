@@ -20,7 +20,7 @@ tags:
 - open-economy
 - exchange-rates
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mundell-Fleming Model and Open Economy Macroeconomics

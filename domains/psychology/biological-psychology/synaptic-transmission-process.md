@@ -18,7 +18,7 @@ tags:
 - exocytosis
 - presynaptic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Synaptic Transmission Process

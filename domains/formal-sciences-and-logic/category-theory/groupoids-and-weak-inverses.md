@@ -15,7 +15,7 @@ tags:
 - invertible-morphisms
 - automorphisms
 stage: expert
-status: draft
+status: validated
 ---
 
 # Groupoids and Weak Inverses

@@ -11,7 +11,7 @@ tags:
 - nihilism
 - radical-skepticism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Nihilism

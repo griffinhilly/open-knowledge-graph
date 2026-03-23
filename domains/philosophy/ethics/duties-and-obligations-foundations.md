@@ -16,7 +16,7 @@ tags:
 - normativity
 - deontology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Duties and Moral Obligations

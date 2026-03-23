@@ -15,7 +15,7 @@ tags:
 - mutual intelligibility
 - regional variation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dialect and Regional Variation

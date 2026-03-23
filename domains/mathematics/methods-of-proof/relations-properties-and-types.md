@@ -14,7 +14,7 @@ tags:
 - symmetric
 - transitive
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Relations and Their Properties

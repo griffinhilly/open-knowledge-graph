@@ -20,7 +20,7 @@ tags:
 - heat-of-fusion
 - heat-of-vaporization
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Phase Changes and Diagrams
 

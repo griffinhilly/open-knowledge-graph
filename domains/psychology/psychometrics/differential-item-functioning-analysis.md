@@ -22,7 +22,7 @@ tags:
 - fairness
 - item-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Differential Item Functioning: Detection and Interpretation

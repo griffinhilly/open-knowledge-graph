@@ -20,7 +20,7 @@ tags:
 - ontology
 - metaphysics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Composition and Principles of Composition in Mereology

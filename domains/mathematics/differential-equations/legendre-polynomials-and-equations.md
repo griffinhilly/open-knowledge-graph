@@ -13,7 +13,7 @@ tags:
 - legendre
 - orthogonal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Legendre Polynomials and Legendre's Equation

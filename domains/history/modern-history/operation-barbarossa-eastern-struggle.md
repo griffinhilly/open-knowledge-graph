@@ -18,7 +18,7 @@ tags:
 - Eastern-Europe
 - total-war
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Operation Barbarossa and the Eastern Front Struggle

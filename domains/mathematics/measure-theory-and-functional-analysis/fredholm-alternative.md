@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - spectral-theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Fredholm Alternative

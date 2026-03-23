@@ -11,7 +11,7 @@ tags:
 - coins
 - economics
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Coin Recognition: Penny, Nickel, Dime, Quarter

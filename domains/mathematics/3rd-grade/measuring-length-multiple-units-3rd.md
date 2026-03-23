@@ -13,7 +13,7 @@ tags:
 - length
 - units
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Measuring Length in Multiple Units

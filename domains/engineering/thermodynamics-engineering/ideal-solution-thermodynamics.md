@@ -17,7 +17,7 @@ tags:
 - non-ideal
 - mixing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ideal and Non-ideal Solution Behavior

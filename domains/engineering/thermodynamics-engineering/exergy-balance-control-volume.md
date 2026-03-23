@@ -20,7 +20,7 @@ tags:
 - irreversibility
 - optimal-work
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Exergy (Availability) Balance for Control Volumes

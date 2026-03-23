@@ -20,7 +20,7 @@ tags:
 - ideology
 - hailing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Subject Formation and Interpellation

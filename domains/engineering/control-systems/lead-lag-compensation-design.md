@@ -18,7 +18,7 @@ tags:
 - design
 - steady-state-error
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lead-Lag Compensation Design and Implementation

@@ -15,7 +15,7 @@ tags:
 - parental-responsiveness
 - goodness-of-fit
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Temperament and Goodness-of-Fit in Parenting

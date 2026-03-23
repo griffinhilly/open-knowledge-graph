@@ -17,7 +17,7 @@ tags:
 - forces
 - current interaction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Force on Current-Carrying Conductors in Magnetic Fields

@@ -17,7 +17,7 @@ tags:
 - resocialization
 - identity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Total Institutions and Resocialization

@@ -15,7 +15,7 @@ tags:
 - nature
 - ecocriticism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Environmental History: Nature as Historical Agent

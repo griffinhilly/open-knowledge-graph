@@ -15,7 +15,7 @@ tags:
 - class
 - crenshaw
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Intersectionality and Multiple Systems of Difference

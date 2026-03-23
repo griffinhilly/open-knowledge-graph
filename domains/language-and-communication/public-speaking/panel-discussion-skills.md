@@ -15,7 +15,7 @@ tags:
 - turn-taking
 - collaboration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Panel Discussion Skills

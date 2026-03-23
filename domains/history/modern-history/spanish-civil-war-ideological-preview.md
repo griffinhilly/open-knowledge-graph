@@ -18,7 +18,7 @@ tags:
 - international-brigades
 - ideology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Spanish Civil War as Ideological Conflict Preview

@@ -19,7 +19,7 @@ tags:
 - magnitude
 - epicenter
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Earthquakes and Faults

@@ -18,7 +18,7 @@ tags:
 - philosophy
 - nineteenth-century
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Romantic Landscape, Philosophy, and the Sublime

@@ -19,7 +19,7 @@ tags:
 - sympathetic
 - parasympathetic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Autonomic Nervous System Organization and Organ Effects

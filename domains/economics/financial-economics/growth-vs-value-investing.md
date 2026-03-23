@@ -16,7 +16,7 @@ tags:
 - growth
 - value
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Growth versus Value Investing Styles

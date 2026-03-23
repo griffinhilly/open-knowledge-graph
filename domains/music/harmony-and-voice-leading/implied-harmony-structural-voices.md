@@ -15,7 +15,7 @@ tags:
 - structural-analysis
 - reduction
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Implied Harmony and Structural Voice Leading Analysis

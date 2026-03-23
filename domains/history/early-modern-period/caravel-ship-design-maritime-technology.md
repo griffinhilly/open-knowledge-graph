@@ -15,7 +15,7 @@ tags:
 - ships
 - navigation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Caravel: Maritime Technology and Ocean Navigation

@@ -13,7 +13,7 @@ tags:
 - expanded-form
 - numbers
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Place Value and Expanded Form

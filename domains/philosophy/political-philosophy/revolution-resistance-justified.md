@@ -17,7 +17,7 @@ tags:
 - tyranny
 - overthrow
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Right to Revolution and Justified Resistance

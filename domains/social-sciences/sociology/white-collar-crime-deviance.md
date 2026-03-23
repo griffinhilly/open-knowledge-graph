@@ -16,7 +16,7 @@ tags:
 - inequality
 - organization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # White-Collar Crime and Organizational Deviance

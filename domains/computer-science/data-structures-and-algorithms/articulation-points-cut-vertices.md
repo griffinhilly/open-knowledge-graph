@@ -11,7 +11,7 @@ tags:
 - articulation
 - connectivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Articulation Points and Bridges in Graphs

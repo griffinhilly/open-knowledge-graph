@@ -17,7 +17,7 @@ tags:
 - unbiased-estimation
 - statistics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Rao-Blackwell Theorem

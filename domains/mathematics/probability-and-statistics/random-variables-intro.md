@@ -17,7 +17,7 @@ tags:
 - distribution
 - function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Random Variables

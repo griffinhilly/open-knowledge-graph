@@ -11,7 +11,7 @@ tags:
 - closure
 - properties
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reflexive and Transitive Closure

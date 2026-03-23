@@ -20,7 +20,7 @@ tags:
 - melody
 - independence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Contrapuntal Melody Combination

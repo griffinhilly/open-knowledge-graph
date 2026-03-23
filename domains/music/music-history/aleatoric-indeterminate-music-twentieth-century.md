@@ -15,7 +15,7 @@ tags:
 - indeterminacy
 - modernism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Aleatoric and Indeterminate Music in Twentieth Century

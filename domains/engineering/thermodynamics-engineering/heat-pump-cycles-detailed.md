@@ -16,7 +16,7 @@ tags:
 - cop
 - coefficient-performance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heat Pump Cycles and Heating Applications

@@ -13,7 +13,7 @@ tags:
 - bias-analysis
 - robustness
 stage: expert
-status: draft
+status: validated
 ---
 
 # Sensitivity Analysis for Unmeasured Confounding

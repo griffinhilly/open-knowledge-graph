@@ -15,7 +15,7 @@ tags:
 - heap-files
 - record-layout
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Physical Storage: Pages, Records, and Heap Files

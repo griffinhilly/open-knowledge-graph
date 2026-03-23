@@ -16,7 +16,7 @@ tags:
 - inference
 - cliques
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Markov Random Fields

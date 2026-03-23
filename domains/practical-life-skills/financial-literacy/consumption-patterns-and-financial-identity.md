@@ -18,7 +18,7 @@ tags:
 - spending
 - identity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Consumption Patterns and Financial Identity

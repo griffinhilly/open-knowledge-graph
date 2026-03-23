@@ -15,7 +15,7 @@ tags:
 - weight
 - measurement
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Mass and Weight: What's the Difference?
 

@@ -16,7 +16,7 @@ tags:
 - voice-leading
 - non-chord-tones
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chromatic Voice-Leading Through Approach and Passing Tones

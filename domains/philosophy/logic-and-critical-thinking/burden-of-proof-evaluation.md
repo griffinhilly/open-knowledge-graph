@@ -13,7 +13,7 @@ tags:
 - argument-evaluation
 - critical-thinking
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Understanding and Evaluating Burden of Proof

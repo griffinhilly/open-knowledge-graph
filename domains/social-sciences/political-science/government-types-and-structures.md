@@ -18,7 +18,7 @@ tags:
 - power-distribution
 - systems
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Government Types and Structures

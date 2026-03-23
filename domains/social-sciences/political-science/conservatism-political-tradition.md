@@ -15,7 +15,7 @@ tags:
 - gradual-change
 - institutions
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Conservatism: Tradition, Order, and Gradual Change

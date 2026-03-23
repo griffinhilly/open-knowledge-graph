@@ -17,7 +17,7 @@ tags:
 - derandomization
 - BPP
 stage: advanced
-status: draft
+status: validated
 ---
 
 # BPP and Randomized Complexity

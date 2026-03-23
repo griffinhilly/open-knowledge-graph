@@ -17,7 +17,7 @@ tags:
 - organization
 - space
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Household Organization and Domestic Space

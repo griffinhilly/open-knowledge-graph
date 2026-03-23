@@ -15,7 +15,7 @@ tags:
 - semantics
 - formal
 stage: expert
-status: draft
+status: validated
 ---
 
 # Type Theory in Semantics

@@ -19,7 +19,7 @@ tags:
 - everyday-life
 - design
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Technology in Everyday Life
 

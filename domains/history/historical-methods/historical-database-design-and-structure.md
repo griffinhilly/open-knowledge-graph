@@ -14,7 +14,7 @@ tags:
 - data-structure
 - design
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Historical Database Design and Structure

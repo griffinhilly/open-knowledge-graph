@@ -14,7 +14,7 @@ tags:
 - excellence
 - virtues
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Virtue and Character as Moral Fundamentals

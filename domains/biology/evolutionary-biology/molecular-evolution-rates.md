@@ -21,7 +21,7 @@ tags:
 - substitution
 - time
 stage: advanced
-status: draft
+status: validated
 ---
 # Molecular Clock and Evolutionary Rate Variation
 

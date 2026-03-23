@@ -13,7 +13,7 @@ tags:
 - hydraulic
 - pressure
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Pascal's Principle
 

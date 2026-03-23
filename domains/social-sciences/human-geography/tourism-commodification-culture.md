@@ -19,7 +19,7 @@ tags:
 - place
 - global
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tourism and Cultural Commodification

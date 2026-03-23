@@ -13,7 +13,7 @@ tags:
 - legs
 - trunk
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # My Body Parts

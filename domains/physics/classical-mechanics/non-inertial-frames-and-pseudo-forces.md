@@ -16,7 +16,7 @@ tags:
 - inertial
 - non-inertial
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Non-Inertial Frames and Pseudo-Forces

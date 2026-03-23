@@ -14,7 +14,7 @@ tags:
 - steady-state-error
 - pid
 stage: expert
-status: draft
+status: validated
 ---
 
 # Internal Model Principle and Integral Control Action

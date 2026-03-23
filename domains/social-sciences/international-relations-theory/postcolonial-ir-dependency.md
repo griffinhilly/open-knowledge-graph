@@ -17,7 +17,7 @@ tags:
 - hierarchy
 - sovereignty
 stage: expert
-status: draft
+status: validated
 ---
 
 # Postcolonial IR and Global Hierarchies

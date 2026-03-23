@@ -13,7 +13,7 @@ tags:
 - sound-change
 - phonological-processes
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Epenthesis (Insertion Process)

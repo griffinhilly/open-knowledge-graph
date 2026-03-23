@@ -15,7 +15,7 @@ tags:
 - nouns
 - number
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Forming Regular Plural Nouns

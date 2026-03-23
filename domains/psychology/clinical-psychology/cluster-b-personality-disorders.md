@@ -13,7 +13,7 @@ tags:
 - narcissism
 - borderline
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cluster B Personality Disorders (Dramatic/Emotional)

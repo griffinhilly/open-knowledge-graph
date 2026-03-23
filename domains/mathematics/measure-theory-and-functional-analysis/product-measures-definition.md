@@ -12,7 +12,7 @@ tags:
 - measure-theory
 - product-measures
 stage: expert
-status: draft
+status: validated
 ---
 
 # Product Measures

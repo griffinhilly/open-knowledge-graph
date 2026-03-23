@@ -15,7 +15,7 @@ tags:
 - central-bank
 - policy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Central Bank Credibility and Inflation Expectations

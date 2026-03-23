@@ -16,7 +16,7 @@ tags:
 - crf
 - structured
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sequence Labeling and CRFs

@@ -15,7 +15,7 @@ tags:
 - signal-transduction
 - two-component
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bacterial Chemotaxis and Two-Component Signal Transduction

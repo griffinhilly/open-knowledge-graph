@@ -13,7 +13,7 @@ tags:
 - learning-strategies
 - metacognition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memory Development: Encoding Strategies and Retrieval

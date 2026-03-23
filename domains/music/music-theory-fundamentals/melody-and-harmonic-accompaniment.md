@@ -13,7 +13,7 @@ tags:
 - harmony
 - texture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Melody and Harmonic Accompaniment: Creating Musical Texture

@@ -14,7 +14,7 @@ tags:
 - relations
 - cartesian-product
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cartesian Products and Relations

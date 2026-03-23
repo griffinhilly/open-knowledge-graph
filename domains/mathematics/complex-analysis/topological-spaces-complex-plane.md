@@ -17,7 +17,7 @@ tags:
 - open-sets
 - neighborhoods
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Topology of the Complex Plane

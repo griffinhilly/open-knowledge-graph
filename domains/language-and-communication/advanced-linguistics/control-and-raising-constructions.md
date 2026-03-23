@@ -13,7 +13,7 @@ tags:
 - argument-structure
 - control
 stage: expert
-status: draft
+status: validated
 ---
 
 # Control and Raising Constructions

@@ -18,7 +18,7 @@ tags:
 - international-law
 - norms
 stage: expert
-status: draft
+status: validated
 ---
 
 # English School: Pluralism and Solidarism

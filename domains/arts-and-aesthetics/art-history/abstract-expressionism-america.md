@@ -20,7 +20,7 @@ tags:
 - american
 - postwar
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Abstract Expressionism and the Gesture of Creation

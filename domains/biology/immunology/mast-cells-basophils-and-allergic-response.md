@@ -20,7 +20,7 @@ tags:
 - histamine
 - allergic-inflammation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mast Cells and Basophils in Allergic and Innate Responses

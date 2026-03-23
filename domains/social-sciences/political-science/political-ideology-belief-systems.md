@@ -17,7 +17,7 @@ tags:
 - political-values
 - political-behavior
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Political Ideologies as Belief Systems

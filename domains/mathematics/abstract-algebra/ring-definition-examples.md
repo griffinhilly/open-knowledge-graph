@@ -15,7 +15,7 @@ tags:
 - commutativity
 - unity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Ring Definition and Examples

@@ -16,7 +16,7 @@ tags:
 - linear-algebra
 - quantum-basics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hilbert Spaces and Dirac Notation

@@ -13,7 +13,7 @@ tags:
 - solids
 - characteristic-temperature
 stage: expert
-status: draft
+status: validated
 ---
 
 # Debye Temperature

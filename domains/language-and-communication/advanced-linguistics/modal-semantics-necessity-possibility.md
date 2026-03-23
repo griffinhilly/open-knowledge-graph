@@ -13,7 +13,7 @@ tags:
 - modality
 - possible-worlds
 stage: expert
-status: draft
+status: validated
 ---
 
 # Modal Semantics: Necessity and Possibility

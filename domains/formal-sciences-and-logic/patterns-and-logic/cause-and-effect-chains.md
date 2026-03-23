@@ -17,7 +17,7 @@ tags:
 - if-then
 - order
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Cause and Effect Chains

@@ -19,7 +19,7 @@ tags:
 - figurative language
 - style
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Rhetorical Devices in Prose

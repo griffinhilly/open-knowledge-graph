@@ -16,7 +16,7 @@ tags:
 - output
 - cyclical-relationships
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Okun's Law

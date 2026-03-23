@@ -16,7 +16,7 @@ tags:
 - development
 - disease-burden
 stage: expert
-status: draft
+status: validated
 ---
 
 # Child Mortality Causes and Development Transitions

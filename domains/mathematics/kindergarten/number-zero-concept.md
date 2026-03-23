@@ -15,7 +15,7 @@ tags:
 - cardinality
 - counting
 stage: pre-formal
-status: draft
+status: validated
 ---
 # The Number Zero
 

@@ -16,7 +16,7 @@ tags:
 - collision-resolution
 - linked-lists
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Separate Chaining for Hash Table Collisions

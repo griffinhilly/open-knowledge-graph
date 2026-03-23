@@ -17,7 +17,7 @@ tags:
 - frequency-domain
 - aperiodic-signals
 stage: expert
-status: draft
+status: validated
 ---
 
 # Fourier Transform: Definition and Properties

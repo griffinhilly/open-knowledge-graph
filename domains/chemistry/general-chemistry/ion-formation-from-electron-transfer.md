@@ -17,7 +17,7 @@ tags:
 - anions
 - octet rule
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ion Formation from Electron Transfer

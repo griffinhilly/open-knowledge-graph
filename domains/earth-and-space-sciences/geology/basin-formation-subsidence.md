@@ -14,7 +14,7 @@ tags:
 - plate-tectonics
 - loading
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Basin Formation and Subsidence Mechanisms

@@ -14,7 +14,7 @@ tags:
 - energy-transfer
 - first-law
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Types of Work: Mechanical PdV and Beyond

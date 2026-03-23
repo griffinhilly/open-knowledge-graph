@@ -17,7 +17,7 @@ tags:
 - 3x3
 - volume
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Determinants of 2×2 and 3×3 Matrices

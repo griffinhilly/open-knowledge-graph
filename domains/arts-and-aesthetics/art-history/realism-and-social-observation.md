@@ -20,7 +20,7 @@ tags:
 - peasant
 - urban
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Realism and the Dignity of Contemporary Life

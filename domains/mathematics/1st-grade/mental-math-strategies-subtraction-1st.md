@@ -16,7 +16,7 @@ tags:
 - strategies
 - subtraction
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Mental Math Strategies for Subtraction

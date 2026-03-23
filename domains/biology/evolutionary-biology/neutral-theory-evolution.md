@@ -16,7 +16,7 @@ tags:
 - drift
 - synonymous-substitutions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Neutral Theory of Molecular Evolution

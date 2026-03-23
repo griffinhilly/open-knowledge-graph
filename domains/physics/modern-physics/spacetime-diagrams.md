@@ -16,7 +16,7 @@ tags:
 - visualization
 - spacetime
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Spacetime Diagrams and Minkowski Geometry

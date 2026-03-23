@@ -17,7 +17,7 @@ tags:
 - discrimination
 - difficulty
 stage: expert
-status: draft
+status: validated
 ---
 
 # Two-Parameter Logistic IRT Model (2PL)

@@ -16,7 +16,7 @@ tags:
 - limitations
 - performance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Attention Capacity and Bottlenecks

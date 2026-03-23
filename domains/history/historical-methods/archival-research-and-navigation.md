@@ -16,7 +16,7 @@ tags:
 - research
 - sources
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Archival Research: Finding, Accessing, and Using Historical Records

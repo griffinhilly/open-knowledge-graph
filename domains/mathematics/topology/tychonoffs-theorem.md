@@ -14,7 +14,7 @@ tags:
 - tychonoff
 - product-compactness
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Tychonoff's Theorem

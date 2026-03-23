@@ -13,7 +13,7 @@ tags:
 - consensus
 - correctness
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Distributed Transactions and Two-Phase Commit

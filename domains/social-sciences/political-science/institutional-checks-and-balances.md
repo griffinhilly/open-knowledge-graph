@@ -16,7 +16,7 @@ tags:
 - oversight
 - power-constraint
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Institutional Checks and Balances

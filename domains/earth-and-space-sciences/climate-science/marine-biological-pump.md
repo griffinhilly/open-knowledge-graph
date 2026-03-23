@@ -18,7 +18,7 @@ tags:
 - productivity
 - sequestration
 stage: expert
-status: draft
+status: validated
 ---
 
 # Marine Biological Pump and Carbon Sequestration

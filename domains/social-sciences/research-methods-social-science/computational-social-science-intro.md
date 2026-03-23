@@ -16,7 +16,7 @@ tags:
 - text-analysis
 - digital-methods
 stage: expert
-status: draft
+status: validated
 ---
 
 # Computational Social Science

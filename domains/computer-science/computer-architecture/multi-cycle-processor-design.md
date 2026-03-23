@@ -15,7 +15,7 @@ tags:
 - multi-cycle
 - state-control
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multi-Cycle Processor Design and Execution States

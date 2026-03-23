@@ -17,7 +17,7 @@ tags:
 - language
 - formalization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Signature and Formal Vocabulary

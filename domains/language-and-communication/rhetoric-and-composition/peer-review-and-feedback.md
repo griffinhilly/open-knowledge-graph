@@ -15,7 +15,7 @@ tags:
 - constructive criticism
 - collaboration
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Peer Review and Feedback

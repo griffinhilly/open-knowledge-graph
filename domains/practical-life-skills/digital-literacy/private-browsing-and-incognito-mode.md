@@ -16,7 +16,7 @@ tags:
 - browsing
 - browser-settings
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Private Browsing and Incognito Mode

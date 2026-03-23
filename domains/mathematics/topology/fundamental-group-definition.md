@@ -17,7 +17,7 @@ tags:
 - algebraic-topology
 - group-homomorphisms
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Fundamental Group

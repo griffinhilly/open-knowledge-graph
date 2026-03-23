@@ -15,7 +15,7 @@ tags:
 - T4
 - thermogenesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thyroid Hormone Metabolism and Metabolic Effects

@@ -14,7 +14,7 @@ tags:
 - strikes
 - collective-action
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Labor Movements and Trade Union Organizing

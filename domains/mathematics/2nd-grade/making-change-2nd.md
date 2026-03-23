@@ -16,7 +16,7 @@ tags:
 - subtraction
 - transactions
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Making Change

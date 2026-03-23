@@ -14,7 +14,7 @@ tags:
 - game-theory
 - information-asymmetry
 stage: expert
-status: draft
+status: validated
 ---
 
 # Signaling Games: Separating and Pooling Equilibria

@@ -13,7 +13,7 @@ tags:
 - approximation
 - computation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Euler's Method for Numerical Solution of ODEs

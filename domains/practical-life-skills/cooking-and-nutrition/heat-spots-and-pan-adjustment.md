@@ -18,7 +18,7 @@ tags:
 - management
 - uneven-cooking
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Heat Spots and Pan Adjustment

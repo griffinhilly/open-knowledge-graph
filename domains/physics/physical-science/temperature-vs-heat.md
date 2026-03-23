@@ -16,7 +16,7 @@ tags:
 - heat
 - thermometer
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Temperature vs. Heat
 

@@ -19,7 +19,7 @@ tags:
 - tactile
 - mark-making
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Texture: Visual and Tactile Qualities

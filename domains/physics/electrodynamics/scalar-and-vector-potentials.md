@@ -15,7 +15,7 @@ tags:
 - potentials
 - field-decomposition
 stage: expert
-status: draft
+status: validated
 ---
 
 # Scalar and Vector Potentials in Electromagnetism

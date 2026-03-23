@@ -14,7 +14,7 @@ tags:
 - tectonics
 - deformation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Plate Boundary Types and Tectonic Processes

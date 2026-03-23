@@ -13,7 +13,7 @@ tags:
 - flux
 - surface-integral
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Flux Integrals of Vector Fields

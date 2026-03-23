@@ -15,7 +15,7 @@ tags:
 - mobility
 - economic-opportunity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Labor Migration and Economic Mobility

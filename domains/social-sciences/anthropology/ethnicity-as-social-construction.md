@@ -18,7 +18,7 @@ tags:
 - boundaries
 - postcolonial
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ethnicity as a Social Construction

@@ -18,7 +18,7 @@ tags:
 - temperature
 - lapse-rate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dry Adiabatic Lapse Rate

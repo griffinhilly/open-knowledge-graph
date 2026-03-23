@@ -18,7 +18,7 @@ tags:
 - stationarity
 - policy-evaluation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Time Series Analysis of Social Phenomena

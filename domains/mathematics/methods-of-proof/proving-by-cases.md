@@ -14,7 +14,7 @@ tags:
 - exhaustion
 - disjunction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Proving by Cases and Exhaustion

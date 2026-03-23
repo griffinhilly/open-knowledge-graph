@@ -17,7 +17,7 @@ tags:
 - counterpoint
 - technique
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voice Exchange as a Contrapuntal Technique

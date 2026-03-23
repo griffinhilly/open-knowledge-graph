@@ -19,7 +19,7 @@ tags:
 - language
 - novel-form
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bakhtin: Dialogism and Heteroglossia

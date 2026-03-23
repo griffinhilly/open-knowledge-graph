@@ -17,7 +17,7 @@ tags:
 - stages
 - reproduction
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Animal Life Cycles

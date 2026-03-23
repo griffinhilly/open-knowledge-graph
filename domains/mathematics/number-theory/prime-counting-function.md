@@ -13,7 +13,7 @@ tags:
 - chebyshev
 - asymptotic-bounds
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Prime Counting Function and Chebyshev Bounds

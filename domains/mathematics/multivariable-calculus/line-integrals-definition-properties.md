@@ -14,7 +14,7 @@ tags:
 - scalar
 - vector-fields
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Line Integrals of Scalar and Vector Fields

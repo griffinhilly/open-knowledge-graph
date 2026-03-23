@@ -14,7 +14,7 @@ tags:
 - protocol
 - fault-tolerant
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Three-Phase Commit Protocol

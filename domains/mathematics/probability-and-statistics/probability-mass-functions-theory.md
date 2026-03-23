@@ -13,7 +13,7 @@ tags:
 - pmf
 - discrete
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Probability Mass Functions and Discrete Distributions

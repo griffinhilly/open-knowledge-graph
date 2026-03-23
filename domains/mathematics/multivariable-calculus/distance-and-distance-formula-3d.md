@@ -16,7 +16,7 @@ tags:
 - metric
 - 3d-space
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Distance Formula and Metric in 3D Space

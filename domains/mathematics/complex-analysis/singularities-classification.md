@@ -14,7 +14,7 @@ tags:
 - poles
 - essential-singularities
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Classification of Isolated Singularities

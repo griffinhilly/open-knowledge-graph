@@ -15,7 +15,7 @@ tags:
 - thinking
 - control center
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Brain and Nerves

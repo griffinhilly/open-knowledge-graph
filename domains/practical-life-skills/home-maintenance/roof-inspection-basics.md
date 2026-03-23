@@ -23,7 +23,7 @@ tags:
 - shingles
 - exterior-maintenance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Roof Inspection Basics

@@ -18,7 +18,7 @@ tags:
 - perspective
 - interpretation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Narrator Analysis and Reliability in Interpretation

@@ -10,8 +10,9 @@ prerequisites:
   type: hard
 builds-toward:
 - string-operations
-- basic-input-output
+- input-output
 - error-handling-exceptions
+- comparison-operators
 tags:
 - casting
 - type conversion
@@ -22,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Type Conversion and Casting
 
 ## Core Idea

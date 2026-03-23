@@ -16,7 +16,7 @@ tags:
 - development
 - power
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Megacity Development and Urban Hierarchies

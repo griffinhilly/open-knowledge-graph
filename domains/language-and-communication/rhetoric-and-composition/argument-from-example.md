@@ -15,7 +15,7 @@ tags:
 - evidence
 - reasoning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Argument From Example

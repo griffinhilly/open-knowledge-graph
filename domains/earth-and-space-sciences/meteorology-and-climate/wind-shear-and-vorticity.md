@@ -19,7 +19,7 @@ tags:
 - dynamics
 - convection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Wind Shear and Atmospheric Vorticity

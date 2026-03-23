@@ -11,7 +11,7 @@ tags:
 - rifting
 - tectonics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Continental Rifting and Extensional Tectonics

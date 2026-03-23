@@ -14,7 +14,7 @@ tags:
 - knowledge-sharing
 - rationale
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Design Documentation and Rationale

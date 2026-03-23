@@ -17,7 +17,7 @@ tags:
 - ensemble
 - foundations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fundamental Principles of Statistical Mechanics

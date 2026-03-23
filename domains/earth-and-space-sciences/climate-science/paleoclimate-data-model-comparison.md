@@ -14,7 +14,7 @@ tags:
 - ensemble-modeling
 - model-intercomparison
 stage: expert
-status: draft
+status: validated
 ---
 
 # Comparing Paleoclimate Models to Observational Data

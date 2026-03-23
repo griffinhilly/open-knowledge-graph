@@ -14,7 +14,7 @@ tags:
 - state-verbs
 - complement
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Copular and Linking Verbs

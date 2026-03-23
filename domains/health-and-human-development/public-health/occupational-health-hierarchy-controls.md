@@ -14,7 +14,7 @@ tags:
 - hierarchy
 - workplace-safety
 stage: expert
-status: draft
+status: validated
 ---
 
 # Occupational Health and the Hierarchy of Controls

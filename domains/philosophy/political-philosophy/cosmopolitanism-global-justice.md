@@ -17,7 +17,7 @@ tags:
 - duties
 - equality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cosmopolitanism and Global Justice

@@ -18,7 +18,7 @@ tags:
 - transformation
 - innovation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Institutional Change and Transformation

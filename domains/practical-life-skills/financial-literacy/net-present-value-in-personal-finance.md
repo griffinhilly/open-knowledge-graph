@@ -20,7 +20,7 @@ tags:
 - comparison
 - decision-framework
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Net Present Value in Personal Finance

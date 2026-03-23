@@ -17,7 +17,7 @@ tags:
 - cytotoxicity
 - killing
 stage: expert
-status: draft
+status: validated
 ---
 
 # CD8+ Cytotoxic T Lymphocytes (CTLs)

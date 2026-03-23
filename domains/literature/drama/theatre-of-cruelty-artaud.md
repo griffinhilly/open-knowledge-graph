@@ -17,7 +17,7 @@ tags:
 - 20th-century
 - theory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Theatre of Cruelty and Antonin Artaud

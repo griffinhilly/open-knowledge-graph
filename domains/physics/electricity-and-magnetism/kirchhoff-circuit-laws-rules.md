@@ -13,7 +13,7 @@ tags:
 - circuit-rules
 - conservation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kirchhoff's Circuit Laws: Voltage and Current

@@ -15,7 +15,7 @@ tags:
 - clarity
 - modification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Syntactic Ambiguity and Structural Clarity

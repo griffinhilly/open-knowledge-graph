@@ -15,7 +15,7 @@ tags:
 - sample-size
 - power
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sample Size Determination in Research Planning

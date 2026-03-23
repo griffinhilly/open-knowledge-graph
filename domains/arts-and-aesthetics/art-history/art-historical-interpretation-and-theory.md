@@ -16,7 +16,7 @@ tags:
 - frameworks
 - methodology
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Theories and Interpretive Frameworks in Art History

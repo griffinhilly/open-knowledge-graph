@@ -13,7 +13,7 @@ tags:
 - foundational
 - membership
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Set Membership and Notation

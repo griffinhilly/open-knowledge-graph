@@ -14,7 +14,7 @@ tags:
 - methodology
 - what-if
 stage: expert
-status: draft
+status: validated
 ---
 
 # Counterfactual History and Historical Contingency

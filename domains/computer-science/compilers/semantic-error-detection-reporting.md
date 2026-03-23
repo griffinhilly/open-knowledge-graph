@@ -15,7 +15,7 @@ tags:
 - error-detection
 - diagnostics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Semantic Error Detection and Reporting

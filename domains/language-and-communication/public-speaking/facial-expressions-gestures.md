@@ -12,7 +12,7 @@ tags:
 - congruence
 - nonverbal
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Facial Expressions and Gestures

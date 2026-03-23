@@ -14,7 +14,7 @@ tags:
 - neurotransmitters
 - biochemistry
 stage: expert
-status: draft
+status: validated
 ---
 
 # Neurotransmitter Synthesis and Storage

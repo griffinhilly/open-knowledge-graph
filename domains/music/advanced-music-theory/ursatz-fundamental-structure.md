@@ -17,7 +17,7 @@ tags:
 - background
 - harmony
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Ursatz and Fundamental Structure

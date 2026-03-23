@@ -16,7 +16,7 @@ tags:
 - adder
 - carry-propagation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Full Adder and Carry Propagation

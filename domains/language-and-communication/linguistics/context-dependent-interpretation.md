@@ -15,7 +15,7 @@ tags:
 - speaker meaning
 - sentence meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Context-Dependent Interpretation

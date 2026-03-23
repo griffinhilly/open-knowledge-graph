@@ -16,7 +16,7 @@ tags:
 - compressibility
 - sound
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mach Number and Speed of Sound: Compressibility Effects

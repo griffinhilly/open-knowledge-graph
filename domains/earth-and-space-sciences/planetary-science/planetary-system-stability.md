@@ -14,7 +14,7 @@ tags:
 - chaos
 - orbital-mechanics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Planetary System Stability and Long-Term Dynamics

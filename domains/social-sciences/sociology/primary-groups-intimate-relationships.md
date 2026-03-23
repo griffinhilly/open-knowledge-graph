@@ -14,7 +14,7 @@ tags:
 - relationships
 - socialization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Primary Groups and Intimate Relationships

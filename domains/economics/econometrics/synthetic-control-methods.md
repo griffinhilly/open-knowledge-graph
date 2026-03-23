@@ -13,7 +13,7 @@ tags:
 - causal-inference
 - policy-evaluation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Synthetic Control Methods for Policy Evaluation

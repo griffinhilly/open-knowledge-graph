@@ -19,7 +19,7 @@ tags:
 - acceptance
 - computation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Turing Machine Model and Formal Definition

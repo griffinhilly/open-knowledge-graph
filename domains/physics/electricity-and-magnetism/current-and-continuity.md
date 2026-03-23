@@ -13,7 +13,7 @@ tags:
 - continuity
 - charge-conservation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electric Current and Continuity Equation

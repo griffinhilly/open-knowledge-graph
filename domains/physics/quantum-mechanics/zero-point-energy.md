@@ -11,7 +11,7 @@ tags:
 - energy
 - ground-state
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Zero-Point Energy

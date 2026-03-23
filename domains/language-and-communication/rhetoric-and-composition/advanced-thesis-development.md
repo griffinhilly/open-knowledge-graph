@@ -17,7 +17,7 @@ tags:
 - main-idea
 - composition-focus
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Advanced Thesis Development

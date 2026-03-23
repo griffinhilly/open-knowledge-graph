@@ -19,7 +19,7 @@ tags:
 - ideological-conflict
 - superpowers
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Cold War: Bipolar Ideological and Military Conflict

@@ -16,7 +16,7 @@ tags:
 - truth-conditions
 - semantics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Presupposition and Assertion

@@ -15,7 +15,7 @@ tags:
 - binding
 - anaphora
 stage: expert
-status: draft
+status: validated
 ---
 
 # Binding Theory and Anaphora Resolution

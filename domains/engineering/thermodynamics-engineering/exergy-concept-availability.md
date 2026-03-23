@@ -15,7 +15,7 @@ tags:
 - availability
 - useful-work
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Exergy and Availability: Useful Work Potential

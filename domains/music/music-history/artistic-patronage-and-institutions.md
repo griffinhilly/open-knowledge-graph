@@ -16,7 +16,7 @@ tags:
 - economics
 - performance-venues
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Artistic Patronage and Musical Institutions

@@ -18,7 +18,7 @@ tags:
 - plant-compounds
 - antioxidant
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phytonutrients, Polyphenols, and Plant Bioactives

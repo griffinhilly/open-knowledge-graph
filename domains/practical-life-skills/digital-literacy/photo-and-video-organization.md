@@ -14,7 +14,7 @@ tags:
 - organization
 - metadata
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Photo and Video Organization

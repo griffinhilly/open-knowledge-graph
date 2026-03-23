@@ -16,7 +16,7 @@ tags:
 - consent
 - obedience
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Authority and Political Legitimacy

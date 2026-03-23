@@ -16,7 +16,7 @@ tags:
 - automaticity
 - sinoatrial-node
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pacemaker Automaticity and the Sinoatrial Node

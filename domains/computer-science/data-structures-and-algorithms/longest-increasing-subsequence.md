@@ -15,7 +15,7 @@ tags:
 - greedy
 - binary-search
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Longest Increasing Subsequence (LIS) Problem

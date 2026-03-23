@@ -18,7 +18,7 @@ tags:
 - exile
 - transnational
 stage: expert
-status: draft
+status: validated
 ---
 
 # Diaspora Literature and the Politics of Displacement

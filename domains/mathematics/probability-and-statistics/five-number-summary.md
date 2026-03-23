@@ -13,7 +13,7 @@ tags:
 - quartiles
 - quantiles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Five-Number Summary

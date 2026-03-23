@@ -14,7 +14,7 @@ tags:
 - parabolic
 - catenary
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Analysis of Cables and Suspension Systems

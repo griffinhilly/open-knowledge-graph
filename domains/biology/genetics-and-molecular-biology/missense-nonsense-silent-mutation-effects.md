@@ -16,7 +16,7 @@ tags:
 - codon-changes
 - phenotypic-effects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Missense, Nonsense, and Silent Mutations

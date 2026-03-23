@@ -16,7 +16,7 @@ tags:
 - proofs
 - reduction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Proving Undecidability via Reduction

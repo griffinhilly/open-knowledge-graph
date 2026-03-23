@@ -15,7 +15,7 @@ tags:
 - constraints
 - motion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rolling Motion Without Slipping: Equations and Analysis

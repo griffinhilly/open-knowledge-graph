@@ -15,7 +15,7 @@ tags:
 - preference organization
 - ethnomethodology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conversation Analysis

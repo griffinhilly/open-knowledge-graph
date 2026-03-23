@@ -17,7 +17,7 @@ tags:
 - microevolution
 - macroevolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Microevolution and Macroevolution

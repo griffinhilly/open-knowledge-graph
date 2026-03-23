@@ -13,7 +13,7 @@ tags:
 - coagulation-disorders
 - hemophilia
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bleeding Disorders

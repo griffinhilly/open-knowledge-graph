@@ -17,7 +17,7 @@ tags:
 - movement
 - voluntary-control
 stage: expert
-status: draft
+status: validated
 ---
 
 # Primary Motor Cortex: Voluntary Movement and Motor Control

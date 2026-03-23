@@ -16,7 +16,7 @@ tags:
 - structural
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chromatic Bass Lines and Structural Function

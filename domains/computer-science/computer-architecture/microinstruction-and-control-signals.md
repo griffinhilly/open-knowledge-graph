@@ -13,7 +13,7 @@ tags:
 - microinstruction
 - cpu-design
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Microinstruction Format and Control Signals

@@ -14,7 +14,7 @@ tags:
 - fugue
 - imitation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Canon and Fugal Writing Foundations

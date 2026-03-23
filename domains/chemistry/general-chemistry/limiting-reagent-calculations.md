@@ -19,7 +19,7 @@ tags:
 - percent-yield
 - stoichiometry
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Limiting Reagent Calculations
 

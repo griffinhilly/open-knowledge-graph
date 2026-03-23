@@ -14,7 +14,7 @@ tags:
 - positivism
 - comte
 stage: expert
-status: draft
+status: validated
 ---
 
 # Auguste Comte and Positivism in Sociology

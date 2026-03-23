@@ -15,7 +15,7 @@ tags:
 - repair
 - water-conservation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Toilet Repair Basics

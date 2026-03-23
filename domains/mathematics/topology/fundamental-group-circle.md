@@ -13,7 +13,7 @@ tags:
 - fundamental-group
 - circle
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Fundamental Group of the Circle

@@ -14,7 +14,7 @@ tags:
 - metajustification
 - rationality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Higher-Order Evidence and Justification

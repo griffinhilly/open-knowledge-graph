@@ -16,7 +16,7 @@ tags:
 - modernization
 - Green Revolution
 stage: expert
-status: draft
+status: validated
 ---
 
 # Agricultural Development and Modernization

@@ -12,7 +12,7 @@ tags:
 - quantum-mechanics
 - uncertainty
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Uncertainty Relations and Simultaneous Measurement

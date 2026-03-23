@@ -17,7 +17,7 @@ tags:
 - cooperation
 - realism-vs-liberalism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Relative vs. Absolute Gains in International Politics

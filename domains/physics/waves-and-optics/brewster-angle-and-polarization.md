@@ -13,7 +13,7 @@ tags:
 - polarization
 - reflection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Brewster's Angle and Polarization by Reflection

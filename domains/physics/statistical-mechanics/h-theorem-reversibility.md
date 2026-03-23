@@ -15,7 +15,7 @@ tags:
 - entropy-increase
 - irreversibility
 stage: expert
-status: draft
+status: validated
 ---
 
 # The H-Theorem and the Arrow of Time

@@ -18,7 +18,7 @@ tags:
 - multiple-meaning
 - compression
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Zeugma: Semantic Yoking and Wit

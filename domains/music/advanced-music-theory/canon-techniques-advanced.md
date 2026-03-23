@@ -12,7 +12,7 @@ tags:
 - imitation
 - advanced-forms
 stage: expert
-status: draft
+status: validated
 ---
 
 # Canon Techniques and Forms

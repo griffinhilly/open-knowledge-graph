@@ -12,7 +12,7 @@ tags:
 - number-sequence
 - cardinality
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Counting to Five

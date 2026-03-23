@@ -15,7 +15,7 @@ tags:
 - decomposition
 - reaction-types
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Synthesis and Decomposition Reactions
 

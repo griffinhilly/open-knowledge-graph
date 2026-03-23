@@ -15,7 +15,7 @@ tags:
 - estimation
 - fixed-effects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # First-Difference Estimator for Panel Data

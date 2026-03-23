@@ -17,7 +17,7 @@ tags:
 - symmetry
 - lattice-structures
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Crystal Systems and Bravais Lattices

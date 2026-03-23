@@ -12,7 +12,7 @@ tags:
 - symmetry
 - composition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Balance: Symmetrical, Asymmetrical, and Radial

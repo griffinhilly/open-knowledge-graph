@@ -16,7 +16,7 @@ tags:
 - numbers
 - fixed-point
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fixed-Point Number Representation

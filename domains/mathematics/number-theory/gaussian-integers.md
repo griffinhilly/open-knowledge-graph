@@ -13,7 +13,7 @@ tags:
 - complex-integers
 - unique-factorization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Gaussian Integers

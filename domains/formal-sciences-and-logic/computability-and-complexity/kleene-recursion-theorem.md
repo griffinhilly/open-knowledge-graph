@@ -13,7 +13,7 @@ tags:
 - recursion
 - fixed-points
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Kleene's Recursion Theorem and Self-Reference

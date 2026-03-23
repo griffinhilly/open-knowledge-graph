@@ -18,7 +18,7 @@ tags:
 - nationalism
 - literature
 stage: expert
-status: draft
+status: validated
 ---
 
 # Literature, Identity, and Nation: Constructing Literary Nationalisms

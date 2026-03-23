@@ -20,7 +20,7 @@ tags:
 - sound
 - tonotopy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Auditory System Anatomy and Physiology

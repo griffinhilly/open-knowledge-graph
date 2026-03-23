@@ -16,7 +16,7 @@ tags:
 - macrophages
 - epithelioid-cells
 stage: expert
-status: draft
+status: validated
 ---
 
 # Granulomas: Formation and Chronic Inflammation

@@ -18,7 +18,7 @@ tags:
 - definitions
 - boundaries
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fundamentals of Thermodynamic Systems

@@ -14,7 +14,7 @@ tags:
 - backward-chaining
 - unification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Logic Programming Basics (Prolog)

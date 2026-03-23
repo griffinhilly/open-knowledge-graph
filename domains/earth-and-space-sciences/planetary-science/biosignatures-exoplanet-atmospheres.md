@@ -15,7 +15,7 @@ tags:
 - life-detection
 - spectroscopy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Biosignatures in Exoplanet Atmospheres

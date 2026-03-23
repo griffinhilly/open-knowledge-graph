@@ -20,7 +20,7 @@ tags:
 - mathematics
 - form
 stage: expert
-status: draft
+status: validated
 ---
 
 # Temporal Proportions and Ratios in Music

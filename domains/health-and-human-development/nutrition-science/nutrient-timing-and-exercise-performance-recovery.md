@@ -18,7 +18,7 @@ tags:
 - recovery
 - muscle-protein-synthesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nutrient Timing and Exercise Performance and Recovery

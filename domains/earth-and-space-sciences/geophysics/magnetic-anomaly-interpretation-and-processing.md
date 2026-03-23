@@ -14,7 +14,7 @@ tags:
 - processing
 - interpretation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Magnetic Anomaly Interpretation and Reduction

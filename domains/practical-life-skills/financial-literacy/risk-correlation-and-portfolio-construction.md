@@ -18,7 +18,7 @@ tags:
 - diversification
 - portfolio
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Risk Correlation and Portfolio Construction

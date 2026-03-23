@@ -12,7 +12,7 @@ tags:
 - networks
 - differential-equations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Applications: Modeling with Linear Algebra

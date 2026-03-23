@@ -15,7 +15,7 @@ tags:
 - context
 - pragmatics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Semantic Underdetermination and Context

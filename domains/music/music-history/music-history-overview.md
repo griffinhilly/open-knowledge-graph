@@ -15,7 +15,7 @@ tags:
 - methodology
 - periodization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Overview of Music History

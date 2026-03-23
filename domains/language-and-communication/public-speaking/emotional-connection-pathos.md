@@ -14,7 +14,7 @@ tags:
 - connection
 - appeal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Creating Emotional Connection and Pathos

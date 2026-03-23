@@ -18,7 +18,7 @@ tags:
 - nl
 - definitions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Space Complexity: L, NL, and PSPACE

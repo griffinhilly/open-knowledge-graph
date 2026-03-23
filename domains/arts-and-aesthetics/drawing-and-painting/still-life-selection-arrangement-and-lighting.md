@@ -17,7 +17,7 @@ tags:
 - setup
 - composition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Still Life: Selection, Arrangement, and Lighting

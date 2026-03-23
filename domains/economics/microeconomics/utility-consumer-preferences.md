@@ -14,7 +14,7 @@ tags:
 - satisfaction
 - consumer-behavior
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Utility and Consumer Preferences

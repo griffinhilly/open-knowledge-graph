@@ -13,7 +13,7 @@ tags:
 - sequential-consistency
 - strong-consistency
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Strong Consistency: Linearizability and Sequential Consistency

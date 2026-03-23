@@ -17,7 +17,7 @@ tags:
 - NREM
 - homeostasis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sleep, Circadian Rhythms, and Sleep Homeostasis

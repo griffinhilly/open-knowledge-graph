@@ -12,7 +12,7 @@ tags:
 - constraints
 - creativity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Insight and Constraint Relaxation in Problem-Solving

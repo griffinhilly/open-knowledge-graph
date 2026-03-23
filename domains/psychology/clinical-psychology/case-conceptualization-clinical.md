@@ -14,7 +14,7 @@ tags:
 - treatment-planning
 - clinical-reasoning
 stage: expert
-status: draft
+status: validated
 ---
 
 # Case Conceptualization and Clinical Formulation

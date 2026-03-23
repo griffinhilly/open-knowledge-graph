@@ -11,7 +11,7 @@ tags:
 - fairness
 - bias-mitigation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # AI Ethics, Fairness, and Bias

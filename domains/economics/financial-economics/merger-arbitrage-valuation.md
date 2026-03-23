@@ -14,7 +14,7 @@ tags:
 - valuation
 - risk
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Merger Arbitrage and Deal Valuation

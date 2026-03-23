@@ -10,7 +10,7 @@ tags:
 - algorithms
 - complexity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Complexity Classes and Asymptotic Analysis

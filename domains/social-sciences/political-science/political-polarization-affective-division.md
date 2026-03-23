@@ -17,7 +17,7 @@ tags:
 - conflict
 - division
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Political Polarization and Affective Division

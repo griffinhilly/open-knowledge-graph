@@ -14,7 +14,7 @@ tags:
 - consolidation
 - protein-synthesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Learning and Memory at the Synaptic Level

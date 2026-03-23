@@ -14,7 +14,7 @@ tags:
 - cycle
 - round-robin
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Circular Linked Lists

@@ -11,7 +11,7 @@ tags:
 - psychopharmacology
 - dopamine
 stage: expert
-status: draft
+status: validated
 ---
 
 # Antipsychotics: Mechanisms and Clinical Application

@@ -16,7 +16,7 @@ tags:
 - complete-type
 - characterization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ryll-Nardzewski Theorem: Syntactic Characterization of Categoricity

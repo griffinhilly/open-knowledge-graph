@@ -11,7 +11,7 @@ tags:
 - strings
 - distance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Edit Distance: Levenshtein Distance and DP

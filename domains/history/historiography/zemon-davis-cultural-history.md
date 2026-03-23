@@ -18,7 +18,7 @@ tags:
 - meaning
 - gender
 stage: expert
-status: draft
+status: validated
 ---
 
 # Natalie Zemon Davis and Cultural History

@@ -20,7 +20,7 @@ tags:
 - anaphylatoxins
 - inflammation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Complement Cascade Pathophysiology

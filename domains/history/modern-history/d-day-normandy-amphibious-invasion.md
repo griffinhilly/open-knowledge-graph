@@ -18,7 +18,7 @@ tags:
 - logistics
 - Western-Europe
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # D-Day: The Normandy Amphibious Invasion

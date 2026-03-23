@@ -18,7 +18,7 @@ tags:
 - altruism
 - helping-behavior
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Prosocial Behavior, Empathy, and Altruism

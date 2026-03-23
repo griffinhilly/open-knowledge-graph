@@ -16,7 +16,7 @@ tags:
 - entity-extraction
 - information-extraction
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Named Entity Recognition (NER)

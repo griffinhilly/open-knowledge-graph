@@ -14,7 +14,7 @@ tags:
 - addiction
 - aud
 stage: expert
-status: draft
+status: validated
 ---
 
 # Alcohol Use Disorder

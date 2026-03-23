@@ -15,7 +15,7 @@ tags:
 - dml
 - data-loading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # INSERT...SELECT: Populating Tables from Queries

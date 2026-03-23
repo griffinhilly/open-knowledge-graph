@@ -15,7 +15,7 @@ tags:
 - rupture
 - seismology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fault Mechanics and Earthquake Rupture Propagation

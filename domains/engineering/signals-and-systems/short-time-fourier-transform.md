@@ -16,7 +16,7 @@ tags:
 - spectral-analysis
 - windows
 stage: expert
-status: draft
+status: validated
 ---
 
 # Short-Time Fourier Transform

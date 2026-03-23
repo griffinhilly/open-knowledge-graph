@@ -16,7 +16,7 @@ tags:
 - source-routing
 - traffic-engineering
 stage: advanced
-status: draft
+status: validated
 ---
 # Segment Routing and Source Routing
 

@@ -13,7 +13,7 @@ tags:
 - technique
 - interior
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Paint Brush and Roller Techniques

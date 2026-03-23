@@ -16,7 +16,7 @@ tags:
 - spring
 - stored-energy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Elastic Potential Energy
 

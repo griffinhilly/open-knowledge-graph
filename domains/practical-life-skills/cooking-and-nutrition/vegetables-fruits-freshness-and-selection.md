@@ -15,7 +15,7 @@ tags:
 - shopping
 - storage
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Selecting and Storing Fresh Produce

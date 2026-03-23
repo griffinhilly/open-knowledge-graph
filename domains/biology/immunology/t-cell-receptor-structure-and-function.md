@@ -16,7 +16,7 @@ tags:
 - t-cells
 - receptor-diversity
 stage: expert
-status: draft
+status: validated
 ---
 
 # T Cell Receptor Structure, Diversity, and Recognition

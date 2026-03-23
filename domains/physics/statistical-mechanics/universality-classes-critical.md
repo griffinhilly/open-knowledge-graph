@@ -15,7 +15,7 @@ tags:
 - scaling
 - critical-phenomena
 stage: expert
-status: draft
+status: validated
 ---
 
 # Universality Classes and Critical Exponents

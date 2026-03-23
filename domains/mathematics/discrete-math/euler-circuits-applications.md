@@ -14,7 +14,7 @@ tags:
 - degree
 - Chinese-postman
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Euler Paths, Euler Circuits, and Applications

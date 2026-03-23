@@ -19,7 +19,7 @@ tags:
 - population-size
 - efficacy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Efficacy of Selection in Finite Populations

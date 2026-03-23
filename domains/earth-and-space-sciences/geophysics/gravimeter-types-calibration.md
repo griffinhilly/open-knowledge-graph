@@ -14,7 +14,7 @@ tags:
 - survey
 - instruments
 stage: expert
-status: draft
+status: validated
 ---
 
 # Gravimeter Types, Calibration, and Field Operations

@@ -15,7 +15,7 @@ tags:
 - separation-of-powers
 - enlightenment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Montesquieu's Separation of Governmental Powers

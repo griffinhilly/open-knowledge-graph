@@ -13,7 +13,7 @@ tags:
 - persecution
 - social-change
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Witch Hunts and Early Modern Social Anxiety

@@ -15,7 +15,7 @@ tags:
 - number-line
 - placement
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Fractions on a Number Line

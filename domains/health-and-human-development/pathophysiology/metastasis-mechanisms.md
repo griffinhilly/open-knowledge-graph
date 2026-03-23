@@ -13,7 +13,7 @@ tags:
 - invasion
 - dissemination
 stage: expert
-status: draft
+status: validated
 ---
 
 # Metastasis and the Invasion-Metastasis Cascade

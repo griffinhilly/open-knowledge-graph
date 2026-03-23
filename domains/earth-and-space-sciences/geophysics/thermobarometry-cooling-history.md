@@ -13,7 +13,7 @@ tags:
 - pt-path
 - cooling-history
 stage: expert
-status: draft
+status: validated
 ---
 
 # Thermobarometry and Pressure-Temperature Paths

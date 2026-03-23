@@ -18,7 +18,7 @@ tags:
 - motor-system
 - premotor
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mirror Neuron System and Action Understanding

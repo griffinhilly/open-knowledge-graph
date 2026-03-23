@@ -17,7 +17,7 @@ tags:
 - syn-addition
 - alcohols
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hydroboration-Oxidation: Anti-Markovnikov Addition

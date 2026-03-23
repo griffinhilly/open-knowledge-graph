@@ -13,7 +13,7 @@ tags:
 - graph-theory
 - connectivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Connectivity and Connected Components

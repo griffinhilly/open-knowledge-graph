@@ -11,7 +11,7 @@ tags:
 - divergence-theorem
 - gauss-theorem
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stokes' Theorem and the Divergence Theorem

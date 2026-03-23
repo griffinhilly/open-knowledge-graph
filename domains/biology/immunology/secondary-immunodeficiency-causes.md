@@ -17,7 +17,7 @@ tags:
 - malignancy
 - immunosuppression
 stage: expert
-status: draft
+status: validated
 ---
 
 # Secondary Immunodeficiency: Acquired Immune Dysfunction

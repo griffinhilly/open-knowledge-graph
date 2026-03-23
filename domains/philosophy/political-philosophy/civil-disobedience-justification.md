@@ -13,7 +13,7 @@ tags:
 - resistance
 - justice
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Justification of Civil Disobedience

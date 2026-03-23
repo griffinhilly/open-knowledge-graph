@@ -14,7 +14,7 @@ tags:
 - propositional-logic
 - reasoning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Logical Operators in Arguments: AND, OR, NOT

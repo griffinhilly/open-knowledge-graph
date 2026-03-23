@@ -16,7 +16,7 @@ tags:
 - underfitting
 - generalization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Overfitting, Underfitting, and Model Capacity

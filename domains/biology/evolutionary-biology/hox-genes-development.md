@@ -13,7 +13,7 @@ tags:
 - development
 - conservation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hox Genes and Evolutionary Development

@@ -17,7 +17,7 @@ tags:
 - style
 - grammar
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Parallel Structure

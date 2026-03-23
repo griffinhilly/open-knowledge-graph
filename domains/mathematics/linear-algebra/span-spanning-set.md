@@ -14,7 +14,7 @@ tags:
 - spanning sets
 - subspaces
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Span and Spanning Sets

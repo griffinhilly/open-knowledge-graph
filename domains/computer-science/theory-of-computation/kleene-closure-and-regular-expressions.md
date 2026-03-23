@@ -14,7 +14,7 @@ tags:
 - operations
 - closure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Kleene Closure, Kleene Star, and Regular Language Operations

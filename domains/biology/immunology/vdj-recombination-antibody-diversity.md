@@ -15,7 +15,7 @@ tags:
 - antibody-diversity
 - junctional-diversity
 stage: expert
-status: draft
+status: validated
 ---
 
 # V(D)J Recombination and Antibody Diversity Generation

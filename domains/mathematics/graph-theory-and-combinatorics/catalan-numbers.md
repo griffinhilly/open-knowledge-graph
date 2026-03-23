@@ -10,7 +10,7 @@ tags:
 - combinatorics
 - sequences
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Catalan Numbers and Recursive Structures

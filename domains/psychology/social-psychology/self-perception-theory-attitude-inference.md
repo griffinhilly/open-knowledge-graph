@@ -16,7 +16,7 @@ tags:
 - behavior-attitude-inference
 - internal-external-cues
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Self-Perception Theory and Attitude Inference from Behavior

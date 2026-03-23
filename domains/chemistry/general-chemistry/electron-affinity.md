@@ -14,7 +14,7 @@ tags:
 - periodic trends
 - anions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electron Affinity

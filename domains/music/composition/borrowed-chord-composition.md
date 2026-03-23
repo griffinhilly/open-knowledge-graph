@@ -19,7 +19,7 @@ tags:
 - chromaticism
 - composition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Using Borrowed Chords in Composition

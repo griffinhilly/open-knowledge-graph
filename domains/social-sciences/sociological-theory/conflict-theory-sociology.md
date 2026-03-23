@@ -16,7 +16,7 @@ tags:
 - inequality
 - domination
 stage: expert
-status: draft
+status: validated
 ---
 
 # Conflict Theory in Sociology

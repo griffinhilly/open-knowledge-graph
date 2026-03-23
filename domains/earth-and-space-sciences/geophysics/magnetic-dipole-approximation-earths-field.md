@@ -15,7 +15,7 @@ tags:
 - dipole
 - field-model
 stage: expert
-status: draft
+status: validated
 ---
 
 # Magnetic Dipole Approximation of Earth's Field

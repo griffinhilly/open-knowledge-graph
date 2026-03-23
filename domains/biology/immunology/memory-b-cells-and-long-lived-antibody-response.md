@@ -20,7 +20,7 @@ tags:
 - antibody-persistence
 - humoral-memory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Memory B Cells and Long-Lived Plasma Cell Maintenance

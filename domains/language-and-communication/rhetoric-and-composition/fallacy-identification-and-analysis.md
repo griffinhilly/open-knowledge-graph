@@ -13,7 +13,7 @@ tags:
 - argumentation
 - critical-thinking
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Fallacy Identification and Analysis

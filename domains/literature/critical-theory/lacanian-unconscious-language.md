@@ -24,7 +24,7 @@ tags:
 - language
 - symbolic
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lacanian Psychoanalysis: The Unconscious Structured as Language

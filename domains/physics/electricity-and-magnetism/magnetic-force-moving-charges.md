@@ -14,7 +14,7 @@ tags:
 - moving-charge
 - magnetic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lorentz Force on Moving Electric Charges

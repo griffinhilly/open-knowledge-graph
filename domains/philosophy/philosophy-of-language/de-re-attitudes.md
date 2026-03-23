@@ -18,7 +18,7 @@ tags:
 - intentionality
 - quantification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # De Re and De Dicto Attitudes

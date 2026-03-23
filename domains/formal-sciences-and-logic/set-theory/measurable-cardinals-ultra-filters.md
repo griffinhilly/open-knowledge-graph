@@ -17,7 +17,7 @@ tags:
 - large-cardinals
 - measure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Measurable Cardinals and Ultrafilters

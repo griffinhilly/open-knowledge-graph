@@ -16,7 +16,7 @@ tags:
 - adaptation
 - cerebellum
 stage: expert
-status: draft
+status: validated
 ---
 
 # Motor Learning and Cerebellar Adaptation

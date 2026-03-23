@@ -11,7 +11,7 @@ tags:
 - factorial
 - prime-characterization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Wilson's Theorem

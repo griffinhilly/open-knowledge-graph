@@ -19,7 +19,7 @@ tags:
 - writing
 - fundamentals
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Melody Writing Fundamentals

@@ -21,7 +21,7 @@ tags:
 - convection
 - dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Latent Heating and Its Role in Weather System Dynamics

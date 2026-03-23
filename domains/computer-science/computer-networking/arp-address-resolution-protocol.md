@@ -16,7 +16,7 @@ tags:
 - address-resolution
 - mac-to-ip
 stage: advanced
-status: draft
+status: validated
 ---
 
 # ARP: Address Resolution Protocol

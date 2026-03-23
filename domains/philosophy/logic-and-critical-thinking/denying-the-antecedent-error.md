@@ -17,7 +17,7 @@ tags:
 - deductive-errors
 - conditionals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Denying the Antecedent: Another Invalid Form

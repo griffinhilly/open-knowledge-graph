@@ -25,7 +25,7 @@ tags:
 - classification
 - probabilistic
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Logistic Regression for Classification

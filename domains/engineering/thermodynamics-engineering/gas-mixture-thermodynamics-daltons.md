@@ -18,7 +18,7 @@ tags:
 - partial-pressure
 - mole-fraction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gas Mixture Thermodynamics and Dalton's Law

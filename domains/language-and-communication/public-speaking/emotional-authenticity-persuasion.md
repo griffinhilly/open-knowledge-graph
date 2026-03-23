@@ -16,7 +16,7 @@ tags:
 - authenticity
 - ethics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Emotional Authenticity in Persuasion

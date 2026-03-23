@@ -12,7 +12,7 @@ tags:
 - empire
 - expansion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # New Kingdom Egypt and Imperial Expansion

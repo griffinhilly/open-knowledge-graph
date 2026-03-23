@@ -14,7 +14,7 @@ tags:
 - sat-solvers
 - completeness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Satisfiability Problem: The Canonical NP-Complete Problem

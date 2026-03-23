@@ -15,7 +15,7 @@ tags:
 - plane-of-symmetry
 - prochirality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Meso Compounds and Prochiral Centers

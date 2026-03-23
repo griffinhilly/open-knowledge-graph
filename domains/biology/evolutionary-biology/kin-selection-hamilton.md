@@ -14,7 +14,7 @@ tags:
 - inclusive-fitness
 - relatedness
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Kin Selection and Hamilton's Rule

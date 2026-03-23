@@ -19,7 +19,7 @@ tags:
 - structural-design
 - bridges
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Truss Design Principles
 

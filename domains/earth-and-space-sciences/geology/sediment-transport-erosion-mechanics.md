@@ -15,7 +15,7 @@ tags:
 - erosion
 - mechanics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sediment Transport Mechanisms and Hydraulic Processes

@@ -16,7 +16,7 @@ tags:
 - algebraic-structures
 - foundations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Binary Operations and Algebraic Structures

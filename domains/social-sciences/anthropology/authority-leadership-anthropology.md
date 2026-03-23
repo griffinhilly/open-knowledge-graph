@@ -16,7 +16,7 @@ tags:
 - politics
 - organization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Authority, Leadership, and Political Organization

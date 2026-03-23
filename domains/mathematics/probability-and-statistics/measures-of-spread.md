@@ -17,7 +17,7 @@ tags:
 - variance
 - std-dev
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Measures of Spread

@@ -28,7 +28,7 @@ tags:
 - equilibrium
 - pressure-temperature
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metamorphic Equilibrium and Phase Diagrams

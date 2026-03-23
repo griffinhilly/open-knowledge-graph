@@ -15,7 +15,7 @@ tags:
 - content
 - semantics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Putnam's Semantic Externalism

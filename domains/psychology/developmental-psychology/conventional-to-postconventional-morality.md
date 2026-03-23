@@ -14,7 +14,7 @@ tags:
 - postconventional
 - adolescence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conventional to Postconventional Morality Transition

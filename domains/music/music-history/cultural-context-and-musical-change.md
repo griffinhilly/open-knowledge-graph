@@ -16,7 +16,7 @@ tags:
 - social-factors
 - cultural-history
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cultural Context and Musical Change

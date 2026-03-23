@@ -18,7 +18,7 @@ tags:
 - legitimacy
 - international-law
 stage: expert
-status: draft
+status: validated
 ---
 
 # Westphalian Sovereignty and the State System

@@ -17,7 +17,7 @@ tags:
 - paleoceanography
 - stable-isotopes
 stage: expert
-status: draft
+status: validated
 ---
 
 # Oxygen Isotope Paleothermometry

@@ -13,7 +13,7 @@ tags:
 - jauss
 - audience
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reader Response and Reception Theory

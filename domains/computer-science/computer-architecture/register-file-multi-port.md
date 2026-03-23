@@ -12,7 +12,7 @@ tags:
 - register-file
 - memory-organization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multi-Port Register File Architecture

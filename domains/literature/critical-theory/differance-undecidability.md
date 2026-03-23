@@ -15,7 +15,7 @@ tags:
 - undecidability
 - meaning
 stage: expert
-status: draft
+status: validated
 ---
 
 # Différance and Undecidability

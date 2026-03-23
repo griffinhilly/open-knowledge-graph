@@ -16,7 +16,7 @@ tags:
 - topology
 - real-line
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Open and Closed Sets on the Real Line

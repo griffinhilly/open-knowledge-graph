@@ -13,7 +13,7 @@ tags:
 - evaluation
 - methodology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Randomized Trials in Development Economics

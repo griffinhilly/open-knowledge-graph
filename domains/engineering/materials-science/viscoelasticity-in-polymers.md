@@ -15,7 +15,7 @@ tags:
 - storage-modulus
 - loss-modulus
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Viscoelasticity in Polymers and Chain Relaxation

@@ -14,7 +14,7 @@ tags:
 - adversarial-arguments
 - barriers
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Lower Bounds Techniques in Computational Complexity

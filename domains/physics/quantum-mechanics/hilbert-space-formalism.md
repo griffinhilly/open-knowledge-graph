@@ -23,7 +23,7 @@ tags:
 - linear-algebra
 - functional-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hilbert Space Formalism

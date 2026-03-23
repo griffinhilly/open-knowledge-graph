@@ -17,7 +17,7 @@ tags:
 - unconscious
 - lack
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Desire, Lack, and the Unconscious

@@ -15,7 +15,7 @@ tags:
 - vesicular-transport
 - protein-trafficking
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Clathrin-Mediated Endocytosis

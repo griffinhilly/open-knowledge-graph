@@ -15,7 +15,7 @@ tags:
 - institutions
 - coordination
 stage: expert
-status: draft
+status: validated
 ---
 
 # Global Governance and Polycentric Authority

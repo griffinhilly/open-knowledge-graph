@@ -18,7 +18,7 @@ tags:
 - magnetostratigraphy
 - remanence
 stage: expert
-status: draft
+status: validated
 ---
 
 # Paleomagnetism and Magnetic Reversals

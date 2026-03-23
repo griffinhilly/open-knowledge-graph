@@ -15,7 +15,7 @@ tags:
 - convergence
 - truth
 stage: expert
-status: draft
+status: validated
 ---
 
 # Scientific Progress and Convergence to Truth

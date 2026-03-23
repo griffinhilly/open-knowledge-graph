@@ -17,7 +17,7 @@ tags:
 - atmospheric-loss
 - composition-evolution
 stage: expert
-status: draft
+status: validated
 ---
 
 # Volatile Inventory and Escape-Driven Atmospheric Evolution

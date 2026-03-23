@@ -22,7 +22,7 @@ tags:
 - category of elements
 - lax colimit
 stage: expert
-status: draft
+status: validated
 ---
 # The Grothendieck Construction
 

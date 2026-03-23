@@ -12,7 +12,7 @@ tags:
 - estates
 - stratification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Feudal Social Hierarchy: The Three Estates

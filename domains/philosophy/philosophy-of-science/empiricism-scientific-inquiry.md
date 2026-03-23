@@ -14,7 +14,7 @@ tags:
 - evidence
 - experience
 stage: expert
-status: draft
+status: validated
 ---
 
 # Empiricism in Scientific Inquiry

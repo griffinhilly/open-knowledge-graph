@@ -13,7 +13,7 @@ tags:
 - oscillations
 - frequency-response
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mechanical Resonance and Frequency Response

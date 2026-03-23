@@ -17,7 +17,7 @@ tags:
 - pronouns
 - context
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Anaphora and Discourse Context

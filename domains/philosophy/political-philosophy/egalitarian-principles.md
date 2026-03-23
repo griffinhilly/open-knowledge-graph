@@ -14,7 +14,7 @@ tags:
 - equality
 - distributive-justice
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Egalitarian Principles in Politics

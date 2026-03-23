@@ -19,7 +19,7 @@ tags:
 - chord-quality
 - consonance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Major and Minor Thirds by Ear

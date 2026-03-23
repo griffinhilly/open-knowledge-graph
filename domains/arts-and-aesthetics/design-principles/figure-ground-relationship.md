@@ -16,7 +16,7 @@ tags:
 - space
 - contrast
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Figure-Ground Relationship

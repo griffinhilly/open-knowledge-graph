@@ -16,7 +16,7 @@ tags:
 - observables
 - operators
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Operators and Observables

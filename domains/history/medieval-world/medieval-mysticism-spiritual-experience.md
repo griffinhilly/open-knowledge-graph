@@ -16,7 +16,7 @@ tags:
 - experience
 - devotion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Medieval Mysticism and Spiritual Experience

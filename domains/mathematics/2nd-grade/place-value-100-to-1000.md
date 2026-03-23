@@ -17,7 +17,7 @@ tags:
 - 3-digit-numbers
 - 100-to-1000
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Place Value: Hundreds, Tens, and Ones to 1000

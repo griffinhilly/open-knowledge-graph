@@ -16,7 +16,7 @@ tags:
 - hydrostatic-pressure
 - oncotic-pressure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pulmonary Edema: Pathophysiology and Mechanisms

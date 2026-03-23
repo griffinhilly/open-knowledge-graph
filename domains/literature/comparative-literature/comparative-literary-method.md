@@ -18,7 +18,7 @@ tags:
 - theory
 - foundations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Comparative Method in Literary Analysis

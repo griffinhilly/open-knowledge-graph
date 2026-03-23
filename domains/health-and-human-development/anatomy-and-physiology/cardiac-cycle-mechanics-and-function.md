@@ -24,7 +24,7 @@ tags:
 - pressure-volume
 - frank-starling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cardiac Cycle Mechanics and Function

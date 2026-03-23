@@ -14,7 +14,7 @@ tags:
 - geometrical-optics
 - thin-lens
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Paraxial Ray Approximation in Geometrical Optics

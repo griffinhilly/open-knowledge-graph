@@ -16,7 +16,7 @@ tags:
 - geometry
 - field-lines
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Equipotential Surfaces and Their Properties

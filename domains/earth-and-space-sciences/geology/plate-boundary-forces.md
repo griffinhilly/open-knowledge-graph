@@ -16,7 +16,7 @@ tags:
 - forces
 - motion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Forces at Plate Boundaries: Stress Orientation and Motion

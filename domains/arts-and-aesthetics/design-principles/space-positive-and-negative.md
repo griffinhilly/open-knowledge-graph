@@ -16,7 +16,7 @@ tags:
 - breathing-room
 - composition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Positive and Negative Space

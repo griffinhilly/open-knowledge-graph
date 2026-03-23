@@ -15,7 +15,7 @@ tags:
 - diffraction
 - matter-waves
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Electron Diffraction and Matter Wave Interference

@@ -13,7 +13,7 @@ tags:
 - performance
 - cost-based-optimization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Query Plan Optimization: Choosing Execution Strategies

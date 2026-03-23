@@ -17,7 +17,7 @@ tags:
 - malonic-ester
 - carboxylic-acid-synthesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Enolate Chemistry and Malonic Ester Synthesis

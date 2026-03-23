@@ -17,7 +17,7 @@ tags:
 - ester
 - amide
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Relative Reactivity of Carboxylic Acid Derivatives

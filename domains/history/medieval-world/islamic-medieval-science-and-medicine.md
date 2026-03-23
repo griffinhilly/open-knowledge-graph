@@ -14,7 +14,7 @@ tags:
 - medicine
 - mathematics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Islamic Medieval Science, Medicine, and Mathematics

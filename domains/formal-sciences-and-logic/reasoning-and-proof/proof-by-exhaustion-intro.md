@@ -14,7 +14,7 @@ builds-toward:
   - proof-by-cases
 tags: [proof, exhaustion, cases, enumeration]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Proof by Exhaustion

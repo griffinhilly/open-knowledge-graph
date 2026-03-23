@@ -15,7 +15,7 @@ tags:
 - fundamental
 - structure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # First Isomorphism Theorem for Groups

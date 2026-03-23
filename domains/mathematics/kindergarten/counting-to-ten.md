@@ -14,7 +14,7 @@ tags:
 - number-sequence
 - ten-frame
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Counting to Ten

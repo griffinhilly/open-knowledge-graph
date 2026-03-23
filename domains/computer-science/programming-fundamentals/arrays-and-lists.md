@@ -10,10 +10,15 @@ prerequisites:
   type: hard
 - id: primitive-data-types
   type: soft
+- id: memory-and-data-storage
+  type: hard
 builds-toward:
 - list-operations
 - nested-loops
 - list-comprehensions
+- array-indexing
+- iterating-over-collections
+- string-basics
 tags:
 - arrays
 - lists
@@ -23,7 +28,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Arrays and Lists
 
 ## Core Idea

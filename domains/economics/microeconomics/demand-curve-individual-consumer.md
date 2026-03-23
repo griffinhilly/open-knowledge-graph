@@ -14,7 +14,7 @@ tags:
 - consumer
 - price-quantity-relationship
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Individual Demand Curves: Quantity Demanded vs. Price

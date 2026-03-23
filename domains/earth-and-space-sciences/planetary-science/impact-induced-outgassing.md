@@ -17,7 +17,7 @@ tags:
 - atmospheric-loss
 - bombardment
 stage: expert
-status: draft
+status: validated
 ---
 
 # Impact-Induced Outgassing and Atmospheric Loss

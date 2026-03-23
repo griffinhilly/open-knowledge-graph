@@ -27,7 +27,7 @@ tags:
 - seasonal
 - bulk-buying
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cooking on a Budget

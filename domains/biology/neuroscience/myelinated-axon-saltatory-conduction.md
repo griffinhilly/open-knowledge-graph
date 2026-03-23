@@ -14,7 +14,7 @@ tags:
 - conduction-velocity
 - myelin
 stage: expert
-status: draft
+status: validated
 ---
 
 # Saltatory Conduction in Myelinated Axons

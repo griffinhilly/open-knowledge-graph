@@ -18,7 +18,7 @@ tags:
 - relations
 - calculations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Equations of State and Thermodynamic Properties

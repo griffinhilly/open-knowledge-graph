@@ -13,7 +13,7 @@ tags:
 - ABC pattern
 - sequence
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Recognizing ABC Repeating Patterns

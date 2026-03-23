@@ -22,7 +22,7 @@ tags:
 - hidden-information
 - information-asymmetry
 stage: expert
-status: draft
+status: validated
 ---
 
 # Adverse Selection

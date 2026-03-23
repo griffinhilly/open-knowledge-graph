@@ -14,7 +14,7 @@ tags:
 - sketch
 - planning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Compositional Value Thumbnail Sketches

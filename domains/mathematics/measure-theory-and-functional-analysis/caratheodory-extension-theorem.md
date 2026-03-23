@@ -12,7 +12,7 @@ tags:
 - measure-theory
 - extension-theorems
 stage: expert
-status: draft
+status: validated
 ---
 
 # Carathéodory's Extension Theorem

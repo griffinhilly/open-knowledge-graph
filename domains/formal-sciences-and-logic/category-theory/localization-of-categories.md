@@ -16,7 +16,7 @@ tags:
 - inverting-morphisms
 - quotient-categories
 stage: expert
-status: draft
+status: validated
 ---
 
 # Localization of Categories

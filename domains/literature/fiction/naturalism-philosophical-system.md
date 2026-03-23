@@ -18,7 +18,7 @@ tags:
 - environment
 - heredity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Naturalism as Philosophical System in Fiction

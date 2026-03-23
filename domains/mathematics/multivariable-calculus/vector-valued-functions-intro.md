@@ -16,7 +16,7 @@ tags:
 - parametric
 - curves
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vector-Valued Functions

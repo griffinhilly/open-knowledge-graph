@@ -16,7 +16,7 @@ tags:
 - war
 - institutional-constraints
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Democratic Peace Theory

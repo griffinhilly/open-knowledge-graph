@@ -16,7 +16,7 @@ tags:
 - occupation-number
 - fermi-energy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Fermi-Dirac Distribution and Fermi Energy

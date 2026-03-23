@@ -11,7 +11,7 @@ tags:
 - poisson
 - negative-binomial
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Count Data Models: Poisson and Negative Binomial Regression

@@ -17,7 +17,7 @@ tags:
 - countries-regions
 - dynamics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Time Series Cross-Section (TSCS) Models

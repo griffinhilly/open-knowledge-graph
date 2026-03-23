@@ -13,7 +13,7 @@ tags:
 - loop-optimization
 - code-motion
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Loop Invariant Code Motion (LICM)

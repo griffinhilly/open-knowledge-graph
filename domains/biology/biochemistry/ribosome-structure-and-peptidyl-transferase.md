@@ -13,7 +13,7 @@ tags:
 - rRNA
 - peptidyl-transferase
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Ribosome Structure and Peptidyl Transferase Activity

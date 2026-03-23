@@ -14,7 +14,7 @@ tags:
 - structure
 - faults
 stage: expert
-status: draft
+status: validated
 ---
 
 # Seismic Interpretation and Structural Mapping

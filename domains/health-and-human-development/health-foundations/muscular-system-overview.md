@@ -4,7 +4,7 @@ title: Muscular System Overview
 domain: health-and-human-development
 course: health-foundations
 prerequisites:
-  - id: my-bones-and-muscles
+  - id: my-bones-hold-me-up
     type: hard
   - id: skeletal-system-bones-and-joints
     type: soft
@@ -14,7 +14,7 @@ builds-toward:
   - muscle-physiology-and-contraction
 tags: [body-systems, muscular, muscles, movement]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Muscular System Overview

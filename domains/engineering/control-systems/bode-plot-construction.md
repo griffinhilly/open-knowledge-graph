@@ -23,7 +23,7 @@ tags:
 - magnitude-plot
 - phase-plot
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bode Plot Construction

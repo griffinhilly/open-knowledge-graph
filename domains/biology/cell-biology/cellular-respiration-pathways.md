@@ -20,7 +20,7 @@ tags:
 - anaerobic
 - atp
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cellular Respiration: Aerobic and Anaerobic

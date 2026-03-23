@@ -18,7 +18,7 @@ tags:
 - connection
 - form
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Transition Writing and Section Connections
 

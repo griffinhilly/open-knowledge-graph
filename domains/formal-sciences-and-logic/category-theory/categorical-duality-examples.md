@@ -16,7 +16,7 @@ tags:
 - opposite-categories
 - examples
 stage: expert
-status: draft
+status: validated
 ---
 
 # Categorical Duality and Dual Functors

@@ -15,7 +15,7 @@ tags:
 - welfare-economics
 - efficiency
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pareto Optimality and Efficiency

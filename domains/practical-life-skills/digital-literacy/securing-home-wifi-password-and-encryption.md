@@ -15,7 +15,7 @@ tags:
 - wifi
 - encryption
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Securing Home Wi-Fi: Passwords and Encryption

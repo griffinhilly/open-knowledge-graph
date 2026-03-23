@@ -15,7 +15,7 @@ tags:
 - style
 - clarity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Active Voice and Rhetorical Effect

@@ -16,7 +16,7 @@ tags:
 - specialized
 - explanation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Presenting Technical and Specialized Content

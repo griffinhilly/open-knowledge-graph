@@ -18,7 +18,7 @@ tags:
 - admittance
 - ac-networks
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Impedance and Admittance in AC Networks

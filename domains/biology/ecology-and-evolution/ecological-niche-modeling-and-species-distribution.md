@@ -15,7 +15,7 @@ tags:
 - species-distribution
 - ecological-niche
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ecological Niche Modeling and Species Distribution Modeling

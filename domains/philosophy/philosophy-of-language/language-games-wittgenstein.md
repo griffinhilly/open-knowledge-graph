@@ -16,7 +16,7 @@ tags:
 - meaning-as-use
 - context
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Wittgenstein's Language Games

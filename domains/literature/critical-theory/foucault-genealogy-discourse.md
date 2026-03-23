@@ -19,7 +19,7 @@ tags:
 - genealogy
 - knowledge
 stage: expert
-status: draft
+status: validated
 ---
 
 # Foucault's Genealogy and Discourse Analysis

@@ -19,7 +19,7 @@ tags:
 - evolution
 - constraint
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Modularity in Evolutionary Development

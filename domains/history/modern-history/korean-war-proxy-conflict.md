@@ -18,7 +18,7 @@ tags:
 - Soviet-Union
 - China
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Korean War as Cold War Proxy Conflict

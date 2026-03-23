@@ -18,7 +18,7 @@ tags:
 - heat
 - proteins
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Searing and Developing Crust

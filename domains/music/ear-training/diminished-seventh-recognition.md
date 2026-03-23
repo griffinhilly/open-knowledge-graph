@@ -17,7 +17,7 @@ tags:
 - chromatic-harmony
 - chord-recognition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diminished Seventh Chord Recognition by Ear

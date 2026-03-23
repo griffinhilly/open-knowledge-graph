@@ -16,7 +16,7 @@ tags:
 - ensemble
 - adaptation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ensemble Arrangement Principles

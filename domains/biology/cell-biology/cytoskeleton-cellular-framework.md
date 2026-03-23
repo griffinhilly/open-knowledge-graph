@@ -13,7 +13,7 @@ tags:
 - structure
 - dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Cytoskeleton: Cellular Architecture

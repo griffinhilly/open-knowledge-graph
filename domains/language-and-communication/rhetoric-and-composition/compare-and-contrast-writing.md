@@ -17,7 +17,7 @@ tags:
 - point-by-point
 - basis of comparison
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Compare and Contrast Writing

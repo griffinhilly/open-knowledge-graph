@@ -15,7 +15,7 @@ tags:
 - relational
 - duplication
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Intrinsic and Extrinsic Properties

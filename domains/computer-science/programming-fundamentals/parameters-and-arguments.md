@@ -4,19 +4,21 @@ title: Function Parameters and Argument Passing
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- id: function-definition-and-calls
+- id: functions-defining-calling
+  type: hard
+- id: variables-and-assignment
   type: hard
 builds-toward:
 - return-values
 - variable-scope
+- parameter-passing-value-vs-reference
 tags:
 - functions
 - parameters
 - arguments
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Function Parameters and Argument Passing
 
 ## Core Idea

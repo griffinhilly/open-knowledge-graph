@@ -14,7 +14,7 @@ tags:
 - planet-migration
 - gas-giants
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Giant Planet Formation and Migration

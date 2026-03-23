@@ -16,7 +16,7 @@ tags:
 - features
 - agreement
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Formal Analysis of Inflectional Morphology

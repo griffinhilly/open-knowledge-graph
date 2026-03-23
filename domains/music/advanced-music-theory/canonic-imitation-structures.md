@@ -14,7 +14,7 @@ tags:
 - imitation
 - form
 stage: expert
-status: draft
+status: validated
 ---
 
 # Canonic Imitation and Structural Analysis

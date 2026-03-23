@@ -11,7 +11,7 @@ tags:
 - language-models
 - deep-learning
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Language Models and Neural Language Modeling

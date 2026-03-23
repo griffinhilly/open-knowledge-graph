@@ -21,7 +21,7 @@ tags:
 - density-driven
 - overturning-circulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermohaline Circulation and Density-Driven Flow

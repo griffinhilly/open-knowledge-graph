@@ -19,7 +19,7 @@ tags:
 - HMG-CoA reductase
 - mevalonate pathway
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cholesterol Synthesis and Regulation

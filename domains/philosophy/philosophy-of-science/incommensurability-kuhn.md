@@ -17,7 +17,7 @@ tags:
 - comparison
 - standards
 stage: expert
-status: draft
+status: validated
 ---
 
 # Incommensurability of Paradigms

@@ -16,7 +16,7 @@ tags:
 - holomorphic
 - closed-contours
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cauchy's Theorem

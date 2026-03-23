@@ -13,7 +13,7 @@ tags:
 - psychosis
 - mood
 stage: expert
-status: draft
+status: validated
 ---
 
 # Schizoaffective Disorder

@@ -15,7 +15,7 @@ tags:
 - choked
 - sonic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Isentropic Nozzle Flow and Choked Conditions

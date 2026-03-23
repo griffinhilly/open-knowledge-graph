@@ -16,7 +16,7 @@ tags:
 - lorentz-invariance
 - relativity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lorentz Covariance of Maxwell's Equations

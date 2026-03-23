@@ -18,7 +18,7 @@ tags:
 - gatekeeping
 - literary-history
 stage: expert
-status: draft
+status: validated
 ---
 
 # Canon Formation and Literary Authority

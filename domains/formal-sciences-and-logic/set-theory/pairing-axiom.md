@@ -15,7 +15,7 @@ tags:
 - Kuratowski
 - ZFC
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Axiom of Pairing

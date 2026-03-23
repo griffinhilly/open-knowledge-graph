@@ -15,7 +15,7 @@ tags:
 - organization
 - productivity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Bookmark Organization and Retrieval Strategies

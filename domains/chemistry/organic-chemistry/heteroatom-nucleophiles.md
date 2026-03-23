@@ -19,7 +19,7 @@ tags:
 - amide
 - thioester
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Heteroatom Nucleophiles in Acyl Substitution
 

@@ -16,7 +16,7 @@ tags:
 - archives
 - databases
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Digital Archives, Databases, and Tools in Historical Research

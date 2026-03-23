@@ -13,7 +13,7 @@ tags:
 - contaminants
 - nutrients
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Food Composition and Contaminant Analysis

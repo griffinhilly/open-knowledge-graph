@@ -13,7 +13,7 @@ tags:
 - methods
 - dissociation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lesion Studies and Double Dissociations

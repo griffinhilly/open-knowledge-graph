@@ -13,7 +13,7 @@ tags:
 - combining
 - early-arithmetic
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Combining Small Groups Within 5

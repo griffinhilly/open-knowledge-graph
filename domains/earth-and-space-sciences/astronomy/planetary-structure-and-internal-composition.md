@@ -11,7 +11,7 @@ tags:
 - structure
 - composition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Planetary Structure and Composition

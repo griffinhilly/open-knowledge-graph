@@ -19,7 +19,7 @@ tags:
 - neural-integration
 - multimodal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sensory Integration and Perceptual Development

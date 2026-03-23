@@ -21,7 +21,7 @@ tags:
 - cardinality
 - characterization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Defining Finite Sets Rigorously

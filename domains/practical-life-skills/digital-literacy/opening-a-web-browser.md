@@ -15,7 +15,7 @@ tags:
 - fundamentals
 - navigation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Opening and Using a Web Browser

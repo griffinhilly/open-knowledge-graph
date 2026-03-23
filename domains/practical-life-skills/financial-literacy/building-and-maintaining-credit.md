@@ -19,7 +19,7 @@ tags:
 - utilization
 - age-of-accounts
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Building and Maintaining Credit

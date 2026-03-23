@@ -16,7 +16,7 @@ tags:
 - fundamental
 - structure
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Subject and Predicate

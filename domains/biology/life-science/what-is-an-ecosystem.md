@@ -19,7 +19,7 @@ tags:
 - biotic
 - abiotic
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # What Is an Ecosystem?
 

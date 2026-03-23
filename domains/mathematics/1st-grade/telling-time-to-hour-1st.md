@@ -14,7 +14,7 @@ tags:
 - hour
 - telling-time
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Telling Time to the Hour

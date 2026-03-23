@@ -16,7 +16,7 @@ tags:
 - correlations
 - phase-transitions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Long-Range Order

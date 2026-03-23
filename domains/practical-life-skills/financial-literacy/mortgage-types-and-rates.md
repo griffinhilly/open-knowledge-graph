@@ -22,7 +22,7 @@ tags:
 - points
 - rate-lock
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mortgage Types and Interest Rates

@@ -14,7 +14,7 @@ tags:
 - strain
 - lenski
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Status Inconsistency and Cognitive Strain

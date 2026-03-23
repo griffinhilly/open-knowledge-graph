@@ -13,7 +13,7 @@ tags:
 - perception
 - repetitive-behaviors
 stage: expert
-status: draft
+status: validated
 ---
 
 # Body Dysmorphic Disorder

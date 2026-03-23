@@ -21,7 +21,7 @@ tags:
 - inbreeding
 - conservation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Population Bottlenecks: Drift, Inbreeding, and Recovery

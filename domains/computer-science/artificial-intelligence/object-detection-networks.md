@@ -16,7 +16,7 @@ tags:
 - object-detection
 - localization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Object Detection Networks

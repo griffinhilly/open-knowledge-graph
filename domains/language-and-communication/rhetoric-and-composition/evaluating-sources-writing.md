@@ -17,7 +17,7 @@ tags:
 - credibility
 - research
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Evaluating Sources for Academic Writing

@@ -14,7 +14,7 @@ tags:
 - bonding
 - formal charge
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Resonance Structures and Delocalized Electrons

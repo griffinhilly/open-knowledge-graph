@@ -22,7 +22,7 @@ tags:
 - gnn
 - node-classification
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Graph Neural Networks

@@ -24,7 +24,7 @@ tags:
 - inference
 - statistical-modeling
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bayesian Methods in Social Science

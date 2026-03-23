@@ -17,7 +17,7 @@ tags:
 - ground-instances
 - herbrand
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ground Terms and Ground Formulas

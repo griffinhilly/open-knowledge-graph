@@ -13,7 +13,7 @@ tags:
 - charge
 - rubbing
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Static Electricity
 

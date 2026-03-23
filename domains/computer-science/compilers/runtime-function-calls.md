@@ -15,7 +15,7 @@ tags:
 - stack-frames
 - runtime-support
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Runtime Function Calls and Stack Frames

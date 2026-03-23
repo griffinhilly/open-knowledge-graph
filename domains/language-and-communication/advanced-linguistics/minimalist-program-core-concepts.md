@@ -15,7 +15,7 @@ tags:
 - generative
 - minimalism
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Minimalist Program: Core Concepts

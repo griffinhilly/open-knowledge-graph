@@ -15,7 +15,7 @@ tags:
 - inflation-unemployment
 - tradeoff
 stage: expert
-status: draft
+status: validated
 ---
 
 # Inflation-Unemployment Tradeoff and Modern Phillips Curve

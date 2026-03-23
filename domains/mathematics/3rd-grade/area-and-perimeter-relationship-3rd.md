@@ -15,7 +15,7 @@ tags:
 - perimeter
 - relationships
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Relationship Between Area and Perimeter

@@ -18,7 +18,7 @@ tags:
 - tonic
 - dominant
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Scale Degree Names and Functional Roles

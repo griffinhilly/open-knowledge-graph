@@ -15,7 +15,7 @@ tags:
 - comparing
 - unit-fractions
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Comparing Unit Fractions

@@ -13,7 +13,7 @@ tags:
 - laplace-equation
 - pde
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Harmonic Functions

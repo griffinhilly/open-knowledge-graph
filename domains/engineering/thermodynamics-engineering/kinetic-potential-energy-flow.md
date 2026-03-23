@@ -11,7 +11,7 @@ tags:
 - potential-energy
 - flow-systems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kinetic and Potential Energy in Flow Systems

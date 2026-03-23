@@ -20,7 +20,7 @@ tags:
 - metaphysics
 - ontology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Aspect Dualism Without Substance Dualism

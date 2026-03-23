@@ -14,7 +14,7 @@ tags:
 - ER
 - mitochondria
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Protein Translocation and Signal Sequences

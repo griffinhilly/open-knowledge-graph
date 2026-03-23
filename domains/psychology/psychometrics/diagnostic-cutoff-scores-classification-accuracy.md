@@ -13,7 +13,7 @@ tags:
 - classification
 - sensitivity-specificity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Diagnostic Cutoff Scores and Classification Accuracy

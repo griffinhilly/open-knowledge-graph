@@ -12,7 +12,7 @@ tags:
 - unique-factorization-failure
 - algebraic-number-theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Failure of Unique Factorization

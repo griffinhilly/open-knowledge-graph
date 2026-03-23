@@ -16,7 +16,7 @@ tags:
 - stress
 - HPA axis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Adrenal Steroid Hormones and the Stress Response

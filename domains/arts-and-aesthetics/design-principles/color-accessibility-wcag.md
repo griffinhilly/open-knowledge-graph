@@ -16,7 +16,7 @@ tags:
 - wcag
 - colorblind
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Color Accessibility and WCAG Guidelines

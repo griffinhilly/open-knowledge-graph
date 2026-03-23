@@ -12,7 +12,7 @@ tags:
 - cache
 - memory-organization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cache Line Organization and Byte Offset

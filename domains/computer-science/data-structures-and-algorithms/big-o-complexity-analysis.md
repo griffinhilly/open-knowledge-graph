@@ -17,7 +17,7 @@ tags:
 - big-o
 - asymptotics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Big-O Notation and Complexity Analysis

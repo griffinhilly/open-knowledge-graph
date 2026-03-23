@@ -13,7 +13,7 @@ tags:
 - deduction
 - meta-logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Deduction Theorem for Propositional Logic

@@ -17,7 +17,7 @@ tags:
 - compounding
 - trading-costs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Understanding Investment Fees

@@ -10,7 +10,7 @@ tags:
 - graph-theory
 - planar-graphs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Planar Graphs, Euler's Formula, and Structure

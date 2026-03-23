@@ -16,7 +16,7 @@ tags:
 - media
 - transformation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Literary Adaptation and Intermediality

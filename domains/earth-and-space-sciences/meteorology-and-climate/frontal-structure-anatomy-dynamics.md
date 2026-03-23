@@ -17,7 +17,7 @@ tags:
 - dynamics
 - baroclinicity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Frontal Structure, Anatomy, and Three-Dimensional Dynamics

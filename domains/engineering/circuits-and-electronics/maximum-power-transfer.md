@@ -15,7 +15,7 @@ tags:
 - impedance-matching
 - power-transfer
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Maximum Power Transfer Theorem

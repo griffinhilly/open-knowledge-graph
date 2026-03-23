@@ -16,7 +16,7 @@ tags:
 - development
 - circuit-formation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Synaptogenesis and Circuit Development

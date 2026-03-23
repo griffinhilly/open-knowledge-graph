@@ -19,7 +19,7 @@ tags:
 - subjectivity
 - 20th-century
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Expressionist Theatre: Interior States

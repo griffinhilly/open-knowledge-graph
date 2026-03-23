@@ -14,7 +14,7 @@ tags:
 - pointers
 - implementation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binary Tree Pointer-Based Implementation

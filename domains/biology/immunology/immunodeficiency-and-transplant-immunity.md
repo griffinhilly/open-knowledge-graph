@@ -13,7 +13,7 @@ tags:
 - transplant
 - rejection
 stage: expert
-status: draft
+status: validated
 ---
 
 # Immunodeficiency Disorders and Transplant Immunology

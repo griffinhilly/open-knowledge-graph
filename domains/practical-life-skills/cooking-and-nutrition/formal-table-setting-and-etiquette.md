@@ -15,7 +15,7 @@ tags:
 - table-setting
 - social-skills
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Formal Table Setting and Etiquette
 

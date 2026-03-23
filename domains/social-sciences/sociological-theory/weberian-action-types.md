@@ -16,7 +16,7 @@ tags:
 - motivation
 - sociology-of-action
 stage: expert
-status: draft
+status: validated
 ---
 
 # Weber's Types of Social Action

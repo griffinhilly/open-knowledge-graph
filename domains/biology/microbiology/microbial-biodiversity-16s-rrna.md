@@ -14,7 +14,7 @@ tags:
 - diversity
 - classification
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Microbial Diversity and 16S rRNA Taxonomy

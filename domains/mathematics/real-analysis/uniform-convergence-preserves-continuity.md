@@ -16,7 +16,7 @@ tags:
 - continuity
 - preservation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Uniform Convergence Preserves Continuity

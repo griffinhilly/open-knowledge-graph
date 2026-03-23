@@ -14,7 +14,7 @@ tags:
 - polynomials
 - lagrange
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lagrange Polynomial Interpolation

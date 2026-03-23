@@ -16,7 +16,7 @@ tags:
 - taxes
 - employment
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Income Sources and Tax Classifications

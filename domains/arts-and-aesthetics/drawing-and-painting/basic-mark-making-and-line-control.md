@@ -19,7 +19,7 @@ tags:
 - pressure
 - direction
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Basic Mark-Making and Line Control

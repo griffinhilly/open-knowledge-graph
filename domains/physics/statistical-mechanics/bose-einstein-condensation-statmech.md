@@ -16,7 +16,7 @@ tags:
 - order-parameter
 - spontaneous-order
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bose-Einstein Condensation and Order Parameter

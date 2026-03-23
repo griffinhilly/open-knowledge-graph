@@ -15,7 +15,7 @@ tags:
 - development
 - tolerance
 stage: expert
-status: draft
+status: validated
 ---
 
 # B Cell Development and Maturation

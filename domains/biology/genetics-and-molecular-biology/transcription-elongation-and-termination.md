@@ -15,7 +15,7 @@ tags:
 - rho-dependent-termination
 - hairpin-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transcription Elongation and Termination

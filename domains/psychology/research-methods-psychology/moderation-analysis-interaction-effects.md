@@ -25,7 +25,7 @@ tags:
 - interaction
 - conditional-effects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moderation and Interaction Effects in Conditional Relationships

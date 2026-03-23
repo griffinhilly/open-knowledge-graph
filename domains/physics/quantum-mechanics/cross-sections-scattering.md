@@ -10,7 +10,7 @@ tags:
 - cross-sections
 - scattering
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cross Sections in Quantum Scattering

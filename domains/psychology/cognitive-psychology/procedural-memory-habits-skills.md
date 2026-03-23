@@ -16,7 +16,7 @@ tags:
 - habits
 - learning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Procedural Memory and Skill Acquisition

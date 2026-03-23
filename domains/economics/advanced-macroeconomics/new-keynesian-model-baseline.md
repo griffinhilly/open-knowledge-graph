@@ -22,7 +22,7 @@ tags:
 - price-stickiness
 - welfare-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Baseline New Keynesian Model

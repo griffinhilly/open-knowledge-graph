@@ -15,7 +15,7 @@ tags:
 - prebiotic
 - scfa
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dietary Fiber: Types, Functionality, and Effects on Gut Microbiota and Health

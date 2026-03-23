@@ -16,7 +16,7 @@ tags:
 - timbre
 - instrumentation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orchestration and Texture Selection

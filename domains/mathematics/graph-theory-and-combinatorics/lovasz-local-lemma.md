@@ -10,7 +10,7 @@ tags:
 - combinatorics
 - probability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lovász Local Lemma

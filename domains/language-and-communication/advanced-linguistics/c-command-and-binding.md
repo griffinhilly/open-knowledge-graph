@@ -13,7 +13,7 @@ tags:
 - binding
 - anaphora
 stage: expert
-status: draft
+status: validated
 ---
 
 # C-command and Binding Theory

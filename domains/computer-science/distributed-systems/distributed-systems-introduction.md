@@ -14,7 +14,7 @@ tags:
 - motivation
 - challenges
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Introduction to Distributed Systems

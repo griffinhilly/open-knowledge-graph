@@ -11,7 +11,7 @@ tags:
 - anomalies
 - isolation-problems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Non-Repeatable Read Anomaly

@@ -19,7 +19,7 @@ tags:
 - forensic-engineering
 - reliability
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Failure Analysis in Engineering
 

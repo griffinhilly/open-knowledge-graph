@@ -15,7 +15,7 @@ tags:
 - power
 - morality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Classical Realism and Human Nature

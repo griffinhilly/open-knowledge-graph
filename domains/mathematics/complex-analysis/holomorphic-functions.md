@@ -15,7 +15,7 @@ tags:
 - analytic
 - differentiable
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Holomorphic Functions

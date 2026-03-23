@@ -14,7 +14,7 @@ tags:
 - output-effects
 - crowding-out
 stage: expert
-status: draft
+status: validated
 ---
 
 # Fiscal Multiplier and Dynamic Effects

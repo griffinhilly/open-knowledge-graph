@@ -19,7 +19,7 @@ tags:
 - evolution
 - constraint
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Exaptation: Co-option of Traits for New Functions

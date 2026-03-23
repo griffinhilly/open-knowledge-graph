@@ -17,7 +17,7 @@ tags:
 - multiplication
 - operations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Matrix Multiplication

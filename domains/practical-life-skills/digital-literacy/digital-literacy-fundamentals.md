@@ -14,7 +14,7 @@ tags:
 - literacy
 - digital-skills
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Digital Literacy Fundamentals

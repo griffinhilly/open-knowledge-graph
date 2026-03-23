@@ -15,7 +15,7 @@ tags:
 - basic-blocks
 - optimization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Basic Block Analysis

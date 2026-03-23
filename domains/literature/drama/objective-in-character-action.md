@@ -19,7 +19,7 @@ tags:
 - action
 - motivation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Objective: What the Character Wants

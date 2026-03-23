@@ -15,7 +15,7 @@ tags:
 - writing-process
 - discovery
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Invention Strategies and Freewriting
 

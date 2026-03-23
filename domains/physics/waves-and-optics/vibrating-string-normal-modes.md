@@ -15,7 +15,7 @@ tags:
 - strings
 - harmonics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Resonance in Strings and Normal Modes

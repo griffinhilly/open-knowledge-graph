@@ -19,7 +19,7 @@ tags:
 - dimensionality-reduction
 - linear
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Principal Component Analysis

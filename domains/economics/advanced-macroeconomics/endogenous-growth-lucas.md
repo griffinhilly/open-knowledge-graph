@@ -19,7 +19,7 @@ tags:
 - human-capital
 - endogenous
 stage: expert
-status: draft
+status: validated
 ---
 
 # Endogenous Growth Theory: Lucas Model

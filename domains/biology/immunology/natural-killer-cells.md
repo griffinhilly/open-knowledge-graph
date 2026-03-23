@@ -13,7 +13,7 @@ tags:
 - lymphocytes
 - cytotoxicity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Natural Killer Cells and Innate Lymphoid Cells

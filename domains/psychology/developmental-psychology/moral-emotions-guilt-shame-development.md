@@ -16,7 +16,7 @@ tags:
 - guilt
 - shame
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moral Emotions: Guilt and Shame Development

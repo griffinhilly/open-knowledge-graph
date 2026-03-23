@@ -16,7 +16,7 @@ tags:
 - confirmation
 - specificity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Confirmatory Testing and Identification Methods

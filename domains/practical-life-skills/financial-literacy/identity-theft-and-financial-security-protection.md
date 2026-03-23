@@ -13,7 +13,7 @@ tags:
 - protection
 - account-security
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Identity Theft and Financial Security Protection

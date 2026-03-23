@@ -16,7 +16,7 @@ tags:
 - autonomy
 - justice
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Rights and Entitlements

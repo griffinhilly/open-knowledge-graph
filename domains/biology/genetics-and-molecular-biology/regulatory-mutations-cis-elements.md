@@ -16,7 +16,7 @@ tags:
 - promoter-mutations
 - enhancer-mutations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Regulatory Mutations and cis-Acting Elements

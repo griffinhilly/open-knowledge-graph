@@ -19,7 +19,7 @@ tags:
 - precipitation
 - water-cycle
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Clouds and Rain

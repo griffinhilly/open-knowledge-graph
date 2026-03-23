@@ -20,7 +20,7 @@ tags:
 - weighted limit
 - integral notation
 stage: expert
-status: draft
+status: validated
 ---
 # Coends and Ends
 

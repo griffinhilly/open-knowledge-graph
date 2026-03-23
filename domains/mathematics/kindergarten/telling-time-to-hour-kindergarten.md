@@ -13,7 +13,7 @@ tags:
 - clock
 - telling-time
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Telling Time: The Hour

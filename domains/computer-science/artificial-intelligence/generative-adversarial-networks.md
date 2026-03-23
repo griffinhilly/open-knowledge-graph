@@ -25,7 +25,7 @@ tags:
 - generative-models
 - adversarial
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Generative Adversarial Networks

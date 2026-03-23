@@ -16,7 +16,7 @@ tags:
 - polar-coordinates
 - trigonometry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Polar Form of Complex Numbers

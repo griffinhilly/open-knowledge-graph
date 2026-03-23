@@ -15,7 +15,7 @@ tags:
 - feudal
 - decentralization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Feudal Fragmentation and Decentralization of Power

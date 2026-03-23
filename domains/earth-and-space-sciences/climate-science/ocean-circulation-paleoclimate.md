@@ -18,7 +18,7 @@ tags:
 - meridional-heat-transport
 - paleoclimate
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ocean Circulation Changes and Paleoclimate Impact

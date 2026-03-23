@@ -14,7 +14,7 @@ tags:
 - anachronism
 - freedom
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Historical Fiction: Authenticity and Narrative Freedom

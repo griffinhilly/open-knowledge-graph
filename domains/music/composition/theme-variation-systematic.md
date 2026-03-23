@@ -14,7 +14,7 @@ tags:
 - theme
 - technique
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Systematic Theme Variation Techniques

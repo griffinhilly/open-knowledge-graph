@@ -17,7 +17,7 @@ tags:
 - online
 - virtual-worlds
 stage: expert
-status: draft
+status: validated
 ---
 
 # Digital and Virtual Ethnography

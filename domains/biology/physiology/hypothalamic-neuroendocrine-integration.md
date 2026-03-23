@@ -19,7 +19,7 @@ tags:
 - hormone
 - regulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hypothalamic-Neuroendocrine Integration

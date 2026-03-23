@@ -15,7 +15,7 @@ tags:
 - heat
 - electricity
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Conductors and Insulators of Heat and Electricity
 

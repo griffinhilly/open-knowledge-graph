@@ -16,7 +16,7 @@ tags:
 - deck-transformations
 - universal-covers
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Covering Spaces

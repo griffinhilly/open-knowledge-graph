@@ -18,7 +18,7 @@ tags:
 - multiple-narrators
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multiperspectival and Ensemble Narratives

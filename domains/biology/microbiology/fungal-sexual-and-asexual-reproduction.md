@@ -18,7 +18,7 @@ tags:
 - sexual
 - life-cycles
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fungal Reproduction: Sexual and Asexual Strategies

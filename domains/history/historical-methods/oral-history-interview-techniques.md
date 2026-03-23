@@ -14,7 +14,7 @@ tags:
 - testimony
 - methods
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Oral History Interview Techniques

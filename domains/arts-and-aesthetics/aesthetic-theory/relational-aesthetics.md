@@ -15,7 +15,7 @@ tags:
 - participation
 - encounter
 stage: expert
-status: draft
+status: validated
 ---
 
 # Relational Aesthetics

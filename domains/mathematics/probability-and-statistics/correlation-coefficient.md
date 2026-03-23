@@ -16,7 +16,7 @@ tags:
 - r
 - association
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Correlation Coefficient

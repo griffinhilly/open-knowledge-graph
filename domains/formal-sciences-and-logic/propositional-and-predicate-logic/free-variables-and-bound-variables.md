@@ -16,7 +16,7 @@ tags:
 - semantics
 - variables
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Free Variables and Bound Variables

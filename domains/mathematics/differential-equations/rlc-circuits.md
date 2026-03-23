@@ -15,7 +15,7 @@ tags:
 - electrical-circuits
 - modeling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # RLC Circuit Applications of Differential Equations

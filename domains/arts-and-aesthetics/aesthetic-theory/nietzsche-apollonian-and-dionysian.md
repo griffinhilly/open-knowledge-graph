@@ -15,7 +15,7 @@ tags:
 - tragedy
 - artistic creation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Nietzsche: Apollonian and Dionysian Aesthetics

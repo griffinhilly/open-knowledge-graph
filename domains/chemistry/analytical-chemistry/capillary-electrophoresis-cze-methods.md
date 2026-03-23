@@ -17,7 +17,7 @@ tags:
 - charged-analytes
 - high-efficiency
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Capillary Electrophoresis: Fundamentals and Applications

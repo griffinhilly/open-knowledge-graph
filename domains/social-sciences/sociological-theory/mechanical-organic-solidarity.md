@@ -14,7 +14,7 @@ tags:
 - social-integration
 - social-change
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mechanical and Organic Solidarity

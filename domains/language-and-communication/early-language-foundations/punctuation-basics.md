@@ -15,7 +15,7 @@ tags:
 - commas
 - writing-conventions
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Punctuation Basics

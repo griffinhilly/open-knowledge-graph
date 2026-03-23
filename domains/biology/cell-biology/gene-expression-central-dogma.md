@@ -15,7 +15,7 @@ tags:
 - central-dogma
 - protein
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gene Expression: DNA to Protein

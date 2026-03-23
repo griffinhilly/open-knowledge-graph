@@ -16,7 +16,7 @@ tags:
 - social-critique
 - irony
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Satire in Drama

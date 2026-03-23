@@ -17,7 +17,7 @@ tags:
 - fundamental principle
 - vector addition
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Superposition Principle in Electrostatics

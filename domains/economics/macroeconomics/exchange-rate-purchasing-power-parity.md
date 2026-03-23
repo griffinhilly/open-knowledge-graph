@@ -15,7 +15,7 @@ tags:
 - international
 - ppp
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Exchange Rates and Purchasing Power Parity
 

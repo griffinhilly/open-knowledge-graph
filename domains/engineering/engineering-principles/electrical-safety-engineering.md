@@ -19,7 +19,7 @@ tags:
 - circuit-breakers
 - shock-hazard
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Electrical Safety in Engineering
 

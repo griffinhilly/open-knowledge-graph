@@ -14,7 +14,7 @@ tags:
 - water
 - drainage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Plumbing System Fundamentals

@@ -17,7 +17,7 @@ tags:
 - pathogen-burden
 - inflammation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Immunopathology of Infectious Diseases: Protective vs. Pathogenic Immunity

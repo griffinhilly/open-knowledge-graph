@@ -21,7 +21,7 @@ tags:
 - turbulence
 - viscosity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Accretion Disk Physics and Radiative Efficiency

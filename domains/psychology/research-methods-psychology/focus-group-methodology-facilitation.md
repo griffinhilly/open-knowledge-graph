@@ -13,7 +13,7 @@ tags:
 - group-interviews
 - qualitative-data-collection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Focus Group Research and Group Facilitation Methods

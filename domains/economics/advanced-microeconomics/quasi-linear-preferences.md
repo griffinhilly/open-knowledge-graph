@@ -15,7 +15,7 @@ tags:
 - utility
 - applied-microeconomics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Quasi-Linear Preferences and Their Properties

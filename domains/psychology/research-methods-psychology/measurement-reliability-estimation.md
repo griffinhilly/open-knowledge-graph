@@ -15,7 +15,7 @@ tags:
 - consistency
 - measurement-error
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Measurement Reliability: Types and Estimation

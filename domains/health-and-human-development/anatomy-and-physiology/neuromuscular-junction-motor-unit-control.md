@@ -19,7 +19,7 @@ tags:
 - motor-control
 - acetylcholine
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Neuromuscular Junction and Motor Unit Control

@@ -16,7 +16,7 @@ tags:
 - independence
 - resistance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Anticolonial Liberation Movements and Independence Struggles

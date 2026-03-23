@@ -16,7 +16,7 @@ tags:
 - periodogram
 - welch
 stage: expert
-status: draft
+status: validated
 ---
 
 # Power Spectral Density Estimation

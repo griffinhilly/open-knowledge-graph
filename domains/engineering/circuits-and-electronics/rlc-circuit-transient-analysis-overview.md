@@ -17,7 +17,7 @@ tags:
 - damping
 - natural-response
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # RLC Circuit Transient Analysis Overview

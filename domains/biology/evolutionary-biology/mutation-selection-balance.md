@@ -24,7 +24,7 @@ tags:
 - mutation
 - equilibrium
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Mutation-Selection Balance

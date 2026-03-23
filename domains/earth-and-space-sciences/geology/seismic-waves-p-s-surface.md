@@ -15,7 +15,7 @@ tags:
 - waves
 - crustal-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Seismic Waves: Body Waves and Surface Waves

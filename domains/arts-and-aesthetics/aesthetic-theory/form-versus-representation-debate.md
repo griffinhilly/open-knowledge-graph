@@ -22,7 +22,7 @@ tags:
 - content
 - form
 stage: expert
-status: draft
+status: validated
 ---
 
 # Form versus Representation Debate

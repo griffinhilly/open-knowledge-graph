@@ -13,7 +13,7 @@ tags:
 - numerical-methods
 - sampling
 stage: expert
-status: draft
+status: validated
 ---
 
 # Monte Carlo Methods in Statistical Mechanics

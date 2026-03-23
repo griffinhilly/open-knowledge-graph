@@ -20,7 +20,7 @@ tags:
 - titration
 - titration-alkalinity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ocean Alkalinity and the Carbonate System Buffer

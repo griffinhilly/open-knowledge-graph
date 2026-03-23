@@ -13,7 +13,7 @@ tags:
 - cleaning
 - maintenance
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Carpet Stain Removal and Care

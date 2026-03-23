@@ -17,7 +17,7 @@ tags:
 - islamic-historiography
 - sociology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ibn Khaldun and the Science of Civilization

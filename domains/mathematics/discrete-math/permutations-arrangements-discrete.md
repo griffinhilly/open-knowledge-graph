@@ -17,7 +17,7 @@ tags:
 - ordering
 - P(n,r)
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Permutations and Arrangements

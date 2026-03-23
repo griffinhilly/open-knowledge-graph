@@ -16,7 +16,7 @@ tags:
 - essential-amino-acids
 - protein-quality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Protein Synthesis and Amino Acid Requirements

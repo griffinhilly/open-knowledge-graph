@@ -16,7 +16,7 @@ tags:
 - element
 - light-dark
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Value and Tone

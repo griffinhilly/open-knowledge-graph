@@ -15,7 +15,7 @@ tags:
 - deconstruction
 - meaning
 stage: expert
-status: draft
+status: validated
 ---
 
 # Derrida's Différance and Trace

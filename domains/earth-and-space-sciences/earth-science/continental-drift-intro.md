@@ -6,7 +6,7 @@ course: earth-science
 prerequisites:
 - id: earths-layers
   type: hard
-- id: landforms-intro
+- id: mountains-valleys-and-plains
   type: soft
 builds-toward:
 - plate-tectonics
@@ -18,7 +18,7 @@ tags:
 - continents
 - evidence
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Introduction to Continental Drift

@@ -14,7 +14,7 @@ tags:
 - language attrition
 - multilingual competence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multilingualism and Code-Switching

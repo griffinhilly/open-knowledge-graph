@@ -16,7 +16,7 @@ tags:
 - fragmentation
 - carbocation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ether Cleavage and Fragmentation Mechanisms

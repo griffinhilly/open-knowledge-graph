@@ -15,7 +15,7 @@ tags:
 - coins
 - bills
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Counting Coins and Paper Bills

@@ -15,7 +15,7 @@ tags:
 - chord-quality
 - jazz
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Extended Chord Quality Recognition by Ear

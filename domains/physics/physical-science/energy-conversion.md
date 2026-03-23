@@ -14,7 +14,7 @@ tags:
 - energy-conversion
 - transformation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Energy Conversion
 

@@ -17,7 +17,7 @@ tags:
 - null-space
 - column-space
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kernel and Image of Linear Transformations

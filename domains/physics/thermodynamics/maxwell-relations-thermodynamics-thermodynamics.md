@@ -15,7 +15,7 @@ tags:
 - relations
 - measurable-properties
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Maxwell Relations

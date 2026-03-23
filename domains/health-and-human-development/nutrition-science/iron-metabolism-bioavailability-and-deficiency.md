@@ -18,7 +18,7 @@ tags:
 - metabolism
 - deficiency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Iron Metabolism, Bioavailability, and Deficiency States

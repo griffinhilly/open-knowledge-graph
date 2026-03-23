@@ -13,7 +13,7 @@ tags:
 - FEP
 - early intervention
 stage: expert
-status: draft
+status: validated
 ---
 
 # First Episode Psychosis and Early Intervention

@@ -18,7 +18,7 @@ tags:
 - speaker
 - audience
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Apostrophe: Direct Address in Poetry

@@ -12,7 +12,7 @@ tags:
 - landscape
 - outdoor
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Lawn, Garden, and Landscape Maintenance

@@ -13,7 +13,7 @@ tags:
 - completeness
 - convergence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cauchy Sequences and Completeness

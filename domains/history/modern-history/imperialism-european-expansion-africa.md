@@ -16,7 +16,7 @@ tags:
 - africa
 - expansion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # European Imperialism and Expansion into Africa

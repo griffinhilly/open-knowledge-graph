@@ -16,7 +16,7 @@ tags:
 - control-plane
 - data-plane
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Software-Defined Networking (SDN)

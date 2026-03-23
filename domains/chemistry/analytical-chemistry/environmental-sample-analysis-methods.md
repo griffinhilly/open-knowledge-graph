@@ -14,7 +14,7 @@ tags:
 - soil
 - air
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Environmental Sample Analysis Methods

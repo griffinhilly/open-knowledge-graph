@@ -13,7 +13,7 @@ tags:
 - rate
 - rare-events
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Poisson Distribution

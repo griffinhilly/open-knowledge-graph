@@ -15,7 +15,7 @@ tags:
 - moral-facts
 - platonism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Non-Naturalism: Special Moral Properties

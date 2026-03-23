@@ -14,7 +14,7 @@ tags:
 - receptors
 - signal-transduction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ionotropic vs. Metabotropic Receptors

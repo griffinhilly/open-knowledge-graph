@@ -15,7 +15,7 @@ tags:
 - embellishment
 - melody
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Non-Harmonic Tones: Passing Tones and Embellishments

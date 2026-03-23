@@ -19,7 +19,7 @@ tags:
 - mPFC
 - social-cognition
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mentalizing Network and Theory of Mind

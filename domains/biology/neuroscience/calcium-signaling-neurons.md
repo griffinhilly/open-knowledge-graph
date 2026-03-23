@@ -20,7 +20,7 @@ tags:
 - signaling
 - plasticity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Calcium Signaling in Neurons

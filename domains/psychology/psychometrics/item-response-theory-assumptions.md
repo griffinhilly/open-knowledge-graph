@@ -25,7 +25,7 @@ tags:
 - unidimensionality
 - local-independence
 stage: expert
-status: draft
+status: validated
 ---
 
 # Item Response Theory: Assumptions and Fundamentals

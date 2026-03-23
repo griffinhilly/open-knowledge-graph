@@ -13,7 +13,7 @@ tags:
 - genetic-drift
 - founder-effect
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Peripatric Speciation and Founder Effects

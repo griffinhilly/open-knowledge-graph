@@ -15,7 +15,7 @@ tags:
 - windowing
 - trade-offs
 stage: expert
-status: draft
+status: validated
 ---
 
 # Spectral Leakage and Windowing Trade-offs

@@ -18,7 +18,7 @@ tags:
 - rigid bodies
 - impact
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Angular Impulse and Momentum for Rigid Bodies

@@ -19,7 +19,7 @@ tags:
 - clustering
 - algorithms
 stage: expert
-status: draft
+status: validated
 ---
 
 # Community Detection in Social Networks

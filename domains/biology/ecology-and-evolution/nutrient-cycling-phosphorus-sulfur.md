@@ -18,7 +18,7 @@ tags:
 - sedimentary
 - nutrients
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nutrient Cycling: Phosphorus and Sulfur Cycles

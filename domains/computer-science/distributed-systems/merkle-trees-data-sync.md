@@ -16,7 +16,7 @@ tags:
 - synchronization
 - efficiency
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Merkle Trees for Efficient Data Synchronization

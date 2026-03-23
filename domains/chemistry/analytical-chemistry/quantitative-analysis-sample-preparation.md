@@ -17,7 +17,7 @@ tags:
 - quantitation
 - sample-handling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Quantitative Analysis: Sample Preparation Strategies

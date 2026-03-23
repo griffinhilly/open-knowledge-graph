@@ -15,7 +15,7 @@ tags:
 - timescale
 - longue durée
 stage: expert
-status: draft
+status: validated
 ---
 
 # Deep History: Very Long Timescales

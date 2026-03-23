@@ -16,7 +16,7 @@ tags:
 - circulation
 - emotion
 stage: expert
-status: draft
+status: validated
 ---
 
 # Affect, Intensity, and Circulation

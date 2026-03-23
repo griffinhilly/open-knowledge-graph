@@ -19,7 +19,7 @@ tags:
 - meridional
 - climate-regulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermohaline Overturning Circulation

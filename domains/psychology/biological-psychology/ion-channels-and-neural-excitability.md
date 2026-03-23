@@ -20,7 +20,7 @@ tags:
 - neurophysiology
 - ion-transport
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ion Channels and Neural Excitability

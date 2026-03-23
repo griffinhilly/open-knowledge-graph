@@ -15,7 +15,7 @@ tags:
 - biotrauma
 - lung-injury
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ventilator-Associated Lung Injury

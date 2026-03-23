@@ -15,7 +15,7 @@ tags:
 - condensation
 - quantum-order
 stage: expert
-status: draft
+status: validated
 ---
 
 # Superfluidity and Quantum Condensation

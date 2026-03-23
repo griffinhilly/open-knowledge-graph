@@ -13,7 +13,7 @@ tags:
 - impulse
 - distribution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dirac Delta Function and Impulse Response

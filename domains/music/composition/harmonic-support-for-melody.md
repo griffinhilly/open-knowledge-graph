@@ -20,7 +20,7 @@ tags:
 - accompaniment
 - support
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Support for Melody

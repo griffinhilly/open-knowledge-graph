@@ -15,7 +15,7 @@ tags:
 - skin
 - animal features
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Animal Coverings

@@ -13,7 +13,7 @@ tags:
 - vapor-pressure
 - saturation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Clausius-Clapeyron Equation and Saturation Conditions

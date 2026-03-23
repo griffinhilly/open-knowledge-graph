@@ -16,7 +16,7 @@ tags:
 - oceans
 - landforms
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Rivers, Lakes, and Oceans

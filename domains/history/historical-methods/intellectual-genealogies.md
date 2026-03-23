@@ -16,7 +16,7 @@ tags:
 - concepts
 - methodology
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Tracking Ideas and Intellectual Genealogies

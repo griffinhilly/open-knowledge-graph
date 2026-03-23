@@ -15,7 +15,7 @@ tags:
 - synthesis
 - argumentation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Argument Synthesis From Sources

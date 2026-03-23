@@ -18,7 +18,7 @@ tags:
 - structures
 - engineering
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Materials and Strength Testing
 

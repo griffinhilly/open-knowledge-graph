@@ -13,7 +13,7 @@ tags:
 - semantics
 - methodology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Conceptual History (Begriffsgeschichte)

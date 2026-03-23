@@ -16,7 +16,7 @@ tags:
 - conductivity
 - endpoint-detection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conductometric Titration and Analysis

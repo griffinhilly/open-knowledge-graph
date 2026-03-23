@@ -19,7 +19,7 @@ tags:
 - closed-loop-poles
 - frequency-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # Nyquist Plot and Encirclement Criterion

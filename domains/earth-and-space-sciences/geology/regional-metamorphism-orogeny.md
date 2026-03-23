@@ -14,7 +14,7 @@ tags:
 - mountain-building
 - pressure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Regional Metamorphism and Orogenic Belts

@@ -15,7 +15,7 @@ tags:
 - anatomy
 - morphology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Neuron Morphology and Classification

@@ -15,7 +15,7 @@ tags:
 - conflict
 - constitution
 stage: formal-systems
-status: draft
+status: validated
 ---
 # The Roman Republic: Class Conflict and Constitutional Development
 

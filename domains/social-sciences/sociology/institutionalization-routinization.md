@@ -13,7 +13,7 @@ tags:
 - taken-for-granted
 - new-institutional
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Institutionalization Processes and Routinization
 

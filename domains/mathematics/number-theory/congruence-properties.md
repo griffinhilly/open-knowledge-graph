@@ -15,7 +15,7 @@ tags:
 - modular-arithmetic
 - properties
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Properties of Congruences

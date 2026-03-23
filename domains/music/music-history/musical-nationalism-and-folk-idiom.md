@@ -15,7 +15,7 @@ tags:
 - cultural-identity
 - 19th-century
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Musical Nationalism and Folk Idiom

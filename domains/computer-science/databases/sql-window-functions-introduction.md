@@ -16,7 +16,7 @@ tags:
 - window-functions
 - advanced-queries
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Window Functions: Analytical Queries

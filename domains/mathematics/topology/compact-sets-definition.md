@@ -13,7 +13,7 @@ tags:
 - compact
 - compactness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Compactness via Open Covers

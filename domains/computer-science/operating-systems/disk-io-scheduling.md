@@ -13,7 +13,7 @@ tags:
 - disk-scheduling
 - resource-optimization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Disk I/O Scheduling Algorithms

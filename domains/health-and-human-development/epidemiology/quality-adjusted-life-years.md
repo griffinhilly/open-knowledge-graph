@@ -15,7 +15,7 @@ tags:
 - preference-based-measures
 - utility-assessment
 stage: expert
-status: draft
+status: validated
 ---
 
 # Quality-Adjusted Life Years (QALYs)

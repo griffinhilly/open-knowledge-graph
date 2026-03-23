@@ -18,7 +18,7 @@ tags:
 - social-judgment
 - cognition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Attribution Theory and Causal Judgment

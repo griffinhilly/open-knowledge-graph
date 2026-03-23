@@ -16,7 +16,7 @@ tags:
 - partiality
 - agency
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Impartial vs Partial Agency

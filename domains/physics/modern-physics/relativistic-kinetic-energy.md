@@ -15,7 +15,7 @@ tags:
 - energy
 - dynamics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Relativistic Kinetic Energy and Total Energy

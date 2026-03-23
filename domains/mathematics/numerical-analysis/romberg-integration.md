@@ -13,7 +13,7 @@ tags:
 - integration
 - extrapolation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Romberg Integration

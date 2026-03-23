@@ -21,7 +21,7 @@ tags:
 - electrophysiology
 - membrane-potential
 stage: expert
-status: draft
+status: validated
 ---
 
 # Resting Membrane Potential

@@ -14,7 +14,7 @@ tags:
 - theme
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Theme and Variation Form: Advanced Analysis

@@ -17,7 +17,7 @@ tags:
 - expectations
 - wage-price-spiral
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Wage-Price Dynamics and the Inflation Process

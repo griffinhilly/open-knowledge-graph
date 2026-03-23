@@ -13,7 +13,7 @@ tags:
 - core-dynamics
 - evolution
 stage: expert
-status: draft
+status: validated
 ---
 
 # Planetary Magnetic Field Evolution and Decay

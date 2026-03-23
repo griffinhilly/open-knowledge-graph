@@ -13,7 +13,7 @@ tags:
 - oligopoly
 - sequential-games
 stage: expert
-status: draft
+status: validated
 ---
 
 # Stackelberg Sequential Competition

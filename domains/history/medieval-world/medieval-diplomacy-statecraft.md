@@ -15,7 +15,7 @@ tags:
 - treaties
 - politics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Medieval Diplomacy and Statecraft

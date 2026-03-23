@@ -15,7 +15,7 @@ tags:
 - coordination
 - organization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Topic Sentences and Thesis Coordination
 

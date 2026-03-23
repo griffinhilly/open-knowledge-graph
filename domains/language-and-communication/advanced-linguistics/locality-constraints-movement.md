@@ -15,7 +15,7 @@ tags:
 - constraints
 - syntax
 stage: expert
-status: draft
+status: validated
 ---
 
 # Locality Constraints and Movement

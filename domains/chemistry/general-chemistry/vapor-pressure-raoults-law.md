@@ -17,7 +17,7 @@ tags:
 - negative-deviation
 - volatile-solute
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Vapor Pressure and Raoult's Law
 

@@ -15,7 +15,7 @@ tags:
 - expansion
 - static
 stage: expert
-status: draft
+status: validated
 ---
 
 # Multipole Expansion for Static Fields

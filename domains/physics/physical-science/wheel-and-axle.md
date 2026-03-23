@@ -15,7 +15,7 @@ tags:
 - axle
 - simple-machine
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Wheel and Axle
 

@@ -16,7 +16,7 @@ tags:
 - opening
 - create
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Creating, Saving & Opening Files

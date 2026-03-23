@@ -14,7 +14,7 @@ tags:
 - imagery
 - style
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metaphor and Figurative Language in Speeches

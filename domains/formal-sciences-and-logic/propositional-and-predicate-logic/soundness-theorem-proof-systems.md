@@ -19,7 +19,7 @@ tags:
 - validity
 - proof-systems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Soundness Theorem and Validity of Proof Systems

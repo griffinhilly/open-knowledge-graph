@@ -18,7 +18,7 @@ tags:
 - inflammation
 - energy-balance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Obesity, Metabolic Syndrome, and Nutritional Pathophysiology

@@ -19,7 +19,7 @@ tags:
 - magnetic-field
 - flux-linkage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inductors and Inductance

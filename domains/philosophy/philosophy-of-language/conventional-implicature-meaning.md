@@ -15,7 +15,7 @@ tags:
 - non-truth-conditional
 - meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conventional Implicature and Non-Truth-Conditional Meaning

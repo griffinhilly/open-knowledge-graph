@@ -15,7 +15,7 @@ tags:
 - milestones
 - locomotion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gross Motor Development Milestones

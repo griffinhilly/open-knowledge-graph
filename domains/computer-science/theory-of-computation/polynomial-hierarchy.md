@@ -13,7 +13,7 @@ tags:
 - quantified-formulas
 - hierarchy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Polynomial Hierarchy

@@ -13,7 +13,7 @@ tags:
 - consistency
 - demand-theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Weak Axiom of Revealed Preference (WARP)

@@ -16,7 +16,7 @@ tags:
 - address-reuse
 - routing
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Anycast Networking

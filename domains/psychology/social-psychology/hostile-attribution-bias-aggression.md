@@ -19,7 +19,7 @@ tags:
 - social-dynamics
 - interpretation-bias
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hostile Attribution Bias in Aggression

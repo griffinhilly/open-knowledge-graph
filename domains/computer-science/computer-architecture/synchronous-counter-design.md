@@ -10,7 +10,7 @@ tags:
 - counter
 - sequential-logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Synchronous Counter Design

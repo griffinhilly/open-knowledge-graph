@@ -19,7 +19,7 @@ tags:
 - conservation
 - water-scarcity
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Water as a Resource

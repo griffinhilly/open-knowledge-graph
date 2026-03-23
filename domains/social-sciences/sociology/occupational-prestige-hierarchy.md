@@ -13,7 +13,7 @@ tags:
 - prestige
 - inequality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Occupational Prestige and Status Systems

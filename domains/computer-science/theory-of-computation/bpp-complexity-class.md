@@ -12,7 +12,7 @@ tags:
 - complexity-classes
 - randomized-algorithms
 stage: advanced
-status: draft
+status: validated
 ---
 
 # BPP: Bounded Error Probabilistic Polynomial Time

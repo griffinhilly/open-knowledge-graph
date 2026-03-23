@@ -18,7 +18,7 @@ tags:
 - reparations
 - Four-Power
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Potsdam Conference and the Occupation of Germany

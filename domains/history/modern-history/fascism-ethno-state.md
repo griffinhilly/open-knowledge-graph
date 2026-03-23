@@ -18,7 +18,7 @@ tags:
 - ethno-nationalism
 - militarism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fascism and Ethno-Nationalist Authoritarianism

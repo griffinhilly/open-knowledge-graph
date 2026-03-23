@@ -17,7 +17,7 @@ tags:
 - social-organization
 - meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Totemism and Symbolic Classification

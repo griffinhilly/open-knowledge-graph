@@ -12,7 +12,7 @@ tags:
 - metrization
 - urysohn
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Urysohn Metrization Theorem

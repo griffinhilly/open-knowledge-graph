@@ -17,7 +17,7 @@ tags:
 - observation
 - foundational
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Recognizing Patterns

@@ -15,7 +15,7 @@ tags:
 - distance
 - time
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # What Is Speed?
 

@@ -16,7 +16,7 @@ tags:
 - rhythm-section
 - groove
 stage: expert
-status: draft
+status: validated
 ---
 
 # Jazz Rhythm Section Analysis

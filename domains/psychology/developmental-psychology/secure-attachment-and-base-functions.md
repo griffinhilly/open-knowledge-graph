@@ -15,7 +15,7 @@ tags:
 - exploration
 - infancy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Secure Attachment and Base Functions

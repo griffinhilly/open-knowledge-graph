@@ -13,7 +13,7 @@ tags:
 - quaternary-carbon
 - offsets
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Carbon-13 NMR Spectroscopy and DEPT

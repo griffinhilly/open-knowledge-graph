@@ -15,7 +15,7 @@ tags:
 - symmetry
 - bravais
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Crystal Systems and Bravais Lattices

@@ -13,7 +13,7 @@ tags:
 - polarization
 - permittivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dielectrics and Polarization

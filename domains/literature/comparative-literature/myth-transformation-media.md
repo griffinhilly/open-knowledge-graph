@@ -17,7 +17,7 @@ tags:
 - media
 - transformation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Myth in Comparative and Intermedial Contexts

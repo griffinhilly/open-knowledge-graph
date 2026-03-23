@@ -19,7 +19,7 @@ tags:
 - ones
 - base-ten
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Place Value: Tens and Ones

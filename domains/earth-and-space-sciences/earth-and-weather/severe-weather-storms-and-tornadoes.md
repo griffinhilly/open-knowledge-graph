@@ -20,7 +20,7 @@ tags:
 - thunderstorms
 - safety
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Severe Weather (Storms and Tornadoes)

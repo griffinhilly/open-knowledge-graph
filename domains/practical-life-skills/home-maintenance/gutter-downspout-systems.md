@@ -13,7 +13,7 @@ tags:
 - drainage
 - exterior-maintenance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Gutter and Downspout Systems

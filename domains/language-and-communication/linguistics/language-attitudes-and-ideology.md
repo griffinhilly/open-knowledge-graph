@@ -13,7 +13,7 @@ tags:
 - linguistic discrimination
 - language policy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Language Attitudes and Ideology

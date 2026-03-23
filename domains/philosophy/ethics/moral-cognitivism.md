@@ -16,7 +16,7 @@ tags:
 - truth
 - truth-values
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Cognitivism: Truth and Moral Claims

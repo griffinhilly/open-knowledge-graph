@@ -13,7 +13,7 @@ tags:
 - hypothesis-testing
 - model-diagnostics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Specification Tests: Ramsey RESET and Hausman Tests

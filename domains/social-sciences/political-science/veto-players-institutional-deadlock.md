@@ -17,7 +17,7 @@ tags:
 - deadlock
 - change
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Veto Players and Institutional Deadlock

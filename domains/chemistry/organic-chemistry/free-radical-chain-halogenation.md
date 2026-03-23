@@ -17,7 +17,7 @@ tags:
 - halogenation
 - chain-reaction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Free Radical Chain Reactions: Halogenation of Alkanes

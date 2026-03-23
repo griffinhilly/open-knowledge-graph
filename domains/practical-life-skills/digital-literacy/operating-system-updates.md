@@ -12,7 +12,7 @@ tags:
 - security
 - maintenance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Operating System Updates

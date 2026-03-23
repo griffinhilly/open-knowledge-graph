@@ -15,7 +15,7 @@ tags:
 - counting
 - addition
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Counting Collections of Coins

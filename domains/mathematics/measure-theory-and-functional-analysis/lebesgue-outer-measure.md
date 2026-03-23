@@ -12,7 +12,7 @@ tags:
 - measure-theory
 - lebesgue-measure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lebesgue Outer Measure on ℝⁿ

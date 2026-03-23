@@ -19,7 +19,7 @@ tags:
 - impedance
 - phasor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # AC Circuits and Complex Impedance

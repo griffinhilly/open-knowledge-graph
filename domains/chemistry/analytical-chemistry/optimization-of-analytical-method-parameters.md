@@ -11,7 +11,7 @@ tags:
 - method development
 - parameters
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Optimization of Analytical Method Parameters

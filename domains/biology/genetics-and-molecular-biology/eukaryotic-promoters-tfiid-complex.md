@@ -18,7 +18,7 @@ tags:
 - tfiid
 - gene-regulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Eukaryotic Promoters and the TFIID Complex

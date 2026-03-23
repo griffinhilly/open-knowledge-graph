@@ -15,7 +15,7 @@ tags:
 - engines
 - efficiency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Diesel Cycle and Compression Ignition Engines

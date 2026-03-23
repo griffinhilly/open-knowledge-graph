@@ -13,7 +13,7 @@ tags:
 - completion
 - metric-spaces
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Introduction to p-adic Numbers

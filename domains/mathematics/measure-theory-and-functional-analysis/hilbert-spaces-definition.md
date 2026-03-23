@@ -14,7 +14,7 @@ tags:
 - hilbert-spaces
 - functional-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hilbert Spaces: Definition and Examples

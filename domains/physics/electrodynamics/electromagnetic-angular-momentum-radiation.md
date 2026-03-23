@@ -13,7 +13,7 @@ tags:
 - orbital-angular-momentum
 - spin-angular-momentum
 stage: expert
-status: draft
+status: validated
 ---
 
 # Electromagnetic Angular Momentum

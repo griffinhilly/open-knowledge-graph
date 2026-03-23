@@ -13,7 +13,7 @@ tags:
 - gluconeogenesis
 - fasting
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hepatic Glucose Production: Glycogenolysis and Gluconeogenesis

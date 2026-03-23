@@ -18,7 +18,7 @@ tags:
 - poynting
 - intensity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Poynting Vector and Electromagnetic Energy Flow

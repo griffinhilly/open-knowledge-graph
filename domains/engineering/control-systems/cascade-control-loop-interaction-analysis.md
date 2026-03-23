@@ -17,7 +17,7 @@ tags:
 - disturbance-rejection
 - cascade-design
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cascade Control: Loop Interaction and Design

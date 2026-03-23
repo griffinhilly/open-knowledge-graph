@@ -17,7 +17,7 @@ tags:
 - reusability
 - templates
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Design Patterns and Components

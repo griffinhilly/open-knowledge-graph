@@ -20,7 +20,7 @@ tags:
 - flowers
 - seeds
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Pollination and Fertilization in Plants
 

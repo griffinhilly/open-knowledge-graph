@@ -20,7 +20,7 @@ tags:
 - methods
 - erp
 stage: expert
-status: draft
+status: validated
 ---
 
 # EEG, Event-Related Potentials, and Neural Timing

@@ -20,7 +20,7 @@ tags:
 - equilibrium
 - visual
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Visual Weight and Balance: Distribution and Equilibrium
 

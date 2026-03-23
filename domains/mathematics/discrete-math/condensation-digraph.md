@@ -11,7 +11,7 @@ tags:
 - components
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graph Condensation and Metagraph

@@ -22,7 +22,7 @@ tags:
 - translational
 - structure
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Symmetry Types and Their Compositional Effects

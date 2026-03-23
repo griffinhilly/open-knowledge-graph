@@ -17,7 +17,7 @@ tags:
 - Kuroshio
 - heat-transport
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Western Boundary Current Intensification

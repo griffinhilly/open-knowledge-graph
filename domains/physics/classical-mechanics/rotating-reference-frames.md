@@ -14,7 +14,7 @@ tags:
 - pseudo-forces
 - centrifugal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rotating Reference Frames

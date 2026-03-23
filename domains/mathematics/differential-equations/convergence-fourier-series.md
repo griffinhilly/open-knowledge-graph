@@ -15,7 +15,7 @@ tags:
 - dirichlet-conditions
 - pointwise
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Convergence of Fourier Series

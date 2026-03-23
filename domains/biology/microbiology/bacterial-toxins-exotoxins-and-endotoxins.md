@@ -18,7 +18,7 @@ tags:
 - endotoxins
 - pathogenesis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bacterial Toxins: Exotoxins and Endotoxins

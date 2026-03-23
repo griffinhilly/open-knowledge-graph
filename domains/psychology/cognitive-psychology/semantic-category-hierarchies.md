@@ -15,7 +15,7 @@ tags:
 - categorization
 - knowledge
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Semantic Category Hierarchies and Conceptual Organization

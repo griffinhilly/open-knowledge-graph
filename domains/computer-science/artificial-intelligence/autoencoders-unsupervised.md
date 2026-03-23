@@ -18,7 +18,7 @@ tags:
 - dimensionality-reduction
 - reconstruction
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Autoencoders for Unsupervised Learning

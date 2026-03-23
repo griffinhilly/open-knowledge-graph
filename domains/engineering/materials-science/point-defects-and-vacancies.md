@@ -19,7 +19,7 @@ tags:
 - substitutional
 - impurities
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Point Defects and Vacancies

@@ -12,7 +12,7 @@ tags:
 - supervised-learning
 - learning-paradigm
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Supervised Learning Fundamentals

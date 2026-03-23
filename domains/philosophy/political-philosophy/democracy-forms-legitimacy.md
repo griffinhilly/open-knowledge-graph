@@ -15,7 +15,7 @@ tags:
 - representation
 - deliberation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Forms of Democracy: Direct, Representative, Deliberative

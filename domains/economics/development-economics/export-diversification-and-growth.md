@@ -11,7 +11,7 @@ tags:
 - diversification
 - growth
 stage: expert
-status: draft
+status: validated
 ---
 
 # Export Diversification and Long-Run Growth

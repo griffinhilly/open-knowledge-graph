@@ -18,7 +18,7 @@ tags:
 - value
 - aesthetics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Literary Fiction and Genre Fiction: Distinctions and Purposes

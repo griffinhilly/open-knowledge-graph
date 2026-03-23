@@ -15,7 +15,7 @@ tags:
 - organization
 - rationalization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bureaucracy and Organizational Structure

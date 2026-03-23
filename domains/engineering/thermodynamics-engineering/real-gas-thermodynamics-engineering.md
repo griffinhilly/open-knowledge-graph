@@ -17,7 +17,7 @@ tags:
 - van-der-waals
 - cubic-eos
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Real Gas Thermodynamics and Equations of State

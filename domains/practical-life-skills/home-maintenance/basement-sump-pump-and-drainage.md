@@ -18,7 +18,7 @@ tags:
 - drainage
 - water
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Basement Sump Pump and Drainage Systems

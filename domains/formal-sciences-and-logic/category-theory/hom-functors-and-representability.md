@@ -19,7 +19,7 @@ tags:
 - universal-element
 - natural-isomorphism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hom-Functors and Representability

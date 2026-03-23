@@ -17,7 +17,7 @@ tags:
 - euler-phi
 - coprime
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Euler's Totient Function

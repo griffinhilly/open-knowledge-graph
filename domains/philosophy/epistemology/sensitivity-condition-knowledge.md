@@ -16,7 +16,7 @@ tags:
 - tracking
 - gettier
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Sensitivity Condition and Tracking Truth

@@ -19,7 +19,7 @@ tags:
 - well-known-ports
 - ephemeral-ports
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Port Addressing and Sockets

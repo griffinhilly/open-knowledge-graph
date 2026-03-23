@@ -14,7 +14,7 @@ tags:
 - lightweight-concurrency
 - kernel-vs-user
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thread Models: User-Level and Kernel Threads

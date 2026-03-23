@@ -21,7 +21,7 @@ tags:
 - temporal-difference
 - bootstrapping
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Temporal Difference Learning

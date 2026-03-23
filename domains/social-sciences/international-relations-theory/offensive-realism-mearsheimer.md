@@ -17,7 +17,7 @@ tags:
 - hegemony
 - conflict
 stage: expert
-status: draft
+status: validated
 ---
 
 # Offensive Realism and Great Power Competition

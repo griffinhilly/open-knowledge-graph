@@ -17,7 +17,7 @@ tags:
 - validity
 - logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Introduction to Deductive Validity

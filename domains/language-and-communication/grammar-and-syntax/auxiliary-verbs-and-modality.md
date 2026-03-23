@@ -17,7 +17,7 @@ tags:
 - verb-phrases
 - modality
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Auxiliary Verbs and Modal Meaning

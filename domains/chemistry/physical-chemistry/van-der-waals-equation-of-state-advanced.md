@@ -16,7 +16,7 @@ tags:
 - real-gases
 - virial
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Van der Waals Equation: Real Gas Behavior

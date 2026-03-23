@@ -19,7 +19,7 @@ tags:
 - phenomenology
 - cognition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mental Imagery and Visual Consciousness

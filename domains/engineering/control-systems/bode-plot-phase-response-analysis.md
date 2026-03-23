@@ -15,7 +15,7 @@ tags:
 - phase-lag
 - phase-lead
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bode Plot Phase Response: Calculation and Interpretation

@@ -16,7 +16,7 @@ tags:
 - space
 - composition
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Shape and Space Interaction

@@ -16,7 +16,7 @@ tags:
 - punctuation
 - direct-speech
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Punctuating Direct Quotations and Dialogue

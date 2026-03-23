@@ -17,7 +17,7 @@ tags:
 - promoters
 - gene-regulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Prokaryotic Promoters and Sigma Factors

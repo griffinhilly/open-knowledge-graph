@@ -19,7 +19,7 @@ tags:
 - relative consistency
 - GCH
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Constructible Universe

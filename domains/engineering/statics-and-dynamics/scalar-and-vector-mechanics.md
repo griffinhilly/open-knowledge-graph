@@ -14,7 +14,7 @@ tags:
 - scalars
 - mechanics-fundamentals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Scalar and Vector Mechanics

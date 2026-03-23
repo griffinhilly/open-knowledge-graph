@@ -13,7 +13,7 @@ tags:
 - stress-intensity-factor
 - fracture-toughness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linear Elastic Fracture Mechanics

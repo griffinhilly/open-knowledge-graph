@@ -17,7 +17,7 @@ tags:
 - things
 - posthuman
 stage: expert
-status: draft
+status: validated
 ---
 
 # New Materialism: Agency and Vitality of Things

@@ -17,7 +17,7 @@ tags:
 - reflection
 - acquisition
 stage: expert
-status: draft
+status: validated
 ---
 
 # Reflection Seismic Survey Design and Acquisition

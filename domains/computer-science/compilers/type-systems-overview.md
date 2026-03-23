@@ -17,7 +17,7 @@ tags:
 - type-checking
 - language-design
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Type Systems Overview

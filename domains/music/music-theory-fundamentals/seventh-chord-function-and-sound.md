@@ -17,7 +17,7 @@ tags:
 - dominant
 - function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Seventh Chords and Their Function

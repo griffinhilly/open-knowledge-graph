@@ -13,7 +13,7 @@ tags:
 - linear-polarization
 - polarizers
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Linear Polarization: Production and Analysis Methods

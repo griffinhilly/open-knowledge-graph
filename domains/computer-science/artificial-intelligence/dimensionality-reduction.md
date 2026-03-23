@@ -17,7 +17,7 @@ tags:
 - feature-reduction
 - representation-learning
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Dimensionality Reduction Techniques

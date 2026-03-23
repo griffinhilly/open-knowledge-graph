@@ -17,7 +17,7 @@ tags:
 - replication
 - read-write
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quorum-Based Consistency

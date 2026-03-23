@@ -15,7 +15,7 @@ tags:
 - entailment
 - validity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Logical Implication and Semantic Entailment

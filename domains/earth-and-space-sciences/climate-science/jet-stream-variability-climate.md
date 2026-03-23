@@ -19,7 +19,7 @@ tags:
 - climate-variability
 - weather-climate-link
 stage: expert
-status: draft
+status: validated
 ---
 
 # Jet Stream Variability and Climate

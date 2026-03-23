@@ -15,7 +15,7 @@ tags:
 - treatment-interaction
 - precision-medicine
 stage: expert
-status: draft
+status: validated
 ---
 
 # Subgroup Analysis and Treatment Heterogeneity

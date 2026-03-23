@@ -14,7 +14,7 @@ tags:
 - bias-assessment
 - systematic-review
 stage: expert
-status: draft
+status: validated
 ---
 
 # Evidence Hierarchy and Appraisal

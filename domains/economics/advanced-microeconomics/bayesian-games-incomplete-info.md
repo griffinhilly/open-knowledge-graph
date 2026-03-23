@@ -24,7 +24,7 @@ tags:
 - information-asymmetry
 - types
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bayesian Games and Incomplete Information

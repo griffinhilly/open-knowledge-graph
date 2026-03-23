@@ -13,7 +13,7 @@ tags:
 - matrix-factorization
 - linear-solver
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # LU Decomposition

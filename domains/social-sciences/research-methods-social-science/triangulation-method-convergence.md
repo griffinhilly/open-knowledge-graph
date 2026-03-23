@@ -14,7 +14,7 @@ tags:
 - validity
 - multiple-methods
 stage: expert
-status: draft
+status: validated
 ---
 
 # Triangulation: Convergent Validity and Method Confirmation

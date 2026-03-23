@@ -13,7 +13,7 @@ tags:
 - mappings
 - domain-codomain-range
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Functions and Mappings: Formal Definition

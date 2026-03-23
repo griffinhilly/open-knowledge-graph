@@ -13,7 +13,7 @@ tags:
 - 3d
 - three-dimensional
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Space Trusses: Three-Dimensional Analysis

@@ -16,7 +16,7 @@ tags:
 - concession
 - argumentation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Strategic Concession in Debate

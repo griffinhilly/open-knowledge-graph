@@ -23,7 +23,7 @@ tags:
 - enzymes
 - peptide-transport
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Protein Digestion and Peptide Absorption

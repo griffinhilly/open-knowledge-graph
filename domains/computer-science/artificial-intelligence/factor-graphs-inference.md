@@ -16,7 +16,7 @@ tags:
 - factorization
 - bipartite-graphs
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Factor Graphs and Inference

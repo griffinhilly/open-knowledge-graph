@@ -17,7 +17,7 @@ tags:
 - system-architecture
 - interconnection
 stage: expert
-status: draft
+status: validated
 ---
 
 # Control System Structure and Configuration

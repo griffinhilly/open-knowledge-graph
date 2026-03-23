@@ -24,7 +24,7 @@ tags:
 - demand
 - decomposition
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Slutsky Equation

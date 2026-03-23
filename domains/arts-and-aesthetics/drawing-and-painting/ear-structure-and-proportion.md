@@ -16,7 +16,7 @@ tags:
 - proportion
 - observation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ear Structure and Proportion

@@ -19,7 +19,7 @@ tags:
 - analysis
 - function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Setting as a Functional Element: Beyond Background

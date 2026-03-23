@@ -17,7 +17,7 @@ tags:
 - radiation-pressure
 - evolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stellar Mass Loss and Stellar Winds

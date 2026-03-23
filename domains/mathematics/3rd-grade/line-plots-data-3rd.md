@@ -13,7 +13,7 @@ tags:
 - data
 - measurement
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Line Plots with Data

@@ -15,7 +15,7 @@ tags:
 - diagnostics
 - empirical-methods
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constituency Testing and Phrase Diagnostics

@@ -13,7 +13,7 @@ tags:
 - epidemic
 - information-dissemination
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Gossip Protocols and Epidemic Algorithms

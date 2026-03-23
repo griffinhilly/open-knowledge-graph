@@ -14,7 +14,7 @@ tags:
 - technology
 - modernity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Late Twentieth-Century Globalization and Interconnection

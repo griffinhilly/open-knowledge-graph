@@ -15,7 +15,7 @@ tags:
 - long-run-growth
 - dynamics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Steady-State Analysis in Growth Models

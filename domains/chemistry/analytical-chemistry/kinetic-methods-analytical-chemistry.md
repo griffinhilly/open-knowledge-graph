@@ -13,7 +13,7 @@ tags:
 - rate-based analysis
 - enzyme kinetics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Kinetic Methods in Analytical Chemistry

@@ -14,7 +14,7 @@ tags:
 - sixths
 - eighths
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Unit Fractions: Sixths and Eighths

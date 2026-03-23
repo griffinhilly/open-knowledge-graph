@@ -19,7 +19,7 @@ tags:
 - greenhouse-gases
 - atmospheric-composition
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ice Core Records of Past Climate

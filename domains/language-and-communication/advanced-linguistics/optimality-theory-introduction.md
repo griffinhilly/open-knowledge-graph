@@ -12,7 +12,7 @@ tags:
 - phonology
 - optimality-theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Optimality Theory

@@ -15,7 +15,7 @@ tags:
 - phase-transition
 - quantum-statistics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bose-Einstein Condensation

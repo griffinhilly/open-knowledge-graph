@@ -14,7 +14,7 @@ tags:
 - economy
 - trade
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Medieval Urbanization and Town Growth

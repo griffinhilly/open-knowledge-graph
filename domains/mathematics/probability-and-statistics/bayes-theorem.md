@@ -14,7 +14,7 @@ tags:
 - prior
 - likelihood
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bayes' Theorem

@@ -15,7 +15,7 @@ tags:
 - velocity-model
 - inverse-problems
 stage: expert
-status: draft
+status: validated
 ---
 
 # Seismic Tomography and Velocity Imaging

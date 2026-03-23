@@ -13,7 +13,7 @@ tags:
 - time
 - hours
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Elapsed Time Across Hours

@@ -18,7 +18,7 @@ tags:
 - materialism
 - historical
 stage: expert
-status: draft
+status: validated
 ---
 
 # Marx and Historical Materialism

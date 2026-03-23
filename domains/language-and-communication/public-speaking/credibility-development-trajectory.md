@@ -17,7 +17,7 @@ tags:
 - persuasion
 - speaker-presence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Credibility Development Over Time

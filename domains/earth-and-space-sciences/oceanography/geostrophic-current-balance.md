@@ -18,7 +18,7 @@ tags:
 - pressure-gradient
 - current-balance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Geostrophic Balance in Ocean Currents

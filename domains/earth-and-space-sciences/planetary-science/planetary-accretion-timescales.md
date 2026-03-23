@@ -15,7 +15,7 @@ tags:
 - accretion
 - timescales
 stage: expert
-status: draft
+status: validated
 ---
 
 # Planetary Accretion Timescales and Disk Lifetime Constraints

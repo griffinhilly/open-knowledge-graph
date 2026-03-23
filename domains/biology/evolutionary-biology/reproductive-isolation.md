@@ -14,7 +14,7 @@ tags:
 - isolation
 - reproductive
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Reproductive Isolation Mechanisms

@@ -14,7 +14,7 @@ tags:
 - clauses
 - sentence-structure
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Main Clauses vs. Subordinate Clauses

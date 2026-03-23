@@ -14,7 +14,7 @@ tags:
 - h(t)
 - characterization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Impulse Response, Convolution, and System Characterization

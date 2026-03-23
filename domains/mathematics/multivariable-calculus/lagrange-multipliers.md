@@ -12,7 +12,7 @@ tags:
 - lagrange
 - constraints
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lagrange Multipliers

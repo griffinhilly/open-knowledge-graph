@@ -13,7 +13,7 @@ tags:
 - rectangles
 - formula
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Area of Rectangles

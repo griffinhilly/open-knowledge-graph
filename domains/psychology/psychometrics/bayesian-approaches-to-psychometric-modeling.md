@@ -23,7 +23,7 @@ tags:
 - advanced-modeling
 - uncertainty
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bayesian Methods in Psychometric Modeling

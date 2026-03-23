@@ -19,7 +19,7 @@ tags:
 - decadal-variability
 - climate-modes
 stage: expert
-status: draft
+status: validated
 ---
 
 # Atlantic Multidecadal Oscillation

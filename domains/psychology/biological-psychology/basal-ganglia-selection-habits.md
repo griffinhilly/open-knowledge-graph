@@ -16,7 +16,7 @@ tags:
 - motivation
 - learning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Basal Ganglia: Action Selection and Habit Formation

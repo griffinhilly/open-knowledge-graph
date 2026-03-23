@@ -19,7 +19,7 @@ tags:
 - German
 - chromatic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Augmented Sixth Chord Voice-Leading Patterns

@@ -19,7 +19,7 @@ tags:
 - base-superstructure
 - class
 stage: expert
-status: draft
+status: validated
 ---
 
 # Marxist Historiography

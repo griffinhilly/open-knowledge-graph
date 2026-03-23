@@ -15,7 +15,7 @@ tags:
 - flux
 - symmetry
 stage: expert
-status: draft
+status: validated
 ---
 
 # Electric Flux and Gauss's Law

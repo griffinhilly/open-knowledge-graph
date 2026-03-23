@@ -21,7 +21,7 @@ tags:
 - order-type
 - transfinite
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ordinal Numbers: Definition and Order Structure

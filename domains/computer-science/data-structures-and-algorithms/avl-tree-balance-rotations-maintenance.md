@@ -13,7 +13,7 @@ tags:
 - balancing
 - rotation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # AVL Trees: Rotations and Balancing Strategies

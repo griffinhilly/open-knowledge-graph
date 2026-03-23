@@ -15,7 +15,7 @@ tags:
 - drift velocity
 - electron motion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Microscopic Ohm's Law and Drift Velocity

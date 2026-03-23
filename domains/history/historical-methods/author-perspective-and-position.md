@@ -16,7 +16,7 @@ tags:
 - author
 - position
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Understanding Author Perspective and Historical Position

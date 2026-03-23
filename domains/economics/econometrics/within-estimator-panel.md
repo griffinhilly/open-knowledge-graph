@@ -15,7 +15,7 @@ tags:
 - fixed-effects
 - within
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Within Estimator (Fixed Effects) for Panel Data

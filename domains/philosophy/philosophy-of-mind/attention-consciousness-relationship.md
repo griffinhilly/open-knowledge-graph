@@ -19,7 +19,7 @@ tags:
 - phenomenology
 - selection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Attention, Consciousness, and Phenomenal Experience

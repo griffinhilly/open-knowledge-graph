@@ -12,7 +12,7 @@ tags:
 - accounts
 - access
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Password Security & Account Management
 

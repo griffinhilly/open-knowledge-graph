@@ -17,7 +17,7 @@ tags:
 - iterative
 - von-neumann
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Natural Numbers in Set Theory: Iterative Construction

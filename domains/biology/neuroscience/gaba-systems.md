@@ -12,7 +12,7 @@ tags:
 - neurotransmitters
 - inhibitory
 stage: expert
-status: draft
+status: validated
 ---
 
 # GABAergic Inhibitory Transmission

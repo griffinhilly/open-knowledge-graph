@@ -13,7 +13,7 @@ tags:
 - transcription
 - catalysis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # RNA Polymerase: Mechanisms and Specificity

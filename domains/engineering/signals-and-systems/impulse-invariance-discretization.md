@@ -16,7 +16,7 @@ tags:
 - discretization
 - impulse-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # Impulse Invariance for Digital Filter Design

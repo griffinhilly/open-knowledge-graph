@@ -15,7 +15,7 @@ tags:
 - blues
 - american
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Jazz History: Innovation, Improvisation, and American Identity

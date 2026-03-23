@@ -16,7 +16,7 @@ tags:
 - gene-duplication
 - recombination-error
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Unequal Crossing Over and Gene Duplication

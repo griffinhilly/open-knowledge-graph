@@ -14,7 +14,7 @@ tags:
 - properties-preserved
 - homeomorphisms
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Topological Invariants

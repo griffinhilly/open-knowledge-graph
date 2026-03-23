@@ -18,7 +18,7 @@ tags:
 - foundations
 - terminology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Core Literary Terminology and Concepts

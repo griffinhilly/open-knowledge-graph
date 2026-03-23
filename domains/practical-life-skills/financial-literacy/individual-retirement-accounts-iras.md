@@ -16,7 +16,7 @@ tags:
 - ira
 - taxes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Individual Retirement Accounts (IRAs)

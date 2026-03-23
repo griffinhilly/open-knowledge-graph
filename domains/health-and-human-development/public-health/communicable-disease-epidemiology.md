@@ -19,7 +19,7 @@ tags:
 - infectious-disease
 - pathogen
 stage: expert
-status: draft
+status: validated
 ---
 
 # Communicable Disease Epidemiology

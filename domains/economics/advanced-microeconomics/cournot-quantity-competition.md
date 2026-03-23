@@ -24,7 +24,7 @@ tags:
 - oligopoly
 - competition
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cournot Quantity Competition

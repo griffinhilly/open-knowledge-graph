@@ -15,7 +15,7 @@ tags:
 - war
 - great-power
 stage: expert
-status: draft
+status: validated
 ---
 
 # Power Transition Theory and Great Power War

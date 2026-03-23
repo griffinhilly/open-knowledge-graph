@@ -11,7 +11,7 @@ tags:
 - encoding
 - isa
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Instruction Encoding and Format

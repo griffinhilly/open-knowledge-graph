@@ -15,7 +15,7 @@ tags:
 - enolate
 - enolizable
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Crossed Aldol Condensation and Selectivity Control

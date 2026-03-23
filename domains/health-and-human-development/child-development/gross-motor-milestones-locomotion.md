@@ -16,7 +16,7 @@ tags:
 - physical-development
 - locomotion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gross Motor Milestones and Locomotion

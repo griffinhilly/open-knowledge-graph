@@ -13,7 +13,7 @@ tags:
 - prescriptive-grammar
 - style
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Preposition Placement and Sentence-Final Prepositions

@@ -11,7 +11,7 @@ tags:
 - hamiltonian
 - np-complete
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hamiltonian Paths, Cycles, and NP-Completeness

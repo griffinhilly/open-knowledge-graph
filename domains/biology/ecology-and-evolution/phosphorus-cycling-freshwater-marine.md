@@ -17,7 +17,7 @@ tags:
 - marine
 - limitation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phosphorus Cycling and Freshwater-Marine Differences

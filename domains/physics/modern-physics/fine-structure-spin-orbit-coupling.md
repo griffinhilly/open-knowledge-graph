@@ -17,7 +17,7 @@ tags:
 - relativistic-effects
 - atomic-structure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fine Structure: Spin-Orbit Coupling and Doublet Splitting

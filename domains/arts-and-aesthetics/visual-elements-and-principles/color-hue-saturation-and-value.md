@@ -14,7 +14,7 @@ tags:
 - saturation
 - value
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Color: Hue, Saturation, and Value

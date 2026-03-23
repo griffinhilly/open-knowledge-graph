@@ -13,7 +13,7 @@ tags:
 - sequential
 - expansion
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mixed Methods: Sequential Designs and Expansion

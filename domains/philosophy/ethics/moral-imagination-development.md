@@ -15,7 +15,7 @@ tags:
 - perspective
 - development
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Imagination and Empathetic Development

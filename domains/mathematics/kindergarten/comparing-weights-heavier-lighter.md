@@ -13,7 +13,7 @@ tags:
 - weight comparison
 - attributes
 stage: pre-formal
-status: draft
+status: validated
 ---
 # Comparing Weights: Heavier and Lighter
 

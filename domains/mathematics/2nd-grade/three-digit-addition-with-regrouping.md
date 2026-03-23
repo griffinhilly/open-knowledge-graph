@@ -15,7 +15,7 @@ tags:
 - regrouping
 - place-value
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Three-Digit Addition With Regrouping

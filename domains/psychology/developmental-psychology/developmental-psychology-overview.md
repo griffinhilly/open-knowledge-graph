@@ -14,7 +14,7 @@ tags:
 - overview
 - theoretical-frameworks
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Developmental Psychology: Overview and Key Concepts

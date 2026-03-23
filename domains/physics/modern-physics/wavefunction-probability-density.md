@@ -15,7 +15,7 @@ tags:
 - wavefunctions
 - probability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Wavefunctions and Probability Density Interpretation

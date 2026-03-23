@@ -15,7 +15,7 @@ tags:
 - computation
 - understanding
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Chinese Room and Understanding

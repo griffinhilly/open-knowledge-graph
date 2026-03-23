@@ -16,7 +16,7 @@ tags:
 - endothelium
 - autoregulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vascular Resistance and Control

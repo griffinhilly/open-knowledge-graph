@@ -13,7 +13,7 @@ tags:
 - iteration
 - strategy
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Constraint-Driven Creative Problem Solving
 

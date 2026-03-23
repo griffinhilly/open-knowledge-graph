@@ -14,7 +14,7 @@ tags:
 - p-value
 - significance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # P-values and Statistical Significance

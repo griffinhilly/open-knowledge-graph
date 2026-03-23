@@ -13,7 +13,7 @@ tags:
 - minimization
 - algorithms
 stage: advanced
-status: draft
+status: validated
 ---
 
 # DFA Properties and Minimization Algorithms

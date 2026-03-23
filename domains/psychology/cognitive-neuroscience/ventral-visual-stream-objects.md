@@ -15,7 +15,7 @@ tags:
 - perception
 - object-recognition
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Ventral Stream and Object Recognition

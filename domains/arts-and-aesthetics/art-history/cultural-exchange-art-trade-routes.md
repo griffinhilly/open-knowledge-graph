@@ -14,7 +14,7 @@ tags:
 - influence
 - cross-cultural
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cultural Exchange and Artistic Development Through Trade Networks

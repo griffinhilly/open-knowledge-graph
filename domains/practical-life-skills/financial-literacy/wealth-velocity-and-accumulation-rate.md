@@ -22,7 +22,7 @@ tags:
 - rate
 - savings
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Wealth Velocity and Accumulation Rate

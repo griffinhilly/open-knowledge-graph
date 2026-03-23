@@ -15,7 +15,7 @@ tags:
 - diopters
 - optical-strength
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lens Power and Dioptric Strength

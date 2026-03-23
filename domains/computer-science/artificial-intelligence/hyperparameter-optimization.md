@@ -16,7 +16,7 @@ tags:
 - model-selection
 - bayesian-optimization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hyperparameter Optimization

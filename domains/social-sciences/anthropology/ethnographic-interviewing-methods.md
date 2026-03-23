@@ -16,7 +16,7 @@ tags:
 - data-collection
 - qualitative
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ethnographic Interviewing and Qualitative Data Collection

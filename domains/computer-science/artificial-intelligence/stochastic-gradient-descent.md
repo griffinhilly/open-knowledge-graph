@@ -14,7 +14,7 @@ tags:
 - optimization
 - learning-algorithms
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Stochastic Gradient Descent and Variants

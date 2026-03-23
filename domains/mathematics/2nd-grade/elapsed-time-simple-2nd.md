@@ -14,7 +14,7 @@ tags:
 - time
 - elapsed-time
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Elapsed Time: Simple Intervals

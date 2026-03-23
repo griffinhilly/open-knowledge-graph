@@ -15,7 +15,7 @@ tags:
 - canvas
 - primer
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Canvas Preparation and Priming
 

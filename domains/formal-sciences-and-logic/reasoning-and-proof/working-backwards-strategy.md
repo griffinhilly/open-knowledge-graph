@@ -8,14 +8,14 @@ prerequisites:
     type: hard
   - id: direct-proof-introduction
     type: soft
-  - id: if-then-thinking
+  - id: if-then-statements
     type: soft
 builds-toward:
   - proof-by-contradiction-introduction
   - invariants-and-monovariants-intro
 tags: [problem-solving, strategy, reverse-reasoning, heuristic]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Working Backwards

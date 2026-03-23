@@ -12,7 +12,7 @@ tags:
 - measurement
 - length
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Measuring Length With Non-Standard Units

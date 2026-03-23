@@ -16,7 +16,7 @@ tags:
 - memory
 - virtual-memory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Demand Paging and Page Faults

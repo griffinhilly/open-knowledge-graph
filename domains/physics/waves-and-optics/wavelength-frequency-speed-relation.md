@@ -13,7 +13,7 @@ tags:
 - waves
 - kinematics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Wavelength, Frequency, and Wave Speed

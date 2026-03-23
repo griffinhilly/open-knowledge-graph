@@ -15,7 +15,7 @@ tags:
 - singularities
 - supercritical-fluids
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Critical Point Phenomena

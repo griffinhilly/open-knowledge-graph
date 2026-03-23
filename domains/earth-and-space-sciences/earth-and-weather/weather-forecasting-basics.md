@@ -19,7 +19,7 @@ tags:
 - prediction
 - meteorology
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Weather Forecasting Basics

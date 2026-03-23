@@ -19,7 +19,7 @@ tags:
 - transmission-spectra
 - molecules
 stage: expert
-status: draft
+status: validated
 ---
 
 # Exoplanet Atmospheric Composition from Transmission Spectroscopy

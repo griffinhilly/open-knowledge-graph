@@ -16,7 +16,7 @@ tags:
 - candidate key
 - superkey
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Functional Dependencies and Database Design

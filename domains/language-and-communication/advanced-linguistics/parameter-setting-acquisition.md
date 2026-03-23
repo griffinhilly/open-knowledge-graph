@@ -15,7 +15,7 @@ tags:
 - parameters
 - learning
 stage: expert
-status: draft
+status: validated
 ---
 
 # Parameter Setting in Language Acquisition

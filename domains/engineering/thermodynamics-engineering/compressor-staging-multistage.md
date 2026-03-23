@@ -17,7 +17,7 @@ tags:
 - pressure-ratio
 - power-input
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multistage Compressor Design and Intercooling

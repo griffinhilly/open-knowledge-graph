@@ -13,7 +13,7 @@ tags:
 - linear-regression
 - overdetermined
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Numerical Least Squares

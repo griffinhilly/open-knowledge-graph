@@ -15,7 +15,7 @@ tags:
 - contradiction
 - contingency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tautologies and Contradictions

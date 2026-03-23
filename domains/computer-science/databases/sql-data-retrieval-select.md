@@ -18,7 +18,7 @@ tags:
 - query
 - retrieval
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # SQL: SELECT Statement and Basic Queries

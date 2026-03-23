@@ -17,7 +17,7 @@ tags:
 - refrain
 - sound
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Epistrophe: Repetition at Line Endings
 

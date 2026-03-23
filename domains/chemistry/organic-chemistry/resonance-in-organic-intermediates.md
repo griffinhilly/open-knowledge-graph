@@ -19,7 +19,7 @@ tags:
 - carbanion
 - radical
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Resonance in Organic Intermediates
 

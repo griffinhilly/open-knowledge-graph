@@ -14,7 +14,7 @@ tags:
 - projection
 - nearest-point
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orthogonal Projections

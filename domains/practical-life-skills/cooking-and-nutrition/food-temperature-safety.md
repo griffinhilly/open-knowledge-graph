@@ -15,7 +15,7 @@ tags:
 - thermometer
 - reheating
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Food Temperature Safety

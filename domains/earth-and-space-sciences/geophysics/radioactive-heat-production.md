@@ -15,7 +15,7 @@ tags:
 - heat-production
 - isotopes
 stage: expert
-status: draft
+status: validated
 ---
 
 # Radioactive Heat Production in Crustal Rocks

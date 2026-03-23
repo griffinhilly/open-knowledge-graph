@@ -16,7 +16,7 @@ tags:
 - equations-of-state
 - gases
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Polytropic Processes and the Polytropic Index

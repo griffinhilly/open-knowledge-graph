@@ -16,7 +16,7 @@ tags:
 - scale
 - systems
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Modular Scale and Type Systems

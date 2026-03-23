@@ -15,7 +15,7 @@ tags:
 - three-digit
 - ordering
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Comparing and Ordering Three-Digit Numbers

@@ -14,7 +14,7 @@ tags:
 - overview
 - structure
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Home System Components and Layout

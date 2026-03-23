@@ -11,7 +11,7 @@ tags:
 - meditation
 - mental-health
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mindfulness-Based Interventions in Clinical Practice

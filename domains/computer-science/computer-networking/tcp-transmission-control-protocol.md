@@ -16,7 +16,7 @@ tags:
 - transport-layer
 - ordered-delivery
 stage: advanced
-status: draft
+status: validated
 ---
 
 # TCP: Transmission Control Protocol

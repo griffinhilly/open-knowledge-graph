@@ -13,7 +13,7 @@ tags:
 - planar-graphs
 - minors
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Wagner's Theorem

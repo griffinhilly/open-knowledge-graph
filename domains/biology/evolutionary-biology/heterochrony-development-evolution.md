@@ -19,7 +19,7 @@ tags:
 - heterochrony
 - body-plan
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Heterochrony: Changes in Developmental Timing

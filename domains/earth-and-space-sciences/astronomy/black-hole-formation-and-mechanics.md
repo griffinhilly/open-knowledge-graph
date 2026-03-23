@@ -21,7 +21,7 @@ tags:
 - singularity
 - spacetime
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Black Hole Formation and Event Horizon Mechanics

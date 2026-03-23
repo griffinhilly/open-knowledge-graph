@@ -12,7 +12,7 @@ tags:
 - language
 - meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Historical Semantics and Terminology Change

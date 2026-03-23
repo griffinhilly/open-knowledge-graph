@@ -20,7 +20,7 @@ tags:
 - enzymes
 - nitrogen-transfer
 stage: advanced
-status: draft
+status: validated
 ---
 # Transamination and Aminotransferases
 

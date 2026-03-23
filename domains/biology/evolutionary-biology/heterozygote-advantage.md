@@ -19,7 +19,7 @@ tags:
 - allele-frequency
 - fitness
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Heterozygote Advantage and Overdominance

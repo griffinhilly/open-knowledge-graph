@@ -19,7 +19,7 @@ tags:
 - wahlund-effect
 - local-adaptation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Population Genetic Structure in Subdivided Populations

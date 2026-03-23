@@ -19,7 +19,7 @@ tags:
 - transform
 - boundaries
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Plate Boundaries

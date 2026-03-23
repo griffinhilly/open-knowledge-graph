@@ -13,7 +13,7 @@ tags:
 - modulation
 - harmony
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tonicization Detection by Ear

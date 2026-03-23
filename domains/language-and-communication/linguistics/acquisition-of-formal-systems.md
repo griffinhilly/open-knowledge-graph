@@ -13,7 +13,7 @@ tags:
 - formalism
 - UG
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Acquisition of Formal Grammar and Parameters

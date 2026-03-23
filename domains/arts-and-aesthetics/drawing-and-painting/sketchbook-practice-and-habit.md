@@ -14,7 +14,7 @@ tags:
 - habit
 - discipline
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Sketchbook Practice and Daily Habit

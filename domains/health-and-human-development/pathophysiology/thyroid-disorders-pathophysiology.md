@@ -18,7 +18,7 @@ tags:
 - hormonal-disorders
 - metabolism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Thyroid Disorders: Hyper- and Hypothyroidism

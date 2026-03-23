@@ -16,7 +16,7 @@ tags:
 - angular-momentum
 - quantization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Angular Momentum Quantization

@@ -8,9 +8,11 @@ prerequisites:
   type: hard
 - id: primitive-data-types
   type: hard
+- id: memory-and-data-storage
+  type: hard
 builds-toward:
 - string-operations
-- basic-input-output
+- input-output
 tags:
 - strings
 - text
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # String Basics
 
 ## Core Idea

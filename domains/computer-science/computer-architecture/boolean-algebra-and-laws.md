@@ -4,7 +4,7 @@ title: Boolean Algebra and Fundamental Laws
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: logical-operators-and-gates
+- id: logical-operators
   type: hard
 - id: boolean-algebra
   type: soft
@@ -19,9 +19,8 @@ tags:
 - laws
 - simplification
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Boolean Algebra and Fundamental Laws
 
 ## Core Idea

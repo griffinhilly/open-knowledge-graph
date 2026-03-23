@@ -20,7 +20,7 @@ tags:
 - stratification
 - heat-transfer
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ocean Temperature Profiles and Thermocline Formation

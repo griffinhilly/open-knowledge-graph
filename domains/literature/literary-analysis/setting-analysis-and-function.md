@@ -16,7 +16,7 @@ tags:
 - atmosphere
 - meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Setting: Analysis, Function, and Symbolism

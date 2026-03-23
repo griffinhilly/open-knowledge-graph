@@ -16,7 +16,7 @@ tags:
 - safety
 - privacy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Form Filling and Data Entry Safety

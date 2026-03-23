@@ -13,7 +13,7 @@ tags:
 - concurrency
 - anomalies
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Isolation Level: READ COMMITTED

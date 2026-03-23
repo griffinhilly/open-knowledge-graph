@@ -16,7 +16,7 @@ tags:
 - truth-values
 - empty-terms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reference Failure and Empty Names

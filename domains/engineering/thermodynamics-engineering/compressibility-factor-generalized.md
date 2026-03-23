@@ -14,7 +14,7 @@ tags:
 - generalized-correlations
 - acentric-factor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Compressibility Factor and Generalized Correlations

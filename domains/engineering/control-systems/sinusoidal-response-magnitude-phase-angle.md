@@ -16,7 +16,7 @@ tags:
 - complex-numbers
 - phasor
 stage: expert
-status: draft
+status: validated
 ---
 
 # Sinusoidal Response: Magnitude and Phase Angle

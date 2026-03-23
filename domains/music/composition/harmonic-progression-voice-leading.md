@@ -19,7 +19,7 @@ tags:
 - voice-leading
 - voicing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Progression Construction and Voice Leading

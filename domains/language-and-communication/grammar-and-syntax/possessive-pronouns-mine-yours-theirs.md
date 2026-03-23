@@ -14,7 +14,7 @@ tags:
 - possessive
 - case
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Possessive Pronouns: mine, yours, his, hers, ours, theirs

@@ -17,7 +17,7 @@ tags:
 - order
 - non-commutativity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ordinal Addition and Multiplication

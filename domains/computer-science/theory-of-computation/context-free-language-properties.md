@@ -17,7 +17,7 @@ tags:
 - concatenation
 - kleene-star
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Context-Free Language Properties and Closure

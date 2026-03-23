@@ -15,7 +15,7 @@ tags:
 - scene
 - chapter
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Scene and Chapter Structure

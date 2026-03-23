@@ -17,7 +17,7 @@ tags:
 - flow-control
 - window-management
 stage: advanced
-status: draft
+status: validated
 ---
 
 # TCP Flow Control and Sliding Windows

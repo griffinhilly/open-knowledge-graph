@@ -14,7 +14,7 @@ tags:
 - religion
 - authority
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Papal Authority and Medieval Reform

@@ -16,7 +16,7 @@ tags:
 - history-from-below
 - 20th-century
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Social History Movement

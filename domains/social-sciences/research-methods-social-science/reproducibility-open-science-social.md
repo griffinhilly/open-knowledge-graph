@@ -13,7 +13,7 @@ tags:
 - open-data
 - transparency
 stage: expert
-status: draft
+status: validated
 ---
 
 # Reproducibility and Open Science in Social Research

@@ -17,7 +17,7 @@ tags:
 - environment
 - reference
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Wide Content and Externalism
 

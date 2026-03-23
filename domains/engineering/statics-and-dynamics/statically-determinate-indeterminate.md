@@ -16,7 +16,7 @@ tags:
 - redundancy
 - constraints
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Statically Determinate vs. Indeterminate Structures

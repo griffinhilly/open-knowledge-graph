@@ -14,7 +14,7 @@ tags:
 - minimal-polynomial
 - algebraic-closure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Algebraic and Transcendental Elements

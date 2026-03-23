@@ -18,7 +18,7 @@ tags:
 - sentences
 - logical power
 stage: expert
-status: draft
+status: validated
 ---
 
 # Elementary Equivalence and Logical Indistinguishability

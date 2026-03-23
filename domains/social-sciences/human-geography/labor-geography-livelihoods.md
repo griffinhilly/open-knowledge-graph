@@ -16,7 +16,7 @@ tags:
 - livelihoods
 - wages
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Labor Geography and Working Livelihoods

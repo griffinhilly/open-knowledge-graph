@@ -18,7 +18,7 @@ tags:
 - preservation
 - homomorphism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Existential Closure Under Homomorphisms

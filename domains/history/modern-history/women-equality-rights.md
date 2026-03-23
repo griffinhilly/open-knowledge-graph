@@ -14,7 +14,7 @@ tags:
 - women-rights
 - liberation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Second-Wave Feminism and Gender Equality

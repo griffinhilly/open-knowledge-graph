@@ -17,7 +17,7 @@ tags:
 - cultural-impact
 - power
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Colonialism and the Impact of Cultural Contact

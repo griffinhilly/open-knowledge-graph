@@ -19,7 +19,7 @@ tags:
 - fixation
 - population-genetics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fixation Probability and Diffusion Models

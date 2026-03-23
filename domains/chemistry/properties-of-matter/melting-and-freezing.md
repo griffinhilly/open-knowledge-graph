@@ -17,7 +17,7 @@ tags:
 - melting
 - freezing
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Melting and Freezing
 

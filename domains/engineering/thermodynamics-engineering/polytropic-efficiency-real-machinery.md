@@ -18,7 +18,7 @@ tags:
 - compressors
 - turbines
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Polytropic Efficiency and Real Machine Performance

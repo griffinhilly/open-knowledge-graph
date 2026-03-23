@@ -15,7 +15,7 @@ tags:
 - photons
 - photoelectric-effect
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Work Function and Photoelectric Energy Analysis

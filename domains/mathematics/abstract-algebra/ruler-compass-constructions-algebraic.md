@@ -12,7 +12,7 @@ tags:
 - degree-2
 - tower-of-fields
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Ruler and Compass Constructions (Algebraic Proof)

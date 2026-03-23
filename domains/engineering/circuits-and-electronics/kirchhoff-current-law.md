@@ -16,7 +16,7 @@ tags:
 - circuit-analysis
 - fundamental
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kirchhoff's Current Law (KCL)

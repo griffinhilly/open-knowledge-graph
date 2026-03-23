@@ -19,7 +19,7 @@ tags:
 - design
 - randomization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Experimental Design in Social Science

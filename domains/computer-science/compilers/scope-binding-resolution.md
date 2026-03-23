@@ -15,7 +15,7 @@ tags:
 - name-resolution
 - binding
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Scope and Binding Resolution

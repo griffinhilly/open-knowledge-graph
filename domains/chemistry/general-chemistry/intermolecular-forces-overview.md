@@ -15,7 +15,7 @@ tags:
 - dispersion forces
 - dipole-dipole
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Intermolecular Forces: Dipole-Dipole, Hydrogen Bonding, and Dispersion

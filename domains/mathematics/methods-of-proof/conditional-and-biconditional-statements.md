@@ -15,7 +15,7 @@ tags:
 - conditionals
 - biconditionals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conditional and Biconditional Statements

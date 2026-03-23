@@ -14,7 +14,7 @@ tags:
 - interlocking
 - repetition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pantoum: Malaysian Form and Interlocking Lines

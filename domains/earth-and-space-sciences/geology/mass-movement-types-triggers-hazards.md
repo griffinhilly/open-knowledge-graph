@@ -13,7 +13,7 @@ tags:
 - slope-stability
 - hazards
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mass Wasting: Types, Triggers, and Hazard Assessment

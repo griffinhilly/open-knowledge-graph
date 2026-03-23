@@ -17,7 +17,7 @@ tags:
 - essence
 - species
 stage: expert
-status: draft
+status: validated
 ---
 
 # Natural Kinds and Scientific Classification

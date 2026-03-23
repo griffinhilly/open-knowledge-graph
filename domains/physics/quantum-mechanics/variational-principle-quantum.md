@@ -12,7 +12,7 @@ tags:
 - variational-methods
 - energy-bounds
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Variational Principle in Quantum Mechanics

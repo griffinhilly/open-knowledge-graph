@@ -15,7 +15,7 @@ tags:
 - multiplication
 - mental-math
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Estimating Products

@@ -16,7 +16,7 @@ tags:
 - transcapillary
 - oncotic-pressure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Microvascular Exchange and Fluid Balance

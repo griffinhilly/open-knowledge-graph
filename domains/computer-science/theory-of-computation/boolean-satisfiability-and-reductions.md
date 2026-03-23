@@ -18,7 +18,7 @@ tags:
 - reduction
 - canonical
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Boolean Satisfiability, Cook-Levin, and Reductions

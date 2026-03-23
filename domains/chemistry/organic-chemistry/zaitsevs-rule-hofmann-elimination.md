@@ -15,7 +15,7 @@ tags:
 - zaitsev
 - alkene-stability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Zaitsev's Rule and Hofmann Elimination

@@ -14,7 +14,7 @@ tags:
 - credibility
 - commitment
 stage: expert
-status: draft
+status: validated
 ---
 
 # Costly Signals and Building Credibility

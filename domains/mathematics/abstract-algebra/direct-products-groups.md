@@ -15,7 +15,7 @@ tags:
 - product-group
 - component-wise
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Direct Products of Groups

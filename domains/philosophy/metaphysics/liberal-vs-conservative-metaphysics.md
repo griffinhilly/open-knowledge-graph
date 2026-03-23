@@ -16,7 +16,7 @@ tags:
 - parsimony
 - liberalism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Liberal and Conservative Metaphysics

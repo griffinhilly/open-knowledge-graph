@@ -15,7 +15,7 @@ tags:
 - ordering
 - relations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Subset and Proper Subset Relations

@@ -19,7 +19,7 @@ tags:
 - climate-response
 - temperature-structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Two-Layer Energy Balance Model

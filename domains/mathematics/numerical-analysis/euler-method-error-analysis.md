@@ -15,7 +15,7 @@ tags:
 - ode-solving
 - truncation-error
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Euler's Method for ODEs (Error Analysis)

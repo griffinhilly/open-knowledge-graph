@@ -13,7 +13,7 @@ tags:
 - parallel
 - equivalent
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Resistor Combinations and Equivalent Resistance

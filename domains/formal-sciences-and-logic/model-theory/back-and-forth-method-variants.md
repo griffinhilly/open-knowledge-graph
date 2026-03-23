@@ -16,7 +16,7 @@ tags:
 - game
 - atomic-type
 stage: expert
-status: draft
+status: validated
 ---
 
 # Back-and-Forth Method: Advanced Applications

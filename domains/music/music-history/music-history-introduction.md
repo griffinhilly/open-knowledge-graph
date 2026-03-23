@@ -14,7 +14,7 @@ tags:
 - methodology
 - periodization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Music History: Foundations and Scope

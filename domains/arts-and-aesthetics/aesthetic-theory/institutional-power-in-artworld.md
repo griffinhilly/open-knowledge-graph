@@ -21,7 +21,7 @@ tags:
 - legitimacy
 - gatekeeping
 stage: expert
-status: draft
+status: validated
 ---
 # Institutional Power and Gatekeeping in the Artworld
 

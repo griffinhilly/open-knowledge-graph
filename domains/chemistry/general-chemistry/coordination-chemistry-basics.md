@@ -16,7 +16,7 @@ tags:
 - ligands
 - complex ions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Coordination Chemistry: Complexes and Ligands

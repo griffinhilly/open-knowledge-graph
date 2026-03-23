@@ -14,7 +14,7 @@ tags:
 - function-sequences
 - limits
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Pointwise Convergence of Function Sequences

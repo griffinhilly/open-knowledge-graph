@@ -17,7 +17,7 @@ tags:
 - social-contract
 - democracy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rousseau's General Will and Social Contract

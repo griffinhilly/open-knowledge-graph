@@ -15,7 +15,7 @@ tags:
 - spherical-coordinates
 - triple-integrals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Triple Integrals in Cylindrical and Spherical Coordinates

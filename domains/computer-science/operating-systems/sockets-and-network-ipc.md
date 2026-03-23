@@ -11,7 +11,7 @@ tags:
 - sockets
 - networking
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sockets and Network Inter-Process Communication

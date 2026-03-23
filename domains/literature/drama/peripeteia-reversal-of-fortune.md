@@ -17,7 +17,7 @@ tags:
 - plot
 - aristotelian
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Peripeteia: Reversal of Fortune

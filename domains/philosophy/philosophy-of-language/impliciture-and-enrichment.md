@@ -16,7 +16,7 @@ tags:
 - pragmatics
 - content
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Impliciture and Content Enrichment

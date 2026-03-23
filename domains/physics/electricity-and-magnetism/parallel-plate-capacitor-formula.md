@@ -16,7 +16,7 @@ tags:
 - geometry
 - formula
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Parallel Plate Capacitor: Geometry and Formula

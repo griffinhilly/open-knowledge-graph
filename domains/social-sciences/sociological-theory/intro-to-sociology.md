@@ -12,7 +12,7 @@ tags:
 - sociology
 - social-science
 stage: expert
-status: draft
+status: validated
 ---
 
 # Introduction to Sociology

@@ -17,7 +17,7 @@ tags:
 - receptors
 - perception
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sensory Transduction and Neural Coding

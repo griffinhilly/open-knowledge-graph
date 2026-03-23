@@ -15,7 +15,7 @@ tags:
 - intellectual-culture
 - sociability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Enlightenment Salons and Intellectual Sociability

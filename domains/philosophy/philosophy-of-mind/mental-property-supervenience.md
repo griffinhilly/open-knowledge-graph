@@ -18,7 +18,7 @@ tags:
 - dependence
 - consciousness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Supervenience of Mental Properties on Physical Properties

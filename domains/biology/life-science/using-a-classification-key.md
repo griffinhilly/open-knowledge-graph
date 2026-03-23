@@ -17,7 +17,7 @@ tags:
 - identification
 - scientific-method
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Using a Classification Key
 

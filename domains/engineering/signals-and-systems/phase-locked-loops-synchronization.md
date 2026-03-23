@@ -14,7 +14,7 @@ tags:
 - feedback
 - control
 stage: expert
-status: draft
+status: validated
 ---
 
 # Phase-Locked Loops for Synchronization

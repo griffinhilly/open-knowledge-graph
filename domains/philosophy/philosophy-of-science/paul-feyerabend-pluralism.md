@@ -13,7 +13,7 @@ tags:
 - pluralism
 - methodology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Paul Feyerabend and Methodological Pluralism

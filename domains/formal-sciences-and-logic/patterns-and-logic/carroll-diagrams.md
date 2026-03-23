@@ -16,7 +16,7 @@ tags:
 - logic
 - sorting
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Carroll Diagrams

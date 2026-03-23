@@ -14,7 +14,7 @@ tags:
 - genetic-diversity
 - ancestry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Coalescent Theory and Population History

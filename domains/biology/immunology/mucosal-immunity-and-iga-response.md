@@ -15,7 +15,7 @@ tags:
 - iga
 - malt
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mucosal Immunity and IgA Responses

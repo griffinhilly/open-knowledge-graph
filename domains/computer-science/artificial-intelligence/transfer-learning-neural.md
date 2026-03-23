@@ -22,7 +22,7 @@ tags:
 - feature-reuse
 - representation-learning
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Transfer Learning in Neural Networks

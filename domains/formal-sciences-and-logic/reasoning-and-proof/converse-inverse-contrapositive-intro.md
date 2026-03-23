@@ -6,7 +6,7 @@ course: reasoning-and-proof
 prerequisites:
   - id: conditional-statements-formal
     type: hard
-  - id: true-false-statements
+  - id: true-and-false-statements
     type: soft
 builds-toward:
   - biconditional-statements-intro
@@ -15,7 +15,7 @@ builds-toward:
   - converse-inverse-contrapositive
 tags: [converse, inverse, contrapositive, conditional, logic]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Converse, Inverse, and Contrapositive

@@ -23,7 +23,7 @@ tags:
 - graphical-method
 - concentration-vs-time
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Integrated Rate Laws
 

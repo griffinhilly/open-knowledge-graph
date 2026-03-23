@@ -19,7 +19,7 @@ tags:
 - rotation
 - dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Angular Momentum of Rigid Body

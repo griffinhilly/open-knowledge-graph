@@ -16,7 +16,7 @@ tags:
 - mathematical-harmony
 - composition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Golden Ratio in Design

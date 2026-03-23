@@ -17,7 +17,7 @@ tags:
 - pivot-chord
 - tonicization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Modulation: Moving Between Keys

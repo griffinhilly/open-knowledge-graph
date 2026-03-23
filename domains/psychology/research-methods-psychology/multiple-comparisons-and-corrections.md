@@ -15,7 +15,7 @@ tags:
 - multiple-comparisons
 - correction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multiple Comparisons Problem and Correction Methods

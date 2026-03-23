@@ -19,7 +19,7 @@ tags:
 - semantics
 - directness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Direct Reference Theory

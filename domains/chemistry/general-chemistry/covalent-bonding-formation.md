@@ -15,7 +15,7 @@ tags:
 - polar covalent
 - nonpolar covalent
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Covalent Bonding: Electron Sharing and Bond Types

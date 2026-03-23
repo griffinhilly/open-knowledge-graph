@@ -14,7 +14,7 @@ tags:
 - convergence
 - selections
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Subsequences

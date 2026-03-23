@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - functional-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Closed Graph Theorem

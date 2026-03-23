@@ -16,7 +16,7 @@ tags:
 - current
 - resistance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Ohm's Law: V = IR
 

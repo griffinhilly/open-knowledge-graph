@@ -13,7 +13,7 @@ tags:
 - clauses
 - sentence-structure
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Relative Pronouns and Relative Clauses

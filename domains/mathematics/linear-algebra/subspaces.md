@@ -16,7 +16,7 @@ tags:
 - vector-subspace
 - closure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Subspaces

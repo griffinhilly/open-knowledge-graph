@@ -15,7 +15,7 @@ tags:
 - multiple-choice
 - item-response-theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Three-Parameter Logistic IRT Model (3PL)

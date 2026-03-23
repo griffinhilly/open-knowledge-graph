@@ -15,7 +15,7 @@ tags:
 - matter-waves
 - duality
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Matter Waves and de Broglie Wavelength

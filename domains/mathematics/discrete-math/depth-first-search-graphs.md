@@ -17,7 +17,7 @@ tags:
 - traversal
 - dfs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Depth-First Search (DFS)

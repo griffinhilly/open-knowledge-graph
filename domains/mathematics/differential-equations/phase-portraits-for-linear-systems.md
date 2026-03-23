@@ -16,7 +16,7 @@ tags:
 - visualization
 - qualitative
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phase Portraits for Linear Systems

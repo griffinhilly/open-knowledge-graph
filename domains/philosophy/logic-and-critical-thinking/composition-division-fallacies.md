@@ -12,7 +12,7 @@ tags:
 - fallacies
 - part-whole
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fallacies of Composition and Division

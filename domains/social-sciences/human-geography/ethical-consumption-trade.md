@@ -16,7 +16,7 @@ tags:
 - consumption
 - global
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ethical Consumption and Fair Trade

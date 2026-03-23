@@ -13,7 +13,7 @@ tags:
 - flows
 - optimization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Max-Flow Min-Cut Theorem

@@ -20,7 +20,7 @@ tags:
 - trafficking
 - tissue-residency
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lymphocyte Trafficking, Homing, and Adhesion Molecules

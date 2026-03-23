@@ -15,7 +15,7 @@ tags:
 - pde
 - hyperbolic
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Wave Equation and Vibrating Strings

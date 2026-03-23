@@ -17,7 +17,7 @@ tags:
 - inter-rater
 - agreement
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inter-Rater Reliability and Observer Agreement in Measurement

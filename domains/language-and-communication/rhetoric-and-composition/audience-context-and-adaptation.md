@@ -15,7 +15,7 @@ tags:
 - rhetoric
 - context
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Audience, Context, and Adaptation

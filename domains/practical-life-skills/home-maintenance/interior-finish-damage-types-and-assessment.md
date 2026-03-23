@@ -14,7 +14,7 @@ tags:
 - walls
 - damage
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Interior Finish Damage Types and Assessment

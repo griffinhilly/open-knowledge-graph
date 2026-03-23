@@ -14,7 +14,7 @@ tags:
 - metrics
 - energy-density
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nutrient Density and Food Quality Metrics

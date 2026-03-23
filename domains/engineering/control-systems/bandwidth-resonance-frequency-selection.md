@@ -17,7 +17,7 @@ tags:
 - magnitude-response
 - frequency-domain-performance
 stage: expert
-status: draft
+status: validated
 ---
 # Bandwidth and Resonant Frequency Selection
 

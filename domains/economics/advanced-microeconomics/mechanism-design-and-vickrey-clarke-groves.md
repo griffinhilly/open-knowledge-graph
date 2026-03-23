@@ -14,7 +14,7 @@ tags:
 - mechanism-design
 - auction-theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mechanism Design: The Vickrey-Clarke-Groves Mechanism

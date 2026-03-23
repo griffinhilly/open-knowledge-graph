@@ -15,7 +15,7 @@ tags:
 - shared-memory
 - synchronization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Shared Memory IPC: Mechanisms and Synchronization

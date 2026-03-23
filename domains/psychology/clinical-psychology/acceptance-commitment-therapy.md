@@ -14,7 +14,7 @@ tags:
 - acceptance
 - values
 stage: expert
-status: draft
+status: validated
 ---
 
 # Acceptance and Commitment Therapy (ACT)

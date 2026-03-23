@@ -16,7 +16,7 @@ tags:
 - field-energy
 - energy-flow
 stage: expert
-status: draft
+status: validated
 ---
 
 # Electromagnetic Field Energy and Conservation

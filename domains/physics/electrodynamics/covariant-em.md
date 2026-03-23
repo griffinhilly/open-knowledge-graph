@@ -13,7 +13,7 @@ tags:
 - four-vectors
 - covariance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electromagnetic Field Tensor and Special Relativity

@@ -1,10 +1,10 @@
 ---
 id: parameter-passing-value-vs-reference
-title: 'Parameter Passing: Value vs. Reference'
+title: "Parameter Passing: Value vs. Reference"
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- id: function-parameters-passing-data
+- id: parameters-and-arguments
   type: hard
 - id: scope-shadowing-and-lifetime
   type: soft
@@ -15,9 +15,8 @@ tags:
 - parameters
 - memory
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Parameter Passing: Value vs. Reference
 
 ## Core Idea

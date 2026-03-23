@@ -28,7 +28,7 @@ tags:
 - field-theory
 - inverse-problems
 stage: expert
-status: draft
+status: validated
 ---
 
 # Gravity Potential Theory and Earth's Gravitational Field

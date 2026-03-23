@@ -16,7 +16,7 @@ tags:
 - support
 - hypothesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Evidential Support and Confirmation Formalization

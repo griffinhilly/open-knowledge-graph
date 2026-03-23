@@ -19,7 +19,7 @@ tags:
 - change
 - rate
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Acceleration: How Velocity Changes
 

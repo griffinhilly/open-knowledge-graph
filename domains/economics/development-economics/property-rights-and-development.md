@@ -16,7 +16,7 @@ tags:
 - incentives
 - institutions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Property Rights and Economic Development

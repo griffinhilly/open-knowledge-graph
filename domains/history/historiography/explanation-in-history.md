@@ -17,7 +17,7 @@ tags:
 - cause
 - mechanism
 stage: expert
-status: draft
+status: validated
 ---
 
 # What Explains Historical Change

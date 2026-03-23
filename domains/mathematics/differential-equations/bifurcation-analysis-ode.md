@@ -15,7 +15,7 @@ tags:
 - parameter-variation
 - dynamical-systems
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bifurcation Analysis in ODEs

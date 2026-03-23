@@ -14,7 +14,7 @@ tags:
 - integration
 - convergent
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mixed Methods: Concurrent Design and Integration

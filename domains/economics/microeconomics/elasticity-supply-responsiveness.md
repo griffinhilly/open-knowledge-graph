@@ -14,7 +14,7 @@ tags:
 - supply
 - producer-responsiveness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Price Elasticity of Supply

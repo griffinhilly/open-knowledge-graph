@@ -21,7 +21,7 @@ tags:
 - wind
 - turbulence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Atmospheric Boundary Layer and Surface Friction Effects

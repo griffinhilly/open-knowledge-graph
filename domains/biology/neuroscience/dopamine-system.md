@@ -18,7 +18,7 @@ tags:
 - reward
 - motor-control
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Dopamine System

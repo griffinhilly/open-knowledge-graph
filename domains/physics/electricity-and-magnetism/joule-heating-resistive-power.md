@@ -15,7 +15,7 @@ tags:
 - heat
 - energy loss
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Joule Heating and Resistive Power Dissipation

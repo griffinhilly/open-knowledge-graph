@@ -14,7 +14,7 @@ tags:
 - judgment
 - aristotle
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Practical Wisdom (Phronesis)

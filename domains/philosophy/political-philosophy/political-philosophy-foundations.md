@@ -13,7 +13,7 @@ tags:
 - foundational
 - methodology
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Foundations of Political Philosophy
 

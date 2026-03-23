@@ -14,7 +14,7 @@ tags:
 - span
 - information-processing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Working Memory Development and Capacity Constraints

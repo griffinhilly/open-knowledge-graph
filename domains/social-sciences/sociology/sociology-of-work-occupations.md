@@ -19,7 +19,7 @@ tags:
 - occupational-socialization
 - career
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Sociology of Work and Occupations

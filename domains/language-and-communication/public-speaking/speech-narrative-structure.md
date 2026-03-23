@@ -16,7 +16,7 @@ tags:
 - structure
 - arc
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Narrative Structure and Storytelling in Speeches

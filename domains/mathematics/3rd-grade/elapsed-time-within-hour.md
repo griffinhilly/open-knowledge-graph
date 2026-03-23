@@ -15,7 +15,7 @@ tags:
 - measurement
 - elapsed-time
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Elapsed Time Within an Hour

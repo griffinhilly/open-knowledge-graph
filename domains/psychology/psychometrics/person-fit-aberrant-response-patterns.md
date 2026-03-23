@@ -11,7 +11,7 @@ tags:
 - aberrant-responses
 - guttman-scale
 stage: expert
-status: draft
+status: validated
 ---
 
 # Person Fit Analysis and Detection of Aberrant Response Patterns

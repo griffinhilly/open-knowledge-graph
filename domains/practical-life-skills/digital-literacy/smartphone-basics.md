@@ -14,7 +14,7 @@ tags:
 - apps
 - ios-android
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Smartphone Basics

@@ -16,7 +16,7 @@ tags:
 - chord-progressions
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diatonic Progression Patterns and Their Voice Leading

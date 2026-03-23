@@ -15,7 +15,7 @@ tags:
 - presentism
 - context
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Recognizing and Avoiding Anachronism

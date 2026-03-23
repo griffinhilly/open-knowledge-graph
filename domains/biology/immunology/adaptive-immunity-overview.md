@@ -17,7 +17,7 @@ tags:
 - diversity
 - clonal-selection
 stage: expert
-status: draft
+status: validated
 ---
 
 # Adaptive Immunity and Lymphocyte Diversity

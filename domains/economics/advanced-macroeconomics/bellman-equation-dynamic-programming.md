@@ -26,7 +26,7 @@ tags:
 - recursive-methods
 - foundations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bellman Equation and Dynamic Programming

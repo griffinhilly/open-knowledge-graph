@@ -14,7 +14,7 @@ tags:
 - thermodynamics
 - phase-equilibrium
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Chemical Potential and Thermodynamic Equilibrium

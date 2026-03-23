@@ -16,7 +16,7 @@ tags:
 - networks
 - circulation
 stage: expert
-status: draft
+status: validated
 ---
 # Connected Histories and Entanglement
 

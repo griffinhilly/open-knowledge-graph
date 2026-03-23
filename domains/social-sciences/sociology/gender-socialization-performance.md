@@ -16,7 +16,7 @@ tags:
 - socialization
 - inequality
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Gender: Socialization, Performance, and Inequality

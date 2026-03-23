@@ -14,7 +14,7 @@ tags:
 - credibility
 - policy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Time Inconsistency in Monetary Policy

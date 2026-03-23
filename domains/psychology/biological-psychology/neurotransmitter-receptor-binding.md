@@ -23,7 +23,7 @@ tags:
 - metabotropic
 - binding
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Neurotransmitter Receptors and Binding

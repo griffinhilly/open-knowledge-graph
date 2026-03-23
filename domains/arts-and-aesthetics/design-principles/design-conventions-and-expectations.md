@@ -17,7 +17,7 @@ tags:
 - mental-models
 - usability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Design Conventions and User Expectations

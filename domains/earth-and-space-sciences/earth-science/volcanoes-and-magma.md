@@ -21,7 +21,7 @@ tags:
 - eruption
 - ring-of-fire
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Volcanoes and Magma

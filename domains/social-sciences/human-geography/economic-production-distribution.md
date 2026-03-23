@@ -15,7 +15,7 @@ tags:
 - distribution
 - trade
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Geography of Economic Production and Distribution

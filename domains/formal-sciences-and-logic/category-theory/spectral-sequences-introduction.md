@@ -18,7 +18,7 @@ tags:
 - pages
 - convergence
 stage: expert
-status: draft
+status: validated
 ---
 
 # Spectral Sequences Introduction

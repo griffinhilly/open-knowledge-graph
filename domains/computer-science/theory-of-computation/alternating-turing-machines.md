@@ -15,7 +15,7 @@ tags:
 - alternation
 - quantifiers
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Alternating Turing Machines

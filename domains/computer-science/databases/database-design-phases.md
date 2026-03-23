@@ -17,7 +17,7 @@ tags:
 - phases
 - requirements
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Database Design Process: Conceptual, Logical, and Physical

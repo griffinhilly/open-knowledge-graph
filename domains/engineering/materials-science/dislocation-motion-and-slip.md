@@ -18,7 +18,7 @@ tags:
 - screw-dislocation
 - burgers-vector
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dislocation Motion and Slip Systems

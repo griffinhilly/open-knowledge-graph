@@ -13,7 +13,7 @@ tags:
 - quantum-intro
 - quantization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Planck-Einstein Relation: Energy and Frequency

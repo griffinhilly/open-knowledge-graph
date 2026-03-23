@@ -17,7 +17,7 @@ tags:
 - cellular-neuroscience
 - compartmentalization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Neuronal Compartments: Soma, Dendrite, and Axon

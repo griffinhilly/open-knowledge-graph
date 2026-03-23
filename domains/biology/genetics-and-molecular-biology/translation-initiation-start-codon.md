@@ -20,7 +20,7 @@ tags:
 - scanning-model
 - kozak-sequence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Translation Initiation: Start Codons and Ribosomal Scanning

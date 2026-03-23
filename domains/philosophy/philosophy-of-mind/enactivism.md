@@ -14,7 +14,7 @@ tags:
 - sense-making
 - perception-as-action
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Enactivism

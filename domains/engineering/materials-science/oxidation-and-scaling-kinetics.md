@@ -17,7 +17,7 @@ tags:
 - parabolic-law
 - high-temperature
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # High-Temperature Oxidation and Scaling Kinetics

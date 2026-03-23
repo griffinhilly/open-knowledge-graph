@@ -13,7 +13,7 @@ tags:
 - preemptive
 - time-sharing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Round-Robin (RR) Scheduling

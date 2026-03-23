@@ -14,7 +14,7 @@ tags:
 - exoplanet-atmospheres
 - habitability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Biosignature Detection and Atmospheric Spectroscopy

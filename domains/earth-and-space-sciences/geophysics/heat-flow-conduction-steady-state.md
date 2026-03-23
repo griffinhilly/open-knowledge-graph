@@ -16,7 +16,7 @@ tags:
 - heat-flow
 - conduction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Heat Conduction and Steady-State Heat Flow

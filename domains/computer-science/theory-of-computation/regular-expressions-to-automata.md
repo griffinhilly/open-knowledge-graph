@@ -14,7 +14,7 @@ tags:
 - automata
 - conversion
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Regular Expressions and Conversion to Automata

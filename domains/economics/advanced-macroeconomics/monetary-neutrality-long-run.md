@@ -13,7 +13,7 @@ tags:
 - money-superneutrality
 - long-run-equilibrium
 stage: expert
-status: draft
+status: validated
 ---
 
 # Long-Run Monetary Neutrality

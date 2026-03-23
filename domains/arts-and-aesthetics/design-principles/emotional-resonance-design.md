@@ -15,7 +15,7 @@ tags:
 - psychology
 - communication
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Emotional Resonance Through Design

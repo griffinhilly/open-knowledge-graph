@@ -14,7 +14,7 @@ tags:
 - sorts
 - generalization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Many-Sorted Logic and Multisort Structures

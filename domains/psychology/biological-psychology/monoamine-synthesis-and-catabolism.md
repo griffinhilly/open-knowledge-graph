@@ -23,7 +23,7 @@ tags:
 - norepinephrine
 - metabolism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Monoamine Neurotransmitter Synthesis and Catabolism

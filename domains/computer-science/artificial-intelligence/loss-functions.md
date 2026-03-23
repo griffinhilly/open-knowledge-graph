@@ -20,7 +20,7 @@ tags:
 - objective
 - training
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Loss Functions and Objective Functions

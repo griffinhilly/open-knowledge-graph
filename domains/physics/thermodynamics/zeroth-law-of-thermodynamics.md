@@ -14,7 +14,7 @@ tags:
 - temperature
 - foundational
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Zeroth Law of Thermodynamics

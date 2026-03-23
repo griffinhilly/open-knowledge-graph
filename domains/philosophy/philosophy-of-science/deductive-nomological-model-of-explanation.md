@@ -23,7 +23,7 @@ tags:
 - hempel
 - deduction
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Deductive-Nomological Model of Explanation

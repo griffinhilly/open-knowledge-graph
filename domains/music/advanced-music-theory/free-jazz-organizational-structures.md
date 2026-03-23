@@ -16,7 +16,7 @@ tags:
 - free-jazz
 - improvisation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Free Jazz Organizational Structures

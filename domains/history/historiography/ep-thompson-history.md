@@ -18,7 +18,7 @@ tags:
 - class
 - experience
 stage: expert
-status: draft
+status: validated
 ---
 
 # E.P. Thompson and History from Below

@@ -1,23 +1,23 @@
 ---
 id: loop-control-statements
-title: 'Loop Control: Break and Continue'
+title: "Loop Control: Break and Continue"
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- id: for-loop-iteration
+- id: for-loops
   type: hard
-- id: while-loop-iteration
+- id: while-loops
   type: hard
 builds-toward:
 - nested-loops
+- loop-design-and-invariants
 tags:
 - loops
 - control
 - break-continue
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Loop Control: Break and Continue
 
 ## Core Idea

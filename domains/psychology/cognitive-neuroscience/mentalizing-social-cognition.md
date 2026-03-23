@@ -13,7 +13,7 @@ tags:
 - mentalizing
 - theory-of-mind
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mentalizing and Theory of Mind Networks

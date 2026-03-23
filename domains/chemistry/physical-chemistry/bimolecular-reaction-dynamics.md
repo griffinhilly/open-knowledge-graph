@@ -17,7 +17,7 @@ tags:
 - impact-parameter
 - differential-cross-section
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bimolecular Reaction Dynamics: Collisions, Cross Sections, and Scattering

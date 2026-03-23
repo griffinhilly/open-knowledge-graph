@@ -14,7 +14,7 @@ tags:
 - condition-codes
 - program-status-register
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Processor Status Flags and Condition Codes

@@ -17,7 +17,7 @@ tags:
 - helmholtz-free-energy
 - statistical-thermodynamics
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Canonical Partition Function and Thermodynamic Derivation

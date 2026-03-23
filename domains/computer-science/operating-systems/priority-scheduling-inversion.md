@@ -15,7 +15,7 @@ tags:
 - scheduling
 - inversion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Priority Scheduling and Priority Inversion

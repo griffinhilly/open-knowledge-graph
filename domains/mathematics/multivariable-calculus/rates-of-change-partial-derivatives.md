@@ -14,7 +14,7 @@ tags:
 - interpretation
 - applications
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interpreting Partial Derivatives as Rates of Change

@@ -16,7 +16,7 @@ tags:
 - reference
 - meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Allusion and Literary Reference

@@ -13,7 +13,7 @@ tags:
 - vacuous truth
 - edge cases
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vacuous Truth and Trivial Cases

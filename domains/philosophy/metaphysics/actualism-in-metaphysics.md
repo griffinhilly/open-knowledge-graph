@@ -19,7 +19,7 @@ tags:
 - possibilism
 - ontology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Actualism and the Actuality Thesis

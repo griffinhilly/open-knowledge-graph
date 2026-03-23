@@ -17,7 +17,7 @@ tags:
 - errors
 - judgment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reasoning Biases and Systematic Errors in Logic

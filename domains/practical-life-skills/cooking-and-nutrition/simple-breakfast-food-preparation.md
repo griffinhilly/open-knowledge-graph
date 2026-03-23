@@ -17,7 +17,7 @@ tags:
 - nutrition
 - independence
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Making Simple Breakfasts

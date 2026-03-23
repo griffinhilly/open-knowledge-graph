@@ -13,7 +13,7 @@ tags:
 - calcium-homeostasis
 - vitamin-d
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Parathyroid Hormone and Calcium-Phosphate Homeostasis

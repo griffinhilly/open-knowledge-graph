@@ -13,7 +13,7 @@ tags:
 - paradigm
 - language-design
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Functional Programming Paradigm

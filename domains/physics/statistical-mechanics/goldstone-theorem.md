@@ -13,7 +13,7 @@ tags:
 - excitations
 - gapless
 stage: expert
-status: draft
+status: validated
 ---
 
 # Goldstone's Theorem and Gapless Modes

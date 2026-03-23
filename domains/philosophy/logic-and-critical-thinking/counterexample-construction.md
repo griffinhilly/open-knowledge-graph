@@ -14,7 +14,7 @@ tags:
 - refutation
 - validity-testing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constructing Counterexamples to Test Arguments

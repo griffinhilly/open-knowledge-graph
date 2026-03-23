@@ -17,7 +17,7 @@ tags:
 - poverty-traps
 - equilibrium
 stage: expert
-status: draft
+status: validated
 ---
 
 # Poverty Traps and Low-Equilibrium Equilibria

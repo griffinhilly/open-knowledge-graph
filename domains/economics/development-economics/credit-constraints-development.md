@@ -15,7 +15,7 @@ tags:
 - development
 - borrowing
 stage: expert
-status: draft
+status: validated
 ---
 
 # Credit Constraints and Development

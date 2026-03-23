@@ -16,7 +16,7 @@ tags:
 - rhythm
 - rhetoric
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Sentence Construction for Emphasis and Effect
 

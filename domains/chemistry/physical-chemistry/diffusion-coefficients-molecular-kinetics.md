@@ -16,7 +16,7 @@ tags:
 - kinetic-molecular
 - coefficients
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diffusion Coefficients and Kinetic Molecular Theory

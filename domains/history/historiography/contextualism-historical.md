@@ -16,7 +16,7 @@ tags:
 - methodology
 - ideas
 stage: expert
-status: draft
+status: validated
 ---
 
 # Contextualism: Understanding Ideas in Their Historical Setting

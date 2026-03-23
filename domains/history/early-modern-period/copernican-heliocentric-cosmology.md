@@ -15,7 +15,7 @@ tags:
 - astronomy
 - paradigm-shift
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Copernican Revolution and Heliocentric Cosmology

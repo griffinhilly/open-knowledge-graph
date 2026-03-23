@@ -14,7 +14,7 @@ tags:
 - redshift
 - blueshift
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Doppler Effect Applications in Astronomy

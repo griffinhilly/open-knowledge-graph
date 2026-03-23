@@ -17,7 +17,7 @@ tags:
 - priority-setting
 - measurement
 stage: expert
-status: draft
+status: validated
 ---
 
 # Burden of Disease Metrics

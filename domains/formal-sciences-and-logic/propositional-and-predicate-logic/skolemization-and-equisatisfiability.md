@@ -16,7 +16,7 @@ tags:
 - satisfiability
 - normal-forms
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Skolemization and Equisatisfiability

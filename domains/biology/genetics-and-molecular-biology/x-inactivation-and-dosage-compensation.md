@@ -17,7 +17,7 @@ tags:
 - dosage-compensation
 - barr-body
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # X-Inactivation and Dosage Compensation

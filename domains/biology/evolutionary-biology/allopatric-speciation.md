@@ -14,7 +14,7 @@ tags:
 - geographic-isolation
 - macroevolution
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Allopatric Speciation

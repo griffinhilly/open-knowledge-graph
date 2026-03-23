@@ -17,7 +17,7 @@ tags:
 - aromatic
 - substitution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Friedel-Crafts Alkylation and Acylation

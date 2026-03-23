@@ -15,7 +15,7 @@ tags:
 - autoregulation
 - endothelium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vascular Smooth Muscle and Autoregulation

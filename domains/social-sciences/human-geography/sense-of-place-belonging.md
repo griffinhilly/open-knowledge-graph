@@ -15,7 +15,7 @@ tags:
 - community
 - attachment
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Sense of Place and Belonging

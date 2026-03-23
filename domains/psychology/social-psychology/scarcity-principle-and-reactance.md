@@ -15,7 +15,7 @@ tags:
 - motivation
 - freedom
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Scarcity Principle and Psychological Reactance

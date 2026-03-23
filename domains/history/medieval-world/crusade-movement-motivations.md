@@ -16,7 +16,7 @@ tags:
 - conflict
 - consequences
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Crusade Movement: Motivations and Consequences

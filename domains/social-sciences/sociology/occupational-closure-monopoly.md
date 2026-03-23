@@ -15,7 +15,7 @@ tags:
 - credentialism
 - parkin
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Occupational Closure and Professional Monopoly

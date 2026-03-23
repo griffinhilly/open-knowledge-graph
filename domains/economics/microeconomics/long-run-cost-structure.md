@@ -15,7 +15,7 @@ tags:
 - costs
 - economies of scale
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Long-Run Cost Curves and Scale Economies

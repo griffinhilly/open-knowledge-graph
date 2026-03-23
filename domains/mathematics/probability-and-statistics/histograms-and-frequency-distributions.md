@@ -15,7 +15,7 @@ tags:
 - distribution-shape
 - visualization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Histograms and Frequency Distributions

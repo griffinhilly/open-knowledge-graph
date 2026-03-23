@@ -16,7 +16,7 @@ tags:
 - meaning-systems
 - boundaries
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Symbolic Classification and Categorical Systems

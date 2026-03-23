@@ -16,7 +16,7 @@ tags:
 - scheduling
 - performance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Context Switching: Mechanism and Cost

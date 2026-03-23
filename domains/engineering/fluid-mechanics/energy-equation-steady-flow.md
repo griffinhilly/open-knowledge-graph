@@ -16,7 +16,7 @@ tags:
 - conservation
 - steady-flow
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Energy Equation for Steady Flow

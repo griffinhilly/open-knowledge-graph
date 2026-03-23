@@ -11,7 +11,7 @@ tags:
 - cook-levin
 - hardness
 stage: advanced
-status: draft
+status: validated
 ---
 
 # NP-Completeness and Cook-Levin Theorem

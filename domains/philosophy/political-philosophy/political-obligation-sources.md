@@ -15,7 +15,7 @@ tags:
 - duty
 - obedience
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sources of Political Obligation

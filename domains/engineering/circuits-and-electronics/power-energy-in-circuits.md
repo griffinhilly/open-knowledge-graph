@@ -17,7 +17,7 @@ tags:
 - conservation
 - dissipation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Power and Energy Conservation

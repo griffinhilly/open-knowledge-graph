@@ -17,7 +17,7 @@ tags:
 - two-digit
 - algorithm
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Two-Digit Subtraction Without Regrouping

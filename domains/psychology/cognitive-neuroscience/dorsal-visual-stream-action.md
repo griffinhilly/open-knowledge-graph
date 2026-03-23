@@ -15,7 +15,7 @@ tags:
 - action
 - reaching
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Dorsal Stream and Action Control

@@ -14,7 +14,7 @@ tags:
 - substitutes
 - complements
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cross-Price Elasticity of Demand

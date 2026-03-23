@@ -18,7 +18,7 @@ tags:
 - rotation
 - symmetry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantum Angular Momentum

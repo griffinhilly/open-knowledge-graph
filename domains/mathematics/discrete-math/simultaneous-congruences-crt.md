@@ -13,7 +13,7 @@ tags:
 - congruences
 - chinese-remainder
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Simultaneous Congruences and Chinese Remainder Theorem

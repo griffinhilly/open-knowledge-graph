@@ -19,7 +19,7 @@ tags:
 - arms-control
 - Soviet-United-States
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Détente and the Easing of Cold War Tensions

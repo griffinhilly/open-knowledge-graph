@@ -15,7 +15,7 @@ tags:
 - computation
 - algorithms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Computing Determinants

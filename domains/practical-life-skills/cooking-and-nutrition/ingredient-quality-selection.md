@@ -15,7 +15,7 @@ tags:
 - shopping
 - freshness
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ingredient Quality Selection

@@ -15,7 +15,7 @@ tags:
 - governance
 - philosophy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Zhou Dynasty and the Mandate of Heaven

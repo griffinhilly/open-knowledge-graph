@@ -14,7 +14,7 @@ tags:
 - barriers-to-entry
 - sources
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Monopoly: Sources of Market Power and Barriers to Entry

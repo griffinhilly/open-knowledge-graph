@@ -12,7 +12,7 @@ tags:
 - born-approximation
 - scattering
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Born Approximation in Scattering

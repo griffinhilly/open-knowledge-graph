@@ -13,7 +13,7 @@ tags:
 - patterns
 - number-sense
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Odd and Even Numbers and Patterns

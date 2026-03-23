@@ -17,7 +17,7 @@ tags:
 - recursive
 - definition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Recurrence Relations and Their Definitions

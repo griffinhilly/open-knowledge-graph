@@ -13,7 +13,7 @@ tags:
 - working-set
 - thrashing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Working Set Model and Thrashing

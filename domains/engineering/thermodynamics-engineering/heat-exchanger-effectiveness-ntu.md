@@ -20,7 +20,7 @@ tags:
 - counterflow
 - parallelflow
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heat Exchanger Effectiveness and NTU Analysis

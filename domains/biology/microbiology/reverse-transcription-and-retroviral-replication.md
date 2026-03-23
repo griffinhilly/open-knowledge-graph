@@ -15,7 +15,7 @@ tags:
 - reverse-transcription
 - integration
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Reverse Transcription and Retroviral Replication

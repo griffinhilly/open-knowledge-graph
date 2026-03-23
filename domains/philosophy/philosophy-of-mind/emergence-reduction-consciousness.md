@@ -18,7 +18,7 @@ tags:
 - physicalism
 - properties
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Emergence and Reduction in Consciousness

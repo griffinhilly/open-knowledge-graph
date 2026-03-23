@@ -13,7 +13,7 @@ tags:
 - screening
 - self-selection
 stage: expert
-status: draft
+status: validated
 ---
 
 # Screening and Contract Design

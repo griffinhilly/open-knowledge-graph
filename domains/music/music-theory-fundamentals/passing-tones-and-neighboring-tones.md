@@ -15,7 +15,7 @@ tags:
 - non-chord-tones
 - ornamentation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Passing Tones and Neighbor Tones: Melodic Decoration

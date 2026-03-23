@@ -11,7 +11,7 @@ tags:
 - validation
 - correctness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Testing and Validation Basics

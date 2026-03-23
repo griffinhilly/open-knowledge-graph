@@ -12,7 +12,7 @@ tags:
 - isomorphism
 - legitimacy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Institutional Theory in Sociology

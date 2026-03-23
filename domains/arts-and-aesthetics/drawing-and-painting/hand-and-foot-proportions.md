@@ -17,7 +17,7 @@ tags:
 - feet
 - proportions
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Hand and Foot Proportions

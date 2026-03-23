@@ -15,7 +15,7 @@ tags:
 - stages
 - codegen
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Multi-Stage Programming and Staged Compilation

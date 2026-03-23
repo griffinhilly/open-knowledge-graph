@@ -14,7 +14,7 @@ tags:
 - price-levels
 - goods-arbitrage
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Absolute Purchasing Power Parity

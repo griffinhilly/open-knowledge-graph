@@ -17,7 +17,7 @@ tags:
 - particles
 - motion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Particles in Motion: Introduction to Kinetic Theory
 

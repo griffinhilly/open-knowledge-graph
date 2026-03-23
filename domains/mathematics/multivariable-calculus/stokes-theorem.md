@@ -14,7 +14,7 @@ tags:
 - stokes
 - curl
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stokes' Theorem

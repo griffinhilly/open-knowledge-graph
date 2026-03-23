@@ -15,7 +15,7 @@ tags:
 - motion
 - speed
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Kinetic Energy: Energy of Motion
 

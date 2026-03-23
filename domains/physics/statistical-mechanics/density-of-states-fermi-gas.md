@@ -13,7 +13,7 @@ tags:
 - density-of-states
 - dispersion
 stage: expert
-status: draft
+status: validated
 ---
 
 # Density of States in Fermi Gas

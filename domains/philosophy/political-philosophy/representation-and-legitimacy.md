@@ -16,7 +16,7 @@ tags:
 - descriptive-representation
 - substantive-representation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Representation and Legitimacy

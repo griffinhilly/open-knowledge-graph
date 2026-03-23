@@ -15,7 +15,7 @@ tags:
 - lithification
 - cementation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diagenesis and the Lithification of Sediments

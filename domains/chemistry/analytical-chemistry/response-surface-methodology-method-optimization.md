@@ -21,7 +21,7 @@ tags:
 - statistics
 - method-development
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Response Surface Methodology for Method Optimization

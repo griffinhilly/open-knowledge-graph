@@ -19,7 +19,7 @@ tags:
 - rotation
 - translation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rigid Body Kinetics — Force and Acceleration

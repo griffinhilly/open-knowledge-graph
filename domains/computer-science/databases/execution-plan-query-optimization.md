@@ -16,7 +16,7 @@ tags:
 - cost estimation
 - performance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Query Optimization and Execution Plans

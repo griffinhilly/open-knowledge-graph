@@ -12,7 +12,7 @@ tags:
 - ietf
 - specifications
 stage: advanced
-status: draft
+status: validated
 ---
 
 # RFC Standards and Network Protocol Specifications

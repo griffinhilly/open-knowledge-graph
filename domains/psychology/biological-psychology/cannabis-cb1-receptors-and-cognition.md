@@ -19,7 +19,7 @@ tags:
 - memory
 - psychosis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cannabis, CB1 Receptors, and Cognitive Effects

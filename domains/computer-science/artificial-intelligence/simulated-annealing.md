@@ -14,7 +14,7 @@ tags:
 - probability
 - annealing
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Simulated Annealing

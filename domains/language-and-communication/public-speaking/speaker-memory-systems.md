@@ -15,7 +15,7 @@ tags:
 - rehearsal
 - mnemonics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memory Techniques for Delivering Extended Speeches Without Notes

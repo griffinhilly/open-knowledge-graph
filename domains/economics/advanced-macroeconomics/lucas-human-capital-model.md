@@ -14,7 +14,7 @@ tags:
 - growth
 - time-allocation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lucas Model of Human Capital and Growth

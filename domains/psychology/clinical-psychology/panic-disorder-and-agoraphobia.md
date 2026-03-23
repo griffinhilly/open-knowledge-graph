@@ -15,7 +15,7 @@ tags:
 - panic
 - anxiety
 stage: expert
-status: draft
+status: validated
 ---
 
 # Panic Disorder and Agoraphobia

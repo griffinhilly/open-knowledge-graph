@@ -14,7 +14,7 @@ tags:
 - uninstall
 - security
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Software Installation and Management

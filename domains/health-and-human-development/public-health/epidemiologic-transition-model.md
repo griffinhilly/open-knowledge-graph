@@ -16,7 +16,7 @@ tags:
 - disease-patterns
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Epidemiologic Transition Model

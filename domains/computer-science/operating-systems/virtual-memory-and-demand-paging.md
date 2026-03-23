@@ -13,7 +13,7 @@ tags:
 - memory-management
 - demand-paging
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Virtual Memory and Demand Paging

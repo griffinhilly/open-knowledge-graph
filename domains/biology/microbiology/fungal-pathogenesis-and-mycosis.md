@@ -17,7 +17,7 @@ tags:
 - fungal-disease
 - opportunistic
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fungal Pathogenesis and Mycotic Infections

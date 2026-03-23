@@ -17,7 +17,7 @@ tags:
 - advocacy
 - non-state
 stage: expert
-status: draft
+status: validated
 ---
 
 # Transnational Actors and Advocacy Networks

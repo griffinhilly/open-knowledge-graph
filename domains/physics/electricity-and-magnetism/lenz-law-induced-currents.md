@@ -13,7 +13,7 @@ tags:
 - direction
 - opposition
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Lenz's Law and Direction of Induced Currents

@@ -14,7 +14,7 @@ tags:
 - halting-problem
 - limits
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Undecidable Problems and the Halting Problem

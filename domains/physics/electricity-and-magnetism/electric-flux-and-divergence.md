@@ -17,7 +17,7 @@ tags:
 - divergence
 - integration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electric Flux and Divergence Theorem

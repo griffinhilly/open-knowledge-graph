@@ -16,7 +16,7 @@ tags:
 - proteolysis
 - presentation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Antigen Processing: Proteasomal and Endosomal Pathways

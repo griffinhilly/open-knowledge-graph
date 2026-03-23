@@ -15,7 +15,7 @@ tags:
 - rotation
 - barrel-shifter
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Barrel Shifter and Rotation Circuits

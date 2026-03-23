@@ -19,7 +19,7 @@ tags:
 - Aristotle
 - purification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Catharsis: Tragic Emotional Release

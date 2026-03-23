@@ -16,7 +16,7 @@ tags:
 - digital-systems
 - implementation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Digital Signal Processing Fundamentals

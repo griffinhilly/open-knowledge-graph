@@ -16,7 +16,7 @@ tags:
 - force
 - charge
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Introduction to Electric Fields
 

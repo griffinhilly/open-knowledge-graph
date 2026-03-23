@@ -22,7 +22,7 @@ tags:
 - statistical-inference
 - significance
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Inferential Statistics, Hypothesis Testing, and P-Values

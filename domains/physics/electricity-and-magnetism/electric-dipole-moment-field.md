@@ -15,7 +15,7 @@ tags:
 - moment
 - far-field
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electric Dipole Moment and Dipole Field

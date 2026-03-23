@@ -14,7 +14,7 @@ tags:
 - sampling
 - item-universe
 stage: expert
-status: draft
+status: validated
 ---
 
 # Domain Sampling Theory and Generalization of Reliability

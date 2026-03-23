@@ -17,7 +17,7 @@ tags:
 - analytic-solutions
 - series-method
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Power Series Solutions to Differential Equations

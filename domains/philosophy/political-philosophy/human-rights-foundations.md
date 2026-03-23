@@ -12,7 +12,7 @@ tags:
 - human-rights
 - universal-morality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Human Rights: Philosophical Foundations

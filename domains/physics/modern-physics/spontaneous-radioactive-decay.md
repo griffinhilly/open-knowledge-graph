@@ -15,7 +15,7 @@ tags:
 - nuclear-physics
 - radioactivity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Spontaneous Radioactive Decay

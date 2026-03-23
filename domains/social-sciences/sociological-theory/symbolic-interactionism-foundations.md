@@ -15,7 +15,7 @@ tags:
 - micro-sociology
 - interaction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Symbolic Interactionism: Foundations

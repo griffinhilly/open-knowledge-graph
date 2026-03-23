@@ -17,7 +17,7 @@ tags:
 - interior
 - relationships
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Domestic Fiction: The Intimate Scale

@@ -16,7 +16,7 @@ tags:
 - noise
 - fluctuations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Brownian Motion

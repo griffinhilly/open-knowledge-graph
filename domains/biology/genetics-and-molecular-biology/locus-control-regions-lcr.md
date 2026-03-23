@@ -16,7 +16,7 @@ tags:
 - insulator-elements
 - gene-cluster-control
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Locus Control Regions and Master Regulatory Elements

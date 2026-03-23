@@ -20,7 +20,7 @@ tags:
 - myosin
 - sarcomere
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Skeletal Muscle Anatomy and Contraction

@@ -16,7 +16,7 @@ tags:
 - enzyme-cofactor
 - muscle-contraction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Magnesium: Enzyme Cofactor and Muscle Contraction

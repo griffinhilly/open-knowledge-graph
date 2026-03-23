@@ -13,7 +13,7 @@ tags:
 - nairu
 - long-run-phillips-curve
 stage: expert
-status: draft
+status: validated
 ---
 
 # Natural Rate Hypothesis and NAIRU

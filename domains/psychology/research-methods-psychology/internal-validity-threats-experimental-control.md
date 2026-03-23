@@ -19,7 +19,7 @@ tags:
 - causal-inference
 - threats
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Internal Validity and Threats to Experimental Control

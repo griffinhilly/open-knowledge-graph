@@ -15,7 +15,7 @@ tags:
 - rc-circuit
 - time-constant
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transient Response in RC Circuits

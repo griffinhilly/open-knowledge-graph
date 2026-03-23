@@ -18,7 +18,7 @@ tags:
 - kinetics
 - experimental
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rate Laws and Reaction Order Determination

@@ -17,7 +17,7 @@ tags:
 - protection
 - individual-freedom
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rights, Liberties, and Political Protection

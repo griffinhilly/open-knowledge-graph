@@ -17,7 +17,7 @@ tags:
 - functional-prediction
 - clinical-significance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Variant Annotation and Interpretation

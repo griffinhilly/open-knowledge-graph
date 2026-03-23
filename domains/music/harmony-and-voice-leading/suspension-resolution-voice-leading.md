@@ -16,7 +16,7 @@ tags:
 - voice-leading
 - dissonance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Suspension and Non-Harmonic Tone Resolution in Voice Leading

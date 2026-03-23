@@ -15,7 +15,7 @@ tags:
 - double-ended
 - sliding-window
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Deques and Double-Ended Queues

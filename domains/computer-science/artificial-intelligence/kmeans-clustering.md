@@ -19,7 +19,7 @@ tags:
 - clustering
 - partitioning
 stage: advanced
-status: draft
+status: validated
 ---
 
 # K-Means Clustering

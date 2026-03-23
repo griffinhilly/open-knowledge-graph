@@ -16,7 +16,7 @@ tags:
 - prokaryotes
 - bacteria
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Prokaryotic Cell Organization and Structure

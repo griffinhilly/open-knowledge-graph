@@ -13,7 +13,7 @@ tags:
 - two-body
 - non-ideal
 stage: expert
-status: draft
+status: validated
 ---
 
 # Second Virial Coefficient

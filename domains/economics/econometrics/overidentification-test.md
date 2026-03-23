@@ -13,7 +13,7 @@ tags:
 - overidentification
 - hypothesis-testing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Test of Overidentification: Hansen J-Test

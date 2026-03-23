@@ -15,7 +15,7 @@ tags:
 - undetermined-coefficients
 - non-homogeneous
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Method of Undetermined Coefficients

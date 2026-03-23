@@ -16,7 +16,7 @@ tags:
 - clarification
 - bone-broth
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Stocks and Broths

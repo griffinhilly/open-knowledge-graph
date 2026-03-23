@@ -16,7 +16,7 @@ tags:
 - outer-membrane
 - lps
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Gram-Negative Outer Membrane Structure and Function

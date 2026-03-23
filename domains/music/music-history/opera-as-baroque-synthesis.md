@@ -17,7 +17,7 @@ tags:
 - synthesis
 - drama
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Opera as Baroque Synthesis

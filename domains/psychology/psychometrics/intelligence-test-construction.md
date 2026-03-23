@@ -16,7 +16,7 @@ tags:
 - stanford-binet
 - g-factor
 stage: expert
-status: draft
+status: validated
 ---
 
 # Intelligence Test Construction and Score Interpretation

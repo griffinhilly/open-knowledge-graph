@@ -20,7 +20,7 @@ tags:
 - phantom-read
 - SERIALIZABLE
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transaction Isolation Levels: READ UNCOMMITTED to SERIALIZABLE

@@ -16,7 +16,7 @@ tags:
 - wendt
 - social-ontology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Constructivism, Identity, and Interest Formation

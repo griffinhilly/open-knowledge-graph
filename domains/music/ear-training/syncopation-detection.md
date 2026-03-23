@@ -17,7 +17,7 @@ tags:
 - ear-training
 - groove
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Syncopation Detection by Ear

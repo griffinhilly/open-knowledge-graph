@@ -18,7 +18,7 @@ tags:
 - correlative
 - sentence-structure
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Conjunction Types: A Unified Framework

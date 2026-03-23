@@ -14,7 +14,7 @@ tags:
 - trait-measures
 - neo-pi
 stage: expert
-status: draft
+status: validated
 ---
 
 # Personality Assessment: Big Five Trait Measurement

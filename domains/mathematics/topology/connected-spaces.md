@@ -13,7 +13,7 @@ tags:
 - connected
 - connectivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Connected Spaces

@@ -14,7 +14,7 @@ tags:
 - maintenance
 - surfaces
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Interior Surface Preparation and Painting

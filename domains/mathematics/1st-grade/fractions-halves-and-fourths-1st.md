@@ -15,7 +15,7 @@ tags:
 - fractions
 - equal-parts
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Introduction to Halves, Thirds, and Fourths

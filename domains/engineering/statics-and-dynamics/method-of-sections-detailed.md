@@ -15,7 +15,7 @@ tags:
 - method-of-sections
 - internal-forces
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Method of Sections for Truss Analysis

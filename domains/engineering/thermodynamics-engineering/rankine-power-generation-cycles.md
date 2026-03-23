@@ -18,7 +18,7 @@ tags:
 - power-plants
 - efficiency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rankine Cycle and Power Plant Applications

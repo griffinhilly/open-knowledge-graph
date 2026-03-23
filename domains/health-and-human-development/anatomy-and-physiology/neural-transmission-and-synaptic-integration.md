@@ -23,7 +23,7 @@ tags:
 - ipsc
 - summation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Neural Transmission and Synaptic Integration

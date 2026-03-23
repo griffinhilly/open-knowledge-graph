@@ -17,7 +17,7 @@ tags:
 - causal
 - nonparametric
 stage: expert
-status: draft
+status: validated
 ---
 
 # Advanced Regression Discontinuity Design

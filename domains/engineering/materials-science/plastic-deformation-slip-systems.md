@@ -15,7 +15,7 @@ tags:
 - dislocation-motion
 - slip
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mechanisms of Plastic Deformation and Slip

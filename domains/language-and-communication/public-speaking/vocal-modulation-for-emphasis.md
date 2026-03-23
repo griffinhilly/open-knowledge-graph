@@ -14,7 +14,7 @@ tags:
 - prosody
 - modulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Using Pitch, Volume, and Rate to Emphasize Key Points

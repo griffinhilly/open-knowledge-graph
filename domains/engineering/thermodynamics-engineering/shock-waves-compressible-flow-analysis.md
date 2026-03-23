@@ -13,7 +13,7 @@ tags:
 - compressible-flow
 - entropy-generation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Normal Shock Waves and Shock Analysis

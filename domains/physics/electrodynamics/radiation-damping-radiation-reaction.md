@@ -13,7 +13,7 @@ tags:
 - energy-loss
 - friction-force
 stage: expert
-status: draft
+status: validated
 ---
 
 # Radiation Damping and Energy Loss

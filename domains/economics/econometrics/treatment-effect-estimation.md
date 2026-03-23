@@ -17,7 +17,7 @@ tags:
 - treatment-effects
 - heterogeneous
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Treatment Effects: ATE, CATE, and Heterogeneous Effects

@@ -18,7 +18,7 @@ tags:
 - metaphysics
 - ontology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Truthmaker Fundamentalism and Truth-Making Relations

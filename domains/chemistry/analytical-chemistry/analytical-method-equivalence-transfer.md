@@ -16,7 +16,7 @@ tags:
 - equivalence
 - validation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Analytical Method Equivalence and Transfer

@@ -14,7 +14,7 @@ tags:
 - plants
 - instant-reproductive-isolation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Polyploidy and Instant Speciation in Plants

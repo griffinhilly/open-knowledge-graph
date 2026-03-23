@@ -15,7 +15,7 @@ tags:
 - functional-analysis
 - operators
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bounded Linear Operators

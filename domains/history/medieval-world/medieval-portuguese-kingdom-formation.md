@@ -17,7 +17,7 @@ tags:
 - reconquista
 - formation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Portuguese Kingdom Formation in the Reconquista

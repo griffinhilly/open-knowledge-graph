@@ -17,7 +17,7 @@ tags:
 - molar
 - quantitative
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Elemental Composition and Atomic Mass

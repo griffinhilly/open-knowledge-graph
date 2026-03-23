@@ -17,7 +17,7 @@ tags:
 - mechanisms
 - drug-targets
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Antimicrobial Agents: Properties and Mechanisms of Action

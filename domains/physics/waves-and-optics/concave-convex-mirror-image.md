@@ -12,7 +12,7 @@ tags:
 - mirrors
 - optics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Spherical Mirrors: Focal Length and Image Formation

@@ -18,7 +18,7 @@ tags:
 - accessibility
 - emergency-reserves
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Liquidity and the Asset Liquidity Spectrum

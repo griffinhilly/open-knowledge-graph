@@ -11,7 +11,7 @@ tags:
 - forces
 - motion
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Pushes and Pulls
 

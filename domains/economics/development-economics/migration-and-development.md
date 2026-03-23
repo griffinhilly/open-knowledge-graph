@@ -15,7 +15,7 @@ tags:
 - remittances
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Migration, Remittances, and Development

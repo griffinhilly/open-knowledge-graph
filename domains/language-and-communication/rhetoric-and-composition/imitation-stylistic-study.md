@@ -16,7 +16,7 @@ tags:
 - learning
 - craft
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Imitation and Stylistic Study

@@ -16,7 +16,7 @@ tags:
 - associativity
 - identity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Binary Operations and Algebraic Structures

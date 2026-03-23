@@ -16,7 +16,7 @@ tags:
 - convergence
 - topology
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sequences and Convergence in the Complex Plane

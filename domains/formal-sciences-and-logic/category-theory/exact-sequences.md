@@ -19,7 +19,7 @@ tags:
 - homological-algebra
 - kernels-cokernels
 stage: expert
-status: draft
+status: validated
 ---
 
 # Exact Sequences in Categories

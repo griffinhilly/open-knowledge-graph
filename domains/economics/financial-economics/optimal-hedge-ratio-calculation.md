@@ -16,7 +16,7 @@ tags:
 - risk-management
 - optimization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Optimal Hedging Ratios and Hedge Effectiveness

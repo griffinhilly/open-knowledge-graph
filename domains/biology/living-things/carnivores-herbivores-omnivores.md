@@ -17,7 +17,7 @@ tags:
 - omnivore
 - food
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Carnivores, Herbivores, and Omnivores

@@ -15,7 +15,7 @@ tags:
 - polymorphism
 - functional-languages
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hindley-Milner Type System

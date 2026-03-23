@@ -17,7 +17,7 @@ tags:
 - protocols
 - data-transfer
 stage: advanced
-status: draft
+status: validated
 ---
 
 # FTP: File Transfer Protocol and SFTP

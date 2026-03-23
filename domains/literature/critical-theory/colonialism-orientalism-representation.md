@@ -17,7 +17,7 @@ tags:
 - colonialism
 - representation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Colonialism, Orientalism, and Representation

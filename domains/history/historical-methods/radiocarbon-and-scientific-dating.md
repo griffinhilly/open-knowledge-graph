@@ -14,7 +14,7 @@ tags:
 - science
 - chronology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Radiocarbon and Scientific Dating Methods

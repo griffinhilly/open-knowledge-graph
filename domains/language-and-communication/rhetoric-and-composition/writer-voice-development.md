@@ -17,7 +17,7 @@ tags:
 - authenticity
 - writing-process
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Writer's Voice Development

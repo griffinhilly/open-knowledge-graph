@@ -16,7 +16,7 @@ tags:
 - false-belief
 - social-cognition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Social Cognition and Theory of Mind

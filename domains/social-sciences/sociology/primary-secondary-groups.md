@@ -16,7 +16,7 @@ tags:
 - primary-groups
 - secondary-groups
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Primary and Secondary Groups

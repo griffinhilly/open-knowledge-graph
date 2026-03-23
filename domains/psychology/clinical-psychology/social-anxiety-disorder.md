@@ -15,7 +15,7 @@ tags:
 - social anxiety
 - anxiety
 stage: expert
-status: draft
+status: validated
 ---
 
 # Social Anxiety Disorder

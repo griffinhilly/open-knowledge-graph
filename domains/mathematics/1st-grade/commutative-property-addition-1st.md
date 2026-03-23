@@ -15,7 +15,7 @@ tags:
 - properties
 - addition
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Commutative Property of Addition

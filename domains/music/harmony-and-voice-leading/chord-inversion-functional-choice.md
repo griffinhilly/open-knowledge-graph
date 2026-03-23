@@ -15,7 +15,7 @@ tags:
 - function
 - harmony
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Choosing Chord Inversions for Harmonic Function

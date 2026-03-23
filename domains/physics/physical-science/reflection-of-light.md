@@ -13,7 +13,7 @@ tags:
 - mirror
 - light
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Reflection of Light
 

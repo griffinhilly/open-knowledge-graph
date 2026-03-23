@@ -15,7 +15,7 @@ tags:
 - frameworks
 - overview
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Normative Ethics Overview

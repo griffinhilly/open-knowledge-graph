@@ -15,7 +15,7 @@ tags:
 - sustainability
 - international
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Current Account Sustainability

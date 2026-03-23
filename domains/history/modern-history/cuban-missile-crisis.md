@@ -18,7 +18,7 @@ tags:
 - Khrushchev
 - crisis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cuban Missile Crisis and Nuclear Brinkmanship

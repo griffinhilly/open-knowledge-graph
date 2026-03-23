@@ -13,7 +13,7 @@ tags:
 - real-time
 - deterministic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Real-Time Scheduling Algorithms

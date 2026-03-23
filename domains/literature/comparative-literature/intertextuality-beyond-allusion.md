@@ -23,7 +23,7 @@ tags:
 - Kristeva
 - networks
 stage: expert
-status: draft
+status: validated
 ---
 
 # Intertextuality Beyond Allusion: Networks and Echoes

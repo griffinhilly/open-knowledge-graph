@@ -15,7 +15,7 @@ tags:
 - tests
 - structure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Subgroups and Subgroup Test

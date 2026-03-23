@@ -16,7 +16,7 @@ tags:
 - distance-metrics
 - lazy-learning
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Instance-Based Learning (k-NN)

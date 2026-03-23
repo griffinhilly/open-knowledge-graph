@@ -16,7 +16,7 @@ tags:
 - discrete-time
 - frequency-domain
 stage: expert
-status: draft
+status: validated
 ---
 
 # Discrete-Time Fourier Transform (DTFT)

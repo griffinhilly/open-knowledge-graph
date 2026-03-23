@@ -16,7 +16,7 @@ tags:
 - mappings
 - domains
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Complex Functions and Mappings

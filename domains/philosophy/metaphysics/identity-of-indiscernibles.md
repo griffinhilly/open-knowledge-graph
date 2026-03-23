@@ -17,7 +17,7 @@ tags:
 - Black
 - individuation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Identity of Indiscernibles

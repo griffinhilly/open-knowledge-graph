@@ -18,7 +18,7 @@ tags:
 - evolution
 - trait-evolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Comparative Phylogenetic Methods for Evolutionary Analysis

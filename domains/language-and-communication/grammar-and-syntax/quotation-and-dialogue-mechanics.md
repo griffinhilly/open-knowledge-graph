@@ -13,7 +13,7 @@ tags:
 - punctuation
 - conventions
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Quotation and Dialogue Mechanics

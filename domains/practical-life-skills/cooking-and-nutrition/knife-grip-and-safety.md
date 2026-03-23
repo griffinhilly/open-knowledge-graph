@@ -14,7 +14,7 @@ tags:
 - technique
 - cutting
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Knife Grip and Cutting Safety

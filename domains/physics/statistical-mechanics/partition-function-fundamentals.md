@@ -18,7 +18,7 @@ tags:
 - statistical-weight
 - thermodynamic-contact
 stage: expert
-status: draft
+status: validated
 ---
 
 # Partition Functions and Their Significance

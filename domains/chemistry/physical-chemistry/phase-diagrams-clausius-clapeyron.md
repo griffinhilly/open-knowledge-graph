@@ -16,7 +16,7 @@ tags:
 - equilibrium
 - transition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phase Diagrams and Clausius-Clapeyron Equation

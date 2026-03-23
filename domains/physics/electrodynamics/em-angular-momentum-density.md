@@ -13,7 +13,7 @@ tags:
 - field-momentum
 - orbital-angular-momentum
 stage: expert
-status: draft
+status: validated
 ---
 
 # Angular Momentum Density in Electromagnetic Fields

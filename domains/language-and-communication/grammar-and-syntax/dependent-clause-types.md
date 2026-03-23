@@ -16,7 +16,7 @@ tags:
 - adjective-clauses
 - clause-function
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Dependent Clause Types: Nominal, Adverbial, and Adjectival

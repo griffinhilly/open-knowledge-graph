@@ -13,7 +13,7 @@ builds-toward:
   - energy-balance-and-body-composition
 tags: [nutrition, calories, energy, metabolism]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Calories and Energy

@@ -11,7 +11,7 @@ tags:
 - thermal-modeling
 - cooling-time
 stage: expert
-status: draft
+status: validated
 ---
 
 # Thermal Time Constants and Lithospheric Cooling

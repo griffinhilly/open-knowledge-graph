@@ -17,7 +17,7 @@ tags:
 - pseudoknots
 - self-complementarity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # RNA Structure and Intramolecular Base Pairing

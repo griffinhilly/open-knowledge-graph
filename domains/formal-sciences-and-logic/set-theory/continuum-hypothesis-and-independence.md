@@ -18,7 +18,7 @@ tags:
 - godel-cohen
 - forcing
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Continuum Hypothesis and Independence from ZFC

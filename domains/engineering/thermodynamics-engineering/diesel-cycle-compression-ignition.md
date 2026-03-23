@@ -11,7 +11,7 @@ tags:
 - compression-ignition
 - engines
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diesel Cycle and Compression-Ignition Engines

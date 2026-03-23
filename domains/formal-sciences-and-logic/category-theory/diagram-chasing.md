@@ -15,7 +15,7 @@ tags:
 - reasoning
 - homological-algebra
 stage: expert
-status: draft
+status: validated
 ---
 
 # Diagram Chasing and Commutative Diagrams

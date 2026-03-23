@@ -16,7 +16,7 @@ tags:
 - interface
 - allomorphy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Morpho-Phonological Interaction and Cyclic Application

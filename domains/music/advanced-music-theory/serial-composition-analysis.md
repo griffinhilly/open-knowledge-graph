@@ -12,7 +12,7 @@ tags:
 - analysis
 - interpretation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Serial Composition: Analysis and Interpretation

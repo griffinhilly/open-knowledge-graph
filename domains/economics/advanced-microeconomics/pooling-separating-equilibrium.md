@@ -13,7 +13,7 @@ tags:
 - information-asymmetry
 - equilibrium
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pooling and Separating Equilibria

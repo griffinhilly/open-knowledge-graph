@@ -15,7 +15,7 @@ tags:
 - ubiquitin
 - cell-cycle
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Proteasomal Degradation and Ubiquitin-Mediated Marking

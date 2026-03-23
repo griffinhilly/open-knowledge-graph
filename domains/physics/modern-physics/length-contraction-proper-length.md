@@ -13,7 +13,7 @@ tags:
 - spacetime
 - length
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Length Contraction and Proper Length

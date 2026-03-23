@@ -19,7 +19,7 @@ tags:
 - social-development
 - fear-response
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stranger Anxiety and Separation Distress

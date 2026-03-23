@@ -16,7 +16,7 @@ tags:
 - sensory-integration
 - perceptual-learning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sensory System Integration and Perceptual Development

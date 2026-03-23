@@ -14,7 +14,7 @@ tags:
 - truth-values
 - systematic-reasoning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Truth Tables and Truth Conditions

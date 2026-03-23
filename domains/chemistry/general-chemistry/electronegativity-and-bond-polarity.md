@@ -16,7 +16,7 @@ tags:
 - bond polarity
 - polar covalent
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electronegativity and Bond Polarity

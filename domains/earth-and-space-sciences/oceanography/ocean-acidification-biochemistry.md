@@ -20,7 +20,7 @@ tags:
 - CO2-dissolution
 - shell-dissolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ocean Acidification: Chemistry and Biological Impacts

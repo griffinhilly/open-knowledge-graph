@@ -15,7 +15,7 @@ tags:
 - siding
 - damage
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Exterior Finish Damage Types and Assessment

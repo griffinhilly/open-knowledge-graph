@@ -20,7 +20,7 @@ tags:
 - chance
 - determinism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Contingency and Necessity in History

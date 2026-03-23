@@ -17,7 +17,7 @@ tags:
 - countable model
 - countable theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Downward Löwenheim-Skolem Theorem

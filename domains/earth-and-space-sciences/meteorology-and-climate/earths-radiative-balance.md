@@ -21,7 +21,7 @@ tags:
 - solar
 - terrestrial
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Earth's Radiative Balance and Energy Budget

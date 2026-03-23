@@ -15,7 +15,7 @@ tags:
 - sovereignty
 - absolutism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Absolute Monarchy and the Theory of Divine Right

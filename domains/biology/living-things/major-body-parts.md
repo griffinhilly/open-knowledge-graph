@@ -13,7 +13,7 @@ tags:
 - human body
 - anatomy basics
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Major Body Parts

@@ -19,7 +19,7 @@ tags:
 - voice-leading
 - tonic-dominant
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Function and Voice-Leading Tension

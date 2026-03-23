@@ -22,7 +22,7 @@ tags:
 - overfitting-prevention
 - model-selection
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cross-Validation Techniques

@@ -14,7 +14,7 @@ tags:
 - strategy
 - cold-war
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nuclear Weapons and Deterrence Strategy

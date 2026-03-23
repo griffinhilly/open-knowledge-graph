@@ -14,7 +14,7 @@ tags:
 - sociobiology
 - behavior
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Evolution of Altruism

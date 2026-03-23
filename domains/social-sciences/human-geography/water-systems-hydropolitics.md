@@ -12,7 +12,7 @@ tags:
 - resources
 - geopolitics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Water Systems and Hydropolitics

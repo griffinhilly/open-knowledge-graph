@@ -15,7 +15,7 @@ tags:
 - hardware
 - dispatch
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interrupt Vector Tables and Dispatch

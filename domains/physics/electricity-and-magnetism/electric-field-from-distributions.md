@@ -15,7 +15,7 @@ tags:
 - distributions
 - integration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electric Field from Charge Distributions

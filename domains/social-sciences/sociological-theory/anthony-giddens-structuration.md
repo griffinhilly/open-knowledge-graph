@@ -12,7 +12,7 @@ tags:
 - agency
 - structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Anthony Giddens and Structuration Theory

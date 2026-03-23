@@ -19,7 +19,7 @@ tags:
 - structure
 - properties
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Atomic Bonding and Material Properties

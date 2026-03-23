@@ -17,7 +17,7 @@ tags:
 - observation
 - perception
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Discovering Color Through Observation

@@ -14,7 +14,7 @@ tags:
 - stop-codons
 - release-factors
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Translation Termination and Release Factors

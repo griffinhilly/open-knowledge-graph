@@ -14,7 +14,7 @@ tags:
 - wifi
 - broadband
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Internet Connectivity Basics

@@ -17,7 +17,7 @@ tags:
 - normative-ethics
 - methodology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Normative vs. Metaethical Questions

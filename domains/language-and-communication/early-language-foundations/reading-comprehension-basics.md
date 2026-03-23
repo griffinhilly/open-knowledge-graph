@@ -17,7 +17,7 @@ tags:
 - reading
 - making-predictions
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Reading Comprehension Basics

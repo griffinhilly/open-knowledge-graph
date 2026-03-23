@@ -16,7 +16,7 @@ tags:
 - point-of-view
 - culture
 stage: expert
-status: draft
+status: validated
 ---
 
 # Point of View and Narrative Perspective in Global Traditions

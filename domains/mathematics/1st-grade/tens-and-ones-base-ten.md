@@ -16,7 +16,7 @@ tags:
 - base-ten
 - decomposition
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Tens and Ones Place Value

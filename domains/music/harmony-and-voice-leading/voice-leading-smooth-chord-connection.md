@@ -16,7 +16,7 @@ tags:
 - progressions
 - technique
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Smooth Voice Leading in Chord Progressions

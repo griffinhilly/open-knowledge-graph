@@ -13,7 +13,7 @@ tags:
 - conjunctive relations
 - theme-rheme
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cohesion and Coherence

@@ -13,7 +13,7 @@ tags:
 - lens-combinations
 - system-design
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Compound Optical Systems: Lenses and Mirrors in Combination

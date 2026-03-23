@@ -18,7 +18,7 @@ tags:
 - incongruence
 - lineage-sorting
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gene Tree and Species Tree Incongruence: Lineage Sorting

@@ -14,7 +14,7 @@ tags:
 - quantum-chemistry
 - methods
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Electron Correlation and Computational Approximations

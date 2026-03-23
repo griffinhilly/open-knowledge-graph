@@ -11,7 +11,7 @@ tags:
 - tir
 - optics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Total Internal Reflection and the Critical Angle

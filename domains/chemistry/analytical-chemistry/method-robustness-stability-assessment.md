@@ -16,7 +16,7 @@ tags:
 - robustness
 - quality-assurance
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Method Robustness and Stability Assessment

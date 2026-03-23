@@ -11,7 +11,7 @@ tags:
 - dating
 - stratigraphy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Paleomagnetic Reversals and Magnetostratigraphy

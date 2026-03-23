@@ -16,7 +16,7 @@ tags:
 - Cori cycle
 - glucose-6-phosphatase
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gluconeogenesis and Blood Glucose Homeostasis

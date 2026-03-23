@@ -17,7 +17,7 @@ tags:
 - security-dilemma
 - spiral
 stage: expert
-status: draft
+status: validated
 ---
 
 # Arms Races and Security Spirals

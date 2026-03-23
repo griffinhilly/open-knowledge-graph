@@ -17,7 +17,7 @@ tags:
 - semitones
 - major-minor-perfect
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Determining Interval Quality by Semitone Count

@@ -8,7 +8,7 @@ prerequisites:
     type: hard
   - id: variables-in-logic
     type: hard
-  - id: true-false-statements
+  - id: true-and-false-statements
     type: soft
 builds-toward:
   - logical-equivalence-intro
@@ -16,7 +16,7 @@ builds-toward:
   - formula-evaluation-and-truth-tables
 tags: [truth-tables, logic, connectives, evaluation]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Introduction to Truth Tables

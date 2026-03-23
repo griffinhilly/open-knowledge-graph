@@ -15,7 +15,7 @@ tags:
 - induction
 - argument-evaluation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Analogical Arguments: Strength and Weakness

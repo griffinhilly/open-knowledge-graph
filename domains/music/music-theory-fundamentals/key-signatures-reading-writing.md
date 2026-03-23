@@ -15,7 +15,7 @@ tags:
 - major
 - minor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reading and Writing Key Signatures

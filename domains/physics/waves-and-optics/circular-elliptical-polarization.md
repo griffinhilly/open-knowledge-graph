@@ -12,7 +12,7 @@ tags:
 - polarization
 - waves
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Polarization States: Linear, Circular, and Elliptical

@@ -12,7 +12,7 @@ tags:
 - nitrogen-metabolism
 - brain-metabolism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Ammonia Metabolism and Transport

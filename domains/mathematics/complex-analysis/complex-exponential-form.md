@@ -16,7 +16,7 @@ tags:
 - euler-formula
 - power-series
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Complex Exponential Form and Euler's Formula

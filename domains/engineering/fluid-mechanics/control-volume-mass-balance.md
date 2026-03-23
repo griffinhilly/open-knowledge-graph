@@ -14,7 +14,7 @@ tags:
 - conservation
 - methodology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Control Volume and Mass Balance

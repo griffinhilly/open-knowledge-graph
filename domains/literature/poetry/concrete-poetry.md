@@ -14,7 +14,7 @@ tags:
 - typography
 - form
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Concrete Poetry and Visual Form

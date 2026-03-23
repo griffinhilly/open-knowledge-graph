@@ -16,7 +16,7 @@ tags:
 - brainstorming
 - creativity
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Brainstorming Solutions
 

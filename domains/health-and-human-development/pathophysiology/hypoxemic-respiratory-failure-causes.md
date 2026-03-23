@@ -16,7 +16,7 @@ tags:
 - ventilation-perfusion
 - diffusion-impairment
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hypoxemic Respiratory Failure: Causes and Mechanisms

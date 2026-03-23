@@ -15,7 +15,7 @@ tags:
 - shared-memory
 - high-performance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Shared Memory Inter-Process Communication

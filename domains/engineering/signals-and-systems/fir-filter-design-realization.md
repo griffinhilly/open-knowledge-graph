@@ -11,7 +11,7 @@ tags:
 - filter-design
 - digital-filters
 stage: expert
-status: draft
+status: validated
 ---
 
 # FIR Filter Design and Realization

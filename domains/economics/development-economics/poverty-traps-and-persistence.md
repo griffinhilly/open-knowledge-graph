@@ -15,7 +15,7 @@ tags:
 - nonlinearities
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Poverty Traps and Threshold Effects

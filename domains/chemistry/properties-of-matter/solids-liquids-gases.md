@@ -11,7 +11,7 @@ tags:
 - states-of-matter
 - physical-properties
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Solids, Liquids, and Gases
 

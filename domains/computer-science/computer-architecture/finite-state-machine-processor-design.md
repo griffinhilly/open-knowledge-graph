@@ -16,7 +16,7 @@ tags:
 - control
 - processor-design
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Finite State Machines in Processor Control

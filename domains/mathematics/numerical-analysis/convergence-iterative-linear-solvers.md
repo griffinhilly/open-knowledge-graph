@@ -13,7 +13,7 @@ tags:
 - spectral-radius
 - iteration-matrix
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Convergence of Iterative Methods

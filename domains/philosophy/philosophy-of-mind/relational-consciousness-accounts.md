@@ -19,7 +19,7 @@ tags:
 - relationalism
 - properties
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Relational Accounts of Consciousness

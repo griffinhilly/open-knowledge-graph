@@ -13,7 +13,7 @@ tags:
 - phrase
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phrase Structure: Antecedent and Consequent

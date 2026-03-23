@@ -15,7 +15,7 @@ tags:
 - larval-development
 - metabolic-stress
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pteropods as Indicators of Ocean Acidification Stress

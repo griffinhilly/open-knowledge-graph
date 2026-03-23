@@ -11,7 +11,7 @@ tags:
 - optics
 - wavelength
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Dispersion: Wavelength and Refractive Index

@@ -18,7 +18,7 @@ tags:
 - liver
 - branching
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Glycogen Metabolism and Mobilization

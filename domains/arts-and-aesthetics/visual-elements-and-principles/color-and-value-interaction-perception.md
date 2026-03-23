@@ -25,7 +25,7 @@ tags:
 - perception
 - mixing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Color and Value Interactions: How Hue and Tone Combine

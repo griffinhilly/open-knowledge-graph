@@ -12,7 +12,7 @@ tags:
 - connections
 - exploitation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Global Commodity Chains and Connections

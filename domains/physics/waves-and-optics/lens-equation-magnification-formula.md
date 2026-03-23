@@ -15,7 +15,7 @@ tags:
 - optics
 - image
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Thin Lens Equation and Image Formation

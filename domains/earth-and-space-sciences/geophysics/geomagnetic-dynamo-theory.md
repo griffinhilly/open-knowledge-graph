@@ -16,7 +16,7 @@ tags:
 - core
 - convection
 stage: expert
-status: draft
+status: validated
 ---
 
 # Geomagnetic Dynamo Theory

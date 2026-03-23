@@ -15,7 +15,7 @@ tags:
 - design-theory
 - core-concepts
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Foundations of Design Principles

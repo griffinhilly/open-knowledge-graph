@@ -15,7 +15,7 @@ tags:
 - sequences
 - degrees
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Degree Sequences and Graph Realization

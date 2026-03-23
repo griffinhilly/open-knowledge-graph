@@ -21,7 +21,7 @@ tags:
 - red-blood-cell-disease
 - hypoxemia
 stage: expert
-status: draft
+status: validated
 ---
 # Anemia: Classification and Pathophysiology
 

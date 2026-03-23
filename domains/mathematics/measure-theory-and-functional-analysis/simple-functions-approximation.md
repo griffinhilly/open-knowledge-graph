@@ -12,7 +12,7 @@ tags:
 - measure-theory
 - simple-functions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Simple Functions and Approximation

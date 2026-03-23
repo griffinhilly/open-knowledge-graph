@@ -3,11 +3,17 @@ id: variables-and-assignment
 title: Variables and Assignment
 domain: computer-science
 course: programming-fundamentals
-prerequisites: []
+prerequisites:
+- id: memory-and-data-storage
+  type: hard
 builds-toward:
 - primitive-data-types
 - operators-and-expressions
-- basic-input-output
+- input-output
+- arithmetic-operators
+- variable-scope
+- function-design-and-contracts
+- scope-shadowing-and-lifetime
 tags:
 - variables
 - assignment
@@ -16,7 +22,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Variables and Assignment
 
 ## Core Idea

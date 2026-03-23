@@ -16,7 +16,7 @@ tags:
 - picture-theory
 - logical-structure
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Wittgenstein's Picture Theory of Language

@@ -12,7 +12,7 @@ tags:
 - behavioral therapy
 - exposure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Behavioral Therapy: Exposure and Reinforcement

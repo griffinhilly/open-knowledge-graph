@@ -14,7 +14,7 @@ tags:
 - particulars
 - properties
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tropes versus Universals

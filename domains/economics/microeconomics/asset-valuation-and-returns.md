@@ -11,7 +11,7 @@ tags:
 - capital
 - investment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Asset Valuation and Present Value in Microeconomics

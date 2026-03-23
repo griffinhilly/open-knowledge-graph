@@ -14,7 +14,7 @@ tags:
 - planning
 - logic
 stage: expert
-status: draft
+status: validated
 ---
 
 # Research Design: From Questions to Methods

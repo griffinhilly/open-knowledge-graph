@@ -16,7 +16,7 @@ tags:
 - four-vectors
 - conservation-laws
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Four-Momentum and Energy-Momentum Conservation

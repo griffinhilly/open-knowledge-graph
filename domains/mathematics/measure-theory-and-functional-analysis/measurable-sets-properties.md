@@ -13,7 +13,7 @@ tags:
 - measure-theory
 - measurable-sets
 stage: expert
-status: draft
+status: validated
 ---
 
 # Measurable Sets and σ-Algebra Properties

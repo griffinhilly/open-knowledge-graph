@@ -16,7 +16,7 @@ tags:
 - ethics
 - cosmopolitanism
 stage: expert
-status: draft
+status: validated
 ---
 
 # World Literature, Translation, and Ethical Negotiation

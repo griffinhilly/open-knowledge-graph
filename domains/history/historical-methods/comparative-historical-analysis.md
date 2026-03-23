@@ -15,7 +15,7 @@ tags:
 - method
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Comparative Historical Analysis Across Cases and Scales

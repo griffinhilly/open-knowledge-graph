@@ -11,7 +11,7 @@ tags:
 - a-stability
 - ode
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stability Regions and A-Stability

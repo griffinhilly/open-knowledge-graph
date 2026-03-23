@@ -20,7 +20,7 @@ tags:
 - sources
 - validity
 stage: expert
-status: draft
+status: validated
 ---
 
 # What Counts as Historical Evidence

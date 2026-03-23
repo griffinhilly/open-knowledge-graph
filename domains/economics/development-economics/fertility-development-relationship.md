@@ -12,7 +12,7 @@ tags:
 - fertility
 - demographic
 stage: expert
-status: draft
+status: validated
 ---
 
 # Fertility Decline and Economic Development

@@ -15,7 +15,7 @@ tags:
 - two-digit
 - algorithms
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Two-Digit by One-Digit Division

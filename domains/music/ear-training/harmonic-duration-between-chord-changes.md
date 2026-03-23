@@ -17,7 +17,7 @@ tags:
 - chord-duration
 - harmonic-rhythm
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Duration: Time Between Chord Changes

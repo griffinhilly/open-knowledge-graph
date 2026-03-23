@@ -14,7 +14,7 @@ tags:
 - register-renaming
 - performance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Out-of-Order Execution and Register Renaming

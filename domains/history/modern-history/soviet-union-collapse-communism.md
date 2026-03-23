@@ -18,7 +18,7 @@ tags:
 - '1991'
 - Gorbachev
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Soviet Union Collapse and the End of Cold War

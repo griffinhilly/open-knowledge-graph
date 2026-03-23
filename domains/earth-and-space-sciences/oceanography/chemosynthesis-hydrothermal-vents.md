@@ -14,7 +14,7 @@ tags:
 - sulfide-oxidation
 - deep-sea
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chemosynthesis and Deep-Sea Hydrothermal Vent Ecosystems

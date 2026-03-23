@@ -14,7 +14,7 @@ tags:
 - relativistic-jets
 - transient
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gamma-Ray Bursts: Relativistic Jets and High-Energy Transients

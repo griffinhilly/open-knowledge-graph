@@ -19,7 +19,7 @@ tags:
 - cascade
 - cascode
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multi-Stage Amplifiers

@@ -17,7 +17,7 @@ tags:
 - causal-mechanism
 - intervention
 stage: expert
-status: draft
+status: validated
 ---
 
 # Causal Explanation

@@ -17,7 +17,7 @@ tags:
 - definition
 - rigor
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Rigorous Definition of the Derivative

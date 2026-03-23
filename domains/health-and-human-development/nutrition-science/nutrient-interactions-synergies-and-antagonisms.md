@@ -16,7 +16,7 @@ tags:
 - antagonisms
 - bioavailability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nutrient Interactions: Synergies, Antagonisms, and Biochemical Interdependencies

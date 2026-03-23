@@ -15,7 +15,7 @@ tags:
 - bayesian
 - evidence
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bayesian Confirmation Theory

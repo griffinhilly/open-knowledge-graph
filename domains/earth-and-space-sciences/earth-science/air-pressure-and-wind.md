@@ -6,7 +6,7 @@ course: earth-science
 prerequisites:
 - id: layers-of-the-atmosphere
   type: hard
-- id: basic-weather
+- id: what-is-weather
   type: soft
 builds-toward:
 - atmospheric-pressure-and-altitude
@@ -19,7 +19,7 @@ tags:
 - low-pressure
 - convection
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Air Pressure and Wind

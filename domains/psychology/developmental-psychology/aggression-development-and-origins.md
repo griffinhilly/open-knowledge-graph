@@ -14,7 +14,7 @@ tags:
 - childhood
 - social development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Aggression Development and Origins

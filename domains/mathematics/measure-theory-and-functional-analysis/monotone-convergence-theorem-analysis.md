@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - convergence-theorems
 stage: expert
-status: draft
+status: validated
 ---
 
 # Monotone Convergence Theorem

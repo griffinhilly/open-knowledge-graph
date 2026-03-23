@@ -15,7 +15,7 @@ tags:
 - multiplication
 - skip-counting
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Skip-Counting as a Multiplication Pattern

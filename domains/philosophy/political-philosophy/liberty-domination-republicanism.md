@@ -17,7 +17,7 @@ tags:
 - republicanism
 - freedom
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Liberty, Domination, and Republican Freedom

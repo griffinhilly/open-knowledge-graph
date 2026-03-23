@@ -11,7 +11,7 @@ tags:
 - flow
 - algorithms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Maximum Flow: Network Flow Problems and Algorithms

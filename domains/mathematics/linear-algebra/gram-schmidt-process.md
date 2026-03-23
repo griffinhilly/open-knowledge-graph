@@ -13,7 +13,7 @@ tags:
 - orthogonalization
 - basis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gram-Schmidt Orthogonalization Process

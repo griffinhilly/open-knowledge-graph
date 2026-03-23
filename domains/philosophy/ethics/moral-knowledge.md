@@ -17,7 +17,7 @@ tags:
 - moral-intuitions
 - reflective-equilibrium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moral Knowledge

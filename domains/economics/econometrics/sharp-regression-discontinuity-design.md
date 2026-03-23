@@ -15,7 +15,7 @@ tags:
 - regression-discontinuity
 - local-treatment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sharp Regression Discontinuity Design

@@ -14,7 +14,7 @@ tags:
 - outer-voices
 - part-writing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voice Motion Types: Parallel, Contrary, and Oblique

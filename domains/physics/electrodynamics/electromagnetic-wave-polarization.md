@@ -13,7 +13,7 @@ tags:
 - wave-properties
 - em-waves
 stage: expert
-status: draft
+status: validated
 ---
 
 # Polarization of Electromagnetic Waves

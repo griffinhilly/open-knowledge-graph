@@ -17,7 +17,7 @@ tags:
 - cultural-politics
 - venuti
 stage: expert
-status: draft
+status: validated
 ---
 
 # Venuti: Domestication and Foreignization

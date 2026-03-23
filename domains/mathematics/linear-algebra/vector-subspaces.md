@@ -15,7 +15,7 @@ tags:
 - closure
 - subsets
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Subspaces and Closure Properties

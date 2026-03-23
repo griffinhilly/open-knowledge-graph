@@ -18,7 +18,7 @@ tags:
 - meaning
 - interconnection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Meaning Holism

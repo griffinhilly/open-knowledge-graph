@@ -13,7 +13,7 @@ tags:
 - complements
 - decision-problems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Co-NP and Complementary Complexity Classes

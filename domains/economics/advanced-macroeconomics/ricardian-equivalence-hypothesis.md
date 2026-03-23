@@ -15,7 +15,7 @@ tags:
 - fiscal-policy
 - debt-equivalence
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ricardian Equivalence and Fiscal Policy

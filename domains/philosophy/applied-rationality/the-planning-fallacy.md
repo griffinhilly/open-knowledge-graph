@@ -15,7 +15,7 @@ builds-toward:
   - murphyjitsu
 tags: ["planning", "bias", "overconfidence", "forecasting", "project-management"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

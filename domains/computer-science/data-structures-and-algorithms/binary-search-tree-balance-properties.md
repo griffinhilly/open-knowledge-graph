@@ -14,7 +14,7 @@ tags:
 - balance
 - degeneration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binary Search Tree Balance and Degeneration

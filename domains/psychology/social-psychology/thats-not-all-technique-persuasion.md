@@ -16,7 +16,7 @@ tags:
 - sales tactics
 - framing effects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # That's-Not-All Technique in Persuasion

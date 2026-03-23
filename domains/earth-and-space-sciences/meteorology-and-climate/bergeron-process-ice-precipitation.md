@@ -16,7 +16,7 @@ tags:
 - precipitation
 - ice-crystals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bergeron Process and Ice Crystal Precipitation

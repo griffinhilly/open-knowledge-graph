@@ -17,7 +17,7 @@ tags:
 - antigenic-shift
 - molecular-mimicry
 stage: expert
-status: draft
+status: validated
 ---
 
 # Antigenic Variation and Immune Evasion by Pathogens

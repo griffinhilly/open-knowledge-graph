@@ -16,7 +16,7 @@ tags:
 - power
 - calculus
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Power and Work Rate

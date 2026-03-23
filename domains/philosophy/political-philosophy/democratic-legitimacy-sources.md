@@ -14,7 +14,7 @@ tags:
 - democracy
 - legitimacy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sources of Democratic Legitimacy

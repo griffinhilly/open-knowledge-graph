@@ -19,7 +19,7 @@ tags:
 - economics
 - efficiency
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cost-Effectiveness Analysis in Policy Research

@@ -18,7 +18,7 @@ tags:
 - cyclone
 - occlusion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Occluded Front Formation and Mechanics

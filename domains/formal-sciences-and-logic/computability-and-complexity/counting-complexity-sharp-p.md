@@ -14,7 +14,7 @@ tags:
 - '#sat'
 - counting-problems
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Counting Complexity and the Sharp-P Class

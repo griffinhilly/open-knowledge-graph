@@ -15,7 +15,7 @@ tags:
 - tables
 - observations
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Recording Observations Like a Scientist
 

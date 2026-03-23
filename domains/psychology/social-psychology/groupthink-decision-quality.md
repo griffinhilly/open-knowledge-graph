@@ -19,7 +19,7 @@ tags:
 - cohesion
 - conformity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Groupthink and Consensus-Seeking in Decisions

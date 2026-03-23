@@ -15,7 +15,7 @@ tags:
 - life-stage
 - risk-questionnaire
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Risk Tolerance and Asset Allocation

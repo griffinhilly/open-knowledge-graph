@@ -14,7 +14,7 @@ tags:
 - inequality
 - education
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cultural Capital and Social Inequality

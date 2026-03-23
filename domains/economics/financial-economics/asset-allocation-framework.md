@@ -15,7 +15,7 @@ tags:
 - portfolio
 - strategy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Asset Allocation Framework

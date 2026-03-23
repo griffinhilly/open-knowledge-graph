@@ -15,7 +15,7 @@ tags:
 - plainchant
 - context
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Medieval Music: Liturgy, Court, and Community

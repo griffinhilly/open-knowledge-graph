@@ -13,7 +13,7 @@ tags:
 - measure-theory
 - null-sets
 stage: expert
-status: draft
+status: validated
 ---
 
 # Null Sets and Almost Everywhere

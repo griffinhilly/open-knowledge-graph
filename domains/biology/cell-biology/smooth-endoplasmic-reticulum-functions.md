@@ -15,7 +15,7 @@ tags:
 - lipid-synthesis
 - calcium-storage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Smooth Endoplasmic Reticulum Functions

@@ -16,7 +16,7 @@ tags:
 - peristalsis
 - esophagus
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gastrointestinal Tract Anatomy and Motility

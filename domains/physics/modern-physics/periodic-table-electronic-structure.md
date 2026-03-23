@@ -11,7 +11,7 @@ tags:
 - atoms
 - periodic-table
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Periodic Table and Atomic Electronic Structure

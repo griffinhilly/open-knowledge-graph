@@ -14,7 +14,7 @@ tags:
 - identity
 - personal-fable
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Personal Fable in Adolescent Development

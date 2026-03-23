@@ -18,7 +18,7 @@ tags:
 - interpretation
 - evidence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interpreting Evidence from the Ancient World

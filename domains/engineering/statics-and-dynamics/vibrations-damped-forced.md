@@ -16,7 +16,7 @@ tags:
 - resonance
 - amplitude
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Damped and Forced Vibrations

@@ -16,7 +16,7 @@ tags:
 - ecosystems
 - survival
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # What Is a Habitat?

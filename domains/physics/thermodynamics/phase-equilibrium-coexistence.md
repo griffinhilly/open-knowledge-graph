@@ -15,7 +15,7 @@ tags:
 - equilibrium
 - chemical-potential
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Phase Equilibrium and Coexistence Conditions

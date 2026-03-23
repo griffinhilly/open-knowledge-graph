@@ -19,7 +19,7 @@ tags:
 - hydride-shift
 - alkyl-shift
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Carbocation Rearrangement: 1,2-Hydride and 1,2-Alkyl Shifts

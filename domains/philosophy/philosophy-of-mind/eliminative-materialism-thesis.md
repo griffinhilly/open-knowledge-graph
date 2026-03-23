@@ -11,7 +11,7 @@ tags:
 - folk-psychology
 - materialism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Eliminative Materialism

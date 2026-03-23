@@ -17,7 +17,7 @@ tags:
 - trace-metals
 - quantitation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Atomic Absorption Spectroscopy: Quantitative Applications

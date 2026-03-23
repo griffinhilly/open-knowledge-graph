@@ -23,7 +23,7 @@ tags:
 - postcolonial
 - Venuti
 stage: expert
-status: draft
+status: validated
 ---
 
 # Translation Ethics: Domestication and Foreignization

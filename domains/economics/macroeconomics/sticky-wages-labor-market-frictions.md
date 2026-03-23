@@ -14,7 +14,7 @@ tags:
 - nominal-rigidity
 - contracts
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sticky Wages and Labor Market Frictions

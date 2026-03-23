@@ -17,7 +17,7 @@ tags:
 - diffusion
 - reaction-rate
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Diffusion-Controlled Reaction Kinetics

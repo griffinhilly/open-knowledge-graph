@@ -13,7 +13,7 @@ tags:
 - perception
 - cortex
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cortical Face Processing

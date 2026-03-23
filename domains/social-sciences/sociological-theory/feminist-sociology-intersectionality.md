@@ -14,7 +14,7 @@ tags:
 - gender
 - inequality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Feminist Sociology and Intersectionality

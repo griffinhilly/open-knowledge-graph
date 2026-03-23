@@ -17,7 +17,7 @@ tags:
 - testing
 - iteration
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Testing and Improving
 

@@ -17,7 +17,7 @@ tags:
 - wholes
 - composition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mereological Composition

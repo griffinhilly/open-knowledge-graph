@@ -16,7 +16,7 @@ tags:
 - central-bank
 - banking
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Monetary Base and Money Creation

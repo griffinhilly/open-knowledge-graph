@@ -16,7 +16,7 @@ tags:
 - crowding-out
 - interest-rates
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Crowding Out and the Effects of Fiscal Policy

@@ -16,7 +16,7 @@ tags:
 - republic
 - trade
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dutch Republic and Commercial Dominance

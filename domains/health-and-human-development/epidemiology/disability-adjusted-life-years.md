@@ -17,7 +17,7 @@ tags:
 - health-metrics
 - priority-setting
 stage: expert
-status: draft
+status: validated
 ---
 
 # Disability-Adjusted Life Years (DALYs)

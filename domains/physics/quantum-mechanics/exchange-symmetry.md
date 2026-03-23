@@ -10,7 +10,7 @@ tags:
 - exchange-symmetry
 - antisymmetric
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Exchange Symmetry and Slater Determinants

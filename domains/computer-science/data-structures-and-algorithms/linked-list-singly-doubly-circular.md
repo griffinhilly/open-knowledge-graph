@@ -13,7 +13,7 @@ tags:
 - data-structure
 - variants
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linked Lists: Singly, Doubly, and Circular Variants

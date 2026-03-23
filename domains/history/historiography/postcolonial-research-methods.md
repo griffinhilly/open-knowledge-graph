@@ -16,7 +16,7 @@ tags:
 - decolonial
 - archives
 stage: expert
-status: draft
+status: validated
 ---
 # Postcolonial Approaches to Historical Research
 

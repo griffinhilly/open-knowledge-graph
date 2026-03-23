@@ -12,7 +12,7 @@ tags:
 - power
 - conflict
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Investiture Controversy

@@ -18,7 +18,7 @@ tags:
 - sensitivity
 - specificity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Diagnostic Test Properties: Sensitivity and Specificity

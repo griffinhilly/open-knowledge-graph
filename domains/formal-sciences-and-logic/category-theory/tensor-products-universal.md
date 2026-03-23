@@ -16,7 +16,7 @@ tags:
 - universal-properties
 - bilinear
 stage: expert
-status: draft
+status: validated
 ---
 
 # Tensor Products as Universal Constructions

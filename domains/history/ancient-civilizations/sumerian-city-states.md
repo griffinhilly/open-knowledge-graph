@@ -14,7 +14,7 @@ tags:
 - urbanism
 - governance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sumerian City-States and Emergence of Urban Society

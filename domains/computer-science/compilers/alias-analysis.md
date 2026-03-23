@@ -15,7 +15,7 @@ tags:
 - memory
 - pointers
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Alias Analysis and Memory Disambiguation

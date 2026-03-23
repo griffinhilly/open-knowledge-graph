@@ -15,7 +15,7 @@ tags:
 - point-estimation
 - statistics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bayesian Point Estimation

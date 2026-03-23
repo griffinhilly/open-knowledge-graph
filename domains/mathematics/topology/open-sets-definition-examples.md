@@ -13,7 +13,7 @@ tags:
 - open-sets
 - fundamental
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Open Sets in Topological Spaces

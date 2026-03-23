@@ -16,7 +16,7 @@ tags:
 - sympatry
 - reproductive-character-displacement
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Character Displacement and Sympatric Evolution

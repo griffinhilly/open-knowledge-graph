@@ -14,7 +14,7 @@ tags:
 - form
 - counterpoint
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Medieval Vocal Forms: Chant to Motet

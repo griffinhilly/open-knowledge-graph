@@ -26,7 +26,7 @@ tags:
 - domain
 - arity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Structures and Formal Languages

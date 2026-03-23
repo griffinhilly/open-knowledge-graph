@@ -12,7 +12,7 @@ tags:
 - compact
 - metric-spaces
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Compact Metric Spaces and Characterizations

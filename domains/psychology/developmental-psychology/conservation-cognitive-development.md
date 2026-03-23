@@ -15,7 +15,7 @@ tags:
 - logical-operations
 - cognitive-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conservation and Concrete Operational Thinking

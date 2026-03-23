@@ -13,7 +13,7 @@ tags:
 - thermal-effects
 - thermodynamic-quantities
 stage: expert
-status: draft
+status: validated
 ---
 
 # Fermi Gas at Finite Temperature

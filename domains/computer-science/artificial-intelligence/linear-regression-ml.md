@@ -31,7 +31,7 @@ tags:
 - regression
 - optimization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Linear Regression in Machine Learning

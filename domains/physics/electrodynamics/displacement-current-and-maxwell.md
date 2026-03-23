@@ -16,7 +16,7 @@ tags:
 - displacement-current
 - symmetry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Displacement Current and Maxwell's Equations

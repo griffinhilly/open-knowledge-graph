@@ -13,7 +13,7 @@ tags:
 - inference
 - model-fit
 stage: advanced
-status: draft
+status: validated
 ---
 
 # F-Statistic for Overall Model Significance

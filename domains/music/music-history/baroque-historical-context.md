@@ -16,7 +16,7 @@ tags:
 - continuo
 - drama
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Baroque Music: Drama, Tonality, and Innovation

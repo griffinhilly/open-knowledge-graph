@@ -16,7 +16,7 @@ tags:
 - figure
 - proportion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Figure Foreshortening in Practice

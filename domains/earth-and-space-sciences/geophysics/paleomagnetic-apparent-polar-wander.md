@@ -15,7 +15,7 @@ tags:
 - apparent-polar-wander
 - plate-motion
 stage: expert
-status: draft
+status: validated
 ---
 
 # Paleomagnetic Poles and Apparent Polar Wander

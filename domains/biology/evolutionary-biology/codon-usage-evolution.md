@@ -14,7 +14,7 @@ tags:
 - translational-efficiency
 - selection
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Codon Usage Bias and Evolution

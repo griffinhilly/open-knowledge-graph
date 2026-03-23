@@ -16,7 +16,7 @@ tags:
 - harmony
 - reharmonization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Jazz Reharmonization and Analysis

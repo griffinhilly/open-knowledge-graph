@@ -14,7 +14,7 @@ tags:
 - cations
 - anions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Writing Chemical Formulas for Ionic Compounds

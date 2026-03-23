@@ -15,7 +15,7 @@ tags:
 - operations
 - algebra
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Matrix Addition, Multiplication, and Transpose

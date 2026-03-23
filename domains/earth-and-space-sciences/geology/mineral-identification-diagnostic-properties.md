@@ -18,7 +18,7 @@ tags:
 - identification
 - properties
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Mineral Identification Through Physical Properties

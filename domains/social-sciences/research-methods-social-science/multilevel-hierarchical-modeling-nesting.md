@@ -22,7 +22,7 @@ tags:
 - nested-data
 - random-effects
 stage: expert
-status: draft
+status: validated
 ---
 
 # Multilevel Modeling: Data Nested in Structure

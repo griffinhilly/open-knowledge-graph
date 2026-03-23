@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - measure-theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Signed Measures and Hahn-Jordan Decomposition

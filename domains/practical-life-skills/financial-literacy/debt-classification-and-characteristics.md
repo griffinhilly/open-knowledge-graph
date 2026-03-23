@@ -18,7 +18,7 @@ tags:
 - revolving-credit
 - installment-debt
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Debt Types and Classification

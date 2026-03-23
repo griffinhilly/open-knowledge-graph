@@ -16,7 +16,7 @@ tags:
 - regime-shift
 - ecosystem
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ecosystem Stability, Resilience, and Tipping Points

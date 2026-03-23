@@ -16,7 +16,7 @@ tags:
 - greek-drama
 - plot-device
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Deus ex Machina: Resolution Through Intervention

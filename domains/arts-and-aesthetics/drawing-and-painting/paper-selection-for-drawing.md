@@ -14,7 +14,7 @@ tags:
 - drawing-surface
 - weight
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Paper Selection for Drawing

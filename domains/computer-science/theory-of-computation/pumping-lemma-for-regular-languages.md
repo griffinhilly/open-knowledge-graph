@@ -13,7 +13,7 @@ tags:
 - non-regularity
 - proof-technique
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Pumping Lemma for Regular Languages

@@ -16,7 +16,7 @@ tags:
 - constraint
 - limitation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Narration and Narrative Constraint

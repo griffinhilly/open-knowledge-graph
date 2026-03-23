@@ -21,7 +21,7 @@ tags:
 - surface
 - flux
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Surface Energy Budget and Heat Fluxes

@@ -18,7 +18,7 @@ tags:
 - mestiza
 - consciousness
 stage: expert
-status: draft
+status: validated
 ---
 
 # Anzaldúa's Borderlands and Mestiza Consciousness

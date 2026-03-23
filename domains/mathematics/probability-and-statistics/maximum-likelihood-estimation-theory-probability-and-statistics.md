@@ -12,7 +12,7 @@ tags:
 - mle
 - estimation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Maximum Likelihood Estimation

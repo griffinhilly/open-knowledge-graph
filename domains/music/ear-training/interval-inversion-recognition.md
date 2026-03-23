@@ -17,7 +17,7 @@ tags:
 - inversion
 - pitch-relationships
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interval Inversion Recognition by Ear

@@ -15,7 +15,7 @@ tags:
 - radioactivity
 - decay
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Beta Decay and Electron-Antineutrino Emission

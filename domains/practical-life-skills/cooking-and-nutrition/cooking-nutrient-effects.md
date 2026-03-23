@@ -18,7 +18,7 @@ tags:
 - minerals
 - cooking-effects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # How Cooking Affects Nutrients

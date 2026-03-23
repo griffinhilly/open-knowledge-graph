@@ -19,7 +19,7 @@ tags:
 - exponential
 - symmetric monoidal closed
 stage: expert
-status: draft
+status: validated
 ---
 # Closed Monoidal Categories
 

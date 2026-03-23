@@ -16,7 +16,7 @@ tags:
 - mental-math
 - addition
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Addition Strategy: Counting On

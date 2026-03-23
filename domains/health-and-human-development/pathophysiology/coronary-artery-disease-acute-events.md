@@ -16,7 +16,7 @@ tags:
 - plaque-rupture
 - acute-coronary-syndrome
 stage: expert
-status: draft
+status: validated
 ---
 
 # Coronary Artery Disease: Plaque Rupture, Thrombosis, and Acute Coronary Syndromes

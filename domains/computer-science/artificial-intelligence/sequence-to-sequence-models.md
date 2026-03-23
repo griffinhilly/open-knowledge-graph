@@ -13,7 +13,7 @@ tags:
 - sequence-models
 - encoder-decoder
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sequence-to-Sequence Models

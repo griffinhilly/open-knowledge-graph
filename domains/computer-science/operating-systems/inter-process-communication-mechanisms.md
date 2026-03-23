@@ -18,7 +18,7 @@ tags:
 - communication
 - processes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inter-Process Communication Mechanisms

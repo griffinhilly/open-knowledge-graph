@@ -15,7 +15,7 @@ tags:
 - devices
 - memorability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Rhetorical Devices for Emphasis and Memorability in Speech

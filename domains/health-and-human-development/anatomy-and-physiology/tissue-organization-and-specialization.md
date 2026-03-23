@@ -23,7 +23,7 @@ tags:
 - histology
 - organization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tissue Organization and Specialization

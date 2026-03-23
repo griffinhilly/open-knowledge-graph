@@ -15,7 +15,7 @@ tags:
 - verbs
 - particles
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Phrasal Verbs: Verbs + Particles

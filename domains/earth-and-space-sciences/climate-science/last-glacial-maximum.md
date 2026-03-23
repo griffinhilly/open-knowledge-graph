@@ -18,7 +18,7 @@ tags:
 - sea-level
 - paleoclimate-constraints
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Last Glacial Maximum: Earth's Recent Coldest Period

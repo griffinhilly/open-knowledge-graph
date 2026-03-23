@@ -15,7 +15,7 @@ tags:
 - leaps
 - contour
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Melodic Leap Size Recognition

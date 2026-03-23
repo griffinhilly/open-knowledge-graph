@@ -17,7 +17,7 @@ tags:
 - ices
 - outgassing
 stage: expert
-status: draft
+status: validated
 ---
 
 # Comet Structure and Composition

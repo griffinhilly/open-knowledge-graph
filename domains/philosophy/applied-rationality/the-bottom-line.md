@@ -11,7 +11,7 @@ builds-toward:
   - steelmanning
 tags: ["rationality", "biases", "argument-evaluation", "motivated-cognition"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

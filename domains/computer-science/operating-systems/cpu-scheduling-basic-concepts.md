@@ -17,7 +17,7 @@ tags:
 - resource-allocation
 - fairness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # CPU Scheduling: Basic Concepts

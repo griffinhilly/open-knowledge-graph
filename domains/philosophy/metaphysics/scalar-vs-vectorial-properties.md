@@ -15,7 +15,7 @@ tags:
 - scalar
 - vectorial
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Scalar and Vectorial Properties

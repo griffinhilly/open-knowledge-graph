@@ -12,7 +12,7 @@ tags:
 - surjective
 - bijective
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Function Types and Bijections

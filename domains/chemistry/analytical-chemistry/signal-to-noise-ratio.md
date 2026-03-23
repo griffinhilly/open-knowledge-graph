@@ -17,7 +17,7 @@ tags:
 - detection
 - sensitivity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Signal-to-Noise Ratio

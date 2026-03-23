@@ -19,7 +19,7 @@ tags:
 - sparse
 - abundant
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Fundamental and Derivative Properties: Sparse and Abundant Ontologies
 

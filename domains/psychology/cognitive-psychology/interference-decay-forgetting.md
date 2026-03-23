@@ -12,7 +12,7 @@ tags:
 - interference
 - decay
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interference and Decay in Forgetting

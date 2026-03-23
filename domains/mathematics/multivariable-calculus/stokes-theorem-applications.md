@@ -13,7 +13,7 @@ tags:
 - curl
 - circulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stokes' Theorem: Circulation and Curl

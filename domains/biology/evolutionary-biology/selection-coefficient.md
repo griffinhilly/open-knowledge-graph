@@ -17,7 +17,7 @@ tags:
 - selection
 - quantitative
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Selection Coefficient

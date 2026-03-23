@@ -16,7 +16,7 @@ tags:
 - hierarchy
 - infinities
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Aleph Hierarchy and Cardinal Numbers

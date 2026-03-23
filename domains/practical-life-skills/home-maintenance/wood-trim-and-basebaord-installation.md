@@ -18,7 +18,7 @@ tags:
 - installation
 - finishing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Wood Trim and Baseboard Installation

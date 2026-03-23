@@ -16,7 +16,7 @@ tags:
 - lower-bounds
 - estimation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cramer-Rao Lower Bound

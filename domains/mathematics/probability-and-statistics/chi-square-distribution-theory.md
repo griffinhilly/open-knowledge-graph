@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - chi-square
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chi-Square Distribution: Theory and Tests

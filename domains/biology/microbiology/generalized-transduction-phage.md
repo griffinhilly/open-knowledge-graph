@@ -16,7 +16,7 @@ tags:
 - phage
 - gene-transfer
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Generalized Transduction and Phage-Mediated Gene Transfer

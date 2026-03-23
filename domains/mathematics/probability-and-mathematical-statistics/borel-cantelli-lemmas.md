@@ -16,7 +16,7 @@ tags:
 - convergence
 - probability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Borel-Cantelli Lemmas

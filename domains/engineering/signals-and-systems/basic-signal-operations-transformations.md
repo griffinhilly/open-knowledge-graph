@@ -14,7 +14,7 @@ tags:
 - operations
 - transformations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Basic Signal Operations and Transformations

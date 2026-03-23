@@ -28,7 +28,7 @@ tags:
 - fMRI
 - BOLD
 stage: expert
-status: draft
+status: validated
 ---
 
 # fMRI Principles and Interpretation

@@ -13,7 +13,7 @@ tags:
 - prime-ideal
 - quotient-structure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Maximal and Prime Ideals

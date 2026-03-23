@@ -16,7 +16,7 @@ tags:
 - isolated-system
 - constant-energy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Microcanonical Ensemble (NVE)

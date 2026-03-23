@@ -17,7 +17,7 @@ tags:
 - innovation
 - adoption
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Policy Diffusion and Cross-National Policy Learning

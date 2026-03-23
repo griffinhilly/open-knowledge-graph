@@ -18,7 +18,7 @@ tags:
 - gravity
 - height
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Gravitational Potential Energy: PE = mgh
 

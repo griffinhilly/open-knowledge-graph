@@ -12,7 +12,7 @@ tags:
 - combinatorics
 - partitions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Integer Partitions and Partition Functions

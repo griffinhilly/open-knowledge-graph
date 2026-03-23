@@ -11,7 +11,7 @@ tags:
 - strings
 - trees
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Trie Data Structure: Implementation and Applications

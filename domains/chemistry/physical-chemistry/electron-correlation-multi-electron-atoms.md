@@ -17,7 +17,7 @@ tags:
 - multi-electron
 - approximations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Electron Correlation in Multi-Electron Atoms

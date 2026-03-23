@@ -14,7 +14,7 @@ tags:
 - protein
 - breakfast
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Simple Egg Cooking Methods and Techniques

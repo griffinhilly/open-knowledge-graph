@@ -14,7 +14,7 @@ tags:
 - dialogue
 - reasoning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Argumentation Theory

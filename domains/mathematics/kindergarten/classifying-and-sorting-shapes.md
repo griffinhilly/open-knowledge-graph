@@ -19,7 +19,7 @@ tags:
 - shapes
 - attributes
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Sorting and Classifying Shapes

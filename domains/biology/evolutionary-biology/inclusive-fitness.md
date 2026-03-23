@@ -14,7 +14,7 @@ tags:
 - selection
 - sociobiology
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Inclusive Fitness

@@ -17,7 +17,7 @@ tags:
 - top-predator
 - indirect-effect
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Trophic Cascades and Food Web Dynamics

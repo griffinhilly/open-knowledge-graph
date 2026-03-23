@@ -14,7 +14,7 @@ tags:
 - polarization
 - optical-activity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Birefringence and Dichroism

@@ -25,7 +25,7 @@ tags:
 - vaporization
 - condensation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Latent Heat and Water Phase Transitions

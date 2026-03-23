@@ -14,7 +14,7 @@ tags:
 - nash-equilibrium
 - oligopoly
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cournot Model: Quantity Competition and Nash Equilibrium

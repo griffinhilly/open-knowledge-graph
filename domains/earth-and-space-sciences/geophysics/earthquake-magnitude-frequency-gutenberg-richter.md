@@ -16,7 +16,7 @@ tags:
 - frequency
 - power-law
 stage: expert
-status: draft
+status: validated
 ---
 
 # Magnitude Frequency and the Gutenberg-Richter Relation

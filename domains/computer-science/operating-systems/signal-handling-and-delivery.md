@@ -13,7 +13,7 @@ tags:
 - asynchronous
 - events
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Signal Handling and Delivery

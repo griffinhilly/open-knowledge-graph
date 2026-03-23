@@ -17,7 +17,7 @@ tags:
 - angevin
 - kingship
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # English Monarchy Development and Angevin Empire

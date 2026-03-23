@@ -16,7 +16,7 @@ tags:
 - devotion
 - material-culture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reliquaries, Relics, and Medieval Cult of Saints

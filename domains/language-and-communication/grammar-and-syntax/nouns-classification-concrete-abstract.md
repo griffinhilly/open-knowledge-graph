@@ -10,7 +10,7 @@ tags:
 - nouns
 - classification
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Nouns: Concrete and Abstract

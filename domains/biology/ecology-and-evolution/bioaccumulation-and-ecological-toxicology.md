@@ -16,7 +16,7 @@ tags:
 - pollution
 - food-web
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bioaccumulation and Ecological Toxicology

@@ -16,7 +16,7 @@ tags:
 - scheduling
 - state-machine
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Process States and State Transitions

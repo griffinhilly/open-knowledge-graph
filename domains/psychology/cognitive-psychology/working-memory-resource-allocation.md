@@ -14,7 +14,7 @@ tags:
 - allocation
 - competition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Working Memory: Resource Allocation and Competition

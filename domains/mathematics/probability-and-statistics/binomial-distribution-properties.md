@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - binomial
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binomial Distribution: Properties and Applications

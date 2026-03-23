@@ -14,7 +14,7 @@ tags:
 - marginal-cost
 - competitive-firm
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Individual Firm Supply Curve in Competition

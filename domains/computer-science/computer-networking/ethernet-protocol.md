@@ -15,7 +15,7 @@ tags:
 - frame-format
 - lan
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Ethernet and Frame Structure

@@ -13,7 +13,7 @@ tags:
 - credit-constraints
 - financial-frictions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Financial Accelerator and Credit Constraints

@@ -17,7 +17,7 @@ tags:
 - tropism
 - receptor
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Viral Attachment, Tropism, and Host Cell Entry

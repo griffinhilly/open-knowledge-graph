@@ -16,7 +16,7 @@ tags:
 - totalitarianism
 - ideology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fascism and the Rise of Authoritarian Ideologies

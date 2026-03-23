@@ -17,7 +17,7 @@ tags:
 - evolution
 - strategy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Life History Evolution: r-Selection and K-Selection

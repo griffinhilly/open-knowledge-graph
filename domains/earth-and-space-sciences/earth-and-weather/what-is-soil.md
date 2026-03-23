@@ -16,7 +16,7 @@ tags:
 - decomposition
 - plants
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # What Is Soil?

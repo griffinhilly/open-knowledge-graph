@@ -19,7 +19,7 @@ tags:
 - social-expectations
 - norms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Role Conformity and Status Expectations

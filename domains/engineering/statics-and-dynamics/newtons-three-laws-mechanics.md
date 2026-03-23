@@ -16,7 +16,7 @@ tags:
 - fundamentals
 - force-and-motion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Newton's Three Laws: Formal Statement and Implications

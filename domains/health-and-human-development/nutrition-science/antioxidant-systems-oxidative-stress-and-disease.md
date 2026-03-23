@@ -16,7 +16,7 @@ tags:
 - disease-prevention
 - phytochemicals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Antioxidant Systems, Oxidative Stress, and Chronic Disease Prevention

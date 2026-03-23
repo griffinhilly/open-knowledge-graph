@@ -15,7 +15,7 @@ tags:
 - for all
 - quantifier
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Universal Quantifier and Universal Statements

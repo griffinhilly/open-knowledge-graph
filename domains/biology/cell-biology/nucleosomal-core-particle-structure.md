@@ -15,7 +15,7 @@ tags:
 - chromatin
 - histones
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nucleosomal Core Particle Structure

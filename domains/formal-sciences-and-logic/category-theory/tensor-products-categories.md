@@ -21,7 +21,7 @@ tags:
 - bilinear
 - universal-property
 stage: expert
-status: draft
+status: validated
 ---
 
 # Tensor Products in Category Theory

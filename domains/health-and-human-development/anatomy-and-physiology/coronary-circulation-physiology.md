@@ -16,7 +16,7 @@ tags:
 - metabolic-demand
 - perfusion-pressure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Coronary Circulation Physiology

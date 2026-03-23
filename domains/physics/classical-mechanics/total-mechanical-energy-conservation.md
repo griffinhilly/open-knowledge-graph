@@ -16,7 +16,7 @@ tags:
 - conservation
 - mechanics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Total Mechanical Energy and Energy Conservation

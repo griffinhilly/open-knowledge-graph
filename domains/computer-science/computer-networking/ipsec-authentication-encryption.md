@@ -20,7 +20,7 @@ tags:
 - encryption
 - authentication
 stage: advanced
-status: draft
+status: validated
 ---
 
 # IPSec: Authentication, Encryption, and VPN Tunneling

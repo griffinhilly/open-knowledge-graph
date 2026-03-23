@@ -12,7 +12,7 @@ tags:
 - particles
 - solar-wind
 stage: expert
-status: draft
+status: validated
 ---
 
 # Radiation Belt Dynamics and Trapped Particle Systems

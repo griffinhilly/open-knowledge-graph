@@ -17,7 +17,7 @@ tags:
 - justice
 - equality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Minority Rights and Political Tolerance

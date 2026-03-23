@@ -16,7 +16,7 @@ tags:
 - l
 - godel
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Inner Models and Relative Consistency Proofs

@@ -17,7 +17,7 @@ tags:
 - epsilon-delta
 - limits
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sequences: Epsilon-N Convergence

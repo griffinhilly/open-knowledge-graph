@@ -11,7 +11,7 @@ tags:
 - conjugate-pairs
 - reconstruction
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Harmonic Conjugates

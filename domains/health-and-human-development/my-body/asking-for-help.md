@@ -14,7 +14,7 @@ tags:
 - communication
 - self-advocacy
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Asking for Help

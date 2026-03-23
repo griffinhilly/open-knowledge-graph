@@ -13,7 +13,7 @@ tags:
 - graph-problems
 - path-problems
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hamiltonian Path and Cycle Problems

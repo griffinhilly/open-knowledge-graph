@@ -13,7 +13,7 @@ tags:
 - litmus
 - testing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Indicators: Testing for Acids and Bases
 

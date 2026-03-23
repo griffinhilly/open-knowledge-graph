@@ -23,7 +23,7 @@ tags:
 - semantics
 - quantifiers
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Quantifier Notation and Basic Semantics

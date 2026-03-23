@@ -13,7 +13,7 @@ tags:
 - heidegger
 - interpretation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phenomenological and Hermeneutic Approaches

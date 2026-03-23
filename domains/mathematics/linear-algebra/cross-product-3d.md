@@ -15,7 +15,7 @@ tags:
 - 3d-vectors
 - determinants
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cross Product in R³

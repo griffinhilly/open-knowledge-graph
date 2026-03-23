@@ -15,7 +15,7 @@ tags:
 - measure-theory
 - measurable-functions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Measurable Functions: Definition and Properties

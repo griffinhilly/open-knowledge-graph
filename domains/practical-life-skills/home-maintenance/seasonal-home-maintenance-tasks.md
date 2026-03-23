@@ -11,7 +11,7 @@ tags:
 - maintenance
 - scheduling
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Seasonal Maintenance Tasks and Timing

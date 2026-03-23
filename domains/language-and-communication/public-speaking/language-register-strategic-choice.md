@@ -17,7 +17,7 @@ tags:
 - strategy
 - persuasion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Language Register and Strategic Choice

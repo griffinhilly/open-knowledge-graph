@@ -19,7 +19,7 @@ tags:
 - lymphocyte-development
 - complement-deficiency
 stage: expert
-status: draft
+status: validated
 ---
 
 # Primary Immunodeficiency Disorders: Classification and Mechanisms

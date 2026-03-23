@@ -15,7 +15,7 @@ tags:
 - inference
 - probability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Introduction to Bayesian Inference

@@ -10,7 +10,7 @@ tags:
 - recurrence-relations
 - algorithms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Divide-and-Conquer Recurrences and the Master Theorem

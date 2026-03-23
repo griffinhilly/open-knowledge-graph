@@ -19,7 +19,7 @@ tags:
 - reduction
 - technique
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pan Sauces: Deglazing and Quick Reductions

@@ -15,7 +15,7 @@ tags:
 - actual yield
 - efficiency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Percent Yield and Reaction Efficiency

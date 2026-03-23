@@ -19,7 +19,7 @@ tags:
 - angular acceleration
 - fixed-axis rotation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rigid Body Kinematics — Fixed-Axis Rotation

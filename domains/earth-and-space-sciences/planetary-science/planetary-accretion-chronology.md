@@ -18,7 +18,7 @@ tags:
 - radiometric-dating
 - early-solar-system
 stage: expert
-status: draft
+status: validated
 ---
 
 # Planetary Accretion Chronology and Radiometric Age Constraints

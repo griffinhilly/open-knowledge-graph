@@ -13,7 +13,7 @@ tags:
 - infectious-disease
 - environmental-health
 stage: expert
-status: draft
+status: validated
 ---
 
 # Waterborne Disease Prevention and Water Safety Management

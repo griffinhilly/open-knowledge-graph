@@ -13,7 +13,7 @@ tags:
 - interpretation
 - marginal-effects
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Interpretation and Marginal Effects in Nonlinear Models

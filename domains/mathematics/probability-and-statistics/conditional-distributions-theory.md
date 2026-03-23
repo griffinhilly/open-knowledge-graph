@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - conditional-distribution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conditional Distributions of Random Variables

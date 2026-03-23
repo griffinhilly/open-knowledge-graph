@@ -18,7 +18,7 @@ tags:
 - cooling
 - heat-loss
 stage: expert
-status: draft
+status: validated
 ---
 
 # Thermal Evolution of Terrestrial Planets

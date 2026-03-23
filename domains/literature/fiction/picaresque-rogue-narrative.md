@@ -18,7 +18,7 @@ tags:
 - journey
 - satire
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Picaresque Form: The Rogue's Journey

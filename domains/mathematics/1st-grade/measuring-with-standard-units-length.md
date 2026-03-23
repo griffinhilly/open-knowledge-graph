@@ -16,7 +16,7 @@ tags:
 - standard-units
 - length
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Measuring Length with Standard Units

@@ -15,7 +15,7 @@ tags:
 - counter-illumination
 - communication
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bioluminescence in the Deep Sea: Production and Function

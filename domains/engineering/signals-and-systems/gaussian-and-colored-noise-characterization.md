@@ -15,7 +15,7 @@ tags:
 - colored-noise
 - characterization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Gaussian and Colored Noise Characterization

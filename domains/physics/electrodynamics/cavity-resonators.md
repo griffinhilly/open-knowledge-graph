@@ -13,7 +13,7 @@ tags:
 - resonators
 - standing-waves
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cavity Resonators and Standing Wave Patterns

@@ -14,7 +14,7 @@ tags:
 - ventilation
 - energy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Attic Insulation and Ventilation Assessment

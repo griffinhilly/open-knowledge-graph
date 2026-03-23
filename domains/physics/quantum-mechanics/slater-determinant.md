@@ -10,7 +10,7 @@ tags:
 - identical-particles
 - antisymmetry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Slater Determinants

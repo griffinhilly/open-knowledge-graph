@@ -11,7 +11,7 @@ tags:
 - principal-moments
 - rotation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Principal Axes and Rotation of Inertia

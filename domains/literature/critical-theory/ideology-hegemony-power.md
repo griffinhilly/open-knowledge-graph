@@ -20,7 +20,7 @@ tags:
 - hegemony
 - gramsci
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ideology, Hegemony, and Power

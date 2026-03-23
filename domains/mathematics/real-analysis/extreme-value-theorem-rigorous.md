@@ -15,7 +15,7 @@ tags:
 - compactness
 - maxima-minima
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Extreme Value Theorem (Proof via Compactness)

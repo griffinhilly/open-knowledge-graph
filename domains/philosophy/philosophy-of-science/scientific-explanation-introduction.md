@@ -18,7 +18,7 @@ tags:
 - causation
 - understanding
 stage: expert
-status: draft
+status: validated
 ---
 
 # Scientific Explanation: Core Problems

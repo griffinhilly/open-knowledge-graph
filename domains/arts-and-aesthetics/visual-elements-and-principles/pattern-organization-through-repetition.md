@@ -18,7 +18,7 @@ tags:
 - repetition
 - organization
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Pattern: Organization Through Repetition

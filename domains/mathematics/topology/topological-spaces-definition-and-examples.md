@@ -16,7 +16,7 @@ tags:
 - definitions
 - foundations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Topological Spaces: Definition and Examples

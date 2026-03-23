@@ -14,7 +14,7 @@ tags:
 - macro-sociology
 - evolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Types of Societies and Societal Evolution

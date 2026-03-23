@@ -19,7 +19,7 @@ tags:
 - causation
 - sequence
 stage: expert
-status: draft
+status: validated
 ---
 # Narrative as Historical Explanation
 

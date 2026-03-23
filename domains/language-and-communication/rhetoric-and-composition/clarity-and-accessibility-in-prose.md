@@ -14,7 +14,7 @@ tags:
 - audience
 - writing-craft
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Clarity and Accessibility in Prose

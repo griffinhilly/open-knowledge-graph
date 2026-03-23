@@ -1,21 +1,21 @@
 ---
-id: programming-fundamentals-array-indexing
+id: array-indexing
 title: Array Indexing and Bounds
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- id: programming-fundamentals-arrays-and-lists
+- id: arrays-and-lists
   type: hard
 builds-toward:
-- programming-fundamentals-iteration-collections
+- iterating-over-collections
+- immutability-and-mutation
 tags:
 - arrays
 - indexing
 - bounds
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Array Indexing and Bounds
 
 ## Core Idea

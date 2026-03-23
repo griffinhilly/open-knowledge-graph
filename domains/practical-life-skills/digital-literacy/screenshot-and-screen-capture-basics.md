@@ -14,7 +14,7 @@ tags:
 - documentation
 - communication
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Screenshot and Screen Capture Basics
 

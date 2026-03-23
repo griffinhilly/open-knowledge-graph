@@ -17,7 +17,7 @@ tags:
 - marine-paleoclimate
 - benthic-foraminiferal-records
 stage: expert
-status: draft
+status: validated
 ---
 
 # Foraminifera and Paleoclimate Proxies

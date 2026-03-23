@@ -16,7 +16,7 @@ tags:
 - appeals
 - synthesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Integrating Ethos, Pathos, and Logos in Persuasive Speeches

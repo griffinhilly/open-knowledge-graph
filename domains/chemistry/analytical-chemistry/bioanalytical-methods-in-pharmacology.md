@@ -13,7 +13,7 @@ tags:
 - biomarkers
 - pharmacokinetics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bioanalytical Methods in Pharmacology

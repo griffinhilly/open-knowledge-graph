@@ -16,7 +16,7 @@ tags:
 - inflation
 - new-keynesian
 stage: expert
-status: draft
+status: validated
 ---
 
 # Phillips Curve Derivation in New Keynesian Models

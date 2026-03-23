@@ -15,7 +15,7 @@ tags:
 - magnets
 - sieves
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Separating Mixtures: Magnets and Sieves
 

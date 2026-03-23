@@ -18,7 +18,7 @@ tags:
 - phenomenology
 - intentionality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Affective Consciousness and Emotional Experience

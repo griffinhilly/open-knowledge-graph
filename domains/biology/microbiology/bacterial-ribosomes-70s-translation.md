@@ -17,7 +17,7 @@ tags:
 - translation
 - prokaryotes
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Prokaryotic Ribosomes and Protein Synthesis

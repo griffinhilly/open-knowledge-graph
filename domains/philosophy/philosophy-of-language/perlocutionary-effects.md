@@ -16,7 +16,7 @@ tags:
 - effects
 - causation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Perlocutionary Effects and Speech Acts

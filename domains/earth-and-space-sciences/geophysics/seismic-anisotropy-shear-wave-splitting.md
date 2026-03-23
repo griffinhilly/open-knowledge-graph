@@ -14,7 +14,7 @@ tags:
 - shear-wave-splitting
 - wave-propagation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Seismic Anisotropy and Shear Wave Splitting

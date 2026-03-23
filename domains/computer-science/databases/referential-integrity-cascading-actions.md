@@ -17,7 +17,7 @@ tags:
 - cascading
 - actions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Referential Integrity and Cascading Delete/Update Actions

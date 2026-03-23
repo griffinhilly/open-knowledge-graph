@@ -24,7 +24,7 @@ tags:
 - determinate error
 - indeterminate error
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Accuracy, Precision, and Error

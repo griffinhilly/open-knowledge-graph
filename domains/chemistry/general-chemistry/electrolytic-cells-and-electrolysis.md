@@ -16,7 +16,7 @@ tags:
 - electrolytic cells
 - non-spontaneous
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electrolytic Cells and Non-Spontaneous Redox

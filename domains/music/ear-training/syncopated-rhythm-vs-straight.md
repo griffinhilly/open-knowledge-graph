@@ -15,7 +15,7 @@ tags:
 - swing
 - feel
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Syncopated Rhythm vs. Straight Rhythm

@@ -17,7 +17,7 @@ tags:
 - heresy
 - authority
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Medieval Inquisition and Religious Enforcement

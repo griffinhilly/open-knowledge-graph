@@ -15,7 +15,7 @@ tags:
 - discourse
 - formal
 stage: expert
-status: draft
+status: validated
 ---
 
 # Discourse Representation Theory

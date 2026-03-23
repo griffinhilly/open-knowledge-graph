@@ -19,7 +19,7 @@ tags:
 - allele-frequency
 - evolution
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Allele Frequency Change and Evolutionary Dynamics

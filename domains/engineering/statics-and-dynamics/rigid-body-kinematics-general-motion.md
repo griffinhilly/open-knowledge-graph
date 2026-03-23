@@ -18,7 +18,7 @@ tags:
 - instantaneous center
 - relative acceleration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rigid Body Kinematics — General Planar Motion

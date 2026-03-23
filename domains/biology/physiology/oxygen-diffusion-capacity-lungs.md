@@ -13,7 +13,7 @@ tags:
 - diffusion-coefficient
 - membrane-thickness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Oxygen Diffusion Capacity and Alveolar-Capillary Transfer

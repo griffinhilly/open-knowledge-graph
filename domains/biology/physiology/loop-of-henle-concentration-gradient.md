@@ -15,7 +15,7 @@ tags:
 - osmotic-gradient
 - medullary-osmolarity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Loop of Henle and Osmotic Gradient Generation

@@ -13,7 +13,7 @@ tags:
 - length
 - measurement
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Length Contraction of Moving Objects

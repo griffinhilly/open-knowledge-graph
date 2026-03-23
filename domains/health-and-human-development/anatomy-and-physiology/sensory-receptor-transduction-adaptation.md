@@ -19,7 +19,7 @@ tags:
 - adaptation
 - perception
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sensory Receptor Transduction and Adaptation

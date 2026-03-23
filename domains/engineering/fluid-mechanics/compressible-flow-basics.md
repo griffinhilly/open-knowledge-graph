@@ -16,7 +16,7 @@ tags:
 - compressibility effects
 - stagnation properties
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Compressible Flow Basics
 

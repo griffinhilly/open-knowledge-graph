@@ -16,7 +16,7 @@ tags:
 - kingdoms
 - germanic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Frankish Kingdoms and the Merovingian Dynasty

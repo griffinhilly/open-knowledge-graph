@@ -13,7 +13,7 @@ tags:
 - natural-numbers
 - cardinality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Finite Sets and Natural Numbers

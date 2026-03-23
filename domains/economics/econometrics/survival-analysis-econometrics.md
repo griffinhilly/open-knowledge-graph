@@ -13,7 +13,7 @@ tags:
 - duration
 - hazard-rate
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Survival Analysis and Duration Models

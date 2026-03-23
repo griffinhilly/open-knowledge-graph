@@ -17,7 +17,7 @@ tags:
 - endothermic
 - heat
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermochemistry: Enthalpy and Heat of Reaction

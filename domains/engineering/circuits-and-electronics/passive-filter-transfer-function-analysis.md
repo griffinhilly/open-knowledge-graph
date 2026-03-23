@@ -17,7 +17,7 @@ tags:
 - magnitude-response
 - phase-response
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Passive Filter Transfer Function Analysis

@@ -13,7 +13,7 @@ tags:
 - popular-culture
 - composition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Film Music and Multimedia Traditions

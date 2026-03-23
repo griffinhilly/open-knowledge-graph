@@ -14,7 +14,7 @@ tags:
 - interface
 - compositionality
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Formal Models of the Syntax-Semantics Interface

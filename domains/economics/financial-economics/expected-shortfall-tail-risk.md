@@ -16,7 +16,7 @@ tags:
 - tail-risk
 - measurement
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Expected Shortfall and Tail Risk Measurement

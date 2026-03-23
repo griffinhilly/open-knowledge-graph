@@ -15,7 +15,7 @@ tags:
 - ecology
 - human-nature-interaction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Human-Environment Adaptation and Systems

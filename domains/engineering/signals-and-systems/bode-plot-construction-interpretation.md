@@ -14,7 +14,7 @@ tags:
 - frequency-response
 - graphical-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bode Plot Construction and Interpretation

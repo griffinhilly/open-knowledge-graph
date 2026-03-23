@@ -13,7 +13,7 @@ tags:
 - design
 - architecture
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Intermediate Representation Design and Tradeoffs

@@ -19,7 +19,7 @@ tags:
 - inhibition
 - flexibility
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dorsolateral Prefrontal Cortex and Cognitive Control

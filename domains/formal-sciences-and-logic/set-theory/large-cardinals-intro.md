@@ -16,7 +16,7 @@ tags:
 - measurable cardinals
 - consistency strength
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Introduction to Large Cardinals

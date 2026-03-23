@@ -20,7 +20,7 @@ tags:
 - environmental-triggers
 - disease-mechanisms
 stage: expert
-status: draft
+status: validated
 ---
 
 # Autoimmune Disease Pathogenesis and Etiology

@@ -18,7 +18,7 @@ tags:
 - rough
 - observation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Properties of Rocks

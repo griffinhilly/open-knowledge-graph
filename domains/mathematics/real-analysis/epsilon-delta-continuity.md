@@ -17,7 +17,7 @@ tags:
 - epsilon-delta
 - rigor
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Epsilon-Delta Continuity

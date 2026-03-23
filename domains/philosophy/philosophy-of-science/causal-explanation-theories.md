@@ -15,7 +15,7 @@ tags:
 - causation
 - mechanism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Causal Theories of Explanation

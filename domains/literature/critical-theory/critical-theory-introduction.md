@@ -19,7 +19,7 @@ tags:
 - criticism
 - foundations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Introduction to Critical Theory

@@ -14,7 +14,7 @@ tags:
 - synthetic-data
 - regularization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Data Augmentation Techniques

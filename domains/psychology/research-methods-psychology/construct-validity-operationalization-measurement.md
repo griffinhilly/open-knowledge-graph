@@ -19,7 +19,7 @@ tags:
 - constructs
 - operationalization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Construct Validity and Operationalization of Psychological Constructs

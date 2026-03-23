@@ -16,7 +16,7 @@ tags:
 - rank-test
 - gramian
 stage: expert
-status: draft
+status: validated
 ---
 
 # Tests for Controllability and Observability

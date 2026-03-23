@@ -17,7 +17,7 @@ tags:
 - composition
 - planning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Research Questions and Thesis Development

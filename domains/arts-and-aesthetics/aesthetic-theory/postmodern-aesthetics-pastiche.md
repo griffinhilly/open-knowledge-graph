@@ -18,7 +18,7 @@ tags:
 - irony
 - deconstruction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Postmodern Aesthetics: Pastiche, Irony, and Historical Consciousness

@@ -13,7 +13,7 @@ tags:
 - l-functions
 - analytic-number-theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Dirichlet Series and L-Functions

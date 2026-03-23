@@ -12,7 +12,7 @@ tags:
 - average-case
 - data-structures
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Amortized Time Complexity

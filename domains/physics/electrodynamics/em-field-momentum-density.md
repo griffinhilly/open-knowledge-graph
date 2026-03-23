@@ -16,7 +16,7 @@ tags:
 - radiation-pressure
 - field-momentum
 stage: expert
-status: draft
+status: validated
 ---
 
 # Momentum Density in Electromagnetic Fields

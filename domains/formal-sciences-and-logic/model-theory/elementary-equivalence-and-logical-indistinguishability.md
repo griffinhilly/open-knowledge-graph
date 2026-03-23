@@ -17,7 +17,7 @@ tags:
 - indistinguishability
 - same-theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Elementary Equivalence: Logical Indistinguishability

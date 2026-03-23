@@ -16,7 +16,7 @@ tags:
 - cognitive-integration
 - asch
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Impression Formation and Cognitive Integration

@@ -17,7 +17,7 @@ tags:
 - structure
 - equilibrium
 stage: expert
-status: draft
+status: validated
 ---
 
 # Two-Point Correlation Functions

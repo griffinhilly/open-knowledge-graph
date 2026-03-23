@@ -15,7 +15,7 @@ tags:
 - figurative-language
 - persuasion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Extended Metaphors and Analogies as Rhetorical Devices

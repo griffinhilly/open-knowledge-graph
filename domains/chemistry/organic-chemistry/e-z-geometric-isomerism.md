@@ -17,7 +17,7 @@ tags:
 - priority-rules
 - cahn-ingold-prelog
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # E/Z Nomenclature and Geometric Isomerism

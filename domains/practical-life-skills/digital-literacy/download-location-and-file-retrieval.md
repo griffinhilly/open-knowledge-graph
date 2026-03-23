@@ -16,7 +16,7 @@ tags:
 - browser
 - organization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Download Location and File Retrieval

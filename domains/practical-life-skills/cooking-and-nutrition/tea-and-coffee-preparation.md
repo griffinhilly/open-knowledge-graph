@@ -15,7 +15,7 @@ tags:
 - tea
 - brewing
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Tea and Coffee Preparation
 

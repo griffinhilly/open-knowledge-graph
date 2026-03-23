@@ -13,7 +13,7 @@ tags:
 - countability
 - first-countable
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # First Countable Spaces

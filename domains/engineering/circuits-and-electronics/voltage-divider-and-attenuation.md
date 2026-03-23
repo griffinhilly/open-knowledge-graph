@@ -16,7 +16,7 @@ tags:
 - proportionality
 - potentiometer
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voltage Divider Principle and Applications

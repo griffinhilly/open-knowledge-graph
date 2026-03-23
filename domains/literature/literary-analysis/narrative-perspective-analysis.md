@@ -17,7 +17,7 @@ tags:
 - narrator
 - narrative-distance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Narrative Perspective and Point of View

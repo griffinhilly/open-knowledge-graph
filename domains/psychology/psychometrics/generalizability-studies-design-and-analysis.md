@@ -15,7 +15,7 @@ tags:
 - reliability
 - variance-components
 stage: expert
-status: draft
+status: validated
 ---
 
 # Generalizability Studies: Design and Analysis

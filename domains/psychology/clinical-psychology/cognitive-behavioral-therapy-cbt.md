@@ -15,7 +15,7 @@ tags:
 - CBT
 - cognitive therapy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cognitive-Behavioral Therapy: Principles and Techniques

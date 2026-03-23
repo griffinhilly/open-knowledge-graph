@@ -12,7 +12,7 @@ tags:
 - shortcuts
 - productivity
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Keyboard Typing & Basic Shortcuts

@@ -13,7 +13,7 @@ tags:
 - lower-bounds
 - hardness
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Exponential Time Hypothesis (ETH)

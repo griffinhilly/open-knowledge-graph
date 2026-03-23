@@ -16,7 +16,7 @@ tags:
 - dependence
 - vectors
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linear Independence and Linear Dependence

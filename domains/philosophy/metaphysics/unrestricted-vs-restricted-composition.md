@@ -16,7 +16,7 @@ tags:
 - liberalism
 - mereology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Unrestricted Composition and Mereological Liberalism

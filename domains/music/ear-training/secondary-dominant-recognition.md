@@ -17,7 +17,7 @@ tags:
 - chromatic-harmony
 - harmonic-function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Secondary Dominant Recognition by Ear

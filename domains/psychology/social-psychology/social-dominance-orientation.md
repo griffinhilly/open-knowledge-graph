@@ -16,7 +16,7 @@ tags:
 - inequality
 - prejudice
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Social Dominance Orientation and Hierarchy Preference

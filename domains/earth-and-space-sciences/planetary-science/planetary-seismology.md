@@ -13,7 +13,7 @@ tags:
 - interior-structure
 - waves
 stage: expert
-status: draft
+status: validated
 ---
 
 # Planetary Seismology and Interior Structure

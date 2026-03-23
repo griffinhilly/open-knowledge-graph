@@ -14,7 +14,7 @@ tags:
 - emotion
 - motivation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Limbic Structures, Emotion, and Motivation

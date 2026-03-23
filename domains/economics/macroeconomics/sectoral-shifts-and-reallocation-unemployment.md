@@ -13,7 +13,7 @@ tags:
 - structural
 - sectoral
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sectoral Shifts and Reallocation Unemployment

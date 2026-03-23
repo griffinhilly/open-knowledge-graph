@@ -14,7 +14,7 @@ tags:
 - figured-bass
 - improvisation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Basso Continuo Practice and Realization

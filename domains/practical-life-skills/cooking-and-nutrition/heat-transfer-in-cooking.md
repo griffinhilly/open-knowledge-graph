@@ -17,7 +17,7 @@ tags:
 - cooking-science
 - temperature
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heat Transfer in Cooking

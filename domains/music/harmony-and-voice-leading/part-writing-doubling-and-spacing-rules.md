@@ -17,7 +17,7 @@ tags:
 - doubling
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Doubling and Spacing in Four-Part Writing

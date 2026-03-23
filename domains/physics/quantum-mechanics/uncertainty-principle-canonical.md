@@ -15,7 +15,7 @@ tags:
 - commutation
 - limits
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Canonical Uncertainty Relations

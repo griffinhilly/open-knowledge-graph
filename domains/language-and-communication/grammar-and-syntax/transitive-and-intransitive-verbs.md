@@ -15,7 +15,7 @@ tags:
 - objects
 - transitivity
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Transitive and Intransitive Verbs

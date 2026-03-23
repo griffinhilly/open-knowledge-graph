@@ -6,13 +6,13 @@ course: health-foundations
 prerequisites:
   - id: germs-bacteria-and-viruses
     type: soft
-  - id: my-hygiene
+  - id: washing-hands-and-hygiene
     type: soft
 builds-toward:
   - disease-prevention-levels
 tags: [dental, hygiene, prevention, teeth, health]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Dental Health

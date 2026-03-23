@@ -19,7 +19,7 @@ tags:
 - dependents
 - assets
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Assessing Personal Insurance Needs

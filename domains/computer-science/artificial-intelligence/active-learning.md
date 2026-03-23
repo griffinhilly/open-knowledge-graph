@@ -14,7 +14,7 @@ tags:
 - label-efficiency
 - uncertainty
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Active Learning

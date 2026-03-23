@@ -14,7 +14,7 @@ tags:
 - education
 - intellectual
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Scholasticism and Medieval Intellectual Culture

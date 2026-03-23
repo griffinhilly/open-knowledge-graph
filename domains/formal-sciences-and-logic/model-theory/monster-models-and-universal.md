@@ -16,7 +16,7 @@ tags:
 - universal-homogeneous
 - saturation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Monster Models and Universal-Homogeneous Models

@@ -16,7 +16,7 @@ tags:
 - almost-sure
 - limit-theorems
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Almost Sure Convergence

@@ -14,7 +14,7 @@ tags:
 - wave-properties
 - light
 stage: expert
-status: draft
+status: validated
 ---
 
 # Polarization of Electromagnetic Waves

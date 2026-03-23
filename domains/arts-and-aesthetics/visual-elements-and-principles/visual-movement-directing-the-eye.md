@@ -18,7 +18,7 @@ tags:
 - composition
 - line
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Movement: Directing the Viewer's Eye

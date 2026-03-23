@@ -14,7 +14,7 @@ tags:
 - compound-words
 - numbers
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Hyphenation in Compound Words and Numbers

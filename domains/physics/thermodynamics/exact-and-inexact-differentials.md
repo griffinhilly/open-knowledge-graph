@@ -16,7 +16,7 @@ tags:
 - differentials
 - path-dependence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Exact and Inexact Differentials

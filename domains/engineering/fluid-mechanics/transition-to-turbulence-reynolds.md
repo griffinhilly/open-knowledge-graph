@@ -15,7 +15,7 @@ tags:
 - turbulence
 - reynolds
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transition to Turbulence and Reynolds Number

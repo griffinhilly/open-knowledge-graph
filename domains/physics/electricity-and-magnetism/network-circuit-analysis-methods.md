@@ -13,7 +13,7 @@ tags:
 - network
 - method
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # DC Circuit Network Analysis Methods

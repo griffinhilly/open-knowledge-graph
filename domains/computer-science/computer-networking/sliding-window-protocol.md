@@ -15,7 +15,7 @@ tags:
 - sequence-numbers
 - buffering
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sliding Window Protocol

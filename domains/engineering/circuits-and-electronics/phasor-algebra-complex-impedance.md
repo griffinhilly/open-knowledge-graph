@@ -20,7 +20,7 @@ tags:
 - impedance
 - ac-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phasor Algebra and Complex Impedance

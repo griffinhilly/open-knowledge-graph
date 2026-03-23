@@ -15,7 +15,7 @@ tags:
 - bayesian-inference
 - statistics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Conjugate Priors

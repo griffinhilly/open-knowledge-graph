@@ -17,7 +17,7 @@ tags:
 - memory
 - emphasis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Creating Coherence Through Strategic Repetition

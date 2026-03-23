@@ -16,7 +16,7 @@ tags:
 - ridge-dynamics
 - plate-velocity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mid-Ocean Ridge Spreading Rates and Seafloor Aging

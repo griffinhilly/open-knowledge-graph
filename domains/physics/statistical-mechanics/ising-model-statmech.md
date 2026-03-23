@@ -16,7 +16,7 @@ tags:
 - magnetism
 - phase-transition
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Ising Model and Magnetic Transitions

@@ -15,7 +15,7 @@ tags:
 - jazz
 - improvisation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Blues: Structure and African American Roots

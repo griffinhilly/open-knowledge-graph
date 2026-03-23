@@ -16,7 +16,7 @@ tags:
 - convention
 - action
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Explicit Performatives

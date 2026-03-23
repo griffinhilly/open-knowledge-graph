@@ -19,7 +19,7 @@ tags:
 - CNS-depression
 - addiction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Alcohol and CNS Depressant Effects

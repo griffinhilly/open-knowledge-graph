@@ -15,7 +15,7 @@ tags:
 - design
 - methodology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Designing and Planning Historical Research Projects

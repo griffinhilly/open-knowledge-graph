@@ -16,7 +16,7 @@ tags:
 - identity
 - social-relations
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Gender, Space, and Social Relations

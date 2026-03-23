@@ -14,7 +14,7 @@ tags:
 - trade-offs
 - investing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Opportunity Cost in Financial Decisions

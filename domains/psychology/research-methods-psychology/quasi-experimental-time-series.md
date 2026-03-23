@@ -16,7 +16,7 @@ tags:
 - quasi-experimental
 - causal-inference
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Quasi-Experimental Designs and Interrupted Time Series

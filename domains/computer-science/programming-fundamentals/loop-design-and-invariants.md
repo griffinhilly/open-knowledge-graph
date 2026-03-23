@@ -4,20 +4,20 @@ title: Loop Design and Invariants
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- id: for-loop-patterns-and-iteration
+- id: for-loops
   type: hard
-- id: while-loop-patterns-and-termination
+- id: while-loops
   type: soft
 builds-toward:
-- nested-loops-and-deep-iteration
+- nested-loops
+- iterating-over-collections
 tags:
 - loops
 - design
 - correctness
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Loop Design and Invariants
 
 ## Core Idea

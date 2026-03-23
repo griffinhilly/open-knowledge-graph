@@ -20,7 +20,7 @@ tags:
 - endocrine-function
 - hormone
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vitamin D: Synthesis, Metabolism, and Endocrine Functions

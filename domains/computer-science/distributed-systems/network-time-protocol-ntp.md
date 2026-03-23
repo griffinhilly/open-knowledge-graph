@@ -11,7 +11,7 @@ tags:
 - synchronization
 - protocol
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Network Time Protocol (NTP) for Clock Synchronization

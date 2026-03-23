@@ -16,7 +16,7 @@ tags:
 - summary-statistics
 - data-presentation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Descriptive Statistics and Data Visualization

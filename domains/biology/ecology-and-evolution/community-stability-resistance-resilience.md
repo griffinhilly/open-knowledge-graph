@@ -17,7 +17,7 @@ tags:
 - resilience
 - disturbance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Community Stability: Resistance and Resilience

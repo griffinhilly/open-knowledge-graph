@@ -17,7 +17,7 @@ tags:
 - recurrence
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Analyzing Recursive Algorithms via Recurrence Relations

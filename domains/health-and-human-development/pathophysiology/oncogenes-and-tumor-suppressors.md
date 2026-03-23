@@ -13,7 +13,7 @@ tags:
 - tumor-suppressors
 - genetic-instability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Oncogenes and Tumor Suppressor Genes

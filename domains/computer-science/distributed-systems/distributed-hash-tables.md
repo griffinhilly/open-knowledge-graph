@@ -15,7 +15,7 @@ tags:
 - peer-to-peer
 - distributed-storage
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Distributed Hash Tables and DHT

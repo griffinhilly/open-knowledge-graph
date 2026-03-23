@@ -15,7 +15,7 @@ tags:
 - instruction
 - format
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Addressing Modes and Instruction Format

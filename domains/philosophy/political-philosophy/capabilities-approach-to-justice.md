@@ -15,7 +15,7 @@ tags:
 - justice
 - freedom
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Capabilities Approach to Justice

@@ -18,7 +18,7 @@ tags:
 - system
 - maintenance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Plumbing Vent System Function and Maintenance

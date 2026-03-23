@@ -15,7 +15,7 @@ tags:
 - emergence
 - multiple-realization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Non-Reductive Physicalism

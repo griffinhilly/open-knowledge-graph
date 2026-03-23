@@ -16,7 +16,7 @@ tags:
 - line-spectra
 - quantization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantized Energy Levels and Spectroscopic Transitions

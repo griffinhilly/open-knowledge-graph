@@ -16,7 +16,7 @@ tags:
 - ice-crystal
 - growth
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bergeron Process: Ice Crystal Growth and Precipitation

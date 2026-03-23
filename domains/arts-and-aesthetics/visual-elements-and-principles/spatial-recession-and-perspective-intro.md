@@ -14,7 +14,7 @@ tags:
 - depth
 - perspective
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Spatial Recession and Perspective

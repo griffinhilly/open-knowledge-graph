@@ -16,7 +16,7 @@ tags:
 - determinates
 - determinables
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Determinate and Determinable Properties

@@ -21,7 +21,7 @@ tags:
 - insulin-signaling
 - glucose-transporter
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Insulin Signaling and Blood Glucose Regulation

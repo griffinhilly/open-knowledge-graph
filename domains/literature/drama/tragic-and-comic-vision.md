@@ -17,7 +17,7 @@ tags:
 - vision
 - worldview
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Tragic and Comic Vision in Drama
 

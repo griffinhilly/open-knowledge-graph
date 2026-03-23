@@ -14,7 +14,7 @@ tags:
 - truth
 - deductive-reasoning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Truth vs. Validity: Why They Differ

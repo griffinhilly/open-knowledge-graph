@@ -15,7 +15,7 @@ tags:
 - bargaining
 - rationalism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bargaining Theory and the Origins of War

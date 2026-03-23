@@ -20,7 +20,7 @@ tags:
 - loading
 - definitions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stress and Strain Fundamentals

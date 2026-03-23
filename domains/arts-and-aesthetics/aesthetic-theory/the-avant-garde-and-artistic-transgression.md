@@ -15,7 +15,7 @@ tags:
 - institutionalization
 - boundaries
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Avant-Garde and Artistic Transgression

@@ -15,7 +15,7 @@ tags:
 - refutation
 - debate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Acknowledging and Refuting Opposing Viewpoints

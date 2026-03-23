@@ -15,7 +15,7 @@ tags:
 - buoyancy
 - density
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Floating and Sinking
 

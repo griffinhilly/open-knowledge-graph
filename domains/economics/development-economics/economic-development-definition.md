@@ -14,7 +14,7 @@ tags:
 - measurement
 - foundations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Defining Economic Development

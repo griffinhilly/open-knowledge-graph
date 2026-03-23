@@ -14,7 +14,7 @@ tags:
 - spatial-analysis
 - place
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Historical Geography and Spatial Analysis

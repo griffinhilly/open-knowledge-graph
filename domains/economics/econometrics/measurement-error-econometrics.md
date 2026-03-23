@@ -13,7 +13,7 @@ tags:
 - attenuation-bias
 - iv
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Measurement Error and Its Consequences

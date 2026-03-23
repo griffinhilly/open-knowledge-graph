@@ -13,7 +13,7 @@ tags:
 - storage
 - data-structures
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # File System Structure and Layout

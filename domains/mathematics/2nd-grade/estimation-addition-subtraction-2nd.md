@@ -17,7 +17,7 @@ tags:
 - rounding
 - reasonableness
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Estimation Strategies for Addition and Subtraction

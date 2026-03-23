@@ -12,7 +12,7 @@ tags:
 - measurement-problem
 - collapse
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Measurement Problem

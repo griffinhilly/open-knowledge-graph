@@ -16,7 +16,7 @@ tags:
 - truth
 - undefinability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Tarski's Undefinability Theorem and Truth

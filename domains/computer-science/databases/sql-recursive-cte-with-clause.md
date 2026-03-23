@@ -16,7 +16,7 @@ tags:
 - hierarchy
 - traversal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Recursive Common Table Expressions and Hierarchical Queries

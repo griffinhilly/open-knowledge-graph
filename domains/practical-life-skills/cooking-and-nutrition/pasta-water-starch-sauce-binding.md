@@ -18,7 +18,7 @@ tags:
 - binding
 - technique
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Pasta Water as Sauce Component

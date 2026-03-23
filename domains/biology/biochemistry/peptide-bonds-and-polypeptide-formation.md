@@ -23,7 +23,7 @@ tags:
 - nitrogen backbone
 - protein synthesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Peptide Bonds and Polypeptide Formation

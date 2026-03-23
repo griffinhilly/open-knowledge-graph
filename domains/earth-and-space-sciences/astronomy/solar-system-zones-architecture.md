@@ -15,7 +15,7 @@ tags:
 - planetary-system
 - architecture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Solar System Structure and Orbital Zones

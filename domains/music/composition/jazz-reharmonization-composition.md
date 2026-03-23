@@ -14,7 +14,7 @@ tags:
 - substitution
 - harmony
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Jazz Reharmonization and Substitution in Composition

@@ -15,7 +15,7 @@ tags:
 - properties
 - infinite
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Archimedean Property

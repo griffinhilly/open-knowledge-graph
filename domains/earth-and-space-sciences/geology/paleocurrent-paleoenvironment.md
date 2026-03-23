@@ -14,7 +14,7 @@ tags:
 - sedimentary-structures
 - interpretation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Paleocurrents and Paleoenvironmental Interpretation

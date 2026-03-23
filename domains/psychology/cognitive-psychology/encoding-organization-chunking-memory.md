@@ -16,7 +16,7 @@ tags:
 - organization
 - chunking
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Encoding Through Organization and Chunking

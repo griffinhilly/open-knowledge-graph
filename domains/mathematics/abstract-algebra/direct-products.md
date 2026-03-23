@@ -13,7 +13,7 @@ tags:
 - cartesian-product
 - structure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Direct Products

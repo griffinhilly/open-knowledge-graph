@@ -13,7 +13,7 @@ tags:
 - combinatorics
 - binomial
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binomial Coefficients and Pascal's Triangle

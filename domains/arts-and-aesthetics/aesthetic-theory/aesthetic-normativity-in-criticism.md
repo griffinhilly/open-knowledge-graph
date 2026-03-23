@@ -20,7 +20,7 @@ tags:
 - validity
 - judgment
 stage: expert
-status: draft
+status: validated
 ---
 
 # Aesthetic Normativity in Criticism

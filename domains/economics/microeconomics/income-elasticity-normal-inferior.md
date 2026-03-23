@@ -13,7 +13,7 @@ tags:
 - income
 - consumption-patterns
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Income Elasticity: Normal and Inferior Goods

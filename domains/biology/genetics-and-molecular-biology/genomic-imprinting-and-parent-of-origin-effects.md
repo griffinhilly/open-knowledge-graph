@@ -18,7 +18,7 @@ tags:
 - prader-willi
 - angelman-syndrome
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Genomic Imprinting and Parent-of-Origin Effects

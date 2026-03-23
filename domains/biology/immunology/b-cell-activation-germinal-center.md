@@ -17,7 +17,7 @@ tags:
 - germinal-center
 - follicular-helper
 stage: expert
-status: draft
+status: validated
 ---
 
 # B Cell Activation and Germinal Center Responses

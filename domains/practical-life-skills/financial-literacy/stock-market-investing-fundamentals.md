@@ -17,7 +17,7 @@ tags:
 - investing
 - markets
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stock Market Investing Fundamentals

@@ -16,7 +16,7 @@ tags:
 - inequality
 - urban
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Housing Geography and Geographies of Access and Inequality

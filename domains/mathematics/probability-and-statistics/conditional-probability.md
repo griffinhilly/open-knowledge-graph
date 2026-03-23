@@ -17,7 +17,7 @@ tags:
 - probability
 - dependence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conditional Probability

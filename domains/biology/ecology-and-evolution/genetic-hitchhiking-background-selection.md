@@ -19,7 +19,7 @@ tags:
 - linkage
 - variation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Genetic Hitchhiking and Background Selection

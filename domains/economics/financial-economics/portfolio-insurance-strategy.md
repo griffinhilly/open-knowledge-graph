@@ -16,7 +16,7 @@ tags:
 - options
 - risk-management
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Portfolio Insurance and Protective Strategies

@@ -13,7 +13,7 @@ tags:
 - prosody
 - formalism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Prosodic Structure and Formal Constraints

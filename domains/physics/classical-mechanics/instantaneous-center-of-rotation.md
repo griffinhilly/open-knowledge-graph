@@ -13,7 +13,7 @@ tags:
 - kinematics
 - rolling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Instantaneous Center of Rotation

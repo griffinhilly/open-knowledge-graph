@@ -17,7 +17,7 @@ tags:
 - claim
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Developing Literary Arguments and Theses

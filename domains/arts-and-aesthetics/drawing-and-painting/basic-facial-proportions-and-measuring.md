@@ -18,7 +18,7 @@ tags:
 - portrait
 - measurement
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Basic Facial Proportions and Measuring

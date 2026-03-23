@@ -16,7 +16,7 @@ tags:
 - energy
 - sustainability
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Renewable vs. Nonrenewable Resources

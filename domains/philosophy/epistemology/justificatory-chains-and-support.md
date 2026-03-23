@@ -11,7 +11,7 @@ tags:
 - justification-combination
 - support-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Justificatory Chains and Support Relations

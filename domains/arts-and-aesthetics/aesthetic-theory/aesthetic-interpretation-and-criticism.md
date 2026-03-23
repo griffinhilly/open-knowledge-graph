@@ -14,7 +14,7 @@ tags:
 - analysis
 - hermeneutics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Aesthetic Interpretation and Critical Practice

@@ -13,7 +13,7 @@ tags:
 - timing
 - sequential-logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transparent Latch Design and Timing

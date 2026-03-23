@@ -13,7 +13,7 @@ tags:
 - superlative
 - modifiers
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Adjective Comparison: Comparative and Superlative Forms

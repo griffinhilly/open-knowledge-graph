@@ -17,7 +17,7 @@ tags:
 - interpretation
 - courts
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Judicial Review and Constitutional Interpretation
 

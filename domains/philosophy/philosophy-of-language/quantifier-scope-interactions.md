@@ -19,7 +19,7 @@ tags:
 - scope
 - logical-form
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Quantifier Interaction and Multiple Quantification

@@ -14,7 +14,7 @@ tags:
 - reliability
 - justification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Bootstrapping Objection

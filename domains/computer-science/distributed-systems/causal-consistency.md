@@ -15,7 +15,7 @@ tags:
 - consistency
 - causality
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Causal Consistency

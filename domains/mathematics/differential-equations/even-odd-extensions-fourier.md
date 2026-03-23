@@ -15,7 +15,7 @@ tags:
 - odd-extension
 - half-range
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Even and Odd Extensions in Fourier Series

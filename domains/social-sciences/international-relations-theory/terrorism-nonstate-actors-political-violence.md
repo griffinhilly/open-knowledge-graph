@@ -17,7 +17,7 @@ tags:
 - asymmetric-warfare
 - insurgency
 stage: expert
-status: draft
+status: validated
 ---
 
 # Terrorism and Nonstate Actors in IR

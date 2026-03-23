@@ -15,7 +15,7 @@ tags:
 - reasonable-pluralism
 - legitimacy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Public Reason

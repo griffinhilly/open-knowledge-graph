@@ -15,7 +15,7 @@ tags:
 - formulation
 - planning
 stage: expert
-status: draft
+status: validated
 ---
 
 # Case Formulation and Treatment Planning

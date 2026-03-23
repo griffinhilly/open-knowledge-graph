@@ -18,7 +18,7 @@ tags:
 - dnmts
 - silencing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # DNA Methylation and Epigenetic Gene Silencing

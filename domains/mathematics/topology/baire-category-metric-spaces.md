@@ -10,7 +10,7 @@ tags:
 - baire-category
 - metric-spaces
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Baire Category Theorem for Metric Spaces

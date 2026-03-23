@@ -15,7 +15,7 @@ tags:
 - overview
 - foundations
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Design Principles Course Overview

@@ -15,7 +15,7 @@ tags:
 - randomization
 - probabilistic-computation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Probabilistic Turing Machines

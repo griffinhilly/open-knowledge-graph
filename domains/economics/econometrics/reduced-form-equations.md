@@ -13,7 +13,7 @@ tags:
 - reduced-form
 - first-stage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reduced Form and First-Stage Equations

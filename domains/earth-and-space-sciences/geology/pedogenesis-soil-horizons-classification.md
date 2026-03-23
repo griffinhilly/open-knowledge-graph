@@ -13,7 +13,7 @@ tags:
 - soil-science
 - weathering
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Soil Formation and Horizon Development

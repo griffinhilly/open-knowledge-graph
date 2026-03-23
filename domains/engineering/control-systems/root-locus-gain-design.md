@@ -16,7 +16,7 @@ tags:
 - dominant-poles
 - performance-specs
 stage: expert
-status: draft
+status: validated
 ---
 
 # Root Locus Gain Design

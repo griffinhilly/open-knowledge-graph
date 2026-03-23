@@ -15,7 +15,7 @@ tags:
 - paradigm
 - historical phonology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Internal Reconstruction

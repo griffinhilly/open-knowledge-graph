@@ -17,7 +17,7 @@ tags:
 - handling
 - synchronization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interrupt and Exception Handling

@@ -17,7 +17,7 @@ tags:
 - beauty
 - transcendental
 stage: expert
-status: draft
+status: validated
 ---
 
 # Kant: The Critique of Judgment and Aesthetic Beauty

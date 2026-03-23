@@ -1,22 +1,28 @@
 ---
-id: boolean-type-and-truth-values
+id: boolean-logic
 title: Boolean Type and Truth Values
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
 - id: memory-and-data-storage
   type: hard
+- id: boolean-algebra
+  type: soft
+- id: truth-tables
+  type: soft
 builds-toward:
-- logical-operators-and-gates
+- comparison-operators
+- logical-operators
 - conditional-statements
+- while-loops
+- loop-control-statements
 tags:
 - types
 - boolean
 - logic
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Boolean Type and Truth Values
 
 ## Core Idea

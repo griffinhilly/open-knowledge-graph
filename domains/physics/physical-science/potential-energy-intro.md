@@ -15,7 +15,7 @@ tags:
 - stored
 - gravity
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Potential Energy: Stored Energy
 

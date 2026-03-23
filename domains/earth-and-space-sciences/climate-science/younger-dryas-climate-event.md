@@ -19,7 +19,7 @@ tags:
 - freshwater
 - ocean-circulation
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Younger Dryas Climate Event

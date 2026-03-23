@@ -20,7 +20,7 @@ tags:
 - perpendicular distance
 - cross product
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moment of a Force: Concepts and Calculation

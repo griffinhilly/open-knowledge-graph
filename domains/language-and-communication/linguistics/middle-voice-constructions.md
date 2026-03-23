@@ -14,7 +14,7 @@ tags:
 - morphology
 - argument-structure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Middle Voice Constructions

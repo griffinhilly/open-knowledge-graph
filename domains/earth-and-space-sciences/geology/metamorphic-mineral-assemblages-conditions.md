@@ -16,7 +16,7 @@ tags:
 - petrology
 - facies
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metamorphic Mineral Assemblages and Pressure-Temperature Conditions

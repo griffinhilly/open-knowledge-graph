@@ -19,7 +19,7 @@ tags:
 - pipe-flow
 - energy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Darcy-Weisbach Equation: Major Head Loss Calculation

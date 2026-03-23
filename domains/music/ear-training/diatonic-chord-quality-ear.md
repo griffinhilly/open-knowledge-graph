@@ -23,7 +23,7 @@ tags:
 - diminished
 - key
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diatonic Chord Quality Recognition

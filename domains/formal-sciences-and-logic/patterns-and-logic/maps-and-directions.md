@@ -14,7 +14,7 @@ tags:
 - directions
 - navigation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Maps and Directions

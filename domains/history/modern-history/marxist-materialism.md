@@ -16,7 +16,7 @@ tags:
 - class-analysis
 - dialectics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Marxist Historical Materialism and Class Analysis

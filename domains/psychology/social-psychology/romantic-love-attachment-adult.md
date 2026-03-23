@@ -18,7 +18,7 @@ tags:
 - relationships
 - adult-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Romantic Love and Adult Attachment Dynamics

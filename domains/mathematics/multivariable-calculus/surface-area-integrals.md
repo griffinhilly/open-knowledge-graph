@@ -13,7 +13,7 @@ tags:
 - integrals
 - parametric
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Surface Area and Surface Integrals

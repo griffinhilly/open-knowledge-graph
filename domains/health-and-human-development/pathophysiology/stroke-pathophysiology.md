@@ -18,7 +18,7 @@ tags:
 - cerebral-ischemia
 - hemorrhage
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ischemic and Hemorrhagic Stroke

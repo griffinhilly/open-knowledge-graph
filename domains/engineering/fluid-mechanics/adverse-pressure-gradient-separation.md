@@ -17,7 +17,7 @@ tags:
 - pressure-gradient
 - boundary-layer
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Adverse Pressure Gradients and Flow Separation

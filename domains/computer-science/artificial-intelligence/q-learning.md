@@ -13,7 +13,7 @@ tags:
 - temporal-difference
 - off-policy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Q-Learning Algorithm

@@ -14,7 +14,7 @@ tags:
 - peer relations
 - childhood
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Friendship Formation and Maintenance

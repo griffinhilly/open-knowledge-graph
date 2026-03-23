@@ -16,7 +16,7 @@ tags:
 - foundation
 - cumulative hierarchy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Well-Founded Relations

@@ -11,7 +11,7 @@ tags:
 - prediction
 - comprehension
 stage: expert
-status: draft
+status: validated
 ---
 
 # Prediction in Language Processing

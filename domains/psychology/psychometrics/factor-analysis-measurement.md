@@ -25,7 +25,7 @@ tags:
 - latent-variables
 - dimensionality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Factor Analysis and Measurement Models

@@ -18,7 +18,7 @@ tags:
 - orders
 - greek-roman
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Classical Orders and Architectural Proportion

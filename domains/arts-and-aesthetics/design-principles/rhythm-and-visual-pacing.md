@@ -16,7 +16,7 @@ tags:
 - repetition
 - variation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Rhythm and Visual Pacing

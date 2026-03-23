@@ -15,7 +15,7 @@ tags:
 - synthesis
 - antibiotic-target
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Peptidoglycan Synthesis and Remodeling

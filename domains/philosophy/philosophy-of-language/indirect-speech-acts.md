@@ -16,7 +16,7 @@ tags:
 - pragmatics
 - convention
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Indirect Speech Acts

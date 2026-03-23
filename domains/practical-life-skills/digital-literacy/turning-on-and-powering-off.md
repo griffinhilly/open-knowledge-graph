@@ -15,7 +15,7 @@ tags:
 - fundamentals
 - hardware
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Turning Computers On and Off

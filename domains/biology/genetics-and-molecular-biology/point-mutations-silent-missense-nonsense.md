@@ -16,7 +16,7 @@ tags:
 - genetic-variation
 - molecular-evolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Point Mutations: Silent, Missense, and Nonsense

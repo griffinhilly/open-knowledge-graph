@@ -20,7 +20,7 @@ tags:
 - payoff
 - peak-moment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dramatic Climax and Payoff Construction

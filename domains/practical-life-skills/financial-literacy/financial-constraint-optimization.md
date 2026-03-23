@@ -18,7 +18,7 @@ tags:
 - allocation
 - decision-making
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Financial Constraint Optimization

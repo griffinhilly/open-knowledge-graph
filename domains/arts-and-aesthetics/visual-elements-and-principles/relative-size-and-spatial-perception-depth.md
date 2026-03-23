@@ -23,7 +23,7 @@ tags:
 - spatial
 - recession
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Relative Size and Spatial Depth: Scale as Spatial Indicator

@@ -16,7 +16,7 @@ tags:
 - mass
 - velocity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Momentum: Mass in Motion
 

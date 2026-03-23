@@ -16,7 +16,7 @@ tags:
 - inner-loop
 - outer-loop
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cascade and Feedforward Control

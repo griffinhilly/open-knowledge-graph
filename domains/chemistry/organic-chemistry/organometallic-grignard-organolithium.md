@@ -19,7 +19,7 @@ tags:
 - nucleophile
 - synthesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Grignard and Organolithium Reagents in Synthesis

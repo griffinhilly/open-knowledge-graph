@@ -16,7 +16,7 @@ tags:
 - universal-properties
 - lifts
 stage: expert
-status: draft
+status: validated
 ---
 
 # Projective Objects and Projective Covers

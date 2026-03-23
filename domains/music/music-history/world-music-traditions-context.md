@@ -14,7 +14,7 @@ tags:
 - traditions
 - diversity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # World Music Traditions: Diversity Beyond Western Concert Music

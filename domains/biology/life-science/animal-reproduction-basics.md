@@ -7,7 +7,7 @@ prerequisites:
 - id: animal-life-cycles
   type: hard
 - id: cell-division-basics
-  type: hard
+  type: soft
 - id: what-is-heredity
   type: soft
 builds-toward: []
@@ -18,7 +18,7 @@ tags:
 - asexual-reproduction
 - life-cycles
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Animal Reproduction Basics
 

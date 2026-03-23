@@ -14,7 +14,7 @@ tags:
 - flows
 - networks
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Network Flow Models and Feasibility

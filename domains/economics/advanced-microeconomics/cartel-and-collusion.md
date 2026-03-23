@@ -12,7 +12,7 @@ tags:
 - industrial-organization
 - collusion
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cartels and Collusion: Cooperation in Oligopoly

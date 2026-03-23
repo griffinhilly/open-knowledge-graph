@@ -17,7 +17,7 @@ tags:
 - respiration
 - human body
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Lungs and Breathing

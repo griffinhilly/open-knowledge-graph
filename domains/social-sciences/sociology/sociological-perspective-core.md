@@ -14,7 +14,7 @@ tags:
 - perspective
 - theory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Sociological Perspective: Core Principles

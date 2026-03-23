@@ -21,7 +21,7 @@ tags:
 - response
 - equilibrium
 stage: expert
-status: draft
+status: validated
 ---
 
 # Climate Sensitivity and Radiative Feedbacks

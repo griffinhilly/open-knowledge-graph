@@ -19,7 +19,7 @@ tags:
 - ph-diagram
 - visualization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermodynamic Property Diagrams and Representations

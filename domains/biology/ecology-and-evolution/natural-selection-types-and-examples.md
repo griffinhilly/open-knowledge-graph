@@ -20,7 +20,7 @@ tags:
 - stabilizing
 - disruptive
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Natural Selection: Types and Contemporary Examples

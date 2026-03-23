@@ -16,7 +16,7 @@ tags:
 - harmonic
 - leading-tone
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Minor Scale

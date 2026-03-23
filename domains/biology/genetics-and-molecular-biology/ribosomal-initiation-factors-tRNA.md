@@ -16,7 +16,7 @@ tags:
 - trna
 - ribosome
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ribosomal Initiation Factors and Initiator tRNA

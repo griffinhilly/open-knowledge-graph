@@ -19,7 +19,7 @@ tags:
 - wind-stress
 - transport
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ekman Boundary Layer and Wind-Driven Transport

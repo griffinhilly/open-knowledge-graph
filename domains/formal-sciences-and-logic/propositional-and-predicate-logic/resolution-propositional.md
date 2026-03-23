@@ -19,7 +19,7 @@ tags:
 - Davis-Putnam
 - SAT
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Propositional Resolution

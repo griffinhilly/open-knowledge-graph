@@ -18,7 +18,7 @@ tags:
 - disease-control
 - herd-immunity-threshold
 stage: expert
-status: draft
+status: validated
 ---
 
 # Basic Reproduction Number and Epidemic Control

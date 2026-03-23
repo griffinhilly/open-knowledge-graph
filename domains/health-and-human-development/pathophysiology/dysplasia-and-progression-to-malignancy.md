@@ -17,7 +17,7 @@ tags:
 - cancer
 - neoplasia
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dysplasia and Progression to Malignancy

@@ -16,7 +16,7 @@ tags:
 - censoring
 - time-to-event
 stage: expert
-status: draft
+status: validated
 ---
 
 # Kaplan-Meier Survival Analysis and Curves

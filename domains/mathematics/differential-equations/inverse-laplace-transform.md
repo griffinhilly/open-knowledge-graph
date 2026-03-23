@@ -15,7 +15,7 @@ tags:
 - partial-fractions
 - recovery
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inverse Laplace Transform and Partial Fractions

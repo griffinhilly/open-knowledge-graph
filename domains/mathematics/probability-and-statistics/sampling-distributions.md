@@ -17,7 +17,7 @@ tags:
 - sample-mean
 - sample-proportion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sampling Distributions

@@ -15,7 +15,7 @@ tags:
 - population
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Demographic Transition and Development

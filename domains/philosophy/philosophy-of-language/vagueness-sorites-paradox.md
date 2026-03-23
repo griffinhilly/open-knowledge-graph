@@ -13,7 +13,7 @@ tags:
 - truth
 - semantics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Vagueness and the Sorites Paradox

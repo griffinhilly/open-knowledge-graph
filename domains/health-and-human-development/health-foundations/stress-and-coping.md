@@ -14,7 +14,7 @@ builds-toward:
   - emotion-regulation-development-and-coping-skills
 tags: [mental-health, stress, coping, wellness, emotional-health]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Stress and Coping

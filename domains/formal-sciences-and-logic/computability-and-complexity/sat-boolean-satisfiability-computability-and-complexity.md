@@ -19,7 +19,7 @@ tags:
 - np
 - decision-problems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Boolean Satisfiability (SAT)

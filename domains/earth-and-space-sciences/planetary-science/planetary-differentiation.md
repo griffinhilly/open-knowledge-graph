@@ -25,7 +25,7 @@ tags:
 - layering
 - density
 stage: expert
-status: draft
+status: validated
 ---
 
 # Planetary Differentiation and Layering

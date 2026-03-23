@@ -12,7 +12,7 @@ tags:
 - autonomic
 - homeostasis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Autonomic Nervous System: Sympathetic and Parasympathetic

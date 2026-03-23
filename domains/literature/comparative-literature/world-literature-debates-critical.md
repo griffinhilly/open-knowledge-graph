@@ -19,7 +19,7 @@ tags:
 - debate
 - methodology
 stage: expert
-status: draft
+status: validated
 ---
 
 # World Literature Debates: Damrosch, Casanova, Moretti, and Beyond

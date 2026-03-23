@@ -24,7 +24,7 @@ tags:
 - equilibrium
 - current-dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Geostrophic Balance in Ocean Currents

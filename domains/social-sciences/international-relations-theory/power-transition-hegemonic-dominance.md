@@ -17,7 +17,7 @@ tags:
 - organski
 - status-quo
 stage: expert
-status: draft
+status: validated
 ---
 
 # Power Transition Theory and Hegemonic Conflict

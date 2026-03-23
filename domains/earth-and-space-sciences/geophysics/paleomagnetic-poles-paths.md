@@ -14,7 +14,7 @@ tags:
 - continental-drift
 - poles
 stage: expert
-status: draft
+status: validated
 ---
 
 # Apparent Polar Wander Paths and Continental Drift

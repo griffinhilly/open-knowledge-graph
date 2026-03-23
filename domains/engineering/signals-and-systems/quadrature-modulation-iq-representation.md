@@ -16,7 +16,7 @@ tags:
 - quadrature
 - communication
 stage: expert
-status: draft
+status: validated
 ---
 
 # Quadrature Modulation and I/Q Representation

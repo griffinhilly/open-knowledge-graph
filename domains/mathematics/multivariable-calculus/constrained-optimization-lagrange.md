@@ -15,7 +15,7 @@ tags:
 - constraints
 - optimization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constrained Optimization and Lagrange Multipliers

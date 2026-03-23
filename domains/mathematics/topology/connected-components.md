@@ -13,7 +13,7 @@ tags:
 - equivalence-classes
 - decomposition
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Connected Components

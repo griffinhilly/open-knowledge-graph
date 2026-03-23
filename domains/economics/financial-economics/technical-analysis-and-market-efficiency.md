@@ -13,7 +13,7 @@ tags:
 - market-efficiency
 - empirical-evidence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Technical Analysis and Market Efficiency Evidence

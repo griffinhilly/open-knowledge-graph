@@ -18,7 +18,7 @@ tags:
 - simple-machines
 - engineering
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Inclined Planes in Building
 

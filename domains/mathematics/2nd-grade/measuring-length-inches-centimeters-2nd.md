@@ -15,7 +15,7 @@ tags:
 - customary
 - metric
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Measuring Length: Inches and Centimeters

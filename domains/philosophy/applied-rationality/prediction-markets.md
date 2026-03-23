@@ -12,7 +12,7 @@ builds-toward:
   - disagreement-and-rational-updating
 tags: ["prediction", "markets", "collective-intelligence", "forecasting", "information"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

@@ -13,7 +13,7 @@ tags:
 - exclamations
 - punctuation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Interjections and Exclamatory Sentences

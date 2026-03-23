@@ -20,7 +20,7 @@ tags:
 - change
 - development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Longitudinal Designs and Study of Temporal Change Patterns

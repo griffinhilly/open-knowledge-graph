@@ -18,7 +18,7 @@ tags:
 - melody
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Melody Harmonization with Voice-Leading Principles

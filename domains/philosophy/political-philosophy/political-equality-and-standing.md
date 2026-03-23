@@ -17,7 +17,7 @@ tags:
 - justice
 - democracy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Political Equality and Equal Standing

@@ -16,7 +16,7 @@ tags:
 - conservation
 - stability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Equivalent Potential Temperature as Conserved Variable

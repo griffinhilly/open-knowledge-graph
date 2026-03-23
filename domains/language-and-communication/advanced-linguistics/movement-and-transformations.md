@@ -16,7 +16,7 @@ tags:
 - transformations
 - displacement
 stage: expert
-status: draft
+status: validated
 ---
 
 # Movement and Transformations

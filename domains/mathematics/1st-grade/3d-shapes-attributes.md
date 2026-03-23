@@ -11,7 +11,7 @@ tags:
 - shapes
 - 3d
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # 3D Shapes and Their Attributes

@@ -13,7 +13,7 @@ tags:
 - components
 - cognition
 stage: expert
-status: draft
+status: validated
 ---
 
 # ERP Components and Cognitive Processes

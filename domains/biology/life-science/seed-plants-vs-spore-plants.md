@@ -18,7 +18,7 @@ tags:
 - ferns
 - evolution
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Seed Plants vs. Spore Plants
 

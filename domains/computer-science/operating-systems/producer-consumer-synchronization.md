@@ -15,7 +15,7 @@ tags:
 - classic-problems
 - producer-consumer
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Producer-Consumer Problem: Solutions and Analysis

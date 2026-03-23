@@ -13,7 +13,7 @@ tags:
 - inquiry
 - composition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Research Question Formulation

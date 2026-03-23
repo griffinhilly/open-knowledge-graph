@@ -19,7 +19,7 @@ tags:
 - phase
 - jω
 stage: expert
-status: draft
+status: validated
 ---
 
 # Frequency Response: Magnitude and Phase Relationships

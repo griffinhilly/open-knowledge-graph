@@ -17,7 +17,7 @@ tags:
 - cell-communication
 - autoinduction
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quorum Sensing and Density-Dependent Bacterial Gene Regulation

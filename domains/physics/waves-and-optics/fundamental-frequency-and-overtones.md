@@ -14,7 +14,7 @@ tags:
 - harmonics
 - timbre
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fundamental Frequency and Overtones

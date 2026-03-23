@@ -18,7 +18,7 @@ tags:
 - exploratory
 - confirmatory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Exploratory and Confirmatory Analysis Strategies and Their Distinct Roles

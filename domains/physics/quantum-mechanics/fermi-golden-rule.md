@@ -10,7 +10,7 @@ tags:
 - fermi-golden-rule
 - transition-rates
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Fermi Golden Rule

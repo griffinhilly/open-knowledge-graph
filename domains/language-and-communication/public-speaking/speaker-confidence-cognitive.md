@@ -13,7 +13,7 @@ tags:
 - mindset
 - self-talk
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Speaker Confidence — Cognitive Strategies

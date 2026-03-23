@@ -12,7 +12,7 @@ tags:
 - nuclear-physics
 - forces
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Strong Nuclear Force

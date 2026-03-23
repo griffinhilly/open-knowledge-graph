@@ -19,7 +19,7 @@ tags:
 - canon
 - circulation
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Concept of World Literature

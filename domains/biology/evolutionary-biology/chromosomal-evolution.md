@@ -19,7 +19,7 @@ tags:
 - karyotype
 - evolution
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Chromosomal Rearrangements and Karyotype Evolution

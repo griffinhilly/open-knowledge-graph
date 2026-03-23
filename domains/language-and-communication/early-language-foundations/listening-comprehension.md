@@ -17,7 +17,7 @@ tags:
 - following-directions
 - read-alouds
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Listening Comprehension

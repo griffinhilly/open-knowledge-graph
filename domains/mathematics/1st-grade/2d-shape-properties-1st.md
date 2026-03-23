@@ -16,7 +16,7 @@ tags:
 - 2d-shapes
 - attributes
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Properties of 2D Shapes

@@ -17,7 +17,7 @@ tags:
 - emotional-energy
 - durkheim
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Collective Effervescence and Solidarity Rituals

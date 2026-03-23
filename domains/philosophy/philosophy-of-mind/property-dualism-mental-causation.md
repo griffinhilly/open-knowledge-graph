@@ -13,7 +13,7 @@ tags:
 - mental-properties
 - causation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Property Dualism and Non-Physical Properties

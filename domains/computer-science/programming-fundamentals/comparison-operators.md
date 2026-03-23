@@ -1,24 +1,26 @@
 ---
-id: comparison-operators-and-boolean-tests
+id: comparison-operators
 title: Comparison Operators and Boolean Tests
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- id: operators-and-expressions
+- id: arithmetic-operators
   type: hard
-- id: boolean-logic-programming
+- id: boolean-logic
   type: hard
+- id: numeric-types
+  type: soft
 builds-toward:
-- if-else-branching-logic
-- conditional-logic-chains
+- else-if-chains
+- logical-operators
+- conditional-statements
 tags:
 - comparison
 - boolean
 - logic
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Comparison Operators and Boolean Tests
 
 ## Core Idea

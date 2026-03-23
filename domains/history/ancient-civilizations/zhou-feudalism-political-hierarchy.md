@@ -13,7 +13,7 @@ tags:
 - china
 - government
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Zhou Dynasty Feudalism and Political Organization

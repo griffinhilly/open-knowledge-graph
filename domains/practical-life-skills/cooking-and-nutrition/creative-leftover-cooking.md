@@ -17,7 +17,7 @@ tags:
 - waste-reduction
 - creativity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Creative Leftover Cooking

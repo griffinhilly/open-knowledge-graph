@@ -13,7 +13,7 @@ tags:
 - shear-wave-splitting
 - polarization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Seismic Anisotropy and Shear-Wave Splitting Analysis

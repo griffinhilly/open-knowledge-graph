@@ -21,7 +21,7 @@ tags:
 - circuit-topology
 - design-decisions
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Series vs. Parallel Design Choices
 

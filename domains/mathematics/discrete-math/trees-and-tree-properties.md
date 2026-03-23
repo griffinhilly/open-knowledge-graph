@@ -18,7 +18,7 @@ tags:
 - parent-child
 - properties
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Trees and Forest Structures

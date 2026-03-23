@@ -23,7 +23,7 @@ tags:
 - adaptation
 - variation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Natural Selection Basics
 

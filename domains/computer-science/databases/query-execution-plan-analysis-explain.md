@@ -14,7 +14,7 @@ tags:
 - analysis
 - optimization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Query Execution Plans and EXPLAIN Analysis

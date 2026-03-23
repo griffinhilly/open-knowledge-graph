@@ -15,7 +15,7 @@ tags:
 - preconventional
 - responsibility
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moral Realism and Objective Responsibility

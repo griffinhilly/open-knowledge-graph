@@ -15,7 +15,7 @@ tags:
 - submerged-surfaces
 - dams
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hydrostatic Force on Vertical Submerged Surfaces

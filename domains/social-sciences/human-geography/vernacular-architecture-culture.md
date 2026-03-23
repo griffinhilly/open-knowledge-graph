@@ -16,7 +16,7 @@ tags:
 - built-environment
 - tradition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vernacular Architecture and Cultural Landscapes

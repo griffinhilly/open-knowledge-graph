@@ -16,7 +16,7 @@ tags:
 - Vmax
 - binding sites
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Noncompetitive Enzyme Inhibition

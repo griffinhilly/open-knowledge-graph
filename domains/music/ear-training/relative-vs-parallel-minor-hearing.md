@@ -17,7 +17,7 @@ tags:
 - mode
 - key
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Relative vs. Parallel Minor: Hearing the Difference

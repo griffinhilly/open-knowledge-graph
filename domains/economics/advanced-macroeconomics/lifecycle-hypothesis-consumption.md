@@ -13,7 +13,7 @@ tags:
 - lifecycle
 - savings
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lifecycle Hypothesis and Consumption-Saving Patterns

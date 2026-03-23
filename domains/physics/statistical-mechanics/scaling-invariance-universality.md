@@ -15,7 +15,7 @@ tags:
 - universality
 - fractal-structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Scaling Invariance and Universality Classes

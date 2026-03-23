@@ -16,7 +16,7 @@ tags:
 - voice-leading
 - reduction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Schenkerian Linear Progression

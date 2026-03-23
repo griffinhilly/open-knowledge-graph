@@ -15,7 +15,7 @@ tags:
 - tenure
 - property
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Feudal Land Tenure and the Fief System

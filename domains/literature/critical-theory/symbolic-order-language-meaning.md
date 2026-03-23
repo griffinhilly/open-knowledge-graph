@@ -18,7 +18,7 @@ tags:
 - saussure
 - signification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Symbolic Order, Language, and Meaning

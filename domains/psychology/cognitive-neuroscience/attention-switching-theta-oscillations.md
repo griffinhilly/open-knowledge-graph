@@ -18,7 +18,7 @@ tags:
 - oscillations
 - prefrontal
 stage: expert
-status: draft
+status: validated
 ---
 
 # Attention Switching and Theta Oscillations

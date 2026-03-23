@@ -17,7 +17,7 @@ tags:
 - organization
 - throughput
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Instruction Pipeline Organization

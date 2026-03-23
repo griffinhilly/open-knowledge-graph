@@ -16,7 +16,7 @@ tags:
 - nutrient-absorption
 - side-effects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Food-Drug Interactions and Nutrient-Medication Effects

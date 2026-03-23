@@ -16,7 +16,7 @@ tags:
 - recognition
 - two-digit
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Number Recognition: 1–100

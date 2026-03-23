@@ -10,7 +10,7 @@ tags:
 - contract-theory
 - insurance
 stage: expert
-status: draft
+status: validated
 ---
 
 # Insurance Markets with Adverse Selection

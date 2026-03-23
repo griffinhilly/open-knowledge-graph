@@ -15,7 +15,7 @@ tags:
 - discontinuity
 - property-changes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Normal Shock Wave Relations: Pressure, Temperature, and Density

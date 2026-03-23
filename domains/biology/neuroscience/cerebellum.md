@@ -12,7 +12,7 @@ tags:
 - motor-systems
 - learning
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cerebellum: Motor Coordination and Learning

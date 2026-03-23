@@ -20,7 +20,7 @@ tags:
 - mutation-rate
 - mutational-spectrum
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mutation: Rates, Spectrum, and Evolutionary Role

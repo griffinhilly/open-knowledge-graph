@@ -16,7 +16,7 @@ tags:
 - approximation-methods
 - quantum-chemistry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Variational Method for Ground State Approximation

@@ -15,7 +15,7 @@ tags:
 - denouement
 - ending
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Resolution and Denouement: Genre Variation

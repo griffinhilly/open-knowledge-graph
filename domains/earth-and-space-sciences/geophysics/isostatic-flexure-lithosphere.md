@@ -14,7 +14,7 @@ tags:
 - lithosphere
 - elastic-thickness
 stage: expert
-status: draft
+status: validated
 ---
 
 # Isostatic Flexure and Elastic Thickness

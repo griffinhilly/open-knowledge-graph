@@ -17,7 +17,7 @@ tags:
 - england
 - '1066'
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Norman Conquest of England and Its Consequences

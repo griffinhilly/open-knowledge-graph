@@ -17,7 +17,7 @@ tags:
 - implementation
 - vector-clocks
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Implementing Causal Consistency

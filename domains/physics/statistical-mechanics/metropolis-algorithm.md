@@ -13,7 +13,7 @@ tags:
 - markov-chain
 - detailed-balance
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Metropolis Algorithm

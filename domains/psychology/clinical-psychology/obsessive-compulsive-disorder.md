@@ -15,7 +15,7 @@ tags:
 - intrusive-thoughts
 - anxiety
 stage: expert
-status: draft
+status: validated
 ---
 
 # Obsessive-Compulsive Disorder (OCD)

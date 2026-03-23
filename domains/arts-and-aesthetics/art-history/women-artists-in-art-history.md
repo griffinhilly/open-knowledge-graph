@@ -18,7 +18,7 @@ tags:
 - art-history
 - equity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Women Artists: Contributions, Obstacles, and Historical Recovery

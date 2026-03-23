@@ -16,7 +16,7 @@ tags:
 - entailment
 - first-order-logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Logical Consequence and Validity

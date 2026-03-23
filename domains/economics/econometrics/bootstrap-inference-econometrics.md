@@ -19,7 +19,7 @@ tags:
 - inference
 - resampling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bootstrap Methods for Statistical Inference

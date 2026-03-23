@@ -12,7 +12,7 @@ tags:
 - doppler
 - sound
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Doppler Effect for Moving Sources

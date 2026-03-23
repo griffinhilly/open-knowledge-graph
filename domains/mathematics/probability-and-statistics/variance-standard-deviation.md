@@ -13,7 +13,7 @@ tags:
 - variance
 - spread
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Variance and Standard Deviation

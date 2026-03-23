@@ -19,7 +19,7 @@ tags:
 - contraction
 - coronary-perfusion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cardiac Electromechanics and Performance

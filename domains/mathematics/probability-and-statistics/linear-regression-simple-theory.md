@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - linear-regression
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Simple Linear Regression: Theory and Estimation

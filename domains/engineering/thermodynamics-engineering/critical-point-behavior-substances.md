@@ -11,7 +11,7 @@ tags:
 - supercritical
 - phase-transitions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Critical Point and Supercritical Fluid Behavior

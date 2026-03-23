@@ -16,7 +16,7 @@ tags:
 - species
 - natural-selection
 stage: expert
-status: draft
+status: validated
 ---
 
 # Philosophy of Biology

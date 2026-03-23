@@ -12,8 +12,11 @@ prerequisites:
   type: soft
 - id: type-conversion
   type: soft
+- id: program-structure
+  type: hard
 builds-toward:
 - file-io-basics
+- testing-and-validation-basics
 tags:
 - exceptions
 - try

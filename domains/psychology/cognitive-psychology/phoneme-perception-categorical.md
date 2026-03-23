@@ -16,7 +16,7 @@ tags:
 - perception
 - categories
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phoneme Perception and Categorical Perception of Speech

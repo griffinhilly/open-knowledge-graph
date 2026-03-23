@@ -17,7 +17,7 @@ tags:
 - disease-management
 - therapeutic-diet
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nutrition for Chronic Disease Management

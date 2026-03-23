@@ -18,7 +18,7 @@ tags:
 - electrophile
 - carbocation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Friedel-Crafts Alkylation Mechanism

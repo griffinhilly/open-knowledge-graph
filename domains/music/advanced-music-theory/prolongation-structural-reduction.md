@@ -14,7 +14,7 @@ tags:
 - reduction
 - analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Prolongation and Structural Reduction

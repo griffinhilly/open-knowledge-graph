@@ -15,7 +15,7 @@ tags:
 - quantum-mechanics
 - barrier-penetration
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantum Tunneling and Barrier Penetration

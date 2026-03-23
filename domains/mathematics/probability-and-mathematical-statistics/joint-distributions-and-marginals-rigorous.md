@@ -16,7 +16,7 @@ tags:
 - marginals
 - joint-distributions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Joint Distributions and Marginals (Rigorous)

@@ -15,7 +15,7 @@ tags:
 - heating
 - real-gas
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Joule-Thomson Coefficient and Inversion Curve

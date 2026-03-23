@@ -12,7 +12,7 @@ tags:
 - recovery
 - resource-allocation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Deadlock Detection and Recovery

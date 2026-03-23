@@ -16,7 +16,7 @@ tags:
 - coherence
 - patterns
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Interference from Two Coherent Sources

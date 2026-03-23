@@ -18,7 +18,7 @@ tags:
 - upper-troposphere
 - circulation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Subtropical Jet Streams and Upper-Level Winds

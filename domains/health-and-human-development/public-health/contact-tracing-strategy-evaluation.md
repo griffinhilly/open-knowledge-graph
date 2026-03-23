@@ -15,7 +15,7 @@ tags:
 - epidemiology
 - intervention
 stage: expert
-status: draft
+status: validated
 ---
 
 # Contact Tracing Strategy and Effectiveness

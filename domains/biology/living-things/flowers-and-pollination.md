@@ -15,7 +15,7 @@ tags:
 - pollen
 - reproduction
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Flowers and Pollination

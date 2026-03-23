@@ -17,7 +17,7 @@ tags:
 - family
 - descent
 stage: expert
-status: draft
+status: validated
 ---
 
 # Genealogy as Historical Method

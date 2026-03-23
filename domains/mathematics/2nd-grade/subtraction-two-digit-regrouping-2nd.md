@@ -16,7 +16,7 @@ tags:
 - regrouping
 - borrowing
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Two-Digit Subtraction With Regrouping

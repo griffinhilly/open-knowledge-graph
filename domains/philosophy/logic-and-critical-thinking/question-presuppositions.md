@@ -13,7 +13,7 @@ tags:
 - questions
 - reasoning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Questions and Hidden Presuppositions

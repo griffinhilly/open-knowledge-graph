@@ -13,7 +13,7 @@ tags:
 - current
 - conductor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Magnetic Force on Current-Carrying Conductors

@@ -14,7 +14,7 @@ tags:
 - estimation
 - frequency-domain
 stage: expert
-status: draft
+status: validated
 ---
 
 # Digital Spectral Analysis: Nonparametric Methods

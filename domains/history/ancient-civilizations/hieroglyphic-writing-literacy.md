@@ -14,7 +14,7 @@ tags:
 - writing
 - literacy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hieroglyphic Writing and Literacy in Egypt

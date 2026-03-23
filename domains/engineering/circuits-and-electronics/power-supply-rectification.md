@@ -18,7 +18,7 @@ tags:
 - power-supply
 - peak-inverse-voltage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Power Supply Rectification

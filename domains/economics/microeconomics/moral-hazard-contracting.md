@@ -11,7 +11,7 @@ tags:
 - moral hazard
 - principal-agent
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Moral Hazard and Optimal Contracting

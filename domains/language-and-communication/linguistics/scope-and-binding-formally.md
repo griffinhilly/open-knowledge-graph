@@ -13,7 +13,7 @@ tags:
 - scope
 - binding
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantifier Scope and Binding: Formal Treatment

@@ -13,7 +13,7 @@ tags:
 - ideal-flow
 - viscous-effects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bernoulli Equation: Assumptions and Real Fluid Limitations

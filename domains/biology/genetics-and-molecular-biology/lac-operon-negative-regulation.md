@@ -17,7 +17,7 @@ tags:
 - repressor-protein
 - transcription-control
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # lac Operon and Negative Regulation

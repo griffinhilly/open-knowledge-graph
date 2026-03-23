@@ -13,7 +13,7 @@ tags:
 - reduced-properties
 - engineering
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Compressibility Factor Z

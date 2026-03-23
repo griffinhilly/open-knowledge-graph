@@ -16,7 +16,7 @@ tags:
 - self-consistency
 - bragg-williams
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mean Field Theory and Self-Consistency

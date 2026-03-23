@@ -16,7 +16,7 @@ tags:
 - economic-justice
 - class-analysis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Socialism and Leftist Political Thought

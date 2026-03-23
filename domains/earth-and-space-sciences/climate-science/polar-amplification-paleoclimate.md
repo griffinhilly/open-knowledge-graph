@@ -17,7 +17,7 @@ tags:
 - albedo-feedback
 - ice-core
 stage: expert
-status: draft
+status: validated
 ---
 
 # Polar Amplification in Paleoclimate Records

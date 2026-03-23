@@ -15,7 +15,7 @@ tags:
 - graph-theory
 - closure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transitive Closure and Reachability

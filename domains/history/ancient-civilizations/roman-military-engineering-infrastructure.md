@@ -14,7 +14,7 @@ tags:
 - engineering
 - infrastructure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Roman Military, Engineering, and Infrastructure

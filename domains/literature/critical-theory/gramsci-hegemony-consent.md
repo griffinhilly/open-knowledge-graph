@@ -18,7 +18,7 @@ tags:
 - power
 - culture
 stage: expert
-status: draft
+status: validated
 ---
 
 # Gramsci's Hegemony and Cultural Consent

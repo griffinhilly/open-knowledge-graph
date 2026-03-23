@@ -13,7 +13,7 @@ tags:
 - collision
 - comprehensive
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Auto Insurance Essentials

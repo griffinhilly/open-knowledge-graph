@@ -15,7 +15,7 @@ tags:
 - menstrual-cycle
 - HPG-axis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reproductive Hormonal Cycles and Gametogenesis

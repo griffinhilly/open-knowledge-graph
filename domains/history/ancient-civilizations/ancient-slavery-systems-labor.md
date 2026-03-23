@@ -12,7 +12,7 @@ tags:
 - social-organization
 - economy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ancient Slavery Systems and Labor Organization

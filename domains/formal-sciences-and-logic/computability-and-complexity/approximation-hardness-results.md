@@ -15,7 +15,7 @@ tags:
 - hardness
 - inapproximability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Approximation Algorithms and Hardness of Approximation

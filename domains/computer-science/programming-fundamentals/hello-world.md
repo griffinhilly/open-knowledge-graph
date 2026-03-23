@@ -1,20 +1,18 @@
 ---
-id: hello-world-your-first-program
-title: 'Hello World: Your First Program'
+id: hello-world
+title: "Hello World: Your First Program"
 domain: computer-science
 course: programming-fundamentals
-prerequisites:
-- id: algorithm-design-basics
-  type: soft
+prerequisites: []
 builds-toward:
-- program-structure-and-anatomy
+- program-structure
 - code-comments-and-style
 tags:
 - introduction
 - getting-started
 - basic
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Hello World: Your First Program
 

@@ -14,7 +14,7 @@ tags:
 - inverses
 - invertibility
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Invertible Matrices and Matrix Inverses

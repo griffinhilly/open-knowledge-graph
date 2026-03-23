@@ -17,7 +17,7 @@ tags:
 - politics
 - authority
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Church and Secular Power: Competition and Tension

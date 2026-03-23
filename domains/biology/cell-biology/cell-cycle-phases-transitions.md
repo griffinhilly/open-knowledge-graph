@@ -14,7 +14,7 @@ tags:
 - g1-s-g2-m
 - cyclin-cdk
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cell Cycle Phases and Phase Transitions

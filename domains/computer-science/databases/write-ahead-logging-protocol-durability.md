@@ -18,7 +18,7 @@ tags:
 - redo-log
 - force-log
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Write-Ahead Logging (WAL) and Durability Guarantees

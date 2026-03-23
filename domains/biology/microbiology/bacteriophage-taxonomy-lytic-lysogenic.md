@@ -15,7 +15,7 @@ tags:
 - lytic
 - lysogenic
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bacteriophages: Taxonomy and Lytic-Lysogenic Cycles

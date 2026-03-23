@@ -17,7 +17,7 @@ tags:
 - growth
 - temperature-gradient
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Baroclinic Instability and Frontal Growth

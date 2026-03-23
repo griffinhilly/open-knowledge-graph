@@ -17,7 +17,7 @@ tags:
 - fallacies
 - logic
 stage: expert
-status: draft
+status: validated
 ---
 
 # David Hackett Fischer on Historical Reasoning

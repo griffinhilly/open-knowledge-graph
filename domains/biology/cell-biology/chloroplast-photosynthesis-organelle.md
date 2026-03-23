@@ -16,7 +16,7 @@ tags:
 - photosynthesis
 - energy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chloroplasts: Converting Light to Chemical Energy

@@ -26,7 +26,7 @@ tags:
 - two-stage-least-squares
 - IV-validity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Instrumental Variables Estimation

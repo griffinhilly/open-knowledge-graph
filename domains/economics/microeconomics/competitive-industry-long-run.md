@@ -15,7 +15,7 @@ tags:
 - competition
 - industry equilibrium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Competitive Industry Long-Run Equilibrium

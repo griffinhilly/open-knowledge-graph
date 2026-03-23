@@ -16,7 +16,7 @@ tags:
 - amplitude
 - frequency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transverse Wave Characteristics and Properties

@@ -15,7 +15,7 @@ tags:
 - synaptic-plasticity
 - learning
 stage: expert
-status: draft
+status: validated
 ---
 
 # Long-Term Potentiation

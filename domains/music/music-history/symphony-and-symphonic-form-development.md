@@ -17,7 +17,7 @@ tags:
 - orchestra
 - classical
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Symphony and Symphonic Form Development

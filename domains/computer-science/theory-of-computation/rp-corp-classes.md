@@ -12,7 +12,7 @@ tags:
 - complexity-classes
 - one-sided-error
 stage: advanced
-status: draft
+status: validated
 ---
 
 # RP and coRP Complexity Classes

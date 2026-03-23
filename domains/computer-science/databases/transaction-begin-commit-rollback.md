@@ -14,7 +14,7 @@ tags:
 - acid
 - dml-control
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transaction Control: BEGIN, COMMIT, ROLLBACK

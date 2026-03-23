@@ -17,7 +17,7 @@ tags:
 - collective
 - groups
 stage: expert
-status: draft
+status: validated
 ---
 
 # Prosopography and Collective Biography

@@ -18,7 +18,7 @@ tags:
 - stability
 - dynamics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Poles, Zeros, and System Stability

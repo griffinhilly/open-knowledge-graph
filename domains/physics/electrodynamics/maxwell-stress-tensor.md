@@ -15,7 +15,7 @@ tags:
 - momentum
 - radiation-pressure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Maxwell Stress Tensor and Radiation Pressure

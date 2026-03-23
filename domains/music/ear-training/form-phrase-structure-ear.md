@@ -22,7 +22,7 @@ tags:
 - organization
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Form and Phrase Structure Recognition by Ear

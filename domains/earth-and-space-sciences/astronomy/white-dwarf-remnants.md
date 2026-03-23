@@ -13,7 +13,7 @@ tags:
 - stellar-remnants
 - degeneracy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # White Dwarfs as Stellar Remnants and Chronometers

@@ -20,7 +20,7 @@ tags:
 - speed
 - mechanical-systems
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Gear Ratios and Calculations
 

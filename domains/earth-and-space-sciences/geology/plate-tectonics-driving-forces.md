@@ -17,7 +17,7 @@ tags:
 - convection
 - gravity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Plate Tectonics: Driving Forces and Mechanisms

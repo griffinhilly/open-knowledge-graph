@@ -18,7 +18,7 @@ tags:
 - steam
 - phase-changes
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Water as Solid, Liquid, and Gas

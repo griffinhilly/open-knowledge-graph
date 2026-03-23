@@ -16,7 +16,7 @@ tags:
 - class-weight
 - minority-class
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Imbalanced Classification and Class Weighting

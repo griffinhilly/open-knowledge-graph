@@ -16,7 +16,7 @@ tags:
 - species-composition
 - paleoceanography
 stage: expert
-status: draft
+status: validated
 ---
 
 # Planktonic Foraminifera Assemblages as Paleoclimate Indicators

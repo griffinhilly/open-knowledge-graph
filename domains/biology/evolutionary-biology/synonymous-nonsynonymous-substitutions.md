@@ -15,7 +15,7 @@ tags:
 - molecular-evolution
 - selection
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Synonymous vs. Non-synonymous Substitutions

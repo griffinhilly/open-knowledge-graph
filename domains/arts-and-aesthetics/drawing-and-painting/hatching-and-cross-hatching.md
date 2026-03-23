@@ -19,7 +19,7 @@ tags:
 - value
 - line-work
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Hatching and Cross-Hatching

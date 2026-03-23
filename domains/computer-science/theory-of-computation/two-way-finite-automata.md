@@ -13,7 +13,7 @@ tags:
 - bidirectional-reading
 - equivalence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Two-Way Finite Automata

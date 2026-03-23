@@ -15,7 +15,7 @@ tags:
 - speed
 - medium
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Sound Properties and the Speed of Sound
 

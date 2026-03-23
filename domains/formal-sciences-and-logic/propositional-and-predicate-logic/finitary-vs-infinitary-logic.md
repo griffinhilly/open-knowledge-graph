@@ -11,7 +11,7 @@ tags:
 - expressiveness
 - comparison
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Finitary vs. Infinitary Logic

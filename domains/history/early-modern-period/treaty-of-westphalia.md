@@ -17,7 +17,7 @@ tags:
 - state-formation
 - sovereignty
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Treaty of Westphalia

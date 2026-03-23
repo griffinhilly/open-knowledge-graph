@@ -14,7 +14,7 @@ tags:
 - internet
 - web
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Web Browser Basics & Navigation

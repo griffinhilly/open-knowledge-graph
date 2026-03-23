@@ -16,7 +16,7 @@ tags:
 - culture
 - semantics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Linguistic Relativity and the Sapir-Whorf Hypothesis

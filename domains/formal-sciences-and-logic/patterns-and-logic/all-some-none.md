@@ -21,7 +21,7 @@ tags:
 - none
 - reasoning
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # All, Some, and None

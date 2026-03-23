@@ -17,7 +17,7 @@ tags:
 - probability
 - follow-up-studies
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cumulative Incidence and Risk Estimation

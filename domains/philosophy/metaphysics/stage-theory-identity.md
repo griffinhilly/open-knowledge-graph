@@ -16,7 +16,7 @@ tags:
 - identity
 - time
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stage Theory and Temporal Identity

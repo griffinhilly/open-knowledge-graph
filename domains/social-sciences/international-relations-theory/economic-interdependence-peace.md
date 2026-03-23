@@ -17,7 +17,7 @@ tags:
 - peace
 - trade
 stage: expert
-status: draft
+status: validated
 ---
 
 # Economic Interdependence and Cooperation

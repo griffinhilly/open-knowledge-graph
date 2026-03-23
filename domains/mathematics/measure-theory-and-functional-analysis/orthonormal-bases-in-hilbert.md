@@ -12,7 +12,7 @@ tags:
 - hilbert-spaces
 - orthonormal-bases
 stage: expert
-status: draft
+status: validated
 ---
 
 # Orthonormal Bases in Hilbert Spaces

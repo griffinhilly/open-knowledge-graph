@@ -10,7 +10,7 @@ tags:
 - graph-theory
 - chromatic-polynomial
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chromatic Polynomial and Counting Proper Colorings

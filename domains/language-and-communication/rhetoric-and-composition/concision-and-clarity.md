@@ -17,7 +17,7 @@ tags:
 - active voice
 - editing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Concision and Clarity

@@ -16,7 +16,7 @@ tags:
 - encoding-specificity
 - cues
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Retrieval Cues and Encoding Specificity Principle

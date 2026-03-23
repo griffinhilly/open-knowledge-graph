@@ -14,7 +14,7 @@ tags:
 - cancer
 - tumor-suppression
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cell Cycle Checkpoints and Cancer Prevention

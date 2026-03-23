@@ -22,7 +22,7 @@ tags:
 - duality
 - optimization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Consumer Duality: Expenditure and Indirect Utility Functions

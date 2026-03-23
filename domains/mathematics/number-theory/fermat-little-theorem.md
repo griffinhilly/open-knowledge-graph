@@ -17,7 +17,7 @@ tags:
 - primes
 - fermat
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fermat's Little Theorem

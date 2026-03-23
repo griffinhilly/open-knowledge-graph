@@ -17,7 +17,7 @@ tags:
 - multiplication
 - patterns
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Skip Counting as Foundation for Multiplication

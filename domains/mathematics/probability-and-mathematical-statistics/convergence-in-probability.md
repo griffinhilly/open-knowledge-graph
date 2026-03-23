@@ -16,7 +16,7 @@ tags:
 - probability
 - limit-theorems
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Convergence in Probability

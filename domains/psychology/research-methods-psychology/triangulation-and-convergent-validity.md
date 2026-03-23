@@ -16,7 +16,7 @@ tags:
 - convergence
 - multiple-methods
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Triangulation and Convergent Validity Across Methods and Sources

@@ -15,7 +15,7 @@ tags:
 - fundamental-matrix
 - solution-formula
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Matrix Exponential Method

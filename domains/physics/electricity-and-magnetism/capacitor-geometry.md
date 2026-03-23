@@ -15,7 +15,7 @@ tags:
 - geometry
 - capacitance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Capacitors: Geometry and Capacitance

@@ -13,7 +13,7 @@ tags:
 - subgroups
 - fixed-fields
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fundamental Theorem of Galois Theory

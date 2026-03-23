@@ -14,7 +14,7 @@ tags:
 - matrix-multiplication
 - invertible
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Composition of Linear Transformations

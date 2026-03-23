@@ -12,7 +12,7 @@ tags:
 - agricultural
 - credit
 stage: expert
-status: draft
+status: validated
 ---
 
 # Agricultural Credit and Farmer Constraints

@@ -15,7 +15,7 @@ tags:
 - panopticon
 - normalization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Discipline and Surveillance

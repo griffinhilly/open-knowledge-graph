@@ -13,7 +13,7 @@ tags:
 - tools
 - automating-parsing
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Parser Generators and Yacc/Bison

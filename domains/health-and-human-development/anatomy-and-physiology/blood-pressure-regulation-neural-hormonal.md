@@ -26,7 +26,7 @@ tags:
 - vasopressin
 - blood-pressure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Blood Pressure Regulation: Neural and Hormonal

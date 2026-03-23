@@ -16,7 +16,7 @@ tags:
 - temperature
 - catalyst
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reaction Rate and Factors Affecting Reaction Speed

@@ -17,7 +17,7 @@ tags:
 - dissonance
 - harmony
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Consonant and Dissonant Intervals

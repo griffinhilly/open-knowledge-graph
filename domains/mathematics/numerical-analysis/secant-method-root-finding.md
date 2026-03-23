@@ -13,7 +13,7 @@ tags:
 - root-finding
 - derivative-free
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Secant Method

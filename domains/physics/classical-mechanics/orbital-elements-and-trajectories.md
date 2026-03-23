@@ -18,7 +18,7 @@ tags:
 - trajectories
 - orbital-mechanics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orbital Elements and Trajectories

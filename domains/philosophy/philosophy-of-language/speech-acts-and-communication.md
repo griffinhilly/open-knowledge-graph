@@ -14,7 +14,7 @@ tags:
 - speech-acts
 - pragmatics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Speech Acts and the Nature of Communication

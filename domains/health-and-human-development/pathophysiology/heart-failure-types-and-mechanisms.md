@@ -20,7 +20,7 @@ tags:
 - ventricular-dysfunction
 - cardiac-remodeling
 stage: expert
-status: draft
+status: validated
 ---
 
 # Heart Failure: Systolic and Diastolic Dysfunction

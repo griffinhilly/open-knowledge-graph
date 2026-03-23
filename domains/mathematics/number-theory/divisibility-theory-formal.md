@@ -16,7 +16,7 @@ tags:
 - number-theory
 - foundations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Divisibility Theory (Formal Treatment)

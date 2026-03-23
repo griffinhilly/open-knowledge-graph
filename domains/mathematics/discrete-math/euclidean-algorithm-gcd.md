@@ -13,7 +13,7 @@ tags:
 - gcd
 - algorithm
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Euclidean Algorithm and Greatest Common Divisor

@@ -13,7 +13,7 @@ tags:
 - fields
 - order
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Ordered Field Axioms of the Real Numbers

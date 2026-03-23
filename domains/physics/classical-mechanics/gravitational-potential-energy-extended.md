@@ -16,7 +16,7 @@ tags:
 - energy
 - orbits
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gravitational Potential Energy (Extended)

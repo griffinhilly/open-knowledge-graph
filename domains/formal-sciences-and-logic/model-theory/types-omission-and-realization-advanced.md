@@ -16,7 +16,7 @@ tags:
 - type-realization
 - consistency
 stage: expert
-status: draft
+status: validated
 ---
 
 # Advanced Type Theory: Omission and Realization

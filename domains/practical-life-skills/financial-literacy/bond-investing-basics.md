@@ -15,7 +15,7 @@ tags:
 - fixed-income
 - investing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bond Investing Basics

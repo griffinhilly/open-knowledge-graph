@@ -17,7 +17,7 @@ tags:
 - structure
 - scope
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Novel as Extended Form

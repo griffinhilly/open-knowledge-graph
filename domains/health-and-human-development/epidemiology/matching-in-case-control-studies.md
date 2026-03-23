@@ -15,7 +15,7 @@ tags:
 - confounding-control
 - case-control
 stage: expert
-status: draft
+status: validated
 ---
 
 # Matching in Case-Control Studies

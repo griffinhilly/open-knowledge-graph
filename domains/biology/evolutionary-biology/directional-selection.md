@@ -14,7 +14,7 @@ tags:
 - selection
 - population-dynamics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Directional Selection

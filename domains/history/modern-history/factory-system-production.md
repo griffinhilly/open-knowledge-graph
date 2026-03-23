@@ -17,7 +17,7 @@ tags:
 - production
 - manufacturing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Factory System and Machine Production

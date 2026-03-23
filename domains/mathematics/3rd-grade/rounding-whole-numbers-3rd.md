@@ -13,7 +13,7 @@ tags:
 - tens
 - hundreds
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Rounding to the Nearest Ten and Hundred

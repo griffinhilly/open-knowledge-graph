@@ -13,7 +13,7 @@ tags:
 - examples
 - analogies
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Evidence Types in Speaking

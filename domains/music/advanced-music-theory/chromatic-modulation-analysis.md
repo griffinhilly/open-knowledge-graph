@@ -16,7 +16,7 @@ tags:
 - chromaticism
 - harmony
 stage: expert
-status: draft
+status: validated
 ---
 
 # Chromatic Modulation and Voice-Leading Pathways

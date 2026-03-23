@@ -17,7 +17,7 @@ tags:
 - wavefunctions
 - schrodinger
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Schrödinger Equation for Molecular Systems

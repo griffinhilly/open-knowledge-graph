@@ -16,7 +16,7 @@ tags:
 - contact
 - tension
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tension Forces in Strings and Cables

@@ -19,7 +19,7 @@ tags:
 - linkage
 - selection
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Evolution of Recombination Rates

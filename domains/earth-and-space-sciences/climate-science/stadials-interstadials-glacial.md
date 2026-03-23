@@ -17,7 +17,7 @@ tags:
 - interstadial
 - greenland-stadial
 stage: expert
-status: draft
+status: validated
 ---
 
 # Stadials and Interstadials in Glacial Climates

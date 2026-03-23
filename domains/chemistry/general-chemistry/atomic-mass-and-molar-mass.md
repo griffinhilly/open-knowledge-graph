@@ -16,7 +16,7 @@ tags:
 - mass
 - molar mass
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Atomic Mass and Molar Mass

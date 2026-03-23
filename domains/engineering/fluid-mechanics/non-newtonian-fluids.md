@@ -15,7 +15,7 @@ tags:
 - rheology
 - power-law fluid
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Non-Newtonian Fluids
 

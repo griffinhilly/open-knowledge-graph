@@ -16,7 +16,7 @@ tags:
 - privilege
 - protection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kernel Mode and Privilege Levels

@@ -17,7 +17,7 @@ tags:
 - pH-regulation
 - compensatory-responses
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Acid-Base Balance and Renal Regulation

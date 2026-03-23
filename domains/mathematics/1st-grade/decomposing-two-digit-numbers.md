@@ -16,7 +16,7 @@ tags:
 - place-value
 - flexibility
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Decomposing Two-Digit Numbers

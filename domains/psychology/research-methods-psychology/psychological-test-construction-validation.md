@@ -15,7 +15,7 @@ tags:
 - psychometric-validation
 - scale-construction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Psychological Test Construction and Psychometric Validation

@@ -15,7 +15,7 @@ tags:
 - critical-periods
 - plasticity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Critical Periods in Neural Development

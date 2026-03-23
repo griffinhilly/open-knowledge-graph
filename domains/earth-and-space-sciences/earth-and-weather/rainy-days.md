@@ -18,7 +18,7 @@ tags:
 - precipitation
 - observation
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Rainy Days

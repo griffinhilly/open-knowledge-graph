@@ -10,7 +10,7 @@ tags:
 - arrays
 - multiplication-readiness
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Arrays

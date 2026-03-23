@@ -11,7 +11,7 @@ tags:
 - distractor-analysis
 - item-evaluation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Distractor Analysis and Multiple-Choice Item Evaluation

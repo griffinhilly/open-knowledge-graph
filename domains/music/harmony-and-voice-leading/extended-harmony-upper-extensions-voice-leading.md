@@ -15,7 +15,7 @@ tags:
 - voice-leading
 - harmony
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Extended Tertian Harmony and Upper-Extension Voice-Leading

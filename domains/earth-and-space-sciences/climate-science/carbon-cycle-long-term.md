@@ -21,7 +21,7 @@ tags:
 - silicate-cycle
 - geological-timescales
 stage: expert
-status: draft
+status: validated
 ---
 
 # Long-Term Carbon Cycle and Weathering

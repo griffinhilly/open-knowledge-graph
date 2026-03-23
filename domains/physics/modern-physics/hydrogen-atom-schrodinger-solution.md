@@ -24,7 +24,7 @@ tags:
 - hydrogen
 - atomic-physics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Solving the Schrödinger Equation for Hydrogen Atom

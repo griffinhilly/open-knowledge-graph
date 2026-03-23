@@ -16,7 +16,7 @@ tags:
 - substitution
 - reharmonization
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Jazz Chord Substitution and Reharmonization
 

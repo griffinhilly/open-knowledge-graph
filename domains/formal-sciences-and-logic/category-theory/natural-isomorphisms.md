@@ -16,7 +16,7 @@ tags:
 - equivalence
 - natural-transformations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Natural Isomorphisms Between Functors

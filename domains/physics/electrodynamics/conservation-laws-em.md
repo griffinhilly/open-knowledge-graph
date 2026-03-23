@@ -15,7 +15,7 @@ tags:
 - charge
 - energy-momentum
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conservation Laws in Electromagnetism

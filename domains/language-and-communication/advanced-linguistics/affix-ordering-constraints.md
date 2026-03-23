@@ -13,7 +13,7 @@ tags:
 - morphology
 - position-classes
 stage: expert
-status: draft
+status: validated
 ---
 
 # Affix Ordering and Position Classes

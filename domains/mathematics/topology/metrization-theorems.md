@@ -17,7 +17,7 @@ tags:
 - metric-spaces
 - characterization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Metrization Theorems

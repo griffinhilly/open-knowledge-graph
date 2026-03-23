@@ -15,7 +15,7 @@ tags:
 - pde
 - method
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Separation of Variables for Partial Differential Equations

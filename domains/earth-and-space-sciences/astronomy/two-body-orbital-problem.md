@@ -22,7 +22,7 @@ tags:
 - gravitation
 - conic-sections
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Two-Body Orbital Problem

@@ -14,7 +14,7 @@ tags:
 - tension
 - fundamental-frequency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Acoustic Resonance in Strings and Tension

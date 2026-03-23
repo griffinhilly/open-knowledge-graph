@@ -22,7 +22,7 @@ tags:
 - structure
 - clarity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Value Structure: Using Tone to Organize Visual Composition

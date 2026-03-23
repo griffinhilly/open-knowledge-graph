@@ -12,7 +12,7 @@ tags:
 - technology
 - adoption
 stage: expert
-status: draft
+status: validated
 ---
 
 # Technology Adoption and Diffusion Constraints

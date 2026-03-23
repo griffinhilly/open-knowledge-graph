@@ -4,18 +4,17 @@ title: Call Stack and Function Call Execution
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- id: variable-scope-and-binding
+- id: variable-scope
   type: hard
 builds-toward:
-- recursion-and-recursive-calls
+- recursion-basics
 tags:
 - functions
 - call-stack
 - execution
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Call Stack and Function Call Execution
 
 ## Core Idea

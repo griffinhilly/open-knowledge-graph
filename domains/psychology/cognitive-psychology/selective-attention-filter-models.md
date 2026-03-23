@@ -16,7 +16,7 @@ tags:
 - filtering
 - cognitive
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Selective Attention and Filter Models

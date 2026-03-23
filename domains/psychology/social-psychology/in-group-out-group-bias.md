@@ -18,7 +18,7 @@ tags:
 - favoritism
 - social-identity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # In-Group Favoritism and Out-Group Homogeneity

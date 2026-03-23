@@ -18,7 +18,7 @@ tags:
 - white-space
 - form
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Stanza as Structural Unit

@@ -13,7 +13,7 @@ tags:
 - performance
 - head-capacity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Centrifugal Pump Performance Curves and System Selection

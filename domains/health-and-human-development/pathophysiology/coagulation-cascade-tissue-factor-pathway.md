@@ -19,7 +19,7 @@ tags:
 - thrombin
 - fibrin
 stage: expert
-status: draft
+status: validated
 ---
 
 # Coagulation Cascade: Tissue Factor Pathway and Thrombin Generation

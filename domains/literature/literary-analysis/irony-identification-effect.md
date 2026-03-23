@@ -18,7 +18,7 @@ tags:
 - situational
 - dramatic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Irony: Types, Identification, and Effect

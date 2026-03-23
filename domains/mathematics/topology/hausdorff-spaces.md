@@ -14,7 +14,7 @@ tags:
 - t2-axiom
 - separated
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hausdorff Spaces

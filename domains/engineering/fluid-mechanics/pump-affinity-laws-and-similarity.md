@@ -13,7 +13,7 @@ tags:
 - scaling
 - similarity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pump Affinity Laws and Geometric Similarity Scaling

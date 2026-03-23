@@ -18,7 +18,7 @@ tags:
 - wind-shear
 - dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermal Wind Balance and the Relationship Between Temperature and Wind

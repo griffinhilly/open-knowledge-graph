@@ -16,7 +16,7 @@ tags:
 - bound vortex
 - Magnus effect
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Lift and Circulation Theory
 

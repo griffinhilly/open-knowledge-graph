@@ -14,7 +14,7 @@ tags:
 - bleeding
 - soft-edges
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Wet-on-Wet Watercolor Technique

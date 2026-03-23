@@ -17,7 +17,7 @@ tags:
 - dft
 - frequency-domain
 stage: expert
-status: draft
+status: validated
 ---
 
 # Window Functions and Spectral Leakage

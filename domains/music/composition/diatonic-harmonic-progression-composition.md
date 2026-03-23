@@ -19,7 +19,7 @@ tags:
 - progression
 - composition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diatonic Harmonic Progression

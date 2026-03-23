@@ -16,7 +16,7 @@ tags:
 - energy
 - escape-velocity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orbital Energy and Escape Velocity

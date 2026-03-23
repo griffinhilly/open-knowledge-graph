@@ -10,7 +10,7 @@ tags:
 - algebraic-graph-theory
 - counting
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Matrix Tree Theorem

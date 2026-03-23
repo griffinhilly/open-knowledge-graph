@@ -19,7 +19,7 @@ tags:
 - culture
 - judgment
 stage: expert
-status: draft
+status: validated
 ---
 # Aesthetic Universalism and Relativism
 

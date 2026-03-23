@@ -19,7 +19,7 @@ tags:
 - enzymes
 - absorption-mechanisms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Carbohydrate Digestion and Monosaccharide Absorption

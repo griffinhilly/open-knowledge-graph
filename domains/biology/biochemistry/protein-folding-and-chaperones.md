@@ -23,7 +23,7 @@ tags:
 - folding funnel
 - aggregation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Protein Folding Pathways and Molecular Chaperones

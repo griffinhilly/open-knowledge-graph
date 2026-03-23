@@ -15,7 +15,7 @@ tags:
 - cohesin
 - chromosome-segregation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sister Chromatid Cohesion and Cohesin

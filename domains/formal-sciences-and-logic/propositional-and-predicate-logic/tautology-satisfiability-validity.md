@@ -18,7 +18,7 @@ tags:
 - contradiction
 - decision-procedure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tautology, Satisfiability, and Validity

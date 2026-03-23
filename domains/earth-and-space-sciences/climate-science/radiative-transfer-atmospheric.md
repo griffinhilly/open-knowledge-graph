@@ -27,7 +27,7 @@ tags:
 - absorption
 - spectroscopy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Radiative Transfer in the Atmosphere

@@ -15,7 +15,7 @@ tags:
 - data-structures
 - lookup
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bloom Filters for Distributed Membership Testing

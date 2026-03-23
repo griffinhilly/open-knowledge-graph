@@ -13,7 +13,7 @@ tags:
 - stability
 - feedback-systems
 stage: expert
-status: draft
+status: validated
 ---
 
 # Nyquist Criterion for Stability Analysis

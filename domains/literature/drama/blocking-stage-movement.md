@@ -17,7 +17,7 @@ tags:
 - space
 - choreography
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Blocking: Stage Movement and Positioning

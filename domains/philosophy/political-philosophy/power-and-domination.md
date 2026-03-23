@@ -15,7 +15,7 @@ tags:
 - structural-power
 - oppression
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Power and Domination

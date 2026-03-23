@@ -17,7 +17,7 @@ tags:
 - pattern
 - sacred-art
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Islamic Art: Ornament, Geometry, and Sacred Decoration
 

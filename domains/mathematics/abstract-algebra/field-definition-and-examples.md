@@ -16,7 +16,7 @@ tags:
 - definitions
 - examples
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Field Definition and Examples

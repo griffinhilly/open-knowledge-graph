@@ -15,7 +15,7 @@ tags:
 - epinephrine
 - fight-or-flight
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Adrenal Medullary Catecholamine Secretion

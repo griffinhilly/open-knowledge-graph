@@ -14,7 +14,7 @@ tags:
 - structure
 - closure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phrase Structure and Musical Closure

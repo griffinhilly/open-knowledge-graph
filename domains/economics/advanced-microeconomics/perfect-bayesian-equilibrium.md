@@ -15,7 +15,7 @@ tags:
 - equilibrium-refinement
 - beliefs
 stage: expert
-status: draft
+status: validated
 ---
 
 # Perfect Bayesian Equilibrium

@@ -14,7 +14,7 @@ tags:
 - consciousness
 - essence
 stage: expert
-status: draft
+status: validated
 ---
 
 # Phenomenological Research Methods

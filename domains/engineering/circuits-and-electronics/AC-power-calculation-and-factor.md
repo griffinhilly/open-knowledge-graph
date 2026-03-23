@@ -16,7 +16,7 @@ tags:
 - reactive-power
 - power-factor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # AC Power Calculation and Power Factor

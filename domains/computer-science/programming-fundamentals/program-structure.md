@@ -1,20 +1,23 @@
 ---
-id: program-structure-and-flow
+id: program-structure
 title: Program Structure and Control Flow
 domain: computer-science
 course: programming-fundamentals
-prerequisites: []
+prerequisites:
+- id: hello-world
+  type: hard
 builds-toward:
 - conditional-statements
 - loop-fundamentals
+- variables-and-assignment
+- functions-defining-calling
 tags:
 - fundamentals
 - control-flow
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Program Structure and Control Flow
 
 ## Core Idea

@@ -13,7 +13,7 @@ tags:
 - nutrient-preservation
 - delicate-foods
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Steaming and Poaching

@@ -14,7 +14,7 @@ tags:
 - assessment
 - epidemiology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dietary Pattern Assessment and Diet Quality Indices

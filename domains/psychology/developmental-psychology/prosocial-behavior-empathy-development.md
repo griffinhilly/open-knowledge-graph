@@ -14,7 +14,7 @@ tags:
 - altruism
 - moral-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Prosocial Behavior and Empathy Development

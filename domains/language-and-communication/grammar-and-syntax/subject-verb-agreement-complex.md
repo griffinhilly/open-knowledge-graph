@@ -15,7 +15,7 @@ tags:
 - inverted-sentences
 - grammar
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Subject-Verb Agreement in Complex Constructions

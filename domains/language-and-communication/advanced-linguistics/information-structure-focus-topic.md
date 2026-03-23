@@ -13,7 +13,7 @@ tags:
 - information-structure
 - discourse
 stage: expert
-status: draft
+status: validated
 ---
 
 # Information Structure: Focus and Topic

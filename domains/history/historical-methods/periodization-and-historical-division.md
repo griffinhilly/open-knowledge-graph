@@ -16,7 +16,7 @@ tags:
 - time
 - framework
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Periodization: Dividing and Framing Historical Time

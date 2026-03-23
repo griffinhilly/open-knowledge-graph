@@ -17,7 +17,7 @@ tags:
 - thought-experiment
 - epistemic-gap
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inverted Spectrum Thought Experiment

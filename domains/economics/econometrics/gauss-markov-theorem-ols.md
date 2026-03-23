@@ -17,7 +17,7 @@ tags:
 - ols
 - theorem
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Gauss-Markov Theorem and OLS Efficiency

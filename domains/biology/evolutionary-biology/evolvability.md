@@ -18,7 +18,7 @@ tags:
 - adaptation
 - evolution
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Evolvability: Capacity for Evolutionary Change

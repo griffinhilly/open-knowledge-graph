@@ -13,7 +13,7 @@ tags:
 - deformation
 - texture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metamorphic Textures and Microstructures

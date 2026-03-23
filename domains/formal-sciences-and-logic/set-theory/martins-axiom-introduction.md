@@ -17,7 +17,7 @@ tags:
 - continuum
 - extensions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Martin's Axiom and Extensions of ZFC

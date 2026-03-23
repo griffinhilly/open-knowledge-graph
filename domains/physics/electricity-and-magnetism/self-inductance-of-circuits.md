@@ -16,7 +16,7 @@ tags:
 - self-inductance
 - EMF
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Self-Inductance and Energy Storage

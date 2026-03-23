@@ -15,7 +15,7 @@ tags:
 - eddy-current
 - radiography
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nondestructive Evaluation and Inspection Methods

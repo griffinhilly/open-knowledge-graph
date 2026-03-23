@@ -13,7 +13,7 @@ tags:
 - rote counting
 - number sequence
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Counting Sequence: One to Twenty

@@ -16,7 +16,7 @@ tags:
 - length
 - distance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vector Norms and Magnitude

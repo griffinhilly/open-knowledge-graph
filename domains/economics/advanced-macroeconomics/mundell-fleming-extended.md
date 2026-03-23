@@ -16,7 +16,7 @@ tags:
 - capital-flows
 - trilemma
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mundell-Fleming Model with Capital Mobility

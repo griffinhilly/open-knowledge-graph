@@ -17,7 +17,7 @@ tags:
 - monitoring
 - liveness
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Failure Detection with Heartbeats

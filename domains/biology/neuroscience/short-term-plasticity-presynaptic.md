@@ -15,7 +15,7 @@ tags:
 - presynaptic-mechanisms
 - temporal-dynamics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Short-Term Synaptic Plasticity: Facilitation and Depression

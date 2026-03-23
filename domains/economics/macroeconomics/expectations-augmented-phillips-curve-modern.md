@@ -15,7 +15,7 @@ tags:
 - inflation
 - unemployment
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Expectations-Augmented Phillips Curve

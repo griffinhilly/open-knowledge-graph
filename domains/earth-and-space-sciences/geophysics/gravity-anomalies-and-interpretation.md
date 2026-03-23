@@ -16,7 +16,7 @@ tags:
 - crustal-structure
 - interpretation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Gravity Anomalies and Interpretation

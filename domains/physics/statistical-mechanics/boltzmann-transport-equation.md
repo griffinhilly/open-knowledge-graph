@@ -15,7 +15,7 @@ tags:
 - kinetic-theory
 - non-equilibrium
 stage: expert
-status: draft
+status: validated
 ---
 
 # Boltzmann Transport Equation

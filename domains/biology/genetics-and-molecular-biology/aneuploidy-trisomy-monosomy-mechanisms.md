@@ -17,7 +17,7 @@ tags:
 - non-disjunction
 - meiosis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Aneuploidy: Trisomy, Monosomy, and Non-Disjunction

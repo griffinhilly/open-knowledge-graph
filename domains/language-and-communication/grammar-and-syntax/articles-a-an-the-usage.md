@@ -11,7 +11,7 @@ tags:
 - determiners
 - usage
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Articles: When to Use A, An, and The

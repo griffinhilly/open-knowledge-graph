@@ -12,7 +12,7 @@ tags:
 - row-access
 - analytics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # LAG, LEAD, and OFFSET: Accessing Rows in Windows

@@ -14,7 +14,7 @@ tags:
 - synchronization
 - testing-challenges
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Concurrency and Race Conditions

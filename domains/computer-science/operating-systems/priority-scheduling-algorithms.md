@@ -11,7 +11,7 @@ tags:
 - priority-based
 - starvation-risk
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Priority Scheduling Algorithms

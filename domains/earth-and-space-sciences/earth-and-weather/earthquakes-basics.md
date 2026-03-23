@@ -15,7 +15,7 @@ tags:
 - safety
 - landforms
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Earthquakes Basics

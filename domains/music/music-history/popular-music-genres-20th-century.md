@@ -14,7 +14,7 @@ tags:
 - rock
 - genres
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Popular Music Genres: Blues, Rock, and Beyond

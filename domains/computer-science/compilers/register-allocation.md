@@ -17,7 +17,7 @@ tags:
 - code-generation
 - architecture
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Register Allocation

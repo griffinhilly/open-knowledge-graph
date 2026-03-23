@@ -13,7 +13,7 @@ tags:
 - matching
 - bipartite
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hall's Marriage Theorem

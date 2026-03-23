@@ -19,7 +19,7 @@ tags:
 - rlc-circuits
 - transient-response
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Series and Parallel RC, RL, and RLC Networks

@@ -16,7 +16,7 @@ tags:
 - optimization
 - analytical-principles
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Selectivity vs. Sensitivity Analytical Trade-offs

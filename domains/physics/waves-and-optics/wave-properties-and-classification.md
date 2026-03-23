@@ -12,7 +12,7 @@ tags:
 - properties
 - classification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Wave Properties and Classification

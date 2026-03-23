@@ -18,7 +18,7 @@ tags:
 - climate-oscillation
 - teleconnections
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # ENSO and Ocean-Climate Teleconnections

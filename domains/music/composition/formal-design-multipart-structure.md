@@ -17,7 +17,7 @@ tags:
 - design
 - composition
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Formal Design and Multipart Structure

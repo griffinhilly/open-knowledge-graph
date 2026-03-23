@@ -15,7 +15,7 @@ tags:
 - dopamine
 - reward
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dopaminergic System: Reward and Motor Control

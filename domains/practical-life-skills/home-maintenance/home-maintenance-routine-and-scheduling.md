@@ -18,7 +18,7 @@ tags:
 - prevention
 - planning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Home Maintenance Routine and Scheduling

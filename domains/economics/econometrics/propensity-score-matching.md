@@ -15,7 +15,7 @@ tags:
 - matching
 - observational
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Propensity Score Matching for Observational Studies

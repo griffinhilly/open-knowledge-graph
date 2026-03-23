@@ -16,7 +16,7 @@ tags:
 - mismatch-repair
 - fidelity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # DNA Proofreading and Mismatch Repair

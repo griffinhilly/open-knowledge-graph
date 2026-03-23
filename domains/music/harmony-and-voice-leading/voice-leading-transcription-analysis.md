@@ -15,7 +15,7 @@ tags:
 - transcription
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voice-Leading Transcription and Analysis

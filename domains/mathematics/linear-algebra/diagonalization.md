@@ -16,7 +16,7 @@ tags:
 - powers
 - exponentials
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diagonalization

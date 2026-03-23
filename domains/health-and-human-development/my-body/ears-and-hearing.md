@@ -14,7 +14,7 @@ tags:
 - sound
 - senses
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Ears and Hearing

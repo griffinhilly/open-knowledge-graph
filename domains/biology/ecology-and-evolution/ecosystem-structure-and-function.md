@@ -14,7 +14,7 @@ tags:
 - biotic-abiotic
 - trophic-levels
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ecosystem Structure and Function

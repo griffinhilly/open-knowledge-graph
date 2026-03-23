@@ -11,7 +11,7 @@ tags:
 - classification
 - observation
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Living vs Nonliving Things

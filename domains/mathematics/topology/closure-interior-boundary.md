@@ -16,7 +16,7 @@ tags:
 - interior
 - boundary
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Closure, Interior, and Boundary of Sets

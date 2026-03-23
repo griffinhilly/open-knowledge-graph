@@ -17,7 +17,7 @@ tags:
 - reversible
 - thermodynamic-definition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Entropy Definition and Calculation

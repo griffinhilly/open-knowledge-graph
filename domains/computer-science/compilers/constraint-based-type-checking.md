@@ -15,7 +15,7 @@ tags:
 - constraints
 - checking
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Constraint-Based Type Checking

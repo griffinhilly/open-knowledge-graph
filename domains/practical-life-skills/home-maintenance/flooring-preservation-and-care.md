@@ -13,7 +13,7 @@ tags:
 - preservation
 - cleaning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Flooring Types, Assessment, and Care Strategies

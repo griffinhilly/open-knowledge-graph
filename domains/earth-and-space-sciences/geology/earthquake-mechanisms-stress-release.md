@@ -15,7 +15,7 @@ tags:
 - seismology
 - faults
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Earthquake Generation and Stress Release Mechanisms

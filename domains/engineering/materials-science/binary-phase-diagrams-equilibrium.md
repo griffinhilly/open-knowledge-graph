@@ -17,7 +17,7 @@ tags:
 - miscibility-gap
 - lever-rule
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binary Phase Diagrams and Equilibrium

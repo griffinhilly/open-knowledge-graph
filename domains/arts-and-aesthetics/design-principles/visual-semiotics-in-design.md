@@ -16,7 +16,7 @@ tags:
 - symbols
 - communication
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Visual Semiotics in Design

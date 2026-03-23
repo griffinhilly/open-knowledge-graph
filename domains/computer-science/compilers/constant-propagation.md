@@ -11,7 +11,7 @@ tags:
 - constant-propagation
 - algebraic-simplification
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Constant Propagation and Folding

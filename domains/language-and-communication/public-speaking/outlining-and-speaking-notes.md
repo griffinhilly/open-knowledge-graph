@@ -12,7 +12,7 @@ tags:
 - preparation
 - keywords
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Outlining and Speaking Notes

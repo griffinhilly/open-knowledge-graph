@@ -15,7 +15,7 @@ tags:
 - discourse
 - delivery
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Maintaining Logical Flow and Coherence in Live Speech

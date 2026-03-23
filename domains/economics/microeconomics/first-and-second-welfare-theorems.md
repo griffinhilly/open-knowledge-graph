@@ -13,7 +13,7 @@ tags:
 - efficiency
 - equity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # First and Second Welfare Theorems: Efficiency and Equity

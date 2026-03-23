@@ -13,7 +13,7 @@ tags:
 - total pressure loss
 - supersonic to subsonic
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Normal Shock Waves
 

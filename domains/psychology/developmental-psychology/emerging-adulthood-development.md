@@ -16,7 +16,7 @@ tags:
 - development
 - identity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Emerging Adulthood as Developmental Stage

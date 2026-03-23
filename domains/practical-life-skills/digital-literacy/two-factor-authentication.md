@@ -14,7 +14,7 @@ tags:
 - security
 - accounts
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Two-Factor Authentication

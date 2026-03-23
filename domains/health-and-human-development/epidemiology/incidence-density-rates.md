@@ -15,7 +15,7 @@ tags:
 - person-years
 - follow-up-studies
 stage: expert
-status: draft
+status: validated
 ---
 
 # Incidence Density and Rate Calculations

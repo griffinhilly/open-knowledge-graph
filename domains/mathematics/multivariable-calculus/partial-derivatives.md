@@ -17,7 +17,7 @@ tags:
 - partial-notation
 - computation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Partial Derivatives: Definition and Computation

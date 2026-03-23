@@ -15,7 +15,7 @@ tags:
 - oscillation
 - trigonometric
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Complex Roots and Oscillatory Solutions

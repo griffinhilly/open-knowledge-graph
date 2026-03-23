@@ -17,7 +17,7 @@ tags:
 - join-dependencies
 - lossless-decomposition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Join Dependencies and Fifth Normal Form

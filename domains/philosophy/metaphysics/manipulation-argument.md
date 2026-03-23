@@ -15,7 +15,7 @@ tags:
 - sourcehood
 - moral responsibility
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Manipulation Argument

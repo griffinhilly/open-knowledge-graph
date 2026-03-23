@@ -13,7 +13,7 @@ tags:
 - acoustics
 - pipes
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Resonance in Air Columns and Pipes

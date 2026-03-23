@@ -16,7 +16,7 @@ tags:
 - Ksp
 - precipitation equilibrium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Solubility Product Constant (Ksp)

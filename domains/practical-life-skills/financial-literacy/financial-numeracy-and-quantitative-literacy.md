@@ -22,7 +22,7 @@ tags:
 - literacy
 - financial-math
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Financial Numeracy and Quantitative Literacy

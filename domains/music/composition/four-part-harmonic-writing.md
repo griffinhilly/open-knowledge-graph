@@ -18,7 +18,7 @@ tags:
 - four-part
 - satb
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Four-Part Voice Writing (SATB)
 

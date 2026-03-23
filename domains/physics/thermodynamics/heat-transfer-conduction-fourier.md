@@ -11,7 +11,7 @@ tags:
 - conduction
 - temperature-gradient
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermal Conduction and Fourier's Law

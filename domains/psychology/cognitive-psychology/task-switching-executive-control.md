@@ -14,7 +14,7 @@ tags:
 - attention
 - costs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Task Switching and Executive Control Costs

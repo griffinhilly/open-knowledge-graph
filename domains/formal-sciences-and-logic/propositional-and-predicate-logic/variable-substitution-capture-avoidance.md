@@ -19,7 +19,7 @@ tags:
 - variable-capture
 - free-variables
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Variable Substitution and Capture-Avoidance in First-Order Logic

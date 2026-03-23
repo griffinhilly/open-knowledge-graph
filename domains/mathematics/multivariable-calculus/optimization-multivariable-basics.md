@@ -15,7 +15,7 @@ tags:
 - optimization
 - extrema
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Optimization in Multiple Variables

@@ -18,7 +18,7 @@ tags:
 - unconcealment
 - phenomenology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Heidegger: Art and Unconcealment

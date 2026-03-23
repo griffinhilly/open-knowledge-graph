@@ -17,7 +17,7 @@ tags:
 - integration
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Evidence Selection and Integration in Literary Analysis

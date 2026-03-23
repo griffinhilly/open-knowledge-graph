@@ -21,7 +21,7 @@ tags:
 - glycogen
 - cellulose
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Disaccharides and Polysaccharides

@@ -11,7 +11,7 @@ tags:
 - algebraic-number-theory
 - ideals
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Introduction to the Ideal Class Group

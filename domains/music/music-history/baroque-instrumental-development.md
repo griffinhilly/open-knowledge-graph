@@ -15,7 +15,7 @@ tags:
 - concerto
 - suite
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Baroque Instrumental Music: Genres and Tonal Architecture

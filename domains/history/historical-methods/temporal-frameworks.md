@@ -16,7 +16,7 @@ tags:
 - periodization
 - methodology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Temporal Frameworks and Historical Time

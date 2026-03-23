@@ -18,7 +18,7 @@ tags:
 - symbolic-thought
 - logical-operations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Object Permanence and Conservation

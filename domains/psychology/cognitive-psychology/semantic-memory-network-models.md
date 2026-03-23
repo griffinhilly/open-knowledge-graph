@@ -16,7 +16,7 @@ tags:
 - knowledge
 - representation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Semantic Memory and Network Models

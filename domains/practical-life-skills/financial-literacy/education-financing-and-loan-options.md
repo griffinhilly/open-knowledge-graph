@@ -17,7 +17,7 @@ tags:
 - scholarships
 - college-costs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Education Financing and Loan Options

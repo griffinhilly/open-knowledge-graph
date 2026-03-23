@@ -15,7 +15,7 @@ tags:
 - harmony
 - melody
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic vs. Melodic Intervals

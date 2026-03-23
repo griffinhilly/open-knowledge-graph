@@ -15,7 +15,7 @@ tags:
 - vegan
 - food-safety
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cooking for Dietary Restrictions

@@ -15,7 +15,7 @@ tags:
 - regulation
 - phosphorylation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Glycogen Synthesis and Degradation Regulation

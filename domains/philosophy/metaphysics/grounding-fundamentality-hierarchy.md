@@ -20,7 +20,7 @@ tags:
 - structure
 - metaphysics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Grounding and the Hierarchy of Fundamental Facts

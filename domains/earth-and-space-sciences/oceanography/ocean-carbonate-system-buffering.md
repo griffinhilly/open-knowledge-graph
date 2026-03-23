@@ -17,7 +17,7 @@ tags:
 - buffering
 - equilibrium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Carbonate System and Ocean Buffering

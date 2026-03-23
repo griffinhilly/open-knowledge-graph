@@ -17,7 +17,7 @@ tags:
 - abstraction
 - isolation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Process Concept

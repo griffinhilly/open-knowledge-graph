@@ -14,7 +14,7 @@ tags:
 - remainders
 - quotient
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Remainders and Quotients in Division

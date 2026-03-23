@@ -25,7 +25,7 @@ tags:
 - induction
 - emf
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Faraday's Law of Electromagnetic Induction

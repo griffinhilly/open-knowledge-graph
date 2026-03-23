@@ -16,7 +16,7 @@ tags:
 - french history
 - methodology
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Annales School: Revolution in Historical Method

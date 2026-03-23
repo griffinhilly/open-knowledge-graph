@@ -18,7 +18,7 @@ tags:
 - process
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Minimalism and Phase-Based Compositional Structures

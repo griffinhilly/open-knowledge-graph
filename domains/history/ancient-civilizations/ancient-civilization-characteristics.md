@@ -15,7 +15,7 @@ tags:
 - urbanization
 - complexity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Defining Features of Ancient Civilizations

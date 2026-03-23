@@ -4,9 +4,9 @@ title: The Moon in Detail
 domain: earth-and-space-sciences
 course: earth-science
 prerequisites:
-- id: moon-phases
+- id: moon-and-its-phases
   type: hard
-- id: solar-system-intro
+- id: planets-in-our-solar-system
   type: soft
 builds-toward:
 - lunar-geology-and-history
@@ -20,7 +20,7 @@ tags:
 - lunar
 - tidal-locking
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Moon in Detail

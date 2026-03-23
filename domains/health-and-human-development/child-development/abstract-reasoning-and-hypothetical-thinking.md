@@ -18,7 +18,7 @@ tags:
 - reasoning
 - abstract-thought
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Abstract Reasoning and Hypothetical Thinking

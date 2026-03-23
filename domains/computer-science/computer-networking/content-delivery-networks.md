@@ -15,7 +15,7 @@ tags:
 - latency-reduction
 - geographical-distribution
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Content Delivery Networks (CDNs)

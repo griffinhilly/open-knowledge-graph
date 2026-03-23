@@ -13,7 +13,7 @@ tags:
 - growth
 - tfp
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Total Factor Productivity and the Sources of Growth

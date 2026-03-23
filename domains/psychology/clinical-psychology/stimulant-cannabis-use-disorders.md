@@ -11,7 +11,7 @@ tags:
 - cocaine
 - cannabis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Stimulant and Cannabis Use Disorders

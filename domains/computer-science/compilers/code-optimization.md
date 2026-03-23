@@ -15,7 +15,7 @@ tags:
 - compiler-design
 - performance
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Code Optimization Fundamentals

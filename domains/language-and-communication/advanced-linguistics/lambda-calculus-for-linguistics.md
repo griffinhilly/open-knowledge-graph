@@ -15,7 +15,7 @@ tags:
 - formal
 - logic
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lambda Calculus for Linguistic Semantics

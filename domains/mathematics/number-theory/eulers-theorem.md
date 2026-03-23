@@ -15,7 +15,7 @@ tags:
 - totient
 - modular-exponentiation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Euler's Theorem

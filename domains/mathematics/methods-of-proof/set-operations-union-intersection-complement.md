@@ -18,7 +18,7 @@ tags:
 - intersection
 - complement
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Set Operations: Union, Intersection, and Complement

@@ -14,7 +14,7 @@ tags:
 - ad-blockers
 - security
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Browser Security Extensions

@@ -18,7 +18,7 @@ tags:
 - reflections
 - Dₙ
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Dihedral Groups

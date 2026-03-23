@@ -16,7 +16,7 @@ tags:
 - sample-preparation
 - high-throughput
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sample Preparation Automation Systems

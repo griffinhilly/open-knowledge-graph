@@ -15,7 +15,7 @@ tags:
 - methods
 - stimulation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Transcranial Magnetic Stimulation and Brain Mapping

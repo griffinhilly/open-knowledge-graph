@@ -15,7 +15,7 @@ tags:
 - moral-difference
 - sources
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Sources of Moral Disagreement

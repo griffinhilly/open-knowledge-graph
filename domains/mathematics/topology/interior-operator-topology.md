@@ -13,7 +13,7 @@ tags:
 - interior
 - operators
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interior of Sets

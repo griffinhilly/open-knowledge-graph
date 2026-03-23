@@ -17,7 +17,7 @@ tags:
 - ppv
 - system-performance
 stage: expert
-status: draft
+status: validated
 ---
 
 # Surveillance System Performance Metrics

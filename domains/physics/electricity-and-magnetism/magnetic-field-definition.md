@@ -14,7 +14,7 @@ tags:
 - definition
 - units
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Definition and Properties of Magnetic Field

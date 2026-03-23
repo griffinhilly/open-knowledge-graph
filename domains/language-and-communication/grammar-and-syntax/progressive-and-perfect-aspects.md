@@ -16,7 +16,7 @@ tags:
 - perfect
 - verb-tense
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Progressive and Perfect Verb Aspects

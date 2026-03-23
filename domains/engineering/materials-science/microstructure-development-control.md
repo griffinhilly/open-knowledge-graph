@@ -17,7 +17,7 @@ tags:
 - grain-growth
 - precipitate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Microstructure Development and Thermomechanical Control

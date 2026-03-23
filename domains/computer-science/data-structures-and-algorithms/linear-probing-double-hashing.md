@@ -15,7 +15,7 @@ tags:
 - linear-probing
 - double-hashing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Open Addressing: Linear Probing and Double Hashing

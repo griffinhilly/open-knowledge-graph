@@ -17,7 +17,7 @@ tags:
 - information-design
 - clarity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Information Architecture in Speech Design

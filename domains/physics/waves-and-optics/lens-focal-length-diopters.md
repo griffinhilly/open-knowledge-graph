@@ -12,7 +12,7 @@ tags:
 - lenses
 - optics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Lens Focal Length and Optical Power

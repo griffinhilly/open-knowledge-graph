@@ -14,7 +14,7 @@ tags:
 - long-running
 - consistency
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Saga Pattern for Long-Running Distributed Transactions

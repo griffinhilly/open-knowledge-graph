@@ -14,7 +14,7 @@ tags:
 - social-reproduction
 - inequality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gender and Spatial Social Reproduction

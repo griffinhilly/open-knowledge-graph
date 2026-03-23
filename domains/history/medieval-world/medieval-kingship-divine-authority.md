@@ -19,7 +19,7 @@ tags:
 - legitimacy
 - rule
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Medieval Kingship and Divine Authority

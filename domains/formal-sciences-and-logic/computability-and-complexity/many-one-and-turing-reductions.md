@@ -13,7 +13,7 @@ tags:
 - hardness
 - decidability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Many-One and Turing Reducibility

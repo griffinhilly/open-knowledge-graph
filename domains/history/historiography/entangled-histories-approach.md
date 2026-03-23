@@ -13,7 +13,7 @@ tags:
 - connected history
 - transnational
 stage: expert
-status: draft
+status: validated
 ---
 
 # Entangled and Connected Histories

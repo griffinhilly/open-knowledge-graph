@@ -15,7 +15,7 @@ tags:
 - automorphism
 - field-automorphism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Galois Groups

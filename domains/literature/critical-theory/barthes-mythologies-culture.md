@@ -21,7 +21,7 @@ tags:
 - ideology
 - connotation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Barthes' Mythologies: Reading Culture Semiologically

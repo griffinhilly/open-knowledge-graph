@@ -19,7 +19,7 @@ tags:
 - certificate
 - hard
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Complexity Class NP: Nondeterministic Polynomial Time

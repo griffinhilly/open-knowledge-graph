@@ -15,7 +15,7 @@ tags:
 - valuation
 - corporate-policy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Dividend Policy and Valuation

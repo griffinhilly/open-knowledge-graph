@@ -14,7 +14,7 @@ tags:
 - perception
 - composition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Gestalt Grouping: Proximity and Association

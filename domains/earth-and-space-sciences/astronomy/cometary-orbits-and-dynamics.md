@@ -15,7 +15,7 @@ tags:
 - orbital-mechanics
 - small-bodies
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cometary Orbits and Dynamical Evolution

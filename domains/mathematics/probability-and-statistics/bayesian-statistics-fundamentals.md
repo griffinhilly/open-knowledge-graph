@@ -14,7 +14,7 @@ tags:
 - bayesian
 - inference
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bayesian Statistics: Prior, Posterior, Credible Intervals

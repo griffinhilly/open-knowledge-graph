@@ -18,7 +18,7 @@ tags:
 - liquid
 - solid
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # States of Matter and Phase Transitions

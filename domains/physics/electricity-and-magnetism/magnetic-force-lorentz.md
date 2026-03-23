@@ -15,7 +15,7 @@ tags:
 - magnetic
 - motion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Magnetic Force on Moving Charges (Lorentz Force)

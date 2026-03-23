@@ -16,7 +16,7 @@ tags:
 - riemann-sum
 - definition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Double Integrals: Definition and Setup

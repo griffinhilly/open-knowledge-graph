@@ -20,7 +20,7 @@ tags:
 - fluid-power
 - force-multiplication
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Hydraulic Systems in Engineering
 

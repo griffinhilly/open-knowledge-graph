@@ -17,7 +17,7 @@ tags:
 - gas-turbine
 - power-cycles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Brayton Cycle and Gas Turbine Engines

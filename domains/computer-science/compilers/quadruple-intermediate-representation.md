@@ -12,7 +12,7 @@ tags:
 - ir
 - intermediate-representation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quadruple Intermediate Representation

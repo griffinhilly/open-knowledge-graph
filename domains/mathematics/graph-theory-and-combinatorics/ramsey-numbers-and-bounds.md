@@ -13,7 +13,7 @@ tags:
 - bounds
 - probabilistic-method
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ramsey Numbers and Bounds

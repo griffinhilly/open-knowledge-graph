@@ -16,7 +16,7 @@ tags:
 - dft
 - computational
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Time-Dependent DFT for Excited States

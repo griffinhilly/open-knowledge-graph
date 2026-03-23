@@ -17,7 +17,7 @@ tags:
 - rhetoric
 - precision
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diction and Word Choice for Effect

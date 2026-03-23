@@ -16,7 +16,7 @@ tags:
 - information-theory
 - statistics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fisher Information

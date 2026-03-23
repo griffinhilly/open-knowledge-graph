@@ -13,7 +13,7 @@ tags:
 - order
 - conventions
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Order of Operations Introduction

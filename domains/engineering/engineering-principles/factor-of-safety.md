@@ -21,7 +21,7 @@ tags:
 - design-loads
 - reliability
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Factor of Safety
 

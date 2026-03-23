@@ -14,7 +14,7 @@ tags:
 - patterns
 - fives
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Skip Counting by 5s Fluency

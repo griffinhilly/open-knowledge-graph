@@ -16,7 +16,7 @@ tags:
 - ultimate-tensile-strength
 - ductility
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Yield Strength and Tensile Properties

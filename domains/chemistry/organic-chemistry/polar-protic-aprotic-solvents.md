@@ -17,7 +17,7 @@ tags:
 - hydrogen-bonding
 - nucleophilicity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Polar Protic and Aprotic Solvents in Organic Reactions

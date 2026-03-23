@@ -15,7 +15,7 @@ tags:
 - pragmatics
 - semantics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Speaker Meaning vs. Sentence Meaning

@@ -11,7 +11,7 @@ tags:
 - senses
 - description
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Observing and Describing Matter
 

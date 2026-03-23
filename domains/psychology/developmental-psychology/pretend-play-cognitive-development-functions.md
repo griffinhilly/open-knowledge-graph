@@ -15,7 +15,7 @@ tags:
 - cognitive-development
 - social-skills
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pretend Play and Cognitive Development Functions

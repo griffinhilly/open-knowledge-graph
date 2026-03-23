@@ -13,7 +13,7 @@ tags:
 - isothermal
 - work-heat
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reversible Isothermal Expansion

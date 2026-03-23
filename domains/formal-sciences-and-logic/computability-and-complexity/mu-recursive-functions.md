@@ -15,7 +15,7 @@ tags:
 - recursive-functions
 - models-of-computation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Mu-Recursive Functions

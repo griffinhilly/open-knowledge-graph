@@ -16,7 +16,7 @@ tags:
 - naturalism
 - mental-content
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Naturalizing Intentionality

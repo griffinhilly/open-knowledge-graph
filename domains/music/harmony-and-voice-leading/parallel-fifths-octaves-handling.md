@@ -15,7 +15,7 @@ tags:
 - voice-leading
 - rules
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Parallel Fifths and Octaves: Rules and Exceptions

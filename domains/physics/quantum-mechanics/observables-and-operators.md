@@ -15,7 +15,7 @@ tags:
 - observables
 - hermitian
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Observables and Quantum Operators

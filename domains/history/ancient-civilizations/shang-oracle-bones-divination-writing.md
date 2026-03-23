@@ -18,7 +18,7 @@ tags:
 - script
 - china
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Shang Oracle Bones, Divination, and Early Chinese Writing
 

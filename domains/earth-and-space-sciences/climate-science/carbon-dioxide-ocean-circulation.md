@@ -19,7 +19,7 @@ tags:
 - circulation
 - uptake
 stage: expert
-status: draft
+status: validated
 ---
 
 # Carbon Dioxide Solubility and Ocean Circulation

@@ -15,7 +15,7 @@ tags:
 - acyclic
 - dags
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Directed Acyclic Graphs (DAGs)

@@ -16,7 +16,7 @@ tags:
 - stochastic-shocks
 - policy-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # DSGE Models Framework

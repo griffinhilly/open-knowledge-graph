@@ -16,7 +16,7 @@ tags:
 - engineering
 - problem-solving
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # The Engineering Design Process
 

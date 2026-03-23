@@ -18,7 +18,7 @@ tags:
 - prefrontal
 - posterior-cortex
 stage: expert
-status: draft
+status: validated
 ---
 
 # Global Workspace Theory and Neural Implementation

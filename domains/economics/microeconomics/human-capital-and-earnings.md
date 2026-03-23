@@ -11,7 +11,7 @@ tags:
 - human capital
 - education
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Human Capital Investment and Earnings

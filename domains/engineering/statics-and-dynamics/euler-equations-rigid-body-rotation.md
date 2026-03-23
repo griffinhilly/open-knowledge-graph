@@ -15,7 +15,7 @@ tags:
 - rigid-bodies
 - dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Euler's Equations for Rigid Body Rotation

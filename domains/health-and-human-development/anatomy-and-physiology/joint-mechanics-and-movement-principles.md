@@ -16,7 +16,7 @@ tags:
 - leverage
 - range-of-motion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Joint Mechanics and Movement Principles

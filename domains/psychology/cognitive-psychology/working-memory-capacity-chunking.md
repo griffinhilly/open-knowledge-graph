@@ -16,7 +16,7 @@ tags:
 - chunking
 - limitations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Working Memory Capacity and Chunking

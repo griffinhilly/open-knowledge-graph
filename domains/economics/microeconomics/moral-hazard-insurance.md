@@ -11,7 +11,7 @@ tags:
 - incentives
 - insurance
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Moral Hazard in Insurance and Contracting

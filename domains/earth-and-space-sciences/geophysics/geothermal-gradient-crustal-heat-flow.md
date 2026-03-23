@@ -17,7 +17,7 @@ tags:
 - thermal-properties
 - interior-heat
 stage: expert
-status: draft
+status: validated
 ---
 
 # Geothermal Gradient and Crustal Heat Flow

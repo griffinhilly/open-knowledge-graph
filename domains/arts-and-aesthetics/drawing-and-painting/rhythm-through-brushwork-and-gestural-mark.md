@@ -16,7 +16,7 @@ tags:
 - mark-making
 - rhythm
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Rhythm Through Brushwork and Gestural Mark

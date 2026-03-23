@@ -13,7 +13,7 @@ tags:
 - theory
 - science
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Medieval Medicine and Humoral Theory

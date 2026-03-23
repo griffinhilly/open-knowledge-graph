@@ -15,7 +15,7 @@ tags:
 - voice-leading
 - harmony
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Jazz Voice-Leading and Smooth Chord Changes

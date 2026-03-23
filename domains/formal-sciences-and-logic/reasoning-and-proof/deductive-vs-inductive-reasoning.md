@@ -15,7 +15,7 @@ builds-toward:
   - deductive-reasoning-and-formal-proofs
 tags: [deduction, induction, reasoning-types, logic]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Deductive vs. Inductive Reasoning

@@ -18,7 +18,7 @@ tags:
 - hyperparameter
 - acquisition
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bayesian Optimization

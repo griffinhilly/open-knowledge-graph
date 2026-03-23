@@ -15,7 +15,7 @@ tags:
 - harmonic-function
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Function and Voice Leading Analysis with Roman Numerals

@@ -15,7 +15,7 @@ tags:
 - error-recovery
 - reliability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Automatic Repeat Request (ARQ)

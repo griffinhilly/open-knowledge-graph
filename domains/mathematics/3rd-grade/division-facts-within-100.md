@@ -17,7 +17,7 @@ tags:
 - fluency
 - inverse-multiplication
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Division Facts Within 100

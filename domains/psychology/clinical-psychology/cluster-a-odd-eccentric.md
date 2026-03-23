@@ -13,7 +13,7 @@ tags:
 - schizoid
 - schizotypal
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cluster A Personality Disorders: Odd and Eccentric

@@ -18,7 +18,7 @@ tags:
 - nature
 - shepherd
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pastoral Poetry

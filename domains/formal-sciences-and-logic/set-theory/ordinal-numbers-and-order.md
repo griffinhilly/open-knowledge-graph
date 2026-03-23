@@ -18,7 +18,7 @@ tags:
 - limit ordinals
 - successor ordinals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ordinal Numbers and Order

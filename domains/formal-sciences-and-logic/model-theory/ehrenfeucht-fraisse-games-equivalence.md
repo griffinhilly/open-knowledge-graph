@@ -12,7 +12,7 @@ tags:
 - game characterization
 - finite approximation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ehrenfeucht-Fraïssé Games and Elementary Equivalence

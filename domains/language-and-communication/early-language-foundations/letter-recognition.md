@@ -13,7 +13,7 @@ tags:
 - literacy-foundations
 - visual-discrimination
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Letter Recognition

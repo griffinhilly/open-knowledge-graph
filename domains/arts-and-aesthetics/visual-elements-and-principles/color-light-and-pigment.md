@@ -14,7 +14,7 @@ tags:
 - pigment
 - color-theory
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Color: Light and Pigment

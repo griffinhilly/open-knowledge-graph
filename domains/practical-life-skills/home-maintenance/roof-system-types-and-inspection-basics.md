@@ -17,7 +17,7 @@ tags:
 - inspection
 - systems
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Roof System Types and Inspection Basics

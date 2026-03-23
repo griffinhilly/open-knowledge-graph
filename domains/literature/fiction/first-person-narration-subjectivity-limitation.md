@@ -18,7 +18,7 @@ tags:
 - subjectivity
 - limitation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # First-Person Narration: Subjectivity and Limitation

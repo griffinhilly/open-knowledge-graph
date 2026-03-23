@@ -17,7 +17,7 @@ tags:
 - addressing
 - organization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memory Array Organization and Access

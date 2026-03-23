@@ -15,7 +15,7 @@ tags:
 - filtering
 - evaporating
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Separating Mixtures: Filtering and Evaporating
 

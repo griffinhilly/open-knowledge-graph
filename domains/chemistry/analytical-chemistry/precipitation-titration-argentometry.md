@@ -19,7 +19,7 @@ tags:
 - silver-nitrate
 - titration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Precipitation Titration: Argentometry and Related Methods

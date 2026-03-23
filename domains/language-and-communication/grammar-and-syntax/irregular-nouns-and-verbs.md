@@ -13,7 +13,7 @@ tags:
 - nouns
 - verbs
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Irregular Nouns and Verbs

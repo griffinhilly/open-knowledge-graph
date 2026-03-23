@@ -28,7 +28,7 @@ tags:
 - colimit formula
 - universal construction
 stage: expert
-status: draft
+status: validated
 ---
 # Kan Extensions
 

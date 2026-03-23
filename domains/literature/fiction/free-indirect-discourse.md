@@ -21,7 +21,7 @@ tags:
 - technique
 - modernism
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Free Indirect Discourse: Blending Voices
 

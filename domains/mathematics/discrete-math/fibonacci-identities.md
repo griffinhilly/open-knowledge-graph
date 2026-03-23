@@ -13,7 +13,7 @@ tags:
 - identities
 - fibonacci
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fibonacci Identities and Relations

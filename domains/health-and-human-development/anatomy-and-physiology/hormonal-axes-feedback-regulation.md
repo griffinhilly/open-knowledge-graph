@@ -20,7 +20,7 @@ tags:
 - negative-feedback
 - homeostasis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hormonal Axes and Negative Feedback Regulation

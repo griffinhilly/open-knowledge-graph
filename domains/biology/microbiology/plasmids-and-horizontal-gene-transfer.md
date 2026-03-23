@@ -17,7 +17,7 @@ tags:
 - conjugation
 - bacterial-genetics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Plasmids and Mechanisms of Horizontal Gene Transfer

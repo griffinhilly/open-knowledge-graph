@@ -15,7 +15,7 @@ tags:
 - gravitation
 - physics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Newton's Laws of Motion and Universal Gravitation

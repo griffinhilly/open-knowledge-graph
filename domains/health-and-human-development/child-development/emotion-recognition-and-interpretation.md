@@ -18,7 +18,7 @@ tags:
 - facial-recognition
 - affective-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Emotion Recognition and Interpretation

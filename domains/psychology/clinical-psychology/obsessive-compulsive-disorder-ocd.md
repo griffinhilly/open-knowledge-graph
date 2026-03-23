@@ -16,7 +16,7 @@ tags:
 - obsessions
 - compulsions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Obsessive-Compulsive Disorder

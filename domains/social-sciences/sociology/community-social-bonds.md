@@ -20,7 +20,7 @@ tags:
 - belonging
 - alienation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Community and Social Bonds: Gemeinschaft and Gesellschaft

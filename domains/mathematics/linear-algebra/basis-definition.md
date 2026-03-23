@@ -16,7 +16,7 @@ tags:
 - vector spaces
 - linear combinations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Basis of a Vector Space

@@ -11,7 +11,7 @@ tags:
 - multiple-regression
 - multivariate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Introduction to Multiple Linear Regression

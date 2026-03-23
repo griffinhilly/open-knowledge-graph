@@ -14,7 +14,7 @@ tags:
 - rendering
 - values
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Portrait Skin Rendering and Values

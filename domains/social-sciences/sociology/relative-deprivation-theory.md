@@ -15,7 +15,7 @@ tags:
 - social-unrest
 - stouffer
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Relative Deprivation and Social Discontent

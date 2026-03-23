@@ -17,7 +17,7 @@ tags:
 - population
 - fecundity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Age-Structured Demography and Fecundity

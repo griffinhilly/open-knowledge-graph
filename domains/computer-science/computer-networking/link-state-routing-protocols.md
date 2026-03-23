@@ -16,7 +16,7 @@ tags:
 - dijkstra
 - flooding
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Link-State Routing Protocols

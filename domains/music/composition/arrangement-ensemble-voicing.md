@@ -14,7 +14,7 @@ tags:
 - ensemble
 - transcription
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Arranging for Ensemble: Voicing and Transcription

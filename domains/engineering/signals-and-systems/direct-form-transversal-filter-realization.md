@@ -15,7 +15,7 @@ tags:
 - direct-form
 - transversal
 stage: expert
-status: draft
+status: validated
 ---
 
 # Direct Form and Transversal Filter Realizations

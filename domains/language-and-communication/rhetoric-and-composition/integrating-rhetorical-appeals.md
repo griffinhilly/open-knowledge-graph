@@ -20,7 +20,7 @@ tags:
 - logos
 - rhetoric
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Integrating Rhetorical Appeals in Composition

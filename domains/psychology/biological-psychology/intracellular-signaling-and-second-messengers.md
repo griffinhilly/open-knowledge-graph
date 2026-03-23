@@ -25,7 +25,7 @@ tags:
 - calcium
 - kinases
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Intracellular Signaling and Second Messengers

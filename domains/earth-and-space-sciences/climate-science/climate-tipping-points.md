@@ -19,7 +19,7 @@ tags:
 - critical-transitions
 - instability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Climate Tipping Points and Critical Transitions

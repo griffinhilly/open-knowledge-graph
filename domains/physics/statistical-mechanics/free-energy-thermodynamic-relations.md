@@ -20,7 +20,7 @@ tags:
 - gibbs
 - thermodynamic-potentials
 stage: expert
-status: draft
+status: validated
 ---
 
 # Free Energy and Thermodynamic Relations from Partition Functions

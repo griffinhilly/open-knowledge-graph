@@ -17,7 +17,7 @@ tags:
 - surveillance
 - amr
 stage: expert
-status: draft
+status: validated
 ---
 
 # Antimicrobial Resistance Control Strategies

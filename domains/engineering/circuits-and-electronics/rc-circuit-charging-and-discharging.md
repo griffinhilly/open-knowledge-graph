@@ -18,7 +18,7 @@ tags:
 - RC-circuits
 - exponential-decay
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # RC Circuit Charging and Discharging

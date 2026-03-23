@@ -19,7 +19,7 @@ tags:
 - common-mode
 - long-tailed-pair
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Differential Amplifier Circuits

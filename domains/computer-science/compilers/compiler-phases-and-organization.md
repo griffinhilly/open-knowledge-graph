@@ -16,7 +16,7 @@ tags:
 - architecture
 - phases
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Compiler Phases and Organization

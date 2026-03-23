@@ -16,7 +16,7 @@ tags:
 - t2
 - hausdorff
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Separation Axioms: T₀, T₁, and T₂ (Hausdorff)

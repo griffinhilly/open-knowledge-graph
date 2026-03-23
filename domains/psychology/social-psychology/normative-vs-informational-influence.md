@@ -18,7 +18,7 @@ tags:
 - mechanisms
 - psychology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Normative vs. Informational Influence

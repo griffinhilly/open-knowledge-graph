@@ -15,7 +15,7 @@ tags:
 - operations
 - scaling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Scalar Multiplication of Vectors

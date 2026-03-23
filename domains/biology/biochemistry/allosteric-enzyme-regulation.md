@@ -21,7 +21,7 @@ tags:
 - conformational change
 - feedback inhibition
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Allosteric Enzyme Regulation

@@ -16,7 +16,7 @@ tags:
 - caribbean
 - plantation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Caribbean Sugar Colonies

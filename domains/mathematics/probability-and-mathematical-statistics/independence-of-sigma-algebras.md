@@ -16,7 +16,7 @@ tags:
 - sigma-algebras
 - events
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Independence of Sigma-Algebras

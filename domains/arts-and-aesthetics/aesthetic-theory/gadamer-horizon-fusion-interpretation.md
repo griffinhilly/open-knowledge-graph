@@ -18,7 +18,7 @@ tags:
 - understanding
 - dialogue
 stage: expert
-status: draft
+status: validated
 ---
 
 # Gadamer: Horizon Fusion and Interpretation

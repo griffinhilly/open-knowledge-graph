@@ -14,7 +14,7 @@ tags:
 - systems
 - adaptation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Functionalism in Anthropology

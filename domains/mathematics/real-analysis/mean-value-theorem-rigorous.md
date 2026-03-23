@@ -16,7 +16,7 @@ tags:
 - derivative
 - intermediate-point
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Mean Value Theorem (Rigorous)

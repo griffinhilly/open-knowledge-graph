@@ -13,7 +13,7 @@ tags:
 - aphasia
 - dissociations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Aphasia and Language Dissociations

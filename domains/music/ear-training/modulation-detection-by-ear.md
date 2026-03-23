@@ -17,7 +17,7 @@ tags:
 - key-change
 - harmonic-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Modulation Detection by Ear

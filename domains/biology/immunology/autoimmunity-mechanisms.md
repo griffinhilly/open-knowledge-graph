@@ -13,7 +13,7 @@ tags:
 - autoimmunity
 - tolerance-breakdown
 stage: expert
-status: draft
+status: validated
 ---
 
 # Autoimmunity and Autoimmune Disease

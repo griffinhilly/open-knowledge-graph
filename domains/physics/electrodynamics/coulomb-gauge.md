@@ -14,7 +14,7 @@ tags:
 - coulomb-gauge
 - instantaneous-interaction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Coulomb Gauge

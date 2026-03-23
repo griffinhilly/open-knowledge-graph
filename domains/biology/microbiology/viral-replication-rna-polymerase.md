@@ -15,7 +15,7 @@ tags:
 - replication
 - polymerase
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # RNA Virus Replication: Polymerases and Strategies

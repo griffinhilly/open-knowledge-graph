@@ -17,7 +17,7 @@ tags:
 - reusability
 - atomic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Modular Design Systems

@@ -11,7 +11,7 @@ tags:
 - energy
 - harmonic-oscillator
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Zero-Point Energy

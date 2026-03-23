@@ -14,7 +14,7 @@ tags:
 - graph-characterization
 - theorems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Degree Sequences and the Erdős–Gallai Theorem

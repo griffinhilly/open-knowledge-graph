@@ -16,7 +16,7 @@ tags:
 - taste
 - touch
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # The Five Senses

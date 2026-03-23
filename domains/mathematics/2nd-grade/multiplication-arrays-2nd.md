@@ -15,7 +15,7 @@ tags:
 - arrays
 - rows-columns
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Multiplication and Arrays

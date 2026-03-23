@@ -17,7 +17,7 @@ tags:
 - mood
 - ssri
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Serotonin System

@@ -16,7 +16,7 @@ tags:
 - acid-base
 - conjugate-base
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Acidity of Organic Compounds and pKa Trends

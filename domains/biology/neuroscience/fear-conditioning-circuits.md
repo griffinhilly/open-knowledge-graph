@@ -17,7 +17,7 @@ tags:
 - learning
 - memory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Fear Conditioning and Circuit Plasticity

@@ -16,7 +16,7 @@ tags:
 - generic
 - Fraïssé-limit
 stage: expert
-status: draft
+status: validated
 ---
 
 # Joint Embedding Property and Universality

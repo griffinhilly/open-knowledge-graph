@@ -11,7 +11,7 @@ builds-toward:
   - fluid-balance-and-electrolytes
 tags: [nutrition, hydration, water, health]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Hydration and Water Needs

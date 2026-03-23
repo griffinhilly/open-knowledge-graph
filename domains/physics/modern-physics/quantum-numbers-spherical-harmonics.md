@@ -14,7 +14,7 @@ tags:
 - atomic-physics
 - quantum-numbers
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantum Numbers and Spherical Harmonics

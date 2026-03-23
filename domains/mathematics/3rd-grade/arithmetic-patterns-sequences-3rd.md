@@ -15,7 +15,7 @@ tags:
 - sequences
 - arithmetic
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Arithmetic Patterns and Sequences
 

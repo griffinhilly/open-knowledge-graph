@@ -15,7 +15,7 @@ tags:
 - circular motion
 - charged particles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cyclotron Motion and Frequency

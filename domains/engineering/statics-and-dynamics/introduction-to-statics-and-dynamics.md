@@ -14,7 +14,7 @@ tags:
 - equilibrium
 - motion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Introduction to Statics and Dynamics

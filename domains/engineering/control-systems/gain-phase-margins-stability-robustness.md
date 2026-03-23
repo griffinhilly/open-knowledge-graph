@@ -17,7 +17,7 @@ tags:
 - margins
 - frequency-domain
 stage: expert
-status: draft
+status: validated
 ---
 
 # Gain and Phase Margins: Stability Robustness

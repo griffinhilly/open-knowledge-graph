@@ -17,7 +17,7 @@ tags:
 - address
 - revelation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Monologue: Extended Solo Speech

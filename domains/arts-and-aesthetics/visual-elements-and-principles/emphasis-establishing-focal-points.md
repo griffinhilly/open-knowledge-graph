@@ -19,7 +19,7 @@ tags:
 - hierarchy
 - dominance
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Emphasis: Establishing Focal Points

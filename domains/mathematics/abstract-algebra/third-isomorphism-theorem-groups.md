@@ -10,7 +10,7 @@ tags:
 - isomorphism-theorem
 - normal-subgroups
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Third Isomorphism Theorem for Groups

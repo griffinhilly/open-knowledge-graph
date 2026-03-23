@@ -15,7 +15,7 @@ tags:
 - set identity
 - ZFC
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Axiom of Extensionality

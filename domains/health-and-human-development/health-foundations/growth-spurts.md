@@ -7,13 +7,13 @@ prerequisites:
   - id: skeletal-system-bones-and-joints
     type: soft
   - id: puberty-basics
-    type: hard
+    type: soft
 builds-toward:
   - puberty-and-adolescent-physical-development
   - nutrition-across-the-lifespan
 tags: [growth, development, puberty, height, nutrition]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Growth Spurts

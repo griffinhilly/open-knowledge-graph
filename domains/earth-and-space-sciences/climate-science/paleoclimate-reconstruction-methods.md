@@ -15,7 +15,7 @@ tags:
 - reconstruction-uncertainty
 - calibration-verification
 stage: expert
-status: draft
+status: validated
 ---
 
 # Statistical Methods for Paleoclimate Reconstruction

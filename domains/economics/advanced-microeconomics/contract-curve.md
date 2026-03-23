@@ -13,7 +13,7 @@ tags:
 - efficiency
 - trade
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Contract Curve

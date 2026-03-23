@@ -19,7 +19,7 @@ tags:
 - three-cell-model
 - zonal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Planetary Wind Circulation Cells and Their Drivers

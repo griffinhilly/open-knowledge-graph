@@ -15,7 +15,7 @@ tags:
 - genetic-variation
 - equilibrium
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Balancing Selection

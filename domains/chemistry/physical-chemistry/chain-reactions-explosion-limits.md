@@ -14,7 +14,7 @@ tags:
 - explosion
 - kinetics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Chain Reactions and Explosion Limits

@@ -14,7 +14,7 @@ tags:
 - frequency
 - tables
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Frequency Distributions and Contingency Tables

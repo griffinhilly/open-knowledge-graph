@@ -15,7 +15,7 @@ tags:
 - interlanguage
 - adult learning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Second Language Acquisition

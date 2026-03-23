@@ -13,7 +13,7 @@ tags:
 - binomial-coefficients
 - identities
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hockey Stick Identity

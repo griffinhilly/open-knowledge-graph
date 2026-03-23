@@ -14,7 +14,7 @@ tags:
 - planning
 - sample-size
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Margin of Error and Sample Size

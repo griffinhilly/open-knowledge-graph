@@ -13,7 +13,7 @@ tags:
 - propagation
 - lags
 stage: expert
-status: draft
+status: validated
 ---
 
 # Monetary Policy Transmission Channels

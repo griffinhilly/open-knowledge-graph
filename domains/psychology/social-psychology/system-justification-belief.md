@@ -16,7 +16,7 @@ tags:
 - legitimacy
 - status-quo-bias
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # System Justification Theory and Ideological Rationalization

@@ -17,7 +17,7 @@ tags:
 - conductance
 - linearity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ohm's Law and Resistance

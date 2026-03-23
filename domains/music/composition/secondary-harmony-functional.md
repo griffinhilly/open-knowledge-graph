@@ -18,7 +18,7 @@ tags:
 - dominants
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Secondary Harmony and Functional Extension

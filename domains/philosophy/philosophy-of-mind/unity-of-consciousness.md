@@ -18,7 +18,7 @@ tags:
 - integration
 - phenomenology
 stage: formal-systems
-status: draft
+status: validated
 ---
 # The Unity of Consciousness
 

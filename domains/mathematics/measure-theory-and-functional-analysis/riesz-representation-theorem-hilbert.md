@@ -14,7 +14,7 @@ tags:
 - hilbert-spaces
 - duality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Riesz Representation Theorem (Hilbert)

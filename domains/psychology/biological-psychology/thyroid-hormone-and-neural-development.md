@@ -21,7 +21,7 @@ tags:
 - myelination
 - cognition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thyroid Hormone and Neural Development and Function

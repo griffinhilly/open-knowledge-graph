@@ -15,7 +15,7 @@ tags:
 - unit-fractions
 - equal-parts
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Unit Fractions: Halves, Thirds, Fourths

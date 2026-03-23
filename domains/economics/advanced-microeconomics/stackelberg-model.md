@@ -17,7 +17,7 @@ tags:
 - sequential-games
 - first-mover-advantage
 stage: expert
-status: draft
+status: validated
 ---
 
 # Stackelberg Competition

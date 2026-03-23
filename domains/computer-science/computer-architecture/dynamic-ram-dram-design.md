@@ -16,7 +16,7 @@ tags:
 - refresh
 - timing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dynamic RAM (DRAM) Organization and Refresh Cycles

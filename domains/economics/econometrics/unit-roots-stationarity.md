@@ -19,7 +19,7 @@ tags:
 - unit-roots
 - stationarity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Unit Roots and Testing for Stationarity

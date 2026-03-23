@@ -14,7 +14,7 @@ tags:
 - narrative
 - constructed
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metafiction: Narrative Self-Awareness

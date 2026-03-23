@@ -16,7 +16,7 @@ tags:
 - value
 - technique
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Value Studies and Tonal Range

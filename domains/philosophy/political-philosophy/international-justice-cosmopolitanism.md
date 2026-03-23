@@ -12,7 +12,7 @@ tags:
 - cosmopolitanism
 - global-justice
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # International Justice and Cosmopolitanism

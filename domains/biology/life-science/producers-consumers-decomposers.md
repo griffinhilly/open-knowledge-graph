@@ -22,7 +22,7 @@ tags:
 - consumers
 - decomposers
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Producers, Consumers, and Decomposers
 

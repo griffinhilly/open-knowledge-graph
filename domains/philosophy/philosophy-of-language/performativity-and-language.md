@@ -16,7 +16,7 @@ tags:
 - social-ontology
 - language
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Performativity and Language Beyond Austin

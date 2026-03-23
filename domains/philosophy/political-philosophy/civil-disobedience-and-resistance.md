@@ -17,7 +17,7 @@ tags:
 - justice
 - nonviolence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Civil Disobedience and Just Resistance

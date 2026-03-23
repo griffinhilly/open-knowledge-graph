@@ -16,7 +16,7 @@ tags:
 - industry
 - recording
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Popular Music and Mass Media

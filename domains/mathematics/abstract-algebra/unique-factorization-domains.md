@@ -14,7 +14,7 @@ tags:
 - irreducible
 - prime
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Unique Factorization Domains

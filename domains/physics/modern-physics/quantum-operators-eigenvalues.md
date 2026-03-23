@@ -13,7 +13,7 @@ tags:
 - quantum-mechanics
 - operators
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantum Operators and Eigenvalues

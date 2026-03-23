@@ -20,7 +20,7 @@ tags:
 - health
 - diet
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Food Groups and Creating Nutritious Meals

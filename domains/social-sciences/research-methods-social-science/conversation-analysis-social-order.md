@@ -11,7 +11,7 @@ tags:
 - interaction
 - turn-taking
 stage: expert
-status: draft
+status: validated
 ---
 
 # Conversation Analysis: Order in Interaction

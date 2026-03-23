@@ -16,7 +16,7 @@ tags:
 - interpretation
 - access
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Point of View and Its Interpretive Effects

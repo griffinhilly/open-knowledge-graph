@@ -14,7 +14,7 @@ tags:
 - mathematics
 - perspective
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linear Perspective: Mathematics and Renaissance Art

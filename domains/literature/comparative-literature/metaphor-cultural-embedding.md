@@ -26,7 +26,7 @@ tags:
 - culture
 - language
 stage: expert
-status: draft
+status: validated
 ---
 
 # Metaphor and Cultural Semantics: The Untranslatable in Meaning

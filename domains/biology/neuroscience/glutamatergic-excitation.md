@@ -14,7 +14,7 @@ tags:
 - excitation
 - plasticity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Glutamatergic Excitation: Information Transfer and Synaptic Plasticity

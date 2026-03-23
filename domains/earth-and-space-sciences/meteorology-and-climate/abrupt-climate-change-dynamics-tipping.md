@@ -16,7 +16,7 @@ tags:
 - tipping-points
 - nonlinear
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Abrupt Climate Change and Tipping Point Dynamics

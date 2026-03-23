@@ -14,7 +14,7 @@ tags:
 - classification
 - stellar-properties
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stellar Spectra and Spectral Classification

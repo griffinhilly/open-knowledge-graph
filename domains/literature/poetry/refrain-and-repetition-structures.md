@@ -14,7 +14,7 @@ tags:
 - structure
 - musicality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Refrain and Repetition Structures

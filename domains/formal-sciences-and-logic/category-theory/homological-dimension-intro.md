@@ -18,7 +18,7 @@ tags:
 - dimension
 - resolutions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Homological Dimension in Categories

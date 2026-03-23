@@ -12,7 +12,7 @@ tags:
 - sympathetic
 - parasympathetic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Autonomic and Somatic Nervous System Anatomy

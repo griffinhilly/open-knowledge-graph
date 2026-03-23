@@ -13,7 +13,7 @@ tags:
 - maintenance
 - surfaces
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Floor Types and Maintenance

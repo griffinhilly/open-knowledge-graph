@@ -13,7 +13,7 @@ tags:
 - cognitive-development
 - creativity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pretend Play and Cognitive Flexibility

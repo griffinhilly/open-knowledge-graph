@@ -17,7 +17,7 @@ tags:
 - necessity
 - semantics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Modal Semantics and Possible Worlds

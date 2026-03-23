@@ -14,7 +14,7 @@ tags:
 - prime-number-theorem
 - analytic-number-theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Distribution of Primes and the Prime Number Theorem

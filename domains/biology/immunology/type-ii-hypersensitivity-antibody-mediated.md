@@ -13,7 +13,7 @@ tags:
 - type-ii
 - cytotoxic
 stage: expert
-status: draft
+status: validated
 ---
 
 # Type II Hypersensitivity: Antibody-Mediated Cytotoxic Reactions

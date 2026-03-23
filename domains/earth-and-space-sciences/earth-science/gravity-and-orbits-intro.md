@@ -4,7 +4,7 @@ title: Introduction to Gravity and Orbits
 domain: earth-and-space-sciences
 course: earth-science
 prerequisites:
-- id: solar-system-intro
+- id: planets-in-our-solar-system
   type: hard
 - id: inner-vs-outer-planets
   type: soft
@@ -18,7 +18,7 @@ tags:
 - newton
 - falling
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Introduction to Gravity and Orbits

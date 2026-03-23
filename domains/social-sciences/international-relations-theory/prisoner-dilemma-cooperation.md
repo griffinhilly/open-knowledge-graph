@@ -17,7 +17,7 @@ tags:
 - cooperation
 - dilemma
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Prisoner's Dilemma in International Cooperation

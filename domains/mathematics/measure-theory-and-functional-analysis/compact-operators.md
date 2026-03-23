@@ -14,7 +14,7 @@ tags:
 - operators
 - spectral-theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Compact Operators

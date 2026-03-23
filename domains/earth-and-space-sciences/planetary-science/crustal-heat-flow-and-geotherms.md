@@ -17,7 +17,7 @@ tags:
 - temperature-profile
 - crustal-structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Crustal Heat Flow and Planetary Geothermal Gradients

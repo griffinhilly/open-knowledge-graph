@@ -15,7 +15,7 @@ tags:
 - features
 - minimalism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Feature Agreement and Checking

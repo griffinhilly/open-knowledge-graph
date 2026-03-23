@@ -17,7 +17,7 @@ tags:
 - cell-communication
 - effector-molecules
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cytokines and Chemokines in Immune Signaling

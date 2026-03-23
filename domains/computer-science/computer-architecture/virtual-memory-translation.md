@@ -15,7 +15,7 @@ tags:
 - paging
 - address-translation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Virtual Memory Address Translation and Page Tables

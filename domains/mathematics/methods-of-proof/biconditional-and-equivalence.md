@@ -14,7 +14,7 @@ tags:
 - if-and-only-if
 - iff
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Biconditional Statements and Equivalence

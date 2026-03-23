@@ -19,7 +19,7 @@ tags:
 - form
 - cross-cultural
 stage: expert
-status: draft
+status: validated
 ---
 
 # Narrative Structures Across Cultures and Periods

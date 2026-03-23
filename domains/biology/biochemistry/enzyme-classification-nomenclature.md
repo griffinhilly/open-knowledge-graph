@@ -17,7 +17,7 @@ tags:
 - catalysis
 - enzyme naming
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Enzyme Classification and Nomenclature

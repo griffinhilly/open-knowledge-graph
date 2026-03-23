@@ -13,7 +13,7 @@ tags:
 - nonverbal
 - virtual
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Eye Contact and Audience Connection

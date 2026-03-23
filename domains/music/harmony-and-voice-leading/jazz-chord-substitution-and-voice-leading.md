@@ -16,7 +16,7 @@ tags:
 - tritone-sub
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Jazz Chord Substitution and Smooth Voice Leading

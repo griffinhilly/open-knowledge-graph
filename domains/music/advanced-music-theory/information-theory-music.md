@@ -25,7 +25,7 @@ tags:
 - mathematics
 - perception
 stage: expert
-status: draft
+status: validated
 ---
 
 # Information Theory in Music

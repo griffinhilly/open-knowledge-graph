@@ -13,7 +13,7 @@ tags:
 - cities
 - social-problems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Urbanization and Urban Social Life

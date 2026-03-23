@@ -14,7 +14,7 @@ tags:
 - time-frequency
 - decomposition
 stage: expert
-status: draft
+status: validated
 ---
 
 # Wavelet Transform and Multiresolution Analysis

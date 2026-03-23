@@ -25,7 +25,7 @@ tags:
 - coulometry
 - conductometry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Electroanalytical Methods Overview

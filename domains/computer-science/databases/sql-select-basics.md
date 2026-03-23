@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: primary-and-foreign-keys
   type: soft
-- id: boolean-logic-programming
+- id: boolean-logic
   type: soft
 - id: relational-algebra
   type: soft

@@ -17,7 +17,7 @@ tags:
 - alcohol
 - hydride
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reduction of Carbonyls to Alcohols

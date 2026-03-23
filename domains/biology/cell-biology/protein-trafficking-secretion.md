@@ -12,7 +12,7 @@ tags:
 - signal-sequences
 - vesicular-transport
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Protein Trafficking and Secretory Pathways

@@ -21,7 +21,7 @@ tags:
 - metal ions
 - vitamins
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Enzyme Cofactors and Coenzymes

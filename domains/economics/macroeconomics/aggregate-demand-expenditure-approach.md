@@ -20,7 +20,7 @@ tags:
 - consumption
 - investment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Aggregate Demand: The Expenditure Approach

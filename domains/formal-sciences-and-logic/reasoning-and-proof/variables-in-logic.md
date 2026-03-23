@@ -6,7 +6,7 @@ course: reasoning-and-proof
 prerequisites:
   - id: what-is-an-argument
     type: hard
-  - id: variables-and-expressions
+  - id: variable-expressions
     type: soft
 builds-toward:
   - conditional-statements-formal
@@ -14,7 +14,7 @@ builds-toward:
   - propositional-logic-introduction
 tags: [variables, propositions, abstraction, logic]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Variables in Logic

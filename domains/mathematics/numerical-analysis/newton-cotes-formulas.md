@@ -16,7 +16,7 @@ tags:
 - newton-cotes
 - integration
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Newton-Cotes Quadrature Formulas

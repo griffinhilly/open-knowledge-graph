@@ -19,7 +19,7 @@ tags:
 - uncertainty
 - reconstruction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Paleoclimate Proxy Interpretation and Uncertainty

@@ -25,7 +25,7 @@ tags:
 - transposition
 - inversion
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pitch-Class Set Operations

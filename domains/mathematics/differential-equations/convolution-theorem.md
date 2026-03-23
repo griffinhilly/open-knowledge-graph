@@ -15,7 +15,7 @@ tags:
 - product-rule
 - inverse-transform
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Convolution Theorem

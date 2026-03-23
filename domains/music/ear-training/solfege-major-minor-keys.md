@@ -23,7 +23,7 @@ tags:
 - audiation
 - movable-do
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Solfège Training in Major and Minor Keys
 

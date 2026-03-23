@@ -17,7 +17,7 @@ tags:
 - closed-systems
 - energy-balance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # First Law for Control Mass Systems

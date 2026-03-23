@@ -17,7 +17,7 @@ tags:
 - exchange
 - kinship-systems
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Marriage Exchange Systems and Alliance

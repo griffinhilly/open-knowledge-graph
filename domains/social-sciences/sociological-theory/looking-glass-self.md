@@ -16,7 +16,7 @@ tags:
 - identity
 - interaction
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Looking-Glass Self

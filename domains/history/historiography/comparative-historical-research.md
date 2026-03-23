@@ -17,7 +17,7 @@ tags:
 - causation
 - patterns
 stage: expert
-status: draft
+status: validated
 ---
 
 # Comparative Methods in Historical Analysis

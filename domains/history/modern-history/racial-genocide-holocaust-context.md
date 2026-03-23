@@ -16,7 +16,7 @@ tags:
 - racial-ideology
 - war-crimes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Racial Ideology, Genocide, and the Holocaust

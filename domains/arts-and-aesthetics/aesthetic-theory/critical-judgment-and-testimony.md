@@ -19,7 +19,7 @@ tags:
 - authority
 - expertise
 stage: expert
-status: draft
+status: validated
 ---
 # Critical Judgment and Aesthetic Testimony
 

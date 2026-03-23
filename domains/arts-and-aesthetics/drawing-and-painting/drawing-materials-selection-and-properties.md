@@ -15,7 +15,7 @@ tags:
 - technique
 - tools
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Drawing Materials: Selection and Properties

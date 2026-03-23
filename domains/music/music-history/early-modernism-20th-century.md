@@ -15,7 +15,7 @@ tags:
 - serialism
 - avant-garde
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Early Modernism: Atonality, Serialism, and Radical Innovation

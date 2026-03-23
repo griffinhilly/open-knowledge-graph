@@ -15,7 +15,7 @@ tags:
 - transpose
 - symmetric
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Matrix Transpose

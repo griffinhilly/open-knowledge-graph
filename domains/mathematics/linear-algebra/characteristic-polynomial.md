@@ -11,7 +11,7 @@ tags:
 - diagonalization
 - eigenvalues
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Characteristic Polynomial and Diagonalization

@@ -16,7 +16,7 @@ tags:
 - culture
 - society
 stage: expert
-status: draft
+status: validated
 ---
 
 # Historical Consciousness and Historical Culture

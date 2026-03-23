@@ -17,7 +17,7 @@ tags:
 - invertibility
 - bijections
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Injective, Surjective, and Bijective Functions

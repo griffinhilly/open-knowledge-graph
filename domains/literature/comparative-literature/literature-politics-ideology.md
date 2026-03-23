@@ -19,7 +19,7 @@ tags:
 - critique
 - power
 stage: expert
-status: draft
+status: validated
 ---
 
 # Literature, Politics, and Ideological Critique

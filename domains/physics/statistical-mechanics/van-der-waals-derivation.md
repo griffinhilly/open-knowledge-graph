@@ -15,7 +15,7 @@ tags:
 - interactions
 - mean-field
 stage: expert
-status: draft
+status: validated
 ---
 
 # Van der Waals Equation from Statistical Mechanics

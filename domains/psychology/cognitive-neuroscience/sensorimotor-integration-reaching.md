@@ -13,7 +13,7 @@ tags:
 - action
 - reaching
 stage: expert
-status: draft
+status: validated
 ---
 
 # Sensorimotor Integration and Reaching

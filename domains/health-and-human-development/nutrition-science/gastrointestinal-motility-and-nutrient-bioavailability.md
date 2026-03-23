@@ -18,7 +18,7 @@ tags:
 - bioavailability
 - digestive-function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gastrointestinal Motility and Nutrient Bioavailability

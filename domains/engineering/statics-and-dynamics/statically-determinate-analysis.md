@@ -15,7 +15,7 @@ tags:
 - internal forces
 - constraints
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Statically Determinate Systems Analysis

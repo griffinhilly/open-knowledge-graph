@@ -19,7 +19,7 @@ tags:
 - ocean-circulation
 - ice-sheet-dynamics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mechanisms of Abrupt Climate Change

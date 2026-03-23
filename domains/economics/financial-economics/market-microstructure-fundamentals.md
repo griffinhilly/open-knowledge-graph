@@ -15,7 +15,7 @@ tags:
 - trading
 - mechanics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Market Microstructure Fundamentals

@@ -13,7 +13,7 @@ tags:
 - space-complexity
 - resource-bounded
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Space Hierarchy Theorem

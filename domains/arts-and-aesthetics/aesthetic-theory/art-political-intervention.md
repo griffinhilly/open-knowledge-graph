@@ -19,7 +19,7 @@ tags:
 - art
 - aesthetics
 stage: expert
-status: draft
+status: validated
 ---
 # Art as Political Intervention
 

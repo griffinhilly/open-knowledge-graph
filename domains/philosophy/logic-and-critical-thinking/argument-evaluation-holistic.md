@@ -17,7 +17,7 @@ tags:
 - assessment
 - reasoning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Argument Evaluation Holistic

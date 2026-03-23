@@ -16,7 +16,7 @@ tags:
 - market-clearing
 - surplus-shortage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Market Equilibrium: Supply Meets Demand

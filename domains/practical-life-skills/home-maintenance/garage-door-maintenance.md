@@ -15,7 +15,7 @@ tags:
 - safety
 - lubrication
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Garage Door Maintenance

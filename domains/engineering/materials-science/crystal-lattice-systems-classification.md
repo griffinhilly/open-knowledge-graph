@@ -17,7 +17,7 @@ tags:
 - cubic
 - hexagonal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Crystal Lattice Systems and Classification

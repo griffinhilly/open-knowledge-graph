@@ -17,7 +17,7 @@ tags:
 - habitability
 - accretion
 stage: expert
-status: draft
+status: validated
 ---
 
 # Planetary Water Inventory and Volatile Delivery

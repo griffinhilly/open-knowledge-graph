@@ -22,7 +22,7 @@ tags:
 - foundational
 - theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hermeneutics and Interpretation Theory

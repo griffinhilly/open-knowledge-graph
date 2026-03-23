@@ -24,7 +24,7 @@ tags:
 - character-voice
 - interiority
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Monologue and Soliloquy Craft

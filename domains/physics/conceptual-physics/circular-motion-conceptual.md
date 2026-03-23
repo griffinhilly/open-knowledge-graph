@@ -16,7 +16,7 @@ tags:
 - centripetal
 - inertia
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Circular Motion
 

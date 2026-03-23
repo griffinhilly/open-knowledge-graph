@@ -19,7 +19,7 @@ tags:
 - homozygous-recessive
 - gamete-frequency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Test Crosses: Determining Unknown Genotypes

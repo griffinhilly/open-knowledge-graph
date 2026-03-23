@@ -16,7 +16,7 @@ tags:
 - semiotics
 - iconography
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Analyzing Visual Sources and Iconography

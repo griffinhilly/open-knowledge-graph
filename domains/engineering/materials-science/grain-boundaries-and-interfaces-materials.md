@@ -16,7 +16,7 @@ tags:
 - low-angle
 - grain-size
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Grain Boundaries and Interfaces

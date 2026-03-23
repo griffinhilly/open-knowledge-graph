@@ -20,7 +20,7 @@ tags:
 - wave-equation
 - propagation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Derivation of the Electromagnetic Wave Equation

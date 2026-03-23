@@ -11,7 +11,7 @@ tags:
 - algorithms
 - computational
 stage: expert
-status: draft
+status: validated
 ---
 
 # Computational Parsing Algorithms and Complexity

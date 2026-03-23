@@ -17,7 +17,7 @@ tags:
 - disease
 - bacterial-factors
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bacterial Virulence Factors and Pathogenic Mechanisms

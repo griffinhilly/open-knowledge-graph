@@ -14,7 +14,7 @@ tags:
 - causality
 - ordering
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Vector Clocks and Capturing Causality

@@ -13,7 +13,7 @@ tags:
 - plate-motion
 - reconstruction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Paleomagnetic Poles and Continental Plate Reconstruction

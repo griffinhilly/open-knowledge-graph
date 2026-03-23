@@ -15,7 +15,7 @@ tags:
 - women
 - society
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gender, Family, and Kinship in Medieval Society

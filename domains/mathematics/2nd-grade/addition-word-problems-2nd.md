@@ -15,7 +15,7 @@ tags:
 - addition
 - problem-solving
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Addition Word Problems

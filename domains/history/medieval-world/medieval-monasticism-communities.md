@@ -17,7 +17,7 @@ tags:
 - community
 - Christianity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Medieval Monasticism and Monastic Communities

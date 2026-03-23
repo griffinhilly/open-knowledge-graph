@@ -17,7 +17,7 @@ tags:
 - clauses
 - commas
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Relative Clauses: Restrictive and Nonrestrictive

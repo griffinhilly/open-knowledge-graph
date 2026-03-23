@@ -20,7 +20,7 @@ tags:
 - secretory-pathway
 - transcriptional-regulation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Plasma Cell Differentiation and Antibody Secretion

@@ -15,7 +15,7 @@ tags:
 - semantics
 - grounding
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Reference Determination: How Words Hook onto the World

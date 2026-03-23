@@ -18,7 +18,7 @@ tags:
 - scale-variants
 - harmonic-context
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Comparing Natural, Harmonic, and Melodic Minor

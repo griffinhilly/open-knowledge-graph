@@ -14,7 +14,7 @@ tags:
 - error-tolerance
 - knowledge
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fallibilism and Justified Belief

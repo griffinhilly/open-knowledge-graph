@@ -18,7 +18,7 @@ tags:
 - emphasis
 - sound
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Anaphora: Repetition at Line Beginnings

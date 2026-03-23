@@ -18,7 +18,7 @@ tags:
 - tracking
 - systems
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Financial Feedback and Monitoring Systems

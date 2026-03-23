@@ -18,7 +18,7 @@ tags:
 - biodiversity
 - ecosystem
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Coral Reef Ecosystem Structure and Diversity

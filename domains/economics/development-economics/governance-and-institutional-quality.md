@@ -15,7 +15,7 @@ tags:
 - outcomes
 - capacity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Governance Quality and Development Outcomes

@@ -12,7 +12,7 @@ tags:
 - memory
 - storage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memory, Data Storage, and Variables

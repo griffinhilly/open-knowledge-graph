@@ -16,7 +16,7 @@ tags:
 - signaling
 - pattern-recognition
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pattern Recognition Receptors (PRRs)

@@ -15,7 +15,7 @@ tags:
 - length
 - non-standard
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Measuring Length with Non-Standard Units

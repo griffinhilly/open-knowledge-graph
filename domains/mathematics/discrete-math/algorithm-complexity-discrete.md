@@ -12,7 +12,7 @@ tags:
 - space-complexity
 - asymptotic-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Algorithm Complexity and Big-O Notation

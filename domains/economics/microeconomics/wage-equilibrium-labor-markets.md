@@ -13,7 +13,7 @@ tags:
 - wages
 - equilibrium
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Wage Determination and Labor Market Equilibrium

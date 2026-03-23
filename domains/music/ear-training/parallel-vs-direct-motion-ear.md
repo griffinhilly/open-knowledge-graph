@@ -13,7 +13,7 @@ tags:
 - motion
 - intervals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Parallel vs. Direct Voice-Leading Motion by Ear

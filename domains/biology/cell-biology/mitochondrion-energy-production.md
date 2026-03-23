@@ -17,7 +17,7 @@ tags:
 - energy
 - atp
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mitochondria: Powerhouses of Energy Conversion

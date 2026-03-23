@@ -15,7 +15,7 @@ tags:
 - social-change
 - capitalism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # English Enclosure and Agricultural Transformation

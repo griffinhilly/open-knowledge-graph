@@ -15,7 +15,7 @@ tags:
 - archaeology
 - periodization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chronology and Dating Methods in the Ancient World

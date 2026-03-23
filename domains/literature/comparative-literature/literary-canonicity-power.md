@@ -19,7 +19,7 @@ tags:
 - institutions
 - canonicity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Canon, Canonicity, and Power in Literary Institutions

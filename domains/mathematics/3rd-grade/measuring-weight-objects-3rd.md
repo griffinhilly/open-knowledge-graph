@@ -13,7 +13,7 @@ tags:
 - weight
 - mass
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Measuring Weight of Objects

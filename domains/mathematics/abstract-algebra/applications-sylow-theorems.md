@@ -11,7 +11,7 @@ tags:
 - structure
 - simple-groups
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Applications of Sylow Theorems

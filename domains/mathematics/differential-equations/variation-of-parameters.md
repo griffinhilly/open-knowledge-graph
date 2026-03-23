@@ -15,7 +15,7 @@ tags:
 - variation-of-parameters
 - general-method
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Variation of Parameters Method

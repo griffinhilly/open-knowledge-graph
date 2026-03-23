@@ -17,7 +17,7 @@ tags:
 - recruitment
 - nervous system
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Motor Unit Recruitment and Force Scaling

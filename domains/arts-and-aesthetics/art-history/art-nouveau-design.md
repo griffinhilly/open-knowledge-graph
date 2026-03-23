@@ -18,7 +18,7 @@ tags:
 - industrial
 - decorative
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Art Nouveau: Bridging Aestheticism and Modernism

@@ -13,7 +13,7 @@ tags:
 - auctions
 - incentives
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Mechanism Design and Auction Theory

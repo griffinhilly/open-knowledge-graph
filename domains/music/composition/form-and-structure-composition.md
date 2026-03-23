@@ -20,7 +20,7 @@ tags:
 - composition
 - large-scale
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Large-Scale Form and Structure

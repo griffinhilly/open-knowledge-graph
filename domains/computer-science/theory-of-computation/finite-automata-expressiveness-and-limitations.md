@@ -17,7 +17,7 @@ tags:
 - non-regular
 - pumping-lemma
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Finite Automata Expressiveness and Limitations

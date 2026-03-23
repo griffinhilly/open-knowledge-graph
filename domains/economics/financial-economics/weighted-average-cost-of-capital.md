@@ -13,7 +13,7 @@ tags:
 - discount-rate
 - capital-structure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Weighted Average Cost of Capital (WACC)

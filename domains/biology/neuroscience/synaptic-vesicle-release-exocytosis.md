@@ -14,7 +14,7 @@ tags:
 - synaptic-transmission
 - exocytosis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Synaptic Vesicle Release and Exocytosis

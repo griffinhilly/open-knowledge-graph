@@ -14,7 +14,7 @@ tags:
 - place
 - literary-locations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Literary Geography and Spatial Humanities

@@ -19,7 +19,7 @@ tags:
 - RH
 - aphasia
 stage: expert
-status: draft
+status: validated
 ---
 
 # Language Lateralization and Hemisphere Dominance

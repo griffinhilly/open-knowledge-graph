@@ -1,23 +1,23 @@
 ---
-id: logical-operators-and-gates
+id: logical-operators
 title: Logical Operators and Boolean Algebra
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- id: boolean-type-and-truth-values
+- id: boolean-logic
   type: hard
-- id: comparison-operators-and-relations
+- id: comparison-operators
   type: hard
 builds-toward:
-- operator-precedence-and-evaluation
+- conditional-statements
+- else-if-chains
 tags:
 - operators
 - logic
 - boolean
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Logical Operators and Boolean Algebra
 
 ## Core Idea

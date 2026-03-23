@@ -15,7 +15,7 @@ tags:
 - reactants
 - products
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Reactants and Products
 

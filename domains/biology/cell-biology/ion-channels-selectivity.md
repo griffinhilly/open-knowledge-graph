@@ -21,7 +21,7 @@ tags:
 - gating
 - channel-proteins
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ion Channels and Selective Permeability Mechanisms

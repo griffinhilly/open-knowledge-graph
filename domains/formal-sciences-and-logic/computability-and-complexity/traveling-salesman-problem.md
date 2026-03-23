@@ -16,7 +16,7 @@ tags:
 - np-hard
 - routing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Traveling Salesman Problem (TSP)

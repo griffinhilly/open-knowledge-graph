@@ -16,7 +16,7 @@ tags:
 - calendar
 - sequencing
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Calendar Concepts: Days and Weeks

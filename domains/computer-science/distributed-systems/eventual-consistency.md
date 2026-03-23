@@ -13,7 +13,7 @@ tags:
 - weak-consistency
 - availability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Eventual Consistency

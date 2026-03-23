@@ -14,7 +14,7 @@ tags:
 - drainage
 - water
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Gutter and Water Drainage Assessment

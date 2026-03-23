@@ -13,7 +13,7 @@ tags:
 - combinatorial
 - resource-allocation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # 0/1 Knapsack Problem

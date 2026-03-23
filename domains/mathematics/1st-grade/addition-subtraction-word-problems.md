@@ -12,7 +12,7 @@ tags:
 - word-problems
 - application
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Addition and Subtraction Word Problems

@@ -16,7 +16,7 @@ tags:
 - elements
 - principles
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Visual Fundamentals: Elements and Principles

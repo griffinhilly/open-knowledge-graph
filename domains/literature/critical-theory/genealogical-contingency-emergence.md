@@ -16,7 +16,7 @@ tags:
 - emergence
 - history
 stage: expert
-status: draft
+status: validated
 ---
 
 # Genealogical Method and Contingent Emergence

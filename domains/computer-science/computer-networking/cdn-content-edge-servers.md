@@ -17,7 +17,7 @@ tags:
 - edge-computing
 - performance
 stage: advanced
-status: draft
+status: validated
 ---
 
 # CDN Architecture and Edge Server Placement

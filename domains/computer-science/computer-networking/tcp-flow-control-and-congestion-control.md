@@ -19,7 +19,7 @@ tags:
 - cwnd
 - rtt
 stage: advanced
-status: draft
+status: validated
 ---
 
 # TCP Flow Control and Congestion Control

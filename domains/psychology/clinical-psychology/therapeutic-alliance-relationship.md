@@ -15,7 +15,7 @@ tags:
 - trust
 - collaboration
 stage: expert
-status: draft
+status: validated
 ---
 
 # Therapeutic Alliance and the Helping Relationship

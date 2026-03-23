@@ -13,7 +13,7 @@ tags:
 - random-adjustment
 - monetary-policy-transmission
 stage: expert
-status: draft
+status: validated
 ---
 
 # Calvo Pricing Model

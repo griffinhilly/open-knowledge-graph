@@ -19,7 +19,7 @@ tags:
 - social-diversity
 - cultural-norms
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Subcultures and Countercultures

@@ -16,7 +16,7 @@ tags:
 - sharing
 - teamwork
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Shared Document Editing and Collaboration

@@ -13,7 +13,7 @@ tags:
 - mobile-elements
 - genomics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Transposable Elements and Evolution

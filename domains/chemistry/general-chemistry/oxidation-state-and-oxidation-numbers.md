@@ -16,7 +16,7 @@ tags:
 - redox identification
 - oxidation state rules
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Assigning Oxidation Numbers and Identifying Redox

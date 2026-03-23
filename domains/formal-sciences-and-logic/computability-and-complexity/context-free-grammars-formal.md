@@ -18,7 +18,7 @@ tags:
 - context-free-languages
 - parsing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Context-Free Grammars

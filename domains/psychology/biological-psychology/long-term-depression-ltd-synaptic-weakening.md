@@ -22,7 +22,7 @@ tags:
 - learning
 - synaptic-weakening
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Long-Term Depression (LTD): Synaptic Weakening

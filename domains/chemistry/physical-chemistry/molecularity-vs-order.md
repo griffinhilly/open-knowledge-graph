@@ -17,7 +17,7 @@ tags:
 - termolecular
 - rate-law
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Molecularity vs Reaction Order: Elementary and Complex Reactions

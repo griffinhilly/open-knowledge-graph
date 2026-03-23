@@ -16,7 +16,7 @@ tags:
 - storage
 - synaptic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memory Storage and Consolidation

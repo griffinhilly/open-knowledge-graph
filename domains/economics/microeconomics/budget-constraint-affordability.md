@@ -13,7 +13,7 @@ tags:
 - prices
 - affordability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Budget Constraint and Purchasing Power

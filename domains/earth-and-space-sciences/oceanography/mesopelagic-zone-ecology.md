@@ -19,7 +19,7 @@ tags:
 - bioluminescence
 - biomass
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mesopelagic Zone Ecology and Diel Vertical Migration

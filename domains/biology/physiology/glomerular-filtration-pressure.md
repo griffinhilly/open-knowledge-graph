@@ -18,7 +18,7 @@ tags:
 - autoregulation
 - kidney
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Glomerular Filtration Pressure and Filtration Rate

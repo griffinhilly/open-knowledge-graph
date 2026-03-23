@@ -13,7 +13,7 @@ tags:
 - avoidance
 - banker
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Deadlock Avoidance: Banker's Algorithm

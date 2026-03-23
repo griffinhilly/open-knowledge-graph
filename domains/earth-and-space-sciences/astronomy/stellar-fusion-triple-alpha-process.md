@@ -23,7 +23,7 @@ tags:
 - carbon
 - nuclear
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Triple-Alpha Process: Helium Fusion and Carbon Production

@@ -13,7 +13,7 @@ tags:
 - data
 - scaled
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Scaled Bar Graphs

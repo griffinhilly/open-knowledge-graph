@@ -16,7 +16,7 @@ tags:
 - class-consciousness
 - proletariat
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Formation and Consciousness of the Industrial Working Class

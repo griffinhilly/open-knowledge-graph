@@ -16,7 +16,7 @@ tags:
 - interaction
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Role-Taking and Self-Development

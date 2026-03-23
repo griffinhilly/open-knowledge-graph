@@ -16,7 +16,7 @@ tags:
 - france
 - edict
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Edict of Nantes

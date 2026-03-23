@@ -13,7 +13,7 @@ tags:
 - local
 - neighborhoods
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Neighborhoods and Open Sets

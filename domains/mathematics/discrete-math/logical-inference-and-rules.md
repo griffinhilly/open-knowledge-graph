@@ -14,7 +14,7 @@ tags:
 - inference
 - proofs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Logical Inference and Proof Rules

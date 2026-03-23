@@ -21,7 +21,7 @@ tags:
 - bosons
 - indistinguishability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Quantum Statistics: Fermions vs Bosons

@@ -15,7 +15,7 @@ tags:
 - measurement
 - distance
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Understanding Perimeter as a Distance Around

@@ -16,7 +16,7 @@ tags:
 - state-control
 - propaganda
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Totalitarianism and Total State Control

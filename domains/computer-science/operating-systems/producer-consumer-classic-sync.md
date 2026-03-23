@@ -13,7 +13,7 @@ tags:
 - classic-problems
 - coordination
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Producer-Consumer Problem: Classic Synchronization

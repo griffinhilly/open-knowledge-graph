@@ -13,7 +13,7 @@ tags:
 - metafiction
 - self-awareness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Genre Parody, Metafiction, and Self-Awareness

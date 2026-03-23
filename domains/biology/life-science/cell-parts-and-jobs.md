@@ -19,7 +19,7 @@ tags:
 - cell-membrane
 - cytoplasm
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Cell Parts and Their Jobs
 

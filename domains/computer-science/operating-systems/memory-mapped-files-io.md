@@ -15,7 +15,7 @@ tags:
 - files
 - io
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memory-Mapped Files and I/O

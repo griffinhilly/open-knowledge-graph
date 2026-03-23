@@ -16,7 +16,7 @@ tags:
 - antigen-presentation
 - hla
 stage: expert
-status: draft
+status: validated
 ---
 
 # Major Histocompatibility Complex Structure and Function

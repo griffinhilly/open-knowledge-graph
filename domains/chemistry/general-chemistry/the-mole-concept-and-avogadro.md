@@ -15,7 +15,7 @@ tags:
 - particle counting
 - 6.022 × 10²³
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Mole: Avogadro's Number and Counting Atoms

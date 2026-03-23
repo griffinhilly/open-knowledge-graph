@@ -15,7 +15,7 @@ tags:
 - accounts
 - credential-management
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Managing Login Credentials Securely

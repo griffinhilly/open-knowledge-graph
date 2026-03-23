@@ -16,7 +16,7 @@ tags:
 - exposure-assessment
 - validity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Exposure Measurement Error and Exposure Assessment

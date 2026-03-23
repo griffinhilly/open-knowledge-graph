@@ -19,7 +19,7 @@ tags:
 - prejudice
 - in-group-bias
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # In-Group and Out-Group Identity

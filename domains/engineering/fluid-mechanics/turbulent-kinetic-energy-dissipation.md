@@ -11,7 +11,7 @@ tags:
 - kinetic-energy
 - energy-cascade
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Turbulent Kinetic Energy: Production and Dissipation

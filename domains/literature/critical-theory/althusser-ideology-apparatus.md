@@ -19,7 +19,7 @@ tags:
 - reproduction
 - interpellation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Althusser's Ideology and Ideological State Apparatuses

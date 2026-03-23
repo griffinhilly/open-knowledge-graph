@@ -13,7 +13,7 @@ tags:
 - governance
 - life
 stage: expert
-status: draft
+status: validated
 ---
 
 # Biopolitics and Population Governance

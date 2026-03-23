@@ -17,7 +17,7 @@ tags:
 - qualitative-quantitative
 - standpoint
 stage: expert
-status: draft
+status: validated
 ---
 
 # Intersectional Analysis and Methodology

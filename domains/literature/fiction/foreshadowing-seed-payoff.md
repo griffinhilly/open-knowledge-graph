@@ -14,7 +14,7 @@ tags:
 - payoff
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Foreshadowing: Planting Seeds and Delivering Payoff

@@ -13,7 +13,7 @@ tags:
 - memory
 - comprehension
 stage: expert
-status: draft
+status: validated
 ---
 
 # Working Memory in Sentence Comprehension

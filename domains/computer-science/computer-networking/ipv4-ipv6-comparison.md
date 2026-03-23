@@ -16,7 +16,7 @@ tags:
 - address-space
 - protocol-upgrade
 stage: advanced
-status: draft
+status: validated
 ---
 
 # IPv4 vs. IPv6 Comparison

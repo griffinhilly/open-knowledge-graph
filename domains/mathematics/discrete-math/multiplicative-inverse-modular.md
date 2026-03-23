@@ -15,7 +15,7 @@ tags:
 - modular-arithmetic
 - inverses
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multiplicative Inverses in Modular Arithmetic

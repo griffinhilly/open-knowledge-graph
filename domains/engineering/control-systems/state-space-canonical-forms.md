@@ -18,7 +18,7 @@ tags:
 - controllable
 - observable
 stage: expert
-status: draft
+status: validated
 ---
 
 # State-Space Canonical Forms: Controllable and Observable Forms

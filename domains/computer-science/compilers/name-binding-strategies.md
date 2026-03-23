@@ -13,7 +13,7 @@ tags:
 - names
 - implementation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Name Binding Strategies

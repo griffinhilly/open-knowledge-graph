@@ -15,7 +15,7 @@ tags:
 - redshift
 - expansion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cosmological Redshift and the Hubble Law

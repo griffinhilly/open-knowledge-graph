@@ -14,7 +14,7 @@ tags:
 - virtual-memory
 - address-translation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memory Management: Paging and Page Tables

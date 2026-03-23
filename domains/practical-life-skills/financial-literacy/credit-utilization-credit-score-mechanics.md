@@ -20,7 +20,7 @@ tags:
 - borrowing
 - financial-health
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Credit Utilization and Credit Score Mechanics

@@ -18,7 +18,7 @@ tags:
 - aspect
 - semantics
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Temporal Semantics and Linguistic Tense
 

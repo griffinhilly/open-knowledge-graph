@@ -16,7 +16,7 @@ tags:
 - analogy
 - generalization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Knowledge Transfer and Domain Generalization

@@ -16,7 +16,7 @@ tags:
 - descriptions
 - context
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Donnellan's Referential-Attributive Distinction

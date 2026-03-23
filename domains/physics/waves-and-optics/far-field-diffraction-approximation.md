@@ -12,7 +12,7 @@ tags:
 - diffraction
 - approximation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Far-Field Diffraction and the Fraunhofer Approximation

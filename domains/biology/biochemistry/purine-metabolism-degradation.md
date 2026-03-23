@@ -15,7 +15,7 @@ tags:
 - catabolism
 - uric-acid
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Purine Degradation

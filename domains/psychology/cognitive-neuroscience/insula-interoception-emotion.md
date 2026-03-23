@@ -18,7 +18,7 @@ tags:
 - bodily-awareness
 - consciousness
 stage: expert
-status: draft
+status: validated
 ---
 
 # Insula, Interoception, and Emotional Awareness

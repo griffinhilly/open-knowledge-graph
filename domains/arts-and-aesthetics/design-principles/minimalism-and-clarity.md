@@ -19,7 +19,7 @@ tags:
 - reduction
 - focus
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Minimalism and Clarity in Design

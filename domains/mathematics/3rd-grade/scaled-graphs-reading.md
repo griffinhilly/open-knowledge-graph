@@ -16,7 +16,7 @@ tags:
 - scale
 - interpretation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Reading and Interpreting Scaled Graphs

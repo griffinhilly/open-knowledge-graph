@@ -14,7 +14,7 @@ tags:
 - conversion
 - equivalence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # NFA to DFA Conversion and Equivalence

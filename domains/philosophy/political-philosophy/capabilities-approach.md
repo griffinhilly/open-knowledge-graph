@@ -15,7 +15,7 @@ tags:
 - human-functioning
 - justice
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Capabilities Approach

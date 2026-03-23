@@ -17,7 +17,7 @@ tags:
 - strategy
 - composition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Conclusion Strategies and Purposes

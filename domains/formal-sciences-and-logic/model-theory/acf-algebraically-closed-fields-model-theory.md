@@ -25,7 +25,7 @@ tags:
 - elimination
 - decidability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Algebraically Closed Fields: Model-Theoretic Analysis

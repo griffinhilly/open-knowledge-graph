@@ -16,7 +16,7 @@ tags:
 - structural-models
 - effect-estimation
 stage: expert
-status: draft
+status: validated
 ---
 
 # G-Estimation and Structural Nested Models

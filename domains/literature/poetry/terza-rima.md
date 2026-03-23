@@ -14,7 +14,7 @@ tags:
 - rhyme
 - italian
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Terza Rima: Interlocking Tercets

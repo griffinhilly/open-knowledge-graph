@@ -13,7 +13,7 @@ tags:
 - social-choice
 - taxation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Social Welfare Maximization and Optimal Taxation

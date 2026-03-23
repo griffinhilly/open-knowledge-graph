@@ -19,7 +19,7 @@ tags:
 - organization
 - scientific-method
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Why Scientists Classify Living Things
 

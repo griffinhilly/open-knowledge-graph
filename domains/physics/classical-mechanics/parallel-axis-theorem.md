@@ -15,7 +15,7 @@ tags:
 - rotation
 - theorem
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Parallel Axis Theorem

@@ -14,7 +14,7 @@ tags:
 - oracle-bones
 - writing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Oracle Bones and Early Chinese Writing

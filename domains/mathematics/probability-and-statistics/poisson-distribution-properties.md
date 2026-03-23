@@ -12,7 +12,7 @@ tags:
 - poisson
 - rare-events
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Poisson Distribution: Rare Events and Applications

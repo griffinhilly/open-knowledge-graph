@@ -18,7 +18,7 @@ tags:
 - exothermic
 - energy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Endothermic and Exothermic Reactions
 

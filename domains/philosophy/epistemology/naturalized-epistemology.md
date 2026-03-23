@@ -16,7 +16,7 @@ tags:
 - normativity
 - replacement-thesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Naturalized Epistemology
 

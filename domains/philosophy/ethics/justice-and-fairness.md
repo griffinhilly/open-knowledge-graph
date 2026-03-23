@@ -12,7 +12,7 @@ tags:
 - fairness
 - distribution
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Justice and Fairness

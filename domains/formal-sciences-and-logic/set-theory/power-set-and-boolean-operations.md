@@ -15,7 +15,7 @@ tags:
 - boolean-algebra
 - cantor-theorem
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Power Set and Boolean Algebra Operations

@@ -15,7 +15,7 @@ tags:
 - population-rates
 - life-expectancy
 stage: expert
-status: draft
+status: validated
 ---
 # Life Table Methods and Population Survival
 

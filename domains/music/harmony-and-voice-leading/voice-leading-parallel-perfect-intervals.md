@@ -14,7 +14,7 @@ tags:
 - counterpoint
 - rules
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Avoiding Parallel Perfect Intervals

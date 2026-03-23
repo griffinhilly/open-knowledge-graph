@@ -17,7 +17,7 @@ tags:
 - method
 - reasoning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Scholastic Method and Medieval Logic

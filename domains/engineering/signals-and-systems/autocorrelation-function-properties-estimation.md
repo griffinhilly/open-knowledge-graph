@@ -15,7 +15,7 @@ tags:
 - estimation
 - properties
 stage: expert
-status: draft
+status: validated
 ---
 
 # Autocorrelation Function Properties and Estimation

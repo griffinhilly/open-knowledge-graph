@@ -15,7 +15,7 @@ tags:
 - floating-rate
 - interest-rate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Floating Rate Bonds and Variable-Coupon Debt

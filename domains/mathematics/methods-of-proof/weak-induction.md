@@ -15,7 +15,7 @@ tags:
 - induction
 - mathematical induction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Weak Induction

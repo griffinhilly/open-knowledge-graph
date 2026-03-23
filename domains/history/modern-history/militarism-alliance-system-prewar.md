@@ -15,7 +15,7 @@ tags:
 - alliances
 - international-relations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Militarism, Arms Races, and the Alliance System Before 1914

@@ -17,7 +17,7 @@ tags:
 - helium-flash
 - evolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Red Giant Branch Evolution and Helium Flash

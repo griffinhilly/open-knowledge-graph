@@ -11,7 +11,7 @@ tags:
 - impartiality
 - agent-projects
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Agent-Centered vs. Patient-Centered Ethics

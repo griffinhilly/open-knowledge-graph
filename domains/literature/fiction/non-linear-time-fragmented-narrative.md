@@ -14,7 +14,7 @@ tags:
 - flashback
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Non-Linear Time and Fragmented Narrative

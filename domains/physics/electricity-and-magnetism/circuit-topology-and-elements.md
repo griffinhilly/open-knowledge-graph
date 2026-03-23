@@ -16,7 +16,7 @@ tags:
 - network analysis
 - components
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Circuit Topology and Basic Circuit Elements

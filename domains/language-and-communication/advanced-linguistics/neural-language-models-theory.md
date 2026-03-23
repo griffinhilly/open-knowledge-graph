@@ -13,7 +13,7 @@ tags:
 - neural
 - language-models
 stage: expert
-status: draft
+status: validated
 ---
 
 # Neural Language Models and Transformers

@@ -19,7 +19,7 @@ tags:
 - evolution
 - evolution-path
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Constraints on Evolutionary Change

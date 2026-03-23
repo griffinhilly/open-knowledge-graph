@@ -15,7 +15,7 @@ tags:
 - point-groups
 - spectroscopy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Molecular Symmetry and Point Groups

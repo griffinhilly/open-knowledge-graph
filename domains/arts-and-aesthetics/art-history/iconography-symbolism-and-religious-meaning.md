@@ -17,7 +17,7 @@ tags:
 - religious-art
 - visual-codes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Iconography, Symbolism, and Religious Meaning in Art

@@ -13,7 +13,7 @@ tags:
 - sound-change
 - phonological-processes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metathesis (Sound Rearrangement)

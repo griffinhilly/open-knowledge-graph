@@ -14,7 +14,7 @@ tags:
 - sound
 - compression
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Longitudinal Wave Characteristics and Properties

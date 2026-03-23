@@ -19,7 +19,7 @@ tags:
 - climate-type
 - temperature-precipitation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Climate Classification Systems (Köppen-Geiger and Others)

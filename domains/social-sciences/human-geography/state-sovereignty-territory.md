@@ -16,7 +16,7 @@ tags:
 - borders
 - geopolitics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # State Sovereignty and Territorial Control

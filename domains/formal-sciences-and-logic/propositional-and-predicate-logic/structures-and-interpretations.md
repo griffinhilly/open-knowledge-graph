@@ -16,7 +16,7 @@ tags:
 - models
 - first-order-logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Structures and Interpretations

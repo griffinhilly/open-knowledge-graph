@@ -16,7 +16,7 @@ tags:
 - tracking-error
 - design
 stage: expert
-status: draft
+status: validated
 ---
 
 # Reference Tracking and Servo System Design

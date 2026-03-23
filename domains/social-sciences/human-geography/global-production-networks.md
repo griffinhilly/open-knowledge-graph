@@ -16,7 +16,7 @@ tags:
 - value-chains
 - labor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Global Production Networks and Value Chains

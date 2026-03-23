@@ -15,7 +15,7 @@ tags:
 - random-effects
 - between
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Between and Random Effects Estimators for Panel Data

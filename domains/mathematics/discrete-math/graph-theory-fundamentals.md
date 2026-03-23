@@ -11,7 +11,7 @@ tags:
 - graph-theory
 - fundamentals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graph Theory: Vertices, Edges, and Basic Definitions

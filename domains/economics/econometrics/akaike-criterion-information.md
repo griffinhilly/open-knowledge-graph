@@ -14,7 +14,7 @@ tags:
 - model-selection
 - information-criteria
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Information Criteria: AIC and BIC for Model Selection

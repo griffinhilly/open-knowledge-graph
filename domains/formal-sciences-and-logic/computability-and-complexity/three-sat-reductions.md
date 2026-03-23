@@ -15,7 +15,7 @@ tags:
 - graph-problems
 - hardness-proofs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # 3-SAT and Reduction-Based Hardness Proofs

@@ -17,7 +17,7 @@ tags:
 - high-resolution-paleoclimate
 - isotope-paleoclimatology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Stalagmites and Stalactites as Paleoclimate Archives

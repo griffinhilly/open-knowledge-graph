@@ -17,7 +17,7 @@ tags:
 - multimodal
 - qualitative
 stage: expert
-status: draft
+status: validated
 ---
 
 # Visual and Multimodal Ethnography

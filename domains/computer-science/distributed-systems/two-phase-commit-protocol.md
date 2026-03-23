@@ -17,7 +17,7 @@ tags:
 - protocol
 - coordinator
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Two-Phase Commit Protocol

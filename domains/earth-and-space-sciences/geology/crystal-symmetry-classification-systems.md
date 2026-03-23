@@ -15,7 +15,7 @@ tags:
 - symmetry
 - mineral-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Crystal Systems and Symmetry Classification

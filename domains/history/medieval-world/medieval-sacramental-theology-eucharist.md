@@ -17,7 +17,7 @@ tags:
 - eucharist
 - doctrine
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sacramental Theology and Eucharistic Doctrine

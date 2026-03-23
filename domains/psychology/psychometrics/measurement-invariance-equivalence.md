@@ -16,7 +16,7 @@ tags:
 - groups
 - fairness
 stage: expert
-status: draft
+status: validated
 ---
 
 # Measurement Invariance and Equivalence Across Groups

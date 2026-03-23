@@ -18,7 +18,7 @@ tags:
 - homological-algebra
 - tensor-products
 stage: expert
-status: draft
+status: validated
 ---
 
 # Tor Functors as Derived Tensor Product

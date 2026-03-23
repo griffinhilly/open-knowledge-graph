@@ -17,7 +17,7 @@ tags:
 - social-history
 - interpretation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Historical and Social Context in Art

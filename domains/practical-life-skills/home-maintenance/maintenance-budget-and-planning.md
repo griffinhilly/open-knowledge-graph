@@ -11,7 +11,7 @@ tags:
 - planning
 - scheduling
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Creating a Home Maintenance Budget and Schedule

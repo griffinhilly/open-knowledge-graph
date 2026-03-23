@@ -16,7 +16,7 @@ tags:
 - as-ad
 - quantity-adjustment
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Short-Run Equilibrium with Sticky Prices

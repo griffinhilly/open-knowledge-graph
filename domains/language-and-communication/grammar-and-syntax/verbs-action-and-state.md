@@ -12,7 +12,7 @@ tags:
 - verbs
 - verb-types
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Verbs: Action and State

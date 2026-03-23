@@ -15,7 +15,7 @@ tags:
 - damping
 - forced-vibrations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Resonance and Damping in Forced Vibrations

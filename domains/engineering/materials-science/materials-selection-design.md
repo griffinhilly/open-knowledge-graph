@@ -16,7 +16,7 @@ tags:
 - multi-objective-selection
 - material-property-charts
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Materials Selection for Design

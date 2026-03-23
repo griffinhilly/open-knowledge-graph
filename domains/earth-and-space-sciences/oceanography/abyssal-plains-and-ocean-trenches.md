@@ -14,7 +14,7 @@ tags:
 - convergent-margins
 - deep-ocean
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Abyssal Plains and Ocean Trenches: Seafloor Morphology

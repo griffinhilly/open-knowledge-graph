@@ -16,7 +16,7 @@ tags:
 - second-law
 - entropy-generation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Second Law Analysis and Minimizing Irreversibilities

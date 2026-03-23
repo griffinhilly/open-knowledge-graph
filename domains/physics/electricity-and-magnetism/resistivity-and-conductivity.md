@@ -15,7 +15,7 @@ tags:
 - conduction
 - transport properties
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Resistivity and Conductivity of Materials

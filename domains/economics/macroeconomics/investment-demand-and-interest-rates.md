@@ -19,7 +19,7 @@ tags:
 - interest-rates
 - capital
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Investment Demand and Interest Rates

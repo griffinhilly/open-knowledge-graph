@@ -17,7 +17,7 @@ tags:
 - dna-binding
 - gene-regulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transcription Factors and DNA-Binding Domains

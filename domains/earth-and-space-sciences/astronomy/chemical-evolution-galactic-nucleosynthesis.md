@@ -19,7 +19,7 @@ tags:
 - nucleosynthesis
 - metallicity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chemical Evolution of Galaxies and Stellar Nucleosynthesis

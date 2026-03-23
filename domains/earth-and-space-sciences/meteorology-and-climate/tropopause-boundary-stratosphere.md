@@ -16,7 +16,7 @@ tags:
 - stratosphere
 - temperature-inversion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Tropopause: Boundary Between Troposphere and Stratosphere

@@ -12,7 +12,7 @@ tags:
 - morphology
 - argument-structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Valency-Changing Operations

@@ -16,7 +16,7 @@ tags:
 - bridges
 - articulation-points
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Connectivity and Connected Components

@@ -19,7 +19,7 @@ tags:
 - pacing
 - tension
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Character Entrance and Exit: Dramatic Function

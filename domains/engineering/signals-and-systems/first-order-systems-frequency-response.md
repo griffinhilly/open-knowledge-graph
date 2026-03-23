@@ -13,7 +13,7 @@ tags:
 - transient-response
 - steady-state
 stage: expert
-status: draft
+status: validated
 ---
 
 # First-Order Systems and Frequency Response

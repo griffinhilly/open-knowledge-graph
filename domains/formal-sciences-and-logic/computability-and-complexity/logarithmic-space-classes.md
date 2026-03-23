@@ -13,7 +13,7 @@ tags:
 - resource-bounded
 - turing-machines
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Logarithmic Space Classes (L and NL)

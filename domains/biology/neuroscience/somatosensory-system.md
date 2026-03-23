@@ -13,7 +13,7 @@ tags:
 - touch
 - pain
 stage: expert
-status: draft
+status: validated
 ---
 
 # Somatosensory System Organization

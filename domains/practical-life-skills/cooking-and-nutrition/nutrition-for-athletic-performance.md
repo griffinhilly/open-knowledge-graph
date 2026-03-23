@@ -17,7 +17,7 @@ tags:
 - athletics
 - macronutrients
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nutrition for Athletic Performance

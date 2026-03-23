@@ -26,7 +26,7 @@ tags:
 - language
 - cultural-transfer
 stage: expert
-status: draft
+status: validated
 ---
 
 # Literary Translation: Theory and Practice

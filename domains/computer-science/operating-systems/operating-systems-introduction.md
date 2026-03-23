@@ -13,7 +13,7 @@ tags:
 - os-concepts
 - resource-management
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Introduction to Operating Systems

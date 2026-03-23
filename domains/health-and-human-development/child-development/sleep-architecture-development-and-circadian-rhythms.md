@@ -13,7 +13,7 @@ tags:
 - circadian-rhythm
 - infant-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sleep Architecture and Circadian Rhythm Development

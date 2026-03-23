@@ -18,7 +18,7 @@ tags:
 - graph-theory
 - relations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Network Analysis in Sociology

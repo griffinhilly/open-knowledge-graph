@@ -17,7 +17,7 @@ tags:
 - reference
 - causation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kripke's Causal Theory of Reference for Proper Names

@@ -14,7 +14,7 @@ tags:
 - pulmonary-hypertension
 - venous-return
 stage: expert
-status: draft
+status: validated
 ---
 
 # Right Heart Failure and Cor Pulmonale

@@ -16,7 +16,7 @@ tags:
 - comparative
 - culture
 stage: expert
-status: draft
+status: validated
 ---
 
 # Myth and Folklore in Comparative Literature

@@ -16,7 +16,7 @@ tags:
 - interest-rates
 - trading
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Currency Carry Trades and Interest Rate Differentials

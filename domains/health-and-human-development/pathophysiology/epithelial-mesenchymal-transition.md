@@ -13,7 +13,7 @@ tags:
 - cell-migration
 - plasticity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Epithelial-Mesenchymal Transition (EMT)

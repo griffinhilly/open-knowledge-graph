@@ -17,7 +17,7 @@ tags:
 - testing
 - deductive
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Testing Validity with Counterexamples

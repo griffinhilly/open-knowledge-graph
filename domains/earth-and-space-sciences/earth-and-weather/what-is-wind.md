@@ -17,7 +17,7 @@ tags:
 - air
 - observation
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # What Is Wind?

@@ -12,7 +12,7 @@ tags:
 - chronic-kidney-disease
 - metabolic-derangements
 stage: expert
-status: draft
+status: validated
 ---
 
 # Uremia and Uremic Toxins: Effects and Mechanisms

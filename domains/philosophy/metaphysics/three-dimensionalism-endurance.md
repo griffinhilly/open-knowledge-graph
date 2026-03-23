@@ -18,7 +18,7 @@ tags:
 - endurance
 - ontology
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Three-Dimensionalism and Endurance
 

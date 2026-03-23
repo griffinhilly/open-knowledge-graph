@@ -19,7 +19,7 @@ tags:
 - safety
 - professional-engineering
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Engineering Ethics Basics
 

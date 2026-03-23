@@ -17,7 +17,7 @@ tags:
 - water supply
 - drainage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Plumbing System Layout and Components

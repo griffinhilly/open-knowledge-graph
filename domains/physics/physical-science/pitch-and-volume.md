@@ -14,7 +14,7 @@ tags:
 - frequency
 - amplitude
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Pitch and Volume
 

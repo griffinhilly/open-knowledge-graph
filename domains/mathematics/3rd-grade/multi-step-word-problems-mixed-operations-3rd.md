@@ -15,7 +15,7 @@ tags:
 - multi-step
 - problem-solving
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Solving Multi-Step Word Problems

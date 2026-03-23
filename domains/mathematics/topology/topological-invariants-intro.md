@@ -13,7 +13,7 @@ tags:
 - invariants
 - properties
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Topological Invariants and Properties

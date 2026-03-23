@@ -14,7 +14,7 @@ tags:
 - complex
 - representation
 stage: expert
-status: draft
+status: validated
 ---
 # Complex Baseband and In-Phase/Quadrature Representation
 

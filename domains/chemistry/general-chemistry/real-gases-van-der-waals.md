@@ -18,7 +18,7 @@ tags:
 - intermolecular-attraction
 - molecular-volume
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Real Gases and the van der Waals Equation
 

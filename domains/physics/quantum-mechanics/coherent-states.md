@@ -13,7 +13,7 @@ tags:
 - states
 - minimum-uncertainty
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Coherent States

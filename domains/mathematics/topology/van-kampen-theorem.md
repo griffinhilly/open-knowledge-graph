@@ -15,7 +15,7 @@ tags:
 - fundamental-group
 - amalgamated-product
 stage: advanced
-status: draft
+status: validated
 ---
 
 # van Kampen's Theorem

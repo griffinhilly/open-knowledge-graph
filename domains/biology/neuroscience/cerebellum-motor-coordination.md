@@ -14,7 +14,7 @@ tags:
 - learning
 - coordination
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cerebellum: Motor Learning and Coordination

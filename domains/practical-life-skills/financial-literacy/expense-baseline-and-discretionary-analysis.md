@@ -18,7 +18,7 @@ tags:
 - discretionary
 - fixed-costs
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Expense Baseline and Discretionary Analysis

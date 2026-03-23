@@ -15,7 +15,7 @@ tags:
 - accent
 - beat-hierarchy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metric Stress: Strong and Weak Beats

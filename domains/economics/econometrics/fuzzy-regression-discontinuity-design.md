@@ -13,7 +13,7 @@ tags:
 - regression-discontinuity
 - instrumental-variables
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fuzzy Regression Discontinuity Design

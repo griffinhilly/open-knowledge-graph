@@ -16,7 +16,7 @@ tags:
 - work
 - circulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Line Integrals of Scalar and Vector Functions

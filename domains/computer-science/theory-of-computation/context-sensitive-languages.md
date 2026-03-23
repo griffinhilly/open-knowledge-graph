@@ -15,7 +15,7 @@ tags:
 - computational-power
 - resource-bounds
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Context-Sensitive Languages and Type 1 Grammars

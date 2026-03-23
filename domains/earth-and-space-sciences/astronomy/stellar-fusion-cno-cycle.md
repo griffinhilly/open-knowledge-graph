@@ -24,7 +24,7 @@ tags:
 - massive-stars
 - nuclear
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The CNO Cycle: Stellar Fusion in Massive Stars

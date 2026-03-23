@@ -17,7 +17,7 @@ tags:
 - harmonic-patterns
 - form
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Common Chord Progression Patterns by Ear

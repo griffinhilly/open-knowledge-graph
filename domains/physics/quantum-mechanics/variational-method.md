@@ -12,7 +12,7 @@ tags:
 - approximation-methods
 - variational
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Variational Method

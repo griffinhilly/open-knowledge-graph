@@ -14,7 +14,7 @@ tags:
 - mass number
 - atomic mass unit
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Isotopes and Atomic Mass Determination

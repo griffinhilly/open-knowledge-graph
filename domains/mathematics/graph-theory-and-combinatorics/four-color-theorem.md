@@ -13,7 +13,7 @@ tags:
 - planar-graphs
 - coloring
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Four Color Theorem

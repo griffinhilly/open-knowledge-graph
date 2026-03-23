@@ -16,7 +16,7 @@ tags:
 - civic-identity
 - ethnic-identity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Nationalism and National Identity in Politics

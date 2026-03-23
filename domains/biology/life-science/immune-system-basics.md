@@ -19,7 +19,7 @@ tags:
 - disease
 - defense
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Immune System Basics
 

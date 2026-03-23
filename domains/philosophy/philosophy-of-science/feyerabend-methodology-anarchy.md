@@ -17,7 +17,7 @@ tags:
 - methodology
 - pluralism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Feyerabend's Epistemological Anarchism

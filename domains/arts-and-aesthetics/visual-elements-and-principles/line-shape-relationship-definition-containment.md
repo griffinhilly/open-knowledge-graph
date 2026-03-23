@@ -19,7 +19,7 @@ tags:
 - boundary
 - containment
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Line and Shape: Definition Through Containment

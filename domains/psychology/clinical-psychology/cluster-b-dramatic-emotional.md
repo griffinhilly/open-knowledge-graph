@@ -18,7 +18,7 @@ tags:
 - histrionic
 - antisocial
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cluster B Personality Disorders: Dramatic and Emotional

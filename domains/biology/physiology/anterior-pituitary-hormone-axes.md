@@ -20,7 +20,7 @@ tags:
 - adrenal
 - growth
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Anterior Pituitary Hormone Axes and Control

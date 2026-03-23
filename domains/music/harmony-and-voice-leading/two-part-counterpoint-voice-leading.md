@@ -15,7 +15,7 @@ tags:
 - two-part-writing
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Two-Part Counterpoint and Voice Leading Principles

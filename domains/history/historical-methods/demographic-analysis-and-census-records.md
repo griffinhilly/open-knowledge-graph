@@ -12,7 +12,7 @@ tags:
 - population
 - statistics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Demographic Analysis and Census Records

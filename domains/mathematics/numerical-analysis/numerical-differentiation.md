@@ -15,7 +15,7 @@ tags:
 - finite-difference
 - numerical
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Numerical Differentiation

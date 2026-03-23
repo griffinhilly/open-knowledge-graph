@@ -21,7 +21,7 @@ tags:
 - observables
 - linear-algebra
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantum Operators

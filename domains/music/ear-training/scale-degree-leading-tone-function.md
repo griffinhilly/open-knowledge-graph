@@ -17,7 +17,7 @@ tags:
 - tendency-tone
 - function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Scale Degree Function: The Leading Tone

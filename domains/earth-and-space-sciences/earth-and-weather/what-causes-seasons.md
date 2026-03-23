@@ -19,7 +19,7 @@ tags:
 - sun-angle
 - orbit
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # What Causes Seasons

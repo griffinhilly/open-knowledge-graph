@@ -18,7 +18,7 @@ tags:
 - ribosome-structure
 - rrna-processing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ribosomal RNA as a Ribozyme and Ribosome Assembly

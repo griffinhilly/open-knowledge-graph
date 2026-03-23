@@ -16,7 +16,7 @@ tags:
 - competition
 - profit maximization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Competitive Firm Output Decision and Supply

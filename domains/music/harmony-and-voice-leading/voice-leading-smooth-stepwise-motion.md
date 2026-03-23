@@ -17,7 +17,7 @@ tags:
 - conjunct
 - independence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Smooth Voice Leading and Stepwise Motion

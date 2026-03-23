@@ -19,7 +19,7 @@ tags:
 - reaction-progress
 - Ea
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Reaction Coordinate Diagrams
 

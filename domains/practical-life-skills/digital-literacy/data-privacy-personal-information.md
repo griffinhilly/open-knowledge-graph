@@ -15,7 +15,7 @@ tags:
 - information-sharing
 - consent
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Data Privacy and Personal Information

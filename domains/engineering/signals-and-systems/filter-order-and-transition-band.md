@@ -15,7 +15,7 @@ tags:
 - rolloff
 - transition-band
 stage: expert
-status: draft
+status: validated
 ---
 
 # Filter Order, Rolloff Rate, and Transition Band

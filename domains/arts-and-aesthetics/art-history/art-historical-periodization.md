@@ -14,7 +14,7 @@ tags:
 - periodization
 - chronology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Periodization in Art History
 

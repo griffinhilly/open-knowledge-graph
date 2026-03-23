@@ -13,7 +13,7 @@ tags:
 - attitude
 - disinterest
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Aesthetic Attitude

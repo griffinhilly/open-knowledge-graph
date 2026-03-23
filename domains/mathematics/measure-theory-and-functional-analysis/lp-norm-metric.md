@@ -15,7 +15,7 @@ tags:
 - lp-spaces
 - norms
 stage: expert
-status: draft
+status: validated
 ---
 
 # L^p Norm and Metric Structure

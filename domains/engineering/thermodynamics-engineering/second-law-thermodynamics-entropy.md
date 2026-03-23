@@ -17,7 +17,7 @@ tags:
 - entropy
 - irreversibility
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Second Law of Thermodynamics and Entropy

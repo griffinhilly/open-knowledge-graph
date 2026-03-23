@@ -16,7 +16,7 @@ tags:
 - growth
 - ddm
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Equity Valuation Across Growth Phases

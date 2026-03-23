@@ -18,7 +18,7 @@ tags:
 - signal phrases
 - evidence sandwich
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Evidence Integration and Analysis

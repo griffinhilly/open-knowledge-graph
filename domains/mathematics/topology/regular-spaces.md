@@ -15,7 +15,7 @@ tags:
 - regular
 - t3
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Regular Spaces (T3 Spaces)

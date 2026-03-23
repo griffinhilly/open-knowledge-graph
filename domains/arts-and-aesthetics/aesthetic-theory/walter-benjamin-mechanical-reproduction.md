@@ -14,7 +14,7 @@ tags:
 - mechanical
 - mass-culture
 stage: expert
-status: draft
+status: validated
 ---
 
 # Benjamin: The Artwork in the Age of Mechanical Reproduction

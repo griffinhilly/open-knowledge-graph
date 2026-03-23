@@ -18,7 +18,7 @@ tags:
 - pioneer-species
 - climax-community
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Community Succession: Primary and Secondary

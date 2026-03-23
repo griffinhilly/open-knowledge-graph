@@ -16,7 +16,7 @@ tags:
 - context
 - formal
 stage: expert
-status: draft
+status: validated
 ---
 
 # Formal Pragmatics and Context

@@ -18,7 +18,7 @@ tags:
 - traits
 - maladaptive
 stage: expert
-status: draft
+status: validated
 ---
 
 # Personality Disorders: Overview and Classification

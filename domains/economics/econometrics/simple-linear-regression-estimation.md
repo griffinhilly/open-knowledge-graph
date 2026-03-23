@@ -17,7 +17,7 @@ tags:
 - regression
 - foundations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Simple Linear Regression Estimation

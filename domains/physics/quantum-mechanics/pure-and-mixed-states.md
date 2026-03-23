@@ -10,7 +10,7 @@ tags:
 - pure-states
 - mixed-states
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pure States and Mixed States

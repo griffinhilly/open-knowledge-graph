@@ -17,7 +17,7 @@ tags:
 - expression
 - form
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Romantic Era Compositional Innovations

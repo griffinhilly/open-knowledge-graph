@@ -15,7 +15,7 @@ tags:
 - printing
 - secular
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Renaissance Music: Humanism and Print Culture

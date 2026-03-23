@@ -17,7 +17,7 @@ tags:
 - snooping
 - link-layer
 stage: advanced
-status: draft
+status: validated
 ---
 
 # DHCP Relay Agents and DHCP Snooping Security

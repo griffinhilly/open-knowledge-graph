@@ -15,7 +15,7 @@ tags:
 - functions
 - equivalence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bijections and Cardinality Equivalence

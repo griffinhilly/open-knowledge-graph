@@ -15,7 +15,7 @@ tags:
 - kinematics
 - constraints
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rolling Without Slipping

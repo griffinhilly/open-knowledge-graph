@@ -13,7 +13,7 @@ tags:
 - circuits
 - rlc
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # RLC Circuit Applications and Electromagnetic Oscillations

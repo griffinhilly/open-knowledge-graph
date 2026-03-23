@@ -13,7 +13,7 @@ tags:
 - potential-functions
 - path-independence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conservative Vector Fields and Potential Functions

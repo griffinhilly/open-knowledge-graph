@@ -17,7 +17,7 @@ tags:
 - size
 - bijection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cardinality and Equinumerosity

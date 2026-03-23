@@ -13,7 +13,7 @@ tags:
 - reversible-processes
 - isentropic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reversible Adiabatic (Isentropic) Processes

@@ -17,7 +17,7 @@ tags:
 - cantor
 - proof-technique
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Diagonalization and Uncomputability

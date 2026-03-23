@@ -16,7 +16,7 @@ tags:
 - chromosome
 - gene-organization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bacterial Chromosome Structure and Gene Organization

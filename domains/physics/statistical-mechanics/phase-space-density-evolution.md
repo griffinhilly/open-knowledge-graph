@@ -16,7 +16,7 @@ tags:
 - dynamics
 - phase-space
 stage: expert
-status: draft
+status: validated
 ---
 
 # Phase Space Density and the Liouville Equation

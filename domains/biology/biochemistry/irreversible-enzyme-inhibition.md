@@ -18,7 +18,7 @@ tags:
 - suicide inhibitor
 - mechanism-based
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Irreversible Enzyme Inhibition

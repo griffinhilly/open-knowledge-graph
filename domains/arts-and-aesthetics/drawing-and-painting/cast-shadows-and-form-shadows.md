@@ -16,7 +16,7 @@ tags:
 - value
 - observation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cast Shadows and Form Shadows

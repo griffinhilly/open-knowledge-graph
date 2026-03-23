@@ -13,7 +13,7 @@ tags:
 - governance
 - institutions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Corruption, Governance, and Development

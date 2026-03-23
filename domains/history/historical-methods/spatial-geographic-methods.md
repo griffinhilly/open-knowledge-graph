@@ -14,7 +14,7 @@ tags:
 - maps
 - methodology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Spatial and Geographic Analysis in History

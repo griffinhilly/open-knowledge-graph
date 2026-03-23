@@ -21,7 +21,7 @@ tags:
 - frontogenesis
 - dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Frontal Dynamics and Frontal Structure

@@ -17,7 +17,7 @@ tags:
 - self-monitoring
 - executive-function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metacognition and Learning-to-Learn in Children

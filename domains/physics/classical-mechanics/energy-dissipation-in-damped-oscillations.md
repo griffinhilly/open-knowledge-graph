@@ -14,7 +14,7 @@ tags:
 - dissipation
 - oscillations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Energy Dissipation in Damped Oscillations

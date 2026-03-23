@@ -28,7 +28,7 @@ tags:
 - energy
 - main-sequence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Proton-Proton Chain: Stellar Fusion in Low-Mass Stars

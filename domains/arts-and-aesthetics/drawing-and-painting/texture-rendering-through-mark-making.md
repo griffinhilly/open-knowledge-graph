@@ -16,7 +16,7 @@ tags:
 - mark-making
 - materials
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Texture Rendering Through Mark-Making

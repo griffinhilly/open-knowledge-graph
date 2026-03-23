@@ -19,7 +19,7 @@ tags:
 - amplification
 - feedbacks
 stage: expert
-status: draft
+status: validated
 ---
 
 # Polar Amplification and Ice-Albedo Feedback

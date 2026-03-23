@@ -12,7 +12,7 @@ tags:
 - eye-care
 - productivity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Screen Ergonomics and Eye Care

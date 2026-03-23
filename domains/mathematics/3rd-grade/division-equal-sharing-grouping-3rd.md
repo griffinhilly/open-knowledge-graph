@@ -15,7 +15,7 @@ tags:
 - equal-groups
 - sharing
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Division: Equal Sharing and Grouping

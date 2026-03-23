@@ -13,7 +13,7 @@ tags:
 - bisection
 - convergence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bisection Method for Root Finding

@@ -15,7 +15,7 @@ tags:
 - word-problems
 - interpretation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Interpreting Data in Word Problems

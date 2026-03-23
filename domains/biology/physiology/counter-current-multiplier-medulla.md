@@ -18,7 +18,7 @@ tags:
 - osmolarity
 - urine concentration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Countercurrent Multiplier and Medullary Concentration Gradient

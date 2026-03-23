@@ -13,7 +13,7 @@ tags:
 - emotion
 - fear
 stage: expert
-status: draft
+status: validated
 ---
 
 # Amygdala: Emotional Learning and Fear

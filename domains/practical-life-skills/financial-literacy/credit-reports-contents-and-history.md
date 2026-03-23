@@ -16,7 +16,7 @@ tags:
 - credit-reporting
 - personal-information
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Credit Reports: Contents, History, and Interpretation

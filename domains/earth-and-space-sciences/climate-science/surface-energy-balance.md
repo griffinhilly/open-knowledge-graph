@@ -19,7 +19,7 @@ tags:
 - radiative-budget
 - land-surface
 stage: expert
-status: draft
+status: validated
 ---
 
 # Surface Energy Balance and Budget

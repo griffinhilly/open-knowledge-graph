@@ -15,7 +15,7 @@ tags:
 - orbit-stabilizer
 - counting
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Orbit-Stabilizer Theorem

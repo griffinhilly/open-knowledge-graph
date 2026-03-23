@@ -13,7 +13,7 @@ tags:
 - entrance
 - development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Laminar Entrance Length and Velocity Profile Development

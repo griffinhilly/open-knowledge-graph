@@ -15,7 +15,7 @@ builds-toward:
   - nutritional-deficiency-disorders
 tags: [nutrition, vitamins, minerals, micronutrients]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Vitamins and Minerals Basics

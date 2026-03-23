@@ -17,7 +17,7 @@ tags:
 - unemployment
 - multiplier
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Demand Shocks: Effects on Output and Inflation

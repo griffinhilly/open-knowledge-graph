@@ -20,7 +20,7 @@ tags:
 - closed-loop
 - transducers
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Sensors and Feedback in Engineering Systems
 

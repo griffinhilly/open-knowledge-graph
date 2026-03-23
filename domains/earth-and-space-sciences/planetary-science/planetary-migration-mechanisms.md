@@ -23,7 +23,7 @@ tags:
 - disk-interaction
 - planetary-dynamics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Planetary Migration in Protoplanetary Disks

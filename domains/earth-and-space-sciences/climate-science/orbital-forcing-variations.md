@@ -21,7 +21,7 @@ tags:
 - ice-sheets
 - geological-timescales
 stage: expert
-status: draft
+status: validated
 ---
 
 # Orbital Parameter Forcing Variations and Climate

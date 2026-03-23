@@ -17,7 +17,7 @@ tags:
 - chromatin-looping
 - enhancer-promoter-interaction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Enhancers and Long-Range Chromatin Interactions

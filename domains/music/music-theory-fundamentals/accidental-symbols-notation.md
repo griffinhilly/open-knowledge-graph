@@ -18,7 +18,7 @@ tags:
 - flats
 - naturals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Accidental Symbols: Sharps, Flats, and Naturals

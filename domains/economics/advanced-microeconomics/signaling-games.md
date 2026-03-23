@@ -17,7 +17,7 @@ tags:
 - signaling
 - information-revelation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Signaling Games

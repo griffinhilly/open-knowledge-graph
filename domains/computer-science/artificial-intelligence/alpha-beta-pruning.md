@@ -11,7 +11,7 @@ tags:
 - adversarial-search
 - pruning
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Alpha-Beta Pruning

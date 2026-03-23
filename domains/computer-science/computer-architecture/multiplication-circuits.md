@@ -10,7 +10,7 @@ tags:
 - multiplier
 - arithmetic-circuits
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multiplication Circuit Design

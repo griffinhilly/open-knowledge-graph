@@ -15,7 +15,7 @@ tags:
 - setting
 - internal-logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Worldbuilding Beyond Fantasy

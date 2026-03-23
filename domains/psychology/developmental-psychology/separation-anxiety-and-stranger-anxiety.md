@@ -15,7 +15,7 @@ tags:
 - fear
 - attachment
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Separation Anxiety and Stranger Anxiety
 

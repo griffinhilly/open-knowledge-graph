@@ -15,7 +15,7 @@ tags:
 - time-series
 - diagnostics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Autocorrelation: Structure and Sources

@@ -13,7 +13,7 @@ tags:
 - living things
 - growth
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Plants Are Alive Too

@@ -4,7 +4,7 @@ title: Food Groups and a Balanced Diet
 domain: health-and-human-development
 course: health-foundations
 prerequisites:
-  - id: my-healthy-eating
+  - id: healthy-foods-and-nutrition
     type: hard
 builds-toward:
   - macronutrients-carbs-protein-fat
@@ -13,7 +13,7 @@ builds-toward:
   - dietary-guidelines-and-recommendations
 tags: [nutrition, food-groups, balanced-diet, healthy-eating]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Food Groups and a Balanced Diet

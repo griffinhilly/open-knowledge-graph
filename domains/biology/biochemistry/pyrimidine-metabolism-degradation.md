@@ -10,7 +10,7 @@ tags:
 - pyrimidine
 - catabolism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Pyrimidine Degradation

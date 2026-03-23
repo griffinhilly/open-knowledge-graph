@@ -17,7 +17,7 @@ tags:
 - feedback
 - validation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Design Iteration and Testing Methods

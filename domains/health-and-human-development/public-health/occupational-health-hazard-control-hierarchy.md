@@ -16,7 +16,7 @@ tags:
 - prevention
 - hazard-control
 stage: expert
-status: draft
+status: validated
 ---
 
 # Occupational Health and Hazard Control Hierarchy

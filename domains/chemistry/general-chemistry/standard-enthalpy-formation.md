@@ -16,7 +16,7 @@ tags:
 - thermochemistry
 - standard-state
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Standard Enthalpy of Formation and Bond Energies

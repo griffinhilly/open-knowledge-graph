@@ -17,7 +17,7 @@ tags:
 - geometric-effects
 - notch-strength
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stress Concentration and Stress Singularities

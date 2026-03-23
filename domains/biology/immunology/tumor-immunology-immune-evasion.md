@@ -13,7 +13,7 @@ tags:
 - immune-evasion
 - cancer-immunotherapy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Tumor Immunology and Immune Evasion

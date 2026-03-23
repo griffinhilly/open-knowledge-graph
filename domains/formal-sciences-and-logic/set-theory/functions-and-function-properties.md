@@ -17,7 +17,7 @@ tags:
 - mappings
 - domain-codomain
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Functions as Sets and Their Characteristics

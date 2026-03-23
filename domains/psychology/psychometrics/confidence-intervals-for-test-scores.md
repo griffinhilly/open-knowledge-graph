@@ -15,7 +15,7 @@ tags:
 - measurement-error
 - inference
 stage: expert
-status: draft
+status: validated
 ---
 
 # Confidence Intervals and Score Reporting Uncertainty

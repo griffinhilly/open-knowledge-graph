@@ -18,7 +18,7 @@ tags:
 - sauce
 - technique
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vinaigrette Emulsion and Binding

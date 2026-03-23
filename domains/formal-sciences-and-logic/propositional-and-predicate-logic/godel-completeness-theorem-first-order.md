@@ -23,7 +23,7 @@ tags:
 - first-order-logic
 - proof-theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Gödel's Completeness Theorem for First-Order Logic

@@ -15,7 +15,7 @@ tags:
 - ode
 - error-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Euler's Method: Error Analysis

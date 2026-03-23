@@ -11,7 +11,7 @@ tags:
 - line-structure
 - musicality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Internal Rhyme and Rhyme Within Lines

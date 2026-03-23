@@ -17,7 +17,7 @@ tags:
 - truth-conditions
 - propositional
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Truth Assignments and Valuations

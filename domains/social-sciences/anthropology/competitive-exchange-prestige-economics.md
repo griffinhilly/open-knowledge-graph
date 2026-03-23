@@ -17,7 +17,7 @@ tags:
 - status
 - social-organization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Competitive Exchange and Prestige Economics

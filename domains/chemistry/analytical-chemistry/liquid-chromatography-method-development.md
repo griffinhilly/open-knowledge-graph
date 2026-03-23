@@ -15,7 +15,7 @@ tags:
 - LC
 - method development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Liquid Chromatography Method Development

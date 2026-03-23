@@ -13,7 +13,7 @@ tags:
 - pleasure
 - real
 stage: expert
-status: draft
+status: validated
 ---
 
 # Jouissance and Psychoanalytic Excess

@@ -19,7 +19,7 @@ tags:
 - visual-hierarchy
 - attention
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Emphasis, Contrast, and Creating Focal Points

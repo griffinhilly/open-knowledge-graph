@@ -17,7 +17,7 @@ tags:
 - constitutional-review
 - legal-interpretation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Judicial Systems and Constitutional Review

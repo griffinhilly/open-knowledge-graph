@@ -11,7 +11,7 @@ tags:
 - nonparametric
 - bandwidth
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Local Polynomial Regression and Bandwidth Selection

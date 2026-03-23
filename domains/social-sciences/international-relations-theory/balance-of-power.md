@@ -15,7 +15,7 @@ tags:
 - alignment
 - great-power
 stage: expert
-status: draft
+status: validated
 ---
 
 # Balance of Power Mechanisms

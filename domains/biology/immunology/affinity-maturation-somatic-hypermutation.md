@@ -17,7 +17,7 @@ tags:
 - mutation
 - selection
 stage: expert
-status: draft
+status: validated
 ---
 
 # Affinity Maturation and Somatic Hypermutation

@@ -17,7 +17,7 @@ tags:
 - exponential
 - step-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # First-Order System Response Analysis

@@ -13,7 +13,7 @@ tags:
 - popularity
 - informal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Appeal to Popularity and the Bandwagon Fallacy

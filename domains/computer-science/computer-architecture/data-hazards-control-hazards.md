@@ -17,7 +17,7 @@ tags:
 - control
 - pipeline
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hazards in Pipelined Processors

@@ -14,7 +14,7 @@ tags:
 - fundamentals
 - interaction
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Using a Computer Mouse

@@ -17,7 +17,7 @@ tags:
 - processor-design
 - component-integration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # CPU Datapath Structure and Component Integration

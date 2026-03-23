@@ -19,7 +19,7 @@ tags:
 - beat
 - triple-subdivision
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Compound Meter Rhythmic Dictation

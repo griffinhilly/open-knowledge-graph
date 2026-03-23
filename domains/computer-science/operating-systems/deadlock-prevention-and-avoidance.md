@@ -12,7 +12,7 @@ tags:
 - avoidance
 - resource-allocation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Deadlock Prevention and Avoidance Strategies

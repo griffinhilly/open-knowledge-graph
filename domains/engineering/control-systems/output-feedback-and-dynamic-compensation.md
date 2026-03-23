@@ -16,7 +16,7 @@ tags:
 - output-feedback
 - compensation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Output Feedback and Dynamic Compensation

@@ -15,7 +15,7 @@ tags:
 - ambiguity
 - informal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Equivocation and Shifting Word Meaning

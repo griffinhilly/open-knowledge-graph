@@ -15,7 +15,7 @@ tags:
 - exchange
 - visualization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Edgeworth Box

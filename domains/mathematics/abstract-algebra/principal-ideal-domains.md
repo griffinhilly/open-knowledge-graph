@@ -14,7 +14,7 @@ tags:
 - ideal-generated
 - euclidean-domain
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Principal Ideal Domains

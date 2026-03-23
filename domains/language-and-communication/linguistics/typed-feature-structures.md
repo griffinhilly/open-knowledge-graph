@@ -16,7 +16,7 @@ tags:
 - representation
 - features
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Typed Feature Structures

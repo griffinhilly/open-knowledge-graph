@@ -18,7 +18,7 @@ tags:
 - figurative-language
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Extended Metaphor: Development and Significance

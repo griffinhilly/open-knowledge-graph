@@ -16,7 +16,7 @@ tags:
 - synchronization
 - formal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Semaphores: Formal Definition and Semantics

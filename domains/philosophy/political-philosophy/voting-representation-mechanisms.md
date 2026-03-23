@@ -17,7 +17,7 @@ tags:
 - democracy
 - elections
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voting and Representation in Democracy

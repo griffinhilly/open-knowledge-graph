@@ -13,7 +13,7 @@ tags:
 - diagnosis
 - classification
 stage: expert
-status: draft
+status: validated
 ---
 
 # DSM-5 Diagnostic Criteria and Classification

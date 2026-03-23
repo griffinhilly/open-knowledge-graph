@@ -18,7 +18,7 @@ tags:
 - lacan
 - mulvey
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Gaze, Spectatorship, and Visual Culture

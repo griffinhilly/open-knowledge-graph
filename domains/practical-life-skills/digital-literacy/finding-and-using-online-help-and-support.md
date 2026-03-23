@@ -14,7 +14,7 @@ tags:
 - documentation
 - problem-solving
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Finding and Using Online Help and Support

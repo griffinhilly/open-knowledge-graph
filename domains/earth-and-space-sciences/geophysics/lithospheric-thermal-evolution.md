@@ -14,7 +14,7 @@ tags:
 - thermal-evolution
 - plates
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lithospheric Cooling and Thermal Evolution of Plates

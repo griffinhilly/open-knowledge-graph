@@ -13,7 +13,7 @@ tags:
 - relevance-theory
 - inference
 stage: expert
-status: draft
+status: validated
 ---
 
 # Relevance Theory and Pragmatic Inference

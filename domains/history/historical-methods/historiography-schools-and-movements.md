@@ -14,7 +14,7 @@ tags:
 - schools
 - traditions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Major Schools and Movements in Historiography

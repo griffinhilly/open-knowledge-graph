@@ -12,7 +12,7 @@ tags:
 - subspace
 - induced-topology
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Subspace Topology and Relative Topology

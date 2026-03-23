@@ -17,7 +17,7 @@ tags:
 - chemotaxis
 - cell-signaling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bacterial Flagella, Motility, and Chemotaxis

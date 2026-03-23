@@ -17,7 +17,7 @@ tags:
 - topos
 - gluing
 stage: expert
-status: draft
+status: validated
 ---
 
 # Presheaves and Sheaves on Categories

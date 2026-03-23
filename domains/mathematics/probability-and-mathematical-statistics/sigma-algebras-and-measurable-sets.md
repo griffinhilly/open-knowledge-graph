@@ -16,7 +16,7 @@ tags:
 - foundations
 - sigma-algebra
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sigma-Algebras and Measurable Sets

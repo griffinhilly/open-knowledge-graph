@@ -18,7 +18,7 @@ tags:
 - chromatin
 - histone acetylation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Transcription Initiation and Gene Regulation

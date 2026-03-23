@@ -16,7 +16,7 @@ tags:
 - serum-sickness
 - complement
 stage: expert
-status: draft
+status: validated
 ---
 
 # Immune Complex Disease: Deposition, Complement Activation, and Tissue Damage

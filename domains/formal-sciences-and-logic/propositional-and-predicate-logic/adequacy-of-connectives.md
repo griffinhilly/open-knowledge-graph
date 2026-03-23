@@ -13,7 +13,7 @@ tags:
 - completeness
 - propositional
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Adequacy and Completeness of Connective Sets

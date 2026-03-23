@@ -15,7 +15,7 @@ tags:
 - phase-shaping
 - transfer-function
 stage: expert
-status: draft
+status: validated
 ---
 
 # All-Pass Filters for Phase Shaping

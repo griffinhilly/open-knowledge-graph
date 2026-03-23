@@ -12,7 +12,7 @@ tags:
 - syntax
 - first-order-logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Terms and Atomic Formulas

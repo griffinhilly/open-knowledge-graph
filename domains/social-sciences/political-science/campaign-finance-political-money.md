@@ -17,7 +17,7 @@ tags:
 - corruption
 - inequality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Campaign Finance and the Role of Political Money

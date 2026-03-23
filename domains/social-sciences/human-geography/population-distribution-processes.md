@@ -15,7 +15,7 @@ tags:
 - distribution
 - density
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Population Distribution and Geographic Processes

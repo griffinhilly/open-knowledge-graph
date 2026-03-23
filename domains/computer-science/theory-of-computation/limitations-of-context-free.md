@@ -13,7 +13,7 @@ tags:
 - non-cfl
 - hierarchy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Limitations of Context-Free Languages

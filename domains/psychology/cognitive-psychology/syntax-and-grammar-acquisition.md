@@ -17,7 +17,7 @@ tags:
 - grammar
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Syntax, Grammar, and Language Structure

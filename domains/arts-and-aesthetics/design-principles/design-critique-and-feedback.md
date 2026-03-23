@@ -13,7 +13,7 @@ tags:
 - critique
 - communication
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Design Critique and Constructive Feedback

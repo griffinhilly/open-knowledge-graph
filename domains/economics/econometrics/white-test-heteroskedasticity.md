@@ -15,7 +15,7 @@ tags:
 - testing
 - diagnostics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # White Test and Detection of Heteroskedasticity

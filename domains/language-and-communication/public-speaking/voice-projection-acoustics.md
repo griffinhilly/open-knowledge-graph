@@ -13,7 +13,7 @@ tags:
 - resonance
 - volume
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voice Projection and Acoustics

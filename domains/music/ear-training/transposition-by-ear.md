@@ -17,7 +17,7 @@ tags:
 - pitch-relationships
 - melody
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transposition Recognition by Ear

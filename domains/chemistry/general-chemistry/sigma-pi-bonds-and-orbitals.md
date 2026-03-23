@@ -15,7 +15,7 @@ tags:
 - covalent
 - molecular-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sigma and Pi Bonds in Molecules

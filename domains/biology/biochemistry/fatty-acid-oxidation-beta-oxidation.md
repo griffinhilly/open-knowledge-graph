@@ -26,7 +26,7 @@ tags:
 - FADH2
 - energy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fatty Acid Oxidation (β-Oxidation)

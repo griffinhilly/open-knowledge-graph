@@ -19,7 +19,7 @@ tags:
 - functionalism
 - AI
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Substrate Independence

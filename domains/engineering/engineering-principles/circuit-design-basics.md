@@ -22,7 +22,7 @@ tags:
 - components
 - electrical-engineering
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Circuit Design Basics
 

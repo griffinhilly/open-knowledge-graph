@@ -14,7 +14,7 @@ tags:
 - paleoclimate-synthesis
 - consensus-reconstruction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Multi-Proxy Approaches to Paleoclimate Reconstruction

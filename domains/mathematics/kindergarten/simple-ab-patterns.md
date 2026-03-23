@@ -14,7 +14,7 @@ tags:
 - sequencing
 - repeating
 stage: pre-formal
-status: draft
+status: validated
 ---
 # Creating Simple AB Patterns
 

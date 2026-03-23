@@ -21,7 +21,7 @@ tags:
 - homeostasis
 - transporters
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mineral Absorption, Regulation, and Homeostasis

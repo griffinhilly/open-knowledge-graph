@@ -15,7 +15,7 @@ tags:
 - mechanics
 - vibrations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Spring-Mass Systems and Mechanical Vibrations

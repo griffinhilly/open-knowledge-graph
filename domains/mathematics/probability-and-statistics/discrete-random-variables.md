@@ -16,7 +16,7 @@ tags:
 - probability-mass-function
 - pmf
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Discrete Random Variables

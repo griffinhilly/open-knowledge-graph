@@ -17,7 +17,7 @@ tags:
 - trustees
 - mandate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Representation and Democratic Linkage

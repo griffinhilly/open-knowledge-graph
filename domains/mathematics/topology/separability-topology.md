@@ -15,7 +15,7 @@ tags:
 - dense-subsets
 - countable
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Separability

@@ -13,7 +13,7 @@ tags:
 - cognitive-development
 - prefrontal-maturation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Working Memory and Executive Control Development

@@ -18,7 +18,7 @@ tags:
 - cosmopolitanism
 - canon
 stage: expert
-status: draft
+status: validated
 ---
 
 # Weltliteratur: Goethe and World Literature

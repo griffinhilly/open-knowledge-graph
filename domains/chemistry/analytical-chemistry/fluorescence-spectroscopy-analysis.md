@@ -15,7 +15,7 @@ tags:
 - luminescence
 - quantitative
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fluorescence Spectroscopy for Quantitative Analysis

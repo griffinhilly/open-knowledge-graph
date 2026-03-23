@@ -21,7 +21,7 @@ tags:
 - early-solar-system
 - angular-momentum
 stage: expert
-status: draft
+status: validated
 ---
 
 # Giant Impact Hypothesis and Lunar Formation

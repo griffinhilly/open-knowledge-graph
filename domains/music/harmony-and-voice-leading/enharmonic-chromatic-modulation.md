@@ -17,7 +17,7 @@ tags:
 - enharmonic
 - chromatic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Enharmonic and Chromatic Modulation

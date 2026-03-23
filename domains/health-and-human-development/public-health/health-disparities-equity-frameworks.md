@@ -15,7 +15,7 @@ tags:
 - justice
 - sdoh
 stage: expert
-status: draft
+status: validated
 ---
 
 # Health Disparities and Equity Frameworks

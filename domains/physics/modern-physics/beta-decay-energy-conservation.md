@@ -13,7 +13,7 @@ tags:
 - radioactive-decay
 - weak-interaction
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Beta Decay and Energy Conservation in Weak Interactions

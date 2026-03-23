@@ -15,7 +15,7 @@ tags:
 - data
 - bar-graphs
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Creating and Reading Simple Bar Graphs

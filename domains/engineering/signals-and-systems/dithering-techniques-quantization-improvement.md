@@ -15,7 +15,7 @@ tags:
 - noise-shaping
 - resolution
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dithering Techniques and Quantization Noise Shaping

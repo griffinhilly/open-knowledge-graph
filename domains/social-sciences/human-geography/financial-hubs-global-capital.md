@@ -16,7 +16,7 @@ tags:
 - power
 - global
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Financial Hubs and Global Capital

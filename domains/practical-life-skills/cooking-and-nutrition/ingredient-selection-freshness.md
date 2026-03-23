@@ -15,7 +15,7 @@ tags:
 - freshness
 - selection
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Selecting Fresh Ingredients by Appearance and Feel

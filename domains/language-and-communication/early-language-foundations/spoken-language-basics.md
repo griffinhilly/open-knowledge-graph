@@ -15,7 +15,7 @@ tags:
 - conversation
 - turn-taking
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Spoken Language Basics

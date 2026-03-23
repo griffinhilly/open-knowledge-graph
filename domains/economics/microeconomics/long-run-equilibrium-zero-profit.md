@@ -11,7 +11,7 @@ tags:
 - equilibrium
 - entry-exit
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Zero-Profit Condition and Entry-Exit Dynamics

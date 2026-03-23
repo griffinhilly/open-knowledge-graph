@@ -18,7 +18,7 @@ tags:
 - polymorphism
 - frequency-dependent
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Frequency-Dependent Selection and Polymorphism

@@ -16,7 +16,7 @@ tags:
 - capital-formation
 - user-cost
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Investment Demand and Interest Rate Sensitivity

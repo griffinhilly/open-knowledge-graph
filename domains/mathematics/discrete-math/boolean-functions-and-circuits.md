@@ -14,7 +14,7 @@ tags:
 - circuits
 - DNF-CNF
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Boolean Functions, Logic Gates, and Digital Circuits

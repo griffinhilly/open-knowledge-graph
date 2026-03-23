@@ -17,7 +17,7 @@ tags:
 - zero-bound
 - liquidity-trap
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Deflation and the Zero Lower Bound

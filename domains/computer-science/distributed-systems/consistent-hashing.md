@@ -17,7 +17,7 @@ tags:
 - load-balancing
 - scalability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Consistent Hashing

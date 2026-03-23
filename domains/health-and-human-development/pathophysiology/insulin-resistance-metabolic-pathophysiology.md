@@ -17,7 +17,7 @@ tags:
 - glucose-uptake
 - hyperinsulinemia
 stage: expert
-status: draft
+status: validated
 ---
 
 # Insulin Resistance: Impaired Glucose Uptake, Hyperinsulinemia, and Metabolic Dysfunction

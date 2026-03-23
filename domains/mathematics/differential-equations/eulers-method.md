@@ -15,7 +15,7 @@ tags:
 - approximation
 - computational
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Euler's Method for Numerical Solutions

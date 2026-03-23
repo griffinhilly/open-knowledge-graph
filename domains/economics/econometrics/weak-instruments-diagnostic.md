@@ -13,7 +13,7 @@ tags:
 - iv
 - first-stage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Weak Instruments: Diagnosis and Solutions

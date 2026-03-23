@@ -13,7 +13,7 @@ tags:
 - events
 - argument-structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Event Semantics and Thematic Structure

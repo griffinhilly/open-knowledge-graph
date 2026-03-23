@@ -13,7 +13,7 @@ tags:
 - grouting
 - moisture-prevention
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Tile Repair and Regrouting

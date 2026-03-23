@@ -20,7 +20,7 @@ tags:
 - clouds
 - water-vapor
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Humidity and Precipitation

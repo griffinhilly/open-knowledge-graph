@@ -16,7 +16,7 @@ tags:
 - address-binding
 - layout
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memory Layout and Address Binding

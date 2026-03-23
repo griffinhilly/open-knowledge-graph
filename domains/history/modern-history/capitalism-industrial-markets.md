@@ -17,7 +17,7 @@ tags:
 - economics
 - industrial-production
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Industrial Capitalism and Market Economics

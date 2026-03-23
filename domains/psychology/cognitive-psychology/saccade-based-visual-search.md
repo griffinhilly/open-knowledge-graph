@@ -15,7 +15,7 @@ tags:
 - vision
 - visual-search
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Visual Search and Eye Movement Guidance

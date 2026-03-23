@@ -17,7 +17,7 @@ tags:
 - epinephrine
 - cortisol
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Metabolic Hormones and Their Regulatory Targets

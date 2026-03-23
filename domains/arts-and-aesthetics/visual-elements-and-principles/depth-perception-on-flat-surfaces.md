@@ -15,7 +15,7 @@ tags:
 - depth
 - illusion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Creating Depth Perception on Flat Surfaces

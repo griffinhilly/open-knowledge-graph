@@ -15,7 +15,7 @@ tags:
 - triads
 - extended-chords
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Augmented Triads and Extended Harmony

@@ -14,7 +14,7 @@ tags:
 - bounded-entire
 - rigidity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Liouville's Theorem

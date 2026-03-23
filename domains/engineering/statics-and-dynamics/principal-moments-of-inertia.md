@@ -16,7 +16,7 @@ tags:
 - principal-axes
 - rigid-bodies
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Principal Moments of Inertia and Principal Axes

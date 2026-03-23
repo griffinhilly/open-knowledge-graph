@@ -15,7 +15,7 @@ tags:
 - conservation-laws
 - systems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conservation of Linear Momentum in Systems

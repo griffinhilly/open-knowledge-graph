@@ -17,7 +17,7 @@ tags:
 - pattern-recognition
 - improvisation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rhythm Pattern Completion by Ear

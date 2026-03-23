@@ -19,7 +19,7 @@ tags:
 - growth
 - reproduction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Cell Division Basics
 

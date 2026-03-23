@@ -17,7 +17,7 @@ tags:
 - trophic-levels
 - energy-pyramid
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Energy Flow in Ecosystems
 

@@ -15,7 +15,7 @@ tags:
 - sustainability
 - cost savings
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Energy Efficiency Assessment and Improvement Priorities

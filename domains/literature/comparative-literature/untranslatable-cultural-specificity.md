@@ -25,7 +25,7 @@ tags:
 - culture
 - meaning
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Untranslatable: Language, Culture, and Meaning

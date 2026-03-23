@@ -15,7 +15,7 @@ tags:
 - moral-facts
 - science
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Naturalism: Moral Facts as Natural Facts

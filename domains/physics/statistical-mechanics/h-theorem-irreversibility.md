@@ -15,7 +15,7 @@ tags:
 - entropy
 - boltzmann-equation
 stage: expert
-status: draft
+status: validated
 ---
 
 # H-Theorem and Irreversibility

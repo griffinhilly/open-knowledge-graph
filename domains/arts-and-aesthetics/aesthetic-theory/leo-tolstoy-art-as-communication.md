@@ -14,7 +14,7 @@ tags:
 - emotion
 - expression
 stage: expert
-status: draft
+status: validated
 ---
 
 # Tolstoy: Art as Communication of Emotion

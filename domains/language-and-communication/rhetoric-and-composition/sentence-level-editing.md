@@ -17,7 +17,7 @@ tags:
 - clarity
 - style
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Sentence-Level Editing

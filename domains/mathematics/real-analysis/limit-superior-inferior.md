@@ -20,7 +20,7 @@ tags:
 - limits
 - convergence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Limit Superior and Inferior

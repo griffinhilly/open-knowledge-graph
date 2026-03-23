@@ -14,7 +14,7 @@ tags:
 - cycles
 - algorithms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cycle Detection in Directed Graphs

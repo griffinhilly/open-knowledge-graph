@@ -15,7 +15,7 @@ tags:
 - fiduciary
 - management
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Evaluating Financial Advisors and Robo-Advisors

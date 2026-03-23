@@ -17,7 +17,7 @@ tags:
 - nutrient-transport
 - permeability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Intestinal Barrier Function and Nutrient Transport

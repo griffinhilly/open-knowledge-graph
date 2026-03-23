@@ -14,7 +14,7 @@ tags:
 - amplitude-modulation
 - analytic-signal
 stage: expert
-status: draft
+status: validated
 ---
 
 # Instantaneous Amplitude and Frequency Estimation

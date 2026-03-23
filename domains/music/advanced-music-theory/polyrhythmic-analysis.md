@@ -22,7 +22,7 @@ tags:
 - texture
 - polyrhythm
 stage: expert
-status: draft
+status: validated
 ---
 
 # Polyrhythmic Analysis

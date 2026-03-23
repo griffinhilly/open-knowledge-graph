@@ -11,7 +11,7 @@ tags:
 - constant-returns
 - capital-accumulation
 stage: expert
-status: draft
+status: validated
 ---
 
 # AK Model of Endogenous Growth

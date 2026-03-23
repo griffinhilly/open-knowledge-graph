@@ -16,7 +16,7 @@ tags:
 - decentralization
 - mutual-aid
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Anarchism and Stateless Political Theory

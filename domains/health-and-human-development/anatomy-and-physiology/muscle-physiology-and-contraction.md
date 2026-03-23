@@ -27,7 +27,7 @@ tags:
 - sarcomere
 - cross-bridge
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Muscle Physiology and Contraction

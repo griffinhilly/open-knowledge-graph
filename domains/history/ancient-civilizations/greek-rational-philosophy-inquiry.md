@@ -14,7 +14,7 @@ tags:
 - rationalism
 - inquiry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Greek Philosophy and Rational Inquiry

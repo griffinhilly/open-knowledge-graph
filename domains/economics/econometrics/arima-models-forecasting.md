@@ -15,7 +15,7 @@ tags:
 - arima
 - forecasting
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # ARIMA Models and Time Series Forecasting

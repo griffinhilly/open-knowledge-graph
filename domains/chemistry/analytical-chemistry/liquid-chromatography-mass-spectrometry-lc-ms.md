@@ -19,7 +19,7 @@ tags:
 - mass-detection
 - biological-samples
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Liquid Chromatography-Mass Spectrometry: LC-MS

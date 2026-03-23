@@ -18,7 +18,7 @@ tags:
 - differential-input
 - cmrr
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Summing and Difference Amplifiers

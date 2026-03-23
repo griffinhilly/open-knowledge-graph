@@ -14,7 +14,7 @@ tags:
 - work
 - configuration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electric Potential Energy in Charge Systems

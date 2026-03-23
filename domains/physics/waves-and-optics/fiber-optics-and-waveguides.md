@@ -13,7 +13,7 @@ tags:
 - waveguide
 - communication
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fiber Optics and Light Waveguides

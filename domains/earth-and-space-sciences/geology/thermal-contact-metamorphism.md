@@ -14,7 +14,7 @@ tags:
 - thermal
 - aureole
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermal Metamorphism: Contact Aureoles and Heat Transfer

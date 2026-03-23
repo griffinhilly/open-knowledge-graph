@@ -17,7 +17,7 @@ tags:
 - law-breaking
 - justice
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Civil Disobedience: Theory and Justification

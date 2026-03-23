@@ -17,7 +17,7 @@ tags:
 - a posteriori necessity
 - modality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Necessity and Contingency

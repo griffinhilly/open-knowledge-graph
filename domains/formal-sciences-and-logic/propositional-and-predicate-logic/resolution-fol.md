@@ -17,7 +17,7 @@ tags:
 - refutation-completeness
 - automated-theorem-proving
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # First-Order Resolution

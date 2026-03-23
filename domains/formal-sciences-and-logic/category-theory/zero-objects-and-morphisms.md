@@ -16,7 +16,7 @@ tags:
 - morphisms
 - algebraic-structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Zero Objects and Zero Morphisms

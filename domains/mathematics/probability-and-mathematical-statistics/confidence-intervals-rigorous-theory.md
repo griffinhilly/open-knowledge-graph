@@ -15,7 +15,7 @@ tags:
 - interval-estimation
 - statistics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Confidence Intervals (Rigorous Theory)

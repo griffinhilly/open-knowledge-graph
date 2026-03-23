@@ -14,7 +14,7 @@ tags:
 - integration
 - lebesgue-integral
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lebesgue Integral for Simple Functions

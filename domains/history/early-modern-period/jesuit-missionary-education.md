@@ -15,7 +15,7 @@ tags:
 - counter-reformation
 - global-expansion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Jesuit Missions and Educational Expansion

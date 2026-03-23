@@ -14,7 +14,7 @@ tags:
 - inversion
 - data-processing
 stage: expert
-status: draft
+status: validated
 ---
 
 # Gravity Surveys and Data Inversion

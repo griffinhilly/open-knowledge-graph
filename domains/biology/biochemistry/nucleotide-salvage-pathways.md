@@ -13,7 +13,7 @@ tags:
 - salvage
 - phosphoribosylation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nucleotide Salvage Pathways

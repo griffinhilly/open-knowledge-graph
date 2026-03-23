@@ -16,7 +16,7 @@ tags:
 - composition
 - equilibrium
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Balance, Symmetry, and Asymmetry

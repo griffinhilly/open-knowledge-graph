@@ -11,7 +11,7 @@ tags:
 - insulin
 - anabolism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fed State Metabolism

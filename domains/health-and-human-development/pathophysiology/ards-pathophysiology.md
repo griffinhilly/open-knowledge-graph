@@ -17,7 +17,7 @@ tags:
 - lung-injury
 - acute-inflammation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Acute Respiratory Distress Syndrome (ARDS)

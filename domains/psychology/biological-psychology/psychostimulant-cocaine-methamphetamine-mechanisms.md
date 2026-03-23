@@ -18,7 +18,7 @@ tags:
 - stimulants
 - addiction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Psychostimulant Mechanisms: Cocaine and Methamphetamine

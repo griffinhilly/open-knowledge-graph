@@ -18,7 +18,7 @@ tags:
 - chemical-networks
 - biosignatures
 stage: expert
-status: draft
+status: validated
 ---
 
 # Atmospheric Photochemistry and UV-Driven Chemistry

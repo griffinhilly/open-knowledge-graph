@@ -15,7 +15,7 @@ tags:
 - potential-outcomes
 - rubin-causal-model
 stage: expert
-status: draft
+status: validated
 ---
 
 # Counterfactual Framework and Potential Outcomes

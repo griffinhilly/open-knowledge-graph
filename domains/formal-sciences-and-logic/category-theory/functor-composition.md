@@ -14,7 +14,7 @@ tags:
 - categorical-structure
 - composition
 stage: expert
-status: draft
+status: validated
 ---
 
 # Composition of Functors and Functor Equations

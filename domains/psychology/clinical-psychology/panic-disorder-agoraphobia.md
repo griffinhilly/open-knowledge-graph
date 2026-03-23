@@ -12,7 +12,7 @@ tags:
 - anxiety
 - interoception
 stage: expert
-status: draft
+status: validated
 ---
 
 # Panic Disorder and Agoraphobia

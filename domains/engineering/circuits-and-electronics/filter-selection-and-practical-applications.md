@@ -14,7 +14,7 @@ tags:
 - applications
 - noise-rejection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Filter Selection and Practical Applications

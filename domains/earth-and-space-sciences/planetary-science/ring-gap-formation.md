@@ -14,7 +14,7 @@ tags:
 - orbital-mechanics
 - gaps
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ring Gap Formation Through Orbital Resonances

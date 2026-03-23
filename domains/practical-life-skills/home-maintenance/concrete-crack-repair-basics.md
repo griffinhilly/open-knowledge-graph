@@ -15,7 +15,7 @@ tags:
 - exterior
 - preventive-maintenance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Concrete Crack Repair Basics

@@ -14,7 +14,7 @@ tags:
 - anatomy
 - form
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Drawing Animals: Basic Construction

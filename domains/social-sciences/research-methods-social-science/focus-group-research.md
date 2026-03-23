@@ -13,7 +13,7 @@ tags:
 - group-dynamics
 - interaction-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Focus Group Research Design

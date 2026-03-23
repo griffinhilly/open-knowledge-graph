@@ -16,7 +16,7 @@ tags:
 - teacher-student
 - compression
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Knowledge Distillation

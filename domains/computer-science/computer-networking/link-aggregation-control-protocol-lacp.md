@@ -19,7 +19,7 @@ tags:
 - lacp
 - port-channeling
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Link Aggregation Control Protocol (LACP)

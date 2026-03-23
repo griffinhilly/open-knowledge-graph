@@ -16,7 +16,7 @@ tags:
 - universalism
 - special composition question
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Composition and Simples

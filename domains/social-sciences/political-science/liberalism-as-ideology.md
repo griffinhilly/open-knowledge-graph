@@ -18,7 +18,7 @@ tags:
 - constitutionalism
 - market-economy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Liberalism: Rights, Freedom, and Limited Government

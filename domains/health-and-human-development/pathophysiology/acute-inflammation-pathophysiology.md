@@ -23,7 +23,7 @@ tags:
 - innate-immunity
 - tissue-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # Acute Inflammation

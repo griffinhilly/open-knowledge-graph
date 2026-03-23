@@ -14,7 +14,7 @@ tags:
 - inches
 - feet
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Converting Between Inches and Feet

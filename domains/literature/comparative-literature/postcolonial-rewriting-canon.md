@@ -18,7 +18,7 @@ tags:
 - rewriting
 - resistance
 stage: expert
-status: draft
+status: validated
 ---
 
 # Postcolonial Rewriting and Counter-Reading the Canon

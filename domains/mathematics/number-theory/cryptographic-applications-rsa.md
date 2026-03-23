@@ -15,7 +15,7 @@ tags:
 - cryptography
 - public-key
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cryptographic Applications (RSA)

@@ -22,7 +22,7 @@ tags:
 - prediction
 - reaction-mechanism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Competition Between Substitution and Elimination Pathways

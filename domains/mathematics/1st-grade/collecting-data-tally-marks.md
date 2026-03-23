@@ -15,7 +15,7 @@ tags:
 - tally-marks
 - recording
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Collecting and Recording Data with Tally Marks

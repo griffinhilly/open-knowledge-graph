@@ -16,7 +16,7 @@ tags:
 - state-space
 - sensor
 stage: expert
-status: draft
+status: validated
 ---
 
 # State Observer Design and Estimation

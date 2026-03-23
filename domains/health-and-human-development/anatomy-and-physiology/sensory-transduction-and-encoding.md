@@ -16,7 +16,7 @@ tags:
 - adaptation
 - coding
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sensory Transduction and Encoding

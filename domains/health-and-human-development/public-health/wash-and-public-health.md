@@ -16,7 +16,7 @@ tags:
 - development
 - infection-prevention
 stage: expert
-status: draft
+status: validated
 ---
 
 # Water, Sanitation, and Hygiene (WASH) in Public Health

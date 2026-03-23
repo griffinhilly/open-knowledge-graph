@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - quantum-foundations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Correspondence Principle: Quantum to Classical Limit

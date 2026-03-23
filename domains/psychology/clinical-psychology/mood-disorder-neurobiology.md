@@ -26,7 +26,7 @@ tags:
 - dopamine
 - hpa-axis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Neurobiological Mechanisms of Mood Disorders

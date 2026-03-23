@@ -20,7 +20,7 @@ tags:
 - experience
 - aesthetics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Emotion and Aesthetic Judgment

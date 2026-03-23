@@ -14,7 +14,7 @@ tags:
 - diaphragm
 - ventilation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Respiratory System Anatomy and Ventilation

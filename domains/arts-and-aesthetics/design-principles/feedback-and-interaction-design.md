@@ -18,7 +18,7 @@ tags:
 - communication
 - affordance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Feedback and Interaction Design

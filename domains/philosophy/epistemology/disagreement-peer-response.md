@@ -14,7 +14,7 @@ tags:
 - conciliation
 - revision
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rational Response to Peer Disagreement

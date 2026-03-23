@@ -15,7 +15,7 @@ builds-toward:
   - reference-class-forecasting
 tags: ["bayesian", "likelihood-ratio", "belief-updating", "quantitative-reasoning"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

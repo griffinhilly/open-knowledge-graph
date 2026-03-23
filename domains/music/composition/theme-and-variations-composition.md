@@ -14,7 +14,7 @@ tags:
 - development
 - composition
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Theme and Variations Form

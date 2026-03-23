@@ -15,7 +15,7 @@ tags:
 - there exists
 - quantifier
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Existential Quantifier and Existence Statements

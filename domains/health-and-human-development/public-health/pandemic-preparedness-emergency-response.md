@@ -15,7 +15,7 @@ tags:
 - incident-command
 - outbreak
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pandemic Preparedness and Emergency Response

@@ -16,7 +16,7 @@ tags:
 - tissue extraction
 - exercise
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Oxygen Delivery, Tissue Extraction, and Aerobic Metabolism

@@ -13,7 +13,7 @@ tags:
 - training
 - discipline
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Roman Legion: Military Training and Discipline

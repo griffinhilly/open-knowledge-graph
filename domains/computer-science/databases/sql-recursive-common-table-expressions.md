@@ -12,7 +12,7 @@ tags:
 - hierarchies
 - graphs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Recursive CTEs: Hierarchical and Graph Queries

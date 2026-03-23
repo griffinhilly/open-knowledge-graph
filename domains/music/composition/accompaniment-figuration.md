@@ -14,7 +14,7 @@ tags:
 - texture
 - piano
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Accompaniment Patterns and Figuration

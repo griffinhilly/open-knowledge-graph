@@ -8,13 +8,14 @@ prerequisites:
   type: hard
 - id: operators-and-expressions
   type: soft
-- id: basic-input-output
+- id: input-output
   type: soft
 - id: type-conversion
   type: soft
 builds-toward:
 - list-operations
 - file-io-basics
+- input-output
 tags:
 - strings
 - concatenation

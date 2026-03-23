@@ -18,7 +18,7 @@ tags:
 - decisions
 - strategy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Financial Optionality and Flexibility Value

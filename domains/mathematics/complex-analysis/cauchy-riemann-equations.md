@@ -16,7 +16,7 @@ tags:
 - partial-derivatives
 - holomorphic
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cauchy-Riemann Equations

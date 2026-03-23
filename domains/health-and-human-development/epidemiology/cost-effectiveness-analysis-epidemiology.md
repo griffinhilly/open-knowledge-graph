@@ -15,7 +15,7 @@ tags:
 - health-economics
 - decision-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cost-Effectiveness Analysis in Public Health

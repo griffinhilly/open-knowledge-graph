@@ -15,7 +15,7 @@ tags:
 - energy-storage
 - reactive-elements
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inductive Elements: Behavior and Properties

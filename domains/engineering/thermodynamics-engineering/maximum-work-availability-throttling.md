@@ -19,7 +19,7 @@ tags:
 - lost-work
 - irreversibility
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Maximum Available Work: Carnot and Reversible Processes

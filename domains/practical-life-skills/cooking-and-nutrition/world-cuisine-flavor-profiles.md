@@ -16,7 +16,7 @@ tags:
 - global
 - cooking-style
 stage: formal-systems
-status: draft
+status: validated
 ---
 # World Cuisine Flavor Profiles
 

@@ -16,7 +16,7 @@ tags:
 - development
 - growth
 stage: expert
-status: draft
+status: validated
 ---
 
 # Trade, Comparative Advantage, and Development

@@ -18,7 +18,7 @@ tags:
 - typology
 - relative-clauses
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Relative Clause Formation (Mechanisms and Strategies)

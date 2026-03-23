@@ -13,7 +13,7 @@ tags:
 - spatial relationships
 - vocabulary
 stage: pre-formal
-status: draft
+status: validated
 ---
 # Positional Words: Above and Below
 

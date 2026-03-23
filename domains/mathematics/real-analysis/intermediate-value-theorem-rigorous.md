@@ -13,7 +13,7 @@ tags:
 - connectedness
 - continuity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Intermediate Value Theorem (Rigorous)

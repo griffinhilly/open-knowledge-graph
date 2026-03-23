@@ -16,7 +16,7 @@ tags:
 - partition-function
 - statistical-mechanics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Canonical Ensemble and Molecular Partition Functions

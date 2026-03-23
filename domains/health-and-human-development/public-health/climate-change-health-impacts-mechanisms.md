@@ -16,7 +16,7 @@ tags:
 - environmental-health
 - emerging-disease
 stage: expert
-status: draft
+status: validated
 ---
 
 # Climate Change and Health: Mechanisms and Health Impacts

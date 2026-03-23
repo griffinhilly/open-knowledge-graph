@@ -18,7 +18,7 @@ tags:
 - joints
 - support
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # The Skeletal System
 

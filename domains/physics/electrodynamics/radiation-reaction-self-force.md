@@ -17,7 +17,7 @@ tags:
 - abraham-lorentz
 - runaway-solutions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Radiation Reaction Force

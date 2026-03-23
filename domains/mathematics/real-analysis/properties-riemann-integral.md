@@ -14,7 +14,7 @@ tags:
 - properties
 - linearity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Properties of the Riemann Integral

@@ -13,7 +13,7 @@ tags:
 - organization
 - tactics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Roman Military System and the Legions

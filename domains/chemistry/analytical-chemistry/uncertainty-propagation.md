@@ -18,7 +18,7 @@ tags:
 - GUM
 - combined uncertainty
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Uncertainty Propagation

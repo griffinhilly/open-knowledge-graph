@@ -17,7 +17,7 @@ tags:
 - excitotoxicity
 - metabolic-failure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Status Epilepticus: Prolonged Seizures, Neuronal Excitotoxicity, and Metabolic Failure

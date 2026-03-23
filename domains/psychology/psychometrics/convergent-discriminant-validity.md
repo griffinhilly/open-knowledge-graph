@@ -16,7 +16,7 @@ tags:
 - discriminant
 - measurement-model
 stage: expert
-status: draft
+status: validated
 ---
 
 # Convergent and Discriminant Validity: Multitrait Analysis

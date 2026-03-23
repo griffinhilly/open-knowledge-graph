@@ -17,7 +17,7 @@ tags:
 - statistical-mechanics
 - thermodynamic-properties
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Partition Function and Thermodynamic Properties

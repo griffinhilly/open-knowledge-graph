@@ -16,7 +16,7 @@ tags:
 - spectrum
 - psychosis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Schizophrenia Spectrum Disorders: Overview

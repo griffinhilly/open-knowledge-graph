@@ -16,7 +16,7 @@ tags:
 - moody-diagram
 - flow-regimes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Friction Factor Determination: Laminar, Transitional, and Turbulent

@@ -20,7 +20,7 @@ tags:
 - experience
 - sensibility
 stage: expert
-status: draft
+status: validated
 ---
 
 # Aesthetic Experience and Cultivation

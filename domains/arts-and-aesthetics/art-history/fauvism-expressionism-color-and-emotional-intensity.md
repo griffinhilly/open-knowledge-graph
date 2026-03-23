@@ -19,7 +19,7 @@ tags:
 - distortion
 - early-modernism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fauvism and Expressionism: Color and Emotional Intensity

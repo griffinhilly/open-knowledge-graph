@@ -16,7 +16,7 @@ tags:
 - sovereignty
 - statehood
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # National Self-Determination and Sovereignty

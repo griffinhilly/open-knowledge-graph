@@ -22,7 +22,7 @@ tags:
 - spikes
 - excitability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Action Potential Generation and Propagation

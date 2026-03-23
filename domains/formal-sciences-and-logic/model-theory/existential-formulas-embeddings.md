@@ -16,7 +16,7 @@ tags:
 - preservation
 - embeddings
 stage: expert
-status: draft
+status: validated
 ---
 
 # Existential Formulas and Preservation under Embeddings

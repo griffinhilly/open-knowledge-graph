@@ -16,7 +16,7 @@ tags:
 - mappings
 - functions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linear Transformations and Their Properties

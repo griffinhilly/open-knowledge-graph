@@ -15,7 +15,7 @@ tags:
 - enthalpy
 - reaction pathways
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Hess's Law and Enthalpy Calculation
 

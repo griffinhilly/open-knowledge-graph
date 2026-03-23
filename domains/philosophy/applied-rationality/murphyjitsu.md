@@ -10,7 +10,7 @@ prerequisites:
     type: soft
 tags: ["CFAR", "planning", "technique", "robustness", "mental-simulation"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

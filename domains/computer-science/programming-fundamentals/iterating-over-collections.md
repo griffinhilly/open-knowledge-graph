@@ -4,21 +4,20 @@ title: Iterating Over Collections
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- id: for-loop-patterns-and-iteration
+- id: for-loops
   type: hard
-- id: accessing-and-modifying-elements
+- id: array-indexing
   type: hard
 builds-toward:
 - immutability-and-mutation
-- nested-loops-and-deep-iteration
+- nested-loops
 tags:
 - loops
 - iteration
 - collections
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Iterating Over Collections
 
 ## Core Idea

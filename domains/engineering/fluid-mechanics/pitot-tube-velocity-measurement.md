@@ -15,7 +15,7 @@ tags:
 - instruments
 - flow
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pitot Tube and Velocity Measurement

@@ -15,7 +15,7 @@ tags:
 - contract-theory
 - mechanism-design
 stage: expert
-status: draft
+status: validated
 ---
 
 # Incentive Compatibility and Individual Rationality

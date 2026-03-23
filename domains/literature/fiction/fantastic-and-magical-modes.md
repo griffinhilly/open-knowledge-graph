@@ -18,7 +18,7 @@ tags:
 - modes
 - supernatural
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Degrees of the Fantastic: Magical and Impossible Modes

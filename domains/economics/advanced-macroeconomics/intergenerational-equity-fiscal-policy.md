@@ -15,7 +15,7 @@ tags:
 - intergenerational
 - debt
 stage: expert
-status: draft
+status: validated
 ---
 
 # Intergenerational Equity and Fiscal Policy

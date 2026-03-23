@@ -15,7 +15,7 @@ tags:
 - mechanical-behavior
 - plasticity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Rock Rheology and Elastic-Plastic Deformation

@@ -19,7 +19,7 @@ tags:
 - slip-ratio
 - pressure-drop
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Two-Phase Flow and Homogeneous Equilibrium Model

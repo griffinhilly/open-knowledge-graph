@@ -15,7 +15,7 @@ tags:
 - diffusion-creep
 - dislocation-creep
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Creep and Time-Dependent Deformation

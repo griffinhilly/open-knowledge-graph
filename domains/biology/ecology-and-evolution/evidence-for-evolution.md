@@ -17,7 +17,7 @@ tags:
 - fossils
 - molecular
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Evidence for Evolution

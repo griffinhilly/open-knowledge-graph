@@ -15,7 +15,7 @@ tags:
 - parsing
 - comprehension
 stage: expert
-status: draft
+status: validated
 ---
 
 # Sentence Parsing and Garden-Path Sentences

@@ -15,7 +15,7 @@ tags:
 - solenoids
 - field geometry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Solenoid Magnetic Field and Properties

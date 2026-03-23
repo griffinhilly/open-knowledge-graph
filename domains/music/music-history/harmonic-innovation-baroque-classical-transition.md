@@ -19,7 +19,7 @@ tags:
 - tonality
 - form-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Innovation: Baroque to Classical Transition

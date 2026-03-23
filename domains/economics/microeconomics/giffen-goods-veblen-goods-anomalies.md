@@ -13,7 +13,7 @@ tags:
 - demand-anomalies
 - giffen-veblen
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Giffen Goods and Veblen Goods: Anomalies to Normal Demand

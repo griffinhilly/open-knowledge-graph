@@ -11,7 +11,7 @@ tags:
 - human-capital
 - education
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lucas Growth Model and Human Capital

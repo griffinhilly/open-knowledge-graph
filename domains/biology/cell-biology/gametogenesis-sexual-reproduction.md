@@ -12,7 +12,7 @@ tags:
 - oogenesis
 - gametes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gametogenesis and Sexual Reproduction

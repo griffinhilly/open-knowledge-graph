@@ -15,7 +15,7 @@ tags:
 - methodology
 - cases
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multi-Case Analysis and Knowledge Conditions

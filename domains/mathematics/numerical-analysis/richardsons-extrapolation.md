@@ -13,7 +13,7 @@ tags:
 - acceleration
 - deferred-correction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Richardson's Extrapolation

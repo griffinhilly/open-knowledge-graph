@@ -14,7 +14,7 @@ tags:
 - mass
 - center-of-mass
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Applications of Triple Integrals: Volume and Mass

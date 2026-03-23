@@ -13,7 +13,7 @@ tags:
 - assumptions
 - robustness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Assumption Violations and Statistical Test Robustness

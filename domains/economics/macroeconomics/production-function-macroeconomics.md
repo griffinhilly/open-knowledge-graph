@@ -16,7 +16,7 @@ tags:
 - growth
 - fundamentals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Aggregate Production Function

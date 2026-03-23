@@ -16,7 +16,7 @@ tags:
 - null-hypothesis
 - alternative-hypothesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hypothesis Testing Fundamentals

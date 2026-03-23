@@ -12,7 +12,7 @@ tags:
 - classification
 - foundational
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Classification of Matter: Elements, Compounds, and Mixtures

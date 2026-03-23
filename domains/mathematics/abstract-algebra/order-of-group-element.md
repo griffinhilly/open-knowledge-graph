@@ -14,7 +14,7 @@ tags:
 - elements
 - properties
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Order of a Group Element

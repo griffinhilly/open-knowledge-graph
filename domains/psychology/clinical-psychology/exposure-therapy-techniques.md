@@ -11,7 +11,7 @@ tags:
 - cbt-technique
 - anxiety
 stage: expert
-status: draft
+status: validated
 ---
 
 # Exposure Therapy: Techniques and Applications

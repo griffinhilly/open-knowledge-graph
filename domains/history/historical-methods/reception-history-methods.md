@@ -14,7 +14,7 @@ tags:
 - transmission
 - methodology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reception History and the Circulation of Ideas

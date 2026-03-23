@@ -18,7 +18,7 @@ tags:
 - repression
 - combinatorial-control
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Transcription Factors: DNA Binding and Gene Regulation
 

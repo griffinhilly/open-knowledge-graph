@@ -14,7 +14,7 @@ tags:
 - stress
 - shift
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Le Chatelier's Principle and Equilibrium Shifts

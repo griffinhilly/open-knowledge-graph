@@ -11,7 +11,7 @@ tags:
 - templates
 - code-generation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Generics and Template Specialization

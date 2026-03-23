@@ -16,7 +16,7 @@ tags:
 - cortex
 - organization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Primary Sensory Cortices and Somatotopic Organization

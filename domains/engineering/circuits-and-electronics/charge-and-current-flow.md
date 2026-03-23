@@ -17,7 +17,7 @@ tags:
 - current
 - conservation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Charge, Current, and Continuity

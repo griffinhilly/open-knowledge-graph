@@ -13,7 +13,7 @@ tags:
 - texture
 - rhythm
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Polyrhythmic Texture Listening and Tracking

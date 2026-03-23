@@ -14,7 +14,7 @@ tags:
 - gothic
 - romanesque
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gothic and Romanesque Architecture: Medieval Building

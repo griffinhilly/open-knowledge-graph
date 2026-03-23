@@ -17,7 +17,7 @@ tags:
 - estimation
 - cost-model
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Query Cardinality and Selectivity Estimation

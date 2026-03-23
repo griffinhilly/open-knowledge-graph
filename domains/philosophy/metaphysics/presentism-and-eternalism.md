@@ -17,7 +17,7 @@ tags:
 - temporal ontology
 - time
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Presentism and Eternalism

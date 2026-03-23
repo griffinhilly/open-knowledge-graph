@@ -16,7 +16,7 @@ tags:
 - mereology
 - objects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Special Composition Question

@@ -13,7 +13,7 @@ tags:
 - end-replication-problem
 - chromosome-ends
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Telomeres and the End-Replication Problem
 

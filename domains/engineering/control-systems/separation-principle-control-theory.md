@@ -14,7 +14,7 @@ tags:
 - state-space
 - theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Separation Principle and Output Feedback

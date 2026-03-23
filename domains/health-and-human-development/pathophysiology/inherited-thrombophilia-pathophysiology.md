@@ -17,7 +17,7 @@ tags:
 - factor-v-leiden
 - prothrombin-mutation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Inherited Thrombophilia: Factor V Leiden, Prothrombin Mutation, and Antithrombin Deficiency

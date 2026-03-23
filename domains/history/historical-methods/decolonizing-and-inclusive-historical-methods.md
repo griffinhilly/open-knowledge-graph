@@ -13,7 +13,7 @@ tags:
 - inclusive
 - methods
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Decolonizing Historical Practice and Including Non-Western Approaches

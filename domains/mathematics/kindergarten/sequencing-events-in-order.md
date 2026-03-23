@@ -13,7 +13,7 @@ tags:
 - order
 - time
 stage: pre-formal
-status: draft
+status: validated
 ---
 # Sequencing Events in Order
 

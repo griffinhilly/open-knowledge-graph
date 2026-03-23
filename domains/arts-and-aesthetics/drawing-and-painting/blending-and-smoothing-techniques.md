@@ -17,7 +17,7 @@ tags:
 - smoothing
 - rendering
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Blending and Smoothing Techniques

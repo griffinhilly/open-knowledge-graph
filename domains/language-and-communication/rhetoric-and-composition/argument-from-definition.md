@@ -13,7 +13,7 @@ tags:
 - definition
 - logic
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Argument From Definition

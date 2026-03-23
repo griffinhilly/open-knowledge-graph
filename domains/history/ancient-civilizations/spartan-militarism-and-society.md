@@ -15,7 +15,7 @@ tags:
 - governance
 - society
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Spartan Militarism and Totalitarian Social Order

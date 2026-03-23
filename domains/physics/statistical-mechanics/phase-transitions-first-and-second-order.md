@@ -16,7 +16,7 @@ tags:
 - thermodynamics
 - classification
 stage: expert
-status: draft
+status: validated
 ---
 
 # Phase Transitions: First Order and Second Order

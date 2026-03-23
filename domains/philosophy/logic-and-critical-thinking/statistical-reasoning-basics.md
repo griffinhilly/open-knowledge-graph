@@ -14,7 +14,7 @@ tags:
 - probability
 - data-reasoning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Statistical Reasoning Basics

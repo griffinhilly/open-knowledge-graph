@@ -17,7 +17,7 @@ tags:
 - vertical-shear
 - eddy-dynamics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Baroclinic Instability and Mid-Latitude Cyclogenesis

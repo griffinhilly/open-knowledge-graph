@@ -14,7 +14,7 @@ tags:
 - nowhere-dense
 - meager-sets
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Dense Sets and Nowhere Dense Sets

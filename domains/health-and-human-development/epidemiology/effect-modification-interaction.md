@@ -14,7 +14,7 @@ tags:
 - heterogeneity
 - subgroup-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Effect Modification and Statistical Interaction

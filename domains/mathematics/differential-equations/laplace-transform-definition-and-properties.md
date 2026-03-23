@@ -17,7 +17,7 @@ tags:
 - integral-transform
 - definition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Laplace Transform: Definition and Properties

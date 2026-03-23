@@ -16,7 +16,7 @@ tags:
 - autonomic
 - homeostasis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Autonomic Nervous System Organization and Control

@@ -17,7 +17,7 @@ tags:
 - sync
 - async
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Distributed Databases: Replication Models and Consistency

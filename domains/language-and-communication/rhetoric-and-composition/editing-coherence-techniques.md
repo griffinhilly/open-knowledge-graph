@@ -17,7 +17,7 @@ tags:
 - flow
 - editing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Editing for Coherence and Flow

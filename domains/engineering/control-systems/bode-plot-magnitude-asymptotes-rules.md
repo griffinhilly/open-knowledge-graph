@@ -16,7 +16,7 @@ tags:
 - magnitude
 - logarithmic-scale
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bode Plot Magnitude: Asymptotes and Approximation Rules

@@ -16,7 +16,7 @@ tags:
 - exchange
 - globalization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cross-Cultural Exchange: Non-Western and Western Artistic Traditions in Dialogue

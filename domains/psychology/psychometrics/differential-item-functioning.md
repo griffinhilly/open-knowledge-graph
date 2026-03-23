@@ -14,7 +14,7 @@ tags:
 - fairness
 - equitable-assessment
 stage: expert
-status: draft
+status: validated
 ---
 
 # Differential Item Functioning and Test Bias Detection

@@ -12,7 +12,7 @@ tags:
 - laterality
 - body awareness
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Left and Right

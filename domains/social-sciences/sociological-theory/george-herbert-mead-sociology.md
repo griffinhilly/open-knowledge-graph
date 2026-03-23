@@ -15,7 +15,7 @@ tags:
 - mind
 - socialization
 stage: expert
-status: draft
+status: validated
 ---
 
 # George Herbert Mead and the Social Self

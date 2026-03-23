@@ -13,7 +13,7 @@ tags:
 - io
 - redirection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # File Descriptor Tables and I/O Redirection

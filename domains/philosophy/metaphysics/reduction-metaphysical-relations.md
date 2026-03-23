@@ -16,7 +16,7 @@ tags:
 - metaphysics
 - identity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metaphysical Reduction

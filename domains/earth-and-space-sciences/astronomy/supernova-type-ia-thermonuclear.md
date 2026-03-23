@@ -20,7 +20,7 @@ tags:
 - thermonuclear
 - distance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Type Ia Supernovae: Thermonuclear Explosions of White Dwarfs

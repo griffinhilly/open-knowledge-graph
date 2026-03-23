@@ -13,7 +13,7 @@ tags:
 - representation
 - embodiment
 stage: expert
-status: draft
+status: validated
 ---
 
 # Feminist Aesthetics and the Female Gaze

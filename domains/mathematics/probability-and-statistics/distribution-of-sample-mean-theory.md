@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - sample-mean
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Distribution of the Sample Mean

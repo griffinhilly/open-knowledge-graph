@@ -14,7 +14,7 @@ tags:
 - partitions
 - quotients
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Equivalence Relations and Partitions

@@ -16,7 +16,7 @@ tags:
 - negative
 - electrons
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Electric Charge: Positive and Negative
 

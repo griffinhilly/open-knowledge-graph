@@ -17,7 +17,7 @@ tags:
 - topology
 - architecture
 stage: expert
-status: draft
+status: validated
 ---
 
 # Error Signal and Feedback Topology

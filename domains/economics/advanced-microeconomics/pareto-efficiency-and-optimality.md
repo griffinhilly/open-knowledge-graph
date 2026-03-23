@@ -24,7 +24,7 @@ tags:
 - efficiency
 - general-equilibrium
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pareto Efficiency: Definition and Characterization

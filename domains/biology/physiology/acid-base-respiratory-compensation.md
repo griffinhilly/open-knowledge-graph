@@ -18,7 +18,7 @@ tags:
 - buffer
 - respiratory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Acid-Base Balance and Respiratory Compensation

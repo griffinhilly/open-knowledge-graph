@@ -18,7 +18,7 @@ tags:
 - interpretation
 - calibration
 stage: expert
-status: draft
+status: validated
 ---
 
 # Paleoclimate Proxies and Interpretation Methods

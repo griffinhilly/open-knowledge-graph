@@ -15,7 +15,7 @@ tags:
 - convergent-validity
 - discriminant-validity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Multitrait-Multimethod Matrices for Construct Validation

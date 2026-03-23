@@ -16,7 +16,7 @@ tags:
 - pathophysiology
 - electrolytes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Malnutrition Pathophysiology and Refeeding Syndrome in Recovery

@@ -14,7 +14,7 @@ tags:
 - series-circuits
 - frequency-response
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Series Resonance Characteristics

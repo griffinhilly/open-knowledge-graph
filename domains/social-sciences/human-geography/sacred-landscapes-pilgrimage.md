@@ -16,7 +16,7 @@ tags:
 - place
 - meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sacred Landscapes and Pilgrimage Geography

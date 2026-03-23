@@ -17,7 +17,7 @@ tags:
 - ARIES
 - crash
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Crash Recovery: Undo and Redo Logging

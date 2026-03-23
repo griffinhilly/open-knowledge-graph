@@ -16,7 +16,7 @@ tags:
 - biased-inheritance
 - meiotic-drive
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gene Conversion and Nonreciprocal Recombination

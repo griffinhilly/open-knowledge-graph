@@ -17,7 +17,7 @@ tags:
 - thermal
 - models
 stage: expert
-status: draft
+status: validated
 ---
 
 # Conduction Models and Thermal Equation Solutions

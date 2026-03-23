@@ -14,7 +14,7 @@ tags:
 - strings
 - definitions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Alphabets, Strings, and Language Definition

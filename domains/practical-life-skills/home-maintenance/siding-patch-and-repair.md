@@ -15,7 +15,7 @@ tags:
 - exterior-repair
 - weatherproofing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Siding Patch and Repair

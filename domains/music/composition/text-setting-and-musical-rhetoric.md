@@ -16,7 +16,7 @@ tags:
 - prosody
 - rhetoric
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Text Setting and Musical Rhetoric

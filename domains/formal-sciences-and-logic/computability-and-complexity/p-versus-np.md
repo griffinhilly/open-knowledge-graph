@@ -19,7 +19,7 @@ tags:
 - millennium-problem
 - cryptography
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The P Versus NP Problem: Central Open Question

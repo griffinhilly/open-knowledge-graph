@@ -21,7 +21,7 @@ tags:
 - formal-languages
 - algorithms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Recursive Languages: The Decidable Languages

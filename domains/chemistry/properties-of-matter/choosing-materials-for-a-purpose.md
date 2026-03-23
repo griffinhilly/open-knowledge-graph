@@ -17,7 +17,7 @@ tags:
 - engineering
 - design
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Choosing the Right Material for the Job
 

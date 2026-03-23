@@ -13,7 +13,7 @@ tags:
 - analysis
 - contemporary
 stage: expert
-status: draft
+status: validated
 ---
 
 # Formal Analysis of Deformation and Disruption

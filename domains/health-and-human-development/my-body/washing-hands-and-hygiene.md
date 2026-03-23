@@ -14,7 +14,7 @@ tags:
 - germs
 - health
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Washing Hands and Hygiene

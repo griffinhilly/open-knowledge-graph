@@ -16,7 +16,7 @@ tags:
 - procedural
 - systems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Declarative and Procedural Memory Systems

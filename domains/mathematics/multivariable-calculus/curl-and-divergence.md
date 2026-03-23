@@ -16,7 +16,7 @@ tags:
 - divergence
 - vector-calculus
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Curl and Divergence of Vector Fields

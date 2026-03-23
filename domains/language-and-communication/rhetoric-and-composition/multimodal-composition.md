@@ -14,7 +14,7 @@ tags:
 - visual
 - media
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multimodal Composition

@@ -19,7 +19,7 @@ tags:
 - composition
 - harmony
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Modulation Techniques and Key Change

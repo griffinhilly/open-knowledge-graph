@@ -16,7 +16,7 @@ tags:
 - assessment
 - monitoring
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Biomonitoring and Indicator Species for Ecosystem Assessment

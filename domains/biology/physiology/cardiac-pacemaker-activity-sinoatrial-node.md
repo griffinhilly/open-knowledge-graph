@@ -17,7 +17,7 @@ tags:
 - pacemaker
 - automaticity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cardiac Pacemaker Activity and the Sinoatrial Node

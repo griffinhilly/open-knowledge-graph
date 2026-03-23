@@ -13,7 +13,7 @@ tags:
 - black-holes
 - general-relativity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Black Holes and Event Horizons

@@ -13,7 +13,7 @@ tags:
 - emergency
 - systems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Major System Failure Indicators and Response

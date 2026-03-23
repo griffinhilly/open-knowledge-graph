@@ -14,7 +14,7 @@ tags:
 - antioxidant
 - collagen-synthesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vitamin C: Synthesis, Antioxidant Roles, and Enzyme Cofactor Function

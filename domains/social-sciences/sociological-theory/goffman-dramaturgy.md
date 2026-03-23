@@ -14,7 +14,7 @@ tags:
 - self-presentation
 - interaction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Erving Goffman and Dramaturgy

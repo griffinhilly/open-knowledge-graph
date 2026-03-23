@@ -14,7 +14,7 @@ tags:
 - individual
 - interpretation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Biography as Historical Method and Interpretation

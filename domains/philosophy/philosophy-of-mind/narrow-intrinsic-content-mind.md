@@ -20,7 +20,7 @@ tags:
 - internal-properties
 - representation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Narrow Content and Intrinsic Mental Properties

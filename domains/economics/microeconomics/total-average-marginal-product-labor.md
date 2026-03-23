@@ -13,7 +13,7 @@ tags:
 - productivity
 - labor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Total, Average, and Marginal Product of Labor

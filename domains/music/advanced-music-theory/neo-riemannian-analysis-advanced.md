@@ -22,7 +22,7 @@ tags:
 - harmony
 - topology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Advanced Neo-Riemannian Theory and Tonnetz Applications

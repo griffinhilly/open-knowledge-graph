@@ -14,7 +14,7 @@ tags:
 - distant-reading
 - data
 stage: expert
-status: draft
+status: validated
 ---
 
 # Digital History and Computational Methods

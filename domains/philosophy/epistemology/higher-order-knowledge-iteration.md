@@ -13,7 +13,7 @@ tags:
 - nested-knowledge
 - meta-knowledge
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Higher-Order Knowledge and Iteration

@@ -17,7 +17,7 @@ tags:
 - modality
 - change
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Potentiality and Actuality

@@ -21,7 +21,7 @@ tags:
 - solfege
 - diatonic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Scale Degree Identification and Functional Hearing

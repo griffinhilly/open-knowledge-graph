@@ -13,7 +13,7 @@ tags:
 - retrovirus
 - rna-dependent-dna
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Reverse Transcription and Retroviral Replication

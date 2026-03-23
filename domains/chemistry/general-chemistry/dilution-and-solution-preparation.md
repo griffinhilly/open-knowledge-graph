@@ -15,7 +15,7 @@ tags:
 - M₁V₁ = M₂V₂
 - concentration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dilution Calculations and Solution Preparation

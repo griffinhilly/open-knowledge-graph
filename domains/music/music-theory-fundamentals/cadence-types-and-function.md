@@ -15,7 +15,7 @@ tags:
 - form
 - phrase-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cadence Types: Authentic, Plagal, Half, and Deceptive

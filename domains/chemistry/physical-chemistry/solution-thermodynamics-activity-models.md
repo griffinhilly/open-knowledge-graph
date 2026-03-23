@@ -16,7 +16,7 @@ tags:
 - activity
 - non-ideal
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Solution Thermodynamics and Activity Coefficient Models

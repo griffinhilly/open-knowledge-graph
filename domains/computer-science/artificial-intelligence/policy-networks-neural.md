@@ -16,7 +16,7 @@ tags:
 - actor-methods
 - policy-gradient
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Policy Networks and Policy Gradients

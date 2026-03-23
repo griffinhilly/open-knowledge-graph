@@ -11,7 +11,7 @@ tags:
 - hardware
 - repair
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cabinet and Storage Hardware Maintenance

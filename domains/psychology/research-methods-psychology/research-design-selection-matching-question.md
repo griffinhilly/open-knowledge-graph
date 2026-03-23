@@ -19,7 +19,7 @@ tags:
 - design-selection
 - tradeoffs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Research Design Selection and Matching Design to Research Question

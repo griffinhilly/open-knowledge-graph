@@ -14,7 +14,7 @@ tags:
 - control-unit
 - processor-design
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Processor Control Unit Design

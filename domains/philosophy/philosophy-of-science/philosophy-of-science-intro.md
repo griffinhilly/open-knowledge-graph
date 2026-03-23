@@ -14,7 +14,7 @@ tags:
 - methodology
 - meta-science
 stage: expert
-status: draft
+status: validated
 ---
 
 # Introduction to Philosophy of Science

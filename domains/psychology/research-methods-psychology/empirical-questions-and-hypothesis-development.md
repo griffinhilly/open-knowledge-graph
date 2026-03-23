@@ -14,7 +14,7 @@ tags:
 - research-questions
 - testability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Formulating Empirical Questions and Hypotheses

@@ -17,7 +17,7 @@ tags:
 - learning
 - moral-formation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Education and Ethical Development

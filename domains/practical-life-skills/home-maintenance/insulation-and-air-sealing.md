@@ -19,7 +19,7 @@ tags:
 - energy-efficiency
 - thermal-envelope
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Insulation Materials and Air Sealing

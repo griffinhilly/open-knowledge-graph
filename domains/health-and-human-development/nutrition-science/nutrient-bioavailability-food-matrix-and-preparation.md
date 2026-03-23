@@ -18,7 +18,7 @@ tags:
 - cooking
 - preparation-effects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nutrient Bioavailability: Food Matrix and Preparation Effects

@@ -17,7 +17,7 @@ tags:
 - multilayer-adsorption
 - surface-area
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Advanced Adsorption Isotherms: BET, Freundlich, and Beyond

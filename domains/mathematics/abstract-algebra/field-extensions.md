@@ -17,7 +17,7 @@ tags:
 - vector-space
 - multiplicative
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Field Extensions

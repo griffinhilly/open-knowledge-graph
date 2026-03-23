@@ -11,7 +11,7 @@ tags:
 - bosons
 - statistical-mechanics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bose-Einstein Statistics

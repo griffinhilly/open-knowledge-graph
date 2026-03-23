@@ -15,7 +15,7 @@ tags:
 - aminoacylation
 - translation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transfer RNA Structure and Aminoacylation

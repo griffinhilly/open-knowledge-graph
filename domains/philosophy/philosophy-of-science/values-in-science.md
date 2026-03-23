@@ -11,7 +11,7 @@ tags:
 - objectivity
 - ethics
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Role of Values in Science

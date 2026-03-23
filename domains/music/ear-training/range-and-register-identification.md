@@ -17,7 +17,7 @@ tags:
 - ear-training
 - orchestration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Range and Register Identification by Ear

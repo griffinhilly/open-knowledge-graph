@@ -16,7 +16,7 @@ tags:
 - bellman-ford
 - rip
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Distance-Vector Routing Protocols

@@ -13,7 +13,7 @@ tags:
 - conditioning
 - error-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Numerical Stability and Conditioning

@@ -13,7 +13,7 @@ tags:
 - parallel-forms
 - classical-test-theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Parallel and Tau-Equivalent Test Forms

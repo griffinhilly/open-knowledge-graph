@@ -16,7 +16,7 @@ tags:
 - reinforcement-learning
 - learning-paradigm
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Introduction to Reinforcement Learning

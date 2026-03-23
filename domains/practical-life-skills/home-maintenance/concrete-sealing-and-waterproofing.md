@@ -18,7 +18,7 @@ tags:
 - protection
 - exterior
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Concrete Sealing and Waterproofing

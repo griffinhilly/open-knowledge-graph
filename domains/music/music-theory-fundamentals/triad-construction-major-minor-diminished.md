@@ -16,7 +16,7 @@ tags:
 - triads
 - chord-construction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Triad Construction: Major, Minor, and Diminished

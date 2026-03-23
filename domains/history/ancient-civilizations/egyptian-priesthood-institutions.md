@@ -16,7 +16,7 @@ tags:
 - institutions
 - power
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Egyptian Priesthood and Religious Institutions

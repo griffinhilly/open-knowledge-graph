@@ -16,7 +16,7 @@ tags:
 - valuation
 - hedging
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interest Rate Swaps: Mechanics, Valuation, and Uses

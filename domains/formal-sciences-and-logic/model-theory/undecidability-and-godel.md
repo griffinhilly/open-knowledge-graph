@@ -14,7 +14,7 @@ tags:
 - gödel
 - church
 stage: expert
-status: draft
+status: validated
 ---
 # Undecidability of First-Order Theories
 

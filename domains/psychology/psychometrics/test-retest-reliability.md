@@ -15,7 +15,7 @@ tags:
 - stability
 - trait-measurement
 stage: expert
-status: draft
+status: validated
 ---
 
 # Test-Retest Reliability and Temporal Stability

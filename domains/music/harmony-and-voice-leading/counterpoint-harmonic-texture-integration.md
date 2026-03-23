@@ -17,7 +17,7 @@ tags:
 - voice-leading
 - texture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Counterpoint and Harmonic Texture Integration

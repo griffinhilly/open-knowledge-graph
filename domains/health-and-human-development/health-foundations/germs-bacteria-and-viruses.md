@@ -4,7 +4,7 @@ title: "Germs: Bacteria and Viruses"
 domain: health-and-human-development
 course: health-foundations
 prerequisites:
-  - id: my-hygiene
+  - id: washing-hands-and-hygiene
     type: hard
 builds-toward:
   - how-diseases-spread
@@ -13,7 +13,7 @@ builds-toward:
   - epidemiology-foundations
 tags: [disease, prevention, germs, bacteria, viruses, microbiology]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Germs: Bacteria and Viruses

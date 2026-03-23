@@ -16,7 +16,7 @@ tags:
 - languages
 - recognition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Decidable and Semi-Decidable Languages

@@ -16,7 +16,7 @@ tags:
 - inequality
 - postcolonial
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Colonialism and Geographic Patterns of Inequality

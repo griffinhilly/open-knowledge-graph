@@ -13,7 +13,7 @@ tags:
 - valuations
 - primes
 stage: advanced
-status: draft
+status: validated
 ---
 
 # p-adic Valuation

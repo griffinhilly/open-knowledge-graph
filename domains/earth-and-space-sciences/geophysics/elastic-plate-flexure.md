@@ -16,7 +16,7 @@ tags:
 - lithosphere
 - elastic
 stage: expert
-status: draft
+status: validated
 ---
 
 # Elastic Plate Flexure and Lithospheric Loading

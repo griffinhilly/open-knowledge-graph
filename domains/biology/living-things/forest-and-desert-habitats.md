@@ -15,7 +15,7 @@ tags:
 - biomes
 - temperature
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Forest and Desert Habitats

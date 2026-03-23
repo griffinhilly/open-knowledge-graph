@@ -4,7 +4,7 @@ title: Adjacency List Graph Representation
 domain: computer-science
 course: data-structures-and-algorithms
 prerequisites:
-- id: arrays-and-indexed-collections
+- id: arrays-and-lists
   type: hard
 - id: linked-lists
   type: soft
@@ -21,9 +21,8 @@ tags:
 - sparse
 - memory-efficient
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Adjacency List Graph Representation
 
 ## Core Idea

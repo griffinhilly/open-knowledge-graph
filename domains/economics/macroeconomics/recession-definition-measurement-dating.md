@@ -15,7 +15,7 @@ tags:
 - measurement
 - definitions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Recession Definition, Measurement, and Dating

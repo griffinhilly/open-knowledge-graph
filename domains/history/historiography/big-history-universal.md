@@ -13,7 +13,7 @@ tags:
 - universal
 - synthesis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Big History and Universal History

@@ -14,7 +14,7 @@ tags:
 - composition
 - sound-design
 stage: expert
-status: draft
+status: validated
 ---
 
 # Electroacoustic Composition and Digital Sound Design

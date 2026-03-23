@@ -13,7 +13,7 @@ tags:
 - method development
 - optimization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gas Chromatography Method Development

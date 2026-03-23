@@ -17,7 +17,7 @@ tags:
 - reabsorption
 - secretion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tubular Reabsorption, Secretion, and Selective Transport

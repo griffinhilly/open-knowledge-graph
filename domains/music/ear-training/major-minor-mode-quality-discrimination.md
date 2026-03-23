@@ -17,7 +17,7 @@ tags:
 - tonality
 - quality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Major vs. Minor Mode: Quality and Character

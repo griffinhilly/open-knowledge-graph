@@ -12,7 +12,7 @@ tags:
 - hilbert-spaces
 - geometry
 stage: expert
-status: draft
+status: validated
 ---
 
 # Orthogonality in Hilbert Spaces

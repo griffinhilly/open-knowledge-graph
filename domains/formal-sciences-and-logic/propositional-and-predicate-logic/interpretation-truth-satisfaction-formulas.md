@@ -16,7 +16,7 @@ tags:
 - truth
 - satisfaction
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Interpretation, Truth, and Satisfaction of Formulas

@@ -16,7 +16,7 @@ tags:
 - rice
 - oats
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Cooking Grains and Starches: Pasta, Rice, and Oats

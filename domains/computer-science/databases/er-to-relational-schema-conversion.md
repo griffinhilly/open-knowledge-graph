@@ -18,7 +18,7 @@ tags:
 - schema-design
 - conversion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Converting ER Diagrams to Relational Schemas

@@ -15,7 +15,7 @@ tags:
 - direction
 - opposition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lenz's Law and Direction of Induction

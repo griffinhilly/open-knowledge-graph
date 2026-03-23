@@ -18,7 +18,7 @@ tags:
 - pde
 - mathematics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The One-Dimensional Wave Equation

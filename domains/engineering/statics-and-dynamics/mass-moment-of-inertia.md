@@ -19,7 +19,7 @@ tags:
 - composite bodies
 - parallel-axis theorem
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mass Moment of Inertia

@@ -17,7 +17,7 @@ tags:
 - loans
 - credit
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cost of Borrowing and Interest Mechanics

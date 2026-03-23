@@ -15,7 +15,7 @@ tags:
 - logical-form
 - quantification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Predicate Logic for Linguistic Semantics

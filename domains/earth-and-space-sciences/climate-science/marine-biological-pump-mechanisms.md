@@ -18,7 +18,7 @@ tags:
 - ocean-productivity
 - carbon-cycle
 stage: expert
-status: draft
+status: validated
 ---
 # Marine Biological Pump Mechanisms and Efficiency
 

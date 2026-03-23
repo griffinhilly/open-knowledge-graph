@@ -13,7 +13,7 @@ tags:
 - quantification
 - scope
 stage: expert
-status: draft
+status: validated
 ---
 
 # Quantifier Scope and Binding Relations

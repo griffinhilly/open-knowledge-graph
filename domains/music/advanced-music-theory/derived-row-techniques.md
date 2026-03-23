@@ -18,7 +18,7 @@ tags:
 - twelve-tone
 - row-organization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Derived Row Techniques

@@ -13,7 +13,7 @@ tags:
 - waiting-time
 - first-success
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Geometric Distribution

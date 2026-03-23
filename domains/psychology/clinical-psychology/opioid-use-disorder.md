@@ -13,7 +13,7 @@ tags:
 - substance-use
 - addiction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Opioid Use Disorder

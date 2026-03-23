@@ -20,7 +20,7 @@ tags:
 - bacteria
 - protists
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Single-Celled Organisms
 

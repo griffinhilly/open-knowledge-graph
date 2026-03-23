@@ -11,7 +11,7 @@ tags:
 - pricing
 - discrimination
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Price Discrimination Strategies and Welfare Effects

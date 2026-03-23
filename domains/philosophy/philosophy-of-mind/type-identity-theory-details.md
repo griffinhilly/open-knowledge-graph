@@ -15,7 +15,7 @@ tags:
 - mental-properties
 - brain-states
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Type Identity Theory

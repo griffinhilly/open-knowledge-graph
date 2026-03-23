@@ -17,7 +17,7 @@ tags:
 - monastic-order
 - reform
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cluniac and Cistercian Monastic Orders

@@ -16,7 +16,7 @@ tags:
 - dynamics
 - seismicity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Subduction Zone Structure and Dynamics

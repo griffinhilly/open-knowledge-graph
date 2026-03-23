@@ -15,7 +15,7 @@ tags:
 - meaningfulness
 - logical-positivism
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Verification Principle

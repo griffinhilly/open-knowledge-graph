@@ -16,7 +16,7 @@ tags:
 - diaspora
 - decolonization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pan-Africanism and Black Unity Movements

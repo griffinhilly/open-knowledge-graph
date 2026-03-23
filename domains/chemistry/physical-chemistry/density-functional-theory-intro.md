@@ -24,7 +24,7 @@ tags:
 - electron-density
 - computational-chemistry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Introduction to Density Functional Theory: From Wavefunctions to Electron Density

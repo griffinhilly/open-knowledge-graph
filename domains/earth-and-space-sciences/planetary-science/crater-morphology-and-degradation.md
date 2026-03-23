@@ -17,7 +17,7 @@ tags:
 - morphology
 - degradation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Crater Morphology and Degradation

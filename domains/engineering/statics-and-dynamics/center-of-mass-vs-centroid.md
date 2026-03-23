@@ -19,7 +19,7 @@ tags:
 - density
 - gravity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Center of Mass versus Centroid

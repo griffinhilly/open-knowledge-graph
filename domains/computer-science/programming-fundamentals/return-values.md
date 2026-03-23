@@ -6,10 +6,13 @@ course: programming-fundamentals
 prerequisites:
 - id: parameters-and-arguments
   type: hard
+- id: functions-defining-calling
+  type: hard
 builds-toward:
 - variable-scope
 - recursion-basics
 - error-handling-exceptions
+- function-design-and-contracts
 tags:
 - return
 - output
@@ -19,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Return Values
 
 ## Core Idea

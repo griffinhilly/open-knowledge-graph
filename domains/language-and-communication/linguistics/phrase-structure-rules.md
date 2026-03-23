@@ -16,7 +16,7 @@ tags:
 - context-free
 - phrase-structure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Phrase Structure Rules and Context-Free Grammars

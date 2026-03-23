@@ -13,7 +13,7 @@ tags:
 - negation
 - logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Negation of Quantified Statements

@@ -14,7 +14,7 @@ tags:
 - row-by-row
 - dependent subquery
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # SQL: Correlated Subqueries

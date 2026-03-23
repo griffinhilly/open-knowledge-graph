@@ -15,7 +15,7 @@ tags:
 - speaker-meaning
 - communication
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # What Is Said (Grice)
 

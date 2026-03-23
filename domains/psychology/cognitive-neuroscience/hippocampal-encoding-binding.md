@@ -17,7 +17,7 @@ tags:
 - hippocampus
 - binding
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hippocampal Encoding and Memory Binding

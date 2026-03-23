@@ -14,7 +14,7 @@ tags:
 - properties
 - composition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Intensive and Extensive Properties

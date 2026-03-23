@@ -16,7 +16,7 @@ tags:
 - transnational
 - livelihoods
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Labor, Remittances, and Transnational Economies

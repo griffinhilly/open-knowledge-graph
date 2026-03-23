@@ -15,7 +15,7 @@ tags:
 - sounding-out
 - reading
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Decoding Words

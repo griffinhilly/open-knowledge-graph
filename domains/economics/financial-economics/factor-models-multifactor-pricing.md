@@ -15,7 +15,7 @@ tags:
 - apt
 - asset-pricing
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Factor Models and Multifactor Pricing (Fama-French)

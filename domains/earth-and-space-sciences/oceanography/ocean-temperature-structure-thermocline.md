@@ -13,7 +13,7 @@ tags:
 - epipelagic-zone
 - abyssal-zone
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ocean Temperature Structure and the Thermocline

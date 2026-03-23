@@ -19,7 +19,7 @@ tags:
 - sequence-models
 - neural-networks
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Recurrent Neural Networks

@@ -16,7 +16,7 @@ tags:
 - neo-riemannian
 - tonal-ambiguity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hexatonic Systems and Harmonic Regions

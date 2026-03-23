@@ -16,7 +16,7 @@ tags:
 - dissolution
 - like dissolves like
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Solutions and Solubility: Factors Affecting Dissolution

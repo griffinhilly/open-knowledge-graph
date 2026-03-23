@@ -15,7 +15,7 @@ tags:
 - measure-theory
 - advanced
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Introduction to Lebesgue Measure

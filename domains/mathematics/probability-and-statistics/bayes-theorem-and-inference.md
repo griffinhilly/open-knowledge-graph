@@ -15,7 +15,7 @@ tags:
 - bayes
 - inference
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bayes' Theorem and Statistical Inference

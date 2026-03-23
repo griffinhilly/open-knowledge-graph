@@ -13,7 +13,7 @@ tags:
 - saving
 - rates
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Bill Negotiation and Rate Reduction

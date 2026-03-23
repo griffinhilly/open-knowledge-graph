@@ -14,7 +14,7 @@ tags:
 - filters
 - filter-design
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Filter Design and Specifications

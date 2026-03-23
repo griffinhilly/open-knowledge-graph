@@ -16,7 +16,7 @@ tags:
 - fault-tolerance
 - malicious
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Byzantine Agreement Algorithms

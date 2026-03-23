@@ -15,7 +15,7 @@ tags:
 - linear
 - nth-order
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Higher-Order Linear Differential Equations

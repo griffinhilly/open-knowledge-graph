@@ -16,7 +16,7 @@ tags:
 - international-literature
 - 20th-century
 stage: expert
-status: draft
+status: validated
 ---
 
 # Modernism: International Avant-Gardes and Movements

@@ -18,7 +18,7 @@ tags:
 - Babylon
 - origins
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Mesopotamia: The Cradle of Civilization

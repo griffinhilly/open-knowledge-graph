@@ -17,7 +17,7 @@ tags:
 - 3d-geometry
 - magnitude
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vectors in 3D Space: Operations and Magnitude

@@ -21,7 +21,7 @@ tags:
 - graphical-models
 - joint-distributions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Probabilistic Graphical Models

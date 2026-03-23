@@ -19,7 +19,7 @@ tags:
 - construction
 - harmony
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Building Triads Using Intervals

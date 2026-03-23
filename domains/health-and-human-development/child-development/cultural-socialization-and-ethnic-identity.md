@@ -20,7 +20,7 @@ tags:
 - socialization
 - cultural-transmission
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cultural Socialization and Ethnic Identity

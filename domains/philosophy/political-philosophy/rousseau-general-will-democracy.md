@@ -17,7 +17,7 @@ tags:
 - democracy
 - legitimacy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rousseau: General Will and Democratic Legitimacy

@@ -19,7 +19,7 @@ tags:
 - threat-learning
 - extinction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Amygdala Fear Processing and Threat Circuits

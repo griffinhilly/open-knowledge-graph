@@ -11,7 +11,7 @@ tags:
 - rights
 - foundational
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Natural Rights Theory

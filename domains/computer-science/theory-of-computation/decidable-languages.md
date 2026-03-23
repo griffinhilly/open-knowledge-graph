@@ -14,7 +14,7 @@ tags:
 - recursive
 - decision-problems
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Decidable Languages and Recursive Languages

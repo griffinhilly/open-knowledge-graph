@@ -17,7 +17,7 @@ tags:
 - state-space
 - design
 stage: expert
-status: draft
+status: validated
 ---
 
 # State Feedback Control and Pole Placement

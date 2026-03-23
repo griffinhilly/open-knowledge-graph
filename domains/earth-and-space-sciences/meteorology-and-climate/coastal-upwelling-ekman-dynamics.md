@@ -20,7 +20,7 @@ tags:
 - ocean-current
 - wind-driven
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Coastal Upwelling and Ekman Layer Dynamics

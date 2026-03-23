@@ -15,7 +15,7 @@ tags:
 - huguenots
 - religious-conflict
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Huguenots and the French Wars of Religion

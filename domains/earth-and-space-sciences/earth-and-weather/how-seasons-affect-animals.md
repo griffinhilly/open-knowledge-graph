@@ -14,7 +14,7 @@ tags:
 - migration
 - hibernation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # How Seasons Affect Animals

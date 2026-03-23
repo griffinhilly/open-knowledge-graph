@@ -15,7 +15,7 @@ tags:
 - spain
 - exploitation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Encomienda System and Colonial Labor

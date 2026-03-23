@@ -16,7 +16,7 @@ tags:
 - multi-head
 - transformer
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Self-Attention and Multi-Head Attention

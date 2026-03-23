@@ -17,7 +17,7 @@ tags:
 - RL-circuits
 - exponential-growth
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # RL Circuit Transient Analysis

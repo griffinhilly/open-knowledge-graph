@@ -11,7 +11,7 @@ tags:
 - set-theory
 - monochromatic-structures
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Infinite Ramsey Theory

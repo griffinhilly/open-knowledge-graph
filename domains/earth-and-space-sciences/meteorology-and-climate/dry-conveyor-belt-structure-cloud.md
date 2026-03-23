@@ -16,7 +16,7 @@ tags:
 - cyclones
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dry Conveyor Belt and Cloud Head Structure

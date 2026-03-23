@@ -19,7 +19,7 @@ tags:
 - calcium
 - voltage-dependent
 stage: expert
-status: draft
+status: validated
 ---
 
 # NMDA Receptors: Structure and Properties

@@ -15,7 +15,7 @@ tags:
 - consequence
 - inference
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Logical Consequence and Entailment

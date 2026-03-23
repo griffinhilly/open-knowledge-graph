@@ -16,7 +16,7 @@ tags:
 - flux
 - circulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Maxwell's Equations in Integral Form

@@ -15,7 +15,7 @@ tags:
 - composition
 - instruments
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Extended Playing Techniques and Compositional Material

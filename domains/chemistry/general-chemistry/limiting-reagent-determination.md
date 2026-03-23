@@ -13,7 +13,7 @@ tags:
 - excess reagent
 - theoretical yield
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Limiting Reagent and Theoretical Yield

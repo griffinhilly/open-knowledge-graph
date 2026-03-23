@@ -13,7 +13,7 @@ tags:
 - credit-constraints
 - lending
 stage: expert
-status: draft
+status: validated
 ---
 
 # Financial Frictions and Credit Constraints

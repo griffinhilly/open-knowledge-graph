@@ -17,7 +17,7 @@ tags:
 - thrombosis
 - acute-coronary-syndrome
 stage: expert
-status: draft
+status: validated
 ---
 
 # Atherosclerotic Plaque Rupture and Thrombosis

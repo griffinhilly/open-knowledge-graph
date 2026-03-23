@@ -13,7 +13,7 @@ tags:
 - lithium
 - bipolar
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mood Stabilizers: Lithium and Anticonvulsants

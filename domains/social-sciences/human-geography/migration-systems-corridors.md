@@ -18,7 +18,7 @@ tags:
 - spatial-systems
 - population
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Migration Systems and Corridors

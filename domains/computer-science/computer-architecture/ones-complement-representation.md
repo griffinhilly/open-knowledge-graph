@@ -10,7 +10,7 @@ tags:
 - number-representation
 - signed-integers
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # One's Complement Number Representation

@@ -15,7 +15,7 @@ tags:
 - statistics
 - methods
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Maximum Likelihood Phylogenetics

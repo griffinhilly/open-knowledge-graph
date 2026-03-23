@@ -16,7 +16,7 @@ tags:
 - encirclement
 - polar-plot
 stage: expert
-status: draft
+status: validated
 ---
 
 # Nyquist Criterion and Stability from Frequency Response

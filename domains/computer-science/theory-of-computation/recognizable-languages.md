@@ -13,7 +13,7 @@ tags:
 - semi-decidable
 - turing-recognizable
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Recognizable Languages and Turing Recognizability

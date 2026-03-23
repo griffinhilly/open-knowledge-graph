@@ -13,7 +13,7 @@ tags:
 - foundations
 - classification
 stage: expert
-status: draft
+status: validated
 ---
 
 # Signal Classification: Continuous vs. Discrete Time

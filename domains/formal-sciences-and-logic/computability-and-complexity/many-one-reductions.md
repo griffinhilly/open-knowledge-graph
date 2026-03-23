@@ -16,7 +16,7 @@ tags:
 - undecidability
 - proof-technique
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Many-One Reductions and Undecidability Proofs

@@ -18,7 +18,7 @@ tags:
 - sexual-dimorphism
 - hypothalamus
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reproductive Hormones and Sexual Neural Circuits

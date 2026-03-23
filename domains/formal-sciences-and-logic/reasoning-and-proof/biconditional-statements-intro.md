@@ -14,7 +14,7 @@ builds-toward:
   - conditional-and-biconditional-statements
 tags: [biconditional, if-and-only-if, equivalence, logic]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Biconditional Statements

@@ -19,7 +19,7 @@ tags:
 - thermogenesis
 - energy-expenditure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metabolic Rate, Thermogenesis, and Energy Expenditure

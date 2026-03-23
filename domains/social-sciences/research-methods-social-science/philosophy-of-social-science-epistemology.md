@@ -12,7 +12,7 @@ tags:
 - epistemology
 - foundations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Philosophy of Social Science: Epistemology and Methods

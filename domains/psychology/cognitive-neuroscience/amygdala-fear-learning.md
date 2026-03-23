@@ -15,7 +15,7 @@ tags:
 - amygdala
 - learning
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Amygdala and Fear Conditioning

@@ -17,7 +17,7 @@ tags:
 - iupac
 - e-z-isomerism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # IUPAC Nomenclature of Alkenes

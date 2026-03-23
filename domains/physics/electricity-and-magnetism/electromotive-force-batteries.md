@@ -15,7 +15,7 @@ tags:
 - battery
 - energy-source
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electromotive Force (EMF) and Batteries

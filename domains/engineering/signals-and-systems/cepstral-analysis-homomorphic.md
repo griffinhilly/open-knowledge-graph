@@ -13,7 +13,7 @@ tags:
 - homomorphic
 - deconvolution
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cepstral Analysis and Homomorphic Filtering

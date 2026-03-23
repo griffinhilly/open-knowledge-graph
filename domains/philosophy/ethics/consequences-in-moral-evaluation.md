@@ -13,7 +13,7 @@ tags:
 - outcomes
 - evaluation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Consequences and Moral Evaluation

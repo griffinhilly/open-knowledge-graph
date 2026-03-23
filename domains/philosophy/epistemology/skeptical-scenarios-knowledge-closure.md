@@ -18,7 +18,7 @@ tags:
 - closure
 - knowledge
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Skeptical Scenarios and Knowledge Closure

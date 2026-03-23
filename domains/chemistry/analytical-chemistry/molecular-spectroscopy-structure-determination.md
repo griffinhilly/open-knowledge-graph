@@ -19,7 +19,7 @@ tags:
 - NMR
 - UV-Vis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Molecular Spectroscopy for Structure Determination

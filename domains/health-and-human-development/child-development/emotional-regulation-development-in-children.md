@@ -18,7 +18,7 @@ tags:
 - prefrontal-development
 - coping
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Emotional Regulation Development in Children

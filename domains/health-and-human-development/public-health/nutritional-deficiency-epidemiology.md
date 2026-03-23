@@ -16,7 +16,7 @@ tags:
 - public-health
 - deficiency-diseases
 stage: expert
-status: draft
+status: validated
 ---
 
 # Nutritional Epidemiology and Deficiency Diseases

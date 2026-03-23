@@ -11,7 +11,7 @@ tags:
 - fermions
 - statistical-mechanics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fermi-Dirac Statistics

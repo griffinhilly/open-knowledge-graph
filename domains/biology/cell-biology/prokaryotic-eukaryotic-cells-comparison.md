@@ -17,7 +17,7 @@ tags:
 - comparison
 - evolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Comparing Prokaryotic and Eukaryotic Cells

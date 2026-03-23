@@ -16,7 +16,7 @@ tags:
 - relay
 - filtering
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thalamus Structure and Sensory Relay

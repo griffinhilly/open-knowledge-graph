@@ -15,7 +15,7 @@ tags:
 - detection-methods
 - orbital-dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Exoplanet Detection and Orbital Parameters

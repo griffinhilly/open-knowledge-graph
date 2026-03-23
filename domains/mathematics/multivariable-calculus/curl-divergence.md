@@ -16,7 +16,7 @@ tags:
 - curl
 - divergence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Curl and Divergence

@@ -17,7 +17,7 @@ tags:
 - bulimia
 - binge-eating
 stage: expert
-status: draft
+status: validated
 ---
 
 # Eating Disorders: Overview and Classification

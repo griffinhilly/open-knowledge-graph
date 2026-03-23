@@ -17,7 +17,7 @@ tags:
 - order-parameter
 - phase-transitions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Symmetry Breaking and Phase Transitions

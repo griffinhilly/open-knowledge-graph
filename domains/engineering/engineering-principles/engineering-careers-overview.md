@@ -15,7 +15,7 @@ tags:
 - professional-engineering
 - PE-license
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Engineering Careers Overview
 

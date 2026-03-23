@@ -13,7 +13,7 @@ tags:
 - queries
 - result-filtering
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # DISTINCT: Eliminating Duplicate Rows

@@ -14,7 +14,7 @@ tags:
 - superposition
 - wave-combination
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constructive and Destructive Interference Conditions

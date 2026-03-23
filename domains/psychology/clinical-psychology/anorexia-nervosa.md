@@ -12,7 +12,7 @@ tags:
 - restrictive
 - weight-loss
 stage: expert
-status: draft
+status: validated
 ---
 
 # Anorexia Nervosa

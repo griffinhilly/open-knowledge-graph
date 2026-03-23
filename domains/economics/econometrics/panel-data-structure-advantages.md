@@ -14,7 +14,7 @@ tags:
 - panel-data
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Panel Data: Structure, Notation, and Advantages

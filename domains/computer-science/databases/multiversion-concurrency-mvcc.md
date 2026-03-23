@@ -15,7 +15,7 @@ tags:
 - timestamp
 - SI
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multiversion Concurrency Control (MVCC) and Snapshot Isolation

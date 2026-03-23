@@ -15,7 +15,7 @@ tags:
 - dynamics
 - relativistic
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Relativistic Dynamics and Acceleration

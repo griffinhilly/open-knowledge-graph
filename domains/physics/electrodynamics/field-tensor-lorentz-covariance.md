@@ -15,7 +15,7 @@ tags:
 - lorentz-covariance
 - 4-vector-formalism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Electromagnetic Field Tensor and Covariance

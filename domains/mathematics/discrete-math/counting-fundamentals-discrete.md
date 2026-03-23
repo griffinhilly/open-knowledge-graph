@@ -16,7 +16,7 @@ tags:
 - sum-rule
 - pigeonhole
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Counting Fundamentals and the Multiplication Principle

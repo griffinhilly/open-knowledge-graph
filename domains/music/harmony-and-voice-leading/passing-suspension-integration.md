@@ -15,7 +15,7 @@ tags:
 - decoration
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Integrating Passing Tones and Suspensions

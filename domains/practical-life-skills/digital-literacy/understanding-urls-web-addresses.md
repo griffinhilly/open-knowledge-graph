@@ -15,7 +15,7 @@ tags:
 - web-address
 - http-https
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Understanding URLs and Web Addresses

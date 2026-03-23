@@ -14,7 +14,7 @@ tags:
 - fluid-intelligence
 - crystallized-intelligence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cognitive Aging: Fluid and Crystallized Intelligence

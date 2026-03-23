@@ -20,7 +20,7 @@ tags:
 - mechanics
 - equations-of-motion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lagrangian Mechanics (Introduction)

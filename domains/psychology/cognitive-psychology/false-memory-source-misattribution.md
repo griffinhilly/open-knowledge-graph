@@ -14,7 +14,7 @@ tags:
 - source-monitoring
 - error
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # False Memory and Source Misattribution

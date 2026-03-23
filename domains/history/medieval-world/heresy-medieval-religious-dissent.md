@@ -17,7 +17,7 @@ tags:
 - suppression
 - religious
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heresy and Religious Dissent

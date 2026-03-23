@@ -24,7 +24,7 @@ tags:
 - expectations
 - price-setting
 stage: expert
-status: draft
+status: validated
 ---
 
 # Phillips Curve Dynamics in Modern Models

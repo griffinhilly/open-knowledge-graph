@@ -19,7 +19,7 @@ tags:
 - properties
 - ontology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Abstract Entities and Platonism

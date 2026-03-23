@@ -14,7 +14,7 @@ tags:
 - risk
 - mitigation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Volcanic Hazards: Assessment and Mitigation

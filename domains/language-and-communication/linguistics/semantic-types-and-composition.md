@@ -17,7 +17,7 @@ tags:
 - type-theory
 - composition
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Semantic Types and Compositional Meaning

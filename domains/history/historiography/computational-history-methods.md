@@ -17,7 +17,7 @@ tags:
 - big data
 - text analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Computational and Digital Methods in History

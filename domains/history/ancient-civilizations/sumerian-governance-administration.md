@@ -15,7 +15,7 @@ tags:
 - administration
 - city-states
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sumerian City-States and Administrative Systems

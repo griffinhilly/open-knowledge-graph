@@ -17,7 +17,7 @@ tags:
 - counting
 - naming
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interval Counting and Naming

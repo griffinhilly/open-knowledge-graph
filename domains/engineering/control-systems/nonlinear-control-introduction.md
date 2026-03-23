@@ -16,7 +16,7 @@ tags:
 - linearization
 - equilibrium-points
 stage: expert
-status: draft
+status: validated
 ---
 
 # Introduction to Nonlinear Control

@@ -17,7 +17,7 @@ tags:
 - aesthetics
 - cultural-meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 # African Sculpture, Carving, and Aesthetic Systems
 

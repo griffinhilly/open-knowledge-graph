@@ -18,7 +18,7 @@ tags:
 - water-balance
 - solutes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Osmosis and Tonicity

@@ -15,7 +15,7 @@ tags:
 - age
 - transition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Age-Grade Systems and Lifecycle Organization

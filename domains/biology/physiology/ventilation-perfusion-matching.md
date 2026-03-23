@@ -15,7 +15,7 @@ tags:
 - hypoxemia
 - lung-disease
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ventilation-Perfusion Matching and Gas Exchange Efficiency

@@ -17,7 +17,7 @@ tags:
 - systematization
 - laws
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Unificationist Model of Explanation

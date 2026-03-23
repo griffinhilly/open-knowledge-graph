@@ -15,7 +15,7 @@ tags:
 - archimedes
 - displacement
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Archimedes' Principle: Buoyancy
 

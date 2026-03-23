@@ -16,7 +16,7 @@ tags:
 - thermodynamic-stability
 - structure-function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # RNA Secondary Structure and Folding Thermodynamics

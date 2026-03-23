@@ -15,7 +15,7 @@ tags:
 - explicit
 - elimination
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Beth Definability: From Implicit to Explicit Definitions

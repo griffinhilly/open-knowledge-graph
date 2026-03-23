@@ -10,7 +10,7 @@ tags:
 - trade
 - comparative-advantage
 stage: expert
-status: draft
+status: validated
 ---
 
 # Trade, Comparative Advantage, and Development

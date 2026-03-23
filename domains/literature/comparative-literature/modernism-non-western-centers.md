@@ -18,7 +18,7 @@ tags:
 - non-Western
 - periodization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Modernism Beyond Europe: Decentralized Modernities

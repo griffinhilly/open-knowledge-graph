@@ -16,7 +16,7 @@ tags:
 - aldehyde
 - ketone
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Oxidation of Alcohols to Aldehydes and Ketones

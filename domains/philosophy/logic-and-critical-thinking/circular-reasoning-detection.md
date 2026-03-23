@@ -13,7 +13,7 @@ tags:
 - circular-reasoning
 - argument-evaluation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Detecting Circular Reasoning

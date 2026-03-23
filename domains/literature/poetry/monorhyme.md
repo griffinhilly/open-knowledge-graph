@@ -14,7 +14,7 @@ tags:
 - musicality
 - persistence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Monorhyme: Single Rhyme Sound

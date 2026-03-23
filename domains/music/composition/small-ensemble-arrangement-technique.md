@@ -14,7 +14,7 @@ tags:
 - ensemble
 - composition
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Small Ensemble Arrangement Technique

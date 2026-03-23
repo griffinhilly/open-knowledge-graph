@@ -15,7 +15,7 @@ tags:
 - dictation
 - notation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rhythmic Subdivision Precision and Accuracy

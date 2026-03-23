@@ -13,7 +13,7 @@ tags:
 - opaque
 - materials
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Transparent, Translucent, and Opaque
 

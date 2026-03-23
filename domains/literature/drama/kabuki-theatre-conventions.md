@@ -14,7 +14,7 @@ tags:
 - non-western
 - tradition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Kabuki Theatre: Japanese Dramatic Tradition

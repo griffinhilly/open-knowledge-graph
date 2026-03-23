@@ -17,7 +17,7 @@ tags:
 - influence
 - compliance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Liking Principle and Source Attractiveness in Persuasion

@@ -15,7 +15,7 @@ tags:
 - ecology
 - agriculture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Nile River and the Foundation of Egyptian Civilization

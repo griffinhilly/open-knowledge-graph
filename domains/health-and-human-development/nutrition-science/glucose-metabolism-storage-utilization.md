@@ -27,7 +27,7 @@ tags:
 - metabolic-flexibility
 - fed-fasted-states
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Glucose Metabolism: Storage and Utilization

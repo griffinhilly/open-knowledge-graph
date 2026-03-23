@@ -13,7 +13,7 @@ tags:
 - combinatorics
 - inclusion-exclusion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Inclusion-Exclusion Principle and Counting

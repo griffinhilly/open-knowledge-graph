@@ -15,7 +15,7 @@ tags:
 - accretion
 - cores
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pebble Accretion in Planet Formation

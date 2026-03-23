@@ -17,7 +17,7 @@ tags:
 - multiple-realization
 - functionalism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Substrate Independence and Multiple Realization

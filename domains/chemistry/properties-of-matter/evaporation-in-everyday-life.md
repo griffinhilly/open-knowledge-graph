@@ -13,7 +13,7 @@ tags:
 - drying
 - surface
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Evaporation in Everyday Life
 

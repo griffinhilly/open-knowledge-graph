@@ -18,7 +18,7 @@ tags:
 - strategy
 - goal-directed
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Purpose-Driven Design

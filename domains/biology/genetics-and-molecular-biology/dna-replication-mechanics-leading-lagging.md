@@ -16,7 +16,7 @@ tags:
 - semi-conservative-replication
 - okazaki-fragments
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # DNA Replication: Leading and Lagging Strands

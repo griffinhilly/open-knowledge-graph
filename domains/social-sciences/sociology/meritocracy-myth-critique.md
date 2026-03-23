@@ -15,7 +15,7 @@ tags:
 - sorting
 - cultural-capital
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Meritocracy Myth and Educational Sorting

@@ -15,7 +15,7 @@ tags:
 - samples
 - dating
 stage: expert
-status: draft
+status: validated
 ---
 
 # Meteorites as Planetary Samples

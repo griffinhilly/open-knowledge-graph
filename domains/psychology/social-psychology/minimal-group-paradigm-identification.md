@@ -17,7 +17,7 @@ tags:
 - intergroup-dynamics
 - group-formation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Minimal Group Paradigm and Ingroup Bias

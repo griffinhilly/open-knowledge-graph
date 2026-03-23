@@ -16,7 +16,7 @@ tags:
 - energy
 - circuit concept
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Potential Difference and Voltage

@@ -15,7 +15,7 @@ tags:
 - two-digit
 - algorithms
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Two-Digit Addition Without Regrouping

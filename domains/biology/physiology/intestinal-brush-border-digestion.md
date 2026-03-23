@@ -13,7 +13,7 @@ tags:
 - peptidases
 - brush-border
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Intestinal Brush Border Enzymes and Nutrient Hydrolysis

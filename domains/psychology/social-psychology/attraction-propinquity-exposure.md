@@ -16,7 +16,7 @@ tags:
 - familiarity
 - relationships
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Attraction and Proximity: Mere Exposure and Familiarity

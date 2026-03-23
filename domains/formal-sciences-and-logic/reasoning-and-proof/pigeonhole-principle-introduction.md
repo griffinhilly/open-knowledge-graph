@@ -15,7 +15,7 @@ builds-toward:
   - pigeonhole-principle-discrete
 tags: [pigeonhole, combinatorics, proof, existence]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Introduction to the Pigeonhole Principle

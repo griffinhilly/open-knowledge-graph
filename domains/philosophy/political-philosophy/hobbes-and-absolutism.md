@@ -16,7 +16,7 @@ tags:
 - social-contract
 - sovereignty
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hobbes and the Case for Absolutism

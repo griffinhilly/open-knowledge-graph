@@ -16,7 +16,7 @@ tags:
 - voicing
 - chord-density
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chord Spacing, Density, and Voicing Choices

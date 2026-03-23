@@ -22,7 +22,7 @@ tags:
 - pitch-space
 - voice-leading
 stage: expert
-status: draft
+status: validated
 ---
 
 # Tonnetz Navigation and Voice Leading

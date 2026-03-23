@@ -13,7 +13,7 @@ tags:
 - heterogeneous-agents
 - demographic-structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Overlapping Generations Model

@@ -16,7 +16,7 @@ tags:
 - statehood
 - identity
 stage: expert
-status: draft
+status: validated
 ---
 # State Recognition and International Legitimacy
 

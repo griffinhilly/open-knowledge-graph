@@ -13,7 +13,7 @@ tags:
 - risk-adjustment
 - portfolio-evaluation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Risk-Adjusted Return Measures: Sharpe and Treynor Ratios

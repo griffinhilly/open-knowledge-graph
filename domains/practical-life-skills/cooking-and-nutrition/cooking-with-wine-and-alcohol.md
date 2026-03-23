@@ -18,7 +18,7 @@ tags:
 - flavor
 - sauce
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cooking with Wine and Alcohol

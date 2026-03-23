@@ -17,7 +17,7 @@ tags:
 - foundational-theorems
 - formal-systems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metalogical Properties and Foundational Theorems

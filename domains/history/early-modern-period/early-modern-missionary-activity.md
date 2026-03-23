@@ -16,7 +16,7 @@ tags:
 - missionary
 - conversion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Early Modern Missionary Activity and Conversion

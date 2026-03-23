@@ -15,7 +15,7 @@ tags:
 - crustal-structure
 - inversion
 stage: expert
-status: draft
+status: validated
 ---
 
 # Determining Crustal Thickness from Gravity Data

@@ -16,7 +16,7 @@ tags:
 - hardware-address
 - identification
 stage: advanced
-status: draft
+status: validated
 ---
 
 # MAC Addressing and Hardware Identification

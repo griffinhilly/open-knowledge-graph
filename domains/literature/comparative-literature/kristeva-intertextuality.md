@@ -19,7 +19,7 @@ tags:
 - semiotics
 - textuality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Kristeva's Theory of Intertextuality

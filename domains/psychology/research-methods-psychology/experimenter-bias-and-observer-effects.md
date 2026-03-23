@@ -19,7 +19,7 @@ tags:
 - double-blind
 - observer-bias
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Experimenter Bias and Observer Effects in Research Conduct

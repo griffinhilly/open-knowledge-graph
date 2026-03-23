@@ -13,7 +13,7 @@ tags:
 - attraction
 - repulsion
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Magnetic Attraction and Repulsion
 

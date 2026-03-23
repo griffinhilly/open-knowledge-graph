@@ -21,7 +21,7 @@ tags:
 - writing
 - symbols
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Music Notation: Comprehensive Review and Practice

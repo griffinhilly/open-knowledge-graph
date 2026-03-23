@@ -15,7 +15,7 @@ tags:
 - psychology
 - emotions
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Behavioral Biases in Financial Decision-Making

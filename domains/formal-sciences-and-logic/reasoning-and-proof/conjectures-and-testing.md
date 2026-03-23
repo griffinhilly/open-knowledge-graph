@@ -8,14 +8,14 @@ prerequisites:
     type: hard
   - id: counterexamples-in-reasoning
     type: hard
-  - id: number-sequences-patterns
+  - id: number-patterns-logic
     type: soft
 builds-toward:
   - direct-proof-introduction
   - when-is-something-proven
 tags: [conjectures, testing, hypothesis, mathematical-reasoning]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Conjectures and Testing

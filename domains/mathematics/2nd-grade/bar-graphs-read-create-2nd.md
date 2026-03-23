@@ -16,7 +16,7 @@ tags:
 - bar-graphs
 - representation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Reading and Creating Bar Graphs

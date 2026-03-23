@@ -14,7 +14,7 @@ tags:
 - prosody
 - rhythm
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Metrical Foot: Basic Unit of Meter

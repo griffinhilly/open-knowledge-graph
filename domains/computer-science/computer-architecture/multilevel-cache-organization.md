@@ -15,7 +15,7 @@ tags:
 - l1-l2-l3
 - memory-hierarchy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multilevel Cache Design and Coordination

@@ -17,7 +17,7 @@ tags:
 - nowhere-dense
 - topology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Cantor Set: An Uncountable Nowhere Dense Example

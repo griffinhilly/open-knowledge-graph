@@ -14,7 +14,7 @@ tags:
 - field
 - conservative
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electric Potential and the Potential-Field Relationship

@@ -14,7 +14,7 @@ tags:
 - delay-of-gratification
 - executive-function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Self-Regulation and Delay of Gratification Development

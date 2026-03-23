@@ -22,7 +22,7 @@ tags:
 - lambda-calculus
 - church-turing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Formal Models of Computation: Turing Machines and Lambda Calculus

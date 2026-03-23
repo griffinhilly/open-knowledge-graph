@@ -17,7 +17,7 @@ tags:
 - distal-secretion
 - hyperchloremic-acidosis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Renal Tubular Acidosis Type 1: Impaired Distal Acid Secretion and Hyperchloremic Acidosis

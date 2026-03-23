@@ -15,7 +15,7 @@ tags:
 - quadratic-residues
 - legendre-symbol
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quadratic Residues and the Legendre Symbol

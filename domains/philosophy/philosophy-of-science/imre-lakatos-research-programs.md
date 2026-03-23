@@ -15,7 +15,7 @@ tags:
 - research-programs
 - methodology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Imre Lakatos and Research Programs

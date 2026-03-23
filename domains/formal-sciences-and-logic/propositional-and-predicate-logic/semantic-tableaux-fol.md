@@ -17,7 +17,7 @@ tags:
 - fairness
 - quantifier-instantiation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Semantic Tableaux (First-Order)

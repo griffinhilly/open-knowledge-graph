@@ -17,7 +17,7 @@ tags:
 - engagement
 - attention
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Effective Speech Openings and Attention Hooks

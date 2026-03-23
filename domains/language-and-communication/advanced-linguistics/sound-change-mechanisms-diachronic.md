@@ -13,7 +13,7 @@ tags:
 - sound-change
 - phonology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Sound Change Mechanisms and Diachronic Phonology

@@ -12,7 +12,7 @@ tags:
 - marxism
 - british
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cultural Materialism and English Literary Marxism

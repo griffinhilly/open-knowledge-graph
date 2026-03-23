@@ -17,7 +17,7 @@ tags:
 - organization
 - clarity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Information Architecture Fundamentals

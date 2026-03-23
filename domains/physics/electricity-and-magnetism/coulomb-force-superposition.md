@@ -13,7 +13,7 @@ tags:
 - force
 - superposition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Coulomb Force and Superposition

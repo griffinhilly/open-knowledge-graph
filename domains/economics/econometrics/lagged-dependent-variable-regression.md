@@ -17,7 +17,7 @@ tags:
 - time-series
 - lagged-variables
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lagged Dependent Variable Regression

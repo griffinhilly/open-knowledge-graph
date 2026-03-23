@@ -19,7 +19,7 @@ tags:
 - perspective-taking
 - cognitive-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Theory of Mind and Perspective Taking

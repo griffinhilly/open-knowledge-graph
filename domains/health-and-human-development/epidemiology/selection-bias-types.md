@@ -14,7 +14,7 @@ tags:
 - internal-validity
 - study-design
 stage: expert
-status: draft
+status: validated
 ---
 
 # Selection Bias: Types and Sources in Epidemiologic Studies

@@ -17,7 +17,7 @@ tags:
 - turbine-work
 - head
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mechanical Energy Balance with Pump and Turbine Work

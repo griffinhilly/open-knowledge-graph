@@ -15,7 +15,7 @@ tags:
 - prosocial-behavior
 - moral-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Empathy Development and Prosocial Behavior

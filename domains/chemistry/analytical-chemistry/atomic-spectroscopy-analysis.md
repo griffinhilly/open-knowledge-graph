@@ -14,7 +14,7 @@ tags:
 - ICP
 - elements
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Atomic Spectroscopy for Elemental Analysis

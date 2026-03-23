@@ -18,7 +18,7 @@ tags:
 - applications
 - symmetry
 stage: expert
-status: draft
+status: validated
 ---
 
 # Applications of Gauss's Law

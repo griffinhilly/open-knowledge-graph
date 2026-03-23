@@ -16,7 +16,7 @@ tags:
 - multicollinearity
 - diagnostics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Multicollinearity: Detection Using VIF

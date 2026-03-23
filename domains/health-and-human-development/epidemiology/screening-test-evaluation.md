@@ -14,7 +14,7 @@ tags:
 - lead-bias
 - length-bias
 stage: expert
-status: draft
+status: validated
 ---
 
 # Screening Program Evaluation and Implementation

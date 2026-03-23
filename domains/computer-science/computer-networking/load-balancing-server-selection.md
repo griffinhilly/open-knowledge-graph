@@ -14,7 +14,7 @@ tags:
 - distribution
 - failover
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Load Balancing and Server Selection

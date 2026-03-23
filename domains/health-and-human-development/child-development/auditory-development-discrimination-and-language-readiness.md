@@ -13,7 +13,7 @@ tags:
 - hearing
 - language-foundations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Auditory Development: Sound Discrimination and Language Readiness

@@ -11,7 +11,7 @@ tags:
 - psychotherapy
 - ptsd-treatment
 stage: expert
-status: draft
+status: validated
 ---
 
 # Trauma-Focused Psychotherapy Approaches

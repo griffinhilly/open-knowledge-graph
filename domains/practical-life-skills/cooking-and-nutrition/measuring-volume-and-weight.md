@@ -20,7 +20,7 @@ tags:
 - accuracy
 - ratios
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Measuring Volume and Weight Accurately

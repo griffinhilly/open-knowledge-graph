@@ -19,7 +19,7 @@ tags:
 - legislative
 - judicial
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Division of Government into Branches

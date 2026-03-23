@@ -13,7 +13,7 @@ tags:
 - methodology
 - theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Philosophy of Social Science Research

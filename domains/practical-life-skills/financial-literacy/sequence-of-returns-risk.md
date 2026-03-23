@@ -16,7 +16,7 @@ tags:
 - investing
 - returns
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sequence of Returns Risk

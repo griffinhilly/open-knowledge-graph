@@ -15,7 +15,7 @@ tags:
 - matrix
 - ill-conditioning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Condition Number of a Matrix

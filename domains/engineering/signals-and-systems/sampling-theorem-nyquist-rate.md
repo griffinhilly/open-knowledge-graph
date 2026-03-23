@@ -16,7 +16,7 @@ tags:
 - nyquist
 - discrete-time
 stage: expert
-status: draft
+status: validated
 ---
 
 # Sampling Theorem and Nyquist Sampling Rate

@@ -18,7 +18,7 @@ tags:
 - orbital-evolution
 - dissipation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tidal Forces and Orbital Evolution

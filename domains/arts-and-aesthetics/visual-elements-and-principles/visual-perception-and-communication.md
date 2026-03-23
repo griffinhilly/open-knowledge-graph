@@ -14,7 +14,7 @@ tags:
 - communication
 - visual-literacy
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Visual Perception and Communication

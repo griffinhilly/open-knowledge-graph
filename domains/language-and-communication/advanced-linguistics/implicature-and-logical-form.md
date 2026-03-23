@@ -13,7 +13,7 @@ tags:
 - implicature
 - semantics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Implicature and Logical Form

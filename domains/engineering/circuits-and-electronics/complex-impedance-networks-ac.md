@@ -18,7 +18,7 @@ tags:
 - admittance
 - reactive-networks
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Complex Impedance in AC Networks

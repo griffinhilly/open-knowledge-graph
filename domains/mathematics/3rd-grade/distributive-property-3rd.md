@@ -15,7 +15,7 @@ tags:
 - properties
 - area-models
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Distributive Property: Breaking Apart to Multiply

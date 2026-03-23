@@ -22,7 +22,7 @@ tags:
 - neuroimaging
 - fiber-tracts
 stage: expert
-status: draft
+status: validated
 ---
 
 # Diffusion Tensor Imaging and White Matter Microstructure

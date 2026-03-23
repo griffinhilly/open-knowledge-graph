@@ -23,7 +23,7 @@ tags:
 - reabsorption
 - urine
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kidney Anatomy and Urine Formation

@@ -16,7 +16,7 @@ tags:
 - methodology
 - participation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ethnographic Participant Observation

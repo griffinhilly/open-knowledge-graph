@@ -14,7 +14,7 @@ tags:
 - approximations
 - dimensional-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Scale Analysis of Atmospheric Equations

@@ -16,7 +16,7 @@ tags:
 - endothermic
 - enthalpy change
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Endothermic and Exothermic Reactions

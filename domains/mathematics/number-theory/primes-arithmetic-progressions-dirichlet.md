@@ -14,7 +14,7 @@ tags:
 - arithmetic-progressions
 - analytic-number-theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Primes in Arithmetic Progressions (Dirichlet's Theorem)

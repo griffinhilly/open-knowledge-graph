@@ -18,7 +18,7 @@ tags:
 - catalysis
 - kinetics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Michaelis-Menten Kinetics and Enzyme Catalysis

@@ -19,7 +19,7 @@ tags:
 - tropical-ocean
 - seasonal-resolution
 stage: expert
-status: draft
+status: validated
 ---
 
 # Coral Records of Tropical Paleoclimate

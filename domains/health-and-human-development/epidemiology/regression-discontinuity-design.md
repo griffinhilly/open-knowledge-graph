@@ -13,7 +13,7 @@ tags:
 - threshold-design
 - causal-effects
 stage: expert
-status: draft
+status: validated
 ---
 
 # Regression Discontinuity Design

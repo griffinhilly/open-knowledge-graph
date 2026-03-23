@@ -16,7 +16,7 @@ tags:
 - alternative
 - possibility
 stage: expert
-status: draft
+status: validated
 ---
 # Speculative and Counterfactual History
 

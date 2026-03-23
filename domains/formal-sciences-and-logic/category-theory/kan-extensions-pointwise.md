@@ -17,7 +17,7 @@ tags:
 - colimit
 - universal
 stage: expert
-status: draft
+status: validated
 ---
 
 # Kan Extensions and Pointwise Formulae

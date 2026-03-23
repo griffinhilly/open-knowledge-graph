@@ -16,7 +16,7 @@ tags:
 - density
 - approximation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Density of the Rationals

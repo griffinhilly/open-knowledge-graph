@@ -15,7 +15,7 @@ tags:
 - ground-state
 - degeneracy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Spontaneous Symmetry Breaking

@@ -15,7 +15,7 @@ tags:
 - 5s
 - 10s
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Multiplication Facts: 2s, 5s, and 10s

@@ -16,7 +16,7 @@ tags:
 - global
 - reading-practice
 stage: expert
-status: draft
+status: validated
 ---
 
 # Literary Cosmopolitanism and Ethical Reading

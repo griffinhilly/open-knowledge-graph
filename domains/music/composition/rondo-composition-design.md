@@ -16,7 +16,7 @@ tags:
 - structure
 - design
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rondo and Rounded Binary Form Design

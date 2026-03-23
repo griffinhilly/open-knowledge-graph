@@ -18,7 +18,7 @@ tags:
 - condensation
 - pH dependence
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Imine and Enamine Formation
 

@@ -15,7 +15,7 @@ tags:
 - spatial-suppression
 - memory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inhibition of Return and Spatial Attention Suppression

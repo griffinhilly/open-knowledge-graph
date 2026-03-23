@@ -17,7 +17,7 @@ tags:
 - social-history
 - french
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Annales School and Structural History

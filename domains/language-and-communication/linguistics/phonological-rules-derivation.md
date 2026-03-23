@@ -17,7 +17,7 @@ tags:
 - derivation
 - underlying-representation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phonological Rules and Derivation

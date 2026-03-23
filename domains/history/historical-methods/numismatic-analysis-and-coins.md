@@ -12,7 +12,7 @@ tags:
 - artifacts
 - economy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Numismatic Analysis and Coins

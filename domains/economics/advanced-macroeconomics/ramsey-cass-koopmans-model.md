@@ -25,7 +25,7 @@ tags:
 - intertemporal-optimization
 - endogenous-savings
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ramsey-Cass-Koopmans Model

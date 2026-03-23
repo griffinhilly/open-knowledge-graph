@@ -17,7 +17,7 @@ tags:
 - ketone
 - electrophilic-aromatic-substitution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Friedel-Crafts Acylation and Aromatic Ketones

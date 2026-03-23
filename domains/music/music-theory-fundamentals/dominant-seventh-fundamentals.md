@@ -15,7 +15,7 @@ tags:
 - seventh-chords
 - functional-harmony
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dominant Seventh Chords and Resolution

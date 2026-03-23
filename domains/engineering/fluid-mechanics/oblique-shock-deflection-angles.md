@@ -11,7 +11,7 @@ tags:
 - deflection
 - supersonic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Oblique Shock Waves: Deflection Angle Relations

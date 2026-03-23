@@ -15,7 +15,7 @@ tags:
 - boundary
 - experience
 stage: expert
-status: draft
+status: validated
 ---
 
 # Transgression, Limit-Experience, and Excess

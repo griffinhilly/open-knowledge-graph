@@ -4,7 +4,7 @@ title: "Circulatory System: Heart, Blood, and Vessels"
 domain: health-and-human-development
 course: health-foundations
 prerequisites:
-  - id: my-heart-and-lungs
+  - id: my-heart-beats
     type: hard
   - id: respiratory-system-overview-hf
     type: soft
@@ -15,7 +15,7 @@ builds-toward:
   - blood-vessel-structure-and-types
 tags: [body-systems, circulatory, heart, blood, arteries, veins]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Circulatory System: Heart, Blood, and Vessels

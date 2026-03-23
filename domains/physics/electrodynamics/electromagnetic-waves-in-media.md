@@ -15,7 +15,7 @@ tags:
 - dielectrics
 - propagation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Electromagnetic Waves in Dielectric Media

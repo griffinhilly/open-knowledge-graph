@@ -18,7 +18,7 @@ tags:
 - stability
 - risk
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Income Diversification and Stability

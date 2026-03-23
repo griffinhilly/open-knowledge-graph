@@ -15,7 +15,7 @@ tags:
 - voice-leading
 - rhythm
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phrase Rhythm and Voice-Leading Connection

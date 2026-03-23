@@ -17,7 +17,7 @@ tags:
 - information-asymmetry
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Credit Constraints in Developing Markets

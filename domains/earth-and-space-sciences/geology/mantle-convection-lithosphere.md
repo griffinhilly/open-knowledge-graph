@@ -16,7 +16,7 @@ tags:
 - thermal
 - fluid-flow
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mantle Convection and Lithospheric Motion

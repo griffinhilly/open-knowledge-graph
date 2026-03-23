@@ -16,7 +16,7 @@ tags:
 - parallel-motion
 - forbidden-intervals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voice Leading: Avoiding Parallel Fifths and Octaves

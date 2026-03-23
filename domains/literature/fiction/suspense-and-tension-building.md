@@ -15,7 +15,7 @@ tags:
 - tension
 - emotional-pressure
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Suspense and Tension Building
 

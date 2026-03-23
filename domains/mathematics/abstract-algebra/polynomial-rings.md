@@ -14,7 +14,7 @@ tags:
 - R[x]
 - evaluation-homomorphism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Polynomial Rings

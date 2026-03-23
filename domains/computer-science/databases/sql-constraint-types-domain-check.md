@@ -16,7 +16,7 @@ tags:
 - check
 - unique
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constraint Types: Domain, Check, Unique, and Key Constraints

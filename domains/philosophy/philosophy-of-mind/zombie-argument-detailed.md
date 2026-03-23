@@ -17,7 +17,7 @@ tags:
 - modal-argument
 - physicalism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Zombie Argument in Detail

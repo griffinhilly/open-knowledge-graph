@@ -11,7 +11,7 @@ tags:
 - signaling
 - market equilibrium
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Signaling and Market Equilibrium with Asymmetric Information

@@ -11,7 +11,7 @@ tags:
 - subjectivism
 - individual-perspective
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Subjectivism

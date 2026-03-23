@@ -13,7 +13,7 @@ tags:
 - undecidability
 - proof-technique
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Reductions and Proving Undecidability

@@ -16,7 +16,7 @@ tags:
 - blood
 - organs
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # My Heart Beats

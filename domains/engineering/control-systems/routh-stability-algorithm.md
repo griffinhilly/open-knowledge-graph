@@ -14,7 +14,7 @@ tags:
 - pole-locations
 - characteristic-equation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Routh-Hurwitz Stability Test: Algorithm and Application

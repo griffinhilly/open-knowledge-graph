@@ -17,7 +17,7 @@ tags:
 - speciation
 - reproductive-isolation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sexual Selection as a Driver of Speciation

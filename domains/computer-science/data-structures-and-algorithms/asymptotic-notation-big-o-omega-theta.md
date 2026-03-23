@@ -15,7 +15,7 @@ tags:
 - big-o
 - asymptotics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Asymptotic Notation: Big-O, Big-Omega, Big-Theta

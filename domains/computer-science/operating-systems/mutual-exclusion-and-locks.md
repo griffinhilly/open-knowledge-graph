@@ -15,7 +15,7 @@ tags:
 - locks
 - critical-sections
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mutual Exclusion and Locks

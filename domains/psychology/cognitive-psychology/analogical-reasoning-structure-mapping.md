@@ -14,7 +14,7 @@ tags:
 - structure-mapping
 - transfer
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Analogical Reasoning and Structure Mapping

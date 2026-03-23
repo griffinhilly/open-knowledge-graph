@@ -16,7 +16,7 @@ tags:
 - algebraic-independence
 - rank
 stage: expert
-status: draft
+status: validated
 ---
 
 # Transcendence Degree and Algebraic Independence

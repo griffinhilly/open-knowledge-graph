@@ -17,7 +17,7 @@ tags:
 - V-of-V
 - chromatic-harmony
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Secondary Dominants: Temporary Tonicization

@@ -16,7 +16,7 @@ tags:
 - interaction
 - subgroup-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Effect Modification and Interaction in Epidemiology

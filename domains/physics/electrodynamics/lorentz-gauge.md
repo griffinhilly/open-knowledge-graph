@@ -16,7 +16,7 @@ tags:
 - lorentz
 - coulomb
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lorentz Gauge and Coulomb Gauge

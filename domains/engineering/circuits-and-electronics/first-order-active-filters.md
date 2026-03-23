@@ -19,7 +19,7 @@ tags:
 - passband-gain
 - roll-off
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # First-Order Active Filters

@@ -16,7 +16,7 @@ tags:
 - opsonization
 - infection-susceptibility
 stage: expert
-status: draft
+status: validated
 ---
 
 # Complement Deficiencies: Loss of Opsonization, Chemotaxis, and Lytic Functions

@@ -18,7 +18,7 @@ tags:
 - visual
 - geometry
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Symmetry in Patterns

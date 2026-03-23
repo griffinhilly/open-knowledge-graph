@@ -14,7 +14,7 @@ tags:
 - composition
 - song
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Prosody and Text Setting in Composition

@@ -12,7 +12,7 @@ tags:
 - pyrimidine
 - de-novo-synthesis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Pyrimidine Biosynthesis

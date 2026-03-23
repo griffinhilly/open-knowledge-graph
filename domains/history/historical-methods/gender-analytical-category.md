@@ -16,7 +16,7 @@ tags:
 - social-history
 - analysis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Gender as an Analytical Historical Category

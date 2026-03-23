@@ -18,7 +18,7 @@ tags:
 - phasor-domain
 - AC-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # AC Kirchhoff's Laws in the Phasor Domain

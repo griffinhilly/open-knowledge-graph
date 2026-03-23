@@ -17,7 +17,7 @@ tags:
 - thesis
 - interpretation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constructing Literary Arguments and Interpretive Theses

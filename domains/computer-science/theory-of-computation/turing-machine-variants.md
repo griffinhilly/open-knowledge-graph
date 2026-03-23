@@ -13,7 +13,7 @@ tags:
 - variants
 - equivalence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Variants of Turing Machines and Equivalence

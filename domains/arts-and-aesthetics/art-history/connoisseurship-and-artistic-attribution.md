@@ -16,7 +16,7 @@ tags:
 - authentication
 - expertise
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Connoisseurship and Attribution Methods

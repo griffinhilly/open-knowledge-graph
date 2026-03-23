@@ -14,7 +14,7 @@ tags:
 - measure-theory
 - construction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Outer Measure and Carathéodory's Theorem

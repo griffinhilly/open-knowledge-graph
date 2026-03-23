@@ -13,7 +13,7 @@ tags:
 - asset-purchases
 - transmission-mechanisms
 stage: expert
-status: draft
+status: validated
 ---
 
 # Quantitative Easing and Asset Purchase Programs

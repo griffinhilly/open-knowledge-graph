@@ -14,7 +14,7 @@ tags:
 - integration
 - deviance
 stage: expert
-status: draft
+status: validated
 ---
 
 # Anomie and Social Integration

@@ -14,7 +14,7 @@ tags:
 - atomic-physics
 - relativity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Spin-Orbit Coupling and Fine Structure

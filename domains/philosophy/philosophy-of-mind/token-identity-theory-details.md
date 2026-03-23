@@ -15,7 +15,7 @@ tags:
 - particulars
 - realizability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Token Identity and Physical Realizability

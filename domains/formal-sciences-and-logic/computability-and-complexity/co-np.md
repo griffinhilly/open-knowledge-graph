@@ -14,7 +14,7 @@ tags:
 - co-NP
 - complexity-classes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # co-NP

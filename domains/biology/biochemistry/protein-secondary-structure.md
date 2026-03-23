@@ -18,7 +18,7 @@ tags:
 - hydrogen bonding
 - Ramachandran plot
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Protein Secondary Structure

@@ -17,7 +17,7 @@ tags:
 - correlation
 - organization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cause and Effect Writing

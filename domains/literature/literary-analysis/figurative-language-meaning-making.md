@@ -20,7 +20,7 @@ tags:
 - meaning
 - poetry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Figurative Language and Poetic Meaning

@@ -15,7 +15,7 @@ tags:
 - legitimacy
 - liberal-democracy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Public Reason and the Constraints on Political Justification

@@ -24,7 +24,7 @@ tags:
 - chemiosmotic hypothesis
 - proton gradient
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Oxidative Phosphorylation and Chemiosmotic Coupling

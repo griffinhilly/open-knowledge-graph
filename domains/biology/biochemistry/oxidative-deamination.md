@@ -18,7 +18,7 @@ tags:
 - redox-chemistry
 - nitrogen-metabolism
 stage: advanced
-status: draft
+status: validated
 ---
 # Oxidative Deamination
 

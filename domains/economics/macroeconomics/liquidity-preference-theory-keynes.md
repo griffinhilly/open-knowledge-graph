@@ -16,7 +16,7 @@ tags:
 - money-supply
 - equilibrium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Liquidity Preference Theory and Interest Rate Determination

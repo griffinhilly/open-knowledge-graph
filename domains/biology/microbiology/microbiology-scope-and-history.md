@@ -15,7 +15,7 @@ tags:
 - foundations
 - scope
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Scope and History of Microbiology
 

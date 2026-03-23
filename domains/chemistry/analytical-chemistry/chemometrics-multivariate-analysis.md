@@ -21,7 +21,7 @@ tags:
 - multivariate
 - data analysis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Chemometrics and Multivariate Data Analysis

@@ -16,7 +16,7 @@ tags:
 - area
 - normal-vectors
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cross Product and Vector Area

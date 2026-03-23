@@ -14,7 +14,7 @@ tags:
 - odd
 - alternating-group
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sign of a Permutation

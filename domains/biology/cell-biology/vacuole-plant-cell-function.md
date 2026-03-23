@@ -14,7 +14,7 @@ tags:
 - storage
 - turgor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vacuoles: Storage and Structural Support

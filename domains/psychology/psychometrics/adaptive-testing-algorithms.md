@@ -15,7 +15,7 @@ tags:
 - algorithms
 - maximum-information
 stage: expert
-status: draft
+status: validated
 ---
 
 # Algorithms for Computerized Adaptive Testing

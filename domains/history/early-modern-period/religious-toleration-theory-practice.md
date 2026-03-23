@@ -16,7 +16,7 @@ tags:
 - political-philosophy
 - pragmatism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Religious Toleration: Theory and Practice

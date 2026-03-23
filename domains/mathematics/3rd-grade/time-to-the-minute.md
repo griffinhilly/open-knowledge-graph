@@ -13,7 +13,7 @@ tags:
 - measurement
 - reading-time
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Telling Time to the Minute

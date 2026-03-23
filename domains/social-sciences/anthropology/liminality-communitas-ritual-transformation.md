@@ -17,7 +17,7 @@ tags:
 - social-structure
 - community
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Liminality, Communitas, and Ritual Transformation

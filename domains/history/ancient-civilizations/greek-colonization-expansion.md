@@ -13,7 +13,7 @@ tags:
 - archaic
 - trade
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Greek Colonization and Expansion (Archaic Period)

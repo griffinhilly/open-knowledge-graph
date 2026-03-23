@@ -5,13 +5,13 @@ domain: health-and-human-development
 course: health-foundations
 prerequisites:
   - id: stress-and-coping
-    type: hard
+    type: soft
 builds-toward:
   - emotion-regulation-development-and-coping-skills
   - self-regulation-emotional-and-behavioral-control
 tags: [mental-health, mindfulness, relaxation, stress-management, wellness]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Mindfulness and Relaxation

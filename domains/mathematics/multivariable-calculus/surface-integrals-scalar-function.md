@@ -12,7 +12,7 @@ tags:
 - surface-integrals
 - scalar-functions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Surface Integrals of Scalar Functions

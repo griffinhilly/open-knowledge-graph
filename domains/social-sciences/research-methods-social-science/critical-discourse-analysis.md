@@ -14,7 +14,7 @@ tags:
 - power
 - ideology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Critical Discourse Analysis

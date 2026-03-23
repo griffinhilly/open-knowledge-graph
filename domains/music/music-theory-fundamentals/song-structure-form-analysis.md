@@ -12,7 +12,7 @@ tags:
 - structure
 - song
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Analyzing Song Structure and Form

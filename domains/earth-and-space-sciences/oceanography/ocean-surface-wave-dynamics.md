@@ -24,7 +24,7 @@ tags:
 - swell
 - dispersion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ocean Surface Wave Dynamics

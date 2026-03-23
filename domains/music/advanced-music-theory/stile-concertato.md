@@ -14,7 +14,7 @@ tags:
 - ensemble
 - technique
 stage: expert
-status: draft
+status: validated
 ---
 
 # Stile Concertato and Baroque Ensemble Technique

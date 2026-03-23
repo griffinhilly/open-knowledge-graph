@@ -17,7 +17,7 @@ tags:
 - electricity
 - engineering
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # LED Circuits
 

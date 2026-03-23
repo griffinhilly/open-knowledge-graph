@@ -16,7 +16,7 @@ tags:
 - helium-burning
 - evolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Horizontal Branch Evolution and Helium Burning

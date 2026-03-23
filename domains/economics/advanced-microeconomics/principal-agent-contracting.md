@@ -12,7 +12,7 @@ tags:
 - contract-theory
 - information-asymmetry
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Principal-Agent Problem

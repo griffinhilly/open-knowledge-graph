@@ -15,7 +15,7 @@ tags:
 - coherence
 - pragmatics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Discourse Coherence and Rhetorical Relations

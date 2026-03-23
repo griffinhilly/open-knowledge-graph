@@ -13,7 +13,7 @@ tags:
 - radiation
 - matter
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cherenkov Radiation in Matter

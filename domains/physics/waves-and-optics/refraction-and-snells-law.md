@@ -16,7 +16,7 @@ tags:
 - snells-law
 - refractive-index
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Refraction and Snell's Law

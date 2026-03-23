@@ -13,7 +13,7 @@ builds-toward:
   - fermi-estimation
 tags: ["forecasting", "base-rates", "planning", "statistics"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

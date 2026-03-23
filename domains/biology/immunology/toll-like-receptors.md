@@ -14,7 +14,7 @@ tags:
 - signaling
 - pattern-recognition
 stage: expert
-status: draft
+status: validated
 ---
 
 # Toll-Like Receptors and TLR Signaling

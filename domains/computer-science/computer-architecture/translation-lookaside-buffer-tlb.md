@@ -15,7 +15,7 @@ tags:
 - address-translation
 - cache
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Translation Lookaside Buffer (TLB) Design

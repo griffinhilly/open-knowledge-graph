@@ -23,7 +23,7 @@ tags:
 - flow
 - organization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Pattern and Rhythm: Distinction and Integration

@@ -19,7 +19,7 @@ tags:
 - charge-storage
 - dielectric
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Capacitors and Capacitance

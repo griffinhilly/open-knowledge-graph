@@ -14,7 +14,7 @@ tags:
 - tunneling
 - privacy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # VPN (Virtual Private Networks)

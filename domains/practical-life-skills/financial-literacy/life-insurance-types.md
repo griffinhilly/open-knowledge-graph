@@ -16,7 +16,7 @@ tags:
 - universal
 - beneficiary
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Life Insurance Types

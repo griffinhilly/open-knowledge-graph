@@ -18,7 +18,7 @@ tags:
 - compression
 - truth
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Oxymoron: Paradoxical Juxtaposition

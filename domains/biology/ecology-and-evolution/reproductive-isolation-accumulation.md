@@ -18,7 +18,7 @@ tags:
 - divergence
 - speciation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reproductive Isolation: Mechanism Accumulation During Divergence

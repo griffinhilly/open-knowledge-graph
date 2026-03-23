@@ -15,7 +15,7 @@ tags:
 - codomain
 - range
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Functions: Domain, Codomain, and Range

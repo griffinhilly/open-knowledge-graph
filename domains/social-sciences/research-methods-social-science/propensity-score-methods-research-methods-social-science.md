@@ -28,7 +28,7 @@ tags:
 - stratification
 - weighting
 stage: expert
-status: draft
+status: validated
 ---
 
 # Propensity Score Methods

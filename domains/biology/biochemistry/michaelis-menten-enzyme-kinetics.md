@@ -34,7 +34,7 @@ tags:
 - enzyme kinetics
 - steady-state
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Michaelis-Menten Enzyme Kinetics

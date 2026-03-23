@@ -19,7 +19,7 @@ tags:
 - light-reactions
 - calvin-cycle
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Photosynthesis: Light and Dark Reactions

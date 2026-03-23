@@ -19,7 +19,7 @@ tags:
 - inductive-energy
 - duality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Energy Storage in Capacitors and Inductors

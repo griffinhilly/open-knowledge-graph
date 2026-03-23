@@ -14,7 +14,7 @@ tags:
 - polytheism
 - gods
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mesopotamian Religion and Polytheistic Systems

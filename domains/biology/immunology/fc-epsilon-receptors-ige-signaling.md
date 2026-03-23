@@ -20,7 +20,7 @@ tags:
 - degranulation
 - allergic-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # High-Affinity IgE Receptor and Mast Cell Activation

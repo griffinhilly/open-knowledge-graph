@@ -13,7 +13,7 @@ tags:
 - memory-management
 - cache-simulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Page Replacement Algorithms: LRU and FIFO

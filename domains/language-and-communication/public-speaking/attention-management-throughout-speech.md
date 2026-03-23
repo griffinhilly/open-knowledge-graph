@@ -15,7 +15,7 @@ tags:
 - pacing
 - delivery
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Maintaining Audience Attention Across a Full Speech

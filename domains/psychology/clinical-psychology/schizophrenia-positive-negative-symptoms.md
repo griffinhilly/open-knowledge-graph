@@ -19,7 +19,7 @@ tags:
 - dopamine
 - psychosis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Schizophrenia: Positive and Negative Symptoms

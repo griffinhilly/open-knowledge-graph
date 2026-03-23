@@ -18,7 +18,7 @@ tags:
 - composition
 - architecture
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sectional Architecture and Unity

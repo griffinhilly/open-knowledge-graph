@@ -12,7 +12,7 @@ builds-toward:
   - disagreement-and-rational-updating
 tags: ["epistemics", "humility", "uncertainty", "calibration", "virtue"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

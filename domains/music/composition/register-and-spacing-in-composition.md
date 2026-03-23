@@ -19,7 +19,7 @@ tags:
 - texture
 - orchestration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Register and Spacing in Composition

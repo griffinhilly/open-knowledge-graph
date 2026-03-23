@@ -19,7 +19,7 @@ tags:
 - mode
 - historical-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tonal System and Major-Minor Tonality

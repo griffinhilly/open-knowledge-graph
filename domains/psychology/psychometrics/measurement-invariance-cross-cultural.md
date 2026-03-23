@@ -17,7 +17,7 @@ tags:
 - measurement-invariance
 - test-adaptation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cross-Cultural Measurement Invariance and Test Adaptation

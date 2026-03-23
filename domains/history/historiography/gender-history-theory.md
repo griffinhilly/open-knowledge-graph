@@ -13,7 +13,7 @@ tags:
 - theory
 - methodology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Gender as a Historical Category of Analysis

@@ -15,7 +15,7 @@ tags:
 - methodology
 - ethics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Oral History: Collection, Preservation, and Ethical Practice

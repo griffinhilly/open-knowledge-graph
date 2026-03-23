@@ -15,7 +15,7 @@ tags:
 - tracking
 - cookies
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Understanding Website Cookies and Tracking

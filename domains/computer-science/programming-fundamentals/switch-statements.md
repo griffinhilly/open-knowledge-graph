@@ -6,14 +6,16 @@ course: programming-fundamentals
 prerequisites:
 - id: else-if-chains
   type: hard
+- id: conditional-statements
+  type: soft
+builds-toward: []
 tags:
 - control-flow
 - conditionals
 - switch
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Switch Statements and Case Selection
 
 ## Core Idea

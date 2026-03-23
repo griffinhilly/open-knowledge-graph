@@ -16,7 +16,7 @@ tags:
 - natural-rights
 - limited-government
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Locke: Limited Government and Natural Rights

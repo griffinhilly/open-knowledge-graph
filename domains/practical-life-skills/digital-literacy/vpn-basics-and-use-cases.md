@@ -14,7 +14,7 @@ tags:
 - networking
 - encryption
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # VPN Basics and Use Cases

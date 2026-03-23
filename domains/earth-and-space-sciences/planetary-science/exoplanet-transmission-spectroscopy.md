@@ -25,7 +25,7 @@ tags:
 - spectroscopy
 - atmosphere
 stage: expert
-status: draft
+status: validated
 ---
 
 # Exoplanet Transmission Spectroscopy

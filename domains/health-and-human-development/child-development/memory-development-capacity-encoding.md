@@ -20,7 +20,7 @@ tags:
 - encoding-retrieval
 - learning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memory Development: Capacity, Encoding, and Retrieval

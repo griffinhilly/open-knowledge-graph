@@ -15,7 +15,7 @@ tags:
 - inquiry
 - reasoning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Scholastic Inquiry and Logical Method

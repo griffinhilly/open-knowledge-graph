@@ -17,7 +17,7 @@ tags:
 - measurement
 - atmosphere
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Environmental Lapse Rate

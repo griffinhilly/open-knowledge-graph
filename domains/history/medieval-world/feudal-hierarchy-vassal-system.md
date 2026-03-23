@@ -17,7 +17,7 @@ tags:
 - hierarchy
 - vassalage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Feudal Hierarchy and the Vassal System

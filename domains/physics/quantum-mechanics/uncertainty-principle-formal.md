@@ -14,7 +14,7 @@ tags:
 - uncertainty
 - fundamental-limits
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Uncertainty Principle (Formal Treatment)

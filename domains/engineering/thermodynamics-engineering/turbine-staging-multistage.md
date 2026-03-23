@@ -18,7 +18,7 @@ tags:
 - expansion-ratio
 - power-output
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multistage Turbine Design and Reheat

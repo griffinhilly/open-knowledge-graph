@@ -12,7 +12,7 @@ tags:
 - graph-theory
 - representation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graph Representation: Adjacency Lists, Matrices, and Edge Lists

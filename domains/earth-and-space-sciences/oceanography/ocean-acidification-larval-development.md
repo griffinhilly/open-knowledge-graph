@@ -15,7 +15,7 @@ tags:
 - recruitment-failure
 - metabolic-cost
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ocean Acidification Effects on Larval Development and Settlement

@@ -13,7 +13,7 @@ tags:
 - semantics
 - context
 stage: expert
-status: draft
+status: validated
 ---
 
 # Context-Update Semantics

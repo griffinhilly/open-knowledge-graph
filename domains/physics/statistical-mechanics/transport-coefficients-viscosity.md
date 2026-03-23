@@ -12,7 +12,7 @@ tags:
 - kinetic-theory
 - viscosity
 stage: expert
-status: draft
+status: validated
 ---
 # Transport Coefficients: Viscosity
 

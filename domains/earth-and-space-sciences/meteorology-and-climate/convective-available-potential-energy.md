@@ -22,7 +22,7 @@ tags:
 - energy
 - parcel
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Convective Available Potential Energy (CAPE)

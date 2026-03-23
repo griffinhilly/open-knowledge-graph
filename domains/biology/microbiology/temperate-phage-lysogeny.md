@@ -15,7 +15,7 @@ tags:
 - lysogeny
 - integration
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Temperate Phages and Lysogenic Pathways

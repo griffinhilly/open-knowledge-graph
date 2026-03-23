@@ -18,7 +18,7 @@ tags:
 - bias-adjustment
 - identification
 stage: expert
-status: draft
+status: validated
 ---
 
 # Causal Inference in Epidemiology

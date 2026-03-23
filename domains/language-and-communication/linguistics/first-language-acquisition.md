@@ -14,7 +14,7 @@ tags:
 - poverty of stimulus
 - LAD
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # First Language Acquisition

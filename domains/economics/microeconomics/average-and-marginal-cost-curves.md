@@ -14,7 +14,7 @@ tags:
 - marginal-analysis
 - optimization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Average and Marginal Cost Curves: Shapes and Relationships

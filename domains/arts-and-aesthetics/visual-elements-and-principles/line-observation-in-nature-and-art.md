@@ -13,7 +13,7 @@ tags:
 - observation
 - drawing
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Line: Observation in Nature and Art

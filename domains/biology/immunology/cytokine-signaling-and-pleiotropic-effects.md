@@ -18,7 +18,7 @@ tags:
 - JAK-STAT
 - tissue-context
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cytokine Signaling: Pleiotropy, Redundancy, and Tissue Specificity

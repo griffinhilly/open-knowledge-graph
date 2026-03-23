@@ -13,7 +13,7 @@ tags:
 - morphology
 - variation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Allomorphy and Phonologically-Conditioned Alternation

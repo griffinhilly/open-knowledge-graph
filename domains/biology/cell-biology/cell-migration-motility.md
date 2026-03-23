@@ -14,7 +14,7 @@ tags:
 - actin
 - motility
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cell Migration and Cytoskeletal Dynamics

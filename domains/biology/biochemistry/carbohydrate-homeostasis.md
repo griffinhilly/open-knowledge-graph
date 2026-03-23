@@ -18,7 +18,7 @@ tags:
 - hormones
 - metabolic-integration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Carbohydrate Homeostasis and Glucose Regulation

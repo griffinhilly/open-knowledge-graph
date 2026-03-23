@@ -16,7 +16,7 @@ tags:
 - greenhouse
 - habitability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Habitable Zone Climate Dynamics and Runaway Greenhouse

@@ -17,7 +17,7 @@ tags:
 - explanation
 - knowledge-gap
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Epistemic Gap in Consciousness Studies

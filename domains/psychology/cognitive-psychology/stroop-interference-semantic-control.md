@@ -15,7 +15,7 @@ tags:
 - interference
 - cognition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stroop Interference and Semantic Control

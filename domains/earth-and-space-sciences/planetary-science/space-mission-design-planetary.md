@@ -12,7 +12,7 @@ tags:
 - orbital-mechanics
 - exploration
 stage: expert
-status: draft
+status: validated
 ---
 
 # Space Mission Design for Planetary Exploration

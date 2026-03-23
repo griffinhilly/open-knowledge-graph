@@ -19,7 +19,7 @@ tags:
 - downfall
 - fate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hamartia: Tragic Flaw and Error

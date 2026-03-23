@@ -16,7 +16,7 @@ tags:
 - empirical-research
 - integration
 stage: expert
-status: draft
+status: validated
 ---
 
 # Suicide as a Social Fact: Durkheim's Empirical Study

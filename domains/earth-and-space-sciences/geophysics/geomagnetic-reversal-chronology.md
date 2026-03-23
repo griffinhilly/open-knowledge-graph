@@ -14,7 +14,7 @@ tags:
 - chronology
 - stratigraphy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Geomagnetic Reversal Chronology and Magnetostratigraphy

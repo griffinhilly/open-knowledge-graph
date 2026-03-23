@@ -13,7 +13,7 @@ tags:
 - connexin
 - communication
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gap Junctions: Electrical and Metabolic Coupling

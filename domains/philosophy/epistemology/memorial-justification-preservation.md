@@ -14,7 +14,7 @@ tags:
 - retention
 - knowledge
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memorial Justification and Preservation of Knowledge

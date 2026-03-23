@@ -16,7 +16,7 @@ tags:
 - efficacy
 - mental-causation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Causal Efficacy of Consciousness

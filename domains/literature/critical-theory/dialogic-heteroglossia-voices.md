@@ -20,7 +20,7 @@ tags:
 - voices
 - polyphony
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dialogic Heteroglossia and Multiple Voices

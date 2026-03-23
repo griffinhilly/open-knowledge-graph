@@ -16,7 +16,7 @@ tags:
 - addiction
 - reward-system
 stage: expert
-status: draft
+status: validated
 ---
 
 # Substance Use Disorders: Overview and Neurobiology

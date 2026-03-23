@@ -18,7 +18,7 @@ tags:
 - methodology
 - epistemology
 stage: expert
-status: draft
+status: validated
 ---
 # Historical Interpretation as Method
 

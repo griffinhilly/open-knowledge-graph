@@ -15,7 +15,7 @@ tags:
 - post-transcriptional
 - protein-diversity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # RNA Editing and Post-Transcriptional Modification

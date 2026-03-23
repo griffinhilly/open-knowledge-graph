@@ -17,7 +17,7 @@ tags:
 - implementation
 - scanner
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Lexical Analyzer (Lexer) Design

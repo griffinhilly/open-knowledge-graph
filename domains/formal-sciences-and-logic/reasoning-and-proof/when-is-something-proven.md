@@ -19,7 +19,7 @@ builds-toward:
   - deductive-reasoning-and-formal-proofs
 tags: [proof, certainty, mathematical-truth, standards-of-proof]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # When Is Something "Proven"?

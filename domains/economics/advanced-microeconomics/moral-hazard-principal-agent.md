@@ -16,7 +16,7 @@ tags:
 - contract-theory
 - information-asymmetry
 stage: expert
-status: draft
+status: validated
 ---
 
 # Moral Hazard and the Principal-Agent Problem

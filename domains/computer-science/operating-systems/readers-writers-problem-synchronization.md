@@ -11,7 +11,7 @@ tags:
 - fairness
 - reader-writer-locks
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Readers-Writers Problem and Lock Patterns

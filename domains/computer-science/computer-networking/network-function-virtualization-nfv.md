@@ -17,7 +17,7 @@ tags:
 - virtualization
 - cloud-networking
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Network Function Virtualization (NFV)

@@ -13,7 +13,7 @@ tags:
 - pressure
 - friction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Form Drag and Pressure Drag: Decomposition of Total Drag

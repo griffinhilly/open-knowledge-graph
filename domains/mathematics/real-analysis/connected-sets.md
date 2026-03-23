@@ -15,7 +15,7 @@ tags:
 - topology
 - path-connected
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Connected Sets

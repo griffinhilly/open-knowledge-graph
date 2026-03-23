@@ -13,7 +13,7 @@ tags:
 - glass-transition
 - crystallinity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Polymer Structure and Mechanical Behavior

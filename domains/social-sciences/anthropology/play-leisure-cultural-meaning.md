@@ -15,7 +15,7 @@ tags:
 - culture
 - meaning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Play, Leisure, and Cultural Meaning

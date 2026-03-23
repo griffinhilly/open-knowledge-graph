@@ -13,7 +13,7 @@ tags:
 - stress
 - metrical
 stage: expert
-status: draft
+status: validated
 ---
 
 # Metrical Phonology and Stress Systems

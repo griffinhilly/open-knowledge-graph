@@ -14,7 +14,7 @@ tags:
 - rhetoric
 - discourse
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Disciplinary Discourse and Conventions

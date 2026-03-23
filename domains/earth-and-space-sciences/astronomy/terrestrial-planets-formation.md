@@ -14,7 +14,7 @@ tags:
 - planet-formation
 - rocky-planets
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Terrestrial Planet Formation and Properties

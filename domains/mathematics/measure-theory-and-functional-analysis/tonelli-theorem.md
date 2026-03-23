@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - product-measures
 stage: expert
-status: draft
+status: validated
 ---
 
 # Tonelli's Theorem

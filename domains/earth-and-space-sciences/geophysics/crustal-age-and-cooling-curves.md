@@ -15,7 +15,7 @@ tags:
 - plate-tectonics
 - cooling
 stage: expert
-status: draft
+status: validated
 ---
 
 # Oceanic Crustal Cooling and Age Relationships

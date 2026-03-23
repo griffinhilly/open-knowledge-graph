@@ -18,7 +18,7 @@ tags:
 - buoyancy
 - deep-ocean
 stage: expert
-status: draft
+status: validated
 ---
 
 # Thermohaline Circulation: Physics and Dynamics

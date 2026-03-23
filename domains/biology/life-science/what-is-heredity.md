@@ -5,7 +5,7 @@ domain: biology
 course: life-science
 prerequisites:
 - id: cell-division-basics
-  type: hard
+  type: soft
 - id: inherited-traits
   type: hard
 - id: what-is-a-life-cycle
@@ -20,7 +20,7 @@ tags:
 - DNA
 - inheritance
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # What Is Heredity?
 

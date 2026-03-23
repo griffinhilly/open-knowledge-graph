@@ -19,7 +19,7 @@ tags:
 - politics
 - power
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Church Authority in Temporal Affairs

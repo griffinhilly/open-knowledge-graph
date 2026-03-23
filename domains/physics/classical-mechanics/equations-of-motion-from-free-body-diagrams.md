@@ -23,7 +23,7 @@ tags:
 - forces
 - methodology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Equations of Motion from Free Body Diagrams

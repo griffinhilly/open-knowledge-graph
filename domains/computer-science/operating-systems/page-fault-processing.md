@@ -15,7 +15,7 @@ tags:
 - virtual-memory
 - handling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Page Fault Handling and Recovery

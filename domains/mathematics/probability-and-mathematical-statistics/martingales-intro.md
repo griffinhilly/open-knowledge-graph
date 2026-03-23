@@ -11,7 +11,7 @@ tags:
 - stochastic-processes
 - fair-game
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Introduction to Martingales

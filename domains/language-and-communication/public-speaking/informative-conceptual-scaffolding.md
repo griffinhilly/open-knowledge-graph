@@ -16,7 +16,7 @@ tags:
 - learning
 - pedagogy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conceptual Scaffolding in Informative Speaking

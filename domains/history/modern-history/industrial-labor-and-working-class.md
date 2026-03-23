@@ -14,7 +14,7 @@ tags:
 - working-class
 - industrialization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Industrial Labor and the Formation of the Working Class

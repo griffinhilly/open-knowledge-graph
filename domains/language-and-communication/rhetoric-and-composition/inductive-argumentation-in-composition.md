@@ -11,7 +11,7 @@ tags:
 - reasoning
 - logic
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Inductive Argumentation in Composition

@@ -15,7 +15,7 @@ tags:
 - lung-disease
 - fibrosis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pulmonary Fibrosis and Fibrotic Lung Disease

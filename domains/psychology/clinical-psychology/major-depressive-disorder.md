@@ -19,7 +19,7 @@ tags:
 - anhedonia
 - major
 stage: expert
-status: draft
+status: validated
 ---
 
 # Major Depressive Disorder (MDD)

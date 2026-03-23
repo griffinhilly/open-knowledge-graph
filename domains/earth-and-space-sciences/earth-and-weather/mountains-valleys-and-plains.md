@@ -16,7 +16,7 @@ tags:
 - plains
 - geography
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Mountains, Valleys, and Plains

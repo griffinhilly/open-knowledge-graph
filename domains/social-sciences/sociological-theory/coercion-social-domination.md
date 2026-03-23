@@ -16,7 +16,7 @@ tags:
 - domination
 - inequality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Coercion and Social Domination

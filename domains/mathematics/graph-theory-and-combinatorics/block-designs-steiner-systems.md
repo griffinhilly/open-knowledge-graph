@@ -11,7 +11,7 @@ tags:
 - steiner-systems
 - combinatorial-designs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Block Designs and Steiner Systems

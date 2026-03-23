@@ -19,7 +19,7 @@ tags:
 - incentives
 - quality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Institutions and Economic Development

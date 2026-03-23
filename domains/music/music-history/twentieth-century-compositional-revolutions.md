@@ -16,7 +16,7 @@ tags:
 - serialism
 - innovation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Twentieth-Century Compositional Revolutions

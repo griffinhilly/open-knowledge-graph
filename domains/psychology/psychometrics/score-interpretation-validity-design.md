@@ -14,7 +14,7 @@ tags:
 - score-interpretation
 - evidence
 stage: expert
-status: draft
+status: validated
 ---
 
 # Score Interpretation and Validity Evidence Design

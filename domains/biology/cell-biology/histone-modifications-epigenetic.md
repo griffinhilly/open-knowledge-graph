@@ -15,7 +15,7 @@ tags:
 - methylation
 - chromatin-marks
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Histone Modifications and Epigenetic Gene Regulation

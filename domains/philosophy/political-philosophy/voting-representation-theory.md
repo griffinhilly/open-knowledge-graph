@@ -17,7 +17,7 @@ tags:
 - representation
 - social-choice
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voting Systems and Democratic Representation

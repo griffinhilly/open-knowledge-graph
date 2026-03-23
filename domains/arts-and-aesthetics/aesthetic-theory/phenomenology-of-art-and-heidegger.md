@@ -15,7 +15,7 @@ tags:
 - earth and world
 - disclosure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Phenomenology of Art and Heidegger

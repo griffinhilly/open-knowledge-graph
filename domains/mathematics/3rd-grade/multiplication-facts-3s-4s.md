@@ -13,7 +13,7 @@ tags:
 - multiplication
 - fluency
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Multiplication Facts: 3s and 4s

@@ -13,7 +13,7 @@ tags:
 - complexity-classes
 - error-bounds
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Randomized Complexity: RP, co-RP, and ZPP

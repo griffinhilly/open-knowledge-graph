@@ -13,7 +13,7 @@ tags:
 - domain-sampling
 - expert-judgment
 stage: expert
-status: draft
+status: validated
 ---
 
 # Content Validity and Domain Representation

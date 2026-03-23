@@ -17,7 +17,7 @@ tags:
 - structural-change
 - rupture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Revolutionary Change and Political Transformation

@@ -15,7 +15,7 @@ tags:
 - obligation
 - possibility
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ought Implies Can

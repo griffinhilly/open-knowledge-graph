@@ -18,7 +18,7 @@ tags:
 - motor-learning
 - native-language
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phonological Development and Speech Sound Acquisition

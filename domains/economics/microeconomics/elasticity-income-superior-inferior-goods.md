@@ -12,7 +12,7 @@ tags:
 - normal-goods
 - inferior-goods
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Income Elasticity of Demand

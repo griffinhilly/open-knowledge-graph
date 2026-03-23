@@ -19,7 +19,7 @@ tags:
 - consumer-theory
 - welfare
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hicksian (Compensated) Demand Functions

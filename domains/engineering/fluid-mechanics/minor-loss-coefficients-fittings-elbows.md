@@ -15,7 +15,7 @@ tags:
 - fittings
 - design
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Minor Loss Coefficients in Fittings and Elbows

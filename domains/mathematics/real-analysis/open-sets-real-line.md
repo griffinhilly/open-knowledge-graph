@@ -15,7 +15,7 @@ tags:
 - topology
 - neighborhoods
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Open Sets on the Real Line

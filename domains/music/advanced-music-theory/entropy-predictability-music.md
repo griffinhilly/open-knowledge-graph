@@ -22,7 +22,7 @@ tags:
 - predictability
 - analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Information Theory and Entropy in Musical Structure

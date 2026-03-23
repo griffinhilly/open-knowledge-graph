@@ -16,7 +16,7 @@ tags:
 - natural-rate
 - labor-market
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Natural Rate of Unemployment and the NAIRU

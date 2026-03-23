@@ -20,7 +20,7 @@ tags:
 - coordination
 - equilibrium
 stage: expert
-status: draft
+status: validated
 ---
 
 # Coordination Games and Multiple Equilibria

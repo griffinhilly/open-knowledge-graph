@@ -13,7 +13,7 @@ tags:
 - inventory
 - minimal-pairs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phoneme Inventory Analysis

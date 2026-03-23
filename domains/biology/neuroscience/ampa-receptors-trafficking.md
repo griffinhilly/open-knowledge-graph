@@ -17,7 +17,7 @@ tags:
 - trafficking
 - plasticity
 stage: expert
-status: draft
+status: validated
 ---
 
 # AMPA Receptors: Structure, Trafficking, and Function

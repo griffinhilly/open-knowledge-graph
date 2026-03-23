@@ -13,7 +13,7 @@ tags:
 - regression
 - least-squares
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Least Squares Estimation

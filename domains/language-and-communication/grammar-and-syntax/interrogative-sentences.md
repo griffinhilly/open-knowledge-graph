@@ -15,7 +15,7 @@ tags:
 - questions
 - interrogative
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Interrogative Sentences and Question Formation

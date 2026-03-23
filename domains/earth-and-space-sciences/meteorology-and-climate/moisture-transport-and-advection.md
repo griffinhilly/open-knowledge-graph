@@ -21,7 +21,7 @@ tags:
 - water-vapor
 - wind
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moisture Transport and Water Vapor Advection

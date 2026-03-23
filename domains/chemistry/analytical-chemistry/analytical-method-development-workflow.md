@@ -17,7 +17,7 @@ tags:
 - optimization
 - analytical-design
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Analytical Method Development: Systematic Workflow

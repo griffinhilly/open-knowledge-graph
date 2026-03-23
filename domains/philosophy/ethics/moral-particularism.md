@@ -15,7 +15,7 @@ tags:
 - holism-of-reasons
 - moral-principles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moral Particularism

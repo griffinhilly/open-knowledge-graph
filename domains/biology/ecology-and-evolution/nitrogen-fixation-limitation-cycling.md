@@ -17,7 +17,7 @@ tags:
 - cycling
 - limitation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nitrogen Fixation, Availability, and Cycling

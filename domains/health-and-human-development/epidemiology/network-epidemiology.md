@@ -15,7 +15,7 @@ tags:
 - social-networks
 - disease-spread
 stage: expert
-status: draft
+status: validated
 ---
 
 # Network Epidemiology and Disease Transmission

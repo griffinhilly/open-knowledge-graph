@@ -17,7 +17,7 @@ tags:
 - nicotinic
 - muscarinic
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Acetylcholine System

@@ -18,7 +18,7 @@ tags:
 - frequency-response
 - time-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # Transfer Function Poles and Zeros Interpretation

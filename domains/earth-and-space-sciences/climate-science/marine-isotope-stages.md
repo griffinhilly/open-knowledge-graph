@@ -17,7 +17,7 @@ tags:
 - ice-volume
 - global-chronostratigraphy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Marine Isotope Stages and Global Climate Cycles

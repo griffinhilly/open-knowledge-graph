@@ -18,7 +18,7 @@ tags:
 - development
 - progression
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Analyzing Plot Development and Progression
 

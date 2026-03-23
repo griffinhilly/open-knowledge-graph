@@ -14,7 +14,7 @@ tags:
 - spelling
 - fine-motor
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Writing Letters and Words

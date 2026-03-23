@@ -14,7 +14,7 @@ tags:
 - 4-current
 - action-principle
 stage: expert
-status: draft
+status: validated
 ---
 
 # Relativistic Coupling of Charged Particles to EM Fields

@@ -12,7 +12,7 @@ tags:
 - surface
 - pattern
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Texture: Types and Qualities

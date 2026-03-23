@@ -16,7 +16,7 @@ tags:
 - questions
 - wh-words
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Interrogative Pronouns in Questions

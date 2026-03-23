@@ -12,7 +12,7 @@ tags:
 - functional-analysis
 - operators
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Operator Norm

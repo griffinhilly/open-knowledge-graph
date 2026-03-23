@@ -29,7 +29,7 @@ tags:
 - chaos
 - numerical-methods
 stage: expert
-status: draft
+status: validated
 ---
 
 # N-Body Planetary Dynamics and Orbital Integration

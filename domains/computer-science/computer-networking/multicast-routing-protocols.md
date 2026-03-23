@@ -14,7 +14,7 @@ tags:
 - routing
 - group-communication
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Multicast Routing Protocols

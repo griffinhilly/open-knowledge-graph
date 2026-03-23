@@ -17,7 +17,7 @@ tags:
 - three-dimensional
 - six equations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rigid Body Equilibrium: Spatial (3D) Analysis

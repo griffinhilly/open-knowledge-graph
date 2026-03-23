@@ -13,7 +13,7 @@ tags:
 - jet
 - force
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Jet Impact Force and Momentum Analysis

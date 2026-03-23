@@ -14,7 +14,7 @@ tags:
 - deep-learning
 - pixel-classification
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Semantic Segmentation

@@ -14,7 +14,7 @@ tags:
 - larson-miller
 - design
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Creep Rupture and Life Prediction

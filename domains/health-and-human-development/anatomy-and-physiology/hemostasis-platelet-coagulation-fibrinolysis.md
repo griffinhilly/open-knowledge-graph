@@ -21,7 +21,7 @@ tags:
 - coagulation
 - thrombosis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hemostasis: Platelet Aggregation, Coagulation, and Fibrinolysis

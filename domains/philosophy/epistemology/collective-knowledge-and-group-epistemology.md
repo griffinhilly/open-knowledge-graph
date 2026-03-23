@@ -13,7 +13,7 @@ tags:
 - collective-belief
 - social-epistemology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Collective Knowledge and Group Epistemology

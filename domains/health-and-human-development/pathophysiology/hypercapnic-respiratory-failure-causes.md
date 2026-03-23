@@ -16,7 +16,7 @@ tags:
 - hypoventilation
 - air-trapping
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hypercapnic Respiratory Failure: Causes and Mechanisms

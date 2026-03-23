@@ -17,7 +17,7 @@ tags:
 - prep
 - efficiency
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Mise en Place: The French Prep System

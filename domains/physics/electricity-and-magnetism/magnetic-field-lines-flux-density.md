@@ -15,7 +15,7 @@ tags:
 - field visualization
 - flux
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Magnetic Field Lines, Flux, and Flux Density

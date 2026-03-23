@@ -17,7 +17,7 @@ tags:
 - foundational
 - organization
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # The Seven Design Principles

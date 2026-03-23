@@ -15,7 +15,7 @@ tags:
 - graduated-cylinder
 - measurement
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Measuring Volume
 

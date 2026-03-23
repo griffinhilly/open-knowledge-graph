@@ -16,7 +16,7 @@ tags:
 - 3d-shapes
 - attributes
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Properties of 3D Shapes

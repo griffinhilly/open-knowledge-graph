@@ -17,7 +17,7 @@ tags:
 - reading-frame
 - frameshift
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Genetic Code: Reading Frame and Wobble Base Pairing

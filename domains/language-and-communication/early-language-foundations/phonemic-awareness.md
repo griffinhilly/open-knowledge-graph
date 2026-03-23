@@ -15,7 +15,7 @@ tags:
 - oral-language
 - literacy-foundations
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Phonemic Awareness

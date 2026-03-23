@@ -15,7 +15,7 @@ tags:
 - appropriation
 - reproduction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Authenticity, Originality, and Artistic Value

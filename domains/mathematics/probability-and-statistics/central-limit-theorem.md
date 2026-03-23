@@ -16,7 +16,7 @@ tags:
 - clt
 - approximate-normality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Central Limit Theorem

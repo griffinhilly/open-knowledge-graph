@@ -16,7 +16,7 @@ tags:
 - acid-base reaction
 - net ionic equation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Acid-Base Neutralization Reactions

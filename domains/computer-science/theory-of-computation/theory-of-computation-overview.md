@@ -16,7 +16,7 @@ tags:
 - algorithms
 - decidability
 stage: advanced
-status: draft
+status: validated
 ---
 # Theory of Computation Overview
 

@@ -13,7 +13,7 @@ tags:
 - metals
 - alloys
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Metals and Alloy Analysis Methods

@@ -13,7 +13,7 @@ tags:
 - dimensions
 - linear transformations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rank-Nullity Theorem

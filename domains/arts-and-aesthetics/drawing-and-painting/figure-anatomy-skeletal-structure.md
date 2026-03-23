@@ -16,7 +16,7 @@ tags:
 - figure
 - structure
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Figure Anatomy: Skeletal Structure

@@ -21,7 +21,7 @@ tags:
 - manipulation
 - skill-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fine Motor Development and Coordination

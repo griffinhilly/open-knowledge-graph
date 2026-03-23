@@ -23,7 +23,7 @@ tags:
 - matrix
 - composition
 stage: expert
-status: draft
+status: validated
 ---
 
 # Twelve-Tone Matrix Construction and Use

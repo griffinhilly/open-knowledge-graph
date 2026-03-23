@@ -22,7 +22,7 @@ tags:
 - optical layout
 - spectrophotometer
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Spectroscopic Instrumentation

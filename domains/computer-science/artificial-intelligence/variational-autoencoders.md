@@ -24,7 +24,7 @@ tags:
 - representation-learning
 - latent-variables
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Variational Autoencoders (VAE)

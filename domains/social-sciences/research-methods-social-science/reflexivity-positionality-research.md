@@ -14,7 +14,7 @@ tags:
 - insider-outsider
 - research-accountability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Reflexivity and Positionality in Research

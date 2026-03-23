@@ -10,7 +10,7 @@ tags:
 - transitions
 - selection-rules
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Transition Probabilities and Selection Rules

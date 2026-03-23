@@ -15,7 +15,7 @@ tags:
 - resonator
 - narrow-band
 stage: expert
-status: draft
+status: validated
 ---
 
 # Notch Filters and Resonator Design

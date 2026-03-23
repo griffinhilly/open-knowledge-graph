@@ -13,7 +13,7 @@ tags:
 - decomposition
 - basis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Orthogonal Signal Decomposition and Basis Functions

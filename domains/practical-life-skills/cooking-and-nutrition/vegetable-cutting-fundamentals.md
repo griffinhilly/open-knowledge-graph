@@ -16,7 +16,7 @@ tags:
 - technique
 - knife-skills
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Basic Vegetable Cuts and Techniques

@@ -18,7 +18,7 @@ tags:
 - visual-weight
 - stability
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Balance and Visual Equilibrium

@@ -17,7 +17,7 @@ tags:
 - capillary
 - endothelium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Blood Vessel Structure and Types

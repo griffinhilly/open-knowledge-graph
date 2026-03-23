@@ -12,7 +12,7 @@ tags:
 - tietze
 - extension
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tietze Extension Theorem

@@ -18,7 +18,7 @@ tags:
 - function
 - chord-inversion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Analysis with Roman Numerals and Function

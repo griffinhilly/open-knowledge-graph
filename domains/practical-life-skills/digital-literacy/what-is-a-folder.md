@@ -14,7 +14,7 @@ tags:
 - fundamentals
 - directory
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Understanding Computer Folders

@@ -25,7 +25,7 @@ tags:
 - progressive-tax
 - bracket-creep
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Tax Brackets and Marginal Rates

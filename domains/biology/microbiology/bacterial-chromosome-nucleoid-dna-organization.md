@@ -16,7 +16,7 @@ tags:
 - dna
 - chromosome
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bacterial Chromosome and Nucleoid Organization

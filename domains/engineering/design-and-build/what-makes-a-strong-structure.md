@@ -20,7 +20,7 @@ tags:
 - strength
 - forces
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # What Makes a Strong Structure
 

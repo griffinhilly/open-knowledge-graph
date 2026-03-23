@@ -14,7 +14,7 @@ tags:
 - culture
 - relativism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Linguistic Relativity and Worldview

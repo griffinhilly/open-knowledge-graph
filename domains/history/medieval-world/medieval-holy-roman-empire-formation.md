@@ -17,7 +17,7 @@ tags:
 - germany
 - governance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Holy Roman Empire: Formation and Governance

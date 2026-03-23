@@ -19,7 +19,7 @@ tags:
 - remote-access
 - encryption
 stage: advanced
-status: draft
+status: validated
 ---
 
 # SSH: Secure Shell and Remote Access

@@ -16,7 +16,7 @@ tags:
 - global
 - contemporary
 stage: expert
-status: draft
+status: validated
 ---
 
 # Digital Literature and Global Literary Circulation

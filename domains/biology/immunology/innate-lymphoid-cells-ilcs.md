@@ -20,7 +20,7 @@ tags:
 - barrier-immunity
 - tissue-homeostasis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Innate Lymphoid Cells and Barrier Immunity

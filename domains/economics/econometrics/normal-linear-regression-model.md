@@ -23,7 +23,7 @@ tags:
 - inference
 - assumptions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Normal Linear Regression Model

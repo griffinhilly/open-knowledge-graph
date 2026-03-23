@@ -15,7 +15,7 @@ tags:
 - 4NF
 - 5NF
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Boyce-Codd Normal Form and Higher Normal Forms

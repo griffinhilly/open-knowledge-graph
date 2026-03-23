@@ -12,7 +12,7 @@ tags:
 - dense
 - separability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dense Sets and Separability

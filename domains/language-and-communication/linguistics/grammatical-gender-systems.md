@@ -18,7 +18,7 @@ tags:
 - agreement
 - noun-class
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Grammatical Gender Systems

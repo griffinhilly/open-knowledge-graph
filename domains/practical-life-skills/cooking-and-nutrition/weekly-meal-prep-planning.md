@@ -17,7 +17,7 @@ tags:
 - planning
 - efficiency
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Weekly Meal Prep Planning

@@ -17,7 +17,7 @@ tags:
 - evidence
 - learning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conditionalization and Bayesian Updating

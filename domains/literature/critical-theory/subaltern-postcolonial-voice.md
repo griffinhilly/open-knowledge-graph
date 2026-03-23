@@ -15,7 +15,7 @@ tags:
 - agency
 - voice
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Subaltern Subjects and Postcolonial Representation

@@ -17,7 +17,7 @@ tags:
 - molecular-markers
 - forensics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # DNA Fingerprinting and RFLP Analysis

@@ -18,7 +18,7 @@ tags:
 - efficiency
 - power-plants
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Combined Cycle Systems and Cogeneration

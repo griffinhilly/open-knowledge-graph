@@ -20,7 +20,7 @@ tags:
 - idiom
 - register
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diction and Poetic Voice

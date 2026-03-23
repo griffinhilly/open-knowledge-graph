@@ -16,7 +16,7 @@ tags:
 - documentation
 - methodology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Art Historical Archives, Documentation, and Research Methods

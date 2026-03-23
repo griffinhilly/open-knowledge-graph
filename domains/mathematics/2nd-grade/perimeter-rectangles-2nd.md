@@ -11,7 +11,7 @@ tags:
 - rectangles
 - distance-around
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Understanding Perimeter

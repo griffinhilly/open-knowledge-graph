@@ -15,7 +15,7 @@ tags:
 - checkpoint
 - p53
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cell Cycle Checkpoints: Ensuring Genome Integrity

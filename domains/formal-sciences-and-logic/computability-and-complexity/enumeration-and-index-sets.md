@@ -15,7 +15,7 @@ tags:
 - index-sets
 - godel-numbering
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Enumeration of Turing Machines and Index Sets

@@ -16,7 +16,7 @@ tags:
 - measurement
 - distance
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Measuring Speed
 

@@ -13,7 +13,7 @@ tags:
 - competing-events
 - cumulative-incidence
 stage: expert
-status: draft
+status: validated
 ---
 
 # Competing Risks Analysis

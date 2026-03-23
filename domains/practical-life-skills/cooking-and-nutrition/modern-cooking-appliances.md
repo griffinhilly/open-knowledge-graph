@@ -17,7 +17,7 @@ tags:
 - equipment
 - modern-techniques
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Modern Cooking Appliances

@@ -14,7 +14,7 @@ tags:
 - single-replacement
 - reactivity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Single Replacement Reactions
 

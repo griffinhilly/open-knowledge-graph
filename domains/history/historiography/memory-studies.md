@@ -16,7 +16,7 @@ tags:
 - trauma
 - commemoration
 stage: expert
-status: draft
+status: validated
 ---
 
 # Memory Studies and Historical Memory

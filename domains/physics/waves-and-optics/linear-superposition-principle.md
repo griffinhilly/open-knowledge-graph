@@ -13,7 +13,7 @@ tags:
 - waves
 - superposition
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Linear Superposition of Waves

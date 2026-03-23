@@ -16,7 +16,7 @@ tags:
 - morphology
 - nouns
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Common Irregular Plural Nouns

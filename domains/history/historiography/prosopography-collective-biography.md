@@ -13,7 +13,7 @@ tags:
 - methodology
 - biography
 stage: expert
-status: draft
+status: validated
 ---
 
 # Prosopography: Collective Biography as Historical Method

@@ -13,7 +13,7 @@ tags:
 - tsh
 - iodine
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thyroid Hormone Synthesis and Regulation

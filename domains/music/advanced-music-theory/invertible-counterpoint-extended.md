@@ -16,7 +16,7 @@ tags:
 - inversion
 - voice-leading
 stage: expert
-status: draft
+status: validated
 ---
 
 # Extended Invertible Counterpoint

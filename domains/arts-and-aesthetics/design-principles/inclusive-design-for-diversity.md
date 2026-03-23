@@ -18,7 +18,7 @@ tags:
 - universal-design
 - equity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inclusive Design for Diverse Audiences

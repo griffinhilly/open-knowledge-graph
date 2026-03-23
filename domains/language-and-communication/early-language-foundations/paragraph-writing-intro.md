@@ -16,7 +16,7 @@ tags:
 - supporting-details
 - writing-organization
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Introduction to Paragraph Writing

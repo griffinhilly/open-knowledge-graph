@@ -15,7 +15,7 @@ tags:
 - conjugate
 - invariant
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Normal Subgroups

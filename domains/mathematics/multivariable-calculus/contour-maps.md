@@ -17,7 +17,7 @@ tags:
 - level-curves
 - visualization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Contour Maps and Level Curves

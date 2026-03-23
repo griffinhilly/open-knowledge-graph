@@ -16,7 +16,7 @@ tags:
 - prevention
 - infection-control
 stage: expert
-status: draft
+status: validated
 ---
 
 # Transmission Chain and Interruption

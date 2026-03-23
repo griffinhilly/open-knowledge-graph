@@ -11,7 +11,7 @@ tags:
 - serializability
 - conflict-prevention
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Serialization and Conflict Prevention Techniques

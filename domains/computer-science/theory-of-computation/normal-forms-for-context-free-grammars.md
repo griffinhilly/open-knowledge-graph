@@ -15,7 +15,7 @@ tags:
 - cnf
 - gnf
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Normal Forms for Context-Free Grammars

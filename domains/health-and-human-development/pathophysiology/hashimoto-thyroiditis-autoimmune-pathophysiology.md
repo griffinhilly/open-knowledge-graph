@@ -16,7 +16,7 @@ tags:
 - autoimmune
 - thyroid-destruction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hashimoto Thyroiditis: Autoimmune Destruction and Progressive Thyroid Failure

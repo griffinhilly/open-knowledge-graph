@@ -12,7 +12,7 @@ tags:
 - adult-learning
 - role-transitions
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Secondary Socialization and Resocialization in Adulthood

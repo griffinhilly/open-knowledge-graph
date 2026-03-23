@@ -18,7 +18,7 @@ tags:
 - emphasis
 - form
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Plot-Driven Versus Character-Driven Narrative

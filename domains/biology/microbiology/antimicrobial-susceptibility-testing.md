@@ -15,7 +15,7 @@ tags:
 - testing
 - resistance
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Antimicrobial Susceptibility Testing and Resistance Profiling

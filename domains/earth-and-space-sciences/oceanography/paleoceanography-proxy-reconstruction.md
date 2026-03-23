@@ -20,7 +20,7 @@ tags:
 - reconstruction
 - paleoclimate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Paleoceanography and Proxy Reconstruction Methods

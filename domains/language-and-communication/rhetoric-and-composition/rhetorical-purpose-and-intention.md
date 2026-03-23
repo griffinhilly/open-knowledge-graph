@@ -13,7 +13,7 @@ tags:
 - purpose
 - intention
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Rhetorical Purpose and Intention

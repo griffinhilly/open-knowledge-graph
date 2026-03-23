@@ -15,7 +15,7 @@ tags:
 - action
 - mirror-neurons
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mirror Neurons and Action Understanding

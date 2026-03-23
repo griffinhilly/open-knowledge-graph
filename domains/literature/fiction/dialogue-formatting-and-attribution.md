@@ -13,7 +13,7 @@ tags:
 - formatting
 - attribution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dialogue Formatting and Attribution

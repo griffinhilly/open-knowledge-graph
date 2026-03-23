@@ -17,7 +17,7 @@ tags:
 - quasi-random
 - causal-identification
 stage: expert
-status: draft
+status: validated
 ---
 
 # Natural Experiments: Quasi-Random Assignment for Causal Identification

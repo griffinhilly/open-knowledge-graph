@@ -16,7 +16,7 @@ tags:
 - sigma-algebras
 - foundations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Sigma-Algebras: Formal Construction

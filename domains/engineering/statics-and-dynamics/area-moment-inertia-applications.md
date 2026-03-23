@@ -17,7 +17,7 @@ tags:
 - resistance to bending
 - composite sections
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Area Moment of Inertia and Applications

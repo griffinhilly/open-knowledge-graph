@@ -19,7 +19,7 @@ tags:
 - conversions
 - mass-to-mass
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stoichiometric Calculations: From Balanced Equations

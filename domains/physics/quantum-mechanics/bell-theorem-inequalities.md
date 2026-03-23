@@ -11,7 +11,7 @@ tags:
 - non-locality
 - foundations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bell Theorem and Bell Inequalities

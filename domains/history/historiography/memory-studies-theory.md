@@ -17,7 +17,7 @@ tags:
 - theory
 - public history
 stage: expert
-status: draft
+status: validated
 ---
 
 # Memory Studies: History and Collective Memory

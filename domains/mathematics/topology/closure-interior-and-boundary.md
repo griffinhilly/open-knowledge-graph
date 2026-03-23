@@ -15,7 +15,7 @@ tags:
 - boundary
 - derived-sets
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Closure, Interior, and Boundary

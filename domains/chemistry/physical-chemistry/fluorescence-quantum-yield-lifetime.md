@@ -15,7 +15,7 @@ tags:
 - photochemistry
 - radiative-processes
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fluorescence Quantum Yield and Excited State Lifetime

@@ -16,7 +16,7 @@ tags:
 - linearity
 - monotonicity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Properties of the Riemann Integral

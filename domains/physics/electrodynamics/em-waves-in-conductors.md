@@ -15,7 +15,7 @@ tags:
 - skin-depth
 - attenuation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Electromagnetic Waves in Conductors and Skin Depth

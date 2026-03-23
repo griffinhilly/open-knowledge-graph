@@ -16,7 +16,7 @@ tags:
 - hydroxyapatite
 - bone-mineralization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Calcium and Phosphate in Bone Mineralization and Regulation

@@ -15,7 +15,7 @@ tags:
 - preservation
 - organization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ingredient Shelf Life and Storage

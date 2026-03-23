@@ -14,7 +14,7 @@ tags:
 - circuit-element
 - voltage-current
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ohm's Law and Circuit Elements

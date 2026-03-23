@@ -13,7 +13,7 @@ tags:
 - auctions
 - incentive-compatibility
 stage: expert
-status: draft
+status: validated
 ---
 
 # Vickrey-Clarke-Groves (VCG) Mechanisms

@@ -15,7 +15,7 @@ tags:
 - model-selection
 - hypothesis-testing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hausman Test: Fixed Effects vs. Random Effects

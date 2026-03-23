@@ -13,7 +13,7 @@ tags:
 - time-constant
 - exponential-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # First-Order System Response: Time Constant and Behavior

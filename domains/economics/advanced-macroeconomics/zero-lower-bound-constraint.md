@@ -15,7 +15,7 @@ tags:
 - liquidity-trap
 - unconventional-policy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Zero Lower Bound on Nominal Interest Rates

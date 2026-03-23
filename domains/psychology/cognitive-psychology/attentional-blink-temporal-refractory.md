@@ -15,7 +15,7 @@ tags:
 - temporal-dynamics
 - perception
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Attentional Blink and Temporal Attention Limits

@@ -18,7 +18,7 @@ tags:
 - refinancing
 - PSLF
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Student Loan Repayment Strategies

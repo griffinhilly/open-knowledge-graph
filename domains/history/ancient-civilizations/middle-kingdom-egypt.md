@@ -14,7 +14,7 @@ tags:
 - renaissance
 - literature
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Middle Kingdom Egypt and Cultural Renaissance

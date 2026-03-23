@@ -15,7 +15,7 @@ tags:
 - lower-bounds
 - separations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Time and Space Hierarchy Theorems

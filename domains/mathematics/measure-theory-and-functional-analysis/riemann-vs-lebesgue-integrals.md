@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - integration
 stage: expert
-status: draft
+status: validated
 ---
 
 # Comparison: Riemann and Lebesgue Integrals

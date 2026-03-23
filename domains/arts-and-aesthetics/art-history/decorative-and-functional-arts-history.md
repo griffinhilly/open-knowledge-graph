@@ -15,7 +15,7 @@ tags:
 - functional
 - tradition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Decorative Arts, Craft, and Design Traditions

@@ -13,7 +13,7 @@ tags:
 - probability
 - probabilistic-method
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Probabilistic Method in Combinatorics

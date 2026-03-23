@@ -16,7 +16,7 @@ tags:
 - gene-regulation
 - chromatin-modification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Long Noncoding RNA Regulatory Mechanisms

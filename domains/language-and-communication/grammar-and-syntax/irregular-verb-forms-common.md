@@ -16,7 +16,7 @@ tags:
 - morphology
 - tense
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Common Irregular Verb Forms

@@ -16,7 +16,7 @@ tags:
 - storage
 - fundamentals
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Saving and Opening Computer Files

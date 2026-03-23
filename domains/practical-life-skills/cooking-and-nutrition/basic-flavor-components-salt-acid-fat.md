@@ -16,7 +16,7 @@ tags:
 - salt
 - acid
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Understanding Basic Flavors: Salt, Acid, Fat, and Heat
 

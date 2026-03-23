@@ -14,7 +14,7 @@ tags:
 - models
 - asynchrony
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Synchronous vs. Asynchronous Distributed Systems

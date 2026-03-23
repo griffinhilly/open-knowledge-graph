@@ -15,7 +15,7 @@ tags:
 - anaerobic
 - metabolism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bacterial Anaerobic Respiration and Fermentation

@@ -17,7 +17,7 @@ tags:
 - propagation
 - geometric-seismology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Seismic Ray Tracing and Wave Path Geometry

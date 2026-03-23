@@ -18,7 +18,7 @@ tags:
 - trade-offs
 - decision-making
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Financial Goal Hierarchy and Trade-offs

@@ -16,7 +16,7 @@ tags:
 - methyl-shift
 - 1,2-shift
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Carbocation Rearrangement: Hydride and Alkyl Shifts

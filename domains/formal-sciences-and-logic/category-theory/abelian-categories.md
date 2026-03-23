@@ -30,7 +30,7 @@ tags:
 - exact sequence
 - Ab-enriched
 stage: expert
-status: draft
+status: validated
 ---
 # Abelian Categories
 

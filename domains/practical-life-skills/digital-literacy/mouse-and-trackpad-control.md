@@ -12,7 +12,7 @@ tags:
 - trackpad
 - pointing
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Using a Mouse & Trackpad Effectively

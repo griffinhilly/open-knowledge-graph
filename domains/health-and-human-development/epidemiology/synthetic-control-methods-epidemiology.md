@@ -15,7 +15,7 @@ tags:
 - policy-evaluation
 - case-study
 stage: expert
-status: draft
+status: validated
 ---
 
 # Synthetic Control and Comparative Case Studies

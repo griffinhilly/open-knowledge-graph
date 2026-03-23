@@ -16,7 +16,7 @@ tags:
 - conservation
 - theorem
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Work-Energy Methods for Systems

@@ -13,7 +13,7 @@ tags:
 - multipole
 - magnetic
 stage: expert
-status: draft
+status: validated
 ---
 
 # Magnetic Dipole and Quadrupole Radiation

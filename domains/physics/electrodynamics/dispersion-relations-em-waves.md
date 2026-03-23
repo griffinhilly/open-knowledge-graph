@@ -15,7 +15,7 @@ tags:
 - wave-velocity
 - frequency-dependence
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dispersion Relations for Electromagnetic Waves

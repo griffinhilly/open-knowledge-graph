@@ -17,7 +17,7 @@ tags:
 - justification
 - inference
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Problem of Induction

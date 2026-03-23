@@ -18,7 +18,7 @@ tags:
 - foundations
 - probability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Statistical Ensembles and Probability Distributions

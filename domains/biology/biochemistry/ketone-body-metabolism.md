@@ -15,7 +15,7 @@ tags:
 - acetyl-CoA
 - energy-metabolism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Ketone Body Synthesis and Utilization

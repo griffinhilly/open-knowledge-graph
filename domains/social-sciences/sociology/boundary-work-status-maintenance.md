@@ -16,7 +16,7 @@ tags:
 - distinction
 - cultural-boundaries
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Boundary Work and Status Maintenance

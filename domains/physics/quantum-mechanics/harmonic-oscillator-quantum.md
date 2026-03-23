@@ -15,7 +15,7 @@ tags:
 - oscillator
 - exactly-solvable
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantum Harmonic Oscillator

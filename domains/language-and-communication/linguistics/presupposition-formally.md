@@ -13,7 +13,7 @@ tags:
 - presupposition
 - logic
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Presupposition in Formal Semantics

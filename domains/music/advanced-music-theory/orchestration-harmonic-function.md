@@ -16,7 +16,7 @@ tags:
 - harmony
 - form
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orchestration and Harmonic Function as Integrated Form

@@ -15,7 +15,7 @@ tags:
 - real-world
 - applications
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Making Change and Money Word Problems

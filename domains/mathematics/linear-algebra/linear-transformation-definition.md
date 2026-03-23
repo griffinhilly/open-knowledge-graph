@@ -14,7 +14,7 @@ tags:
 - linear maps
 - properties
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linear Transformations and Properties

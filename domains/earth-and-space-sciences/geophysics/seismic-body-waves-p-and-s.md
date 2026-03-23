@@ -18,7 +18,7 @@ tags:
 - wave-modes
 - elastic-waves
 stage: expert
-status: draft
+status: validated
 ---
 
 # Seismic P and S Waves

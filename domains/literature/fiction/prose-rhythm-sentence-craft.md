@@ -15,7 +15,7 @@ tags:
 - rhythm
 - syntax
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Prose Rhythm and Sentence Craft

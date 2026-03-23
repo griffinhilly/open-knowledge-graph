@@ -16,7 +16,7 @@ tags:
 - equivalence
 - simplification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Logical Equivalences and Laws

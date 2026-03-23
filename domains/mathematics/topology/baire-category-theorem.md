@@ -15,7 +15,7 @@ tags:
 - meager-sets
 - comeager
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Baire Category Theorem

@@ -16,7 +16,7 @@ tags:
 - projection
 - context-sensitivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Presupposition Projection and Triggering

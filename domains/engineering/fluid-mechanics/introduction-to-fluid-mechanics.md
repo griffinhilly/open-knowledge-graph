@@ -11,7 +11,7 @@ tags:
 - fundamentals
 - overview
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Introduction to Fluid Mechanics

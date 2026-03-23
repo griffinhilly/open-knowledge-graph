@@ -13,7 +13,7 @@ tags:
 - ideal-gas
 - thermodynamic-relations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mayer's Relation: Cp − Cv = R

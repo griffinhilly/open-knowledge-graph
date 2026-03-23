@@ -15,7 +15,7 @@ tags:
 - type-weight
 - visual-organization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Typography as a Hierarchy Element

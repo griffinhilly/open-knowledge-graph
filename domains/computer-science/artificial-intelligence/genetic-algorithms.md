@@ -13,7 +13,7 @@ tags:
 - optimization
 - population-based
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Genetic Algorithms

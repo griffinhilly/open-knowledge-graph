@@ -15,7 +15,7 @@ tags:
 - prefrontal
 - control
 stage: expert
-status: draft
+status: validated
 ---
 
 # Executive Control Networks and the Prefrontal Cortex

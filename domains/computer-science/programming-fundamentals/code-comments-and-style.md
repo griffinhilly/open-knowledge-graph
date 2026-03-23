@@ -4,7 +4,7 @@ title: Code Comments and Style
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- id: hello-world-your-first-program
+- id: hello-world
   type: soft
 builds-toward:
 - function-design-and-contracts
@@ -13,9 +13,8 @@ tags:
 - readability
 - best-practices
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Code Comments and Style
 
 ## Core Idea

@@ -21,7 +21,7 @@ tags:
 - natural-language
 - semantics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Formal Language and Natural Language Semantics

@@ -18,7 +18,7 @@ tags:
 - comparison
 - contrast
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Character Foil Comparison and Analysis

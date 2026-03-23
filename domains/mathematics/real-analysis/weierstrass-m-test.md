@@ -15,7 +15,7 @@ tags:
 - uniform-convergence
 - series
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Weierstrass M-Test

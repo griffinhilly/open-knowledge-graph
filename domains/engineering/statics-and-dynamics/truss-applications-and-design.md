@@ -14,7 +14,7 @@ tags:
 - critical members
 - cross-sections
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Truss Applications and Design

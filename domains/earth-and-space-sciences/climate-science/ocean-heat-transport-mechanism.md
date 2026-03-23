@@ -18,7 +18,7 @@ tags:
 - climate
 - meridional
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ocean Heat Transport Mechanisms and Regional Climate

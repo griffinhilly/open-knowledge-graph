@@ -13,7 +13,7 @@ tags:
 - regular-languages
 - characterization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Regular Languages: Definition and Characterization

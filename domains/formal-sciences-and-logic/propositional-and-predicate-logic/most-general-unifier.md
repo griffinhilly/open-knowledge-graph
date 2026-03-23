@@ -13,7 +13,7 @@ tags:
 - unification
 - automated-reasoning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Most General Unifier (MGU)

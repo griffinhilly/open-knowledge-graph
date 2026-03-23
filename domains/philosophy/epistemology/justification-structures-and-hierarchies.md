@@ -20,7 +20,7 @@ tags:
 - hierarchy
 - justificatory-order
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Justification Structures and Hierarchies

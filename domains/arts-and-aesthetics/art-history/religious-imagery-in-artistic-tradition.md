@@ -14,7 +14,7 @@ tags:
 - iconography
 - meaning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Religious Symbolism and Imagery in Art

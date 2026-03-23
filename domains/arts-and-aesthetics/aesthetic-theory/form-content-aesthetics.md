@@ -16,7 +16,7 @@ tags:
 - structure
 - meaning
 stage: expert
-status: draft
+status: validated
 ---
 
 # Form and Content in Aesthetics

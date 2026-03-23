@@ -12,7 +12,7 @@ tags:
 - duties
 - moral-language
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Rights and Duties

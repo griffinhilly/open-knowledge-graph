@@ -20,7 +20,7 @@ tags:
 - expected-ratio
 - degrees-of-freedom
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chi-Square Analysis in Genetic Data

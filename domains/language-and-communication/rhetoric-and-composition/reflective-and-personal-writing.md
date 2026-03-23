@@ -17,7 +17,7 @@ tags:
 - narrative
 - voice
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Reflective and Personal Writing

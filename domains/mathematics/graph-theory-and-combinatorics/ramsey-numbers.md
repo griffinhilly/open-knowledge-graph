@@ -10,7 +10,7 @@ tags:
 - combinatorics
 - ramsey-theory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ramsey Numbers and Bounds

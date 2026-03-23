@@ -17,7 +17,7 @@ tags:
 - use-theory
 - practice
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Wittgenstein's Language-Games and the Use Theory of Meaning

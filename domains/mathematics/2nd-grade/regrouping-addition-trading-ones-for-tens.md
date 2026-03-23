@@ -16,7 +16,7 @@ tags:
 - place-value
 - addition
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Regrouping in Addition: Trading Ones for Tens

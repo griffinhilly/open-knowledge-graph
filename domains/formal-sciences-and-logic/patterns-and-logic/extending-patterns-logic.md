@@ -16,7 +16,7 @@ tags:
 - prediction
 - sequences
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Extending Patterns

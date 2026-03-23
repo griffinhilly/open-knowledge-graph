@@ -16,7 +16,7 @@ tags:
 - ARMA
 - signal-modeling
 stage: expert
-status: draft
+status: validated
 ---
 
 # Parametric Signal Models: AR, MA, and ARMA

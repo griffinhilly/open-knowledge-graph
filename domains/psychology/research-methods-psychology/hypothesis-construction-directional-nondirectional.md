@@ -20,7 +20,7 @@ tags:
 - hypothesis
 - prediction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hypothesis Construction: Directional and Nondirectional Predictions

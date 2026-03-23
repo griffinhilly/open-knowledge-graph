@@ -13,7 +13,7 @@ tags:
 - statistics
 - fluctuations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Distribution Functions and Moments

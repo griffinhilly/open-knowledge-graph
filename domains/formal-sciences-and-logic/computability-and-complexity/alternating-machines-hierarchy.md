@@ -15,7 +15,7 @@ tags:
 - polynomial-hierarchy
 - alternation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Alternating Turing Machines and the Polynomial Hierarchy

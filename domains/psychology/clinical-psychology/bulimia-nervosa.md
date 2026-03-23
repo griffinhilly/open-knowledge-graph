@@ -12,7 +12,7 @@ tags:
 - binge-purge
 - compensation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bulimia Nervosa

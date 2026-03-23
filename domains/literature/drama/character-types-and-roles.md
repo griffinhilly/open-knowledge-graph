@@ -16,7 +16,7 @@ tags:
 - roles
 - drama
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Character Types and Dramatic Roles

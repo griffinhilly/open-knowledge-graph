@@ -23,7 +23,7 @@ tags:
 - measurement-model
 - fit-indices
 stage: expert
-status: draft
+status: validated
 ---
 
 # Confirmatory Factor Analysis and Measurement Validation

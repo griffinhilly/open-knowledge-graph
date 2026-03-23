@@ -15,7 +15,7 @@ tags:
 - ideal-type
 - concept-formation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ideal Types as Sociological Tools

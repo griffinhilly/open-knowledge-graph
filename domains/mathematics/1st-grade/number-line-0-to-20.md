@@ -13,7 +13,7 @@ tags:
 - number-line
 - visualization
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Number Line 0 to 20

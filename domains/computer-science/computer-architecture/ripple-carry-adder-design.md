@@ -12,7 +12,7 @@ tags:
 - adder
 - multi-bit-arithmetic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ripple Carry Adder Design

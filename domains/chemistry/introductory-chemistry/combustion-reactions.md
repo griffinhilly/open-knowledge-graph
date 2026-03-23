@@ -17,7 +17,7 @@ tags:
 - oxygen
 - exothermic
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Combustion Reactions
 

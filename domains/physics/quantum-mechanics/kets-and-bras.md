@@ -16,7 +16,7 @@ tags:
 - duality
 - linear-algebra
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Kets, Bras, and Hilbert Space Duality

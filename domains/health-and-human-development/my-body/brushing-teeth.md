@@ -13,7 +13,7 @@ tags:
 - hygiene
 - health
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Brushing Teeth

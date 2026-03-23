@@ -16,7 +16,7 @@ tags:
 - investment
 - capital
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Investment Demand and Capital Formation

@@ -11,7 +11,7 @@ tags:
 - rigidity
 - interior-points
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Maximum Modulus Principle

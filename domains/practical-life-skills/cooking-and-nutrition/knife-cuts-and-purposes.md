@@ -17,7 +17,7 @@ tags:
 - technique
 - vegetable-prep
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Common Knife Cuts and When to Use Them

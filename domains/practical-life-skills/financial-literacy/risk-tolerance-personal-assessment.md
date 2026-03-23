@@ -16,7 +16,7 @@ tags:
 - psychology
 - personal-finance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Risk Tolerance: Personal Assessment

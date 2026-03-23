@@ -17,7 +17,7 @@ tags:
 - law
 - governance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rule of Law and Justice

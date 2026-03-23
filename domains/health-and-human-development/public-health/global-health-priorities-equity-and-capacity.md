@@ -13,7 +13,7 @@ tags:
 - equity
 - health-systems
 stage: expert
-status: draft
+status: validated
 ---
 
 # Global Health Priorities, Equity, and Health System Capacity

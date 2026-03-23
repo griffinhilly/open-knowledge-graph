@@ -15,7 +15,7 @@ tags:
 - operations
 - foundational
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vectors in R^n: Addition and Scalar Multiplication

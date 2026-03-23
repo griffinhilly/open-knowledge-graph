@@ -13,7 +13,7 @@ tags:
 - typology
 - grammatical-relations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Alignment Systems and Grammatical Relations

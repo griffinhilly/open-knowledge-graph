@@ -14,7 +14,7 @@ tags:
 - methodology
 - professionalization
 stage: expert
-status: draft
+status: validated
 ---
 # Leopold von Ranke and the Scientific History Movement
 

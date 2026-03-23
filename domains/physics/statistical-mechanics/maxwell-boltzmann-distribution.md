@@ -21,7 +21,7 @@ tags:
 - classical-limit
 - velocity-distribution
 stage: expert
-status: draft
+status: validated
 ---
 
 # Maxwell-Boltzmann Distribution and Classical Limit

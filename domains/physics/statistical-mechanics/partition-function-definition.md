@@ -21,7 +21,7 @@ tags:
 - thermodynamic-potential
 - calculation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Partition Function: Definition and Properties

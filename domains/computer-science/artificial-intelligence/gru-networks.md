@@ -16,7 +16,7 @@ tags:
 - gated-recurrent-unit
 - rnn
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Gated Recurrent Units (GRU)

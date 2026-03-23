@@ -16,7 +16,7 @@ tags:
 - equal-parts
 - whole
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Understanding Equal Parts of Whole Shapes

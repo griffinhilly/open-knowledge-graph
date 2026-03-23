@@ -19,7 +19,7 @@ tags:
 - interest-rates
 - term-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Term Structure of Interest Rates

@@ -16,7 +16,7 @@ tags:
 - value
 - light-and-shadow
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Lost and Found Edges

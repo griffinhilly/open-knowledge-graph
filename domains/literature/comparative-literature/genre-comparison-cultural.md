@@ -16,7 +16,7 @@ tags:
 - culture
 - transformation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Genre Across Cultures: Stability and Transformation

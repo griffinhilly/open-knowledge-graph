@@ -16,7 +16,7 @@ tags:
 - head-directionality
 - Greenberg universals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Word Order Typology

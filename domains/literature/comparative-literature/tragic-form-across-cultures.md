@@ -16,7 +16,7 @@ tags:
 - culture
 - philosophy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Tragedy and the Tragic Across Cultures and Periods

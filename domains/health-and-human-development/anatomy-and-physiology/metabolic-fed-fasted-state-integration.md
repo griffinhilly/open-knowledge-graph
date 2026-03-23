@@ -23,7 +23,7 @@ tags:
 - energy-balance
 - hormonal-integration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metabolic Integration of Fed and Fasted States

@@ -12,7 +12,7 @@ tags:
 - formats
 - file-management
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # File Types & Extensions Explained

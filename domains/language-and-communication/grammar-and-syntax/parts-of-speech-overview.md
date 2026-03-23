@@ -14,7 +14,7 @@ tags:
 - parts-of-speech
 - grammar-foundation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Parts of Speech Overview
 

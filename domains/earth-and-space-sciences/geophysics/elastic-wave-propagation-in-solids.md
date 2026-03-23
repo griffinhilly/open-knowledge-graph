@@ -24,7 +24,7 @@ tags:
 - continuum-mechanics
 - elasticity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Elastic Wave Propagation in Solids

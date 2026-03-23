@@ -14,7 +14,7 @@ tags:
 - integration
 - strategy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Visual Hierarchy Through Elements and Principles

@@ -13,7 +13,7 @@ tags:
 - heterogeneity
 - effect-modification
 stage: expert
-status: draft
+status: validated
 ---
 
 # Subgroup Analysis and Treatment Effect Heterogeneity

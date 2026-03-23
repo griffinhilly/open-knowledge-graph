@@ -16,7 +16,7 @@ tags:
 - phase-line
 - qualitative-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Autonomous Equations and Phase Lines

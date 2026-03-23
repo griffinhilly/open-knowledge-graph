@@ -15,7 +15,7 @@ tags:
 - soloist
 - ensemble
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Concerto Form: Virtuosity and Display

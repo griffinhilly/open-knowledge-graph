@@ -13,7 +13,7 @@ tags:
 - subgroups
 - correspondence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Second Isomorphism Theorem for Groups

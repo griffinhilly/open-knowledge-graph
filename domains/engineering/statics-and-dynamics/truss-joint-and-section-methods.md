@@ -19,7 +19,7 @@ tags:
 - two-force members
 - internal forces
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Truss Analysis: Joint and Section Methods

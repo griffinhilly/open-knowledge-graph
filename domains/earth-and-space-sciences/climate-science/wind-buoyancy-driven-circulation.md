@@ -19,7 +19,7 @@ tags:
 - buoyancy
 - climate-sensitivity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Wind-Driven versus Buoyancy-Driven Ocean Circulation

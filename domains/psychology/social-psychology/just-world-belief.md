@@ -17,7 +17,7 @@ tags:
 - victim-blaming
 - fairness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Just-World Hypothesis and Blame Attribution

@@ -30,7 +30,7 @@ tags:
 - general-equilibrium
 - stochastic
 stage: expert
-status: draft
+status: validated
 ---
 
 # DSGE Models: Dynamic Stochastic General Equilibrium

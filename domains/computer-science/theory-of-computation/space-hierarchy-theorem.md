@@ -15,7 +15,7 @@ tags:
 - hierarchy
 - provable-separation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Space Hierarchy Theorem

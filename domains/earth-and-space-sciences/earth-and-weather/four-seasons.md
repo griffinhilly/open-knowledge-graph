@@ -21,7 +21,7 @@ tags:
 - winter
 - patterns
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # The Four Seasons

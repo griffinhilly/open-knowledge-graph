@@ -15,7 +15,7 @@ tags:
 - testing
 - specification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hausman Test: Fixed Effects Versus Random Effects

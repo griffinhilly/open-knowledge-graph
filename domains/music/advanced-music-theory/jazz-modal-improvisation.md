@@ -16,7 +16,7 @@ tags:
 - improvisation
 - modal
 stage: expert
-status: draft
+status: validated
 ---
 
 # Jazz Modal Improvisation

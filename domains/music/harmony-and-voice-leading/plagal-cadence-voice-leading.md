@@ -16,7 +16,7 @@ tags:
 - IV-I
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Plagal Cadence Voice Leading: IV to I

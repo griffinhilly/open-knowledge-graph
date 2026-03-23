@@ -17,7 +17,7 @@ tags:
 - value
 - technique
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Tonal Underpainting for Oil and Acrylic

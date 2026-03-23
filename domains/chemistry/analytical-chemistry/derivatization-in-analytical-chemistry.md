@@ -10,7 +10,7 @@ tags:
 - derivatization
 - chemical modification
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Derivatization in Analytical Chemistry

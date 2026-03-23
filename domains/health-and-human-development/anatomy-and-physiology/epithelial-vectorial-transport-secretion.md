@@ -15,7 +15,7 @@ tags:
 - tight-junctions
 - secretion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Epithelial Vectorial Transport and Secretion

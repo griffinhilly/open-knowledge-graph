@@ -13,7 +13,7 @@ tags:
 - cysteine
 - sulfur
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sulfur Amino Acid Metabolism

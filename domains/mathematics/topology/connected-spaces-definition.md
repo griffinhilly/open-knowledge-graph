@@ -15,7 +15,7 @@ tags:
 - connectedness
 - fundamental
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Connected Spaces and Connectedness

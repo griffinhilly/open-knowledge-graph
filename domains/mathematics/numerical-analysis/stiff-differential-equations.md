@@ -11,7 +11,7 @@ tags:
 - stability-region
 - implicit-methods
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stiff Differential Equations and Stability Regions

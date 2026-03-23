@@ -18,7 +18,7 @@ tags:
 - plasticity
 - development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Synaptogenesis and Critical Periods of Developmental Plasticity

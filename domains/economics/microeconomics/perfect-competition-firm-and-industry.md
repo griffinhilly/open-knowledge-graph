@@ -18,7 +18,7 @@ tags:
 - industry
 - equilibrium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Perfect Competition: Firm Behavior and Industry Equilibrium

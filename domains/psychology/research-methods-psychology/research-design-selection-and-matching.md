@@ -18,7 +18,7 @@ tags:
 - design-selection
 - methodology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Selecting and Matching Research Designs to Questions

@@ -28,7 +28,7 @@ tags:
 - harmony
 - analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Set-Class Transformations in Harmonic Analysis

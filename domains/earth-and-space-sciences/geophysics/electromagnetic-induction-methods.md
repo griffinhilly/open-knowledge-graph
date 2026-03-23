@@ -16,7 +16,7 @@ tags:
 - tem
 - methods
 stage: expert
-status: draft
+status: validated
 ---
 
 # Electromagnetic Induction and Transient Methods

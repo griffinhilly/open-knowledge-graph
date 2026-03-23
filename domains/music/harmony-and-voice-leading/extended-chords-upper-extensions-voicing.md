@@ -16,7 +16,7 @@ tags:
 - upper-extensions
 - dissonance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Extended Harmony: Voicing Ninths, Elevenths, and Thirteenths

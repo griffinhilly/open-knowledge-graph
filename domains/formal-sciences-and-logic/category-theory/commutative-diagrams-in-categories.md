@@ -17,7 +17,7 @@ tags:
 - morphisms
 - composition
 stage: expert
-status: draft
+status: validated
 ---
 
 # Commutative Diagrams in Category Theory

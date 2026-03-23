@@ -15,7 +15,7 @@ tags:
 - performance-practice
 - technology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Instrument Evolution and Performance Technique

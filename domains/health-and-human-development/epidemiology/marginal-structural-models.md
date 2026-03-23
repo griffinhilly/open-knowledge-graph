@@ -14,7 +14,7 @@ tags:
 - causal-inference
 - time-varying-treatment
 stage: expert
-status: draft
+status: validated
 ---
 
 # Marginal Structural Models for Longitudinal Data

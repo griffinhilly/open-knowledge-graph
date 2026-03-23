@@ -17,7 +17,7 @@ tags:
 - form
 - perception
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Color Field Painting and Minimalism: Reduction to Essence

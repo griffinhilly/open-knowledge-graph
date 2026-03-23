@@ -13,7 +13,7 @@ tags:
 - parsing
 - reanalysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Garden-Path Effects and Reanalysis During Parsing

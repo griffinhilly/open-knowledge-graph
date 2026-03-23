@@ -15,7 +15,7 @@ tags:
 - normal
 - components
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Curvilinear Motion: Tangential and Normal Components

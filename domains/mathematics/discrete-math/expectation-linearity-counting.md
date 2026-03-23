@@ -15,7 +15,7 @@ tags:
 - counting
 - expectation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linearity of Expectation in Counting

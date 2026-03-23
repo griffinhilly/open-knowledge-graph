@@ -13,7 +13,7 @@ tags:
 - isentropic-flow
 - sonic-conditions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Compressible Flow and Isentropic Flow Analysis

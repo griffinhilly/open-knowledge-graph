@@ -17,7 +17,7 @@ tags:
 - cooperation
 - concert
 stage: expert
-status: draft
+status: validated
 ---
 
 # Great Power Concerts and Coordination

@@ -17,7 +17,7 @@ tags:
 - adversity
 - developmental-vulnerability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Risk and Protective Factors: Developmental Resilience

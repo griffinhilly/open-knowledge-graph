@@ -15,7 +15,7 @@ tags:
 - language-design
 - semantics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Domain-Specific Language Design and Implementation

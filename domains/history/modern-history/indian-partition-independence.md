@@ -18,7 +18,7 @@ tags:
 - Gandhi
 - religious-conflict
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Indian Independence and the Partition

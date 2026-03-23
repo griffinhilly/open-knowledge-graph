@@ -17,7 +17,7 @@ tags:
 - interpretation
 - material-culture
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Reading and Interpreting Cultural Landscapes

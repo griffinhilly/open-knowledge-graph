@@ -19,7 +19,7 @@ tags:
 - convection
 - meridional-cells
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hadley Cell Circulation and Tropical Dynamics

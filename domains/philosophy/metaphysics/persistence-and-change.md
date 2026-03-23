@@ -15,7 +15,7 @@ tags:
 - temporal parts
 - change
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Persistence and Change

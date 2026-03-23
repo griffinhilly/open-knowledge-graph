@@ -26,7 +26,7 @@ tags:
 - differential
 - cochain complex
 stage: expert
-status: draft
+status: validated
 ---
 # Chain Complexes and Exact Sequences
 

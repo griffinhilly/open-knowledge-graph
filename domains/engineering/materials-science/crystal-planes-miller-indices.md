@@ -17,7 +17,7 @@ tags:
 - crystallography
 - planes-directions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Miller Indices for Planes and Directions

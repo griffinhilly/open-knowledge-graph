@@ -16,7 +16,7 @@ tags:
 - data-flow
 - dependencies
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Data Dependence Analysis

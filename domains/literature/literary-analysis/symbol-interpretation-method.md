@@ -19,7 +19,7 @@ tags:
 - meaning
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Symbol Identification and Interpretation

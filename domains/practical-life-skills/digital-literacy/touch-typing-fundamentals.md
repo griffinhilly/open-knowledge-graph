@@ -12,7 +12,7 @@ tags:
 - productivity
 - motor-skills
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Touch Typing Fundamentals

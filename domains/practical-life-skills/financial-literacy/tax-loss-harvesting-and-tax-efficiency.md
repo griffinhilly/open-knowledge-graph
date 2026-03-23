@@ -14,7 +14,7 @@ tags:
 - optimization
 - strategy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Tax-Loss Harvesting and Tax-Efficient Investing

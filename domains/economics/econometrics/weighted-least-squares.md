@@ -13,7 +13,7 @@ tags:
 - heteroskedasticity
 - weights
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Weighted Least Squares (WLS)

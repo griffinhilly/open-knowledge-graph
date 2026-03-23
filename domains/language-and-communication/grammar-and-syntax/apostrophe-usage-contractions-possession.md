@@ -13,7 +13,7 @@ tags:
 - apostrophes
 - contractions
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Apostrophe Usage: Contractions and Possession

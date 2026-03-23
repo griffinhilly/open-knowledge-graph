@@ -13,7 +13,7 @@ tags:
 - counting
 - bijections
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bijection Principle in Counting

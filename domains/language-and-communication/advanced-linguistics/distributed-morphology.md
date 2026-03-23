@@ -13,7 +13,7 @@ tags:
 - distributed
 - syntax
 stage: expert
-status: draft
+status: validated
 ---
 
 # Distributed Morphology

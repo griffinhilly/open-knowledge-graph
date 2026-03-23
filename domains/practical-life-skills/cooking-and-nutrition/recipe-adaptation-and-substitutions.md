@@ -31,7 +31,7 @@ tags:
 - substitution
 - flexibility
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Adapting Recipes and Substituting Ingredients

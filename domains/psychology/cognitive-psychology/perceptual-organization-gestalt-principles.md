@@ -17,7 +17,7 @@ tags:
 - organization
 - visual
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Perceptual Organization and Gestalt Principles

@@ -16,7 +16,7 @@ tags:
 - comparative
 - literary-conventions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Genre Theory in Comparative Context

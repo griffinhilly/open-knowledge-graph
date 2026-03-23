@@ -23,7 +23,7 @@ tags:
 - salt bridges
 - folding
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Protein Tertiary Structure

@@ -16,7 +16,7 @@ tags:
 - soft-media
 - technique
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Charcoal Blending and Dust Technique

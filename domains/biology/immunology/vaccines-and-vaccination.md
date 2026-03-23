@@ -14,7 +14,7 @@ tags:
 - prevention
 - immunization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Vaccines and Vaccination Strategies

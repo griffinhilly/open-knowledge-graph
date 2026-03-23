@@ -13,7 +13,7 @@ tags:
 - circulation
 - vortex
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lift Generation, Circulation, and Vortex Shedding

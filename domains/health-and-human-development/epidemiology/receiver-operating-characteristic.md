@@ -14,7 +14,7 @@ tags:
 - test-discrimination
 - threshold-selection
 stage: expert
-status: draft
+status: validated
 ---
 
 # Receiver Operating Characteristic Curves and Area Under the Curve

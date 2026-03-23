@@ -15,7 +15,7 @@ tags:
 - identity
 - mereology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Composition as Identity

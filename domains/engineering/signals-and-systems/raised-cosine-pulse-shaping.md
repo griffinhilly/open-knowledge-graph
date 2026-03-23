@@ -12,7 +12,7 @@ tags:
 - isi
 - bandwidth-efficiency
 stage: expert
-status: draft
+status: validated
 ---
 
 # Raised-Cosine Pulse Shaping

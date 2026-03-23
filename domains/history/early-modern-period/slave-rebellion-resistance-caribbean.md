@@ -16,7 +16,7 @@ tags:
 - caribbean
 - agency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Slave Rebellion and Resistance in the Caribbean

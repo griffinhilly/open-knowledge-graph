@@ -15,7 +15,7 @@ tags:
 - homotopy
 - paths
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Homotopy of Paths

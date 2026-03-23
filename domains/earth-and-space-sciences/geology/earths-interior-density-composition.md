@@ -13,7 +13,7 @@ tags:
 - composition
 - crust-mantle
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Earth's Interior: Density and Composition

@@ -16,7 +16,7 @@ tags:
 - water
 - intrusion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moisture Intrusion Identification and Sources

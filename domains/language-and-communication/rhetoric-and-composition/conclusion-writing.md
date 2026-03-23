@@ -16,7 +16,7 @@ tags:
 - implications
 - closing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Conclusion Writing

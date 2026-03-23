@@ -16,7 +16,7 @@ tags:
 - technique
 - correction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Watercolor Lifting and Water Management

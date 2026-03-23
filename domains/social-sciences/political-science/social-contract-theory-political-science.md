@@ -17,7 +17,7 @@ tags:
 - obligation
 - political-philosophy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Social Contract Theory and Political Obligation

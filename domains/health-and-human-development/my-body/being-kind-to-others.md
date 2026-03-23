@@ -15,7 +15,7 @@ tags:
 - social skills
 - prosocial behavior
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Being Kind to Others

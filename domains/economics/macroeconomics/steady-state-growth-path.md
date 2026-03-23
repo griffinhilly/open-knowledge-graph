@@ -16,7 +16,7 @@ tags:
 - steady-state
 - long-run
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Steady-State Growth and the Balanced Growth Path

@@ -14,7 +14,7 @@ tags:
 - elliptic
 - boundary-value
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Laplace's Equation and Boundary Value Problems

@@ -19,7 +19,7 @@ tags:
 - harmony
 - variety
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Unity: Creating Visual Coherence

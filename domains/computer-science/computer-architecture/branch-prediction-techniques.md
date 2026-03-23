@@ -15,7 +15,7 @@ tags:
 - speculation
 - performance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Branch Prediction and Speculative Execution

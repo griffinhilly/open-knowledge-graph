@@ -14,7 +14,7 @@ tags:
 - modeling
 - disease-transmission
 stage: expert
-status: draft
+status: validated
 ---
 
 # SIR Compartmental Models for Infectious Disease

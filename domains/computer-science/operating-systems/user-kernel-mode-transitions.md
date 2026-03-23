@@ -16,7 +16,7 @@ tags:
 - transitions
 - security
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # User-Kernel Mode Transitions

@@ -14,7 +14,7 @@ tags:
 - synchrony
 - assumptions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Communication Models in Distributed Systems

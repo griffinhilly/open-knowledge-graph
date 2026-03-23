@@ -16,7 +16,7 @@ tags:
 - transfer-functions
 - performance
 stage: expert
-status: draft
+status: validated
 ---
 
 # Sensitivity and Complementary Sensitivity Functions

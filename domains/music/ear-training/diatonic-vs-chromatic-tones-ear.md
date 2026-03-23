@@ -15,7 +15,7 @@ tags:
 - chromatic-harmony
 - tonality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diatonic vs. Chromatic Tone Discrimination by Ear

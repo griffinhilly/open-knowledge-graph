@@ -17,7 +17,7 @@ tags:
 - collapse
 - recovery
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Greek Dark Ages and Transition to Classical Period

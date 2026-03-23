@@ -28,7 +28,7 @@ tags:
 - NAD+
 - NADH
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # NAD+ and NADH: Structure and Redox Chemistry

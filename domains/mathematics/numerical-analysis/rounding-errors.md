@@ -14,7 +14,7 @@ tags:
 - error
 - propagation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rounding Errors and Error Propagation

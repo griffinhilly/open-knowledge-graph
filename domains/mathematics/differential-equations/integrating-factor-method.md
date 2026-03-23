@@ -14,7 +14,7 @@ tags:
 - first-order
 - linear
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Integrating Factor Method for First-Order Linear ODEs

@@ -15,7 +15,7 @@ tags:
 - membrane-proteins
 - lipid-rafts
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Plasma Membrane Organization and Dynamics

@@ -16,7 +16,7 @@ tags:
 - positive-interactions
 - community-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Facilitation and Positive Interactions in Communities

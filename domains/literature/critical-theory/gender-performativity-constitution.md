@@ -15,7 +15,7 @@ tags:
 - queer-theory
 - feminist
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gender Performativity and Iterative Constitution

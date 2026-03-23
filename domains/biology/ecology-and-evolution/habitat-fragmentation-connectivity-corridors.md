@@ -16,7 +16,7 @@ tags:
 - corridors
 - conservation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Habitat Fragmentation, Connectivity, and Conservation Corridors

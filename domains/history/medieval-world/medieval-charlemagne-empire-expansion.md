@@ -17,7 +17,7 @@ tags:
 - empire
 - expansion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Charlemagne and Carolingian Imperial Revival

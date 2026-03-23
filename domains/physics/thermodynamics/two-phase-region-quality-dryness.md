@@ -14,7 +14,7 @@ tags:
 - saturation
 - wet-steam
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Two-Phase Region and Quality (Dryness Fraction)

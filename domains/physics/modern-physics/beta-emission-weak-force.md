@@ -14,7 +14,7 @@ tags:
 - nuclear-physics
 - decay
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Beta Decay and the Weak Nuclear Force

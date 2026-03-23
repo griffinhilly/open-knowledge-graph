@@ -19,7 +19,7 @@ tags:
 - stability-factor
 - bias-design
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Amplifier Biasing and Stability

@@ -12,7 +12,7 @@ tags:
 - contour
 - composition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Melodic Gesture and Contour

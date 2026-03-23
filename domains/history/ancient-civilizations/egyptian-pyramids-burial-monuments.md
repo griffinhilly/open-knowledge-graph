@@ -16,7 +16,7 @@ tags:
 - kingship
 - old-kingdom
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Egyptian Pyramids and Monumental Architecture

@@ -23,7 +23,7 @@ tags:
 - diagonal embedding
 - direct product
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ultraproducts of Structures

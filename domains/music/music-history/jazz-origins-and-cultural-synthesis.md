@@ -15,7 +15,7 @@ tags:
 - improvisation
 - synthesis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Jazz Origins and Cultural Synthesis

@@ -16,7 +16,7 @@ tags:
 - atomic-transport
 - kinetics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diffusion Mechanisms in Solid Materials

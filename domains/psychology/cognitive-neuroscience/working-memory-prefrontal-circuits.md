@@ -13,7 +13,7 @@ tags:
 - prefrontal
 - circuits
 stage: expert
-status: draft
+status: validated
 ---
 
 # Working Memory Neural Circuits

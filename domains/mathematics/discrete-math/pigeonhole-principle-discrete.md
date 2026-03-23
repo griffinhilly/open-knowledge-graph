@@ -12,7 +12,7 @@ tags:
 - pigeonhole
 - discrete-proofs
 stage: formal-systems
-status: draft
+status: validated
 ---
 # The Pigeonhole Principle and Its Applications
 

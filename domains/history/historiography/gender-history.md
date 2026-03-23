@@ -14,7 +14,7 @@ tags:
 - feminist-historiography
 - sexuality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Gender History

@@ -19,7 +19,7 @@ tags:
 - zaitsev
 - carbocation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # E1 Elimination Mechanism and Zaitsev's Rule

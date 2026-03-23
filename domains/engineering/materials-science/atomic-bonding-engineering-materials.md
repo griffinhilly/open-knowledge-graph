@@ -17,7 +17,7 @@ tags:
 - covalent
 - ionic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Atomic Bonding in Engineering Materials

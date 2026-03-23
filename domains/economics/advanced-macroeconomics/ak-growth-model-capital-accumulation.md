@@ -11,7 +11,7 @@ tags:
 - constant-returns-to-capital
 - scale-effects
 stage: expert
-status: draft
+status: validated
 ---
 
 # AK Model and Linear Production Functions

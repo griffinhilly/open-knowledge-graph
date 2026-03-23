@@ -15,7 +15,7 @@ tags:
 - reduction-of-order
 - second-solution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Repeated Roots and Reduction of Order

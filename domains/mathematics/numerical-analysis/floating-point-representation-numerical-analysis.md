@@ -14,7 +14,7 @@ tags:
 - representation
 - computer-arithmetic
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Floating Point Representation
 

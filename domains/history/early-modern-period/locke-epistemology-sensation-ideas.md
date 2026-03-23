@@ -15,7 +15,7 @@ tags:
 - empiricism
 - sensation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Locke's Theory of Knowledge and Sensation

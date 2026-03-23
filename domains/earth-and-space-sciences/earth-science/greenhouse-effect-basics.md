@@ -19,7 +19,7 @@ tags:
 - global-warming
 - climate-change
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Greenhouse Effect Basics

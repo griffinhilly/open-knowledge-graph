@@ -16,7 +16,7 @@ tags:
 - audience-space
 - design
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # In-the-Round Theatre and Audience Intimacy

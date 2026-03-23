@@ -19,7 +19,7 @@ tags:
 - vanishing-point
 - interior-exterior
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Linear Perspective: One-Point and Two-Point Systems

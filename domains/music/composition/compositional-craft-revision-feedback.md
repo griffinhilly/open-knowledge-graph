@@ -13,7 +13,7 @@ tags:
 - process
 - composition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Compositional Craft, Revision, and Feedback

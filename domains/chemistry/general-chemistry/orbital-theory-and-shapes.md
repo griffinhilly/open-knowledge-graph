@@ -16,7 +16,7 @@ tags:
 - quantum numbers
 - s p d f orbitals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orbital Shapes and the Principal Quantum Number

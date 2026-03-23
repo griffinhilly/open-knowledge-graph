@@ -15,7 +15,7 @@ tags:
 - state-of-nature
 - political-justification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # State of Nature and Its Philosophical Role

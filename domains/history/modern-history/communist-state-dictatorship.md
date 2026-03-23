@@ -18,7 +18,7 @@ tags:
 - soviet-union
 - vanguard-party
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Communist States and the Dictatorship of the Proletariat

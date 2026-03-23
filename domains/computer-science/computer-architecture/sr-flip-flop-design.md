@@ -15,7 +15,7 @@ tags:
 - latches
 - sequential
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # SR (Set-Reset) Flip-Flops

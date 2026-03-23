@@ -16,7 +16,7 @@ tags:
 - distribution
 - patterns
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Biogeographic Patterns and Realms

@@ -16,7 +16,7 @@ tags:
 - field-theory
 - forces
 stage: expert
-status: draft
+status: validated
 ---
 
 # Magnetic Field and the Lorentz Force

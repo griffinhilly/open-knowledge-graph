@@ -19,7 +19,7 @@ tags:
 - representation
 - structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Narrative Form and Ideological Representation

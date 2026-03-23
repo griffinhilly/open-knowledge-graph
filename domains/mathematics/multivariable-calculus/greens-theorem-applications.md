@@ -16,7 +16,7 @@ tags:
 - circulation
 - flux-in-2d
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Green's Theorem and Its Applications

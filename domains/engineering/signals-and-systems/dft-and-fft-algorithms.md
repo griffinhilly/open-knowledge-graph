@@ -18,7 +18,7 @@ tags:
 - algorithms
 - computational
 stage: expert
-status: draft
+status: validated
 ---
 
 # Discrete Fourier Transform (DFT) and Fast Fourier Transform (FFT) Algorithms

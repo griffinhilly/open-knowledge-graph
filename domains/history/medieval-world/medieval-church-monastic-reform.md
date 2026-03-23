@@ -16,7 +16,7 @@ tags:
 - church
 - discipline
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Monastic Reform Movements in the Medieval Church

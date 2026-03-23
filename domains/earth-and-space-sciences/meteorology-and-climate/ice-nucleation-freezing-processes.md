@@ -16,7 +16,7 @@ tags:
 - freezing
 - cloud-microphysics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ice Nucleation and Freezing Processes in Clouds

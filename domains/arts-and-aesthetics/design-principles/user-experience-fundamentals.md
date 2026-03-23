@@ -15,7 +15,7 @@ tags:
 - user-research
 - interaction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # User Experience Fundamentals

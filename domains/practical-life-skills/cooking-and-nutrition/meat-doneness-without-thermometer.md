@@ -18,7 +18,7 @@ tags:
 - sensory
 - skill
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Assessing Meat Doneness Without Thermometer

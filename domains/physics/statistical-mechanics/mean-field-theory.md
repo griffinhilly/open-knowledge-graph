@@ -15,7 +15,7 @@ tags:
 - phase-transitions
 - critical-behavior
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mean Field Theory

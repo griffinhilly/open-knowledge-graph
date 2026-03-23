@@ -20,7 +20,7 @@ tags:
 - diminished
 - tension
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tritone and Dissonant Intervals by Ear

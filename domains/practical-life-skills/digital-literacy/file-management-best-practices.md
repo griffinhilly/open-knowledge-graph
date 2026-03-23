@@ -12,7 +12,7 @@ tags:
 - naming
 - workflow
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # File Management Best Practices

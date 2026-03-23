@@ -12,7 +12,7 @@ tags:
 - locally-connected
 - local-property
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Locally Connected Spaces

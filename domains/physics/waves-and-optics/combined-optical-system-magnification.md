@@ -11,7 +11,7 @@ tags:
 - magnification
 - instruments
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Compound Optical Systems and Total Magnification

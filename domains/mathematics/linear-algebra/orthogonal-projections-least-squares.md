@@ -13,7 +13,7 @@ tags:
 - least-squares
 - approximation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orthogonal Projections and Least Squares Approximation

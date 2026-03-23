@@ -13,7 +13,7 @@ tags:
 - error-reporting
 - diagnostics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # ICMP: Internet Control Message Protocol

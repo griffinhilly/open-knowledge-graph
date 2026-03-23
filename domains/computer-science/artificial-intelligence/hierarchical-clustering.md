@@ -16,7 +16,7 @@ tags:
 - hierarchical-structures
 - dendrograms
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hierarchical Clustering

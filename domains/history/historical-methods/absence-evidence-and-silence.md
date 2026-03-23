@@ -15,7 +15,7 @@ tags:
 - silence
 - epistemology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interpreting Absence of Evidence and Historical Silences

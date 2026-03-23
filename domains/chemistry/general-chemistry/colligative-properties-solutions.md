@@ -14,7 +14,7 @@ tags:
 - freezing point depression
 - osmotic pressure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Colligative Properties: Effects of Solute Concentration

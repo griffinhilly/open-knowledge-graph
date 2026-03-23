@@ -16,7 +16,7 @@ tags:
 - psychology
 - believability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Character Motivation and Psychological Believability

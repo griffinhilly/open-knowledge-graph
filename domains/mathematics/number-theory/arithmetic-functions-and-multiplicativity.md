@@ -14,7 +14,7 @@ tags:
 - multiplicative
 - divisor-functions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Arithmetic Functions and Multiplicativity

@@ -18,7 +18,7 @@ tags:
 - law
 - constraints
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constitutionalism and Limited Government

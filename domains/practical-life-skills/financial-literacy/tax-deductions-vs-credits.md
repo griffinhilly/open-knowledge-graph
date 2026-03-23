@@ -14,7 +14,7 @@ tags:
 - refundable
 - nonrefundable
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Tax Deductions vs. Credits

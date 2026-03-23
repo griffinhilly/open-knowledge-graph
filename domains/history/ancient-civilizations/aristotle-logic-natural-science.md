@@ -13,7 +13,7 @@ tags:
 - science
 - greece
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Aristotle, Logic, and Natural Philosophy

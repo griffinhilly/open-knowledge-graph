@@ -16,7 +16,7 @@ tags:
 - valuation
 - discounting
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Zero-Coupon Bond Pricing and Valuation
 

@@ -16,7 +16,7 @@ tags:
 - games
 - sampling
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Monte Carlo Tree Search

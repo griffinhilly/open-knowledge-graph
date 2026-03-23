@@ -19,7 +19,7 @@ tags:
 - senses
 - signals
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # The Nervous System
 

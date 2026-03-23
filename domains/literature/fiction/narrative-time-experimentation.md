@@ -18,7 +18,7 @@ tags:
 - experimental
 - modernism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Experimental Treatment of Narrative Time

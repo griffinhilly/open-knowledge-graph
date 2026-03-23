@@ -15,7 +15,7 @@ tags:
 - commerce
 - standardization
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Indus Valley Seals and Trade Networks
 

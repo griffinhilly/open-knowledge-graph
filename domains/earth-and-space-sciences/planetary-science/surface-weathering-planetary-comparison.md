@@ -17,7 +17,7 @@ tags:
 - surface-processes
 - atmosphere-interaction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Comparative Planetary Weathering and Surface Erosion

@@ -15,7 +15,7 @@ tags:
 - hypersensitivity
 - adverse-reactions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hypersensitivity Reactions (Types I–IV)

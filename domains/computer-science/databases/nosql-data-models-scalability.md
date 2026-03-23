@@ -16,7 +16,7 @@ tags:
 - columnar
 - graph
 stage: formal-systems
-status: draft
+status: validated
 ---
 # NoSQL Data Models: Document, Key-Value, Columnar, and Graph
 

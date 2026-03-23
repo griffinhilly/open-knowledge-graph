@@ -14,7 +14,7 @@ tags:
 - shortest-path
 - ospf
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Dijkstra's Shortest Path Algorithm in Routing

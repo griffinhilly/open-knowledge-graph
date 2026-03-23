@@ -17,7 +17,7 @@ tags:
 - secondary-deviance
 - becker
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Labeling Theory and Secondary Deviance

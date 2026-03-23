@@ -18,7 +18,7 @@ tags:
 - weighting
 - covariate-balance
 stage: expert
-status: draft
+status: validated
 ---
 
 # Matching, Stratification, and Weighting: Creating Comparable Groups

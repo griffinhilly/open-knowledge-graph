@@ -16,7 +16,7 @@ tags:
 - transcriptional-control
 - leader-peptide
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # trp Operon and Transcriptional Attenuation

@@ -18,7 +18,7 @@ tags:
 - circuit-analysis
 - steady-state
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # DC Steady-State Circuit Analysis

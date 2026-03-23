@@ -15,7 +15,7 @@ tags:
 - perturbation
 - dynamics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Response Functions and Linear Response

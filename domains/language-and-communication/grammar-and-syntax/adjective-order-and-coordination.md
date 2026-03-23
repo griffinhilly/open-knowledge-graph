@@ -13,7 +13,7 @@ tags:
 - noun-modification
 - word-order
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Adjective Order and Coordination

@@ -18,7 +18,7 @@ tags:
 - antirealism
 - ontology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moral Realism vs Antirealism

@@ -12,7 +12,7 @@ tags:
 - character
 - framework
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Virtue and Character

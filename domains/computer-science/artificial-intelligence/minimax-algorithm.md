@@ -15,7 +15,7 @@ tags:
 - games
 - game-theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Minimax Algorithm

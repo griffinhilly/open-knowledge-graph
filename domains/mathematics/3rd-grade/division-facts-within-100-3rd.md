@@ -15,7 +15,7 @@ tags:
 - facts
 - fluency
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Division Facts within 100

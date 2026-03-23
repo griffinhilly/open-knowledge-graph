@@ -14,7 +14,7 @@ tags:
 - grouping
 - form
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gestalt Psychology and Perceptual Grouping in Analysis

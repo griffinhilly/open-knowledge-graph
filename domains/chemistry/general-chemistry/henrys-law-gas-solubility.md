@@ -16,7 +16,7 @@ tags:
 - gas
 - pressure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Henry's Law and Gas Solubility

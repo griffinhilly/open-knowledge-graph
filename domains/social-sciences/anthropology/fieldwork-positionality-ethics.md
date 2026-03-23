@@ -17,7 +17,7 @@ tags:
 - positionality
 - ethics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ethnographic Fieldwork: Positionality and Research Ethics

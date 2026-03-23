@@ -18,7 +18,7 @@ tags:
 - compound-identification
 - quantitation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gas Chromatography-Mass Spectrometry: GC-MS

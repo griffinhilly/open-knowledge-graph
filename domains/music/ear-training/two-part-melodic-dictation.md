@@ -19,7 +19,7 @@ tags:
 - voice-leading
 - independence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Two-Part Melodic Dictation and Countermelody

@@ -11,7 +11,7 @@ tags:
 - heating
 - cooling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heat Pump Systems for Heating and Cooling

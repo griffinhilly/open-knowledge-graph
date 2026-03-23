@@ -23,7 +23,7 @@ tags:
 - rhythm
 - verse
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stichomythia: Rapid Dialogue Exchange

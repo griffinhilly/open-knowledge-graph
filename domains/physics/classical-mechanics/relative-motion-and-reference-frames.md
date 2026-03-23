@@ -15,7 +15,7 @@ tags:
 - relative-motion
 - vectors
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Relative Motion and Reference Frames

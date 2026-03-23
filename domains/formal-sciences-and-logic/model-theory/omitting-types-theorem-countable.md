@@ -12,7 +12,7 @@ tags:
 - sparse models
 - non-principal types
 stage: expert
-status: draft
+status: validated
 ---
 
 # Omitting Types Theorem

@@ -15,7 +15,7 @@ tags:
 - de-re
 - de-dicto
 stage: expert
-status: draft
+status: validated
 ---
 
 # De Re and De Dicto Readings

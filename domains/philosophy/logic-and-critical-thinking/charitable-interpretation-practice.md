@@ -13,7 +13,7 @@ tags:
 - argument-analysis
 - critical-thinking
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Practice of Charitable Interpretation

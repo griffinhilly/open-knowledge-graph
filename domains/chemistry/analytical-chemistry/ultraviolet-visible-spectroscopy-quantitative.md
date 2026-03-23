@@ -17,7 +17,7 @@ tags:
 - absorption
 - chromophores
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ultraviolet-Visible Spectroscopy: Quantitative Analysis

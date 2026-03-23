@@ -14,7 +14,7 @@ tags:
 - inflection
 - quantification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Grammatical Number Systems

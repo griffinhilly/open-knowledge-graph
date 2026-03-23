@@ -16,7 +16,7 @@ tags:
 - diagonal-argument
 - continuum
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Uncountable Sets and Cantor's Diagonal Argument

@@ -14,7 +14,7 @@ tags:
 - approximation
 - local-analysis
 stage: advanced
-status: draft
+status: validated
 ---
 # Linearization of Nonlinear Systems
 

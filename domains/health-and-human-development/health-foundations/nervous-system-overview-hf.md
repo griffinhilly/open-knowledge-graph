@@ -4,7 +4,7 @@ title: Nervous System Overview
 domain: health-and-human-development
 course: health-foundations
 prerequisites:
-  - id: my-senses
+  - id: the-five-senses
     type: soft
 builds-toward:
   - how-body-systems-connect
@@ -12,7 +12,7 @@ builds-toward:
   - brain-anatomy-and-functional-organization
 tags: [body-systems, nervous-system, brain, nerves, senses]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Nervous System Overview

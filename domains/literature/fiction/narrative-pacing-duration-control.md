@@ -14,7 +14,7 @@ tags:
 - rhythm
 - attention
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Narrative Pacing: Controlling Duration and Attention

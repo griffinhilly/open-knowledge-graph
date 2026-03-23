@@ -15,7 +15,7 @@ tags:
 - piecewise
 - step-function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Unit Step Function and Piecewise-Defined Forcing

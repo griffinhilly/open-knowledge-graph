@@ -14,7 +14,7 @@ tags:
 - opium-wars
 - colonialism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Imperialism in Asia: The Opium Wars and Treaty System

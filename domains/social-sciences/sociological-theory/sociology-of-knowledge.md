@@ -14,7 +14,7 @@ tags:
 - social-construction
 - science-studies
 stage: expert
-status: draft
+status: validated
 ---
 
 # Sociology of Knowledge

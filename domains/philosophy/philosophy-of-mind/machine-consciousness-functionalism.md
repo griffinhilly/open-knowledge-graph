@@ -17,7 +17,7 @@ tags:
 - computation
 - consciousness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Machine Consciousness and Artificial Systems

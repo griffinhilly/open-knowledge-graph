@@ -22,7 +22,7 @@ tags:
 - experimentation
 - impact evaluation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Randomized Controlled Trials and Causal Inference in Development

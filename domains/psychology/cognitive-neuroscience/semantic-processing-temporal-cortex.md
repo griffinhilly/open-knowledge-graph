@@ -18,7 +18,7 @@ tags:
 - semantic-hub
 - knowledge
 stage: expert
-status: draft
+status: validated
 ---
 
 # Semantic Processing and Anterior Temporal Cortex

@@ -13,7 +13,7 @@ tags:
 - melody
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Passing Tone Identification by Ear

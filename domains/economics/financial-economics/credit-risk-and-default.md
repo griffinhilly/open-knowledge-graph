@@ -15,7 +15,7 @@ tags:
 - default
 - risk-measurement
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Credit Risk and Default Probability

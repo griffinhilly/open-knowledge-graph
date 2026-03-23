@@ -14,7 +14,7 @@ tags:
 - literature
 - classical-knowledge
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Renaissance Classical Literature Revival

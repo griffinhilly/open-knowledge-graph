@@ -16,7 +16,7 @@ tags:
 - interest-rates
 - equilibrium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interest Rate Determination in the Loanable Funds Market

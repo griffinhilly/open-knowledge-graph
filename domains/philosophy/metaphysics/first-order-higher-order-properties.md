@@ -15,7 +15,7 @@ tags:
 - first-order
 - higher-order
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # First-Order and Higher-Order Properties

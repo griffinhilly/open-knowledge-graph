@@ -16,7 +16,7 @@ tags:
 - quantifiers
 - proof-rules
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Quantifier Instantiation Rules in First-Order Proof Systems

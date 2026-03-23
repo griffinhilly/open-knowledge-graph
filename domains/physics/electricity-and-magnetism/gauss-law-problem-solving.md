@@ -16,7 +16,7 @@ tags:
 - symmetry
 - applications
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Solving Problems with Gauss's Law

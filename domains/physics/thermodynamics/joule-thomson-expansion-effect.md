@@ -16,7 +16,7 @@ tags:
 - refrigeration
 - expansion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Joule-Thomson Expansion and the Joule-Thomson Effect

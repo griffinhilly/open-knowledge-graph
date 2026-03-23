@@ -15,7 +15,7 @@ tags:
 - truth-functions
 - foundational
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Logical Operators and Truth Functions

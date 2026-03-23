@@ -16,7 +16,7 @@ tags:
 - dispersion
 - wave-packets
 stage: expert
-status: draft
+status: validated
 ---
 
 # Group Velocity and Dispersion Relations

@@ -14,7 +14,7 @@ tags:
 - monopolistic-competition
 - scale-effects
 stage: expert
-status: draft
+status: validated
 ---
 
 # Romer's Endogenous Technological Progress Model

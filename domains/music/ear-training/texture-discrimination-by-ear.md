@@ -17,7 +17,7 @@ tags:
 - polyphony
 - compositional-texture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Texture Discrimination by Ear

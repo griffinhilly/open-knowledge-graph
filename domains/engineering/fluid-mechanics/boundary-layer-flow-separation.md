@@ -15,7 +15,7 @@ tags:
 - separation
 - external-flow
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Boundary Layer and Flow Separation

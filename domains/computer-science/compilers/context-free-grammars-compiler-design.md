@@ -16,7 +16,7 @@ tags:
 - parsing
 - language-definition
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Context-Free Grammars in Compiler Design

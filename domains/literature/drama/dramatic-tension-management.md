@@ -17,7 +17,7 @@ tags:
 - structure
 - audience-engagement
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Dramatic Tension and Suspense Management
 

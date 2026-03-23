@@ -17,7 +17,7 @@ tags:
 - adjoint
 - inclusion
 stage: expert
-status: draft
+status: validated
 ---
 
 # Reflective and Coreflective Subcategories

@@ -13,7 +13,7 @@ tags:
 - labor supply
 - household
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Labor Supply and Household Time Allocation

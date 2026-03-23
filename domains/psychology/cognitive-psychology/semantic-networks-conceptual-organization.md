@@ -15,7 +15,7 @@ tags:
 - networks
 - organization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Semantic Networks and Conceptual Organization

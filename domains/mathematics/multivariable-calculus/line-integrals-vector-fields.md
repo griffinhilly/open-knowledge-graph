@@ -15,7 +15,7 @@ tags:
 - line-integral
 - vector-field
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Line Integrals of Vector Fields

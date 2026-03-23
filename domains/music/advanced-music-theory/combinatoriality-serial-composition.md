@@ -22,7 +22,7 @@ tags:
 - combinatoriality
 - advanced-technique
 stage: expert
-status: draft
+status: validated
 ---
 
 # Combinatoriality in Serial Composition

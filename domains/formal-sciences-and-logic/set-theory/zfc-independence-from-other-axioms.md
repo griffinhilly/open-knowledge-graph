@@ -14,7 +14,7 @@ tags:
 - continuum
 - axioms
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Independence in ZFC and Limitations of Axiomatization

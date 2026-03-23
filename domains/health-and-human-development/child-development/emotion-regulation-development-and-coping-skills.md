@@ -15,7 +15,7 @@ tags:
 - coping
 - social-emotional-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Emotion Regulation Development and Coping Skills

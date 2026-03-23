@@ -16,7 +16,7 @@ tags:
 - hofmann-elimination
 - sn2
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Amine Alkylation and Quaternary Ammonium Formation

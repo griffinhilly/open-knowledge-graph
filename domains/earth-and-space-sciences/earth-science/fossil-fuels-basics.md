@@ -19,7 +19,7 @@ tags:
 - energy
 - carbon
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Fossil Fuels Basics

@@ -16,7 +16,7 @@ tags:
 - gene-regulation
 - transcription
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Enhancers and Silencers in Eukaryotic Gene Regulation

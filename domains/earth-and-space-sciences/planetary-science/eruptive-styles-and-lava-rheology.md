@@ -18,7 +18,7 @@ tags:
 - magma-composition
 - eruption-styles
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lava Rheology and Planetary Eruptive Styles

@@ -15,7 +15,7 @@ tags:
 - unbiased-estimation
 - statistics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Uniformly Minimum Variance Unbiased Estimation (UMVUE)

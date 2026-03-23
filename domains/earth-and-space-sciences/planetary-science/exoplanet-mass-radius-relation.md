@@ -14,7 +14,7 @@ tags:
 - composition
 - interior-structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Exoplanet Mass-Radius Relations and Interior Composition

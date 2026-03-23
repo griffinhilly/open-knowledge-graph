@@ -14,7 +14,7 @@ tags:
 - genetic-association
 - haplotype
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Linkage Disequilibrium and Evolutionary Dynamics

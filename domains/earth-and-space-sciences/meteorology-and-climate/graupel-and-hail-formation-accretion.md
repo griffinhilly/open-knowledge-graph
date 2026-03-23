@@ -16,7 +16,7 @@ tags:
 - severe-weather
 - ice-hydrometeors
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graupel and Hail Formation Through Accretion

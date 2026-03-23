@@ -13,7 +13,7 @@ tags:
 - near-field
 - diffraction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fresnel Diffraction: Near-Field Diffraction Phenomena

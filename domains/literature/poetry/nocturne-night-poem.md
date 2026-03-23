@@ -17,7 +17,7 @@ tags:
 - mystery
 - moon
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Nocturne: The Night Poem
 

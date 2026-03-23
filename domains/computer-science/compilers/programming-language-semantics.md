@@ -16,7 +16,7 @@ tags:
 - formal-methods
 - language-design
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Programming Language Semantics

@@ -15,7 +15,7 @@ tags:
 - sources
 - government
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Political Authority and Sources of Legitimacy

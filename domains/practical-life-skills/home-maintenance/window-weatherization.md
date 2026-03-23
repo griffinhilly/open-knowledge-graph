@@ -16,7 +16,7 @@ tags:
 - weatherization
 - drafts
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Window Weatherization and Draft Sealing

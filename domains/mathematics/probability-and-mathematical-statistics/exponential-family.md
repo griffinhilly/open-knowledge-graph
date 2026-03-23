@@ -16,7 +16,7 @@ tags:
 - distributions
 - statistics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Exponential Family of Distributions

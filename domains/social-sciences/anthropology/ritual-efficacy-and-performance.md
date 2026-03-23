@@ -16,7 +16,7 @@ tags:
 - action
 - causality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ritual Efficacy and Performative Power

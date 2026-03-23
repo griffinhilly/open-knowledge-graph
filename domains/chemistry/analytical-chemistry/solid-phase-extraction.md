@@ -18,7 +18,7 @@ tags:
 - conditioning
 - elution
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Solid-Phase Extraction

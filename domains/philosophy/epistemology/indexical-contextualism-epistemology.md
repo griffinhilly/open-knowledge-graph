@@ -17,7 +17,7 @@ tags:
 - semantics
 - pragmatics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Contextualism as Indexicalism in Epistemology

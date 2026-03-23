@@ -15,7 +15,7 @@ tags:
 - vision
 - selection
 stage: expert
-status: draft
+status: validated
 ---
 
 # Neural Mechanisms of Visual Attention

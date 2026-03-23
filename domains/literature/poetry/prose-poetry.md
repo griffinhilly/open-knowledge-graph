@@ -14,7 +14,7 @@ tags:
 - prose
 - poetry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Prose Poetry: Hybrid Form

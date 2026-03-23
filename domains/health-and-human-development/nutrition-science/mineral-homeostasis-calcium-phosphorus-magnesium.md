@@ -17,7 +17,7 @@ tags:
 - magnesium
 - homeostasis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mineral Homeostasis: Calcium, Phosphorus, and Magnesium Regulation

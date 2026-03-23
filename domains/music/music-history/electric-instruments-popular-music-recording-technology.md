@@ -13,7 +13,7 @@ tags:
 - technology
 - 20th-century
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Electric Instruments, Popular Music, and Recording Technology

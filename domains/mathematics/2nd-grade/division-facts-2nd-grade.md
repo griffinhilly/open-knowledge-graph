@@ -18,7 +18,7 @@ tags:
 - fluency
 - inverse
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Basic Division Facts

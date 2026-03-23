@@ -16,7 +16,7 @@ tags:
 - gas-pressure
 - automation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Pneumatic Systems in Engineering
 

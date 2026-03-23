@@ -17,7 +17,7 @@ tags:
 - rigor
 - qualitative
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Existence and Uniqueness Theorems for ODEs

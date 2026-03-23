@@ -19,7 +19,7 @@ tags:
 - quantifier
 - de morgan
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Negating Quantified Statements

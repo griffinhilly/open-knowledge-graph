@@ -17,7 +17,7 @@ tags:
 - protozoa
 - pathogenic
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Protist Classification and Parasitic Protists

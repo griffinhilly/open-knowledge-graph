@@ -14,7 +14,7 @@ tags:
 - igp
 - interior-gateway-protocol
 stage: advanced
-status: draft
+status: validated
 ---
 
 # OSPF: Open Shortest Path First

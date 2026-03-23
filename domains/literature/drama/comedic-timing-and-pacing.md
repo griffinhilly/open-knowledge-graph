@@ -16,7 +16,7 @@ tags:
 - performance
 - technique
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Comedic Timing and Pacing

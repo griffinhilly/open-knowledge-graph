@@ -14,7 +14,7 @@ tags:
 - correlation
 - spectral-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Coherence and Cross-Spectral Density

@@ -18,7 +18,7 @@ tags:
 - empiricism
 - scientific-revolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Galileo and the Method of Observation and Experimentation

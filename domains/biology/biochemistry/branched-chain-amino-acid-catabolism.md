@@ -18,7 +18,7 @@ tags:
 - isoleucine
 - valine
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Branched-Chain Amino Acid Metabolism

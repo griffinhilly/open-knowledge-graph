@@ -13,7 +13,7 @@ tags:
 - dynamic-models
 - gmm
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dynamic Panel Models: Arellano-Bond Estimator

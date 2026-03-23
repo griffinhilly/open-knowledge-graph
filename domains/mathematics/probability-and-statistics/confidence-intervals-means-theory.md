@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - confidence-interval
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Confidence Intervals for Population Means

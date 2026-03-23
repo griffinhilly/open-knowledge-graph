@@ -17,7 +17,7 @@ tags:
 - orbital-interactions
 - dynamics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Transit Timing Variations and Exoplanet System Detection

@@ -16,7 +16,7 @@ tags:
 - ancient-greece
 - methodology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Herodotus and the Method of Inquiry

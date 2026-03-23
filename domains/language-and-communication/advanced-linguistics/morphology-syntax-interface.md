@@ -15,7 +15,7 @@ tags:
 - syntax
 - interface
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Morphology-Syntax Interface

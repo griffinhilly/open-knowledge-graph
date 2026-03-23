@@ -21,7 +21,7 @@ tags:
 - observation
 - prediction
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Weather Patterns

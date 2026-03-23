@@ -12,7 +12,7 @@ tags:
 - angular-momentum
 - coupling
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Angular Momentum Coupling

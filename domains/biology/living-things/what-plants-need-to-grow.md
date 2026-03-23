@@ -17,7 +17,7 @@ tags:
 - soil
 - growth
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # What Plants Need to Grow

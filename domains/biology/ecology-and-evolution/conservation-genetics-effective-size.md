@@ -19,7 +19,7 @@ tags:
 - inbreeding-depression
 - genetic-diversity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conservation Genetics: Effective Population Size and Inbreeding

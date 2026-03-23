@@ -21,7 +21,7 @@ tags:
 - ear-training
 - contrapuntal
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Voice Independence and Counterpoint by Ear

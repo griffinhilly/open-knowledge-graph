@@ -16,7 +16,7 @@ tags:
 - coagulation
 - albumin
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hepatocellular Injury and Synthetic Dysfunction

@@ -13,7 +13,7 @@ tags:
 - stator
 - rotary catalysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # ATP Synthase: Structure and Catalytic Mechanism

@@ -17,7 +17,7 @@ tags:
 - access-consciousness
 - overflow
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phenomenal vs Access Consciousness

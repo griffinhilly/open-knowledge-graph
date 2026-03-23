@@ -13,7 +13,7 @@ tags:
 - test-information
 - irt-precision
 stage: expert
-status: draft
+status: validated
 ---
 
 # Item and Test Information Functions and Measurement Precision

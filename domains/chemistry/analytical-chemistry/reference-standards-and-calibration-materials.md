@@ -11,7 +11,7 @@ tags:
 - calibration
 - traceability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Reference Standards and Calibration Materials

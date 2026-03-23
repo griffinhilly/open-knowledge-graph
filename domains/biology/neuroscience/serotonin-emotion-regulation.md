@@ -14,7 +14,7 @@ tags:
 - anxiety
 - emotion
 stage: expert
-status: draft
+status: validated
 ---
 
 # Serotonergic System: Mood, Anxiety, and Behavioral Control

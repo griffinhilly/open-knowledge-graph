@@ -18,7 +18,7 @@ tags:
 - normal-form
 - classification
 stage: expert
-status: draft
+status: validated
 ---
 
 # Set-Class Equivalence and Normal Form

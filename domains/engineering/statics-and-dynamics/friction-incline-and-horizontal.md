@@ -14,7 +14,7 @@ tags:
 - horizontal
 - applications
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Friction on Inclines and Horizontal Surfaces

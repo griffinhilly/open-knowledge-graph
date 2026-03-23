@@ -13,7 +13,7 @@ tags:
 - sylow-theorems
 - p-groups
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sylow Theorems

@@ -17,7 +17,7 @@ tags:
 - reaction
 - composition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chemical Equilibrium and Equilibrium Constant

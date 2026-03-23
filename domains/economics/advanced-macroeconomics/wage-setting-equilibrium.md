@@ -13,7 +13,7 @@ tags:
 - bargaining
 - wage-determination
 stage: expert
-status: draft
+status: validated
 ---
 
 # Wage-Setting Equilibrium and Wage Bargaining

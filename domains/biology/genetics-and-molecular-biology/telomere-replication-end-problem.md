@@ -16,7 +16,7 @@ tags:
 - aging
 - cellular-senescence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The End-Replication Problem and Telomerase

@@ -15,7 +15,7 @@ tags:
 - temperature
 - rheology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Lithosphere and Asthenosphere: Mechanical Layers

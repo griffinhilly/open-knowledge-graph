@@ -14,7 +14,7 @@ tags:
 - protocol-stack
 - headers
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Encapsulation and Protocol Layers

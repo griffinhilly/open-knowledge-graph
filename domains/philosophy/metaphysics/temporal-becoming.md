@@ -19,7 +19,7 @@ tags:
 - flow
 - temporal-metaphysics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Temporal Becoming

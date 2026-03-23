@@ -16,7 +16,7 @@ tags:
 - pricing
 - market-implied
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Implied Volatility Extraction and Interpretation

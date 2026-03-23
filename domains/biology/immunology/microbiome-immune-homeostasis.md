@@ -20,7 +20,7 @@ tags:
 - immune-tolerance
 - intestinal-barrier
 stage: expert
-status: draft
+status: validated
 ---
 
 # Microbiome-Immune Interactions and Mucosal Homeostasis

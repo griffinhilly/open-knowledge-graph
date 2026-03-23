@@ -12,7 +12,7 @@ tags:
 - quantity-recognition
 - number-sense
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Subitizing: Recognizing Groups 1-5

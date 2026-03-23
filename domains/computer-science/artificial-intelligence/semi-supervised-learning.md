@@ -14,7 +14,7 @@ tags:
 - unlabeled-data
 - self-training
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Semi-Supervised Learning

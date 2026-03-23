@@ -15,7 +15,7 @@ tags:
 - thermodynamics
 - spontaneity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gibbs Free Energy and Molecular Basis

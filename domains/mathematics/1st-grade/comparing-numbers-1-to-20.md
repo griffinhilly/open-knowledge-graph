@@ -16,7 +16,7 @@ tags:
 - ordering
 - symbols
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Comparing Numbers 1 to 20

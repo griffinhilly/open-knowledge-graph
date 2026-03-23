@@ -13,7 +13,7 @@ tags:
 - independence
 - probability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Independence of Events

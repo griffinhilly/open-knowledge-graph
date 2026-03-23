@@ -12,7 +12,7 @@ tags:
 - climate
 - science
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Environmental Proxy Analysis

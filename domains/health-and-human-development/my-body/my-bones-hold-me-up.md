@@ -17,7 +17,7 @@ tags:
 - skeletal system
 - support
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # My Bones Hold Me Up

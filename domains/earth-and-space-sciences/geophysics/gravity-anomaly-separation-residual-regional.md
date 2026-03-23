@@ -16,7 +16,7 @@ tags:
 - separation
 - processing
 stage: expert
-status: draft
+status: validated
 ---
 
 # Gravity Anomaly Separation: Regional and Residual

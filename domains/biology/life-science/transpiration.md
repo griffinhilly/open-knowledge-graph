@@ -6,7 +6,7 @@ course: life-science
 prerequisites:
 - id: photosynthesis-intro
   type: hard
-- id: what-plants-need
+- id: what-plants-need-to-grow
   type: hard
 - id: plant-vs-animal-cells
   type: soft
@@ -18,7 +18,7 @@ tags:
 - stomata
 - leaves
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Transpiration
 

@@ -19,7 +19,7 @@ tags:
 - food-web
 - keystone
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Trophic Cascades and Top-Down Food Web Control

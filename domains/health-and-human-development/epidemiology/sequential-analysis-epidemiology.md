@@ -15,7 +15,7 @@ tags:
 - hypothesis-testing
 - interim-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Sequential Analysis and Early Stopping

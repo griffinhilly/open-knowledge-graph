@@ -12,7 +12,7 @@ tags:
 - inequality
 - measurement
 stage: expert
-status: draft
+status: validated
 ---
 
 # Measuring and Understanding Income Inequality

@@ -16,7 +16,7 @@ tags:
 - international-investment
 - equilibrium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # International Capital Flows and Equilibrium

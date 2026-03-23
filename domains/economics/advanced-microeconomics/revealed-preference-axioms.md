@@ -15,7 +15,7 @@ tags:
 - preference-elicitation
 - non-parametric
 stage: expert
-status: draft
+status: validated
 ---
 
 # Revealed Preference Theory

@@ -12,7 +12,7 @@ tags:
 - graph-theory
 - extremal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Turán's Theorem and Extremal Graph Theory

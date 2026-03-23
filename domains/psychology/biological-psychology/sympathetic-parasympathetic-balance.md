@@ -16,7 +16,7 @@ tags:
 - stress
 - homeostasis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Autonomic Nervous System: Sympathetic and Parasympathetic Balance

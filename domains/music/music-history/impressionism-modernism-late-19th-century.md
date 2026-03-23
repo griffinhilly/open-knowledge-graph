@@ -15,7 +15,7 @@ tags:
 - harmony
 - texture
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Impressionism and Modernism in Late 19th-Century Music

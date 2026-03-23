@@ -14,7 +14,7 @@ tags:
 - functional-groups
 - FTIR
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Infrared Spectroscopy: Quantitative Applications

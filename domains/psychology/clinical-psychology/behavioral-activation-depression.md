@@ -14,7 +14,7 @@ tags:
 - behavioral activation
 - depression
 stage: expert
-status: draft
+status: validated
 ---
 
 # Behavioral Activation and Depression Treatment

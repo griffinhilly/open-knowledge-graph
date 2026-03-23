@@ -14,7 +14,7 @@ tags:
 - notation
 - periodic-table
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Element Symbols and Names
 

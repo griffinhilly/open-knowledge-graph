@@ -19,7 +19,7 @@ tags:
 - field-theory
 - divergence-curl
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Maxwell's Equations in Differential Form

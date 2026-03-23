@@ -16,7 +16,7 @@ tags:
 - Best Systems
 - Humean
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Laws of Nature

@@ -16,7 +16,7 @@ tags:
 - content
 - thought-experiment
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Twin Earth Thought Experiment

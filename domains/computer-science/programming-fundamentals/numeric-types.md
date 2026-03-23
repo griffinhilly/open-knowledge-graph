@@ -1,22 +1,24 @@
 ---
-id: integer-and-floating-point-types
+id: numeric-types
 title: Integer and Floating-Point Number Types
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
 - id: memory-and-data-storage
   type: hard
+- id: primitive-data-types
+  type: hard
 builds-toward:
-- arithmetic-operators-intro
+- arithmetic-operators
 - type-conversion-casting
+- type-conversion-intro
 tags:
 - types
 - numbers
 - numeric
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Integer and Floating-Point Number Types
 
 ## Core Idea

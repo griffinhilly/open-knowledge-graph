@@ -20,7 +20,7 @@ tags:
 - length-constant
 - time-constant
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cable Theory and Axonal Conduction

@@ -18,7 +18,7 @@ tags:
 - twelve-tones
 - semitone
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chromatic Scale: All Twelve Pitches

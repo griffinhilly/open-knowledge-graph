@@ -13,7 +13,7 @@ tags:
 - anti-aliasing
 - multirate
 stage: expert
-status: draft
+status: validated
 ---
 # Decimation, Anti-Aliasing, and Downsampling
 

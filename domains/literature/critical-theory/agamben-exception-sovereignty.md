@@ -14,7 +14,7 @@ tags:
 - sovereignty
 - bare-life
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Agamben, Exception, and Sovereignty

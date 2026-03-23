@@ -12,7 +12,7 @@ builds-toward:
   - effective-altruism-and-scope
 tags: ["risk", "probability", "black-swans", "nassim-taleb", "fat-tails"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

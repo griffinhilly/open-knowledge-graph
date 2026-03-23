@@ -15,7 +15,7 @@ tags:
 - chords
 - major-minor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Understanding Diatonic Chords in Major and Minor Keys

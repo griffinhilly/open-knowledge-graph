@@ -23,7 +23,7 @@ tags:
 - free-energy
 - thermodynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # ATP Hydrolysis and Cellular Free Energy

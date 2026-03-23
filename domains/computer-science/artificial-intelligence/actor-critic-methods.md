@@ -11,7 +11,7 @@ tags:
 - policy-optimization
 - temporal-difference
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Actor-Critic Methods

@@ -16,7 +16,7 @@ tags:
 - extrapolation
 - worldbuilding
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Science Fiction: Speculation and Extrapolation

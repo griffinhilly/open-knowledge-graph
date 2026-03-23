@@ -13,7 +13,7 @@ tags:
 - continental-drift
 - seafloor-spreading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Plate Tectonics Theory and Evidence for Continental Drift

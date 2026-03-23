@@ -13,7 +13,7 @@ tags:
 - clausius-clapeyron
 - phase-diagrams
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Clausius-Clapeyron Equation and Phase Boundaries

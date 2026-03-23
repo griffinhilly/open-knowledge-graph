@@ -15,7 +15,7 @@ tags:
 - synchronization
 - classic-primitives
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binary Semaphores and Mutexes

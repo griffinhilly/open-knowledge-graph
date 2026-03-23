@@ -19,7 +19,7 @@ tags:
 - sampling
 - populations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # External Validity and Generalizability to Populations

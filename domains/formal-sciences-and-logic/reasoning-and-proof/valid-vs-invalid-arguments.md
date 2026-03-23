@@ -6,7 +6,7 @@ course: reasoning-and-proof
 prerequisites:
   - id: what-is-an-argument
     type: hard
-  - id: if-then-thinking
+  - id: if-then-statements
     type: soft
 builds-toward:
   - counterexamples-in-reasoning
@@ -15,7 +15,7 @@ builds-toward:
   - deductive-reasoning-and-formal-proofs
 tags: [validity, soundness, arguments, logic]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Valid vs. Invalid Arguments

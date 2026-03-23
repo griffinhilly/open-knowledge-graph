@@ -17,7 +17,7 @@ tags:
 - gluten
 - proofing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Bread Baking and Yeast Fermentation

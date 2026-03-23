@@ -14,7 +14,7 @@ tags:
 - hazards
 - prevention
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electrical Safety and Hazard Awareness

@@ -21,7 +21,7 @@ tags:
 - representable
 - presheaf
 stage: expert
-status: draft
+status: validated
 ---
 
 # Yoneda Embedding and Full Faithfulness

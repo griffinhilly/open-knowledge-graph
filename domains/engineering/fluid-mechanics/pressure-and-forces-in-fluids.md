@@ -14,7 +14,7 @@ tags:
 - statics
 - pressure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pressure and Forces in Fluids

@@ -18,7 +18,7 @@ tags:
 - description
 - interarts
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ekphrasis: Poetry Describing Visual Art

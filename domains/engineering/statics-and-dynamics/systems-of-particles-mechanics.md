@@ -15,7 +15,7 @@ tags:
 - center-of-mass
 - particle-systems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Systems of Particles: Center of Mass and Internal Forces

@@ -15,7 +15,7 @@ tags:
 - parameter-dependence
 - qualitative
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bifurcation in Ordinary Differential Equations

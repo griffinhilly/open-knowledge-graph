@@ -17,7 +17,7 @@ tags:
 - banach-spaces
 - functional-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Banach Spaces: Definition and Examples

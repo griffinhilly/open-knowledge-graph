@@ -16,7 +16,7 @@ tags:
 - triangulation
 - sequential-concurrent
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mixed Methods Research Integration

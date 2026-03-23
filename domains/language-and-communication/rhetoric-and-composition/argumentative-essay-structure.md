@@ -17,7 +17,7 @@ tags:
 - concession
 - structure
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Argumentative Essay Structure

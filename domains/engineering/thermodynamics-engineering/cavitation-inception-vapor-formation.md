@@ -15,7 +15,7 @@ tags:
 - sonic-flow
 - critical-pressure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cavitation, Vapor Formation, and Flow Choking

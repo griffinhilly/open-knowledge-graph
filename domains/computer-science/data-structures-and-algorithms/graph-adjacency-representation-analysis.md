@@ -16,7 +16,7 @@ tags:
 - representation
 - implementation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graph Representations: Adjacency List and Matrix

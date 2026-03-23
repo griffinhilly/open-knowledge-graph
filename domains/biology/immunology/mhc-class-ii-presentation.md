@@ -16,7 +16,7 @@ tags:
 - antigen-presentation
 - endosomal
 stage: expert
-status: draft
+status: validated
 ---
 
 # MHC Class II Antigen Presentation Pathway

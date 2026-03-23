@@ -17,7 +17,7 @@ tags:
 - self-governance
 - authority
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Democratic Legitimacy and Authority

@@ -15,7 +15,7 @@ tags:
 - welfare
 - efficiency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pareto Efficiency

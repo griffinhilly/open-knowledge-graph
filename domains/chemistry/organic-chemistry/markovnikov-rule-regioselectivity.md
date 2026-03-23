@@ -17,7 +17,7 @@ tags:
 - markovnikov
 - carbocation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Markovnikov's Rule and Regioselectivity in Addition

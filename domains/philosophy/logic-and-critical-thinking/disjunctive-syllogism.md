@@ -15,7 +15,7 @@ tags:
 - or
 - deductive-reasoning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Disjunctive Syllogism

@@ -14,7 +14,7 @@ tags:
 - inflation
 - behavioral
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Inflation Expectations and Expectation Formation

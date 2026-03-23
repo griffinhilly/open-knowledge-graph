@@ -13,7 +13,7 @@ tags:
 - paging
 - fork
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Copy-on-Write Memory Optimization

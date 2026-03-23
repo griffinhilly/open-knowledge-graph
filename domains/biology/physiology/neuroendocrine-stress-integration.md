@@ -15,7 +15,7 @@ tags:
 - stress-response
 - cortisol
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Neuroendocrine Integration of the Stress Response

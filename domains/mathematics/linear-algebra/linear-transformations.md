@@ -17,7 +17,7 @@ tags:
 - functions
 - preserves-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linear Transformations

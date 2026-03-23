@@ -17,7 +17,7 @@ tags:
 - catabolism
 - gene-regulation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Microbial Substrate Utilization and Metabolic Induction

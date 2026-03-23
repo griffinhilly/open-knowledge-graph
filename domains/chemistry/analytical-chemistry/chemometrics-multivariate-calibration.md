@@ -18,7 +18,7 @@ tags:
 - pattern-recognition
 - data-analysis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Chemometrics: Multivariate Calibration and Data Analysis

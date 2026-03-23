@@ -16,7 +16,7 @@ tags:
 - logic
 - critical-thinking
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fallacy Recognition and Live Response

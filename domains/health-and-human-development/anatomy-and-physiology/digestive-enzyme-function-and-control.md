@@ -19,7 +19,7 @@ tags:
 - pepsin
 - pancreatic-enzymes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Digestive Enzyme Function and Control

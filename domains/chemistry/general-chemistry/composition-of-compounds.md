@@ -14,7 +14,7 @@ tags:
 - empirical formula
 - molecular formula
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Percent Composition and Empirical Formulas

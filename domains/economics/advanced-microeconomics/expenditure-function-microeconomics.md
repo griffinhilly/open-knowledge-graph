@@ -16,7 +16,7 @@ tags:
 - cost-minimization
 - duality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Expenditure Function

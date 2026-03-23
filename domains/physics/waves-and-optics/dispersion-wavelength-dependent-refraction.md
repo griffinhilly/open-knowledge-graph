@@ -13,7 +13,7 @@ tags:
 - wavelength-dependent
 - prism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dispersion and Wavelength-Dependent Refraction

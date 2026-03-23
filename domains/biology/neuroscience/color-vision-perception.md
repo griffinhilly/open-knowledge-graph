@@ -11,7 +11,7 @@ tags:
 - vision
 - color-perception
 stage: expert
-status: draft
+status: validated
 ---
 
 # Color Vision: Three Cone Types and Trichromatic Perception

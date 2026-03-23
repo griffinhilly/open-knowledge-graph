@@ -15,7 +15,7 @@ tags:
 - call-to-action
 - closure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Designing Conclusions for Maximum Impact and Retention

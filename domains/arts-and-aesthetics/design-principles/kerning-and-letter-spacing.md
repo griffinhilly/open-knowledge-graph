@@ -14,7 +14,7 @@ tags:
 - spacing
 - refinement
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Kerning and Letter Spacing

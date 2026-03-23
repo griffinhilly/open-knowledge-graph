@@ -17,7 +17,7 @@ tags:
 - forces
 - analysis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Introduction to Free-Body Diagrams
 

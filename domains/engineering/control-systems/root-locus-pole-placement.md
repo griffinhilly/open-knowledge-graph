@@ -16,7 +16,7 @@ tags:
 - design
 - controller
 stage: expert
-status: draft
+status: validated
 ---
 
 # Root Locus Method and Pole Placement Design

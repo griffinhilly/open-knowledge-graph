@@ -14,7 +14,7 @@ tags:
 - extremal-graphs
 - clique-free
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Turán's Theorem

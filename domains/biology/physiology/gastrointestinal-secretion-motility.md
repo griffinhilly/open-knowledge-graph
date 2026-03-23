@@ -19,7 +19,7 @@ tags:
 - digestion
 - coordination
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gastrointestinal Secretion and Coordinated Motility

@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - uniform
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Uniform Distribution: Theory and Applications

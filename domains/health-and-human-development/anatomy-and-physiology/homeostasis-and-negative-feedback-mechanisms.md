@@ -18,7 +18,7 @@ tags:
 - feedback
 - physiology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Homeostasis and Negative Feedback Mechanisms

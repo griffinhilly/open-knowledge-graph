@@ -11,7 +11,7 @@ tags:
 - waiting-time
 - memoryless
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Exponential Distribution

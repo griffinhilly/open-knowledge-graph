@@ -12,7 +12,7 @@ tags:
 - self-assessment
 - calibration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dunning-Kruger Effect

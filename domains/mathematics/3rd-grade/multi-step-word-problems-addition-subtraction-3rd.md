@@ -13,7 +13,7 @@ tags:
 - multi-step
 - operations
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Multi-Step Word Problems

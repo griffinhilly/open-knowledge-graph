@@ -17,7 +17,7 @@ tags:
 - chemiosmosis
 - energy-coupling
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Proton Gradient and Chemiosmotic Coupling

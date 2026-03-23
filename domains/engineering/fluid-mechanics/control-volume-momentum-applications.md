@@ -15,7 +15,7 @@ tags:
 - control-volume
 - thrust
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Control Volume Momentum Equation: Forces from Flow

@@ -13,7 +13,7 @@ tags:
 - phase-transition
 - thermal-effects
 stage: expert
-status: draft
+status: validated
 ---
 
 # Temperature Dependence of Magnetization

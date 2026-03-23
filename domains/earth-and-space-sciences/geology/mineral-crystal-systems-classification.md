@@ -21,7 +21,7 @@ tags:
 - crystals
 - crystallography
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mineral Crystal Systems and Classification

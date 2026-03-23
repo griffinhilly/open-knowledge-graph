@@ -16,7 +16,7 @@ tags:
 - emotion
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Melodrama as Dramatic Genre

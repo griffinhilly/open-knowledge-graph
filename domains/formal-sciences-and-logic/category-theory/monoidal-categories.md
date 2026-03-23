@@ -25,7 +25,7 @@ tags:
 - coherence theorem
 - Mac Lane
 stage: expert
-status: draft
+status: validated
 ---
 # Monoidal Categories
 

@@ -15,7 +15,7 @@ tags:
 - reasoning
 - position
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Ordinal Reasoning

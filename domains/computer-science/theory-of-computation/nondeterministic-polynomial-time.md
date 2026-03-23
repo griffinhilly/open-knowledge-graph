@@ -13,7 +13,7 @@ tags:
 - nondeterminism
 - verification
 stage: advanced
-status: draft
+status: validated
 ---
 
 # NP Class and Nondeterministic Polynomial Time

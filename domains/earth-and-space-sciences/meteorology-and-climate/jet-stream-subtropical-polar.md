@@ -17,7 +17,7 @@ tags:
 - subtropical
 - polar
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Subtropical and Polar Jet Streams

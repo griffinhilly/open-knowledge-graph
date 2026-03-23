@@ -15,7 +15,7 @@ tags:
 - money
 - hyperinflation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hyperinflation and the Dynamics of Very High Inflation

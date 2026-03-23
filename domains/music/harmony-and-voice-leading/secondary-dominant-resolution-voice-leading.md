@@ -16,7 +16,7 @@ tags:
 - tonicization
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Secondary Dominant Voice Leading and Resolution

@@ -13,7 +13,7 @@ tags:
 - adverse-selection
 - market-failure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Information Asymmetry and Adverse Selection

@@ -17,7 +17,7 @@ tags:
 - percent
 - waste
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Efficiency: Useful Energy Out vs. Total Energy In
 

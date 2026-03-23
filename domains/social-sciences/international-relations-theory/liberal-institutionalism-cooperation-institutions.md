@@ -18,7 +18,7 @@ tags:
 - keohane
 - uncertainty
 stage: expert
-status: draft
+status: validated
 ---
 
 # Liberal Institutionalism and Cooperation

@@ -18,7 +18,7 @@ tags:
 - necking
 - uniform-elongation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tensile Testing Analysis

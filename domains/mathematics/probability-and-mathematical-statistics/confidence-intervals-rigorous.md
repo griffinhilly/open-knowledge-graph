@@ -13,7 +13,7 @@ tags:
 - coverage
 - inversion
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Confidence Intervals (Rigorous Theory)

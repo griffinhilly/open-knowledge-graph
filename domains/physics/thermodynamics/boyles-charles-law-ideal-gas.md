@@ -13,7 +13,7 @@ tags:
 - ideal-gas
 - pv-behavior
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Boyle's and Charles' Laws for Ideal Gases

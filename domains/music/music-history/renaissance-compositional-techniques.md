@@ -15,7 +15,7 @@ tags:
 - imitation
 - text-setting
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Renaissance Polyphony: Imitation and Text-Setting

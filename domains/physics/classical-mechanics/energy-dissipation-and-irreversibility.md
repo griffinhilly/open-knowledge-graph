@@ -16,7 +16,7 @@ tags:
 - thermodynamics
 - irreversibility
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Energy Dissipation and Irreversible Processes

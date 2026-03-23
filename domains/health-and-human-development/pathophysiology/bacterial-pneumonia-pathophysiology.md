@@ -17,7 +17,7 @@ tags:
 - consolidation
 - inflammation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bacterial Pneumonia: Alveolar Consolidation, Exudation, and Systemic Inflammation

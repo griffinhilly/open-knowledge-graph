@@ -17,7 +17,7 @@ tags:
 - political-economy
 - wallerstein
 stage: expert
-status: draft
+status: validated
 ---
 
 # Marxist IR Theory and Imperialism

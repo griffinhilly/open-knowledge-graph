@@ -14,7 +14,7 @@ tags:
 - correlation
 - causal-reasoning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Correlation and Causation Distinction

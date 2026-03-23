@@ -16,7 +16,7 @@ tags:
 - critique
 - usability-testing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Heuristic Evaluation in Design

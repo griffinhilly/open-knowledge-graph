@@ -21,7 +21,7 @@ tags:
 - airway-resistance
 - gas-exchange
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Respiratory Mechanics and Gas Exchange

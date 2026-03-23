@@ -20,7 +20,7 @@ tags:
 - rain-gauge
 - tools
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Measuring Weather

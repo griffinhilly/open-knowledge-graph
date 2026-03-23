@@ -19,7 +19,7 @@ tags:
 - il6
 - tnf-alpha
 stage: expert
-status: draft
+status: validated
 ---
 
 # Acute Phase Response and Systemic Effects

@@ -19,7 +19,7 @@ tags:
 - scale-degrees
 - diatonic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Building Triads from Scale Degrees

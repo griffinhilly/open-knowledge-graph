@@ -18,7 +18,7 @@ tags:
 - genome-types
 - viral-structure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Viral Classification and Genomic Organization

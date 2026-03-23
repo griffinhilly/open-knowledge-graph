@@ -11,7 +11,7 @@ tags:
 - rearrangement
 - conditional-convergence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Absolute Convergence and Rearrangement

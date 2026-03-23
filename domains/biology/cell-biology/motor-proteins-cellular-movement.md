@@ -15,7 +15,7 @@ tags:
 - myosin
 - kinesin
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Motor Proteins: Molecular Motors

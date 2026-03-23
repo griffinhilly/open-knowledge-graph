@@ -16,7 +16,7 @@ tags:
 - nonlinear
 - functional-forms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Polynomial Regression and Nonlinear Functional Forms

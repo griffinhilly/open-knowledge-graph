@@ -17,7 +17,7 @@ tags:
 - integration
 - measure-theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Expectation (Measure-Theoretic)

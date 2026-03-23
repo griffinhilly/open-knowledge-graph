@@ -16,7 +16,7 @@ tags:
 - if-then
 - deductive-reasoning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conditional Reasoning

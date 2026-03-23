@@ -14,7 +14,7 @@ tags:
 - creative
 - concept
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Drawing from Memory and Imagination

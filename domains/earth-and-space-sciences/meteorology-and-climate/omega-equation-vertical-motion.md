@@ -16,7 +16,7 @@ tags:
 - dynamics
 - diagnostic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Omega Equation and Vertical Motion Diagnosis

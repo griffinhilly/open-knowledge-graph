@@ -13,7 +13,7 @@ tags:
 - consciousness
 - information
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Access Consciousness: Information Availability

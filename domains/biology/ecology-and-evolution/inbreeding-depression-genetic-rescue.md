@@ -20,7 +20,7 @@ tags:
 - purging
 - genetic-rescue
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inbreeding Depression and Genetic Rescue Mechanisms

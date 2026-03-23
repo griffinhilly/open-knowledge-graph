@@ -12,7 +12,7 @@ tags:
 - quantum-intro
 - duality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Wave-Particle Duality: Experimental Observations

@@ -14,7 +14,7 @@ tags:
 - horizontal-surfaces
 - tanks
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hydrostatic Force on Horizontal Submerged Surfaces

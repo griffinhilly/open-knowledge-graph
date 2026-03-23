@@ -15,7 +15,7 @@ tags:
 - connectivity
 - networks
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transport Networks and Connectivity

@@ -15,7 +15,7 @@ tags:
 - message-passing
 - semantics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Message Passing IPC: Semantics and Guarantees

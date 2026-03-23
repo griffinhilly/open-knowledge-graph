@@ -13,7 +13,7 @@ tags:
 - brittleness
 - materials
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Flexibility and Brittleness
 

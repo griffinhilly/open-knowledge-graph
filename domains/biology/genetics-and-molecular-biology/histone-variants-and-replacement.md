@@ -15,7 +15,7 @@ tags:
 - chromatin-plasticity
 - epigenetic-mark
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Histone Variants and Histone Exchange

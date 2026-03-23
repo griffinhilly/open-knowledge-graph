@@ -13,7 +13,7 @@ tags:
 - effect-size
 - interpretation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Effect Size Reporting and Practical Interpretation

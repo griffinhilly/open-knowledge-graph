@@ -16,7 +16,7 @@ tags:
 - levels
 - organization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Emergence and Levels of Organization

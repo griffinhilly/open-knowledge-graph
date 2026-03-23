@@ -17,7 +17,7 @@ tags:
 - remodeling
 - substrate
 stage: expert
-status: draft
+status: validated
 ---
 
 # Atrial Fibrillation: Atrial Remodeling, Substrate Formation, and Arrhythmia Progression

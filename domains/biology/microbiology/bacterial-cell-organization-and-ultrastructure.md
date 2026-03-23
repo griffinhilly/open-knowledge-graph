@@ -16,7 +16,7 @@ tags:
 - structure
 - bacteria
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bacterial Cell Organization and Ultrastructure

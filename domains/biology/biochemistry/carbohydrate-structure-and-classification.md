@@ -19,7 +19,7 @@ tags:
 - polysaccharides
 - glycosidic bonds
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Carbohydrate Structure and Classification

@@ -17,7 +17,7 @@ tags:
 - photochemistry
 - reactions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Atmospheric Chemistry of Planets

@@ -18,7 +18,7 @@ tags:
 - function
 - meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Teleosemantics: Goal-Directed Meaning

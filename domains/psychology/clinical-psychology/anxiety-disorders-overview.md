@@ -21,7 +21,7 @@ tags:
 - worry
 - classification
 stage: expert
-status: draft
+status: validated
 ---
 
 # Anxiety Disorders: Overview and Classification

@@ -16,7 +16,7 @@ tags:
 - energy
 - harmonics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Energy Analysis in Oscillating Systems

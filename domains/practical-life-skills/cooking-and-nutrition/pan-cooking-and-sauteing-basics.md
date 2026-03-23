@@ -17,7 +17,7 @@ tags:
 - heat
 - oil
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cooking in a Pan: Sautéing and Frying

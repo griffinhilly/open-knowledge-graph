@@ -16,7 +16,7 @@ tags:
 - glomerulonephritis
 - hematuria
 stage: expert
-status: draft
+status: validated
 ---
 
 # Nephrotic vs. Nephritic Syndrome: Comparison and Differentiation

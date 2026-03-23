@@ -17,7 +17,7 @@ tags:
 - GCH
 - cardinal exponentiation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Beth Numbers

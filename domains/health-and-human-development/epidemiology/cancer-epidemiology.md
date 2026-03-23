@@ -15,7 +15,7 @@ tags:
 - risk-factors
 - prevention-screening
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cancer Epidemiology

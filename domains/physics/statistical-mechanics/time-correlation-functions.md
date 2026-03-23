@@ -16,7 +16,7 @@ tags:
 - correlations
 - relaxation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Time-Correlation Functions and Relaxation

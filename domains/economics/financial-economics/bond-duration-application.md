@@ -19,7 +19,7 @@ tags:
 - risk-management
 - interest-rate-sensitivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Duration and Interest Rate Sensitivity Applications
 

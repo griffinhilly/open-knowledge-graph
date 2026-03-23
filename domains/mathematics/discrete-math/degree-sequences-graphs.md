@@ -12,7 +12,7 @@ tags:
 - graph-theory
 - degree
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Degree Sequences and the Handshaking Lemma

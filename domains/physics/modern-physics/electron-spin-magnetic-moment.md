@@ -14,7 +14,7 @@ tags:
 - magnetic-moment
 - quantum-mechanics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Electron Spin and Intrinsic Magnetic Moment

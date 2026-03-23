@@ -15,7 +15,7 @@ tags:
 - physiological-adaptation
 - birth-transition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Neonatal Adaptation and Physiological Transition

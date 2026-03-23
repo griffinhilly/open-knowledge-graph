@@ -15,7 +15,7 @@ tags:
 - confounding-control
 - causal-inference
 stage: expert
-status: draft
+status: validated
 ---
 
 # Time-Varying Exposures and Confounders

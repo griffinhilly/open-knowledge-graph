@@ -13,7 +13,7 @@ tags:
 - prior-specification
 - posterior-inference
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bayesian Methods in Epidemiology

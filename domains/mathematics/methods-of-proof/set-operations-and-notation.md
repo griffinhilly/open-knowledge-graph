@@ -15,7 +15,7 @@ tags:
 - membership
 - subset
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Set Operations and Notation

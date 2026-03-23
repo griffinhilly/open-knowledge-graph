@@ -18,7 +18,7 @@ tags:
 - word-learning
 - vocabulary-explosion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vocabulary Growth and Semantic Development

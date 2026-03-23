@@ -15,7 +15,7 @@ tags:
 - quadratic-forms
 - diophantine
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sum of Two Squares Theorem

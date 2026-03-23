@@ -15,7 +15,7 @@ tags:
 - listening
 - perception
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pitch Memory and Short-Term Retention

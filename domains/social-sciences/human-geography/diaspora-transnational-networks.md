@@ -12,7 +12,7 @@ tags:
 - migration
 - networks
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diaspora and Transnational Communities

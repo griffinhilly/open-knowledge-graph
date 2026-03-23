@@ -13,7 +13,7 @@ tags:
 - string-matching
 - canonical
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Post Correspondence Problem and Applications

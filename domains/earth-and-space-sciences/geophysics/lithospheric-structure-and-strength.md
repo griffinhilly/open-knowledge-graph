@@ -16,7 +16,7 @@ tags:
 - plate-tectonics
 - structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lithospheric Structure and Strength

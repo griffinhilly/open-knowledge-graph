@@ -16,7 +16,7 @@ tags:
 - methodology
 - philosophy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Is History a Science?

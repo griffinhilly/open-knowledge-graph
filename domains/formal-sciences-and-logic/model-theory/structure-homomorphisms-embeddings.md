@@ -19,7 +19,7 @@ tags:
 - isomorphism
 - preservation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Structure Homomorphisms and Embeddings

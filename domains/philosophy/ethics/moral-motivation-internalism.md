@@ -18,7 +18,7 @@ tags:
 - reason
 - action
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Motivation and Internalism

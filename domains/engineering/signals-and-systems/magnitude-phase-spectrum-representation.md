@@ -15,7 +15,7 @@ tags:
 - phase
 - frequency-domain
 stage: expert
-status: draft
+status: validated
 ---
 
 # Magnitude and Phase Spectrum Representation

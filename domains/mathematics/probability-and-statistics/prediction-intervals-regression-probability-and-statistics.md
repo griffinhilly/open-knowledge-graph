@@ -11,7 +11,7 @@ tags:
 - prediction
 - inference
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Prediction Intervals in Regression

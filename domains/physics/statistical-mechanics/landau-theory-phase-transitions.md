@@ -14,7 +14,7 @@ tags:
 - free-energy-expansion
 - ginzburg-landau
 stage: expert
-status: draft
+status: validated
 ---
 
 # Landau Theory of Phase Transitions

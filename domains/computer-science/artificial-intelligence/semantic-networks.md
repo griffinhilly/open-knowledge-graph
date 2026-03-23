@@ -14,7 +14,7 @@ tags:
 - conceptual-networks
 - inference
 stage: advanced
-status: draft
+status: validated
 ---
 # Semantic Networks
 

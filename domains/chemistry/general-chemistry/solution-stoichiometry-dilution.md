@@ -18,7 +18,7 @@ tags:
 - solution stoichiometry
 - molarity calculations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Solution Stoichiometry and Dilution Calculations

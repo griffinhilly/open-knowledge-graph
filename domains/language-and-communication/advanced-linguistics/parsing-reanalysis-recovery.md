@@ -13,7 +13,7 @@ tags:
 - parsing
 - reanalysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Parsing, Reanalysis, and Garden-Path Recovery

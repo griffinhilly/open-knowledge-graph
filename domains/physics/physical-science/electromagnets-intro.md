@@ -16,7 +16,7 @@ tags:
 - coil
 - magnetism
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Electromagnets
 

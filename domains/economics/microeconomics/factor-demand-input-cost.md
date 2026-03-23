@@ -15,7 +15,7 @@ tags:
 - cost-minimization
 - isocost
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Factor Demand and Input Cost Minimization

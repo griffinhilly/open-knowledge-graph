@@ -14,7 +14,7 @@ tags:
 - consistency
 - first-order-logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Consistency and Inconsistency

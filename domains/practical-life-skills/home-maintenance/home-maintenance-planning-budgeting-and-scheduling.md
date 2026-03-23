@@ -20,7 +20,7 @@ tags:
 - scheduling
 - management
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Home Maintenance Planning, Budgeting, and Scheduling

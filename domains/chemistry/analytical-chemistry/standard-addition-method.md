@@ -16,7 +16,7 @@ tags:
 - matrix-matched
 - method of additions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Standard Addition Method

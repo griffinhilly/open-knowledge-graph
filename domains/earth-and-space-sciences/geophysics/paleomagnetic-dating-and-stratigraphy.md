@@ -12,7 +12,7 @@ tags:
 - dating
 - chronology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Paleomagnetic Dating and Magnetostratigraphy

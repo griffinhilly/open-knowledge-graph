@@ -12,7 +12,7 @@ tags:
 - atomic-structure
 - history
 stage: advanced
-status: draft
+status: validated
 ---
 
 # From Bohr Model to Quantum Mechanics

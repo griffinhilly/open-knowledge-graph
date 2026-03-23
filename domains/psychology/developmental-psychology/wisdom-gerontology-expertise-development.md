@@ -15,7 +15,7 @@ tags:
 - wisdom
 - gerontology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Wisdom and Expertise in Later Adulthood

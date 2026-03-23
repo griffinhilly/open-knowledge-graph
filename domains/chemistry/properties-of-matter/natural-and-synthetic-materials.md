@@ -15,7 +15,7 @@ tags:
 - synthetic
 - plastics
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Natural and Synthetic Materials
 

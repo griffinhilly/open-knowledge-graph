@@ -14,7 +14,7 @@ tags:
 - subtraction
 - place-value
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Three-Digit Subtraction Without Regrouping

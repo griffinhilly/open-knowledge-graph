@@ -17,7 +17,7 @@ tags:
 - argument
 - refutation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Argument Strategy in Debate

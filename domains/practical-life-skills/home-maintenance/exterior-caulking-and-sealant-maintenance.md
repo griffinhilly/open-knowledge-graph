@@ -18,7 +18,7 @@ tags:
 - maintenance
 - weatherization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Exterior Caulking and Sealant Maintenance

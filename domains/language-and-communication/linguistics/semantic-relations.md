@@ -14,7 +14,7 @@ tags:
 - polysemy
 - lexical fields
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Semantic Relations

@@ -13,7 +13,7 @@ tags:
 - warm-up
 - body
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Speech Anxiety Physical Techniques

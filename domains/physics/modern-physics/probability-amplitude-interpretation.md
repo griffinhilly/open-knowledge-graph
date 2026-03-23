@@ -15,7 +15,7 @@ tags:
 - quantum-interpretation
 - probability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Probability Amplitude and Born Interpretation

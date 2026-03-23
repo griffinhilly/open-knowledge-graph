@@ -15,7 +15,7 @@ tags:
 - hand-eye-coordination
 - grasp-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fine Motor Skill Development: Grasp and Precision

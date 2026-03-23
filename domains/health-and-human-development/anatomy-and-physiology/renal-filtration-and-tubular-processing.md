@@ -19,7 +19,7 @@ tags:
 - selectivity
 - gfr
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Renal Filtration and Tubular Processing

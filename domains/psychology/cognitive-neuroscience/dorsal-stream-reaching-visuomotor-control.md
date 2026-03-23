@@ -19,7 +19,7 @@ tags:
 - reaching
 - grasping
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dorsal Stream and Visuomotor Control

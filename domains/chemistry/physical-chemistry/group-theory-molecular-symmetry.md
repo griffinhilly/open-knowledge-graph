@@ -17,7 +17,7 @@ tags:
 - irreducible-representations
 - molecular-symmetry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Group Theory and Molecular Symmetry: Point Groups and Applications

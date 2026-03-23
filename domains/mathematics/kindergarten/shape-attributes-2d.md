@@ -19,7 +19,7 @@ tags:
 - attributes
 - geometry
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # 2D Shape Attributes: Sides and Corners

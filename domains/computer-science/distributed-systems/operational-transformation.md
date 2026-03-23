@@ -13,7 +13,7 @@ tags:
 - conflict-resolution
 - editing
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Operational Transformation for Collaborative Editing

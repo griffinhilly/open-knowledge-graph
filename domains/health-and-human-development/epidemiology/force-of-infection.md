@@ -16,7 +16,7 @@ tags:
 - contact-patterns
 - age-specific-risk
 stage: expert
-status: draft
+status: validated
 ---
 # Force of Infection
 

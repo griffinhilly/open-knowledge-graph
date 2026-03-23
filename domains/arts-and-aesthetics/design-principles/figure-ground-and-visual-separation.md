@@ -13,7 +13,7 @@ tags:
 - perception
 - visual-clarity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Figure-Ground Relationship and Visual Separation

@@ -17,7 +17,7 @@ tags:
 - mechanism
 - alcohol-synthesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Oxymercuration: Hg(OAc)₂-Mediated Hydration

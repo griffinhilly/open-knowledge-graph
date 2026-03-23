@@ -17,7 +17,7 @@ tags:
 - tolerance
 - regulation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Regulatory T Cells and Immune Tolerance

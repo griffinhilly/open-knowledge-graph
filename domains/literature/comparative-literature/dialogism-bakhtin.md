@@ -19,7 +19,7 @@ tags:
 - novel
 - polyphony
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dialogism and Bakhtin's Polyphonic Novel

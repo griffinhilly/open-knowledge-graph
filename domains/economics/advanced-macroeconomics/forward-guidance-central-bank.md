@@ -13,7 +13,7 @@ tags:
 - expectations-management
 - central-bank-communication
 stage: expert
-status: draft
+status: validated
 ---
 
 # Forward Guidance and Expectations Management

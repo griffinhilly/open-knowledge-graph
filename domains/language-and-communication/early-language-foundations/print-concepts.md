@@ -13,7 +13,7 @@ tags:
 - reading-readiness
 - literacy-foundations
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Print Concepts

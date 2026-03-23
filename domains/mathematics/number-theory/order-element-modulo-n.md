@@ -16,7 +16,7 @@ tags:
 - multiplicative-group
 - exponents
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Order of an Element Modulo n

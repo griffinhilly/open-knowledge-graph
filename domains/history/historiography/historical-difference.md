@@ -14,7 +14,7 @@ tags:
 - interpretation
 - otherness
 stage: expert
-status: draft
+status: validated
 ---
 
 # Historical Difference: Understanding the Past as Other

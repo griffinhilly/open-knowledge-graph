@@ -13,7 +13,7 @@ tags:
 - lifting-solutions
 - p-adic-numbers
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hensel's Lemma

@@ -14,7 +14,7 @@ tags:
 - boolean-algebra
 - circuit-design
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Implementing Boolean Functions with Gates

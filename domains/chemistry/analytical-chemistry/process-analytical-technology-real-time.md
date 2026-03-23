@@ -17,7 +17,7 @@ tags:
 - process-control
 - manufacturing
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Process Analytical Technology and Real-Time Monitoring

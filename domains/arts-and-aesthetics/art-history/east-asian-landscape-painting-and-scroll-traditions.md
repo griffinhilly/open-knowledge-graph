@@ -17,7 +17,7 @@ tags:
 - chinese-art
 - japanese-art
 stage: formal-systems
-status: draft
+status: validated
 ---
 # East Asian Landscape Painting and Scroll Traditions
 

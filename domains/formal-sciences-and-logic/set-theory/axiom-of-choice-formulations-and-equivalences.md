@@ -19,7 +19,7 @@ tags:
 - equivalences
 - selection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Axiom of Choice and Equivalent Formulations

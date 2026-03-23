@@ -17,7 +17,7 @@ tags:
 - credibility
 - game-theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Signaling and Demonstrating Resolve in Crises

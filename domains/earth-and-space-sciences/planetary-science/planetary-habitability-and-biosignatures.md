@@ -18,7 +18,7 @@ tags:
 - biosignatures
 - life
 stage: expert
-status: draft
+status: validated
 ---
 
 # Planetary Habitability and Biosignatures

@@ -22,7 +22,7 @@ tags:
 - detection limit
 - quantitation limit
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Limit of Detection and Limit of Quantification

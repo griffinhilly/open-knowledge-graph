@@ -17,7 +17,7 @@ tags:
 - speciation-rate
 - ecological-opportunity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Adaptive Radiation: Patterns and Mechanisms

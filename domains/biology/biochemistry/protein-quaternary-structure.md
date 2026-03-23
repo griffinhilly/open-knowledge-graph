@@ -16,7 +16,7 @@ tags:
 - cooperativity
 - homo-oligomers
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Protein Quaternary Structure

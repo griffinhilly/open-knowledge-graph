@@ -20,7 +20,7 @@ tags:
 - energy
 - calculation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Conservation of Energy with Numbers
 

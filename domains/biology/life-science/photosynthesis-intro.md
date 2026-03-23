@@ -6,7 +6,7 @@ course: life-science
 prerequisites:
 - id: plant-vs-animal-cells
   type: hard
-- id: what-plants-need
+- id: what-plants-need-to-grow
   type: hard
 - id: producers-consumers-decomposers
   type: soft
@@ -21,7 +21,7 @@ tags:
 - chloroplasts
 - producers
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Photosynthesis Introduction
 

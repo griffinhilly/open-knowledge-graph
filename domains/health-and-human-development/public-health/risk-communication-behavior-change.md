@@ -15,7 +15,7 @@ tags:
 - persuasion
 - messaging
 stage: expert
-status: draft
+status: validated
 ---
 
 # Risk Communication and Behavior Change

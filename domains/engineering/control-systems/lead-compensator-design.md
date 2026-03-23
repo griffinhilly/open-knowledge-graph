@@ -15,7 +15,7 @@ tags:
 - bode-design
 - crossover-frequency
 stage: expert
-status: draft
+status: validated
 ---
 
 # Lead Compensator Design

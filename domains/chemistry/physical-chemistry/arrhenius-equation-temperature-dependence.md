@@ -15,7 +15,7 @@ tags:
 - temperature-dependence
 - activation-energy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Arrhenius Equation and Temperature Dependence

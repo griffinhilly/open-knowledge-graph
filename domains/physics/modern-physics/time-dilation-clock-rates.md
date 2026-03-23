@@ -13,7 +13,7 @@ tags:
 - time
 - clocks
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Time Dilation and Moving Clocks

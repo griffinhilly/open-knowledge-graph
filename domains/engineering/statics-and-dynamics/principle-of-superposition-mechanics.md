@@ -13,7 +13,7 @@ tags:
 - force-systems
 - linear-systems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Principle of Superposition in Mechanics

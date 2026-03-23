@@ -18,7 +18,7 @@ tags:
 - evolution
 - constraint
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Trade-offs and Constraint in Life History Evolution

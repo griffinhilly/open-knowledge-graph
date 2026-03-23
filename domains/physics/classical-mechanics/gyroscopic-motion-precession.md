@@ -15,7 +15,7 @@ tags:
 - precession
 - angular-momentum
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gyroscopic Motion and Precession

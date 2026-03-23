@@ -13,7 +13,7 @@ tags:
 - quantum-foundations
 - postulates
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Core Postulates of Quantum Mechanics

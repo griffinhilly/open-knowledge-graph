@@ -11,7 +11,7 @@ tags:
 - lithium
 - psychopharmacology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mood Stabilizers: Mechanisms and Clinical Application

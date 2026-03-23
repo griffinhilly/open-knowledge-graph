@@ -15,7 +15,7 @@ tags:
 - accidentals
 - sharps-flats
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Chromatic Scale and Accidentals

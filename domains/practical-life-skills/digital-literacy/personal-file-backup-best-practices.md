@@ -17,7 +17,7 @@ tags:
 - data-protection
 - file-management
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Personal File Backup: Best Practices and Automation

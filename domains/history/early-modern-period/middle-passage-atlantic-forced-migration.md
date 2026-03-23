@@ -15,7 +15,7 @@ tags:
 - forced-migration
 - atlantic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Middle Passage: Atlantic Slave Trade and Forced Migration

@@ -16,7 +16,7 @@ tags:
 - justification
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Foundational or Basic Beliefs

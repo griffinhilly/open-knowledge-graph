@@ -18,7 +18,7 @@ tags:
 - phase-change
 - heating-curve
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Energy in Phase Changes
 

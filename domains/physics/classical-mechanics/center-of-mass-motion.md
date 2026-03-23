@@ -13,7 +13,7 @@ tags:
 - systems
 - conservation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Center of Mass Motion

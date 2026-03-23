@@ -14,7 +14,7 @@ tags:
 - derivation
 - parts-of-speech
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Zero Derivation (Conversion)

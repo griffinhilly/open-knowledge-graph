@@ -18,7 +18,7 @@ tags:
 - cratering
 - hypervelocity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Impact Cratering Mechanics

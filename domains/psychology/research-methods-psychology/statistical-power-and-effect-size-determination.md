@@ -22,7 +22,7 @@ tags:
 - sample-size
 - design-planning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Statistical Power, Effect Size, and Sample Size Planning

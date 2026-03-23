@@ -19,7 +19,7 @@ tags:
 - wireshark
 - tcpdump
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Packet Analysis and Network Troubleshooting Tools

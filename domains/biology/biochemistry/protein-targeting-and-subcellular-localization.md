@@ -15,7 +15,7 @@ tags:
 - nuclear import
 - mitochondrial targeting
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Protein Targeting and Subcellular Localization

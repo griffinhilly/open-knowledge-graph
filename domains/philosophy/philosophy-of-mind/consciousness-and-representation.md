@@ -20,7 +20,7 @@ tags:
 - intentionality
 - content
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Representationalism: Consciousness as Representation

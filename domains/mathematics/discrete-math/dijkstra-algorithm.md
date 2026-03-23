@@ -13,7 +13,7 @@ tags:
 - algorithms
 - weighted-graphs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dijkstra's Shortest Path Algorithm

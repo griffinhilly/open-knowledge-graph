@@ -15,7 +15,7 @@ tags:
 - tunneling
 - barriers
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantum Tunneling Through Rectangular Barriers

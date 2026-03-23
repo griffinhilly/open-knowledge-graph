@@ -18,7 +18,7 @@ tags:
 - maxwell-correction
 - displacement-current
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ampère-Maxwell Law and Displacement Current

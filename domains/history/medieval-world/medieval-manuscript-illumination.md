@@ -14,7 +14,7 @@ tags:
 - illumination
 - culture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Medieval Manuscript Illumination and Artistic Traditions

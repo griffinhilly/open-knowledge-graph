@@ -21,7 +21,7 @@ tags:
 - PV-equals-nRT
 - combined-gas-law
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Gas Laws
 

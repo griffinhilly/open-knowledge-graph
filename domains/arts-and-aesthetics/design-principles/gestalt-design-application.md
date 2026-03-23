@@ -19,7 +19,7 @@ tags:
 - proximity
 - similarity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Applying Gestalt Principles to Design

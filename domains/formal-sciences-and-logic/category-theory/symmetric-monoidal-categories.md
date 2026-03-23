@@ -17,7 +17,7 @@ tags:
 - tensor
 - commutative
 stage: expert
-status: draft
+status: validated
 ---
 # Symmetric Monoidal Categories
 

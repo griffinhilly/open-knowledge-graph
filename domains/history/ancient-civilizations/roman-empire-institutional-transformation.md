@@ -14,7 +14,7 @@ tags:
 - Augustus
 - transformation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transition from Republic to Empire and Augustus

@@ -23,7 +23,7 @@ tags:
 - gas-absorption
 - climate-modeling
 stage: expert
-status: draft
+status: validated
 ---
 
 # Line-by-Line Radiative Transfer Calculations

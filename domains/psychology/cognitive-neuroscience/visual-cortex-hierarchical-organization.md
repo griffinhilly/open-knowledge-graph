@@ -22,7 +22,7 @@ tags:
 - V2
 - V4
 stage: expert
-status: draft
+status: validated
 ---
 
 # Visual Cortex Hierarchical Organization and Feature Extraction

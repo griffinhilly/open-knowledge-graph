@@ -14,7 +14,7 @@ tags:
 - contraction-mappings
 - banach-theorem
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Contraction Mapping Theorem (Banach Fixed Point)

@@ -18,7 +18,7 @@ tags:
 - format
 - communication
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Script Notation and Stage Direction

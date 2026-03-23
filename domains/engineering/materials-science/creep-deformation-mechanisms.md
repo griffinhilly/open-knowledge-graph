@@ -16,7 +16,7 @@ tags:
 - deformation
 - time-dependent
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Creep Deformation at Elevated Temperatures

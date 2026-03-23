@@ -17,7 +17,7 @@ tags:
 - compression
 - combustion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Brayton Cycle and Gas Turbine Engines

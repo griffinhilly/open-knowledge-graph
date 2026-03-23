@@ -11,7 +11,7 @@ tags:
 - arithmetic
 - algebraic-structures
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Arithmetic in p-adic Numbers

@@ -21,7 +21,7 @@ tags:
 - hybrid-pi-model
 - phase-inversion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Common-Emitter Amplifier

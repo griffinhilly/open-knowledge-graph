@@ -13,7 +13,7 @@ tags:
 - hardware
 - tools
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Fastener and Hardware Selection Basics

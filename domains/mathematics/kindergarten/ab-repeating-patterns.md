@@ -14,7 +14,7 @@ tags:
 - AB pattern
 - sequence
 stage: pre-formal
-status: draft
+status: validated
 ---
 # Recognizing AB Repeating Patterns
 

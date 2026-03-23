@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - integration
 stage: expert
-status: draft
+status: validated
 ---
 
 # Comparison of Riemann and Lebesgue Integrals

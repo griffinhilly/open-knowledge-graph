@@ -15,7 +15,7 @@ tags:
 - mortality
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Maternal and Child Health Epidemiology

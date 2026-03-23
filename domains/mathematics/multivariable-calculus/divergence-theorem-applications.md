@@ -13,7 +13,7 @@ tags:
 - flux
 - outflow
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Divergence Theorem: Flux and Outflow

@@ -11,7 +11,7 @@ tags:
 - variation
 - emphasis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metrical Variation and Substitution

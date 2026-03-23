@@ -13,7 +13,7 @@ tags:
 - jacobi
 - gauss-seidel
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Iterative Methods for Linear Systems

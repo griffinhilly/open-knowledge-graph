@@ -13,7 +13,7 @@ tags:
 - computers
 - peripherals
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Computer Hardware Basics

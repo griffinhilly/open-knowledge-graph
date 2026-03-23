@@ -17,7 +17,7 @@ tags:
 - bonds
 - electronegativity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Polar Covalent Bonds and Dipole Moments

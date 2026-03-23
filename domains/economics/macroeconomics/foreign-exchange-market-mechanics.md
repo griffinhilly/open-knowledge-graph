@@ -15,7 +15,7 @@ tags:
 - supply-demand
 - currency
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Foreign Exchange Market and Exchange Rate Determination

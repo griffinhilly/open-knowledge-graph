@@ -17,7 +17,7 @@ tags:
 - proportional-representation
 - ballot-structure
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Electoral Systems and Voting Mechanisms

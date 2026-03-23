@@ -10,7 +10,7 @@ tags:
 - market structure
 - monopolistic competition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Monopolistic Competition and Long-Run Equilibrium

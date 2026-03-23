@@ -12,7 +12,7 @@ tags:
 - air-quality
 - water-quality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Environmental Epidemiology: Exposure Assessment and Health Effects

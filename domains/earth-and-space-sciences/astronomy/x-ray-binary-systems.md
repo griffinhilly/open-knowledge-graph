@@ -13,7 +13,7 @@ tags:
 - accretion
 - compact-object
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # X-Ray Binary Systems: Accretion and Compact Objects

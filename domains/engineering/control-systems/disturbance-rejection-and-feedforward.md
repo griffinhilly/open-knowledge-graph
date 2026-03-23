@@ -16,7 +16,7 @@ tags:
 - feedforward
 - control-architecture
 stage: expert
-status: draft
+status: validated
 ---
 
 # Disturbance Rejection and Feedforward Control

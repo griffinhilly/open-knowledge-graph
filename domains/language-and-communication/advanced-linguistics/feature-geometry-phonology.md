@@ -13,7 +13,7 @@ tags:
 - features
 - feature-geometry
 stage: expert
-status: draft
+status: validated
 ---
 
 # Feature Geometry in Phonology

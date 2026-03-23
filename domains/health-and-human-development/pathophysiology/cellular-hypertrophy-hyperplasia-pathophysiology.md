@@ -16,7 +16,7 @@ tags:
 - hypertrophy
 - hyperplasia
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cellular Hypertrophy and Hyperplasia in Disease

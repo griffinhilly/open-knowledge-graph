@@ -15,7 +15,7 @@ tags:
 - eras
 - chronology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Music Periodization and Major Eras

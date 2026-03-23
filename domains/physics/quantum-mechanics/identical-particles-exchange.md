@@ -13,7 +13,7 @@ tags:
 - identical-particles
 - symmetry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Identical Particles and Exchange Symmetry

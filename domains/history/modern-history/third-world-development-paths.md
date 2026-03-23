@@ -17,7 +17,7 @@ tags:
 - economics
 - inequality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Third World Development and Modernization Strategies

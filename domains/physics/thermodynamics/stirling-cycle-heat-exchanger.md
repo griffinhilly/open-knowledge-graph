@@ -15,7 +15,7 @@ tags:
 - reversible-engines
 - regeneration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Stirling Cycle and Regenerative Heat Exchange

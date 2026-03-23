@@ -16,7 +16,7 @@ tags:
 - word-formation
 - morphophonology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Prefix and Suffix Affixation

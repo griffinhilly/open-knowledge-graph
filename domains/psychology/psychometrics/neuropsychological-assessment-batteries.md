@@ -14,7 +14,7 @@ tags:
 - cognitive-evaluation
 - profile-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Neuropsychological Assessment Batteries and Interpretation

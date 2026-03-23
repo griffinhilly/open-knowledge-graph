@@ -17,7 +17,7 @@ tags:
 - interpretation
 - meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Symbolism and Symbolic Interpretation

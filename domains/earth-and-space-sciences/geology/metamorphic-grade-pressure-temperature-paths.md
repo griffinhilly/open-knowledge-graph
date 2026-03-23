@@ -16,7 +16,7 @@ tags:
 - PT-diagrams
 - grade
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metamorphic Grade and Pressure-Temperature Paths

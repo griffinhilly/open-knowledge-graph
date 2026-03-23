@@ -14,7 +14,7 @@ tags:
 - propositional
 - truth-tables
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Formal Logic and Propositional Calculus

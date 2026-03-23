@@ -16,7 +16,7 @@ tags:
 - soprano-bass
 - voice-independence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Outer Voice Independence: Soprano and Bass Relationship

@@ -13,7 +13,7 @@ tags:
 - recovery
 - rehabilitation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Brain Plasticity and Recovery After Injury

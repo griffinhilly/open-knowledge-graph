@@ -16,7 +16,7 @@ tags:
 - path-difference
 - interference
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Path Difference and Phase Difference in Waves

@@ -16,7 +16,7 @@ tags:
 - design
 - architecture
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Proscenium Staging and Theatre Architecture

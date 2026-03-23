@@ -19,7 +19,7 @@ tags:
 - molecular-evolution
 - fitness
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Purifying Selection and Deleterious Mutation Removal

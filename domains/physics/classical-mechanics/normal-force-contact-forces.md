@@ -17,7 +17,7 @@ tags:
 - contact
 - mechanics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Normal Force and Contact Forces

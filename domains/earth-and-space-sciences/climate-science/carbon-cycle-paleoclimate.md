@@ -18,7 +18,7 @@ tags:
 - marine-carbon
 - paleoclimate-forcing
 stage: expert
-status: draft
+status: validated
 ---
 
 # Carbon Cycle Dynamics and Climate Change

@@ -16,7 +16,7 @@ tags:
 - history
 - revolution
 stage: expert
-status: draft
+status: validated
 ---
 
 # Class Struggle and Historical Change

@@ -16,7 +16,7 @@ tags:
 - linear-independence
 - theoretical
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Wronskian and Linear Independence

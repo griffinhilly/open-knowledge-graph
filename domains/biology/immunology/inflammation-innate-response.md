@@ -16,7 +16,7 @@ tags:
 - cytokines
 - innate-immunity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Inflammatory Response and Cytokine Signaling

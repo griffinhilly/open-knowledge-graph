@@ -4,7 +4,7 @@ title: File System Concepts
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: basic-input-output
+- id: input-output
   type: soft
 - id: file-io-basics
   type: soft
@@ -20,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # File System Concepts
 
 ## Core Idea

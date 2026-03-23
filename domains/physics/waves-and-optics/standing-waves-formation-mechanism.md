@@ -16,7 +16,7 @@ tags:
 - nodes
 - antinodes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Standing Wave Formation and Mechanism

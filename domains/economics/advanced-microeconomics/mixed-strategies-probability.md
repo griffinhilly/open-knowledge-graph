@@ -12,7 +12,7 @@ tags:
 - game-theory
 - randomization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mixed Strategies and Probabilistic Play

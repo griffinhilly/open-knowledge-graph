@@ -13,7 +13,7 @@ tags:
 - constraints
 - systems-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Generalized Coordinates and Degrees of Freedom

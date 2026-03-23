@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - sampling-distribution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sampling Distributions of Statistics

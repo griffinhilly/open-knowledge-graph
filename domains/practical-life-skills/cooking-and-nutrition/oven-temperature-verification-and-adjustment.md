@@ -18,7 +18,7 @@ tags:
 - equipment
 - baking
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Oven Temperature Verification and Adjustment

@@ -14,7 +14,7 @@ tags:
 - local-properties
 - topology
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Neighborhoods and Local Properties

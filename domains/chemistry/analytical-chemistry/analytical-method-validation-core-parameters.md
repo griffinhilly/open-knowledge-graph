@@ -19,7 +19,7 @@ tags:
 - precision
 - regulatory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Analytical Method Validation: Core Performance Parameters

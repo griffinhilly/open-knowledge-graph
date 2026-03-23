@@ -16,7 +16,7 @@ tags:
 - cultural-difference
 - simultaneous-movements
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Concurrent Movements and Comparative Analysis Across Cultures

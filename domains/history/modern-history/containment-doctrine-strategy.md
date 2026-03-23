@@ -18,7 +18,7 @@ tags:
 - strategy
 - Soviet-Union
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Containment Doctrine and U.S. Cold War Strategy

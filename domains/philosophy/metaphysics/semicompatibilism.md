@@ -15,7 +15,7 @@ tags:
 - moral responsibility
 - free will
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Semicompatibilism

@@ -16,7 +16,7 @@ tags:
 - nutrient-balance
 - constraint
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ecological Stoichiometry and Element Ratios

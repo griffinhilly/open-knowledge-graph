@@ -14,7 +14,7 @@ tags:
 - protein-synthesis
 - secretory-pathway
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Rough Endoplasmic Reticulum and Ribosomal Synthesis
 

@@ -13,7 +13,7 @@ tags:
 - classifying
 - attributes
 stage: pre-formal
-status: draft
+status: validated
 ---
 # Sorting by One Attribute
 

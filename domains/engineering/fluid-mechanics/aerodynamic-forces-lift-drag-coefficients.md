@@ -14,7 +14,7 @@ tags:
 - drag
 - coefficients
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Aerodynamic Forces and Lift and Drag Coefficients

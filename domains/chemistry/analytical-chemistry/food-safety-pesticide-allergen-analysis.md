@@ -17,7 +17,7 @@ tags:
 - allergens
 - environmental
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Food Safety: Pesticide and Allergen Analysis

@@ -17,7 +17,7 @@ tags:
 - double-strand-break-repair
 - dna-repair
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Homologous Recombination and the RAD51 Complex

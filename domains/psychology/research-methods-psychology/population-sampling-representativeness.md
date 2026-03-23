@@ -16,7 +16,7 @@ tags:
 - generalizability
 - representativeness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Populations, Sampling Methods, and Representativeness

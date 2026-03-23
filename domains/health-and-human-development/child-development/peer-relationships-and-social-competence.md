@@ -20,7 +20,7 @@ tags:
 - social-skills
 - peer-acceptance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Peer Relationships and Social Competence

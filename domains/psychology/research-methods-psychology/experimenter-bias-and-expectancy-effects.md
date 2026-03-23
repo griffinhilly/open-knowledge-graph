@@ -15,7 +15,7 @@ tags:
 - experimenter
 - validity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Experimenter Bias and Expectancy Effects

@@ -18,7 +18,7 @@ tags:
 - item-selection
 - optimal-testing
 stage: expert
-status: draft
+status: validated
 ---
 
 # Item Selection and Item Pool Development for Tests

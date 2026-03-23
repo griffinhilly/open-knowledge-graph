@@ -16,7 +16,7 @@ tags:
 - rate-of-change
 - dot-product
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Directional Derivatives and Rate of Change

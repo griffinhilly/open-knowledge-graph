@@ -15,7 +15,7 @@ tags:
 - throttling-calorimeter
 - superheat
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vapor Quality Measurement and Drying Techniques

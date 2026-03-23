@@ -13,7 +13,7 @@ tags:
 - stress-patterns
 - old-english
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Accentual and Stress-Based Verse

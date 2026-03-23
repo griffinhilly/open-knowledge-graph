@@ -17,7 +17,7 @@ tags:
 - finite
 - von-neumann
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Finite Ordinals and Natural Numbers

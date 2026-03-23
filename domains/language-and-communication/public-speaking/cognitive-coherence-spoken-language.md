@@ -17,7 +17,7 @@ tags:
 - memory
 - audience-processing
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cognitive Coherence in Spoken Language

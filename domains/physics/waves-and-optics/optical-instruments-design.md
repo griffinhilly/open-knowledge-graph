@@ -14,7 +14,7 @@ tags:
 - telescopes
 - design
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Optical Instruments: Design Principles and Applications

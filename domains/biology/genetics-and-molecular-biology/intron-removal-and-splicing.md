@@ -17,7 +17,7 @@ tags:
 - lariat
 - alternative-splicing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Intron Splicing and Alternative Splicing

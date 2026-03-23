@@ -18,7 +18,7 @@ tags:
 - Locke
 - side-constraints
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rights-Based Ethics

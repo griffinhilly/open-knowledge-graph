@@ -13,7 +13,7 @@ tags:
 - operators
 - measurement
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantum Operators and Observables

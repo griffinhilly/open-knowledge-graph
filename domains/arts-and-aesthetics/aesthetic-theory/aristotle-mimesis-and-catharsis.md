@@ -17,7 +17,7 @@ tags:
 - catharsis
 - drama
 stage: expert
-status: draft
+status: validated
 ---
 
 # Aristotle: Mimesis and Catharsis

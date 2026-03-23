@@ -13,7 +13,7 @@ tags:
 - beta
 - capm
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Systematic and Unsystematic Risk Decomposition

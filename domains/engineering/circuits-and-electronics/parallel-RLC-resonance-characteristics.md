@@ -13,7 +13,7 @@ tags:
 - current-magnification
 - impedance-maximum
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Parallel RLC Resonance Characteristics

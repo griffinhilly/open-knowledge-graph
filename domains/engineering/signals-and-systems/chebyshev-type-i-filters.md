@@ -17,7 +17,7 @@ tags:
 - equiripple
 - rolloff
 stage: expert
-status: draft
+status: validated
 ---
 
 # Chebyshev Type I Filter Design

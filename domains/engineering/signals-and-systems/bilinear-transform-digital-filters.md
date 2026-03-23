@@ -16,7 +16,7 @@ tags:
 - discretization
 - z-transform
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bilinear Transform for Digital Filter Design

@@ -16,7 +16,7 @@ tags:
 - interest-rate-sensitivity
 - pricing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Convexity and Non-Linear Price-Yield Relationships

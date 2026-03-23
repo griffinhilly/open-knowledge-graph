@@ -13,7 +13,7 @@ tags:
 - position
 - vocabulary
 stage: pre-formal
-status: draft
+status: validated
 ---
 # Positional Words: Above, Below, Beside
 

@@ -14,7 +14,7 @@ tags:
 - closure
 - kuratowski-axioms
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Interior and Closure Operators

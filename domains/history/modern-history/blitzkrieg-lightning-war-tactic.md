@@ -17,7 +17,7 @@ tags:
 - warfare
 - innovation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Blitzkrieg and Mobile Warfare Innovation

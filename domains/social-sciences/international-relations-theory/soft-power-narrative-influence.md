@@ -15,7 +15,7 @@ tags:
 - narrative
 - legitimacy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Soft Power and Narrative Influence in IR

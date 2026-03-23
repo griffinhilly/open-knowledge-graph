@@ -14,7 +14,7 @@ tags:
 - resistance
 - flow
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hemodynamics: Pressure, Volume, and Flow Relationships

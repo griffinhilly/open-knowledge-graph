@@ -15,7 +15,7 @@ tags:
 - engagement
 - tone
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Humor in Public Speaking

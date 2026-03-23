@@ -15,7 +15,7 @@ tags:
 - enthalpy
 - practical-applications
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Throttling Process Analysis

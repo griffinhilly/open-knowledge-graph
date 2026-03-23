@@ -15,7 +15,7 @@ tags:
 - context
 - meaning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Pragmatics-Semantics Distinction

@@ -14,7 +14,7 @@ tags:
 - industrial-organization
 - oligopoly
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bertrand Competition: Price Competition in Oligopoly

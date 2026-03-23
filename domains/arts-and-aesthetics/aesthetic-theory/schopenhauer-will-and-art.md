@@ -15,7 +15,7 @@ tags:
 - redemption
 - suffering
 stage: expert
-status: draft
+status: validated
 ---
 
 # Schopenhauer: Will, Suffering, and Aesthetic Redemption

@@ -16,7 +16,7 @@ tags:
 - perspective
 - interpretation
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Detecting and Analyzing Unreliable Narrators
 

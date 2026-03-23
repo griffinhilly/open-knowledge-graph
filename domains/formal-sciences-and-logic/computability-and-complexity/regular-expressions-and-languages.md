@@ -13,7 +13,7 @@ tags:
 - automata
 - formal-languages
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Regular Expressions and Languages

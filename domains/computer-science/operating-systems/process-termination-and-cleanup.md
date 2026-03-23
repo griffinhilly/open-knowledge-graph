@@ -13,7 +13,7 @@ tags:
 - resource-management
 - system-calls
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Process Termination and Resource Cleanup

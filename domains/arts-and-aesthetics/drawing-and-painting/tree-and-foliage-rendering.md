@@ -16,7 +16,7 @@ tags:
 - observation
 - texture
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Tree and Foliage Rendering

@@ -19,7 +19,7 @@ tags:
 - reuse
 - environment
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Recycling and Sustainability

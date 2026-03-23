@@ -16,7 +16,7 @@ tags:
 - properties
 - commutative
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Commutative Property of Multiplication

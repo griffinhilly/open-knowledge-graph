@@ -14,7 +14,7 @@ tags:
 - logit
 - probit
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Ordered Choice Models: Ordered Logit and Probit

@@ -19,7 +19,7 @@ tags:
 - classification
 - observation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Rock Identification Skills

@@ -13,7 +13,7 @@ tags:
 - spherical-aberration
 - chromatic-aberration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Spherical and Chromatic Aberrations in Mirrors and Lenses

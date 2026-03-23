@@ -17,7 +17,7 @@ tags:
 - recrystallization-temperature
 - process-anneal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Annealing Processes

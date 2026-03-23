@@ -16,7 +16,7 @@ tags:
 - trading
 - spreads
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Market Maker Economics and Bid-Ask Spreads

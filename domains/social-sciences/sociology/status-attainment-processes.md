@@ -16,7 +16,7 @@ tags:
 - occupational-structure
 - blau-duncan
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Status Attainment and Occupational Mobility

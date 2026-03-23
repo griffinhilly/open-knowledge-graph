@@ -14,7 +14,7 @@ tags:
 - electrochemistry
 - trace-metals
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Voltammetry and Electrochemical Stripping Analysis

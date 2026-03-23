@@ -12,7 +12,7 @@ tags:
 - communication
 - electrical-coupling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gap Junctions and Direct Cell-Cell Communication

@@ -17,7 +17,7 @@ tags:
 - segmentation
 - virtual
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memory Management: Paging and Segmentation

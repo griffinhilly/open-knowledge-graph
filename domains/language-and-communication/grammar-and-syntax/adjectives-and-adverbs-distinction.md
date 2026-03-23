@@ -15,7 +15,7 @@ tags:
 - adverbs
 - modifiers
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Adjectives and Adverbs: How They Differ

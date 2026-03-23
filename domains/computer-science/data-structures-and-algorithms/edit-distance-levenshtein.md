@@ -15,7 +15,7 @@ tags:
 - string-distance
 - spell-checking
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Edit Distance (Levenshtein Distance)

@@ -13,7 +13,7 @@ tags:
 - score-conversion
 - interpretation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Percentile Ranks and Their Interpretation

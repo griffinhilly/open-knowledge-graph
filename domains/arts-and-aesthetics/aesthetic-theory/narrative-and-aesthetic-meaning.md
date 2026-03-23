@@ -20,7 +20,7 @@ tags:
 - story
 - reception
 stage: expert
-status: draft
+status: validated
 ---
 
 # Narrative and Aesthetic Meaning

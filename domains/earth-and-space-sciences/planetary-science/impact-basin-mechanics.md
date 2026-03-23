@@ -17,7 +17,7 @@ tags:
 - peak-rings
 - isostatic-rebound
 stage: expert
-status: draft
+status: validated
 ---
 
 # Large Impact Basin Formation and Deep Structural Response

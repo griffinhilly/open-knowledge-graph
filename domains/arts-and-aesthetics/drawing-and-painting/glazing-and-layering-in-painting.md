@@ -19,7 +19,7 @@ tags:
 - transparency
 - technique
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Glazing and Layering in Painting

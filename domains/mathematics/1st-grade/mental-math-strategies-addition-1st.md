@@ -16,7 +16,7 @@ tags:
 - strategies
 - addition
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Mental Math Strategies for Addition

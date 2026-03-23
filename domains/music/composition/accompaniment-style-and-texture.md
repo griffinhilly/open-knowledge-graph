@@ -19,7 +19,7 @@ tags:
 - figuration
 - style
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Accompaniment Style and Texture

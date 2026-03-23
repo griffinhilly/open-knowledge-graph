@@ -15,7 +15,7 @@ tags:
 - identity-development
 - cognitive-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Self-Recognition and Identity Formation

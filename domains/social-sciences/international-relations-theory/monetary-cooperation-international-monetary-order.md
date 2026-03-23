@@ -17,7 +17,7 @@ tags:
 - exchange-rates
 - coordination
 stage: expert
-status: draft
+status: validated
 ---
 
 # International Monetary Cooperation and Exchange Rates

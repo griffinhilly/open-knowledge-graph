@@ -13,7 +13,7 @@ tags:
 - presentations
 - PowerPoint
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Presentation Slide Design

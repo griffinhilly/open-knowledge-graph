@@ -14,7 +14,7 @@ tags:
 - temperature
 - thermocline
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ocean Density and Thermal Stratification

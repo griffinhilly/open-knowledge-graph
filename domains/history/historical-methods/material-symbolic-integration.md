@@ -14,7 +14,7 @@ tags:
 - methodology
 - practice
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Integrating Material Culture and Symbolic Meaning

@@ -16,7 +16,7 @@ tags:
 - syntax
 - voice
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Poetic Diction and Register

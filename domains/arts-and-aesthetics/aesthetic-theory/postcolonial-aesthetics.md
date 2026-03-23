@@ -20,7 +20,7 @@ tags:
 - decolonization
 - critique
 stage: expert
-status: draft
+status: validated
 ---
 
 # Postcolonial Aesthetics

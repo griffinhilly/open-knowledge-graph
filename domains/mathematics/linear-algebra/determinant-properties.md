@@ -14,7 +14,7 @@ tags:
 - properties
 - linear algebra
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Properties of Determinants

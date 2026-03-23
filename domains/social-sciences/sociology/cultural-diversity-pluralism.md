@@ -17,7 +17,7 @@ tags:
 - cultural-integration
 - intergroup-relations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cultural Diversity and Pluralism in Society

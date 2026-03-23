@@ -16,7 +16,7 @@ tags:
 - chord-quality
 - inversion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chord Inversion Recognition by Ear

@@ -16,7 +16,7 @@ tags:
 - identity-politics
 - appropriation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Postmodern Art and Contemporary Plurality

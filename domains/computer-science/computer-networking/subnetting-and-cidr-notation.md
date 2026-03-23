@@ -18,7 +18,7 @@ tags:
 - address-aggregation
 - prefix-length
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Subnetting and CIDR Notation

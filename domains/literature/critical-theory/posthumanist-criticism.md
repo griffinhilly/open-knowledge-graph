@@ -15,7 +15,7 @@ tags:
 - non-human
 - agency
 stage: expert
-status: draft
+status: validated
 ---
 
 # Posthumanist Criticism

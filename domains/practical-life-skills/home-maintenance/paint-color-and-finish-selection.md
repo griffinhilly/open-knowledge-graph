@@ -20,7 +20,7 @@ tags:
 - sheen
 - interior
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Paint Color and Finish Selection

@@ -18,7 +18,7 @@ tags:
 - interstitials
 - thermodynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Point Defects: Vacancies and Interstitials

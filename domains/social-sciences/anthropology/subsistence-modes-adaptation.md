@@ -17,7 +17,7 @@ tags:
 - ecology
 - adaptation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Subsistence Modes and Ecological Adaptation

@@ -15,7 +15,7 @@ tags:
 - modernity
 - social-change
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Industrialization and Social Transformation

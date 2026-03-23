@@ -14,7 +14,7 @@ tags:
 - tradition
 - improvisation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Commedia dell'arte: Italian Comedy Tradition

@@ -13,7 +13,7 @@ tags:
 - completeness
 - metric-spaces
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Completeness of Metric Spaces

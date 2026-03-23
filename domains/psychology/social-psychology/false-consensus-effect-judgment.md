@@ -15,7 +15,7 @@ tags:
 - social-perception
 - heuristics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # False Consensus Effect in Social Judgment

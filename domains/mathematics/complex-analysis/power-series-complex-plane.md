@@ -15,7 +15,7 @@ tags:
 - radius-of-convergence
 - uniform-convergence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Power Series in the Complex Plane

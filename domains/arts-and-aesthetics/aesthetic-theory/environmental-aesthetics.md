@@ -13,7 +13,7 @@ tags:
 - ecology
 - sustainability
 stage: expert
-status: draft
+status: validated
 ---
 
 # Environmental Aesthetics

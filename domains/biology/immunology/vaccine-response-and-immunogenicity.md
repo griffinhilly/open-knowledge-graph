@@ -19,7 +19,7 @@ tags:
 - antibody-response
 - MHC-presentation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Vaccine Response, Immunogenicity, and Adjuvants

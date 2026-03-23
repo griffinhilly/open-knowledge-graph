@@ -15,7 +15,7 @@ tags:
 - inference
 - coefficients
 stage: advanced
-status: draft
+status: validated
 ---
 
 # T-Statistic for Individual Coefficients

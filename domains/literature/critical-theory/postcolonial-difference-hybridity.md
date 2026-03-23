@@ -17,7 +17,7 @@ tags:
 - mimicry
 - difference
 stage: expert
-status: draft
+status: validated
 ---
 
 # Postcolonial Difference, Hybridity, and Mimicry

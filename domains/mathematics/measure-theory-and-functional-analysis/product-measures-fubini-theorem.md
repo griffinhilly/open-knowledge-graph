@@ -14,7 +14,7 @@ tags:
 - product-measures
 - integration
 stage: expert
-status: draft
+status: validated
 ---
 
 # Product Measures and Fubini's Theorem

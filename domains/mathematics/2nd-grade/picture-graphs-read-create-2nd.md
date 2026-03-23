@@ -13,7 +13,7 @@ tags:
 - picture-graphs
 - data
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Reading and Creating Picture Graphs

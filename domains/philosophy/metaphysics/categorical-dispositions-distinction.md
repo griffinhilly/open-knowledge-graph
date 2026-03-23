@@ -20,7 +20,7 @@ tags:
 - causation
 - ontology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Categorical and Dispositional Properties

@@ -14,7 +14,7 @@ tags:
 - locks
 - multiprocessor
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Spinlocks and Busy-Waiting Synchronization
 

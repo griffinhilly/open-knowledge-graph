@@ -22,7 +22,7 @@ tags:
 - NK-cells
 - macrophages
 stage: expert
-status: draft
+status: validated
 ---
 
 # Antibody-Dependent Cell-Mediated Cytotoxicity (ADCC)

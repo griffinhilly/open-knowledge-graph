@@ -18,7 +18,7 @@ tags:
 - nucleophile
 - activated-alkene
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Enamine Chemistry: Formation, Mechanism, and Reactions

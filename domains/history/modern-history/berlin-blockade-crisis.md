@@ -18,7 +18,7 @@ tags:
 - blockade
 - crisis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Berlin Blockade and the First Cold War Crisis

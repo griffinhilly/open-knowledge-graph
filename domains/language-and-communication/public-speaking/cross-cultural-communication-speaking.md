@@ -13,7 +13,7 @@ tags:
 - adaptation
 - global
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cross-Cultural Communication in Speaking

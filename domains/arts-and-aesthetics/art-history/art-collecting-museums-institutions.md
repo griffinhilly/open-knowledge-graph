@@ -17,7 +17,7 @@ tags:
 - display
 - canon
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Art Collecting, Museums, and Institutional Display

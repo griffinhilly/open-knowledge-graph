@@ -16,7 +16,7 @@ tags:
 - random-variables
 - probability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linear Transformations of Random Variables

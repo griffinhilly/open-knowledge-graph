@@ -17,7 +17,7 @@ tags:
 - chemical-change
 - classification
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Physical Changes vs Chemical Changes
 

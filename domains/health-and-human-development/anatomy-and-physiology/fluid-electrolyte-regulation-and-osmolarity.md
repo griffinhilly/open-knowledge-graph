@@ -18,7 +18,7 @@ tags:
 - aldosterone
 - sodium-balance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fluid and Electrolyte Regulation and Osmolarity

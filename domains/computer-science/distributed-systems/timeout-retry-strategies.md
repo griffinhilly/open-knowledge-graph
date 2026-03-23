@@ -15,7 +15,7 @@ tags:
 - reliability
 - strategy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Timeout and Retry Strategies

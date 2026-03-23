@@ -15,7 +15,7 @@ tags:
 - imperialism
 - legacy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Colonialism and Postcolonial Geographies

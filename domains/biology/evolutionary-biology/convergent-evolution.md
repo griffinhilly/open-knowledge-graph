@@ -15,7 +15,7 @@ tags:
 - adaptation
 - ecology
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Convergent Evolution

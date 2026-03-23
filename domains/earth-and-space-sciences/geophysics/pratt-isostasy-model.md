@@ -15,7 +15,7 @@ tags:
 - isostasy
 - density
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pratt Isostasy and Lateral Density Variations

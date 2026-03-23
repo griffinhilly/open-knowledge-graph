@@ -16,7 +16,7 @@ tags:
 - classification
 - bacterial-structure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Gram-Positive vs Gram-Negative Bacteria: Structural Differences

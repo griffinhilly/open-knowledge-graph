@@ -15,7 +15,7 @@ tags:
 - incommensurability
 - conflict
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Pluralism and Value Incommensurability

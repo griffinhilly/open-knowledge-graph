@@ -15,7 +15,7 @@ tags:
 - mixed-effects
 - clustering
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hierarchical and Multilevel Models

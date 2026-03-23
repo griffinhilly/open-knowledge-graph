@@ -12,7 +12,7 @@ tags:
 - ideal-class-group
 - algebraic-number-theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Introduction to the Ideal Class Group

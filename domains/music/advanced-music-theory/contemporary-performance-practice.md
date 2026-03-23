@@ -13,7 +13,7 @@ tags:
 - contemporary
 - interpretation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Performance Practice in Contemporary and New Music

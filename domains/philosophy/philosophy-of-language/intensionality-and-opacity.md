@@ -21,7 +21,7 @@ tags:
 - reference
 - substitution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Intensionality and Semantic Opacity

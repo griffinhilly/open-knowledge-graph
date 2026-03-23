@@ -20,7 +20,7 @@ tags:
 - dislocation-glide
 - dislocation-climb
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dislocation Types and Motion

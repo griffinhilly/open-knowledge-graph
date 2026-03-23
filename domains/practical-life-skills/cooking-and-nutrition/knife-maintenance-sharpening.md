@@ -13,7 +13,7 @@ tags:
 - whetstone
 - maintenance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Knife Maintenance and Sharpening

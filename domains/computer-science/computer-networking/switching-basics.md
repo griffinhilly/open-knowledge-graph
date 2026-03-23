@@ -15,7 +15,7 @@ tags:
 - mac-table
 - layer-2-forwarding
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Network Switching and Switching Tables

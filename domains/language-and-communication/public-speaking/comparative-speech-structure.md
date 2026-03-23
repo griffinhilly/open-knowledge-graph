@@ -16,7 +16,7 @@ tags:
 - comparison
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Comparative Structure in Speech Organization

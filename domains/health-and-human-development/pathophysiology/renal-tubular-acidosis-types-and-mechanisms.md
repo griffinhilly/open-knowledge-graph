@@ -14,7 +14,7 @@ tags:
 - metabolic-acidosis
 - bicarbonate
 stage: expert
-status: draft
+status: validated
 ---
 
 # Renal Tubular Acidosis: Types and Mechanisms

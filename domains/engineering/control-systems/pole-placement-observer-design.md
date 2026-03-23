@@ -18,7 +18,7 @@ tags:
 - observer
 - eigenvalue-assignment
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pole Placement via State Feedback and Observer Design

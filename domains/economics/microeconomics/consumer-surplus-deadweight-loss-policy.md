@@ -15,7 +15,7 @@ tags:
 - welfare-analysis
 - policy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Consumer Surplus, Producer Surplus, and Deadweight Loss

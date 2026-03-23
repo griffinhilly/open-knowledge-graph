@@ -10,7 +10,7 @@ tags:
 - path-integrals
 - feynman
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Path Integral Formulation of Quantum Mechanics

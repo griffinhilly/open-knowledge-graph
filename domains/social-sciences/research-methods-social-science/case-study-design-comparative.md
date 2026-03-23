@@ -15,7 +15,7 @@ tags:
 - bounded-system
 - within-case-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Case Study Design and Comparative Methods

@@ -19,7 +19,7 @@ tags:
 - meaning
 - systems
 stage: expert
-status: draft
+status: validated
 ---
 
 # Structuralist Semiotics and Meaning Production

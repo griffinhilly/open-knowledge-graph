@@ -17,7 +17,7 @@ tags:
 - oxygen-depletion
 - respiration-budget
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hypoxic Dead Zone Formation and Oxygen Dynamics

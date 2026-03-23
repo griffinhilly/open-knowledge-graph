@@ -15,7 +15,7 @@ tags:
 - kernel
 - image
 stage: advanced
-status: draft
+status: validated
 ---
 
 # First Isomorphism Theorem for Groups

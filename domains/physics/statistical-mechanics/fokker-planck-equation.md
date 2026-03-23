@@ -13,7 +13,7 @@ tags:
 - probability
 - evolution
 stage: expert
-status: draft
+status: validated
 ---
 
 # Fokker-Planck Equation

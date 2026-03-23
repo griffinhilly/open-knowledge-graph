@@ -19,7 +19,7 @@ tags:
 - implication
 - realism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Subtext: The Unspoken Beneath Dialogue

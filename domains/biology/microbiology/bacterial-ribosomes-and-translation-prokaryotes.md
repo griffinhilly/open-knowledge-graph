@@ -16,7 +16,7 @@ tags:
 - translation
 - 70s
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bacterial Ribosomes and Protein Synthesis

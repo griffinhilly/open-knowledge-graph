@@ -13,7 +13,7 @@ tags:
 - errors
 - decision
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Type I and Type II Error Trade-offs in Decision Making

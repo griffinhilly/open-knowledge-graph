@@ -17,7 +17,7 @@ tags:
 - rotation
 - pendulum
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Physical Pendulum and Rotational Oscillations

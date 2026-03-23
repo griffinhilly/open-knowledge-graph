@@ -13,7 +13,7 @@ tags:
 - continuity
 - fundamental
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Continuous Functions in Topological Spaces

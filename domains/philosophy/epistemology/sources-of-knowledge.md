@@ -16,7 +16,7 @@ tags:
 - testimony
 - epistemic-sources
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Sources of Knowledge
 

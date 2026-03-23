@@ -19,7 +19,7 @@ tags:
 - medium
 - experience
 stage: expert
-status: draft
+status: validated
 ---
 # Technology and Aesthetic Mediation
 

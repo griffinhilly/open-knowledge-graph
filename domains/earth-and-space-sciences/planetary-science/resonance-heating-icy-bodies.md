@@ -17,7 +17,7 @@ tags:
 - subsurface-oceans
 - icy-bodies
 stage: expert
-status: draft
+status: validated
 ---
 
 # Resonance-Driven Tidal Heating in Icy Moons and Planets

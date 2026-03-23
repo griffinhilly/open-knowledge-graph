@@ -16,7 +16,7 @@ tags:
 - linear
 - fundamental
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # First-Order Linear Ordinary Differential Equations

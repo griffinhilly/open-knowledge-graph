@@ -20,7 +20,7 @@ tags:
 - harmony
 - acoustics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Spectral Harmony and Overtone Analysis

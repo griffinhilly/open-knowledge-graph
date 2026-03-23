@@ -13,7 +13,7 @@ tags:
 - limits
 - accounting
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Resource Limits and Process Accounting

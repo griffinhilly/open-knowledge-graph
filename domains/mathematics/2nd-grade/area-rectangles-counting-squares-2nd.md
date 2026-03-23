@@ -11,7 +11,7 @@ tags:
 - rectangles
 - unit-squares
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Understanding Area by Counting Unit Squares

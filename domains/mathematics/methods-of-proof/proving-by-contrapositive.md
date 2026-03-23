@@ -15,7 +15,7 @@ tags:
 - contrapositive
 - indirect proof
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Proving by Contrapositive

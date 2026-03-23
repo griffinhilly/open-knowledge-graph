@@ -17,7 +17,7 @@ tags:
 - quality-identification
 - tonality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Major-Minor Chord Discrimination by Ear

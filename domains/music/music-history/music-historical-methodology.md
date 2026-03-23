@@ -12,7 +12,7 @@ tags:
 - methodology
 - sources
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Music Historical Methodology

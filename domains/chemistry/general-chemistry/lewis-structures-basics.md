@@ -17,7 +17,7 @@ tags:
 - bonding
 - dots
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lewis Dot Structures: Representing Valence Electrons and Bonding

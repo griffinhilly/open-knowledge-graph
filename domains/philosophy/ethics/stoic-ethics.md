@@ -17,7 +17,7 @@ tags:
 - Seneca
 - living-according-to-nature
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stoic Ethics

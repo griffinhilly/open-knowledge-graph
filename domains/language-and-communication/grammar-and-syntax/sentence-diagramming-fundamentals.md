@@ -17,7 +17,7 @@ tags:
 - visualization
 - syntax
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sentence Diagramming and Visual Grammar

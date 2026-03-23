@@ -17,7 +17,7 @@ tags:
 - quantum
 - knot-invariants
 stage: expert
-status: draft
+status: validated
 ---
 
 # Braided Monoidal Categories

@@ -13,7 +13,7 @@ tags:
 - procedures
 - legal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Medieval Law, Courts, and Justice Systems

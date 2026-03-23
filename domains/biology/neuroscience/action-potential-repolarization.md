@@ -16,7 +16,7 @@ tags:
 - repolarization
 - temporal-dynamics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Action Potential Repolarization and Undershoot

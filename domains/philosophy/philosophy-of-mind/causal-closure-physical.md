@@ -17,7 +17,7 @@ tags:
 - mental-causation
 - completeness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Physical Causal Closure

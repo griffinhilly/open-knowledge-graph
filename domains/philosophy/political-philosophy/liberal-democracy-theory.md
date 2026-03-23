@@ -16,7 +16,7 @@ tags:
 - liberal-democracy
 - liberalism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Liberal Democracy

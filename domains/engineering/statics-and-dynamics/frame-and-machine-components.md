@@ -15,7 +15,7 @@ tags:
 - pins
 - internal forces
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Frame and Machine Component Analysis

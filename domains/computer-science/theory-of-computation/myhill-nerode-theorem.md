@@ -13,7 +13,7 @@ tags:
 - regular-languages
 - minimization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Myhill-Nerode Theorem

@@ -15,7 +15,7 @@ tags:
 - consciousness
 - conflict
 stage: expert
-status: draft
+status: validated
 ---
 
 # Class Struggle and Class Consciousness

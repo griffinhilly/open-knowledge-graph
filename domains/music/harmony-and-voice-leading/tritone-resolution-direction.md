@@ -15,7 +15,7 @@ tags:
 - interval
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tritone Resolution Direction and Voice-Leading

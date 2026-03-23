@@ -19,7 +19,7 @@ tags:
 - benthic-records
 - continental-margin
 stage: expert
-status: draft
+status: validated
 ---
 
 # Marine Sediment Records of Paleoclimate

@@ -18,7 +18,7 @@ tags:
 - elongation
 - drama
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Mannerism: Artifice, Stylization, and Intellectual Virtuosity

@@ -22,7 +22,7 @@ tags:
 - style
 - prose-style
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Narrative Voice and Authorial Style

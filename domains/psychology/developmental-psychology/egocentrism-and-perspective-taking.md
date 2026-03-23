@@ -16,7 +16,7 @@ tags:
 - cognition
 - social development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Egocentrism and Perspective-Taking Development

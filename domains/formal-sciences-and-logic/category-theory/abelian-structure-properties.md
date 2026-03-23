@@ -16,7 +16,7 @@ tags:
 - homological-algebra
 - structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Properties of Abelian Categories

@@ -14,7 +14,7 @@ tags:
 - similarity
 - signals
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cross-Correlation and Time Delay Estimation

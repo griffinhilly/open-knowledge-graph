@@ -16,7 +16,7 @@ tags:
 - justice
 - original-position
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rawls and the Original Position

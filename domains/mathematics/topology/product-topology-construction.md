@@ -12,7 +12,7 @@ tags:
 - product-topology
 - products
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Product Topology on Cartesian Products

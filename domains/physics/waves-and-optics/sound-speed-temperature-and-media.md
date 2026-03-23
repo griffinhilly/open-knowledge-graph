@@ -13,7 +13,7 @@ tags:
 - temperature
 - media
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sound Speed: Temperature and Medium Dependence

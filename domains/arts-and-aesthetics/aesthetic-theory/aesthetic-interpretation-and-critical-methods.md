@@ -14,7 +14,7 @@ tags:
 - hermeneutics
 - methodology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Aesthetic Interpretation and Critical Methods

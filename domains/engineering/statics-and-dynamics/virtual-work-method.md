@@ -16,7 +16,7 @@ tags:
 - equilibrium
 - potential energy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Principle of Virtual Work

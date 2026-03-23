@@ -12,7 +12,7 @@ tags:
 - uniform
 - continuous-distribution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Continuous Uniform Distribution

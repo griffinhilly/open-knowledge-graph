@@ -15,7 +15,7 @@ tags:
 - innovation
 - methods
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Evolution of Painting Techniques Across Historical Periods

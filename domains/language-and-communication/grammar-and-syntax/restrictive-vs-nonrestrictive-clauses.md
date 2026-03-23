@@ -11,7 +11,7 @@ tags:
 - punctuation
 - meaning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Restrictive vs. Nonrestrictive Relative Clauses

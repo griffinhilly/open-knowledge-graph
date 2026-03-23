@@ -15,7 +15,7 @@ tags:
 - social-construction
 - theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Constructivism and Social Construction of IR

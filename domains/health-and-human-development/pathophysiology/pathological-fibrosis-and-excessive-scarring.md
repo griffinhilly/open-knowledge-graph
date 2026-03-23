@@ -18,7 +18,7 @@ tags:
 - tgf-beta
 - chronic-inflammation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pathological Fibrosis and Excessive Scarring

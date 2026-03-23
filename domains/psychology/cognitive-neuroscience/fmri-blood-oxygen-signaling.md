@@ -18,7 +18,7 @@ tags:
 - methods
 - bold
 stage: expert
-status: draft
+status: validated
 ---
 
 # Functional MRI and BOLD Imaging

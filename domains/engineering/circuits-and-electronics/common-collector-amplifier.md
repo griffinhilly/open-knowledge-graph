@@ -18,7 +18,7 @@ tags:
 - high-input-impedance
 - low-output-impedance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Common-Collector Amplifier

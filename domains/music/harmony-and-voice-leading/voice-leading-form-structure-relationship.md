@@ -14,7 +14,7 @@ tags:
 - voice-leading
 - coherence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voice Leading and Musical Form: Creating Structural Coherence

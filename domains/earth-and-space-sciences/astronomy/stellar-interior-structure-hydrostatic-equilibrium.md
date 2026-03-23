@@ -17,7 +17,7 @@ tags:
 - physics
 - hydrostatic-equilibrium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stellar Interior Structure and Hydrostatic Equilibrium

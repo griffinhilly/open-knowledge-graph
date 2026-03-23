@@ -14,7 +14,7 @@ tags:
 - reaching-definitions
 - optimization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Reaching Definitions Analysis

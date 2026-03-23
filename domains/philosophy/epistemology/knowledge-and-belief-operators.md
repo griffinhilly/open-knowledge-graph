@@ -17,7 +17,7 @@ tags:
 - modal-syntax
 - formalization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Knowledge and Belief Operators

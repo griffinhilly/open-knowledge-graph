@@ -19,7 +19,7 @@ tags:
 - sparse-coding
 - episodic-memory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hippocampal Pattern Separation and Orthogonalization

@@ -13,7 +13,7 @@ tags:
 - feedback
 - preparation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Speech Rehearsal Techniques

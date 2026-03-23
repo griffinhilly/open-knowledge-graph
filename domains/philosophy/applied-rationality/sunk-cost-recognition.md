@@ -10,7 +10,7 @@ prerequisites:
     type: soft
 tags: ["decision-theory", "sunk-cost", "quitting", "rationality"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

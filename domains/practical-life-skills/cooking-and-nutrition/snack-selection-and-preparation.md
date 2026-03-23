@@ -14,7 +14,7 @@ tags:
 - healthy-choices
 - hunger
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Choosing and Preparing Healthy Snacks

@@ -17,7 +17,7 @@ tags:
 - component-properties
 - chemical-potential
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Partial Molar Properties and Solution Thermodynamics

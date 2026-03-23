@@ -14,7 +14,7 @@ tags:
 - oscillation
 - interpolation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Runge's Phenomenon

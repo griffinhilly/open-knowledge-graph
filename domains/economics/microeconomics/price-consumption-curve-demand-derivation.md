@@ -15,7 +15,7 @@ tags:
 - price-change
 - consumer-response
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Price Consumption Curve and Derivation of Demand

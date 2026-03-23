@@ -16,7 +16,7 @@ tags:
 - landscape
 - spatial-organization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Settlement Patterns and Landscape Archaeology

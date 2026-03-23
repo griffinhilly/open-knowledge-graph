@@ -15,7 +15,7 @@ tags:
 - personality
 - conformity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Right-Wing Authoritarianism and Prejudice

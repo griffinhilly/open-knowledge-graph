@@ -12,7 +12,7 @@ tags:
 - spin
 - matrices
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Pauli Matrices

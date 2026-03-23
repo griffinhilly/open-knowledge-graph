@@ -18,7 +18,7 @@ tags:
 - dictation
 - harmony
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bass Line Dictation

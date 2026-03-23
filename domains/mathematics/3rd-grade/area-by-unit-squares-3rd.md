@@ -15,7 +15,7 @@ tags:
 - unit-squares
 - measurement
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Finding Area by Counting Unit Squares

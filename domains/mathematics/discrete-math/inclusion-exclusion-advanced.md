@@ -13,7 +13,7 @@ tags:
 - derangements
 - advanced-counting
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inclusion-Exclusion Principle

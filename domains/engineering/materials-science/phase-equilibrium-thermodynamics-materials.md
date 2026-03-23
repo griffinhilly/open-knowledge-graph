@@ -18,7 +18,7 @@ tags:
 - gibbs-free-energy
 - thermodynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phase Equilibrium and Thermodynamics in Materials

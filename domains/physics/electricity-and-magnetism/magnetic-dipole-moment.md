@@ -15,7 +15,7 @@ tags:
 - dipoles
 - angular momentum
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Magnetic Dipole Moment from Current Loops

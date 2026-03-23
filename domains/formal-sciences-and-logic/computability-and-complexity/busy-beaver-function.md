@@ -15,7 +15,7 @@ tags:
 - undecidability
 - functions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Busy Beaver Function and Non-Computability

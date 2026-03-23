@@ -17,7 +17,7 @@ tags:
 - oral-language
 - grammar-foundations
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Simple Sentence Understanding

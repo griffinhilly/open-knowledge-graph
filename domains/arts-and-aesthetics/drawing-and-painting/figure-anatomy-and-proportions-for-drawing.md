@@ -19,7 +19,7 @@ tags:
 - skeleton
 - musculature
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Figure Anatomy and Proportions for Drawing

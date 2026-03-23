@@ -14,7 +14,7 @@ tags:
 - representation
 - postcolonial
 stage: expert
-status: draft
+status: validated
 ---
 
 # Gayatri Spivak and the Subaltern

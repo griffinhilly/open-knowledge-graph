@@ -12,7 +12,7 @@ tags:
 - convergence
 - weak-topology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Weak Convergence

@@ -12,7 +12,7 @@ tags:
 - coherence
 - reliability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Epistemic Properties and Metrics

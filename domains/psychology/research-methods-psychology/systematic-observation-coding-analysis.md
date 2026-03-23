@@ -14,7 +14,7 @@ tags:
 - structured-observation
 - naturalistic-settings
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Systematic Observation, Behavioral Coding, and Analysis

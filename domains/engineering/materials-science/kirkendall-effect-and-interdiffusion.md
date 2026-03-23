@@ -14,7 +14,7 @@ tags:
 - vacancy-flow
 - marker-motion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Kirkendall Effect and Interdiffusion

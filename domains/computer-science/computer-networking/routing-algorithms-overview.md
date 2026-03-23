@@ -16,7 +16,7 @@ tags:
 - distance-vector
 - link-state
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Routing Algorithms and Protocols

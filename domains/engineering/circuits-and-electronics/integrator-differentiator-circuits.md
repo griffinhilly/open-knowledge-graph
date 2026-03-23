@@ -19,7 +19,7 @@ tags:
 - dc-offset
 - reset-switch
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Integrator and Differentiator Circuits

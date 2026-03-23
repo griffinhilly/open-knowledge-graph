@@ -14,7 +14,7 @@ tags:
 - modulation
 - analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Rhythmic Modulation and Tempo Transformation

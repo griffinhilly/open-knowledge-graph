@@ -12,7 +12,7 @@ tags:
 - reproducibility
 - media
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Printmaking's Impact on Art and Culture

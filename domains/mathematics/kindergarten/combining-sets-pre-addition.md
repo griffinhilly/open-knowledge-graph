@@ -13,7 +13,7 @@ tags:
 - combining
 - part-whole
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Combining Sets: Pre-Addition Concept

@@ -19,7 +19,7 @@ tags:
 - steam-power
 - power-cycles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rankine Cycle and Steam Power Plants

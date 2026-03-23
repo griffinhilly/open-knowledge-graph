@@ -16,7 +16,7 @@ tags:
 - history
 - power
 stage: expert
-status: draft
+status: validated
 ---
 
 # Genealogy as Historical Method

@@ -16,7 +16,7 @@ tags:
 - voice-leading
 - bass-line
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chord Inversions and Voice-Leading Options

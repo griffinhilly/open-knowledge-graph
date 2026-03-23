@@ -18,7 +18,7 @@ tags:
 - vorticity
 - beta-effect
 stage: expert
-status: draft
+status: validated
 ---
 
 # Rossby Waves and Barotropic Instability

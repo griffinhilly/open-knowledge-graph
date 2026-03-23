@@ -16,7 +16,7 @@ tags:
 - routing-table
 - hop
 stage: advanced
-status: draft
+status: validated
 ---
 
 # IP Routing and Forwarding

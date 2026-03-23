@@ -15,7 +15,7 @@ tags:
 - pressure
 - amplitude
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Acoustic Pressure and Amplitude in Sound Waves

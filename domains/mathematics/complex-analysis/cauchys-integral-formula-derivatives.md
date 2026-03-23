@@ -14,7 +14,7 @@ tags:
 - integral-formula
 - cauchy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cauchy's Integral Formula for Derivatives

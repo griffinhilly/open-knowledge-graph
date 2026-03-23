@@ -14,7 +14,7 @@ tags:
 - tail-call
 - optimization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Recursion and Tail-Recursion Optimization

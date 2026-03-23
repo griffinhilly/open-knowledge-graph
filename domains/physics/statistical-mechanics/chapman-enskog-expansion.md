@@ -14,7 +14,7 @@ tags:
 - transport
 - perturbation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Chapman-Enskog Theory

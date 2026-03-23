@@ -16,7 +16,7 @@ tags:
 - counting
 - manipulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Generating Functions

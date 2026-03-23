@@ -16,7 +16,7 @@ tags:
 - spectroscopy
 - separation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hyphenated Analytical Techniques

@@ -12,7 +12,7 @@ tags:
 - rate-limiting
 - qos
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Traffic Shaping and Policing

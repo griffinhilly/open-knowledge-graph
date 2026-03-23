@@ -15,7 +15,7 @@ tags:
 - sequence-models
 - gated-networks
 stage: advanced
-status: draft
+status: validated
 ---
 
 # LSTM and Gated Recurrent Units

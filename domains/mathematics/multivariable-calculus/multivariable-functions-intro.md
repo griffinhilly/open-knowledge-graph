@@ -16,7 +16,7 @@ tags:
 - multivariable
 - level-sets
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Functions of Several Variables

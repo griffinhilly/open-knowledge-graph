@@ -14,7 +14,7 @@ tags:
 - composition
 - mereology
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Mereological Nihilism
 

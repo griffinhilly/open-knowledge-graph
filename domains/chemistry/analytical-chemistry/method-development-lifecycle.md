@@ -18,7 +18,7 @@ tags:
 - DOE
 - design of experiments
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Method Development Lifecycle

@@ -16,7 +16,7 @@ tags:
 - microglia
 - cytokines
 stage: expert
-status: draft
+status: validated
 ---
 
 # Neuroinflammation and Glial Activation

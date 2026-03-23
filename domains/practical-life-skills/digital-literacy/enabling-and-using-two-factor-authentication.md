@@ -15,7 +15,7 @@ tags:
 - authentication
 - account-protection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Setting Up and Using Two-Factor Authentication

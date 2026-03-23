@@ -12,7 +12,7 @@ tags:
 - graph-theory
 - edge-coloring
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Edge Coloring and Chromatic Index

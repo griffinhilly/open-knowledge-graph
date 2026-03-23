@@ -18,7 +18,7 @@ tags:
 - narration
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Reading and Analyzing Stream of Consciousness
 

@@ -17,7 +17,7 @@ tags:
 - icp-ms
 - sensitivity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Trace Metals Analysis at Ultra-Low Concentrations

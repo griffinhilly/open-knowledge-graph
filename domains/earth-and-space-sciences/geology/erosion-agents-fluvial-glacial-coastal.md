@@ -16,7 +16,7 @@ tags:
 - sediment-transport
 - geomorphology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Erosion Agents: Fluvial, Glacial, and Coastal Processes

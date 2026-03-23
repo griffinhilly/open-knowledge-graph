@@ -13,7 +13,7 @@ tags:
 - selection
 - adaptive-peaks
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Disruptive Selection

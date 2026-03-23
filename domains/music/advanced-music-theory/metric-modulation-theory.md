@@ -23,7 +23,7 @@ tags:
 - proportion
 - rhythm
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metric Modulation and Proportional Time

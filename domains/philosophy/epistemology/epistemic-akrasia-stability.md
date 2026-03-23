@@ -14,7 +14,7 @@ tags:
 - higher-order
 - synchronic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Epistemic Akrasia and Rational Stability

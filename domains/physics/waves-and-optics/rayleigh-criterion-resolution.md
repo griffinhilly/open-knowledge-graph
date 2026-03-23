@@ -13,7 +13,7 @@ tags:
 - rayleigh-criterion
 - diffraction-limit
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Rayleigh Criterion and Diffraction-Limited Resolution

@@ -15,7 +15,7 @@ tags:
 - nutrition
 - degradation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fungal Nutrition, Osmotrophy, and Substrate Degradation

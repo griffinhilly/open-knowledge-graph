@@ -17,7 +17,7 @@ tags:
 - expansion
 - aggression
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Axis Expansion and the Outbreak of World War II

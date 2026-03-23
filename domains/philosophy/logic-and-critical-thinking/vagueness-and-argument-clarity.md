@@ -13,7 +13,7 @@ tags:
 - clarity
 - language
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vagueness in Language and Argument Clarity

@@ -16,7 +16,7 @@ tags:
 - vector
 - direction-of-steepest-ascent
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Gradient Vector and Its Properties

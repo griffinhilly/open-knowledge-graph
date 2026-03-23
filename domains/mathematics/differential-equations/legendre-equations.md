@@ -13,7 +13,7 @@ tags:
 - special-functions
 - orthogonal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Legendre Equations and Legendre Polynomials

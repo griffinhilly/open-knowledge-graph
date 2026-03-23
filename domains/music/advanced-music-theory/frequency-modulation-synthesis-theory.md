@@ -28,7 +28,7 @@ tags:
 - synthesis
 - timbre
 stage: expert
-status: draft
+status: validated
 ---
 
 # Frequency Modulation Synthesis Theory in Composition

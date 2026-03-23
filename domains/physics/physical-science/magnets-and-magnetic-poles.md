@@ -14,7 +14,7 @@ tags:
 - attract
 - repel
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Magnets and Magnetic Poles
 

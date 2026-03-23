@@ -14,7 +14,7 @@ tags:
 - layer-2
 - traffic-isolation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # VLANs (Virtual Local Area Networks)

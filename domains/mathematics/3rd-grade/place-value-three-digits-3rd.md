@@ -14,7 +14,7 @@ tags:
 - hundreds
 - expanded-form
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Three-Digit Place Value

@@ -16,7 +16,7 @@ tags:
 - coordinates
 - transformations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Change of Basis and Coordinate Transformations

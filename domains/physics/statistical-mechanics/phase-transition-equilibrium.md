@@ -17,7 +17,7 @@ tags:
 - coexistence
 - clausius-clapeyron
 stage: expert
-status: draft
+status: validated
 ---
 
 # Phase Transitions and Equilibrium Phase Diagrams

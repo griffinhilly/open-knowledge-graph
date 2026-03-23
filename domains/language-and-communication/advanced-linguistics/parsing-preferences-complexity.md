@@ -13,7 +13,7 @@ tags:
 - preferences
 - complexity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Parsing Preferences and Computational Complexity

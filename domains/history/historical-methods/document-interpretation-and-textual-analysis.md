@@ -16,7 +16,7 @@ tags:
 - analysis
 - interpretation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Close Reading and Interpretation of Historical Documents

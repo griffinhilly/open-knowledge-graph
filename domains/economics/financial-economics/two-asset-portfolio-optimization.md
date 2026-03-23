@@ -15,7 +15,7 @@ tags:
 - optimization
 - diversification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Two-Asset Portfolio Optimization

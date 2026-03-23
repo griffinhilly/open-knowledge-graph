@@ -19,7 +19,7 @@ tags:
 - stress
 - autoregulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Blood Flow Redistribution and Homeostasis

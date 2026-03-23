@@ -14,7 +14,7 @@ tags:
 - multiplication
 - distributive
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Distributive Property of Multiplication

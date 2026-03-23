@@ -12,7 +12,7 @@ tags:
 - systematic-review
 - integration
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Qualitative Research Synthesis and Meta-Ethnography

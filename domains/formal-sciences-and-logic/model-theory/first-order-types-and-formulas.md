@@ -18,7 +18,7 @@ tags:
 - consistency
 - formula set
 stage: expert
-status: draft
+status: validated
 ---
 
 # First-Order Types and Partial Descriptions

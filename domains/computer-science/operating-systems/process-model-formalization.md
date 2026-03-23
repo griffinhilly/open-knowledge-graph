@@ -16,7 +16,7 @@ tags:
 - state-machines
 - formalization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Process Model Formalization

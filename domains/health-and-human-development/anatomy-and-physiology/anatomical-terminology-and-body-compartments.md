@@ -16,7 +16,7 @@ tags:
 - orientation
 - organization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Anatomical Terminology and Body Compartments
 

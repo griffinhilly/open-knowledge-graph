@@ -18,7 +18,7 @@ tags:
 - electronic-music
 - texture
 stage: expert
-status: draft
+status: validated
 ---
 
 # Granular Synthesis and Composition

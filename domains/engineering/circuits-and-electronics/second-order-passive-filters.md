@@ -16,7 +16,7 @@ tags:
 - resonance
 - steeper-rolloff
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Second-Order Passive Filters

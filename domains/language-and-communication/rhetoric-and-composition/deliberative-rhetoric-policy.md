@@ -17,7 +17,7 @@ tags:
 - argument
 - policy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Deliberative Rhetoric and Policy Argument

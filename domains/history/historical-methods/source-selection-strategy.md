@@ -16,7 +16,7 @@ tags:
 - sampling
 - research-design
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Source Selection and Sampling Strategy

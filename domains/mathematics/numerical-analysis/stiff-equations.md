@@ -13,7 +13,7 @@ tags:
 - ode
 - eigenvalues
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stiff Differential Equations

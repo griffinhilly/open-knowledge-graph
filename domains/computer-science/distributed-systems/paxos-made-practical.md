@@ -16,7 +16,7 @@ tags:
 - algorithm
 - replication
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Paxos Algorithm: From Theory to Practice

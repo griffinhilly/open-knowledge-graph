@@ -17,7 +17,7 @@ tags:
 - representation
 - spatial-illusion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Linear Perspective and Renaissance Spatial Revolution

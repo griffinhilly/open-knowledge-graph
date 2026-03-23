@@ -17,7 +17,7 @@ tags:
 - patterns
 - argument
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Organizational Patterns and Argumentation Structures

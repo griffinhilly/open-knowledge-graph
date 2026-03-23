@@ -17,7 +17,7 @@ tags:
 - reduction
 - concentrated loads
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Resultant of Force and Moment Systems

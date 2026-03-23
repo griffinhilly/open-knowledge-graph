@@ -16,7 +16,7 @@ tags:
 - periods
 - classification
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Periodization and Chronological Frameworks in Art History

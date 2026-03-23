@@ -18,7 +18,7 @@ tags:
 - satellites
 - orbits
 stage: expert
-status: draft
+status: validated
 ---
 
 # Satellite Formation and Orbital Mechanics

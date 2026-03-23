@@ -14,7 +14,7 @@ tags:
 - reasoning-errors
 - critical-thinking
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cognitive Biases and Critical Thinking

@@ -15,7 +15,7 @@ tags:
 - equivalent
 - equality
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Equivalent Fractions Introduction

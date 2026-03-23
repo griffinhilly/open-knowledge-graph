@@ -17,7 +17,7 @@ tags:
 - winterization
 - freeze-protection
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Pipe Insulation and Freeze Protection

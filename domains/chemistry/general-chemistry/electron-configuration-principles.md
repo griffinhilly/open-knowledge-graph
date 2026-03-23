@@ -15,7 +15,7 @@ tags:
 - aufbau principle
 - pauli exclusion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electron Configuration and Orbital Theory

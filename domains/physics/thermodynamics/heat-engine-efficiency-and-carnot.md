@@ -14,7 +14,7 @@ tags:
 - carnot
 - second-law
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heat Engine Efficiency and Carnot's Theorem

@@ -18,7 +18,7 @@ tags:
 - logic-basics
 - reasoning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Argument Premise and Conclusion

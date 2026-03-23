@@ -16,7 +16,7 @@ tags:
 - not
 - truth-values
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Negation (Not)

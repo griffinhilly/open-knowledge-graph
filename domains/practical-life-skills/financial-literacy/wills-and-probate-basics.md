@@ -17,7 +17,7 @@ tags:
 - testament
 - estate
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Wills and Probate Basics

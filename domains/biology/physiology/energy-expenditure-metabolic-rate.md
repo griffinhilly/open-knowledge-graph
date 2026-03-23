@@ -18,7 +18,7 @@ tags:
 - thermogenesis
 - feeding
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Energy Expenditure and Metabolic Rate

@@ -17,7 +17,7 @@ tags:
 - cadence
 - composition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phrase Design and Endings

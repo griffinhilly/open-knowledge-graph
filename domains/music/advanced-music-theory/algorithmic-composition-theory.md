@@ -22,7 +22,7 @@ tags:
 - composition
 - mathematics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Algorithmic Composition Theory

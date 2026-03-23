@@ -15,7 +15,7 @@ tags:
 - water habitats
 - marine
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Ocean and Pond Habitats

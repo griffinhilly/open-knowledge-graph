@@ -14,7 +14,7 @@ tags:
 - assumptions
 - diagnostics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Assumptions in Linear Regression

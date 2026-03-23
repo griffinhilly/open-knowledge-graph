@@ -15,7 +15,7 @@ tags:
 - algorithm
 - consistency
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Chandy-Lamport Snapshot Algorithm

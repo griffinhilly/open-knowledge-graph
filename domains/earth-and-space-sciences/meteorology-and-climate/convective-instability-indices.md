@@ -21,7 +21,7 @@ tags:
 - convection
 - stability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Convective Instability Indices and Stability Analysis

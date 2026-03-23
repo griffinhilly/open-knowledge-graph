@@ -13,7 +13,7 @@ tags:
 - surface-waves
 - open-channel
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Froude Number and Gravity Wave Propagation

@@ -14,7 +14,7 @@ tags:
 - homotopy
 - topological-invariant
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Fundamental Groupoid of a Space

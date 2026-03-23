@@ -17,7 +17,7 @@ tags:
 - cyclic-groups
 - generators
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Primitive Roots and Cyclic Groups Mod p

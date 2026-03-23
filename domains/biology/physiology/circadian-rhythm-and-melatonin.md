@@ -14,7 +14,7 @@ tags:
 - melatonin
 - sleep
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Circadian Rhythm Regulation and Melatonin

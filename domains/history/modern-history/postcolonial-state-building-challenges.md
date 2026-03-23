@@ -19,7 +19,7 @@ tags:
 - governance
 - global-south
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Postcolonial State-Building and Development Challenges

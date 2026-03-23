@@ -18,7 +18,7 @@ tags:
 - modality
 - a-posteriori
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Modal Status of Identity Statements

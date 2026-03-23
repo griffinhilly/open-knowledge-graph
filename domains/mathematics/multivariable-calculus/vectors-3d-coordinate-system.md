@@ -15,7 +15,7 @@ tags:
 - 3d
 - coordinate-geometry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # 3D Coordinate Systems and Vectors

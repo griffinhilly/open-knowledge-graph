@@ -17,7 +17,7 @@ tags:
 - plagal
 - resolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Authentic and Plagal Cadences

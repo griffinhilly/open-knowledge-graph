@@ -14,7 +14,7 @@ tags:
 - phobia
 - fear
 stage: expert
-status: draft
+status: validated
 ---
 
 # Specific Phobias and Fear Conditioning

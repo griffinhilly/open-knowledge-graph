@@ -19,7 +19,7 @@ tags:
 - luminosity
 - photometry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Absolute Magnitude and the Luminosity-Distance Relation

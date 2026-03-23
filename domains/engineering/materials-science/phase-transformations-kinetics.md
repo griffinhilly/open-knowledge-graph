@@ -16,7 +16,7 @@ tags:
 - nucleation-growth
 - ttc-curves
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kinetics of Solid-State Phase Transformations

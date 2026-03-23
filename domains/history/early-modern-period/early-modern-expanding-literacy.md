@@ -14,7 +14,7 @@ tags:
 - printing
 - knowledge
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Early Modern Expansion of Literacy

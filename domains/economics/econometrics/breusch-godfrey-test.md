@@ -15,7 +15,7 @@ tags:
 - testing
 - diagnostics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Breusch-Godfrey Test for Serial Correlation

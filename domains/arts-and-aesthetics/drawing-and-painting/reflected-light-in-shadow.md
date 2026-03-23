@@ -16,7 +16,7 @@ tags:
 - form
 - observation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Reflected Light in Shadow

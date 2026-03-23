@@ -17,7 +17,7 @@ tags:
 - left
 - right
 stage: expert
-status: draft
+status: validated
 ---
 
 # Left and Right Adjoints

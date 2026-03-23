@@ -18,7 +18,7 @@ tags:
 - syntax-analysis
 - problem-formulation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Parsing Problem

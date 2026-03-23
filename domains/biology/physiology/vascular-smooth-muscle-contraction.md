@@ -18,7 +18,7 @@ tags:
 - vasoconstriction
 - myosin-light-chain
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vascular Smooth Muscle Contraction and Vasoregulation

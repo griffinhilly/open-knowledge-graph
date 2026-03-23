@@ -23,7 +23,7 @@ tags:
 - dim7
 - dissonance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Seventh Chord Identification by Ear

@@ -13,7 +13,7 @@ tags:
 - alignment
 - typology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ergative-Absolutive Systems and Their Properties

@@ -11,7 +11,7 @@ tags:
 - emotions
 - emotional awareness
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Happy, Sad, Angry, Scared

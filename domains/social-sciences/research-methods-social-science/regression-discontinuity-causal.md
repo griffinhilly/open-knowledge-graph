@@ -20,7 +20,7 @@ tags:
 - local-polynomial
 - fuzzy-RD
 stage: expert
-status: draft
+status: validated
 ---
 
 # Regression Discontinuity Design

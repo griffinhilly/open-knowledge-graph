@@ -15,7 +15,7 @@ tags:
 - labor-market
 - unemployment
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Wage Setting and Labor Market Equilibrium

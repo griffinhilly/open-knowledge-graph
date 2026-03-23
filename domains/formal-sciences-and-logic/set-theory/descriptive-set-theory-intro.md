@@ -17,7 +17,7 @@ tags:
 - projective hierarchy
 - determinacy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Introduction to Descriptive Set Theory

@@ -18,7 +18,7 @@ tags:
 - monochromatic
 - foundation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Monochromatic Underpainting and Value Studies

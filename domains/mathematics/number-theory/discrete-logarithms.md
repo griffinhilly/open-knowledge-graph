@@ -13,7 +13,7 @@ tags:
 - cryptography
 - cyclic-groups
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Discrete Logarithms

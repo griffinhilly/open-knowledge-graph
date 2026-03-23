@@ -16,7 +16,7 @@ tags:
 - larmor
 - acceleration
 stage: expert
-status: draft
+status: validated
 ---
 
 # Larmor Formula for Radiated Power

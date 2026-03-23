@@ -15,7 +15,7 @@ tags:
 - logical-time
 - hybrid
 stage: advanced
-status: draft
+status: validated
 ---
 # Hybrid Logical Clocks
 

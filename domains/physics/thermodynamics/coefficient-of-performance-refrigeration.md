@@ -16,7 +16,7 @@ tags:
 - cop
 - cycle
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Coefficient of Performance: Heat Pumps and Refrigerators

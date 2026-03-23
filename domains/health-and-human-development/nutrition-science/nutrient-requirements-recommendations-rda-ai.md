@@ -19,7 +19,7 @@ tags:
 - nutrient-requirements
 - dietary-guidelines
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nutrient Requirements and Recommendations: RDA, AI, and UL Concepts

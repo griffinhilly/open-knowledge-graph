@@ -14,7 +14,7 @@ tags:
 - expression
 - mark-making
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Line: Types, Qualities, and Expression

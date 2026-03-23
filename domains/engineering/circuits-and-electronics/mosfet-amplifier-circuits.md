@@ -19,7 +19,7 @@ tags:
 - transconductance
 - mosfet-biasing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # MOSFET Amplifier Circuits

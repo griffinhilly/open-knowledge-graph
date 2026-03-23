@@ -16,7 +16,7 @@ tags:
 - decidability
 - completeness
 stage: expert
-status: draft
+status: validated
 ---
 
 # Quantifier Elimination and Its Role in Decidability

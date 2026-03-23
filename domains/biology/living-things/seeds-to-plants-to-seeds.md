@@ -16,7 +16,7 @@ tags:
 - life cycle
 - generations
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Seeds to Plants to Seeds

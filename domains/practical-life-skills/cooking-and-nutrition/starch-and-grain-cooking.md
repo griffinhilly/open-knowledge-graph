@@ -24,7 +24,7 @@ tags:
 - cooking-science
 - texture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # How Starch Changes During Cooking

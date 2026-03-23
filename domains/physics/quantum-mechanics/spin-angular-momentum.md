@@ -14,7 +14,7 @@ tags:
 - spin
 - angular-momentum
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Spin Angular Momentum

@@ -15,7 +15,7 @@ tags:
 - reason
 - enlightenment
 stage: expert
-status: draft
+status: validated
 ---
 
 # Critique of Instrumental Rationality

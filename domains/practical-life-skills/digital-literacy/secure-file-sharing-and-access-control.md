@@ -15,7 +15,7 @@ tags:
 - collaboration
 - security
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Secure File Sharing and Access Control

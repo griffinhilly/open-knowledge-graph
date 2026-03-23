@@ -18,7 +18,7 @@ tags:
 - textual analysis
 - thesis-driven
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Analytical Writing

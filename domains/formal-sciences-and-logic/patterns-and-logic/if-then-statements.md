@@ -16,7 +16,7 @@ tags:
 - if-then
 - reasoning
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # If-Then Statements

@@ -13,7 +13,7 @@ tags:
 - morphology
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Galaxy Classification and Morphology

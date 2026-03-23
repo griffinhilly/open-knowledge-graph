@@ -14,7 +14,7 @@ tags:
 - self-simulation
 - computation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Universal Turing Machine and Self-Simulation

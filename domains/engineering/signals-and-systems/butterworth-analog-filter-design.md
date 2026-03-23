@@ -20,7 +20,7 @@ tags:
 - butterworth
 - magnitude-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # Butterworth Analog Filter Design

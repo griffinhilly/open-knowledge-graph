@@ -14,7 +14,7 @@ tags:
 - regularity
 - t3-axiom
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Regularity and T₃ Spaces

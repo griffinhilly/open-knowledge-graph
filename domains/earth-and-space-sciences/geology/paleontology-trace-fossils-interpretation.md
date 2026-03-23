@@ -13,7 +13,7 @@ tags:
 - fossils
 - biostratigraphy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Paleontology: Trace Fossils and Paleoenvironmental Interpretation

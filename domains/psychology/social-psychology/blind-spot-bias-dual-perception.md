@@ -15,7 +15,7 @@ tags:
 - metacognition
 - asymmetry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bias Blind Spot and Asymmetric Self-Other Perception

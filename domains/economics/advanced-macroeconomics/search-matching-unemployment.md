@@ -15,7 +15,7 @@ tags:
 - search
 - matching
 stage: expert
-status: draft
+status: validated
 ---
 
 # Search and Matching Models of Unemployment

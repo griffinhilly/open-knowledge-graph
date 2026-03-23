@@ -24,7 +24,7 @@ tags:
 - hexachord
 - combinatoriality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hexachordal Combinatoriality in Twelve-Tone Composition

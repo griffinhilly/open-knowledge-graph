@@ -20,7 +20,7 @@ tags:
 - harmony
 - temperature
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Color Mixing and Palette Management

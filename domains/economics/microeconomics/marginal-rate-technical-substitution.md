@@ -13,7 +13,7 @@ tags:
 - inputs
 - technical-efficiency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Marginal Rate of Technical Substitution (MRTS)

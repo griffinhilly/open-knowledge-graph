@@ -16,7 +16,7 @@ tags:
 - thought
 - linguistics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Sapir-Whorf Hypothesis and Linguistic Relativity

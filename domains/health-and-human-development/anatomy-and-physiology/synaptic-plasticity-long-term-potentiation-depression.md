@@ -15,7 +15,7 @@ tags:
 - LTP
 - LTD
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Synaptic Plasticity: Long-Term Potentiation and Depression

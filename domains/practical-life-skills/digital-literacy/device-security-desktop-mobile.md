@@ -17,7 +17,7 @@ tags:
 - antivirus
 - software-updates
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Device Security: Desktop and Mobile

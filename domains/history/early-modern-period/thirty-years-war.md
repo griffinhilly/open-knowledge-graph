@@ -17,7 +17,7 @@ tags:
 - europe
 - conflict
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Thirty Years War

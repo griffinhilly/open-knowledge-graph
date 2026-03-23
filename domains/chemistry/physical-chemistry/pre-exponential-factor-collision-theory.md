@@ -14,7 +14,7 @@ tags:
 - theory
 - kinetics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Pre-exponential Factor and Collision Theory

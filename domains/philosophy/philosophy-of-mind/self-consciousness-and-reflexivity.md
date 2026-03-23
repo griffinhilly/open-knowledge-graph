@@ -18,7 +18,7 @@ tags:
 - higher-order
 - identity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Self-Consciousness and Self-Awareness

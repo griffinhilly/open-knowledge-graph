@@ -13,7 +13,7 @@ tags:
 - force
 - field-energy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Energy Storage and Forces in Capacitors

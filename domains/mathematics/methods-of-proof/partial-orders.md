@@ -10,7 +10,7 @@ tags:
 - relations
 - ordering
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Partial Orders

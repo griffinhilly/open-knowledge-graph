@@ -17,7 +17,7 @@ tags:
 - il6
 - inflammation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Inflammatory Mediators: Cytokines and Chemokines

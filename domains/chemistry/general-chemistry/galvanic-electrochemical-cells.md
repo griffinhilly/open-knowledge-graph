@@ -16,7 +16,7 @@ tags:
 - spontaneous
 - redox
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Galvanic Cells and Spontaneous Redox Reactions

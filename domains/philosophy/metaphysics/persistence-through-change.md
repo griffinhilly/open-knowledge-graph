@@ -14,7 +14,7 @@ tags:
 - identity
 - diachronic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Persistence Through Change

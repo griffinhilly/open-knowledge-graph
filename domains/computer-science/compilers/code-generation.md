@@ -16,7 +16,7 @@ tags:
 - machine-code
 - code-emission
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Code Generation from IR

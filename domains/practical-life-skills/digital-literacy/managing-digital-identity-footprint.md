@@ -16,7 +16,7 @@ tags:
 - reputation
 - footprint
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Managing Your Digital Identity and Footprint

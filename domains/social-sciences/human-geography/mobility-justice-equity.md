@@ -12,7 +12,7 @@ tags:
 - accessibility
 - borders
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mobility, Justice, and Accessibility

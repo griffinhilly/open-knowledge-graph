@@ -16,7 +16,7 @@ tags:
 - interpolation
 - bounds
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Interpolation Error Analysis

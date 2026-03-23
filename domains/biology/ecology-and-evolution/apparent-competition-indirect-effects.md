@@ -18,7 +18,7 @@ tags:
 - indirect-effects
 - predation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Apparent Competition and Indirect Ecological Effects

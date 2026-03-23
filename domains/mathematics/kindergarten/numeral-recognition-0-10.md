@@ -14,7 +14,7 @@ tags:
 - symbols
 - number-recognition
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Numeral Recognition: 0-10

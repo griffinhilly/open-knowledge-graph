@@ -17,7 +17,7 @@ tags:
 - Shelah
 - NIP
 stage: expert
-status: draft
+status: validated
 ---
 
 # Stability and Instability: The Fundamental Dividing Line

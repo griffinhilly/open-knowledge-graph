@@ -16,7 +16,7 @@ tags:
 - evidence
 - triangulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Synthesizing Multiple Sources and Triangulating Evidence
 

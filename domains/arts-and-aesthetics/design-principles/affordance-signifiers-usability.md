@@ -18,7 +18,7 @@ tags:
 - signifiers
 - intuitive
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Affordance and Signifiers in Design

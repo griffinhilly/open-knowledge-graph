@@ -20,7 +20,7 @@ tags:
 - compositionality
 - meaning-construction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Compositionality and Semantic Values

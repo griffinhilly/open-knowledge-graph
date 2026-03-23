@@ -16,7 +16,7 @@ tags:
 - analysis
 - baroque
 stage: expert
-status: draft
+status: validated
 ---
 
 # Fugal Analysis and Structure

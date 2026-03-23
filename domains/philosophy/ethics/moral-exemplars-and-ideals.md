@@ -16,7 +16,7 @@ tags:
 - ideals
 - character
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moral Exemplars and Ideals

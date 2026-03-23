@@ -15,7 +15,7 @@ tags:
 - relevance
 - fallacies
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tu Quoque and Red Herring

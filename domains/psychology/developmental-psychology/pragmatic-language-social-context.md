@@ -15,7 +15,7 @@ tags:
 - context-sensitivity
 - conversational-skill
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pragmatic Language Development and Social Communication

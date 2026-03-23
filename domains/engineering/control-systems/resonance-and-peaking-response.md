@@ -16,7 +16,7 @@ tags:
 - bandwidth
 - frequency-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # Resonance, Peaking, and Bandwidth Relationships

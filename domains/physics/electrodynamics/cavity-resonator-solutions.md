@@ -15,7 +15,7 @@ tags:
 - resonant-modes
 - standing-waves
 stage: expert
-status: draft
+status: validated
 ---
 
 # Electromagnetic Field Solutions in Cavities

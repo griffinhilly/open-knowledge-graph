@@ -13,7 +13,7 @@ tags:
 - fault-tolerance
 - semantics
 stage: advanced
-status: draft
+status: validated
 ---
 # Idempotent Operations in Distributed Systems
 

@@ -15,7 +15,7 @@ tags:
 - parallelism
 - performance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Superscalar and VLIW Processors

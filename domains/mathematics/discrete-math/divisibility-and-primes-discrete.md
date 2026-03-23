@@ -16,7 +16,7 @@ tags:
 - factorization
 - fundamental-theorem
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Divisibility, Primes, and Fundamental Theorem of Arithmetic

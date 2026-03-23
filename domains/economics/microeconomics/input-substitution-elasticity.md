@@ -13,7 +13,7 @@ tags:
 - elasticity
 - substitution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Elasticity of Substitution Between Inputs

@@ -20,7 +20,7 @@ tags:
 - condensation
 - saturation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moist Adiabatic Lapse Rate

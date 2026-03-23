@@ -13,7 +13,7 @@ tags:
 - reproductive-isolation
 - sympatry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sympatric Speciation

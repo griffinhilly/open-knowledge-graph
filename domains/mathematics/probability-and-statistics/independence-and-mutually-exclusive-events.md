@@ -15,7 +15,7 @@ tags:
 - probability
 - independence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Independence and Mutually Exclusive Events

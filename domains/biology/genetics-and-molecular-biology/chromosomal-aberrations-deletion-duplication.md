@@ -15,7 +15,7 @@ tags:
 - inversions
 - translocations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chromosomal Aberrations: Deletions, Duplications, Inversions, and Translocations

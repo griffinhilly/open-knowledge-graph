@@ -14,7 +14,7 @@ tags:
 - repetition
 - complexity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Sestina: Complex Form and Repetition

@@ -16,7 +16,7 @@ tags:
 - deduction
 - entailment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Deductive Closure and Knowledge

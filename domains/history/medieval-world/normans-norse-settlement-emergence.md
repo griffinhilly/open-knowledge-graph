@@ -17,7 +17,7 @@ tags:
 - settlement
 - normandy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Norse Settlement and the Emergence of Normandy

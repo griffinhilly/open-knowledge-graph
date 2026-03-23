@@ -15,7 +15,7 @@ tags:
 - recording
 - media
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Audio-Visual Historical Sources

@@ -16,7 +16,7 @@ tags:
 - cortex
 - perception
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Visual System Anatomy and Physiology

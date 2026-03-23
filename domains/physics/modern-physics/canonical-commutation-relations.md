@@ -15,7 +15,7 @@ tags:
 - commutation
 - operators
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Canonical Commutation Relations and Uncertainty

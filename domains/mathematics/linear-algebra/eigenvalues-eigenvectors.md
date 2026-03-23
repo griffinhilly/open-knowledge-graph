@@ -15,7 +15,7 @@ tags:
 - eigenvectors
 - spectral
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Eigenvalues and Eigenvectors

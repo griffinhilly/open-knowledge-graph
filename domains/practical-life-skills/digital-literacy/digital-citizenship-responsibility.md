@@ -14,7 +14,7 @@ tags:
 - responsibility
 - digital-behavior
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Digital Citizenship and Responsibility

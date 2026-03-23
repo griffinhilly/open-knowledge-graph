@@ -13,7 +13,7 @@ tags:
 - clocks
 - minute
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Telling Time to the Minute

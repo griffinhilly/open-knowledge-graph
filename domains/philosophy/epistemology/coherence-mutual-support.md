@@ -16,7 +16,7 @@ tags:
 - justification
 - systems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Coherence and Mutual Support

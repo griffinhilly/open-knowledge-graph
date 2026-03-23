@@ -15,7 +15,7 @@ tags:
 - analytic-functions
 - 2d-electrostatics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Conformal Mapping Method

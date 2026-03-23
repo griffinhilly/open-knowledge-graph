@@ -16,7 +16,7 @@ tags:
 - binding-motifs
 - protein-dna-interactions
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Transcription Factor Binding Specificity and DNA Recognition
 

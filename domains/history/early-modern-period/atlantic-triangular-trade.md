@@ -16,7 +16,7 @@ tags:
 - economics
 - atlantic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Atlantic Triangular Trade

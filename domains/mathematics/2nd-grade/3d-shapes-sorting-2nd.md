@@ -13,7 +13,7 @@ tags:
 - 3d-shapes
 - sorting
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Three-Dimensional Shapes and Sorting

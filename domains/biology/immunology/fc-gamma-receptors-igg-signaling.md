@@ -20,7 +20,7 @@ tags:
 - immune-cell-activation
 - inflammation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Fc Gamma Receptors and IgG Signaling Pathways

@@ -13,7 +13,7 @@ tags:
 - dynamic-programming
 - decoding
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Viterbi Algorithm

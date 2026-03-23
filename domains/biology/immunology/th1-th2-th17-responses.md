@@ -16,7 +16,7 @@ tags:
 - th17
 - effector-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # Th1, Th2, and Th17 Effector Responses

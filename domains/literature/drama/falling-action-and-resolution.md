@@ -16,7 +16,7 @@ tags:
 - resolution
 - denouement
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Falling Action and Resolution

@@ -17,7 +17,7 @@ tags:
 - evidence
 - analysis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Quotation Selection and Integration Techniques

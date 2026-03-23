@@ -16,7 +16,7 @@ tags:
 - engineering
 - properties
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Natural vs. Manufactured Materials
 

@@ -16,7 +16,7 @@ tags:
 - validity
 - indicators
 stage: expert
-status: draft
+status: validated
 ---
 
 # Operationalization: From Concepts to Measurable Variables

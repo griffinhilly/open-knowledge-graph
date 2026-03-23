@@ -16,7 +16,7 @@ tags:
 - composition
 - technique
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rhythmic Development and Variation

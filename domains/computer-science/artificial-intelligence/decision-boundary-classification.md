@@ -13,7 +13,7 @@ tags:
 - geometry
 - model-interpretation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Decision Boundaries in Classification

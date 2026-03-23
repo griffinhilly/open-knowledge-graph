@@ -17,7 +17,7 @@ tags:
 - mechanics
 - compliance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pulmonary Ventilation Mechanics and Lung Compliance

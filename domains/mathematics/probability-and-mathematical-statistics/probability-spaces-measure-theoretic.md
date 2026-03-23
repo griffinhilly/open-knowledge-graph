@@ -17,7 +17,7 @@ tags:
 - measure-theory
 - foundations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Probability Spaces (Measure-Theoretic Definition)

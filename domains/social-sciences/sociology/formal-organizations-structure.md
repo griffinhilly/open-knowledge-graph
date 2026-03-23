@@ -13,7 +13,7 @@ tags:
 - structure
 - institutions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Formal Organizations: Structure and Function

@@ -17,7 +17,7 @@ tags:
 - religious-authority
 - persecution
 stage: formal-systems
-status: draft
+status: validated
 ---
 # The Spanish Inquisition: Religious Persecution and State Authority
 

@@ -16,7 +16,7 @@ tags:
 - power
 - domination
 stage: expert
-status: draft
+status: validated
 ---
 
 # Weber's Types of Legitimate Authority

@@ -16,7 +16,7 @@ tags:
 - Q vs K
 - equilibrium state
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reaction Quotient (Q) and Equilibrium Comparison

@@ -13,7 +13,7 @@ tags:
 - refractoriness
 - firing-frequency
 stage: expert
-status: draft
+status: validated
 ---
 
 # Absolute and Relative Refractory Periods: Neuronal Timing Constraints

@@ -15,7 +15,7 @@ tags:
 - shell-model
 - magic-numbers
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Nuclear Shell Model and Magic Numbers

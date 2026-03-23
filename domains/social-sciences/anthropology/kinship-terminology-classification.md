@@ -20,7 +20,7 @@ tags:
 - marriage
 - descent
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kinship Terminology and Classification Systems

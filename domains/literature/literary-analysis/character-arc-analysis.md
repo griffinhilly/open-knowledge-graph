@@ -19,7 +19,7 @@ tags:
 - analysis
 - narrative
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Character Arc Analysis

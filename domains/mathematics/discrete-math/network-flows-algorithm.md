@@ -10,7 +10,7 @@ tags:
 - graph-theory
 - flows
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Network Flows: Maximum Flow and Minimum Cut

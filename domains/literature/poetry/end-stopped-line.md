@@ -11,7 +11,7 @@ tags:
 - syntax
 - closure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # End-Stopped Lines and Grammatical Closure

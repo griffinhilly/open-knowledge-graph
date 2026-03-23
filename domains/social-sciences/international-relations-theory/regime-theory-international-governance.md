@@ -17,7 +17,7 @@ tags:
 - cooperation
 - issue-area
 stage: expert
-status: draft
+status: validated
 ---
 
 # Regime Theory and International Governance

@@ -18,7 +18,7 @@ tags:
 - temporality
 - global
 stage: expert
-status: draft
+status: validated
 ---
 
 # Periodization and Temporality in Global Literary History

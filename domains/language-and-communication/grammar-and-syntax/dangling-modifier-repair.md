@@ -14,7 +14,7 @@ tags:
 - sentence-errors
 - revision
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Dangling Modifier Repair

@@ -16,7 +16,7 @@ tags:
 - outbreak-control
 - investigation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Outbreak Investigation and Control Strategies

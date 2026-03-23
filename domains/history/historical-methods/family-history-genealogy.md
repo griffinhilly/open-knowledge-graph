@@ -18,7 +18,7 @@ tags:
 - biography
 - social-history
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Family History and Genealogical Research Methods

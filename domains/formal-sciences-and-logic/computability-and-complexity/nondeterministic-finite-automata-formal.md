@@ -16,7 +16,7 @@ tags:
 - nondeterminism
 - regular-languages
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nondeterministic Finite Automata

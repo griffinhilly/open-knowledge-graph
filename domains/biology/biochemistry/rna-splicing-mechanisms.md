@@ -17,7 +17,7 @@ tags:
 - exons
 - lariat intermediate
 stage: advanced
-status: draft
+status: validated
 ---
 
 # RNA Splicing Mechanisms

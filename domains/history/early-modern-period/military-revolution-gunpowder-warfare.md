@@ -14,7 +14,7 @@ tags:
 - military
 - state
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Military Revolution and Gunpowder Warfare

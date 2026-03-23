@@ -15,7 +15,7 @@ tags:
 - bessel-modes
 - azimuthal-modes
 stage: expert
-status: draft
+status: validated
 ---
 
 # Propagation in Circular Waveguides

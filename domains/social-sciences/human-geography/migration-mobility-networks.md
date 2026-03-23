@@ -17,7 +17,7 @@ tags:
 - transnational
 - flows
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Migration, Mobility, and Geographic Networks

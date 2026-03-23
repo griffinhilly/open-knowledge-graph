@@ -18,7 +18,7 @@ tags:
 - contradiction
 - logical-form
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Logical Consistency and Contradiction

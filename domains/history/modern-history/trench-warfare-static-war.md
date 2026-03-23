@@ -16,7 +16,7 @@ tags:
 - military-technology
 - stalemate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Trench Warfare and the Stalemate of Industrial War

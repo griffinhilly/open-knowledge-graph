@@ -16,7 +16,7 @@ tags:
 - proportion
 - observation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Three-Quarter View Figure Proportions

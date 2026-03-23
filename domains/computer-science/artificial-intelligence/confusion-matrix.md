@@ -17,7 +17,7 @@ tags:
 - tn
 - fn
 stage: advanced
-status: draft
+status: validated
 ---
 # Confusion Matrix and Classification Metrics
 

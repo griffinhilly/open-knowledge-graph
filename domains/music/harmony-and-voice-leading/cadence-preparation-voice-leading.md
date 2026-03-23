@@ -16,7 +16,7 @@ tags:
 - voice-leading
 - phrase-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cadence Preparation and Voice-Leading

@@ -13,7 +13,7 @@ tags:
 - psychoacoustics
 - cognitive
 stage: expert
-status: draft
+status: validated
 ---
 
 # Psychoacoustics and Perception Theory

@@ -18,7 +18,7 @@ tags:
 - bias
 - standpoint
 stage: expert
-status: draft
+status: validated
 ---
 # Objectivity in Historical Writing
 

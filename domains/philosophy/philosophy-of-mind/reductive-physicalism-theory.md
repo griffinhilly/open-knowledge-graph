@@ -13,7 +13,7 @@ tags:
 - type-identity
 - reductionism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reductive Physicalism and Mental Reduction

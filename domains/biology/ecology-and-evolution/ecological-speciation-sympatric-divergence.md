@@ -18,7 +18,7 @@ tags:
 - niche-divergence
 - divergent-selection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ecological Speciation and Sympatric Divergence Mechanisms

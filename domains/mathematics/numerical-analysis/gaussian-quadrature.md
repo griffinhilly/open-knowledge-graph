@@ -13,7 +13,7 @@ tags:
 - optimal
 - integration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gaussian Quadrature

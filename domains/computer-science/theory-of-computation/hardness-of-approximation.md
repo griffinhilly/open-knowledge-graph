@@ -13,7 +13,7 @@ tags:
 - inapproximability
 - lower-bounds
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hardness of Approximation

@@ -15,7 +15,7 @@ tags:
 - entropy
 - heat-transfer
 stage: formal-systems
-status: draft
+status: validated
 ---
 # T-S Diagrams: Temperature-Entropy Diagrams
 

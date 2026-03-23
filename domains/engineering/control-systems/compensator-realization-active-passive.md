@@ -17,7 +17,7 @@ tags:
 - passive
 - implementation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Compensator Realization: Active and Passive Networks

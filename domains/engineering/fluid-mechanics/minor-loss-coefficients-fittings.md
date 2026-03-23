@@ -16,7 +16,7 @@ tags:
 - valves
 - K-factor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Minor Loss Coefficients: Elbows, Valves, and Fittings

@@ -14,7 +14,7 @@ tags:
 - standard-usage
 - register
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Double Negatives in Standard English

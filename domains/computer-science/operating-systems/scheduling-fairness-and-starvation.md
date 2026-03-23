@@ -13,7 +13,7 @@ tags:
 - fairness
 - concurrency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Scheduling Fairness and Starvation Prevention

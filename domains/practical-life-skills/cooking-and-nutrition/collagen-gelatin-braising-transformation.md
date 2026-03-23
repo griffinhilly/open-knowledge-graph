@@ -18,7 +18,7 @@ tags:
 - slow-cooking
 - science
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Collagen and Gelatin in Braising

@@ -14,7 +14,7 @@ tags:
 - prediction
 - slope-intercept
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linear Regression Basics

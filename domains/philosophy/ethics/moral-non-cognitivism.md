@@ -15,7 +15,7 @@ tags:
 - expressivism
 - alternatives
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Non-Cognitivism: Alternatives to Truth

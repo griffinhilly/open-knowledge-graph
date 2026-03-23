@@ -17,7 +17,7 @@ tags:
 - expression
 - tonality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Romantic Expansion and Harmonic Ambiguity

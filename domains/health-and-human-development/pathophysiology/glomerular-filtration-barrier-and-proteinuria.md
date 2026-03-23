@@ -17,7 +17,7 @@ tags:
 - albuminuria
 - podocytes
 stage: expert
-status: draft
+status: validated
 ---
 
 # Glomerular Filtration Barrier and Proteinuria

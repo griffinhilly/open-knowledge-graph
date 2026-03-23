@@ -17,7 +17,7 @@ tags:
 - Pascal
 - coefficients
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binomial Theorem and Binomial Coefficients

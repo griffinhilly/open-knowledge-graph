@@ -15,7 +15,7 @@ tags:
 - aesthetics
 - interdisciplinary
 stage: expert
-status: draft
+status: validated
 ---
 
 # Philosophy and Literature: Conceptual Intersections

@@ -14,7 +14,7 @@ tags:
 - objection
 - refutation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Integrating Counterarguments in Persuasive Speeches

@@ -17,7 +17,7 @@ tags:
 - spirit
 - historical necessity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hegelian Aesthetics and Historical Progression

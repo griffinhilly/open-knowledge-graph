@@ -17,7 +17,7 @@ tags:
 - tamponade
 - inflammation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pericarditis and Pericardial Effusion: Inflammation, Hemodynamics, and Tamponade

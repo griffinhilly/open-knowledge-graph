@@ -16,7 +16,7 @@ tags:
 - falsification
 - demarcation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Karl Popper and Falsificationism

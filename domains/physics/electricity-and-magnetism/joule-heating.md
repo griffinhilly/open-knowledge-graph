@@ -13,7 +13,7 @@ tags:
 - heating
 - dissipation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Joule Heating and Power Dissipation

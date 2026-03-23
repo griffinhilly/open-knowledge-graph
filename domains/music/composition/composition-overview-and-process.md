@@ -17,7 +17,7 @@ tags:
 - workflow
 - planning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Composition Overview and Process

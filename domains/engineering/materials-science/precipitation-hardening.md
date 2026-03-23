@@ -17,7 +17,7 @@ tags:
 - overaging
 - guinier-preston-zones
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Precipitation Hardening

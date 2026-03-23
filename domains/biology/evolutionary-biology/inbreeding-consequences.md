@@ -14,7 +14,7 @@ tags:
 - fitness
 - conservation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Inbreeding Depression and Coefficient of Inbreeding

@@ -16,7 +16,7 @@ tags:
 - compounds
 - classification
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Elements vs Compounds
 

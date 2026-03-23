@@ -4,7 +4,7 @@ title: Set Notation Basics
 domain: formal-sciences-and-logic
 course: reasoning-and-proof
 prerequisites:
-  - id: sorting-and-classifying
+  - id: sorting-by-attributes-logic
     type: soft
   - id: all-some-none
     type: soft
@@ -18,7 +18,7 @@ builds-toward:
   - set-fundamentals
 tags: [sets, notation, membership, roster, set-builder]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Set Notation Basics

@@ -10,7 +10,7 @@ tags:
 - interpretations
 - foundations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Interpretations of Quantum Mechanics

@@ -16,7 +16,7 @@ tags:
 - durability
 - performance
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Synchronous vs. Asynchronous Replication

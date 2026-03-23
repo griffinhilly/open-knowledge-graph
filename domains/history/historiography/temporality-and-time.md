@@ -18,7 +18,7 @@ tags:
 - duration
 - chronology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Concepts of Time in Historical Thinking

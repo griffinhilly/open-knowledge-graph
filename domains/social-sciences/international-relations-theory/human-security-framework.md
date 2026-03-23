@@ -15,7 +15,7 @@ tags:
 - development
 - protection
 stage: expert
-status: draft
+status: validated
 ---
 
 # Human Security and Broadening Security Concepts

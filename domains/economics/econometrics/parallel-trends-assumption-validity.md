@@ -11,7 +11,7 @@ tags:
 - assumptions
 - identification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Parallel Trends Assumption: Validity and Testing

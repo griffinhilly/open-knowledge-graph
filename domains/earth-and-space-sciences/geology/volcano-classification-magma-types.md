@@ -15,7 +15,7 @@ tags:
 - magma
 - eruption-styles
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Volcano Classification and Magma Composition

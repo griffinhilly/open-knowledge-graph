@@ -13,7 +13,7 @@ tags:
 - consistency
 - coherence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cache Coherence Protocols and Memory Consistency

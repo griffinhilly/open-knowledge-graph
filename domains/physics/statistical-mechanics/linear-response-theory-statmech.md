@@ -15,7 +15,7 @@ tags:
 - susceptibility
 - kubo-formula
 stage: expert
-status: draft
+status: validated
 ---
 
 # Linear Response Theory and Susceptibilities

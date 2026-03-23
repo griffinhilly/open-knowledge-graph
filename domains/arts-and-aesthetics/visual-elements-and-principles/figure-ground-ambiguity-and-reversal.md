@@ -21,7 +21,7 @@ tags:
 - negative space
 - gestalt
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Figure-Ground Ambiguity: When Background Becomes Foreground

@@ -14,7 +14,7 @@ tags:
 - property-rights
 - incentives
 stage: expert
-status: draft
+status: validated
 ---
 
 # Property Rights and Economic Incentives

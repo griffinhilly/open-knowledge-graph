@@ -15,7 +15,7 @@ tags:
 - heat-transfer
 - materials
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Heat Conduction
 

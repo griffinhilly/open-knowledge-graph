@@ -13,7 +13,7 @@ tags:
 - pattern extension
 - creativity
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Extending and Creating Patterns

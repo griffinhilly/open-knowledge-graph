@@ -13,7 +13,7 @@ tags:
 - modality
 - possible-worlds
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Formal Semantics of Modality and Possibility

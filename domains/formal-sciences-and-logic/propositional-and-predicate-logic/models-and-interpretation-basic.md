@@ -15,7 +15,7 @@ tags:
 - models
 - semantics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Models and Interpretations in First-Order Logic

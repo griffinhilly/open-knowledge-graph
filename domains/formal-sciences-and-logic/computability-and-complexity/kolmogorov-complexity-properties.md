@@ -15,7 +15,7 @@ tags:
 - incompressibility
 - entropy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Kolmogorov Complexity and Algorithmic Information Theory

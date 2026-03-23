@@ -15,7 +15,7 @@ tags:
 - proportion
 - binomial
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Confidence Intervals for Proportions

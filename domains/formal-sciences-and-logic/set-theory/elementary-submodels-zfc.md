@@ -17,7 +17,7 @@ tags:
 - models
 - zfc
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Elementary Submodels of ZFC

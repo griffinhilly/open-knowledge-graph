@@ -16,7 +16,7 @@ tags:
 - hyphenated
 - identification
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hyphenated Chromatography-Mass Spectrometry

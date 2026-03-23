@@ -13,7 +13,7 @@ tags:
 - writing
 - fine-motor
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Numeral Writing: 0-10

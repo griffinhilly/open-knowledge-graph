@@ -15,7 +15,7 @@ tags:
 - distribution
 - efficiency
 stage: expert
-status: draft
+status: validated
 ---
 
 # Second Welfare Theorem: Separation of Efficiency and Distribution

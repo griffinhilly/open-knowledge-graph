@@ -15,7 +15,7 @@ tags:
 - culture
 - society
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Greek Symposium and Intellectual Culture

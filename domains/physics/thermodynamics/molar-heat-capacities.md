@@ -13,7 +13,7 @@ tags:
 - properties
 - measurement
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Molar Heat Capacities and Their Relations
 

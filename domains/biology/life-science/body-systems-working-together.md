@@ -24,7 +24,7 @@ tags:
 - integration
 - homeostasis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Body Systems Working Together
 

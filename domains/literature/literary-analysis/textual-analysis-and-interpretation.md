@@ -17,7 +17,7 @@ tags:
 - interpretation
 - textual-evidence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Textual Analysis and Close Interpretation

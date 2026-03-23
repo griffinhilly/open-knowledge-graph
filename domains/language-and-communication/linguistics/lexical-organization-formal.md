@@ -14,7 +14,7 @@ tags:
 - organization
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Formal Structure of the Mental Lexicon

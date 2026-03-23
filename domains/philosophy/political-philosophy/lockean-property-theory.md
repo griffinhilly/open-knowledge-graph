@@ -17,7 +17,7 @@ tags:
 - labor
 - natural-rights
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Locke's Labor Theory of Property

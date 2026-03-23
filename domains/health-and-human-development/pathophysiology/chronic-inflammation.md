@@ -17,7 +17,7 @@ tags:
 - chronic-disease
 - fibrosis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Chronic Inflammation

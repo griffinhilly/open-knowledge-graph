@@ -11,7 +11,7 @@ tags:
 - non-linear
 - morphology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Templatic Morphology and Non-Linear Affixation

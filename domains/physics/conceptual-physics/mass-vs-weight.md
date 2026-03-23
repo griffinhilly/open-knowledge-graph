@@ -16,7 +16,7 @@ tags:
 - weight
 - gravity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Mass vs. Weight
 

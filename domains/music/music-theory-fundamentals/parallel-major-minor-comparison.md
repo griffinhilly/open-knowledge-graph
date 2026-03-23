@@ -17,7 +17,7 @@ tags:
 - major-minor-relationship
 - parallel
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Parallel Major and Minor Scales

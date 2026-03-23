@@ -18,7 +18,7 @@ tags:
 - bioavailability
 - absorption
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Micronutrient Bioavailability and Factors Affecting Absorption

@@ -16,7 +16,7 @@ tags:
 - discourse
 - subjectivity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Foucault: Power, Knowledge, and Discourse
