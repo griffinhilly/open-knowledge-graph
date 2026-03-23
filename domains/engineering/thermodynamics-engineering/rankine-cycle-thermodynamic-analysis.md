@@ -18,7 +18,7 @@ tags:
 - rankine-cycle
 - steam-power
 - power-cycles
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

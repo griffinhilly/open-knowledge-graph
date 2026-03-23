@@ -16,7 +16,7 @@ tags:
 - justice
 - fairness
 - original-position
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

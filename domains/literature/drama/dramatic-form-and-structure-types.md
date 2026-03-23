@@ -19,7 +19,7 @@ tags:
 - well-made-play
 - experimental
 - architecture
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

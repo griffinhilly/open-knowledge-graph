@@ -14,7 +14,7 @@ tags:
 - legitimacy
 - sources
 - government
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - diesel-cycle
 - internal-combustion
 - efficiency
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

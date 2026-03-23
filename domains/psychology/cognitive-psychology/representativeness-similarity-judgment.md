@@ -13,7 +13,7 @@ tags:
 - heuristic
 - representativeness
 - similarity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

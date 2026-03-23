@@ -18,7 +18,7 @@ tags:
 - phenomenal-properties
 - relationalism
 - properties
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

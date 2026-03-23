@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - functional-analysis
 - normed-spaces
-stage: formal-systems
+stage: expert
 status: draft
 ---
 

@@ -28,7 +28,7 @@ tags:
 - Pinter
 - implication
 - silence
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Dramatic Subtext

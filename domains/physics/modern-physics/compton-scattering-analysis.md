@@ -14,7 +14,7 @@ tags:
 - photons
 - wave-particle-duality
 - scattering
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

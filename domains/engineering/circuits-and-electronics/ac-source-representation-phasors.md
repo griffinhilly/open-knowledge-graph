@@ -19,7 +19,7 @@ tags:
 - ac-sources
 - phasors
 - ac-analysis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

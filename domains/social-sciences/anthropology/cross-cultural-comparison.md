@@ -27,7 +27,7 @@ tags:
 - HRAF
 - universals
 - variation
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Cross-Cultural Comparison

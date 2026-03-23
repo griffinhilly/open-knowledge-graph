@@ -16,7 +16,7 @@ tags:
 - classification
 - social-organization
 - meaning
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

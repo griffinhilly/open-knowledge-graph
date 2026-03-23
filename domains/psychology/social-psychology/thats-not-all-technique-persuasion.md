@@ -15,7 +15,7 @@ tags:
 - compliance
 - sales tactics
 - framing effects
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

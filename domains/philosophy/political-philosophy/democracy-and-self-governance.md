@@ -16,7 +16,7 @@ tags:
 - majority-rule
 - representation
 - popular-sovereignty
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

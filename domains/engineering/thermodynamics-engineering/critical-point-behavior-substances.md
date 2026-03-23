@@ -10,7 +10,7 @@ tags:
 - critical-point
 - supercritical
 - phase-transitions
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

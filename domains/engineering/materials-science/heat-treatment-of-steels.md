@@ -18,7 +18,7 @@ tags:
 - tempering
 - martensite
 - TTT-diagram
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Heat Treatment of Steels

@@ -10,7 +10,7 @@ tags:
 - infinite-ramsey
 - set-theory
 - monochromatic-structures
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

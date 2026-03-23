@@ -18,7 +18,7 @@ tags:
 - suggestion
 - atmosphere
 - aestheticism
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

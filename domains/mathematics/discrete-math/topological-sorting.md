@@ -13,7 +13,7 @@ tags:
 - directed-graphs
 - ordering
 - algorithms
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Topological Sorting and Ordering

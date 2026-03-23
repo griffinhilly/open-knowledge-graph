@@ -15,7 +15,7 @@ tags:
 - defensive reasoning
 - self-protective
 - bias
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

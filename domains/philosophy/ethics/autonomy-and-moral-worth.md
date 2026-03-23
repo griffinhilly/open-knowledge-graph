@@ -13,7 +13,7 @@ tags:
 - autonomy
 - dignity
 - kantian
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

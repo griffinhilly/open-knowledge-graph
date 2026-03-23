@@ -14,7 +14,7 @@ tags:
 - justice
 - care
 - ethics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

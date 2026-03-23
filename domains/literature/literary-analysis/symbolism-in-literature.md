@@ -22,7 +22,7 @@ tags:
 - motif
 - meaning
 - representation
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

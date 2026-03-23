@@ -16,7 +16,7 @@ tags:
 - combustion
 - maximum-work-potential
 - environmental-reference
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - identity
 - secondary-deviance
 - becker
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - amino-acids
 - catabolism
 - nitrogen-metabolism
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

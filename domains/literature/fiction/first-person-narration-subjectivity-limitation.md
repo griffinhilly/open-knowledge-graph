@@ -17,7 +17,7 @@ tags:
 - first-person
 - subjectivity
 - limitation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

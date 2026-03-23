@@ -14,7 +14,7 @@ tags:
 - self-awareness
 - metacognition
 - asymmetry
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -24,7 +24,7 @@ tags:
 - heritability
 - gene-environment interaction
 - epigenetics
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Nature–Nurture Debate

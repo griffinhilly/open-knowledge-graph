@@ -16,7 +16,7 @@ tags:
 - buffer
 - equivalence point
 - Henderson-Hasselbalch
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

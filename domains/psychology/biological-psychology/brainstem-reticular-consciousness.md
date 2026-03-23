@@ -15,7 +15,7 @@ tags:
 - arousal
 - consciousness
 - brainstem
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

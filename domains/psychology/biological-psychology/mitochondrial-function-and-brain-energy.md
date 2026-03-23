@@ -21,7 +21,7 @@ tags:
 - energy
 - metabolism
 - aging
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

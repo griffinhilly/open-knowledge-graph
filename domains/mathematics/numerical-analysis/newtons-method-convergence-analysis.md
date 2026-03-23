@@ -12,7 +12,7 @@ tags:
 - newtons-method
 - root-finding
 - quadratic-convergence
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

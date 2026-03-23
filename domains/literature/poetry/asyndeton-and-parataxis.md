@@ -10,7 +10,7 @@ tags:
 - syntax
 - coordination
 - compression
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - algebraic-graph-theory
 - laplacian
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

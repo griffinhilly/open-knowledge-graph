@@ -14,7 +14,7 @@ tags:
 - identity
 - boundaries
 - conflict
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

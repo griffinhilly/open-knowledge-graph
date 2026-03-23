@@ -15,7 +15,7 @@ tags:
 - observation
 - methodology
 - participation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

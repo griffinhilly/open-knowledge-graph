@@ -17,7 +17,7 @@ tags:
 - emotional-development
 - infant-behavior
 - affiliation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

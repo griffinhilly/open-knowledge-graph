@@ -18,7 +18,7 @@ tags:
 - hs-diagram
 - ph-diagram
 - visualization
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

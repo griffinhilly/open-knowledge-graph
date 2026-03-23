@@ -17,7 +17,7 @@ tags:
 - initiation
 - life-stages
 - transition
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

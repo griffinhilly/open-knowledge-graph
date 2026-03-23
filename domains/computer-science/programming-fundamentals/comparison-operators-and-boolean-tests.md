@@ -15,7 +15,7 @@ tags:
 - comparison
 - boolean
 - logic
-stage: formal-systems
+stage: abstract-reasoning
 status: draft
 ---
 

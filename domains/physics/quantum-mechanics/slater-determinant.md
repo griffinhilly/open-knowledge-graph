@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - identical-particles
 - antisymmetry
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

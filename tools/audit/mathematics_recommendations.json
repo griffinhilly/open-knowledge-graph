@@ -1,0 +1,682 @@
+[
+  {
+    "id": "converting-centimeters-meters-2nd",
+    "course": "2nd-grade",
+    "current": "abstract-reasoning",
+    "recommended": "concrete-operations",
+    "confidence": "high",
+    "rationale": "2nd-grade should be concrete-operations, not abstract-reasoning"
+  },
+  {
+    "id": "converting-inches-feet-2nd",
+    "course": "2nd-grade",
+    "current": "abstract-reasoning",
+    "recommended": "concrete-operations",
+    "confidence": "high",
+    "rationale": "2nd-grade should be concrete-operations, not abstract-reasoning"
+  },
+  {
+    "id": "estimating-length-2nd",
+    "course": "2nd-grade",
+    "current": "abstract-reasoning",
+    "recommended": "concrete-operations",
+    "confidence": "high",
+    "rationale": "2nd-grade should be concrete-operations, not abstract-reasoning"
+  },
+  {
+    "id": "line-plots-measurement-data",
+    "course": "2nd-grade",
+    "current": "abstract-reasoning",
+    "recommended": "concrete-operations",
+    "confidence": "high",
+    "rationale": "2nd-grade should be concrete-operations, not abstract-reasoning"
+  },
+  {
+    "id": "measuring-length-feet-meters",
+    "course": "2nd-grade",
+    "current": "abstract-reasoning",
+    "recommended": "concrete-operations",
+    "confidence": "high",
+    "rationale": "2nd-grade should be concrete-operations, not abstract-reasoning"
+  },
+  {
+    "id": "measuring-length-inches-centimeters-2nd",
+    "course": "2nd-grade",
+    "current": "abstract-reasoning",
+    "recommended": "concrete-operations",
+    "confidence": "high",
+    "rationale": "2nd-grade should be concrete-operations, not abstract-reasoning"
+  },
+  {
+    "id": "measuring-length-standard-units-2nd",
+    "course": "2nd-grade",
+    "current": "abstract-reasoning",
+    "recommended": "concrete-operations",
+    "confidence": "high",
+    "rationale": "2nd-grade should be concrete-operations, not abstract-reasoning"
+  },
+  {
+    "id": "perimeter-understanding-2nd",
+    "course": "2nd-grade",
+    "current": "abstract-reasoning",
+    "recommended": "concrete-operations",
+    "confidence": "high",
+    "rationale": "2nd-grade should be concrete-operations, not abstract-reasoning"
+  },
+  {
+    "id": "line-plots-with-measurement-3rd",
+    "course": "3rd-grade",
+    "current": "abstract-reasoning",
+    "recommended": "concrete-operations",
+    "confidence": "high",
+    "rationale": "3rd-grade should be concrete-operations, not abstract-reasoning"
+  },
+  {
+    "id": "measuring-length-multiple-units-3rd",
+    "course": "3rd-grade",
+    "current": "abstract-reasoning",
+    "recommended": "concrete-operations",
+    "confidence": "high",
+    "rationale": "3rd-grade should be concrete-operations, not abstract-reasoning"
+  },
+  {
+    "id": "measuring-length-standard-units-3rd",
+    "course": "3rd-grade",
+    "current": "abstract-reasoning",
+    "recommended": "concrete-operations",
+    "confidence": "high",
+    "rationale": "3rd-grade should be concrete-operations, not abstract-reasoning"
+  },
+  {
+    "id": "right-angles-and-classification",
+    "course": "3rd-grade",
+    "current": "abstract-reasoning",
+    "recommended": "concrete-operations",
+    "confidence": "high",
+    "rationale": "3rd-grade should be concrete-operations, not abstract-reasoning"
+  },
+  {
+    "id": "right-angles-in-shapes-3rd",
+    "course": "3rd-grade",
+    "current": "abstract-reasoning",
+    "recommended": "concrete-operations",
+    "confidence": "high",
+    "rationale": "3rd-grade should be concrete-operations, not abstract-reasoning"
+  },
+  {
+    "id": "bessel-functions",
+    "course": "differential-equations",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Differential equations with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "dirac-delta-function",
+    "course": "differential-equations",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Differential equations with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "legendre-equations",
+    "course": "differential-equations",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Differential equations with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "legendre-polynomials-and-equations",
+    "course": "differential-equations",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Differential equations with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "stability-classification",
+    "course": "differential-equations",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Differential equations with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "carmichael-function-and-numbers",
+    "course": "discrete-math",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Discrete math with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "connectivity-components-discrete",
+    "course": "discrete-math",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Discrete math with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "graph-matrices-representations",
+    "course": "discrete-math",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Discrete math with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "minimum-spanning-trees-discrete",
+    "course": "discrete-math",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Discrete math with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "probabilistic-method-counting",
+    "course": "discrete-math",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Discrete math with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "topological-sorting",
+    "course": "discrete-math",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Discrete math with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "trees-and-tree-properties",
+    "course": "discrete-math",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Discrete math with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "adjacency-matrix",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "adjacency-matrix-graphs",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "block-designs-steiner-systems",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "catalan-numbers",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "chromatic-polynomial",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "edge-coloring-vizings-theorem",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "exponential-generating-functions",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "extremal-graph-theory",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "generating-functions-advanced",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "graph-laplacian",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "graph-laplacian-spectrum",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "graph-minors",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "graph-minors-robertson-seymour",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "infinite-ramsey-theory",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "introduction-matroids",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "latin-squares",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "lovasz-local-lemma",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "matrix-tree-theorem",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "matroids-introduction",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "polya-enumeration-theorem",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "probabilistic-method-graphs",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "ramsey-numbers",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "ramsey-numbers-and-bounds",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "ramsey-theory-foundations",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "stirling-numbers",
+    "course": "graph-theory-and-combinatorics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Graph theory with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "data-and-graphs-intro",
+    "course": "kindergarten",
+    "current": "concrete-operations",
+    "recommended": "pre-formal",
+    "confidence": "high",
+    "rationale": "Kindergarten topics should be pre-formal, not concrete-operations"
+  },
+  {
+    "id": "normed-vector-spaces",
+    "course": "measure-theory-and-functional-analysis",
+    "current": "formal-systems",
+    "recommended": "expert",
+    "confidence": "high",
+    "rationale": "Measure theory/functional analysis should be expert, not formal-systems"
+  },
+  {
+    "id": "sigma-algebras-formal-construction",
+    "course": "measure-theory-and-functional-analysis",
+    "current": "formal-systems",
+    "recommended": "expert",
+    "confidence": "high",
+    "rationale": "Measure theory/functional analysis should be expert, not formal-systems"
+  },
+  {
+    "id": "continuity-multivariable",
+    "course": "multivariable-calculus",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Multivariable calculus with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "critical-points-extrema",
+    "course": "multivariable-calculus",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Multivariable calculus with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "curl-divergence",
+    "course": "multivariable-calculus",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Multivariable calculus with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "differentiability-multivariable",
+    "course": "multivariable-calculus",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Multivariable calculus with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "multivariable-limits-definition",
+    "course": "multivariable-calculus",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Multivariable calculus with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "optimization-multivariable-basics",
+    "course": "multivariable-calculus",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Multivariable calculus with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "partial-derivatives-basics",
+    "course": "multivariable-calculus",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Multivariable calculus with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "stokes-theorem",
+    "course": "multivariable-calculus",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Multivariable calculus with few prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "chebyshev-nodes",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "chebyshev-nodes-optimal-interpolation",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "composite-quadrature",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "composite-quadrature-rules",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "condition-number-of-a-matrix",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "condition-number-of-a-problem",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "gauss-seidel-iterative-method",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "gaussian-quadrature",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "lagrange-polynomial-interpolation",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "lu-decomposition-numerical-numerical-analysis",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "machine-epsilon-and-rounding-errors",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "multistep-methods-adams-methods",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "newton-cotes-quadrature",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "newton-divided-differences",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "newtons-divided-differences",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "newtons-method-convergence-analysis",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "numerical-stability-and-conditioning",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "qr-algorithm-eigenvalues",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "richardsons-extrapolation",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "runges-phenomenon",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "secant-method-root-finding",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "stiff-differential-equations",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "successive-over-relaxation-sor",
+    "course": "numerical-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Numerical analysis with minimal prerequisites is likely formal-systems, not advanced"
+  },
+  {
+    "id": "bayesian-inference-intro",
+    "course": "probability-and-statistics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro probability/statistics should be formal-systems, not advanced"
+  }
+]

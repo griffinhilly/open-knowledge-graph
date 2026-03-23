@@ -14,7 +14,7 @@ tags:
 - FOMC
 - lender-of-last-resort
 - dual-mandate
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

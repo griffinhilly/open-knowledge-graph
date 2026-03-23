@@ -12,7 +12,7 @@ tags:
 - heat-transfer
 - constant-area
 - stagnation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

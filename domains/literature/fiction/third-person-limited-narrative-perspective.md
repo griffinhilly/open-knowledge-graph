@@ -15,7 +15,7 @@ tags:
 - third-person
 - limited
 - perspective
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

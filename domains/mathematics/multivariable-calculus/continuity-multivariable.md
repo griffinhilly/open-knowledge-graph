@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - continuity
 - limits
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

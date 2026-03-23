@@ -13,7 +13,7 @@ tags:
 - theory
 - levels-of-analysis
 - methodology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

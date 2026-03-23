@@ -15,7 +15,7 @@ tags:
 - helping
 - empathy
 - kin selection
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

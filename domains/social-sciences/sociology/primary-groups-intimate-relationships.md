@@ -13,7 +13,7 @@ tags:
 - groups
 - relationships
 - socialization
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

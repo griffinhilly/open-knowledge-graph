@@ -15,7 +15,7 @@ tags:
 - locke
 - natural-rights
 - limited-government
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - anaphora
 - rhetoric
 - structure
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

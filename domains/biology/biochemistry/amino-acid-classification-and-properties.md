@@ -18,7 +18,7 @@ tags:
 - hydrophobicity
 - charge
 - pKa
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - minimal-state
 - entitlement-theory
 - self-ownership
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

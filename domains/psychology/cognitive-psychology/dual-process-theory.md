@@ -18,7 +18,7 @@ tags:
 - system-2
 - automatic
 - controlled
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

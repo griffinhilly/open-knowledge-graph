@@ -17,7 +17,7 @@ tags:
 - perspective
 - geometry
 - picasso-braque
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - identity
 - individuality
 - personhood
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

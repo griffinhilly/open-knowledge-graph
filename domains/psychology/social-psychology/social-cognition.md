@@ -18,7 +18,7 @@ tags:
 - social cognition
 - person perception
 - mental representation
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

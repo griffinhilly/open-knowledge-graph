@@ -15,7 +15,7 @@ tags:
 - refrigeration
 - COP
 - thermodynamic-cycles
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

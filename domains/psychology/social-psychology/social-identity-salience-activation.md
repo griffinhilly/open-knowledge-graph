@@ -17,7 +17,7 @@ tags:
 - context
 - cognitive-activation
 - self-concept
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

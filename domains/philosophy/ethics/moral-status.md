@@ -15,7 +15,7 @@ tags:
 - personhood
 - sentience
 - marginal-cases
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

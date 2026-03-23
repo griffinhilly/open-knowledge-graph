@@ -16,7 +16,7 @@ tags:
 - metallic
 - covalent
 - ionic
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

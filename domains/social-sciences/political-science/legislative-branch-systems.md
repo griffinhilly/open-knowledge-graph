@@ -16,7 +16,7 @@ tags:
 - congress
 - representation
 - lawmaking
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - stress-intensity-factor
 - fracture-toughness
 - crack-mechanics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

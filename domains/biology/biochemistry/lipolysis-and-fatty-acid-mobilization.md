@@ -15,7 +15,7 @@ tags:
 - lipolysis
 - hormone-sensitive-lipase
 - fatty-acid-release
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

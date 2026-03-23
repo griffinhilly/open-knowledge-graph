@@ -16,7 +16,7 @@ tags:
 - measurement
 - psychometrics
 - assessment
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - criminal-justice
 - responsibility
 - desert
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

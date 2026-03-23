@@ -16,7 +16,7 @@ tags:
 - thermodynamics
 - isentropic
 - mach
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

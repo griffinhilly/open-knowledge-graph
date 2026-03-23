@@ -13,7 +13,7 @@ tags:
 - omniscient
 - authority
 - narrator
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

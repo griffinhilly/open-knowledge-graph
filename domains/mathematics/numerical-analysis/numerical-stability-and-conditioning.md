@@ -13,7 +13,7 @@ tags:
 - stability
 - conditioning
 - well-posed-problems
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

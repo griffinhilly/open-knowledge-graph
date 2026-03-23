@@ -12,7 +12,7 @@ tags:
 - scarcity
 - choice
 - tradeoffs
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

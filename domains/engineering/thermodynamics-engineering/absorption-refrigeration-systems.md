@@ -15,7 +15,7 @@ tags:
 - refrigeration
 - heat-driven
 - thermodynamics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

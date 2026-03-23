@@ -15,7 +15,7 @@ tags:
 - contradiction
 - meaning
 - effect
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

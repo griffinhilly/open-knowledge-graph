@@ -13,7 +13,7 @@ tags:
 - naming
 - conventions
 - readability
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

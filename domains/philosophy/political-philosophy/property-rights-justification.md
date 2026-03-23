@@ -16,7 +16,7 @@ tags:
 - justice
 - distribution
 - economic-rights
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

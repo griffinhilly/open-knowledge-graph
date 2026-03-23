@@ -16,7 +16,7 @@ tags:
 - tolerance
 - justice
 - equality
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

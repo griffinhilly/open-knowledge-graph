@@ -15,7 +15,7 @@ tags:
 - adjacency-matrix
 - spectral-methods
 - eigenvalues
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

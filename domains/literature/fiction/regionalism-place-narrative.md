@@ -16,7 +16,7 @@ tags:
 - identity
 - local
 - geography
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

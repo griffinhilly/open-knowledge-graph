@@ -19,7 +19,7 @@ tags:
 - neuroscience
 - empiricism
 - third-person
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

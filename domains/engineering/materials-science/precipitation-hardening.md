@@ -16,7 +16,7 @@ tags:
 - coherent-precipitates
 - overaging
 - guinier-preston-zones
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - multistep-methods
 - adams-bashforth
 - adams-moulton
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

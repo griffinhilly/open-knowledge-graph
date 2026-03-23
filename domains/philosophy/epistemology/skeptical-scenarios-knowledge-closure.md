@@ -17,7 +17,7 @@ tags:
 - scenarios
 - closure
 - knowledge
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

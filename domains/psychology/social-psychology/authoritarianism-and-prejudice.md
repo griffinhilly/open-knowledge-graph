@@ -14,7 +14,7 @@ tags:
 - prejudice
 - personality
 - conformity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - energy
 - conservation
 - steady-flow
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

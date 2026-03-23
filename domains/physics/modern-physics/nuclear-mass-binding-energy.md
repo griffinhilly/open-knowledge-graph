@@ -14,7 +14,7 @@ tags:
 - nuclear
 - binding-energy
 - mass-defect
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

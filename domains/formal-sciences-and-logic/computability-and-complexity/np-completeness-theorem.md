@@ -16,7 +16,7 @@ tags:
 - cook-levin
 - sat
 - completeness
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -25,7 +25,7 @@ tags:
 - liquidus
 - solidus
 - eutectic
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

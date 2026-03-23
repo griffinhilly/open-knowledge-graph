@@ -17,7 +17,7 @@ tags:
 - consciousness
 - narration
 - analysis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Reading and Analyzing Stream of Consciousness

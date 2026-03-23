@@ -22,7 +22,7 @@ tags:
 - serotonin
 - norepinephrine
 - metabolism
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

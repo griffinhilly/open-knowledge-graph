@@ -14,7 +14,7 @@ tags:
 - egocentrism
 - social-anxiety
 - self-consciousness
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

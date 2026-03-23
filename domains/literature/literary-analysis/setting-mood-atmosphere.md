@@ -16,7 +16,7 @@ tags:
 - atmosphere
 - mood
 - sensory
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

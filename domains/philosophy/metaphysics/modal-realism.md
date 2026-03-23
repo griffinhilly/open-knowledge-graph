@@ -14,7 +14,7 @@ tags:
 - possible worlds
 - actualism
 - ersatzism
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

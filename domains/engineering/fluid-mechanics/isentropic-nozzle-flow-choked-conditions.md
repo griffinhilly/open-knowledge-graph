@@ -14,7 +14,7 @@ tags:
 - nozzle
 - choked
 - sonic
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - intercooling
 - pressure-ratio
 - power-input
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - combinatorics
 - probability
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

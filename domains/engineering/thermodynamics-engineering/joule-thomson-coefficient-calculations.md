@@ -14,7 +14,7 @@ tags:
 - cooling
 - heating
 - real-gas
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

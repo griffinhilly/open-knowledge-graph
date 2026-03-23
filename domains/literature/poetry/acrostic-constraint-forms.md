@@ -16,7 +16,7 @@ tags:
 - form
 - hidden-message
 - limitation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

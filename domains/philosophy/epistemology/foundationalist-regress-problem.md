@@ -14,7 +14,7 @@ tags:
 - foundationalism
 - justification
 - support
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

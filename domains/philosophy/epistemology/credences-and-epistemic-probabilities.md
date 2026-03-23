@@ -18,7 +18,7 @@ tags:
 - degrees-of-belief
 - probability
 - bayesian
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

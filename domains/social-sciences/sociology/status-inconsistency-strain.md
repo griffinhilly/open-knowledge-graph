@@ -13,7 +13,7 @@ tags:
 - status-crystallization
 - strain
 - lenski
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - series-resonance
 - current-magnification
 - voltage-magnification
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

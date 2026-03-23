@@ -16,7 +16,7 @@ tags:
 - externalism
 - environment
 - reference
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Wide Content and Externalism

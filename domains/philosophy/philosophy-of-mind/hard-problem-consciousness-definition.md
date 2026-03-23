@@ -16,7 +16,7 @@ tags:
 - hard-problem
 - consciousness
 - explanation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

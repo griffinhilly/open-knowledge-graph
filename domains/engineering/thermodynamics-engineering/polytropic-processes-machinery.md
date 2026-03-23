@@ -16,7 +16,7 @@ tags:
 - machinery
 - compression
 - expansion
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

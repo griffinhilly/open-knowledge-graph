@@ -12,7 +12,7 @@ tags:
 - shock-waves
 - compressible-flow
 - entropy-generation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

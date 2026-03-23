@@ -16,7 +16,7 @@ tags:
 - natural-kinds
 - essence
 - reference
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

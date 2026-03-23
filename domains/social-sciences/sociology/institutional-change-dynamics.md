@@ -17,7 +17,7 @@ tags:
 - institutional-dynamics
 - transformation
 - innovation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

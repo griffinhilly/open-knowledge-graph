@@ -18,7 +18,7 @@ tags:
 - compressibility
 - surface-tension
 - continuum
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

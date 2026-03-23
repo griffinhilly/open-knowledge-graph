@@ -14,7 +14,7 @@ tags:
 - system-calls
 - abi
 - interface
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

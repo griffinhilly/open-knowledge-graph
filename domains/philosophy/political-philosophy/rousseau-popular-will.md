@@ -14,7 +14,7 @@ tags:
 - rousseau
 - democracy
 - general-will
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

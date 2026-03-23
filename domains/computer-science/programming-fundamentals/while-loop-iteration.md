@@ -13,7 +13,7 @@ tags:
 - loops
 - iteration
 - while
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

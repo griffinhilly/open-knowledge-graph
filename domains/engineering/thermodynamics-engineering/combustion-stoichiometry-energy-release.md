@@ -18,7 +18,7 @@ tags:
 - stoichiometry
 - energy
 - heating-value
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

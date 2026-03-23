@@ -17,7 +17,7 @@ tags:
 - ideology
 - engagement
 - class
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - coding
 - receptors
 - perception
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

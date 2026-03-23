@@ -15,7 +15,7 @@ tags:
 - mood
 - atmosphere
 - emotional-effect
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Tone, Mood, and Atmosphere Distinguished

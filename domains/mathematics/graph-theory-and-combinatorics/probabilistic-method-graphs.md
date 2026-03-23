@@ -12,7 +12,7 @@ tags:
 - combinatorics
 - probability
 - method
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

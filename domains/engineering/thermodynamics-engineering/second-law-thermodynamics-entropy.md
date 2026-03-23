@@ -16,7 +16,7 @@ tags:
 - second-law
 - entropy
 - irreversibility
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

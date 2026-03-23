@@ -13,7 +13,7 @@ tags:
 - boolean-satisfiability
 - sat-solvers
 - completeness
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

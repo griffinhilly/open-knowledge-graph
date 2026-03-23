@@ -16,7 +16,7 @@ tags:
 - obligation
 - legitimacy
 - contract
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

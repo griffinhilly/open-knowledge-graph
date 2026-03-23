@@ -15,7 +15,7 @@ tags:
 - speech
 - perception
 - categories
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

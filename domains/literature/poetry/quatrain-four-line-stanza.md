@@ -10,7 +10,7 @@ tags:
 - form
 - stanza
 - structure
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

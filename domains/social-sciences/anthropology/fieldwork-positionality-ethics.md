@@ -16,7 +16,7 @@ tags:
 - fieldwork
 - positionality
 - ethics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

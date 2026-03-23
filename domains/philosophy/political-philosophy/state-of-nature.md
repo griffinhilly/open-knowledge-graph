@@ -17,7 +17,7 @@ tags:
 - Rousseau
 - foundational
 - political-philosophy
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

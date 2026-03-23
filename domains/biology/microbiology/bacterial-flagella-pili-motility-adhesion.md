@@ -15,7 +15,7 @@ tags:
 - motility
 - adhesion
 - cell-surface
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

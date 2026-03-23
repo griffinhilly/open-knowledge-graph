@@ -20,7 +20,7 @@ tags:
 - scattering
 - momentum
 - wavelength-shift
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

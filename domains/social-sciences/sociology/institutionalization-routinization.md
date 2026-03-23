@@ -12,7 +12,7 @@ tags:
 - routinization
 - taken-for-granted
 - new-institutional
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Institutionalization Processes and Routinization

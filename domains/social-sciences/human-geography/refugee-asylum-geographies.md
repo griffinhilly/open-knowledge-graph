@@ -15,7 +15,7 @@ tags:
 - displacement
 - humanitarian
 - sovereignty
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

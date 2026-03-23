@@ -15,7 +15,7 @@ tags:
 - kinetics
 - nucleation-growth
 - ttc-curves
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

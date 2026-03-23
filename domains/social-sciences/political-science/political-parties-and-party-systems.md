@@ -20,7 +20,7 @@ tags:
 - two-party
 - multiparty
 - party organization
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

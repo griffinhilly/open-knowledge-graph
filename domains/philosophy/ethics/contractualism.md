@@ -24,7 +24,7 @@ tags:
 - Scanlon
 - social-contract
 - fairness
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Contractualism

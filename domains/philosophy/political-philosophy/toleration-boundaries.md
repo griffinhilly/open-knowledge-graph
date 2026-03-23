@@ -14,7 +14,7 @@ tags:
 - pluralism
 - liberal-limits
 - intolerance
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

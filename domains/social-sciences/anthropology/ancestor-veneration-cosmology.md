@@ -15,7 +15,7 @@ tags:
 - cosmology
 - continuity
 - morality
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

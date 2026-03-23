@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - bell-inequalities
 - quantum-nonlocality
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -21,7 +21,7 @@ tags:
 - pentameter
 - Shakespeare
 - prosody
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -21,7 +21,7 @@ tags:
 - SAT
 - satisfiability
 - Cook-Levin
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

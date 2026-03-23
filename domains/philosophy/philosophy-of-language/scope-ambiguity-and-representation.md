@@ -17,7 +17,7 @@ tags:
 - quantification
 - ambiguity
 - logical-form
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Scope Ambiguity and Logical Form

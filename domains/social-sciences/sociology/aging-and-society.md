@@ -17,7 +17,7 @@ tags:
 - age-stratification
 - older-adults
 - life-course
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

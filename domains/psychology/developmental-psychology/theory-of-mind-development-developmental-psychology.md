@@ -17,7 +17,7 @@ tags:
 - Sally-Anne task
 - perspective-taking
 - autism
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

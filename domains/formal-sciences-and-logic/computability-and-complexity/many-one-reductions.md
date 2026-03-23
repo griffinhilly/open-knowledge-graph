@@ -15,7 +15,7 @@ tags:
 - reductions
 - undecidability
 - proof-technique
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

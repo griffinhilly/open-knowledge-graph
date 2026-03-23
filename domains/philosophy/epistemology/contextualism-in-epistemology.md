@@ -18,7 +18,7 @@ tags:
 - Cohen
 - knowledge-attributions
 - standards
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

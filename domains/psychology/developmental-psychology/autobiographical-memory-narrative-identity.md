@@ -11,7 +11,7 @@ tags:
 - narrative
 - identity
 - self-concept
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

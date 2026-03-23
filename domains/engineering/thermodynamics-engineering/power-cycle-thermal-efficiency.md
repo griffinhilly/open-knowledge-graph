@@ -17,7 +17,7 @@ tags:
 - efficiency
 - power
 - carnot
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - reasons-responsiveness
 - moral responsibility
 - free will
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

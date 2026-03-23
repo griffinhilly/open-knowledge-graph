@@ -15,7 +15,7 @@ tags:
 - resources
 - power
 - conflict
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

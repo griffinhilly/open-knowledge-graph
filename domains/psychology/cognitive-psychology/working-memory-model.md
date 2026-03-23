@@ -16,7 +16,7 @@ tags:
 - working-memory
 - baddeley
 - short-term
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - stress-cycles
 - s-n-curves
 - endurance-limit
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - classification
 - seriation
 - reversibility
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

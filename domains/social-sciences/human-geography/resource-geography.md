@@ -32,7 +32,7 @@ tags:
 - water
 - energy geography
 - environmental justice
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Resource Geography and Political Ecology

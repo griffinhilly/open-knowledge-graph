@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - identical-particles
 - symmetry
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

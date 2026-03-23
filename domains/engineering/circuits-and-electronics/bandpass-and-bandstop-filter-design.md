@@ -15,7 +15,7 @@ tags:
 - bandstop
 - notch
 - cascade-filters
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

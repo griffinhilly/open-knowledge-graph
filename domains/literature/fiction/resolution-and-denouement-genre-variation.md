@@ -14,7 +14,7 @@ tags:
 - resolution
 - denouement
 - ending
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

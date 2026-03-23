@@ -13,7 +13,7 @@ tags:
 - foundational
 - perspective
 - theory
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

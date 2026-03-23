@@ -17,7 +17,7 @@ tags:
 - popular-sovereignty
 - political-equality
 - collective-decision
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

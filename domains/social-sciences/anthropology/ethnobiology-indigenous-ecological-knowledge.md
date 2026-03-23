@@ -15,7 +15,7 @@ tags:
 - indigenous
 - plants
 - animals
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

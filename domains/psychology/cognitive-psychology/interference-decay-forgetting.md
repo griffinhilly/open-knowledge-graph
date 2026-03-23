@@ -11,7 +11,7 @@ tags:
 - forgetting
 - interference
 - decay
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

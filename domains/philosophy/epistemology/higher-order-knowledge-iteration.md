@@ -12,7 +12,7 @@ tags:
 - introspection
 - nested-knowledge
 - meta-knowledge
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

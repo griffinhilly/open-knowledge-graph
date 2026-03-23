@@ -16,7 +16,7 @@ tags:
 - embedded-economy
 - social-institutions
 - economic-behavior
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

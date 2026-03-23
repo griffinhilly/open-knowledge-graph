@@ -13,7 +13,7 @@ tags:
 - temporal
 - properties
 - change
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Temporal Properties and Temporal Change

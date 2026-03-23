@@ -18,7 +18,7 @@ tags:
 - thisness
 - individuation
 - metaphysics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

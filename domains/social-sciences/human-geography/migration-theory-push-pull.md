@@ -26,7 +26,7 @@ tags:
 - diaspora
 - Ravenstein
 - mobility
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

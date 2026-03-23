@@ -16,7 +16,7 @@ tags:
 - general-will
 - social-contract
 - democracy
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - self-perception
 - self-esteem
 - self-evaluation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

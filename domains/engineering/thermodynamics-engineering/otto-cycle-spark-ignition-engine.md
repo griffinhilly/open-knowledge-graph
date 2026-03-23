@@ -14,7 +14,7 @@ tags:
 - otto-cycle
 - reciprocating-engine
 - combustion
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

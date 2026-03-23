@@ -29,7 +29,7 @@ tags:
 - population growth
 - transition model
 - stages
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

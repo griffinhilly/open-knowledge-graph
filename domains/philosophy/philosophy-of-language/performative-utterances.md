@@ -12,7 +12,7 @@ tags:
 - performatives
 - speech-acts
 - utterance
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

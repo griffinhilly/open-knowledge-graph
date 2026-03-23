@@ -15,7 +15,7 @@ tags:
 - locke
 - property
 - limited-government
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

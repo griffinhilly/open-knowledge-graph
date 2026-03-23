@@ -14,7 +14,7 @@ tags:
 - lattice
 - symmetry
 - bravais
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

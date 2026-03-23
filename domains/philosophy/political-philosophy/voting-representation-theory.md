@@ -16,7 +16,7 @@ tags:
 - aggregation
 - representation
 - social-choice
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

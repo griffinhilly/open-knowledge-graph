@@ -12,7 +12,7 @@ tags:
 - strings
 - sequences
 - characters
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

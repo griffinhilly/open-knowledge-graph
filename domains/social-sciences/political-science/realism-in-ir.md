@@ -16,7 +16,7 @@ tags:
 - national interest
 - Waltz
 - Morgenthau
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

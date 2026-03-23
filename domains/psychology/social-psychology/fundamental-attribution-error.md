@@ -13,7 +13,7 @@ tags:
 - attribution
 - bias
 - dispositionism
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - gauss-seidel
 - iterative-solver
 - fast-convergence
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

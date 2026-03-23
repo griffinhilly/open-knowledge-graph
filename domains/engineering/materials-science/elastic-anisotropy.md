@@ -14,7 +14,7 @@ tags:
 - anisotropy
 - crystal-symmetry
 - direction-dependent-properties
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

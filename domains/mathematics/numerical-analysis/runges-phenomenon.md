@@ -13,7 +13,7 @@ tags:
 - runges-phenomenon
 - oscillation
 - interpolation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

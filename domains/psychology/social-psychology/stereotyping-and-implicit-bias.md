@@ -19,7 +19,7 @@ tags:
 - implicit bias
 - IAT
 - automatic processing
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Stereotyping and Implicit Bias

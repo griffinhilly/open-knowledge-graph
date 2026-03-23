@@ -16,7 +16,7 @@ tags:
 - authority
 - legitimacy
 - cooperation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

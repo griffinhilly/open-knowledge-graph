@@ -15,7 +15,7 @@ tags:
 - justification
 - skepticism
 - foundationalism
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -23,7 +23,7 @@ tags:
 - inflammation
 - neuroinflammation
 - brain-immunity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

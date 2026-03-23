@@ -15,7 +15,7 @@ tags:
 - ecology
 - conservation
 - sustainability
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

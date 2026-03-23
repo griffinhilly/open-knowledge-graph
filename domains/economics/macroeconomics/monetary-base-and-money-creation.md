@@ -15,7 +15,7 @@ tags:
 - money-supply
 - central-bank
 - banking
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

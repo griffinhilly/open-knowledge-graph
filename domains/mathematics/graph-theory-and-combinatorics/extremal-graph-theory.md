@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - graph-theory
 - extremal
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

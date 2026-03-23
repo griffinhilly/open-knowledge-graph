@@ -13,7 +13,7 @@ tags:
 - information processing
 - memory
 - development
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

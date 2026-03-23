@@ -16,7 +16,7 @@ tags:
 - rule-of-mixtures
 - CFRP
 - matrix
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

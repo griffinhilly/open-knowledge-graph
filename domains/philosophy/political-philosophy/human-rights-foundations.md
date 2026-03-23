@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - human-rights
 - universal-morality
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

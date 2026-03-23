@@ -13,7 +13,7 @@ tags:
 - reduced-properties
 - generalized-correlations
 - acentric-factor
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

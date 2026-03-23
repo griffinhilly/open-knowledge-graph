@@ -15,7 +15,7 @@ tags:
 - decidability
 - languages
 - recognition
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

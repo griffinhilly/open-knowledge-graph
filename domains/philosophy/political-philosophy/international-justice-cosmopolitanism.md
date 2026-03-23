@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - cosmopolitanism
 - global-justice
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

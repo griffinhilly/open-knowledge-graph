@@ -19,7 +19,7 @@ tags:
 - chunking
 - skill-acquisition
 - pattern-recognition
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Expertise and Chunking

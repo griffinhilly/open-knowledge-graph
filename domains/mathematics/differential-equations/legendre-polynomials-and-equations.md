@@ -12,7 +12,7 @@ tags:
 - special-functions
 - legendre
 - orthogonal
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

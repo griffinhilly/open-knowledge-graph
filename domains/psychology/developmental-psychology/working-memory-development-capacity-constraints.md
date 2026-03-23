@@ -13,7 +13,7 @@ tags:
 - capacity
 - span
 - information-processing
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

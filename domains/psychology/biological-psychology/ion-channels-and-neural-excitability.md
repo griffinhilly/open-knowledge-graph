@@ -19,7 +19,7 @@ tags:
 - cellular
 - neurophysiology
 - ion-transport
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

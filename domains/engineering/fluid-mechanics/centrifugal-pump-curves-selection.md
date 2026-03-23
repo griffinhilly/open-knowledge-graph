@@ -12,7 +12,7 @@ tags:
 - pumps
 - performance
 - head-capacity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - nonviolence
 - civil-disobedience
 - movements
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

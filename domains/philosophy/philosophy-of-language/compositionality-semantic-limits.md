@@ -15,7 +15,7 @@ tags:
 - semantics
 - meaning
 - structure
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

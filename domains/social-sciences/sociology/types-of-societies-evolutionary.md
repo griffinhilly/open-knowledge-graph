@@ -13,7 +13,7 @@ tags:
 - society-types
 - macro-sociology
 - evolution
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

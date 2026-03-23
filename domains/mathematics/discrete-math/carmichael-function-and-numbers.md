@@ -12,7 +12,7 @@ tags:
 - number-theory
 - carmichael
 - prime-testing
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

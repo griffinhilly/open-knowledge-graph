@@ -12,7 +12,7 @@ tags:
 - violence
 - persecution
 - social-change
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

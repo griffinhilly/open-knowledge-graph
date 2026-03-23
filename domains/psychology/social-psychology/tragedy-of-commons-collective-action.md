@@ -14,7 +14,7 @@ tags:
 - resource-management
 - social-dilemma
 - sustainability
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - democracy
 - public-reason
 - legitimacy
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - influence
 - reciprocity
 - foot-in-door
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

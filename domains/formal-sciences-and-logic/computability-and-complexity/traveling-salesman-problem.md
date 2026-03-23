@@ -15,7 +15,7 @@ tags:
 - optimization
 - np-hard
 - routing
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

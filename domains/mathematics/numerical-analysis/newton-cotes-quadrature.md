@@ -13,7 +13,7 @@ tags:
 - numerical-integration
 - quadrature
 - newton-cotes
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

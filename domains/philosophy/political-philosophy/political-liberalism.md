@@ -18,7 +18,7 @@ tags:
 - overlapping-consensus
 - pluralism
 - public-reason
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Political Liberalism and Public Reason

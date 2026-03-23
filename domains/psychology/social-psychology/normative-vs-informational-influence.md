@@ -17,7 +17,7 @@ tags:
 - conformity
 - mechanisms
 - psychology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

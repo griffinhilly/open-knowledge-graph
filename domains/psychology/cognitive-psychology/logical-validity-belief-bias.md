@@ -15,7 +15,7 @@ tags:
 - logic
 - bias
 - judgment
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

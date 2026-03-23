@@ -17,7 +17,7 @@ tags:
 - commitment
 - cognitive dissonance
 - deception
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

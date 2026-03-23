@@ -13,7 +13,7 @@ tags:
 - space
 - social-reproduction
 - inequality
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

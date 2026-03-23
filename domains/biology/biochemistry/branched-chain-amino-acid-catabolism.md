@@ -17,7 +17,7 @@ tags:
 - leucine
 - isoleucine
 - valine
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

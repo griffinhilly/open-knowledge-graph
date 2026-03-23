@@ -13,7 +13,7 @@ tags:
 - authority
 - organizational behavior
 - situational factors
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

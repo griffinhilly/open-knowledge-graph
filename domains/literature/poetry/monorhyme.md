@@ -13,7 +13,7 @@ tags:
 - constraint
 - musicality
 - persistence
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

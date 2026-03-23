@@ -10,7 +10,7 @@ tags:
 - meter
 - triple-meter
 - epic
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

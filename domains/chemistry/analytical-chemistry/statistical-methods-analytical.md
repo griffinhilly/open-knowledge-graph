@@ -34,7 +34,7 @@ tags:
 - precision
 - accuracy
 - confidence intervals
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

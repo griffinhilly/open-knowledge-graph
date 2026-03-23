@@ -18,7 +18,7 @@ tags:
 - narrative
 - rhythm
 - meaning
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -32,7 +32,7 @@ tags:
 - functional-programming
 - models-of-computation
 - rewriting-systems
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

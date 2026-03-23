@@ -14,7 +14,7 @@ tags:
 - perception
 - visual
 - segmentation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

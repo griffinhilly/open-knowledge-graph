@@ -15,7 +15,7 @@ tags:
 - climate
 - displacement
 - environmental
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

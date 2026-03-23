@@ -19,7 +19,7 @@ tags:
 - GABA-A
 - anxiety
 - sedation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

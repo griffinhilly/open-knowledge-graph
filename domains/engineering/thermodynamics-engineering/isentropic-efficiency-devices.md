@@ -10,7 +10,7 @@ tags:
 - efficiency
 - isentropic
 - devices
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

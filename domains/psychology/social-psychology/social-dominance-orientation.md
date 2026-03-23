@@ -15,7 +15,7 @@ tags:
 - hierarchy
 - inequality
 - prejudice
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

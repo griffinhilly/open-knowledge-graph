@@ -32,7 +32,7 @@ tags:
 - molar absorptivity
 - transmittance
 - spectrophotometry
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

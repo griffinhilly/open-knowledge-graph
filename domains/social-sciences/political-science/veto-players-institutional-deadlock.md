@@ -16,7 +16,7 @@ tags:
 - gridlock
 - deadlock
 - change
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

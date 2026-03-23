@@ -17,7 +17,7 @@ tags:
 - paragraph
 - lyric
 - compression
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

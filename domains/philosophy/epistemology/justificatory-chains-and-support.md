@@ -10,7 +10,7 @@ tags:
 - mereology
 - justification-combination
 - support-structure
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

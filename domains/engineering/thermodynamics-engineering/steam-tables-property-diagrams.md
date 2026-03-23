@@ -14,7 +14,7 @@ tags:
 - property-diagrams
 - problem-solving
 - reference
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Using Steam Tables and Thermodynamic Diagrams

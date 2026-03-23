@@ -18,7 +18,7 @@ tags:
 - monosaccharides
 - polysaccharides
 - glycosidic bonds
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

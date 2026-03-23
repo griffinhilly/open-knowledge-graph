@@ -16,7 +16,7 @@ tags:
 - syncretism
 - mixture
 - postcolonial
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

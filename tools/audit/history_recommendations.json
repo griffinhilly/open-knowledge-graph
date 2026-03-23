@@ -1,0 +1,154 @@
+[
+  {
+    "id": "early-modern-gender-and-family-relations",
+    "course": "early-modern-period",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard topic in undergrad Early Modern history surveys, not specialized electives requiring multiple prerequisites."
+  },
+  {
+    "id": "early-modern-witch-hunts-anxiety",
+    "course": "early-modern-period",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard topic in undergrad Early Modern history surveys, not specialized electives requiring multiple prerequisites."
+  },
+  {
+    "id": "early-modern-witchcraft-persecutions",
+    "course": "early-modern-period",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard topic in undergrad Early Modern history surveys, not specialized electives requiring multiple prerequisites."
+  },
+  {
+    "id": "biographical-historical-method",
+    "course": "historical-methods",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard historical methodology typically introduced in foundational research methods course."
+  },
+  {
+    "id": "environmental-historical-methods",
+    "course": "historical-methods",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard historical methodology typically introduced in foundational research methods course."
+  },
+  {
+    "id": "formulating-historical-questions",
+    "course": "historical-methods",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard historical methodology typically introduced in foundational research methods course."
+  },
+  {
+    "id": "historical-geography-and-spatial-analysis",
+    "course": "historical-methods",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard historical methodology typically introduced in foundational research methods course."
+  },
+  {
+    "id": "linguistic-analysis-historical",
+    "course": "historical-methods",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard historical methodology typically introduced in foundational research methods course."
+  },
+  {
+    "id": "lived-experience-social-history",
+    "course": "historical-methods",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard historical methodology typically introduced in foundational research methods course."
+  },
+  {
+    "id": "local-community-history",
+    "course": "historical-methods",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard historical methodology typically introduced in foundational research methods course."
+  },
+  {
+    "id": "material-symbolic-integration",
+    "course": "historical-methods",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard historical methodology typically introduced in foundational research methods course."
+  },
+  {
+    "id": "network-analysis-and-relationship-mapping",
+    "course": "historical-methods",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard historical methodology typically introduced in foundational research methods course."
+  },
+  {
+    "id": "oral-history-interview-techniques",
+    "course": "historical-methods",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard historical methodology typically introduced in foundational research methods course."
+  },
+  {
+    "id": "reception-history-methods",
+    "course": "historical-methods",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard historical methodology typically introduced in foundational research methods course."
+  },
+  {
+    "id": "secondary-source-mining",
+    "course": "historical-methods",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard historical methodology typically introduced in foundational research methods course."
+  },
+  {
+    "id": "source-contextualization",
+    "course": "historical-methods",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard historical methodology typically introduced in foundational research methods course."
+  },
+  {
+    "id": "spatial-geographic-methods",
+    "course": "historical-methods",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard historical methodology typically introduced in foundational research methods course."
+  },
+  {
+    "id": "statistics-quantitative-evidence",
+    "course": "historical-methods",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard historical methodology typically introduced in foundational research methods course."
+  },
+  {
+    "id": "environmental-movement",
+    "course": "modern-history",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Environmental history is standard topic in undergrad modern history surveys."
+  }
+]

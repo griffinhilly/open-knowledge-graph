@@ -13,7 +13,7 @@ tags:
 - spatial
 - typography
 - form
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - division-of-labor
 - work
 - roles
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

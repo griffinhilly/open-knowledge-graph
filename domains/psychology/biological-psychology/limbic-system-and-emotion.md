@@ -22,7 +22,7 @@ tags:
 - cingulate
 - emotion
 - memory
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -1,0 +1,66 @@
+[
+ {
+  "id": "baking-basics",
+  "course": "cooking-and-nutrition",
+  "current": "abstract-reasoning",
+  "recommended": "concrete-operations",
+  "confidence": "medium",
+  "rationale": "Fundamental cooking skills with \"basics\" in title; typically learned earlier."
+ },
+ {
+  "id": "basic-flavor-components-salt-acid-fat",
+  "course": "cooking-and-nutrition",
+  "current": "abstract-reasoning",
+  "recommended": "concrete-operations",
+  "confidence": "medium",
+  "rationale": "Fundamental cooking skills with \"basics\" in title; typically learned earlier."
+ },
+ {
+  "id": "basic-nutrition-fundamentals",
+  "course": "cooking-and-nutrition",
+  "current": "abstract-reasoning",
+  "recommended": "concrete-operations",
+  "confidence": "medium",
+  "rationale": "Fundamental cooking skills with \"basics\" in title; typically learned earlier."
+ },
+ {
+  "id": "boiling-and-simmering",
+  "course": "cooking-and-nutrition",
+  "current": "abstract-reasoning",
+  "recommended": "concrete-operations",
+  "confidence": "medium",
+  "rationale": "Fundamental cooking skills with \"basics\" in title; typically learned earlier."
+ },
+ {
+  "id": "braising-and-slow-cooking",
+  "course": "cooking-and-nutrition",
+  "current": "abstract-reasoning",
+  "recommended": "concrete-operations",
+  "confidence": "medium",
+  "rationale": "Fundamental cooking skills with \"basics\" in title; typically learned earlier."
+ },
+ {
+  "id": "bread-baking-yeast-fermentation",
+  "course": "cooking-and-nutrition",
+  "current": "abstract-reasoning",
+  "recommended": "concrete-operations",
+  "confidence": "medium",
+  "rationale": "Fundamental cooking skills with \"basics\" in title; typically learned earlier."
+ },
+ {
+  "id": "breading-coating-techniques",
+  "course": "cooking-and-nutrition",
+  "current": "abstract-reasoning",
+  "recommended": "concrete-operations",
+  "confidence": "medium",
+  "rationale": "Fundamental cooking skills with \"basics\" in title; typically learned earlier."
+ },
+ {
+  "id": "cooking-conversions-scaling",
+  "course": "cooking-and-nutrition",
+  "current": "abstract-reasoning",
+  "recommended": "concrete-operations",
+  "confidence": "medium",
+  "rationale": "Fundamental cooking skills with \"basics\" in title; typically learned earlier."
+ }
+]

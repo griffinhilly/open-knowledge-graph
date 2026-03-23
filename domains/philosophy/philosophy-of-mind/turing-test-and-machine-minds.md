@@ -22,7 +22,7 @@ tags:
 - machine-minds
 - imitation-game
 - consciousness
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # The Turing Test and Machine Minds

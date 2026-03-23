@@ -13,7 +13,7 @@ tags:
 - ideas
 - transmission
 - methodology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

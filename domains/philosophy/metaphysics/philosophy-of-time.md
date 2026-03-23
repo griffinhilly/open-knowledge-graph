@@ -16,7 +16,7 @@ tags:
 - temporal ontology
 - change
 - passage of time
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

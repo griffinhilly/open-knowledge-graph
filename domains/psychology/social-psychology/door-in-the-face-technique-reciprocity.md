@@ -15,7 +15,7 @@ tags:
 - reciprocity
 - persuasion
 - concession
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

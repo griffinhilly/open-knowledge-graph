@@ -16,7 +16,7 @@ tags:
 - adiabatic-combustion
 - maximum-temperature
 - dissociation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - persuasion
 - commitment
 - self-perception
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

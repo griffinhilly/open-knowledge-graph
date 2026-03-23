@@ -10,7 +10,7 @@ tags:
 - gas-mixtures
 - daltons-law
 - partial-pressures
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

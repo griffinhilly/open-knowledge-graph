@@ -15,7 +15,7 @@ tags:
 - cyclical
 - natural-rate
 - NAIRU
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

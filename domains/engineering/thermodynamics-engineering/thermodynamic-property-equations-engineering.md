@@ -17,7 +17,7 @@ tags:
 - properties
 - relations
 - calculations
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

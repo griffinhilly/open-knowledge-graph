@@ -19,7 +19,7 @@ tags:
 - structure
 - hierarchy
 - justificatory-order
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

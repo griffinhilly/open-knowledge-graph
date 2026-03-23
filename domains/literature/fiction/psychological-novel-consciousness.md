@@ -17,7 +17,7 @@ tags:
 - interiority
 - modernism
 - subjective
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

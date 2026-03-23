@@ -1,0 +1,26 @@
+[
+  {
+    "id": "canon-and-fugue-basics",
+    "course": "composition",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Canon and Fugal Writing Foundations' is foundational composition instruction, typically HS/intro college level, not upper-division specialty."
+  },
+  {
+    "id": "canonic-writing-technique",
+    "course": "composition",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Canon and Fugue Composition Basics' is foundational composition instruction, typically HS/intro college level, not upper-division specialty."
+  },
+  {
+    "id": "electronic-composition-fundamentals",
+    "course": "composition",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Electronic Composition Basics' is foundational composition instruction, typically HS/intro college level, not upper-division specialty."
+  }
+]

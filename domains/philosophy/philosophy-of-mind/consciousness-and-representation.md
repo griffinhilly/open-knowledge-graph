@@ -19,7 +19,7 @@ tags:
 - phenomenal-properties
 - intentionality
 - content
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - character
 - address
 - revelation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

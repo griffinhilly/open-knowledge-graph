@@ -20,7 +20,7 @@ tags:
 - intensionality
 - reference
 - substitution
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

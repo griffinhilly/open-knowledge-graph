@@ -15,7 +15,7 @@ tags:
 - delegation
 - elected-officials
 - constituent-accountability
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

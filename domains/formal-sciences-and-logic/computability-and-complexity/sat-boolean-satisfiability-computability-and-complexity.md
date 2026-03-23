@@ -18,7 +18,7 @@ tags:
 - satisfiability
 - np
 - decision-problems
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

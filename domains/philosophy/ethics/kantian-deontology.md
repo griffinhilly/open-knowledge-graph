@@ -17,7 +17,7 @@ tags:
 - rationalism
 - autonomy
 - duty
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - isentropic
 - reversible
 - adiabatic
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

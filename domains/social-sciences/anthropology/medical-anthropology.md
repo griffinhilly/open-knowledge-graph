@@ -25,7 +25,7 @@ tags:
 - ethnomedicine
 - biomedicine
 - embodiment
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Medical Anthropology: Culture, Illness, and Healing

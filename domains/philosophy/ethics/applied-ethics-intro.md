@@ -31,7 +31,7 @@ tags:
 - applied-ethics
 - practical-ethics
 - case-analysis
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Introduction to Applied Ethics

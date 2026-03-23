@@ -12,7 +12,7 @@ tags:
 - complexity-classes
 - complements
 - decision-problems
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

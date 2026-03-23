@@ -15,7 +15,7 @@ tags:
 - products
 - emissions
 - analysis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - interdiffusion
 - vacancy-flow
 - marker-motion
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

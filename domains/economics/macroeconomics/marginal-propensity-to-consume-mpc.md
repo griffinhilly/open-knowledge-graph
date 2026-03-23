@@ -15,7 +15,7 @@ tags:
 - consumption
 - marginal
 - income
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

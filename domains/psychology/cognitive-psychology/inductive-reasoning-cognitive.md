@@ -14,7 +14,7 @@ tags:
 - induction
 - generalization
 - category-learning
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

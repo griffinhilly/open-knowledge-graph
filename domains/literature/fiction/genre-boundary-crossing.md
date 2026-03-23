@@ -16,7 +16,7 @@ tags:
 - boundary
 - mixing
 - subversion
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

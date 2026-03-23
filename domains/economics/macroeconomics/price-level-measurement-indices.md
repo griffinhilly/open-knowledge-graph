@@ -14,7 +14,7 @@ tags:
 - measurement
 - inflation
 - price-level
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 # Price Level Measurement and Price Indices

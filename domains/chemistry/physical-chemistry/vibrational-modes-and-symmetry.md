@@ -16,7 +16,7 @@ tags:
 - point-groups
 - character-tables
 - reducible-representations
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

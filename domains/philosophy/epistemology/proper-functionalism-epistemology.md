@@ -13,7 +13,7 @@ tags:
 - design-plan
 - reliabilism
 - plantinga
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

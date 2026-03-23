@@ -17,7 +17,7 @@ tags:
 - networks
 - spatial-systems
 - population
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

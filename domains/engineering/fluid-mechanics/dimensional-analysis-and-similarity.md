@@ -21,7 +21,7 @@ tags:
 - similarity
 - model testing
 - dimensionless groups
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

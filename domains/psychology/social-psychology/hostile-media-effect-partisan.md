@@ -14,7 +14,7 @@ tags:
 - partisan
 - perception
 - group-identity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

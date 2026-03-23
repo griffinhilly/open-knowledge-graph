@@ -19,7 +19,7 @@ tags:
 - vocabulary
 - idiom
 - register
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

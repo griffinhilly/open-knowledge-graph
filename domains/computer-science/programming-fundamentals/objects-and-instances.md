@@ -14,7 +14,7 @@ tags:
 - instantiation
 - constructors
 - __init__
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

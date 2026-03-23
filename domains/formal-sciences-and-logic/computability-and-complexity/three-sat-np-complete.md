@@ -17,7 +17,7 @@ tags:
 - sat
 - cnf
 - np-complete
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

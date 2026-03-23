@@ -27,7 +27,7 @@ tags:
 - feet
 - prosody
 - analysis
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

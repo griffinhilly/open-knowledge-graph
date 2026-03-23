@@ -15,7 +15,7 @@ tags:
 - correlation
 - constitution
 - neuroscience-of-consciousness
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

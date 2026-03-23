@@ -18,7 +18,7 @@ tags:
 - responsiveness
 - bonding
 - dyadic-reciprocity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

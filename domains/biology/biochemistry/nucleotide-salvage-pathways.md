@@ -12,7 +12,7 @@ tags:
 - nucleotides
 - salvage
 - phosphoribosylation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

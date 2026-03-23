@@ -12,7 +12,7 @@ tags:
 - automata
 - context-sensitive-languages
 - Chomsky-hierarchy
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

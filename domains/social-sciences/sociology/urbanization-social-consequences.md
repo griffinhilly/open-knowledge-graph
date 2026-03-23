@@ -12,7 +12,7 @@ tags:
 - urbanization
 - cities
 - social-problems
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - vocation
 - formation
 - modernism
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

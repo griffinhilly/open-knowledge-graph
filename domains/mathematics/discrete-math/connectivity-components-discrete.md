@@ -15,7 +15,7 @@ tags:
 - components
 - bridges
 - articulation-points
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

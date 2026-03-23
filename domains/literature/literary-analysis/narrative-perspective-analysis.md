@@ -16,7 +16,7 @@ tags:
 - point-of-view
 - narrator
 - narrative-distance
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

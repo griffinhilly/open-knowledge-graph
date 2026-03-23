@@ -16,7 +16,7 @@ tags:
 - rent-seeking
 - accountability
 - governance
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

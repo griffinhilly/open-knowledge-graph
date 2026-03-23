@@ -10,7 +10,7 @@ tags:
 - block-designs
 - steiner-systems
 - combinatorial-designs
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

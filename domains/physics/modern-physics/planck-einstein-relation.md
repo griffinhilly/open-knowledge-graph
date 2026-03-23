@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - quantum-intro
 - quantization
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

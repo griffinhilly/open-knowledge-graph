@@ -18,7 +18,7 @@ tags:
 - speciesism
 - sentience
 - animal-rights
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

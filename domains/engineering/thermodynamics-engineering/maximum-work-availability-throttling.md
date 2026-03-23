@@ -18,7 +18,7 @@ tags:
 - carnot
 - lost-work
 - irreversibility
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

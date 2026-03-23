@@ -14,7 +14,7 @@ tags:
 - chinese-room
 - computation
 - understanding
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

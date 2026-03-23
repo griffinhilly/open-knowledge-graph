@@ -15,7 +15,7 @@ tags:
 - glucose synthesis
 - Cori cycle
 - glucose-6-phosphatase
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

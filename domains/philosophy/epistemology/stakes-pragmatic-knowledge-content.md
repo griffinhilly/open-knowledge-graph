@@ -13,7 +13,7 @@ tags:
 - stakes
 - practical-reasoning
 - knowledge
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

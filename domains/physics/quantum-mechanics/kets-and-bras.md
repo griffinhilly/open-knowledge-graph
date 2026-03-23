@@ -15,7 +15,7 @@ tags:
 - hilbert-spaces
 - duality
 - linear-algebra
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

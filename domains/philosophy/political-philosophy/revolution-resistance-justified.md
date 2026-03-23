@@ -16,7 +16,7 @@ tags:
 - resistance
 - tyranny
 - overthrow
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

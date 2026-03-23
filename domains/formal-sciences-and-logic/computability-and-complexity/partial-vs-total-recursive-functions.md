@@ -15,7 +15,7 @@ tags:
 - recursion
 - partial-functions
 - computability
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

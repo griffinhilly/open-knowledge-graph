@@ -16,7 +16,7 @@ tags:
 - metal ion
 - hardness
 - conditional formation constant
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

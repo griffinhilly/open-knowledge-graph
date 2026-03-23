@@ -13,7 +13,7 @@ tags:
 - machine-epsilon
 - rounding
 - error-analysis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

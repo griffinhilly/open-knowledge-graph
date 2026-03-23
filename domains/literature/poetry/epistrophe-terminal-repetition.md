@@ -16,7 +16,7 @@ tags:
 - closure
 - refrain
 - sound
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Epistrophe: Repetition at Line Endings

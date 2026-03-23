@@ -15,7 +15,7 @@ tags:
 - religion
 - place
 - meaning
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

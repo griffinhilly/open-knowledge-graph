@@ -19,7 +19,7 @@ tags:
 - D2
 - signaling
 - pharmacology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

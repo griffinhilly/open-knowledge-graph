@@ -14,7 +14,7 @@ tags:
 - attention
 - perception
 - awareness
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

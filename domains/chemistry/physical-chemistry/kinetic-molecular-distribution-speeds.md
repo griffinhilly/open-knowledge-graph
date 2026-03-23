@@ -13,7 +13,7 @@ tags:
 - distribution
 - statistical
 - gas-properties
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

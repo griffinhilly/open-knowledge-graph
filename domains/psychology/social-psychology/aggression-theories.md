@@ -15,7 +15,7 @@ tags:
 - frustration-aggression
 - social learning
 - violence
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

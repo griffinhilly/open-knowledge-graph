@@ -18,7 +18,7 @@ tags:
 - cutoff-frequency
 - passband-gain
 - roll-off
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

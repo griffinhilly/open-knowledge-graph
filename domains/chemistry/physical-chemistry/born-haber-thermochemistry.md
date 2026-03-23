@@ -15,7 +15,7 @@ tags:
 - born-haber
 - lattice-energy
 - ionic
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

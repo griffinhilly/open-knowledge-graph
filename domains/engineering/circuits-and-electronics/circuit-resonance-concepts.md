@@ -16,7 +16,7 @@ tags:
 - natural-frequency
 - bandwidth
 - Q-factor
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

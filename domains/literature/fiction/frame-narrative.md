@@ -16,7 +16,7 @@ tags:
 - embedded-story
 - narrative-levels
 - metafiction
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

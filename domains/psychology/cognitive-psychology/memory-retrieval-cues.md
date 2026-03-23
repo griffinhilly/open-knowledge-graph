@@ -15,7 +15,7 @@ tags:
 - retrieval
 - encoding-specificity
 - context
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

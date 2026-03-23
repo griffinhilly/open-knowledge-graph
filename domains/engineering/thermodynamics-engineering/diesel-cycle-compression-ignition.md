@@ -10,7 +10,7 @@ tags:
 - diesel-cycle
 - compression-ignition
 - engines
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

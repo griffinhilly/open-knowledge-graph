@@ -25,7 +25,7 @@ tags:
 - acetyl-CoA
 - FADH2
 - energy
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - property-rights
 - labor
 - natural-rights
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

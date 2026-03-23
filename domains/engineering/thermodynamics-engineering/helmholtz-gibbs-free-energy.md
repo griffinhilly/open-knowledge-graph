@@ -16,7 +16,7 @@ tags:
 - free-energy
 - available-work
 - spontaneity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

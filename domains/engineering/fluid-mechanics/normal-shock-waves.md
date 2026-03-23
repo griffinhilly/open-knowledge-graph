@@ -12,7 +12,7 @@ tags:
 - shock relations
 - total pressure loss
 - supersonic to subsonic
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Normal Shock Waves

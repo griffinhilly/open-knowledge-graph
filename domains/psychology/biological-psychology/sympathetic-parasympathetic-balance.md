@@ -15,7 +15,7 @@ tags:
 - autonomic
 - stress
 - homeostasis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

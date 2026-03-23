@@ -20,7 +20,7 @@ tags:
 - conciliationism
 - steadfastness
 - social-epistemology
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Epistemology of Disagreement

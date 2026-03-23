@@ -15,7 +15,7 @@ tags:
 - adolescence
 - commitment
 - exploration
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

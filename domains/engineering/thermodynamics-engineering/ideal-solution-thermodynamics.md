@@ -16,7 +16,7 @@ tags:
 - activity-coefficient
 - non-ideal
 - mixing
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

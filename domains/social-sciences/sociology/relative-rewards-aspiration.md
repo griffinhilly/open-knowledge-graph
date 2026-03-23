@@ -13,7 +13,7 @@ tags:
 - income-inequality
 - aspirations
 - satisfaction
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

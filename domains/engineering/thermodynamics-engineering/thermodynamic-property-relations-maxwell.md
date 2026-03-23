@@ -12,7 +12,7 @@ tags:
 - maxwell-relations
 - property-relations
 - thermodynamic-identities
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

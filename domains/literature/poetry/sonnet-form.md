@@ -21,7 +21,7 @@ tags:
 - Shakespearean
 - volta
 - fourteen lines
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # The Sonnet

@@ -14,7 +14,7 @@ tags:
 - emotional development
 - fear
 - attachment
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 # Separation Anxiety and Stranger Anxiety

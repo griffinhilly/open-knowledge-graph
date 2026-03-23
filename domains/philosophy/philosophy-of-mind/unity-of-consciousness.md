@@ -17,7 +17,7 @@ tags:
 - binding
 - integration
 - phenomenology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # The Unity of Consciousness

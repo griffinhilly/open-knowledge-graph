@@ -12,7 +12,7 @@ tags:
 - compressible-flow
 - isentropic-flow
 - sonic-conditions
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

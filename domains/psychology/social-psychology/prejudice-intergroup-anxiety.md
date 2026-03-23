@@ -18,7 +18,7 @@ tags:
 - threat
 - realistic-conflict
 - intergroup
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

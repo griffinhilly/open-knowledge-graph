@@ -1,0 +1,2450 @@
+[
+  {
+    "id": "a-priori-and-a-posteriori",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "anti-luck-conditions-knowledge",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "basing-relation-justified-belief",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "bayesian-epistemology",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "classical-foundationalism",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "closure-principles-formalized",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "collective-knowledge-and-group-epistemology",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "common-knowledge-mutual-knowledge",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "conditionalization-and-bayesian-updating",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "contextualism-content-sensitivity",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "contextualism-in-epistemology",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "credences-and-epistemic-probabilities",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "disagreement-peer-response",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "dogmatism-perceptual-justification",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "epistemic-accessibility-relations",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "epistemic-akrasia-stability",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "epistemic-injustice",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "epistemic-logic-basics",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "epistemic-properties-and-metrics",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "epistemic-virtues",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "epistemology-of-disagreement",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "evidential-support-formalization",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "factive-knowledge-operator",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "fallibilist-knowledge-justification",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "formal-epistemology-introduction",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "foundational-basic-beliefs",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "foundationalism",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "foundationalist-regress-problem",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "group-epistemology-collective",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "higher-order-evidence-justification",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "higher-order-knowledge-iteration",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "indexical-contextualism-epistemology",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "inductive-generalization-justification",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "infallibilist-knowledge-analysis",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "innatism",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "internalism-vs-externalism",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "justification-structures-and-hierarchies",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "justificatory-chains-and-support",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "knowledge-and-belief-operators",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "luminosity-introspection",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "margin-error-semantics",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "modest-foundationalism",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "naturalized-epistemology",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "perception-and-knowledge",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "permissible-probability-distributions",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "phenomenal-justification-experience",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "possible-worlds-semantics-knowledge",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "pragmatist-epistemology",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "proper-functionalism-epistemology",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "rational-belief-epistemic-virtue",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "rationalism-vs-empiricism",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "regress-argument-structure",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "relevant-alternatives-semantics",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "reliabilism",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "responses-to-skepticism",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "safety-condition-knowledge",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "sensitivity-condition-knowledge",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "skeptical-scenarios-knowledge-closure",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "social-epistemology",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "stakes-pragmatic-knowledge-content",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "synthetic-a-priori",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "transmission-failure-justification",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "virtue-epistemology",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "virtue-integration-knowledge-proper",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "warrant-transmission-inference",
+    "course": "epistemology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Epistemology is a standard philosophy undergrad course; core topics belong at formal-systems."
+  },
+  {
+    "id": "animal-ethics",
+    "course": "ethics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Ethics is typically an undergrad philosophy course; core topics are formal-systems."
+  },
+  {
+    "id": "applied-ethics-intro",
+    "course": "ethics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Ethics is typically an undergrad philosophy course; core topics are formal-systems."
+  },
+  {
+    "id": "autonomy-and-moral-worth",
+    "course": "ethics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Ethics is typically an undergrad philosophy course; core topics are formal-systems."
+  },
+  {
+    "id": "bioethics",
+    "course": "ethics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Ethics is typically an undergrad philosophy course; core topics are formal-systems."
+  },
+  {
+    "id": "categorical-imperative",
+    "course": "ethics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Ethics is typically an undergrad philosophy course; core topics are formal-systems."
+  },
+  {
+    "id": "contractualism",
+    "course": "ethics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Ethics is typically an undergrad philosophy course; core topics are formal-systems."
+  },
+  {
+    "id": "environmental-ethics",
+    "course": "ethics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Ethics is typically an undergrad philosophy course; core topics are formal-systems."
+  },
+  {
+    "id": "kantian-deontology",
+    "course": "ethics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Ethics is typically an undergrad philosophy course; core topics are formal-systems."
+  },
+  {
+    "id": "moral-dilemmas",
+    "course": "ethics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Ethics is typically an undergrad philosophy course; core topics are formal-systems."
+  },
+  {
+    "id": "moral-education-and-development",
+    "course": "ethics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Ethics is typically an undergrad philosophy course; core topics are formal-systems."
+  },
+  {
+    "id": "moral-luck",
+    "course": "ethics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Ethics is typically an undergrad philosophy course; core topics are formal-systems."
+  },
+  {
+    "id": "moral-motivation",
+    "course": "ethics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Ethics is typically an undergrad philosophy course; core topics are formal-systems."
+  },
+  {
+    "id": "moral-psychology",
+    "course": "ethics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Ethics is typically an undergrad philosophy course; core topics are formal-systems."
+  },
+  {
+    "id": "moral-responsibility",
+    "course": "ethics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Ethics is typically an undergrad philosophy course; core topics are formal-systems."
+  },
+  {
+    "id": "moral-sentiments-and-emotions",
+    "course": "ethics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Ethics is typically an undergrad philosophy course; core topics are formal-systems."
+  },
+  {
+    "id": "moral-status",
+    "course": "ethics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Ethics is typically an undergrad philosophy course; core topics are formal-systems."
+  },
+  {
+    "id": "technology-ethics",
+    "course": "ethics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Ethics is typically an undergrad philosophy course; core topics are formal-systems."
+  },
+  {
+    "id": "a-theory-b-theory-of-time",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "actualism-in-metaphysics",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "causal-order-temporal-order",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "compatibilism",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "counterfactual-causation",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "counterfactual-truth-modality",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "cross-world-identity-principles",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "dispositions-manifestation-partners",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "essence-intrinsic-nature",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "essentialism-and-accidentalism",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "eternalism-formalized",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "four-dimensionalism-temporal-parts",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "growing-block-universe",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "haecceity-primitive-identity",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "libertarian-free-will",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "manipulation-argument",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "modal-realism",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "necessity-and-contingency",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "persistence-and-change",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "persistence-through-change",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "philosophy-of-time",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "possible-worlds-framework",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "possible-worlds-semantics-metaphysics",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "potentiality-and-actuality",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "presentism-and-eternalism",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "presentism-formalized",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "rigid-designation-essentialism",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "semicompatibilism",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "stage-theory-identity",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "temporal-becoming",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "temporal-properties",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "tenseless-vs-tensed-time",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "three-dimensionalism-endurance",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "transworld-identity-criteria",
+    "course": "metaphysics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Metaphysics is a standard philosophy undergrad course; belongs at formal-systems level."
+  },
+  {
+    "id": "anaphora-and-discourse-dynamics",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "compositionality-principle",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "compositionality-semantic-limits",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "conventional-implicature-meaning",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "counterfactual-conditionals",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "de-re-attitudes",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "discourse-coherence-linguistic",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "ellipsis-and-implicit-content",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "empty-names-fictional",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "formal-vs-natural-language-semantics",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "impliciture-and-enrichment",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "indexicality-and-contextual-reference",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "intensionality-and-opacity",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "literal-meaning-speaker-meaning",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "meaning-convention-vs-intention",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "meaning-holism",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "metaphorical-meaning-and-extension",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "modal-semantics-possible-worlds",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "modal-status-identity-statements",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "natural-kinds-and-essence",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "naturalism-semantic-facts",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "performative-utterances",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "presupposition-projection-patterns",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "proposition-and-semantic-content",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "quantifier-scope-interactions",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "reference-determination-theory",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "reference-failure-empty-names",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "rigid-designators-modal-reference",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "scope-ambiguity-and-representation",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "semantic-underdetermination-context",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "speech-act-content-and-force",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "temporal-semantics-and-tense",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "truth-conditions-and-meaning",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "two-dimensional-semantics",
+    "course": "philosophy-of-language",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of language topics are standard undergrad material; belong at formal-systems."
+  },
+  {
+    "id": "access-consciousness-definition",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "affect-consciousness-emotions",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "artificial-consciousness",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "artificial-minds-silicon-based",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "attention-consciousness-relationship",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "binding-problem-consciousness",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "chinese-room-argument",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "chinese-room-understanding-computation",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "computational-theory-of-mind",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "consciousness-and-representation",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "consciousness-causation-efficacy",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "content-externalism-individuation",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "downward-causation",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "eliminative-materialism",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "embodied-cognition",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "emergence-reduction-consciousness",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "enactivism",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "epiphenomenalism",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "epistemic-gap-consciousness",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "explanatory-gap",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "extended-mind-thesis",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "externalism-about-content",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "functionalism-core-theory",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "functionalism-philosophy-of-mind",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "global-workspace-theory",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "hard-problem-consciousness-definition",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "hard-problem-of-consciousness",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "heterophenomenology-methodology",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "higher-order-theories",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "illusionism-consciousness-theory",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "integrated-information-consciousness",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "inverted-spectrum-thought-experiment",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "knowledge-argument-frank-jackson",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "knowledge-argument",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "machine-consciousness-functionalism",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "mental-imagery-consciousness",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "modal-arguments-consciousness",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "multiple-realizability",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "narrow-content-individuation",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "narrow-intrinsic-content-mind",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "neural-correlates-of-consciousness",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "non-reductive-physicalism-details",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "other-minds-problem",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "panpsychism",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "phenomenal-concepts-problem",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "phenomenal-vs-access-consciousness",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "philosophical-zombies",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "privileged-access-problem",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "reflexivity-self-awareness-consciousness",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "relational-consciousness-accounts",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "representationalism",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "self-consciousness-and-reflexivity",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "spectrum-inversion",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "substrate-independence-realization",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "substrate-independence",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "temporal-consciousness",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "thought-content-aboutness",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "token-identity-theory-details",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "token-identity-theory",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "transparency-introspection-access",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "turing-test-and-machine-minds",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "unity-of-consciousness",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "wide-content-externalism",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "zombie-argument-detailed",
+    "course": "philosophy-of-mind",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Philosophy of mind is standard undergrad coursework; belongs at formal-systems."
+  },
+  {
+    "id": "anarchism-and-political-necessity",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "anarchism-political",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "authority-legitimacy-sources",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "autonomy-self-governance-political",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "capabilities-approach-to-justice",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "capabilities-approach",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "civil-disobedience-and-resistance",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "civil-disobedience-justification",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "civil-disobedience-justified",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "civil-disobedience",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "communitarianism",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "consent-and-legitimacy",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "consent-and-political-obligation",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "cosmopolitanism-global-justice",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "cosmopolitanism",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "deliberative-democracy-and-legitimacy",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "deliberative-democracy",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "democracy-and-self-governance",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "democracy-forms-legitimacy",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "democratic-legitimacy-and-authority",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "democratic-legitimacy-sources",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "difference-principle",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "distributive-justice",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "egalitarian-principles",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "egalitarianism",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "feminist-political-philosophy",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "freedom-from-domination",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "global-justice",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "hobbes-absolute-sovereign",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "hobbes-and-absolutism",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "hobbesian-absolutism",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "hobbesian-sovereignty",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "human-rights-foundations",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "international-justice-cosmopolitanism",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "liberal-democracy-theory",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "libertarianism-political",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "liberty-domination-republicanism",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "liberty-negative-and-positive",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "locke-and-property-rights",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "locke-limited-government-and-rights",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "lockean-natural-rights",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "lockean-property-theory",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "luck-egalitarianism",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "majority-rule-constraints",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "merit-desert-and-distribution",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "minority-rights-and-tolerance",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "multiculturalism",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "nationalism-self-determination",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "natural-rights-foundations",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "natural-rights-theory",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "negative-positive-rights",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "original-position-rawls",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "participatory-democracy",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "political-authority-and-legitimacy",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "political-equality-and-standing",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "political-liberalism",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "political-obligation-sources",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "political-obligation",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "political-philosophy-foundations",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "popular-sovereignty-principle",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "power-and-domination",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "power-and-legitimate-authority",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "prioritarianism",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "property-distributive-justice",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "property-rights-justification",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "public-reason-justification",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "public-reason",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "punishment-and-criminal-justice",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "punishment-justifications",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "rawls-original-position",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "rawlsian-justice-as-fairness",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "rawlsian-justice-principles",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "rawlsian-justice",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "representation-and-legitimacy",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "republicanism-non-domination",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "revolution-resistance-justified",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "rights-justice-relationship",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "rights-liberties-political",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "rousseau-general-will-democracy",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "rousseau-general-will",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "rousseau-popular-will",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "rousseauian-social-contract",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "rule-of-law-and-justice",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "secession-and-self-determination",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "social-contract-theory",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "state-of-nature-concept",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "state-of-nature",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "sufficientarianism",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "toleration-boundaries",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "utilitarian-political-theory",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "voting-representation-mechanisms",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  },
+  {
+    "id": "voting-representation-theory",
+    "course": "political-philosophy",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Political philosophy is a standard undergrad course; belongs at formal-systems."
+  }
+]

@@ -18,7 +18,7 @@ tags:
 - kappa-receptor
 - analgesia
 - addiction
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

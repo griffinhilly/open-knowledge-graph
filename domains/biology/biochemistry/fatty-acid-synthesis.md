@@ -16,7 +16,7 @@ tags:
 - acetyl-CoA carboxylase
 - fatty acid synthase
 - NADPH
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

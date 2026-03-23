@@ -15,7 +15,7 @@ tags:
 - perspective-taking
 - cognition
 - social development
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

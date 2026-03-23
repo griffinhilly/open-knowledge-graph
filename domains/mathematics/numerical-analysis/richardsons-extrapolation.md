@@ -12,7 +12,7 @@ tags:
 - richardson-extrapolation
 - acceleration
 - deferred-correction
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -21,7 +21,7 @@ tags:
 - end-products
 - lactate
 - ethanol
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

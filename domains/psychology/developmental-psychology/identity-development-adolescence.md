@@ -22,7 +22,7 @@ tags:
 - moratorium
 - achievement
 - diffusion
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Identity Development in Adolescence

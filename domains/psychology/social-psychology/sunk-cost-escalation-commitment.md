@@ -12,7 +12,7 @@ tags:
 - commitment
 - decision-making
 - judgment-bias
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - circadian-rhythms
 - sleep
 - homeostasis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -19,7 +19,7 @@ tags:
 - climate
 - adaptation
 - agency
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

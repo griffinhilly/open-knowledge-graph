@@ -16,7 +16,7 @@ tags:
 - bayesian-updating
 - evidence
 - learning
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

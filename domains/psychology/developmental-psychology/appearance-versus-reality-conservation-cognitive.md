@@ -13,7 +13,7 @@ tags:
 - appearance-reality
 - concrete-operations
 - cognitive-development
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - security
 - exploration
 - infancy
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

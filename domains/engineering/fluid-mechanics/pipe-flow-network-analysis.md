@@ -12,7 +12,7 @@ tags:
 - pipe-flow
 - systems
 - design
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

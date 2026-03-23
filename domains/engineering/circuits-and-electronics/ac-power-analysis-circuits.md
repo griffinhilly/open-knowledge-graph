@@ -20,7 +20,7 @@ tags:
 - complex-power
 - RMS
 - power-factor-correction
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

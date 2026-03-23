@@ -12,7 +12,7 @@ tags:
 - occupational-status
 - prestige
 - inequality
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

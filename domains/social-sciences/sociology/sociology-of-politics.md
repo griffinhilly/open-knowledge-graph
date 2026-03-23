@@ -18,7 +18,7 @@ tags:
 - political-behavior
 - political-institutions
 - political-participation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

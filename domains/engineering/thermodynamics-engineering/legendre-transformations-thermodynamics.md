@@ -17,7 +17,7 @@ tags:
 - potential
 - natural-variables
 - conjugate
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

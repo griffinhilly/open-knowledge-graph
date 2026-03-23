@@ -10,7 +10,7 @@ tags:
 - open-channel
 - manning-equation
 - uniform-flow
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

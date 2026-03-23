@@ -14,7 +14,7 @@ tags:
 - symbolic-thought
 - cognitive-development
 - social-skills
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

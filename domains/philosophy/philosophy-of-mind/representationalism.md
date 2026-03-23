@@ -17,7 +17,7 @@ tags:
 - mental-representation
 - content
 - perception
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

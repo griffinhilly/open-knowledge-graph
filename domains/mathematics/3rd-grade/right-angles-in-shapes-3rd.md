@@ -14,7 +14,7 @@ tags:
 - angles
 - shapes
 - right-angles
-stage: abstract-reasoning
+stage: concrete-operations
 status: draft
 ---
 

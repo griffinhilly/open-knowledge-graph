@@ -15,7 +15,7 @@ tags:
 - savings
 - income
 - marginal
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

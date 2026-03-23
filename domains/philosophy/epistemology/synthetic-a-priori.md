@@ -16,7 +16,7 @@ tags:
 - analytic-synthetic
 - transcendental-idealism
 - categories
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Synthetic A Priori Knowledge

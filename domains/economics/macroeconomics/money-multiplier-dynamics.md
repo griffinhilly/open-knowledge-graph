@@ -13,7 +13,7 @@ tags:
 - money-supply
 - banking
 - leverage
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

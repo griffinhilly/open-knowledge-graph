@@ -14,7 +14,7 @@ tags:
 - token-identity
 - particulars
 - realizability
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

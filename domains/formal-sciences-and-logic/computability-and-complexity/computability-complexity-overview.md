@@ -15,7 +15,7 @@ tags:
 - foundations
 - computability
 - complexity-theory
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Computability and Complexity: Overview and Connections

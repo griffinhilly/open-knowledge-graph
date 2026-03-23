@@ -14,7 +14,7 @@ tags:
 - phospholipids
 - lipid-biosynthesis
 - membrane-components
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

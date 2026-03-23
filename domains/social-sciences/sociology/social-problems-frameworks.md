@@ -18,7 +18,7 @@ tags:
 - structural-causes
 - social-construction
 - social-change
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

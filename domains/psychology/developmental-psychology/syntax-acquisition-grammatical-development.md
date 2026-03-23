@@ -17,7 +17,7 @@ tags:
 - structures
 - morphosyntax
 - rule-learning
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

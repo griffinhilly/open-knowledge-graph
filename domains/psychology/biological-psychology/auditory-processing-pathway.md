@@ -16,7 +16,7 @@ tags:
 - auditory-cortex
 - hearing
 - frequency
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

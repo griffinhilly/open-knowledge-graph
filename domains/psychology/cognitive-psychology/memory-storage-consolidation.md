@@ -15,7 +15,7 @@ tags:
 - consolidation
 - storage
 - synaptic
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

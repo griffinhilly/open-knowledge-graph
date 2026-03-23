@@ -22,7 +22,7 @@ tags:
 - weighing
 - primary standard
 - solubility product
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Gravimetric Analysis

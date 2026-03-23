@@ -16,7 +16,7 @@ tags:
 - delegates
 - trustees
 - mandate
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

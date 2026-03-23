@@ -16,7 +16,7 @@ tags:
 - floats
 - booleans
 - characters
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

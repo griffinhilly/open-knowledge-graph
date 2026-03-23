@@ -15,7 +15,7 @@ tags:
 - universalizability
 - autonomy
 - formula-of-humanity
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

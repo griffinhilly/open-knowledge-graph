@@ -16,7 +16,7 @@ tags:
 - persuasion
 - influence
 - compliance
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

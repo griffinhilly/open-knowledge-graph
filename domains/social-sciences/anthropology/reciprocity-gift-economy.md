@@ -16,7 +16,7 @@ tags:
 - reciprocity
 - gift
 - kula
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

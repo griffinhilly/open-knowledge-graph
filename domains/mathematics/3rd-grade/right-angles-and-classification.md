@@ -12,7 +12,7 @@ tags:
 - angles
 - geometry
 - classification
-stage: abstract-reasoning
+stage: concrete-operations
 status: draft
 ---
 

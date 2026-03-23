@@ -13,7 +13,7 @@ tags:
 - arithmetic
 - numbers
 - types
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

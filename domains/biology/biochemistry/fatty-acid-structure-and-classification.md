@@ -17,7 +17,7 @@ tags:
 - unsaturated
 - omega fatty acids
 - structure
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

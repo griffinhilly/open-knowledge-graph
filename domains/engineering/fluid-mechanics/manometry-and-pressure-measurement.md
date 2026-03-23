@@ -13,7 +13,7 @@ tags:
 - pressure gauge
 - U-tube
 - differential pressure
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -19,7 +19,7 @@ tags:
 - second-law
 - irreversibility
 - optimal-work
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

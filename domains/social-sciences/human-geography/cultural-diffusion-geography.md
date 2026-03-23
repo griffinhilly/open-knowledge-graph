@@ -20,7 +20,7 @@ tags:
 - hierarchical diffusion
 - stimulus diffusion
 - relocation diffusion
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - global-justice
 - duties
 - equality
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

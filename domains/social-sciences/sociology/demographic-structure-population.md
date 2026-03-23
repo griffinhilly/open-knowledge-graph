@@ -17,7 +17,7 @@ tags:
 - age-structure
 - social-composition
 - population-effects
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Demographic Structure and Population Effects

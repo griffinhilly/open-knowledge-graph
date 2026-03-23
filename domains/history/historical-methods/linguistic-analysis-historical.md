@@ -13,7 +13,7 @@ tags:
 - texts
 - analysis
 - methodology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - temperature
 - compressible
 - thermodynamics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

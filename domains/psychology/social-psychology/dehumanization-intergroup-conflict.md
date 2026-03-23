@@ -18,7 +18,7 @@ tags:
 - conflict
 - violence
 - aggression
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

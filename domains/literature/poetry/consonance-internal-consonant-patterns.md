@@ -13,7 +13,7 @@ prerequisites:
 tags:
 - sound-devices
 - phonetics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

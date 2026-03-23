@@ -16,7 +16,7 @@ tags:
 - worldview
 - belief-systems
 - ontology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

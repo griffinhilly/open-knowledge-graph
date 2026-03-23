@@ -32,7 +32,7 @@ tags:
 - computation
 - automata
 - models-of-computation
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

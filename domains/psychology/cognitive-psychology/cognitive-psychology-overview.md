@@ -20,7 +20,7 @@ tags:
 - cognition
 - overview
 - information-processing
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

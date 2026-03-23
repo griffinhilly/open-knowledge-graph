@@ -10,7 +10,7 @@ tags:
 - exergy-destruction
 - irreversibility
 - lost-work
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

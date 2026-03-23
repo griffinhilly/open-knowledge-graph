@@ -18,7 +18,7 @@ tags:
 - representation
 - phenomenology
 - cognition
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

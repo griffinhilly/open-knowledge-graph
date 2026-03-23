@@ -16,7 +16,7 @@ tags:
 - types
 - type-safety
 - systems
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

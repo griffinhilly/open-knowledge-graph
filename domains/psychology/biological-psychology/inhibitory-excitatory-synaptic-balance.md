@@ -17,7 +17,7 @@ tags:
 - circuit-dynamics
 - network
 - homeostasis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

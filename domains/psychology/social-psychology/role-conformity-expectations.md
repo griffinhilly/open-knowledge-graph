@@ -18,7 +18,7 @@ tags:
 - status
 - social-expectations
 - norms
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

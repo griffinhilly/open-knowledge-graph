@@ -12,7 +12,7 @@ tags:
 - boundaries
 - nationalism
 - imagined-communities
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Nation-State Formation and Contested Boundaries

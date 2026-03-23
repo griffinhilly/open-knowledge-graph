@@ -12,7 +12,7 @@ tags:
 - condition-number
 - matrix-sensitivity
 - ill-conditioning
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

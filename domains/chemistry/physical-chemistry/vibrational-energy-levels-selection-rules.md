@@ -15,7 +15,7 @@ tags:
 - vibrational-spectroscopy
 - selection-rules
 - energy-levels
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

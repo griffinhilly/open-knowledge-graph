@@ -15,7 +15,7 @@ tags:
 - family
 - patriarchy
 - social-structure
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

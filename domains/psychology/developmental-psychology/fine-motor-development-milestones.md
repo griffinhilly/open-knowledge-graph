@@ -14,7 +14,7 @@ tags:
 - infancy
 - milestones
 - coordination
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

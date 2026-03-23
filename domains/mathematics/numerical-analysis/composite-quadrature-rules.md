@@ -12,7 +12,7 @@ tags:
 - composite-rules
 - piecewise-integration
 - accuracy
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

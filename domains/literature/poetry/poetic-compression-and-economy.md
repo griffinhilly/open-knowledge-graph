@@ -22,7 +22,7 @@ tags:
 - density
 - implication
 - omission
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Compression and Economy in Poetry

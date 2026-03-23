@@ -13,7 +13,7 @@ tags:
 - malaysian
 - interlocking
 - repetition
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

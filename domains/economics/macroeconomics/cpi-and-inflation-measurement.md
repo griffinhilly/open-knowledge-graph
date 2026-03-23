@@ -17,7 +17,7 @@ tags:
 - price-index
 - consumer-prices
 - measurement
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -12,7 +12,7 @@ tags:
 - properties
 - state
 - equations-of-state
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

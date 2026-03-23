@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - foundational
 - methodology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Foundations of Political Philosophy

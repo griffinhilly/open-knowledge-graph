@@ -15,7 +15,7 @@ tags:
 - names
 - truth-values
 - empty-terms
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

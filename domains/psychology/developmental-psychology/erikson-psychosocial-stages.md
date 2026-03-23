@@ -18,7 +18,7 @@ tags:
 - identity vs role confusion
 - generativity
 - integrity
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

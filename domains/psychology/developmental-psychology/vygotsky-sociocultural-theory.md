@@ -19,7 +19,7 @@ tags:
 - zone of proximal development
 - private speech
 - sociocultural
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Vygotsky's Sociocultural Theory

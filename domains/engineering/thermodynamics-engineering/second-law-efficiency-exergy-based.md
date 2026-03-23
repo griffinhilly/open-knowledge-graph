@@ -13,7 +13,7 @@ tags:
 - exergy-efficiency
 - raquette-inequality
 - lost-work
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

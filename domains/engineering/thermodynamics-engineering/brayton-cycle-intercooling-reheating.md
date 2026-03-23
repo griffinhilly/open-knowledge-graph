@@ -11,7 +11,7 @@ tags:
 - intercooling
 - reheating
 - gas-turbines
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

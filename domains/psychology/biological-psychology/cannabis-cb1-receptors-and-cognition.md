@@ -18,7 +18,7 @@ tags:
 - cognition
 - memory
 - psychosis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

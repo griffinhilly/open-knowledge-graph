@@ -1,0 +1,18 @@
+[
+  {
+    "id": "mineral-identification-diagnostic-properties",
+    "course": "geology",
+    "current": "formal-systems",
+    "recommended": "abstract-reasoning",
+    "confidence": "medium",
+    "rationale": "Pure classification and observation; typically covered in HS earth science."
+  },
+  {
+    "id": "volcano-classification-magma-types",
+    "course": "geology",
+    "current": "formal-systems",
+    "recommended": "abstract-reasoning",
+    "confidence": "medium",
+    "rationale": "Pure classification and observation; typically covered in HS earth science."
+  }
+]

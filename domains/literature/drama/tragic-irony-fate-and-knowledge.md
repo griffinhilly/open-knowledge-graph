@@ -18,7 +18,7 @@ tags:
 - knowledge
 - ignorance
 - tragedy
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

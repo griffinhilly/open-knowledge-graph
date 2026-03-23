@@ -15,7 +15,7 @@ tags:
 - economy
 - transnational
 - livelihoods
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

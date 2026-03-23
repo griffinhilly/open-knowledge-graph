@@ -14,7 +14,7 @@ tags:
 - enthalpy-formation
 - entropy-formation
 - standard-state
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

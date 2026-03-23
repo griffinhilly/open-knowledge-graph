@@ -17,7 +17,7 @@ tags:
 - knoop
 - microhardness
 - hardness-strength-correlation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

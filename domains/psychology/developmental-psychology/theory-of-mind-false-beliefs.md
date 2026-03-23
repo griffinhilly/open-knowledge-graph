@@ -17,7 +17,7 @@ tags:
 - social-cognition
 - false-beliefs
 - mental-state-reasoning
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

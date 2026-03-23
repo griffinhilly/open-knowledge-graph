@@ -16,7 +16,7 @@ tags:
 - contact
 - cultural-impact
 - power
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

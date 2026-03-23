@@ -16,7 +16,7 @@ tags:
 - crystal-geometry
 - symmetry
 - lattice-structures
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

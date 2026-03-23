@@ -18,7 +18,7 @@ tags:
 - hostile-bias
 - social-dynamics
 - interpretation-bias
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

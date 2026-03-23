@@ -14,7 +14,7 @@ tags:
 - vapor-compression
 - refrigeration
 - working-fluids
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

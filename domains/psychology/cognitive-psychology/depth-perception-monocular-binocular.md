@@ -15,7 +15,7 @@ tags:
 - perception
 - vision
 - cues
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - lever-rule
 - composition
 - two-phase-regions
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

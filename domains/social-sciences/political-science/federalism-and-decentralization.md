@@ -18,7 +18,7 @@ tags:
 - decentralization
 - subnational government
 - intergovernmental relations
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -20,7 +20,7 @@ tags:
 - pressure drag
 - friction drag
 - separation
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Drag and Lift on Submerged Bodies

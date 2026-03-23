@@ -17,7 +17,7 @@ tags:
 - path
 - differentials
 - exactness
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

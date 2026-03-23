@@ -18,7 +18,7 @@ tags:
 - laminar flow
 - parabolic profile
 - pipe flow
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

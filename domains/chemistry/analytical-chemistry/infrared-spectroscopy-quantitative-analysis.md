@@ -13,7 +13,7 @@ tags:
 - quantitative-IR
 - functional-groups
 - FTIR
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

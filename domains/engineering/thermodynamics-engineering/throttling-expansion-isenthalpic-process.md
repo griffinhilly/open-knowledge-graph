@@ -16,7 +16,7 @@ tags:
 - isenthalpic
 - expansion
 - joule-thomson
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

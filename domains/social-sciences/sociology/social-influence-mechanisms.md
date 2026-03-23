@@ -16,7 +16,7 @@ tags:
 - compliance
 - conformity-mechanisms
 - authority
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

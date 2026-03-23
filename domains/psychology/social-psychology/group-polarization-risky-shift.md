@@ -17,7 +17,7 @@ tags:
 - polarization
 - risky shift
 - group decision-making
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

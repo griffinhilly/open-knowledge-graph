@@ -18,7 +18,7 @@ tags:
 - social-categorization
 - prejudice
 - in-group-bias
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

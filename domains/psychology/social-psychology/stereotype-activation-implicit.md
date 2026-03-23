@@ -17,7 +17,7 @@ tags:
 - automatic-cognition
 - semantic-associations
 - priming
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

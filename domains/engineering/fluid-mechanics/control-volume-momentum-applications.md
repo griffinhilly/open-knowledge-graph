@@ -14,7 +14,7 @@ tags:
 - forces
 - control-volume
 - thrust
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - economy
 - food
 - place
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

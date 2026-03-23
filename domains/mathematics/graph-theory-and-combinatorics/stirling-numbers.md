@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - combinatorics
 - counting
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Stirling Numbers of the First and Second Kind

@@ -14,7 +14,7 @@ tags:
 - life-understanding
 - wisdom
 - gerontology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

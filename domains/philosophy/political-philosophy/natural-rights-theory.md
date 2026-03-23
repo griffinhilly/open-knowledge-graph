@@ -10,7 +10,7 @@ builds-toward:
 tags:
 - rights
 - foundational
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -30,7 +30,7 @@ tags:
 - graphite furnace
 - atomic emission
 - metals analysis
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Atomic Absorption and Emission Spectroscopy

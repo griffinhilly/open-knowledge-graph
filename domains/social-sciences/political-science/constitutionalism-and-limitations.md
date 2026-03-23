@@ -17,7 +17,7 @@ tags:
 - limited-government
 - law
 - constraints
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

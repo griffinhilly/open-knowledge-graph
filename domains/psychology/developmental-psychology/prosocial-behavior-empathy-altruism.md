@@ -17,7 +17,7 @@ tags:
 - empathy
 - altruism
 - helping-behavior
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

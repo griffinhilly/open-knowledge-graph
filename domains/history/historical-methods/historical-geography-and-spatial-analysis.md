@@ -13,7 +13,7 @@ tags:
 - space
 - spatial-analysis
 - place
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

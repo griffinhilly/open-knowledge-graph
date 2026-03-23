@@ -19,7 +19,7 @@ tags:
 - social-cohesion
 - belonging
 - alienation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

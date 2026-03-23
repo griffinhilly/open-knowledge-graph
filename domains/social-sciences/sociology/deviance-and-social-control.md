@@ -15,7 +15,7 @@ tags:
 - social-control
 - stigma
 - medicalization
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

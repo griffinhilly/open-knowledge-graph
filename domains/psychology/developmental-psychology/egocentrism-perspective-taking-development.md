@@ -19,7 +19,7 @@ tags:
 - preoperational
 - self-centered
 - social-cognition
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

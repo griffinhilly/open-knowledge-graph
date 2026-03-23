@@ -17,7 +17,7 @@ tags:
 - voltage-regulation
 - power-supply
 - peak-inverse-voltage
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

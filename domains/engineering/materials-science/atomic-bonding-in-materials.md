@@ -20,7 +20,7 @@ tags:
 - bonding
 - atomic-interactions
 - foundational
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - interstitial-solute
 - lattice-strain
 - hume-rothery-rules
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

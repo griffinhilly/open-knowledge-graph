@@ -10,7 +10,7 @@ tags:
 - rhyme
 - visual-form
 - wordplay
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

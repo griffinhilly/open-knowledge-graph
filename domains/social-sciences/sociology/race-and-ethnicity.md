@@ -23,7 +23,7 @@ tags:
 - social-construction
 - prejudice
 - discrimination
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

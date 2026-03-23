@@ -17,7 +17,7 @@ tags:
 - relative uncertainty
 - GUM
 - combined uncertainty
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - rhetorical-device
 - speaker
 - audience
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

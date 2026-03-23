@@ -15,7 +15,7 @@ tags:
 - cities
 - land-use
 - inequality
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

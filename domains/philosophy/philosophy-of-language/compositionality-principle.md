@@ -19,7 +19,7 @@ tags:
 - semantics
 - compositionality
 - meaning-construction
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

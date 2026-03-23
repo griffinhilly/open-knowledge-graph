@@ -13,7 +13,7 @@ tags:
 - peer-disagreement
 - conciliation
 - revision
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

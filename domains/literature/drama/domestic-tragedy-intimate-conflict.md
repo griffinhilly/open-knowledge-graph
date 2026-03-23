@@ -18,7 +18,7 @@ tags:
 - family
 - conflict
 - modern
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

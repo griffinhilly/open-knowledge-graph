@@ -19,7 +19,7 @@ tags:
 - addiction
 - reward
 - plasticity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

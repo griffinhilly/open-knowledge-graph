@@ -19,7 +19,7 @@ tags:
 - representation
 - meaning
 - aboutness
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

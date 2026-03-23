@@ -11,7 +11,7 @@ tags:
 - confidence
 - overconfidence
 - bias
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

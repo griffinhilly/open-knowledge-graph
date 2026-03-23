@@ -15,7 +15,7 @@ tags:
 - motor-systems
 - learning
 - coordination
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

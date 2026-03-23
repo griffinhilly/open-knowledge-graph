@@ -18,7 +18,7 @@ tags:
 - IR
 - NMR
 - UV-Vis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

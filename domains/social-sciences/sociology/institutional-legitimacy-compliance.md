@@ -17,7 +17,7 @@ tags:
 - compliance
 - weber
 - institutions
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

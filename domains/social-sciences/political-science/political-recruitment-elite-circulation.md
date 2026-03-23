@@ -16,7 +16,7 @@ tags:
 - elites
 - representation
 - candidates
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

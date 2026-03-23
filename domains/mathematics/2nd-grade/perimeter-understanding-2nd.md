@@ -14,7 +14,7 @@ tags:
 - perimeter
 - measurement
 - distance
-stage: abstract-reasoning
+stage: concrete-operations
 status: draft
 ---
 

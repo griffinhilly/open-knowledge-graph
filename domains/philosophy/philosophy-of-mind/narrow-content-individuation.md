@@ -17,7 +17,7 @@ tags:
 - semantics
 - internalism
 - representation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

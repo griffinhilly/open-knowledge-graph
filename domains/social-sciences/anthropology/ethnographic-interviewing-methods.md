@@ -15,7 +15,7 @@ tags:
 - interviewing
 - data-collection
 - qualitative
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

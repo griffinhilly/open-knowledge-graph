@@ -16,7 +16,7 @@ tags:
 - money-multiplier
 - required-reserves
 - banking
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

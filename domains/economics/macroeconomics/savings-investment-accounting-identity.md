@@ -15,7 +15,7 @@ tags:
 - accounting
 - foundations
 - flows
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

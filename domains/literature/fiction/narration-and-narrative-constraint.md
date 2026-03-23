@@ -15,7 +15,7 @@ tags:
 - narration
 - constraint
 - limitation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

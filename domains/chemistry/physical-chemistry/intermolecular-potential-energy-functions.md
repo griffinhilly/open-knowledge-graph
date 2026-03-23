@@ -16,7 +16,7 @@ tags:
 - potential
 - interactions
 - van-der-waals
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

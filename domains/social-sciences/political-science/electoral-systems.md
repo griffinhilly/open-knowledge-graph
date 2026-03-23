@@ -23,7 +23,7 @@ tags:
 - plurality
 - FPTP
 - electoral design
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

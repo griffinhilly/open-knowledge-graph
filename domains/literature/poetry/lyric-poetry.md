@@ -16,7 +16,7 @@ tags:
 - emotion
 - meditation
 - voice
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

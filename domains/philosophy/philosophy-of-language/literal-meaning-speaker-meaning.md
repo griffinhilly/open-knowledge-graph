@@ -14,7 +14,7 @@ tags:
 - meaning
 - literal
 - speaker-meaning
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

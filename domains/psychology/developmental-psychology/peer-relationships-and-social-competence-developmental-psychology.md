@@ -15,7 +15,7 @@ tags:
 - peers
 - competence
 - childhood
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

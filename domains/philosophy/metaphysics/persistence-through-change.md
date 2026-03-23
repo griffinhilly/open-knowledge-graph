@@ -13,7 +13,7 @@ tags:
 - change
 - identity
 - diachronic
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

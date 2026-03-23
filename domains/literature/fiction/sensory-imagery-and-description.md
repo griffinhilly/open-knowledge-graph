@@ -14,7 +14,7 @@ tags:
 - sensory
 - description
 - concrete
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

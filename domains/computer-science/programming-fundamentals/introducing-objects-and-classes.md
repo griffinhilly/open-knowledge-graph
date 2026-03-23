@@ -13,7 +13,7 @@ tags:
 - objects
 - classes
 - oop
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

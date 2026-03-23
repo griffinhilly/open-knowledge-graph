@@ -19,7 +19,7 @@ tags:
 - undecidability
 - computability
 - many-one-reducibility
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

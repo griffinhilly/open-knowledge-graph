@@ -15,7 +15,7 @@ tags:
 - Kelvin's theorem
 - vortex dynamics
 - Helmholtz theorems
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Vorticity and Circulation

@@ -24,7 +24,7 @@ tags:
 - diction
 - register
 - speaker
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Poetic Voice and Tone

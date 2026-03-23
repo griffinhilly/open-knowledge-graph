@@ -18,7 +18,7 @@ tags:
 - occupational-structure
 - occupational-socialization
 - career
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

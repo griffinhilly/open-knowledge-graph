@@ -14,7 +14,7 @@ tags:
 - laminar
 - pipe-flow
 - analytical
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

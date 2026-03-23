@@ -16,7 +16,7 @@ tags:
 - dilemma
 - strategic-interaction
 - social-dilemma
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

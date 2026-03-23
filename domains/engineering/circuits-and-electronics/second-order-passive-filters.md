@@ -15,7 +15,7 @@ tags:
 - damping
 - resonance
 - steeper-rolloff
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

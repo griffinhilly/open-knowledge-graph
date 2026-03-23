@@ -14,7 +14,7 @@ tags:
 - justification
 - legitimacy
 - liberal-democracy
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -20,7 +20,7 @@ tags:
 - Jablonski diagram
 - quantum yield
 - fluorimetry
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

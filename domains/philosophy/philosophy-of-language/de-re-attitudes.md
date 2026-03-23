@@ -17,7 +17,7 @@ tags:
 - reference
 - intentionality
 - quantification
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

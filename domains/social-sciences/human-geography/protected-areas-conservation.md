@@ -15,7 +15,7 @@ tags:
 - conservation
 - justice
 - governance
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - consent
 - legitimacy
 - authority
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

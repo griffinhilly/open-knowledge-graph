@@ -15,7 +15,7 @@ tags:
 - justice
 - consumption
 - global
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

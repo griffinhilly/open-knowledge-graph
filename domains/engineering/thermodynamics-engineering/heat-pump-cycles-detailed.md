@@ -15,7 +15,7 @@ tags:
 - heating
 - cop
 - coefficient-performance
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

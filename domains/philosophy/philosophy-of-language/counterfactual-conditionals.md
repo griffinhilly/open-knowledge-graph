@@ -14,7 +14,7 @@ tags:
 - conditionals
 - modality
 - counterfactuals
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

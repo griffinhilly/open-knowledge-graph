@@ -14,7 +14,7 @@ tags:
 - problem-solving
 - insight
 - unconscious-processing
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - quantum-intro
 - photons
 - particle-properties
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -20,7 +20,7 @@ tags:
 - minor loss
 - pipe networks
 - Darcy-Weisbach
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Pipe System Analysis: Major and Minor Losses

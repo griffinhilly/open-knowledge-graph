@@ -1,0 +1,142 @@
+================================================================================
+DEVELOPMENTAL STAGE AUDIT REPORT
+Biology & Physics Domains
+================================================================================
+
+Date: 2026-03-22
+Criteria: tools/audit/CRITERIA.md
+
+OVERVIEW
+================================================================================
+
+This audit assessed whether developmental stage assignments for biology and
+physics topics match their typical first-encounter educational context.
+
+Files Generated:
+  - tools/audit/biology_recommendations.json (45 recommendations)
+  - tools/audit/physics_recommendations.json (30 recommendations)
+
+BIOLOGY AUDIT: 45 RECOMMENDATIONS
+================================================================================
+
+All 45 recommendations are DOWNGRADES from advanced to formal-systems.
+
+BIOCHEMISTRY (31 topics: advanced -> formal-systems)
+------------------------------------------------------
+These are fundamental biochemistry topics taught in standard undergraduate
+intro courses, not upper-division specializations:
+
+Core coverage patterns:
+  - Amino acid structure, classification, properties
+  - Protein structure, folding, chaperones
+  - Enzyme kinetics (Michaelis-Menten, catalysis, cofactors)
+  - Central metabolic pathways: glycolysis, citric acid cycle, electron
+    transport, oxidative phosphorylation
+  - Fatty acid/lipid metabolism and synthesis
+  - Carbohydrate metabolism and homeostasis
+  - Nucleotide structure and synthesis
+
+Rationale: These are all covered in standard "Biochemistry I" or "Introduction
+to Biochemistry" courses taken by biology majors as part of required curriculum.
+They are formal-systems level (standard undergrad 100-300 level), not advanced
+(upper-division 300-400 specialty).
+
+MICROBIOLOGY (14 topics: advanced -> formal-systems)
+-----------------------------------------------------
+Intro-level microbiology topics taught in standard undergraduate courses:
+
+Coverage patterns:
+  - Bacterial structure (cell wall, flagella, pili)
+  - Bacterial metabolism and growth
+  - Gram staining and cell classification
+  - Viral structure and replication
+  - Fermentation pathways
+  - Fungal spores and reproduction
+
+Rationale: These are core topics in "Introduction to Microbiology" or
+"General Microbiology" courses, standard undergrad requirements. Lab techniques
+like Gram staining are foundational, not advanced.
+
+NO UPGRADES IN BIOLOGY:
+Evolutionary biology topics currently at formal-systems (e.g., natural
+selection, allele frequency, Hardy-Weinberg) are correctly placed. Advanced
+topics (Bayesian phylogenetics, coalescent theory, population genomics)
+are correctly at advanced.
+
+PHYSICS AUDIT: 30 RECOMMENDATIONS
+================================================================================
+
+19 downgrades (advanced -> formal-systems)
+11 upgrades (formal-systems -> advanced)
+
+MODERN PHYSICS (19 topics: advanced -> formal-systems)
+------------------------------------------------------
+Canonical intro-level modern physics topics that belong at formal-systems:
+
+Topics downgraded:
+  - Photoelectric effect
+  - Compton scattering (and wavelength shift)
+  - Blackbody radiation (Planck's law)
+  - Photon concept and quanta
+  - Planck-Einstein relation
+  - Special relativity and Lorentz transformations
+  - Mass-energy equivalence (E=mc²)
+  - Nuclear binding energy
+  - Gamma decay
+
+Rationale: These are the bread-and-butter topics of "Modern Physics" courses
+(standard 200-300 level undergrad). They appear in every intro modern physics
+textbook and are AP Physics C scope. Senior undergrad would encounter these
+in their intro course, making them formal-systems, not advanced.
+
+QUANTUM MECHANICS (11 topics: formal-systems -> advanced)
+---------------------------------------------------------
+Advanced quantum topics that require substantial QM prerequisite knowledge:
+
+Topics upgraded:
+  - Bell's theorem and Bell inequalities (foundation of quantum foundations)
+  - Dirac notation (bra-ket formalism)
+  - Hilbert space formalism (abstract mathematical structure)
+  - Canonical commutation relations (formal operator algebra)
+  - Fermions, bosons, and exchange symmetry
+  - Slater determinants (many-body antisymmetrization)
+  - Identical particle quantum mechanics
+
+Rationale: These are taught in upper-division "Quantum Mechanics II" courses
+(300-400 level) that require QM I as prerequisite. The formal mathematical
+structure and many-body treatments are not intro-level. Most of these appear
+after week 4-5 of QM I at the earliest, when students have solid foundation
+in Schrodinger equation and basic applications.
+
+NO UPGRADES NEEDED:
+- Classical mechanics, E&M, thermodynamics, waves: correctly formal-systems
+- Electrodynamics, statistical mechanics: correctly expert
+- Most of QM is correctly advanced (senior undergrad level)
+
+CONFIDENCE LEVELS
+================================================================================
+
+Biology: 45/45 recommendations = HIGH confidence
+  - Clear mapping to standard curricula
+  - These are textbook intro vs. advanced topics
+
+Physics: All 30 recommendations = HIGH confidence
+  - Modern physics downgrades: canonical AP/undergrad intro topics
+  - QM upgrades: clearly formal upper-division content
+
+IMPLEMENTATION NOTES
+================================================================================
+
+When applying these changes:
+
+1. Verify topics are correctly related in prerequisite graph after changing
+2. Check that parent/child relationships still make sense (e.g., a topic
+   downgraded to formal-systems shouldn't have advanced prerequisites)
+3. Consider if any formal-systems -> advanced QM changes create new
+   prerequisite graph violations
+
+Adjacent domains to spot-check:
+  - Chemistry: If biochemistry drops to formal-systems, check chemistry
+    prerequisites (e.g., does "organic chemistry" still need to be advanced?)
+  - Other biology courses: Ensure consistency if this triggers similar
+    audits for neuroscience, immunology

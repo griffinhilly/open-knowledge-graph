@@ -14,7 +14,7 @@ tags:
 - justice
 - fairness
 - distributive
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

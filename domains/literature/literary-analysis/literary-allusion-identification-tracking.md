@@ -17,7 +17,7 @@ tags:
 - reference
 - intertextuality
 - analysis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

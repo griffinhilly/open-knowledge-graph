@@ -16,7 +16,7 @@ tags:
 - testimony-networks
 - epistemic-injustice
 - collective-epistemology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Social Epistemology

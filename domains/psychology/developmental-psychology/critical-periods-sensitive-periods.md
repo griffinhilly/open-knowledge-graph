@@ -21,7 +21,7 @@ tags:
 - imprinting
 - plasticity
 - deprivation
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Critical Periods and Sensitive Periods

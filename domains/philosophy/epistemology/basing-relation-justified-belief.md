@@ -15,7 +15,7 @@ tags:
 - basing
 - belief-forming
 - intentionality
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - hypothetical-deductive reasoning
 - adolescent cognition
 - abstract thinking
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

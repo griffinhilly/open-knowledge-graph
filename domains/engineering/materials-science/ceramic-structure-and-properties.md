@@ -18,7 +18,7 @@ tags:
 - oxides
 - silicates
 - thermal-stability
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

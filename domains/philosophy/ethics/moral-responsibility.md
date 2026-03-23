@@ -16,7 +16,7 @@ tags:
 - agency
 - blameworthiness
 - free-will
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - conversion
 - centimeters
 - meters
-stage: abstract-reasoning
+stage: concrete-operations
 status: draft
 ---
 

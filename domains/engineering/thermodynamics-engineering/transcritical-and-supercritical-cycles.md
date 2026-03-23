@@ -14,7 +14,7 @@ tags:
 - co2
 - power-cycle
 - efficiency
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

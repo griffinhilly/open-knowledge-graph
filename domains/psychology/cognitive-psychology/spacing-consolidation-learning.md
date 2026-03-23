@@ -15,7 +15,7 @@ tags:
 - learning
 - spacing
 - consolidation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

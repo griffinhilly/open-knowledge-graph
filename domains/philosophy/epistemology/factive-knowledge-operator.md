@@ -12,7 +12,7 @@ tags:
 - factivity
 - knowledge-truth
 - operator-properties
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

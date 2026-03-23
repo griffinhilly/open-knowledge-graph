@@ -25,7 +25,7 @@ tags:
 - retention factor
 - resolution
 - theoretical plates
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Chromatography: Principles and Theoretical Plate Model

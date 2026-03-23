@@ -23,7 +23,7 @@ tags:
 - speech
 - character-voice
 - interiority
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

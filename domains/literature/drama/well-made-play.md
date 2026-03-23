@@ -18,7 +18,7 @@ tags:
 - exposition
 - obligatory-scene
 - dramaturgy
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # The Well-Made Play

@@ -13,7 +13,7 @@ tags:
 - conversion
 - inches
 - feet
-stage: abstract-reasoning
+stage: concrete-operations
 status: draft
 ---
 

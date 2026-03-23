@@ -14,7 +14,7 @@ tags:
 - exergy
 - availability
 - useful-work
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

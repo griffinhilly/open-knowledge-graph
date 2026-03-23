@@ -28,7 +28,7 @@ tags:
 - absorbance
 - chromophore
 - quantitative analysis
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

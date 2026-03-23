@@ -13,7 +13,7 @@ tags:
 - data-structures
 - arrays
 - collections
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

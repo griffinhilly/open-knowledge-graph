@@ -20,7 +20,7 @@ tags:
 - recursive
 - formal-languages
 - algorithms
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

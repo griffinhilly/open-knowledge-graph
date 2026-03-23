@@ -21,7 +21,7 @@ tags:
 - vibrational-spectroscopy
 - SERS
 - molecular-structure
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

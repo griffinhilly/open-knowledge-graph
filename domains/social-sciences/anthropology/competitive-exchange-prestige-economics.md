@@ -16,7 +16,7 @@ tags:
 - prestige
 - status
 - social-organization
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

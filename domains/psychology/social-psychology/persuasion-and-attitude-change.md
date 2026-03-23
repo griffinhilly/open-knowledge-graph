@@ -15,7 +15,7 @@ tags:
 - ELM
 - attitude change
 - influence
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

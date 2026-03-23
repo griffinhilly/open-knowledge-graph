@@ -27,7 +27,7 @@ tags:
 - redox
 - NAD+
 - NADH
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

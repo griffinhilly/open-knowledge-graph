@@ -14,7 +14,7 @@ tags:
 - phase-diagrams
 - phases
 - saturation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

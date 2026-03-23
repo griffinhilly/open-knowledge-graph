@@ -14,7 +14,7 @@ tags:
 - manipulation
 - representation
 - fairness
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

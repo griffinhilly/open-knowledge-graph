@@ -1,0 +1,786 @@
+[
+ {
+  "id": "ackermann-function",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "alternating-machines-hierarchy",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "alternating-turing-machines-computability-and-complexity",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "alternation-in-turing-machines",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "approximation-algorithms",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "approximation-hardness-results",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "arithmetical-hierarchy",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "bpp-randomized-complexity",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "busy-beaver-function",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "church-turing-thesis-formal",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "circuit-complexity-and-bounds",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "circuit-complexity",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "clique-problem-np-complete",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "co-np-and-complements",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "co-np",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "complexity-class-definitions-hierarchy",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "complexity-lower-bounds",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "computability-complexity-overview",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "computability-models-equivalence",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "computability-reductions",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "context-free-grammars-formal",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "cook-levin-theorem-formal",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "counting-complexity-sharp-p",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "decidability-and-semi-decidability",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "descriptive-complexity-and-logic",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "descriptive-complexity",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "deterministic-finite-automata-formal",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "enumeration-and-index-sets",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "exponential-time-hypothesis",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "fixed-parameter-tractability",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "formal-computational-models",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "general-recursive-functions",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "halting-problem-formal",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "hardness-approximation",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "inapproximability-pcp",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "interactive-proofs",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "kleene-recursion-theorem",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "knapsack-problem-variations",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "kolmogorov-complexity-properties",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "kolmogorov-complexity",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "lambda-calculus",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "linear-bounded-automata-computability-and-complexity",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "logarithmic-space-classes",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "many-one-and-turing-reductions",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "many-one-reductions",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "mu-recursive-functions",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "nc-class-parallel-circuits",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "nl-completeness",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "nondeterministic-finite-automata-formal",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "nondeterministic-polynomial-time-computability-and-complexity",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "nondeterministic-turing-machines",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "np-and-polynomial-time",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "np-completeness-formal",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "np-completeness-reduction-proof-techniques",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "np-completeness-theorem",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "np-hardness",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "oracle-turing-machines-computability-and-complexity",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "p-versus-np",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "parameterized-complexity-fpt",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "parameterized-complexity-fundamentals",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "partial-vs-total-recursive-functions",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "polynomial-hierarchy-computability-and-complexity",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "polynomial-hierarchy-levels",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "polynomial-time-computation-fundamentals",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "polynomial-time-reductions",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "post-correspondence-problem-computability-and-complexity",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "primitive-recursive-functions",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "probabilistic-computation",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "pspace-and-complexity-hierarchy",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "pspace-completeness",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "pushdown-automata-formal",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "randomized-complexity-classes",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "randomized-complexity-rp-coerp",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "re-and-co-re-languages",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "recursive-languages",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "recursively-enumerable-languages-computability-and-complexity",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "recursively-enumerable-languages-properties",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "reducibility-many-one-formal",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "regular-expressions-and-languages",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "rices-theorem-applications",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "rices-theorem",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "sat-and-np-complete-problems",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "sat-boolean-satisfiability-computability-and-complexity",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "sat-canonical-problem",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "space-complexity-classes-formal",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "space-hierarchy-theorem-computability-and-complexity",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "three-sat-np-complete",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "three-sat-reductions",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "time-complexity-classes-formal",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "time-hierarchy-theorem-computability-and-complexity",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "time-space-hierarchy-theorems",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "traveling-salesman-problem",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "turing-degrees-equivalence",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "turing-degrees",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "turing-machines-formal",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "undecidability-proof-by-reduction",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "undecidable-problems-examples",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ },
+ {
+  "id": "vertex-cover-problem",
+  "course": "computability-and-complexity",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Standard required CS course (Theory of Computation); not an elective specialty."
+ }
+]

@@ -18,7 +18,7 @@ tags:
 - emotion
 - distortion
 - early-modernism
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

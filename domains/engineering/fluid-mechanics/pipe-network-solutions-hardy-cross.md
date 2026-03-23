@@ -12,7 +12,7 @@ tags:
 - networks
 - iteration
 - branching-pipes
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

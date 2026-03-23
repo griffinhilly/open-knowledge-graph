@@ -13,7 +13,7 @@ tags:
 - introduction
 - getting-started
 - basic
-stage: formal-systems
+stage: abstract-reasoning
 status: draft
 ---
 # Hello World: Your First Program

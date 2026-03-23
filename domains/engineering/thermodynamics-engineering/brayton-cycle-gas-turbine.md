@@ -16,7 +16,7 @@ tags:
 - brayton-cycle
 - gas-turbine
 - power-cycles
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

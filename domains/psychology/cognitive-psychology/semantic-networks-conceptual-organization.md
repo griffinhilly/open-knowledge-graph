@@ -14,7 +14,7 @@ tags:
 - concepts
 - networks
 - organization
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

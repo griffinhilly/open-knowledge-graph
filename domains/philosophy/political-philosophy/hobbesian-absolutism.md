@@ -15,7 +15,7 @@ tags:
 - Hobbes
 - sovereignty
 - absolutism
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

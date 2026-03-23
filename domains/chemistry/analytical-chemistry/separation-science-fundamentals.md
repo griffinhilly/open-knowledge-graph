@@ -14,7 +14,7 @@ tags:
 - separations
 - chromatography
 - extraction
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

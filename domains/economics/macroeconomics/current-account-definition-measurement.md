@@ -15,7 +15,7 @@ tags:
 - balance-of-payments
 - international-transactions
 - gdp
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

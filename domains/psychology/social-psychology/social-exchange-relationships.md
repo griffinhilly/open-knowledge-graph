@@ -16,7 +16,7 @@ tags:
 - satisfaction
 - costs-benefits
 - interdependence
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

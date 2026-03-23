@@ -15,7 +15,7 @@ tags:
 - speech-acts
 - illocution
 - force
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

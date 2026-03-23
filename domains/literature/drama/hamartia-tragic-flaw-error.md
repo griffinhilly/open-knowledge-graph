@@ -18,7 +18,7 @@ tags:
 - error
 - downfall
 - fate
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

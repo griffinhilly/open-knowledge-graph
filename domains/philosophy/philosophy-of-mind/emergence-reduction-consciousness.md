@@ -17,7 +17,7 @@ tags:
 - reduction
 - physicalism
 - properties
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

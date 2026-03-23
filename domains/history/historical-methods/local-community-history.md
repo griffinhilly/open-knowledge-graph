@@ -13,7 +13,7 @@ tags:
 - community
 - methodology
 - social-history
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - prisoner-dilemma
 - commons
 - interdependence
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

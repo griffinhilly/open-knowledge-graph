@@ -15,7 +15,7 @@ tags:
 - exposition
 - backstory
 - craft
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

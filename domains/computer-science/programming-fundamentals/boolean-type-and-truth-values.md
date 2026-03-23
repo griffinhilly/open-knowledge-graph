@@ -13,7 +13,7 @@ tags:
 - types
 - boolean
 - logic
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

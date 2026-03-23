@@ -14,7 +14,7 @@ tags:
 - mach-number
 - compressibility
 - speed-of-sound
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

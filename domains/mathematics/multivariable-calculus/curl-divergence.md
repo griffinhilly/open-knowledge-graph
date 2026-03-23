@@ -15,7 +15,7 @@ builds-toward:
 tags:
 - curl
 - divergence
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

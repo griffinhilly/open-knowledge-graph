@@ -14,7 +14,7 @@ tags:
 - Stokes
 - anti-Stokes
 - inelastic-scattering
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

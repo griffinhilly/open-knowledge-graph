@@ -17,7 +17,7 @@ tags:
 - LDL
 - membranes
 - lipid bilayer
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - family
 - organization
 - space
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

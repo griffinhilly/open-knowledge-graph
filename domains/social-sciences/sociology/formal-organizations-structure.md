@@ -12,7 +12,7 @@ tags:
 - organizations
 - structure
 - institutions
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

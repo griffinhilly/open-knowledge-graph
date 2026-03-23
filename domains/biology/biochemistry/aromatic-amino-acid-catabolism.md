@@ -15,7 +15,7 @@ tags:
 - phenylalanine
 - tyrosine
 - tryptophan
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

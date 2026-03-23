@@ -19,7 +19,7 @@ tags:
 - truth-conditions
 - causation
 - semantics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Counterfactual Truth Conditions and Modal Metaphysics

@@ -15,7 +15,7 @@ tags:
 - word-recognition
 - lexical
 - vocabulary
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

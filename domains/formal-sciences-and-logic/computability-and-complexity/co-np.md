@@ -13,7 +13,7 @@ tags:
 - complexity
 - co-NP
 - complexity-classes
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

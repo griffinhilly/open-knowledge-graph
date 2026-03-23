@@ -14,7 +14,7 @@ tags:
 - grievance
 - social-unrest
 - stouffer
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

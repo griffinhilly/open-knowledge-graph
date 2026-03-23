@@ -14,7 +14,7 @@ tags:
 - self
 - dot notation
 - encapsulation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

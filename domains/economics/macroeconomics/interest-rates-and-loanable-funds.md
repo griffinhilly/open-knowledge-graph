@@ -21,7 +21,7 @@ tags:
 - saving
 - investment
 - crowding-out
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Interest Rates and the Loanable Funds Market

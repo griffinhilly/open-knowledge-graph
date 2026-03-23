@@ -10,7 +10,7 @@ tags:
 - wordplay
 - ambiguity
 - meaning
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Pun and Wordplay: Multiple Meanings

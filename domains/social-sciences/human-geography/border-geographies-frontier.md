@@ -15,7 +15,7 @@ tags:
 - territory
 - sovereignty
 - boundaries
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

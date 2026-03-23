@@ -16,7 +16,7 @@ tags:
 - Festinger
 - self-evaluation
 - upward downward comparison
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

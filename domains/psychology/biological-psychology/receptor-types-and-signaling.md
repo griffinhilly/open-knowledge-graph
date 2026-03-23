@@ -19,7 +19,7 @@ tags:
 - G-protein
 - receptor
 - second-messenger
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

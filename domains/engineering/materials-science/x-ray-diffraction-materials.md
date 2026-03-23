@@ -16,7 +16,7 @@ tags:
 - diffraction
 - crystal-identification
 - lattice-parameter
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

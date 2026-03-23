@@ -18,7 +18,7 @@ tags:
 - group-dynamics
 - cohesion
 - conformity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

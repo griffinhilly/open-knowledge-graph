@@ -15,7 +15,7 @@ tags:
 - low-input-impedance
 - cascode
 - no-phase-inversion
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - strength
 - testing
 - vickers-knoop
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

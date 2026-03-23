@@ -14,7 +14,7 @@ tags:
 - np-hard
 - optimization
 - dynamic-programming
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

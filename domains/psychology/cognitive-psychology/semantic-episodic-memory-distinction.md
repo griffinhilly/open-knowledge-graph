@@ -15,7 +15,7 @@ tags:
 - semantic
 - episodic
 - neurobiology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

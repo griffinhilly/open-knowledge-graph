@@ -12,7 +12,7 @@ tags:
 - combustion
 - heat-release
 - adiabatic-flame-temperature
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

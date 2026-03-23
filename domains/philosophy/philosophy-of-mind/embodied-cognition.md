@@ -17,7 +17,7 @@ tags:
 - Thompson
 - sensorimotor
 - situated-cognition
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

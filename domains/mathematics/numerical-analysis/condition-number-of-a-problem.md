@@ -12,7 +12,7 @@ tags:
 - condition-number
 - ill-conditioning
 - sensitivity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - relationships
 - connections
 - mapping
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

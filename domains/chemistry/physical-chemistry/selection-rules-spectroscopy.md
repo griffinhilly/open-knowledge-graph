@@ -21,7 +21,7 @@ tags:
 - spectroscopy
 - forbidden
 - allowed
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

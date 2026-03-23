@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - combinatorics
 - ramsey-theory
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

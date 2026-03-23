@@ -15,7 +15,7 @@ tags:
 - perspective-differences
 - bias
 - self-other-asymmetry
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

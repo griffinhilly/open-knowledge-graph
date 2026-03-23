@@ -18,7 +18,7 @@ tags:
 - constitutional design
 - rights
 - judicial review
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

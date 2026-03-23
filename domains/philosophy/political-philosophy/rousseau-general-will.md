@@ -15,7 +15,7 @@ tags:
 - popular-sovereignty
 - freedom
 - democracy
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

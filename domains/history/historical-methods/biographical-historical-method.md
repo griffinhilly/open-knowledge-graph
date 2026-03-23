@@ -13,7 +13,7 @@ tags:
 - methodology
 - individual
 - interpretation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

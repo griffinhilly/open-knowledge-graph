@@ -14,7 +14,7 @@ tags:
 - knowledge
 - learning
 - skill
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

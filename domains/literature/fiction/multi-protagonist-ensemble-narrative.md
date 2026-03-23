@@ -12,7 +12,7 @@ tags:
 - ensemble
 - multi-protagonist
 - multiple-POV
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

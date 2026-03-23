@@ -19,7 +19,7 @@ tags:
 - oxytocin
 - HPA-axis
 - stress-hormones
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

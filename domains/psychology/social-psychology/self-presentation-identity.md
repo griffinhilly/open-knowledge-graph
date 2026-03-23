@@ -16,7 +16,7 @@ tags:
 - face-work
 - dramaturgy
 - impression-management
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

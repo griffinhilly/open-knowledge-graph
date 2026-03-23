@@ -17,7 +17,7 @@ tags:
 - lived-experience
 - methodology
 - non-elites
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

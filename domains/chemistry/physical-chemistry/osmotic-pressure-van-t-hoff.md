@@ -13,7 +13,7 @@ tags:
 - colligative
 - van-t-hoff
 - solution
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

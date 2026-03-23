@@ -23,7 +23,7 @@ tags:
 - consonance
 - onomatopoeia
 - sound
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

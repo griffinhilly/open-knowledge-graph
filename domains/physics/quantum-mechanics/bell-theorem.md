@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - bell-theorem
 - nonlocality
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

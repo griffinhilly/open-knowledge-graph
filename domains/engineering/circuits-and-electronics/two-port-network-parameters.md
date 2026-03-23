@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - two-port-networks
 - network-parameters
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - analogy
 - structure-mapping
 - transfer
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

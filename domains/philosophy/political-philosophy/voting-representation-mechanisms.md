@@ -16,7 +16,7 @@ tags:
 - representation
 - democracy
 - elections
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

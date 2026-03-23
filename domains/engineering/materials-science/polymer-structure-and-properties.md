@@ -20,7 +20,7 @@ tags:
 - molecular-weight
 - thermoplastic
 - thermoset
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

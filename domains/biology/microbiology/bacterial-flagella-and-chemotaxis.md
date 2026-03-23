@@ -16,7 +16,7 @@ tags:
 - flagella
 - chemotaxis
 - cell-signaling
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

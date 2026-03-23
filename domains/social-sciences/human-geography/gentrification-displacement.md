@@ -11,7 +11,7 @@ tags:
 - displacement
 - urban-change
 - housing
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

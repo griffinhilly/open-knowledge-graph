@@ -13,7 +13,7 @@ tags:
 - social development
 - peer relations
 - childhood
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

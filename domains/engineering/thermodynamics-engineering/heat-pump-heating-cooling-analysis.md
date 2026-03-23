@@ -10,7 +10,7 @@ tags:
 - heat-pump
 - heating
 - cooling
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

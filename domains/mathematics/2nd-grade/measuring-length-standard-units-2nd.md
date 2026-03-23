@@ -15,7 +15,7 @@ tags:
 - measurement
 - length
 - standard-units
-stage: abstract-reasoning
+stage: concrete-operations
 status: draft
 ---
 

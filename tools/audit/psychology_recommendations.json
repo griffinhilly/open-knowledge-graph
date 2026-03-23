@@ -1,0 +1,2738 @@
+[
+  {
+    "id": "action-potential-and-neural-signaling",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "action-potential-generation-and-propagation",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "addiction-and-reward-system-plasticity",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "adenosine-accumulation-and-sleep-homeostasis",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "agonists-and-antagonists",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "alcohol-and-cns-depressant-effects",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "auditory-processing-pathway",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "auditory-system-anatomy-and-physiology",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "autonomic-nervous-system-organization-and-control",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "axon-initial-segment-and-spike-initiation",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "basal-ganglia-selection-habits",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "biological-psychology-overview",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "brain-evolution-and-comparative-neurobiology",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "brain-lobes-and-functions",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "brain-structure-and-functional-localization",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "brainstem-reticular-consciousness",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "cannabis-cb1-receptors-and-cognition",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "cerebellum-coordination-learning",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "cerebral-cortex-organization",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "consciousness-neural-mechanisms-and-integration",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "dopamine-pathways-reward-motivation",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "dopamine-receptor-subtypes-and-signaling",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "drug-classes-and-effects",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "gaba-glutamate-neurotransmission-balance",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "gabaergic-inhibition-and-benzodiazepine-pharmacology",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "genetics-and-behavior",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "glial-cells-and-support",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "hemispheric-lateralization",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "hormones-and-behavior",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "hypothalamic-pituitary-adrenal-hpa-axis",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "hypothalamic-pituitary-endocrine-axis",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "inhibitory-excitatory-synaptic-balance",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "intracellular-signaling-and-second-messengers",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "ion-channels-and-neural-excitability",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "learning-and-memory-at-synaptic-level",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "limbic-structures-emotion-and-motivation",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "limbic-system-and-emotion",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "long-term-depression-ltd-synaptic-weakening",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "long-term-potentiation-ltp-memory-encoding",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "membrane-potential-and-ion-dynamics",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "mitochondrial-function-and-brain-energy",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "monoamine-synthesis-and-catabolism",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "motor-planning-premotor-cortex",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "neuroimaging-methods-principles-and-applications",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "neuroimmunology-and-brain-inflammation",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "neuron-morphology-and-classification",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "neuroplasticity",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "neurotransmitter-receptor-binding",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "neurotransmitter-systems",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "nicotine-cholinergic-effects-and-addiction",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "olfaction-gustation-and-chemical-sensing",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "opioid-receptor-subtypes-and-analgesia",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "orexin-hypocretin-wakefulness-system",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "pain-and-somatosensory-processing",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "pharmacology-agonists-antagonists",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "presynaptic-inhibition-and-short-term-plasticity",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "primary-motor-cortex-motor-representation",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "primary-sensory-cortex-somatotopy",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "protein-aggregation-and-neurodegeneration",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "psychoactive-drugs-and-behavior",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "psychopharmacology-basics",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "psychopharmacology-principles-and-mechanisms",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "psychostimulant-cocaine-methamphetamine-mechanisms",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "receptor-subtypes-and-signaling",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "receptor-types-and-signaling",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "reproductive-hormones-and-sexual-neural-circuits",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "sensory-pathways-overview",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "sensory-transduction-and-neural-coding",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "serotonin-reuptake-mechanisms-and-ssri-action",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "sex-differences-in-brain-structure-and-function",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "sleep-architecture-consolidation",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "sleep-circadian-rhythms-and-sleep-homeostasis",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "sleep-functions-and-disorders",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "sleep-stages-and-cycles",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "somatosensory-and-pain-perception",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "states-of-consciousness",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "subcortical-structures",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "suprachiasmatic-nucleus-circadian",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "sympathetic-parasympathetic-balance",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "synaptic-plasticity-mechanisms",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "synaptic-transmission-neurotransmitter-release",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "synaptic-transmission-process",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "synaptogenesis-and-developmental-plasticity",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "thalamic-relay-sensory-gating",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "thalamus-structure-and-sensory-relay",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "thyroid-hormone-and-neural-development",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "visual-processing-pathway",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "visual-system-anatomy-and-physiology",
+    "course": "biological-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "analogical-mapping-abstraction",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "analogical-reasoning-cognitive",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "analogical-reasoning-structure-mapping",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "attention-capacity-and-bottlenecks",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "attention-divided",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "attention-selective",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "attentional-blink-temporal-refractory",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "availability-heuristic-judgment",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "base-rate-integration-probability",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "coarticulation-speech-context",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "cognitive-biases-judgment-uncertainty",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "cognitive-biases-overview",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "cognitive-load-theory",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "cognitive-psychology-overview",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "conjunction-fallacy-probability-judgment",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "constraint-satisfaction-problems-cognitive-psychology",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "declarative-vs-procedural-memory",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "deductive-reasoning-cognitive",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "depth-perception-monocular-binocular",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "dual-process-theory",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "encoding-organization-chunking-memory",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "expert-cognition-knowledge-organization",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "expertise-and-chunking",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "expertise-knowledge-reorganization",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "false-memory-source-misattribution",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "figure-ground-perception",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "forgetting-and-interference",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "frequency-estimation-metacognitive",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "garden-path-sentences-parsing",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "heuristics-and-judgment",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "inattentional-blindness-unattended-stimuli",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "incubation-effect-problem-solving",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "inductive-reasoning-cognitive",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "inhibition-of-return-location-suppression",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "insight-problem-solving-constraints",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "interference-and-decay-forgetting",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "interference-decay-forgetting",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "knowledge-transfer-across-domains",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "language-comprehension",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "language-production",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "lexical-frequency-word-processing",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "logical-validity-belief-bias",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "long-term-memory-types",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "memory-encoding-depth",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "memory-encoding-strategies",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "memory-reconsolidation-post-retrieval",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "memory-retrieval-cues",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "memory-storage-consolidation",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "mental-imagery",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "mental-model-construction",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "mental-rotation-spatial-transformation",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "metacognition",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "overconfidence-metacognitive-illusions",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "perceptual-organization-gestalt-principles",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "phoneme-perception-categorical",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "pragmatic-implicature-context",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "problem-representation-and-search",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "problem-search-forward-backward",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "problem-solving-strategies",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "procedural-memory-habits-skills",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "prototype-exemplar-category-learning",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "reasoning-biases-and-errors",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "representativeness-similarity-judgment",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "retrieval-context-effects-memory",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "retrieval-cues-encoding-specificity",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "retrieval-induced-forgetting-blocking",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "saccade-based-visual-search",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "schema-theory",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "selective-attention-filter-models",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "semantic-category-hierarchies",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "semantic-episodic-memory-distinction",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "semantic-memory-network-models",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "semantic-networks-conceptual-organization",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "semantic-priming-spreading-activation",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "sentence-comprehension-parsing",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "serial-position-effects-primacy-recency",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "source-attribution-memory-origins",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "spacing-consolidation-learning",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "speech-production-planning",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "state-dependent-memory-context-matching",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "stroop-interference-semantic-control",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "syntactic-reanalysis-garden-paths",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "syntax-and-grammar-acquisition",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "task-switching-executive-control",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "transfer-appropriate-processing-encoding-match",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "visual-object-recognition-categorical",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "word-recognition-lexical-access",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "working-memory-capacity-chunking",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "working-memory-model",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "working-memory-resource-allocation",
+    "course": "cognitive-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "adolescent-cognitive-development",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "adolescent-identity-exploration-commitment",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "adult-development-lifespan",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "aggression-development-and-origins",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "attachment-styles",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "attachment-theory",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "autobiographical-memory-narrative-identity",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "care-versus-justice-frameworks-moral-reasoning",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "cognitive-aging-and-decline",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "cognitive-aging-declines-fluid-crystallized",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "conventional-to-postconventional-morality",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "critical-periods-sensitive-periods",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "developmental-resilience-adversity-recovery",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "distributive-justice-development-principles",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "egocentrism-perspective-taking-development",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "emerging-adulthood-development",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "emotion-understanding-facial-recognition-development",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "emotional-development-and-regulation-infancy",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "erikson-psychosocial-stages",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "executive-function-development-prefrontal",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "false-belief-task-understanding-mind",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "fine-motor-development-milestones",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "friendship-formation-and-maintenance",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "gender-identity-socialization-development",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "gender-role-development-and-socialization",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "grief-bereavement-and-developmental-stages",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "gross-motor-development-milestones",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "identity-development-adolescence",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "imaginary-audience-adolescent-egocentrism",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "language-acquisition-development",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "menopause-and-midlife-development",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "moral-development-gilligan",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "moral-development-kohlberg",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "moral-emotions-guilt-shame-development",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "moral-realism-objective-responsibility",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "nature-nurture-debate",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "parent-infant-synchrony-interaction",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "parenting-styles-and-outcomes",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "peer-influence-conformity-social-development",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "peer-relationships-and-social-competence-developmental-psychology",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "peer-relationships-friendship-development",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "phonological-development-speech-sounds",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "pragmatic-language-social-context",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "prenatal-development",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "prosocial-behavior-empathy-altruism",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "prosocial-behavior-empathy-development",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "scaffolding-and-guided-participation",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "secure-attachment-and-base-functions",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "secure-attachment-assessment-strange-situation",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "self-concept-self-esteem-development",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "self-regulation-delay-gratification-development",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "social-referencing-emotional-development",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "stranger-anxiety-separation-patterns",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "syntax-acquisition-grammatical-development",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "temperament-and-early-personality",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "theory-of-mind-false-beliefs",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "vocabulary-growth-semantic-development",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "vygotsky-sociocultural-theory",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "wisdom-gerontology-expertise-development",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "zone-of-proximal-development",
+    "course": "developmental-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "actor-observer-bias-attribution",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "aggression-situational-factors",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "aggression-theories",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "altruism-empathy-motivation",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "attitude-formation",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "attribution-theory-framework",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "attribution-theory",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "authoritarianism-and-prejudice",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "aversive-racism-implicit-prejudice",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "backfire-effect-and-belief-updating",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "blind-spot-bias-dual-perception",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "cognitive-dissonance",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "consistency-principle-cognition",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "cooperation-social-dilemmas",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "correspondence-bias-situational",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "defensive-attribution-hypothesis",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "dehumanization-intergroup-conflict",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "dehumanization-moral-disengagement-aggression",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "diffusion-of-responsibility-accountability",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "door-in-the-face-technique-reciprocity",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "emotional-contagion",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "false-consensus-effect-judgment",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "foot-in-the-door-compliance-technique",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "fundamental-attribution-error",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "group-polarization-choice-shift",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "group-polarization-risky-shift",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "groupthink-decision-quality",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "groupthink",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "helping-behavior-decision-norms",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "hostile-attribution-bias-aggression",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "hostile-media-effect-partisan",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "implicit-association-test-measurement",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "impression-formation-cognitive",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "in-group-out-group-bias",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "ingroup-favoritism-bias",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "inoculation-theory-persuasion-resistance",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "intergroup-contact-hypothesis",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "just-world-belief",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "just-world-hypothesis-belief",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "liking-principle-persuasion-attraction",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "lowball-compliance-technique",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "message-framing-gain-loss-decisions",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "minimal-group-paradigm-identification",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "normative-vs-informational-influence",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "obedience-authority-legitimacy",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "obedience-authority-organizational-contexts",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "outgroup-homogeneity-effect",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "persuasion-and-attitude-change",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "persuasion-central-peripheral-routes",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "prejudice-and-discrimination",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "prejudice-intergroup-anxiety",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "prisoner-dilemma-strategic-cooperation",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "prosocial-behavior",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "realistic-conflict-theory",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "role-conformity-expectations",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "romantic-love-attachment-adult",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "scarcity-principle-and-reactance",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "self-perception-theory-attitude-inference",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "self-presentation-identity",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "self-serving-bias",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "social-cognition",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "social-comparison-theory",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "social-dominance-orientation",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "social-exchange-relationships",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "social-identity-salience-activation",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "social-identity-theory",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "social-influence-compliance",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "social-proof-conformity",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "stereotype-activation-implicit",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "stereotype-application-constraints",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "stereotyping-and-implicit-bias",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "sunk-cost-escalation-commitment",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "superordinate-goals-conflict-reduction",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "system-justification-belief",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "system-justification-ideology",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "thats-not-all-technique-persuasion",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "tragedy-of-commons-collective-action",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "ultimate-attribution-error-intergroup",
+    "course": "social-psychology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "These are core topics in standard undergrad intro courses (200-300 level), not advanced electives."
+  },
+  {
+    "id": "animism-and-magical-thinking-preoperational",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "appearance-versus-reality-conservation-cognitive",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "centration-and-decentration-cognitive",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "cognitive-development-information-processing",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "conservation-and-reversibility-piaget",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "conservation-cognitive-development",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "developmental-psychology-overview",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "egocentrism-and-perspective-taking",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "metacognition-self-monitoring-cognition",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "middle-childhood-cognitive-advances",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "nature-nurture-gene-environment-interaction",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "object-permanence-sensorimotor-development",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "personal-fable-adolescent-development",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "piaget-concrete-operational",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "piaget-formal-operational",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "piaget-preoperational-stage",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "piaget-sensorimotor-stage",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "pretend-play-cognitive-development-functions",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "pubertal-development-and-timing-effects",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "self-concept-and-self-esteem-development-developmental-psychology",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "separation-anxiety-and-stranger-anxiety",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "symbolic-thought-and-pretend-play",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "synchrony-and-parent-infant-coordination",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "theory-of-mind-development-developmental-psychology",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "transitive-inference-concrete-operations",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  },
+  {
+    "id": "working-memory-development-capacity-constraints",
+    "course": "developmental-psychology",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Developmental psychology is standard Psych 200-300 level undergrad course material."
+  }
+]

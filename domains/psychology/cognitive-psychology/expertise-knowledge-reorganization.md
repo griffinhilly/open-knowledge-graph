@@ -13,7 +13,7 @@ tags:
 - learning
 - domain-knowledge
 - organization
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

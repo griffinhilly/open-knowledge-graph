@@ -18,7 +18,7 @@ tags:
 - economy
 - place
 - global
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

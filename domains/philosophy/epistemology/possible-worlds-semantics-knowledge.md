@@ -19,7 +19,7 @@ tags:
 - possible-worlds
 - semantics
 - knowledge
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

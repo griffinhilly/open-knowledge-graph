@@ -13,7 +13,7 @@ tags:
 - retrieval
 - context
 - cues
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

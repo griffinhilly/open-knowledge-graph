@@ -1,0 +1,2746 @@
+[
+  {
+    "id": "ac-circuit-analysis-methods",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "AC-Kirchhoff-laws-phasor-domain",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "ac-power-analysis-apparent-reactive",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "ac-power-analysis-circuits",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "AC-power-calculation-and-factor",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "ac-source-representation-phasors",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "adc-dac-fundamentals",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "amplifier-biasing-stability",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "bandpass-and-bandstop-filter-design",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "bjt-amplifier-configurations",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "bjt-transistor-fundamentals",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "circuit-resonance-concepts",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "common-base-amplifier",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "common-collector-amplifier",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "common-emitter-amplifier",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "complex-impedance-networks-ac",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "differential-amplifier-circuits",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "digital-logic-gates-basics",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "diode-circuit-applications",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "diode-fundamentals",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "feedback-control-and-stability",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "filter-design-specifications",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "filter-selection-and-practical-applications",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "first-order-active-filters",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "first-order-passive-filters",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "frequency-response-analysis-bode",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "frequency-response-and-bode-plots",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "frequency-response-Bode-plot-basics",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "impedance-admittance-networks",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "integrator-differentiator-circuits",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "inverting-amplifier-analysis",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "mosfet-amplifier-circuits",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "mosfet-transistor-fundamentals",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "multi-stage-amplifiers",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "op-amp-circuit-applications",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "operational-amplifier-fundamentals",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "parallel-resonance-characteristics",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "parallel-RLC-resonance-characteristics",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "passive-filter-design",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "passive-filter-transfer-function-analysis",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "phasor-algebra-complex-impedance",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "phasor-conversion-and-representation",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "power-supply-rectification",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "quality-factor-bandwidth-tradeoff",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "resonance-circuits",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "second-order-active-filters",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "second-order-passive-filters",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "series-resonance-characteristics",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "series-RLC-resonance-characteristics",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "summing-and-difference-amplifiers",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "two-port-network-parameters",
+    "course": "circuits-and-electronics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Circuit analysis is foundational coursework for EE majors at 200-300 level; belongs at formal-systems."
+  },
+  {
+    "id": "absolute-gauge-atmospheric-pressure",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "adverse-pressure-gradient-separation",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "aerodynamic-forces-lift-drag-coefficients",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "airfoil-aerodynamics",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "bernoulli-real-fluid-limitations",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "bernoullis-equation",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "boundary-layer-flow-separation",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "boundary-layer-theory",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "buoyancy-and-archimedes",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "cavitation-pressure-vapor-dynamics",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "cavitation-sigma-number-prediction",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "centrifugal-pump-curves-selection",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "colebrook-white-friction-correlation",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "compressible-flow-basics",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "continuity-equation-fluid",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "control-volume-mass-balance",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "control-volume-momentum-applications",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "control-volume-momentum",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "control-volume-steady-flow-mass",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "darcy-weisbach-equation-application",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "differential-manometer-types",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "dimensional-analysis-and-similarity",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "drag-and-lift-aerodynamics",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "drag-coefficient-bluff-bodies",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "energy-equation-steady-flow",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "entrance-length-developing-flow",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "entrance-region-developing-flow-pipe",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "floating-body-stability-equilibrium",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "floating-body-stability-metacentric-height",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "flow-around-cylinders-spheres",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "flow-measurement-methods",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "flow-separation-adverse-pressure-gradient",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "flow-visualization-techniques",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "fluid-kinematics",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "fluid-properties-and-continuum",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "fluid-statics-pressure",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "forces-on-submerged-surfaces",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "form-drag-pressure-drag-components",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "friction-factor-darcy-weisbach-equation",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "friction-factor-determination-methods",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "froude-number-gravity-waves",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "hagen-poiseuille-flow",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "hydraulic-diameter-non-circular-ducts",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "hydraulic-machinery-intro",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "hydrostatic-force-horizontal-submerged-surface",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "hydrostatic-force-vertical-surfaces",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "hydrostatic-forces-on-surfaces",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "hydrostatic-pressure-distribution",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "isentropic-nozzle-flow-choked-conditions",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "jet-impact-force-momentum-buckets",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "jet-mixing-and-entrainment",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "laminar-entrance-length-development",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "laminar-pipe-flow-hagen-poiseuille",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "laminar-pipe-flow",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "laminar-turbulent-transition-critical-reynolds",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "lift-and-circulation-generation-vortex",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "lift-and-circulation-theory",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "mach-number-compressibility-effects",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "mach-number-speed-of-sound-compressibility",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "manning-equation-open-channel-uniform-flow",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "manometry-and-pressure-measurement",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "mechanical-energy-balance-pump-turbine",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "mechanical-energy-head-forms",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "minor-loss-coefficients-fittings-elbows",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "minor-loss-coefficients-fittings",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "momentum-equation-control-volume",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "moody-diagram-friction-factor",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "navier-stokes-equations",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "non-newtonian-fluids",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "non-newtonian-power-law-fluids",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "normal-shock-pressure-temperature-relations",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "normal-shock-waves",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "oblique-shock-deflection-angles",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "open-channel-flow",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "pipe-flow-network-analysis",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "pipe-network-solutions-hardy-cross",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "pipe-networks-series-parallel-analysis",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "pipe-roughness-absolute-relative",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "pipe-system-losses",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "pitot-tube-velocity-measurement",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "potential-flow-theory",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "prandtl-meyer-expansion-function-tables",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "pump-affinity-laws-and-similarity",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "pump-operating-point-curve-matching",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "pump-system-curves",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "pump-system-matching-operating-point",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "quality-and-void-fraction-two-phase",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "rayleigh-line-flow-stagnation-conditions",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "reynolds-number",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "rotating-flow-vortex-motion-circulation",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "similitude-and-scale-model-testing",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "stagnation-pressure-and-total-head",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "static-and-dynamic-pressure",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "static-pressure-and-temperature-relations",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "streamlines-and-flow-visualization",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "surface-tension-and-capillary-effects",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "transition-to-turbulence-reynolds",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "turbulent-boundary-layers",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "turbulent-flow-structure-properties",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "turbulent-kinetic-energy-dissipation",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "turbulent-pipe-flow",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "viscosity-and-newtonian-fluids",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "viscosity-temperature-dependence",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "vorticity-and-circulation",
+    "course": "fluid-mechanics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fluid mechanics is standard undergrad engineering (200-300 level); core concepts are formal-systems."
+  },
+  {
+    "id": "annealing-processes",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "atomic-bonding-engineering-materials",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "atomic-bonding-in-materials",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "atomic-bonding-materials",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "binary-phase-diagrams-equilibrium",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "binary-phase-diagrams",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "case-hardening-surface-treatments",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "ceramic-materials-properties",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "ceramic-structure-and-properties",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "composite-failure-and-strength-prediction",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "composite-materials-structure",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "composite-materials",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "corrosion-and-degradation",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "corrosion-and-environmental-attack",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "creep-deformation-mechanisms-materials",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "creep-deformation-mechanisms",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "creep-in-materials",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "creep-rupture-and-life-prediction",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "crystal-defects",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "crystal-lattice-systems-classification",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "crystal-planes-miller-indices",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "crystal-structure-basics",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "crystal-structure-classification",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "crystal-systems-and-bravais-lattices",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "crystallographic-planes-directions",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "diffusion-in-solids",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "diffusion-mechanisms-materials",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "dislocation-motion-and-slip",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "dislocation-types-and-motion",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "dislocations-types-behavior",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "elastic-anisotropy",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "elastic-constants-and-elasticity",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "elastic-deformation-moduli",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "electrical-properties-of-materials",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "fatigue-crack-initiation",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "fatigue-crack-propagation-and-growth",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "fatigue-stress-cycles",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "fiber-matrix-bonding-and-interfaces",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "fracture-mechanics-analysis",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "fracture-mechanics-concepts",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "grain-boundaries-and-interfaces-materials",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "grain-boundaries-interfaces",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "grain-boundary-strengthening",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "grain-growth-and-recrystallization",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "hardness-strength-relationships",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "hardness-testing-and-equivalence",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "hardness-testing-and-strength-correlation",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "hardness-testing-methods",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "heat-treatment-of-steels",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "heat-treatment-steel-processing",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "heat-treatment-steels",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "iron-carbon-phase-diagram",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "kirkendall-effect-and-interdiffusion",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "lever-rule-and-phase-composition",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "lever-rule",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "microstructure-development-control",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "miller-indices",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "nondestructive-evaluation-and-testing",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "nucleation-and-growth-kinetics",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "oxidation-and-scaling-kinetics",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "phase-diagrams-binary",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "phase-equilibrium-thermodynamics-materials",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "phase-transformations-kinetics",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "planar-defects-and-grain-boundaries",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "plastic-deformation-mechanisms",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "plastic-deformation-slip-systems",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "plastic-deformation-yielding-materials",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "point-defects-and-vacancies",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "point-defects-in-materials",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "point-defects-vacancies-and-interstitials",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "polymer-mechanical-behavior",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "polymer-semicrystalline-structure",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "polymer-structure-and-properties",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "polymer-structure-properties",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "precipitation-hardening",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "quenching-and-tempering",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "sintering-and-powder-processing",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "solid-solution-strengthening",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "solidification-and-dendrite-formation",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "strengthening-mechanisms-materials",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "strengthening-mechanisms",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "stress-concentration-and-singularities",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "stress-intensity-factor-and-fracture",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "thermal-properties-of-materials",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "toughness-and-ductility-materials",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "toughness-ductility-brittleness",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "twinning-and-martensitic-transformation",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "unit-cell-lattice-parameters",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "viscoelasticity-in-polymers",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "work-hardening-and-recovery",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "x-ray-diffraction-materials",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "yield-strength-tensile-properties",
+    "course": "materials-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Materials science fundamentals are taught in standard undergrad curricula; core topics belong at formal-systems."
+  },
+  {
+    "id": "absorption-refrigeration-cycles",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "absorption-refrigeration-systems",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "adiabatic-flame-temperature-calculation",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "adiabatic-flame-temperature",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "availability-exergy-analysis-systems",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "brayton-cycle-gas-turbine",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "brayton-cycle-intercooling-reheating",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "brayton-gas-turbine-cycles",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "cavitation-inception-vapor-formation",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "chemical-equilibrium-reaction-analysis",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "chemical-exergy-fuel-combustion",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "clausius-clapeyron-vapor-pressure",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "combined-cycles-cogeneration",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "combined-gas-steam-cycles",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "combustion-stoichiometry-energy-release",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "combustion-thermodynamic-analysis",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "compressibility-factor-generalized",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "compressible-flow-isentropic-flow",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "compressible-flow-thermodynamic-relations",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "compressor-staging-multistage",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "control-mass-first-law-applications",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "control-volume-steady-flow",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "control-volume-transient-processes",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "critical-point-behavior-substances",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "diesel-cycle-compression-ignition",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "entropy-balance-equations",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "entropy-calculation-properties",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "exergy-balance-control-volume",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "exergy-concept-availability",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "exergy-destruction-irreversibility",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "first-law-closed-systems",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "first-law-open-systems",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "fuel-combustion-products-analysis",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "fundamentals-thermodynamic-systems",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "gas-mixture-thermodynamics-daltons",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "gas-mixtures-partial-pressures-daltons-law",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "gibbs-phase-rule-multicomponent",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "heat-exchanger-effectiveness-ntu",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "heat-pump-cycles-detailed",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "heat-pump-heating-cooling-analysis",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "helmholtz-gibbs-free-energy",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "humid-air-thermodynamic-properties",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "ideal-real-gas-equations-state",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "ideal-solution-thermodynamics",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "internal-combustion-engine-cycles",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "isentropic-efficiency-devices",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "isentropic-flow-with-area-change",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "isentropic-process-reversible",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "joule-thomson-coefficient-calculations",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "kinetic-potential-energy-flow",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "legendre-transformations-thermodynamics",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "maximum-work-availability-throttling",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "maxwell-relations-thermodynamics",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "oas-vapor-quality-measurement",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "otto-cycle-spark-ignition-engine",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "partial-molar-properties-mixtures",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "partial-molar-properties-solutions",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "phase-equilibrium-clausius-clapeyron-detailed",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "polytropic-efficiency-real-machinery",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "polytropic-processes-machinery",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "power-cycle-thermal-efficiency",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "psychrometric-analysis-humid-air",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "psychrometrics-humid-air-properties",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "pure-substance-phase-diagrams",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "rankine-cycle-reheat-regeneration",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "rankine-cycle-thermodynamic-analysis",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "rankine-power-generation-cycles",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "real-gas-thermodynamics-engineering",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "refrigeration-thermodynamic-analysis",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "regenerative-cycle-analysis-thermodynamics",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "regenerative-heat-recovery-cycles",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "saturated-superheated-property-regions",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "second-law-analysis-practical",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "second-law-efficiency-exergy-based",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "second-law-thermodynamics-entropy",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "shock-waves-compressible-flow-analysis",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "state-functions-path-functions",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "steady-flow-energy-equation-engineering",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "steam-tables-property-diagrams",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "supercritical-fluid-properties",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "thermochemistry-formation-properties",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "thermodynamic-properties-and-equations-of-state",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "thermodynamic-property-diagrams",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "thermodynamic-property-equations-engineering",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "thermodynamic-property-relations-maxwell",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "thermodynamic-systems-engineering",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "throttling-expansion-isenthalpic-process",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "throttling-joule-thomson-effect",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "transcritical-and-supercritical-cycles",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "transient-filling-emptying-tanks",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "turbine-compressor-efficiency-definitions",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "turbine-staging-multistage",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "two-phase-flow-analysis",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "two-phase-homogeneous-flow-equilibrium",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "vapor-compression-refrigeration-cycle",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  },
+  {
+    "id": "vapor-compression-refrigeration-cycles",
+    "course": "thermodynamics-engineering",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Engineering thermodynamics is a required course in most engineering programs; standard undergrad material."
+  }
+]

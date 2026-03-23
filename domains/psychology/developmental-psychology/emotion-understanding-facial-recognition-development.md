@@ -14,7 +14,7 @@ tags:
 - facial-recognition
 - emotion-understanding
 - social-cognition
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

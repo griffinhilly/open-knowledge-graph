@@ -20,7 +20,7 @@ tags:
 - polynomial-time
 - complexity
 - NP-hardness
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

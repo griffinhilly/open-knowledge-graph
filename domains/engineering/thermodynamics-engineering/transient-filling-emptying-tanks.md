@@ -14,7 +14,7 @@ tags:
 - emptying
 - tank
 - pressurization
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

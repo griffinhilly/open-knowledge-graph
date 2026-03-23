@@ -16,7 +16,7 @@ tags:
 - political science
 - discipline overview
 - politics
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

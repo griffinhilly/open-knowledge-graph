@@ -16,7 +16,7 @@ tags:
 - behavior
 - decision-making
 - rationality
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Voter Behavior and Electoral Decision-Making

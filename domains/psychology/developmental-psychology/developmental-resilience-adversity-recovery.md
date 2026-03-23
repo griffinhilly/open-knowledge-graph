@@ -13,7 +13,7 @@ tags:
 - coping
 - protective-factors
 - risk-factors
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

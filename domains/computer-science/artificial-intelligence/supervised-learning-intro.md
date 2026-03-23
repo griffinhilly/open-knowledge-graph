@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - supervised-learning
 - learning-paradigm
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

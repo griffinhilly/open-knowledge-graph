@@ -10,7 +10,7 @@ tags:
 - control-flow
 - switch
 - case
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

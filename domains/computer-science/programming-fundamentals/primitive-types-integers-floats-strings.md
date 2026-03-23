@@ -14,7 +14,7 @@ tags:
 - types
 - data
 - fundamentals
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

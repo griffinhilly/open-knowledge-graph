@@ -14,7 +14,7 @@ tags:
 - Nussbaum
 - human-functioning
 - justice
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

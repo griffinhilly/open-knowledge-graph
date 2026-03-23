@@ -19,7 +19,7 @@ tags:
 - computability
 - models-of-computation
 - church-turing
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

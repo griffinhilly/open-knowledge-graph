@@ -14,7 +14,7 @@ tags:
 - kohlberg
 - preconventional
 - responsibility
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

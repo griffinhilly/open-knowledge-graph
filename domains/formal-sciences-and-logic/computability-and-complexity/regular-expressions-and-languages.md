@@ -12,7 +12,7 @@ tags:
 - regular-languages
 - automata
 - formal-languages
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

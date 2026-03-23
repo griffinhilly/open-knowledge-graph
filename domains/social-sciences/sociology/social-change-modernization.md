@@ -17,7 +17,7 @@ tags:
 - tradition-to-modernity
 - societal-transformation
 - rationalization
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Social Change and Modernization

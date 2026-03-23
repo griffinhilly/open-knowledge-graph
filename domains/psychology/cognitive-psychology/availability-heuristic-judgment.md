@@ -11,7 +11,7 @@ tags:
 - heuristic
 - availability
 - bias
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

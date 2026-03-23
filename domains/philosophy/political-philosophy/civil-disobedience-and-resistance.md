@@ -16,7 +16,7 @@ tags:
 - resistance
 - justice
 - nonviolence
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

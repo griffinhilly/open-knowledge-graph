@@ -15,7 +15,7 @@ tags:
 - incidence-matrix
 - representation
 - computation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

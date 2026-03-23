@@ -15,7 +15,7 @@ tags:
 - consolidation
 - neuroplasticity
 - learning
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

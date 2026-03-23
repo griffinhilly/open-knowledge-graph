@@ -16,7 +16,7 @@ tags:
 - balance
 - attitude-change
 - motivation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

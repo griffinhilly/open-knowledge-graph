@@ -17,7 +17,7 @@ tags:
 - everyday-life
 - social-order
 - face-to-face
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - socialization
 - social development
 - sex roles
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

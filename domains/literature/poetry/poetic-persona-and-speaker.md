@@ -20,7 +20,7 @@ tags:
 - dramatic monologue
 - mask
 - lyric I
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

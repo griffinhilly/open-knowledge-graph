@@ -18,7 +18,7 @@ tags:
 - realism
 - possibilism
 - ontology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

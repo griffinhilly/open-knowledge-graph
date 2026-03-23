@@ -22,7 +22,7 @@ tags:
 - NP
 - verification
 - certificates
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

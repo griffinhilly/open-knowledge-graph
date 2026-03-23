@@ -22,7 +22,7 @@ tags:
 - GroEL
 - folding funnel
 - aggregation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

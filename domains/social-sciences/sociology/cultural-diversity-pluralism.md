@@ -16,7 +16,7 @@ tags:
 - multiculturalism
 - cultural-integration
 - intergroup-relations
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

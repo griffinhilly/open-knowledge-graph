@@ -20,7 +20,7 @@ tags:
 - consent
 - fair-play
 - natural-duty
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Political Obligation

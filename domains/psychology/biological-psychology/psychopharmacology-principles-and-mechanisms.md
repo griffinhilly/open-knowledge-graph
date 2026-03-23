@@ -13,7 +13,7 @@ tags:
 - mechanisms
 - psychoactive
 - pharmacology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

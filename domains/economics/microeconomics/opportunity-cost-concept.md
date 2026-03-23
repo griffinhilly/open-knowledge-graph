@@ -13,7 +13,7 @@ tags:
 - foundations
 - cost
 - decision-making
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

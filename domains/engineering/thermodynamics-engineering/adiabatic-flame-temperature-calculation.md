@@ -15,7 +15,7 @@ tags:
 - flame-temperature
 - adiabatic
 - energy-balance
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

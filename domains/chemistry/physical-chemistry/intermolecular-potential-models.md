@@ -19,7 +19,7 @@ tags:
 - pair-potential
 - virial-equation
 - second-virial-coefficient
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

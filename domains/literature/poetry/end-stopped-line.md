@@ -10,7 +10,7 @@ tags:
 - line-structure
 - syntax
 - closure
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

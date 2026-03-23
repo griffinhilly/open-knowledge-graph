@@ -14,7 +14,7 @@ tags:
 - infancy
 - milestones
 - locomotion
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -20,7 +20,7 @@ tags:
 - second-law
 - irreversibility
 - generation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - separation
 - pressure-gradient
 - boundary-layer
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

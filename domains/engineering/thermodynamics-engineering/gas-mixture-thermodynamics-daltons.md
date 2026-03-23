@@ -17,7 +17,7 @@ tags:
 - daltons-law
 - partial-pressure
 - mole-fraction
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

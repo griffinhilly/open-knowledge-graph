@@ -15,7 +15,7 @@ tags:
 - reliability
 - perspective
 - interpretation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Detecting and Analyzing Unreliable Narrators

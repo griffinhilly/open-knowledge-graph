@@ -16,7 +16,7 @@ tags:
 - inequality
 - maximin
 - worst-off
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

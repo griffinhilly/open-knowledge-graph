@@ -15,7 +15,7 @@ tags:
 - rawls
 - justice
 - original-position
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

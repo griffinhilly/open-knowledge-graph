@@ -14,7 +14,7 @@ tags:
 - reactance
 - motivation
 - freedom
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

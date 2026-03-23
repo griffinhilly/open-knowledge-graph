@@ -17,7 +17,7 @@ tags:
 - government-spending
 - net-exports
 - expenditure
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

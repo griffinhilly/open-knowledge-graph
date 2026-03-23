@@ -14,7 +14,7 @@ tags:
 - industrialization
 - modernity
 - social-change
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

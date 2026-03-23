@@ -14,7 +14,7 @@ tags:
 - accessibility-relations
 - modal-frames
 - properties
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

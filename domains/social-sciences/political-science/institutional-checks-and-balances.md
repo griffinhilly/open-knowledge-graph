@@ -15,7 +15,7 @@ tags:
 - veto
 - oversight
 - power-constraint
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

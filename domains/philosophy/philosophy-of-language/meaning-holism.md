@@ -17,7 +17,7 @@ tags:
 - semantics
 - meaning
 - interconnection
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

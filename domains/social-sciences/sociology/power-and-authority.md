@@ -17,7 +17,7 @@ tags:
 - weber
 - legitimacy
 - domination
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -20,7 +20,7 @@ tags:
 - language-classes
 - recognizability
 - decidability
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Recursively Enumerable and Co-RE Languages

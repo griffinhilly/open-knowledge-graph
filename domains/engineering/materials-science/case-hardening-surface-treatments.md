@@ -16,7 +16,7 @@ tags:
 - induction-hardening
 - surface-hardness
 - case-depth
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

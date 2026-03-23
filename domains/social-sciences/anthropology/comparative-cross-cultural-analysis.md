@@ -16,7 +16,7 @@ tags:
 - method
 - variation
 - universals
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

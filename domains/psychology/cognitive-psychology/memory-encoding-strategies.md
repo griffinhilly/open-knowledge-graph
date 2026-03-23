@@ -17,7 +17,7 @@ tags:
 - encoding
 - levels-of-processing
 - elaboration
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

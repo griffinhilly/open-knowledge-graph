@@ -17,7 +17,7 @@ tags:
 - polyphonic
 - multiple-narrators
 - structure
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

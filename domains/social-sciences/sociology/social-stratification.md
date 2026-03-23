@@ -24,7 +24,7 @@ tags:
 - inequality
 - mobility
 - life-chances
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

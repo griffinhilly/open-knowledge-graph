@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - quantum-intro
 - duality
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

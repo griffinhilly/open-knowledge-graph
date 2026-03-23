@@ -16,7 +16,7 @@ tags:
 - justice
 - fairness
 - difference-principle
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

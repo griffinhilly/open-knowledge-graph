@@ -16,7 +16,7 @@ tags:
 - individuation
 - context-dependence
 - controlled-processing
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

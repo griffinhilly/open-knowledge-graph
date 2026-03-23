@@ -17,7 +17,7 @@ tags:
 - distortion
 - color
 - intensity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

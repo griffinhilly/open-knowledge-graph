@@ -16,7 +16,7 @@ tags:
 - authority
 - legitimacy
 - domination
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

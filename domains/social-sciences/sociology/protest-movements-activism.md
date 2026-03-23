@@ -15,7 +15,7 @@ tags:
 - protest
 - activism
 - change
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

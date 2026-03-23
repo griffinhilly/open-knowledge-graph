@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - frequency-response
 - bode-plots
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

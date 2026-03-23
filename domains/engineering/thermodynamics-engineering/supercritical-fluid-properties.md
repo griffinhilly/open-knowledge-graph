@@ -15,7 +15,7 @@ tags:
 - critical-point
 - properties
 - applications
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

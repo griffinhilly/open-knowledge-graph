@@ -17,7 +17,7 @@ tags:
 - modality
 - two-dimensionalism
 - meaning
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Two-Dimensional Semantics

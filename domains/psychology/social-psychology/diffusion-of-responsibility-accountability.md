@@ -16,7 +16,7 @@ tags:
 - groups
 - accountability
 - social-influence
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

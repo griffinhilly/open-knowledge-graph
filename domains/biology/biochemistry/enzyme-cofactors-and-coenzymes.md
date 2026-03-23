@@ -20,7 +20,7 @@ tags:
 - FADH2
 - metal ions
 - vitamins
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

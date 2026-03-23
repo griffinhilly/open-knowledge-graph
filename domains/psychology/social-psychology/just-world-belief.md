@@ -16,7 +16,7 @@ tags:
 - attribution
 - victim-blaming
 - fairness
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

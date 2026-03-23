@@ -15,7 +15,7 @@ tags:
 - judgment
 - frequency
 - bias
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - recognition
 - Okin
 - Fraser
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

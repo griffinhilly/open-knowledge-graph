@@ -15,7 +15,7 @@ tags:
 - hobbes
 - social-contract
 - sovereignty
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

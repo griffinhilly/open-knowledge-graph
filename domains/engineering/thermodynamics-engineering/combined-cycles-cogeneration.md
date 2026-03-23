@@ -16,7 +16,7 @@ tags:
 - topping-cycle
 - bottoming-cycle
 - hrsg
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

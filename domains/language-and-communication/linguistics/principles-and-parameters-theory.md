@@ -13,7 +13,7 @@ tags:
 - parameters
 - principles
 - language-acquisition
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

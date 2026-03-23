@@ -10,7 +10,7 @@ tags:
 - surface-tension
 - interfacial
 - capillary
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

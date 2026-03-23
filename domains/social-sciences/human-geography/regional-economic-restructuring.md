@@ -15,7 +15,7 @@ tags:
 - restructuring
 - deindustrialization
 - unequal-exchange
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - cogeneration
 - efficiency
 - power-plants
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - artificial-minds
 - computation
 - consciousness
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - methionine
 - cysteine
 - sulfur
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

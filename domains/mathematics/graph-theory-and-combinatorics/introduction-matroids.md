@@ -12,7 +12,7 @@ tags:
 - matroids
 - independence
 - greedy-algorithms
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

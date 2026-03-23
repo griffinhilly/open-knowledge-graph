@@ -16,7 +16,7 @@ tags:
 - artaud
 - 20th-century
 - theory
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

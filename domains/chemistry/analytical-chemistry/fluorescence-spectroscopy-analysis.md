@@ -14,7 +14,7 @@ tags:
 - fluorescence
 - luminescence
 - quantitative
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

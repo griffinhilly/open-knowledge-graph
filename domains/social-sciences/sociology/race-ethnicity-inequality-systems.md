@@ -16,7 +16,7 @@ tags:
 - ethnicity
 - stratification
 - inequality
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

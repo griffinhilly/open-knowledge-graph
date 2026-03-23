@@ -14,7 +14,7 @@ tags:
 - plastic-deformation
 - dislocation-motion
 - slip
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

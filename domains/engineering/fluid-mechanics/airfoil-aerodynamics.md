@@ -15,7 +15,7 @@ tags:
 - lift coefficient
 - NACA profiles
 - pressure distribution
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Airfoil Aerodynamics

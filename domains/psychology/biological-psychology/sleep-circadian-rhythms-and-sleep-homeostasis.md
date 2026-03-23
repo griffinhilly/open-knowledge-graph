@@ -16,7 +16,7 @@ tags:
 - REM
 - NREM
 - homeostasis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

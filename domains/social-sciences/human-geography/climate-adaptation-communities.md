@@ -15,7 +15,7 @@ tags:
 - environment
 - adaptation
 - resilience
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

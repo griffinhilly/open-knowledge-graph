@@ -14,7 +14,7 @@ tags:
 - data
 - line-plots
 - measurement
-stage: abstract-reasoning
+stage: concrete-operations
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - wonder
 - modes
 - supernatural
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

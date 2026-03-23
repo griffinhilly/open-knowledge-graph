@@ -14,7 +14,7 @@ tags:
 - inequality
 - sorting
 - cultural-capital
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - yield-strength
 - ultimate-tensile-strength
 - ductility
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

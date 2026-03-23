@@ -18,7 +18,7 @@ tags:
 - resource competition
 - prejudice
 - group conflict
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

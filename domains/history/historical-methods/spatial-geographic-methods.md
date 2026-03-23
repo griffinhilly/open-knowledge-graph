@@ -13,7 +13,7 @@ tags:
 - space
 - maps
 - methodology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

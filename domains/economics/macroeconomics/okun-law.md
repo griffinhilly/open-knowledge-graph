@@ -15,7 +15,7 @@ tags:
 - employment
 - output
 - cyclical-relationships
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

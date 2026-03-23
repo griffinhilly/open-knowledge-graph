@@ -17,7 +17,7 @@ tags:
 - legitimacy
 - power
 - milgram
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

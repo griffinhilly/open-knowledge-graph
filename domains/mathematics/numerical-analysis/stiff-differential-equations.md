@@ -10,7 +10,7 @@ tags:
 - stiff-equations
 - stability-region
 - implicit-methods
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - unemployment
 - output
 - empirical
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

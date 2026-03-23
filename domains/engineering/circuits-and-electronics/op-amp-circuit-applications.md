@@ -18,7 +18,7 @@ tags:
 - differentiator
 - active-filter
 - comparator
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

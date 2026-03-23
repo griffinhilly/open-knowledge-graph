@@ -16,7 +16,7 @@ tags:
 - names
 - possible-worlds
 - modal
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

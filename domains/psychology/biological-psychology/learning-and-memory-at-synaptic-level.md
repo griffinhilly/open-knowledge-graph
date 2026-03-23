@@ -13,7 +13,7 @@ tags:
 - learning
 - consolidation
 - protein-synthesis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

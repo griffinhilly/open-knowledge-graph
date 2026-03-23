@@ -17,7 +17,7 @@ tags:
 - bias
 - favoritism
 - social-identity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - cognition
 - monitoring
 - self-regulation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

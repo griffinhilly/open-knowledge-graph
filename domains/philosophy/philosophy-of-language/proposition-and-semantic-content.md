@@ -17,7 +17,7 @@ tags:
 - semantics
 - propositions
 - truth-value
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

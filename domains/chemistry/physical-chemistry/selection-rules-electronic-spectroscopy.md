@@ -15,7 +15,7 @@ tags:
 - selection-rules
 - symmetry
 - transitions
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

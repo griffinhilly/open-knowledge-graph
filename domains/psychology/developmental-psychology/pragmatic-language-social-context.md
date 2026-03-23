@@ -14,7 +14,7 @@ tags:
 - social-communication
 - context-sensitivity
 - conversational-skill
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

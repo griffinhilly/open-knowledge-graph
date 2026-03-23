@@ -17,7 +17,7 @@ tags:
 - sculpture
 - description
 - interarts
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

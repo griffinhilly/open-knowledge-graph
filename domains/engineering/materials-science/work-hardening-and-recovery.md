@@ -16,7 +16,7 @@ tags:
 - recovery
 - recrystallization
 - stored-energy
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

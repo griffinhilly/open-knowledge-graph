@@ -24,7 +24,7 @@ tags:
 - ficks-law
 - vacancy-mechanism
 - carburization
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

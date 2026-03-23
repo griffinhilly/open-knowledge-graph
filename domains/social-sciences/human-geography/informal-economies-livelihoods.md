@@ -15,7 +15,7 @@ tags:
 - livelihoods
 - poverty
 - labor
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

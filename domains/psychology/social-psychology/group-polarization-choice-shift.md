@@ -15,7 +15,7 @@ tags:
 - risky-shift
 - group-decision-making
 - social-comparison
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

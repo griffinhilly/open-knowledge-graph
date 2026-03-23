@@ -17,7 +17,7 @@ tags:
 - real-machines
 - compressors
 - turbines
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

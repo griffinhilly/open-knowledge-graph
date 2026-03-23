@@ -14,7 +14,7 @@ tags:
 - similitude
 - modeling
 - scaling
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

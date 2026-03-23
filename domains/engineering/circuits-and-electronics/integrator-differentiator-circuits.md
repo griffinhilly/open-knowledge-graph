@@ -18,7 +18,7 @@ tags:
 - frequency-response
 - dc-offset
 - reset-switch
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

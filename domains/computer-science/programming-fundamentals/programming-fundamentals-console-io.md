@@ -13,7 +13,7 @@ tags:
 - input
 - output
 - console
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

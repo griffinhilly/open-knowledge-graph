@@ -12,7 +12,7 @@ tags:
 - sor
 - over-relaxation
 - acceleration
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

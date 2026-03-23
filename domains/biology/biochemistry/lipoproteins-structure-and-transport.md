@@ -16,7 +16,7 @@ tags:
 - LDL
 - VLDL
 - chylomicrons
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

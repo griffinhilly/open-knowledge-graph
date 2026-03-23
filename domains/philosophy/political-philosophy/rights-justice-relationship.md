@@ -16,7 +16,7 @@ tags:
 - justice
 - fairness
 - entitlements
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

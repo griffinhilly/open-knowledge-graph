@@ -17,7 +17,7 @@ tags:
 - semantic
 - word-learning
 - vocabulary-explosion
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

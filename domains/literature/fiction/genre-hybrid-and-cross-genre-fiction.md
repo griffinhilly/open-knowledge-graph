@@ -14,7 +14,7 @@ tags:
 - genre-hybrid
 - cross-genre
 - blending
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

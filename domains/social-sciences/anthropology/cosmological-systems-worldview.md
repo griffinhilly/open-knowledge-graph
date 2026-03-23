@@ -15,7 +15,7 @@ tags:
 - belief-systems
 - religion
 - metaphysics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

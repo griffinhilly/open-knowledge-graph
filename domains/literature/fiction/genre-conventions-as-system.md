@@ -15,7 +15,7 @@ tags:
 - conventions
 - system
 - expectations
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

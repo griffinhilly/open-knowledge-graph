@@ -14,7 +14,7 @@ tags:
 - page-faults
 - virtual-memory
 - handling
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

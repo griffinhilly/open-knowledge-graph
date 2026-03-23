@@ -15,7 +15,7 @@ tags:
 - genre
 - emotion
 - structure
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - vibrational-spectroscopy
 - force-constants
 - bond-strength
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

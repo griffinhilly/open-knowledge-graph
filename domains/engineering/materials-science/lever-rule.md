@@ -16,7 +16,7 @@ tags:
 - phase-fraction
 - composition
 - two-phase
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

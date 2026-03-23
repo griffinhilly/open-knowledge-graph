@@ -16,7 +16,7 @@ tags:
 - mimicry
 - neural-mechanisms
 - groups
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - social identity
 - group favoritism
 - intergroup
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

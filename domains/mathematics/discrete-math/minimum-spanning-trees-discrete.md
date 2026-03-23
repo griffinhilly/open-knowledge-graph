@@ -16,7 +16,7 @@ tags:
 - Prim
 - weighted-graphs
 - optimization
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

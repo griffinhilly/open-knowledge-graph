@@ -12,7 +12,7 @@ tags:
 - loops
 - patterns
 - algorithms
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

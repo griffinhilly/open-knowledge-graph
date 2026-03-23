@@ -15,7 +15,7 @@ tags:
 - classification
 - meaning-systems
 - boundaries
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

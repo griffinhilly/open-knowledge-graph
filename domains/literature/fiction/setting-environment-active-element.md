@@ -15,7 +15,7 @@ tags:
 - environment
 - active
 - symbol
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

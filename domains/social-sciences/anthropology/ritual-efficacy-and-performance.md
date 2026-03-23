@@ -15,7 +15,7 @@ tags:
 - efficacy
 - action
 - causality
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

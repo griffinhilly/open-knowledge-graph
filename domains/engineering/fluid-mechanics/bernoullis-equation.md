@@ -31,7 +31,7 @@ tags:
 - energy equation
 - ideal flow
 - pressure-velocity tradeoff
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

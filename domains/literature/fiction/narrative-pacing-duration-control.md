@@ -13,7 +13,7 @@ tags:
 - duration
 - rhythm
 - attention
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

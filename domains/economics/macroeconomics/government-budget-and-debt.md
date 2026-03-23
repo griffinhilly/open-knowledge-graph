@@ -16,7 +16,7 @@ tags:
 - national-debt
 - fiscal-balance
 - crowding-out
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

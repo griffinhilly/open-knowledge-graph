@@ -16,7 +16,7 @@ tags:
 - closure
 - deductive-closure
 - knowledge-transmission
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

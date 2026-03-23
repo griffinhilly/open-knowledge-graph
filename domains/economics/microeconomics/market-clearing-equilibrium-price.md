@@ -15,7 +15,7 @@ tags:
 - equilibrium
 - market-clearing
 - surplus-shortage
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

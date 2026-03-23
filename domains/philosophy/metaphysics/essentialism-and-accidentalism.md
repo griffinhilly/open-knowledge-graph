@@ -21,7 +21,7 @@ tags:
 - modality
 - Kripke
 - Aristotle
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Essentialism and Accidental Properties

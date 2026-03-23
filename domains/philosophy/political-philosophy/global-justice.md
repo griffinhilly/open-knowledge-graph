@@ -16,7 +16,7 @@ tags:
 - statism
 - global-poverty
 - international-justice
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

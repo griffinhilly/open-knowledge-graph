@@ -17,7 +17,7 @@ tags:
 - organic
 - industrial
 - decorative
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

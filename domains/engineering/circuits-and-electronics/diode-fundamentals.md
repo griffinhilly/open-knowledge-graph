@@ -28,7 +28,7 @@ tags:
 - reverse-bias
 - Shockley-equation
 - Zener
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

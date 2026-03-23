@@ -16,7 +16,7 @@ tags:
 - motivation
 - helping
 - prosocial
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

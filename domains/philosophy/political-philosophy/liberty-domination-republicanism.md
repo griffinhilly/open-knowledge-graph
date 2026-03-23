@@ -16,7 +16,7 @@ tags:
 - domination
 - republicanism
 - freedom
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

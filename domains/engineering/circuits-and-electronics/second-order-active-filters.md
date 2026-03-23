@@ -17,7 +17,7 @@ tags:
 - damping-ratio
 - active-filter
 - band-pass
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

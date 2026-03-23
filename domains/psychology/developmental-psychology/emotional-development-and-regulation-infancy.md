@@ -17,7 +17,7 @@ tags:
 - infancy
 - regulation
 - self-control
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

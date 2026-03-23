@@ -10,7 +10,7 @@ tags:
 - kinetic-energy
 - potential-energy
 - flow-systems
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

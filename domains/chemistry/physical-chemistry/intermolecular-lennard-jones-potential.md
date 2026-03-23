@@ -15,7 +15,7 @@ tags:
 - lennard-jones
 - van-der-waals
 - potential
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

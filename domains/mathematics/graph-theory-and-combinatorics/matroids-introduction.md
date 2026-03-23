@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - combinatorics
 - matroids
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

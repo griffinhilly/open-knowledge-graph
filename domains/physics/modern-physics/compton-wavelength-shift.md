@@ -14,7 +14,7 @@ tags:
 - quantum
 - scattering
 - photons
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

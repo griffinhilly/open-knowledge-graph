@@ -18,7 +18,7 @@ tags:
 - disorganized attachment
 - Strange Situation
 - Ainsworth
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

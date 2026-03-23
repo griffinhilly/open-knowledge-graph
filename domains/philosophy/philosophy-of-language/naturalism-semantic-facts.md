@@ -17,7 +17,7 @@ tags:
 - ontology
 - semantics
 - reduction
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - storytelling
 - verse
 - plot
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

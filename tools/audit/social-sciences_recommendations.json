@@ -1,0 +1,1762 @@
+[
+  {
+    "id": "acculturation-syncretism-processes",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "age-grades-lifecycle-organization",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "ancestor-veneration-cosmology",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "authority-leadership-anthropology",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "colonialism-cultural-contact",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "comparative-cross-cultural-analysis",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "competitive-exchange-prestige-economics",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "cosmological-systems-worldview",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "cosmology-and-worldview",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "creolization-cultural-hybridity",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "cross-cultural-comparison",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "cultural-relativism",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "cultural-translation-interpretation",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "economic-anthropology",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "emic-etic-perspective",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "ethnicity-as-social-construction",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "ethnobiology-indigenous-ecological-knowledge",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "ethnographic-interviewing-methods",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "ethnographic-participant-observation",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "ethnography-methods",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "fieldwork-positionality-ethics",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "gender-division-of-labor",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "gift-vs-commodity-economy",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "globalization-cultural-change",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "household-domestic-organization",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "identity-and-selfhood-anthropology",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "initiation-rites-passage",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "liminality-communitas-ritual-transformation",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "local-knowledge-epistemology",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "medical-anthropology",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "myth-and-symbolism",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "person-self-concepts-cross-cultural",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "political-anthropology",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "reciprocity-gift-economy",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "religious-specialists-shamanism",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "ritual-and-ceremony",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "ritual-efficacy-and-performance",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "sacred-profane-classification",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "social-organization-kinship",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "symbolic-classification-systems",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "totemic-classification-meaning",
+    "course": "anthropology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Core introductory anthropology topic covered in standard undergraduate survey course."
+  },
+  {
+    "id": "authoritarianism-and-autocracy",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "bureaucracy-state-capacity-implementation",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "campaign-finance-political-money",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "citizenship-political-membership",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "civil-liberties-rights-protection",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "civil-resistance-nonviolent-movements",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "civil-society",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "comparative-politics",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "constitutional-amendment-change",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "constitutional-interpretation-power",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "constitutionalism-and-limitations",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "constitutionalism",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "democracy-types-and-theory",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "democratic-governance-principles",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "division-of-government-branches",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "electoral-systems",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "executive-branch-systems",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "federalism-and-decentralization",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "federalism-multilevel-governance",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "gerrymandering-electoral-manipulation",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "individual-rights-and-freedoms",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "institutional-checks-and-balances",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "interest-groups-and-lobbying",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "international-institutions-and-regimes",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "international-relations-overview",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "judicial-branch-systems",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "legislative-branch-systems",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "liberalism-in-ir",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "liberalism-political-thought",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "party-organization-discipline",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "policy-diffusion-policy-learning",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "political-corruption-rent-seeking",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "political-culture-and-participation",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "political-ideologies",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "political-parties-and-party-systems",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "political-polarization-affective-division",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "political-recruitment-elite-circulation",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "political-science-overview",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "public-opinion-formation-change",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "public-policy-process",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "realism-in-ir",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "regime-change-and-democratization",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "representation-and-democratic-linkage",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "representative-democracy-systems",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "revolutionary-political-transformation",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "rule-of-law-justice-system",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "separation-of-powers",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "spatial-models-political-ideology",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "state-and-sovereignty",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "veto-players-institutional-deadlock",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "voter-behavior-electoral-decision",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "voting-systems-and-mechanics",
+    "course": "political-science",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard undergraduate political science topic, typically taught in introductory survey courses."
+  },
+  {
+    "id": "achieved-versus-ascribed-status",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "aging-and-society",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "applied-sociology-evaluation",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "boundary-work-status-maintenance",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "caste-class-estate-stratification",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "collective-behavior-and-crowds",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "collective-effervescence-solidarity-rituals",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "community-social-bonds",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "credential-inflation-expansion",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "criminology-sociological-approach",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "cultural-diversity-pluralism",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "demographic-structure-population",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "deviance-and-social-control",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "education-as-institution",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "family-as-institution",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "formal-organizations-structure",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "gender-and-sexuality",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "generational-differences",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "globalization-and-society",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "group-dynamics-conformity",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "in-group-out-group-dynamics",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "in-group-out-group-identity",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "industrialization-social-transformation",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "institutional-change-dynamics",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "institutional-isomorphism-organizational-conformity",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "institutional-legitimacy-compliance",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "institutionalization-routinization",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "intersectionality",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "labeling-theory-secondary-deviance",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "life-course-perspective",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "meritocracy-myth-critique",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "micro-macro-sociology-levels",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "microsociology-everyday-interaction",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "moral-panic-amplification-spiral",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "occupational-closure-monopoly",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "occupational-prestige-hierarchy",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "organizational-culture-identity",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "organized-crime-criminal-subcultures",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "power-and-authority",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "primary-groups-intimate-relationships",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "primary-secondary-groups",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "protest-movements-activism",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "race-and-ethnicity",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "race-ethnicity-inequality-systems",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "reference-groups-social-comparison",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "relative-deprivation-theory",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "relative-rewards-aspiration",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "religion-and-society",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "resocialization-identity-change",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "resource-mobilization-theory",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "secondary-groups-formal-organizations",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "social-change-modernization",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "social-influence-mechanisms",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "social-institutions-overview",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "social-mobility-life-chances",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "social-movements",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "social-problems-frameworks",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "social-stratification",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "social-structure-and-agency",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "sociological-perspective-core",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "sociological-research-methods",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "sociology-of-economy",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "sociology-of-politics",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "sociology-of-work-occupations",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "status-attainment-processes",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "status-honor-prestige-systems",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "status-inconsistency-strain",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "total-institutions-resocialization",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "types-of-societies-evolutionary",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "urbanization-and-city-life",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "urbanization-social-consequences",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "white-collar-crime-deviance",
+    "course": "sociology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory sociology topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "agricultural-geography",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "border-geographies-frontier",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "climate-adaptation-communities",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "climate-migration-displacement",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "colonialism-geographic-legacy",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "colonialism-postcolonial-legacies",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "commodity-chains-global",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "culinary-geography-foodways",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "cultural-diffusion-geography",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "cultural-landscape",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "demographic-transition-model-human-geography",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "development-geography",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "diaspora-transnational-networks",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "economic-geography-fundamentals",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "environmental-commons-governance",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "environmental-determinism-possibilism",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "ethical-consumption-trade",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "financial-hubs-global-capital",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "gender-spatial-organization",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "gentrification-displacement",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "geographic-information-systems-intro",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "geopolitics-and-power",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "global-production-networks",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "human-geography-overview",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "industrial-location-theory",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "informal-economies-livelihoods",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "informal-settlements-slums",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "labor-migration-mobility",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "labor-remittances-transnational",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "megacity-development-hierarchy",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "migration-systems-corridors",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "migration-theory-push-pull",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "mobility-justice-equity",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "nation-state-boundaries",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "place-and-space-concepts",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "political-geography-states-borders",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "population-distribution-density",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "protected-areas-conservation",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "refugee-asylum-geographies",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "regional-economic-restructuring",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "resource-geography",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "resource-geopolitics-competition",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "rural-urban-continuum",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "sacred-landscapes-pilgrimage",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "smart-cities-governance",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "spatial-inequality-uneven-development",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "spatial-interaction-theory",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "state-sovereignty-territory",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "tourism-commodification-culture",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "transport-networks-connectivity",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "urban-geography-fundamentals",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "urban-sprawl-suburbanization",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "vernacular-architecture-culture",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "water-systems-hydropolitics",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  },
+  {
+    "id": "world-cities-global-hierarchy",
+    "course": "human-geography",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard introductory human geography topic covered in foundational undergraduate course."
+  }
+]

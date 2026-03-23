@@ -18,7 +18,7 @@ tags:
 - atomic
 - structure
 - properties
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

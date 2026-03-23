@@ -31,7 +31,7 @@ tags:
 - canon
 - revision
 - inheritance
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Poetic Tradition and Influence

@@ -15,7 +15,7 @@ tags:
 - fermentation
 - industrial-microbiology
 - ethanol
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

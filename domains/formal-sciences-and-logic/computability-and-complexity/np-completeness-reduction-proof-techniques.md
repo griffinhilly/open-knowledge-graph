@@ -14,7 +14,7 @@ tags:
 - reductions
 - NP-completeness
 - proof-techniques
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

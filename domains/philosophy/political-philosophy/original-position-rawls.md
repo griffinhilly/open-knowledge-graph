@@ -18,7 +18,7 @@ tags:
 - veil-of-ignorance
 - fairness
 - thought-experiment
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

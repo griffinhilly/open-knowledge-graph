@@ -17,7 +17,7 @@ tags:
 - steam-cycle
 - power-plants
 - efficiency
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

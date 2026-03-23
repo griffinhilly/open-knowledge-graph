@@ -18,7 +18,7 @@ tags:
 - photon
 - work-function
 - Einstein
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

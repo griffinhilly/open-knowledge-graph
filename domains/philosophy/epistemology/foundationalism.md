@@ -17,7 +17,7 @@ tags:
 - Descartes
 - Chisholm
 - incorrigibility
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Foundationalism

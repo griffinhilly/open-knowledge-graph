@@ -13,7 +13,7 @@ tags:
 - form
 - prose
 - poetry
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

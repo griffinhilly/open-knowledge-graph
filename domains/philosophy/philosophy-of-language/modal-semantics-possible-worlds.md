@@ -16,7 +16,7 @@ tags:
 - possible-worlds
 - necessity
 - semantics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

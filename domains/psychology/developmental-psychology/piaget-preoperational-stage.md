@@ -18,7 +18,7 @@ tags:
 - symbolic thinking
 - conservation
 - centration
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - SAT
 - NP-completeness
 - hard-problems
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

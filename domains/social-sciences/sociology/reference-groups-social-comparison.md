@@ -16,7 +16,7 @@ tags:
 - aspirations
 - merton
 - hyman
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

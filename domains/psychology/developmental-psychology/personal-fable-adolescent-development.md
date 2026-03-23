@@ -13,7 +13,7 @@ tags:
 - egocentrism
 - identity
 - personal-fable
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

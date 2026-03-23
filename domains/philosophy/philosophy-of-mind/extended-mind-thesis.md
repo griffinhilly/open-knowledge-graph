@@ -20,7 +20,7 @@ tags:
 - Chalmers
 - embodied-cognition
 - cognitive-coupling
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # The Extended Mind Thesis

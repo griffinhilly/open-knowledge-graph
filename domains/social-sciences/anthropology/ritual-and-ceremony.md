@@ -19,7 +19,7 @@ tags:
 - liminality
 - Turner
 - van Gennep
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -19,7 +19,7 @@ tags:
 - Locke
 - Rousseau
 - legitimacy
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

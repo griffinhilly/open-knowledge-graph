@@ -13,7 +13,7 @@ tags:
 - fundamentals
 - motivation
 - challenges
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

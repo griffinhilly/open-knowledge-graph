@@ -17,7 +17,7 @@ tags:
 - entropy
 - property-tables
 - calculations
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

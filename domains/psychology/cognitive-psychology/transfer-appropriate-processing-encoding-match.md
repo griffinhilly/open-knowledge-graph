@@ -15,7 +15,7 @@ tags:
 - encoding
 - retrieval
 - transfer
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

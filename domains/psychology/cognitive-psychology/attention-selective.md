@@ -16,7 +16,7 @@ tags:
 - attention
 - perception
 - filter-theory
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

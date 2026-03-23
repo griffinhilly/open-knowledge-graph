@@ -13,7 +13,7 @@ tags:
 - lifespan
 - overview
 - theoretical-frameworks
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

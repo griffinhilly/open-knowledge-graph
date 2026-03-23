@@ -24,7 +24,7 @@ tags:
 - demand
 - curves
 - markets
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Supply and Demand

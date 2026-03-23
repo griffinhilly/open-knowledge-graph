@@ -15,7 +15,7 @@ tags:
 - dehumanization
 - moral disengagement
 - violence
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

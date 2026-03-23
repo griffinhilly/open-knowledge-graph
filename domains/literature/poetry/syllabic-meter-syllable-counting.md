@@ -10,7 +10,7 @@ tags:
 - meter
 - form
 - haiku
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

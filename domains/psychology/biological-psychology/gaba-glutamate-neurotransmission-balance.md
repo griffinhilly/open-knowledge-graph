@@ -19,7 +19,7 @@ tags:
 - neurotransmitters
 - pharmacology
 - systems
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

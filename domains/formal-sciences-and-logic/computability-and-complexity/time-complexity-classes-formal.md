@@ -23,7 +23,7 @@ tags:
 - time-complexity
 - polynomial-time
 - P
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

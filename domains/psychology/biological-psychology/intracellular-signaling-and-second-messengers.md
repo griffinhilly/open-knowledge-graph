@@ -24,7 +24,7 @@ tags:
 - IP3
 - calcium
 - kinases
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - legendre-polynomials
 - special-functions
 - orthogonal
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

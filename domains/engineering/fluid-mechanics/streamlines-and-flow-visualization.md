@@ -13,7 +13,7 @@ tags:
 - kinematics
 - flow
 - visualization
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

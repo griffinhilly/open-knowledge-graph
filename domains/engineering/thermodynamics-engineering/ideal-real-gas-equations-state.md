@@ -16,7 +16,7 @@ tags:
 - real-gas
 - equations
 - compressibility
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

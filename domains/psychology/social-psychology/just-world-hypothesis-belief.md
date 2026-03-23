@@ -15,7 +15,7 @@ tags:
 - belief system
 - attribution
 - justice
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

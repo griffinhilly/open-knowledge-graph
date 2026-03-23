@@ -19,7 +19,7 @@ tags:
 - contemporary
 - peasant
 - urban
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

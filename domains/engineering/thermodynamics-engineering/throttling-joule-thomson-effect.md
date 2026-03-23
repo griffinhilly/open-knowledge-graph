@@ -17,7 +17,7 @@ tags:
 - enthalpy
 - cooling
 - heating
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

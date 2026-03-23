@@ -22,7 +22,7 @@ tags:
 - scheme
 - ABAB
 - structure
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

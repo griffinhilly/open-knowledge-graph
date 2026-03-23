@@ -13,7 +13,7 @@ tags:
 - constraint
 - repetition
 - complexity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

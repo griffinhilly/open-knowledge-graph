@@ -21,7 +21,7 @@ tags:
 - plasticity
 - learning
 - synaptic-weakening
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

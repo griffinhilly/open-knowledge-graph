@@ -20,7 +20,7 @@ tags:
 - digestion
 - extraction
 - matrix
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

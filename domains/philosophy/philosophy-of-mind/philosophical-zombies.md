@@ -21,7 +21,7 @@ tags:
 - conceivability
 - physicalism
 - consciousness
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Philosophical Zombies

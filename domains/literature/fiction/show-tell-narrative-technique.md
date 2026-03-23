@@ -15,7 +15,7 @@ tags:
 - show-tell
 - narrative
 - style
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - narrative-distance
 - focalization
 - perspective
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Narrative Distance and Focalization Theory

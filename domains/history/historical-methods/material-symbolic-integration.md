@@ -13,7 +13,7 @@ tags:
 - symbolism
 - methodology
 - practice
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - development
 - education
 - habituation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

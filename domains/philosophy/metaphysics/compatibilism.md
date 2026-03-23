@@ -15,7 +15,7 @@ tags:
 - Hume
 - Frankfurt
 - moral responsibility
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

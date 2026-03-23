@@ -1,0 +1,362 @@
+[
+  {
+    "id": "amino-acid-classification-and-properties",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental protein building blocks taught in intro biochemistry"
+  },
+  {
+    "id": "amino-acid-structure-and-properties",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental protein building blocks taught in intro biochemistry"
+  },
+  {
+    "id": "amino-acid-degradation-overview",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard metabolic pathway in undergrad biochemistry"
+  },
+  {
+    "id": "aromatic-amino-acid-catabolism",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard metabolic pathway in undergrad biochemistry"
+  },
+  {
+    "id": "atp-hydrolysis-and-free-energy",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental bioenergetics in intro biochemistry courses"
+  },
+  {
+    "id": "atp-synthase-structure-mechanism",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "ATP synthesis taught in standard undergrad biochemistry"
+  },
+  {
+    "id": "branched-chain-amino-acid-catabolism",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard metabolic pathway in undergrad biochemistry"
+  },
+  {
+    "id": "carbohydrate-homeostasis",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard metabolic regulation in undergrad biochemistry"
+  },
+  {
+    "id": "carbohydrate-structure-and-classification",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental biochemistry covered in intro courses"
+  },
+  {
+    "id": "citric-acid-cycle-mechanism",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental pathway in standard undergrad biochemistry courses"
+  },
+  {
+    "id": "citric-acid-cycle-regulation",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Central metabolism taught in standard undergrad biochemistry"
+  },
+  {
+    "id": "enzyme-cofactors-and-coenzymes",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental enzyme biochemistry taught in intro courses"
+  },
+  {
+    "id": "fad-fadh2-and-other-redox-carriers",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Basic cofactors in standard undergrad biochemistry"
+  },
+  {
+    "id": "fatty-acid-oxidation-beta-oxidation",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard metabolic pathway in undergrad biochemistry"
+  },
+  {
+    "id": "fatty-acid-structure-and-classification",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental biochemistry covered in intro courses"
+  },
+  {
+    "id": "fatty-acid-synthesis",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard metabolic pathway in undergrad biochemistry"
+  },
+  {
+    "id": "gluconeogenesis",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard metabolic pathway in undergrad biochemistry"
+  },
+  {
+    "id": "glycolysis-mechanism-and-regulation",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Central pathway in standard undergrad biochemistry courses"
+  },
+  {
+    "id": "lipolysis-and-fatty-acid-mobilization",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard metabolic regulation in undergrad biochemistry"
+  },
+  {
+    "id": "lipoproteins-structure-and-transport",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard biochemistry topic in intro courses"
+  },
+  {
+    "id": "membrane-lipids-and-lipoproteins",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental cell biology in standard undergrad courses"
+  },
+  {
+    "id": "michaelis-menten-enzyme-kinetics",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental enzyme kinetics in intro biochemistry courses"
+  },
+  {
+    "id": "nad-nadh-structure-and-function",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Basic cofactors in standard undergrad biochemistry"
+  },
+  {
+    "id": "nucleotide-salvage-pathways",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard metabolic pathway in undergrad biochemistry"
+  },
+  {
+    "id": "nucleotide-structure-and-nomenclature",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental biochemistry covered in intro courses"
+  },
+  {
+    "id": "nucleotide-synthesis",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard metabolic pathway in undergrad biochemistry"
+  },
+  {
+    "id": "oxidative-phosphorylation-and-chemiosmosis",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Central bioenergetics in standard undergrad courses"
+  },
+  {
+    "id": "peptide-bonds-and-polypeptide-formation",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental protein chemistry in intro biochemistry"
+  },
+  {
+    "id": "phospholipid-biosynthesis",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard metabolic pathway in undergrad biochemistry"
+  },
+  {
+    "id": "protein-folding-and-chaperones",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental biochemistry covered in intro courses"
+  },
+  {
+    "id": "sulfur-amino-acid-metabolism",
+    "course": "biochemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard metabolic pathway in undergrad biochemistry"
+  },
+  {
+    "id": "bacterial-anaerobic-respiration-and-fermentation",
+    "course": "microbiology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental bacterial metabolism in intro microbiology"
+  },
+  {
+    "id": "bacterial-cell-wall-architecture",
+    "course": "microbiology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental bacterial structure in intro microbiology courses"
+  },
+  {
+    "id": "bacterial-flagella-and-chemotaxis",
+    "course": "microbiology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental bacterial motility in intro microbiology courses"
+  },
+  {
+    "id": "bacterial-flagella-pili-motility-adhesion",
+    "course": "microbiology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental bacterial structures in intro microbiology"
+  },
+  {
+    "id": "bacterial-metabolism-overview",
+    "course": "microbiology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental bacterial metabolism in intro microbiology courses"
+  },
+  {
+    "id": "fermentation-pathways-and-end-products",
+    "course": "microbiology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard metabolic pathway in undergrad microbiology"
+  },
+  {
+    "id": "flagellar-motor-rotation",
+    "course": "microbiology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Detailed bacterial motility mechanism in intro microbiology"
+  },
+  {
+    "id": "fungal-spore-conidia-ascospores",
+    "course": "microbiology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fungal reproduction in standard microbiology courses"
+  },
+  {
+    "id": "gram-staining-and-cell-wall-classification",
+    "course": "microbiology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental lab technique in intro microbiology courses"
+  },
+  {
+    "id": "industrial-fermentation-and-production-microbiology",
+    "course": "microbiology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Applied microbiology in standard undergrad courses"
+  },
+  {
+    "id": "microbial-fermentation",
+    "course": "microbiology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental metabolic pathway in intro microbiology courses"
+  },
+  {
+    "id": "viral-replication-dna-polymerase",
+    "course": "microbiology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Basic viral replication in standard microbiology courses"
+  },
+  {
+    "id": "viral-replication-rna-polymerase",
+    "course": "microbiology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Basic viral replication in standard microbiology courses"
+  },
+  {
+    "id": "yeast-fermentation-and-metabolic-pathways",
+    "course": "microbiology",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard metabolic topic in undergrad microbiology"
+  }
+]

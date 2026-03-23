@@ -12,7 +12,7 @@ tags:
 - regeneration
 - efficiency-improvement
 - heat-recovery
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

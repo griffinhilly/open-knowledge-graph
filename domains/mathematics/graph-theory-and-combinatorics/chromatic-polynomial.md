@@ -10,7 +10,7 @@ tags:
 - graph-theory
 - coloring
 - polynomials
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

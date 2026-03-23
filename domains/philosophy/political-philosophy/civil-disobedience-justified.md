@@ -16,7 +16,7 @@ tags:
 - protest
 - law-breaking
 - justice
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

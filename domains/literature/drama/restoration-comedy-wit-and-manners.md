@@ -19,7 +19,7 @@ tags:
 - Restoration
 - 17th-century
 - manners
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

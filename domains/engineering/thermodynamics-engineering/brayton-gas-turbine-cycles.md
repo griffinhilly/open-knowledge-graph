@@ -16,7 +16,7 @@ tags:
 - gas-turbine
 - compression
 - combustion
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

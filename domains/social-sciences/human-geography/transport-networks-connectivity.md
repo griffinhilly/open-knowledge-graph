@@ -14,7 +14,7 @@ tags:
 - infrastructure
 - connectivity
 - networks
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

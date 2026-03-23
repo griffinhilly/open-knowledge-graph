@@ -12,7 +12,7 @@ tags:
 - indexicals
 - demonstratives
 - context
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

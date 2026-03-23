@@ -17,7 +17,7 @@ tags:
 - modality
 - identity
 - possible-worlds
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

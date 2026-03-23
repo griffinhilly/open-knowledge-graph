@@ -16,7 +16,7 @@ tags:
 - sensory-language
 - visual
 - auditory
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - search
 - strategy
 - constraints
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - reference
 - naming
 - semantics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

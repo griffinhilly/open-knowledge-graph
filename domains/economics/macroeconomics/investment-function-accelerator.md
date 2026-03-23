@@ -14,7 +14,7 @@ tags:
 - accelerator
 - capital
 - dynamics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

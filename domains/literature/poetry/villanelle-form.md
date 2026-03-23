@@ -17,7 +17,7 @@ tags:
 - obsession
 - Dylan Thomas
 - fixed form
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

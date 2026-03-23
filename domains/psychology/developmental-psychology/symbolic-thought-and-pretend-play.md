@@ -14,7 +14,7 @@ tags:
 - toddler development
 - cognitive milestones
 - play
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

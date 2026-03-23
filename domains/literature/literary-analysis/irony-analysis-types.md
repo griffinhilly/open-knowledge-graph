@@ -21,7 +21,7 @@ tags:
 - analysis
 - type
 - meaning
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Analyzing Irony: Types, Function, and Effect

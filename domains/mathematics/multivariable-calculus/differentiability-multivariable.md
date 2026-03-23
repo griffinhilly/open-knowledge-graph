@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - differentiability
 - smoothness
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

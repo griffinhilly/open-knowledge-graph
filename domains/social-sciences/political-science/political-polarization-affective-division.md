@@ -16,7 +16,7 @@ tags:
 - partisanship
 - conflict
 - division
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

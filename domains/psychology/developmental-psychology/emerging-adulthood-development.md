@@ -15,7 +15,7 @@ tags:
 - young adult
 - development
 - identity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - measurement
 - foundations
 - theory
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

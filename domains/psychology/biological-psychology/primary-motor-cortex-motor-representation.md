@@ -15,7 +15,7 @@ tags:
 - motor-systems
 - cortex
 - movement
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

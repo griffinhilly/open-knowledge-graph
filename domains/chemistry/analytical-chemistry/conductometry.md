@@ -20,7 +20,7 @@ tags:
 - molar conductivity
 - Kohlrausch
 - conductometric titration
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

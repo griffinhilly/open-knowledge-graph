@@ -16,7 +16,7 @@ tags:
 - availability
 - maximum-work
 - destroyed-work
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

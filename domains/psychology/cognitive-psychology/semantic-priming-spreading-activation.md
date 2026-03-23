@@ -13,7 +13,7 @@ tags:
 - priming
 - activation
 - networks
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - degrees-of-freedom
 - multicomponent
 - phase-envelope
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - the-marvelous-real
 - Latin-American-literature
 - hybridity
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Magical Realism

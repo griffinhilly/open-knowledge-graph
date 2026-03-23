@@ -17,7 +17,7 @@ tags:
 - turbines
 - compressors
 - performance
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - trait-inference
 - cognitive-integration
 - asch
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

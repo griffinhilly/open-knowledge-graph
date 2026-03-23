@@ -16,7 +16,7 @@ tags:
 - brittle
 - impact-resistance
 - resilience
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

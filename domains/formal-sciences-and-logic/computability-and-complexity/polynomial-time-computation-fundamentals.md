@@ -17,7 +17,7 @@ tags:
 - polynomial-time
 - complexity-classes
 - tractability
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - self-determination
 - borders
 - secession
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

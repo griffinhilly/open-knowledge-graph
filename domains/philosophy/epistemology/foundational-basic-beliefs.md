@@ -15,7 +15,7 @@ tags:
 - basic-beliefs
 - justification
 - structure
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

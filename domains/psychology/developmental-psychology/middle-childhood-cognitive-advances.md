@@ -14,7 +14,7 @@ tags:
 - middle childhood
 - concrete operations
 - school age
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

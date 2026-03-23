@@ -15,7 +15,7 @@ tags:
 - register
 - voice
 - effect
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

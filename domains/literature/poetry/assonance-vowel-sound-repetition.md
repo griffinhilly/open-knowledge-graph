@@ -14,7 +14,7 @@ tags:
 - sound-devices
 - phonetics
 - musicality
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

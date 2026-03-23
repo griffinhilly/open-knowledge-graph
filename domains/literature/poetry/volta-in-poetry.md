@@ -15,7 +15,7 @@ tags:
 - argument
 - pivot
 - sonnet
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

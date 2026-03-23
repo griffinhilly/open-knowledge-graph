@@ -21,7 +21,7 @@ tags:
 - thermal-expansion
 - heat-capacity
 - thermal-properties
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

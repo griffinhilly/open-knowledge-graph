@@ -25,7 +25,7 @@ tags:
 - structure
 - organic chemistry
 - stereochemistry
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

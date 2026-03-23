@@ -19,7 +19,7 @@ tags:
 - autocracy
 - dictatorship
 - competitive authoritarianism
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

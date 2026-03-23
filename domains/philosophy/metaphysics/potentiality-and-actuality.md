@@ -16,7 +16,7 @@ tags:
 - actuality
 - modality
 - change
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

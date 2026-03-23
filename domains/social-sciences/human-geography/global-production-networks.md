@@ -15,7 +15,7 @@ tags:
 - global-capitalism
 - value-chains
 - labor
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

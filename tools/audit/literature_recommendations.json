@@ -1,0 +1,1554 @@
+[
+  {
+    "id": "absurdist-theatre",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Absurdist Theatre' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "domestic-tragedy-intimate-conflict",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Domestic Tragedy: Intimate Conflict' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "dramatic-conventions-audience-contract",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Dramatic Conventions and the Audience Contract' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "dramatic-form-and-structure-types",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Dramatic Form and Structure Types' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "dramatic-irony-in-drama",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Dramatic Irony' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "dramatic-subtext",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Dramatic Subtext' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "epic-theatre-and-brecht",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Epic Theatre and Brecht' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "expressionist-theatre-interior-states",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Expressionist Theatre: Interior States' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "hamartia-tragic-flaw-error",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Hamartia: Tragic Flaw and Error' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "melodrama",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Melodrama as Dramatic Genre' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "modern-realist-drama",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Modern Realist Drama' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "monologue-and-soliloquy-craft",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Monologue and Soliloquy Craft' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "monologue-extended-speech-form",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Monologue: Extended Solo Speech' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "restoration-comedy-wit-and-manners",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Restoration Comedy: Wit and Manners' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "romantic-drama-emotion-and-nature",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Romantic Drama: Emotion and Nature' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "satire-in-drama",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Satire in Drama' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "soliloquy-and-aside",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Soliloquy and Aside' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "subtext-and-unspoken-meaning",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Subtext and Unspoken Meaning in Drama' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "subtext-implicit-meaning-below",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Subtext: The Unspoken Beneath Dialogue' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "symbolist-drama-poetic-suggestion",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Symbolist Drama: Poetic Suggestion' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "theatre-of-cruelty-artaud",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Theatre of Cruelty and Antonin Artaud' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "theatrical-period-movements",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Theatrical Period Movements and History' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "tragic-and-comic-vision",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Tragic and Comic Vision in Drama' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "tragic-catharsis-emotional-release",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Catharsis: Tragic Emotional Release' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "tragic-irony-fate-and-knowledge",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Tragic Irony: Fate and Knowledge' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "well-made-play",
+    "course": "drama",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Well-Made Play' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "bildungsroman-transformation-arc",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Bildungsroman: Protagonist Transformation' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "characterization-motivation-believability",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Character Motivation and Psychological Believability' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "dialogue-subtext-meaning",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Dialogue: Speech and Subtext' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "epistolary-fiction",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Epistolary Fiction' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "exposition-technique-and-info-delivery",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Exposition Technique and Information Delivery' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "fantastic-and-magical-modes",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Degrees of the Fantastic: Magical and Impossible Modes' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "first-person-narration-subjectivity-limitation",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'First-Person Narration: Subjectivity and Limitation' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "foreshadowing-seed-payoff",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Foreshadowing: Planting Seeds and Delivering Payoff' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "frame-narrative",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Frame Narrative' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "free-indirect-discourse",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Free Indirect Discourse: Blending Voices' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "genre-as-contract",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Genre as Reader Contract' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "genre-boundary-crossing",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Genre Boundary-Crossing and Hybrid Forms' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "genre-conventions-and-reader-contract",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Genre Conventions and Reader Contract' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "genre-conventions-as-system",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Genre as a Formal System' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "genre-hybrid-and-cross-genre-fiction",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Genre Hybrid and Cross-Genre Fiction' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "genre-parody-metafiction-self-awareness",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Genre Parody, Metafiction, and Self-Awareness' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "gothic-fiction",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Gothic Fiction: Atmosphere, Dread, and the Uncanny' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "historical-fiction-authenticity-tension",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Historical Fiction: Authenticity and Narrative Freedom' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "interior-consciousness-and-mind-representation",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Interior Consciousness and Mind Representation' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "kunstlerroman-artist-formation",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Kunstlerroman: Artist as Protagonist' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "literary-versus-genre-fiction",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Literary Fiction and Genre Fiction: Distinctions and Purposes' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "magical-realism",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Magical Realism' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "metafiction-narrative-self-awareness",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Metafiction: Narrative Self-Awareness' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "moral-ambiguity-and-complex-antagonists",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Moral Ambiguity and Complex Antagonists' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "multi-protagonist-ensemble-narrative",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Multi-Protagonist Ensemble Narrative' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "multiperspectival-ensemble",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Multiperspectival and Ensemble Narratives' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "narration-and-narrative-constraint",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Narration and Narrative Constraint' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "narrative-distance-focalization-theory",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Narrative Distance and Focalization Theory' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "narrative-pacing-duration-control",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Narrative Pacing: Controlling Duration and Attention' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "narrative-time-experimentation",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Experimental Treatment of Narrative Time' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "narrative-voice-and-authorial-style",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Narrative Voice and Authorial Style' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "narrative-voice",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Narrative Voice and Authorial Style' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "naturalism-philosophical-system",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Naturalism as Philosophical System in Fiction' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "non-linear-time-fragmented-narrative",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Non-Linear Time and Fragmented Narrative' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "novel-form-scope-complexity",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Novel as Extended Form' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "omniscient-narrator-authority-effect",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Omniscient Narration: Authority and Effect' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "opening-hook-and-inciting-incident",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Opening Hook and Inciting Incident' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "postmodern-metafictional-play",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Postmodern Metafictional Play' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "prose-rhythm-sentence-craft",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Prose Rhythm and Sentence Craft' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "psychological-novel-consciousness",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Psychological Novel: Consciousness as Subject' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "regionalism-place-narrative",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Regionalism: Place as Shaping Force' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "resolution-and-denouement-genre-variation",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Resolution and Denouement: Genre Variation' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "second-person-narration-you",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Second-Person Narration: 'You' as Narratee' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "sensory-imagery-and-description",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Sensory Imagery and Description' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "setting-environment-active-element",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Setting as Active Element' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "short-story-compression-effect",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Short Story: Compression and Epiphany' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "show-tell-narrative-technique",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Showing and Telling in Narrative' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "social-realism-engagement",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Social Realism: Fiction as Social Critique' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "stream-of-consciousness",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Stream of Consciousness Narration' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "third-person-limited-narrative-perspective",
+    "course": "fiction",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Third-Person Limited: Distance and Interiority' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "allegory-and-extended-metaphor",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Allegory and Extended Metaphor' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "analytical-thesis-literary-essay",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Crafting Analytical Thesis Statements for Literary Essays' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "characterization-dialogue",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Characterization Through Dialogue' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "foreshadowing-analysis",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Foreshadowing and Flashback as Analytical Tools' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "foreshadowing-narrative-technique",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Foreshadowing as a Narrative Technique' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "genre-analysis-and-meaning",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Genre Conventions and Literary Meaning' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "imagery-in-literature",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Imagery in Literature' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "imagery-sensory-language",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Imagery and Sensory Language' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "interpretation-ambiguity-and-validity",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Interpretation, Ambiguity, and Validity in Literary Analysis' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "interpretation-multiple-readings",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Multiple Interpretations and Ambiguity' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "intertextual-analysis-and-meaning",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Intertextuality: Literary Reference and Meaning' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "intertextuality-allusion-analysis",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Intertextuality and Literary Allusion' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "intertextuality-and-allusion",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Intertextuality and Allusion' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "irony-analysis-types",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Analyzing Irony: Types, Function, and Effect' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "irony-identification-effect",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Irony: Types, Identification, and Effect' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "irony-in-literature",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Irony in Literature' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "irony-meaning-and-effect",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Irony: Contradiction, Meaning, and Effect' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "literary-allusion-identification-tracking",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Literary Allusion: Identification and Interpretation' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "literary-argument-writing",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Literary Argument Writing' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "motif-analysis-recognition",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Motif Recognition and Analysis' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "narrative-pacing-meaning",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Narrative Pacing and Its Effect on Meaning' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "narrative-perspective-analysis",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Narrative Perspective and Point of View' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "narrator-analysis-reliability",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Narrator Analysis and Reliability in Interpretation' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "point-of-view-interpretation",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Point of View and Its Interpretive Effects' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "point-of-view-narrative-perspective",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Point of View and Narrative Perspective' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "point-of-view-technical-effects",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Point of View: Technical Effects and Limitations' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "setting-mood-atmosphere",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Setting, Mood, and Atmosphere' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "stream-of-consciousness-close-reading",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Reading and Analyzing Stream of Consciousness' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "symbol-interpretation-and-meaning",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Symbolism and Symbolic Meaning in Texts' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "symbol-interpretation-method",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Symbol Identification and Interpretation' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "symbolism-in-literature",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Symbolism in Literature' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "symbolism-symbolic-meaning",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Symbolism and Symbolic Interpretation' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "tone-and-mood",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Tone and Mood' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "tone-development-analysis",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Tracing Tone Development and Shift' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "tone-mood-atmosphere-distinction",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Tone, Mood, and Atmosphere Distinguished' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "tone-register-and-effect",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Tone, Register, and Emotional Register in Literature' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "unreliable-narrator-analysis",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Detecting and Analyzing Unreliable Narrators' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "unreliable-narrator-detection",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Detecting and Analyzing Unreliable Narrators' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "unreliable-narrator",
+    "course": "literary-analysis",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Unreliable Narrator' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "accentual-stress-verse",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Accentual and Stress-Based Verse' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "acrostic-constraint-forms",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Acrostic and Other Constraint-Based Forms' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "alliteration-poetic-effect",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Alliteration and Poetic Effect' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "allusion-in-poetry",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Allusion in Poetry: Reference and Recognition' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "anaphora-and-epistrophe",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Anaphora and Epistrophe: Repetition for Emphasis' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "anaphora-initial-repetition",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Anaphora: Repetition at Line Beginnings' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "apostrophe-direct-address",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Apostrophe: Direct Address in Poetry' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "apostrophe-in-poetry",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Apostrophe: Direct Address in Poetry' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "assonance-vowel-sound-repetition",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Assonance and Vowel Sound Repetition' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "asyndeton-and-parataxis",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Asyndeton and Parataxis: Omission and Coordination' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "aubade-dawn-greeting-poem",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Aubade: The Dawn-Greeting Poem' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "ballad-form",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Ballad: Narrative Folk Form' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "blank-verse",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Blank Verse' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "blues-stanza-poetry",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Blues Stanza and Poetry' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "caesura-line-internal-pause",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Caesura: Pause and Break Within the Line' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "concrete-poetry-visual",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Concrete Poetry and Visual Form' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "concrete-poetry",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Concrete Poetry and Visual Form' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "concrete-vs-abstract-in-poetry",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Concrete vs. Abstract in Poetry' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "consonance-internal-consonant-patterns",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Consonance and Internal Consonant Patterns' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "couplet-two-line-form",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Couplet: Two-Line Form' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "dactylic-anapestic-feet",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Dactylic and Anapestic Feet: Triple Meters' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "diction-and-poetic-voice",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Diction and Poetic Voice' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "dramatic-monologue-in-poetry",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Dramatic Monologue' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "ekphrasis-describing-visual-art",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Ekphrasis: Poetry Describing Visual Art' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "elegy-form",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Elegy' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "end-stopped-line",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'End-Stopped Lines and Grammatical Closure' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "enjambment-in-poetry",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Enjambment' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "epistrophe-terminal-repetition",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Epistrophe: Repetition at Line Endings' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "eye-rhyme-homographic-rhyme",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Eye Rhyme and Homographic Rhyme' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "found-poetry",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Found Poetry and Erasure' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "free-verse-poetry",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Free Verse' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "ghazal-form",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Ghazal: Arabic and South Asian Form' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "haiku-form",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Haiku' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "iambic-and-trochaic-feet",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Iambic and Trochaic Feet: Common Patterns' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "iambic-pentameter",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Iambic Pentameter' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "imagery-in-poetry",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Imagery in Poetry' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "internal-rhyme-within-lines",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Internal Rhyme and Rhyme Within Lines' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "limerick-form",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Limerick Form' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "lyric-poetry",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Lyric Poetry and the Lyric Mode' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "meter-and-rhythm-in-poetry",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Meter and Rhythm in Poetry' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "metrical-foot-basic-unit",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Metrical Foot: Basic Unit of Meter' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "metrical-variation-substitution",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Metrical Variation and Substitution' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "monorhyme",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Monorhyme: Single Rhyme Sound' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "narrative-poetry",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Narrative Poetry and Storytelling in Verse' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "nocturne-night-poem",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Nocturne: The Night Poem' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "ode-form",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Ode' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "oxymoron-paradox-juxtaposition",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Oxymoron: Paradoxical Juxtaposition' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "pantoum-form",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Pantoum: Malaysian Form and Interlocking Lines' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "paradox-logical-contradiction",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Paradox and Logical Contradiction in Poetry' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "pastoral-poetry",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Pastoral Poetry' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "poetic-argument-and-structure",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Poetic Argument and Structure' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "poetic-compression-and-economy",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Compression and Economy in Poetry' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "poetic-diction-and-register",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Poetic Diction and Register' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "poetic-form-overview",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Poetic Form Overview' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "poetic-line-and-lineation",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Poetic Line and Lineation' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "poetic-persona-and-speaker",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Persona and the Poetic Speaker' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "poetic-repetition-and-refrain",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Poetic Repetition and Refrain' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "poetic-tradition-and-influence",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Poetic Tradition and Influence' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "poetic-voice-and-tone",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Poetic Voice and Tone' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "prose-poetry-hybrid-form",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Prose Poetry as Hybrid Form' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "prose-poetry",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Prose Poetry: Hybrid Form' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "pun-wordplay-multiple-meaning",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Pun and Wordplay: Multiple Meanings' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "quatrain-four-line-stanza",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Quatrain: Four-Line Stanza' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "refrain-and-repetition-structures",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Refrain and Repetition Structures' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "rhyme-function-and-meaning",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Rhyme Function and Meaning-Making' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "rhyme-scheme",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Rhyme Scheme' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "scansion",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Scansion' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "sestina-form",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Sestina: Complex Form and Repetition' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "slant-rhyme-imperfect-rhyme",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Slant Rhyme and Imperfect Rhyme' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "sonnet-form",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Sonnet' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "sound-devices-in-poetry",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Sound Devices in Poetry' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "stanza-structural-unit",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Stanza as Structural Unit' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "syllabic-meter-syllable-counting",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Syllabic Meter: Counting Syllables' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "tanka-form",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Tanka: Japanese Five-Line Form' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "tercet-triplet-three-line-form",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Tercet and Triplet: Three-Line Forms' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "terza-rima",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Terza Rima: Interlocking Tercets' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "villanelle-form",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Villanelle' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "volta-in-poetry",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'The Volta' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  },
+  {
+    "id": "zeugma-semantic-yoking",
+    "course": "poetry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "'Zeugma: Semantic Yoking and Wit' is standard undergrad English course (200-300 level), not upper-division seminar or critical theory."
+  }
+]

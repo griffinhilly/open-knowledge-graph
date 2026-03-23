@@ -18,7 +18,7 @@ tags:
 - blackbody
 - planck
 - ultraviolet-catastrophe
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

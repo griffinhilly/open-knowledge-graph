@@ -20,7 +20,7 @@ tags:
 - formal-logic
 - natural-language
 - semantics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

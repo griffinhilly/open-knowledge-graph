@@ -17,7 +17,7 @@ tags:
 - frying
 - technique
 - texture
-stage: abstract-reasoning
+stage: concrete-operations
 status: draft
 ---
 

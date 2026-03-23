@@ -18,7 +18,7 @@ tags:
 - persistence
 - four-dimensionalism
 - ontology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

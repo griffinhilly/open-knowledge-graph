@@ -14,7 +14,7 @@ tags:
 - positive-rights
 - liberty
 - duties
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

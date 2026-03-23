@@ -13,7 +13,7 @@ tags:
 - empathy
 - altruism
 - moral-development
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

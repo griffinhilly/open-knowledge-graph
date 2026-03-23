@@ -15,7 +15,7 @@ tags:
 - Kutta-Joukowski theorem
 - bound vortex
 - Magnus effect
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Lift and Circulation Theory

@@ -15,7 +15,7 @@ tags:
 - foreshadowing
 - anticipation
 - narrative-design
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

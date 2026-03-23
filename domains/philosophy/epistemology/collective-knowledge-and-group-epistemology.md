@@ -12,7 +12,7 @@ tags:
 - group-knowledge
 - collective-belief
 - social-epistemology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

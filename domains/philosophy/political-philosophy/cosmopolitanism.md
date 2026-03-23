@@ -15,7 +15,7 @@ tags:
 - Appiah
 - universal-obligations
 - moral-cosmopolitanism
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

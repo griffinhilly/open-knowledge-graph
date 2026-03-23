@@ -16,7 +16,7 @@ tags:
 - rights
 - human-rights
 - foundations
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

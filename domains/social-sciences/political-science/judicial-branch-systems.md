@@ -16,7 +16,7 @@ tags:
 - judges
 - constitutional-review
 - legal-interpretation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

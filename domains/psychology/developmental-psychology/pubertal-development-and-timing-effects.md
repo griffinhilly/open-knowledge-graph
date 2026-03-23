@@ -15,7 +15,7 @@ tags:
 - adolescence
 - biological development
 - timing
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 # Pubertal Development and Timing Effects

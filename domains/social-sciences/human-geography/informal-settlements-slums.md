@@ -15,7 +15,7 @@ tags:
 - housing
 - poverty
 - inequality
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -20,7 +20,7 @@ tags:
 - series-resonance
 - parallel-resonance
 - selectivity
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

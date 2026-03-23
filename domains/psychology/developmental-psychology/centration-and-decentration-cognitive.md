@@ -14,7 +14,7 @@ tags:
 - concrete-operations
 - attention
 - piaget
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

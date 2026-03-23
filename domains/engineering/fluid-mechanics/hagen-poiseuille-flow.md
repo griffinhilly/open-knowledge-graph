@@ -14,7 +14,7 @@ tags:
 - parabolic velocity profile
 - pressure drop
 - viscous flow
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Hagen-Poiseuille Flow

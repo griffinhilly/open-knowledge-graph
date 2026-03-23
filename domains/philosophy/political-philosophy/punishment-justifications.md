@@ -14,7 +14,7 @@ tags:
 - retribution
 - deterrence
 - rehabilitation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

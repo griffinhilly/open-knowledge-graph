@@ -16,7 +16,7 @@ tags:
 - functions
 - None
 - void
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

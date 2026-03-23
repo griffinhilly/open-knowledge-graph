@@ -13,7 +13,7 @@ tags:
 - Hutto
 - sense-making
 - perception-as-action
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - pipe roughness
 - flow regimes
 - Darcy-Weisbach
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Moody Diagram and Friction Factor

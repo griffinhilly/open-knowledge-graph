@@ -18,7 +18,7 @@ tags:
 - introduction
 - spatial
 - human-environment
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

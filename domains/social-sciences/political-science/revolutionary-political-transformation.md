@@ -16,7 +16,7 @@ tags:
 - transformation
 - structural-change
 - rupture
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - environmental-governance
 - resources
 - sustainability
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

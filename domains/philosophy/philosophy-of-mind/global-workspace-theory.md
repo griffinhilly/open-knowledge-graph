@@ -15,7 +15,7 @@ tags:
 - access-consciousness
 - broadcasting
 - cognitive-architecture
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

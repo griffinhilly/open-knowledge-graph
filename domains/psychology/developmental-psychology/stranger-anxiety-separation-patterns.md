@@ -18,7 +18,7 @@ tags:
 - infant-emotions
 - social-development
 - fear-response
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -22,7 +22,7 @@ tags:
 - stream function
 - velocity potential
 - superposition
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Potential Flow Theory

@@ -17,7 +17,7 @@ tags:
 - stereotyping
 - outgroup perception
 - individuation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

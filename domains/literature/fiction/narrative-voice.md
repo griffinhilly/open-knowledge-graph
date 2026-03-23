@@ -24,7 +24,7 @@ tags:
 - diction
 - register
 - authorial-presence
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Narrative Voice and Authorial Style

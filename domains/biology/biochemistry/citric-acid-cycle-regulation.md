@@ -13,7 +13,7 @@ tags:
 - allosteric control
 - feedback inhibition
 - energy status
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

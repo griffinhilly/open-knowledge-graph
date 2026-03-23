@@ -12,7 +12,7 @@ tags:
 - galvanic
 - passivation
 - electrochemistry
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

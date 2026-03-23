@@ -20,7 +20,7 @@ tags:
 - appreciation
 - depreciation
 - purchasing-power-parity
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

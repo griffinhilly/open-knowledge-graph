@@ -18,7 +18,7 @@ tags:
 - powers
 - modality
 - metaphysics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

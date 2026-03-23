@@ -23,7 +23,7 @@ tags:
 - dual systems
 - puberty
 - executive function
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Adolescent Cognitive and Brain Development

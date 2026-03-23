@@ -14,7 +14,7 @@ tags:
 - morality
 - ambiguity
 - antagonist
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

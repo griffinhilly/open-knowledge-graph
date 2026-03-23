@@ -22,7 +22,7 @@ tags:
 - functional groups
 - fingerprint region
 - ATR
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

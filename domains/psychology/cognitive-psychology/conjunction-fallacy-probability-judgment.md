@@ -17,7 +17,7 @@ tags:
 - judgment
 - fallacy
 - logic
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

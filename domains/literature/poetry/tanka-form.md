@@ -13,7 +13,7 @@ tags:
 - japanese
 - syllabic
 - five-line
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

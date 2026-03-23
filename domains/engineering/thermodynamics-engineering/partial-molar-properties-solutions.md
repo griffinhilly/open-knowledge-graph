@@ -16,7 +16,7 @@ tags:
 - solution
 - component-properties
 - chemical-potential
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

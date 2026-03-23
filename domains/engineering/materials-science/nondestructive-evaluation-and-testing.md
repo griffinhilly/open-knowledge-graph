@@ -14,7 +14,7 @@ tags:
 - ultrasonic
 - eddy-current
 - radiography
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

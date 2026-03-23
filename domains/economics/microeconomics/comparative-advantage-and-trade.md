@@ -15,7 +15,7 @@ tags:
 - specialization
 - trade
 - gains from trade
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

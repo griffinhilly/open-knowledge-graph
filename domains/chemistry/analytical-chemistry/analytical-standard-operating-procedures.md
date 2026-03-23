@@ -15,7 +15,7 @@ tags:
 - documentation
 - sop
 - quality-assurance
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

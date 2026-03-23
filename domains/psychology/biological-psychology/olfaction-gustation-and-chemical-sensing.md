@@ -13,7 +13,7 @@ tags:
 - taste
 - chemoreceptors
 - flavor
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

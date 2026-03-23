@@ -12,7 +12,7 @@ tags:
 - social-movements
 - theory
 - organization
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

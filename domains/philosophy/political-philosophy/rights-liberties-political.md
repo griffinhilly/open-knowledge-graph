@@ -16,7 +16,7 @@ tags:
 - liberties
 - protection
 - individual-freedom
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

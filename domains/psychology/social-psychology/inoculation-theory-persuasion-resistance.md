@@ -16,7 +16,7 @@ tags:
 - persuasion
 - counterargument
 - attitude-protection
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

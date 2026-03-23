@@ -32,7 +32,7 @@ tags:
 - anharmonicity
 - overtones
 - combination-bands
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Vibrational Spectroscopy: Theory and Normal Modes

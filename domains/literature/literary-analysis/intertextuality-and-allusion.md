@@ -24,7 +24,7 @@ tags:
 - influence
 - reference
 - meaning
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Intertextuality and Allusion

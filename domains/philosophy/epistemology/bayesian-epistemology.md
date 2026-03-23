@@ -18,7 +18,7 @@ tags:
 - conditionalization
 - Dutch-book
 - probabilistic-coherence
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Bayesian Epistemology

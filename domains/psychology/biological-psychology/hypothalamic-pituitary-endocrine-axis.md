@@ -19,7 +19,7 @@ tags:
 - pituitary
 - hormones
 - feedback
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

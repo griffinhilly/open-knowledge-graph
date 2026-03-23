@@ -19,7 +19,7 @@ tags:
 - semantics
 - internal-properties
 - representation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - backfire effect
 - misinformation
 - attitude change
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

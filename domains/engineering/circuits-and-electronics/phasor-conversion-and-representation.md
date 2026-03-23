@@ -15,7 +15,7 @@ tags:
 - phasors
 - complex-representation
 - frequency-domain
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - comedy
 - social-critique
 - irony
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

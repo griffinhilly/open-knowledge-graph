@@ -12,7 +12,7 @@ tags:
 - rotor
 - stator
 - rotary catalysis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

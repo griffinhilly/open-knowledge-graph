@@ -13,7 +13,7 @@ tags:
 - conformity
 - adolescence
 - social-development
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

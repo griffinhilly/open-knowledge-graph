@@ -25,7 +25,7 @@ tags:
 - Mauss
 - dividual
 - individualism
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Identity, Self, and Person Across Cultures

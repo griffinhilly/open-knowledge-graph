@@ -12,7 +12,7 @@ tags:
 - metaphor
 - meaning
 - semantics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

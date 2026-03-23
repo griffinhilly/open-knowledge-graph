@@ -16,7 +16,7 @@ tags:
 - Kripke
 - a posteriori necessity
 - modality
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

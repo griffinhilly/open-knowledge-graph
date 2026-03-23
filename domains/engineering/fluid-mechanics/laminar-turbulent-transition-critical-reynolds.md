@@ -15,7 +15,7 @@ tags:
 - laminar
 - turbulent
 - instability
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

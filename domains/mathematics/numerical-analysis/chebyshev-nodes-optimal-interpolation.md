@@ -13,7 +13,7 @@ tags:
 - chebyshev-nodes
 - optimal-nodes
 - equioscillation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

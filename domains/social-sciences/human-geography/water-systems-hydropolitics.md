@@ -11,7 +11,7 @@ tags:
 - hydropolitics
 - resources
 - geopolitics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - bessel-functions
 - special-functions
 - orthogonal
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

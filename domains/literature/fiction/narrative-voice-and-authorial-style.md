@@ -21,7 +21,7 @@ tags:
 - voice
 - style
 - prose-style
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

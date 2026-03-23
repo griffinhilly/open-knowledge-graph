@@ -15,7 +15,7 @@ tags:
 - retrieval
 - interference
 - forgetting
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

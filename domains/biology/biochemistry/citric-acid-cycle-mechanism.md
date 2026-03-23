@@ -30,7 +30,7 @@ tags:
 - acetyl-CoA
 - NADH
 - FADH2
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

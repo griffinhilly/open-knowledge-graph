@@ -13,7 +13,7 @@ tags:
 - structure
 - foundations
 - justification-theory
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

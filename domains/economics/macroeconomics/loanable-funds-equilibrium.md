@@ -15,7 +15,7 @@ tags:
 - financial-markets
 - interest-rates
 - equilibrium
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

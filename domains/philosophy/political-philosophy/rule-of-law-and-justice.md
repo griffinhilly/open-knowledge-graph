@@ -16,7 +16,7 @@ tags:
 - justice
 - law
 - governance
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - money
 - financial-markets
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

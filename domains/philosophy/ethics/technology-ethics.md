@@ -16,7 +16,7 @@ tags:
 - privacy
 - algorithmic-fairness
 - digital-rights
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

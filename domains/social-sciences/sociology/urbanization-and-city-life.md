@@ -23,7 +23,7 @@ tags:
 - segregation
 - gentrification
 - urban-sociology
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

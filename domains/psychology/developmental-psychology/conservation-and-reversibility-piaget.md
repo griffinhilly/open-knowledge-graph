@@ -14,7 +14,7 @@ tags:
 - concrete operational
 - cognitive development
 - logic
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

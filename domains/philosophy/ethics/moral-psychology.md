@@ -16,7 +16,7 @@ tags:
 - dual-process
 - emotion
 - character
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

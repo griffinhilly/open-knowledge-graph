@@ -16,7 +16,7 @@ tags:
 - epistemology
 - local-knowledge
 - ontology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

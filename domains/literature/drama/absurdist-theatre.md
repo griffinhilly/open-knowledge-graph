@@ -23,7 +23,7 @@ tags:
 - Theatre-of-the-Absurd
 - existentialism
 - anti-drama
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Absurdist Theatre

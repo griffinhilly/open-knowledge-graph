@@ -15,7 +15,7 @@ tags:
 - first-law
 - open-systems
 - control-volume
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

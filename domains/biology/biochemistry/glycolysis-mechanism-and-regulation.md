@@ -30,7 +30,7 @@ tags:
 - ATP
 - regulation
 - phosphofructokinase
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

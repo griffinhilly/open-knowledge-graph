@@ -15,7 +15,7 @@ tags:
 - cooperation
 - superordinate goals
 - prejudice reduction
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - desert
 - fairness
 - distribution
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

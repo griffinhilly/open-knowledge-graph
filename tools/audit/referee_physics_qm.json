@@ -1,0 +1,40 @@
+{
+  "verdict": "split",
+  "accept_count": 26,
+  "reject_count": 4,
+  "rationale": "This file contains two distinct groups: 19 modern-physics topics recommended DOWN from advanced to formal-systems, and 11 quantum-mechanics topics recommended UP from formal-systems to advanced. I evaluate each group separately. GROUP 1 -- Modern Physics (advanced -> formal-systems): ACCEPT ALL 19. Haiku is correct. Per the OKG developmental-stages definition, formal-systems covers 'standard introductory and intermediate undergraduate curriculum (100-300 level).' Blackbody radiation, the photoelectric effect, Compton scattering, wave-particle duality, special relativity postulates, Lorentz transformations, mass-energy equivalence, and Planck's quantization hypothesis are ALL canonical topics in a standard sophomore-level Modern Physics course (PHYS 200-level). These are the historical experiments and foundational concepts that INTRODUCE quantum and relativistic ideas. They belong at formal-systems, not advanced. The current 'advanced' staging likely resulted from keyword association with 'quantum' or 'relativity' rather than actual curricular placement. GROUP 2 -- Quantum Mechanics (formal-systems -> advanced): ACCEPT 7 of 11. Bell's theorem, Bell inequalities, exchange symmetry, identical-particles-quantum, fermions-and-bosons, slater-determinant, and kets-and-bras are genuinely upper-division content. Bell's theorem requires deep understanding of entanglement and hidden variable theories -- typically 400-level QM or quantum information courses. Exchange symmetry, identical particles, fermions/bosons, and Slater determinants are many-body QM topics that appear in upper-division QM II or quantum chemistry -- solidly 300-400 level. Kets-and-bras as a standalone topic (separate from the introductory dirac-notation) represents deeper operational fluency with the formalism. REJECT 4 of 11: (1) dirac-notation -- Bra-ket notation is introduced in every standard junior-level QM I course (Griffiths Ch. 3, Shankar Ch. 1). It is the ENTRY POINT to formal QM, not an advanced topic. Its prerequisites are just linear algebra and vector spaces. formal-systems is correct. (2) hilbert-space-formalism -- Similarly foundational; introduced alongside Dirac notation in QM I. Prerequisites are linear algebra, complex numbers, vector spaces, and inner product spaces -- all formal-systems prerequisites. This IS formal-systems. (3) canonical-commutation-relations-quantum-mechanics -- [x,p]=ih-bar is covered in every QM I course as a foundational postulate. It is the starting point for uncertainty relations and the harmonic oscillator. Keeping at formal-systems is correct. (4) commutation-relations -- General commutation relations are introduced alongside operators in QM I. This is standard formal-systems content.",
+  "accepted_ids": [
+    "blackbody-radiation",
+    "compton-scattering-analysis",
+    "compton-scattering",
+    "compton-wavelength-shift",
+    "gamma-decay-emission",
+    "lorentz-transformation",
+    "mass-energy-equivalence-relativity",
+    "mass-energy-equivalence",
+    "nuclear-mass-binding-energy",
+    "photoelectric-effect",
+    "photon-absorption-emission",
+    "photon-concept-quanta",
+    "photon-model",
+    "photon-particle-properties",
+    "planck-einstein-relation",
+    "planck-quantization-hypothesis",
+    "special-relativity-postulates",
+    "wave-particle-duality-observations",
+    "wave-particle-duality",
+    "bell-inequalities",
+    "bell-theorem",
+    "exchange-symmetry",
+    "fermions-and-bosons",
+    "identical-particles-quantum",
+    "kets-and-bras",
+    "slater-determinant"
+  ],
+  "rejected_ids": [
+    "dirac-notation",
+    "hilbert-space-formalism",
+    "canonical-commutation-relations-quantum-mechanics",
+    "commutation-relations"
+  ]
+}

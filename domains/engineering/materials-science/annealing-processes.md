@@ -16,7 +16,7 @@ tags:
 - normalizing
 - recrystallization-temperature
 - process-anneal
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - realization
 - functionalism
 - AI
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - environment
 - epigenetics
 - individual-differences
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

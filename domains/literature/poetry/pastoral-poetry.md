@@ -17,7 +17,7 @@ tags:
 - idealization
 - nature
 - shepherd
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

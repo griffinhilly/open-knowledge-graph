@@ -15,7 +15,7 @@ tags:
 - comprehension
 - parsing
 - syntax
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

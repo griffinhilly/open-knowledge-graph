@@ -16,7 +16,7 @@ tags:
 - machine-consciousness
 - strong-AI
 - functional-consciousness
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -21,7 +21,7 @@ tags:
 - sustained comparison
 - symbolism
 - meaning
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

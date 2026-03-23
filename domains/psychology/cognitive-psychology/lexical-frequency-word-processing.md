@@ -13,7 +13,7 @@ tags:
 - lexical
 - word-recognition
 - frequency
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

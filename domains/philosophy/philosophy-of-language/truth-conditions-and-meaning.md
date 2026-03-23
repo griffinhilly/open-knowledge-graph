@@ -18,7 +18,7 @@ tags:
 - semantics
 - truth-conditions
 - meaning-theory
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Truth Conditions and Meaning

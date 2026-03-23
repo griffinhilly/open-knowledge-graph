@@ -18,7 +18,7 @@ tags:
 - decision-making
 - norms
 - bystander
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

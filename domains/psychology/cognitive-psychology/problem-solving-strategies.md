@@ -18,7 +18,7 @@ tags:
 - heuristics
 - algorithms
 - insight
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

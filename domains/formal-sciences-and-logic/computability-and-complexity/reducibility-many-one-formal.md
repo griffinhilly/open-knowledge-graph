@@ -15,7 +15,7 @@ tags:
 - reductions
 - decidability
 - undecidability
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

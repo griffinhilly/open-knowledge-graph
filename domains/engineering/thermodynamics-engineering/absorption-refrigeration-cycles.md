@@ -14,7 +14,7 @@ tags:
 - refrigeration
 - cop
 - heat-pump
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

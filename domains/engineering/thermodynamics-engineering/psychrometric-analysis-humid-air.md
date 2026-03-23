@@ -16,7 +16,7 @@ tags:
 - humid-air
 - properties
 - charts
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

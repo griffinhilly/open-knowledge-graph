@@ -15,7 +15,7 @@ tags:
 - social-mobility
 - occupational-structure
 - blau-duncan
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

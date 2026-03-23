@@ -15,7 +15,7 @@ tags:
 - rotation
 - quantum
 - energy-levels
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

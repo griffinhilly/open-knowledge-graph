@@ -18,7 +18,7 @@ tags:
 - distortion
 - subjectivity
 - 20th-century
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

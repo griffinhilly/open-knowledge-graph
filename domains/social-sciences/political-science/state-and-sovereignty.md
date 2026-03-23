@@ -17,7 +17,7 @@ tags:
 - sovereignty
 - Westphalia
 - monopoly on violence
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

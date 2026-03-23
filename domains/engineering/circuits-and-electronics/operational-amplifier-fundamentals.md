@@ -26,7 +26,7 @@ tags:
 - negative-feedback
 - inverting-amplifier
 - non-inverting-amplifier
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Operational Amplifier Fundamentals

@@ -14,7 +14,7 @@ tags:
 - functionalism
 - spectrum
 - thought-experiment
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

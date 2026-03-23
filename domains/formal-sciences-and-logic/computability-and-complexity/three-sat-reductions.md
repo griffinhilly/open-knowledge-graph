@@ -14,7 +14,7 @@ tags:
 - reductions
 - graph-problems
 - hardness-proofs
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

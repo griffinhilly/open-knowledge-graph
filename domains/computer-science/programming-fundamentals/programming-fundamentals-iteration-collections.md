@@ -12,7 +12,7 @@ tags:
 - loops
 - collections
 - iteration
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

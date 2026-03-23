@@ -16,7 +16,7 @@ tags:
 - networks
 - systems
 - analysis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

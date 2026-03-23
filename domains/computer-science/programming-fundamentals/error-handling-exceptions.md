@@ -21,7 +21,7 @@ tags:
 - raise
 - error handling
 - robustness
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Error Handling and Exceptions

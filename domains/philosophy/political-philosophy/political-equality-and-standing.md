@@ -16,7 +16,7 @@ tags:
 - political-standing
 - justice
 - democracy
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

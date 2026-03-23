@@ -21,7 +21,7 @@ tags:
 - visual
 - pattern
 - motif
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

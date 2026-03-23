@@ -12,7 +12,7 @@ tags:
 - bernoulli
 - ideal-flow
 - viscous-effects
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

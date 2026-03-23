@@ -16,7 +16,7 @@ tags:
 - reductions
 - hardness
 - complexity-classification
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

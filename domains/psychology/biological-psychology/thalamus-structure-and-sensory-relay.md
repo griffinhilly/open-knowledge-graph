@@ -15,7 +15,7 @@ tags:
 - sensory
 - relay
 - filtering
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

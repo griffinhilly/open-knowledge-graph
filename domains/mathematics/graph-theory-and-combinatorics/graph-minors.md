@@ -10,7 +10,7 @@ tags:
 - graph-theory
 - minors
 - structure
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

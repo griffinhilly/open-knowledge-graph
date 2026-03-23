@@ -16,7 +16,7 @@ tags:
 - virial
 - van-der-waals
 - cubic-eos
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

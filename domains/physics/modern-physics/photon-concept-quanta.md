@@ -14,7 +14,7 @@ tags:
 - quantum
 - photons
 - light
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

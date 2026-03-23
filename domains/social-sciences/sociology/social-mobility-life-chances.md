@@ -15,7 +15,7 @@ tags:
 - mobility
 - stratification
 - inequality
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

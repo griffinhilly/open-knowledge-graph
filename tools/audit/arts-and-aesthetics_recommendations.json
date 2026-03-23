@@ -1,0 +1,90 @@
+[
+ {
+  "id": "abstract-expressionism-america",
+  "course": "art-history",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Art movements are standard content in intro college art history surveys, not upper-division electives."
+ },
+ {
+  "id": "art-deco-and-modernism",
+  "course": "art-history",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Art movements are standard content in intro college art history surveys, not upper-division electives."
+ },
+ {
+  "id": "art-nouveau-design",
+  "course": "art-history",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Art movements are standard content in intro college art history surveys, not upper-division electives."
+ },
+ {
+  "id": "color-field-painting-minimalism",
+  "course": "art-history",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Art movements are standard content in intro college art history surveys, not upper-division electives."
+ },
+ {
+  "id": "cubism-and-analytic-abstraction",
+  "course": "art-history",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Art movements are standard content in intro college art history surveys, not upper-division electives."
+ },
+ {
+  "id": "expressionism-emotional-distortion",
+  "course": "art-history",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Art movements are standard content in intro college art history surveys, not upper-division electives."
+ },
+ {
+  "id": "fauvism-expressionism-color-and-emotional-intensity",
+  "course": "art-history",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Art movements are standard content in intro college art history surveys, not upper-division electives."
+ },
+ {
+  "id": "realism-and-social-observation",
+  "course": "art-history",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Art movements are standard content in intro college art history surveys, not upper-division electives."
+ },
+ {
+  "id": "romantic-sublime-landscape",
+  "course": "art-history",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Art movements are standard content in intro college art history surveys, not upper-division electives."
+ },
+ {
+  "id": "symbolism-movement",
+  "course": "art-history",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Art movements are standard content in intro college art history surveys, not upper-division electives."
+ },
+ {
+  "id": "twentieth-century-geometric-abstraction-and-reduction",
+  "course": "art-history",
+  "current": "advanced",
+  "recommended": "formal-systems",
+  "confidence": "high",
+  "rationale": "Art movements are standard content in intro college art history surveys, not upper-division electives."
+ }
+]

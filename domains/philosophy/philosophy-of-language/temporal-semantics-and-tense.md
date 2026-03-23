@@ -17,7 +17,7 @@ tags:
 - tense
 - aspect
 - semantics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Temporal Semantics and Linguistic Tense

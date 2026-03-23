@@ -17,7 +17,7 @@ tags:
 - global
 - namespace
 - encapsulation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

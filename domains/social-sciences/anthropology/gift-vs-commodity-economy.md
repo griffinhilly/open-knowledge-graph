@@ -16,7 +16,7 @@ tags:
 - exchange
 - reciprocity
 - market
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

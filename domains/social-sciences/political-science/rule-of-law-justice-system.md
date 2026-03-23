@@ -14,7 +14,7 @@ tags:
 - justice
 - equality-before-law
 - procedural-fairness
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

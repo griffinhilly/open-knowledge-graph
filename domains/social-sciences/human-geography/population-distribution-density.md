@@ -29,7 +29,7 @@ tags:
 - demography
 - ecumene
 - carrying capacity
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Population Distribution and Density

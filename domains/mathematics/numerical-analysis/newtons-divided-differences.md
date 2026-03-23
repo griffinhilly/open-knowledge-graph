@@ -12,7 +12,7 @@ tags:
 - divided-differences
 - newton-polynomial
 - efficiency
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

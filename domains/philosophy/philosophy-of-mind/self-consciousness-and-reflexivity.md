@@ -17,7 +17,7 @@ tags:
 - reflexivity
 - higher-order
 - identity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -1,0 +1,730 @@
+[
+  {
+    "id": "logic-programming-basics",
+    "course": "artificial-intelligence",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Introductory material is first-encounter formal-systems, not advanced (course: artificial-intelligence)."
+  },
+  {
+    "id": "neural-networks-intro",
+    "course": "artificial-intelligence",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Introductory material is first-encounter formal-systems, not advanced (course: artificial-intelligence)."
+  },
+  {
+    "id": "reinforcement-learning-intro",
+    "course": "artificial-intelligence",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Introductory material is first-encounter formal-systems, not advanced (course: artificial-intelligence)."
+  },
+  {
+    "id": "supervised-learning-intro",
+    "course": "artificial-intelligence",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Introductory material is first-encounter formal-systems, not advanced (course: artificial-intelligence)."
+  },
+  {
+    "id": "multilevel-cache-organization",
+    "course": "computer-architecture",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard CS undergrad required course (computer-architecture) should be formal-systems."
+  },
+  {
+    "id": "distributed-systems-introduction",
+    "course": "distributed-systems",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Introductory material is first-encounter formal-systems, not advanced (course: distributed-systems)."
+  },
+  {
+    "id": "exception-handling-os-internals",
+    "course": "operating-systems",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard CS undergrad required course (operating-systems) should be formal-systems."
+  },
+  {
+    "id": "page-fault-processing",
+    "course": "operating-systems",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard CS undergrad required course (operating-systems) should be formal-systems."
+  },
+  {
+    "id": "system-call-semantics",
+    "course": "operating-systems",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard CS undergrad required course (operating-systems) should be formal-systems."
+  },
+  {
+    "id": "working-set-model",
+    "course": "operating-systems",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard CS undergrad required course (operating-systems) should be formal-systems."
+  },
+  {
+    "id": "arrays-and-indexed-collections",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "basic-input-output",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "boolean-logic-programming",
+    "course": "programming-fundamentals",
+    "current": "formal-systems",
+    "recommended": "abstract-reasoning",
+    "confidence": "medium",
+    "rationale": "Topic covers basic syntax/I/O (course: programming-fundamentals)."
+  },
+  {
+    "id": "boolean-type-and-truth-values",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "call-stack-and-function-calls",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "character-and-string-basics",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "comparison-operators-and-boolean-tests",
+    "course": "programming-fundamentals",
+    "current": "formal-systems",
+    "recommended": "abstract-reasoning",
+    "confidence": "medium",
+    "rationale": "Topic covers basic syntax/I/O (course: programming-fundamentals)."
+  },
+  {
+    "id": "conditional-statements",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "conditional-statements-branching",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "debugging-finding-and-fixing-bugs",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "do-while-loops",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "else-if-chains",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "error-handling-exceptions",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "exception-basics-and-error-handling",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "expressions-and-evaluation",
+    "course": "programming-fundamentals",
+    "current": "formal-systems",
+    "recommended": "abstract-reasoning",
+    "confidence": "medium",
+    "rationale": "Topic covers basic syntax/I/O (course: programming-fundamentals)."
+  },
+  {
+    "id": "file-io-basics",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "for-loop-iteration",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "function-definition-and-calls",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "function-design-and-contracts",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "function-parameters-passing-data",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "functions-decomposing-problems",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "functions-defining-calling",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "hello-world-your-first-program",
+    "course": "programming-fundamentals",
+    "current": "formal-systems",
+    "recommended": "abstract-reasoning",
+    "confidence": "medium",
+    "rationale": "Topic covers basic syntax/I/O (course: programming-fundamentals)."
+  },
+  {
+    "id": "input-output-console-operations",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "integer-and-floating-point-types",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "intro-to-classes",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "introducing-objects-and-classes",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "logical-operators-and-boolean-algebra",
+    "course": "programming-fundamentals",
+    "current": "formal-systems",
+    "recommended": "abstract-reasoning",
+    "confidence": "medium",
+    "rationale": "Topic covers basic syntax/I/O (course: programming-fundamentals)."
+  },
+  {
+    "id": "loop-control-statements",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "managing-errors-with-exceptions",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "memory-and-data-storage",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "methods-and-attributes",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "methods-objects-and-messages",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "nested-loops",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "objects-and-instances",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "parameter-passing-value-vs-reference",
+    "course": "programming-fundamentals",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Course context (programming-fundamentals) suggests formal-systems, not advanced."
+  },
+  {
+    "id": "parameters-and-arguments",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "primitive-data-types",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "primitive-types-integers-floats-strings",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "program-structure-and-flow",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "programming-fundamentals-array-indexing",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "programming-fundamentals-arrays-and-lists",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "programming-fundamentals-console-io",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "programming-fundamentals-exceptions-intro",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "programming-fundamentals-file-io",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "programming-fundamentals-for-loops",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "programming-fundamentals-function-definition",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "programming-fundamentals-if-else-statements",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "programming-fundamentals-iteration-collections",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "programming-fundamentals-loop-control-statements",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "programming-fundamentals-loop-patterns",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "programming-fundamentals-parameters-arguments",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "programming-fundamentals-primitive-types",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "programming-fundamentals-return-values",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "programming-fundamentals-string-operations",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "programming-fundamentals-strings-introduction",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "programming-fundamentals-switch-case",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "programming-fundamentals-try-catch-finally",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "programming-fundamentals-type-conversion",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "programming-fundamentals-variable-scope",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "programming-fundamentals-while-loops",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "recursion-and-recursive-calls",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "return-values",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "return-values-and-function-returns",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "return-values-and-results",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "scope-shadowing-and-lifetime",
+    "course": "programming-fundamentals",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Course context (programming-fundamentals) suggests formal-systems, not advanced."
+  },
+  {
+    "id": "string-basics",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "string-operations",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "string-operations-and-methods",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "string-text-representation",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "strings-as-character-sequences",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "switch-statements",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "testing-and-validation-basics",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "type-conversion",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "type-system-basics",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "variable-declaration-syntax",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "variable-names-and-conventions",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "variable-scope",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "variable-scope-and-binding",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "while-loop-iteration",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  },
+  {
+    "id": "working-with-numbers-integers-floats",
+    "course": "programming-fundamentals",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "medium",
+    "rationale": "Topic covers formal CS concepts beyond basic syntax (course: programming-fundamentals)."
+  }
+]

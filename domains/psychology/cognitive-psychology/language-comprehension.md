@@ -17,7 +17,7 @@ tags:
 - comprehension
 - parsing
 - psycholinguistics
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

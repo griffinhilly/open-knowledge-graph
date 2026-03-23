@@ -16,7 +16,7 @@ tags:
 - constitutional
 - interpretation
 - courts
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Judicial Review and Constitutional Interpretation

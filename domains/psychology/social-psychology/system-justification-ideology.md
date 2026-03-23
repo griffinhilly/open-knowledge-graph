@@ -18,7 +18,7 @@ tags:
 - ideology
 - status quo
 - motivated reasoning
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

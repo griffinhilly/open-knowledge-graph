@@ -16,7 +16,7 @@ tags:
 - tragic-choice
 - moral-residue
 - conflicts-of-duty
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

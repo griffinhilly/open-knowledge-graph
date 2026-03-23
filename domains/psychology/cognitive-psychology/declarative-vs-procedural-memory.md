@@ -15,7 +15,7 @@ tags:
 - declarative
 - procedural
 - systems
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

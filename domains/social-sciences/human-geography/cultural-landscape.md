@@ -20,7 +20,7 @@ tags:
 - built environment
 - landscape
 - symbolic landscape
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Cultural Landscape

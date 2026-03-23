@@ -16,7 +16,7 @@ tags:
 - short-story
 - compression
 - effect
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

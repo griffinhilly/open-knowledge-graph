@@ -17,7 +17,7 @@ tags:
 - self-regulation
 - monitoring
 - control
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Metacognition and Self-Regulated Thinking

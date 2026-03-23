@@ -16,7 +16,7 @@ tags:
 - graph-problems
 - np-complete
 - optimization
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

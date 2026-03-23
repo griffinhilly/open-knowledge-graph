@@ -14,7 +14,7 @@ tags:
 - group-knowledge
 - iteration
 - common-ground
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

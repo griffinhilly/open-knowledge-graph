@@ -14,7 +14,7 @@ tags:
 - consensus
 - social-perception
 - heuristics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

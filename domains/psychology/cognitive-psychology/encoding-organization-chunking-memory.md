@@ -15,7 +15,7 @@ tags:
 - encoding
 - organization
 - chunking
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

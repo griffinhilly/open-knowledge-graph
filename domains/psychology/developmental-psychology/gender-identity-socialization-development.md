@@ -15,7 +15,7 @@ tags:
 - socialization
 - gender-roles
 - gender-stereotypes
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

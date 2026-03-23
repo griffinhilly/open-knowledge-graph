@@ -15,7 +15,7 @@ tags:
 - measure-theory
 - sigma-algebras
 - foundations
-stage: formal-systems
+stage: expert
 status: draft
 ---
 

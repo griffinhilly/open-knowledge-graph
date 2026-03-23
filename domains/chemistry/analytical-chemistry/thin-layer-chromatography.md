@@ -16,7 +16,7 @@ tags:
 - silica gel
 - normal phase
 - visualization
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

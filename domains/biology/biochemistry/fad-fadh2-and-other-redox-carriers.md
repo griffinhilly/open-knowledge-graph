@@ -17,7 +17,7 @@ tags:
 - FADH2
 - cofactors
 - redox
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

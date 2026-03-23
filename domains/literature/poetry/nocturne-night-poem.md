@@ -16,7 +16,7 @@ tags:
 - introspection
 - mystery
 - moon
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Nocturne: The Night Poem

@@ -15,7 +15,7 @@ tags:
 - hermeneutical-injustice
 - credibility
 - identity-prejudice
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Epistemic Injustice

@@ -18,7 +18,7 @@ tags:
 - possible-worlds
 - transworld
 - essentialism
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Transworld Identity and Identity Across Possible Worlds

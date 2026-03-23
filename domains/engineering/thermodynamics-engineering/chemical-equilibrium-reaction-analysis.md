@@ -16,7 +16,7 @@ tags:
 - gibbs-free-energy
 - reaction
 - composition
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

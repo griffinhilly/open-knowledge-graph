@@ -1,0 +1,242 @@
+[
+  {
+    "id": "blackbody-radiation",
+    "course": "modern-physics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro-level modern physics covered in standard undergrad courses"
+  },
+  {
+    "id": "compton-scattering-analysis",
+    "course": "modern-physics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro-level modern physics covered in standard undergrad courses"
+  },
+  {
+    "id": "compton-scattering",
+    "course": "modern-physics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro-level modern physics covered in standard undergrad courses"
+  },
+  {
+    "id": "compton-wavelength-shift",
+    "course": "modern-physics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro-level modern physics covered in standard undergrad courses"
+  },
+  {
+    "id": "gamma-decay-emission",
+    "course": "modern-physics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro-level nuclear physics covered in standard undergrad courses"
+  },
+  {
+    "id": "lorentz-transformation",
+    "course": "modern-physics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Special relativity foundations in standard undergrad physics"
+  },
+  {
+    "id": "mass-energy-equivalence-relativity",
+    "course": "modern-physics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental special relativity in standard undergrad physics"
+  },
+  {
+    "id": "mass-energy-equivalence",
+    "course": "modern-physics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental special relativity in standard undergrad physics"
+  },
+  {
+    "id": "nuclear-mass-binding-energy",
+    "course": "modern-physics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental nuclear physics in standard undergrad courses"
+  },
+  {
+    "id": "photoelectric-effect",
+    "course": "modern-physics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Canonical intro-level modern physics topic"
+  },
+  {
+    "id": "photon-absorption-emission",
+    "course": "modern-physics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard topic in intro modern physics courses"
+  },
+  {
+    "id": "photon-concept-quanta",
+    "course": "modern-physics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental photon concept in intro modern physics"
+  },
+  {
+    "id": "photon-model",
+    "course": "modern-physics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental photon concept in intro modern physics"
+  },
+  {
+    "id": "photon-particle-properties",
+    "course": "modern-physics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental photon properties in intro modern physics"
+  },
+  {
+    "id": "planck-einstein-relation",
+    "course": "modern-physics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental relationship in intro modern physics"
+  },
+  {
+    "id": "planck-quantization-hypothesis",
+    "course": "modern-physics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Foundational concept in intro modern physics"
+  },
+  {
+    "id": "special-relativity-postulates",
+    "course": "modern-physics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Special relativity fundamentals in standard undergrad physics"
+  },
+  {
+    "id": "wave-particle-duality-observations",
+    "course": "modern-physics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental concept covered in intro modern physics"
+  },
+  {
+    "id": "wave-particle-duality",
+    "course": "modern-physics",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Fundamental concept covered in intro modern physics"
+  },
+  {
+    "id": "bell-inequalities",
+    "course": "quantum-mechanics",
+    "current": "formal-systems",
+    "recommended": "advanced",
+    "confidence": "high",
+    "rationale": "Advanced quantum foundations requiring substantial QM background"
+  },
+  {
+    "id": "bell-theorem",
+    "course": "quantum-mechanics",
+    "current": "formal-systems",
+    "recommended": "advanced",
+    "confidence": "high",
+    "rationale": "Advanced quantum foundations requiring substantial QM background"
+  },
+  {
+    "id": "canonical-commutation-relations-quantum-mechanics",
+    "course": "quantum-mechanics",
+    "current": "formal-systems",
+    "recommended": "advanced",
+    "confidence": "high",
+    "rationale": "Formal QM mathematical structure in upper-division courses"
+  },
+  {
+    "id": "commutation-relations",
+    "course": "quantum-mechanics",
+    "current": "formal-systems",
+    "recommended": "advanced",
+    "confidence": "high",
+    "rationale": "Formal QM mathematical structure in upper-division courses"
+  },
+  {
+    "id": "dirac-notation",
+    "course": "quantum-mechanics",
+    "current": "formal-systems",
+    "recommended": "advanced",
+    "confidence": "high",
+    "rationale": "Formal QM notation introduced in upper-division quantum courses"
+  },
+  {
+    "id": "exchange-symmetry",
+    "course": "quantum-mechanics",
+    "current": "formal-systems",
+    "recommended": "advanced",
+    "confidence": "high",
+    "rationale": "Advanced many-body quantum mechanics in upper-division courses"
+  },
+  {
+    "id": "fermions-and-bosons",
+    "course": "quantum-mechanics",
+    "current": "formal-systems",
+    "recommended": "advanced",
+    "confidence": "high",
+    "rationale": "Advanced quantum statistics in upper-division courses"
+  },
+  {
+    "id": "hilbert-space-formalism",
+    "course": "quantum-mechanics",
+    "current": "formal-systems",
+    "recommended": "advanced",
+    "confidence": "high",
+    "rationale": "Formal mathematical structure in upper-division quantum courses"
+  },
+  {
+    "id": "identical-particles-quantum",
+    "course": "quantum-mechanics",
+    "current": "formal-systems",
+    "recommended": "advanced",
+    "confidence": "high",
+    "rationale": "Advanced many-body quantum mechanics in upper-division courses"
+  },
+  {
+    "id": "kets-and-bras",
+    "course": "quantum-mechanics",
+    "current": "formal-systems",
+    "recommended": "advanced",
+    "confidence": "high",
+    "rationale": "Formal QM notation in upper-division quantum courses"
+  },
+  {
+    "id": "slater-determinant",
+    "course": "quantum-mechanics",
+    "current": "formal-systems",
+    "recommended": "advanced",
+    "confidence": "high",
+    "rationale": "Advanced many-body quantum mechanics in upper-division courses"
+  }
+]

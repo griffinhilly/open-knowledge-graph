@@ -13,7 +13,7 @@ tags:
 - behavior
 - childhood
 - social development
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

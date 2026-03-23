@@ -15,7 +15,7 @@ tags:
 - Taylor
 - cultural-accommodation
 - recognition
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

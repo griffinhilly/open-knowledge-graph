@@ -14,7 +14,7 @@ tags:
 - social-control
 - amplification
 - cohen
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -20,7 +20,7 @@ tags:
 - character-voice
 - technique
 - modernism
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Free Indirect Discourse: Blending Voices

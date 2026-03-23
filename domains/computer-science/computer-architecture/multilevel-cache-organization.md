@@ -14,7 +14,7 @@ tags:
 - cache-hierarchy
 - l1-l2-l3
 - memory-hierarchy
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

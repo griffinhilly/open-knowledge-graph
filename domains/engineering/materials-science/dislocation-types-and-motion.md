@@ -19,7 +19,7 @@ tags:
 - burgers-vector
 - dislocation-glide
 - dislocation-climb
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

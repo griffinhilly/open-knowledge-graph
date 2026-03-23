@@ -15,7 +15,7 @@ tags:
 - cities
 - power
 - global
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

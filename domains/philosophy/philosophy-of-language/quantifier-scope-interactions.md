@@ -18,7 +18,7 @@ tags:
 - quantification
 - scope
 - logical-form
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

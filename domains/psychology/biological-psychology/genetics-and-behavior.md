@@ -24,7 +24,7 @@ tags:
 - gene-environment
 - behavioral-genetics
 - polygenic
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

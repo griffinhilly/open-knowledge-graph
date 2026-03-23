@@ -15,7 +15,7 @@ tags:
 - mixtures
 - enthalpy
 - entropy
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -1,0 +1,378 @@
+[
+  {
+    "id": "balance-of-payments",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "capital-flows-equilibrium",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "central-banking-and-the-fed",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "circular-flow-model",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "consumption-function-keynesian",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "cpi-and-inflation-measurement",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "current-account-and-external-balance",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "current-account-definition-measurement",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "demand-for-money-keynes",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "exchange-rate-purchasing-power-parity",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "exchange-rates-macroeconomics",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "gdp-and-national-income",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "gdp-components",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "government-budget-and-debt",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "inflation-and-price-level",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "interest-rates-and-loanable-funds",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "investment-function-accelerator",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "liquidity-preference-theory-keynes",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "loanable-funds-equilibrium",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "marginal-propensity-to-consume-mpc",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "marginal-propensity-to-save-mps",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "monetary-base-and-money-creation",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "monetary-base-money-supply-relationship",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "money-and-its-functions",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "money-demand-motives",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "money-multiplier-dynamics",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "money-supply-and-money-creation",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "nominal-and-real-macroeconomic-variables",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "okun-law",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "okuns-law-output-unemployment",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "price-level-measurement-indices",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "purchasing-power-parity-exchange",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "real-interest-rate-and-fisher-equation",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "real-vs-nominal-gdp",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "savings-investment-accounting-identity",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "savings-investment-identity",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "trade-balance-national-accounts",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "types-of-unemployment",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "unemployment-measurement",
+    "course": "macroeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "comparative-advantage-and-trade",
+    "course": "microeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "comparative-advantage-gains",
+    "course": "microeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "market-clearing-equilibrium-price",
+    "course": "microeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "opportunity-cost-concept",
+    "course": "microeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "production-possibilities-frontier",
+    "course": "microeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "scarcity-and-opportunity-cost",
+    "course": "microeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "scarcity-choice-production-tradeoff",
+    "course": "microeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  },
+  {
+    "id": "supply-and-demand-basics",
+    "course": "microeconomics",
+    "current": "abstract-reasoning",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Intro macro/micro is standard HS AP/IB and intro college course material."
+  }
+]

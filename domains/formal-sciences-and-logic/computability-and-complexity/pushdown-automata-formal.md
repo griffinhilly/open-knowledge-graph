@@ -13,7 +13,7 @@ tags:
 - automata
 - context-free-languages
 - stack
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

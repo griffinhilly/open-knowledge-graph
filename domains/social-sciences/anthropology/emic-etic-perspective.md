@@ -14,7 +14,7 @@ tags:
 - emic
 - etic
 - analysis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

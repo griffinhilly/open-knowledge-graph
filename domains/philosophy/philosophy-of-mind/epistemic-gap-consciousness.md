@@ -16,7 +16,7 @@ tags:
 - consciousness
 - explanation
 - knowledge-gap
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

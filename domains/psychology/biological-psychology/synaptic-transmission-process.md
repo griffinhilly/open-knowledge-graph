@@ -17,7 +17,7 @@ tags:
 - vesicles
 - exocytosis
 - presynaptic
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

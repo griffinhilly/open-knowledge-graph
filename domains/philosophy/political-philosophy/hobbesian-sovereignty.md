@@ -14,7 +14,7 @@ tags:
 - sovereignty
 - absolute-authority
 - Leviathan
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

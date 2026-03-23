@@ -17,7 +17,7 @@ tags:
 - intergroup bias
 - ultimate attribution error
 - stereotypes
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

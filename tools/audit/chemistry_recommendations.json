@@ -1,0 +1,650 @@
+[
+  {
+    "id": "accuracy-precision-error",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "acid-base-titration",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "acid-base-titration-quantitative-analysis",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "analytical-chemistry-intro",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "analytical-standard-operating-procedures",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "atomic-absorption-spectroscopy",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "atomic-absorption-spectroscopy-quantitative",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "atomic-emission-spectroscopy-icp-oes",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "atomic-spectroscopy-analysis",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "beers-law",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "calibration-curve-methods",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "chromatography-fundamentals",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "complexometric-titration",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "complexometric-titration-edta-methods",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "conductometric-titration-and-analysis",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "conductometry",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "coulometric-titration",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "fluorescence-spectroscopy",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "fluorescence-spectroscopy-analysis",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "fluorescence-spectroscopy-quantitative-analysis",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "gas-chromatography",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "gas-chromatography-mass-spectrometry-gc-ms",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "gas-chromatography-method-development",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "gas-chromatography-quantitative-analysis",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "gravimetric-analysis",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "gravimetric-analysis-advanced",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "high-performance-liquid-chromatography-quantitative",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "hplc",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "infrared-spectroscopy-quantitative-analysis",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "ion-chromatography-analysis",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "ir-spectroscopy-analytical",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "limit-of-detection-loq",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "liquid-chromatography-mass-spectrometry-lc-ms",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "liquid-chromatography-method-development",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "molecular-spectroscopy-structure-determination",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "nmr-spectroscopy-analytical",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "nuclear-magnetic-resonance-quantitative",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "potentiometry",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "potentiometry-ph-and-ion-measurement",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "precipitation-titration",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "precipitation-titration-argentometry",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "quantitative-analysis-sample-preparation",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "raman-spectroscopy-analytical-methods",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "redox-titration",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "redox-titration-quantitative-analysis",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "sample-preparation",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "separation-science-fundamentals",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "statistical-methods-analytical",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "thin-layer-chromatography",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "titrimetric-analysis-intro",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "ultraviolet-visible-spectroscopy-quantitative",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "uncertainty-propagation",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "uv-vis-spectroscopy-analytical",
+    "course": "analytical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard analytical chemistry technique taught in required 300-level lab course."
+  },
+  {
+    "id": "adsorption-isotherms-kinetics",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "adsorption-thermodynamics-entropy",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "arrhenius-equation-temperature-dependence",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "arrhenius-rate-constants-temperature",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "born-haber-thermochemistry",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "diffusion-and-ficks-laws",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "diffusion-coefficients-molecular-kinetics",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "electrochemistry-nernst-equation",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "gibbs-energy-molecular-basis",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "intermolecular-lennard-jones-potential",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "intermolecular-potential-energy-functions",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "intermolecular-potential-models",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "kinetic-molecular-distribution-speeds",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "langmuir-adsorption-model",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "molecular-spectroscopy-selection-rules",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "osmotic-pressure-van-t-hoff",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "phase-diagrams-clausius-clapeyron",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "raman-spectroscopy-theory",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "rotational-spectroscopy",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "rotational-spectroscopy-quantum-theory",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "selection-rules-electronic-spectroscopy",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "selection-rules-spectroscopy",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "van-der-waals-equation-of-state-advanced",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "van-t-hoff-equation",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "vibrational-energy-levels-selection-rules",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "vibrational-frequency-force-constant",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "vibrational-modes-and-symmetry",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  },
+  {
+    "id": "vibrational-spectroscopy-theory",
+    "course": "physical-chemistry",
+    "current": "advanced",
+    "recommended": "formal-systems",
+    "confidence": "high",
+    "rationale": "Standard physical chemistry topic taught at introductory 300-level (thermodynamics, kinetics, spectroscopy basics)."
+  }
+]

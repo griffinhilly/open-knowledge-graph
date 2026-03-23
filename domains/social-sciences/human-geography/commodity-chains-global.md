@@ -11,7 +11,7 @@ tags:
 - global-chains
 - connections
 - exploitation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

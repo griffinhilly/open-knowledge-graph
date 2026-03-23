@@ -17,7 +17,7 @@ tags:
 - graphs
 - sorting
 - tally
-stage: concrete-operations
+stage: pre-formal
 status: validated
 ---
 # Organizing and Representing Data

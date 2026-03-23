@@ -18,7 +18,7 @@ tags:
 - sense of place
 - scale
 - spatial
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

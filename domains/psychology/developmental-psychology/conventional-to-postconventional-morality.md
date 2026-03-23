@@ -13,7 +13,7 @@ tags:
 - kohlberg
 - postconventional
 - adolescence
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

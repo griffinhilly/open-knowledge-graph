@@ -18,7 +18,7 @@ tags:
 - perspective
 - narration
 - technical
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

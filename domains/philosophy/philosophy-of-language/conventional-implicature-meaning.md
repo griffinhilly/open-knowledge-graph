@@ -14,7 +14,7 @@ tags:
 - implicature
 - non-truth-conditional
 - meaning
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

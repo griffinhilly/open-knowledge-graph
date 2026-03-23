@@ -15,7 +15,7 @@ tags:
 - social-structure
 - primary-groups
 - secondary-groups
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - legitimacy
 - self-governance
 - authority
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

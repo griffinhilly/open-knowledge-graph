@@ -12,7 +12,7 @@ tags:
 - grain-boundaries
 - interfaces
 - polycrystalline
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

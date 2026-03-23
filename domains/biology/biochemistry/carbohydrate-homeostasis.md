@@ -17,7 +17,7 @@ tags:
 - glucose-regulation
 - hormones
 - metabolic-integration
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

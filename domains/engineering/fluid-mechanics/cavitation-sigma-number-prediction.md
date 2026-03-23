@@ -14,7 +14,7 @@ tags:
 - cavitation
 - sigma-number
 - npsh
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

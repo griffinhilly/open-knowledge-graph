@@ -16,7 +16,7 @@ tags:
 - vapor-compression
 - cooling
 - cop
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Vapor-Compression Refrigeration Cycles

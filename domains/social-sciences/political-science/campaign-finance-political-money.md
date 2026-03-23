@@ -16,7 +16,7 @@ tags:
 - money
 - corruption
 - inequality
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

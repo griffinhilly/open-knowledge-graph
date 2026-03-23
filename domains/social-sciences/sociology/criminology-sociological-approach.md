@@ -17,7 +17,7 @@ tags:
 - deviance-sociology
 - social-control
 - structural-causes
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - executive
 - legislative
 - judicial
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

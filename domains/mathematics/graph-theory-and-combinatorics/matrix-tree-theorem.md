@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - algebraic-graph-theory
 - counting
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

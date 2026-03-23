@@ -19,7 +19,7 @@ tags:
 - moiety
 - residence rules
 - corporate groups
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

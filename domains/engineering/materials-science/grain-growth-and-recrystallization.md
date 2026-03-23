@@ -17,7 +17,7 @@ tags:
 - avrami-equation
 - normal-grain-growth
 - abnormal-grain-growth
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

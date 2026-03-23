@@ -17,7 +17,7 @@ tags:
 - juxtaposition
 - compression
 - truth
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - pain
 - proprioception
 - nociception
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

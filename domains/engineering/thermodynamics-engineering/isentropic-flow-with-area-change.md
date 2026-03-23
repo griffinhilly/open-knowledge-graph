@@ -15,7 +15,7 @@ tags:
 - area-change
 - mach-number
 - nozzles
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

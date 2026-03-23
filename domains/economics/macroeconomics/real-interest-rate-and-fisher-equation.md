@@ -15,7 +15,7 @@ tags:
 - interest-rates
 - inflation
 - expectations
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

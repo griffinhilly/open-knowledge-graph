@@ -15,7 +15,7 @@ tags:
 - Fajans method
 - Ksp
 - halide
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

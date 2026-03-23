@@ -16,7 +16,7 @@ tags:
 - schemas
 - circular reactions
 - cognitive development
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

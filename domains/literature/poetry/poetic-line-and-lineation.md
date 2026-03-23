@@ -16,7 +16,7 @@ tags:
 - lineation
 - unit of meaning
 - white space
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

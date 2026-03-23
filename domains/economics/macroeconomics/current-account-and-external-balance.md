@@ -14,7 +14,7 @@ tags:
 - international
 - trade
 - balance-of-payments
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

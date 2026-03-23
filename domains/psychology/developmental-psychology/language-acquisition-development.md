@@ -22,7 +22,7 @@ tags:
 - babbling
 - vocabulary explosion
 - grammar
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

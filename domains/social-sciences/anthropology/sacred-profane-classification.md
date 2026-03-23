@@ -17,7 +17,7 @@ tags:
 - classification
 - ritual
 - religion
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - recursively-enumerable
 - halting
 - verification
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

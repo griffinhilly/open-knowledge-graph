@@ -18,7 +18,7 @@ tags:
 - first-person
 - authority
 - access
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

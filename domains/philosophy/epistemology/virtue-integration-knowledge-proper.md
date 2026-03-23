@@ -13,7 +13,7 @@ tags:
 - character
 - intellectual-virtues
 - knowledge
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

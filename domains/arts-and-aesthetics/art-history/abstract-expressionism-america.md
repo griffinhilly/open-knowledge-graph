@@ -19,7 +19,7 @@ tags:
 - action-painting
 - american
 - postwar
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

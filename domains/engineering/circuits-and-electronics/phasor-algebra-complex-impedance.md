@@ -19,7 +19,7 @@ tags:
 - phasors
 - impedance
 - ac-analysis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

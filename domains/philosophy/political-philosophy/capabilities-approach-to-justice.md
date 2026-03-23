@@ -14,7 +14,7 @@ tags:
 - capabilities
 - justice
 - freedom
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

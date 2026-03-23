@@ -17,7 +17,7 @@ tags:
 - geometry
 - design
 - streamline
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

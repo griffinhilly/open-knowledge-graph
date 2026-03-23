@@ -16,7 +16,7 @@ tags:
 - symbol
 - interpretation
 - meaning
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

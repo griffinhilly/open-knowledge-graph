@@ -22,7 +22,7 @@ tags:
 - justification
 - BonJour
 - Goldman
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Internalism and Externalism About Justification

@@ -21,7 +21,7 @@ tags:
 - discrimination
 - racism
 - intergroup
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Prejudice and Discrimination

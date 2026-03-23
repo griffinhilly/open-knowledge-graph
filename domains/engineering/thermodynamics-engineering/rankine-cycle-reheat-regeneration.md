@@ -11,7 +11,7 @@ tags:
 - reheat
 - regeneration
 - power-plants
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

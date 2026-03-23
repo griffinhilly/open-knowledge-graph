@@ -14,7 +14,7 @@ tags:
 - direct-democracy
 - representation
 - deliberation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -21,7 +21,7 @@ tags:
 - slicing
 - methods
 - formatting
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # String Operations and Methods

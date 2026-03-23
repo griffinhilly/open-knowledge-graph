@@ -17,7 +17,7 @@ tags:
 - social-influence
 - norms
 - group-behavior
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

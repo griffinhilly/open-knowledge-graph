@@ -11,7 +11,7 @@ tags:
 - fundamentals
 - memory
 - storage
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

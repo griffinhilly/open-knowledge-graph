@@ -14,7 +14,7 @@ tags:
 - prestige
 - esteem
 - weber
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

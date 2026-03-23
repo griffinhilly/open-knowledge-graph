@@ -16,7 +16,7 @@ tags:
 - imports
 - gdp
 - national-accounts
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

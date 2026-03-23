@@ -14,7 +14,7 @@ tags:
 - exchange-rates
 - international
 - ppp
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 # Exchange Rates and Purchasing Power Parity

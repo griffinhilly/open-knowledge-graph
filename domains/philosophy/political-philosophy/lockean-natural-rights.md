@@ -19,7 +19,7 @@ tags:
 - property
 - limited-government
 - consent
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

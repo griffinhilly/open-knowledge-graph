@@ -13,7 +13,7 @@ tags:
 - rational-stability
 - higher-order
 - synchronic
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

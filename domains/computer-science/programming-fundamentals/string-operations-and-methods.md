@@ -12,7 +12,7 @@ tags:
 - strings
 - operations
 - methods
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

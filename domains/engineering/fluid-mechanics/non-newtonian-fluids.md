@@ -14,7 +14,7 @@ tags:
 - viscoelastic
 - rheology
 - power-law fluid
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Non-Newtonian Fluids

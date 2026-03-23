@@ -16,7 +16,7 @@ tags:
 - agency
 - macro-micro
 - foundational
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Social Structure and Agency

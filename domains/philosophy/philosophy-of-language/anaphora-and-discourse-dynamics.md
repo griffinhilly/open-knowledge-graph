@@ -16,7 +16,7 @@ tags:
 - anaphora
 - pronouns
 - context
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

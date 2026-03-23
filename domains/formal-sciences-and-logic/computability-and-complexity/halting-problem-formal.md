@@ -26,7 +26,7 @@ tags:
 - undecidability
 - diagonalization
 - computability
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

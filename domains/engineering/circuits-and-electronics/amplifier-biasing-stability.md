@@ -18,7 +18,7 @@ tags:
 - beta-sensitivity
 - stability-factor
 - bias-design
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

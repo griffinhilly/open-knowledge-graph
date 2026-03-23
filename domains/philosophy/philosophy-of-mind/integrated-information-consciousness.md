@@ -18,7 +18,7 @@ tags:
 - neuroscience
 - mechanism
 - integration
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Integrated Information Theory of Consciousness

@@ -15,7 +15,7 @@ tags:
 - limits
 - multivariable
 - epsilon-delta
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

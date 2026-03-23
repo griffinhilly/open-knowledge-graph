@@ -17,7 +17,7 @@ tags:
 - meaning
 - dream
 - psychological
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

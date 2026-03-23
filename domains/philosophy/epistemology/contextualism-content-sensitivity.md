@@ -15,7 +15,7 @@ tags:
 - content
 - context-sensitivity
 - knowledge
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

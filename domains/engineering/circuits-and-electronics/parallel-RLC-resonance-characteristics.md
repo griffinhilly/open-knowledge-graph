@@ -12,7 +12,7 @@ tags:
 - parallel-resonance
 - current-magnification
 - impedance-maximum
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

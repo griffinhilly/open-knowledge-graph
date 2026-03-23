@@ -15,7 +15,7 @@ tags:
 - diffusion
 - atomic-transport
 - kinetics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

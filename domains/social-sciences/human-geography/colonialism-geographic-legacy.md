@@ -26,7 +26,7 @@ tags:
 - borders
 - development legacy
 - extractivism
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Colonialism and Its Geographic Legacy

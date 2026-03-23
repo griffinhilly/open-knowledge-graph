@@ -18,7 +18,7 @@ tags:
 - price-level
 - deflator
 - inflation-adjustment
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

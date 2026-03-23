@@ -15,7 +15,7 @@ tags:
 - elastic-deformation
 - youngs-modulus
 - stiffness
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

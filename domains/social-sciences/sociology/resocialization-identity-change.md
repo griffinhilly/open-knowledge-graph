@@ -14,7 +14,7 @@ tags:
 - socialization
 - identity
 - adult-development
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

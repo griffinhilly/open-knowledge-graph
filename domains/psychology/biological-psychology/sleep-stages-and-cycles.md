@@ -19,7 +19,7 @@ tags:
 - circadian
 - sleep-cycle
 - EEG
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

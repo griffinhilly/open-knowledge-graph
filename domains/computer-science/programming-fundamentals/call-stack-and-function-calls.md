@@ -12,7 +12,7 @@ tags:
 - functions
 - call-stack
 - execution
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

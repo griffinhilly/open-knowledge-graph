@@ -17,7 +17,7 @@ tags:
 - knowledge
 - skepticism
 - contextualism
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

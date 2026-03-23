@@ -13,7 +13,7 @@ tags:
 - AAS
 - ICP
 - elements
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

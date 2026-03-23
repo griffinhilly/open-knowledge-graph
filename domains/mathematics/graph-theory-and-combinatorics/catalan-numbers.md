@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - combinatorics
 - sequences
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -19,7 +19,7 @@ tags:
 - interpretation
 - dramatic irony
 - perspective
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Unreliable Narrator

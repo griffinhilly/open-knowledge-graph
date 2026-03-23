@@ -16,7 +16,7 @@ tags:
 - preferences
 - formation
 - change
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - refrain
 - structure
 - musicality
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

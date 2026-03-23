@@ -28,7 +28,7 @@ tags:
 - atomic-emission
 - multi-element
 - trace-analysis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

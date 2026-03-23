@@ -15,7 +15,7 @@ tags:
 - pyrimidine
 - de novo
 - salvage pathway
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

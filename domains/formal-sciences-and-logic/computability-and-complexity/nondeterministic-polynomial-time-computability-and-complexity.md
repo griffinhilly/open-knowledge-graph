@@ -15,7 +15,7 @@ tags:
 - NP
 - nondeterminism
 - complexity-classes
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

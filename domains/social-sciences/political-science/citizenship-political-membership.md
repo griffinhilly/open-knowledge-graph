@@ -16,7 +16,7 @@ tags:
 - membership
 - rights
 - belonging
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

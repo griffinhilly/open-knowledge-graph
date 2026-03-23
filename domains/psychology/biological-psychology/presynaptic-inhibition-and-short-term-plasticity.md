@@ -17,7 +17,7 @@ tags:
 - short-term-plasticity
 - facilitation
 - depression
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

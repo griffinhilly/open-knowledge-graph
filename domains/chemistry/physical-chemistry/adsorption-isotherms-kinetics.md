@@ -13,7 +13,7 @@ tags:
 - isotherms
 - kinetics
 - catalysis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

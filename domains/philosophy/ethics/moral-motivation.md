@@ -17,7 +17,7 @@ tags:
 - externalism
 - Humean-theory
 - moral-judgment
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

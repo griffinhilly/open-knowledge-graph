@@ -14,7 +14,7 @@ tags:
 - gain-loss
 - risk
 - salience
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

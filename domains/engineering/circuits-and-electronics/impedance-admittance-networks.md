@@ -17,7 +17,7 @@ tags:
 - impedance
 - admittance
 - ac-networks
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

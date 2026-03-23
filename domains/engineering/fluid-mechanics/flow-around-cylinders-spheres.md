@@ -16,7 +16,7 @@ tags:
 - flow separation
 - wake
 - von Karman vortex street
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Flow Around Cylinders and Spheres

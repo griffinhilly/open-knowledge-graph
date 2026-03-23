@@ -13,7 +13,7 @@ tags:
 - variables
 - declaration
 - syntax
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

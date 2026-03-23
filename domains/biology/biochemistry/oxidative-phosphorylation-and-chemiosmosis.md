@@ -23,7 +23,7 @@ tags:
 - electron transport chain
 - chemiosmotic hypothesis
 - proton gradient
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

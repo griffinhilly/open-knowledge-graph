@@ -15,7 +15,7 @@ tags:
 - attitudes
 - behavior-attitude-inference
 - internal-external-cues
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

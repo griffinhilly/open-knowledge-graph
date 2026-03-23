@@ -14,7 +14,7 @@ tags:
 - attention
 - spatial-suppression
 - memory
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

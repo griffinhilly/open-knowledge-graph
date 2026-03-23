@@ -17,7 +17,7 @@ tags:
 - reheat
 - expansion-ratio
 - power-output
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

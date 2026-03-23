@@ -16,7 +16,7 @@ tags:
 - two-principles
 - equal-liberty
 - difference-principle
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

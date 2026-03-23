@@ -16,7 +16,7 @@ tags:
 - ingroup-bias
 - intergroup-dynamics
 - group-formation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - dementia
 - working memory
 - processing speed
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

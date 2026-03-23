@@ -18,7 +18,7 @@ tags:
 - volta
 - form
 - logic
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - novel
 - structure
 - scope
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

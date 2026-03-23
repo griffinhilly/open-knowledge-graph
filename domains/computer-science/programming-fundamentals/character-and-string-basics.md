@@ -13,7 +13,7 @@ tags:
 - strings
 - text
 - characters
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

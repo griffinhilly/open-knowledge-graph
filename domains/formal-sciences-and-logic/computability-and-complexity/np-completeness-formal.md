@@ -32,7 +32,7 @@ tags:
 - NP-complete
 - hardness
 - intractability
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

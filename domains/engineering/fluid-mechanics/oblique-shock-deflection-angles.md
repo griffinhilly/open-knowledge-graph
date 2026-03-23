@@ -10,7 +10,7 @@ tags:
 - shocks
 - deflection
 - supersonic
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

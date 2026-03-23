@@ -14,7 +14,7 @@ tags:
 - exchange-rates
 - parity
 - international
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

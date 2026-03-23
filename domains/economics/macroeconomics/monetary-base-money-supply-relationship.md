@@ -15,7 +15,7 @@ tags:
 - money-supply
 - money-multiplier
 - central-bank-control
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

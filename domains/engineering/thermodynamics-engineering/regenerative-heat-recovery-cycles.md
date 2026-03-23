@@ -15,7 +15,7 @@ tags:
 - heat-recovery
 - feedwater-heating
 - efficiency-improvement
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

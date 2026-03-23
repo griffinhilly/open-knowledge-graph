@@ -14,7 +14,7 @@ tags:
 - Lukes
 - structural-power
 - oppression
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

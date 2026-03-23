@@ -14,7 +14,7 @@ tags:
 - prime-minister
 - administration
 - government-formation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

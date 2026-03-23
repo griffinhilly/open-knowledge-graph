@@ -15,7 +15,7 @@ tags:
 - parasympathetic
 - autonomic
 - homeostasis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

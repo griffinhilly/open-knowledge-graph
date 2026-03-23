@@ -16,7 +16,7 @@ tags:
 - general-will
 - democracy
 - legitimacy
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

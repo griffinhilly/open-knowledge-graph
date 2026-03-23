@@ -18,7 +18,7 @@ tags:
 - social proof
 - informational influence
 - cascades
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

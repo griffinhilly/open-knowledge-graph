@@ -14,7 +14,7 @@ tags:
 - functionalism
 - computation
 - function
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

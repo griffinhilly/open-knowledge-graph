@@ -14,7 +14,7 @@ tags:
 - organizational-culture
 - identity
 - institutions
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

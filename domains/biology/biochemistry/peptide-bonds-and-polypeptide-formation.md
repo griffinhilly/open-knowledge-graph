@@ -22,7 +22,7 @@ tags:
 - condensation
 - nitrogen backbone
 - protein synthesis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

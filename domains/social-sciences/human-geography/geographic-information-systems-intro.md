@@ -31,7 +31,7 @@ tags:
 - map projections
 - choropleth
 - spatial analysis
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

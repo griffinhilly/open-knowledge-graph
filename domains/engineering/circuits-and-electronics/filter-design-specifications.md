@@ -13,7 +13,7 @@ prerequisites:
 tags:
 - filters
 - filter-design
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

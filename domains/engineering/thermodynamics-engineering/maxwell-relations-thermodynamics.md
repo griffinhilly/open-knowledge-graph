@@ -13,7 +13,7 @@ tags:
 - partial-derivatives
 - consistency
 - cross-derivatives
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

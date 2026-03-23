@@ -17,7 +17,7 @@ tags:
 - UV detection
 - retention time
 - C18
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

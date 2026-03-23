@@ -18,7 +18,7 @@ tags:
 - capital-account
 - trade-deficit
 - reserve
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

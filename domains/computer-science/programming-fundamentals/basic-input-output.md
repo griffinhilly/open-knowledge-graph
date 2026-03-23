@@ -21,7 +21,7 @@ tags:
 - input
 - console
 - user interaction
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Basic Input and Output

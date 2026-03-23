@@ -24,7 +24,7 @@ tags:
 - consent
 - state
 - justification
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Political Authority and Legitimacy

@@ -14,7 +14,7 @@ tags:
 - kinetics
 - temperature-dependence
 - activation-energy
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

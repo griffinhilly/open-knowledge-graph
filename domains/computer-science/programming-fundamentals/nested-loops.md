@@ -12,7 +12,7 @@ tags:
 - loops
 - nesting
 - iteration
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

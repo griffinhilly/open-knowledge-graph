@@ -21,7 +21,7 @@ tags:
 - civic participation
 - associational life
 - Tocqueville
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Civil Society and Political Participation

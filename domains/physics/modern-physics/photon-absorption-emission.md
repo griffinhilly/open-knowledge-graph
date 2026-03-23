@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - atomic-physics
 - spectroscopy
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

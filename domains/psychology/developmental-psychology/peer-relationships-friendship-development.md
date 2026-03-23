@@ -17,7 +17,7 @@ tags:
 - interaction
 - peer-play
 - social-competence
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

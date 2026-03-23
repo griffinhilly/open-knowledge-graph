@@ -16,7 +16,7 @@ tags:
 - halting
 - post-correspondence
 - context-free
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

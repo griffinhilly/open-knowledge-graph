@@ -16,7 +16,7 @@ tags:
 - consciousness
 - thought-experiment
 - epistemic-gap
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

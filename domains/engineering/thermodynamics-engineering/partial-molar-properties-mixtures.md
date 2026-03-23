@@ -16,7 +16,7 @@ tags:
 - solutions
 - mixtures
 - interactions
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

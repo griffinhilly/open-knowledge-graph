@@ -15,7 +15,7 @@ tags:
 - friction drag
 - streamlining
 - drag crisis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Drag Coefficient for Bluff Bodies

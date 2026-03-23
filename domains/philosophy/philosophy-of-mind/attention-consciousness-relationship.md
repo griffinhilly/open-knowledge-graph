@@ -18,7 +18,7 @@ tags:
 - consciousness
 - phenomenology
 - selection
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

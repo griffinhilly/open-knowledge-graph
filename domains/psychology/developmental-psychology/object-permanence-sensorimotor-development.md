@@ -16,7 +16,7 @@ tags:
 - cognitive-milestone
 - object-knowledge
 - infancy
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - first-law
 - closed-systems
 - energy-balance
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

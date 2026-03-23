@@ -15,7 +15,7 @@ tags:
 - educational-expansion
 - credentials
 - arms-race
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

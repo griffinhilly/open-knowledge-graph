@@ -20,7 +20,7 @@ tags:
 - minimalism
 - modernism
 - formalism
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

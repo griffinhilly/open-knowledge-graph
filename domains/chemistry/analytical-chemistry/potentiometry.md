@@ -25,7 +25,7 @@ tags:
 - ion-selective electrode
 - pH electrode
 - reference electrode
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

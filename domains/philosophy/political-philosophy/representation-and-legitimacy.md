@@ -15,7 +15,7 @@ tags:
 - accountability
 - descriptive-representation
 - substantive-representation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

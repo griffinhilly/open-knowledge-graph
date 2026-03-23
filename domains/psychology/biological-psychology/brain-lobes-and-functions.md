@@ -23,7 +23,7 @@ tags:
 - temporal-lobe
 - occipital-lobe
 - cortex
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

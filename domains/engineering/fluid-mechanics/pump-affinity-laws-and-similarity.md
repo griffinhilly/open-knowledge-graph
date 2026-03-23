@@ -12,7 +12,7 @@ tags:
 - affinity-laws
 - scaling
 - similarity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

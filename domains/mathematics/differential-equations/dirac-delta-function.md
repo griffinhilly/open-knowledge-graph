@@ -12,7 +12,7 @@ tags:
 - delta-function
 - impulse
 - distribution
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -10,7 +10,7 @@ tags:
 - figurative-language
 - paradox
 - contradiction
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Paradox and Logical Contradiction in Poetry

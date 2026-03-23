@@ -17,7 +17,7 @@ tags:
 - identity
 - modality
 - a-posteriori
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - executive
 - legislative
 - judiciary
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

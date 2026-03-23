@@ -15,7 +15,7 @@ tags:
 - safety
 - modal-conditions
 - gettier
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

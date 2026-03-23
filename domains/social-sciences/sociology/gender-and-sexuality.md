@@ -21,7 +21,7 @@ tags:
 - feminism
 - patriarchy
 - gender-roles
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

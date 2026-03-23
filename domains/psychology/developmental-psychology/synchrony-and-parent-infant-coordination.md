@@ -12,7 +12,7 @@ tags:
 - attachment
 - interaction
 - caregiver-infant
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

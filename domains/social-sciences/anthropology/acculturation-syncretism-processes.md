@@ -16,7 +16,7 @@ tags:
 - syncretism
 - culture-change
 - adaptation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

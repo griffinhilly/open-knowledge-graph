@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - exchange-symmetry
 - antisymmetric
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -33,7 +33,7 @@ tags:
 - Vmax
 - enzyme kinetics
 - steady-state
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -21,7 +21,7 @@ tags:
 - nation-state
 - supranationalism
 - centripetal forces
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

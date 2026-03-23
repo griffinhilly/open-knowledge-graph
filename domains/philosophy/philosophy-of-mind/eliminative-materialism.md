@@ -13,7 +13,7 @@ tags:
 - Churchland
 - folk-psychology
 - neuroscience
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

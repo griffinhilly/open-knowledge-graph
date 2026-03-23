@@ -12,7 +12,7 @@ tags:
 - froude-number
 - surface-waves
 - open-channel
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

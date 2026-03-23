@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - combinatorics
 - generating-functions
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

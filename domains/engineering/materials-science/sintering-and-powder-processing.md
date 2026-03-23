@@ -16,7 +16,7 @@ tags:
 - densification
 - porosity
 - ceramics
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 
