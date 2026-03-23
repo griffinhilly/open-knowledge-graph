@@ -11,7 +11,7 @@ tags:
 - asymmetry
 - par-proteins
 - development
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

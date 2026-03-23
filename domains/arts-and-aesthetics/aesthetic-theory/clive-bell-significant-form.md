@@ -11,7 +11,7 @@ tags:
 - significant form
 - formal properties
 - aesthetic emotion
-stage: advanced
+stage: expert
 status: draft
 ---
 

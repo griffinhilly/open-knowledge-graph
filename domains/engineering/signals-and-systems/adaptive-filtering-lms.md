@@ -15,7 +15,7 @@ tags:
 - lms
 - gradient-descent
 - convergence
-stage: advanced
+stage: expert
 status: draft
 ---
 

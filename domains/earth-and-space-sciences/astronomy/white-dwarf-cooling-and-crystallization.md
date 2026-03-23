@@ -15,7 +15,7 @@ tags:
 - cooling
 - crystallization
 - equation-of-state
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

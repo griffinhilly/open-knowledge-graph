@@ -13,7 +13,7 @@ tags:
 - refraction
 - head-waves
 - critical-angle
-stage: advanced
+stage: expert
 status: draft
 ---
 

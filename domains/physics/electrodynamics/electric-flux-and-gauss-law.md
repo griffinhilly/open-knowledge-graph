@@ -14,7 +14,7 @@ tags:
 - gauss-law
 - flux
 - symmetry
-stage: advanced
+stage: expert
 status: draft
 ---
 

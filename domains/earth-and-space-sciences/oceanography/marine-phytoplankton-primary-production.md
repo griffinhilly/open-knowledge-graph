@@ -14,7 +14,7 @@ tags:
 - primary-production
 - photosynthesis
 - productivity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

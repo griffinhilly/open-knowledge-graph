@@ -11,7 +11,7 @@ tags:
 - magnetotelluric
 - induction
 - conductivity
-stage: advanced
+stage: expert
 status: draft
 ---
 

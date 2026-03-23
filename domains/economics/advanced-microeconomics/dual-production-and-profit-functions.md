@@ -12,7 +12,7 @@ tags:
 - producer-theory
 - profit
 - duality
-stage: advanced
+stage: expert
 status: draft
 ---
 

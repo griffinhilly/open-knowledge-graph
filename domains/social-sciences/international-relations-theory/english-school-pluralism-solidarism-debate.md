@@ -17,7 +17,7 @@ tags:
 - solidarism
 - international-law
 - norms
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - qpsk
 - modulation
 - communication
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - filtration
 - reabsorption
 - Starling forces
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

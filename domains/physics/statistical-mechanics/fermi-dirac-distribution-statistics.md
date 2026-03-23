@@ -15,7 +15,7 @@ tags:
 - fermi-dirac
 - occupation-number
 - fermi-energy
-stage: advanced
+stage: expert
 status: draft
 ---
 

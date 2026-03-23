@@ -15,7 +15,7 @@ tags:
 - mean-field-theory
 - self-consistency
 - bragg-williams
-stage: advanced
+stage: expert
 status: draft
 ---
 

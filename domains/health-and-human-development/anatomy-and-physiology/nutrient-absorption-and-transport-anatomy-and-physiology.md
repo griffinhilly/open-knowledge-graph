@@ -21,7 +21,7 @@ tags:
 - intestinal-epithelium
 - active-transport
 - carrier-mediated
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

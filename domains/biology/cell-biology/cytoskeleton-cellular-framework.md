@@ -12,7 +12,7 @@ tags:
 - cytoskeleton
 - structure
 - dynamics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

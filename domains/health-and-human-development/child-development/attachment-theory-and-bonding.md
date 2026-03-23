@@ -23,7 +23,7 @@ tags:
 - Ainsworth
 - secure-base
 - bonding
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

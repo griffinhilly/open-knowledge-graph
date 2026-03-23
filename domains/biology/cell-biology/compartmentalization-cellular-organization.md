@@ -16,7 +16,7 @@ tags:
 - compartmentalization
 - organelles
 - function
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - kuhn
 - incommensurability
 - paradigm
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - voice-leading
 - counterpoint
 - texture
-stage: advanced
+stage: expert
 status: draft
 ---
 

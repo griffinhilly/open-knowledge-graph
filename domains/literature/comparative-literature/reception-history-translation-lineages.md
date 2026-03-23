@@ -15,7 +15,7 @@ tags:
 - translation-chains
 - literary-circulation
 - canonicity
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - antigen-processing
 - proteolysis
 - presentation
-stage: advanced
+stage: expert
 status: draft
 ---
 

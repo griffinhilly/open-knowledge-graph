@@ -17,7 +17,7 @@ tags:
 - inversion
 - sn2
 - mechanism
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

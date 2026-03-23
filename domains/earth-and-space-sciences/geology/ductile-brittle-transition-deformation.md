@@ -13,7 +13,7 @@ tags:
 - deformation
 - rheology
 - mechanics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - seismic
 - stress-transfer
 - fault-interaction
-stage: advanced
+stage: expert
 status: draft
 ---
 

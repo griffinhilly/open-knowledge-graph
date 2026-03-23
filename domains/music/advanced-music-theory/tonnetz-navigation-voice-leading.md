@@ -21,7 +21,7 @@ tags:
 - neo-riemannian-theory
 - pitch-space
 - voice-leading
-stage: advanced
+stage: expert
 status: draft
 ---
 

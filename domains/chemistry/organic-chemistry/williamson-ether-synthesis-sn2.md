@@ -17,7 +17,7 @@ tags:
 - sn2
 - alkoxide
 - ether-formation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

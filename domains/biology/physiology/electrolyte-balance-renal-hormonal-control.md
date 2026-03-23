@@ -13,7 +13,7 @@ tags:
 - sodium
 - potassium
 - hormonal control
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

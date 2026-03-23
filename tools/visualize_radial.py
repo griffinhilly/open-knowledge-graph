@@ -37,11 +37,12 @@ OUTPUT_DIR = ROOT / "output"
 # Maps the stage field to approximate age ranges and radial bands.
 # Inner = youngest, outer = most advanced.
 STAGE_BANDS = {
-    "pre-formal":          (0.08, 0.25),   # ages ~4-7, K-1st
-    "concrete-operations": (0.18, 0.47),   # ages ~7-12, 2nd-6th
-    "abstract-reasoning":  (0.38, 0.70),   # ages ~12-16, 7th-10th
-    "formal-systems":      (0.60, 0.90),   # ages ~16-22, 11th-college
-    "advanced":            (0.82, 1.00),   # ages ~22+, graduate
+    "pre-formal":          (0.06, 0.18),   # ages ~2-5, preschool-K
+    "concrete-operations": (0.14, 0.32),   # ages ~5-10, elementary
+    "abstract-reasoning":  (0.28, 0.48),   # ages ~10-15, middle school
+    "formal-systems":      (0.44, 0.68),   # ages ~15-22, HS through undergrad
+    "advanced":            (0.64, 0.85),   # ages ~18-22+, upper-division
+    "expert":              (0.82, 1.00),   # ages ~22+, graduate/research
 }
 DEFAULT_STAGE = "abstract-reasoning"
 
@@ -490,9 +491,10 @@ def generate_radial_html(all_data, configs, depths, positions, sectors, domain_o
         label_map = {
             "pre-formal": "Early Childhood",
             "concrete-operations": "Elementary",
-            "abstract-reasoning": "Middle & High School",
-            "formal-systems": "College",
-            "advanced": "Graduate",
+            "abstract-reasoning": "Middle School",
+            "formal-systems": "High School — Undergrad",
+            "advanced": "Upper-Division",
+            "expert": "Graduate / Research",
         }
         stage_rings.append({
             "label": label_map.get(stage, stage),
@@ -752,15 +754,15 @@ function draw() {{
       {STAGE_BANDS['pre-formal'][0] * 500 - 15} * Math.sin(s.start)
     );
     ctx.lineTo(
-      {STAGE_BANDS['advanced'][1] * 500 + 15} * Math.cos(s.start),
-      {STAGE_BANDS['advanced'][1] * 500 + 15} * Math.sin(s.start)
+      {STAGE_BANDS['expert'][1] * 500 + 15} * Math.cos(s.start),
+      {STAGE_BANDS['expert'][1] * 500 + 15} * Math.sin(s.start)
     );
     ctx.strokeStyle = "rgba(255,255,255,0.03)";
     ctx.lineWidth = 0.3;
     ctx.stroke();
 
     // Domain label at outer edge
-    const labelR = {STAGE_BANDS['advanced'][1] * 500 + 40};
+    const labelR = {STAGE_BANDS['expert'][1] * 500 + 40};
     const lx = labelR * Math.cos(s.mid);
     const ly = labelR * Math.sin(s.mid);
     ctx.save();
@@ -988,7 +990,7 @@ canvas.addEventListener("mousemove", (e) => {{
     // Show pointer cursor when hovering outer ring (domain labels)
     const wp = screenToWorld(e.clientX, e.clientY);
     const hoverR = Math.hypot(wp.x, wp.y);
-    canvas.style.cursor = hoverR > {STAGE_BANDS['advanced'][1] * 500 - 30} ? "pointer" : "grab";
+    canvas.style.cursor = hoverR > {STAGE_BANDS['expert'][1] * 500 - 30} ? "pointer" : "grab";
   }}
 }});
 
@@ -1079,7 +1081,7 @@ canvas.addEventListener("mouseup", (e) => {{
       // Check if click is in the outer ring (domain label area)
       const wp = screenToWorld(e.clientX, e.clientY);
       const clickR = Math.hypot(wp.x, wp.y);
-      if (clickR > {STAGE_BANDS['advanced'][1] * 500 - 30}) {{
+      if (clickR > {STAGE_BANDS['expert'][1] * 500 - 30}) {{
         let clickAngle = Math.atan2(wp.y, wp.x);
         if (clickAngle < 0) clickAngle += Math.PI * 2;
         for (const s of data.sectors) {{

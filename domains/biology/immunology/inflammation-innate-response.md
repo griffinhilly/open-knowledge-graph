@@ -15,7 +15,7 @@ tags:
 - inflammation
 - cytokines
 - innate-immunity
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - low-frequency-gain
 - bode-design
 - error-constants
-stage: advanced
+stage: expert
 status: draft
 ---
 

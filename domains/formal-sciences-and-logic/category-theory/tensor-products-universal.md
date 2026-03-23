@@ -15,7 +15,7 @@ tags:
 - tensor-products
 - universal-properties
 - bilinear
-stage: advanced
+stage: expert
 status: draft
 ---
 

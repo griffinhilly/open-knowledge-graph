@@ -14,7 +14,7 @@ tags:
 - self-concept
 - identity-development
 - cognitive-development
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

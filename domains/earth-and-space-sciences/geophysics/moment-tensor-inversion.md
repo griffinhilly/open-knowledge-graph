@@ -13,7 +13,7 @@ tags:
 - moment-tensor
 - source-inversion
 - focal-mechanism
-stage: advanced
+stage: expert
 status: draft
 ---
 

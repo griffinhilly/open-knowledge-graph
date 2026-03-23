@@ -19,7 +19,7 @@ tags:
 - cultural-identity
 - socialization
 - cultural-transmission
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

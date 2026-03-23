@@ -12,7 +12,7 @@ tags:
 - seismology
 - interior-structure
 - waves
-stage: advanced
+stage: expert
 status: draft
 ---
 

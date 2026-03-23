@@ -14,7 +14,7 @@ tags:
 - waves-in-matter
 - polarization
 - dielectrics
-stage: advanced
+stage: expert
 status: draft
 ---
 

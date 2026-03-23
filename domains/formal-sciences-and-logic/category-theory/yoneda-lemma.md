@@ -37,7 +37,7 @@ tags:
 - natural transformations
 - presheaf
 - representability
-stage: advanced
+stage: expert
 status: validated
 ---
 # The Yoneda Lemma

@@ -19,7 +19,7 @@ tags:
 - PNS
 - autonomic
 - somatic
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Nervous System Overview

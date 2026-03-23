@@ -13,7 +13,7 @@ tags:
 - acetylcholine
 - motor end plate
 - motor unit
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

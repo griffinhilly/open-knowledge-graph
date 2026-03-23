@@ -16,7 +16,7 @@ tags:
 - cell-death
 - programmed-necrosis
 - inflammation
-stage: advanced
+stage: expert
 status: draft
 ---
 

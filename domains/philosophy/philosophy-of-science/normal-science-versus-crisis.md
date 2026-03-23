@@ -12,7 +12,7 @@ tags:
 - kuhn
 - normal-science
 - anomalies
-stage: advanced
+stage: expert
 status: draft
 ---
 

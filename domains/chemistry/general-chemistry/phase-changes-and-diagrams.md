@@ -19,7 +19,7 @@ tags:
 - critical-point
 - heat-of-fusion
 - heat-of-vaporization
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Phase Changes and Diagrams

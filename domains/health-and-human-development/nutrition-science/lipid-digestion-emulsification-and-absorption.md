@@ -22,7 +22,7 @@ tags:
 - bile-salts
 - emulsification
 - absorption
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - type-theory
 - semantics
 - formal
-stage: advanced
+stage: expert
 status: draft
 ---
 

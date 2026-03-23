@@ -22,7 +22,7 @@ tags:
 - epsc
 - ipsc
 - summation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

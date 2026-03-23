@@ -14,7 +14,7 @@ tags:
 - quantization
 - noise-shaping
 - resolution
-stage: advanced
+stage: expert
 status: draft
 ---
 

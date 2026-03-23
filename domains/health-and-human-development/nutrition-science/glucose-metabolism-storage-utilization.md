@@ -26,7 +26,7 @@ tags:
 - glycogen
 - metabolic-flexibility
 - fed-fasted-states
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

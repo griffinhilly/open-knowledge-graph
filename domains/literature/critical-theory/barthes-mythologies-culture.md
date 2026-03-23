@@ -20,7 +20,7 @@ tags:
 - semiotics
 - ideology
 - connotation
-stage: advanced
+stage: expert
 status: draft
 ---
 

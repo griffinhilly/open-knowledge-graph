@@ -13,7 +13,7 @@ tags:
 - homological-algebra
 - isomorphism-criteria
 - diagram-chasing
-stage: advanced
+stage: expert
 status: draft
 ---
 # The Five Lemma and Related Results

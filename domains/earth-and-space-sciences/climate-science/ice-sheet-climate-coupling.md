@@ -16,7 +16,7 @@ tags:
 - isostatic-rebound
 - meltwater-forcing
 - glacial-cycles
-stage: advanced
+stage: expert
 status: draft
 ---
 

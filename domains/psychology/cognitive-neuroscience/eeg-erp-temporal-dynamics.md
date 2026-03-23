@@ -19,7 +19,7 @@ tags:
 - neuroimaging
 - methods
 - erp
-stage: advanced
+stage: expert
 status: draft
 ---
 

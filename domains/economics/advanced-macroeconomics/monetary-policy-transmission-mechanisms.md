@@ -14,7 +14,7 @@ tags:
 - monetary-policy
 - transmission
 - interest-rate-channel
-stage: advanced
+stage: expert
 status: draft
 ---
 

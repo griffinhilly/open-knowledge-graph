@@ -15,7 +15,7 @@ tags:
 - recombination
 - crossing-over
 - genetic-diversity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

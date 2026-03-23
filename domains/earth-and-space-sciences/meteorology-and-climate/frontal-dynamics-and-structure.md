@@ -20,7 +20,7 @@ tags:
 - warm-front
 - frontogenesis
 - dynamics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

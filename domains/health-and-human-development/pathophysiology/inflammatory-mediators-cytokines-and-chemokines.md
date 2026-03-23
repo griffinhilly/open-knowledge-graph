@@ -16,7 +16,7 @@ tags:
 - il1
 - il6
 - inflammation
-stage: advanced
+stage: expert
 status: draft
 ---
 

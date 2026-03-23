@@ -25,7 +25,7 @@ tags:
 - translation-studies
 - language
 - cultural-transfer
-stage: advanced
+stage: expert
 status: draft
 ---
 

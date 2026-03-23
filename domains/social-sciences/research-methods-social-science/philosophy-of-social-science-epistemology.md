@@ -11,7 +11,7 @@ tags:
 - philosophy
 - epistemology
 - foundations
-stage: advanced
+stage: expert
 status: draft
 ---
 

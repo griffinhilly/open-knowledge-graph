@@ -15,7 +15,7 @@ tags:
 - thermodynamic-potential
 - free-energy
 - work
-stage: advanced
+stage: expert
 status: draft
 ---
 

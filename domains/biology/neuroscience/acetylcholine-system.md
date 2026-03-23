@@ -16,7 +16,7 @@ tags:
 - ach
 - nicotinic
 - muscarinic
-stage: advanced
+stage: expert
 status: draft
 ---
 

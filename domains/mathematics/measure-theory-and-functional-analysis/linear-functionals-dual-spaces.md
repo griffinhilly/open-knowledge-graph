@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - functional-analysis
 - dual-spaces
-stage: advanced
+stage: expert
 status: draft
 ---
 

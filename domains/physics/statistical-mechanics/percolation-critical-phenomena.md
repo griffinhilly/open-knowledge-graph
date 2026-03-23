@@ -14,7 +14,7 @@ tags:
 - percolation
 - networks
 - phase-transitions
-stage: advanced
+stage: expert
 status: draft
 ---
 

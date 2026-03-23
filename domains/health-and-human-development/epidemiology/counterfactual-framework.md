@@ -14,7 +14,7 @@ tags:
 - causal-inference
 - potential-outcomes
 - rubin-causal-model
-stage: advanced
+stage: expert
 status: draft
 ---
 

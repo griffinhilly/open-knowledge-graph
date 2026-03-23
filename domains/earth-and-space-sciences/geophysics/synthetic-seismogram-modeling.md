@@ -14,7 +14,7 @@ tags:
 - modeling
 - forward
 - synthetic
-stage: advanced
+stage: expert
 status: draft
 ---
 # Synthetic Seismogram Generation and Forward Modeling

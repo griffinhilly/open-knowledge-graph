@@ -14,7 +14,7 @@ tags:
 - faults
 - rupture
 - seismology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

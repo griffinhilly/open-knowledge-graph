@@ -16,7 +16,7 @@ tags:
 - memory
 - hippocampus
 - binding
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - consumer-theory
 - choice-theory
 - axioms
-stage: advanced
+stage: expert
 status: draft
 ---
 

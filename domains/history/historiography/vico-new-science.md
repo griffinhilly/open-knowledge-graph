@@ -13,7 +13,7 @@ tags:
 - philosophy-of-history
 - verum-factum
 - cycles
-stage: advanced
+stage: expert
 status: draft
 ---
 

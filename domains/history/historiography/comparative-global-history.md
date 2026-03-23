@@ -11,7 +11,7 @@ tags:
 - global-history
 - transnational
 - world-history
-stage: advanced
+stage: expert
 status: draft
 ---
 

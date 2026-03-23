@@ -17,7 +17,7 @@ tags:
 - aesthetic
 - production
 - perception
-stage: advanced
+stage: expert
 status: draft
 ---
 

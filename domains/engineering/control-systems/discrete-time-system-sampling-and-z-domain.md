@@ -16,7 +16,7 @@ tags:
 - discrete-time
 - aliasing
 - sampler-hold
-stage: advanced
+stage: expert
 status: draft
 ---
 

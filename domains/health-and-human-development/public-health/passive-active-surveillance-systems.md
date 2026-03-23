@@ -13,7 +13,7 @@ tags:
 - surveillance
 - disease-monitoring
 - systems
-stage: advanced
+stage: expert
 status: draft
 ---
 

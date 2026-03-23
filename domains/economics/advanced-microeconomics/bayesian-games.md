@@ -17,7 +17,7 @@ tags:
 - game-theory
 - incomplete-information
 - types
-stage: advanced
+stage: expert
 status: draft
 ---
 

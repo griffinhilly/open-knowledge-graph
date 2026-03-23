@@ -17,7 +17,7 @@ tags:
 - membrane-transport
 - ion-channels
 - selectivity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

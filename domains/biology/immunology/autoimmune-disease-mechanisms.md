@@ -12,7 +12,7 @@ tags:
 - autoimmunity
 - tolerance
 - self-reactive
-stage: advanced
+stage: expert
 status: draft
 ---
 

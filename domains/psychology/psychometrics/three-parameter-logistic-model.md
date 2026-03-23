@@ -14,7 +14,7 @@ tags:
 - guessing-parameter
 - multiple-choice
 - item-response-theory
-stage: advanced
+stage: expert
 status: draft
 ---
 

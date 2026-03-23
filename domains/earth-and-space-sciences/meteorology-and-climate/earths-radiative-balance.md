@@ -20,7 +20,7 @@ tags:
 - energy-budget
 - solar
 - terrestrial
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

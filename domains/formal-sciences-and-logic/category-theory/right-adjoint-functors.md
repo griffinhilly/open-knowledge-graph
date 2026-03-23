@@ -16,7 +16,7 @@ tags:
 - adjunction
 - functor-pairs
 - universal-properties
-stage: advanced
+stage: expert
 status: draft
 ---
 

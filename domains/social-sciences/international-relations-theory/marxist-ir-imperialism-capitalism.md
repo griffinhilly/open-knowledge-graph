@@ -16,7 +16,7 @@ tags:
 - capitalism
 - political-economy
 - wallerstein
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - basal-metabolism
 - thermogenesis
 - energy-expenditure
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

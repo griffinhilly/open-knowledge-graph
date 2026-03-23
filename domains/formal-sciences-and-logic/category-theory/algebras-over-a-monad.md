@@ -14,7 +14,7 @@ tags:
 - Kleisli category
 - monad
 - free algebra
-stage: advanced
+stage: expert
 status: validated
 ---
 

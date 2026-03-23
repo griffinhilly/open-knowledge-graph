@@ -13,7 +13,7 @@ tags:
 - cross-spectral-density
 - correlation
 - spectral-analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

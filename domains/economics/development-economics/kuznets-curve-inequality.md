@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - inequality
 - Kuznets
-stage: advanced
+stage: expert
 status: draft
 ---
 

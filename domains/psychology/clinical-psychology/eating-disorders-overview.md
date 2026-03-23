@@ -16,7 +16,7 @@ tags:
 - anorexia
 - bulimia
 - binge-eating
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - disaccharidases
 - peptidases
 - brush-border
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

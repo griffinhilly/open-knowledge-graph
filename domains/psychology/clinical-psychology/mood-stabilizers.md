@@ -12,7 +12,7 @@ tags:
 - mood stabilizers
 - lithium
 - bipolar
-stage: advanced
+stage: expert
 status: draft
 ---
 

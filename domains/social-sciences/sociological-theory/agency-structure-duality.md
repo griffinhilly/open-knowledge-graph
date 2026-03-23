@@ -16,7 +16,7 @@ tags:
 - duality
 - giddens
 - theory
-stage: advanced
+stage: expert
 status: draft
 ---
 

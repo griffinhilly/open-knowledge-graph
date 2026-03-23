@@ -13,7 +13,7 @@ tags:
 - analytic-signals
 - envelope
 - phase
-stage: advanced
+stage: expert
 status: draft
 ---
 

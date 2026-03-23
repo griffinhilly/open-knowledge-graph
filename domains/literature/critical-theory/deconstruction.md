@@ -17,7 +17,7 @@ tags:
 - binary-oppositions
 - trace
 - aporia
-stage: advanced
+stage: expert
 status: validated
 ---
 

@@ -20,7 +20,7 @@ tags:
 - transport
 - cooperativity
 - oxygen saturation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Oxygen Transport and Hemoglobin Dynamics

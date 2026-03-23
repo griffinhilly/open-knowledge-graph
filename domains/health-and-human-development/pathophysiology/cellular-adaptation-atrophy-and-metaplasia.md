@@ -14,7 +14,7 @@ tags:
 - atrophy
 - metaplasia
 - cellular-response
-stage: advanced
+stage: expert
 status: draft
 ---
 

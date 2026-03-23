@@ -17,7 +17,7 @@ tags:
 - convergence
 - cyclone
 - occlusion
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

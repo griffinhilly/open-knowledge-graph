@@ -24,7 +24,7 @@ tags:
 - spillover
 - antimicrobial-resistance
 - planetary-health
-stage: advanced
+stage: expert
 status: validated
 ---
 # One Health: Human, Animal, and Environmental Health Linkages

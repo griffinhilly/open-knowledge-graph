@@ -10,7 +10,7 @@ tags:
 - ak-model
 - constant-returns-to-capital
 - scale-effects
-stage: advanced
+stage: expert
 status: draft
 ---
 

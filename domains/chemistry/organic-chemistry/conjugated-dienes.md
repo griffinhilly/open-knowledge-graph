@@ -19,7 +19,7 @@ tags:
 - 1,4-addition
 - kinetic control
 - thermodynamic control
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Conjugated Dienes

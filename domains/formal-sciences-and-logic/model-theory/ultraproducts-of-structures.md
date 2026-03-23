@@ -22,7 +22,7 @@ tags:
 - quotient construction
 - diagonal embedding
 - direct product
-stage: advanced
+stage: expert
 status: draft
 ---
 

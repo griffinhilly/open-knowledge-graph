@@ -13,7 +13,7 @@ tags:
 - eclipsing
 - torsional-strain
 - notation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

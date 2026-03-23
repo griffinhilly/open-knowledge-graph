@@ -19,7 +19,7 @@ tags:
 - genetic-predisposition
 - environmental-triggers
 - disease-mechanisms
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - Avogadro's number
 - particle counting
 - 6.022 × 10²³
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

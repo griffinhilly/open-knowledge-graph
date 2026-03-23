@@ -17,7 +17,7 @@ prerequisites:
 tags:
 - general-equilibrium
 - mathematical-economics
-stage: advanced
+stage: expert
 status: draft
 ---
 

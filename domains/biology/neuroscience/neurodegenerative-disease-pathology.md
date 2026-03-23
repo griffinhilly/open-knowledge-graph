@@ -16,7 +16,7 @@ tags:
 - amyloid
 - tau
 - pathology
-stage: advanced
+stage: expert
 status: draft
 ---
 

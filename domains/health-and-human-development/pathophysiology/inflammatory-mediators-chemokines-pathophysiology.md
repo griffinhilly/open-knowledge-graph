@@ -18,7 +18,7 @@ tags:
 - chemokines
 - inflammation
 - signaling
-stage: advanced
+stage: expert
 status: draft
 ---
 

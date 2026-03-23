@@ -16,7 +16,7 @@ tags:
 - greens-functions
 - boundary-value-problems
 - poisson-equation
-stage: advanced
+stage: expert
 status: draft
 ---
 # Green Function Method for Electrostatics

@@ -15,7 +15,7 @@ tags:
 - antibodies
 - MHC
 - immunological memory
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Adaptive Immune Response

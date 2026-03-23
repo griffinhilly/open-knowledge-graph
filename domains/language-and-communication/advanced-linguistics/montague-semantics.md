@@ -15,7 +15,7 @@ tags:
 - semantics
 - formal
 - montague
-stage: advanced
+stage: expert
 status: draft
 ---
 

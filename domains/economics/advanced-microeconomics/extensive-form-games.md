@@ -14,7 +14,7 @@ tags:
 - game-theory
 - sequential-games
 - information
-stage: advanced
+stage: expert
 status: draft
 ---
 

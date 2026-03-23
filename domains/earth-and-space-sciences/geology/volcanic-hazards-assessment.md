@@ -13,7 +13,7 @@ tags:
 - eruptions
 - risk
 - mitigation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

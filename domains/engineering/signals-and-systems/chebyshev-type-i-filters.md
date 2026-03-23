@@ -16,7 +16,7 @@ tags:
 - chebyshev
 - equiripple
 - rolloff
-stage: advanced
+stage: expert
 status: draft
 ---
 

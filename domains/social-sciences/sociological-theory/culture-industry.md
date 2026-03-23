@@ -14,7 +14,7 @@ tags:
 - culture-industry
 - mass-culture
 - ideology
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - plane-waves
 - wave-solutions
 - em-waves
-stage: advanced
+stage: expert
 status: draft
 ---
 

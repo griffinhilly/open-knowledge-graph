@@ -15,7 +15,7 @@ tags:
 - derived-category
 - Morita
 - homological
-stage: advanced
+stage: expert
 status: draft
 ---
 

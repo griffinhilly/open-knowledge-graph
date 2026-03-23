@@ -13,7 +13,7 @@ tags:
 - principal filter
 - maximal filter
 - free ultrafilter
-stage: advanced
+stage: expert
 status: draft
 ---
 

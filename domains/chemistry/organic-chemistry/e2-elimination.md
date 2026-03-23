@@ -17,7 +17,7 @@ tags:
 - Zaitsev
 - anti-periplanar
 - regioselectivity
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

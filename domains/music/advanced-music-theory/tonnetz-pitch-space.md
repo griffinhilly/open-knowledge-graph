@@ -25,7 +25,7 @@ tags:
 - pitch-space
 - visualization
 - neo-riemannian
-stage: advanced
+stage: expert
 status: draft
 ---
 

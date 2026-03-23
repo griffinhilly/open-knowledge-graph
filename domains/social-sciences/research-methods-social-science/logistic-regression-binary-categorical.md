@@ -18,7 +18,7 @@ tags:
 - logistic-regression
 - categorical
 - glm
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - epidemic-threshold
 - disease-control
 - herd-immunity-threshold
-stage: advanced
+stage: expert
 status: draft
 ---
 

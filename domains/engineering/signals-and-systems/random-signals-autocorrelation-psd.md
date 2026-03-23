@@ -13,7 +13,7 @@ tags:
 - noise
 - stochastic
 - power-spectral-density
-stage: advanced
+stage: expert
 status: draft
 ---
 

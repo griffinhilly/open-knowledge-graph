@@ -12,7 +12,7 @@ tags:
 - symmetry
 - excitations
 - gapless
-stage: advanced
+stage: expert
 status: draft
 ---
 

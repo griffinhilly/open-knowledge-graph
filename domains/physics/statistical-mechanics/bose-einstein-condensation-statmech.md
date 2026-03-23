@@ -15,7 +15,7 @@ tags:
 - condensation
 - order-parameter
 - spontaneous-order
-stage: advanced
+stage: expert
 status: draft
 ---
 

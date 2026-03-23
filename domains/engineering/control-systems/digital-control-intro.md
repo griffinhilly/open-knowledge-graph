@@ -16,7 +16,7 @@ tags:
 - sampled-data
 - discretization
 - sampling-rate
-stage: advanced
+stage: expert
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - phase-transitions
 - order-parameter
 - mean-field
-stage: advanced
+stage: expert
 status: draft
 ---
 

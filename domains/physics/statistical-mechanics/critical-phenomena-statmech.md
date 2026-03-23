@@ -16,7 +16,7 @@ tags:
 - critical-point
 - singularities
 - divergences
-stage: advanced
+stage: expert
 status: draft
 ---
 

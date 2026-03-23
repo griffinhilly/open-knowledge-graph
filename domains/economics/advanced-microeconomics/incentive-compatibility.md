@@ -13,7 +13,7 @@ tags:
 - mechanism-design
 - truthfulness
 - incentives
-stage: advanced
+stage: expert
 status: draft
 ---
 

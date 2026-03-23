@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - CBT
 - cognitive therapy
-stage: advanced
+stage: expert
 status: draft
 ---
 

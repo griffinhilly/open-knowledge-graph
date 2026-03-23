@@ -12,7 +12,7 @@ tags:
 - cherenkov
 - radiation
 - matter
-stage: advanced
+stage: expert
 status: draft
 ---
 

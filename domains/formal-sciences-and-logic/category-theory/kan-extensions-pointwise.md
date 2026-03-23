@@ -16,7 +16,7 @@ tags:
 - limit
 - colimit
 - universal
-stage: advanced
+stage: expert
 status: draft
 ---
 

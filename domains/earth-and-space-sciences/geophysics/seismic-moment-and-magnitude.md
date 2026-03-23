@@ -11,7 +11,7 @@ tags:
 - magnitude
 - seismic-moment
 - energy-release
-stage: advanced
+stage: expert
 status: draft
 ---
 

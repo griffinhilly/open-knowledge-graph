@@ -12,7 +12,7 @@ tags:
 - consumer-theory
 - demand
 - preferences
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - overlapping-generations
 - heterogeneous-agents
 - demographic-structure
-stage: advanced
+stage: expert
 status: draft
 ---
 

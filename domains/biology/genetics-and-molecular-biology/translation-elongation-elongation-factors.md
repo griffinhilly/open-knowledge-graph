@@ -13,7 +13,7 @@ tags:
 - elongation-factors
 - ribosome
 - protein-synthesis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

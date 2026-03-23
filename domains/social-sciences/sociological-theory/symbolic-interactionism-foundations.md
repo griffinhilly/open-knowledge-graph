@@ -14,7 +14,7 @@ tags:
 - symbolic-interactionism
 - micro-sociology
 - interaction
-stage: advanced
+stage: expert
 status: draft
 ---
 

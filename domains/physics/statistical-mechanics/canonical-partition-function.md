@@ -16,7 +16,7 @@ tags:
 - partition-function
 - helmholtz-free-energy
 - statistical-thermodynamics
-stage: advanced
+stage: expert
 status: draft
 ---
 

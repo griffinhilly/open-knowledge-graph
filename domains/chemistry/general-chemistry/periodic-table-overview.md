@@ -23,7 +23,7 @@ tags:
 - nonmetals
 - metalloids
 - blocks
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

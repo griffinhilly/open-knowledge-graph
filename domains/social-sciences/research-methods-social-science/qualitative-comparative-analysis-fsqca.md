@@ -13,7 +13,7 @@ tags:
 - fsqca
 - set-theory
 - equifinality
-stage: advanced
+stage: expert
 status: draft
 ---
 

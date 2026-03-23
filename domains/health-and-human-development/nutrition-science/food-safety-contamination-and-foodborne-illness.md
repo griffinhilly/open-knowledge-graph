@@ -12,7 +12,7 @@ tags:
 - foodborne-illness
 - prevention
 - haccp
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

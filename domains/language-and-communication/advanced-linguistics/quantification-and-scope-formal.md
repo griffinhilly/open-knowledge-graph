@@ -17,7 +17,7 @@ tags:
 - semantics
 - quantification
 - scope
-stage: advanced
+stage: expert
 status: draft
 ---
 

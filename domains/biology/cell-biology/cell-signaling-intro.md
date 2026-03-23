@@ -20,7 +20,7 @@ tags:
 - ligand
 - second-messenger
 - kinase
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Cell Signaling and Signal Transduction

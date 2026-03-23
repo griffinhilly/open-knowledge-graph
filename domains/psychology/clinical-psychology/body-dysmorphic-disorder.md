@@ -12,7 +12,7 @@ tags:
 - body-image
 - perception
 - repetitive-behaviors
-stage: advanced
+stage: expert
 status: draft
 ---
 

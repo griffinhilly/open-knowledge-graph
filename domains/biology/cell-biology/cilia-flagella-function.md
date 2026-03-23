@@ -11,7 +11,7 @@ tags:
 - flagella
 - axoneme
 - motility
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

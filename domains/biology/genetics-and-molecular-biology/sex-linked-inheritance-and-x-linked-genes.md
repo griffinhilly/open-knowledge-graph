@@ -18,7 +18,7 @@ tags:
 - hemizygous
 - y-linked
 - criss-cross-inheritance
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -25,7 +25,7 @@ tags:
 - short exact sequence
 - differential
 - cochain complex
-stage: advanced
+stage: expert
 status: draft
 ---
 # Chain Complexes and Exact Sequences

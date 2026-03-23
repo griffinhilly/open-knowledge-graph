@@ -18,7 +18,7 @@ tags:
 - monosaccharides
 - enzymes
 - absorption-mechanisms
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

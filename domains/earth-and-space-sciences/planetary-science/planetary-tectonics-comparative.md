@@ -14,7 +14,7 @@ tags:
 - tectonics
 - plate-motion
 - deformation
-stage: advanced
+stage: expert
 status: draft
 ---
 

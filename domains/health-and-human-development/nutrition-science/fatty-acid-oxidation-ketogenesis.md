@@ -20,7 +20,7 @@ tags:
 - beta-oxidation
 - ketone-bodies
 - energy-metabolism
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -20,7 +20,7 @@ tags:
 - atherosclerosis
 - cardiovascular-disease
 - lipid-metabolism
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - inbreeding
 - assortative-mating
 - random-mating
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

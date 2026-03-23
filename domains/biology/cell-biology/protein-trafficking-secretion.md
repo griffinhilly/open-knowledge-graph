@@ -11,7 +11,7 @@ tags:
 - secretion
 - signal-sequences
 - vesicular-transport
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

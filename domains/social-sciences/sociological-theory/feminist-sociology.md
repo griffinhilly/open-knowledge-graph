@@ -14,7 +14,7 @@ tags:
 - gender
 - patriarchy
 - oppression
-stage: advanced
+stage: expert
 status: draft
 ---
 

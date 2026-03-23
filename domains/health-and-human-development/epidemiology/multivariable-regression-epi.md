@@ -16,7 +16,7 @@ tags:
 - linear-regression
 - adjustment
 - multicollinearity
-stage: advanced
+stage: expert
 status: draft
 ---
 

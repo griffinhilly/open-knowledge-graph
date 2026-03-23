@@ -18,7 +18,7 @@ tags:
 - organolithium
 - nucleophile
 - synthesis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

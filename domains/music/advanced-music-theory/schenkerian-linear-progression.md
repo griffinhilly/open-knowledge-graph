@@ -15,7 +15,7 @@ tags:
 - schenkerian-analysis
 - voice-leading
 - reduction
-stage: advanced
+stage: expert
 status: draft
 ---
 

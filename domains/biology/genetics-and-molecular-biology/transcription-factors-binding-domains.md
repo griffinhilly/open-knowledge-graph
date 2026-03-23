@@ -16,7 +16,7 @@ tags:
 - protein-structure
 - dna-binding
 - gene-regulation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - bacterial
 - consolidation
 - inflammation
-stage: advanced
+stage: expert
 status: draft
 ---
 

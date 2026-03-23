@@ -11,7 +11,7 @@ tags:
 - granovetter
 - weak-ties
 - social-capital
-stage: advanced
+stage: expert
 status: draft
 ---
 

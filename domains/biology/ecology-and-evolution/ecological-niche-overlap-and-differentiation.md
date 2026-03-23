@@ -16,7 +16,7 @@ tags:
 - competition
 - ecology
 - coexistence
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -28,7 +28,7 @@ tags:
 - recombination frequency
 - centimorgans
 - crossing over
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Genetic Mapping and Linkage

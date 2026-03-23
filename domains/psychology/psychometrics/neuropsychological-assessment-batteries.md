@@ -13,7 +13,7 @@ tags:
 - assessment-batteries
 - cognitive-evaluation
 - profile-analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

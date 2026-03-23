@@ -11,7 +11,7 @@ tags:
 - raised-cosine
 - isi
 - bandwidth-efficiency
-stage: advanced
+stage: expert
 status: draft
 ---
 

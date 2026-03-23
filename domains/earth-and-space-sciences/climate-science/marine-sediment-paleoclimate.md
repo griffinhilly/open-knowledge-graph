@@ -18,7 +18,7 @@ tags:
 - paleoclimate
 - benthic-records
 - continental-margin
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - paths
 - homotopy
 - topological-invariant
-stage: advanced
+stage: expert
 status: draft
 ---
 

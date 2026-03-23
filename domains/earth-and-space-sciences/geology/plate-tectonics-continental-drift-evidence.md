@@ -12,7 +12,7 @@ tags:
 - plate-tectonics
 - continental-drift
 - seafloor-spreading
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

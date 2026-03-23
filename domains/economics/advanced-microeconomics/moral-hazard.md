@@ -16,7 +16,7 @@ tags:
 - contract-theory
 - hidden-action
 - incentives
-stage: advanced
+stage: expert
 status: draft
 ---
 

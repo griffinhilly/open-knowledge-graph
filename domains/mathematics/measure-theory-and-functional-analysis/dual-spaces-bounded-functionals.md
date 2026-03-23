@@ -10,7 +10,7 @@ builds-toward:
 - hahn-banach-theorem
 tags:
 - duality
-stage: advanced
+stage: expert
 status: draft
 ---
 

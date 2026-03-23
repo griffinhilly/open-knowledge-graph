@@ -16,7 +16,7 @@ tags:
 - standard-reduction-potential
 - Faraday
 - electrolysis
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

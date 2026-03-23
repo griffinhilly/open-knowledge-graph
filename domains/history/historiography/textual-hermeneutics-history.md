@@ -17,7 +17,7 @@ tags:
 - interpretation
 - meaning
 - text
-stage: advanced
+stage: expert
 status: draft
 ---
 # Hermeneutics and Interpretation of Historical Texts

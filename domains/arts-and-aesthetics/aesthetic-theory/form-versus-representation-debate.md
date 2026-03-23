@@ -21,7 +21,7 @@ tags:
 - aesthetics
 - content
 - form
-stage: advanced
+stage: expert
 status: draft
 ---
 

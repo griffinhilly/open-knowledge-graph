@@ -18,7 +18,7 @@ tags:
 - glucose
 - homeostasis
 - diabetes
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

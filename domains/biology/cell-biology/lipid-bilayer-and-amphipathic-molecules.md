@@ -14,7 +14,7 @@ tags:
 - membrane-structure
 - lipids
 - hydrophobic-effect
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Lipid Bilayer Structure and Amphipathic Molecules

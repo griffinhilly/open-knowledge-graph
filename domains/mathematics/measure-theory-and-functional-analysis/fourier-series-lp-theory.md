@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 tags:
 - fourier-analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - minimalism
 - syntax
 - structure-building
-stage: advanced
+stage: expert
 status: draft
 ---
 

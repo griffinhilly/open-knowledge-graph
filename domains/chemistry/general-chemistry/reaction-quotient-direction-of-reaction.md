@@ -13,7 +13,7 @@ tags:
 - q
 - direction
 - equilibrium
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

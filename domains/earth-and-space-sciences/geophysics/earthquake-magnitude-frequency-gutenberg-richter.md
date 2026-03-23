@@ -15,7 +15,7 @@ tags:
 - magnitude
 - frequency
 - power-law
-stage: advanced
+stage: expert
 status: draft
 ---
 

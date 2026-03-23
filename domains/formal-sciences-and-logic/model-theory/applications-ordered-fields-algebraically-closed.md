@@ -15,7 +15,7 @@ tags:
 - applications
 - fields
 - algebra
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - cytoskeleton
 - actin
 - motility
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

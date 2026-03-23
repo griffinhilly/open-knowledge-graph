@@ -16,7 +16,7 @@ tags:
 - hand-coordination
 - manipulation
 - physical-development
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

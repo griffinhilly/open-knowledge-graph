@@ -14,7 +14,7 @@ tags:
 - joint-models
 - repeated-measures
 - longitudinal-survival
-stage: advanced
+stage: expert
 status: draft
 ---
 

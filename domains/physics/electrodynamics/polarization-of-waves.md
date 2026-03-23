@@ -13,7 +13,7 @@ tags:
 - polarization
 - wave-properties
 - light
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - waveguides
 - guided-modes
 - dispersion-relations
-stage: advanced
+stage: expert
 status: draft
 ---
 

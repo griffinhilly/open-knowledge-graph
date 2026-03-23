@@ -11,7 +11,7 @@ tags:
 - radiation-belts
 - particles
 - solar-wind
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - hashimoto-thyroiditis
 - autoimmune
 - thyroid-destruction
-stage: advanced
+stage: expert
 status: draft
 ---
 

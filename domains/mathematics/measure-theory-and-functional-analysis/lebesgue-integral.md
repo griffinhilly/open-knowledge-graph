@@ -11,7 +11,7 @@ builds-toward:
 - product-measures-fubini-theorem
 tags:
 - integration
-stage: advanced
+stage: expert
 status: draft
 ---
 

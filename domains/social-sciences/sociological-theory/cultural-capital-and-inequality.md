@@ -13,7 +13,7 @@ tags:
 - cultural-capital
 - inequality
 - education
-stage: advanced
+stage: expert
 status: draft
 ---
 

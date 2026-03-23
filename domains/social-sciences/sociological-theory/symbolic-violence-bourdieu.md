@@ -13,7 +13,7 @@ tags:
 - domination
 - legitimacy
 - power
-stage: advanced
+stage: expert
 status: draft
 ---
 # Symbolic Violence

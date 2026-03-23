@@ -17,7 +17,7 @@ tags:
 - dense-orders
 - model-theory
 - axiomatization
-stage: advanced
+stage: expert
 status: draft
 ---
 

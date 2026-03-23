@@ -14,7 +14,7 @@ tags:
 - communication
 - discourse
 - social-language
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

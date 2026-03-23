@@ -20,7 +20,7 @@ tags:
 - cooperative-play
 - Parten
 - development
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -17,7 +17,7 @@ tags:
 - viability
 - predictive-modeling
 - extinction-risk
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

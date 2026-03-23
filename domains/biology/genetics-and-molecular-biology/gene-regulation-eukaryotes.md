@@ -22,7 +22,7 @@ tags:
 - transcription factor
 - promoter
 - gene regulation
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Gene Regulation in Eukaryotes

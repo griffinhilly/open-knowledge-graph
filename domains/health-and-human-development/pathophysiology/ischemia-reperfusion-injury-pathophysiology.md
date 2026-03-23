@@ -21,7 +21,7 @@ tags:
 - oxidative-stress
 - calcium-overload
 - inflammation
-stage: advanced
+stage: expert
 status: draft
 ---
 

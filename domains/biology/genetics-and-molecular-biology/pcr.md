@@ -21,7 +21,7 @@ tags:
 - primers
 - thermocycler
 - DNA amplification
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

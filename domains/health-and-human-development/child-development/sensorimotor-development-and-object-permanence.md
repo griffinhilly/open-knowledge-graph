@@ -15,7 +15,7 @@ tags:
 - piaget
 - sensorimotor-stage
 - object-permanence
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

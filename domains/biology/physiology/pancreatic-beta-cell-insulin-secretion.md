@@ -12,7 +12,7 @@ tags:
 - beta-cells
 - glucose-sensing
 - insulin
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

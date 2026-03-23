@@ -13,7 +13,7 @@ tags:
 - multiresolution
 - time-frequency
 - decomposition
-stage: advanced
+stage: expert
 status: draft
 ---
 

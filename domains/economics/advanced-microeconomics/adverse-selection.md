@@ -21,7 +21,7 @@ tags:
 - contract-theory
 - hidden-information
 - information-asymmetry
-stage: advanced
+stage: expert
 status: draft
 ---
 

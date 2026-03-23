@@ -17,7 +17,7 @@ tags:
 - age-structure
 - life-history
 - reproductive-value
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

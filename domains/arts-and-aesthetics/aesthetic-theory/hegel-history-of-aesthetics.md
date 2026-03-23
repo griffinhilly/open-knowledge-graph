@@ -14,7 +14,7 @@ tags:
 - history
 - spirit
 - development
-stage: advanced
+stage: expert
 status: draft
 ---
 

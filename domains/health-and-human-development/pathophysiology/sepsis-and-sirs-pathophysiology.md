@@ -17,7 +17,7 @@ tags:
 - sepsis
 - systemic-inflammation
 - infection
-stage: advanced
+stage: expert
 status: draft
 ---
 

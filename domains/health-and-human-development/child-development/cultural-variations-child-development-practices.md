@@ -14,7 +14,7 @@ tags:
 - development-context
 - cultural-norms
 - cross-cultural
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - objects
 - things
 - posthuman
-stage: advanced
+stage: expert
 status: draft
 ---
 

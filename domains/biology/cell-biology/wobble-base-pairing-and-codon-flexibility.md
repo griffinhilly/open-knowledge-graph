@@ -12,7 +12,7 @@ tags:
 - wobble
 - genetic-code
 - translation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

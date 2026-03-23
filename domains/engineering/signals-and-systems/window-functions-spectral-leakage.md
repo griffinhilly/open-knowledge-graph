@@ -16,7 +16,7 @@ tags:
 - spectral-analysis
 - dft
 - frequency-domain
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - sonata
 - analysis
 - tonal-structure
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - glial-cells
 - synaptic-support
-stage: advanced
+stage: expert
 status: draft
 ---
 

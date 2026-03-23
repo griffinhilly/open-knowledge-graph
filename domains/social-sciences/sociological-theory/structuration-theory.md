@@ -13,7 +13,7 @@ tags:
 - structuration
 - agency-structure
 - duality
-stage: advanced
+stage: expert
 status: draft
 ---
 

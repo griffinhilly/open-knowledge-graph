@@ -15,7 +15,7 @@ tags:
 - solubility product
 - Ksp
 - precipitation equilibrium
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

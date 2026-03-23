@@ -15,7 +15,7 @@ tags:
 - foundations
 - phase-space
 - dynamics
-stage: advanced
+stage: expert
 status: draft
 ---
 

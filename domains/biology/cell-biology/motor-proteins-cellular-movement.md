@@ -14,7 +14,7 @@ tags:
 - motor-protein
 - myosin
 - kinesin
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - self
 - mind
 - socialization
-stage: advanced
+stage: expert
 status: draft
 ---
 

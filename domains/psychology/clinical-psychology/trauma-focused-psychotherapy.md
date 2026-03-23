@@ -10,7 +10,7 @@ tags:
 - trauma
 - psychotherapy
 - ptsd-treatment
-stage: advanced
+stage: expert
 status: draft
 ---
 

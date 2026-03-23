@@ -18,7 +18,7 @@ tags:
 - perception
 - receptors
 - adaptation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

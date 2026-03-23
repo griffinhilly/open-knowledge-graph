@@ -15,7 +15,7 @@ tags:
 - alpha
 - internal-consistency
 - reliability-coefficient
-stage: advanced
+stage: expert
 status: draft
 ---
 

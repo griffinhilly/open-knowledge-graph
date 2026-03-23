@@ -17,7 +17,7 @@ tags:
 - composition
 - acoustics
 - timbre
-stage: advanced
+stage: expert
 status: draft
 ---
 

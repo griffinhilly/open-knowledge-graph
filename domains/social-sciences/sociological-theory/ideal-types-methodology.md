@@ -14,7 +14,7 @@ tags:
 - methodology
 - ideal-type
 - concept-formation
-stage: advanced
+stage: expert
 status: draft
 ---
 

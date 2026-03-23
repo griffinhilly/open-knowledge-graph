@@ -17,7 +17,7 @@ tags:
 - power-asymmetries
 - casanova
 - world-system
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -11,7 +11,7 @@ tags:
 - transport
 - kinetic-theory
 - viscosity
-stage: advanced
+stage: expert
 status: draft
 ---
 # Transport Coefficients: Viscosity

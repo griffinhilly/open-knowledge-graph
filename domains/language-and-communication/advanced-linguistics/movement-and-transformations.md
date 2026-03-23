@@ -15,7 +15,7 @@ tags:
 - syntax
 - transformations
 - displacement
-stage: advanced
+stage: expert
 status: draft
 ---
 

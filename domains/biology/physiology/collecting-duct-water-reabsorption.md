@@ -12,7 +12,7 @@ tags:
 - adh
 - aquaporins
 - urine-concentration
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

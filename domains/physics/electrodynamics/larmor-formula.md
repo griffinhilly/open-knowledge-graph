@@ -15,7 +15,7 @@ tags:
 - power
 - larmor
 - acceleration
-stage: advanced
+stage: expert
 status: draft
 ---
 

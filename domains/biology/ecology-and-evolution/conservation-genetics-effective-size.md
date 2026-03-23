@@ -18,7 +18,7 @@ tags:
 - effective-size
 - inbreeding-depression
 - genetic-diversity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

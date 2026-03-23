@@ -16,7 +16,7 @@ tags:
 - astrocytes
 - oligodendrocytes
 - microglia
-stage: advanced
+stage: expert
 status: draft
 ---
 

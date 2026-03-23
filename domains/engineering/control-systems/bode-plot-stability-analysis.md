@@ -22,7 +22,7 @@ tags:
 - loop-gain
 - open-loop
 - frequency-domain
-stage: advanced
+stage: expert
 status: validated
 ---
 

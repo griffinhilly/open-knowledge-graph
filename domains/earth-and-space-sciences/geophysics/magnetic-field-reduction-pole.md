@@ -14,7 +14,7 @@ tags:
 - magnetic
 - reduction-to-pole
 - anomaly
-stage: advanced
+stage: expert
 status: draft
 ---
 

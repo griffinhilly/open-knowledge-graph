@@ -16,7 +16,7 @@ tags:
 - downward LS
 - countable model
 - countable theory
-stage: advanced
+stage: expert
 status: draft
 ---
 

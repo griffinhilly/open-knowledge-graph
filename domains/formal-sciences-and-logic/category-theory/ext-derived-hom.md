@@ -15,7 +15,7 @@ tags:
 - derived-functors
 - homological-algebra
 - extensions
-stage: advanced
+stage: expert
 status: draft
 ---
 

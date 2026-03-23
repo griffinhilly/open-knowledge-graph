@@ -16,7 +16,7 @@ tags:
 - pulmonary-edema
 - hydrostatic-pressure
 - hypoxemia
-stage: advanced
+stage: expert
 status: draft
 ---
 

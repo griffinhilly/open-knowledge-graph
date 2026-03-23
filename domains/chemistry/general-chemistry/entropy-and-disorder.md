@@ -15,7 +15,7 @@ tags:
 - entropy
 - disorder
 - second law
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

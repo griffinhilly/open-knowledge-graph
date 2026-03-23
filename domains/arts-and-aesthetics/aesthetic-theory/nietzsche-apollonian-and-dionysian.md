@@ -14,7 +14,7 @@ tags:
 - Dionysus
 - tragedy
 - artistic creation
-stage: advanced
+stage: expert
 status: draft
 ---
 

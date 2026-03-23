@@ -13,7 +13,7 @@ tags:
 - education
 - growth
 - time-allocation
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - erp
 - components
 - cognition
-stage: advanced
+stage: expert
 status: draft
 ---
 

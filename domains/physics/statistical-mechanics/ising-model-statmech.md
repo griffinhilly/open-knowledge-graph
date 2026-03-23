@@ -15,7 +15,7 @@ tags:
 - ising-model
 - magnetism
 - phase-transition
-stage: advanced
+stage: expert
 status: draft
 ---
 

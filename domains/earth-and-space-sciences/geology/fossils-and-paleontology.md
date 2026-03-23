@@ -19,7 +19,7 @@ tags:
 - index-fossils
 - trace-fossils
 - evolution
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Fossils and Paleontology

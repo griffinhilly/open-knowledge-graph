@@ -16,7 +16,7 @@ tags:
 - hairpins
 - pseudoknots
 - self-complementarity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

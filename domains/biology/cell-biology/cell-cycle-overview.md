@@ -18,7 +18,7 @@ tags:
 - S-phase
 - G2
 - division
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

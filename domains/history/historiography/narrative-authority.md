@@ -17,7 +17,7 @@ tags:
 - narrative
 - authority
 - representation
-stage: advanced
+stage: expert
 status: draft
 ---
 

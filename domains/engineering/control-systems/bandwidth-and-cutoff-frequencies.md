@@ -14,7 +14,7 @@ tags:
 - cutoff-frequency
 - frequency-domain
 - specifications
-stage: advanced
+stage: expert
 status: draft
 ---
 

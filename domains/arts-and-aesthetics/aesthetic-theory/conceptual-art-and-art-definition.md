@@ -21,7 +21,7 @@ tags:
 - aesthetics
 - art-object
 - meaning
-stage: advanced
+stage: expert
 status: draft
 ---
 

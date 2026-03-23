@@ -13,7 +13,7 @@ tags:
 - anisotropy
 - shear-wave-splitting
 - wave-propagation
-stage: advanced
+stage: expert
 status: draft
 ---
 

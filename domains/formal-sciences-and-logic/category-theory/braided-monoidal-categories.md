@@ -16,7 +16,7 @@ tags:
 - Yang-Baxter
 - quantum
 - knot-invariants
-stage: advanced
+stage: expert
 status: draft
 ---
 

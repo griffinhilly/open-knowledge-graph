@@ -24,7 +24,7 @@ tags:
 - exploratory
 - latent-variables
 - dimensionality
-stage: advanced
+stage: expert
 status: draft
 ---
 

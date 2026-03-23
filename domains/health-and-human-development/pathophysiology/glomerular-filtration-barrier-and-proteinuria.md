@@ -16,7 +16,7 @@ tags:
 - proteinuria
 - albuminuria
 - podocytes
-stage: advanced
+stage: expert
 status: draft
 ---
 

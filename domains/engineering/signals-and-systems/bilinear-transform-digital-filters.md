@@ -15,7 +15,7 @@ tags:
 - digital-filters
 - discretization
 - z-transform
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - measurement
 - capabilities
 - polarity
-stage: advanced
+stage: expert
 status: draft
 ---
 # Power and Capabilities Distribution

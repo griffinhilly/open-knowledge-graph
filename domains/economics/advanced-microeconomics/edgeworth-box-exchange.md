@@ -14,7 +14,7 @@ tags:
 - general-equilibrium
 - exchange
 - visualization
-stage: advanced
+stage: expert
 status: draft
 ---
 

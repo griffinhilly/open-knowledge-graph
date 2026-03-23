@@ -13,7 +13,7 @@ tags:
 - follow-up
 - cohort-studies
 - censoring
-stage: advanced
+stage: expert
 status: draft
 ---
 

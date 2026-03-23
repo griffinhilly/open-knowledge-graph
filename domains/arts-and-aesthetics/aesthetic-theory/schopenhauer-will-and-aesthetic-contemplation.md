@@ -16,7 +16,7 @@ tags:
 - contemplation
 - asceticism
 - metaphysics
-stage: advanced
+stage: expert
 status: draft
 ---
 

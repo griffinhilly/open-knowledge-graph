@@ -13,7 +13,7 @@ tags:
 - spinal cord
 - afferent
 - efferent
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

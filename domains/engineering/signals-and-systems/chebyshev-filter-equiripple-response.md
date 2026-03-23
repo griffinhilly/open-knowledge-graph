@@ -14,7 +14,7 @@ tags:
 - chebyshev
 - equiripple
 - ripple
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - high-latitude
 - albedo-feedback
 - ice-core
-stage: advanced
+stage: expert
 status: draft
 ---
 

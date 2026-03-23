@@ -13,7 +13,7 @@ tags:
 - psychotherapy
 - cognitive-therapy
 - evidence-based
-stage: advanced
+stage: expert
 status: draft
 ---
 

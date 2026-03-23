@@ -12,7 +12,7 @@ tags:
 - labels
 - categories
 - minimalism
-stage: advanced
+stage: expert
 status: draft
 ---
 

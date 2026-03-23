@@ -18,7 +18,7 @@ tags:
 - posture
 - locomotion
 - milestones
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

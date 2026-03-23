@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - hilbert-spaces
 - projections
-stage: advanced
+stage: expert
 status: draft
 ---
 

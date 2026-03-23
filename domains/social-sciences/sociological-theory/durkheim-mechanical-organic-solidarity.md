@@ -14,7 +14,7 @@ tags:
 - social-integration
 - tradition
 - modernity
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - waveguides
 - modes
 - confinement
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - stellar-evolution
 - red-giants
 - white-dwarfs
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

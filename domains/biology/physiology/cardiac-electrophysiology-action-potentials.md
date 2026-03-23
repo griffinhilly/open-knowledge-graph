@@ -17,7 +17,7 @@ tags:
 - cardiology
 - electrophysiology
 - ion-channels
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

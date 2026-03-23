@@ -18,7 +18,7 @@ tags:
 - lithosphere
 - processes
 - system
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - embedding
 - homomorphism-extension
 - partial-map
-stage: advanced
+stage: expert
 status: draft
 ---
 

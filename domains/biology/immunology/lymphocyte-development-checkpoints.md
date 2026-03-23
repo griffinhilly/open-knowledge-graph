@@ -19,7 +19,7 @@ tags:
 - positive-selection
 - negative-selection
 - lymphocyte-development
-stage: advanced
+stage: expert
 status: draft
 ---
 

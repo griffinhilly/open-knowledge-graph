@@ -17,7 +17,7 @@ tags:
 - perspective
 - bias
 - standpoint
-stage: advanced
+stage: expert
 status: draft
 ---
 # Objectivity in Historical Writing

@@ -14,7 +14,7 @@ tags:
 - natural-isomorphism
 - equivalence
 - universal-property
-stage: advanced
+stage: expert
 status: draft
 ---
 

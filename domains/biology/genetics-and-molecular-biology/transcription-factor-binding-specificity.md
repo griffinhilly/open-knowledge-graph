@@ -15,7 +15,7 @@ tags:
 - transcription-factors
 - binding-motifs
 - protein-dna-interactions
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Transcription Factor Binding Specificity and DNA Recognition

@@ -16,7 +16,7 @@ tags:
 - habitus
 - dispositions
 - internalization
-stage: advanced
+stage: expert
 status: draft
 ---
 

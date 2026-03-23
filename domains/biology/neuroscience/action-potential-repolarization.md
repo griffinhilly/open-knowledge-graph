@@ -15,7 +15,7 @@ tags:
 - action-potential
 - repolarization
 - temporal-dynamics
-stage: advanced
+stage: expert
 status: draft
 ---
 

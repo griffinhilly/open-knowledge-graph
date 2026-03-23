@@ -14,7 +14,7 @@ tags:
 - scaling-invariance
 - universality
 - fractal-structure
-stage: advanced
+stage: expert
 status: draft
 ---
 

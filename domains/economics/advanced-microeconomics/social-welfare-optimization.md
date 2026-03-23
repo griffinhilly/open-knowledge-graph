@@ -12,7 +12,7 @@ tags:
 - welfare-economics
 - social-choice
 - taxation
-stage: advanced
+stage: expert
 status: draft
 ---
 

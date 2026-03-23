@@ -16,7 +16,7 @@ tags:
 - prokaryotes
 - promoters
 - gene-regulation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

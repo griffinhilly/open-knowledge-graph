@@ -12,7 +12,7 @@ tags:
 - communication
 - accessibility
 - comprehension
-stage: advanced
+stage: expert
 status: draft
 ---
 

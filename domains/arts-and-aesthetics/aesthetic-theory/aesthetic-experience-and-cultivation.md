@@ -19,7 +19,7 @@ tags:
 - taste
 - experience
 - sensibility
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - patch-clamp
 - single-channel
 - whole-cell
-stage: advanced
+stage: expert
 status: draft
 ---
 

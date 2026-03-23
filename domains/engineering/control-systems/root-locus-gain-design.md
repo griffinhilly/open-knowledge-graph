@@ -15,7 +15,7 @@ tags:
 - natural-frequency
 - dominant-poles
 - performance-specs
-stage: advanced
+stage: expert
 status: draft
 ---
 

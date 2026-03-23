@@ -12,7 +12,7 @@ tags:
 - epithelial-mesenchymal-transition
 - cell-migration
 - plasticity
-stage: advanced
+stage: expert
 status: draft
 ---
 

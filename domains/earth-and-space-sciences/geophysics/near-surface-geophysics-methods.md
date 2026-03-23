@@ -13,7 +13,7 @@ tags:
 - shallow-geophysics
 - exploration
 - environmental
-stage: advanced
+stage: expert
 status: draft
 ---
 

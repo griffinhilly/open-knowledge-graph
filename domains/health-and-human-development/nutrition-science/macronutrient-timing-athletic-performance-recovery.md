@@ -16,7 +16,7 @@ tags:
 - performance
 - recovery
 - glycogen
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

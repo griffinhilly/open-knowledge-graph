@@ -16,7 +16,7 @@ tags:
 - force generation
 - recruitment
 - nervous system
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

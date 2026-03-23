@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - property-rights
 - incentives
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - chloroplast
 - photosynthesis
 - energy
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

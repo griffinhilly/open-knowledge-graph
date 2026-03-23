@@ -16,7 +16,7 @@ tags:
 - governance
 - cooperation
 - issue-area
-stage: advanced
+stage: expert
 status: draft
 ---
 

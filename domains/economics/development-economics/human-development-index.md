@@ -10,7 +10,7 @@ tags:
 - HDI
 - measurement
 - welfare
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - fermi-gas
 - density-of-states
 - dispersion
-stage: advanced
+stage: expert
 status: draft
 ---
 

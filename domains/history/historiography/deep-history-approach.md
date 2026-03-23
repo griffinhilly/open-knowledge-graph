@@ -14,7 +14,7 @@ tags:
 - deep history
 - timescale
 - longue durée
-stage: advanced
+stage: expert
 status: draft
 ---
 

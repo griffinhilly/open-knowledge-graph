@@ -21,7 +21,7 @@ tags:
 - phosphorus-cycle
 - nutrient-cycling
 - biogeochemistry
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - elementary-step
 - intermediate
 - kinetics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

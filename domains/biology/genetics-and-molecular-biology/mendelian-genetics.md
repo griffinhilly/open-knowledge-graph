@@ -24,7 +24,7 @@ tags:
 - law of independent assortment
 - monohybrid cross
 - Punnett square
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

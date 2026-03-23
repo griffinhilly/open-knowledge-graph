@@ -13,7 +13,7 @@ tags:
 - fermi-gas
 - electronic-structure
 - dispersion
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - pelagic sediments
 - deep-sea cores
 - paleoceanography
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

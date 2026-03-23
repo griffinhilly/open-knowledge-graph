@@ -12,7 +12,7 @@ tags:
 - iir-filter
 - filter-design
 - digital-filters
-stage: advanced
+stage: expert
 status: draft
 ---
 

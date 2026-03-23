@@ -14,7 +14,7 @@ tags:
 - power-transition
 - war
 - great-power
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - motor-systems
 - learning
-stage: advanced
+stage: expert
 status: draft
 ---
 

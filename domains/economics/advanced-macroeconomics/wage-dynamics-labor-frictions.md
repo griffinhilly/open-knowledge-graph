@@ -10,7 +10,7 @@ tags:
 - wages
 - labor-frictions
 - unemployment
-stage: advanced
+stage: expert
 status: draft
 ---
 

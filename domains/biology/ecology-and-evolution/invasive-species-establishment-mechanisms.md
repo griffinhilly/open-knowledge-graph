@@ -18,7 +18,7 @@ tags:
 - introduction
 - establishment
 - impact
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

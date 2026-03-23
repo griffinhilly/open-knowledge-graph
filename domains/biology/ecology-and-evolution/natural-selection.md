@@ -17,7 +17,7 @@ tags:
 - selection
 - fitness
 - adaptation
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

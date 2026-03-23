@@ -12,7 +12,7 @@ tags:
 - mechanism-design
 - auctions
 - incentive-compatibility
-stage: advanced
+stage: expert
 status: draft
 ---
 

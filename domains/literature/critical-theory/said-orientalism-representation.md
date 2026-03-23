@@ -17,7 +17,7 @@ tags:
 - colonial
 - representation
 - power
-stage: advanced
+stage: expert
 status: draft
 ---
 

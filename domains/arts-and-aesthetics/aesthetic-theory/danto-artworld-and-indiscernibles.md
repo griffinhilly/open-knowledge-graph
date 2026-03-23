@@ -14,7 +14,7 @@ tags:
 - indiscernibles
 - interpretation
 - visual identity
-stage: advanced
+stage: expert
 status: draft
 ---
 

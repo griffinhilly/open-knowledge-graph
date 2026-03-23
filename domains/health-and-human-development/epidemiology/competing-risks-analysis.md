@@ -12,7 +12,7 @@ tags:
 - survival-analysis
 - competing-events
 - cumulative-incidence
-stage: advanced
+stage: expert
 status: draft
 ---
 

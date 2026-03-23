@@ -14,7 +14,7 @@ tags:
 - approximation
 - phase-transitions
 - critical-behavior
-stage: advanced
+stage: expert
 status: draft
 ---
 

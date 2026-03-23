@@ -14,7 +14,7 @@ tags:
 - motor-development
 - hand-eye-coordination
 - grasp-development
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

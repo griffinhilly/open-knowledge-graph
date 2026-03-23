@@ -16,7 +16,7 @@ tags:
 - braiding
 - tensor
 - commutative
-stage: advanced
+stage: expert
 status: draft
 ---
 # Symmetric Monoidal Categories

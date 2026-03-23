@@ -15,7 +15,7 @@ tags:
 - operationalization
 - validity
 - indicators
-stage: advanced
+stage: expert
 status: draft
 ---
 

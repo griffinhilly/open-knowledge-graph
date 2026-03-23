@@ -16,7 +16,7 @@ tags:
 - predation
 - arms-race
 - evolution
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

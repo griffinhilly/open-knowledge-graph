@@ -15,7 +15,7 @@ tags:
 - atomic structure
 - mass
 - molar mass
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - scaffolding
 - sociocultural
 - private-speech
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

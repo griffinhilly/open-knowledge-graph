@@ -13,7 +13,7 @@ tags:
 - power
 - domination
 - legitimacy
-stage: advanced
+stage: expert
 status: draft
 ---
 

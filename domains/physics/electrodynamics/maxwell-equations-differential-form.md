@@ -21,7 +21,7 @@ tags:
 - maxwell-equations
 - pdes
 - differential-forms
-stage: advanced
+stage: expert
 status: draft
 ---
 

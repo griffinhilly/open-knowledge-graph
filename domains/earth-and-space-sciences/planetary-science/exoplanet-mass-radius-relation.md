@@ -13,7 +13,7 @@ tags:
 - mass-radius
 - composition
 - interior-structure
-stage: advanced
+stage: expert
 status: draft
 ---
 

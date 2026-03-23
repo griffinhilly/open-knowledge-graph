@@ -28,7 +28,7 @@ tags:
 - peer-relationships
 - self-esteem
 - school-age
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Cognitive and Social Development in Middle Childhood

@@ -16,7 +16,7 @@ tags:
 - fiber types
 - metabolism
 - exercise
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

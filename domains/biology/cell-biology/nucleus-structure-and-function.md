@@ -15,7 +15,7 @@ tags:
 - nucleus
 - chromatin
 - gene-regulation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

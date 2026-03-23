@@ -13,7 +13,7 @@ tags:
 - marginal-models
 - causal-inference
 - time-varying-treatment
-stage: advanced
+stage: expert
 status: draft
 ---
 

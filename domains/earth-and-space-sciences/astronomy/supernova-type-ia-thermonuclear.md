@@ -19,7 +19,7 @@ tags:
 - type-ia
 - thermonuclear
 - distance
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

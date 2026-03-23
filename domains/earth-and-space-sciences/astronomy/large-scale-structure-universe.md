@@ -14,7 +14,7 @@ tags:
 - large-scale-structure
 - cosmic-web
 - dark-matter
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

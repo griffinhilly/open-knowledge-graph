@@ -16,7 +16,7 @@ tags:
 - checkpoint-blockade
 - cancer-vaccines
 - therapeutic-efficacy
-stage: advanced
+stage: expert
 status: draft
 ---
 

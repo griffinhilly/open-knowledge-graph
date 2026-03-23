@@ -12,7 +12,7 @@ tags:
 - replication
 - end-replication-problem
 - chromosome-ends
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Telomeres and the End-Replication Problem

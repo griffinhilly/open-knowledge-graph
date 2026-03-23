@@ -16,7 +16,7 @@ tags:
 - autotuning
 - critical-frequency
 - model-estimation
-stage: advanced
+stage: expert
 status: draft
 ---
 

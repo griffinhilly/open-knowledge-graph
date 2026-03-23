@@ -10,7 +10,7 @@ tags:
 - person-fit
 - aberrant-responses
 - guttman-scale
-stage: advanced
+stage: expert
 status: draft
 ---
 

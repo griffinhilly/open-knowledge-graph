@@ -15,7 +15,7 @@ tags:
 - solids
 - phonons
 - heat-capacity
-stage: advanced
+stage: expert
 status: draft
 ---
 

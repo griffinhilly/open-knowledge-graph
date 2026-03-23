@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 tags:
 - measure-theory
-stage: advanced
+stage: expert
 status: draft
 ---
 

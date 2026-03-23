@@ -13,7 +13,7 @@ tags:
 - quantitative-methods
 - authorship
 - stylometry
-stage: advanced
+stage: expert
 status: draft
 ---
 

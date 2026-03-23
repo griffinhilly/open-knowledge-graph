@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - welfare-economics
 - policy-analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - symmetry
 - order-parameter
 - phase-transitions
-stage: advanced
+stage: expert
 status: draft
 ---
 

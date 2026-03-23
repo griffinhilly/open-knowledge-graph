@@ -18,7 +18,7 @@ tags:
 - hormonal-regulation
 - fed-state
 - fasted-state
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

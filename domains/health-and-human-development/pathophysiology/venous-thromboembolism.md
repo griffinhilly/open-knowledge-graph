@@ -14,7 +14,7 @@ tags:
 - venous-thromboembolism
 - dvt
 - pulmonary-embolism
-stage: advanced
+stage: expert
 status: draft
 ---
 

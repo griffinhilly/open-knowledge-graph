@@ -15,7 +15,7 @@ tags:
 - rhythm
 - meter
 - temporal-structure
-stage: advanced
+stage: expert
 status: draft
 ---
 

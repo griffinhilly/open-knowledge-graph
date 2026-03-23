@@ -16,7 +16,7 @@ tags:
 - index
 - forecast
 - instability
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - lakatos
 - research-programs
 - methodology
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - fermi-gas
 - degenerate-fermions
 - density-of-states
-stage: advanced
+stage: expert
 status: draft
 ---
 

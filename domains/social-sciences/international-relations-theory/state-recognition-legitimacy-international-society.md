@@ -15,7 +15,7 @@ tags:
 - international-society
 - statehood
 - identity
-stage: advanced
+stage: expert
 status: draft
 ---
 # State Recognition and International Legitimacy

@@ -23,7 +23,7 @@ tags:
 - industrial-organization
 - oligopoly
 - competition
-stage: advanced
+stage: expert
 status: draft
 ---
 

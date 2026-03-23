@@ -15,7 +15,7 @@ tags:
 - exactness
 - connecting-morphism
 - homological-algebra
-stage: advanced
+stage: expert
 status: draft
 ---
 

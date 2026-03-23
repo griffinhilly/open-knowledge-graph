@@ -17,7 +17,7 @@ tags:
 - apparent-competition
 - indirect-effects
 - predation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -10,7 +10,7 @@ tags:
 - technology
 - leapfrogging
 - mobile
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -10,7 +10,7 @@ tags:
 - lucas-model
 - human-capital
 - education
-stage: advanced
+stage: expert
 status: draft
 ---
 

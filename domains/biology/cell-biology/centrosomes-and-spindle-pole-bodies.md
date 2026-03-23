@@ -15,7 +15,7 @@ tags:
 - centrosomes
 - MTOC
 - spindle-poles
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

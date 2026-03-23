@@ -21,7 +21,7 @@ tags:
 - temperament
 - acoustics
 - intonation
-stage: advanced
+stage: expert
 status: draft
 ---
 

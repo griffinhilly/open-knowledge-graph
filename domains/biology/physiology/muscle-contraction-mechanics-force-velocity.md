@@ -15,7 +15,7 @@ tags:
 - biomechanics
 - contraction
 - power
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

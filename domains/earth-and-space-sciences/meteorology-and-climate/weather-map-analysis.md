@@ -18,7 +18,7 @@ tags:
 - synoptic-map
 - weather-forecasting
 - surface-analysis
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

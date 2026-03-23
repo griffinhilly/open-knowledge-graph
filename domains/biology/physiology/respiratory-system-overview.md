@@ -17,7 +17,7 @@ tags:
 - alveoli
 - ventilation
 - surfactant
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

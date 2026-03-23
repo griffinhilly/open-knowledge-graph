@@ -15,7 +15,7 @@ tags:
 - exposure-response
 - effect-estimation
 - causality-criteria
-stage: advanced
+stage: expert
 status: draft
 ---
 

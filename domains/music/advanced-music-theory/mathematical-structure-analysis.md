@@ -23,7 +23,7 @@ tags:
 - symmetry
 - structure
 - form
-stage: advanced
+stage: expert
 status: draft
 ---
 

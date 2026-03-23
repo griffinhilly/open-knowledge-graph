@@ -12,7 +12,7 @@ tags:
 - canon
 - representation
 - embodiment
-stage: advanced
+stage: expert
 status: draft
 ---
 

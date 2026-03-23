@@ -12,7 +12,7 @@ tags:
 - aesthetics
 - beauty
 - experience
-stage: advanced
+stage: expert
 status: draft
 ---
 

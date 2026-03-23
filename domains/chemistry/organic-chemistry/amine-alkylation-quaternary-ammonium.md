@@ -15,7 +15,7 @@ tags:
 - quaternary-ammonium
 - hofmann-elimination
 - sn2
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

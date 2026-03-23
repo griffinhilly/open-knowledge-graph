@@ -17,7 +17,7 @@ tags:
 - adjunction
 - hom-sets
 - natural-transformation
-stage: advanced
+stage: expert
 status: draft
 ---
 

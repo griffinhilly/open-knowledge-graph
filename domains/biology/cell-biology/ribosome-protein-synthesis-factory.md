@@ -15,7 +15,7 @@ tags:
 - ribosome
 - translation
 - protein
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

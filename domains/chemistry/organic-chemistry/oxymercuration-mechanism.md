@@ -16,7 +16,7 @@ tags:
 - mercury
 - mechanism
 - alcohol-synthesis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

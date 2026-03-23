@@ -15,7 +15,7 @@ tags:
 - galvanic cells
 - spontaneous
 - redox
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

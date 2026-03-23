@@ -14,7 +14,7 @@ tags:
 - ER
 - lipid-synthesis
 - calcium-storage
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - kernels
 - images
 - homology
-stage: advanced
+stage: expert
 status: draft
 ---
 

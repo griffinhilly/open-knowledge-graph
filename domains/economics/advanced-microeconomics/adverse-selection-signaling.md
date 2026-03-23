@@ -15,7 +15,7 @@ tags:
 - contract-theory
 - information-asymmetry
 - communication
-stage: advanced
+stage: expert
 status: draft
 ---
 

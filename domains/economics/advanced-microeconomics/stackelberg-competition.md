@@ -15,7 +15,7 @@ prerequisites:
 tags:
 - industrial-organization
 - sequential-games
-stage: advanced
+stage: expert
 status: draft
 ---
 

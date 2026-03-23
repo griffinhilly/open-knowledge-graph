@@ -19,7 +19,7 @@ tags:
 - staggered
 - eclipsed
 - torsional strain
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -17,7 +17,7 @@ tags:
 - serialism
 - twelve-tone
 - row-organization
-stage: advanced
+stage: expert
 status: draft
 ---
 

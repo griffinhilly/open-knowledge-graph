@@ -17,7 +17,7 @@ tags:
 - stratification
 - weighting
 - covariate-balance
-stage: advanced
+stage: expert
 status: draft
 ---
 

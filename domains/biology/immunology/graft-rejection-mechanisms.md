@@ -19,7 +19,7 @@ tags:
 - chronic-rejection
 - HLA-matching
 - alloimmunity
-stage: advanced
+stage: expert
 status: draft
 ---
 

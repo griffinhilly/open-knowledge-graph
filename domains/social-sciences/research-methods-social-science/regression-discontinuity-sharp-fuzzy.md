@@ -12,7 +12,7 @@ tags:
 - regression-discontinuity
 - rdd
 - threshold
-stage: advanced
+stage: expert
 status: draft
 ---
 

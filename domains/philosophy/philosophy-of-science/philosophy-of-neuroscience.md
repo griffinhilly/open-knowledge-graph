@@ -13,7 +13,7 @@ tags:
 - consciousness
 - reduction
 - neural-correlates
-stage: advanced
+stage: expert
 status: draft
 ---
 

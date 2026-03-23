@@ -12,7 +12,7 @@ tags:
 - anisotropy
 - shear-wave-splitting
 - polarization
-stage: advanced
+stage: expert
 status: draft
 ---
 

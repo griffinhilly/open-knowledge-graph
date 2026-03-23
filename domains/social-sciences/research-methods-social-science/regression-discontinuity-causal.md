@@ -19,7 +19,7 @@ tags:
 - threshold-assignment
 - local-polynomial
 - fuzzy-RD
-stage: advanced
+stage: expert
 status: draft
 ---
 

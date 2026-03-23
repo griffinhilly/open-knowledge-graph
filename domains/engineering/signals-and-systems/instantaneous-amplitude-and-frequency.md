@@ -13,7 +13,7 @@ tags:
 - instantaneous-frequency
 - amplitude-modulation
 - analytic-signal
-stage: advanced
+stage: expert
 status: draft
 ---
 

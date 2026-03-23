@@ -14,7 +14,7 @@ tags:
 - rate-adjustment
 - age-standardization
 - population-comparison
-stage: advanced
+stage: expert
 status: draft
 ---
 

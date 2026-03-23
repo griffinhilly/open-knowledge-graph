@@ -19,7 +19,7 @@ tags:
 - shock
 - hypoperfusion
 - organ-failure
-stage: advanced
+stage: expert
 status: draft
 ---
 

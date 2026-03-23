@@ -13,7 +13,7 @@ tags:
 - cultural-capital
 - inequality
 - reproduction
-stage: advanced
+stage: expert
 status: draft
 ---
 

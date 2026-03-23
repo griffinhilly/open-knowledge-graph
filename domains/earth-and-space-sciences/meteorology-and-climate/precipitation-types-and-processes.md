@@ -20,7 +20,7 @@ tags:
 - hail
 - Bergeron-process
 - coalescence
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

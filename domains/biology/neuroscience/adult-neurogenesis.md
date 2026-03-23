@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - neural-development
 - plasticity
-stage: advanced
+stage: expert
 status: draft
 ---
 

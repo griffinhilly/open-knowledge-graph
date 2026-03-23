@@ -19,7 +19,7 @@ tags:
 - taxonomy
 - textual-relations
 - theory
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - improvisation
 - harmony
 - analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

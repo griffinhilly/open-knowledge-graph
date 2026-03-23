@@ -10,7 +10,7 @@ tags:
 - extension
 - rifting
 - tectonics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

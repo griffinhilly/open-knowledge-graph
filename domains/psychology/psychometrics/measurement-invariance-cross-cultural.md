@@ -16,7 +16,7 @@ tags:
 - cross-cultural
 - measurement-invariance
 - test-adaptation
-stage: advanced
+stage: expert
 status: draft
 ---
 

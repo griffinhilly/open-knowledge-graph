@@ -20,7 +20,7 @@ tags:
 - interchange law
 - Cat
 - bicategory
-stage: advanced
+stage: expert
 status: draft
 ---
 # 2-Categories

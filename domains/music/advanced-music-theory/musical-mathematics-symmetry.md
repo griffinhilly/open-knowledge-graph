@@ -21,7 +21,7 @@ tags:
 - mathematics
 - symmetry
 - structure
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -21,7 +21,7 @@ tags:
 - neurodevelopment
 - neural-plasticity
 - brain-maturation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

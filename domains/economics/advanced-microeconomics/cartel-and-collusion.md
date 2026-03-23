@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - industrial-organization
 - collusion
-stage: advanced
+stage: expert
 status: draft
 ---
 

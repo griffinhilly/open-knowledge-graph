@@ -16,7 +16,7 @@ tags:
 - conditioning
 - learning
 - memory
-stage: advanced
+stage: expert
 status: draft
 ---
 

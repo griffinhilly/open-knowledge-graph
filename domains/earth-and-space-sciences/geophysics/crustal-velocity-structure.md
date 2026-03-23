@@ -15,7 +15,7 @@ tags:
 - velocity
 - seismic
 - structure
-stage: advanced
+stage: expert
 status: draft
 ---
 

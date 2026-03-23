@@ -22,7 +22,7 @@ tags:
 - metabolism
 - energy-balance
 - hormonal-integration
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

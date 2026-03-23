@@ -13,7 +13,7 @@ tags:
 - manuscripts
 - revision
 - authorship
-stage: advanced
+stage: expert
 status: draft
 ---
 

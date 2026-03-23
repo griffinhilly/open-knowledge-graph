@@ -15,7 +15,7 @@ tags:
 - power
 - inequality
 - domination
-stage: advanced
+stage: expert
 status: draft
 ---
 

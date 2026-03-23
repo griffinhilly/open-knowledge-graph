@@ -15,7 +15,7 @@ tags:
 - amino-acid-requirements
 - essential-amino-acids
 - protein-quality
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

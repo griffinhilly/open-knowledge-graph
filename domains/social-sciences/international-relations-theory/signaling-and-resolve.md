@@ -16,7 +16,7 @@ tags:
 - signaling
 - credibility
 - game-theory
-stage: advanced
+stage: expert
 status: draft
 ---
 

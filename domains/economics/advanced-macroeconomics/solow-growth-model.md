@@ -22,7 +22,7 @@ tags:
 - growth-models
 - neoclassical
 - capital-accumulation
-stage: advanced
+stage: expert
 status: draft
 ---
 

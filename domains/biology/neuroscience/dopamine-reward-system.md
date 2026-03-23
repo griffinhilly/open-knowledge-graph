@@ -14,7 +14,7 @@ tags:
 - reward
 - motivation
 - movement
-stage: advanced
+stage: expert
 status: draft
 ---
 

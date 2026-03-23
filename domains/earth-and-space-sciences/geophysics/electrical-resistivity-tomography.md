@@ -13,7 +13,7 @@ tags:
 - resistivity
 - tomography
 - imaging
-stage: advanced
+stage: expert
 status: draft
 ---
 

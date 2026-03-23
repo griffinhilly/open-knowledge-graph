@@ -25,7 +25,7 @@ tags:
 - endogeneity
 - two-stage-least-squares
 - IV-validity
-stage: advanced
+stage: expert
 status: draft
 ---
 

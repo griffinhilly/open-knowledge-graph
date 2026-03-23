@@ -20,7 +20,7 @@ tags:
 - class
 - gender
 - Anzaldúa
-stage: advanced
+stage: expert
 status: validated
 ---
 

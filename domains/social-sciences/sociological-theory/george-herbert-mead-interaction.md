@@ -13,7 +13,7 @@ tags:
 - interaction
 - self
 - mind
-stage: advanced
+stage: expert
 status: draft
 ---
 

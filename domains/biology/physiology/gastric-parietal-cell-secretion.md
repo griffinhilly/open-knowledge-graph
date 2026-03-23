@@ -12,7 +12,7 @@ tags:
 - parietal-cells
 - proton-pump
 - intrinsic-factor
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

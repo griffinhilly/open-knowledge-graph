@@ -14,7 +14,7 @@ tags:
 - artworld
 - definition
 - transfiguration
-stage: advanced
+stage: expert
 status: draft
 ---
 

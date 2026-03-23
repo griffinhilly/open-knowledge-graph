@@ -12,7 +12,7 @@ tags:
 - sensorimotor
 - action
 - reaching
-stage: advanced
+stage: expert
 status: draft
 ---
 

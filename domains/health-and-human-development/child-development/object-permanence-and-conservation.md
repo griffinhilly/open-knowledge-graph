@@ -17,7 +17,7 @@ tags:
 - piagetian
 - symbolic-thought
 - logical-operations
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

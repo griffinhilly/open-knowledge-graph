@@ -13,7 +13,7 @@ tags:
 - sir-model
 - modeling
 - disease-transmission
-stage: advanced
+stage: expert
 status: draft
 ---
 

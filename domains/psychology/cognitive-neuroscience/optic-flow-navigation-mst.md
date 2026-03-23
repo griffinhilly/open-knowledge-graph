@@ -17,7 +17,7 @@ tags:
 - navigation
 - motion
 - self-motion
-stage: advanced
+stage: expert
 status: draft
 ---
 

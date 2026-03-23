@@ -20,7 +20,7 @@ tags:
 - anaphase
 - telophase
 - chromosomes
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Mitosis

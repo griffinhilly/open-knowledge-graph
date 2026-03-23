@@ -22,7 +22,7 @@ tags:
 - magma
 - crystallization
 - petrology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

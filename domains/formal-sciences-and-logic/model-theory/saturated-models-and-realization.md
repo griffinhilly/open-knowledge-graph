@@ -14,7 +14,7 @@ tags:
 - κ-saturated
 - universal properties
 - homogeneity
-stage: advanced
+stage: expert
 status: draft
 ---
 

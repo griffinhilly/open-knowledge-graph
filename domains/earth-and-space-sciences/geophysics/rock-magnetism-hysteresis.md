@@ -13,7 +13,7 @@ tags:
 - rock-magnetism
 - domains
 - hysteresis
-stage: advanced
+stage: expert
 status: draft
 ---
 

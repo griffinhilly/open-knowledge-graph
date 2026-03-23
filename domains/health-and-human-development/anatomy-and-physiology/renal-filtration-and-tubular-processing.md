@@ -18,7 +18,7 @@ tags:
 - tubular-reabsorption
 - selectivity
 - gfr
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

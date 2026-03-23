@@ -14,7 +14,7 @@ tags:
 - memory-t-cells
 - effector-memory
 - central-memory
-stage: advanced
+stage: expert
 status: draft
 ---
 

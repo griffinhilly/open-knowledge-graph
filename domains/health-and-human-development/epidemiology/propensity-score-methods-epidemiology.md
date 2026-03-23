@@ -14,7 +14,7 @@ tags:
 - confounding-control
 - causal-inference
 - covariate-balance
-stage: advanced
+stage: expert
 status: draft
 ---
 

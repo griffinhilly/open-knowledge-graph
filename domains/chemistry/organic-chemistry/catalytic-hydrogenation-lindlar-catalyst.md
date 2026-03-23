@@ -18,7 +18,7 @@ tags:
 - reduction
 - syn-addition
 - stereoselectivity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

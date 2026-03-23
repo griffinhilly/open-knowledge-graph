@@ -17,7 +17,7 @@ tags:
 - emotion
 - bodily-awareness
 - consciousness
-stage: advanced
+stage: expert
 status: draft
 ---
 

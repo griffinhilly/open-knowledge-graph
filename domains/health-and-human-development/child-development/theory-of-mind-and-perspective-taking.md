@@ -18,7 +18,7 @@ tags:
 - mentalizing
 - perspective-taking
 - cognitive-development
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

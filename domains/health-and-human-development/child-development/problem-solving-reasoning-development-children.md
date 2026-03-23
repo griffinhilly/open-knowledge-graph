@@ -14,7 +14,7 @@ tags:
 - problem-solving
 - logic
 - strategy-development
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

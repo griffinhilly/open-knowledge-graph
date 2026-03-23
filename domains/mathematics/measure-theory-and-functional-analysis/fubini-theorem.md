@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - integration
 - fubini-theorem
-stage: advanced
+stage: expert
 status: draft
 ---
 

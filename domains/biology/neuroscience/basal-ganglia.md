@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - motor-systems
 - action-selection
-stage: advanced
+stage: expert
 status: draft
 ---
 

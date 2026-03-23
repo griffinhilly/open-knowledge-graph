@@ -29,7 +29,7 @@ tags:
 - Km
 - inhibition
 - kinetics
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

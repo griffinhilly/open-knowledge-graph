@@ -18,7 +18,7 @@ tags:
 - direction-selectivity
 - speed-selectivity
 - optical-flow
-stage: advanced
+stage: expert
 status: draft
 ---
 

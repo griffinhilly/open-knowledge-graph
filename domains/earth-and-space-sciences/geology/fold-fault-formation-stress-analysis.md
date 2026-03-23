@@ -12,7 +12,7 @@ tags:
 - structural-geology
 - tectonics
 - deformation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

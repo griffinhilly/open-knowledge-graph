@@ -15,7 +15,7 @@ tags:
 - ensemble
 - isolated-system
 - constant-energy
-stage: advanced
+stage: expert
 status: draft
 ---
 

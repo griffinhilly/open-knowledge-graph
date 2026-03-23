@@ -24,7 +24,7 @@ tags:
 - thermohaline
 - SST
 - upwelling
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Ocean–Atmosphere Interactions

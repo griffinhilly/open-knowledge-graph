@@ -17,7 +17,7 @@ tags:
 - evolution
 - mechanisms
 - natural-selection
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

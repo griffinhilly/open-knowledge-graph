@@ -13,7 +13,7 @@ tags:
 - digital
 - composition
 - sound-design
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - polarity
 - periodic-trends
 - bonding
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

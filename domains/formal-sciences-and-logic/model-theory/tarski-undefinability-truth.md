@@ -15,7 +15,7 @@ tags:
 - tarski
 - truth
 - undefinability
-stage: advanced
+stage: expert
 status: draft
 ---
 

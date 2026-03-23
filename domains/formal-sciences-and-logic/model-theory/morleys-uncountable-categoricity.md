@@ -13,7 +13,7 @@ tags:
 - uncountable categoricity
 - ω-stability
 - transcendental
-stage: advanced
+stage: expert
 status: draft
 ---
 

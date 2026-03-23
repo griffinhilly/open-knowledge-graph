@@ -15,7 +15,7 @@ tags:
 - chronic-inflammation
 - macrophages
 - epithelioid-cells
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - moons
 - habitability
 - interior-heat
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - medication
 - bipolar
 - anxiety
-stage: advanced
+stage: expert
 status: draft
 ---
 

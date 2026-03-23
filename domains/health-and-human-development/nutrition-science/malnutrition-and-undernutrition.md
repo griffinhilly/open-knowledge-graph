@@ -19,7 +19,7 @@ tags:
 - kwashiorkor
 - marasmus
 - food security
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Malnutrition, Undernutrition, and Global Food Security

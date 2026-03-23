@@ -33,7 +33,7 @@ tags:
 - cocone
 - diagram
 - completeness
-stage: advanced
+stage: expert
 status: validated
 ---
 # Limits and Colimits

@@ -14,7 +14,7 @@ tags:
 - gravity
 - crustal-structure
 - inversion
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -10,7 +10,7 @@ tags:
 - rationality
 - consistency
 - preferences
-stage: advanced
+stage: expert
 status: draft
 ---
 

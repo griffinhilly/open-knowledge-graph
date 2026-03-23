@@ -14,7 +14,7 @@ tags:
 - bose-gas
 - phase-transition
 - quantum-statistics
-stage: advanced
+stage: expert
 status: draft
 ---
 

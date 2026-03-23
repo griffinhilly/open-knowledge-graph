@@ -20,7 +20,7 @@ tags:
 - Schwarzschild-radius
 - compact-objects
 - Type-Ia-supernova
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Stellar End States: White Dwarfs, Neutron Stars, and Black Holes

@@ -15,7 +15,7 @@ tags:
 - algebraic variety
 - model-theoretic geometry
 - Zilber-Pink
-stage: advanced
+stage: expert
 status: draft
 ---
 

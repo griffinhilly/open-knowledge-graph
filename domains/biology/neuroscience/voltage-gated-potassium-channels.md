@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - ion-channels
 - repolarization
-stage: advanced
+stage: expert
 status: draft
 ---
 

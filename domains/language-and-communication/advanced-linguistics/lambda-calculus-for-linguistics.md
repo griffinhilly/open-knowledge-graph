@@ -14,7 +14,7 @@ tags:
 - semantics
 - formal
 - logic
-stage: advanced
+stage: expert
 status: draft
 ---
 

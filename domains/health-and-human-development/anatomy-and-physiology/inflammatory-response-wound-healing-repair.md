@@ -26,7 +26,7 @@ tags:
 - inflammation
 - wound-healing
 - tissue-repair
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

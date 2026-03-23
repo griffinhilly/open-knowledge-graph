@@ -15,7 +15,7 @@ tags:
 - order-parameter
 - symmetry-breaking
 - magnetization
-stage: advanced
+stage: expert
 status: draft
 ---
 

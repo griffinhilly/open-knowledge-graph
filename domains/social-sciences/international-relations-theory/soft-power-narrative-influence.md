@@ -14,7 +14,7 @@ tags:
 - influence
 - narrative
 - legitimacy
-stage: advanced
+stage: expert
 status: draft
 ---
 

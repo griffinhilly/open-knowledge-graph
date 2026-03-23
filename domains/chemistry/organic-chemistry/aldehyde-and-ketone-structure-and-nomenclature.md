@@ -20,7 +20,7 @@ tags:
 - carbonyl
 - nomenclature
 - structure
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

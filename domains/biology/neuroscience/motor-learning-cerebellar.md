@@ -15,7 +15,7 @@ tags:
 - motor-learning
 - adaptation
 - cerebellum
-stage: advanced
+stage: expert
 status: draft
 ---
 

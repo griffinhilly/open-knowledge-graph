@@ -18,7 +18,7 @@ tags:
 - outbreak-dynamics
 - infectious-disease
 - pathogen
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - faithfulness
 - optimality-theory
 - phonology
-stage: advanced
+stage: expert
 status: draft
 ---
 

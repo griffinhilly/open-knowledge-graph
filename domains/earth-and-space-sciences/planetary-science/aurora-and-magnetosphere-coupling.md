@@ -13,7 +13,7 @@ tags:
 - aurora
 - ionosphere
 - particle-acceleration
-stage: advanced
+stage: expert
 status: draft
 ---
 

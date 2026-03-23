@@ -12,7 +12,7 @@ tags:
 - power
 - knowledge
 - foucault
-stage: advanced
+stage: expert
 status: draft
 ---
 

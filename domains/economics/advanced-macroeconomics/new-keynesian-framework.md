@@ -20,7 +20,7 @@ tags:
 - new-keynesian
 - nominal-rigidities
 - imperfect-competition
-stage: advanced
+stage: expert
 status: draft
 ---
 

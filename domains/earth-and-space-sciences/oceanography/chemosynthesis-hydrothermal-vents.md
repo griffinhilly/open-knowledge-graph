@@ -13,7 +13,7 @@ tags:
 - hydrothermal-vents
 - sulfide-oxidation
 - deep-sea
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -19,7 +19,7 @@ tags:
 - wave height
 - fetch
 - dispersion
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

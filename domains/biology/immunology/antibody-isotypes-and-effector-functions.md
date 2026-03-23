@@ -14,7 +14,7 @@ tags:
 - antibody-isotypes
 - effector-functions
 - fc-receptors
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -10,7 +10,7 @@ tags:
 - agriculture
 - technology
 - productivity
-stage: advanced
+stage: expert
 status: draft
 ---
 

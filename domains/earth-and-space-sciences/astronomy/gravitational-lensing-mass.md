@@ -22,7 +22,7 @@ tags:
 - gravitational-lensing
 - dark-matter
 - mass-reconstruction
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

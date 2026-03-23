@@ -12,7 +12,7 @@ tags:
 - coagulation
 - thrombin
 - platelet-plug
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

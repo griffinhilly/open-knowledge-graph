@@ -15,7 +15,7 @@ tags:
 - coffee-cup-calorimeter
 - bomb-calorimeter
 - q-equals-mcDeltaT
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Heat Capacity and Calorimetry

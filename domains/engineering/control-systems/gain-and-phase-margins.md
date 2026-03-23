@@ -19,7 +19,7 @@ tags:
 - stability-margin
 - robustness
 - crossover-frequency
-stage: advanced
+stage: expert
 status: validated
 ---
 # Gain and Phase Margins

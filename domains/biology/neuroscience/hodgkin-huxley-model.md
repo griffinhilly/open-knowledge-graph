@@ -21,7 +21,7 @@ tags:
 - hh-model
 - conductance
 - gating-variables
-stage: advanced
+stage: expert
 status: draft
 ---
 

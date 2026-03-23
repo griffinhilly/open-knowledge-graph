@@ -13,7 +13,7 @@ tags:
 - plate-boundaries
 - tectonics
 - deformation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

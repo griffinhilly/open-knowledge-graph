@@ -21,7 +21,7 @@ tags:
 - oxygen-binding
 - cooperativity
 - oxygen-content
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

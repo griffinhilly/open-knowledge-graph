@@ -12,7 +12,7 @@ tags:
 - bleeding
 - coagulation-disorders
 - hemophilia
-stage: advanced
+stage: expert
 status: draft
 ---
 

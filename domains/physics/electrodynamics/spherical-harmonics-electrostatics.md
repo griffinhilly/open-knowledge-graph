@@ -18,7 +18,7 @@ tags:
 - special-functions
 - boundary-value-problems
 - legendre-polynomials
-stage: advanced
+stage: expert
 status: draft
 ---
 # Spherical Harmonics in Electrostatics

@@ -18,7 +18,7 @@ tags:
 - top-down
 - food-web
 - keystone
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

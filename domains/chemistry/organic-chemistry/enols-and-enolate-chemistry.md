@@ -19,7 +19,7 @@ tags:
 - keto-enol tautomerism
 - Claisen
 - alpha alkylation
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Enols, Enolates, and the Aldol Reaction

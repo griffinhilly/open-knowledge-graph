@@ -16,7 +16,7 @@ tags:
 - inflammation
 - chronic-disease
 - fibrosis
-stage: advanced
+stage: expert
 status: draft
 ---
 

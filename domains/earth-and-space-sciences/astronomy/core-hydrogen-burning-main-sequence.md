@@ -12,7 +12,7 @@ tags:
 - stellar-evolution
 - nuclear-fusion
 - main-sequence
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

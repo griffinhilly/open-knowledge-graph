@@ -13,7 +13,7 @@ tags:
 - demarcation
 - scientific-method
 - pseudoscience
-stage: advanced
+stage: expert
 status: draft
 ---
 

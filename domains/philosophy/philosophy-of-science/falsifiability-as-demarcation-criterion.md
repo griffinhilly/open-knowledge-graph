@@ -12,7 +12,7 @@ tags:
 - falsifiability
 - demarcation
 - testability
-stage: advanced
+stage: expert
 status: draft
 ---
 

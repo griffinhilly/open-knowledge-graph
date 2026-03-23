@@ -14,7 +14,7 @@ tags:
 - volutrauma
 - biotrauma
 - lung-injury
-stage: advanced
+stage: expert
 status: draft
 ---
 

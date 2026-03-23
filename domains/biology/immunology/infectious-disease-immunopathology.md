@@ -16,7 +16,7 @@ tags:
 - immune-response
 - pathogen-burden
 - inflammation
-stage: advanced
+stage: expert
 status: draft
 ---
 

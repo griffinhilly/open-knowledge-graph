@@ -17,7 +17,7 @@ tags:
 - faithful functor
 - embedding
 - subcategory
-stage: advanced
+stage: expert
 status: validated
 ---
 

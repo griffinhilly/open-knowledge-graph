@@ -13,7 +13,7 @@ tags:
 - critical-point
 - scaling
 - universality
-stage: advanced
+stage: expert
 status: draft
 ---
 

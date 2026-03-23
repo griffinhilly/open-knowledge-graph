@@ -18,7 +18,7 @@ tags:
 - wind
 - three-cell-model
 - zonal
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

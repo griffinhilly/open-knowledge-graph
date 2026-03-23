@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 tags:
 - integration
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - indiscernibles
 - morley
 - categoricity
-stage: advanced
+stage: expert
 status: draft
 ---
 

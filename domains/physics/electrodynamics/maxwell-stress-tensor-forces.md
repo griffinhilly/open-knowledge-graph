@@ -12,7 +12,7 @@ tags:
 - stress-tensor
 - field-forces
 - radiation-pressure
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - confounding
 - weighting
 - marginal-effects
-stage: advanced
+stage: expert
 status: draft
 ---
 

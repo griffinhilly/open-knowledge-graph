@@ -18,7 +18,7 @@ tags:
 - koppen
 - climate-type
 - temperature-precipitation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

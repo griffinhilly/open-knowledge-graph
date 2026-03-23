@@ -16,7 +16,7 @@ tags:
 - game-theory
 - cooperation
 - dilemma
-stage: advanced
+stage: expert
 status: draft
 ---
 

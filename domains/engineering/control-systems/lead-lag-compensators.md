@@ -18,7 +18,7 @@ tags:
 - phase-contribution
 - frequency-domain-design
 - compensator
-stage: advanced
+stage: expert
 status: validated
 ---
 # Lead and Lag Compensators

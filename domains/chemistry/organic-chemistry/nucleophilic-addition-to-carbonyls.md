@@ -20,7 +20,7 @@ tags:
 - cyanohydrin
 - Grignard
 - reversibility
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

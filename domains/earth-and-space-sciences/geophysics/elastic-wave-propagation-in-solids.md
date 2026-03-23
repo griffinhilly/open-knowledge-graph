@@ -23,7 +23,7 @@ tags:
 - waves
 - continuum-mechanics
 - elasticity
-stage: advanced
+stage: expert
 status: draft
 ---
 

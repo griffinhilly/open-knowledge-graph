@@ -12,7 +12,7 @@ tags:
 - first-order-systems
 - transient-response
 - steady-state
-stage: advanced
+stage: expert
 status: draft
 ---
 

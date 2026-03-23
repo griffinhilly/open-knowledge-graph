@@ -21,7 +21,7 @@ tags:
 - entropy
 - predictability
 - analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

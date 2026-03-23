@@ -16,7 +16,7 @@ tags:
 - great-power-conflict
 - organski
 - status-quo
-stage: advanced
+stage: expert
 status: draft
 ---
 

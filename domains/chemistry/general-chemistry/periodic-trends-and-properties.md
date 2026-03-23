@@ -16,7 +16,7 @@ tags:
 - atomic radius
 - ionization energy
 - electronegativity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

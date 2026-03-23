@@ -16,7 +16,7 @@ tags:
 - structure
 - comparison
 - evolution
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

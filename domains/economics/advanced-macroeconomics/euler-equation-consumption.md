@@ -20,7 +20,7 @@ tags:
 - euler-equation
 - consumption
 - substitution
-stage: advanced
+stage: expert
 status: draft
 ---
 

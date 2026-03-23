@@ -15,7 +15,7 @@ tags:
 - automaticity
 - reentry
 - early-after-depolarization
-stage: advanced
+stage: expert
 status: draft
 ---
 

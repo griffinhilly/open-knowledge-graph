@@ -12,7 +12,7 @@ tags:
 - paranoid
 - schizoid
 - schizotypal
-stage: advanced
+stage: expert
 status: draft
 ---
 

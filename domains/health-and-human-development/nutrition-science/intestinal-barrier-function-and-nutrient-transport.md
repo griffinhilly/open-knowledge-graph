@@ -16,7 +16,7 @@ tags:
 - tight-junctions
 - nutrient-transport
 - permeability
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

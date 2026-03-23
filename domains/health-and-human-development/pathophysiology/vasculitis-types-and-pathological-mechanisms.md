@@ -15,7 +15,7 @@ tags:
 - inflammation
 - vessel-damage
 - immune-complex
-stage: advanced
+stage: expert
 status: draft
 ---
 

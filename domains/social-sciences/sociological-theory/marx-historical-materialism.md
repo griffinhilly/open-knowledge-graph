@@ -17,7 +17,7 @@ tags:
 - marx
 - materialism
 - historical
-stage: advanced
+stage: expert
 status: draft
 ---
 

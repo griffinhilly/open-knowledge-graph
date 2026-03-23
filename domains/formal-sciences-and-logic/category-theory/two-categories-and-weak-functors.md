@@ -17,7 +17,7 @@ tags:
 - two-categories
 - weak-functors
 - natural-transformations
-stage: advanced
+stage: expert
 status: draft
 ---
 

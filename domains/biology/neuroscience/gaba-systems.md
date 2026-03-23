@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - neurotransmitters
 - inhibitory
-stage: advanced
+stage: expert
 status: draft
 ---
 

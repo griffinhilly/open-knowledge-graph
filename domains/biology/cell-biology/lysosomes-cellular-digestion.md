@@ -14,7 +14,7 @@ tags:
 - digestion
 - recycling
 - autophagy
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Lysosomes: Cellular Recycling Centers

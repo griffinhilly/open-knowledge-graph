@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - behavioral-economics
 - decision-theory
-stage: advanced
+stage: expert
 status: draft
 ---
 

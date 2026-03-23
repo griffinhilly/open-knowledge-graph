@@ -16,7 +16,7 @@ tags:
 - outgassing
 - atmospheric-loss
 - bombardment
-stage: advanced
+stage: expert
 status: draft
 ---
 

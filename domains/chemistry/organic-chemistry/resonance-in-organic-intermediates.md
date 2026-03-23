@@ -18,7 +18,7 @@ tags:
 - carbocation
 - carbanion
 - radical
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Resonance in Organic Intermediates

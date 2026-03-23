@@ -14,7 +14,7 @@ tags:
 - protein-degradation
 - ubiquitin
 - cell-cycle
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

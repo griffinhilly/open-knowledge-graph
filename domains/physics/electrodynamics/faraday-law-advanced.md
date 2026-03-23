@@ -17,7 +17,7 @@ tags:
 - faraday-law
 - induction
 - emf
-stage: advanced
+stage: expert
 status: draft
 ---
 

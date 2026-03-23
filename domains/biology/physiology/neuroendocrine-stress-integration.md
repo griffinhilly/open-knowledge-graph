@@ -14,7 +14,7 @@ tags:
 - hpa-axis
 - stress-response
 - cortisol
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

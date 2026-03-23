@@ -12,7 +12,7 @@ tags:
 - ergative
 - alignment
 - typology
-stage: advanced
+stage: expert
 status: draft
 ---
 

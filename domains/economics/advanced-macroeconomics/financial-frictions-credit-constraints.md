@@ -12,7 +12,7 @@ tags:
 - financial-frictions
 - credit-constraints
 - lending
-stage: advanced
+stage: expert
 status: draft
 ---
 

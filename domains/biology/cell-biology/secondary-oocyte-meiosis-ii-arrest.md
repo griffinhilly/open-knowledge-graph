@@ -12,7 +12,7 @@ tags:
 - meiosis
 - oocyte-arrest
 - cell-cycle
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

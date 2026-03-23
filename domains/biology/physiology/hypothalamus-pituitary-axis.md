@@ -18,7 +18,7 @@ tags:
 - tropic hormones
 - HPA axis
 - neuroendocrine
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Hypothalamus-Pituitary Axis

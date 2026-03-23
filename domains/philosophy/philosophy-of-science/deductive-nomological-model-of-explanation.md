@@ -22,7 +22,7 @@ tags:
 - explanation
 - hempel
 - deduction
-stage: advanced
+stage: expert
 status: draft
 ---
 

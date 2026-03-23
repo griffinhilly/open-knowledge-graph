@@ -17,7 +17,7 @@ tags:
 - 2-category
 - presheaf
 - diagram
-stage: advanced
+stage: expert
 status: validated
 ---
 

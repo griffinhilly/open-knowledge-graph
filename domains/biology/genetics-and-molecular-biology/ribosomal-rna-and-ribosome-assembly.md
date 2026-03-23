@@ -17,7 +17,7 @@ tags:
 - catalysis
 - ribosome-structure
 - rrna-processing
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

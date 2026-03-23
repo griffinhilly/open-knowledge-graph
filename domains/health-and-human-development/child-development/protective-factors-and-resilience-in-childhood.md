@@ -14,7 +14,7 @@ tags:
 - resilience
 - protective-factors
 - mental-health
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

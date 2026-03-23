@@ -16,7 +16,7 @@ tags:
 - transfer-function
 - poles
 - zeros
-stage: advanced
+stage: expert
 status: draft
 ---
 

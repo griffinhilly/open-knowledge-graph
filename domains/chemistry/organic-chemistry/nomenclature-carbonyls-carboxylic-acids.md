@@ -19,7 +19,7 @@ tags:
 - ketones
 - carboxylic-acids
 - iupac
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

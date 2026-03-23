@@ -14,7 +14,7 @@ tags:
 - cavity-resonators
 - resonant-modes
 - standing-waves
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - fundamentals
 - ensemble
 - thermodynamics
-stage: advanced
+stage: expert
 status: draft
 ---
 

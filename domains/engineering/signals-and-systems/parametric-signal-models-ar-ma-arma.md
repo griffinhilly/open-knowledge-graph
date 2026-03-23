@@ -15,7 +15,7 @@ tags:
 - MA
 - ARMA
 - signal-modeling
-stage: advanced
+stage: expert
 status: draft
 ---
 

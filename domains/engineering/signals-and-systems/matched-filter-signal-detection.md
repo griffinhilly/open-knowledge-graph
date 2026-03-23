@@ -15,7 +15,7 @@ tags:
 - signal-detection
 - optimal-filtering
 - correlation
-stage: advanced
+stage: expert
 status: draft
 ---
 

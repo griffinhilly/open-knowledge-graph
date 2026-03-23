@@ -15,7 +15,7 @@ tags:
 - critical-exponents
 - universality
 - scaling-laws
-stage: advanced
+stage: expert
 status: draft
 ---
 

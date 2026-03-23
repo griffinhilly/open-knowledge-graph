@@ -18,7 +18,7 @@ builds-toward:
 tags:
 - contract-theory
 - information-asymmetry
-stage: advanced
+stage: expert
 status: draft
 ---
 

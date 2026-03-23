@@ -13,7 +13,7 @@ tags:
 - notation
 - graphs
 - reduction
-stage: advanced
+stage: expert
 status: draft
 ---
 

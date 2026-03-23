@@ -18,7 +18,7 @@ tags:
 - stdp
 - spike-timing
 - causality
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - unimolecular
 - zaitsev
 - carbocation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - exchange-rates
 - ppp
 - currency
-stage: advanced
+stage: expert
 status: draft
 ---
 

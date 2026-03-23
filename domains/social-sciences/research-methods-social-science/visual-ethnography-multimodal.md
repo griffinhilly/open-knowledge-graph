@@ -16,7 +16,7 @@ tags:
 - visual
 - multimodal
 - qualitative
-stage: advanced
+stage: expert
 status: draft
 ---
 

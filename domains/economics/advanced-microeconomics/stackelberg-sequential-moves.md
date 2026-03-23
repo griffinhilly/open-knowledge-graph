@@ -12,7 +12,7 @@ tags:
 - industrial-organization
 - oligopoly
 - sequential-games
-stage: advanced
+stage: expert
 status: draft
 ---
 

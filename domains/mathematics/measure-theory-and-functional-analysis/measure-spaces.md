@@ -10,7 +10,7 @@ builds-toward:
 - lebesgue-measure-real-line
 tags:
 - measure-theory
-stage: advanced
+stage: expert
 status: draft
 ---
 

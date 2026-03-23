@@ -11,7 +11,7 @@ tags:
 - moneylenders
 - ROSCAs
 - shadow banking
-stage: advanced
+stage: expert
 status: draft
 ---
 

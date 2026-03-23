@@ -15,7 +15,7 @@ tags:
 - sensory-receptor
 - adaptation
 - coding
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

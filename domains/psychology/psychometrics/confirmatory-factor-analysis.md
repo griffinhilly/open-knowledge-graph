@@ -22,7 +22,7 @@ tags:
 - confirmatory
 - measurement-model
 - fit-indices
-stage: advanced
+stage: expert
 status: draft
 ---
 

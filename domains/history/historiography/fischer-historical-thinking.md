@@ -16,7 +16,7 @@ tags:
 - reasoning
 - fallacies
 - logic
-stage: advanced
+stage: expert
 status: draft
 ---
 

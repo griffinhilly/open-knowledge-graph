@@ -12,7 +12,7 @@ tags:
 - poverty
 - measurement
 - multidimensional
-stage: advanced
+stage: expert
 status: draft
 ---
 

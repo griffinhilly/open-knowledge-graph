@@ -16,7 +16,7 @@ tags:
 - b-cell
 - germinal-center
 - selection
-stage: advanced
+stage: expert
 status: draft
 ---
 

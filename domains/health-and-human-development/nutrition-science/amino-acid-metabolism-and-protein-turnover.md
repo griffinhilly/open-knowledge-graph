@@ -24,7 +24,7 @@ tags:
 - protein-metabolism
 - nitrogen-balance
 - turnover
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

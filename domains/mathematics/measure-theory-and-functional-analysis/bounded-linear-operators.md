@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - functional-analysis
 - operators
-stage: advanced
+stage: expert
 status: draft
 ---
 

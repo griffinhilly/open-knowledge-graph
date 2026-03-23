@@ -13,7 +13,7 @@ tags:
 - criticism
 - analysis
 - hermeneutics
-stage: advanced
+stage: expert
 status: draft
 ---
 

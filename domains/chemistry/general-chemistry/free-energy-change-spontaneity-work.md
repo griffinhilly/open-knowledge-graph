@@ -15,7 +15,7 @@ tags:
 - spontaneity
 - work
 - thermodynamics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

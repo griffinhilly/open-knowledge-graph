@@ -23,7 +23,7 @@ tags:
 - representable presheaf
 - Yoneda embedding
 - Set-valued functor
-stage: advanced
+stage: expert
 status: draft
 ---
 # Presheaves

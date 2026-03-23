@@ -18,7 +18,7 @@ tags:
 - black-smokers
 - tube-worms
 - extremophiles
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

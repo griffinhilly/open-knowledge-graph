@@ -16,7 +16,7 @@ tags:
 - tubulointerstitial
 - inflammation
 - fibrosis
-stage: advanced
+stage: expert
 status: draft
 ---
 

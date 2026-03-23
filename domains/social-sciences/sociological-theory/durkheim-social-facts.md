@@ -15,7 +15,7 @@ tags:
 - durkheim
 - social-facts
 - methodology
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - sensory-systems
 - hearing
-stage: advanced
+stage: expert
 status: draft
 ---
 

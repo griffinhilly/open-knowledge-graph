@@ -20,7 +20,7 @@ tags:
 - ackermann
 - full-state-feedback
 - regulator
-stage: advanced
+stage: expert
 status: validated
 ---
 

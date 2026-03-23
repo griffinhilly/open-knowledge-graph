@@ -13,7 +13,7 @@ tags:
 - geographic-variation
 - mapping
 - spatial-autocorrelation
-stage: advanced
+stage: expert
 status: draft
 ---
 

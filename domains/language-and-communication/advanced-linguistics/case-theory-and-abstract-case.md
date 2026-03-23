@@ -12,7 +12,7 @@ tags:
 - syntax
 - morphology
 - case
-stage: advanced
+stage: expert
 status: draft
 ---
 

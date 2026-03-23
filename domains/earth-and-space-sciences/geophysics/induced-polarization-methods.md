@@ -10,7 +10,7 @@ tags:
 - induced-polarization
 - ip
 - frequency-domain
-stage: advanced
+stage: expert
 status: draft
 ---
 

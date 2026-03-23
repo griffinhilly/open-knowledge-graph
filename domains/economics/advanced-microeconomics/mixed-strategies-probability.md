@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - game-theory
 - randomization
-stage: advanced
+stage: expert
 status: draft
 ---
 

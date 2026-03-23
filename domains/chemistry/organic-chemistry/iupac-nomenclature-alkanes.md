@@ -16,7 +16,7 @@ tags:
 - alkanes
 - naming
 - substituents
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

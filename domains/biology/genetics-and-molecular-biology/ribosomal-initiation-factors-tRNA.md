@@ -15,7 +15,7 @@ tags:
 - initiation-factors
 - trna
 - ribosome
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

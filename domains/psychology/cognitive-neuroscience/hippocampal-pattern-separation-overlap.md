@@ -18,7 +18,7 @@ tags:
 - CA3
 - sparse-coding
 - episodic-memory
-stage: advanced
+stage: expert
 status: draft
 ---
 

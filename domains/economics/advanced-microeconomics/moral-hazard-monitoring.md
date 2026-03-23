@@ -14,7 +14,7 @@ tags:
 - contract-theory
 - information-asymmetry
 - incentives
-stage: advanced
+stage: expert
 status: draft
 ---
 

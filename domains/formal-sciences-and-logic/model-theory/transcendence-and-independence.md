@@ -15,7 +15,7 @@ tags:
 - transcendence
 - algebraic-independence
 - rank
-stage: advanced
+stage: expert
 status: draft
 ---
 

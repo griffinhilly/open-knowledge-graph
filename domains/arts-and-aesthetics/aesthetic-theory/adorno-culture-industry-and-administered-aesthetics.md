@@ -16,7 +16,7 @@ tags:
 - mass culture
 - autonomy
 - instrumental reason
-stage: advanced
+stage: expert
 status: draft
 ---
 

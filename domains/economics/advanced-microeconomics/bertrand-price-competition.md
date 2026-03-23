@@ -18,7 +18,7 @@ tags:
 - industrial-organization
 - oligopoly
 - pricing
-stage: advanced
+stage: expert
 status: draft
 ---
 

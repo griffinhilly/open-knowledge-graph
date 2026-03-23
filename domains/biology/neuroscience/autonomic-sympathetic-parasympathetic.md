@@ -13,7 +13,7 @@ tags:
 - sympathetic
 - parasympathetic
 - homeostasis
-stage: advanced
+stage: expert
 status: draft
 ---
 

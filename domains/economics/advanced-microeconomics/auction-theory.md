@@ -21,7 +21,7 @@ tags:
 - auctions
 - mechanism-design
 - bidding
-stage: advanced
+stage: expert
 status: draft
 ---
 

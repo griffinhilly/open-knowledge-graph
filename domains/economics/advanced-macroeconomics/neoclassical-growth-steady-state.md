@@ -19,7 +19,7 @@ tags:
 - steady-state
 - capital
 - long-run-equilibrium
-stage: advanced
+stage: expert
 status: draft
 ---
 

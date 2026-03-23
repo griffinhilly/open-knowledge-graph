@@ -24,7 +24,7 @@ tags:
 - chemical-weathering
 - mechanical-weathering
 - hydrolysis
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

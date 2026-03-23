@@ -15,7 +15,7 @@ tags:
 - fiscal-policy
 - multipliers
 - demand
-stage: advanced
+stage: expert
 status: draft
 ---
 

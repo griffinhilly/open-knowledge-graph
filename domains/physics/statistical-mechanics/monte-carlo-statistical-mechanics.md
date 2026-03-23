@@ -14,7 +14,7 @@ tags:
 - monte-carlo
 - importance-sampling
 - numerical-simulation
-stage: advanced
+stage: expert
 status: draft
 ---
 # Monte Carlo Methods and Importance Sampling

@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - hilbert-spaces
 - parseval
-stage: advanced
+stage: expert
 status: draft
 ---
 

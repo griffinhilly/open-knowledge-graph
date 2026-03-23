@@ -16,7 +16,7 @@ tags:
 - methodology
 - subaltern
 - social history
-stage: advanced
+stage: expert
 status: draft
 ---
 

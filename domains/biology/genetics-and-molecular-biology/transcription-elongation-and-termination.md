@@ -14,7 +14,7 @@ tags:
 - rho-independent-termination
 - rho-dependent-termination
 - hairpin-structure
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - dna-replication
 - semi-conservative-replication
 - okazaki-fragments
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

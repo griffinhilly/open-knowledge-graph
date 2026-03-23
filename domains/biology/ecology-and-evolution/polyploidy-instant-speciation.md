@@ -18,7 +18,7 @@ tags:
 - speciation
 - instant-isolation
 - plants
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - paleocommunity
 - species-composition
 - paleoceanography
-stage: advanced
+stage: expert
 status: draft
 ---
 

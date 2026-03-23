@@ -13,7 +13,7 @@ tags:
 - nonparametric
 - estimation
 - frequency-domain
-stage: advanced
+stage: expert
 status: draft
 ---
 

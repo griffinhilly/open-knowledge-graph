@@ -19,7 +19,7 @@ tags:
 - heart-failure
 - ventricular-dysfunction
 - cardiac-remodeling
-stage: advanced
+stage: expert
 status: draft
 ---
 

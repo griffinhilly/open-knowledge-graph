@@ -17,7 +17,7 @@ tags:
 - seizure
 - epilepsy
 - synchronization
-stage: advanced
+stage: expert
 status: draft
 ---
 

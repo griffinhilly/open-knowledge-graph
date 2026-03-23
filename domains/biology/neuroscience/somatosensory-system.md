@@ -12,7 +12,7 @@ tags:
 - sensory-systems
 - touch
 - pain
-stage: advanced
+stage: expert
 status: draft
 ---
 

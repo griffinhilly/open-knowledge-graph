@@ -17,7 +17,7 @@ tags:
 - world-literature-theory
 - reception-history
 - damrosch
-stage: advanced
+stage: expert
 status: draft
 ---
 

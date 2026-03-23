@@ -19,7 +19,7 @@ tags:
 - rain-shadow
 - lift
 - mountains
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

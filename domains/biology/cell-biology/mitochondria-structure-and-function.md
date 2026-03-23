@@ -18,7 +18,7 @@ tags:
 - cristae
 - matrix
 - ATP
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -11,7 +11,7 @@ tags:
 - rls
 - least-squares
 - convergence
-stage: advanced
+stage: expert
 status: draft
 ---
 

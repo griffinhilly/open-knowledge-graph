@@ -14,7 +14,7 @@ tags:
 - diplomacy
 - negotiation
 - bargaining
-stage: advanced
+stage: expert
 status: draft
 ---
 

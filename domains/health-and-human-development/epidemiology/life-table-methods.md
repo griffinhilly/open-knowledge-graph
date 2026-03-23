@@ -14,7 +14,7 @@ tags:
 - survival-analysis
 - population-rates
 - life-expectancy
-stage: advanced
+stage: expert
 status: draft
 ---
 # Life Table Methods and Population Survival

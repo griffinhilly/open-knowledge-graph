@@ -15,7 +15,7 @@ tags:
 - conflict
 - history
 - revolution
-stage: advanced
+stage: expert
 status: draft
 ---
 

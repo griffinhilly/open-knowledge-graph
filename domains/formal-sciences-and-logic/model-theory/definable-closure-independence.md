@@ -15,7 +15,7 @@ tags:
 - algebraic-closure
 - independence
 - dimension
-stage: advanced
+stage: expert
 status: draft
 ---
 

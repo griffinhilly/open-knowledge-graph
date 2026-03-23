@@ -14,7 +14,7 @@ tags:
 - v-q-ratio
 - hypoxemia
 - lung-disease
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

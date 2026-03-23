@@ -15,7 +15,7 @@ tags:
 - hippocampus
 - consolidation
 - spatial-cognition
-stage: advanced
+stage: expert
 status: draft
 ---
 

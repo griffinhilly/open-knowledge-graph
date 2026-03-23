@@ -12,7 +12,7 @@ tags:
 - angular-momentum
 - orbital-angular-momentum
 - spin-angular-momentum
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - diagnosis
 - soundings
 - visualization
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

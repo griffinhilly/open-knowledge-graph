@@ -17,7 +17,7 @@ tags:
 - interpretation
 - semiosis
 - meaning
-stage: advanced
+stage: expert
 status: draft
 ---
 

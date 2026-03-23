@@ -18,7 +18,7 @@ tags:
 - transmission-dynamics
 - age-specific-rates
 - vaccination-strategy
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - orbitals
 - covalent
 - molecular-structure
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

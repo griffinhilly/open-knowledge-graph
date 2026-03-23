@@ -18,7 +18,7 @@ tags:
 - salivary-amylase
 - pepsin
 - pancreatic-enzymes
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

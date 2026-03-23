@@ -15,7 +15,7 @@ tags:
 - bose-einstein
 - occupation-number
 - condensation
-stage: advanced
+stage: expert
 status: draft
 ---
 

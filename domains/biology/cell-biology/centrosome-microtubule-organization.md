@@ -13,7 +13,7 @@ tags:
 - mtoc
 - microtubules
 - centrioles
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - morality
 - value
 - philosophy
-stage: advanced
+stage: expert
 status: draft
 ---
 

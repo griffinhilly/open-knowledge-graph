@@ -17,7 +17,7 @@ tags:
 - partition-function
 - statistical-weight
 - thermodynamic-contact
-stage: advanced
+stage: expert
 status: draft
 ---
 

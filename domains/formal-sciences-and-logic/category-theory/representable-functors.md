@@ -22,7 +22,7 @@ tags:
 - hom-functor
 - Yoneda
 - presheaf
-stage: advanced
+stage: expert
 status: validated
 ---
 # Representable Functors

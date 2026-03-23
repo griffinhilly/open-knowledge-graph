@@ -15,7 +15,7 @@ tags:
 - half-reactions
 - oxidation
 - reduction
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

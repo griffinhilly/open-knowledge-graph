@@ -17,7 +17,7 @@ tags:
 - mineralogy
 - identification
 - properties
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - energy-loss
 - productivity
 - biomass
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

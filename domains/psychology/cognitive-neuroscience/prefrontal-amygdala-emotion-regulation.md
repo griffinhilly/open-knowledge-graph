@@ -17,7 +17,7 @@ tags:
 - amygdala
 - cognitive-reappraisal
 - inhibition
-stage: advanced
+stage: expert
 status: draft
 ---
 

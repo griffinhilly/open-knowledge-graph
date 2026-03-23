@@ -13,7 +13,7 @@ tags:
 - damping
 - bandwidth
 - dissipation
-stage: advanced
+stage: expert
 status: draft
 ---
 

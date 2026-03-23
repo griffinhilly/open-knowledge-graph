@@ -17,7 +17,7 @@ tags:
 - equilibrium
 - dynamics
 - nonconvexity
-stage: advanced
+stage: expert
 status: draft
 ---
 

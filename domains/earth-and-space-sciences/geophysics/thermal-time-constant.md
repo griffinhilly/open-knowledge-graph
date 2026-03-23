@@ -10,7 +10,7 @@ tags:
 - geothermics
 - thermal-modeling
 - cooling-time
-stage: advanced
+stage: expert
 status: draft
 ---
 

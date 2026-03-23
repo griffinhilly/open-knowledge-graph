@@ -21,7 +21,7 @@ tags:
 - subobject classifier
 - internal logic
 - sheaf category
-stage: advanced
+stage: expert
 status: draft
 ---
 # Introduction to Topos Theory

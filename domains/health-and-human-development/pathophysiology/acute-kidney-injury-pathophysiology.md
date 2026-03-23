@@ -17,7 +17,7 @@ tags:
 - acute-kidney-injury
 - renal-dysfunction
 - azotemia
-stage: advanced
+stage: expert
 status: draft
 ---
 

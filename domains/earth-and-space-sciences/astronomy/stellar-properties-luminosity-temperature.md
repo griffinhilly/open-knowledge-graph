@@ -26,7 +26,7 @@ tags:
 - Wien-displacement-law
 - Stefan-Boltzmann-law
 - distance-modulus
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Stellar Properties: Luminosity, Temperature, and Size

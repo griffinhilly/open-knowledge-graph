@@ -14,7 +14,7 @@ tags:
 - pancreatic-enzymes
 - cck
 - secretin
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

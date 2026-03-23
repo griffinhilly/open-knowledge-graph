@@ -16,7 +16,7 @@ tags:
 - cortex
 - movement
 - voluntary-control
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - preschool
 - mentalization
 - perspective-taking
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - hypersensitivity
 - immune-complex
 - delayed
-stage: advanced
+stage: expert
 status: draft
 ---
 

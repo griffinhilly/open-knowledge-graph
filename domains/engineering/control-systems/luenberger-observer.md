@@ -16,7 +16,7 @@ tags:
 - luenberger
 - separation-principle
 - output-feedback
-stage: advanced
+stage: expert
 status: validated
 ---
 

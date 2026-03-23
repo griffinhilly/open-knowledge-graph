@@ -12,7 +12,7 @@ tags:
 - fluctuation-dissipation
 - linear-response
 - generalized-susceptibility
-stage: advanced
+stage: expert
 status: draft
 ---
 

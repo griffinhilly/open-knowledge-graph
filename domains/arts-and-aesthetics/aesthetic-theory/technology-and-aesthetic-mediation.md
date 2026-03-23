@@ -18,7 +18,7 @@ tags:
 - aesthetics
 - medium
 - experience
-stage: advanced
+stage: expert
 status: draft
 ---
 # Technology and Aesthetic Mediation

@@ -18,7 +18,7 @@ tags:
 - mathematical-foundations
 - optimization
 - intertemporal-choice
-stage: advanced
+stage: expert
 status: draft
 ---
 

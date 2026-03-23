@@ -14,7 +14,7 @@ tags:
 - magnitude
 - phase
 - frequency-domain
-stage: advanced
+stage: expert
 status: draft
 ---
 

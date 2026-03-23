@@ -15,7 +15,7 @@ tags:
 - definition of art
 - context
 - convention
-stage: advanced
+stage: expert
 status: draft
 ---
 

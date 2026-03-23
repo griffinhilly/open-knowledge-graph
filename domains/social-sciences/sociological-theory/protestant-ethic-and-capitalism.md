@@ -13,7 +13,7 @@ tags:
 - religion
 - capitalism
 - ethics
-stage: advanced
+stage: expert
 status: draft
 ---
 

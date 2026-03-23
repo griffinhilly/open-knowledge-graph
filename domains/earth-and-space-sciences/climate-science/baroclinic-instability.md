@@ -16,7 +16,7 @@ tags:
 - temperature-gradient
 - vertical-shear
 - eddy-dynamics
-stage: advanced
+stage: expert
 status: draft
 ---
 

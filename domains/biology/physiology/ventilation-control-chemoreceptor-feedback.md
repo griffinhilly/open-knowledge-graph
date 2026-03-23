@@ -15,7 +15,7 @@ tags:
 - chemoreceptor
 - feedback
 - regulation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

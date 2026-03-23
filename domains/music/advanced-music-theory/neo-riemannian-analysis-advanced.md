@@ -21,7 +21,7 @@ tags:
 - Tonnetz
 - harmony
 - topology
-stage: advanced
+stage: expert
 status: draft
 ---
 

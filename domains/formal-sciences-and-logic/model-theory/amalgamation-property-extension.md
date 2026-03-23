@@ -15,7 +15,7 @@ tags:
 - amalgamation
 - joint-embedding
 - extensions
-stage: advanced
+stage: expert
 status: draft
 ---
 

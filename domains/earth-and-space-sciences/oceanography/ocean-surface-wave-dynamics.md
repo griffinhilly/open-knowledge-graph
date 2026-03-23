@@ -23,7 +23,7 @@ tags:
 - wind-waves
 - swell
 - dispersion
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

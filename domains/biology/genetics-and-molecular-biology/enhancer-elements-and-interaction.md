@@ -16,7 +16,7 @@ tags:
 - distal-regulation
 - chromatin-looping
 - enhancer-promoter-interaction
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

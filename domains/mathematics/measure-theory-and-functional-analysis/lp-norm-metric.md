@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - lp-spaces
 - norms
-stage: advanced
+stage: expert
 status: draft
 ---
 

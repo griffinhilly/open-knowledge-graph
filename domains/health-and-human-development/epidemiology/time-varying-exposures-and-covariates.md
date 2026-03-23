@@ -14,7 +14,7 @@ tags:
 - time-dependent-exposure
 - confounding-control
 - causal-inference
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - dtft
 - discrete-time
 - frequency-domain
-stage: advanced
+stage: expert
 status: draft
 ---
 

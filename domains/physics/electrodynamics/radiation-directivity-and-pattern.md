@@ -13,7 +13,7 @@ tags:
 - directivity
 - antenna-gain
 - beamwidth
-stage: advanced
+stage: expert
 status: draft
 ---
 

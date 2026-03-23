@@ -12,7 +12,7 @@ tags:
 - meiosis
 - recombination
 - crossover
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

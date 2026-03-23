@@ -19,7 +19,7 @@ tags:
 - ninja Yoneda lemma
 - weighted limit
 - integral notation
-stage: advanced
+stage: expert
 status: draft
 ---
 # Coends and Ends

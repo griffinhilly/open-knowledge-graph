@@ -12,7 +12,7 @@ tags:
 - consumption
 - lifecycle
 - savings
-stage: advanced
+stage: expert
 status: draft
 ---
 

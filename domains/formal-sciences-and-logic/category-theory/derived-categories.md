@@ -17,7 +17,7 @@ tags:
 - homotopy-category
 - localization
 - derived-equivalence
-stage: advanced
+stage: expert
 status: draft
 ---
 

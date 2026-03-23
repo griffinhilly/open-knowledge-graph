@@ -18,7 +18,7 @@ tags:
 - reward
 - decision-making
 - choice
-stage: advanced
+stage: expert
 status: draft
 ---
 

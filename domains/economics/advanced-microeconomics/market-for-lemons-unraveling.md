@@ -12,7 +12,7 @@ tags:
 - information-economics
 - market-failure
 - quality
-stage: advanced
+stage: expert
 status: draft
 ---
 

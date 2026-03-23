@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - lp-spaces
 - banach-spaces
-stage: advanced
+stage: expert
 status: draft
 ---
 

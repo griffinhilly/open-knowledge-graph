@@ -14,7 +14,7 @@ tags:
 - excitations
 - phonons
 - collective
-stage: advanced
+stage: expert
 status: draft
 ---
 

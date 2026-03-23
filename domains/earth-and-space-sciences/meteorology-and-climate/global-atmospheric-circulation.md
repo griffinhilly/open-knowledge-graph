@@ -21,7 +21,7 @@ tags:
 - trade-winds
 - jet-stream
 - ITCZ
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

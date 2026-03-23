@@ -15,7 +15,7 @@ tags:
 - biproducts
 - direct-sum
 - decomposition
-stage: advanced
+stage: expert
 status: draft
 ---
 

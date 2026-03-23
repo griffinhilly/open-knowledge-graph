@@ -21,7 +21,7 @@ tags:
 - neo-riemannian-theory
 - transformation
 - harmonic-analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

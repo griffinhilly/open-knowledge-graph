@@ -14,7 +14,7 @@ tags:
 - social-cognition
 - infant-development
 - emotional-communication
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - labor
 - exploitation
 - value
-stage: advanced
+stage: expert
 status: draft
 ---
 

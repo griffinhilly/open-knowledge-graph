@@ -15,7 +15,7 @@ tags:
 - contract-theory
 - delegation
 - incentives
-stage: advanced
+stage: expert
 status: draft
 ---
 

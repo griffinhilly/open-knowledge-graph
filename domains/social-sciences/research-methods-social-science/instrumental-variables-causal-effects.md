@@ -13,7 +13,7 @@ tags:
 - iv
 - endogeneity
 - 2sls
-stage: advanced
+stage: expert
 status: draft
 ---
 

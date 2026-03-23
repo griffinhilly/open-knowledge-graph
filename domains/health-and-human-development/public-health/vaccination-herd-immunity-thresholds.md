@@ -15,7 +15,7 @@ tags:
 - vaccination
 - herd-immunity
 - immunization
-stage: advanced
+stage: expert
 status: draft
 ---
 

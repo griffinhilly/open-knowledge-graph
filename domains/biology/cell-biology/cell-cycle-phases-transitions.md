@@ -13,7 +13,7 @@ tags:
 - phases
 - g1-s-g2-m
 - cyclin-cdk
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

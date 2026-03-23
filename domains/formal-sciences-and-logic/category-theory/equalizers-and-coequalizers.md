@@ -21,7 +21,7 @@ tags:
 - kernel
 - cokernel
 - quotient
-stage: advanced
+stage: expert
 status: validated
 ---
 # Equalizers and Coequalizers

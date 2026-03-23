@@ -21,7 +21,7 @@ tags:
 - hemoglobin
 - binding
 - cooperativity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

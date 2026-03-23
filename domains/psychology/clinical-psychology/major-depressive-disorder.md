@@ -18,7 +18,7 @@ tags:
 - mood
 - anhedonia
 - major
-stage: advanced
+stage: expert
 status: draft
 ---
 

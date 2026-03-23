@@ -15,7 +15,7 @@ tags:
 - liver-failure
 - coagulation
 - albumin
-stage: advanced
+stage: expert
 status: draft
 ---
 

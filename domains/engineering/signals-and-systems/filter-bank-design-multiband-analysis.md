@@ -16,7 +16,7 @@ tags:
 - multiband
 - decomposition
 - analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

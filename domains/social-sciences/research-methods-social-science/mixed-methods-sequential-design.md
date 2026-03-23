@@ -12,7 +12,7 @@ tags:
 - mixed-methods
 - sequential
 - expansion
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - electroacoustic
 - morphology
 - sound-design
-stage: advanced
+stage: expert
 status: draft
 ---
 

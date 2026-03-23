@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - hilbert-spaces
 - orthonormal-bases
-stage: advanced
+stage: expert
 status: draft
 ---
 

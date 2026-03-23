@@ -14,7 +14,7 @@ tags:
 - class
 - consciousness
 - conflict
-stage: advanced
+stage: expert
 status: draft
 ---
 

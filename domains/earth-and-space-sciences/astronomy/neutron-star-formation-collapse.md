@@ -16,7 +16,7 @@ tags:
 - core-collapse
 - supernova
 - equation-of-state
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

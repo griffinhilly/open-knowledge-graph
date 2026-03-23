@@ -17,7 +17,7 @@ tags:
 - economics
 - utility
 - self-interest
-stage: advanced
+stage: expert
 status: draft
 ---
 

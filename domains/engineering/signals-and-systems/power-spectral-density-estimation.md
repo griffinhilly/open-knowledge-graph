@@ -15,7 +15,7 @@ tags:
 - spectral-analysis
 - periodogram
 - welch
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - histone modification
 - chromatin
 - imprinting
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

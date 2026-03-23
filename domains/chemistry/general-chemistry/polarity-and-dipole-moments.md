@@ -14,7 +14,7 @@ tags:
 - dipole moment
 - electronegativity
 - bond dipole
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

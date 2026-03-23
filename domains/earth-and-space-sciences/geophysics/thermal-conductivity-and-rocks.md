@@ -13,7 +13,7 @@ tags:
 - conductivity
 - rocks
 - minerals
-stage: advanced
+stage: expert
 status: draft
 ---
 

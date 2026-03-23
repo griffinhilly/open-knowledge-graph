@@ -14,7 +14,7 @@ tags:
 - theory
 - philosophy
 - consciousness
-stage: advanced
+stage: expert
 status: draft
 ---
 

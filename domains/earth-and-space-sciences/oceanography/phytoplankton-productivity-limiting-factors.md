@@ -17,7 +17,7 @@ tags:
 - light
 - nutrients
 - temperature
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

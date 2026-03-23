@@ -14,7 +14,7 @@ tags:
 - game-theory
 - equilibrium-refinement
 - beliefs
-stage: advanced
+stage: expert
 status: draft
 ---
 

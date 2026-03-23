@@ -15,7 +15,7 @@ tags:
 - capitalism
 - culture
 - modernity
-stage: advanced
+stage: expert
 status: draft
 ---
 

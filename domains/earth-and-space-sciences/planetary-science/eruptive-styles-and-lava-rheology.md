@@ -17,7 +17,7 @@ tags:
 - rheology
 - magma-composition
 - eruption-styles
-stage: advanced
+stage: expert
 status: draft
 ---
 

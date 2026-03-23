@@ -17,7 +17,7 @@ tags:
 - membrane-transport
 - water-balance
 - solutes
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

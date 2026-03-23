@@ -13,7 +13,7 @@ builds-toward:
 - lebesgue-integral
 tags:
 - integration
-stage: advanced
+stage: expert
 status: draft
 ---
 

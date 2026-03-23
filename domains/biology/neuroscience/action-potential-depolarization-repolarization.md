@@ -19,7 +19,7 @@ builds-toward:
 tags:
 - action-potential
 - electrophysiology
-stage: advanced
+stage: expert
 status: draft
 ---
 

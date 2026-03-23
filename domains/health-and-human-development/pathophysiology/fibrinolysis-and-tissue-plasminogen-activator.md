@@ -15,7 +15,7 @@ tags:
 - tpa
 - urokinase
 - thrombosis
-stage: advanced
+stage: expert
 status: draft
 ---
 

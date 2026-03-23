@@ -14,7 +14,7 @@ tags:
 - immune-memory
 - secondary-response
 - anamnestic
-stage: advanced
+stage: expert
 status: draft
 ---
 

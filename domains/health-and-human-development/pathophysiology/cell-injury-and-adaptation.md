@@ -24,7 +24,7 @@ tags:
 - cellular-injury
 - stress-response
 - adaptation
-stage: advanced
+stage: expert
 status: draft
 ---
 

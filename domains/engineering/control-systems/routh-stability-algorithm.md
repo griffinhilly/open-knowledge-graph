@@ -13,7 +13,7 @@ tags:
 - stability-test
 - pole-locations
 - characteristic-equation
-stage: advanced
+stage: expert
 status: draft
 ---
 

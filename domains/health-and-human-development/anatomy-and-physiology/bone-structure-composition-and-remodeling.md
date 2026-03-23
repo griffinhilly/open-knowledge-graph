@@ -17,7 +17,7 @@ tags:
 - bone
 - mineralization
 - osteocytes
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

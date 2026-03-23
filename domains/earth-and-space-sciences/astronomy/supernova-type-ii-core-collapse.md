@@ -19,7 +19,7 @@ tags:
 - type-ii
 - core-collapse
 - massive-stars
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

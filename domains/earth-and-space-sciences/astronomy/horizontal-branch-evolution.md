@@ -15,7 +15,7 @@ tags:
 - hb
 - helium-burning
 - evolution
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

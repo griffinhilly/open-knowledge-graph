@@ -16,7 +16,7 @@ tags:
 - aesthetics
 - foundations
 - philosophy of art
-stage: advanced
+stage: expert
 status: draft
 ---
 # Aesthetics and Philosophy of Art: Introduction

@@ -16,7 +16,7 @@ tags:
 - self-force
 - abraham-lorentz
 - runaway-solutions
-stage: advanced
+stage: expert
 status: draft
 ---
 

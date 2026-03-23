@@ -24,7 +24,7 @@ tags:
 - associator
 - coherence theorem
 - Mac Lane
-stage: advanced
+stage: expert
 status: draft
 ---
 # Monoidal Categories

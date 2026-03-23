@@ -18,7 +18,7 @@ tags:
 - beauty
 - culture
 - judgment
-stage: advanced
+stage: expert
 status: draft
 ---
 # Aesthetic Universalism and Relativism

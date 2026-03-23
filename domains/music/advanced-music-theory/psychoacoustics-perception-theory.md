@@ -12,7 +12,7 @@ tags:
 - perception
 - psychoacoustics
 - cognitive
-stage: advanced
+stage: expert
 status: draft
 ---
 

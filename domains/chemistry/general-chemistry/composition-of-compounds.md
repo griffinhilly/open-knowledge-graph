@@ -13,7 +13,7 @@ tags:
 - percent composition
 - empirical formula
 - molecular formula
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

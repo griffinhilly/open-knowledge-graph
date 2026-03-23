@@ -15,7 +15,7 @@ tags:
 - reward
 - motivation
 - value
-stage: advanced
+stage: expert
 status: draft
 ---
 

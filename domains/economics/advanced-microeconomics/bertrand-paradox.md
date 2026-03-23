@@ -12,7 +12,7 @@ tags:
 - oligopoly
 - paradox
 - price-vs-quantity
-stage: advanced
+stage: expert
 status: draft
 ---
 

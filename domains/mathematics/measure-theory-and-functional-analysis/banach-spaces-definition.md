@@ -16,7 +16,7 @@ builds-toward:
 tags:
 - banach-spaces
 - functional-analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

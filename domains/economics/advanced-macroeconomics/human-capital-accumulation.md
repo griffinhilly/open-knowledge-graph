@@ -14,7 +14,7 @@ tags:
 - human-capital
 - education
 - growth
-stage: advanced
+stage: expert
 status: draft
 ---
 

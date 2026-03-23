@@ -13,7 +13,7 @@ tags:
 - storytelling
 - identity
 - meaning-making
-stage: advanced
+stage: expert
 status: draft
 ---
 # Narrative Analysis

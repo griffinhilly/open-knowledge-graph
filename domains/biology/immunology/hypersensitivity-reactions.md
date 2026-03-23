@@ -14,7 +14,7 @@ tags:
 - pathology
 - hypersensitivity
 - adverse-reactions
-stage: advanced
+stage: expert
 status: draft
 ---
 

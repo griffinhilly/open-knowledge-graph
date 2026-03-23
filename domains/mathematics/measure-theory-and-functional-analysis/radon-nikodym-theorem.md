@@ -12,7 +12,7 @@ builds-toward:
 - signed-measures-hahn-jordan
 tags:
 - measure-theory
-stage: advanced
+stage: expert
 status: draft
 ---
 

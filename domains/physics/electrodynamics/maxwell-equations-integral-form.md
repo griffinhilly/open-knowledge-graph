@@ -21,7 +21,7 @@ tags:
 - maxwell-equations
 - vector-calculus
 - foundations
-stage: advanced
+stage: expert
 status: draft
 ---
 # Maxwell's Equations in Integral Form

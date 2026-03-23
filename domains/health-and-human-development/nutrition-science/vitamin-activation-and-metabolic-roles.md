@@ -18,7 +18,7 @@ tags:
 - coenzymes
 - activation
 - bioavailability
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

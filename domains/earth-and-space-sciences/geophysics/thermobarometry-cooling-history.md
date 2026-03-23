@@ -12,7 +12,7 @@ tags:
 - thermobarometry
 - pt-path
 - cooling-history
-stage: advanced
+stage: expert
 status: draft
 ---
 

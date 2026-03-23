@@ -13,7 +13,7 @@ tags:
 - p53
 - cancer
 - tumor-suppression
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

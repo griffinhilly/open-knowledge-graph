@@ -14,7 +14,7 @@ tags:
 - causal-inference
 - unmeasured-confounding
 - two-stage-regression
-stage: advanced
+stage: expert
 status: draft
 ---
 

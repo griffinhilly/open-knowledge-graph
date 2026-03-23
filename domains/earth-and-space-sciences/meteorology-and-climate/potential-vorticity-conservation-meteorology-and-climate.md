@@ -16,7 +16,7 @@ tags:
 - conservation
 - dynamics
 - potential
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

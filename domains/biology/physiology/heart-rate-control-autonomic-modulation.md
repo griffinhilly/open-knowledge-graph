@@ -18,7 +18,7 @@ tags:
 - autonomic
 - heart rate
 - regulation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - derrida
 - ghost
 - absence
-stage: advanced
+stage: expert
 status: draft
 ---
 

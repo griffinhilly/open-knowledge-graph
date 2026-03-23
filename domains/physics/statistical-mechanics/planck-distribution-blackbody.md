@@ -14,7 +14,7 @@ tags:
 - blackbody
 - photons
 - thermal-radiation
-stage: advanced
+stage: expert
 status: draft
 ---
 

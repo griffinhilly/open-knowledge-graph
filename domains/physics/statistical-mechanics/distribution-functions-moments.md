@@ -12,7 +12,7 @@ tags:
 - probability
 - statistics
 - fluctuations
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - truth
 - epistemology
 - theory
-stage: advanced
+stage: expert
 status: draft
 ---
 

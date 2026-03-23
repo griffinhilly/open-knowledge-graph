@@ -14,7 +14,7 @@ tags:
 - processing
 - filtering
 - signal-to-noise
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - daltons-law
 - gas-mixtures
 - mole-fraction
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

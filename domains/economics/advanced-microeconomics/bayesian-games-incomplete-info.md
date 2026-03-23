@@ -23,7 +23,7 @@ tags:
 - game-theory
 - information-asymmetry
 - types
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -21,7 +21,7 @@ tags:
 - goodness-of-fit
 - likelihood-ratio
 - aic-bic
-stage: advanced
+stage: expert
 status: draft
 ---
 

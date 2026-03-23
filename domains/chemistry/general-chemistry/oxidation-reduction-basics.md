@@ -18,7 +18,7 @@ tags:
 - reducing-agent
 - oxidation
 - reduction
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Oxidation-Reduction Basics

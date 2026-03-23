@@ -12,7 +12,7 @@ tags:
 - contract-theory
 - information-asymmetry
 - equilibrium
-stage: advanced
+stage: expert
 status: draft
 ---
 

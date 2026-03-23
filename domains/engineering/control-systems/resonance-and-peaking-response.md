@@ -15,7 +15,7 @@ tags:
 - peaking
 - bandwidth
 - frequency-response
-stage: advanced
+stage: expert
 status: draft
 ---
 

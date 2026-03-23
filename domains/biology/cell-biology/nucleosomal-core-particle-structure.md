@@ -14,7 +14,7 @@ tags:
 - nucleosome
 - chromatin
 - histones
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - jazz
 - free-jazz
 - improvisation
-stage: advanced
+stage: expert
 status: draft
 ---
 

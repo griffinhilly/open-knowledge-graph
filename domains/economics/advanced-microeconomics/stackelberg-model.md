@@ -16,7 +16,7 @@ tags:
 - industrial-organization
 - sequential-games
 - first-mover-advantage
-stage: advanced
+stage: expert
 status: draft
 ---
 

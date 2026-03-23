@@ -16,7 +16,7 @@ tags:
 - epistemology
 - standpoint
 - position
-stage: advanced
+stage: expert
 status: draft
 ---
 

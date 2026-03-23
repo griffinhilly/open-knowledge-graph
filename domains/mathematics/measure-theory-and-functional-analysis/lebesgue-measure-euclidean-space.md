@@ -10,7 +10,7 @@ builds-toward:
 - product-measures-fubini-theorem
 tags:
 - lebesgue-measure
-stage: advanced
+stage: expert
 status: draft
 ---
 

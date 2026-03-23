@@ -26,7 +26,7 @@ tags:
 - intertextuality
 - Kristeva
 - semiotics
-stage: advanced
+stage: expert
 status: draft
 ---
 

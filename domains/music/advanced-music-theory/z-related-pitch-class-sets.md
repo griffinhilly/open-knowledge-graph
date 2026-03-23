@@ -21,7 +21,7 @@ tags:
 - set-theory
 - post-tonal
 - interval-structure
-stage: advanced
+stage: expert
 status: draft
 ---
 

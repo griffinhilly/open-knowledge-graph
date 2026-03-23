@@ -15,7 +15,7 @@ tags:
 - popper
 - falsification
 - demarcation
-stage: advanced
+stage: expert
 status: draft
 ---
 

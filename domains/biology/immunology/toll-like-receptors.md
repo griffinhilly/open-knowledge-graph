@@ -13,7 +13,7 @@ tags:
 - innate
 - signaling
 - pattern-recognition
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - community-structure
 - clustering
 - algorithms
-stage: advanced
+stage: expert
 status: draft
 ---
 

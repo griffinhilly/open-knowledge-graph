@@ -18,7 +18,7 @@ tags:
 - demand
 - consumer-theory
 - welfare
-stage: advanced
+stage: expert
 status: draft
 ---
 

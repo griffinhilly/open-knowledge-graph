@@ -14,7 +14,7 @@ tags:
 - syntax
 - generative
 - minimalism
-stage: advanced
+stage: expert
 status: draft
 ---
 

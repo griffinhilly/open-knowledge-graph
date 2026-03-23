@@ -15,7 +15,7 @@ tags:
 - aporia
 - undecidability
 - trace
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - contract-theory
 - mechanism-design
-stage: advanced
+stage: expert
 status: draft
 ---
 

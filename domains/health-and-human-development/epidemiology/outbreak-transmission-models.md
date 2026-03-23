@@ -14,7 +14,7 @@ tags:
 - mathematical-models
 - transmission-dynamics
 - compartmental-models
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - complement
 - cascade
 - innate-immunity
-stage: advanced
+stage: expert
 status: draft
 ---
 

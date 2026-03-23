@@ -14,7 +14,7 @@ tags:
 - synaptic-plasticity
 - LTP
 - LTD
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

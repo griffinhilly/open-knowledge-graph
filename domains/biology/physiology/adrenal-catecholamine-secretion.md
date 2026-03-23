@@ -14,7 +14,7 @@ tags:
 - catecholamines
 - epinephrine
 - fight-or-flight
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

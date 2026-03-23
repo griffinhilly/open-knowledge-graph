@@ -13,7 +13,7 @@ tags:
 - meaning
 - analytic-synthetic
 - empiricism
-stage: advanced
+stage: expert
 status: draft
 ---
 

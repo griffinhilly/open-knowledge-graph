@@ -16,7 +16,7 @@ tags:
 - transparency
 - window
 - thermal-escape
-stage: advanced
+stage: expert
 status: draft
 ---
 

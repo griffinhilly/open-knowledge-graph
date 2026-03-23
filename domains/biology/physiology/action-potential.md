@@ -24,7 +24,7 @@ tags:
 - depolarization
 - ion channels
 - electrophysiology
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

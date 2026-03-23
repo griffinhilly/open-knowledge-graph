@@ -13,7 +13,7 @@ tags:
 - foundations
 - intro
 - unifying-principles
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

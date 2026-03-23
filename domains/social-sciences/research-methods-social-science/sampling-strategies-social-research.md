@@ -16,7 +16,7 @@ tags:
 - probability
 - representativeness
 - generalizability
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - trace
 - finite-dimensionality
 - linear-logic
-stage: advanced
+stage: expert
 status: draft
 ---
 

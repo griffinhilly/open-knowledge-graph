@@ -14,7 +14,7 @@ tags:
 - signaling
 - receptor
 - pathway
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

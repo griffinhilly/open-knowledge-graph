@@ -15,7 +15,7 @@ tags:
 - spreading
 - tectonics
 - volcanism
-stage: advanced
+stage: expert
 status: draft
 ---
 

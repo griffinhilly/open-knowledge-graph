@@ -23,7 +23,7 @@ tags:
 - translation
 - politics
 - power
-stage: advanced
+stage: expert
 status: draft
 ---
 

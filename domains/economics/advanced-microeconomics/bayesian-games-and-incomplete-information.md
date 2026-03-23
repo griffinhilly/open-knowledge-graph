@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - game-theory
 - information-asymmetry
-stage: advanced
+stage: expert
 status: draft
 ---
 

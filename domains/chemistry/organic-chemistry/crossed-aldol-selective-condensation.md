@@ -14,7 +14,7 @@ tags:
 - selectivity
 - enolate
 - enolizable
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

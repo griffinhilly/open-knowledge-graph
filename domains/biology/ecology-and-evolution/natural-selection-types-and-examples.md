@@ -19,7 +19,7 @@ tags:
 - directional
 - stabilizing
 - disruptive
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

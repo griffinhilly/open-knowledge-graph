@@ -16,7 +16,7 @@ tags:
 - indels
 - reading-frame
 - genetic-mutations
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

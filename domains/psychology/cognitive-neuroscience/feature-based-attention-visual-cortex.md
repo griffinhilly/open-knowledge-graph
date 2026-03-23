@@ -18,7 +18,7 @@ tags:
 - color
 - motion
 - orientation
-stage: advanced
+stage: expert
 status: draft
 ---
 

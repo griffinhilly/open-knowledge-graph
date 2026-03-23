@@ -14,7 +14,7 @@ tags:
 - anisotropy
 - crystals
 - birefringence
-stage: advanced
+stage: expert
 status: draft
 ---
 

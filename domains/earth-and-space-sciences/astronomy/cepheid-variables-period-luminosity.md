@@ -15,7 +15,7 @@ tags:
 - period-luminosity
 - variable-star
 - distance
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

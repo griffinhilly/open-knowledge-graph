@@ -15,7 +15,7 @@ tags:
 - laplace-equation
 - poisson-equation
 - potential
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - transmission-rate
 - contact-patterns
 - age-specific-risk
-stage: advanced
+stage: expert
 status: draft
 ---
 # Force of Infection

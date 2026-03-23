@@ -11,7 +11,7 @@ tags:
 - lifeworld
 - lived-experience
 - bracketing
-stage: advanced
+stage: expert
 status: draft
 ---
 

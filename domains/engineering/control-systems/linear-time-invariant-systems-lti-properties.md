@@ -15,7 +15,7 @@ tags:
 - lti
 - linearity
 - time-invariance
-stage: advanced
+stage: expert
 status: draft
 ---
 

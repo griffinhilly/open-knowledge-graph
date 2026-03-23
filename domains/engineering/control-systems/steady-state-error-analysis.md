@@ -19,7 +19,7 @@ tags:
 - error-constants
 - position-error
 - velocity-error
-stage: advanced
+stage: expert
 status: validated
 ---
 # Steady-State Error Analysis

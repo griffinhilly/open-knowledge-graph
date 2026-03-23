@@ -19,7 +19,7 @@ tags:
 - Th17
 - immune-tolerance
 - intestinal-barrier
-stage: advanced
+stage: expert
 status: draft
 ---
 

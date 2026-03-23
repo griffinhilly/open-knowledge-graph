@@ -20,7 +20,7 @@ tags:
 - disk
 - turbulence
 - viscosity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

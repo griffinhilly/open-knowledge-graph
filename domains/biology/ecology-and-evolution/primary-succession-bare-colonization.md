@@ -17,7 +17,7 @@ tags:
 - colonization
 - facilitation
 - bare-rock
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

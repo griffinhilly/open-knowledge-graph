@@ -18,7 +18,7 @@ tags:
 - perception
 - neural-integration
 - multimodal
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

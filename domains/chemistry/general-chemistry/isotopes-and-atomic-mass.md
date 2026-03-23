@@ -13,7 +13,7 @@ tags:
 - isotopes
 - mass number
 - atomic mass unit
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

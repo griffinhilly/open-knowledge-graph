@@ -18,7 +18,7 @@ tags:
 - Th(M)
 - consequence
 - deduction
-stage: advanced
+stage: expert
 status: draft
 ---
 

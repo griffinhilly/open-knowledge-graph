@@ -21,7 +21,7 @@ tags:
 - anhydrides
 - acidity
 - reactivity order
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Carboxylic Acids and Their Derivatives

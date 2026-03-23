@@ -17,7 +17,7 @@ tags:
 - noise-sensitivity
 - bandwidth
 - waterbed-effect
-stage: advanced
+stage: expert
 status: draft
 ---
 

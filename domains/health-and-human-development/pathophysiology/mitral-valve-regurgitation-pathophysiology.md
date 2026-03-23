@@ -16,7 +16,7 @@ tags:
 - mitral-regurgitation
 - volume-overload
 - chamber-remodeling
-stage: advanced
+stage: expert
 status: draft
 ---
 

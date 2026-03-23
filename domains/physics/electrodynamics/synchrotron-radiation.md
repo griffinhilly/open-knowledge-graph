@@ -12,7 +12,7 @@ tags:
 - synchrotron
 - relativistic
 - radiation
-stage: advanced
+stage: expert
 status: draft
 ---
 

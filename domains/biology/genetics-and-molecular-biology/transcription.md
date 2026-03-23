@@ -20,7 +20,7 @@ tags:
 - promoter
 - mRNA
 - template strand
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

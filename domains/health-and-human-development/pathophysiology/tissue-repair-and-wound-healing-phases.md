@@ -17,7 +17,7 @@ tags:
 - inflammation
 - proliferation
 - remodeling
-stage: advanced
+stage: expert
 status: draft
 ---
 

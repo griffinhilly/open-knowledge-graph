@@ -12,7 +12,7 @@ tags:
 - curie-temperature
 - phase-transition
 - thermal-effects
-stage: advanced
+stage: expert
 status: draft
 ---
 

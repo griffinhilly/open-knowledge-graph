@@ -11,7 +11,7 @@ tags:
 - uremic-toxins
 - chronic-kidney-disease
 - metabolic-derangements
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - stochastic
 - dynamics
 - noise
-stage: advanced
+stage: expert
 status: draft
 ---
 

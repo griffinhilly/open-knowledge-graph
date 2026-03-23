@@ -17,7 +17,7 @@ tags:
 - structure
 - anarchy
 - power
-stage: advanced
+stage: expert
 status: draft
 ---
 

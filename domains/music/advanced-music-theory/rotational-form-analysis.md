@@ -21,7 +21,7 @@ tags:
 - sonata
 - rotation
 - structure
-stage: advanced
+stage: expert
 status: draft
 ---
 

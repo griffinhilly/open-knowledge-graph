@@ -18,7 +18,7 @@ tags:
 - teleology
 - decline
 - modernity
-stage: advanced
+stage: expert
 status: draft
 ---
 # Progress and Teleology in Historical Thought

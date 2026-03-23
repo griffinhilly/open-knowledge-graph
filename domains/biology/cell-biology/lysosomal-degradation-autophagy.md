@@ -13,7 +13,7 @@ tags:
 - autophagy
 - degradation
 - cellular-homeostasis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

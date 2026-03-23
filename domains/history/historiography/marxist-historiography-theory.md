@@ -17,7 +17,7 @@ tags:
 - marxism
 - theory
 - social history
-stage: advanced
+stage: expert
 status: draft
 ---
 

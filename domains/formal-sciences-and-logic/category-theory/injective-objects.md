@@ -14,7 +14,7 @@ tags:
 - homological-algebra
 - universal-properties
 - extensions
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - locus-heterogeneity
 - allelic-heterogeneity
 - phenotypic-pleiotropy
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -22,7 +22,7 @@ tags:
 - ENSO
 - Walker circulation
 - teleconnections
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # El Niño–Southern Oscillation (ENSO)

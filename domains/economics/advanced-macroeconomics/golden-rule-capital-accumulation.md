@@ -14,7 +14,7 @@ tags:
 - welfare
 - capital-stock
 - consumption-optimization
-stage: advanced
+stage: expert
 status: draft
 ---
 

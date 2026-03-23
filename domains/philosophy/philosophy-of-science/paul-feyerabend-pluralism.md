@@ -12,7 +12,7 @@ tags:
 - feyerabend
 - pluralism
 - methodology
-stage: advanced
+stage: expert
 status: draft
 ---
 

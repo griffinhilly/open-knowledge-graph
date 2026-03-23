@@ -14,7 +14,7 @@ tags:
 - pulmonary-fibrosis
 - lung-disease
 - fibrosis
-stage: advanced
+stage: expert
 status: draft
 ---
 

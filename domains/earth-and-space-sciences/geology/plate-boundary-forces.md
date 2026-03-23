@@ -15,7 +15,7 @@ tags:
 - stress
 - forces
 - motion
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

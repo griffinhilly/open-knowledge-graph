@@ -26,7 +26,7 @@ tags:
 - potential-outcomes
 - confounding
 - identification
-stage: advanced
+stage: expert
 status: draft
 ---
 

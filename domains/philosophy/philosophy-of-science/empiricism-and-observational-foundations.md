@@ -13,7 +13,7 @@ tags:
 - empiricism
 - observation
 - experience
-stage: advanced
+stage: expert
 status: draft
 ---
 

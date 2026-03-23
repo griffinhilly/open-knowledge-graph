@@ -15,7 +15,7 @@ tags:
 - chromatin-domains
 - insulator-elements
 - gene-cluster-control
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

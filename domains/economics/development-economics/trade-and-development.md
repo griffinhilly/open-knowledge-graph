@@ -15,7 +15,7 @@ tags:
 - trade
 - development
 - growth
-stage: advanced
+stage: expert
 status: draft
 ---
 

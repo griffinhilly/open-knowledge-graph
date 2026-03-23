@@ -12,7 +12,7 @@ tags:
 - folds
 - structures
 - compression
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

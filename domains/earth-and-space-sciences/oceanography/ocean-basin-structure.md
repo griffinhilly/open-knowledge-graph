@@ -17,7 +17,7 @@ tags:
 - ocean basins
 - continental shelf
 - abyssal plain
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

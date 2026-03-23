@@ -16,7 +16,7 @@ tags:
 - gases
 - molecular-motion
 - pressure
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

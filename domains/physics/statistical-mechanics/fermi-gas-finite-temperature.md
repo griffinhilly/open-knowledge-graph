@@ -12,7 +12,7 @@ tags:
 - fermi-gas
 - thermal-effects
 - thermodynamic-quantities
-stage: advanced
+stage: expert
 status: draft
 ---
 

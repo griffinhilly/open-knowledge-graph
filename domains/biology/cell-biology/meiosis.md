@@ -16,7 +16,7 @@ tags:
 - gametes
 - crossing-over
 - haploid
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Meiosis

@@ -23,7 +23,7 @@ tags:
 - consumer-theory
 - demand
 - decomposition
-stage: advanced
+stage: expert
 status: draft
 ---
 

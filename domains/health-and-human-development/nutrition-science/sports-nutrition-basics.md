@@ -20,7 +20,7 @@ tags:
 - protein timing
 - ergogenic aids
 - recovery
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Sports Nutrition: Fueling Performance and Recovery

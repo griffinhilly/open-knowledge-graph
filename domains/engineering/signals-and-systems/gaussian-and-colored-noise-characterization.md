@@ -14,7 +14,7 @@ tags:
 - gaussian
 - colored-noise
 - characterization
-stage: advanced
+stage: expert
 status: draft
 ---
 

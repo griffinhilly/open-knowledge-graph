@@ -12,7 +12,7 @@ tags:
 - consciousness
 - workspace
 - broadcasting
-stage: advanced
+stage: expert
 status: draft
 ---
 

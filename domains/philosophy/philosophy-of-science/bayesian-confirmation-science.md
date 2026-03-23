@@ -22,7 +22,7 @@ tags:
 - probability
 - likelihood
 - posterior
-stage: advanced
+stage: expert
 status: draft
 ---
 

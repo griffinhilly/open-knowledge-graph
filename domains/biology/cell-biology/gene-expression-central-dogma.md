@@ -14,7 +14,7 @@ tags:
 - gene-expression
 - central-dogma
 - protein
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

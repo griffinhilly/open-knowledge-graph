@@ -15,7 +15,7 @@ tags:
 - equivalence
 - groups
 - fairness
-stage: advanced
+stage: expert
 status: draft
 ---
 

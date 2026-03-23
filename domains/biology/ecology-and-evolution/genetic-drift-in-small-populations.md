@@ -24,7 +24,7 @@ tags:
 - random-sampling
 - bottleneck
 - founder-effect
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Genetic Drift and Random Change in Small Populations

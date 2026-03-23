@@ -20,7 +20,7 @@ tags:
 - magnitude
 - phase
 - bode
-stage: advanced
+stage: expert
 status: draft
 ---
 

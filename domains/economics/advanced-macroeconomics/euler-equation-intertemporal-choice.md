@@ -19,7 +19,7 @@ tags:
 - intertemporal-choice
 - consumption
 - first-order-conditions
-stage: advanced
+stage: expert
 status: draft
 ---
 

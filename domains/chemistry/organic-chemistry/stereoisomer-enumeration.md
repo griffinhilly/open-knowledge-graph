@@ -17,7 +17,7 @@ tags:
 - chiral-centers
 - meso-compounds
 - enumeration
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

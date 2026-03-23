@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - trade
 - comparative-advantage
-stage: advanced
+stage: expert
 status: draft
 ---
 

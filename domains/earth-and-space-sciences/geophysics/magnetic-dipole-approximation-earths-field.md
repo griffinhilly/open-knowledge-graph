@@ -14,7 +14,7 @@ tags:
 - geomagnetism
 - dipole
 - field-model
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -24,7 +24,7 @@ tags:
 - amine
 - arylamines
 - pKa
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Amines: Structure, Basicity, and Reactions

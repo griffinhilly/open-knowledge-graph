@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - game-theory
 - sequential-play
-stage: advanced
+stage: expert
 status: draft
 ---
 

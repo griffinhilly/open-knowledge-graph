@@ -22,7 +22,7 @@ tags:
 - mutualism
 - parasitism
 - commensalism
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Species Interactions: Competition, Predation, Mutualism, and Parasitism

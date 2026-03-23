@@ -15,7 +15,7 @@ tags:
 - milestones
 - physical-development
 - locomotion
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

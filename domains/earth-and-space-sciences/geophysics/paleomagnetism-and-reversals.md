@@ -17,7 +17,7 @@ tags:
 - reversals
 - magnetostratigraphy
 - remanence
-stage: advanced
+stage: expert
 status: draft
 ---
 

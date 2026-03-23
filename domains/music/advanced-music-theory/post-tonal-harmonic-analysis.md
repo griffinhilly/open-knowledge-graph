@@ -17,7 +17,7 @@ tags:
 - atonality
 - post-tonal
 - analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

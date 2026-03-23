@@ -16,7 +16,7 @@ tags:
 - bicarbonate-reabsorption
 - acid-secretion
 - ammonia-excretion
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

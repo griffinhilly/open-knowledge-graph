@@ -15,7 +15,7 @@ tags:
 - stability-criterion
 - encirclement
 - polar-plot
-stage: advanced
+stage: expert
 status: draft
 ---
 

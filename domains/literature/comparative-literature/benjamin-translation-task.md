@@ -16,7 +16,7 @@ tags:
 - translation-theory
 - benjamin
 - philosophy-of-language
-stage: advanced
+stage: expert
 status: draft
 ---
 

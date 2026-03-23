@@ -15,7 +15,7 @@ tags:
 - intermediality
 - media
 - transformation
-stage: advanced
+stage: expert
 status: draft
 ---
 

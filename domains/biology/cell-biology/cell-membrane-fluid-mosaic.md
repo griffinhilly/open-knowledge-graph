@@ -16,7 +16,7 @@ tags:
 - lipid
 - protein
 - fluidity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

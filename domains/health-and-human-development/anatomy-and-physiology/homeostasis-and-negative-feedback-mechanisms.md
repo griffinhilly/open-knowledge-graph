@@ -17,7 +17,7 @@ tags:
 - regulation
 - feedback
 - physiology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

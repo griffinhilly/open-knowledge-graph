@@ -26,7 +26,7 @@ tags:
 - ATP
 - NADH
 - cytoplasm
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

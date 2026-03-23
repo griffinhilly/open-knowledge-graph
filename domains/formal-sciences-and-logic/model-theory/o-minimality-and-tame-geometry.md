@@ -15,7 +15,7 @@ tags:
 - tame geometry
 - cell decomposition
 - linear order
-stage: advanced
+stage: expert
 status: draft
 ---
 

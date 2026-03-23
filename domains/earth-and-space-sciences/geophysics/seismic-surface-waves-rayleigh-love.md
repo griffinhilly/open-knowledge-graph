@@ -15,7 +15,7 @@ tags:
 - surface-waves
 - dispersion
 - wave-propagation
-stage: advanced
+stage: expert
 status: draft
 ---
 

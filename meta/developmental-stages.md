@@ -13,11 +13,14 @@ Introduction of formal notation and standard procedures, but always grounded in 
 ### `abstract-reasoning` (roughly ages 10-15)
 Variables, generalization, and reasoning about relationships without concrete referents. The learner can manipulate symbols, follow multi-step logical arguments, and think hypothetically. Algebra, ratios, negative numbers, basic proof concepts.
 
-### `formal-systems` (roughly ages 15-18)
-Formal mathematical structures, rigorous proof, and multi-step abstraction. The learner can construct and evaluate arguments within axiomatic systems. Calculus, formal geometry, trigonometry, introductory linear algebra.
+### `formal-systems` (roughly ages 15-22)
+Systematic disciplinary thinking with formal frameworks. In mathematics: rigorous proof, axiomatic systems, calculus. In sciences: standard introductory and intermediate undergraduate curriculum (100-300 level courses), systematic laboratory methods, quantitative analysis within established paradigms. In humanities: formal analytical frameworks with defined methodologies. This stage covers AP/IB high school courses through standard undergraduate coursework. Examples: calculus, general chemistry, cell biology, introductory psychology, classical mechanics, anatomy & physiology.
 
-### `advanced` (roughly ages 18+)
-University-level and beyond. Abstract structures, generalization across domains, original problem-solving. Analysis, abstract algebra, topology, measure theory.
+### `advanced` (roughly ages 18-22+)
+Upper-division undergraduate specialty content requiring substantial prior disciplinary training. Standard bachelor's degree coursework in specialized subfields (300-400 level courses). In mathematics: abstract algebra, differential equations, real analysis. In sciences: physical chemistry, microbiology, quantum mechanics, statistical mechanics. In humanities: advanced seminars, specialized theory courses. Content typically encountered in the final years of a bachelor's program.
+
+### `expert` (roughly ages 22+)
+Graduate-level and professional specialization. Research methodology, cross-domain synthesis, cutting-edge topics, and content beyond a standard bachelor's degree. In mathematics: measure theory, category theory, algebraic topology. In sciences: advanced research methods, specialized subfields requiring graduate training. In humanities: original scholarship, historiographic theory. Content typically encountered in graduate programs, professional specialization, or requiring years of disciplinary experience.
 
 ## Usage Notes
 

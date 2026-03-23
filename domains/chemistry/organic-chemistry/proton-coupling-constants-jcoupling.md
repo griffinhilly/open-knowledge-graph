@@ -12,7 +12,7 @@ tags:
 - splitting
 - multiplet
 - first-order
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

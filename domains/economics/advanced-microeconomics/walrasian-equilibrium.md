@@ -21,7 +21,7 @@ tags:
 - general-equilibrium
 - markets
 - pricing
-stage: advanced
+stage: expert
 status: draft
 ---
 

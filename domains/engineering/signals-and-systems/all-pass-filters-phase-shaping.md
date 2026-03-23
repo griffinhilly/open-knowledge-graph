@@ -14,7 +14,7 @@ tags:
 - all-pass-filters
 - phase-shaping
 - transfer-function
-stage: advanced
+stage: expert
 status: draft
 ---
 

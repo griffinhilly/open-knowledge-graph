@@ -14,7 +14,7 @@ tags:
 - coriolis
 - inertial-force
 - ocean-currents
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

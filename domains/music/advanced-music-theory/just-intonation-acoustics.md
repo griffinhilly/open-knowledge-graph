@@ -28,7 +28,7 @@ tags:
 - harmonic-series
 - tuning
 - acoustics
-stage: advanced
+stage: expert
 status: draft
 ---
 

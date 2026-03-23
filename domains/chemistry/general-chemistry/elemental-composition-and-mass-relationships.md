@@ -16,7 +16,7 @@ tags:
 - composition
 - molar
 - quantitative
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

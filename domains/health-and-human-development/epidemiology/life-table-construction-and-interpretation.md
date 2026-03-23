@@ -14,7 +14,7 @@ tags:
 - life-expectancy
 - survival-curves
 - population-health
-stage: advanced
+stage: expert
 status: draft
 ---
 

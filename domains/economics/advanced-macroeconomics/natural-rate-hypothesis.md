@@ -12,7 +12,7 @@ tags:
 - natural-rate
 - nairu
 - long-run-phillips-curve
-stage: advanced
+stage: expert
 status: draft
 ---
 

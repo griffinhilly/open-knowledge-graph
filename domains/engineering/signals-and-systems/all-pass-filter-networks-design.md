@@ -14,7 +14,7 @@ tags:
 - all-pass
 - phase
 - equalization
-stage: advanced
+stage: expert
 status: draft
 ---
 

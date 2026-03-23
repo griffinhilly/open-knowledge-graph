@@ -16,7 +16,7 @@ tags:
 - ≡
 - indistinguishability
 - same-theory
-stage: advanced
+stage: expert
 status: draft
 ---
 

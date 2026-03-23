@@ -16,7 +16,7 @@ tags:
 - equivalence
 - bijection
 - structure-preserving
-stage: advanced
+stage: expert
 status: draft
 ---
 

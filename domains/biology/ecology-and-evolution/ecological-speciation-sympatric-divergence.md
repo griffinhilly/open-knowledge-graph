@@ -17,7 +17,7 @@ tags:
 - sympatric
 - niche-divergence
 - divergent-selection
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

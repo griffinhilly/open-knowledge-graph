@@ -13,7 +13,7 @@ tags:
 - subduction
 - slab
 - tomography
-stage: advanced
+stage: expert
 status: draft
 ---
 

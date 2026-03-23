@@ -16,7 +16,7 @@ tags:
 - atp-dependent
 - nucleosome-sliding
 - transcription-activation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

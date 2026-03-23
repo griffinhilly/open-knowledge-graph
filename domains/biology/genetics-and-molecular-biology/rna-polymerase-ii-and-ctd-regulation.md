@@ -17,7 +17,7 @@ tags:
 - capping-complex
 - splicing-factors
 - elongation-control
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

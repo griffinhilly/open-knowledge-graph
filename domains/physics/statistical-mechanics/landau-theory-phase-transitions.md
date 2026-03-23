@@ -13,7 +13,7 @@ tags:
 - landau-theory
 - free-energy-expansion
 - ginzburg-landau
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - rock-magnetism
 - remanence
 - saturation
-stage: advanced
+stage: expert
 status: draft
 ---
 

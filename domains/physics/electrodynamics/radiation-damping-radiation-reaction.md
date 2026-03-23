@@ -12,7 +12,7 @@ tags:
 - radiation-damping
 - energy-loss
 - friction-force
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -20,7 +20,7 @@ tags:
 - unimolecular
 - racemization
 - rearrangement
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # SN1 Substitution Reactions

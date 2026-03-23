@@ -14,7 +14,7 @@ tags:
 - coercion
 - statecraft
 - economics
-stage: advanced
+stage: expert
 status: draft
 ---
 # Sanctions and Economic Statecraft

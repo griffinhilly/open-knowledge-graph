@@ -25,7 +25,7 @@ tags:
 - set-theory
 - post-tonal
 - space
-stage: advanced
+stage: expert
 status: draft
 ---
 

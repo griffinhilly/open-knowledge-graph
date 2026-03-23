@@ -15,7 +15,7 @@ tags:
 - sampling
 - nyquist
 - discrete-time
-stage: advanced
+stage: expert
 status: draft
 ---
 

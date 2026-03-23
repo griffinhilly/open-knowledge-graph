@@ -15,7 +15,7 @@ tags:
 - vesicular-transport
 - secretion
 - membrane-trafficking
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - thermodynamic-limit
 - extensivity
 - large-N-limit
-stage: advanced
+stage: expert
 status: draft
 ---
 

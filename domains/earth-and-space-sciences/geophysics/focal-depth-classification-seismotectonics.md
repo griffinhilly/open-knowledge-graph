@@ -15,7 +15,7 @@ tags:
 - focal-depth
 - subduction
 - seismotectonics
-stage: advanced
+stage: expert
 status: draft
 ---
 

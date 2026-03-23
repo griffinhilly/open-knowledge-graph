@@ -14,7 +14,7 @@ tags:
 - equation-of-state
 - interactions
 - mean-field
-stage: advanced
+stage: expert
 status: draft
 ---
 

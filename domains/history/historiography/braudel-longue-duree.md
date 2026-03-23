@@ -15,7 +15,7 @@ tags:
 - longue-duree
 - structures
 - mediterranean
-stage: advanced
+stage: expert
 status: draft
 ---
 

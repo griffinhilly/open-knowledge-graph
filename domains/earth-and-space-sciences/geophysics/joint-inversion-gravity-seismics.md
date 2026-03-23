@@ -13,7 +13,7 @@ tags:
 - gravity
 - seismic
 - joint-inversion
-stage: advanced
+stage: expert
 status: draft
 ---
 

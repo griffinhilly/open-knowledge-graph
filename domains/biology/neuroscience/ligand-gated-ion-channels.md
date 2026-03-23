@@ -16,7 +16,7 @@ tags:
 - receptors
 - ionotropic
 - synaptic-current
-stage: advanced
+stage: expert
 status: draft
 ---
 

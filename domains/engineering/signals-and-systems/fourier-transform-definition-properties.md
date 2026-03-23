@@ -16,7 +16,7 @@ tags:
 - fourier-transform
 - frequency-domain
 - aperiodic-signals
-stage: advanced
+stage: expert
 status: draft
 ---
 

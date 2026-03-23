@@ -21,7 +21,7 @@ tags:
 - centrality
 - clustering
 - social-capital
-stage: advanced
+stage: expert
 status: draft
 ---
 

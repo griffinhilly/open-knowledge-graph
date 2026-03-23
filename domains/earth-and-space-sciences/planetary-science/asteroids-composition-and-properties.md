@@ -16,7 +16,7 @@ tags:
 - asteroids
 - composition
 - spectroscopy
-stage: advanced
+stage: expert
 status: draft
 ---
 

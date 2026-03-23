@@ -14,7 +14,7 @@ tags:
 - osmosis
 - facilitated-diffusion
 - transport
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

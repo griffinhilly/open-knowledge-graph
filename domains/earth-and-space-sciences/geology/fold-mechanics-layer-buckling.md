@@ -13,7 +13,7 @@ tags:
 - buckling
 - compression
 - mechanics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

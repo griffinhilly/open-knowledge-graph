@@ -15,7 +15,7 @@ tags:
 - paradigm
 - kuhn
 - sociological-schools
-stage: advanced
+stage: expert
 status: draft
 ---
 

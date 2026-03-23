@@ -15,7 +15,7 @@ tags:
 - spectrum
 - model-count
 - vaught-conjecture
-stage: advanced
+stage: expert
 status: draft
 ---
 

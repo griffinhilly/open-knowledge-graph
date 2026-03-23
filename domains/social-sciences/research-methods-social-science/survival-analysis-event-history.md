@@ -17,7 +17,7 @@ tags:
 - event-history
 - duration
 - censoring
-stage: advanced
+stage: expert
 status: draft
 ---
 

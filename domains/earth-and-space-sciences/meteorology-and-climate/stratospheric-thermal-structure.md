@@ -15,7 +15,7 @@ tags:
 - stratosphere
 - radiation
 - thermal
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

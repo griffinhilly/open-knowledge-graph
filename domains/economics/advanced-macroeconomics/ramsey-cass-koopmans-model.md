@@ -24,7 +24,7 @@ tags:
 - consumption-saving
 - intertemporal-optimization
 - endogenous-savings
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - synaptic-plasticity
 - presynaptic-mechanisms
 - temporal-dynamics
-stage: advanced
+stage: expert
 status: draft
 ---
 

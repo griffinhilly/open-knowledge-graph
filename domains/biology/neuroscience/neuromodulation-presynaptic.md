@@ -16,7 +16,7 @@ tags:
 - presynaptic
 - facilitation
 - depression
-stage: advanced
+stage: expert
 status: draft
 ---
 

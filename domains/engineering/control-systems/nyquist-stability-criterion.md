@@ -22,7 +22,7 @@ tags:
 - nyquist-contour
 - winding-number
 - argument-principle
-stage: advanced
+stage: expert
 status: validated
 ---
 

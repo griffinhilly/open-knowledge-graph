@@ -17,7 +17,7 @@ tags:
 - survey
 - cmp
 - processing
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - recovery
 - disturbance
 - resilience
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

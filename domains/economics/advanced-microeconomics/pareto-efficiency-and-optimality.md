@@ -23,7 +23,7 @@ tags:
 - welfare-economics
 - efficiency
 - general-equilibrium
-stage: advanced
+stage: expert
 status: draft
 ---
 

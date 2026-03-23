@@ -13,7 +13,7 @@ tags:
 - fermi-gas
 - degenerate
 - ground-state
-stage: advanced
+stage: expert
 status: draft
 ---
 

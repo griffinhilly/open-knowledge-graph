@@ -13,7 +13,7 @@ tags:
 - critical theory
 - hermeneutics
 - methodology
-stage: advanced
+stage: expert
 status: draft
 ---
 

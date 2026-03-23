@@ -18,7 +18,7 @@ tags:
 - adequate-intake
 - nutrient-requirements
 - dietary-guidelines
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

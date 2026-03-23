@@ -14,7 +14,7 @@ tags:
 - method
 - observation
 - empiricism
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - glomerulonephritis
 - proliferation
 - immune-complex
-stage: advanced
+stage: expert
 status: draft
 ---
 

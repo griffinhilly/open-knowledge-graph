@@ -11,7 +11,7 @@ tags:
 - motor-pathways
 - spinal-cord
 - movement
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - class-switch
 - isotype-switching
 - immunoglobulin-m
-stage: advanced
+stage: expert
 status: draft
 ---
 

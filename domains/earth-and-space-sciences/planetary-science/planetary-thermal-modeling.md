@@ -20,7 +20,7 @@ tags:
 - heat-flow
 - cooling
 - interior-modeling
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -10,7 +10,7 @@ tags:
 - quantum-fluid
 - bose-condensate
 - quantum-phenomena
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - upward LS
 - large models
 - cardinality spectrum
-stage: advanced
+stage: expert
 status: draft
 ---
 

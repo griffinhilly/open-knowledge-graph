@@ -19,7 +19,7 @@ tags:
 - identity
 - self-worth
 - social-comparison
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

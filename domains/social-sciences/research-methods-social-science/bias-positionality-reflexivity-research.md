@@ -11,7 +11,7 @@ tags:
 - positionality
 - reflexivity
 - standpoint
-stage: advanced
+stage: expert
 status: draft
 ---
 

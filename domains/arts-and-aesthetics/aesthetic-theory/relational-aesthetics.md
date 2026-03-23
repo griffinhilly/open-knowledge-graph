@@ -14,7 +14,7 @@ tags:
 - social art
 - participation
 - encounter
-stage: advanced
+stage: expert
 status: draft
 ---
 

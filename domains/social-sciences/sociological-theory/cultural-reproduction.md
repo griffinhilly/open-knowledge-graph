@@ -14,7 +14,7 @@ tags:
 - culture
 - education
 - inequality
-stage: advanced
+stage: expert
 status: draft
 ---
 

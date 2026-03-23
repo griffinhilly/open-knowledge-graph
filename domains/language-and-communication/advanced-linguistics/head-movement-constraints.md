@@ -12,7 +12,7 @@ tags:
 - syntax
 - movement
 - constraints
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - ion-transport
 - energy-metabolism
 - homeostasis
-stage: advanced
+stage: expert
 status: draft
 ---
 

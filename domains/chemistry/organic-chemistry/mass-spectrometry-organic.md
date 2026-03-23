@@ -27,7 +27,7 @@ tags:
 - isotope pattern
 - M+1
 - base peak
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Mass Spectrometry in Organic Chemistry

@@ -14,7 +14,7 @@ tags:
 - gut-motility
 - peristalsis
 - sphincter-control
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

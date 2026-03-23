@@ -17,7 +17,7 @@ tags:
 - species-tree
 - incongruence
 - lineage-sorting
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

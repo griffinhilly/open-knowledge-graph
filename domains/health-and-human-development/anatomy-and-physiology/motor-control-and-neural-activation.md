@@ -20,7 +20,7 @@ tags:
 - recruitment
 - force-gradation
 - fatigue
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

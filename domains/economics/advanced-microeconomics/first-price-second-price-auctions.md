@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - auction-theory
 - mechanism-design
-stage: advanced
+stage: expert
 status: draft
 ---
 

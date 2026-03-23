@@ -19,7 +19,7 @@ tags:
 - inverse
 - equivalence
 - structure
-stage: advanced
+stage: expert
 status: validated
 ---
 

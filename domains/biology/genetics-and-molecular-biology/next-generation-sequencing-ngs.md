@@ -16,7 +16,7 @@ tags:
 - illumina
 - dna-sequencing
 - high-throughput-sequencing
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

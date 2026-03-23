@@ -14,7 +14,7 @@ tags:
 - surveillance
 - panopticon
 - normalization
-stage: advanced
+stage: expert
 status: draft
 ---
 

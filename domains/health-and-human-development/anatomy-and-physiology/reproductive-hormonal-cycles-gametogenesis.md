@@ -14,7 +14,7 @@ tags:
 - reproductive-endocrinology
 - menstrual-cycle
 - HPG-axis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

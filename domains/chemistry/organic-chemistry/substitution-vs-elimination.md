@@ -23,7 +23,7 @@ tags:
 - substrate
 - base strength
 - solvent effects
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Substitution vs Elimination Competition

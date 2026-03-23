@@ -14,7 +14,7 @@ tags:
 - paleomagnetism
 - apparent-polar-wander
 - plate-motion
-stage: advanced
+stage: expert
 status: draft
 ---
 

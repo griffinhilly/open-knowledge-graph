@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - ion-channels
 - action-potential
-stage: advanced
+stage: expert
 status: draft
 ---
 

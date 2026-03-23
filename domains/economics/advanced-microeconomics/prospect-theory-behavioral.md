@@ -12,7 +12,7 @@ tags:
 - behavioral-economics
 - risk
 - decision-making
-stage: advanced
+stage: expert
 status: draft
 ---
 

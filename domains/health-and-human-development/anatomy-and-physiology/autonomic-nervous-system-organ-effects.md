@@ -18,7 +18,7 @@ tags:
 - autonomic-nervous-system
 - sympathetic
 - parasympathetic
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

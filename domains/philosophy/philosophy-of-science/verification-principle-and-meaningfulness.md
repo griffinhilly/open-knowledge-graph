@@ -14,7 +14,7 @@ tags:
 - verification
 - meaningfulness
 - logical-positivism
-stage: advanced
+stage: expert
 status: draft
 ---
 

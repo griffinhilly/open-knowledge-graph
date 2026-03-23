@@ -17,7 +17,7 @@ tags:
 - pollen
 - testate-amoebae
 - paleohydrology
-stage: advanced
+stage: expert
 status: draft
 ---
 

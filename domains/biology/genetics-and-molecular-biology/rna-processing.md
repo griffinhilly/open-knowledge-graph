@@ -18,7 +18,7 @@ tags:
 - 5' cap
 - poly-A tail
 - pre-mRNA
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

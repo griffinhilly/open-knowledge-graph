@@ -14,7 +14,7 @@ tags:
 - geothermics
 - plate-tectonics
 - cooling
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -19,7 +19,7 @@ tags:
 - epistemology
 - sources
 - validity
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -26,7 +26,7 @@ tags:
 - electrophile
 - leaving group
 - intermediate
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

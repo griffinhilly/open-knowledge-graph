@@ -19,7 +19,7 @@ tags:
 - initiator-trna
 - scanning-model
 - kozak-sequence
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

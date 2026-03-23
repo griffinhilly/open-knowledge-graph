@@ -12,7 +12,7 @@ tags:
 - fear
 - avoidance
 - conditioning
-stage: advanced
+stage: expert
 status: draft
 ---
 

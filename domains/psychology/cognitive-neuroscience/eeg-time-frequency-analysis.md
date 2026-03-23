@@ -25,7 +25,7 @@ tags:
 - beta
 - gamma
 - time-frequency
-stage: advanced
+stage: expert
 status: draft
 ---
 

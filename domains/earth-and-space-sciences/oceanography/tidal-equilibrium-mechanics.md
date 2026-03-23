@@ -12,7 +12,7 @@ tags:
 - lunar-tides
 - solar-tides
 - equilibrium-theory
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

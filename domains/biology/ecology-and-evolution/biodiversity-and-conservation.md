@@ -22,7 +22,7 @@ tags:
 - habitat-loss
 - invasive-species
 - endangered-species
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Biodiversity Conservation and Extinction Threats

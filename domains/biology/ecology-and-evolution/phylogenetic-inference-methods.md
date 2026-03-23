@@ -24,7 +24,7 @@ tags:
 - methods
 - inference
 - statistics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

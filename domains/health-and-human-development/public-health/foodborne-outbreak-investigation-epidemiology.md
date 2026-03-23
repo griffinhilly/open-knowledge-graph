@@ -14,7 +14,7 @@ tags:
 - outbreak-investigation
 - food-safety
 - epidemiology
-stage: advanced
+stage: expert
 status: draft
 ---
 

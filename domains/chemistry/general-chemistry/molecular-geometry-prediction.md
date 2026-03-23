@@ -16,7 +16,7 @@ tags:
 - molecular geometry
 - electron geometry
 - 3D structure
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

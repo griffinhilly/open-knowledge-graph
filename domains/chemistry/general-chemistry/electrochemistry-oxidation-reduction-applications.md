@@ -19,7 +19,7 @@ tags:
 - oxidation
 - reduction
 - electron-transfer
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

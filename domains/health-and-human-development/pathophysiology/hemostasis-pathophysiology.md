@@ -18,7 +18,7 @@ tags:
 - coagulation
 - hemostasis
 - blood
-stage: advanced
+stage: expert
 status: draft
 ---
 

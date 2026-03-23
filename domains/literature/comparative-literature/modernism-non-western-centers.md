@@ -17,7 +17,7 @@ tags:
 - movements
 - non-Western
 - periodization
-stage: advanced
+stage: expert
 status: draft
 ---
 

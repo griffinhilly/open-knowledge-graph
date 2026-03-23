@@ -17,7 +17,7 @@ tags:
 - representation
 - voice
 - colonialism
-stage: advanced
+stage: expert
 status: draft
 ---
 

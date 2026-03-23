@@ -14,7 +14,7 @@ tags:
 - power
 - language
 - foucault
-stage: advanced
+stage: expert
 status: draft
 ---
 # Discourse Analysis: Foucauldian Approaches

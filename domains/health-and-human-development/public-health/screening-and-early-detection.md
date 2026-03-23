@@ -22,7 +22,7 @@ tags:
 - specificity
 - predictive-value
 - lead-time-bias
-stage: advanced
+stage: expert
 status: validated
 ---
 # Screening Programs and Diagnostic Test Performance

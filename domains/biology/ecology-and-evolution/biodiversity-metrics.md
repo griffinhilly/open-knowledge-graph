@@ -23,7 +23,7 @@ tags:
 - Shannon-diversity
 - evenness
 - alpha-beta-gamma
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Measuring Biodiversity: Species Richness, Diversity Indices, and Evenness

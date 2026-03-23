@@ -14,7 +14,7 @@ tags:
 - autocorrelation
 - estimation
 - properties
-stage: advanced
+stage: expert
 status: draft
 ---
 

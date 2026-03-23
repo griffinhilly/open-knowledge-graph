@@ -16,7 +16,7 @@ tags:
 - peak
 - magnitude-response
 - frequency-domain-performance
-stage: advanced
+stage: expert
 status: draft
 ---
 # Bandwidth and Resonant Frequency Selection

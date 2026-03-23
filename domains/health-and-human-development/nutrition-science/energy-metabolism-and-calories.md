@@ -32,7 +32,7 @@ tags:
 - BMR
 - TDEE
 - energy balance
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Energy Metabolism, Caloric Needs, and Basal Metabolic Rate

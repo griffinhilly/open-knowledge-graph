@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - industrial-organization
 - product-design
-stage: advanced
+stage: expert
 status: draft
 ---
 

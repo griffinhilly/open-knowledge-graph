@@ -21,7 +21,7 @@ tags:
 - notifiable-disease
 - sentinel-surveillance
 - public-health-systems
-stage: advanced
+stage: expert
 status: validated
 ---
 

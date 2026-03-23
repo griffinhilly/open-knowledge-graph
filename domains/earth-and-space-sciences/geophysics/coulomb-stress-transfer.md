@@ -12,7 +12,7 @@ tags:
 - coulomb-stress
 - triggering
 - earthquakes
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - pneumonia
 - inhalation
 - airway
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -23,7 +23,7 @@ tags:
 - organelles
 - nucleus
 - membrane
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

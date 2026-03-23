@@ -13,7 +13,7 @@ tags:
 - thermodynamic-potential
 - particle-exchange
 - equilibrium
-stage: advanced
+stage: expert
 status: draft
 ---
 

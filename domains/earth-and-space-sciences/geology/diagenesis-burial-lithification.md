@@ -14,7 +14,7 @@ tags:
 - diagenesis
 - lithification
 - cementation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

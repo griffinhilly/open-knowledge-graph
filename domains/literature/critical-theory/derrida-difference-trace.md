@@ -14,7 +14,7 @@ tags:
 - trace
 - deconstruction
 - meaning
-stage: advanced
+stage: expert
 status: draft
 ---
 

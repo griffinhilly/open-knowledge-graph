@@ -19,7 +19,7 @@ tags:
 - exergonic
 - endergonic
 - equilibrium-constant-relation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Gibbs Free Energy and Spontaneity

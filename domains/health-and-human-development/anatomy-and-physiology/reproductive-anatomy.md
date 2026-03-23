@@ -19,7 +19,7 @@ tags:
 - oogenesis
 - gonadal-hormones
 - HPG-axis
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

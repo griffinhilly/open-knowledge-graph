@@ -13,7 +13,7 @@ tags:
 - cerebellum
 - learning
 - coordination
-stage: advanced
+stage: expert
 status: draft
 ---
 

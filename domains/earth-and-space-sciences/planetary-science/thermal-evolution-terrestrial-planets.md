@@ -17,7 +17,7 @@ tags:
 - thermal-history
 - cooling
 - heat-loss
-stage: advanced
+stage: expert
 status: draft
 ---
 

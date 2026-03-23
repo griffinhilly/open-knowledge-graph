@@ -19,7 +19,7 @@ tags:
 - genetic-load
 - purging
 - genetic-rescue
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

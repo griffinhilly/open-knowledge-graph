@@ -14,7 +14,7 @@ tags:
 - consumer-theory
 - preference-elicitation
 - non-parametric
-stage: advanced
+stage: expert
 status: draft
 ---
 

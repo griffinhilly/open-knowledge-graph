@@ -21,7 +21,7 @@ tags:
 - FADH2
 - CO2
 - ATP
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

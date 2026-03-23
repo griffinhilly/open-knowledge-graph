@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - learning-memory
 - spatial-memory
-stage: advanced
+stage: expert
 status: draft
 ---
 

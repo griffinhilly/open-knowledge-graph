@@ -16,7 +16,7 @@ tags:
 - geotherm
 - temperature-profile
 - crustal-structure
-stage: advanced
+stage: expert
 status: draft
 ---
 

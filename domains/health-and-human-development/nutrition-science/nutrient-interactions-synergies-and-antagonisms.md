@@ -15,7 +15,7 @@ tags:
 - synergies
 - antagonisms
 - bioavailability
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

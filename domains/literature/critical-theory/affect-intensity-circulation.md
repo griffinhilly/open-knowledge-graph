@@ -15,7 +15,7 @@ tags:
 - intensity
 - circulation
 - emotion
-stage: advanced
+stage: expert
 status: draft
 ---
 

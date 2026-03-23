@@ -14,7 +14,7 @@ tags:
 - neurogenesis
 - plasticity
 - adult-brain
-stage: advanced
+stage: expert
 status: draft
 ---
 

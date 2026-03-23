@@ -18,7 +18,7 @@ tags:
 - economy
 - culture
 - ideology
-stage: advanced
+stage: expert
 status: draft
 ---
 

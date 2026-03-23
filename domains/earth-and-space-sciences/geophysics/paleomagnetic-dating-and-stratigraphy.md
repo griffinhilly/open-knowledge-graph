@@ -11,7 +11,7 @@ tags:
 - magnetostratigraphy
 - dating
 - chronology
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - computational-history
 - distant-reading
 - data
-stage: advanced
+stage: expert
 status: draft
 ---
 

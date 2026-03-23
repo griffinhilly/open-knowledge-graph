@@ -16,7 +16,7 @@ tags:
 - RAAS
 - vasoconstriction
 - autonomic
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

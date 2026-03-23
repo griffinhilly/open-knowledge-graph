@@ -17,7 +17,7 @@ tags:
 - thermoregulation
 - hypothalamus
 - metabolism
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

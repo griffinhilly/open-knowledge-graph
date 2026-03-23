@@ -17,7 +17,7 @@ tags:
 - error-monitoring
 - ACC
 - ERP
-stage: advanced
+stage: expert
 status: draft
 ---
 

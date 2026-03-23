@@ -17,7 +17,7 @@ tags:
 - secondary
 - pioneer-species
 - climax-community
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

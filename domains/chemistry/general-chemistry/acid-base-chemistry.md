@@ -20,7 +20,7 @@ tags:
 - strong-acid
 - weak-acid
 - amphoteric
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

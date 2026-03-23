@@ -15,7 +15,7 @@ tags:
 - interests
 - wendt
 - social-ontology
-stage: advanced
+stage: expert
 status: draft
 ---
 

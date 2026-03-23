@@ -19,7 +19,7 @@ tags:
 - algebraic-structure
 - limits
 - homological-algebra
-stage: advanced
+stage: expert
 status: draft
 ---
 

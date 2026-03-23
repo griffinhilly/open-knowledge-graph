@@ -15,7 +15,7 @@ tags:
 - conductivity
 - free-electrons
 - plasma-frequency
-stage: advanced
+stage: expert
 status: draft
 ---
 

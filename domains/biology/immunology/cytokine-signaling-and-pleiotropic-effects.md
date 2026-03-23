@@ -17,7 +17,7 @@ tags:
 - redundancy
 - JAK-STAT
 - tissue-context
-stage: advanced
+stage: expert
 status: draft
 ---
 

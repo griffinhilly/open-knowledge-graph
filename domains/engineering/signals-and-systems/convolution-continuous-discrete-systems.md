@@ -17,7 +17,7 @@ tags:
 - convolution
 - systems
 - lti
-stage: advanced
+stage: expert
 status: draft
 ---
 

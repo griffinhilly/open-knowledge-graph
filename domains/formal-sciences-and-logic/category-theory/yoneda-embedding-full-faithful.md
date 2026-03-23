@@ -20,7 +20,7 @@ tags:
 - embedding
 - representable
 - presheaf
-stage: advanced
+stage: expert
 status: draft
 ---
 

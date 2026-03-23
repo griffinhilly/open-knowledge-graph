@@ -14,7 +14,7 @@ tags:
 - chemiluminescence
 - counter-illumination
 - communication
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

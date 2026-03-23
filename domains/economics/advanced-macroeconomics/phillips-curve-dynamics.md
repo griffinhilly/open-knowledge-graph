@@ -23,7 +23,7 @@ tags:
 - unemployment
 - expectations
 - price-setting
-stage: advanced
+stage: expert
 status: draft
 ---
 

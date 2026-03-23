@@ -15,7 +15,7 @@ tags:
 - structure
 - radial-zones
 - snow-line
-stage: advanced
+stage: expert
 status: draft
 ---
 

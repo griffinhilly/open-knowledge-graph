@@ -18,7 +18,7 @@ tags:
 - gpcr
 - metabotropic
 - g-proteins
-stage: advanced
+stage: expert
 status: draft
 ---
 

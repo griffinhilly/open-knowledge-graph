@@ -29,7 +29,7 @@ tags:
 - Hoggart
 - encoding-decoding
 - popular-culture
-stage: advanced
+stage: expert
 status: validated
 ---
 # Cultural Studies and Literary Analysis

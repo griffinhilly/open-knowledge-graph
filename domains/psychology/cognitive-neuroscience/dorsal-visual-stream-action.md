@@ -14,7 +14,7 @@ tags:
 - vision
 - action
 - reaching
-stage: advanced
+stage: expert
 status: draft
 ---
 

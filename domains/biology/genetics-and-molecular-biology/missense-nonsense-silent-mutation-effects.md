@@ -15,7 +15,7 @@ tags:
 - mutation-classification
 - codon-changes
 - phenotypic-effects
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

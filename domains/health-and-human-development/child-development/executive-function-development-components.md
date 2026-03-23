@@ -20,7 +20,7 @@ tags:
 - cognitive-flexibility
 - inhibition
 - prefrontal-cortex
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

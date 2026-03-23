@@ -19,7 +19,7 @@ tags:
 - friendship
 - social-skills
 - peer-acceptance
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

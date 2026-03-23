@@ -16,7 +16,7 @@ tags:
 - electrophysiology
 - pacemaker
 - automaticity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

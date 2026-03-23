@@ -15,7 +15,7 @@ tags:
 - abelian-categories
 - homological-algebra
 - structure
-stage: advanced
+stage: expert
 status: draft
 ---
 

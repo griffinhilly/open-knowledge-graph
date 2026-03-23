@@ -14,7 +14,7 @@ tags:
 - ksp
 - common-ion-effect
 - solubility
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - confounder-control
 - stratification
 - mantel-haenszel
-stage: advanced
+stage: expert
 status: draft
 ---
 

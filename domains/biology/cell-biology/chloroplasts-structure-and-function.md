@@ -17,7 +17,7 @@ tags:
 - stroma
 - grana
 - photosynthesis
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

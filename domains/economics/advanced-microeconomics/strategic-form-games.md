@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - game-theory
 - strategic-interaction
-stage: advanced
+stage: expert
 status: draft
 ---
 

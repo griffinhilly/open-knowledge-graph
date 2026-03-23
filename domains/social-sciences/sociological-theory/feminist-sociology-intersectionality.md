@@ -13,7 +13,7 @@ tags:
 - intersectionality
 - gender
 - inequality
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - background
 - middleground
 - foreground
-stage: advanced
+stage: expert
 status: draft
 ---
 

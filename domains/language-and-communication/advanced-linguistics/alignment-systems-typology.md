@@ -12,7 +12,7 @@ tags:
 - alignment
 - typology
 - grammatical-relations
-stage: advanced
+stage: expert
 status: draft
 ---
 

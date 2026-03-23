@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - general-equilibrium
 - exchange-economy
-stage: advanced
+stage: expert
 status: draft
 ---
 

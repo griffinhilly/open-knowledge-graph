@@ -22,7 +22,7 @@ tags:
 - serialism
 - twelve-tone
 - structure
-stage: advanced
+stage: expert
 status: draft
 ---
 # Twelve-Tone Aggregate Formations

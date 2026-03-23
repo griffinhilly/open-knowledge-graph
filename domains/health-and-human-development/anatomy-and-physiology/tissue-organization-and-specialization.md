@@ -22,7 +22,7 @@ tags:
 - specialization
 - histology
 - organization
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

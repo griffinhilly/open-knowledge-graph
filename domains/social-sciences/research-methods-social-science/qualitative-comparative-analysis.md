@@ -11,7 +11,7 @@ tags:
 - necessary-sufficient
 - fuzzy-set
 - causal-configurations
-stage: advanced
+stage: expert
 status: draft
 ---
 

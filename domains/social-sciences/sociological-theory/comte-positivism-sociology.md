@@ -13,7 +13,7 @@ tags:
 - classical-theory
 - positivism
 - comte
-stage: advanced
+stage: expert
 status: draft
 ---
 

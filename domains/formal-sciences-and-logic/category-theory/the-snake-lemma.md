@@ -16,7 +16,7 @@ tags:
 - homological-algebra
 - diagram-chasing
 - connecting-morphism
-stage: advanced
+stage: expert
 status: draft
 ---
 # The Snake Lemma

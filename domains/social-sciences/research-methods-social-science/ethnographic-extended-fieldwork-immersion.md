@@ -15,7 +15,7 @@ tags:
 - fieldwork
 - immersion
 - observation
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - gas
 - liquid
 - solid
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - imitation
 - motor-system
 - premotor
-stage: advanced
+stage: expert
 status: draft
 ---
 

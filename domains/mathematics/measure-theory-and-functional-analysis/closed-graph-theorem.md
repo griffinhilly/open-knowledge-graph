@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 tags:
 - functional-analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

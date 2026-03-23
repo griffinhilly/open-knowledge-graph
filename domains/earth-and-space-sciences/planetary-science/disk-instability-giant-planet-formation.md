@@ -16,7 +16,7 @@ tags:
 - formation
 - gravitational-instability
 - fragmentation
-stage: advanced
+stage: expert
 status: draft
 ---
 

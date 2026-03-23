@@ -12,7 +12,7 @@ tags:
 - allomorphy
 - morphology
 - variation
-stage: advanced
+stage: expert
 status: draft
 ---
 

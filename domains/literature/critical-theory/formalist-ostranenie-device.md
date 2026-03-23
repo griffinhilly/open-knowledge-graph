@@ -16,7 +16,7 @@ tags:
 - ostranenie
 - device
 - form
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - frankfurt-school
 - ideology
 - domination
-stage: advanced
+stage: expert
 status: draft
 ---
 

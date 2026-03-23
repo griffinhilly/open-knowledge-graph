@@ -13,7 +13,7 @@ tags:
 - anxiety
 - panic
 - agoraphobia
-stage: advanced
+stage: expert
 status: draft
 ---
 

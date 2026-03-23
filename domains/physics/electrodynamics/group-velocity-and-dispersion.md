@@ -15,7 +15,7 @@ tags:
 - phase-velocity
 - dispersion
 - wave-packets
-stage: advanced
+stage: expert
 status: draft
 ---
 

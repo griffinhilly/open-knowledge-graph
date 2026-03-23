@@ -12,7 +12,7 @@ tags:
 - lived-experience
 - consciousness
 - lifeworld
-stage: advanced
+stage: expert
 status: draft
 ---
 # Phenomenological Sociology

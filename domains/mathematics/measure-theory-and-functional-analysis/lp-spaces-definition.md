@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - lp-spaces
 - functional-analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

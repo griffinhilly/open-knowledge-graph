@@ -15,7 +15,7 @@ tags:
 - indicator-species
 - assessment
 - monitoring
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

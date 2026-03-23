@@ -13,7 +13,7 @@ tags:
 - integral-action
 - steady-state-error
 - pid
-stage: advanced
+stage: expert
 status: draft
 ---
 

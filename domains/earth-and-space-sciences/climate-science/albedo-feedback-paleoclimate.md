@@ -16,7 +16,7 @@ tags:
 - ice-albedo-feedback
 - snow-albedo
 - paleoclimate-forcing
-stage: advanced
+stage: expert
 status: draft
 ---
 

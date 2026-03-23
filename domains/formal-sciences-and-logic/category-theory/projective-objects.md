@@ -15,7 +15,7 @@ tags:
 - homological-algebra
 - universal-properties
 - lifts
-stage: advanced
+stage: expert
 status: draft
 ---
 

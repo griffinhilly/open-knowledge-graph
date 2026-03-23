@@ -18,7 +18,7 @@ tags:
 - cotransport
 - chylomicrons
 - portal circulation
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

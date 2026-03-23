@@ -17,7 +17,7 @@ tags:
 - Genette
 - narrative
 - textual-relations
-stage: advanced
+stage: expert
 status: draft
 ---
 

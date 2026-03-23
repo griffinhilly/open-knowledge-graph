@@ -22,7 +22,7 @@ tags:
 - insolation
 - energy-balance
 - radiation
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

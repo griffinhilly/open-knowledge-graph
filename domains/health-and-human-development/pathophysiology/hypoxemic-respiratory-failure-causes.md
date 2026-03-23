@@ -15,7 +15,7 @@ tags:
 - hypoxemia
 - ventilation-perfusion
 - diffusion-impairment
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -9,7 +9,7 @@ tags:
 - alliances
 - credibility
 - commitment
-stage: advanced
+stage: expert
 status: draft
 ---
 

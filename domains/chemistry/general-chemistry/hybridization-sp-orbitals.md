@@ -15,7 +15,7 @@ tags:
 - hybridization
 - sp orbitals
 - molecular geometry
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

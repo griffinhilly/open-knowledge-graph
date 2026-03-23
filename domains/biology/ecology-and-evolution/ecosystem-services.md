@@ -19,7 +19,7 @@ tags:
 - regulating
 - supporting
 - natural-capital
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

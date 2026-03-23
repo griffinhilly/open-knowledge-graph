@@ -16,7 +16,7 @@ tags:
 - adaptation
 - media
 - transformation
-stage: advanced
+stage: expert
 status: draft
 ---
 

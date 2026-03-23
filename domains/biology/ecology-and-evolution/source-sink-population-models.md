@@ -16,7 +16,7 @@ tags:
 - population
 - metapopulation
 - dispersal
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

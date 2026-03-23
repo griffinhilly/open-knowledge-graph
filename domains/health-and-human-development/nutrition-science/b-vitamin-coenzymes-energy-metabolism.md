@@ -18,7 +18,7 @@ tags:
 - thiamine
 - riboflavin
 - niacin
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

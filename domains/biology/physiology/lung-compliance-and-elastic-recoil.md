@@ -13,7 +13,7 @@ tags:
 - compliance
 - elasticity
 - surfactant
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

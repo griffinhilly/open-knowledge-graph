@@ -13,7 +13,7 @@ tags:
 - critical-analysis
 - power
 - ideology
-stage: advanced
+stage: expert
 status: draft
 ---
 

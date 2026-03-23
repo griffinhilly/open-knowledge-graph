@@ -22,7 +22,7 @@ tags:
 - theory
 - Kristeva
 - networks
-stage: advanced
+stage: expert
 status: draft
 ---
 

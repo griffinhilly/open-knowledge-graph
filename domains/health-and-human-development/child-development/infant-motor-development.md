@@ -18,7 +18,7 @@ tags:
 - gross-motor
 - fine-motor
 - infancy
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

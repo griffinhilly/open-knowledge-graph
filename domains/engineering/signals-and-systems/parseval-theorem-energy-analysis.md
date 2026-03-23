@@ -14,7 +14,7 @@ tags:
 - parseval
 - energy
 - spectral-density
-stage: advanced
+stage: expert
 status: draft
 ---
 

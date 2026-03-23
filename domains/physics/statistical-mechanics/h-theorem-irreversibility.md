@@ -14,7 +14,7 @@ tags:
 - irreversibility
 - entropy
 - boltzmann-equation
-stage: advanced
+stage: expert
 status: draft
 ---
 

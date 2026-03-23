@@ -12,7 +12,7 @@ tags:
 - quasiparticles
 - phonons
 - bosons
-stage: advanced
+stage: expert
 status: draft
 ---
 

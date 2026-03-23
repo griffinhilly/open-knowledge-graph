@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - product-measures
 - integration
-stage: advanced
+stage: expert
 status: draft
 ---
 

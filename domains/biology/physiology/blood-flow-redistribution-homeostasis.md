@@ -18,7 +18,7 @@ tags:
 - exercise
 - stress
 - autoregulation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

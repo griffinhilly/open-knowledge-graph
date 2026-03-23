@@ -13,7 +13,7 @@ tags:
 - oxidation-number-rules
 - electron-bookkeeping
 - formal-charge-vs-oxidation-number
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Oxidation Numbers

@@ -17,7 +17,7 @@ tags:
 - modeling
 - inversion
 - density
-stage: advanced
+stage: expert
 status: draft
 ---
 

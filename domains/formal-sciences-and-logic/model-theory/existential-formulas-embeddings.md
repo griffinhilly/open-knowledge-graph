@@ -15,7 +15,7 @@ tags:
 - existential-formulas
 - preservation
 - embeddings
-stage: advanced
+stage: expert
 status: draft
 ---
 

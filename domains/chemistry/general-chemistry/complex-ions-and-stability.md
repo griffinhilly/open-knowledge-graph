@@ -15,7 +15,7 @@ tags:
 - complex stability
 - formation constant
 - coordination equilibrium
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - secondary-structure
 - thermodynamic-stability
 - structure-function
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

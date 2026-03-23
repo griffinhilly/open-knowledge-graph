@@ -14,7 +14,7 @@ tags:
 - orbitals
 - aufbau principle
 - pauli exclusion
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

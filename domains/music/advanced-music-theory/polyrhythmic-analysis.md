@@ -21,7 +21,7 @@ tags:
 - rhythm
 - texture
 - polyrhythm
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - dominant-poles
 - angle-condition
 - design-specs
-stage: advanced
+stage: expert
 status: validated
 ---
 

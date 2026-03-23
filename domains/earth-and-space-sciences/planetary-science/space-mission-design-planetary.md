@@ -11,7 +11,7 @@ tags:
 - trajectories
 - orbital-mechanics
 - exploration
-stage: advanced
+stage: expert
 status: draft
 ---
 

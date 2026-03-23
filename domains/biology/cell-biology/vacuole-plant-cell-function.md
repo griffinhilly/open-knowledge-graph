@@ -13,7 +13,7 @@ tags:
 - plant-cell
 - storage
 - turgor
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

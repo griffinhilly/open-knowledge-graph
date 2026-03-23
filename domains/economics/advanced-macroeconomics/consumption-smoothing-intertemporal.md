@@ -16,7 +16,7 @@ tags:
 - consumption-smoothing
 - permanent-income
 - intertemporal-substitution
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - historical
 - comparative
 - periodization
-stage: advanced
+stage: expert
 status: draft
 ---
 

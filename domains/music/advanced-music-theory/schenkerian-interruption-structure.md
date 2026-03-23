@@ -15,7 +15,7 @@ tags:
 - schenkerian-analysis
 - ursatz
 - form
-stage: advanced
+stage: expert
 status: draft
 ---
 

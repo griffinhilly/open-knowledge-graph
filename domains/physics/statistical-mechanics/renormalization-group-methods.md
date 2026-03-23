@@ -12,7 +12,7 @@ tags:
 - renormalization
 - scaling
 - critical
-stage: advanced
+stage: expert
 status: draft
 ---
 

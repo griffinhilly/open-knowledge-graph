@@ -15,7 +15,7 @@ tags:
 - catharsis
 - tragedy
 - mimesis
-stage: advanced
+stage: expert
 status: draft
 ---
 

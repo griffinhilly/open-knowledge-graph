@@ -17,7 +17,7 @@ tags:
 - mitochondrial-dna
 - chloroplast-dna
 - heteroplasmy
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

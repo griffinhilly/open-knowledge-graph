@@ -12,7 +12,7 @@ tags:
 - phonology
 - features
 - feature-geometry
-stage: advanced
+stage: expert
 status: draft
 ---
 

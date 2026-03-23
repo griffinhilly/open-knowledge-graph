@@ -18,7 +18,7 @@ tags:
 - criticism
 - authority
 - expertise
-stage: advanced
+stage: expert
 status: draft
 ---
 # Critical Judgment and Aesthetic Testimony

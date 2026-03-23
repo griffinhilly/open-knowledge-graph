@@ -14,7 +14,7 @@ tags:
 - diagonalization
 - quasiparticles
 - interactions
-stage: advanced
+stage: expert
 status: draft
 ---
 

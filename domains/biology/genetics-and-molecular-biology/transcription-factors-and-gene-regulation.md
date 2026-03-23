@@ -17,7 +17,7 @@ tags:
 - transcriptional-activation
 - repression
 - combinatorial-control
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Transcription Factors: DNA Binding and Gene Regulation

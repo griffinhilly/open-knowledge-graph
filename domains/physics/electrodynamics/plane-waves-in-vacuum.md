@@ -13,7 +13,7 @@ tags:
 - waves
 - propagation
 - vacuum
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - newman-projection
 - dihedral-angle
 - steric-strain
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

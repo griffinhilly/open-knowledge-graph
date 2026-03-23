@@ -12,7 +12,7 @@ tags:
 - dsge-models
 - general-equilibrium
 - stochastic-shocks
-stage: advanced
+stage: expert
 status: draft
 ---
 

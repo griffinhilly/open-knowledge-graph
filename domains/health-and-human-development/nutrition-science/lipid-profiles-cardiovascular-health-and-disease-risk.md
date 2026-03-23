@@ -15,7 +15,7 @@ tags:
 - cholesterol
 - cardiovascular-health
 - lipoproteins
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

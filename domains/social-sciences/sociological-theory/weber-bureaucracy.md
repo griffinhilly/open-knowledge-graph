@@ -13,7 +13,7 @@ tags:
 - weber
 - bureaucracy
 - organization
-stage: advanced
+stage: expert
 status: draft
 ---
 

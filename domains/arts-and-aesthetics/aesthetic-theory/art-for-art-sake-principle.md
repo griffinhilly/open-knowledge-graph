@@ -16,7 +16,7 @@ tags:
 - formalism
 - art-for-art
 - aestheticism
-stage: advanced
+stage: expert
 status: draft
 ---
 

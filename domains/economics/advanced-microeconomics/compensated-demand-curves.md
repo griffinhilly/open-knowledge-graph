@@ -14,7 +14,7 @@ tags:
 - consumer-theory
 - demand
 - utility
-stage: advanced
+stage: expert
 status: draft
 ---
 

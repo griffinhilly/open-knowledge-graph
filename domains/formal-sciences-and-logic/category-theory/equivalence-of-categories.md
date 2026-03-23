@@ -29,7 +29,7 @@ tags:
 - essentially surjective
 - skeleton
 - categorical equivalence
-stage: advanced
+stage: expert
 status: validated
 ---
 # Equivalence of Categories

@@ -28,7 +28,7 @@ tags:
 - blood glucose
 - carbohydrate metabolism
 - insulin resistance
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - localization
 - inverting-morphisms
 - quotient-categories
-stage: advanced
+stage: expert
 status: draft
 ---
 

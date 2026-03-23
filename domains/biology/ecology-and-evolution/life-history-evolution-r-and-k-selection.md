@@ -16,7 +16,7 @@ tags:
 - r-k-selection
 - evolution
 - strategy
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

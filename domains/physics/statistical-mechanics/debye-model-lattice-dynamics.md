@@ -16,7 +16,7 @@ tags:
 - phonons
 - specific-heat
 - debye-temperature
-stage: advanced
+stage: expert
 status: draft
 ---
 

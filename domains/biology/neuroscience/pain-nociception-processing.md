@@ -11,7 +11,7 @@ tags:
 - pain
 - nociception
 - emotional-response
-stage: advanced
+stage: expert
 status: draft
 ---
 

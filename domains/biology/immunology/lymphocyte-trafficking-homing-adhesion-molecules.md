@@ -19,7 +19,7 @@ tags:
 - chemokines
 - trafficking
 - tissue-residency
-stage: advanced
+stage: expert
 status: draft
 ---
 

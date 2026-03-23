@@ -18,7 +18,7 @@ tags:
 - retro-aldol
 - LDA
 - carbon-carbon bond formation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # The Aldol Reaction

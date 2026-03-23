@@ -15,7 +15,7 @@ tags:
 - assemblage
 - becoming
 - rhizome
-stage: advanced
+stage: expert
 status: draft
 ---
 

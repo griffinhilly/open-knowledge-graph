@@ -15,7 +15,7 @@ tags:
 - gamma-carboxylation
 - coagulation
 - bone-proteins
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

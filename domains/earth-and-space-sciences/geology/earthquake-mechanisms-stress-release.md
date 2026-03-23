@@ -14,7 +14,7 @@ tags:
 - earthquakes
 - seismology
 - faults
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

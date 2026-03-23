@@ -14,7 +14,7 @@ tags:
 - hofmann
 - zaitsev
 - alkene-stability
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

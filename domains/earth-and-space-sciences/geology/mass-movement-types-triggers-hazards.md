@@ -12,7 +12,7 @@ tags:
 - mass-wasting
 - slope-stability
 - hazards
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - alkyl-halides
 - nomenclature
 - structure
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

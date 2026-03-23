@@ -14,7 +14,7 @@ tags:
 - atp
 - energy
 - currency
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

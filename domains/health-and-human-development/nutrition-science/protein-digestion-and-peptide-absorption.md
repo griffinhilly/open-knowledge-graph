@@ -22,7 +22,7 @@ tags:
 - proteolysis
 - enzymes
 - peptide-transport
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

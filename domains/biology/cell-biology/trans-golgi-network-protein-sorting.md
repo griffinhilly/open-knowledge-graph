@@ -14,7 +14,7 @@ tags:
 - Golgi
 - protein-sorting
 - secretory-pathway
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

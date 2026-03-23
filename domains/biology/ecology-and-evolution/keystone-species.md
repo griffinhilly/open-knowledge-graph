@@ -17,7 +17,7 @@ tags:
 - trophic-cascade
 - top-down-control
 - community-structure
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Keystone Species and Trophic Cascades

@@ -13,7 +13,7 @@ tags:
 - solids
 - phonons
 - heat-capacity
-stage: advanced
+stage: expert
 status: draft
 ---
 # Einstein Model of Solids

@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - comorbidity
 - complex cases
-stage: advanced
+stage: expert
 status: draft
 ---
 

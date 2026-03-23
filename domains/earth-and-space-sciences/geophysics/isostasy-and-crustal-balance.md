@@ -15,7 +15,7 @@ tags:
 - isostasy
 - crustal-balance
 - density
-stage: advanced
+stage: expert
 status: draft
 ---
 

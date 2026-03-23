@@ -27,7 +27,7 @@ tags:
 - methods
 - fMRI
 - BOLD
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - things
 - non-human
 - agency
-stage: advanced
+stage: expert
 status: draft
 ---
 

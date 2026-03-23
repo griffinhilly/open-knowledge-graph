@@ -24,7 +24,7 @@ tags:
 - ka
 - kb
 - ionization
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

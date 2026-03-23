@@ -16,7 +16,7 @@ tags:
 - paradigm-shift
 - normal-science
 - revolution
-stage: advanced
+stage: expert
 status: draft
 ---
 

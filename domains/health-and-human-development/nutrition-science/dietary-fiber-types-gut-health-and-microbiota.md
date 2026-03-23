@@ -14,7 +14,7 @@ tags:
 - microbiota
 - prebiotic
 - scfa
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

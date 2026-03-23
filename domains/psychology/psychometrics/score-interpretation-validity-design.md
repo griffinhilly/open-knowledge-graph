@@ -13,7 +13,7 @@ tags:
 - validity
 - score-interpretation
 - evidence
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - escalation
 - conflict
 - war
-stage: advanced
+stage: expert
 status: draft
 ---
 

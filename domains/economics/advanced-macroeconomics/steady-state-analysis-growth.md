@@ -14,7 +14,7 @@ tags:
 - equilibrium-analysis
 - long-run-growth
 - dynamics
-stage: advanced
+stage: expert
 status: draft
 ---
 

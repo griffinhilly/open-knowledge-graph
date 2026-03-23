@@ -11,7 +11,7 @@ tags:
 - hearing
 - mechanotransduction
 - auditory-coding
-stage: advanced
+stage: expert
 status: draft
 ---
 

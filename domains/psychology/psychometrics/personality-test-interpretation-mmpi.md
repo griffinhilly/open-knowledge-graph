@@ -14,7 +14,7 @@ tags:
 - profile-interpretation
 - clinical
 - validity-scales
-stage: advanced
+stage: expert
 status: draft
 ---
 

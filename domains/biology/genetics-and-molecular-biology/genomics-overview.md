@@ -23,7 +23,7 @@ tags:
 - whole-genome sequencing
 - bioinformatics
 - SNP
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

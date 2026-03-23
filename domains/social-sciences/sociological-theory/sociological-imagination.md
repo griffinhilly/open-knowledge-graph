@@ -13,7 +13,7 @@ tags:
 - mills
 - sociological-perspective
 - individual-society
-stage: advanced
+stage: expert
 status: draft
 ---
 

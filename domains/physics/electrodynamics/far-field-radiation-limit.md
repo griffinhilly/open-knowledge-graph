@@ -15,7 +15,7 @@ tags:
 - far-field
 - radiation-zone
 - multipole-expansion
-stage: advanced
+stage: expert
 status: draft
 ---
 

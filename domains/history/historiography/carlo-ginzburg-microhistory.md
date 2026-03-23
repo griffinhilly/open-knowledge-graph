@@ -13,7 +13,7 @@ tags:
 - microhistory
 - inquisition
 - reconstruction
-stage: advanced
+stage: expert
 status: draft
 ---
 

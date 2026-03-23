@@ -17,7 +17,7 @@ tags:
 - resonance
 - restricted-rotation
 - peptide-bond
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

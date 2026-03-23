@@ -23,7 +23,7 @@ tags:
 - diastole
 - pressure-volume
 - frank-starling
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

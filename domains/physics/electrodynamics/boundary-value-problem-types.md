@@ -16,7 +16,7 @@ tags:
 - dirichlet
 - neumann
 - mixed-boundary-conditions
-stage: advanced
+stage: expert
 status: draft
 ---
 

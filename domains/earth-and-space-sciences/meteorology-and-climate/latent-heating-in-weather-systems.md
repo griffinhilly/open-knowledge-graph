@@ -20,7 +20,7 @@ tags:
 - heating
 - convection
 - dynamics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - paleoclimate
 - proxies
 - paleontology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

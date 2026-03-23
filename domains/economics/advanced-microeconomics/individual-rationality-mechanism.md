@@ -10,7 +10,7 @@ tags:
 - mechanism-design
 - participation
 - voluntary-participation
-stage: advanced
+stage: expert
 status: draft
 ---
 

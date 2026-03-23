@@ -16,7 +16,7 @@ tags:
 - meta-director
 - activating
 - deactivating
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

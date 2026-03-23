@@ -17,7 +17,7 @@ tags:
 - b-cell
 - receptor
 - signaling
-stage: advanced
+stage: expert
 status: draft
 ---
 

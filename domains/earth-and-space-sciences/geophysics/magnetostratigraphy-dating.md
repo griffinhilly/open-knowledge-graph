@@ -12,7 +12,7 @@ tags:
 - paleomagnetism
 - magnetostratigraphy
 - dating
-stage: advanced
+stage: expert
 status: draft
 ---
 

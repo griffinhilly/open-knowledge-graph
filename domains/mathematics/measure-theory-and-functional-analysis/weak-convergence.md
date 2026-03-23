@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - convergence
 - weak-topology
-stage: advanced
+stage: expert
 status: draft
 ---
 

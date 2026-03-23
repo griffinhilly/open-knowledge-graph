@@ -17,7 +17,7 @@ tags:
 - dermis
 - barrier-function
 - thermoregulation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - archetype
 - comparative
 - types
-stage: advanced
+stage: expert
 status: draft
 ---
 

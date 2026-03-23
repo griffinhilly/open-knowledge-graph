@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - measure-theory
 - product-measures
-stage: advanced
+stage: expert
 status: draft
 ---
 

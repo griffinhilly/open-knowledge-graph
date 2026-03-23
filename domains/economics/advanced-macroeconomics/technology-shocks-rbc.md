@@ -12,7 +12,7 @@ tags:
 - shocks
 - propagation
 - technology
-stage: advanced
+stage: expert
 status: draft
 ---
 

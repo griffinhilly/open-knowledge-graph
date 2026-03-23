@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - sobolev-spaces
 - pde
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - niche-modeling
 - species-distribution
 - ecological-niche
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

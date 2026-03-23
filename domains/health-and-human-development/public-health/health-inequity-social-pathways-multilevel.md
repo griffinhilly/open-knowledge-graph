@@ -15,7 +15,7 @@ tags:
 - health-equity
 - social-determinants
 - disparities
-stage: advanced
+stage: expert
 status: draft
 ---
 

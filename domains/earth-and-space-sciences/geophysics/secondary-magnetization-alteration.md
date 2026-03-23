@@ -12,7 +12,7 @@ tags:
 - rock-magnetism
 - secondary-magnetization
 - alteration
-stage: advanced
+stage: expert
 status: draft
 ---
 

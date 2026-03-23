@@ -17,7 +17,7 @@ tags:
 - ADH
 - water balance
 - collecting duct
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

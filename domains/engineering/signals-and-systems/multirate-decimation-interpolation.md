@@ -15,7 +15,7 @@ tags:
 - decimation
 - interpolation
 - filter-banks
-stage: advanced
+stage: expert
 status: draft
 ---
 

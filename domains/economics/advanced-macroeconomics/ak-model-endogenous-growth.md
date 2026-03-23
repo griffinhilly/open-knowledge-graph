@@ -10,7 +10,7 @@ tags:
 - endogenous-growth
 - constant-returns
 - capital-accumulation
-stage: advanced
+stage: expert
 status: draft
 ---
 

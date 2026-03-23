@@ -17,7 +17,7 @@ tags:
 - biomass
 - allocation
 - growth
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

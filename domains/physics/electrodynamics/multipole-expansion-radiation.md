@@ -14,7 +14,7 @@ tags:
 - multipole
 - expansion
 - far-field
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - perspective
 - point-of-view
 - culture
-stage: advanced
+stage: expert
 status: draft
 ---
 

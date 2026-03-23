@@ -21,7 +21,7 @@ tags:
 - acoustics
 - signal-processing
 - spectral
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - health-equity
 - social-gradient
 - upstream-determinants
-stage: advanced
+stage: expert
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - vaccine-studies
 - immunization-programs
 - disease-prevention
-stage: advanced
+stage: expert
 status: draft
 ---
 

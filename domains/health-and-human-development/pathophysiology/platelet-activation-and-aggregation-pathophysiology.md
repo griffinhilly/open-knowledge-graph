@@ -16,7 +16,7 @@ tags:
 - aggregation
 - thrombosis
 - hemostasis
-stage: advanced
+stage: expert
 status: draft
 ---
 

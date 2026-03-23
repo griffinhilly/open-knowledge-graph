@@ -17,7 +17,7 @@ tags:
 - sequential-ionization
 - phosphoric-acid
 - sulfuric-acid
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Polyprotic Acids

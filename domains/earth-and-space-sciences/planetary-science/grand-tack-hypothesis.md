@@ -16,7 +16,7 @@ tags:
 - jupiter
 - solar-system
 - formation
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - compliance
 - enforcement
 - legitimacy
-stage: advanced
+stage: expert
 status: draft
 ---
 

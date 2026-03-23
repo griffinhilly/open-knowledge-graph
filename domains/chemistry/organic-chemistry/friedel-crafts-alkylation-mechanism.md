@@ -17,7 +17,7 @@ tags:
 - fc-alkylation
 - electrophile
 - carbocation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

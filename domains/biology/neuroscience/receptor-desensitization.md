@@ -15,7 +15,7 @@ tags:
 - desensitization
 - adaptation
 - tolerance
-stage: advanced
+stage: expert
 status: draft
 ---
 

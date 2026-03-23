@@ -14,7 +14,7 @@ tags:
 - study-design
 - confounding-control
 - case-control
-stage: advanced
+stage: expert
 status: draft
 ---
 

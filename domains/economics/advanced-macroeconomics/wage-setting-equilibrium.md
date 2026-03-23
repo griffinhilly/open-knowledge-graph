@@ -12,7 +12,7 @@ tags:
 - wage-setting
 - bargaining
 - wage-determination
-stage: advanced
+stage: expert
 status: draft
 ---
 

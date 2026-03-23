@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 tags:
 - product-measures
-stage: advanced
+stage: expert
 status: draft
 ---
 

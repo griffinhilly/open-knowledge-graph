@@ -17,7 +17,7 @@ tags:
 - anterior-temporal
 - semantic-hub
 - knowledge
-stage: advanced
+stage: expert
 status: draft
 ---
 

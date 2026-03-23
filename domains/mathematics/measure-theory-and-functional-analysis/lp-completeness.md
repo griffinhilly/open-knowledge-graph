@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - lp-spaces
 - completeness
-stage: advanced
+stage: expert
 status: draft
 ---
 

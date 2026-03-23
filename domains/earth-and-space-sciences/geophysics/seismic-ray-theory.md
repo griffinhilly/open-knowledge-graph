@@ -28,7 +28,7 @@ tags:
 - ray
 - theory
 - propagation
-stage: advanced
+stage: expert
 status: draft
 ---
 

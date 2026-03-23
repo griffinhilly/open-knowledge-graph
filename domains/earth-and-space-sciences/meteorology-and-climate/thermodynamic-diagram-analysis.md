@@ -19,7 +19,7 @@ tags:
 - hodograph
 - thermodynamic-diagram
 - analysis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - subaltern
 - representation
 - postcolonial
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -11,7 +11,7 @@ tags:
 - sensory-development
 - visual-perception
 - infant-cognition
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Visual Development: Acuity and Perception

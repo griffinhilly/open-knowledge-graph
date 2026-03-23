@@ -17,7 +17,7 @@ tags:
 - social history
 - class
 - experience
-stage: advanced
+stage: expert
 status: draft
 ---
 

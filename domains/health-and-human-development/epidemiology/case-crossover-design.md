@@ -14,7 +14,7 @@ tags:
 - study-design
 - acute-exposures
 - within-subject-comparison
-stage: advanced
+stage: expert
 status: draft
 ---
 

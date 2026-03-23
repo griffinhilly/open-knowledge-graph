@@ -14,7 +14,7 @@ tags:
 - minerals
 - phase-transitions
 - interior-structure
-stage: advanced
+stage: expert
 status: draft
 ---
 

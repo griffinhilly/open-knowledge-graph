@@ -14,7 +14,7 @@ tags:
 - complex-analysis
 - analytic-functions
 - 2d-electrostatics
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - attention
 - vision
 - selection
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -27,7 +27,7 @@ tags:
 - A-matrix
 - MIMO
 - modern-control
-stage: advanced
+stage: expert
 status: validated
 ---
 

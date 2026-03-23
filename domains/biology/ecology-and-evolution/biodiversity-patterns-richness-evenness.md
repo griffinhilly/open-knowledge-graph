@@ -17,7 +17,7 @@ tags:
 - evenness
 - diversity-gradients
 - latitudinal
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

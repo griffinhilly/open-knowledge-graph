@@ -17,7 +17,7 @@ tags:
 - closure
 - preservation
 - homomorphism
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - jet
 - convection
 - meridional-cells
-stage: advanced
+stage: expert
 status: draft
 ---
 

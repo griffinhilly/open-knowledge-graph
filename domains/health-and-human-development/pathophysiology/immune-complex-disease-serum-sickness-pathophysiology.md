@@ -15,7 +15,7 @@ tags:
 - immune-complex
 - serum-sickness
 - complement
-stage: advanced
+stage: expert
 status: draft
 ---
 

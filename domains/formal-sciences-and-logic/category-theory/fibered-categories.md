@@ -21,7 +21,7 @@ tags:
 - Grothendieck fibration
 - descent
 - cleavage
-stage: advanced
+stage: expert
 status: draft
 ---
 # Fibered Categories

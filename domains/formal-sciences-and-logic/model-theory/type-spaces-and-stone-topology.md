@@ -14,7 +14,7 @@ tags:
 - type topology
 - compact Hausdorff
 - basis
-stage: advanced
+stage: expert
 status: draft
 ---
 

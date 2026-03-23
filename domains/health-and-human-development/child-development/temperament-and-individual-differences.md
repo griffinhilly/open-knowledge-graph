@@ -16,7 +16,7 @@ tags:
 - easy-difficult-slow-to-warm
 - goodness-of-fit
 - individual-differences
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

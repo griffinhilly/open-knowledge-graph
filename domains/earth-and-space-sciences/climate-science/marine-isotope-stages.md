@@ -16,7 +16,7 @@ tags:
 - orbital-cycles
 - ice-volume
 - global-chronostratigraphy
-stage: advanced
+stage: expert
 status: draft
 ---
 

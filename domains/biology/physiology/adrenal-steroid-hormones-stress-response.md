@@ -15,7 +15,7 @@ tags:
 - cortisol
 - stress
 - HPA axis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

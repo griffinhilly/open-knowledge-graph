@@ -16,7 +16,7 @@ tags:
 - networks
 - advocacy
 - non-state
-stage: advanced
+stage: expert
 status: draft
 ---
 

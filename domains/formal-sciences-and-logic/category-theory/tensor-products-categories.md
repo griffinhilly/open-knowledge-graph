@@ -20,7 +20,7 @@ tags:
 - monoidal
 - bilinear
 - universal-property
-stage: advanced
+stage: expert
 status: draft
 ---
 

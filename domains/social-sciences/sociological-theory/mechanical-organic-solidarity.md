@@ -13,7 +13,7 @@ tags:
 - solidarity
 - social-integration
 - social-change
-stage: advanced
+stage: expert
 status: draft
 ---
 

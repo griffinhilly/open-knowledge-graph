@@ -16,7 +16,7 @@ tags:
 - great-power
 - hegemony
 - conflict
-stage: advanced
+stage: expert
 status: draft
 ---
 

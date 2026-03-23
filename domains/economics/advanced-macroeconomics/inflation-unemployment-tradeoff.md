@@ -14,7 +14,7 @@ tags:
 - phillips-curve
 - inflation-unemployment
 - tradeoff
-stage: advanced
+stage: expert
 status: draft
 ---
 

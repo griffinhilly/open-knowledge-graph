@@ -15,7 +15,7 @@ tags:
 - materialism
 - dialectics
 - method
-stage: advanced
+stage: expert
 status: draft
 ---
 

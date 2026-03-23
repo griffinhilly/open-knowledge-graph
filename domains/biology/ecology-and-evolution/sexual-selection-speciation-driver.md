@@ -16,7 +16,7 @@ tags:
 - sexual-selection
 - speciation
 - reproductive-isolation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

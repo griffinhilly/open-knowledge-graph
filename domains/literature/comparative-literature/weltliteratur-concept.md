@@ -17,7 +17,7 @@ tags:
 - world-literature
 - cosmopolitanism
 - canon
-stage: advanced
+stage: expert
 status: draft
 ---
 

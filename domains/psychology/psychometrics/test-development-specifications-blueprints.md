@@ -15,7 +15,7 @@ tags:
 - blueprint
 - specifications
 - content-validity
-stage: advanced
+stage: expert
 status: draft
 ---
 

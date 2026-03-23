@@ -14,7 +14,7 @@ tags:
 - notch
 - resonator
 - narrow-band
-stage: advanced
+stage: expert
 status: draft
 ---
 

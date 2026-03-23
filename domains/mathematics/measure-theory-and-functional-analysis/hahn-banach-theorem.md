@@ -10,7 +10,7 @@ builds-toward:
 - weak-convergence-banach
 tags:
 - functional-analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

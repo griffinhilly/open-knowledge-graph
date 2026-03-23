@@ -16,7 +16,7 @@ tags:
 - divergence
 - speciation-rate
 - ecological-opportunity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

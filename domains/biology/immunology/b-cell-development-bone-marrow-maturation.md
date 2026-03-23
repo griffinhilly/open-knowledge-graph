@@ -15,7 +15,7 @@ tags:
 - b-cell-development
 - bone-marrow
 - maturation
-stage: advanced
+stage: expert
 status: draft
 ---
 

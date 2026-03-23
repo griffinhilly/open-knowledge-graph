@@ -12,7 +12,7 @@ tags:
 - face-processing
 - perception
 - cortex
-stage: advanced
+stage: expert
 status: draft
 ---
 

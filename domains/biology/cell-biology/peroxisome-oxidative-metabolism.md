@@ -12,7 +12,7 @@ tags:
 - peroxisome
 - oxidation
 - detoxification
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

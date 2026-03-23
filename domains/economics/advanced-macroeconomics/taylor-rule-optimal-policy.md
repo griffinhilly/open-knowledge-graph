@@ -12,7 +12,7 @@ tags:
 - taylor-rule
 - monetary-policy-rule
 - optimal-policy
-stage: advanced
+stage: expert
 status: draft
 ---
 

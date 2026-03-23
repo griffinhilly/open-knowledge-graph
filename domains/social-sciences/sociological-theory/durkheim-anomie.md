@@ -14,7 +14,7 @@ tags:
 - anomie
 - solidarity
 - deviance
-stage: advanced
+stage: expert
 status: draft
 ---
 

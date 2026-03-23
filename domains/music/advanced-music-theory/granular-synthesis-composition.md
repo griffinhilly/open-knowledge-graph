@@ -17,7 +17,7 @@ tags:
 - synthesis
 - electronic-music
 - texture
-stage: advanced
+stage: expert
 status: draft
 ---
 

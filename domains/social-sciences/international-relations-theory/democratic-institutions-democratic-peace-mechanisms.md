@@ -16,7 +16,7 @@ tags:
 - liberal-peace
 - institutions
 - constraints
-stage: advanced
+stage: expert
 status: draft
 ---
 

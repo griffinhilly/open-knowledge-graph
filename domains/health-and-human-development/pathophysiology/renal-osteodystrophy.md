@@ -14,7 +14,7 @@ tags:
 - renal-osteodystrophy
 - bone-disease
 - mineral-metabolism
-stage: advanced
+stage: expert
 status: draft
 ---
 

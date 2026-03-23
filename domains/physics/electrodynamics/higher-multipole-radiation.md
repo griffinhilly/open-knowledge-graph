@@ -14,7 +14,7 @@ tags:
 - multipole
 - higher-order
 - weak-radiation
-stage: advanced
+stage: expert
 status: draft
 ---
 

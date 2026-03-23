@@ -18,7 +18,7 @@ tags:
 - meaning
 - critique
 - Derrida
-stage: advanced
+stage: expert
 status: draft
 ---
 # Deconstruction and Aesthetic Meaning

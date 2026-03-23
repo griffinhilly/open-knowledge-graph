@@ -16,7 +16,7 @@ tags:
 - balancing
 - coefficients
 - mass conservation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

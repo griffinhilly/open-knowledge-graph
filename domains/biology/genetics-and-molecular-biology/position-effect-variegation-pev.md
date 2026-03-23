@@ -15,7 +15,7 @@ tags:
 - heterochromatin
 - epigenetic-silencing
 - chromatin-context
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

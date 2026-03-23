@@ -12,7 +12,7 @@ tags:
 - price-adjustment
 - frictions
 - monetary-non-neutrality
-stage: advanced
+stage: expert
 status: draft
 ---
 

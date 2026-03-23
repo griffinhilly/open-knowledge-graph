@@ -24,7 +24,7 @@ tags:
 - lapse-rate
 - convection
 - thermodynamics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

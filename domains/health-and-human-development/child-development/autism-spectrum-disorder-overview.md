@@ -18,7 +18,7 @@ tags:
 - social-communication
 - restricted-interests
 - neurodevelopmental
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

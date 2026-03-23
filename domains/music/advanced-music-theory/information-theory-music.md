@@ -24,7 +24,7 @@ tags:
 - information-theory
 - mathematics
 - perception
-stage: advanced
+stage: expert
 status: draft
 ---
 

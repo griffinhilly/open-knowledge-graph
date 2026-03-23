@@ -15,7 +15,7 @@ tags:
 - glucose
 - glycemic-response
 - insulin
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

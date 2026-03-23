@@ -18,7 +18,7 @@ tags:
 - kristeva
 - semiotics
 - textuality
-stage: advanced
+stage: expert
 status: draft
 ---
 

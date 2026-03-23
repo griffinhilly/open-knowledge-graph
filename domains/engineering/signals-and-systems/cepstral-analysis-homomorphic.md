@@ -12,7 +12,7 @@ tags:
 - cepstral
 - homomorphic
 - deconvolution
-stage: advanced
+stage: expert
 status: draft
 ---
 

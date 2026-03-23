@@ -15,7 +15,7 @@ tags:
 - digital-filters
 - discretization
 - impulse-response
-stage: advanced
+stage: expert
 status: draft
 ---
 

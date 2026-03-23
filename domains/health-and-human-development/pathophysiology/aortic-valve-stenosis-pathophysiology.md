@@ -15,7 +15,7 @@ tags:
 - aortic-stenosis
 - ventricular-hypertrophy
 - valve-disease
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - focus-groups
 - group-dynamics
 - interaction-analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -21,7 +21,7 @@ tags:
 - fibration equivalence
 - category of elements
 - lax colimit
-stage: advanced
+stage: expert
 status: draft
 ---
 # The Grothendieck Construction

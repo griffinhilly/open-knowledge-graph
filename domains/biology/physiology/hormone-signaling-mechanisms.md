@@ -20,7 +20,7 @@ tags:
 - steroid hormones
 - peptide hormones
 - signal transduction
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

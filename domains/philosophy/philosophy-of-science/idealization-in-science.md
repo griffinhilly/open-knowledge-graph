@@ -16,7 +16,7 @@ tags:
 - approximation
 - simplification
 - models
-stage: advanced
+stage: expert
 status: draft
 ---
 

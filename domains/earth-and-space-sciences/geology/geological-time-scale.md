@@ -19,7 +19,7 @@ tags:
 - periods
 - epochs
 - stratigraphy
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

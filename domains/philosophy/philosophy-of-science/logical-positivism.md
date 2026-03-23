@@ -18,7 +18,7 @@ tags:
 - logical-empiricism
 - verification
 - meaningfulness
-stage: advanced
+stage: expert
 status: draft
 ---
 

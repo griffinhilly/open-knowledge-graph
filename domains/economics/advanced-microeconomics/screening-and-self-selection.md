@@ -12,7 +12,7 @@ tags:
 - contract-theory
 - information-asymmetry
 - mechanism-design
-stage: advanced
+stage: expert
 status: draft
 ---
 

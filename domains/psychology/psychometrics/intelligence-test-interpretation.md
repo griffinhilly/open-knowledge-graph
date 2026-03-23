@@ -18,7 +18,7 @@ tags:
 - profile-analysis
 - clinical-interpretation
 - subtest-analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - diastole
 - cardiac output
 - conduction system
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

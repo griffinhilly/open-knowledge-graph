@@ -11,7 +11,7 @@ tags:
 - structuration
 - agency
 - structure
-stage: advanced
+stage: expert
 status: draft
 ---
 

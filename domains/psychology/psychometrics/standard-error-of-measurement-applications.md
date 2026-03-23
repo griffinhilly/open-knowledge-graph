@@ -12,7 +12,7 @@ tags:
 - standard-error
 - confidence-interval
 - measurement-precision
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - lp-spaces
 - inequalities
-stage: advanced
+stage: expert
 status: draft
 ---
 

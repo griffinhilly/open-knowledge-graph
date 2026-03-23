@@ -12,7 +12,7 @@ tags:
 - cavities
 - resonance
 - standing-waves
-stage: advanced
+stage: expert
 status: draft
 ---
 

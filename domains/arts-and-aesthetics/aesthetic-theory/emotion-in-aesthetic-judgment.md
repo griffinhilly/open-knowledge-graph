@@ -19,7 +19,7 @@ tags:
 - judgment
 - experience
 - aesthetics
-stage: advanced
+stage: expert
 status: draft
 ---
 

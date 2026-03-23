@@ -17,7 +17,7 @@ tags:
 - complement
 - pattern recognition
 - cytokines
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

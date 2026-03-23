@@ -13,7 +13,7 @@ tags:
 - terminal alkyne
 - acidity
 - reduction
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

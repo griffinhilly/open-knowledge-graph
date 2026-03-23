@@ -15,7 +15,7 @@ tags:
 - epidemiology
 - modeling
 - disease-transmission
-stage: advanced
+stage: expert
 status: draft
 ---
 

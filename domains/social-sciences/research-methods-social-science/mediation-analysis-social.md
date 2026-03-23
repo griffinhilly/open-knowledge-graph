@@ -24,7 +24,7 @@ tags:
 - indirect-effects
 - pathways
 - causal-process
-stage: advanced
+stage: expert
 status: draft
 ---
 

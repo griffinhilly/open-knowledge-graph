@@ -16,7 +16,7 @@ tags:
 - blood flow
 - resistance
 - vascular control
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

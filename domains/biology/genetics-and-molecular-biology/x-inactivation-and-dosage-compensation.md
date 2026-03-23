@@ -16,7 +16,7 @@ tags:
 - xist
 - dosage-compensation
 - barr-body
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

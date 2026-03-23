@@ -15,7 +15,7 @@ tags:
 - radiation
 - accelerating-charges
 - energy-loss
-stage: advanced
+stage: expert
 status: draft
 ---
 

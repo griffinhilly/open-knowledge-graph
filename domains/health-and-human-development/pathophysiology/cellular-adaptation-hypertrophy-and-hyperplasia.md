@@ -14,7 +14,7 @@ tags:
 - cellular-response
 - hypertrophy
 - hyperplasia
-stage: advanced
+stage: expert
 status: draft
 ---
 

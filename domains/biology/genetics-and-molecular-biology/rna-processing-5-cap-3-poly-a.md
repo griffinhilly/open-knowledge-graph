@@ -16,7 +16,7 @@ tags:
 - 7-methylguanosine
 - poly-a-tail
 - mRNA-stability
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

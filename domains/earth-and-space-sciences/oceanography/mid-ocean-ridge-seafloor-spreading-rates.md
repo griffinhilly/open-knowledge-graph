@@ -15,7 +15,7 @@ tags:
 - seafloor-age
 - ridge-dynamics
 - plate-velocity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

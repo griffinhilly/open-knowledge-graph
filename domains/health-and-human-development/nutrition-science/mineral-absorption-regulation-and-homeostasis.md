@@ -20,7 +20,7 @@ tags:
 - regulation
 - homeostasis
 - transporters
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

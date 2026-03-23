@@ -16,7 +16,7 @@ tags:
 - habitus
 - field
 - capital
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - coronary-artery-disease
 - plaque-rupture
 - acute-coronary-syndrome
-stage: advanced
+stage: expert
 status: draft
 ---
 

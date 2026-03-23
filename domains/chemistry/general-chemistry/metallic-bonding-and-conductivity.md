@@ -13,7 +13,7 @@ tags:
 - delocalized electrons
 - conductivity
 - metals
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

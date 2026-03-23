@@ -14,7 +14,7 @@ tags:
 - myoglobin
 - dna-synthesis
 - ribonucleotide-reductase
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

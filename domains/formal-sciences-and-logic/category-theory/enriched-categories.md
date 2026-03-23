@@ -19,7 +19,7 @@ tags:
 - enrichment
 - hom-objects
 - monoidal-category
-stage: advanced
+stage: expert
 status: draft
 ---
 

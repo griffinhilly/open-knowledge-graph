@@ -14,7 +14,7 @@ tags:
 - vaccines
 - adjuvants
 - immunogenicity
-stage: advanced
+stage: expert
 status: draft
 ---
 

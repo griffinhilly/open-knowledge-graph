@@ -15,7 +15,7 @@ tags:
 - cortex
 - columns
 - layers
-stage: advanced
+stage: expert
 status: draft
 ---
 

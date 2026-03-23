@@ -15,7 +15,7 @@ tags:
 - counterpoint
 - analysis
 - baroque
-stage: advanced
+stage: expert
 status: draft
 ---
 

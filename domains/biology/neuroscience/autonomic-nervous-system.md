@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - autonomic
 - homeostasis
-stage: advanced
+stage: expert
 status: draft
 ---
 

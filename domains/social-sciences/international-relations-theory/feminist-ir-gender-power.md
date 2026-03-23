@@ -17,7 +17,7 @@ tags:
 - power
 - women
 - intersectionality
-stage: advanced
+stage: expert
 status: draft
 ---
 

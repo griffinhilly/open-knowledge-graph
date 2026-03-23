@@ -23,7 +23,7 @@ tags:
 - self-similarity
 - form
 - structure
-stage: advanced
+stage: expert
 status: draft
 ---
 

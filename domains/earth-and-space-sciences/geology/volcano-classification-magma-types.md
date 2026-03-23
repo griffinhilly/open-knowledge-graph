@@ -14,7 +14,7 @@ tags:
 - volcanism
 - magma
 - eruption-styles
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

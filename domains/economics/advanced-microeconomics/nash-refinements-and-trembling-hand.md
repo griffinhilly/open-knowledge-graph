@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - game-theory
 - equilibrium-selection
-stage: advanced
+stage: expert
 status: draft
 ---
 

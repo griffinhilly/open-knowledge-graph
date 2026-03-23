@@ -14,7 +14,7 @@ tags:
 - dilution
 - M₁V₁ = M₂V₂
 - concentration
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - categoricity
 - complete-type
 - characterization
-stage: advanced
+stage: expert
 status: draft
 ---
 

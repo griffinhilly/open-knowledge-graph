@@ -14,7 +14,7 @@ tags:
 - multipole
 - expansion
 - static
-stage: advanced
+stage: expert
 status: draft
 ---
 

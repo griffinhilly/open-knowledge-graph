@@ -13,7 +13,7 @@ tags:
 - lived-experience
 - consciousness
 - essence
-stage: advanced
+stage: expert
 status: draft
 ---
 

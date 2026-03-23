@@ -18,7 +18,7 @@ tags:
 - growth
 - human-capital
 - endogenous
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -19,7 +19,7 @@ tags:
 - unconscious
 - desire
 - repression
-stage: advanced
+stage: expert
 status: validated
 ---
 

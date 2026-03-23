@@ -16,7 +16,7 @@ tags:
 - ontology
 - essence
 - concept
-stage: advanced
+stage: expert
 status: draft
 ---
 

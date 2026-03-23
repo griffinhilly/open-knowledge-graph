@@ -25,7 +25,7 @@ tags:
 - ANS
 - PNS
 - lobes
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

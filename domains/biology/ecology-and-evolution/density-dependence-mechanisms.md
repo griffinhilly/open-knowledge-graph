@@ -15,7 +15,7 @@ tags:
 - density-dependence
 - population-regulation
 - negative-feedback
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

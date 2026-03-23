@@ -24,7 +24,7 @@ tags:
 - assumptions
 - unidimensionality
 - local-independence
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - tumor-immunology
 - immune-evasion
 - cancer-immunotherapy
-stage: advanced
+stage: expert
 status: draft
 ---
 

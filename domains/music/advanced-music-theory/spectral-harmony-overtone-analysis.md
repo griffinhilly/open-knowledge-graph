@@ -19,7 +19,7 @@ tags:
 - spectral
 - harmony
 - acoustics
-stage: advanced
+stage: expert
 status: draft
 ---
 

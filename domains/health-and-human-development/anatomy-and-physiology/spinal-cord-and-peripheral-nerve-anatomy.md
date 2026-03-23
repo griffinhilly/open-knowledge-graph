@@ -13,7 +13,7 @@ tags:
 - nerves
 - dorsal-ventral
 - gray-matter
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

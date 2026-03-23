@@ -24,7 +24,7 @@ tags:
 - multidimensional-measurement
 - latent-traits
 - complex-constructs
-stage: advanced
+stage: expert
 status: draft
 ---
 # Multidimensional Item Response Theory

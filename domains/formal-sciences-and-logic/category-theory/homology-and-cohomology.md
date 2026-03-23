@@ -25,7 +25,7 @@ tags:
 - snake lemma
 - connecting homomorphism
 - homological algebra
-stage: advanced
+stage: expert
 status: draft
 ---
 # Homology and Cohomology

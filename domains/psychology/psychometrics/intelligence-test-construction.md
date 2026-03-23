@@ -15,7 +15,7 @@ tags:
 - wais
 - stanford-binet
 - g-factor
-stage: advanced
+stage: expert
 status: draft
 ---
 

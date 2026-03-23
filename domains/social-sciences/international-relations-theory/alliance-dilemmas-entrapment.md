@@ -12,7 +12,7 @@ tags:
 - alliance
 - dilemma
 - commitment
-stage: advanced
+stage: expert
 status: draft
 ---
 

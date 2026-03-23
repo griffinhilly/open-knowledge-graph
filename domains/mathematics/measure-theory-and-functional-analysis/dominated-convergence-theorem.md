@@ -10,7 +10,7 @@ builds-toward:
 - lp-space-completeness-riesz-fischer
 tags:
 - convergence-theorems
-stage: advanced
+stage: expert
 status: draft
 ---
 

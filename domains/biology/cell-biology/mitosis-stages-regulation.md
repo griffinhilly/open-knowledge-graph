@@ -14,7 +14,7 @@ tags:
 - mitosis
 - division
 - cytokinesis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

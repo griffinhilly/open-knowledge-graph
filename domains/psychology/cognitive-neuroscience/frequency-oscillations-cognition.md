@@ -12,7 +12,7 @@ tags:
 - oscillations
 - frequency
 - dynamics
-stage: advanced
+stage: expert
 status: draft
 ---
 

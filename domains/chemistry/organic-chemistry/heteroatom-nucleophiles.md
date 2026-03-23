@@ -18,7 +18,7 @@ tags:
 - ester
 - amide
 - thioester
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Heteroatom Nucleophiles in Acyl Substitution

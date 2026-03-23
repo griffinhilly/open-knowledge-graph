@@ -24,7 +24,7 @@ tags:
 - isotopes
 - atomic-number
 - mass-number
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

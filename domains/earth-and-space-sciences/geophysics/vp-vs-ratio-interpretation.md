@@ -14,7 +14,7 @@ tags:
 - seismic
 - rock-properties
 - interpretation
-stage: advanced
+stage: expert
 status: draft
 ---
 

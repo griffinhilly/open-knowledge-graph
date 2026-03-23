@@ -14,7 +14,7 @@ tags:
 - aesthetics of power
 - formless
 - reason
-stage: advanced
+stage: expert
 status: draft
 ---
 

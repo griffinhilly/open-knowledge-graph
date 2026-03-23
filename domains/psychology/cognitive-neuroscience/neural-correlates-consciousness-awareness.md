@@ -17,7 +17,7 @@ tags:
 - awareness
 - neural-correlates
 - subjective-experience
-stage: advanced
+stage: expert
 status: draft
 ---
 

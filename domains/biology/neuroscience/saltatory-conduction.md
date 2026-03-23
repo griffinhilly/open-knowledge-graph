@@ -12,7 +12,7 @@ tags:
 - action-potential-propagation
 - myelin
 - efficiency
-stage: advanced
+stage: expert
 status: draft
 ---
 

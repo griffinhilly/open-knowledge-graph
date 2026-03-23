@@ -13,7 +13,7 @@ tags:
 - puzzle-solving
 - anomaly
 - crisis
-stage: advanced
+stage: expert
 status: draft
 ---
 

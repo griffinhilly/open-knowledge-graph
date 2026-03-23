@@ -23,7 +23,7 @@ tags:
 - chemical
 - biogenic
 - strata
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

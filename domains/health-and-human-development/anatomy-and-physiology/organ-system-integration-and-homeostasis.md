@@ -18,7 +18,7 @@ tags:
 - feedback
 - systems
 - integration
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

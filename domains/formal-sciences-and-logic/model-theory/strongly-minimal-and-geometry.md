@@ -15,7 +15,7 @@ tags:
 - strongly-minimal
 - geometry
 - stability
-stage: advanced
+stage: expert
 status: draft
 ---
 

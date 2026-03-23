@@ -20,7 +20,7 @@ tags:
 - lifted-index
 - convection
 - stability
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

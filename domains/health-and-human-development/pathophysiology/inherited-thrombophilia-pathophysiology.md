@@ -16,7 +16,7 @@ tags:
 - thrombophilia
 - factor-v-leiden
 - prothrombin-mutation
-stage: advanced
+stage: expert
 status: draft
 ---
 

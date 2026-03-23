@@ -15,7 +15,7 @@ tags:
 - gravity
 - magnetics
 - interpretation
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -19,7 +19,7 @@ tags:
 - Grothendieck topology
 - descent
 - local-to-global
-stage: advanced
+stage: expert
 status: draft
 ---
 # Sheaves and Sheafification

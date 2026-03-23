@@ -12,7 +12,7 @@ tags:
 - personality-disorders
 - narcissism
 - borderline
-stage: advanced
+stage: expert
 status: draft
 ---
 

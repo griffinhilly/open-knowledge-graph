@@ -17,7 +17,7 @@ tags:
 - insulin-resistance
 - inflammation
 - energy-balance
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

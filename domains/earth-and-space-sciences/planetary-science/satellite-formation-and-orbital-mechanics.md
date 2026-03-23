@@ -17,7 +17,7 @@ tags:
 - moons
 - satellites
 - orbits
-stage: advanced
+stage: expert
 status: draft
 ---
 

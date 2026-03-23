@@ -15,7 +15,7 @@ tags:
 - translation
 - ethics
 - cosmopolitanism
-stage: advanced
+stage: expert
 status: draft
 ---
 

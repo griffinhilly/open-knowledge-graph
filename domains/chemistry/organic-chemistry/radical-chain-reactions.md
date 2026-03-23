@@ -14,7 +14,7 @@ tags:
 - selectivity
 - chain-reaction
 - initiation-propagation-termination
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - endocytosis
 - vesicular-transport
 - protein-trafficking
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

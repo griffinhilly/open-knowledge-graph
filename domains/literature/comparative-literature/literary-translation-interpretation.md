@@ -22,7 +22,7 @@ tags:
 - interpretation
 - close-reading
 - comparative
-stage: advanced
+stage: expert
 status: draft
 ---
 

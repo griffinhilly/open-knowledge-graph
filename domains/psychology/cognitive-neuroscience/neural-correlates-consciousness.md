@@ -14,7 +14,7 @@ tags:
 - consciousness
 - awareness
 - cortex
-stage: advanced
+stage: expert
 status: draft
 ---
 

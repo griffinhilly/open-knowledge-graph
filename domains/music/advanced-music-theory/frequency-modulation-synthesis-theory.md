@@ -27,7 +27,7 @@ tags:
 - electronic-music
 - synthesis
 - timbre
-stage: advanced
+stage: expert
 status: draft
 ---
 

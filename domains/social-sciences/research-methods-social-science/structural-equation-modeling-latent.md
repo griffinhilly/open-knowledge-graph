@@ -23,7 +23,7 @@ tags:
 - latent-variables
 - path-analysis
 - confirmatory-factor-analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

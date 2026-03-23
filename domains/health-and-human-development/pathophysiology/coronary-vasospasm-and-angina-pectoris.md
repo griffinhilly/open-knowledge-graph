@@ -15,7 +15,7 @@ tags:
 - angina
 - prinzmetal
 - myocardial-ischemia
-stage: advanced
+stage: expert
 status: draft
 ---
 

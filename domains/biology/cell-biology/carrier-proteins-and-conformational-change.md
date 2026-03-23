@@ -14,7 +14,7 @@ tags:
 - active-transport
 - protein-structure
 - energy-coupling
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - categoricity spectrum
 - uniqueness
 - rigid theory
-stage: advanced
+stage: expert
 status: draft
 ---
 

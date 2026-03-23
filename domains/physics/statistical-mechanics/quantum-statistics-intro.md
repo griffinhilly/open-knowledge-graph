@@ -20,7 +20,7 @@ tags:
 - fermions
 - bosons
 - indistinguishability
-stage: advanced
+stage: expert
 status: draft
 ---
 

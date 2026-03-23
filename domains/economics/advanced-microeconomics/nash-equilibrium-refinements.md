@@ -15,7 +15,7 @@ tags:
 - game-theory
 - equilibrium
 - solution-concepts
-stage: advanced
+stage: expert
 status: draft
 ---
 

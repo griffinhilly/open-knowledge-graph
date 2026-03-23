@@ -28,7 +28,7 @@ tags:
 - uniqueness up to isomorphism
 - existence
 - characterization
-stage: advanced
+stage: expert
 status: validated
 ---
 

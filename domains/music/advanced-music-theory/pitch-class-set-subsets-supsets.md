@@ -19,7 +19,7 @@ tags:
 - set-theory
 - post-tonal
 - structural-analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

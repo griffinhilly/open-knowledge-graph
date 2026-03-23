@@ -20,7 +20,7 @@ tags:
 - glacial isostasy
 - thermosteric
 - coastal flooding
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Sea-Level Change: Causes, Rates, and Consequences

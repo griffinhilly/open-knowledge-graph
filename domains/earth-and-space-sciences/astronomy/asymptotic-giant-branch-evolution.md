@@ -15,7 +15,7 @@ tags:
 - planetary-nebulae
 - evolution
 - mass-loss
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -20,7 +20,7 @@ tags:
 - amino-acids
 - protein-metabolism
 - nitrogen-balance
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - checkpoints
 - p53
 - atm-atr
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

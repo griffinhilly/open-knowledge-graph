@@ -26,7 +26,7 @@ tags:
 - mantle-convection
 - continental-drift
 - seafloor-spreading
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

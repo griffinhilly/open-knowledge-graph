@@ -17,7 +17,7 @@ tags:
 - exact-sequence
 - kernel
 - cokernel
-stage: advanced
+stage: expert
 status: draft
 ---
 

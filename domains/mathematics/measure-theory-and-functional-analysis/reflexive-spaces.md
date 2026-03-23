@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 tags:
 - duality
-stage: advanced
+stage: expert
 status: draft
 ---
 

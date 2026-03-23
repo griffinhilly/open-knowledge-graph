@@ -17,7 +17,7 @@ tags:
 - epistemology
 - truth
 - objectivity
-stage: advanced
+stage: expert
 status: draft
 ---
 

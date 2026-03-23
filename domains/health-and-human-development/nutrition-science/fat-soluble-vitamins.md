@@ -17,7 +17,7 @@ tags:
 - vitamin E
 - vitamin K
 - fat-soluble
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

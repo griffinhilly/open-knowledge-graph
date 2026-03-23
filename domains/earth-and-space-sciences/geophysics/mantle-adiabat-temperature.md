@@ -14,7 +14,7 @@ tags:
 - geothermics
 - mantle
 - adiabat
-stage: advanced
+stage: expert
 status: draft
 ---
 

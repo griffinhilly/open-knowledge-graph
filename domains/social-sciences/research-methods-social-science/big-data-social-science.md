@@ -22,7 +22,7 @@ tags:
 - computational
 - digital-traces
 - scale
-stage: advanced
+stage: expert
 status: draft
 ---
 

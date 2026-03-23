@@ -24,7 +24,7 @@ tags:
 - ADH
 - aldosterone
 - fluid balance
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

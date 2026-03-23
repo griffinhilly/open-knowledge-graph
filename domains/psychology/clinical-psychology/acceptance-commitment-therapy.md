@@ -13,7 +13,7 @@ tags:
 - psychotherapy
 - acceptance
 - values
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - difference
 - undecidability
 - meaning
-stage: advanced
+stage: expert
 status: draft
 ---
 

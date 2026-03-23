@@ -17,7 +17,7 @@ tags:
 - growth
 - endogenous
 - innovation
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - bone-remodeling
 - calcium-regulation
 - PTH
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

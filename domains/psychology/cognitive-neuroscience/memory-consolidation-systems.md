@@ -14,7 +14,7 @@ tags:
 - memory
 - sleep
 - consolidation
-stage: advanced
+stage: expert
 status: draft
 ---
 

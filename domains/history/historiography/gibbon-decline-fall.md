@@ -15,7 +15,7 @@ tags:
 - decline-and-fall
 - roman-empire
 - enlightenment
-stage: advanced
+stage: expert
 status: draft
 ---
 

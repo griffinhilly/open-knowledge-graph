@@ -16,7 +16,7 @@ tags:
 - orbitals
 - bonding
 - sp-orbitals
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

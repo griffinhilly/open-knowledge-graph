@@ -20,7 +20,7 @@ tags:
 - habitat-patches
 - dispersal
 - connectivity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

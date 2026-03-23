@@ -23,7 +23,7 @@ tags:
 - bond-enthalpy
 - exothermic
 - endothermic
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Thermochemistry and Enthalpy

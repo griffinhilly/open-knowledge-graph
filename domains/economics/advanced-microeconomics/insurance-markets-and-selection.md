@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - contract-theory
 - insurance
-stage: advanced
+stage: expert
 status: draft
 ---
 

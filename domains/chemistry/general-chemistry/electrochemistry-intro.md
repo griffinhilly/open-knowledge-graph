@@ -12,7 +12,7 @@ tags:
 - anode
 - cathode
 - electron flow
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

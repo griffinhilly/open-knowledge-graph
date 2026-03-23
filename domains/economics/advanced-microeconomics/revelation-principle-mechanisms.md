@@ -14,7 +14,7 @@ tags:
 - mechanism-design
 - truth-telling
 - incentive-compatibility
-stage: advanced
+stage: expert
 status: draft
 ---
 

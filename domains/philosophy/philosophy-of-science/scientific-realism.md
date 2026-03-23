@@ -15,7 +15,7 @@ tags:
 - truth
 - unobservables
 - metaphysics
-stage: advanced
+stage: expert
 status: draft
 ---
 

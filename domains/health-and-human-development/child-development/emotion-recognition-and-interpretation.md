@@ -17,7 +17,7 @@ tags:
 - social-perception
 - facial-recognition
 - affective-development
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

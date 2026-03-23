@@ -12,7 +12,7 @@ tags:
 - bayesian-inference
 - prior-specification
 - posterior-inference
-stage: advanced
+stage: expert
 status: draft
 ---
 

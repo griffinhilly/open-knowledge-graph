@@ -16,7 +16,7 @@ tags:
 - great-power
 - cooperation
 - concert
-stage: advanced
+stage: expert
 status: draft
 ---
 

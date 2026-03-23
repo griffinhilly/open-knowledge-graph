@@ -18,7 +18,7 @@ tags:
 - unconformity
 - steno
 - sequence-stratigraphy
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

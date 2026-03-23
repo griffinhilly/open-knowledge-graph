@@ -14,7 +14,7 @@ tags:
 - nutrient-absorption
 - intestinal-transport
 - brush-border
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

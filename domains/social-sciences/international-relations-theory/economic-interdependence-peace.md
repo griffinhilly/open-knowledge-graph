@@ -16,7 +16,7 @@ tags:
 - interdependence
 - peace
 - trade
-stage: advanced
+stage: expert
 status: draft
 ---
 

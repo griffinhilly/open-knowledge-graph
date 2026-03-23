@@ -28,7 +28,7 @@ tags:
 - signifier
 - signified
 - myth
-stage: advanced
+stage: expert
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - selectivity
 - protecting-groups
 - synthesis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

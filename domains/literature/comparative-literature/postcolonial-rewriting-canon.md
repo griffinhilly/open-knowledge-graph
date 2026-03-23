@@ -17,7 +17,7 @@ tags:
 - canon
 - rewriting
 - resistance
-stage: advanced
+stage: expert
 status: draft
 ---
 

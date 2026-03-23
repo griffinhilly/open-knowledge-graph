@@ -26,7 +26,7 @@ tags:
 - unsaturated fat
 - cholesterol
 - omega-3
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

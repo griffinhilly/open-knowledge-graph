@@ -15,7 +15,7 @@ tags:
 - synaptic-plasticity
 - morphological-changes
 - structural-learning
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -20,7 +20,7 @@ tags:
 - carbonyl
 - absorption
 - fingerprint region
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

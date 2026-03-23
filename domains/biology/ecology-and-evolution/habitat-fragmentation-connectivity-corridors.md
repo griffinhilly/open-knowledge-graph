@@ -15,7 +15,7 @@ tags:
 - connectivity
 - corridors
 - conservation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

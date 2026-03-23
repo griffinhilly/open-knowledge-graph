@@ -17,7 +17,7 @@ tags:
 - temperature-gradient
 - wind-shear
 - dynamics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

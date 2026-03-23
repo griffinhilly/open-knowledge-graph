@@ -21,7 +21,7 @@ tags:
 - preoperational
 - concrete-operations
 - formal-operations
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

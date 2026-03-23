@@ -13,7 +13,7 @@ tags:
 - signals
 - elementary
 - foundations
-stage: advanced
+stage: expert
 status: draft
 ---
 

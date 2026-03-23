@@ -12,7 +12,7 @@ tags:
 - producer-theory
 - factor-markets
 - elasticity
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - task-switching
 - oscillations
 - prefrontal
-stage: advanced
+stage: expert
 status: draft
 ---
 

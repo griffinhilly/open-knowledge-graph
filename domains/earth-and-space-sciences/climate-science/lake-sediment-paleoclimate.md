@@ -15,7 +15,7 @@ tags:
 - diatoms
 - high-resolution
 - continental-paleoclimate
-stage: advanced
+stage: expert
 status: draft
 ---
 

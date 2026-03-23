@@ -25,7 +25,7 @@ tags:
 - Hunds-rule
 - valence-electrons
 - subshells
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

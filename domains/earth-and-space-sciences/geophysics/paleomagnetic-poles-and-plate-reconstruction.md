@@ -12,7 +12,7 @@ tags:
 - paleomagnetism
 - plate-motion
 - reconstruction
-stage: advanced
+stage: expert
 status: draft
 ---
 

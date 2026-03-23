@@ -15,7 +15,7 @@ tags:
 - universal
 - generic
 - Fraïssé-limit
-stage: advanced
+stage: expert
 status: draft
 ---
 

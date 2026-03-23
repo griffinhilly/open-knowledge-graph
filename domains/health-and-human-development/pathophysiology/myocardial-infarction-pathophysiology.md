@@ -19,7 +19,7 @@ tags:
 - myocardial-infarction
 - acute-coronary-syndrome
 - cardiac-ischemia
-stage: advanced
+stage: expert
 status: draft
 ---
 

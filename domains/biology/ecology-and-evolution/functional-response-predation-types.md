@@ -15,7 +15,7 @@ tags:
 - functional-response
 - efficiency
 - consumption-rate
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

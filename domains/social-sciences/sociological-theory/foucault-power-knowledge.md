@@ -15,7 +15,7 @@ tags:
 - knowledge
 - discourse
 - subjectivity
-stage: advanced
+stage: expert
 status: draft
 ---
 

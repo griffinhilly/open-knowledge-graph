@@ -14,7 +14,7 @@ tags:
 - carbocation
 - rearrangement
 - polyalkylation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

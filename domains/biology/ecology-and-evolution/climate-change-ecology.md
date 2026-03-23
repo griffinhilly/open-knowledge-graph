@@ -18,7 +18,7 @@ tags:
 - phenology
 - coral-bleaching
 - feedback-loops
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

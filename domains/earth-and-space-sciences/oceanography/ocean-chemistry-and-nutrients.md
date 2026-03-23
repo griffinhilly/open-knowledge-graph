@@ -21,7 +21,7 @@ tags:
 - nitrogen cycle
 - phosphorus
 - marine chemistry
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

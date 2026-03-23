@@ -15,7 +15,7 @@ tags:
 - foundations
 - dynamics
 - equivalence
-stage: advanced
+stage: expert
 status: draft
 ---
 

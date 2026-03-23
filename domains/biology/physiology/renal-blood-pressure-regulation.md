@@ -17,7 +17,7 @@ tags:
 - sodium
 - kidney
 - volume
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

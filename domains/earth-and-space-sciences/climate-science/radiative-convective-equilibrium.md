@@ -20,7 +20,7 @@ tags:
 - energy-balance
 - atmospheric-structure
 - climate-modeling
-stage: advanced
+stage: expert
 status: draft
 ---
 

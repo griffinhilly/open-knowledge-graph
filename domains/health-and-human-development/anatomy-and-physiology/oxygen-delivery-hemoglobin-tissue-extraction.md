@@ -16,7 +16,7 @@ tags:
 - oxygen-transport
 - hemoglobin
 - aerobic-metabolism
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - variant-nucleosomes
 - chromatin-plasticity
 - epigenetic-mark
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

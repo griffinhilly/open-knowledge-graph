@@ -10,7 +10,7 @@ tags:
 - mood-stabilizer
 - lithium
 - psychopharmacology
-stage: advanced
+stage: expert
 status: draft
 ---
 

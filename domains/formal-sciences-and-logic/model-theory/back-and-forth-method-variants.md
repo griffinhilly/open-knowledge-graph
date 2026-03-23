@@ -15,7 +15,7 @@ tags:
 - Ehrenfeucht-Fraïssé
 - game
 - atomic-type
-stage: advanced
+stage: expert
 status: draft
 ---
 

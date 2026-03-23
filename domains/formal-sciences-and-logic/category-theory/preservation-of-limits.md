@@ -15,7 +15,7 @@ tags:
 - functor-properties
 - limits
 - universal-properties
-stage: advanced
+stage: expert
 status: draft
 ---
 

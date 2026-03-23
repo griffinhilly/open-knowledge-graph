@@ -15,7 +15,7 @@ tags:
 - magnetization
 - permeability
 - magnetic-materials
-stage: advanced
+stage: expert
 status: draft
 ---
 

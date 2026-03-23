@@ -15,7 +15,7 @@ tags:
 - embodiment
 - experience
 - temporality
-stage: advanced
+stage: expert
 status: draft
 ---
 

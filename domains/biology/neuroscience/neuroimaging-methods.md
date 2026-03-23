@@ -16,7 +16,7 @@ tags:
 - fmri
 - imaging
 - measurement
-stage: advanced
+stage: expert
 status: draft
 ---
 

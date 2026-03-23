@@ -17,7 +17,7 @@ tags:
 - model-completeness
 - universal-formulas
 - decidability
-stage: advanced
+stage: expert
 status: draft
 ---
 

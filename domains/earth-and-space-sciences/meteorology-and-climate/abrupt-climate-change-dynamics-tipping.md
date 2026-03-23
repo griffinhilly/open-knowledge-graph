@@ -15,7 +15,7 @@ tags:
 - abrupt-change
 - tipping-points
 - nonlinear
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

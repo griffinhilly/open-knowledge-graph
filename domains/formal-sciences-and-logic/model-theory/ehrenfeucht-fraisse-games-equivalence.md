@@ -11,7 +11,7 @@ tags:
 - EF-game
 - game characterization
 - finite approximation
-stage: advanced
+stage: expert
 status: draft
 ---
 

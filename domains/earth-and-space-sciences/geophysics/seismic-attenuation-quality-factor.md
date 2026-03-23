@@ -13,7 +13,7 @@ tags:
 - attenuation
 - energy
 - quality-factor
-stage: advanced
+stage: expert
 status: draft
 ---
 

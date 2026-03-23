@@ -21,7 +21,7 @@ tags:
 - balance
 - geostrophic
 - dynamics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Geostrophic Wind and Pressure-Coriolis Balance

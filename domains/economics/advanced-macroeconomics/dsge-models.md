@@ -29,7 +29,7 @@ tags:
 - dsge
 - general-equilibrium
 - stochastic
-stage: advanced
+stage: expert
 status: draft
 ---
 

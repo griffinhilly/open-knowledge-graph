@@ -15,7 +15,7 @@ tags:
 - epidemiology
 - outbreak-control
 - investigation
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - germinal-center
 - selection
 - follicular-dendritic-cell
-stage: advanced
+stage: expert
 status: draft
 ---
 

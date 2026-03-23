@@ -19,7 +19,7 @@ tags:
 - aerobic
 - anaerobic
 - atp
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

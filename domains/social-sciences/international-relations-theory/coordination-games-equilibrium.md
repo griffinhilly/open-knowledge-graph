@@ -19,7 +19,7 @@ tags:
 - game-theory
 - coordination
 - equilibrium
-stage: advanced
+stage: expert
 status: draft
 ---
 

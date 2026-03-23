@@ -18,7 +18,7 @@ tags:
 - nmda
 - calcium
 - voltage-dependent
-stage: advanced
+stage: expert
 status: draft
 ---
 

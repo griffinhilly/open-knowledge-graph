@@ -17,7 +17,7 @@ tags:
 - inhibitory-control
 - working-memory
 - cognitive-flexibility
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

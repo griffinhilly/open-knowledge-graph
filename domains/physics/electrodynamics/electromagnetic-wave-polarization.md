@@ -12,7 +12,7 @@ tags:
 - polarization
 - wave-properties
 - em-waves
-stage: advanced
+stage: expert
 status: draft
 ---
 

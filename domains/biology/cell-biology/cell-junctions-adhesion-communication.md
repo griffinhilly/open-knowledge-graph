@@ -12,7 +12,7 @@ tags:
 - junction
 - adhesion
 - contact
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

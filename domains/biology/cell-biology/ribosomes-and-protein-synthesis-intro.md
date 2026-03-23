@@ -15,7 +15,7 @@ tags:
 - translation
 - mRNA
 - protein-synthesis
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

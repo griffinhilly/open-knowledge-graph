@@ -12,7 +12,7 @@ builds-toward:
 - bounded-linear-operators
 tags:
 - functional-analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

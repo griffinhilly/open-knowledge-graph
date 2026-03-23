@@ -15,7 +15,7 @@ tags:
 - exothermic
 - endothermic
 - enthalpy change
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

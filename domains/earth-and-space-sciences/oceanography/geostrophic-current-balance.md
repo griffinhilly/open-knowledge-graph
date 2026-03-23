@@ -17,7 +17,7 @@ tags:
 - geostrophic
 - pressure-gradient
 - current-balance
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

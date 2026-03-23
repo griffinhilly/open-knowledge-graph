@@ -12,7 +12,7 @@ builds-toward:
 - orthogonality-hilbert-spaces
 tags:
 - hilbert-spaces
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -19,7 +19,7 @@ tags:
 - satisfiability
 - finite approximation
 - infinite model
-stage: advanced
+stage: expert
 status: draft
 ---
 

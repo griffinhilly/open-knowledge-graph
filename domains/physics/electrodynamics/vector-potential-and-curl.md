@@ -15,7 +15,7 @@ tags:
 - vector-calculus
 - magnetostatics
 - potentials
-stage: advanced
+stage: expert
 status: draft
 ---
 

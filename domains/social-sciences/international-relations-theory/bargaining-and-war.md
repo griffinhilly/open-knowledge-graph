@@ -14,7 +14,7 @@ tags:
 - war
 - bargaining
 - rationalism
-stage: advanced
+stage: expert
 status: draft
 ---
 

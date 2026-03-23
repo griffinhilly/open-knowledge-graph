@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - social-choice
 - voting
-stage: advanced
+stage: expert
 status: draft
 ---
 # Arrow's Impossibility Theorem and Social Choice

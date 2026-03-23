@@ -27,7 +27,7 @@ tags:
 - Orientalism
 - hybridity
 - subaltern
-stage: advanced
+stage: expert
 status: validated
 ---
 # Postcolonial Criticism

@@ -17,7 +17,7 @@ tags:
 - Kuroshio
 - western boundary currents
 - subtropical gyre
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

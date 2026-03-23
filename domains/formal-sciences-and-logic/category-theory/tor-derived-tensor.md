@@ -17,7 +17,7 @@ tags:
 - derived-functors
 - homological-algebra
 - tensor-products
-stage: advanced
+stage: expert
 status: draft
 ---
 

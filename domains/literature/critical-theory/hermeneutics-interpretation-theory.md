@@ -21,7 +21,7 @@ tags:
 - meaning
 - foundational
 - theory
-stage: advanced
+stage: expert
 status: draft
 ---
 

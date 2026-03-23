@@ -17,7 +17,7 @@ tags:
 - indistinguishability
 - sentences
 - logical power
-stage: advanced
+stage: expert
 status: draft
 ---
 

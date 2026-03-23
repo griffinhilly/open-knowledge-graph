@@ -17,7 +17,7 @@ tags:
 - endo rule
 - stereochemistry
 - concerted
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # The Diels-Alder Reaction

@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - game-theory
 - probability
-stage: advanced
+stage: expert
 status: draft
 ---
 

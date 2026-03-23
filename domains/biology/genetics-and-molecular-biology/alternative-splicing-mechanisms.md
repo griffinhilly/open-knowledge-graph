@@ -15,7 +15,7 @@ tags:
 - exon-skipping
 - protein-isoforms
 - gene-expression-diversity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

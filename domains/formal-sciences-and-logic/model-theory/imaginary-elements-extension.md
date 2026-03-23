@@ -15,7 +15,7 @@ tags:
 - imaginaries
 - quotient-structures
 - extensions
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - ensembles
 - foundations
 - probability
-stage: advanced
+stage: expert
 status: draft
 ---
 

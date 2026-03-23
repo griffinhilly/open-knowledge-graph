@@ -16,7 +16,7 @@ tags:
 - protective-factors
 - adversity
 - developmental-vulnerability
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

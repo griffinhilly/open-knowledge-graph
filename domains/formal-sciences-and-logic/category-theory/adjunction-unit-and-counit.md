@@ -17,7 +17,7 @@ tags:
 - triangle identities
 - adjunction
 - monad
-stage: advanced
+stage: expert
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - sovereignty
 - humanitarian-intervention
 - justice
-stage: advanced
+stage: expert
 status: draft
 ---
 # Human Rights Norms and Sovereignty Challenges

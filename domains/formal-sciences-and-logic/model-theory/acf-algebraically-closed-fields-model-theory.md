@@ -24,7 +24,7 @@ tags:
 - application
 - elimination
 - decidability
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - movement
 - ligament
 - cartilage
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

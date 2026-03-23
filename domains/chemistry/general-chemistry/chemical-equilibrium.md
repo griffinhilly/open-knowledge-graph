@@ -23,7 +23,7 @@ tags:
 - Le-Chateliers-principle
 - ICE-table
 - reaction-quotient
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Chemical Equilibrium

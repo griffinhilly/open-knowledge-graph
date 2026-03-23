@@ -17,7 +17,7 @@ tags:
 - gauss-law
 - applications
 - symmetry
-stage: advanced
+stage: expert
 status: draft
 ---
 

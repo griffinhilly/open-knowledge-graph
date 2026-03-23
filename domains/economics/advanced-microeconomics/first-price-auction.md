@@ -10,7 +10,7 @@ tags:
 - auctions
 - bidding
 - sealed-bid
-stage: advanced
+stage: expert
 status: draft
 ---
 

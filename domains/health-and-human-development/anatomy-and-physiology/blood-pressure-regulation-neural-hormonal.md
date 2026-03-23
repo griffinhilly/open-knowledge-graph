@@ -25,7 +25,7 @@ tags:
 - renin-angiotensin
 - vasopressin
 - blood-pressure
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

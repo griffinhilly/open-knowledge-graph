@@ -15,7 +15,7 @@ tags:
 - degree
 - strongly-minimal
 - dimension
-stage: advanced
+stage: expert
 status: draft
 ---
 

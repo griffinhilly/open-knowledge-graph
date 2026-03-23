@@ -21,7 +21,7 @@ tags:
 - carbonyl
 - hydroxyl
 - amine
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

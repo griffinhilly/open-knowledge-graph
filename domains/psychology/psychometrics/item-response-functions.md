@@ -17,7 +17,7 @@ tags:
 - item-response-theory
 - item-curves
 - ability-estimation
-stage: advanced
+stage: expert
 status: draft
 ---
 

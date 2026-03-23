@@ -10,7 +10,7 @@ tags:
 - romer-model
 - research-development
 - technological-progress
-stage: advanced
+stage: expert
 status: draft
 ---
 

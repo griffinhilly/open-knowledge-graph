@@ -17,7 +17,7 @@ tags:
 - state-feedback
 - observer
 - eigenvalue-assignment
-stage: advanced
+stage: expert
 status: draft
 ---
 

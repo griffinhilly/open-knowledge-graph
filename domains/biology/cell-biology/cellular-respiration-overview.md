@@ -25,7 +25,7 @@ tags:
 - aerobic
 - oxidation
 - energy
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

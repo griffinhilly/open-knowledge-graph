@@ -25,7 +25,7 @@ tags:
 - electrophilicity
 - alpha carbon
 - polarity
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Aldehydes and Ketones: Structure and Reactivity

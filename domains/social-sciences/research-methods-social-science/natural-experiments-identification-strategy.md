@@ -16,7 +16,7 @@ tags:
 - natural-experiments
 - quasi-random
 - causal-identification
-stage: advanced
+stage: expert
 status: draft
 ---
 

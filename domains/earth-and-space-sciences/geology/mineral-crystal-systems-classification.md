@@ -20,7 +20,7 @@ tags:
 - minerals
 - crystals
 - crystallography
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

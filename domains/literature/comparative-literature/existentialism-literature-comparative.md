@@ -12,7 +12,7 @@ tags:
 - existentialism
 - philosophy-and-literature
 - 20th-century
-stage: advanced
+stage: expert
 status: draft
 ---
 

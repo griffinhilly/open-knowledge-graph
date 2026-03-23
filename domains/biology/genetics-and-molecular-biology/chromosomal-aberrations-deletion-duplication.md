@@ -14,7 +14,7 @@ tags:
 - duplications
 - inversions
 - translocations
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - differentiation
 - development
 - specialization
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

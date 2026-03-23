@@ -16,7 +16,7 @@ tags:
 - marx
 - materialism
 - conflict
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - comparative
 - countries-regions
 - dynamics
-stage: advanced
+stage: expert
 status: draft
 ---
 

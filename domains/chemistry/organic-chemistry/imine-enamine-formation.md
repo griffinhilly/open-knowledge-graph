@@ -17,7 +17,7 @@ tags:
 - secondary amine
 - condensation
 - pH dependence
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Imine and Enamine Formation

@@ -13,7 +13,7 @@ tags:
 - stability
 - chaos
 - orbital-mechanics
-stage: advanced
+stage: expert
 status: draft
 ---
 

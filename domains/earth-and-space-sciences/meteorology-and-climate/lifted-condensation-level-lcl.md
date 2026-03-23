@@ -15,7 +15,7 @@ tags:
 - cloud-formation
 - lifting
 - thermodynamics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

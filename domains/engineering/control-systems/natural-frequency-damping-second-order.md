@@ -16,7 +16,7 @@ tags:
 - damping
 - second-order
 - parameters
-stage: advanced
+stage: expert
 status: draft
 ---
 

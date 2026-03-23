@@ -15,7 +15,7 @@ tags:
 - z-domain-stability
 - discretization
 - sampling-theorem
-stage: advanced
+stage: expert
 status: draft
 ---
 

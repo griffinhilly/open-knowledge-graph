@@ -12,7 +12,7 @@ tags:
 - field-transformation
 - relativity
 - electric-magnetic-duality
-stage: advanced
+stage: expert
 status: draft
 ---
 

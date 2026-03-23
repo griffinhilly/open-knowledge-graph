@@ -13,7 +13,7 @@ tags:
 - long-waves
 - wave-speed
 - tsunami
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

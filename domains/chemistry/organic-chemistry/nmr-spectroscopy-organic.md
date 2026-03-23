@@ -28,7 +28,7 @@ tags:
 - carbon-nmr
 - chemical-shift
 - integration
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

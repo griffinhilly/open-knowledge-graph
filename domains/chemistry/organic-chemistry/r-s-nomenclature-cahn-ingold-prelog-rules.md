@@ -16,7 +16,7 @@ tags:
 - r-s-nomenclature
 - cip-rules
 - chiral-center
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - neuron-types
 - morphology
 - classification
-stage: advanced
+stage: expert
 status: draft
 ---
 

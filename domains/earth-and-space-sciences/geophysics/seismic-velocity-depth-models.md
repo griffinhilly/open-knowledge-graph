@@ -16,7 +16,7 @@ tags:
 - velocity
 - modeling
 - earth-structure
-stage: advanced
+stage: expert
 status: draft
 ---
 

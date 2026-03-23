@@ -16,7 +16,7 @@ tags:
 - polygenic traits
 - pleiotropy
 - epistasis
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Non-Mendelian Inheritance Patterns

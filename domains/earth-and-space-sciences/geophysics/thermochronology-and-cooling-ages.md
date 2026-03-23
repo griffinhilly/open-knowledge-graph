@@ -15,7 +15,7 @@ tags:
 - cooling-ages
 - geochronology
 - tectonics
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - jazz
 - improvisation
 - modal
-stage: advanced
+stage: expert
 status: draft
 ---
 

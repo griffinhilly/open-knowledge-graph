@@ -15,7 +15,7 @@ tags:
 - extension-lemma
 - back-and-forth
 - embeddings
-stage: advanced
+stage: expert
 status: draft
 ---
 

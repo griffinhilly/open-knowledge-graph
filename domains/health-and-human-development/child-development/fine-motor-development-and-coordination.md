@@ -20,7 +20,7 @@ tags:
 - hand-coordination
 - manipulation
 - skill-development
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

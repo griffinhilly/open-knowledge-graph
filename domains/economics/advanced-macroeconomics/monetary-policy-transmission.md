@@ -12,7 +12,7 @@ tags:
 - policy-channels
 - propagation
 - lags
-stage: advanced
+stage: expert
 status: draft
 ---
 

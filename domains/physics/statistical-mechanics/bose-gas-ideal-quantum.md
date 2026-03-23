@@ -15,7 +15,7 @@ tags:
 - bose-gas
 - quantum-degeneracy
 - thermal-wavelength
-stage: advanced
+stage: expert
 status: draft
 ---
 

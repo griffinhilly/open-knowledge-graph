@@ -12,7 +12,7 @@ tags:
 - agriculture
 - information
 - technology-adoption
-stage: advanced
+stage: expert
 status: draft
 ---
 

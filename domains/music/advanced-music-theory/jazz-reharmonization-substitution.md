@@ -15,7 +15,7 @@ tags:
 - reharmonization
 - harmony
 - improvisation
-stage: advanced
+stage: expert
 status: draft
 ---
 

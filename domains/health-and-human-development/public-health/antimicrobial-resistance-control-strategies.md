@@ -16,7 +16,7 @@ tags:
 - infection-prevention
 - surveillance
 - amr
-stage: advanced
+stage: expert
 status: draft
 ---
 

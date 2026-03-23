@@ -16,7 +16,7 @@ tags:
 - similarity-transform
 - change-of-basis
 - invariants
-stage: advanced
+stage: expert
 status: draft
 ---
 

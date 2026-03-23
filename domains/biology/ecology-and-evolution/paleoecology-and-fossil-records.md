@@ -15,7 +15,7 @@ tags:
 - fossils
 - past-ecosystems
 - inference
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

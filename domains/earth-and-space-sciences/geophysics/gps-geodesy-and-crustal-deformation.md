@@ -11,7 +11,7 @@ tags:
 - gps
 - deformation
 - monitoring
-stage: advanced
+stage: expert
 status: draft
 ---
 

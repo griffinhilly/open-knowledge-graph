@@ -17,7 +17,7 @@ tags:
 - moment
 - magnitude
 - earthquake
-stage: advanced
+stage: expert
 status: draft
 ---
 

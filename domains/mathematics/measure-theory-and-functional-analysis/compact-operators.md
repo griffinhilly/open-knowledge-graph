@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - operators
 - spectral-theory
-stage: advanced
+stage: expert
 status: draft
 ---
 

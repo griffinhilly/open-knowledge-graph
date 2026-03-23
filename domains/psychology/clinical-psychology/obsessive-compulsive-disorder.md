@@ -14,7 +14,7 @@ tags:
 - compulsions
 - intrusive-thoughts
 - anxiety
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - metropolis
 - markov-chain
 - detailed-balance
-stage: advanced
+stage: expert
 status: draft
 ---
 

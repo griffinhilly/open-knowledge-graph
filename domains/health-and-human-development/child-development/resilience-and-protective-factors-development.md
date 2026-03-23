@@ -19,7 +19,7 @@ tags:
 - adversity
 - risk-factors
 - adaptation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

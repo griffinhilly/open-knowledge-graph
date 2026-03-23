@@ -17,7 +17,7 @@ tags:
 - secondary-amine
 - nucleophile
 - activated-alkene
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

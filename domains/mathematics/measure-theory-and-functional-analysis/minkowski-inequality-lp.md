@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - lp-spaces
 - triangle-inequality
-stage: advanced
+stage: expert
 status: draft
 ---
 

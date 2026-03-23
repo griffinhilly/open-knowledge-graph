@@ -23,7 +23,7 @@ tags:
 - CO2
 - glucose
 - chloroplast
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Photosynthesis Overview

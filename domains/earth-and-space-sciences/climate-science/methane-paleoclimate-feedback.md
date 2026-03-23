@@ -16,7 +16,7 @@ tags:
 - wetlands
 - permafrost
 - paleoclimate-feedback
-stage: advanced
+stage: expert
 status: draft
 ---
 # Methane Sources and Paleoclimate Feedback

@@ -17,7 +17,7 @@ tags:
 - being
 - unconcealment
 - phenomenology
-stage: advanced
+stage: expert
 status: draft
 ---
 

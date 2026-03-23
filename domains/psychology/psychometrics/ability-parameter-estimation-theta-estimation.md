@@ -15,7 +15,7 @@ tags:
 - theta
 - ability-estimation
 - mle
-stage: advanced
+stage: expert
 status: draft
 ---
 

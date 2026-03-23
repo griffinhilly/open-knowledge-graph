@@ -27,7 +27,7 @@ tags:
 - glomerular-filtration
 - renal-physiology
 - GFR
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - jazz
 - rhythm-section
 - groove
-stage: advanced
+stage: expert
 status: draft
 ---
 

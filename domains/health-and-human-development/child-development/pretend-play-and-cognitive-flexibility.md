@@ -12,7 +12,7 @@ tags:
 - imaginative-play
 - cognitive-development
 - creativity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

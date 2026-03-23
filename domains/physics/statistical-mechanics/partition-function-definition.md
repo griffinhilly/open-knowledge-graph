@@ -20,7 +20,7 @@ tags:
 - partition-function
 - thermodynamic-potential
 - calculation
-stage: advanced
+stage: expert
 status: draft
 ---
 

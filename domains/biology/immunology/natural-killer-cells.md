@@ -12,7 +12,7 @@ tags:
 - innate
 - lymphocytes
 - cytotoxicity
-stage: advanced
+stage: expert
 status: draft
 ---
 

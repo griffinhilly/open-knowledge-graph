@@ -13,7 +13,7 @@ tags:
 - formulation
 - treatment-planning
 - clinical-reasoning
-stage: advanced
+stage: expert
 status: draft
 ---
 

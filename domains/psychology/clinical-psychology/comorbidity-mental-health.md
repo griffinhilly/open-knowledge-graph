@@ -15,7 +15,7 @@ tags:
 - cooccurrence
 - integration
 - treatment-planning
-stage: advanced
+stage: expert
 status: draft
 ---
 

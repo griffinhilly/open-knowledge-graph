@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - hilbert-spaces
 - geometry
-stage: advanced
+stage: expert
 status: draft
 ---
 

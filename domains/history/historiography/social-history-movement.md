@@ -15,7 +15,7 @@ tags:
 - social-history
 - history-from-below
 - 20th-century
-stage: advanced
+stage: expert
 status: draft
 ---
 

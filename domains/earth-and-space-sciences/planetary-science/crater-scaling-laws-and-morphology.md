@@ -17,7 +17,7 @@ tags:
 - scaling-laws
 - gravity
 - impact-mechanics
-stage: advanced
+stage: expert
 status: draft
 ---
 

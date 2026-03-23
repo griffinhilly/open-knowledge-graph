@@ -19,7 +19,7 @@ tags:
 - cable-equation
 - length-constant
 - time-constant
-stage: advanced
+stage: expert
 status: draft
 ---
 

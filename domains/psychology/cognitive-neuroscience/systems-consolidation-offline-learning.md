@@ -17,7 +17,7 @@ tags:
 - hippocampal-cortical-dialogue
 - replay
 - slow-wave-sleep
-stage: advanced
+stage: expert
 status: draft
 ---
 

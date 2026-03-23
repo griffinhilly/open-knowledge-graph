@@ -15,7 +15,7 @@ tags:
 - self-awareness
 - interaction
 - development
-stage: advanced
+stage: expert
 status: draft
 ---
 

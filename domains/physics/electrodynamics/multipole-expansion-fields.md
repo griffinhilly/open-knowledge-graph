@@ -17,7 +17,7 @@ builds-toward:
 tags:
 - multipole-expansion
 - systematic-expansion
-stage: advanced
+stage: expert
 status: draft
 ---
 

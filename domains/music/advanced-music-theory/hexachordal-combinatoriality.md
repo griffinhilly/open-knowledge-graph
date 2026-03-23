@@ -23,7 +23,7 @@ tags:
 - serialism
 - hexachord
 - combinatoriality
-stage: advanced
+stage: expert
 status: draft
 ---
 

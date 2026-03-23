@@ -15,7 +15,7 @@ tags:
 - attenuation
 - transcriptional-control
 - leader-peptide
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - metaplasia
 - dysplasia
 - cellular-transformation
-stage: advanced
+stage: expert
 status: draft
 ---
 

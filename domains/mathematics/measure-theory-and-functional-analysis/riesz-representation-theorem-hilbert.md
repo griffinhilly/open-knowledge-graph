@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - hilbert-spaces
 - duality
-stage: advanced
+stage: expert
 status: draft
 ---
 

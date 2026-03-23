@@ -16,7 +16,7 @@ tags:
 - cations
 - anions
 - octet rule
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

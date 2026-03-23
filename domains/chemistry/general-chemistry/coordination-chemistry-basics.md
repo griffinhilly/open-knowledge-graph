@@ -15,7 +15,7 @@ tags:
 - coordination chemistry
 - ligands
 - complex ions
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - plate-tectonics
 - boundaries
 - kinematics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

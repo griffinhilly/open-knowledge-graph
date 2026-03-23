@@ -15,7 +15,7 @@ tags:
 - stochastic
 - noise
 - fluctuations
-stage: advanced
+stage: expert
 status: draft
 ---
 

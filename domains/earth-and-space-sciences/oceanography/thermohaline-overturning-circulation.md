@@ -18,7 +18,7 @@ tags:
 - deep-circulation
 - meridional
 - climate-regulation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - life
 - population
 - governance
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -11,7 +11,7 @@ tags:
 - environment
 - nature
 - new-world
-stage: advanced
+stage: expert
 status: draft
 ---
 

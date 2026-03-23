@@ -20,7 +20,7 @@ tags:
 - network-analysis
 - centrality
 - structural-holes
-stage: advanced
+stage: expert
 status: draft
 ---
 

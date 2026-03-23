@@ -19,7 +19,7 @@ tags:
 - acoustics
 - harmonic-series
 - contemporary
-stage: advanced
+stage: expert
 status: draft
 ---
 

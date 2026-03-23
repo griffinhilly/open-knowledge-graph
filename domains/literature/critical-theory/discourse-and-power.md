@@ -26,7 +26,7 @@ tags:
 - genealogy
 - subject
 - author-function
-stage: advanced
+stage: expert
 status: validated
 ---
 # Discourse, Power, and Knowledge

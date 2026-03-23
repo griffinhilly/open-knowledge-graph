@@ -17,7 +17,7 @@ tags:
 - soil-horizons
 - clay-minerals
 - parent-material
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

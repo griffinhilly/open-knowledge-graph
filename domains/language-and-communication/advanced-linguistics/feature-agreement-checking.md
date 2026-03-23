@@ -14,7 +14,7 @@ tags:
 - agreement
 - features
 - minimalism
-stage: advanced
+stage: expert
 status: draft
 ---
 

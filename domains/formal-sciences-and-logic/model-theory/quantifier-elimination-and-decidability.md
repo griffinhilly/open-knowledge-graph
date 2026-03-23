@@ -15,7 +15,7 @@ tags:
 - quantifier-elimination
 - decidability
 - completeness
-stage: advanced
+stage: expert
 status: draft
 ---
 

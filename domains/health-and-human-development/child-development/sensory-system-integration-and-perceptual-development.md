@@ -15,7 +15,7 @@ tags:
 - sensory-development
 - sensory-integration
 - perceptual-learning
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

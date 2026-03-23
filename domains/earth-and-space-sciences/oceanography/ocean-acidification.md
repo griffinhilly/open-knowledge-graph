@@ -28,7 +28,7 @@ tags:
 - pH
 - calcification
 - aragonite
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

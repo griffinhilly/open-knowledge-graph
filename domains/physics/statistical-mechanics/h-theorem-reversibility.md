@@ -14,7 +14,7 @@ tags:
 - h-theorem
 - entropy-increase
 - irreversibility
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -19,7 +19,7 @@ tags:
 - automorphisms
 - group-structure
 - orbits
-stage: advanced
+stage: expert
 status: draft
 ---
 

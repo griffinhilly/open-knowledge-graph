@@ -19,7 +19,7 @@ tags:
 - waves
 - wave-equation
 - propagation
-stage: advanced
+stage: expert
 status: draft
 ---
 

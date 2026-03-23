@@ -25,7 +25,7 @@ tags:
 - Kalman-rank
 - PBH-test
 - structural-properties
-stage: advanced
+stage: expert
 status: validated
 ---
 # Controllability and Observability

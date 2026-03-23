@@ -13,7 +13,7 @@ tags:
 - world-systems
 - core-periphery
 - capitalism
-stage: advanced
+stage: expert
 status: draft
 ---
 

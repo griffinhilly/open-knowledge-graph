@@ -16,7 +16,7 @@ tags:
 - judgment
 - beauty
 - transcendental
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -19,7 +19,7 @@ tags:
 - power
 - decolonization
 - critique
-stage: advanced
+stage: expert
 status: draft
 ---
 

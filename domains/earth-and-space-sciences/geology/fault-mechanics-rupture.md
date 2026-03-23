@@ -16,7 +16,7 @@ tags:
 - friction
 - Coulomb
 - stress
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

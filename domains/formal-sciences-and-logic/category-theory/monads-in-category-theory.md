@@ -24,7 +24,7 @@ tags:
 - multiplication
 - Kleisli category
 - monad laws
-stage: advanced
+stage: expert
 status: validated
 ---
 

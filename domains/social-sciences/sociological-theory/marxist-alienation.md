@@ -14,7 +14,7 @@ tags:
 - alienation
 - labor
 - capitalism
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - temperature-profile
 - measurement
 - atmosphere
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

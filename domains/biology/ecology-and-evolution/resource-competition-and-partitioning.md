@@ -15,7 +15,7 @@ tags:
 - resources
 - partitioning
 - ecology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

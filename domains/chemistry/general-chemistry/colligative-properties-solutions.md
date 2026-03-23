@@ -13,7 +13,7 @@ tags:
 - boiling point elevation
 - freezing point depression
 - osmotic pressure
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

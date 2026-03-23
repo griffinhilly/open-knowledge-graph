@@ -11,7 +11,7 @@ tags:
 - latent-period
 - compartmental-models
 - incubation-period
-stage: advanced
+stage: expert
 status: draft
 ---
 

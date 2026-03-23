@@ -18,7 +18,7 @@ tags:
 - nonlinearity
 - critical-transitions
 - instability
-stage: advanced
+stage: expert
 status: draft
 ---
 

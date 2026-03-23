@@ -13,7 +13,7 @@ tags:
 - world-systems
 - imperialism
 - global-inequality
-stage: advanced
+stage: expert
 status: draft
 ---
 

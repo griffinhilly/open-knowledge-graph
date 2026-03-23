@@ -15,7 +15,7 @@ tags:
 - networks
 - detection
 - monitoring
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - cortical-excitability
 - virtual-lesion
 - neuroplasticity
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -45,7 +45,7 @@ tags:
 - right adjoint
 - hom-set bijection
 - universal arrow
-stage: advanced
+stage: expert
 status: validated
 ---
 # Adjoint Functors

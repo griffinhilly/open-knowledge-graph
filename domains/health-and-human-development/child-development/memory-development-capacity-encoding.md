@@ -19,7 +19,7 @@ tags:
 - capacity
 - encoding-retrieval
 - learning
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

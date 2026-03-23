@@ -18,7 +18,7 @@ tags:
 - action-potential
 - excitability
 - nonlinear-dynamics
-stage: advanced
+stage: expert
 status: draft
 ---
 

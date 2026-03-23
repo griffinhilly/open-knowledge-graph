@@ -17,7 +17,7 @@ tags:
 - herbivory
 - trophic-dynamics
 - disturbance
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

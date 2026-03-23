@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - glial-cells
 - myelin
-stage: advanced
+stage: expert
 status: draft
 ---
 

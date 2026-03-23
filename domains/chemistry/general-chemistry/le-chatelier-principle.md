@@ -13,7 +13,7 @@ tags:
 - equilibrium shift
 - stress on equilibrium
 - perturbation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

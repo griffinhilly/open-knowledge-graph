@@ -18,7 +18,7 @@ tags:
 - distance
 - luminosity
 - photometry
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

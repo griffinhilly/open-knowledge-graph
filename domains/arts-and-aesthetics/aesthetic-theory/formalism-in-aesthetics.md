@@ -17,7 +17,7 @@ tags:
 - modernism
 - abstraction
 - aesthetic value
-stage: advanced
+stage: expert
 status: draft
 ---
 

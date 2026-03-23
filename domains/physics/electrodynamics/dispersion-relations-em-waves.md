@@ -14,7 +14,7 @@ tags:
 - dispersion
 - wave-velocity
 - frequency-dependence
-stage: advanced
+stage: expert
 status: draft
 ---
 

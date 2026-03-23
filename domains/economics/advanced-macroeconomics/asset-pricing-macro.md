@@ -14,7 +14,7 @@ tags:
 - asset-pricing
 - returns
 - macroeconomy
-stage: advanced
+stage: expert
 status: draft
 ---
 

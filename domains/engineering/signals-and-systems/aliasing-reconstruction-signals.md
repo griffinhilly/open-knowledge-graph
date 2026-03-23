@@ -12,7 +12,7 @@ tags:
 - aliasing
 - anti-aliasing
 - reconstruction
-stage: advanced
+stage: expert
 status: draft
 ---
 

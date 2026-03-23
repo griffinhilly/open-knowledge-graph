@@ -13,7 +13,7 @@ tags:
 - rhythm
 - dissonance
 - tension-release
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -19,7 +19,7 @@ tags:
 - analog-filters
 - butterworth
 - magnitude-response
-stage: advanced
+stage: expert
 status: draft
 ---
 

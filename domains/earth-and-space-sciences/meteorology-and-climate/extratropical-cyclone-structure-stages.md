@@ -18,7 +18,7 @@ tags:
 - pressure-system
 - weather
 - life-cycle
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - human-nature
 - power
 - classical
-stage: advanced
+stage: expert
 status: draft
 ---
 

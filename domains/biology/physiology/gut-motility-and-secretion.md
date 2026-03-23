@@ -15,7 +15,7 @@ tags:
 - gut hormones
 - gastrin
 - CCK
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

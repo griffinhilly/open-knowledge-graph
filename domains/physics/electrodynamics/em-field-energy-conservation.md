@@ -15,7 +15,7 @@ tags:
 - energy-density
 - field-energy
 - energy-flow
-stage: advanced
+stage: expert
 status: draft
 ---
 

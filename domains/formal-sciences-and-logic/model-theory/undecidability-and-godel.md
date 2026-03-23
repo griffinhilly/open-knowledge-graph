@@ -13,7 +13,7 @@ tags:
 - undecidability
 - gödel
 - church
-stage: advanced
+stage: expert
 status: draft
 ---
 # Undecidability of First-Order Theories

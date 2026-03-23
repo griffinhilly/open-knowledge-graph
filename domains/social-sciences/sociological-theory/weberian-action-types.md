@@ -15,7 +15,7 @@ tags:
 - rationality
 - motivation
 - sociology-of-action
-stage: advanced
+stage: expert
 status: draft
 ---
 

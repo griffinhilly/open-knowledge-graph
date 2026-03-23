@@ -13,7 +13,7 @@ tags:
 - optimal-filtering
 - recursive
 - kalman
-stage: advanced
+stage: expert
 status: draft
 ---
 

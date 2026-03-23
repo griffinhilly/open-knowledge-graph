@@ -14,7 +14,7 @@ tags:
 - protein-s
 - antithrombin
 - thrombomodulin
-stage: advanced
+stage: expert
 status: draft
 ---
 

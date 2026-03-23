@@ -18,7 +18,7 @@ tags:
 - activating
 - deactivating
 - arenium ion
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

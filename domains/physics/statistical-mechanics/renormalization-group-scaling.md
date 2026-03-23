@@ -12,7 +12,7 @@ tags:
 - renormalization-group
 - scaling-flow
 - fixed-points
-stage: advanced
+stage: expert
 status: draft
 ---
 

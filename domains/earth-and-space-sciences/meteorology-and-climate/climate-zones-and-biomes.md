@@ -19,7 +19,7 @@ tags:
 - continental
 - polar
 - biome
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

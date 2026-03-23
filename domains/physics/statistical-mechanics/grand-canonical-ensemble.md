@@ -15,7 +15,7 @@ tags:
 - ensemble
 - open-system
 - particle-exchange
-stage: advanced
+stage: expert
 status: draft
 ---
 

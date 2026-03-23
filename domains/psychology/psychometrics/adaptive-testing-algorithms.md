@@ -14,7 +14,7 @@ tags:
 - item-selection
 - algorithms
 - maximum-information
-stage: advanced
+stage: expert
 status: draft
 ---
 

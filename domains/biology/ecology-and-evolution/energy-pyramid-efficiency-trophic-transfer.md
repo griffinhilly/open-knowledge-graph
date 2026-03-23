@@ -16,7 +16,7 @@ tags:
 - pyramids
 - trophic-efficiency
 - 10-percent-rule
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

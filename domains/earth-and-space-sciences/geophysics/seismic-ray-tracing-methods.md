@@ -16,7 +16,7 @@ tags:
 - ray-theory
 - propagation
 - geometric-seismology
-stage: advanced
+stage: expert
 status: draft
 ---
 

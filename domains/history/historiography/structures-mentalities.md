@@ -12,7 +12,7 @@ tags:
 - mentalité
 - culture
 - psychology
-stage: advanced
+stage: expert
 status: draft
 ---
 

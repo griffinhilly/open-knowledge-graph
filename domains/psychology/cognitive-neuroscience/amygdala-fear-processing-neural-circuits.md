@@ -18,7 +18,7 @@ tags:
 - LTP
 - threat-learning
 - extinction
-stage: advanced
+stage: expert
 status: draft
 ---
 

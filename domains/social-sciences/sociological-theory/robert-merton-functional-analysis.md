@@ -11,7 +11,7 @@ tags:
 - functionalism
 - latent-manifest
 - functions
-stage: advanced
+stage: expert
 status: draft
 ---
 

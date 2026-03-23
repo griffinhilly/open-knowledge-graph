@@ -14,7 +14,7 @@ tags:
 - equilibrium
 - alignment
 - great-power
-stage: advanced
+stage: expert
 status: draft
 ---
 

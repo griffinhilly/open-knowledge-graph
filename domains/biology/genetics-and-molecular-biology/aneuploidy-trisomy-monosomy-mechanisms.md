@@ -16,7 +16,7 @@ tags:
 - monosomy
 - non-disjunction
 - meiosis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

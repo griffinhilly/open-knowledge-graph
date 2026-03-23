@@ -14,7 +14,7 @@ tags:
 - synaptic-transmission
 - neurotransmitters
 - integration
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

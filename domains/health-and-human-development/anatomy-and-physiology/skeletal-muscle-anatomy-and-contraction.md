@@ -19,7 +19,7 @@ tags:
 - actin
 - myosin
 - sarcomere
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

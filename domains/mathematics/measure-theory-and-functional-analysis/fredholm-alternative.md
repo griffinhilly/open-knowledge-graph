@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 tags:
 - spectral-theory
-stage: advanced
+stage: expert
 status: draft
 ---
 

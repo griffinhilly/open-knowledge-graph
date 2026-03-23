@@ -27,7 +27,7 @@ tags:
 - transformation
 - harmony
 - analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -20,7 +20,7 @@ tags:
 - event-horizon
 - singularity
 - spacetime
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

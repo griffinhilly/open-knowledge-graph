@@ -13,7 +13,7 @@ tags:
 - heritability
 - gwas
 - gene-environment-interaction
-stage: advanced
+stage: expert
 status: draft
 ---
 

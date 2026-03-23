@@ -21,7 +21,7 @@ tags:
 - measurement-model
 - structural-model
 - latent-variables
-stage: advanced
+stage: expert
 status: draft
 ---
 

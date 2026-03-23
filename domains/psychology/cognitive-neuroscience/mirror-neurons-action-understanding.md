@@ -14,7 +14,7 @@ tags:
 - social
 - action
 - mirror-neurons
-stage: advanced
+stage: expert
 status: draft
 ---
 

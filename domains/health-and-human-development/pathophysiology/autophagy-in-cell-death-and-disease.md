@@ -13,7 +13,7 @@ tags:
 - macroautophagy
 - proteostasis
 - cell-death
-stage: advanced
+stage: expert
 status: draft
 ---
 

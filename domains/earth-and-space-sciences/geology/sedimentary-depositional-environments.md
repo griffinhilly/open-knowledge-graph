@@ -15,7 +15,7 @@ tags:
 - sedimentation
 - environments
 - facies
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

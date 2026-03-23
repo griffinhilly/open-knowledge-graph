@@ -26,7 +26,7 @@ tags:
 - sliding-filament
 - sarcomere
 - cross-bridge
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

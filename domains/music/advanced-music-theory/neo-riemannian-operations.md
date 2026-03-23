@@ -22,7 +22,7 @@ tags:
 - harmony
 - operations
 - analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

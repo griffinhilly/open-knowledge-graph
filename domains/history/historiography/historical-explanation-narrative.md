@@ -18,7 +18,7 @@ tags:
 - narrative
 - causation
 - sequence
-stage: advanced
+stage: expert
 status: draft
 ---
 # Narrative as Historical Explanation

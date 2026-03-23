@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - potentials
 - alternative-formulation
-stage: advanced
+stage: expert
 status: draft
 ---
 

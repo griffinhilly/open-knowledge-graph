@@ -16,7 +16,7 @@ tags:
 - atrial-fibrillation
 - remodeling
 - substrate
-stage: advanced
+stage: expert
 status: draft
 ---
 

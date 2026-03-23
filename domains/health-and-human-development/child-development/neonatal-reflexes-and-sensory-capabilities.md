@@ -22,7 +22,7 @@ tags:
 - reflexes
 - sensory-development
 - newborn
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

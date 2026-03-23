@@ -18,7 +18,7 @@ tags:
 - exponential
 - internal-hom
 - lambda-calculus
-stage: advanced
+stage: expert
 status: draft
 ---
 

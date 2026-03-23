@@ -10,7 +10,7 @@ tags:
 - auctions
 - bidding
 - truthful-revelation
-stage: advanced
+stage: expert
 status: draft
 ---
 

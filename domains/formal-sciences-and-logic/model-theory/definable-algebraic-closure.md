@@ -15,7 +15,7 @@ tags:
 - definable-closure
 - algebraic-closure
 - closure-operators
-stage: advanced
+stage: expert
 status: draft
 ---
 

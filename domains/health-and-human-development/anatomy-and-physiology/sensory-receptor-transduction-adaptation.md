@@ -18,7 +18,7 @@ tags:
 - sensory-transduction
 - adaptation
 - perception
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - content
 - structure
 - meaning
-stage: advanced
+stage: expert
 status: draft
 ---
 

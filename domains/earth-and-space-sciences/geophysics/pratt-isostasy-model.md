@@ -14,7 +14,7 @@ tags:
 - gravity
 - isostasy
 - density
-stage: advanced
+stage: expert
 status: draft
 ---
 

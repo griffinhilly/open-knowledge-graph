@@ -15,7 +15,7 @@ tags:
 - calcium-absorption
 - bone-health
 - immune-function
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

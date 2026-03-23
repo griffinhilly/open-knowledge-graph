@@ -16,7 +16,7 @@ tags:
 - intellectual history
 - concepts
 - usage
-stage: advanced
+stage: expert
 status: draft
 ---
 

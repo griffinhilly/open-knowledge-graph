@@ -15,7 +15,7 @@ tags:
 - atp
 - enzyme-cofactor
 - muscle-contraction
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

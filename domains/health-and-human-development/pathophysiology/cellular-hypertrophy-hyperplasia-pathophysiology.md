@@ -15,7 +15,7 @@ tags:
 - cellular-adaptation
 - hypertrophy
 - hyperplasia
-stage: advanced
+stage: expert
 status: draft
 ---
 

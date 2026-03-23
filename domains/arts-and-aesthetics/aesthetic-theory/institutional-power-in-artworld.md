@@ -20,7 +20,7 @@ tags:
 - artworld
 - legitimacy
 - gatekeeping
-stage: advanced
+stage: expert
 status: draft
 ---
 # Institutional Power and Gatekeeping in the Artworld

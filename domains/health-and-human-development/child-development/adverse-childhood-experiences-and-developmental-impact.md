@@ -14,7 +14,7 @@ tags:
 - trauma
 - adverse-experiences
 - developmental-neuroscience
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

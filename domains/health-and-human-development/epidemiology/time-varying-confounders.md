@@ -14,7 +14,7 @@ tags:
 - longitudinal-analysis
 - time-varying-confounding
 - exposure-dynamics
-stage: advanced
+stage: expert
 status: draft
 ---
 # Time-Varying Confounders and Longitudinal Exposure

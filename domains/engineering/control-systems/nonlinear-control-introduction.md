@@ -15,7 +15,7 @@ tags:
 - describing-functions
 - linearization
 - equilibrium-points
-stage: advanced
+stage: expert
 status: draft
 ---
 

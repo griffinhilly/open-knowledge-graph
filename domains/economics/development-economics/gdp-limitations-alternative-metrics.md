@@ -17,7 +17,7 @@ tags:
 - GDP
 - alternatives
 - Genuine Progress
-stage: advanced
+stage: expert
 status: draft
 ---
 

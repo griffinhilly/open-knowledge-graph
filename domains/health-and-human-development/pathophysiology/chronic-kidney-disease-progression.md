@@ -17,7 +17,7 @@ tags:
 - chronic-kidney-disease
 - progressive-renal-failure
 - nephron-loss
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - expectations
 - bounded-rationality
 - information-processing
-stage: advanced
+stage: expert
 status: draft
 ---
 

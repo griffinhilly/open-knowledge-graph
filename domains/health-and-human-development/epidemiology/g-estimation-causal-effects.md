@@ -15,7 +15,7 @@ tags:
 - causal-inference
 - structural-models
 - effect-estimation
-stage: advanced
+stage: expert
 status: draft
 ---
 

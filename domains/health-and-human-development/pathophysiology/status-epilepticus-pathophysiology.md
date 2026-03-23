@@ -16,7 +16,7 @@ tags:
 - status-epilepticus
 - excitotoxicity
 - metabolic-failure
-stage: advanced
+stage: expert
 status: draft
 ---
 

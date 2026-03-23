@@ -12,7 +12,7 @@ tags:
 - inequality
 - kuznets
 - development
-stage: advanced
+stage: expert
 status: draft
 ---
 

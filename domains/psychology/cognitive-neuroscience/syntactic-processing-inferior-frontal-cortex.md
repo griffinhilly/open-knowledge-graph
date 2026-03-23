@@ -17,7 +17,7 @@ tags:
 - broca
 - inferior-frontal
 - sentence-structure
-stage: advanced
+stage: expert
 status: draft
 ---
 

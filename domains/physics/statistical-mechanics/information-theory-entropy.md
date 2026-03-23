@@ -12,7 +12,7 @@ tags:
 - information
 - entropy
 - statistical-foundations
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - rgb
 - helium-flash
 - evolution
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - particles
 - collisions
 - dynamics
-stage: advanced
+stage: expert
 status: draft
 ---
 

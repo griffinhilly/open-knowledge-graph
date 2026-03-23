@@ -15,7 +15,7 @@ tags:
 - nephritic
 - glomerulonephritis
 - hematuria
-stage: advanced
+stage: expert
 status: draft
 ---
 

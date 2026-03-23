@@ -16,7 +16,7 @@ tags:
 - grothendieck-topology
 - topos
 - gluing
-stage: advanced
+stage: expert
 status: draft
 ---
 

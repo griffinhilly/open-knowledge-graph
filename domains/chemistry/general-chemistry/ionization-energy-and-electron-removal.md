@@ -15,7 +15,7 @@ tags:
 - ionization energy
 - periodic trends
 - cations
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

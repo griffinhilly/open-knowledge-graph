@@ -16,7 +16,7 @@ tags:
 - number-sense
 - numeracy
 - quantitative-reasoning
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Mathematical Thinking and Number Sense

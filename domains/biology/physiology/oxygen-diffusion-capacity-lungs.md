@@ -12,7 +12,7 @@ tags:
 - dlco
 - diffusion-coefficient
 - membrane-thickness
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

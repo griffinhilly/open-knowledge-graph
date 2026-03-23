@@ -16,7 +16,7 @@ tags:
 - symptom
 - defense
 - unconscious
-stage: advanced
+stage: expert
 status: draft
 ---
 

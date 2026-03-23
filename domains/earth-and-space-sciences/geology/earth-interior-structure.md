@@ -13,7 +13,7 @@ tags:
 - lithosphere
 - asthenosphere
 - seismic-discontinuities
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

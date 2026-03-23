@@ -19,7 +19,7 @@ tags:
 - rhythm
 - mathematics
 - form
-stage: advanced
+stage: expert
 status: draft
 ---
 

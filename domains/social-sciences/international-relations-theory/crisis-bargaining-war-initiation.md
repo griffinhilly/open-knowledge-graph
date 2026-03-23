@@ -20,7 +20,7 @@ tags:
 - escalation
 - war-initiation
 - signaling
-stage: advanced
+stage: expert
 status: draft
 ---
 # Crisis Bargaining and Escalation to War

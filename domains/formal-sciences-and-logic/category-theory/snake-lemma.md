@@ -15,7 +15,7 @@ tags:
 - lemma
 - homological-algebra
 - connecting-map
-stage: advanced
+stage: expert
 status: draft
 ---
 

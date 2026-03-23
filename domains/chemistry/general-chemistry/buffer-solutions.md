@@ -18,7 +18,7 @@ tags:
 - conjugate-pair
 - buffer-preparation
 - buffer-range
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Buffer Solutions

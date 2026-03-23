@@ -16,7 +16,7 @@ tags:
 - clusters
 - extended
 - timbre
-stage: advanced
+stage: expert
 status: draft
 ---
 

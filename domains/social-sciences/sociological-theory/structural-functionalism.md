@@ -14,7 +14,7 @@ tags:
 - macro-sociology
 - structure
 - function
-stage: advanced
+stage: expert
 status: draft
 ---
 

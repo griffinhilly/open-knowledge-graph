@@ -11,7 +11,7 @@ tags:
 - functionalism
 - dysfunction
 - system-problems
-stage: advanced
+stage: expert
 status: draft
 ---
 

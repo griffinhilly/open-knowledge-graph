@@ -16,7 +16,7 @@ tags:
 - effusion
 - tamponade
 - inflammation
-stage: advanced
+stage: expert
 status: draft
 ---
 

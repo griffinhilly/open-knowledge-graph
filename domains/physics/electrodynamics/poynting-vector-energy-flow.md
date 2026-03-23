@@ -15,7 +15,7 @@ tags:
 - poynting-vector
 - energy-flow
 - energy-density
-stage: advanced
+stage: expert
 status: draft
 ---
 

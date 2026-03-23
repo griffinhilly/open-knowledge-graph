@@ -19,7 +19,7 @@ tags:
 - Seyfert-galaxies
 - blazars
 - AGN-feedback
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

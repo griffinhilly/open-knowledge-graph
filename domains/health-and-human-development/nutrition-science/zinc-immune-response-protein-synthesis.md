@@ -13,7 +13,7 @@ tags:
 - metalloproteins
 - immune-function
 - enzyme-cofactor
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

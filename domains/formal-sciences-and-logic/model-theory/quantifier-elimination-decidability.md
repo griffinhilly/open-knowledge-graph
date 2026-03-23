@@ -16,7 +16,7 @@ tags:
 - QE
 - decidability
 - quantifier-free
-stage: advanced
+stage: expert
 status: draft
 ---
 

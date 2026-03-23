@@ -18,7 +18,7 @@ tags:
 - ir-frequencies
 - nmr-signals
 - mass-fragmentation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

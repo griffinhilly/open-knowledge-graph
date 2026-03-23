@@ -16,7 +16,7 @@ tags:
 - rhythm
 - hierarchy
 - grouping
-stage: advanced
+stage: expert
 status: draft
 ---
 

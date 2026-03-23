@@ -14,7 +14,7 @@ tags:
 - human-nature
 - power
 - morality
-stage: advanced
+stage: expert
 status: draft
 ---
 

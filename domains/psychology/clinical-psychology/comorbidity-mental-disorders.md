@@ -10,7 +10,7 @@ tags:
 - comorbidity
 - diagnostic-overlap
 - complex-cases
-stage: advanced
+stage: expert
 status: draft
 ---
 

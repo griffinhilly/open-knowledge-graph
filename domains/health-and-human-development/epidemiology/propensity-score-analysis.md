@@ -15,7 +15,7 @@ tags:
 - causal-inference
 - confounding
 - observational-studies
-stage: advanced
+stage: expert
 status: draft
 ---
 

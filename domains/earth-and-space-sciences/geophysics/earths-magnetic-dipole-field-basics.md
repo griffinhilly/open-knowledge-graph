@@ -15,7 +15,7 @@ tags:
 - dipole-field
 - magnetic-field
 - core
-stage: advanced
+stage: expert
 status: draft
 ---
 

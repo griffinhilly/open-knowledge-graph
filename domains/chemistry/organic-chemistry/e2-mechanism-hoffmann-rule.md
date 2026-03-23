@@ -18,7 +18,7 @@ tags:
 - bimolecular
 - hoffmann
 - anti-periplanar
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

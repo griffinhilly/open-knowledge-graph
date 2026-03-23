@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - labor-economics
 - information-asymmetry
-stage: advanced
+stage: expert
 status: draft
 ---
 

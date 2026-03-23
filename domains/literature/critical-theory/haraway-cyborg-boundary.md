@@ -16,7 +16,7 @@ tags:
 - posthuman
 - technology
 - hybridity
-stage: advanced
+stage: expert
 status: draft
 ---
 

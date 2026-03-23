@@ -12,7 +12,7 @@ tags:
 - plasticity
 - recovery
 - rehabilitation
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - leptin
 - ghrelin
 - hunger-hormones
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

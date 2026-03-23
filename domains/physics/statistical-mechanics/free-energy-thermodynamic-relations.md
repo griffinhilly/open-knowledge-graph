@@ -19,7 +19,7 @@ tags:
 - helmholtz
 - gibbs
 - thermodynamic-potentials
-stage: advanced
+stage: expert
 status: draft
 ---
 

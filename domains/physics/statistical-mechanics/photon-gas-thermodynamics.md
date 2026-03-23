@@ -12,7 +12,7 @@ tags:
 - photon-gas
 - radiation-thermodynamics
 - blackbody
-stage: advanced
+stage: expert
 status: draft
 ---
 

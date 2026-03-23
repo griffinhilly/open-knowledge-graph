@@ -21,7 +21,7 @@ tags:
 - ICE-table
 - weak-acid
 - small-x-approximation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Weak Acid Ionization

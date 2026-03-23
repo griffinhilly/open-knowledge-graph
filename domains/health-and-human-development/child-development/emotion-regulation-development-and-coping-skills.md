@@ -14,7 +14,7 @@ tags:
 - emotion-regulation
 - coping
 - social-emotional-development
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - amino-acids
 - bioavailability
 - quality
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

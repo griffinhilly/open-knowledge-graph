@@ -14,7 +14,7 @@ tags:
 - critique
 - reason
 - enlightenment
-stage: advanced
+stage: expert
 status: draft
 ---
 

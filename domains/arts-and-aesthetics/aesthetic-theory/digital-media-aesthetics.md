@@ -17,7 +17,7 @@ tags:
 - technology
 - computation
 - new-media
-stage: advanced
+stage: expert
 status: draft
 ---
 

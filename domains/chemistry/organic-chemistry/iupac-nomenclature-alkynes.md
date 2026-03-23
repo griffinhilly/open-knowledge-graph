@@ -16,7 +16,7 @@ tags:
 - alkynes
 - dienes
 - iupac
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

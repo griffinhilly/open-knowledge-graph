@@ -17,7 +17,7 @@ tags:
 - frequency
 - acoustics
 - analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

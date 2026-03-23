@@ -15,7 +15,7 @@ tags:
 - gene-interaction
 - modified-dihybrid-ratio
 - biochemical-pathway
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

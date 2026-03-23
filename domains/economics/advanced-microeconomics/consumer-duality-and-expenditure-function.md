@@ -21,7 +21,7 @@ tags:
 - consumer-theory
 - duality
 - optimization
-stage: advanced
+stage: expert
 status: draft
 ---
 

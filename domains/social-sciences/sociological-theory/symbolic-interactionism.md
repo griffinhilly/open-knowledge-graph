@@ -16,7 +16,7 @@ tags:
 - interaction
 - meaning
 - symbols
-stage: advanced
+stage: expert
 status: draft
 ---
 

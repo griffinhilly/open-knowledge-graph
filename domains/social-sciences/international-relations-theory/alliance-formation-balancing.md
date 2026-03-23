@@ -15,7 +15,7 @@ tags:
 - alliance
 - balancing
 - power
-stage: advanced
+stage: expert
 status: draft
 ---
 

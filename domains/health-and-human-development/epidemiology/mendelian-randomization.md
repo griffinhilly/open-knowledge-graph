@@ -12,7 +12,7 @@ tags:
 - causal-inference
 - genetic-instruments
 - gwas
-stage: advanced
+stage: expert
 status: draft
 ---
 

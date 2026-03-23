@@ -15,7 +15,7 @@ tags:
 - observer-design
 - luenberger-observer
 - measurement-equation
-stage: advanced
+stage: expert
 status: draft
 ---
 

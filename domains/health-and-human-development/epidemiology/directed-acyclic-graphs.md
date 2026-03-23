@@ -16,7 +16,7 @@ tags:
 - dag
 - graphical-models
 - confounder-selection
-stage: advanced
+stage: expert
 status: draft
 ---
 

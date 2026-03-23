@@ -19,7 +19,7 @@ tags:
 - Ekman divergence
 - equatorial upwelling
 - cold tongue
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

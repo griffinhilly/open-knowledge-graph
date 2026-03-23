@@ -20,7 +20,7 @@ tags:
 - boltzmann-distribution
 - classical-limit
 - velocity-distribution
-stage: advanced
+stage: expert
 status: draft
 ---
 

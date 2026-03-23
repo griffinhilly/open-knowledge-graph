@@ -17,7 +17,7 @@ tags:
 - classical
 - greek
 - roman
-stage: advanced
+stage: expert
 status: draft
 ---
 

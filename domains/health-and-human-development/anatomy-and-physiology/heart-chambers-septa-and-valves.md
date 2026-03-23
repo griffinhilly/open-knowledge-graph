@@ -15,7 +15,7 @@ tags:
 - ventricle
 - valve
 - septum
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - vaccination
 - immunization
 - public-health-strategy
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - neurotransmitters
 - dopamine
 - reward
-stage: advanced
+stage: expert
 status: draft
 ---
 

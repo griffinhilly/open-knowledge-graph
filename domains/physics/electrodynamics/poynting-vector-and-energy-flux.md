@@ -17,7 +17,7 @@ tags:
 - energy-flow
 - poynting
 - intensity
-stage: advanced
+stage: expert
 status: draft
 ---
 

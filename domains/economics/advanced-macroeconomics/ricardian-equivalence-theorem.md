@@ -15,7 +15,7 @@ tags:
 - debt
 - tax-timing
 - consumption-smoothing
-stage: advanced
+stage: expert
 status: draft
 ---
 

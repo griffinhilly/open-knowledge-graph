@@ -23,7 +23,7 @@ tags:
 - latent-variables
 - dimensionality
 - communalities
-stage: advanced
+stage: expert
 status: draft
 ---
 

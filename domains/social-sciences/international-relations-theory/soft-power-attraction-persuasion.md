@@ -16,7 +16,7 @@ tags:
 - attraction
 - nye
 - hegemony
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - magnetism
 - field-theory
 - forces
-stage: advanced
+stage: expert
 status: draft
 ---
 

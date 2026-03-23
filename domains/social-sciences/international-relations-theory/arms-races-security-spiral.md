@@ -16,7 +16,7 @@ tags:
 - arms-race
 - security-dilemma
 - spiral
-stage: advanced
+stage: expert
 status: draft
 ---
 

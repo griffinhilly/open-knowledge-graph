@@ -16,7 +16,7 @@ tags:
 - embodiment
 - material
 - sensory
-stage: advanced
+stage: expert
 status: draft
 ---
 

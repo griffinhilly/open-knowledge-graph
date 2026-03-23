@@ -16,7 +16,7 @@ tags:
 - chair conformation
 - axial
 - equatorial
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

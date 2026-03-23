@@ -17,7 +17,7 @@ tags:
 - cooperation
 - keohane
 - uncertainty
-stage: advanced
+stage: expert
 status: draft
 ---
 

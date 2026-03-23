@@ -22,7 +22,7 @@ tags:
 - codon
 - anticodon
 - peptide bond
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

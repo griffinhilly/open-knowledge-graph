@@ -15,7 +15,7 @@ tags:
 - movement
 - leverage
 - range-of-motion
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

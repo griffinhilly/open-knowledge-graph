@@ -25,7 +25,7 @@ tags:
 - serotonin
 - dopamine
 - hpa-axis
-stage: advanced
+stage: expert
 status: draft
 ---
 

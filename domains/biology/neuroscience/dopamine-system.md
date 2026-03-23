@@ -17,7 +17,7 @@ tags:
 - da
 - reward
 - motor-control
-stage: advanced
+stage: expert
 status: draft
 ---
 

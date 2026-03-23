@@ -13,7 +13,7 @@ tags:
 - hazard-ratio
 - survival-analysis
 - semi-parametric
-stage: advanced
+stage: expert
 status: draft
 ---
 

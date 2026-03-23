@@ -13,7 +13,7 @@ tags:
 - emotion
 - artist intent
 - authenticity
-stage: advanced
+stage: expert
 status: draft
 ---
 

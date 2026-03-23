@@ -20,7 +20,7 @@ tags:
 - standard-scores
 - score-interpretation
 - normative-samples
-stage: advanced
+stage: expert
 status: draft
 ---
 

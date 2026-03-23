@@ -17,7 +17,7 @@ tags:
 - atmospheric-patterns
 - paleocirculation
 - proxy-inference
-stage: advanced
+stage: expert
 status: draft
 ---
 

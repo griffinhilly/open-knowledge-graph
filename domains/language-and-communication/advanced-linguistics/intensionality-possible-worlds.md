@@ -13,7 +13,7 @@ tags:
 - intensionality
 - possible-worlds
 - modality
-stage: advanced
+stage: expert
 status: draft
 ---
 # Intensionality and Possible Worlds Semantics

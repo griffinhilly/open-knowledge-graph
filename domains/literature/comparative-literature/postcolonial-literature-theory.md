@@ -20,7 +20,7 @@ tags:
 - theory
 - global
 - resistance
-stage: advanced
+stage: expert
 status: draft
 ---
 

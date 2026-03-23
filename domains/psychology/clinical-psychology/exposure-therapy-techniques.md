@@ -10,7 +10,7 @@ tags:
 - exposure
 - cbt-technique
 - anxiety
-stage: advanced
+stage: expert
 status: draft
 ---
 

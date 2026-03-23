@@ -19,7 +19,7 @@ tags:
 - fitness
 - phenotype
 - evolution
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

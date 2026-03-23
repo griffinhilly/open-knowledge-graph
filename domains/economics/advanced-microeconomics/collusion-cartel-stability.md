@@ -12,7 +12,7 @@ tags:
 - industrial-organization
 - collusion
 - repeated-games
-stage: advanced
+stage: expert
 status: draft
 ---
 

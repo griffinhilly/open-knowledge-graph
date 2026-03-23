@@ -15,7 +15,7 @@ tags:
 - convergent
 - discriminant
 - measurement-model
-stage: advanced
+stage: expert
 status: draft
 ---
 

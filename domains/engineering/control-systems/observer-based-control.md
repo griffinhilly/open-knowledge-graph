@@ -14,7 +14,7 @@ tags:
 - observer-controller
 - state-estimation
 - closed-loop-poles
-stage: advanced
+stage: expert
 status: draft
 ---
 

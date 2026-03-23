@@ -17,7 +17,7 @@ tags:
 - canonical-forms
 - controllable
 - observable
-stage: advanced
+stage: expert
 status: draft
 ---
 

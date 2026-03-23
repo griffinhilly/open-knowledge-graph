@@ -10,7 +10,7 @@ tags:
 - personality-disorders
 - paranoia
 - schizoid
-stage: advanced
+stage: expert
 status: draft
 ---
 

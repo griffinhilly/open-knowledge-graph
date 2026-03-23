@@ -10,7 +10,7 @@ builds-toward:
 - lp-completeness
 tags:
 - inequalities
-stage: advanced
+stage: expert
 status: draft
 ---
 

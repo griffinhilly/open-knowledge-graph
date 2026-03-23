@@ -11,7 +11,7 @@ tags:
 - countable types
 - sparse models
 - non-principal types
-stage: advanced
+stage: expert
 status: draft
 ---
 

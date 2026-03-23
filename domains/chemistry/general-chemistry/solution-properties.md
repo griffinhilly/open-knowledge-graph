@@ -15,7 +15,7 @@ tags:
 - solvents
 - dissolution
 - like dissolves like
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

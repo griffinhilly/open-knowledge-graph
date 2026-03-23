@@ -14,7 +14,7 @@ tags:
 - energy-conservation
 - poynting-vector
 - power-flow
-stage: advanced
+stage: expert
 status: draft
 ---
 

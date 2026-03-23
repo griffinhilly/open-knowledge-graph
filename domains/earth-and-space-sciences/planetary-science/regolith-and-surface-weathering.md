@@ -15,7 +15,7 @@ tags:
 - regolith
 - weathering
 - surface-alteration
-stage: advanced
+stage: expert
 status: draft
 ---
 

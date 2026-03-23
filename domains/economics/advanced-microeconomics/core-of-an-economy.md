@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - general-equilibrium
 - coalition-formation
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - tidal-heating
 - subsurface-oceans
 - icy-bodies
-stage: advanced
+stage: expert
 status: draft
 ---
 

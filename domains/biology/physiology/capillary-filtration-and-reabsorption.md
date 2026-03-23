@@ -14,7 +14,7 @@ tags:
 - filtration
 - oncotic-pressure
 - edema
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

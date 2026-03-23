@@ -14,7 +14,7 @@ tags:
 - imaging
 - velocity-model
 - inverse-problems
-stage: advanced
+stage: expert
 status: draft
 ---
 

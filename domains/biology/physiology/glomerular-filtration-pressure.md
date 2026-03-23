@@ -17,7 +17,7 @@ tags:
 - Starling forces
 - autoregulation
 - kidney
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - cell-plate
 - division
 - animal-plant
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

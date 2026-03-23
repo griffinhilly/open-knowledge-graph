@@ -13,7 +13,7 @@ tags:
 - perfect-reconstruction
 - PR-FB
 - multirate
-stage: advanced
+stage: expert
 status: draft
 ---
 

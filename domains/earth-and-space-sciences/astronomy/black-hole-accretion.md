@@ -14,7 +14,7 @@ tags:
 - black-holes
 - accretion
 - compact-objects
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

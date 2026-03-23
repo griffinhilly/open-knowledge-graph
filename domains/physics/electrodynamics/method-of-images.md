@@ -14,7 +14,7 @@ tags:
 - boundary-value-problems
 - images
 - boundary-conditions
-stage: advanced
+stage: expert
 status: draft
 ---
 

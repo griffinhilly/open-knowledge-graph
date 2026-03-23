@@ -15,7 +15,7 @@ tags:
 - inquiry
 - ancient-greece
 - methodology
-stage: advanced
+stage: expert
 status: draft
 ---
 

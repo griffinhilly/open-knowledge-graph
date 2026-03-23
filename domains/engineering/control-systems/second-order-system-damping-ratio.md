@@ -16,7 +16,7 @@ tags:
 - natural-frequency
 - underdamped
 - overdamped
-stage: advanced
+stage: expert
 status: draft
 ---
 

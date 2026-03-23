@@ -17,7 +17,7 @@ tags:
 - carbocation
 - Zaitsev
 - competing reactions
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

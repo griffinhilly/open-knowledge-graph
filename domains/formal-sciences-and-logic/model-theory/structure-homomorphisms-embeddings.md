@@ -18,7 +18,7 @@ tags:
 - morphism
 - isomorphism
 - preservation
-stage: advanced
+stage: expert
 status: draft
 ---
 

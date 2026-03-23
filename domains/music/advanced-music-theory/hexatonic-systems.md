@@ -15,7 +15,7 @@ tags:
 - pitch-class
 - neo-riemannian
 - tonal-ambiguity
-stage: advanced
+stage: expert
 status: draft
 ---
 

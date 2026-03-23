@@ -17,7 +17,7 @@ tags:
 - metabolic rate
 - thermogenesis
 - feeding
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

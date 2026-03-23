@@ -16,7 +16,7 @@ tags:
 - violence
 - asymmetric-warfare
 - insurgency
-stage: advanced
+stage: expert
 status: draft
 ---
 

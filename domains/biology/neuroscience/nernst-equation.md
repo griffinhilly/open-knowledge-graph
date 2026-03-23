@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - electrophysiology
 - ion-channels
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -20,7 +20,7 @@ tags:
 - authoritarian
 - permissive
 - uninvolved
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - centrality
 - influence
 - graph-theory
-stage: advanced
+stage: expert
 status: draft
 ---
 

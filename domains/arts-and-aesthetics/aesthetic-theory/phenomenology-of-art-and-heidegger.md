@@ -14,7 +14,7 @@ tags:
 - Being
 - earth and world
 - disclosure
-stage: advanced
+stage: expert
 status: draft
 ---
 

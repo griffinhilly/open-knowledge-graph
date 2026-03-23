@@ -20,7 +20,7 @@ tags:
 - drift
 - inbreeding
 - conservation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

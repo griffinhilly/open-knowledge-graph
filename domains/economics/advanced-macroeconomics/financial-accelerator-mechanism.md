@@ -12,7 +12,7 @@ tags:
 - financial-accelerator
 - credit-constraints
 - financial-frictions
-stage: advanced
+stage: expert
 status: draft
 ---
 

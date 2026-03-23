@@ -15,7 +15,7 @@ tags:
 - neuroinflammation
 - microglia
 - cytokines
-stage: advanced
+stage: expert
 status: draft
 ---
 

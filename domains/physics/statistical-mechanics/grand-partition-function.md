@@ -16,7 +16,7 @@ tags:
 - grand-canonical
 - partition-function
 - grand-potential
-stage: advanced
+stage: expert
 status: draft
 ---
 

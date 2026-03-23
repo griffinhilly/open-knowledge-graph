@@ -14,7 +14,7 @@ tags:
 - dissolved-ions
 - seawater
 - chemical-composition
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Salinity and Seawater Composition

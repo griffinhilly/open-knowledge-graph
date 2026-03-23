@@ -18,7 +18,7 @@ tags:
 - carbocation
 - hydride-shift
 - alkyl-shift
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - DNA
 - chromatin
 - nuclear-envelope
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

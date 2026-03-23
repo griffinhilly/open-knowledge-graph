@@ -29,7 +29,7 @@ tags:
 - cokernel
 - exact sequence
 - Ab-enriched
-stage: advanced
+stage: expert
 status: draft
 ---
 # Abelian Categories

@@ -14,7 +14,7 @@ tags:
 - neuroimaging
 - methods
 - stimulation
-stage: advanced
+stage: expert
 status: draft
 ---
 

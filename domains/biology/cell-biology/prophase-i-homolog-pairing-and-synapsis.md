@@ -14,7 +14,7 @@ tags:
 - meiosis
 - synapsis
 - homologous-pairing
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

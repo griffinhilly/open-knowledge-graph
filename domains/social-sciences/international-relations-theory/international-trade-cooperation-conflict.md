@@ -16,7 +16,7 @@ tags:
 - cooperation
 - wto
 - protectionism
-stage: advanced
+stage: expert
 status: draft
 ---
 

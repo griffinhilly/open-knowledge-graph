@@ -12,7 +12,7 @@ tags:
 - government-spending-multiplier
 - demand-stimulus
 - fiscal-policy-impact
-stage: advanced
+stage: expert
 status: draft
 ---
 

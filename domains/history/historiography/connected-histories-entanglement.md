@@ -15,7 +15,7 @@ tags:
 - entanglement
 - networks
 - circulation
-stage: advanced
+stage: expert
 status: draft
 ---
 # Connected Histories and Entanglement

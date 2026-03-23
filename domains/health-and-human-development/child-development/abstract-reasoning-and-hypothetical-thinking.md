@@ -17,7 +17,7 @@ tags:
 - formal-operations
 - reasoning
 - abstract-thought
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

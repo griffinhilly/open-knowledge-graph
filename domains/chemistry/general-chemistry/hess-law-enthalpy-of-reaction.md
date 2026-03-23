@@ -17,7 +17,7 @@ tags:
 - enthalpy
 - thermochemistry
 - calculation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

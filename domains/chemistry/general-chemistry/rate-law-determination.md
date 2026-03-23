@@ -14,7 +14,7 @@ tags:
 - reaction-order
 - rate-constant
 - experimental-kinetics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Rate Law Determination

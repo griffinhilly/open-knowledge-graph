@@ -15,7 +15,7 @@ tags:
 - flexure
 - lithosphere
 - elastic
-stage: advanced
+stage: expert
 status: draft
 ---
 

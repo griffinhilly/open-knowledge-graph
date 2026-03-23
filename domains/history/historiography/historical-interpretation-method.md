@@ -17,7 +17,7 @@ tags:
 - interpretation
 - methodology
 - epistemology
-stage: advanced
+stage: expert
 status: draft
 ---
 # Historical Interpretation as Method

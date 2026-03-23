@@ -11,7 +11,7 @@ tags:
 - pluripotency
 - self-renewal
 - oct4-sox2-nanog
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

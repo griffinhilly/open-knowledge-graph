@@ -12,7 +12,7 @@ builds-toward:
 - fourier-series-lp-theory
 tags:
 - hilbert-spaces
-stage: advanced
+stage: expert
 status: draft
 ---
 

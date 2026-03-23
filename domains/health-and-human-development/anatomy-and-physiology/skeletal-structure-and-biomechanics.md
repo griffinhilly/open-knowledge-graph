@@ -16,7 +16,7 @@ tags:
 - biomechanics
 - stress-strain
 - microarchitecture
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

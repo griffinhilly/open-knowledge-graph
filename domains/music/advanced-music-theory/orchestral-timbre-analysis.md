@@ -13,7 +13,7 @@ tags:
 - orchestration
 - analysis
 - color
-stage: advanced
+stage: expert
 status: draft
 ---
 

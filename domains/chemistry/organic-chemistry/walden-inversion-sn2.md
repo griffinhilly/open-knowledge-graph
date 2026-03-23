@@ -17,7 +17,7 @@ tags:
 - SN2
 - steric effects
 - configuration
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Walden Inversion in SN2 Reactions

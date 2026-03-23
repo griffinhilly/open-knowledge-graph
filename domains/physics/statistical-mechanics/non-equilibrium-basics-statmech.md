@@ -12,7 +12,7 @@ tags:
 - non-equilibrium
 - driven-systems
 - dissipation
-stage: advanced
+stage: expert
 status: draft
 ---
 

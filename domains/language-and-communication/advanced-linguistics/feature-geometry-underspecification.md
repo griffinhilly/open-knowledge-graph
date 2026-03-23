@@ -12,7 +12,7 @@ tags:
 - feature-geometry
 - features
 - underspecification
-stage: advanced
+stage: expert
 status: draft
 ---
 

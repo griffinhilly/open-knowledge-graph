@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - industrial-organization
 - oligopoly
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - dynamics
 - growth
 - temperature-gradient
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

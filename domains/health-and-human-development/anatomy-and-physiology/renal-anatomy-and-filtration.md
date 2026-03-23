@@ -20,7 +20,7 @@ tags:
 - reabsorption
 - secretion
 - urine
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

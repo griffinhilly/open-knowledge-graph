@@ -18,7 +18,7 @@ tags:
 - rotation
 - dynamics
 - convection
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

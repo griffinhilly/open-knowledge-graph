@@ -13,7 +13,7 @@ tags:
 - stratification
 - temperature
 - thermocline
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

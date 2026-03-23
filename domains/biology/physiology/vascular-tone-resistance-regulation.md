@@ -18,7 +18,7 @@ tags:
 - smooth muscle
 - vasoconstriction
 - vasodilation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

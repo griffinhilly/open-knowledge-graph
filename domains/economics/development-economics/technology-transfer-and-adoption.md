@@ -14,7 +14,7 @@ tags:
 - technology
 - adoption
 - development
-stage: advanced
+stage: expert
 status: draft
 ---
 

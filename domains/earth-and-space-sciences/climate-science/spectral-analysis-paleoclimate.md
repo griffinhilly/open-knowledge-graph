@@ -16,7 +16,7 @@ tags:
 - wavelet-analysis
 - orbital-cycles
 - periodicities
-stage: advanced
+stage: expert
 status: draft
 ---
 

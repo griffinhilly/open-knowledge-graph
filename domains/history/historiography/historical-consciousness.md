@@ -15,7 +15,7 @@ tags:
 - consciousness
 - culture
 - society
-stage: advanced
+stage: expert
 status: draft
 ---
 

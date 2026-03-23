@@ -16,7 +16,7 @@ tags:
 - thermoregulation
 - metabolic-rate
 - homeostasis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

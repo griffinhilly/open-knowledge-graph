@@ -15,7 +15,7 @@ tags:
 - anomalies
 - crustal-structure
 - interpretation
-stage: advanced
+stage: expert
 status: draft
 ---
 

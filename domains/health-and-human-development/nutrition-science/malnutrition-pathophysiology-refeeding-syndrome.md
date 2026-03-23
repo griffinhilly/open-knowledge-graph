@@ -15,7 +15,7 @@ tags:
 - refeeding-syndrome
 - pathophysiology
 - electrolytes
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

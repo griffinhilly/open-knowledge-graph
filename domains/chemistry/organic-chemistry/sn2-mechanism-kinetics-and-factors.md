@@ -20,7 +20,7 @@ tags:
 - kinetics
 - inversion
 - primary
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

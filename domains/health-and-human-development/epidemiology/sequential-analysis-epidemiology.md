@@ -14,7 +14,7 @@ tags:
 - trial-design
 - hypothesis-testing
 - interim-analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

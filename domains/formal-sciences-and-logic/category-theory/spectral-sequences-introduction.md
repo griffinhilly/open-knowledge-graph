@@ -17,7 +17,7 @@ tags:
 - filtered-complexes
 - pages
 - convergence
-stage: advanced
+stage: expert
 status: draft
 ---
 

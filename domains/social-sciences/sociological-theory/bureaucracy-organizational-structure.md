@@ -14,7 +14,7 @@ tags:
 - bureaucracy
 - organization
 - rationalization
-stage: advanced
+stage: expert
 status: draft
 ---
 

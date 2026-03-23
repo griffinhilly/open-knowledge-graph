@@ -16,7 +16,7 @@ tags:
 - portal-hypertension
 - varices
 - bleeding
-stage: advanced
+stage: expert
 status: draft
 ---
 

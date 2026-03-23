@@ -13,7 +13,7 @@ tags:
 - manifest-functions
 - latent-functions
 - unintended-consequences
-stage: advanced
+stage: expert
 status: draft
 ---
 

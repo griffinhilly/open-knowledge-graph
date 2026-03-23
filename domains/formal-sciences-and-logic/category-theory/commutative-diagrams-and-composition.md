@@ -13,7 +13,7 @@ tags:
 - diagrams
 - composition
 - fundamentals
-stage: advanced
+stage: expert
 status: draft
 ---
 

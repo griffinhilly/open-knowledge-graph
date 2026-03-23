@@ -16,7 +16,7 @@ tags:
 - digital
 - online
 - virtual-worlds
-stage: advanced
+stage: expert
 status: draft
 ---
 

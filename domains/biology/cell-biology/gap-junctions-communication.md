@@ -11,7 +11,7 @@ tags:
 - connexins
 - communication
 - electrical-coupling
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

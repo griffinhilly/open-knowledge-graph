@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - spectral-theorem
 - operators
-stage: advanced
+stage: expert
 status: draft
 ---
 

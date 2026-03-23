@@ -15,7 +15,7 @@ tags:
 - migration
 - imaging
 - depth-conversion
-stage: advanced
+stage: expert
 status: draft
 ---
 

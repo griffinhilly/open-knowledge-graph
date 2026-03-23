@@ -14,7 +14,7 @@ tags:
 - intensity
 - sensation
 - force
-stage: advanced
+stage: expert
 status: draft
 ---
 

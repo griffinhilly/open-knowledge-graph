@@ -15,7 +15,7 @@ tags:
 - weber
 - rationalization
 - modernity
-stage: advanced
+stage: expert
 status: draft
 ---
 

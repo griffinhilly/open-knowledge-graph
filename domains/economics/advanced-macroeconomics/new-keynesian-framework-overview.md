@@ -15,7 +15,7 @@ tags:
 - new-keynesian
 - price-stickiness
 - monetary-policy-effectiveness
-stage: advanced
+stage: expert
 status: draft
 ---
 

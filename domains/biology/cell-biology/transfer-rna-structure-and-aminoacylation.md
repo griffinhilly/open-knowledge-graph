@@ -14,7 +14,7 @@ tags:
 - tRNA
 - aminoacylation
 - translation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

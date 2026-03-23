@@ -18,7 +18,7 @@ tags:
 - segmentation
 - accessory-organs
 - enteric-nervous-system
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

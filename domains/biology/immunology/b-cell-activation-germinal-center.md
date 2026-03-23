@@ -16,7 +16,7 @@ tags:
 - b-cell-activation
 - germinal-center
 - follicular-helper
-stage: advanced
+stage: expert
 status: draft
 ---
 

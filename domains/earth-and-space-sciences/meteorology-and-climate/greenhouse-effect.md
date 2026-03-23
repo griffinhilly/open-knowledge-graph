@@ -26,7 +26,7 @@ tags:
 - CO2
 - water-vapor
 - infrared
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

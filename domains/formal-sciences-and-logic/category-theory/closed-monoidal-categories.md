@@ -18,7 +18,7 @@ tags:
 - currying
 - exponential
 - symmetric monoidal closed
-stage: advanced
+stage: expert
 status: draft
 ---
 # Closed Monoidal Categories

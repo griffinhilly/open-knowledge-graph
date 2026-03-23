@@ -12,7 +12,7 @@ tags:
 - gas stoichiometry
 - volume ratios
 - molar volume
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

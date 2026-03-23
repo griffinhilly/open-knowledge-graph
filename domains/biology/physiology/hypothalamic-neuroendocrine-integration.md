@@ -18,7 +18,7 @@ tags:
 - pituitary
 - hormone
 - regulation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

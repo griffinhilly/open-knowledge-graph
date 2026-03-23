@@ -15,7 +15,7 @@ tags:
 - diagnosis
 - assessment-process
 - rapport
-stage: advanced
+stage: expert
 status: draft
 ---
 

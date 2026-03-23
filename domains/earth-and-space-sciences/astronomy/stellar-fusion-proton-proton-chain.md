@@ -27,7 +27,7 @@ tags:
 - nuclear
 - energy
 - main-sequence
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

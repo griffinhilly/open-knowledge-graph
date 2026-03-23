@@ -18,7 +18,7 @@ tags:
 - sequences
 - homological-algebra
 - kernels-cokernels
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -11,7 +11,7 @@ tags:
 - eating-disorder
 - binge-purge
 - compensation
-stage: advanced
+stage: expert
 status: draft
 ---
 

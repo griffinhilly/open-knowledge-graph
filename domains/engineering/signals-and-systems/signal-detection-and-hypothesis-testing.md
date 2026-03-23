@@ -14,7 +14,7 @@ tags:
 - hypothesis-testing
 - statistics
 - SNR
-stage: advanced
+stage: expert
 status: draft
 ---
 

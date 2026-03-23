@@ -17,7 +17,7 @@ tags:
 - non-ideal-gas
 - intermolecular-attraction
 - molecular-volume
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 # Real Gases and the van der Waals Equation

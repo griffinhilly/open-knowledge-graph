@@ -15,7 +15,7 @@ tags:
 - heart
 - intercalated-disks
 - syncytium
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

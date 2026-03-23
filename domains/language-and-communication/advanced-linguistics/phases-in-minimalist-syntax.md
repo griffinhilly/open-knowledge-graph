@@ -14,7 +14,7 @@ tags:
 - phases
 - minimalism
 - locality
-stage: advanced
+stage: expert
 status: draft
 ---
 

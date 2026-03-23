@@ -18,7 +18,7 @@ tags:
 - social-change
 - art
 - aesthetics
-stage: advanced
+stage: expert
 status: draft
 ---
 # Art as Political Intervention

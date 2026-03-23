@@ -13,7 +13,7 @@ tags:
 - programmed-cell-death
 - caspases
 - bcl2-family
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

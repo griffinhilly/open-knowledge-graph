@@ -16,7 +16,7 @@ tags:
 - magnetic-reversals
 - dynamo
 - cooling
-stage: advanced
+stage: expert
 status: draft
 ---
 

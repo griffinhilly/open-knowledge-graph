@@ -14,7 +14,7 @@ tags:
 - empathy
 - prosocial-behavior
 - moral-development
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

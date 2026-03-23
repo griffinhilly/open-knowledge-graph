@@ -21,7 +21,7 @@ tags:
 - stereoisomers
 - chirality
 - 3D structure
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Introduction to Stereochemistry

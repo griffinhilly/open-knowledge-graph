@@ -16,7 +16,7 @@ tags:
 - acid-base
 - pH-regulation
 - compensatory-responses
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

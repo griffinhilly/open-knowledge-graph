@@ -10,7 +10,7 @@ tags:
 - fiscal-sustainability
 - government-debt
 - long-run-solvency
-stage: advanced
+stage: expert
 status: draft
 ---
 

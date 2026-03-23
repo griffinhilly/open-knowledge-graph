@@ -15,7 +15,7 @@ tags:
 - case-control
 - odds-ratio
 - measures-of-association
-stage: advanced
+stage: expert
 status: draft
 ---
 

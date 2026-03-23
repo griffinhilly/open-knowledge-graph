@@ -15,7 +15,7 @@ tags:
 - motility
 - peristalsis
 - esophagus
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

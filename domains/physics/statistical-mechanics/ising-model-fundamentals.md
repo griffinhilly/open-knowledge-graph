@@ -13,7 +13,7 @@ tags:
 - model-system
 - phase-transitions
 - spin-systems
-stage: advanced
+stage: expert
 status: draft
 ---
 

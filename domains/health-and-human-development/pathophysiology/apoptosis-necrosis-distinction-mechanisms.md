@@ -17,7 +17,7 @@ tags:
 - apoptosis
 - necrosis
 - programmed-cell-death
-stage: advanced
+stage: expert
 status: draft
 ---
 

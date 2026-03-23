@@ -16,7 +16,7 @@ tags:
 - arms-race
 - mutualism
 - parasite-host
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

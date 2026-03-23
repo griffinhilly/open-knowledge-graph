@@ -15,7 +15,7 @@ tags:
 - three-point-cross
 - interference
 - linkage
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

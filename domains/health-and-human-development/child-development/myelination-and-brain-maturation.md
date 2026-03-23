@@ -27,7 +27,7 @@ tags:
 - white-matter
 - brain-maturation
 - neural-transmission
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

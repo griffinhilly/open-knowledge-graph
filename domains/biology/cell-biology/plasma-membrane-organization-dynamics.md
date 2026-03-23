@@ -14,7 +14,7 @@ tags:
 - lipid-bilayer
 - membrane-proteins
 - lipid-rafts
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

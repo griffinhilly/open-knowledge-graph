@@ -14,7 +14,7 @@ tags:
 - T3
 - T4
 - thermogenesis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

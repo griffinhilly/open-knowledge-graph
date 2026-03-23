@@ -20,7 +20,7 @@ tags:
 - producer-theory
 - duality
 - cost
-stage: advanced
+stage: expert
 status: draft
 ---
 

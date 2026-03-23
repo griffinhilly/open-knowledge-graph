@@ -13,7 +13,7 @@ tags:
 - credit
 - financial inclusion
 - entrepreneurship
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - migration
 - allele-frequency
 - population-structure
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

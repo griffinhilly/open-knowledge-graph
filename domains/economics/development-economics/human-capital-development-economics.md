@@ -17,7 +17,7 @@ tags:
 - education
 - skills
 - productivity
-stage: advanced
+stage: expert
 status: draft
 ---
 

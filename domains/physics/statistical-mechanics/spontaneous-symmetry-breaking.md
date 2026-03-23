@@ -14,7 +14,7 @@ tags:
 - symmetry-breaking
 - ground-state
 - degeneracy
-stage: advanced
+stage: expert
 status: draft
 ---
 

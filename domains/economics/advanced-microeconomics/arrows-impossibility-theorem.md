@@ -12,7 +12,7 @@ tags:
 - social-choice
 - voting
 - impossibility
-stage: advanced
+stage: expert
 status: draft
 ---
 

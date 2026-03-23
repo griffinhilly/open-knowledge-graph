@@ -27,7 +27,7 @@ tags:
 - pancreas
 - target-cells
 - feedback
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

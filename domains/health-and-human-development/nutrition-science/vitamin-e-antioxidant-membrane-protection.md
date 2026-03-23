@@ -15,7 +15,7 @@ tags:
 - tocopherol
 - lipophilic-antioxidant
 - membrane-stability
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

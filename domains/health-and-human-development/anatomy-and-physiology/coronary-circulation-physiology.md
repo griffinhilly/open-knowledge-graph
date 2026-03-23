@@ -15,7 +15,7 @@ tags:
 - autoregulation
 - metabolic-demand
 - perfusion-pressure
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

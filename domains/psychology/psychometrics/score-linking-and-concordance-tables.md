@@ -14,7 +14,7 @@ tags:
 - scale-translation
 - equating
 - score-conversion
-stage: advanced
+stage: expert
 status: draft
 ---
 

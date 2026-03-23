@@ -13,7 +13,7 @@ tags:
 - job-search
 - labor-market-frictions
 - wage-setting
-stage: advanced
+stage: expert
 status: draft
 ---
 

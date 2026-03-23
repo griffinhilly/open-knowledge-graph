@@ -14,7 +14,7 @@ tags:
 - cosmology
 - redshift
 - expansion
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

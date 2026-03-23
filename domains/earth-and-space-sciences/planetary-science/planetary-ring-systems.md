@@ -10,7 +10,7 @@ tags:
 - rings
 - particles
 - dynamics
-stage: advanced
+stage: expert
 status: draft
 ---
 

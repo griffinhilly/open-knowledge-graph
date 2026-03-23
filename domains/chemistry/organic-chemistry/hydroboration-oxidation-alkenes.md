@@ -15,7 +15,7 @@ tags:
 - hydroboration
 - alcohol-synthesis
 - non-markovnikov
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

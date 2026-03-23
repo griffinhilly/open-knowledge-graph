@@ -18,7 +18,7 @@ tags:
 - representable
 - universal-element
 - natural-isomorphism
-stage: advanced
+stage: expert
 status: draft
 ---
 

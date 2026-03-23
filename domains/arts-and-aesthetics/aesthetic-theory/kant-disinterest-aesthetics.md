@@ -14,7 +14,7 @@ tags:
 - disinterest
 - autonomy
 - aesthetics
-stage: advanced
+stage: expert
 status: draft
 ---
 

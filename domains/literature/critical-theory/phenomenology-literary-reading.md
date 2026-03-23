@@ -15,7 +15,7 @@ tags:
 - embodied-reading
 - experience
 - consciousness
-stage: advanced
+stage: expert
 status: draft
 ---
 

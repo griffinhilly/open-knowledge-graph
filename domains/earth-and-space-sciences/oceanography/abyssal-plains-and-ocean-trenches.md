@@ -13,7 +13,7 @@ tags:
 - ocean-trenches
 - convergent-margins
 - deep-ocean
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - structural-inequality
 - justice
 - sdoh
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - atomic structure
 - subatomic particles
 - nuclear structure
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

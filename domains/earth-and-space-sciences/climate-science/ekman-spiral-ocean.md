@@ -17,7 +17,7 @@ tags:
 - friction
 - wind-driven
 - spiral
-stage: advanced
+stage: expert
 status: draft
 ---
 

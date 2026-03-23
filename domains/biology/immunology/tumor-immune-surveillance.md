@@ -19,7 +19,7 @@ tags:
 - tumor-antigens
 - CTL-escape
 - malignant-transformation
-stage: advanced
+stage: expert
 status: draft
 ---
 

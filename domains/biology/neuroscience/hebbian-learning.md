@@ -17,7 +17,7 @@ tags:
 - hebbian
 - correlation
 - learning-rule
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -21,7 +21,7 @@ tags:
 - rhythm
 - modulation
 - contemporary-technique
-stage: advanced
+stage: expert
 status: draft
 ---
 

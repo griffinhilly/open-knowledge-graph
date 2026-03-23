@@ -22,7 +22,7 @@ tags:
 - filtration
 - reabsorption
 - urine
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

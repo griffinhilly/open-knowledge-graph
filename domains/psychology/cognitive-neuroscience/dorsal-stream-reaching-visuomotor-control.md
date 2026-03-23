@@ -18,7 +18,7 @@ tags:
 - visuomotor
 - reaching
 - grasping
-stage: advanced
+stage: expert
 status: draft
 ---
 

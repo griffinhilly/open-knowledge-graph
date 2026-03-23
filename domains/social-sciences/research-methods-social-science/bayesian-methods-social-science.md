@@ -23,7 +23,7 @@ tags:
 - bayesian
 - inference
 - statistical-modeling
-stage: advanced
+stage: expert
 status: draft
 ---
 

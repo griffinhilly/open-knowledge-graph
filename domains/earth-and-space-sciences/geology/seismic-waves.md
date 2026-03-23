@@ -27,7 +27,7 @@ tags:
 - surface-waves
 - travel-time
 - refraction
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - culture-industry
 - standardization
 - critique
-stage: advanced
+stage: expert
 status: draft
 ---
 

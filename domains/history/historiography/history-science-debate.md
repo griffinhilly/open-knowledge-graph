@@ -15,7 +15,7 @@ tags:
 - epistemology
 - methodology
 - philosophy
-stage: advanced
+stage: expert
 status: draft
 ---
 

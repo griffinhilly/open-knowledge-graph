@@ -15,7 +15,7 @@ tags:
 - tropical
 - upper-level
 - dynamics
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

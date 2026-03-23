@@ -16,7 +16,7 @@ tags:
 - compartmentalization
 - organelles
 - cell-physiology
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

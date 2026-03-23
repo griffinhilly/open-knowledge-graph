@@ -15,7 +15,7 @@ tags:
 - hypercapnia
 - hypoventilation
 - air-trapping
-stage: advanced
+stage: expert
 status: draft
 ---
 

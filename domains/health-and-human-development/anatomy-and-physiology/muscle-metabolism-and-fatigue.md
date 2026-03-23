@@ -27,7 +27,7 @@ tags:
 - fatigue
 - oxygen-debt
 - fiber-types
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

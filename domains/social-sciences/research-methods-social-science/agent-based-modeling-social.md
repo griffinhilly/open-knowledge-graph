@@ -22,7 +22,7 @@ tags:
 - simulation
 - agents
 - modeling
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - hippocampus
 - place-cells
 - grid-cells
-stage: advanced
+stage: expert
 status: draft
 ---
 

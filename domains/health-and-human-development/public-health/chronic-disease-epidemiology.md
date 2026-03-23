@@ -23,7 +23,7 @@ tags:
 - cardiovascular-disease
 - cancer-epidemiology
 - risk-factor-surveillance
-stage: advanced
+stage: expert
 status: validated
 ---
 # Chronic Disease Epidemiology and Risk Factor Surveillance

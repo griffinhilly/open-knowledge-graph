@@ -25,7 +25,7 @@ tags:
 - interpretation
 - domain
 - arity
-stage: advanced
+stage: expert
 status: draft
 ---
 

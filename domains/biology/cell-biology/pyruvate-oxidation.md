@@ -20,7 +20,7 @@ tags:
 - CoA
 - CO2
 - NADH
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

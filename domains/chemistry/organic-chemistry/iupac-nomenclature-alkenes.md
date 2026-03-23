@@ -16,7 +16,7 @@ tags:
 - alkenes
 - iupac
 - e-z-isomerism
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -19,7 +19,7 @@ tags:
 - IgE
 - histamine
 - allergic-inflammation
-stage: advanced
+stage: expert
 status: draft
 ---
 

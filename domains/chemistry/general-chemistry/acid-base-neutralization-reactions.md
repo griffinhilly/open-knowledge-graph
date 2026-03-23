@@ -15,7 +15,7 @@ tags:
 - neutralization
 - acid-base reaction
 - net ionic equation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

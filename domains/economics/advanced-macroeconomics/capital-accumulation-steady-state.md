@@ -14,7 +14,7 @@ tags:
 - capital
 - investment
 - golden-rule
-stage: advanced
+stage: expert
 status: draft
 ---
 

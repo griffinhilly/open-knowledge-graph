@@ -12,7 +12,7 @@ tags:
 - stochastic
 - markov
 - discrete
-stage: advanced
+stage: expert
 status: draft
 ---
 

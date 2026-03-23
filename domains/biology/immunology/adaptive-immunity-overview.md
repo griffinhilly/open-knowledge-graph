@@ -16,7 +16,7 @@ tags:
 - adaptive
 - diversity
 - clonal-selection
-stage: advanced
+stage: expert
 status: draft
 ---
 

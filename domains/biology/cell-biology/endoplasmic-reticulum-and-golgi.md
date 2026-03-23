@@ -17,7 +17,7 @@ tags:
 - Golgi
 - secretory-pathway
 - vesicles
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

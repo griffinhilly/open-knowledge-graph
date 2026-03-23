@@ -23,7 +23,7 @@ tags:
 - emotion-regulation
 - autonomy
 - tantrums
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Social-Emotional Development in Toddlerhood

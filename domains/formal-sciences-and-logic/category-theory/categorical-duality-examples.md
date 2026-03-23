@@ -15,7 +15,7 @@ tags:
 - duality
 - opposite-categories
 - examples
-stage: advanced
+stage: expert
 status: draft
 ---
 

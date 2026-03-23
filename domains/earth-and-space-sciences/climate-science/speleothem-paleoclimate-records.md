@@ -16,7 +16,7 @@ tags:
 - cave-deposits
 - high-resolution-paleoclimate
 - isotope-paleoclimatology
-stage: advanced
+stage: expert
 status: draft
 ---
 

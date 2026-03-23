@@ -15,7 +15,7 @@ tags:
 - functors
 - equivalence
 - natural-transformations
-stage: advanced
+stage: expert
 status: draft
 ---
 

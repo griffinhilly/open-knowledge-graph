@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - hilbert-spaces
 - representation
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - signaling
 - credibility
 - commitment
-stage: advanced
+stage: expert
 status: draft
 ---
 

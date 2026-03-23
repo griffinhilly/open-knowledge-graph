@@ -12,7 +12,7 @@ tags:
 - magnetic-fields
 - core-dynamics
 - evolution
-stage: advanced
+stage: expert
 status: draft
 ---
 

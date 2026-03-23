@@ -16,7 +16,7 @@ tags:
 - bond-energy
 - octet-rule
 - nonmetals
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

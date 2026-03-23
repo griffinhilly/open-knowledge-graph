@@ -22,7 +22,7 @@ tags:
 - schist
 - gneiss
 - marble
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

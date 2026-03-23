@@ -14,7 +14,7 @@ tags:
 - thermodynamic-potential
 - free-energy
 - phase-transitions
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -11,7 +11,7 @@ tags:
 - language
 - power
 - ideology
-stage: advanced
+stage: expert
 status: draft
 ---
 

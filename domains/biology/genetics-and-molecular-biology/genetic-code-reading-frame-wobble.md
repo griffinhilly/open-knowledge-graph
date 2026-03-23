@@ -16,7 +16,7 @@ tags:
 - wobble-hypothesis
 - reading-frame
 - frameshift
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - regulation
 - homeostasis
 - set point
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

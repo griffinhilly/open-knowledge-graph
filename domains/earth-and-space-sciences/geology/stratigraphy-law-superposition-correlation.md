@@ -15,7 +15,7 @@ tags:
 - stratigraphy
 - sedimentology
 - correlation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

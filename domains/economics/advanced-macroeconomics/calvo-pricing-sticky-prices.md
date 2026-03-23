@@ -14,7 +14,7 @@ tags:
 - pricing
 - sticky-prices
 - nominal-rigidities
-stage: advanced
+stage: expert
 status: draft
 ---
 

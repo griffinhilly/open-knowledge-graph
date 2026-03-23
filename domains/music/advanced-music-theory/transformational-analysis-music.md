@@ -24,7 +24,7 @@ tags:
 - transformation
 - pitch-class
 - analysis
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - voice-leading
 - chromaticism
 - harmony
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - holocene-optimum
 - neoglacial
 - climate-oscillations
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - gyres
 - subtropical
 - western-boundary-currents
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

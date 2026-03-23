@@ -23,7 +23,7 @@ tags:
 - cirrus
 - cumulonimbus
 - lifting-mechanisms
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

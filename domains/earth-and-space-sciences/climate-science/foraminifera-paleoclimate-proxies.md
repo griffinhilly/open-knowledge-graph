@@ -16,7 +16,7 @@ tags:
 - paleontology
 - marine-paleoclimate
 - benthic-foraminiferal-records
-stage: advanced
+stage: expert
 status: draft
 ---
 

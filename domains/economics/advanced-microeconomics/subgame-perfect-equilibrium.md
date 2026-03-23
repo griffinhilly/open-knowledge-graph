@@ -14,7 +14,7 @@ tags:
 - game-theory
 - sequential-games
 - equilibrium-refinement
-stage: advanced
+stage: expert
 status: draft
 ---
 

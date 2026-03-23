@@ -16,7 +16,7 @@ tags:
 - exoplanets
 - characterization
 - spectra
-stage: advanced
+stage: expert
 status: draft
 ---
 

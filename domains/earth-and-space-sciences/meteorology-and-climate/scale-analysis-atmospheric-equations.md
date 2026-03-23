@@ -13,7 +13,7 @@ tags:
 - scaling
 - approximations
 - dimensional-analysis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

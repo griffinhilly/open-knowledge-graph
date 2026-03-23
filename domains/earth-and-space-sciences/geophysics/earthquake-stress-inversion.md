@@ -13,7 +13,7 @@ tags:
 - stress
 - inversion
 - focal-mechanism
-stage: advanced
+stage: expert
 status: draft
 ---
 

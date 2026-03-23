@@ -16,7 +16,7 @@ tags:
 - chemosynthesis
 - benthic zone
 - bioluminescence
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

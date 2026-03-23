@@ -23,7 +23,7 @@ tags:
 - inhibition
 - working-memory
 - neurodevelopmental
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

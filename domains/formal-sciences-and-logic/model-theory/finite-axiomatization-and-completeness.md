@@ -15,7 +15,7 @@ tags:
 - axiomatization
 - completeness
 - finiteness
-stage: advanced
+stage: expert
 status: draft
 ---
 

@@ -11,7 +11,7 @@ tags:
 - counterpoint
 - imitation
 - advanced-forms
-stage: advanced
+stage: expert
 status: draft
 ---
 

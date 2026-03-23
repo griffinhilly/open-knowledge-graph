@@ -17,7 +17,7 @@ tags:
 - homological-algebra
 - dimension
 - resolutions
-stage: advanced
+stage: expert
 status: draft
 ---
 

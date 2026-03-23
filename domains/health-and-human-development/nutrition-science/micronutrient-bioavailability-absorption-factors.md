@@ -17,7 +17,7 @@ tags:
 - minerals
 - bioavailability
 - absorption
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

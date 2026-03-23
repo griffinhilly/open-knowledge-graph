@@ -19,7 +19,7 @@ tags:
 - innovation
 - human-capital
 - increasing-returns
-stage: advanced
+stage: expert
 status: draft
 ---
 

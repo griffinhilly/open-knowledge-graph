@@ -16,7 +16,7 @@ tags:
 - spatial
 - habitat
 - connectivity
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - broad-sense
 - narrow-sense
 - additive-genetic-variance
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

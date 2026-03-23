@@ -16,7 +16,7 @@ tags:
 - aesthetics
 - gender
 - desire
-stage: advanced
+stage: expert
 status: draft
 ---
 # Queer Aesthetics

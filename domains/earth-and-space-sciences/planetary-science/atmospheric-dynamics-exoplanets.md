@@ -12,7 +12,7 @@ tags:
 - exoplanet-atmospheres
 - dynamics
 - circulation
-stage: advanced
+stage: expert
 status: draft
 ---
 

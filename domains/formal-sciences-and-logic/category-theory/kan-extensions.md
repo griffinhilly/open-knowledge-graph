@@ -27,7 +27,7 @@ tags:
 - pointwise Kan extension
 - colimit formula
 - universal construction
-stage: advanced
+stage: expert
 status: draft
 ---
 # Kan Extensions

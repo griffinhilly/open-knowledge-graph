@@ -21,7 +21,7 @@ tags:
 - sensory-receptors
 - transduction
 - somatosensory
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

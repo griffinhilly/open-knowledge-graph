@@ -16,7 +16,7 @@ tags:
 - universal-property
 - left
 - right
-stage: advanced
+stage: expert
 status: draft
 ---
 

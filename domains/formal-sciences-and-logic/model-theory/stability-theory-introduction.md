@@ -15,7 +15,7 @@ tags:
 - instability
 - order property
 - Shelah stability
-stage: advanced
+stage: expert
 status: draft
 ---
 

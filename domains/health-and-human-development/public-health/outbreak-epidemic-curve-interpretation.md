@@ -15,7 +15,7 @@ tags:
 - outbreak
 - epidemiology
 - case-investigation
-stage: advanced
+stage: expert
 status: draft
 ---
 

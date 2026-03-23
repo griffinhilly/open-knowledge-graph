@@ -11,7 +11,7 @@ tags:
 - weak-ties
 - social-capital
 - network
-stage: advanced
+stage: expert
 status: draft
 ---
 

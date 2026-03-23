@@ -14,7 +14,7 @@ tags:
 - Galois
 - type
 - symmetry
-stage: advanced
+stage: expert
 status: draft
 ---
 

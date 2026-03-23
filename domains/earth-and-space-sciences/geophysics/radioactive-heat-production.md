@@ -14,7 +14,7 @@ tags:
 - radioactive
 - heat-production
 - isotopes
-stage: advanced
+stage: expert
 status: draft
 ---
 

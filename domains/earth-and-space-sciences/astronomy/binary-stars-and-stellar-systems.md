@@ -35,7 +35,7 @@ tags:
 - mass-transfer
 - stellar-mass
 - novae
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

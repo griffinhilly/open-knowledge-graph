@@ -19,7 +19,7 @@ tags:
 - cooperation
 - peer-interaction
 - peer-competence
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

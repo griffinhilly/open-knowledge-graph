@@ -17,7 +17,7 @@ tags:
 - plasticity
 - critical-periods
 - learning
-stage: advanced
+stage: expert
 status: draft
 ---
 

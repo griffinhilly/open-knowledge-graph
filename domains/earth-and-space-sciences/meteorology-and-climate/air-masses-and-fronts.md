@@ -20,7 +20,7 @@ tags:
 - warm-front
 - occluded-front
 - stationary-front
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

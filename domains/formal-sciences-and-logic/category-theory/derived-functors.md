@@ -26,7 +26,7 @@ tags:
 - injective resolution
 - left derived
 - right derived
-stage: advanced
+stage: expert
 status: draft
 ---
 # Derived Functors

@@ -15,7 +15,7 @@ tags:
 - field
 - space
 - competition
-stage: advanced
+stage: expert
 status: draft
 ---
 

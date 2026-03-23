@@ -16,7 +16,7 @@ tags:
 - welfare-analysis
 - consumer-theory
 - policy
-stage: advanced
+stage: expert
 status: draft
 ---
 

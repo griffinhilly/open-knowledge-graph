@@ -12,7 +12,7 @@ tags:
 - debye-model
 - solids
 - characteristic-temperature
-stage: advanced
+stage: expert
 status: draft
 ---
 

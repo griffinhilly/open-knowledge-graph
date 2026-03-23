@@ -24,7 +24,7 @@ tags:
 - R0
 - immunization-programs
 - infectious-disease
-stage: advanced
+stage: expert
 status: validated
 ---
 

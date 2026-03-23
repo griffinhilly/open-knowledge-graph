@@ -17,7 +17,7 @@ tags:
 - promoters
 - tfiid
 - gene-regulation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

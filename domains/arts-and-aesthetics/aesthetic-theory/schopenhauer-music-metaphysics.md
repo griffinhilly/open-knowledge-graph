@@ -13,7 +13,7 @@ tags:
 - music
 - will
 - metaphysics
-stage: advanced
+stage: expert
 status: draft
 ---
 

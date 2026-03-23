@@ -14,7 +14,7 @@ tags:
 - althusser
 - formation
 - interpellation
-stage: advanced
+stage: expert
 status: draft
 ---
 

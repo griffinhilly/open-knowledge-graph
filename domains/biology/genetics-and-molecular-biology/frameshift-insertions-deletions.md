@@ -15,7 +15,7 @@ tags:
 - indels
 - frameshift
 - translation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - causal-pathways
 - direct-indirect-effects
 - mechanisms
-stage: advanced
+stage: expert
 status: draft
 ---
 

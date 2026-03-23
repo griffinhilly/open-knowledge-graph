@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - welfare-economics
 - competitive-equilibrium
-stage: advanced
+stage: expert
 status: draft
 ---
 

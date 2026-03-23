@@ -16,7 +16,7 @@ tags:
 - pioneer-species
 - climax-community
 - disturbance
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

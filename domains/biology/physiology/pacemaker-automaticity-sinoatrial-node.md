@@ -15,7 +15,7 @@ tags:
 - pacemaker
 - automaticity
 - sinoatrial-node
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

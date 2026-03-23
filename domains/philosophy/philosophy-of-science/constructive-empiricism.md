@@ -16,7 +16,7 @@ tags:
 - constructive-empiricism
 - observables
 - anti-realism
-stage: advanced
+stage: expert
 status: draft
 ---
 

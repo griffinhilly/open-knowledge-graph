@@ -16,7 +16,7 @@ tags:
 - geothermal-gradient
 - thermal-properties
 - interior-heat
-stage: advanced
+stage: expert
 status: draft
 ---
 

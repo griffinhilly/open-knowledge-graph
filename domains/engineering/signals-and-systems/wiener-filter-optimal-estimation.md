@@ -16,7 +16,7 @@ tags:
 - estimation
 - wiener
 - frequency-domain
-stage: advanced
+stage: expert
 status: draft
 ---
 

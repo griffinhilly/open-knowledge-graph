@@ -18,7 +18,7 @@ tags:
 - inductive-statistical
 - explanation
 - laws
-stage: advanced
+stage: expert
 status: draft
 ---
 

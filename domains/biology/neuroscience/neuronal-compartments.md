@@ -16,7 +16,7 @@ tags:
 - neuronal-structure
 - cellular-neuroscience
 - compartmentalization
-stage: advanced
+stage: expert
 status: draft
 ---
 

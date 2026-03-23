@@ -16,7 +16,7 @@ tags:
 - mimesis
 - imitation
 - realism
-stage: advanced
+stage: expert
 status: draft
 ---
 

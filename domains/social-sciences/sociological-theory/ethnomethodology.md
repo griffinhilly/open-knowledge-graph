@@ -13,7 +13,7 @@ tags:
 - micro-sociology
 - everyday-life
 - methods
-stage: advanced
+stage: expert
 status: draft
 ---
 

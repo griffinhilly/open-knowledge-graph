@@ -19,7 +19,7 @@ tags:
 - ca2+
 - signaling
 - plasticity
-stage: advanced
+stage: expert
 status: draft
 ---
 

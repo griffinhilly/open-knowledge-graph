@@ -12,7 +12,7 @@ tags:
 - ecg
 - arrhythmia
 - cardiac-conduction
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

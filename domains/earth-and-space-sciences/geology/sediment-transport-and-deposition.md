@@ -17,7 +17,7 @@ tags:
 - sorting
 - alluvial
 - fluvial
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - gravity-waves
 - wind-driven
 - wave-energy
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

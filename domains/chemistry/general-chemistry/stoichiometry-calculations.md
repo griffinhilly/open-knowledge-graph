@@ -18,7 +18,7 @@ tags:
 - mole ratios
 - conversions
 - mass-to-mass
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - education
 - incentives
 - attendance
-stage: advanced
+stage: expert
 status: draft
 ---
 

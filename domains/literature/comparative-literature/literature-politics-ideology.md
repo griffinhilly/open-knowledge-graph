@@ -18,7 +18,7 @@ tags:
 - ideology
 - critique
 - power
-stage: advanced
+stage: expert
 status: draft
 ---
 

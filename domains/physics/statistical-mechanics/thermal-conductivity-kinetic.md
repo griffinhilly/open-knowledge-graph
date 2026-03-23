@@ -11,7 +11,7 @@ tags:
 - transport
 - kinetic-theory
 - heat
-stage: advanced
+stage: expert
 status: draft
 ---
 # Thermal Conductivity from Kinetic Theory

@@ -15,7 +15,7 @@ tags:
 - lineage-specification
 - transcription-factors
 - development
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

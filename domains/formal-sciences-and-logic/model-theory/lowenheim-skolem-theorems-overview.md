@@ -20,7 +20,7 @@ tags:
 - cardinality
 - spectrum
 - model size
-stage: advanced
+stage: expert
 status: draft
 ---
 

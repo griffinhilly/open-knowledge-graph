@@ -15,7 +15,7 @@ tags:
 - gauge-theory
 - symmetry
 - potentials
-stage: advanced
+stage: expert
 status: draft
 ---
 

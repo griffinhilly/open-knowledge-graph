@@ -17,7 +17,7 @@ tags:
 - nutrient-absorption
 - tight-junctions
 - intestinal-permeability
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

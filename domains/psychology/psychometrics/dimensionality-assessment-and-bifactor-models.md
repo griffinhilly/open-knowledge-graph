@@ -16,7 +16,7 @@ tags:
 - bifactor
 - test-structure
 - omega
-stage: advanced
+stage: expert
 status: draft
 ---
 

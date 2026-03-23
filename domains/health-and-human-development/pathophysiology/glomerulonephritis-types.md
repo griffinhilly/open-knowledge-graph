@@ -17,7 +17,7 @@ tags:
 - glomerulonephritis
 - immune-injury
 - proteinuria
-stage: advanced
+stage: expert
 status: draft
 ---
 

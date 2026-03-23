@@ -18,7 +18,7 @@ tags:
 - 9-3-3-1-ratio
 - chromosome-pairs
 - dihybrid-test-cross
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

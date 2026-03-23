@@ -19,7 +19,7 @@ tags:
 - consumption
 - savings
 - optimization
-stage: advanced
+stage: expert
 status: draft
 ---
 

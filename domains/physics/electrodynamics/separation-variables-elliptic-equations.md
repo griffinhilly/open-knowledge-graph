@@ -12,7 +12,7 @@ builds-toward: []
 tags:
 - separation-of-variables
 - pde-solution
-stage: advanced
+stage: expert
 status: draft
 ---
 # Separation of Variables for Elliptic PDEs

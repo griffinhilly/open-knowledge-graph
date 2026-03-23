@@ -14,7 +14,7 @@ tags:
 - radiation-reaction
 - abraham-lorentz
 - self-force
-stage: advanced
+stage: expert
 status: draft
 ---
 

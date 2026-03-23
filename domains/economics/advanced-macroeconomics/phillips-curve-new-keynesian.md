@@ -15,7 +15,7 @@ tags:
 - phillips-curve
 - inflation
 - new-keynesian
-stage: advanced
+stage: expert
 status: draft
 ---
 

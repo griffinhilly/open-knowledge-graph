@@ -14,7 +14,7 @@ tags:
 - transmission-networks
 - social-networks
 - disease-spread
-stage: advanced
+stage: expert
 status: draft
 ---
 

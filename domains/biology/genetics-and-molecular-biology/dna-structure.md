@@ -28,7 +28,7 @@ tags:
 - double-helix
 - nucleotides
 - base-pairing
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

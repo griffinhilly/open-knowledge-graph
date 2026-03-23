@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - boundary-value-problems
 - electrostatics
-stage: advanced
+stage: expert
 status: draft
 ---
 
