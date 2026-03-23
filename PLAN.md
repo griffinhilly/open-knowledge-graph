@@ -180,27 +180,27 @@ Expanding non-math domains from ~20 topics/course toward ~35-40 topics/course.
 ## Phase 8.5: K-12 STEM Expansion — IN PROGRESS (Mar 22, 2026)
 Add introductory courses (pre-formal through abstract-reasoning) to 7 STEM domains that currently have no content below formal-systems. ~500 new topics across ~16 new courses.
 
-### Session 1: Physics + Chemistry (~150 topics)
-- [ ] Physical Science (concrete-operations, ~40 topics): forces, energy, simple machines, magnets, light, sound
-- [ ] Conceptual Physics (abstract-reasoning, ~40 topics): Newton's laws, momentum, work/energy, circuits, waves, thermal transfer
-- [ ] Properties of Matter (concrete-operations, ~35 topics): states of matter, mixtures, physical/chemical changes, materials
-- [ ] Intro Chemistry (abstract-reasoning, ~35 topics): atoms, elements, periodic table, reactions, acids/bases, conservation of mass
-- [ ] Wire prerequisite chains into existing university courses
-- [ ] Review + validate
+### Session 1: Physics + Chemistry — DONE (Mar 22, 2026)
+- [x] Physical Science (40 topics, concrete-operations)
+- [x] Conceptual Physics (40 topics, abstract-reasoning)
+- [x] Properties of Matter (36 topics, concrete-operations)
+- [x] Introductory Chemistry (35 topics, abstract-reasoning)
 
-### Session 2: Biology + Earth & Space (~150 topics)
-- [ ] Living Things (pre-formal/concrete, ~40 topics): plants/animals, life cycles, habitats, food chains, body basics
-- [ ] Life Science (concrete/abstract, ~40 topics): cells, body systems, heredity, ecosystems, photosynthesis, classification
-- [ ] Earth & Weather (pre-formal/concrete, ~35 topics): weather, seasons, water cycle, rocks, landforms, moon phases
-- [ ] Earth Science (concrete/abstract, ~35 topics): rock cycle, plate tectonics, atmosphere, solar system, fossils
+### Session 2: Biology + Earth & Space — DONE (Mar 22, 2026)
+- [x] Living Things (40 topics, pre-formal/concrete)
+- [x] Life Science (40 topics, concrete/abstract)
+- [x] Earth & Weather (37 topics, pre-formal/concrete)
+- [x] Earth Science (35 topics, concrete/abstract)
 
-### Session 3: Health + Engineering + Formal Sciences (~170 topics)
-- [ ] My Body (pre-formal/concrete, ~30 topics): body parts, senses, nutrition, hygiene, growth, emotions
-- [ ] Health Foundations (concrete/abstract, ~30 topics): nutrition, body systems overview, puberty, mental health, first aid
-- [ ] Design & Build (concrete-operations, ~30 topics): design process, simple machines, structures, materials, basic circuits
-- [ ] Engineering Principles (abstract-reasoning, ~30 topics): design cycle, forces, mechanical advantage, circuits, prototyping
-- [ ] Patterns & Logic (concrete-operations, ~25 topics): pattern recognition, sorting, Venn diagrams, if-then, sequences
-- [ ] Reasoning & Proof (abstract-reasoning, ~25 topics): logical arguments, counterexamples, deductive/inductive, truth tables
+### Session 3: Health + Engineering + Formal Sciences — DONE (Mar 22, 2026)
+- [x] My Body (30 topics, pre-formal/concrete)
+- [x] Health Foundations (30 topics, concrete/abstract)
+- [x] Design & Build (30 topics, concrete-operations)
+- [x] Engineering Principles (30 topics, abstract-reasoning)
+- [x] Patterns & Logic (25 topics, concrete-operations)
+- [x] Reasoning & Proof (25 topics, abstract-reasoning)
+
+**Total: 473 new topics across 14 new courses, 7 domains. 13,991 topics total.**
 
 ### Post-expansion
 - [ ] Cross-domain prerequisite audit

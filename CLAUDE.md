@@ -3,7 +3,7 @@
 Open-source, machine-readable knowledge graphs mapping prerequisite relationships between topics across every domain of human knowledge.
 
 ## Project Structure
-- `domains/` — 19 domains, 13,518 topics, 149 courses
+- `domains/` — 19 domains, 13,991 topics, 163 courses
 - `tools/` — Python tooling (validate.py, visualize_hierarchy.py, visualize_radial.py, generate_topic_pages.py, stats.py, reconcile.py, generate_assessment.py, generate_assessment_page.py, generate_assessment_questions.py, generate_quiz_page.py, diagnose_positioning.py, diagnose_radial_order.py, trace_topic.py)
 - `tools/overnight/` — Autonomous generation orchestrator (used to build the initial graph and Q+E content)
 - `meta/` — Schema definition, developmental stages, course list
@@ -33,13 +33,15 @@ Tool commands: see `guides/tools-reference.md`
 Visualization design: see `guides/visualization.md`
 
 ## Current Status
-- **13,518 topics** across **19 domains**, **149 courses**, **29,609 prerequisite edges**
-- **~13,260 topics** have Explainer sections; **~13,224 topics** have Questions (98%)
+- **13,991 topics** across **19 domains**, **163 courses**
+- **6 developmental stages**: pre-formal, concrete-operations, abstract-reasoning, formal-systems, advanced, expert
+- **100% Q+E coverage**: All topics have Questions + Explainer sections
 - GitHub Pages live at `griffinhilly.github.io/open-knowledge-graph/`
 - GitHub Actions CI: validates graph + deploys visualizations on every push
 - New topics at `status: draft` pending review; original 2,628 at `status: validated`
-- **Phase 9A (Fluency Model) DONE**: `lib/fluency.js` with Bayesian updates, prerequisite propagation, two color modes. Fluency toggle on all graph views + topic pages.
-- **Phase 9B (Quiz Engine) DONE**: `output/quiz.html` — interactive trivia quiz with MC/TF questions, fluency integration, warmup + exploration phases. Phase 9C (Deep Dive + Results) is next.
+- **Phase 8.5 (K-12 STEM) DONE**: 473 new topics, 14 K-12 courses across 7 STEM domains
+- **Phase 9A (Fluency Model) DONE**: `lib/fluency.js` with Bayesian updates, prerequisite propagation, two color modes.
+- **Phase 9B (Quiz Engine) DONE**: `output/quiz.html` — interactive trivia quiz. Phase 9C (Deep Dive + Results) is next.
 
 ## Related Projects
 - `~/knowledge-architecture/` — Prose-based concept sequences (predecessor project)

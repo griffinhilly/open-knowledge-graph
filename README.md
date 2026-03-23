@@ -20,28 +20,28 @@ The Markdown body contains a human-readable explanation, pedagogical notes, and 
 
 ## Current Coverage
 
-**13,518 topics across 19 domains, 149 courses, 29,609 prerequisite edges.**
+**13,991 topics across 19 domains, 163 courses, 6 developmental stages from preschool through graduate research.**
 
 | Domain | Topics | Courses |
 |--------|--------|---------|
-| Mathematics | 1,919 | 28 (Kindergarten through Topology) |
-| Computer Science | 1,059 | 11 |
-| Biology | 924 | 9 |
-| Physics | 856 | 8 |
+| Mathematics | 1,919 | 27 (Kindergarten through Topology) |
+| Computer Science | 1,059 | 10 |
+| Biology | 1,004 | 11 (Living Things through Neuroscience) |
+| Physics | 936 | 10 (Physical Science through Statistical Mechanics) |
+| Engineering | 782 | 9 (Design & Build through Control Systems) |
 | Philosophy | 736 | 9 |
-| Engineering | 722 | 7 |
 | Economics | 721 | 7 |
-| Psychology | 679 | 8 |
-| Earth & Space Sciences | 640 | 7 |
+| Earth & Space Sciences | 712 | 9 (Earth & Weather through Planetary Science) |
 | Music | 607 | 6 |
 | History | 605 | 6 |
+| Health & Human Development | 590 | 9 (My Body through Pathophysiology) |
+| Psychology | 679 | 8 |
+| Chemistry | 598 | 6 (Properties of Matter through Analytical Chemistry) |
 | Social Sciences | 577 | 7 |
 | Language & Communication | 537 | 6 |
-| Health & Human Development | 530 | 6 |
-| Chemistry | 527 | 4 |
+| Formal Sciences & Logic | 508 | 7 (Patterns & Logic through Category Theory) |
 | Literature | 495 | 6 |
 | Practical Life Skills | 482 | 4 |
-| Formal Sciences & Logic | 458 | 5 |
 | Arts & Aesthetics | 444 | 5 |
 
 ## Quick Start

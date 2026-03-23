@@ -10,30 +10,30 @@
 - `LICENSE` — CC BY-SA 4.0 (content) + MIT (code)
 - `.gitignore`
 
-## Domains (19 domains, 13,518 topics, 149 courses)
+## Domains (19 domains, 13,991 topics, 163 courses)
 
 Each domain has `_domain.yml` + course subdirectories containing topic `.md` files.
 
 | Domain | Path | Topics | Courses |
 |--------|------|--------|---------|
-| Mathematics | `domains/mathematics/` | 1,920 | 28 |
+| Mathematics | `domains/mathematics/` | 1,919 | 27 |
 | Computer Science | `domains/computer-science/` | 1,059 | 10 |
-| Biology | `domains/biology/` | 924 | 9 |
-| Physics | `domains/physics/` | 856 | 8 |
-| Engineering | `domains/engineering/` | 722 | 7 |
+| Biology | `domains/biology/` | 1,004 | 11 |
+| Physics | `domains/physics/` | 936 | 10 |
+| Engineering | `domains/engineering/` | 782 | 9 |
 | Economics | `domains/economics/` | 721 | 7 |
 | Philosophy | `domains/philosophy/` | 736 | 9 |
 | Psychology | `domains/psychology/` | 679 | 8 |
-| Earth & Space Sciences | `domains/earth-and-space-sciences/` | 640 | 7 |
+| Earth & Space Sciences | `domains/earth-and-space-sciences/` | 712 | 9 |
 | Music | `domains/music/` | 607 | 6 |
 | History | `domains/history/` | 605 | 6 |
 | Social Sciences | `domains/social-sciences/` | 577 | 7 |
 | Language & Communication | `domains/language-and-communication/` | 537 | 6 |
-| Health & Human Development | `domains/health-and-human-development/` | 530 | 6 |
-| Chemistry | `domains/chemistry/` | 527 | 4 |
+| Health & Human Development | `domains/health-and-human-development/` | 590 | 9 |
+| Chemistry | `domains/chemistry/` | 598 | 6 |
 | Literature | `domains/literature/` | 495 | 6 |
 | Practical Life Skills | `domains/practical-life-skills/` | 482 | 4 |
-| Formal Sciences & Logic | `domains/formal-sciences-and-logic/` | 458 | 5 |
+| Formal Sciences & Logic | `domains/formal-sciences-and-logic/` | 508 | 7 |
 | Arts & Aesthetics | `domains/arts-and-aesthetics/` | 444 | 5 |
 
 ## Tools
@@ -91,7 +91,7 @@ Each domain has `_domain.yml` + course subdirectories containing topic `.md` fil
 
 ## Meta
 - `meta/schema.md` — YAML frontmatter schema definition
-- `meta/developmental-stages.md` — Stage definitions (pre-formal through advanced)
+- `meta/developmental-stages.md` — Stage definitions (6 stages: pre-formal through expert)
 - `meta/course-list.md` — Course directory listing
 
 ## Libraries
