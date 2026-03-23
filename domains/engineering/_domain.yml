@@ -3,6 +3,12 @@ title: Engineering & Technology
 description: The application of scientific and mathematical principles to design,
   build, and optimize systems and structures.
 courses:
+- id: design-and-build
+  title: Design & Build
+  stage: concrete-operations
+- id: engineering-principles
+  title: Engineering Principles
+  stage: abstract-reasoning
 - id: statics-and-dynamics
   title: Statics & Dynamics
   stage: formal-systems

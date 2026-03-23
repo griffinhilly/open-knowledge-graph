@@ -3,6 +3,12 @@ title: Health & Human Development
 description: The study of human health, wellness, and development across the lifespan.
   From anatomy to public health, nutrition to child development.
 courses:
+- id: my-body
+  title: My Body
+  stage: pre-formal
+- id: health-foundations
+  title: Health Foundations
+  stage: concrete-operations
 - id: anatomy-and-physiology
   title: Anatomy & Physiology
   stage: abstract-reasoning

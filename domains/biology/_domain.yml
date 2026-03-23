@@ -3,6 +3,12 @@ title: Biology
 description: The study of living organisms, their structure, function, growth, evolution,
   and interactions. From molecular machinery inside cells to ecosystems spanning continents.
 courses:
+- id: living-things
+  title: Living Things
+  stage: pre-formal
+- id: life-science
+  title: Life Science
+  stage: concrete-operations
 - id: cell-biology
   title: Cell Biology
   stage: abstract-reasoning

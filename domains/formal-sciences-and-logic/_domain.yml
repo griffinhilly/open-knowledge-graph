@@ -4,6 +4,12 @@ description: The study of formal systems, abstract structures, and deductive rea
   Extends beyond mathematics into philosophical logic, metalogic, and the foundations
   of formal reasoning itself.
 courses:
+- id: patterns-and-logic
+  title: Patterns & Logic
+  stage: concrete-operations
+- id: reasoning-and-proof
+  title: Reasoning & Proof
+  stage: abstract-reasoning
 - id: propositional-and-predicate-logic
   title: Propositional & Predicate Logic
   stage: formal-systems

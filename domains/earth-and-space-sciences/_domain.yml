@@ -3,6 +3,12 @@ title: Earth & Space Sciences
 description: The study of Earth's systems and the broader universe. From minerals
   and plate tectonics to stellar evolution and cosmology.
 courses:
+- id: earth-and-weather
+  title: Earth & Weather
+  stage: pre-formal
+- id: earth-science
+  title: Earth Science
+  stage: concrete-operations
 - id: geology
   title: Geology
   stage: abstract-reasoning
