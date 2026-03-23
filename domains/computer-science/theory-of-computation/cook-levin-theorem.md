@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: boolean-logic
   type: soft
-builds-toward:
+builds-toward: []
 tags:
 - Cook-Levin
 - SAT
