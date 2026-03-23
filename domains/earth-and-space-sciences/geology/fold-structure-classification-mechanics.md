@@ -13,7 +13,7 @@ tags:
 - structures
 - compression
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fold Geometry, Classification, and Strain Significance

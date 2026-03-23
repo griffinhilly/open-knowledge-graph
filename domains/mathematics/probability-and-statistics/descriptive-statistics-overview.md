@@ -13,7 +13,7 @@ tags:
 - descriptive-statistics
 - data-summary
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Descriptive Statistics: Summarizing Data

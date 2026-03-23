@@ -15,7 +15,7 @@ tags:
 - metamorphism
 - plate-tectonics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Subduction Zone Structure and High-Pressure Metamorphism

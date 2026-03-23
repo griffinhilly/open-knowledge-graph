@@ -16,7 +16,7 @@ tags:
 - substitution-effect
 - decomposition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Income and Substitution Effects of Price Changes

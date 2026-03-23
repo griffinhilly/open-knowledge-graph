@@ -16,7 +16,7 @@ tags:
 - harmony
 - writing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voice Leading in Four-Part Writing

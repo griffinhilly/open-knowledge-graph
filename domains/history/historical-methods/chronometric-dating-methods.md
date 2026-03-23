@@ -13,7 +13,7 @@ tags:
 - time
 - sequence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chronometric Dating Methods

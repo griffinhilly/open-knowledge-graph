@@ -17,7 +17,7 @@ tags:
 - continuous-distributions
 - probability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Probability Density Functions

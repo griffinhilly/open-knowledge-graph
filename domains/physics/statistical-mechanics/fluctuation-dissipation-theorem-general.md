@@ -13,7 +13,7 @@ tags:
 - linear-response
 - generalized-susceptibility
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Fluctuation-Dissipation Theorem

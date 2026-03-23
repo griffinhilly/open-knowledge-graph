@@ -17,7 +17,7 @@ tags:
 - conceptual-blending
 - rhetoric
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metaphor as Conceptual Transformation

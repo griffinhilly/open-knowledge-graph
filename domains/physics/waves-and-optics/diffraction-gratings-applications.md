@@ -15,7 +15,7 @@ tags:
 - spectroscopy
 - grating-equation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Diffraction Gratings: Construction, Spectra, and Spectroscopy

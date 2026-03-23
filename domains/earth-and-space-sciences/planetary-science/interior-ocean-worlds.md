@@ -14,7 +14,7 @@ tags:
 - habitability
 - interior-heat
 stage: expert
-status: draft
+status: validated
 ---
 
 # Interior Ocean Worlds: Subsurface Habitability

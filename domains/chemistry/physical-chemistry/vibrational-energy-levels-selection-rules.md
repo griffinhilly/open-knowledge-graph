@@ -16,7 +16,7 @@ tags:
 - selection-rules
 - energy-levels
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vibrational Energy Levels and Selection Rules

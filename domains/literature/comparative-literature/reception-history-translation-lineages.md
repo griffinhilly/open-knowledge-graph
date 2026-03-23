@@ -16,7 +16,7 @@ tags:
 - literary-circulation
 - canonicity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Reception History and Translation Lineages

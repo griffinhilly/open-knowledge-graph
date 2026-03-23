@@ -12,7 +12,7 @@ tags:
 - boundary
 - operators
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Boundary of Sets

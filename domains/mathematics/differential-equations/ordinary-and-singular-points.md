@@ -15,7 +15,7 @@ tags:
 - classification
 - analytic
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Ordinary and Singular Points of ODEs

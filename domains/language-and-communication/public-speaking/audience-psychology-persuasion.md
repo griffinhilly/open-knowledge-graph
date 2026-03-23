@@ -15,7 +15,7 @@ tags:
 - social-proof
 - resistance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Audience Psychology in Persuasion

@@ -16,7 +16,7 @@ tags:
 - borel-sets
 - topology
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Borel Sigma-Algebra

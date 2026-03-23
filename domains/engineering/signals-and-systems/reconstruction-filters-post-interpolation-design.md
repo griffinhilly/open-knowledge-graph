@@ -15,7 +15,7 @@ tags:
 - DAC
 - interpolation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Reconstruction Filters and Post-Interpolation Design

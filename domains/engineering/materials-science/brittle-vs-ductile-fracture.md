@@ -17,7 +17,7 @@ tags:
 - cleavage-fracture
 - temperature-effects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Brittle vs Ductile Fracture

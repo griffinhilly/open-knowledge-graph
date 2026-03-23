@@ -18,7 +18,7 @@ tags:
 - fixed-axis
 - dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rotational Motion About a Fixed Axis

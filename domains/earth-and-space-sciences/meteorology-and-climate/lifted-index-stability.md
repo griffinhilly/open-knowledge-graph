@@ -17,7 +17,7 @@ tags:
 - forecast
 - instability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lifted Index and Atmospheric Stability Classification

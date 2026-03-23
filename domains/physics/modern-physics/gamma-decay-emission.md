@@ -15,7 +15,7 @@ tags:
 - radioactivity
 - photons
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gamma Decay and Photon Emission from Nuclei

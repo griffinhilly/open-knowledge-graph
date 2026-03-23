@@ -13,7 +13,7 @@ tags:
 - phase-diagram
 - supercritical
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Critical Point and Supercritical Fluids

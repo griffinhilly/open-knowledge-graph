@@ -16,7 +16,7 @@ tags:
 - backstory
 - craft
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Exposition Technique and Information Delivery

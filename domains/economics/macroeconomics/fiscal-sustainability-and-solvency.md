@@ -15,7 +15,7 @@ tags:
 - sustainability
 - solvency
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fiscal Sustainability and Solvency

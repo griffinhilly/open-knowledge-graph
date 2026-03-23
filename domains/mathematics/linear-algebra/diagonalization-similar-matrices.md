@@ -16,7 +16,7 @@ tags:
 - similar-matrices
 - canonical-form
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diagonalization and Similar Matrices

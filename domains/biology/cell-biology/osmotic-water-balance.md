@@ -14,7 +14,7 @@ tags:
 - aquaporins
 - homeostasis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Osmotic Regulation and Cellular Water Balance

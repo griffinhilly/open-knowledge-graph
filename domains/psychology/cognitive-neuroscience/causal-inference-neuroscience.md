@@ -13,7 +13,7 @@ tags:
 - causality
 - inference
 stage: expert
-status: draft
+status: validated
 ---
 
 # Causal Inference in Neural Research

@@ -16,7 +16,7 @@ tags:
 - information-literacy
 - critical-thinking
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Evaluating Search Results

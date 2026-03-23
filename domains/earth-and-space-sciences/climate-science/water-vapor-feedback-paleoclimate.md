@@ -17,7 +17,7 @@ tags:
 - saturation
 - paleoclimate
 stage: expert
-status: draft
+status: validated
 ---
 
 # Water Vapor Feedback in Paleoclimate

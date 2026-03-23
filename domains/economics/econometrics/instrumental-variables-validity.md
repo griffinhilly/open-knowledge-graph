@@ -15,7 +15,7 @@ tags:
 - exogeneity
 - relevance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Instrumental Variables: Validity Assumptions

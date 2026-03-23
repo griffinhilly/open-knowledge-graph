@@ -14,7 +14,7 @@ tags:
 - polar-coordinates
 - geometry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Modulus and Argument of Complex Numbers

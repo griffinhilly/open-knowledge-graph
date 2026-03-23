@@ -15,7 +15,7 @@ tags:
 - flying
 - swimming
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # How Animals Move

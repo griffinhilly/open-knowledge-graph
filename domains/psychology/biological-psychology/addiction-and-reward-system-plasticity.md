@@ -20,7 +20,7 @@ tags:
 - reward
 - plasticity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Addiction: Reward System Plasticity and Loss of Control

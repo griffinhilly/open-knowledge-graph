@@ -16,7 +16,7 @@ tags:
 - sketching
 - technique
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Compositional Thumbnails and Quick Studies

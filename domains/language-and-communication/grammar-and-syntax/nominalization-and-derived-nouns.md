@@ -17,7 +17,7 @@ tags:
 - noun-creation
 - derivation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nominalization and Creating Nouns from Other Words

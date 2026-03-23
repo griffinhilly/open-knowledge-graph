@@ -19,7 +19,7 @@ tags:
 - forcing-mechanism
 - modulation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Solar Variability and Climate Forcing

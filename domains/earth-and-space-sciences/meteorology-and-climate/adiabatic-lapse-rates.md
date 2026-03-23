@@ -25,7 +25,7 @@ tags:
 - convection
 - thermodynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Adiabatic Lapse Rates

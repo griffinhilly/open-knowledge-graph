@@ -13,7 +13,7 @@ tags:
 - property-relations
 - thermodynamic-identities
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Maxwell Relations and Thermodynamic Property Derivations

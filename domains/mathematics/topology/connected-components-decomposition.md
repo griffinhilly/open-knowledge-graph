@@ -10,7 +10,7 @@ tags:
 - connected-components
 - decomposition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Connected Components

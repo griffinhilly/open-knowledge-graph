@@ -17,7 +17,7 @@ tags:
 - coverage-threshold
 - r0
 stage: expert
-status: draft
+status: validated
 ---
 
 # Herd Immunity and Vaccination Dynamics

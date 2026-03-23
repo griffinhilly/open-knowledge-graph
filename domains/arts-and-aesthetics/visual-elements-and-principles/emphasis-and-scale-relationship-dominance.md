@@ -22,7 +22,7 @@ tags:
 - dominance
 - proportion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Emphasis Through Scale: Size and Dominance in Composition

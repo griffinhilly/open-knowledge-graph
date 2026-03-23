@@ -13,7 +13,7 @@ tags:
 - search
 - optimization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Constraint Satisfaction Problem Solving

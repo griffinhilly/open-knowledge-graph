@@ -18,7 +18,7 @@ tags:
 - lessons-learned
 - safety-culture
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Engineering Failures and Lessons Learned
 

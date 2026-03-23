@@ -13,7 +13,7 @@ tags:
 - spin-orbit
 - fine-structure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fine Structure and Relativistic Corrections

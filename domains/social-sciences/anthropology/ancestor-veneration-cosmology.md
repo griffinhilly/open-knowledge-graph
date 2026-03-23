@@ -16,7 +16,7 @@ tags:
 - continuity
 - morality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ancestor Veneration and Cosmology

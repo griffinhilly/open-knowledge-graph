@@ -17,7 +17,7 @@ tags:
 - chromosomal-imbalance
 - gene-dosage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Aneuploidy and Chromosomal Imbalance

@@ -13,7 +13,7 @@ tags:
 - risk
 - decision-making
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Prospect Theory and Behavioral Economics

@@ -15,7 +15,7 @@ tags:
 - validity
 - deductive-reasoning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Logical Form and Validity

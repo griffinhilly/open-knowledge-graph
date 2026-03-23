@@ -16,7 +16,7 @@ tags:
 - balanced
 - unbalanced
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Balanced and Unbalanced Forces
 

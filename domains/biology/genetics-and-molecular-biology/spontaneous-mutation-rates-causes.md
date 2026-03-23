@@ -14,7 +14,7 @@ tags:
 - molecular-evolution
 - mutation-rate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Spontaneous Mutation Rates and Sources

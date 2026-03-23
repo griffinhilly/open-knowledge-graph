@@ -16,7 +16,7 @@ tags:
 - color
 - spectroscopy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stellar Effective Temperature and Color Index

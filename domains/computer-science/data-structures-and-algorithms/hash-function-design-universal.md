@@ -14,7 +14,7 @@ tags:
 - hashing
 - universal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hash Function Design and Universal Hashing

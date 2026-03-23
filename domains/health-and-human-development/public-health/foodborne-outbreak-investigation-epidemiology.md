@@ -15,7 +15,7 @@ tags:
 - food-safety
 - epidemiology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Foodborne Outbreak Investigation and Control

@@ -14,7 +14,7 @@ tags:
 - normal-force
 - tension
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constrained Particle Motion and Constraint Forces

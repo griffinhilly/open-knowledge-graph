@@ -16,7 +16,7 @@ tags:
 - succession
 - disturbance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Restoration Ecology: Principles and Practices

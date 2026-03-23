@@ -15,7 +15,7 @@ tags:
 - burns
 - cuts
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Kitchen Safety and Hazard Awareness

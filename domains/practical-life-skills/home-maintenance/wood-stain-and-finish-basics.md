@@ -13,7 +13,7 @@ tags:
 - wood-care
 - aesthetic
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Wood Stain and Finish Basics

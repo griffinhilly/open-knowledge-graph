@@ -16,7 +16,7 @@ tags:
 - autoregulation
 - GFR
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Glomerular Filtration Rate and Autoregulation

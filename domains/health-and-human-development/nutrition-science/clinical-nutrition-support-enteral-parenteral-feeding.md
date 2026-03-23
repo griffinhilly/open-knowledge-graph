@@ -18,7 +18,7 @@ tags:
 - tube-feeding
 - medical-nutrition-therapy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Clinical Nutrition Support: Enteral and Parenteral Feeding

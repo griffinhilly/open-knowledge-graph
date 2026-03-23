@@ -14,7 +14,7 @@ tags:
 - quantiles
 - percentiles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Quantiles, Percentiles, and the Five-Number Summary

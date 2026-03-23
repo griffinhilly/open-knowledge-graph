@@ -14,7 +14,7 @@ tags:
 - measurement-error
 - reliability
 stage: expert
-status: draft
+status: validated
 ---
 
 # True Score Theory and Measurement Error

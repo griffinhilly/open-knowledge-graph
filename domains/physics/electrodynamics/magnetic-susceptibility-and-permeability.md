@@ -16,7 +16,7 @@ tags:
 - permeability
 - magnetic-materials
 stage: expert
-status: draft
+status: validated
 ---
 
 # Magnetic Susceptibility and Permeability

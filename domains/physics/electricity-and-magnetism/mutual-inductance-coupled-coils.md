@@ -15,7 +15,7 @@ tags:
 - mutual inductance
 - coupling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mutual Inductance and Coupled Coils

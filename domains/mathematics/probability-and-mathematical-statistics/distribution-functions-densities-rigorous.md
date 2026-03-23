@@ -17,7 +17,7 @@ tags:
 - densities
 - measure-theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Distribution Functions and Densities (Rigorous)

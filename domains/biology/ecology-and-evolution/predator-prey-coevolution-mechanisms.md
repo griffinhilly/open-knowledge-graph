@@ -17,7 +17,7 @@ tags:
 - arms-race
 - evolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Predator-Prey Coevolution and Evolutionary Arms Races

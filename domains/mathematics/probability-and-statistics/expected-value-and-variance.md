@@ -16,7 +16,7 @@ tags:
 - variance
 - standard-deviation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Expected Value and Variance

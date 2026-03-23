@@ -17,7 +17,7 @@ tags:
 - three-dimensional
 - volume
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Introducing Form and Three-Dimensional Illusion

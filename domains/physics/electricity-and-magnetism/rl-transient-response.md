@@ -13,7 +13,7 @@ tags:
 - transient
 - inductance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transient Response in RL Circuits

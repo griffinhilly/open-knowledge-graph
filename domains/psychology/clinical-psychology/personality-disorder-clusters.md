@@ -15,7 +15,7 @@ tags:
 - personality disorders
 - clusters
 stage: expert
-status: draft
+status: validated
 ---
 
 # Personality Disorder Classification and Clusters

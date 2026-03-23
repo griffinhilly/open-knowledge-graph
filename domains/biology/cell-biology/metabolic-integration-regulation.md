@@ -17,7 +17,7 @@ tags:
 - integration
 - regulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metabolic Integration: Coordinating Pathways

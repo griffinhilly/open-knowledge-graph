@@ -15,7 +15,7 @@ tags:
 - scope
 - grammar
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Syntactic Ambiguity in Argument

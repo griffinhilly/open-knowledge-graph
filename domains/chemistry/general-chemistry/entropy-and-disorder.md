@@ -16,7 +16,7 @@ tags:
 - disorder
 - second law
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Entropy and Molecular Disorder

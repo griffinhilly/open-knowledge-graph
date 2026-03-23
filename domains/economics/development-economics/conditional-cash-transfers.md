@@ -14,7 +14,7 @@ tags:
 - social protection
 - poverty
 stage: expert
-status: draft
+status: validated
 ---
 
 # Conditional Cash Transfers and Social Protection

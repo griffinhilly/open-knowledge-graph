@@ -15,7 +15,7 @@ tags:
 - C-PTSD
 - complex trauma
 stage: expert
-status: draft
+status: validated
 ---
 
 # Complex PTSD and Developmental Trauma

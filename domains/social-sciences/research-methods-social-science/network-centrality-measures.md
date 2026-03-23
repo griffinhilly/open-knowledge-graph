@@ -19,7 +19,7 @@ tags:
 - influence
 - graph-theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Network Centrality Measures and Node Importance

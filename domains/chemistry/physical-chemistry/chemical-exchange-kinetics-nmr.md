@@ -14,7 +14,7 @@ tags:
 - exchange
 - rate-constants
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Chemical Exchange Kinetics from NMR Line Shapes

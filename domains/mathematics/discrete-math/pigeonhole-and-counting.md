@@ -14,7 +14,7 @@ tags:
 - existence-proofs
 - counting-argument
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pigeonhole Principle and Its Applications

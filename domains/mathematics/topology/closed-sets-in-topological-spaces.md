@@ -14,7 +14,7 @@ tags:
 - topology
 - complements
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Closed Sets in Topological Spaces

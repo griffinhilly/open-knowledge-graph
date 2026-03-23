@@ -23,7 +23,7 @@ tags:
 - crystallization
 - petrology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Igneous Rock Formation and Magma Differentiation

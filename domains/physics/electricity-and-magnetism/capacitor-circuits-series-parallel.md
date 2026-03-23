@@ -14,7 +14,7 @@ tags:
 - combination
 - equivalent
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Capacitors in Series and Parallel

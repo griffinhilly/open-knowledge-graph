@@ -16,7 +16,7 @@ tags:
 - classical-texts
 - intellectual-history
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Classical Revival and Renaissance Scholarship

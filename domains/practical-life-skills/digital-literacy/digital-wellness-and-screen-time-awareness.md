@@ -14,7 +14,7 @@ tags:
 - health
 - balance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Digital Wellness and Screen Time Awareness

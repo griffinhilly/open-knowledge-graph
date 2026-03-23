@@ -18,7 +18,7 @@ tags:
 - withholding
 - classification
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # W-2 vs. 1099 Income

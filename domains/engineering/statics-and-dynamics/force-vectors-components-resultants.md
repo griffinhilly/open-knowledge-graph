@@ -22,7 +22,7 @@ tags:
 - resultants
 - superposition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Force Vectors, Components, and Resultants

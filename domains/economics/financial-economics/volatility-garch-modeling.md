@@ -17,7 +17,7 @@ tags:
 - forecasting
 - modeling
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Modeling Time-Varying Volatility with GARCH
 

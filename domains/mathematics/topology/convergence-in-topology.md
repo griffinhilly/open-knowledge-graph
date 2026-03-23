@@ -13,7 +13,7 @@ tags:
 - convergence
 - sequences
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Convergence in Topological Spaces

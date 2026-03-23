@@ -16,7 +16,7 @@ tags:
 - productivity
 - accounting
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Growth Accounting and Sources of Economic Growth

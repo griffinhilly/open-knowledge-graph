@@ -13,7 +13,7 @@ tags:
 - closed-maps
 - open-mapping-theorem
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Open and Closed Maps

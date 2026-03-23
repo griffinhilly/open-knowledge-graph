@@ -15,7 +15,7 @@ tags:
 - teen numbers
 - number identification
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Recognizing Numerals 11–20

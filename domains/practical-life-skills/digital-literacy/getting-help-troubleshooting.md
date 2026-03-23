@@ -14,7 +14,7 @@ tags:
 - support
 - problem-solving
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Getting Help and Basic Troubleshooting

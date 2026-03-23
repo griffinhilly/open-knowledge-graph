@@ -17,7 +17,7 @@ tags:
 - axioms
 - abstract
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vector Spaces and Axiomatic Definition

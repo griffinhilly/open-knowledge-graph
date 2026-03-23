@@ -17,7 +17,7 @@ tags:
 - authority
 - discourse
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Authorial Function and Constructed Authorship

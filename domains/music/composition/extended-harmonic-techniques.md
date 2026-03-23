@@ -14,7 +14,7 @@ tags:
 - composition
 - chromaticism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Extended Harmonic Techniques

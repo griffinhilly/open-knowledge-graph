@@ -15,7 +15,7 @@ tags:
 - metaplasia
 - cellular-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cellular Adaptation: Atrophy and Metaplasia

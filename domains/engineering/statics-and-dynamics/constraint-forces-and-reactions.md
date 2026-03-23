@@ -16,7 +16,7 @@ tags:
 - reactions
 - free-body-diagrams
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constraint Forces and Reaction Forces

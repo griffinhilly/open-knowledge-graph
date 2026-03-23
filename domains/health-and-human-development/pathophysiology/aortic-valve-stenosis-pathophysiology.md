@@ -16,7 +16,7 @@ tags:
 - ventricular-hypertrophy
 - valve-disease
 stage: expert
-status: draft
+status: validated
 ---
 
 # Aortic Stenosis: Progressive Left Ventricular Hypertrophy and Heart Failure

@@ -13,7 +13,7 @@ tags:
 - accessibility
 - comprehension
 stage: expert
-status: draft
+status: validated
 ---
 
 # Health Literacy and Public Health Communication

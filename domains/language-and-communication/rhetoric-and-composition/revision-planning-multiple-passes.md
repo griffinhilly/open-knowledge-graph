@@ -17,7 +17,7 @@ tags:
 - editing
 - composition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Revision Planning and Multiple-Pass Revision

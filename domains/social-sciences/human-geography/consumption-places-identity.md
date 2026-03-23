@@ -16,7 +16,7 @@ tags:
 - place
 - materialism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Consumption, Places, and Identity Construction

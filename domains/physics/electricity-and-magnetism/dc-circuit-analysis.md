@@ -15,7 +15,7 @@ tags:
 - analysis
 - networks
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # DC Circuit Analysis with Kirchhoff's Laws

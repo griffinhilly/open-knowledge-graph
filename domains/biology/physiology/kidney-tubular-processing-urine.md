@@ -19,7 +19,7 @@ tags:
 - urine
 - transport
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kidney Tubular Processing and Urine Formation

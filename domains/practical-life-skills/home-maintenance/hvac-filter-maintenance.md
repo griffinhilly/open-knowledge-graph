@@ -14,7 +14,7 @@ tags:
 - filters
 - energy-efficiency
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # HVAC Filter Maintenance

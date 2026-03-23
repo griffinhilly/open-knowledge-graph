@@ -18,7 +18,7 @@ tags:
 - platonism
 - nominalism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Abstract Objects and Existence

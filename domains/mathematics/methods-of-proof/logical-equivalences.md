@@ -14,7 +14,7 @@ tags:
 - transformation
 - logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Logical Equivalences

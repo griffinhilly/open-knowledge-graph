@@ -15,7 +15,7 @@ tags:
 - emphasis
 - delivery
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Rhetorical Power of Silence and Pauses

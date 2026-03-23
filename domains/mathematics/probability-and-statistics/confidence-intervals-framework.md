@@ -16,7 +16,7 @@ tags:
 - confidence-intervals
 - estimation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Confidence Intervals: General Framework

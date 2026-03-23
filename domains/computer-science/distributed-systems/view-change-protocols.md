@@ -16,7 +16,7 @@ tags:
 - consistency
 - protocol
 stage: advanced
-status: draft
+status: validated
 ---
 # View Change and Leader Failover Protocols
 

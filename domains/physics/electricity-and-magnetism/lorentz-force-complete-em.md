@@ -17,7 +17,7 @@ tags:
 - maxwell
 - unification
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Complete Lorentz Force Law and Maxwell's Framework

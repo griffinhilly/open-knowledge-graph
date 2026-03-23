@@ -16,7 +16,7 @@ tags:
 - governance
 - politics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sumerian City-States and Early Governance

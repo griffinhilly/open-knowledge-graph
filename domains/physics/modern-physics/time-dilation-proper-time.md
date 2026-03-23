@@ -15,7 +15,7 @@ tags:
 - spacetime
 - time
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Time Dilation and Proper Time

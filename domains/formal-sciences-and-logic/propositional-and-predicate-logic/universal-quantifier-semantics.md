@@ -14,7 +14,7 @@ tags:
 - quantifiers
 - first-order-logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Universal Quantification: Meaning and Scope

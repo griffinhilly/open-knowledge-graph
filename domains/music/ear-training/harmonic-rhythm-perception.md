@@ -17,7 +17,7 @@ tags:
 - ear-training
 - form
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Rhythm Perception by Ear

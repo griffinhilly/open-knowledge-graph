@@ -15,7 +15,7 @@ tags:
 - visual
 - segmentation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Figure-Ground Segmentation

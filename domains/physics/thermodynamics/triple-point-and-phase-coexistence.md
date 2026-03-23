@@ -13,7 +13,7 @@ tags:
 - phase-equilibrium
 - three-phases
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Triple Point and Phase Coexistence

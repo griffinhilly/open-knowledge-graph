@@ -12,7 +12,7 @@ tags:
 - heuristics
 - framing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Anchoring Bias

@@ -14,7 +14,7 @@ tags:
 - protective-factors
 - risk-factors
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Developmental Resilience: Adaptation Despite Adversity

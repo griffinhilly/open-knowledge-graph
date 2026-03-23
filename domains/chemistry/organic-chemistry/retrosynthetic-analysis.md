@@ -18,7 +18,7 @@ tags:
 - Corey
 - multi-step synthesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Retrosynthetic Analysis
 

@@ -22,7 +22,7 @@ tags:
 - calcium-overload
 - inflammation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ischemia and Reperfusion Injury Pathophysiology

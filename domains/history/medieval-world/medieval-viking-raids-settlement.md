@@ -16,7 +16,7 @@ tags:
 - settlement
 - expansion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Viking Raids, Expansion, and Settlement

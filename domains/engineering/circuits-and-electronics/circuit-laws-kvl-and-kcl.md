@@ -18,7 +18,7 @@ tags:
 - energy-conservation
 - charge-conservation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kirchhoff's Voltage and Current Laws

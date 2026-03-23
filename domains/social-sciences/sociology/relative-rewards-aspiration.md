@@ -14,7 +14,7 @@ tags:
 - aspirations
 - satisfaction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Relative Rewards, Income Inequality, and Aspiration Spirals

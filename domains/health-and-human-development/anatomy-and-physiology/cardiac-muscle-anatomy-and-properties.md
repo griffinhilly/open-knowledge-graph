@@ -16,7 +16,7 @@ tags:
 - intercalated-disks
 - syncytium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cardiac Muscle Anatomy and Properties

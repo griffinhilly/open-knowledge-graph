@@ -25,7 +25,7 @@ tags:
 - stress-response
 - adaptation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cell Injury and Adaptation

@@ -16,7 +16,7 @@ tags:
 - high-dimensional
 - sparsity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Curse of Dimensionality

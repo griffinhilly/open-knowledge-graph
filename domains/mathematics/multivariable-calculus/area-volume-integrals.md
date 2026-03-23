@@ -14,7 +14,7 @@ tags:
 - area
 - volume
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Computing Areas and Volumes

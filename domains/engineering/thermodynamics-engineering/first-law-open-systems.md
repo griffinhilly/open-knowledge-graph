@@ -16,7 +16,7 @@ tags:
 - open-systems
 - control-volume
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # First Law for Open Systems and Control Volumes

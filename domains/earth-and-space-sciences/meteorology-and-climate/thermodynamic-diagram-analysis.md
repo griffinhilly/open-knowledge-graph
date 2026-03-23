@@ -20,7 +20,7 @@ tags:
 - thermodynamic-diagram
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermodynamic Diagrams and Atmospheric Sounding Analysis

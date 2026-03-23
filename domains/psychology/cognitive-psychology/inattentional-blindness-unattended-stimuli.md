@@ -15,7 +15,7 @@ tags:
 - perception
 - awareness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inattentional Blindness and Failures of Perception

@@ -19,7 +19,7 @@ tags:
 - industrial-organization
 - oligopoly
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cournot Competition: Quantity Competition in Oligopoly

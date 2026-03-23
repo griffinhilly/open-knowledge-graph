@@ -17,7 +17,7 @@ tags:
 - nutrient-cycling
 - ecosystem
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Microbial Ecology and Biogeochemical Cycling

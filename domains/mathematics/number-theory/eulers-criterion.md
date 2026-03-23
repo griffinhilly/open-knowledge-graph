@@ -15,7 +15,7 @@ tags:
 - quadratic-residues
 - legendre-symbol
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Euler's Criterion

@@ -11,7 +11,7 @@ tags:
 - real-integrals
 - applications
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Evaluating Real Integrals Using Residues

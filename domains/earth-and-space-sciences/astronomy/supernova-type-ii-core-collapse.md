@@ -20,7 +20,7 @@ tags:
 - core-collapse
 - massive-stars
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Type II Supernovae: Core-Collapse Explosions of Massive Stars

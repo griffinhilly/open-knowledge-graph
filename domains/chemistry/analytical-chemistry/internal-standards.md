@@ -16,7 +16,7 @@ tags:
 - calibration
 - ISTD
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Internal Standards

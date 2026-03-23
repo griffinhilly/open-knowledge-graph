@@ -17,7 +17,7 @@ tags:
 - meter
 - pulse
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rhythm and Beat Foundation

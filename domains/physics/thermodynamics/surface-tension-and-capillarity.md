@@ -13,7 +13,7 @@ tags:
 - surface-effects
 - intermolecular-forces
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Surface Tension and Capillarity

@@ -14,7 +14,7 @@ tags:
 - crack
 - flaw-tolerance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fracture Mechanics and Stress Concentration

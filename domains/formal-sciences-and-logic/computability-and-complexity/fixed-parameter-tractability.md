@@ -13,7 +13,7 @@ tags:
 - tractable-hardness
 - algorithms
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fixed-Parameter Tractability (FPT)

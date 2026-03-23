@@ -14,7 +14,7 @@ tags:
 - information-economics
 - market-failure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Information Asymmetry in Markets

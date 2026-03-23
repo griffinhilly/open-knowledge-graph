@@ -16,7 +16,7 @@ tags:
 - meaning
 - representation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Symbolism and Symbolic Meaning in Texts

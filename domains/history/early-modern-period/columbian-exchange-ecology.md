@@ -17,7 +17,7 @@ tags:
 - agriculture
 - indigenous
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Columbian Exchange and Ecological Consequences

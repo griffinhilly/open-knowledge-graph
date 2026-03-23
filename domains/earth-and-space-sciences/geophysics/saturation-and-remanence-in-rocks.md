@@ -13,7 +13,7 @@ tags:
 - remanence
 - saturation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Saturation Magnetization and Natural Remanent Magnetization

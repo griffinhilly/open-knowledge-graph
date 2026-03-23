@@ -15,7 +15,7 @@ tags:
 - clinical
 - validity-scales
 stage: expert
-status: draft
+status: validated
 ---
 
 # Personality Test Interpretation: MMPI-2 and Profile Analysis

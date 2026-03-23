@@ -14,7 +14,7 @@ tags:
 - commutators
 - algebra
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Commutators and Commutation Relations

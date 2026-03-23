@@ -16,7 +16,7 @@ tags:
 - idealization
 - phenomena
 stage: expert
-status: draft
+status: validated
 ---
 
 # Scientific Models and Representation

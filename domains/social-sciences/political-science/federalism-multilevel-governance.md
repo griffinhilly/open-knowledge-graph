@@ -17,7 +17,7 @@ tags:
 - subnational
 - governance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Federalism and Multilevel Governance

@@ -15,7 +15,7 @@ tags:
 - tank
 - pressurization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transient Filling and Emptying Processes

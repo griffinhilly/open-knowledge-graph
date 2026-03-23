@@ -15,7 +15,7 @@ tags:
 - observables
 - measurement
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Expectation Values and Quantum Averages

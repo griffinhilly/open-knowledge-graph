@@ -16,7 +16,7 @@ tags:
 - back-and-forth
 - embeddings
 stage: expert
-status: draft
+status: validated
 ---
 
 # Extension Lemmas and Back-and-Forth Methods

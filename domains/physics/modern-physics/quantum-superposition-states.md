@@ -17,7 +17,7 @@ tags:
 - superposition
 - states
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantum Superposition and Linear Combinations of States

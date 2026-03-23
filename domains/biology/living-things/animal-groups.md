@@ -19,7 +19,7 @@ tags:
 - reptiles
 - insects
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Animal Groups

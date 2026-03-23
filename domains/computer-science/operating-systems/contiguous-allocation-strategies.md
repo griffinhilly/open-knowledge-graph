@@ -15,7 +15,7 @@ tags:
 - allocation
 - contiguous
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Contiguous Memory Allocation Strategies

@@ -14,7 +14,7 @@ tags:
 - verse
 - plot
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Narrative Poetry and Storytelling in Verse

@@ -16,7 +16,7 @@ tags:
 - shape-memory-alloys
 - diffusionless-transformation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Twinning and Martensitic Transformation

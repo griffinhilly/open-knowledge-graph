@@ -17,7 +17,7 @@ tags:
 - capital-flows
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # International Political Economy Fundamentals

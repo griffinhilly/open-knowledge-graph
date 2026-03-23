@@ -20,7 +20,7 @@ tags:
 - fossil-calibration
 - divergence-time
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Molecular Clock Calibration and Fossil Dating

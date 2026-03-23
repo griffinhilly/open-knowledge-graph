@@ -16,7 +16,7 @@ tags:
 - finishing
 - interior
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Drywall Finishing: Mudding and Taping

@@ -11,7 +11,7 @@ tags:
 - heat-transfer
 - electromagnetic
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Thermal Radiation and Stefan-Boltzmann Law

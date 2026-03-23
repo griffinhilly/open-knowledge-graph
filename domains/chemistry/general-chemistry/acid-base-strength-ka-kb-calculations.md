@@ -25,7 +25,7 @@ tags:
 - kb
 - ionization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Acid and Base Strength: Ka, Kb, and Ionization

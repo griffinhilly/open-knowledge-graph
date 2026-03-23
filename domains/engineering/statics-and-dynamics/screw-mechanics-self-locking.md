@@ -17,7 +17,7 @@ tags:
 - power screws
 - self-locking
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Screw Mechanics and Self-Locking

@@ -15,7 +15,7 @@ tags:
 - metaphysics
 - substance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dualism: Substance and Property Variants

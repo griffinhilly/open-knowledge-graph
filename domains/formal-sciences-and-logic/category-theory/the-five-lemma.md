@@ -14,7 +14,7 @@ tags:
 - isomorphism-criteria
 - diagram-chasing
 stage: expert
-status: draft
+status: validated
 ---
 # The Five Lemma and Related Results
 

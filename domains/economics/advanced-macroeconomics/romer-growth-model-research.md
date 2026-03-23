@@ -11,7 +11,7 @@ tags:
 - research-development
 - technological-progress
 stage: expert
-status: draft
+status: validated
 ---
 
 # Romer Growth Model and R&D-Based Endogenous Growth

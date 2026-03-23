@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - functional-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hahn-Banach Theorem

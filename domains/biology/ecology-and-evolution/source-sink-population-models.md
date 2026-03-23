@@ -17,7 +17,7 @@ tags:
 - metapopulation
 - dispersal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Source-Sink Population Dynamics

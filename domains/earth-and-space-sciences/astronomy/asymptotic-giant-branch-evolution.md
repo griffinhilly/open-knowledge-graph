@@ -16,7 +16,7 @@ tags:
 - evolution
 - mass-loss
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Asymptotic Giant Branch (AGB) Stars and Planetary Nebulae

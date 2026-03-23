@@ -17,7 +17,7 @@ tags:
 - chemistry
 - cooking-science
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Maillard Reaction and Browning

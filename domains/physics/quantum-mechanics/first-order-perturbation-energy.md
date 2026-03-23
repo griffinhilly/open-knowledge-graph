@@ -13,7 +13,7 @@ tags:
 - corrections
 - approximations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # First-Order Perturbation Energy and Wavefunction Corrections

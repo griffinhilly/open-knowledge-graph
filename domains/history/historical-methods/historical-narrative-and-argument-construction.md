@@ -17,7 +17,7 @@ tags:
 - argument
 - writing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constructing Historical Arguments and Narratives from Evidence

@@ -15,7 +15,7 @@ tags:
 - negative-weights
 - transitive-closure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Floyd-Warshall Algorithm for All-Pairs Shortest Paths

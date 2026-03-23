@@ -13,7 +13,7 @@ tags:
 - consistency
 - logic-systems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Consistency and Inconsistency of Theories

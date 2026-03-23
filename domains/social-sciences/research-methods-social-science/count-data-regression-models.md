@@ -18,7 +18,7 @@ tags:
 - negative-binomial
 - overdispersion
 stage: expert
-status: draft
+status: validated
 ---
 
 # Count Data Regression: Poisson and Negative Binomial Models

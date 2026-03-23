@@ -17,7 +17,7 @@ tags:
 - timing
 - cpu
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # CPU Control Path: Sequencing and Timing

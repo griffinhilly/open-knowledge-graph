@@ -18,7 +18,7 @@ tags:
 - cnf
 - np-complete
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # 3-SAT and NP-Completeness via CNF

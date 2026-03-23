@@ -15,7 +15,7 @@ tags:
 - toggle
 - sequential
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # JK Flip-Flop: Universal Sequential Element

@@ -16,7 +16,7 @@ tags:
 - system
 - expectations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Genre as a Formal System

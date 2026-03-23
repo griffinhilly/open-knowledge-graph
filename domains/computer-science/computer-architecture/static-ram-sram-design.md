@@ -16,7 +16,7 @@ tags:
 - memory-cell
 - memory-design
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Static RAM (SRAM) Cell Design and Arrays

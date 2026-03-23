@@ -19,7 +19,7 @@ tags:
 - receptors
 - adaptation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sensory Neural Coding and Perception

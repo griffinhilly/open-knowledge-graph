@@ -15,7 +15,7 @@ tags:
 - normal-forms
 - quantifiers
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Prenex Normal Form

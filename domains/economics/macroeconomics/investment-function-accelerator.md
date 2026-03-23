@@ -15,7 +15,7 @@ tags:
 - capital
 - dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Investment Function and Accelerator Principle

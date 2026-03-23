@@ -19,7 +19,7 @@ tags:
 - orthogonality
 - area
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dot and Cross Products: Geometry and Computation

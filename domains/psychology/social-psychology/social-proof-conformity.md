@@ -19,7 +19,7 @@ tags:
 - informational influence
 - cascades
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Social Proof and Informational Conformity Cascades

@@ -18,7 +18,7 @@ tags:
 - or
 - reasoning
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # And/Or in Everyday Life

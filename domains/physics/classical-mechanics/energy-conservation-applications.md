@@ -16,7 +16,7 @@ tags:
 - applications
 - problem-solving
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Applications of Energy Conservation

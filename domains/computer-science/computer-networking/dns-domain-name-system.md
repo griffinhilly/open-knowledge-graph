@@ -18,7 +18,7 @@ tags:
 - recursive-lookup
 - caching
 stage: advanced
-status: draft
+status: validated
 ---
 
 # DNS: Domain Name System

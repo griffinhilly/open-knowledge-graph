@@ -15,7 +15,7 @@ tags:
 - existential
 - categorical
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Universal and Existential Statements

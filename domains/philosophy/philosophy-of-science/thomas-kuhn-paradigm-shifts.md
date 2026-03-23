@@ -16,7 +16,7 @@ tags:
 - paradigm
 - revolution
 stage: expert
-status: draft
+status: validated
 ---
 
 # Thomas Kuhn and Paradigm Shifts

@@ -17,7 +17,7 @@ tags:
 - deductive-errors
 - conditionals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Affirming the Consequent: A Common Invalid Form

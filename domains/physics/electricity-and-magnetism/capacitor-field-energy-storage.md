@@ -15,7 +15,7 @@ tags:
 - capacitors
 - field energy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Energy Storage in Capacitor Fields

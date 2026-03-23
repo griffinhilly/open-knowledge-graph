@@ -13,7 +13,7 @@ tags:
 - methodology
 - hypothetical
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constructing and Evaluating Thought Experiments

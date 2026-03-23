@@ -11,7 +11,7 @@ tags:
 - weatherproofing
 - technique
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Caulk Selection and Application

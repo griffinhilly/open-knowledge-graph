@@ -18,7 +18,7 @@ tags:
 - subject
 - hailing
 stage: expert
-status: draft
+status: validated
 ---
 
 # Althusserian Interpellation and Subject Formation

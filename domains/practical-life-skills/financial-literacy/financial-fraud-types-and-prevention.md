@@ -16,7 +16,7 @@ tags:
 - financial-crime
 - prevention
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Financial Fraud Types and Prevention Strategies

@@ -17,7 +17,7 @@ tags:
 - digital
 - methodology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Quantitative and Digital History: Theory and Practice

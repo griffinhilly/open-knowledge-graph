@@ -16,7 +16,7 @@ tags:
 - tragedy
 - mimesis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Aristotle: Tragedy, Catharsis, and Mimesis

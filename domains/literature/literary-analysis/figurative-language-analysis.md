@@ -23,7 +23,7 @@ tags:
 - simile
 - devices
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Figurative Language and Poetic Devices

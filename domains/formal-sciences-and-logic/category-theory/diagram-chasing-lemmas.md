@@ -17,7 +17,7 @@ tags:
 - homological-algebra
 - proof-methods
 stage: expert
-status: draft
+status: validated
 ---
 
 # Diagram Chasing Methods and Lemmas

@@ -15,7 +15,7 @@ tags:
 - vortex
 - circulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rotating Flow, Vortex Motion, and Circulation

@@ -13,7 +13,7 @@ tags:
 - replication
 - polymerase
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # DNA Virus Replication Strategies and Polymerases

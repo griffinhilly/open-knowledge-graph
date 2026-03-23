@@ -18,7 +18,7 @@ tags:
 - operating-point
 - system-curve
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pump Operating Point: Curve Matching and System Selection

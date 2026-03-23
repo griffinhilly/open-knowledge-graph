@@ -16,7 +16,7 @@ tags:
 - formal
 - montague
 stage: expert
-status: draft
+status: validated
 ---
 
 # Montague Semantics

@@ -15,7 +15,7 @@ tags:
 - imperialism
 - partition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Scramble for Africa: Partition and Colonialism

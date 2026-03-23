@@ -12,7 +12,7 @@ tags:
 - statistics
 - applications
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linear Regression and Least Squares Estimation

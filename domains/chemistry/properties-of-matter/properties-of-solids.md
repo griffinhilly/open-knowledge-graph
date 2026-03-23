@@ -13,7 +13,7 @@ tags:
 - shape
 - physical-properties
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Properties of Solids
 

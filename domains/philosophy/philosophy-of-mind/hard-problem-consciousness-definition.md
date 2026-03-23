@@ -17,7 +17,7 @@ tags:
 - consciousness
 - explanation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Hard Problem of Consciousness

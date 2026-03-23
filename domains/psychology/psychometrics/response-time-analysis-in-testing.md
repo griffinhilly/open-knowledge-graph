@@ -15,7 +15,7 @@ tags:
 - speed-accuracy
 - guessing
 stage: expert
-status: draft
+status: validated
 ---
 
 # Response Time Analysis in Psychometric Testing

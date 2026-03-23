@@ -16,7 +16,7 @@ tags:
 - central-bank
 - tools
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Monetary Policy Implementation and Tools

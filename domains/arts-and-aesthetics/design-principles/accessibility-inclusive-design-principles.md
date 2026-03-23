@@ -13,7 +13,7 @@ tags:
 - universal-design
 - diverse-users
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Accessibility and Inclusive Design Principles

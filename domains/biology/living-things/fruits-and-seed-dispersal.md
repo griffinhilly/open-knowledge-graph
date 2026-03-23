@@ -17,7 +17,7 @@ tags:
 - plants
 - reproduction
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Fruits and Seed Dispersal

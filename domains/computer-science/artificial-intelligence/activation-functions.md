@@ -22,7 +22,7 @@ tags:
 - nonlinearity
 - neural-networks
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Activation Functions in Neural Networks

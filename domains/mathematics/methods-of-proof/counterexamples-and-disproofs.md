@@ -13,7 +13,7 @@ tags:
 - counterexample
 - negation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Counterexamples and Disproofs

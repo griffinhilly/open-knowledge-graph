@@ -15,7 +15,7 @@ tags:
 - molecular-geometry
 - structure-prediction
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Walsh Diagrams: Structure and Bonding Correlation

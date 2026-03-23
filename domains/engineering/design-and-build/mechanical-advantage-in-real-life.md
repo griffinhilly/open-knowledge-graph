@@ -20,7 +20,7 @@ tags:
 - engineering
 - real-world
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Mechanical Advantage in Real Life
 

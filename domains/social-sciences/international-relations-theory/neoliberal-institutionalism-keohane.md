@@ -17,7 +17,7 @@ tags:
 - cooperation
 - regimes
 stage: expert
-status: draft
+status: validated
 ---
 
 # Neoliberal Institutionalism

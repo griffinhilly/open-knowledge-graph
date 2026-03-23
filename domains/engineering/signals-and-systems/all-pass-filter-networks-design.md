@@ -15,7 +15,7 @@ tags:
 - phase
 - equalization
 stage: expert
-status: draft
+status: validated
 ---
 
 # All-Pass Filter Networks and Phase Equalization

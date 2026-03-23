@@ -13,7 +13,7 @@ tags:
 - dispersion
 - material-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # Refractive Index and Dispersion

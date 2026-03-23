@@ -18,7 +18,7 @@ tags:
 - critical-periods
 - learning
 stage: expert
-status: draft
+status: validated
 ---
 
 # Critical Periods: Experience-Dependent Plasticity in Development

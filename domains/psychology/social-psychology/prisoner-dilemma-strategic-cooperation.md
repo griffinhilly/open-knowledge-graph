@@ -17,7 +17,7 @@ tags:
 - strategic-interaction
 - social-dilemma
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Prisoner's Dilemma and Strategic Cooperation

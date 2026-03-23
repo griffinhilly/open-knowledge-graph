@@ -18,7 +18,7 @@ tags:
 - narrative
 - textual-relations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Transtextuality: Genette's Framework

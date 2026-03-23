@@ -15,7 +15,7 @@ tags:
 - binding-energy
 - mass-defect
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nuclear Mass, Binding Energy, and the Mass-Energy Relation

@@ -20,7 +20,7 @@ tags:
 - metaphysics
 - possibility
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Modal Arguments in Philosophy of Mind

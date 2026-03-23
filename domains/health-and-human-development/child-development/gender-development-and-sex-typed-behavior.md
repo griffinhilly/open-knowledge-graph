@@ -15,7 +15,7 @@ tags:
 - socialization
 - identity-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gender Development and Sex-Typed Behavior

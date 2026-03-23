@@ -16,7 +16,7 @@ tags:
 - brittleness
 - fracture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Toughness, Ductility, and Brittle Behavior

@@ -18,7 +18,7 @@ tags:
 - day-night
 - axis
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Earth's Rotation

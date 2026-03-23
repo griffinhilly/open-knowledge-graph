@@ -14,7 +14,7 @@ tags:
 - landscape
 - meaning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cultural Geography and Identity Formation

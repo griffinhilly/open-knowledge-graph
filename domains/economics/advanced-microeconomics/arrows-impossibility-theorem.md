@@ -13,7 +13,7 @@ tags:
 - voting
 - impossibility
 stage: expert
-status: draft
+status: validated
 ---
 
 # Arrow's Impossibility Theorem

@@ -15,7 +15,7 @@ tags:
 - supremum
 - infimum
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Supremum and Infimum

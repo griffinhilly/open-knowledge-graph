@@ -16,7 +16,7 @@ tags:
 - dna-synthesis
 - molecular-biology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Leading and Lagging Strand Synthesis

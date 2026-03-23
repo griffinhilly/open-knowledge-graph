@@ -17,7 +17,7 @@ tags:
 - habitat
 - connectivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Landscape Ecology and Spatial Heterogeneity

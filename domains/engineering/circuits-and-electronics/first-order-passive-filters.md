@@ -16,7 +16,7 @@ tags:
 - rolloff
 - corner-frequency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # First-Order Passive Filters

@@ -19,7 +19,7 @@ tags:
 - selection
 - drift
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Traversing Adaptive Landscapes

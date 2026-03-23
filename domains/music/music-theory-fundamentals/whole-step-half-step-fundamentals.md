@@ -14,7 +14,7 @@ tags:
 - scales
 - semitones
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Whole Steps and Half Steps

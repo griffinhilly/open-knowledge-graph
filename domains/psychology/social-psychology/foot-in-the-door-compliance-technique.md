@@ -19,7 +19,7 @@ tags:
 - commitment
 - self-perception
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Foot-in-the-Door Compliance Technique

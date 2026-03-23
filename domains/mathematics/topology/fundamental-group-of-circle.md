@@ -14,7 +14,7 @@ tags:
 - fundamental-group
 - winding-number
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fundamental Group of the Circle

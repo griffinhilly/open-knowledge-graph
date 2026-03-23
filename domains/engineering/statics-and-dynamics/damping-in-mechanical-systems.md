@@ -11,7 +11,7 @@ tags:
 - energy-dissipation
 - oscillations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Damping Mechanisms and Energy Dissipation

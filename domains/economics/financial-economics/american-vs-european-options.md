@@ -16,7 +16,7 @@ tags:
 - european
 - early-exercise
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # American versus European Options

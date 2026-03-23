@@ -13,7 +13,7 @@ tags:
 - probability
 - bayesian
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reasoning Under Uncertainty

@@ -25,7 +25,7 @@ tags:
 - systems
 - modeling
 stage: expert
-status: draft
+status: validated
 ---
 
 # Computational Simulation of Social Systems

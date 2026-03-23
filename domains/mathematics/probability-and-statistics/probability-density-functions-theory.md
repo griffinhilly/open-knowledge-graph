@@ -15,7 +15,7 @@ tags:
 - pdf
 - continuous
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Probability Density Functions and Continuous Distributions

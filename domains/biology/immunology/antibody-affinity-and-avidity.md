@@ -17,7 +17,7 @@ tags:
 - binding-kinetics
 - cross-linking
 stage: expert
-status: draft
+status: validated
 ---
 
 # Antibody Affinity and Avidity: Quantifying Antibody-Antigen Interactions

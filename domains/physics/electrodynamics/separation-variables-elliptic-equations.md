@@ -13,7 +13,7 @@ tags:
 - separation-of-variables
 - pde-solution
 stage: expert
-status: draft
+status: validated
 ---
 # Separation of Variables for Elliptic PDEs
 

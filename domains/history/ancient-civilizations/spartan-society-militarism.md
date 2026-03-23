@@ -14,7 +14,7 @@ tags:
 - society
 - Greece
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Spartan Society and Military Organization

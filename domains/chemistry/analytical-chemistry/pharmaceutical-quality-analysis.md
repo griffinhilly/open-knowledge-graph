@@ -13,7 +13,7 @@ tags:
 - drug analysis
 - quality control
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Pharmaceutical Quality and Purity Analysis

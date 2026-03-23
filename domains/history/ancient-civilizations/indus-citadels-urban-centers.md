@@ -13,7 +13,7 @@ tags:
 - architecture
 - planning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Indus Valley Urban Design and Citadels

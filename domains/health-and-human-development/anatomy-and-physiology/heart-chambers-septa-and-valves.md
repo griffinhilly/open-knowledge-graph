@@ -16,7 +16,7 @@ tags:
 - valve
 - septum
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heart Chambers, Septa, and Valves

@@ -16,7 +16,7 @@ tags:
 - domestic-music
 - intimate-music
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Chamber Music and Domestic Musical Life

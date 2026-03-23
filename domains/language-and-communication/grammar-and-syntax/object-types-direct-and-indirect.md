@@ -13,7 +13,7 @@ tags:
 - verbs
 - sentence-structure
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Direct and Indirect Objects

@@ -16,7 +16,7 @@ tags:
 - reading
 - two-digit-numbers
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Recognizing and Reading Numbers 1–100

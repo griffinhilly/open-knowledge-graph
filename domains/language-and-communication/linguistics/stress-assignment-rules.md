@@ -16,7 +16,7 @@ tags:
 - metrical-theory
 - accent
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Formal Models of Stress and Accent

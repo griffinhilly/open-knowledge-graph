@@ -13,7 +13,7 @@ tags:
 - fire
 - wealth-building
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Financial Independence and Early Retirement Planning

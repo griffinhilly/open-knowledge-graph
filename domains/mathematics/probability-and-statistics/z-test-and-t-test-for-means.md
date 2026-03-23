@@ -16,7 +16,7 @@ tags:
 - test-statistic
 - p-value
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Z-Tests and T-Tests for Means

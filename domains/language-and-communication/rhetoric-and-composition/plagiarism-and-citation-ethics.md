@@ -15,7 +15,7 @@ tags:
 - self-citation
 - attribution
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Plagiarism and Citation Ethics

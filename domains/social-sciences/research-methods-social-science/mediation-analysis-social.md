@@ -25,7 +25,7 @@ tags:
 - pathways
 - causal-process
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mediation and Indirect Effects Analysis

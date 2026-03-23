@@ -15,7 +15,7 @@ tags:
 - molecular-structure
 - heat-capacity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Degrees of Freedom in Polyatomic Molecules

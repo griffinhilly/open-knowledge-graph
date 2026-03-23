@@ -18,7 +18,7 @@ tags:
 - weak-functors
 - natural-transformations
 stage: expert
-status: draft
+status: validated
 ---
 
 # 2-Categories and Weak Functors

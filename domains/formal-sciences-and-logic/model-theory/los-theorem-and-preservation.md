@@ -14,7 +14,7 @@ tags:
 - first-order preservation
 - fundamental theorem
 stage: expert
-status: draft
+status: validated
 ---
 
 # Łoś's Theorem and Preservation in Ultraproducts

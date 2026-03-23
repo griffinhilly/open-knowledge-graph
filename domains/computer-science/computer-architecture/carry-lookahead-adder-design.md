@@ -15,7 +15,7 @@ tags:
 - carry-logic
 - performance-optimization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Carry Lookahead Adder Design

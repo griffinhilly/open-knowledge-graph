@@ -14,7 +14,7 @@ tags:
 - domain
 - range
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Functions of Several Variables: Domain and Range

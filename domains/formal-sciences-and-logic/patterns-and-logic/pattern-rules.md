@@ -18,7 +18,7 @@ tags:
 - generalization
 - algebra-readiness
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Pattern Rules

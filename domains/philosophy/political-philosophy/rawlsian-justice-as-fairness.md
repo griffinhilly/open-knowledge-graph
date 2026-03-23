@@ -17,7 +17,7 @@ tags:
 - fairness
 - original-position
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rawlsian Justice and the Original Position

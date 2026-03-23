@@ -16,7 +16,7 @@ tags:
 - identity
 - boundaries
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cultural Regions, Boundaries, and Identity

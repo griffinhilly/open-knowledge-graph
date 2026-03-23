@@ -12,7 +12,7 @@ tags:
 - positive-definite
 - quadratic-forms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Positive Definite Matrices

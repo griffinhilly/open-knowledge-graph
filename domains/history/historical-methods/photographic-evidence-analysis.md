@@ -14,7 +14,7 @@ tags:
 - media
 - representation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Photographic Evidence Analysis

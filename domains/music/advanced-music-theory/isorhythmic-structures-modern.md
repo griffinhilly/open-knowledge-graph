@@ -20,7 +20,7 @@ tags:
 - rhythm
 - modern
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Isorhythm in Twentieth-Century and Contemporary Music

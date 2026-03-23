@@ -18,7 +18,7 @@ tags:
 - archive
 - italian
 stage: expert
-status: draft
+status: validated
 ---
 
 # Microhistory

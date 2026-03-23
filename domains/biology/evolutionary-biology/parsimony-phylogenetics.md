@@ -11,7 +11,7 @@ tags:
 - methods
 - evolution
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Parsimony in Phylogenetic Reconstruction

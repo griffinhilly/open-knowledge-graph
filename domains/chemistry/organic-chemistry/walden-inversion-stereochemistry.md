@@ -18,7 +18,7 @@ tags:
 - sn2
 - mechanism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Walden Inversion and SN2 Stereochemistry

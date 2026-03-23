@@ -15,7 +15,7 @@ tags:
 - watts
 - rate
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Power: How Fast Work Gets Done
 

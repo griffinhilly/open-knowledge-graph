@@ -13,7 +13,7 @@ tags:
 - avoidance
 - conditioning
 stage: expert
-status: draft
+status: validated
 ---
 
 # Specific Phobias

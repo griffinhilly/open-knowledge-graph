@@ -20,7 +20,7 @@ tags:
 - Grp
 - Top
 stage: expert
-status: draft
+status: validated
 ---
 # Concrete Categories
 

@@ -16,7 +16,7 @@ tags:
 - vortex dynamics
 - Helmholtz theorems
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Vorticity and Circulation
 

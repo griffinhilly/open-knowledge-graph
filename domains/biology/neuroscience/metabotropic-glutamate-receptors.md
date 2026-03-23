@@ -16,7 +16,7 @@ tags:
 - metabotropic
 - glutamate
 stage: expert
-status: draft
+status: validated
 ---
 
 # Metabotropic Glutamate Receptors

@@ -16,7 +16,7 @@ tags:
 - neuroplasticity
 - learning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memory Reconsolidation and Post-Retrieval Lability

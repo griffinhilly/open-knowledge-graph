@@ -16,7 +16,7 @@ tags:
 - protecting-groups
 - synthesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Selective Reduction: Protecting Groups and Reagent Choice

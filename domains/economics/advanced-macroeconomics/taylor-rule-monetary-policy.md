@@ -20,7 +20,7 @@ tags:
 - interest-rate-setting
 - central-banking
 stage: expert
-status: draft
+status: validated
 ---
 
 # Taylor Rule and Monetary Policy

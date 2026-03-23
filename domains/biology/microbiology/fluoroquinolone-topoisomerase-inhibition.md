@@ -15,7 +15,7 @@ tags:
 - topoisomerase
 - dna-gyrase
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fluoroquinolone Antibiotics and DNA Topoisomerase Inhibition

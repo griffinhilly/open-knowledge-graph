@@ -12,7 +12,7 @@ tags:
 - graph-theory
 - coloring
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graph Coloring and Chromatic Number

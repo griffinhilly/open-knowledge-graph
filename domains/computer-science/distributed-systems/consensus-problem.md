@@ -19,7 +19,7 @@ tags:
 - agreement
 - agreement-protocols
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Consensus Problem

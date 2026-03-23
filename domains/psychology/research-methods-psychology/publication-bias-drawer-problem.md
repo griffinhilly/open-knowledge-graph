@@ -11,7 +11,7 @@ tags:
 - publication
 - meta-science
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Publication Bias and the File Drawer Problem

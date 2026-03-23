@@ -14,7 +14,7 @@ tags:
 - division
 - number-sense
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Estimation in Multiplication and Division

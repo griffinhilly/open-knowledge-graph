@@ -16,7 +16,7 @@ tags:
 - columns
 - layers
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cortical Organization and Columns

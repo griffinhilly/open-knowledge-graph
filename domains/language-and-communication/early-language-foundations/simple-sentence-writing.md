@@ -17,7 +17,7 @@ tags:
 - capitalization
 - periods
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Simple Sentence Writing

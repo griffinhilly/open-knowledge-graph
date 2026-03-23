@@ -15,7 +15,7 @@ tags:
 - kernel
 - homogeneous-solutions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Null Space and Kernel

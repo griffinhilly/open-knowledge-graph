@@ -13,7 +13,7 @@ tags:
 - definition
 - notation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Matrices: Definition, Notation, and Special Types

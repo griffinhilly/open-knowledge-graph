@@ -19,7 +19,7 @@ tags:
 - climate
 - geography
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Biomes Overview
 

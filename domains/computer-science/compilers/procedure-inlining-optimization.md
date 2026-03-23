@@ -15,7 +15,7 @@ tags:
 - inlining
 - procedure-calls
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Procedure Inlining Optimization

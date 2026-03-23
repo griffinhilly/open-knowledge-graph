@@ -17,7 +17,7 @@ tags:
 - temporal
 - narrative
 stage: expert
-status: draft
+status: validated
 ---
 
 # Longitudinal Qualitative Research Design

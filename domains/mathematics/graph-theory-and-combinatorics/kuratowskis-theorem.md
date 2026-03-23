@@ -13,7 +13,7 @@ tags:
 - graph-theory
 - planar-graphs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kuratowski's Theorem and Forbidden Minors

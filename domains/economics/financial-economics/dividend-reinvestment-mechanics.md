@@ -14,7 +14,7 @@ tags:
 - taxes
 - returns
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Dividend Reinvestment Plans (DRIPs) and Capital Gains

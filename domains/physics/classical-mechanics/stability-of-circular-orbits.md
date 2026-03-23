@@ -14,7 +14,7 @@ tags:
 - gravitation
 - dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stability of Circular Orbits

@@ -12,7 +12,7 @@ tags:
 - fundamental
 - conservation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Elementary Charge and Charge Conservation

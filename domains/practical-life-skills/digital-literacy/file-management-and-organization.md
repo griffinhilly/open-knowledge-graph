@@ -17,7 +17,7 @@ tags:
 - organization
 - naming-conventions
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # File Management and Organization

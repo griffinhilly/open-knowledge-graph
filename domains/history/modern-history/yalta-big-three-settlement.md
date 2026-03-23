@@ -18,7 +18,7 @@ tags:
 - Roosevelt-Stalin-Churchill
 - settlement
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Yalta Conference and the Big Three Settlement

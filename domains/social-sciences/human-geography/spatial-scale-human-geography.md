@@ -14,7 +14,7 @@ tags:
 - methodology
 - foundation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Spatial Scale and Geographic Analysis

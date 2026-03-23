@@ -16,7 +16,7 @@ tags:
 - preservation
 - homomorphisms
 stage: expert
-status: draft
+status: validated
 ---
 
 # Universal Formulas and Preservation under Substructures

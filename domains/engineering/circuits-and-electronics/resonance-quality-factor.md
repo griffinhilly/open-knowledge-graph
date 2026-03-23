@@ -15,7 +15,7 @@ tags:
 - selectivity
 - damping
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Resonance and Quality Factor in RLC Circuits

@@ -13,7 +13,7 @@ tags:
 - specialization
 - comparative-advantage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Comparative Advantage and Gains from Trade

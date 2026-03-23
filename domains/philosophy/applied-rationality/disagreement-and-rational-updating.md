@@ -12,7 +12,7 @@ prerequisites:
     type: soft
 tags: ["epistemics", "disagreement", "aumann", "updating", "social-epistemology"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

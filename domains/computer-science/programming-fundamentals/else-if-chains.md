@@ -4,18 +4,21 @@ title: Else-If Chains and Multiple Conditions
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- id: conditional-statements-branching
+- id: conditional-statements
+  type: hard
+- id: comparison-operators
   type: hard
 builds-toward:
 - switch-statements
+- switch-statements-and-pattern-matching
+- loop-design-and-invariants
 tags:
 - control-flow
 - conditionals
 - chains
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Else-If Chains and Multiple Conditions
 
 ## Core Idea

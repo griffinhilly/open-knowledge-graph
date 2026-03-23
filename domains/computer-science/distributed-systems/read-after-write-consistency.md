@@ -13,7 +13,7 @@ tags:
 - session-consistency
 - guarantees
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Read-After-Write Consistency

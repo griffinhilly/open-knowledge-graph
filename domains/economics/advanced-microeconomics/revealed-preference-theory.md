@@ -15,7 +15,7 @@ tags:
 - choice-theory
 - axioms
 stage: expert
-status: draft
+status: validated
 ---
 
 # Revealed Preference Theory: Preference Recovery from Choices

@@ -17,7 +17,7 @@ tags:
 - graph-coloring
 - backend
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Graph Coloring Register Allocation

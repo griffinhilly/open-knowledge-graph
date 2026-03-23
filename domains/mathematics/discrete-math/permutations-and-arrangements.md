@@ -13,7 +13,7 @@ tags:
 - combinatorics
 - permutations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Permutations and Ordered Arrangements

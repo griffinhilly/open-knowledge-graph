@@ -13,7 +13,7 @@ tags:
 - meter
 - prosody
 stage: expert
-status: draft
+status: validated
 ---
 
 # Metrical Feet and Stress Systems

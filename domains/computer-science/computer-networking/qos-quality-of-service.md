@@ -14,7 +14,7 @@ tags:
 - latency
 - jitter
 stage: advanced
-status: draft
+status: validated
 ---
 
 # QoS: Quality of Service

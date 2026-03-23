@@ -16,7 +16,7 @@ tags:
 - van-der-waals
 - potential
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Intermolecular Forces and Lennard-Jones Potential

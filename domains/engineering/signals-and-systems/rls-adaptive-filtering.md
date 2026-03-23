@@ -12,7 +12,7 @@ tags:
 - least-squares
 - convergence
 stage: expert
-status: draft
+status: validated
 ---
 
 # Recursive Least-Squares Adaptive Filtering

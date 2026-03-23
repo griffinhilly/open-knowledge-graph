@@ -14,7 +14,7 @@ tags:
 - writing
 - decipherment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Indus Script: Undeciphered Writing System

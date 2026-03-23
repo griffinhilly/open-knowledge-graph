@@ -15,7 +15,7 @@ tags:
 - photosynthesis
 - productivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Marine Phytoplankton and Primary Production

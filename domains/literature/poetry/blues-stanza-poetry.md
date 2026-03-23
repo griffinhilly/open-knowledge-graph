@@ -17,7 +17,7 @@ tags:
 - vernacular
 - musical
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Blues Stanza and Poetry

@@ -20,7 +20,7 @@ tags:
 - inference
 - deduction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Deductive Reasoning and Formal Proof Systems

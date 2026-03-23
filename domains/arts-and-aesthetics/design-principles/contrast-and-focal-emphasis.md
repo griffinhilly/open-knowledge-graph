@@ -15,7 +15,7 @@ tags:
 - focal-point
 - visual-interest
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Contrast and Focal Emphasis

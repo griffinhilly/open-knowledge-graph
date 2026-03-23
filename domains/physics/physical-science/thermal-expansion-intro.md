@@ -13,7 +13,7 @@ tags:
 - heating
 - materials
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Thermal Expansion
 

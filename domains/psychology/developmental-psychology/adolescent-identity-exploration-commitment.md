@@ -16,7 +16,7 @@ tags:
 - commitment
 - exploration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Adolescent Identity Exploration and Commitment

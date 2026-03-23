@@ -14,7 +14,7 @@ tags:
 - operators
 - derivatives
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Partial Derivatives and Partial Differential Operators

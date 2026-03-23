@@ -16,7 +16,7 @@ tags:
 - DELETE
 - modification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # SQL: INSERT, UPDATE, and DELETE (DML)

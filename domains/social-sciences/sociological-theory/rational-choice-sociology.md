@@ -18,7 +18,7 @@ tags:
 - utility
 - self-interest
 stage: expert
-status: draft
+status: validated
 ---
 
 # Rational Choice Theory in Sociology

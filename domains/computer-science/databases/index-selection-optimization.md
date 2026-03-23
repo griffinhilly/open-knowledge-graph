@@ -14,7 +14,7 @@ tags:
 - composite index
 - selectivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Index Design and Selection Strategy

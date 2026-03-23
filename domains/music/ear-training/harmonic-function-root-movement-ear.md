@@ -22,7 +22,7 @@ tags:
 - voice-leading
 - progression
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Function and Root Movement by Ear

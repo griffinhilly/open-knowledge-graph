@@ -17,7 +17,7 @@ tags:
 - timestamp-ordering
 - validation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Optimistic Concurrency Control and Timestamp Ordering

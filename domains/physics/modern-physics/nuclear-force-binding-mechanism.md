@@ -14,7 +14,7 @@ tags:
 - strong-force
 - binding
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Strong Nuclear Force and Nuclear Binding

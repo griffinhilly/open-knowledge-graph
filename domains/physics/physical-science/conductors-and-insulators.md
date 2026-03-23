@@ -13,7 +13,7 @@ tags:
 - insulators
 - materials
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Conductors and Insulators
 

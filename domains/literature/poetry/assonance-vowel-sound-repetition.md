@@ -15,7 +15,7 @@ tags:
 - phonetics
 - musicality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Assonance and Vowel Sound Repetition

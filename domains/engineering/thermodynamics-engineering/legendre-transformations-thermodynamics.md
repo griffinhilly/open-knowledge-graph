@@ -18,7 +18,7 @@ tags:
 - natural-variables
 - conjugate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Legendre Transformations and Thermodynamic Potentials

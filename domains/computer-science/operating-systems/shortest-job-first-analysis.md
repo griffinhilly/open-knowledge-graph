@@ -13,7 +13,7 @@ tags:
 - sjf
 - optimal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Shortest Job First: Optimality and Practicality

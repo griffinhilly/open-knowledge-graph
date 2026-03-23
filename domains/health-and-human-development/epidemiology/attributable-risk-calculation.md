@@ -15,7 +15,7 @@ tags:
 - public-health-impact
 - prevention
 stage: expert
-status: draft
+status: validated
 ---
 
 # Attributable Risk and Population Attributable Fraction

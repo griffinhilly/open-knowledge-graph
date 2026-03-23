@@ -15,7 +15,7 @@ tags:
 - productivity
 - input-productivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Marginal Product and Diminishing Returns

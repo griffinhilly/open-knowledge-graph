@@ -14,7 +14,7 @@ tags:
 - matrix
 - multiphase
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Composite Materials: Structure and Performance

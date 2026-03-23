@@ -16,7 +16,7 @@ tags:
 - statistics
 - inference
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sufficient Statistics

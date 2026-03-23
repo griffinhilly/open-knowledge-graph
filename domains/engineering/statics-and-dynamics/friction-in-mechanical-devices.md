@@ -16,7 +16,7 @@ tags:
 - brakes
 - self-locking
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Friction in Mechanical Devices

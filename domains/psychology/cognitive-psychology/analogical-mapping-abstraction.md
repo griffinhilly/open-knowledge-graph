@@ -16,7 +16,7 @@ tags:
 - problem-solving
 - transfer
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Analogical Mapping and Structural Abstraction in Reasoning

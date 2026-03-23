@@ -18,7 +18,7 @@ tags:
 - validity
 - causal-criteria
 stage: expert
-status: draft
+status: validated
 ---
 
 # Confounding: Definition, Identification, and Causal Criteria

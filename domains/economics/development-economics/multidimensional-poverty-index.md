@@ -13,7 +13,7 @@ tags:
 - measurement
 - multidimensional
 stage: expert
-status: draft
+status: validated
 ---
 
 # Multidimensional Poverty Index

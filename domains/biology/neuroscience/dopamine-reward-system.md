@@ -15,7 +15,7 @@ tags:
 - motivation
 - movement
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dopaminergic Pathways: Reward, Motivation, and Motor Control

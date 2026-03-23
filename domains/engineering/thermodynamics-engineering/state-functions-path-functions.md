@@ -18,7 +18,7 @@ tags:
 - differentials
 - exactness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # State Functions and Path Functions in Thermodynamics

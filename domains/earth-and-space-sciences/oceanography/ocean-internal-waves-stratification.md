@@ -17,7 +17,7 @@ tags:
 - mixing
 - energy-transfer
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Internal Waves and Stratified Flow

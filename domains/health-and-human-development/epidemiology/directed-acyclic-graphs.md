@@ -17,7 +17,7 @@ tags:
 - graphical-models
 - confounder-selection
 stage: expert
-status: draft
+status: validated
 ---
 
 # Directed Acyclic Graphs for Causal Modeling

@@ -13,7 +13,7 @@ tags:
 - proof
 - complete
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Strong Induction

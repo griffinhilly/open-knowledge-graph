@@ -16,7 +16,7 @@ tags:
 - turbines
 - continuous-combustion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Brayton Cycle and Gas Turbines

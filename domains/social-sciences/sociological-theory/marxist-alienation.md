@@ -15,7 +15,7 @@ tags:
 - labor
 - capitalism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Alienation in Marxist Theory

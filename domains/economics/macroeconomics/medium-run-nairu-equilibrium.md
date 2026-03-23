@@ -16,7 +16,7 @@ tags:
 - unemployment
 - inflation-stability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Medium-Run Equilibrium at the NAIRU

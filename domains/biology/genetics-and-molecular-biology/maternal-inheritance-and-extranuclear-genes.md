@@ -18,7 +18,7 @@ tags:
 - chloroplast-dna
 - heteroplasmy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Maternal Inheritance and Extranuclear (Cytoplasmic) Genes

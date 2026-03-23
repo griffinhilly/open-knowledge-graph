@@ -16,7 +16,7 @@ tags:
 - retarded
 - potentials
 stage: expert
-status: draft
+status: validated
 ---
 
 # Retarded Potentials and Causality

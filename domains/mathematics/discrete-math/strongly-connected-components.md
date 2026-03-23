@@ -16,7 +16,7 @@ tags:
 - connectivity
 - components
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Strongly Connected Components

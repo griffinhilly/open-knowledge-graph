@@ -15,7 +15,7 @@ tags:
 - heat-transfer
 - calculation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Heat Transfer Calculations: Q = mcΔT
 

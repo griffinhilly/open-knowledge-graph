@@ -17,7 +17,7 @@ tags:
 - diffusion
 - adaptation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cultural Change: Innovation, Diffusion, and Adaptation

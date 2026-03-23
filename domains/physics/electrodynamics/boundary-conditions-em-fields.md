@@ -16,7 +16,7 @@ tags:
 - conductors
 - dielectrics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Boundary Conditions at Conducting and Dielectric Interfaces

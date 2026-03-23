@@ -17,7 +17,7 @@ tags:
 - visual
 - auditory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Imagery and Sensory Language

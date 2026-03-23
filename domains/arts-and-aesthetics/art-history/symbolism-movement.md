@@ -18,7 +18,7 @@ tags:
 - dream
 - psychological
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Symbolism and the Retreat from Realism

@@ -22,7 +22,7 @@ tags:
 - force-multiplication
 - efficiency
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Mechanical Advantage (Quantitative)
 

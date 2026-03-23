@@ -13,7 +13,7 @@ tags:
 - injective
 - surjective
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Injective, Surjective, and Bijective Functions

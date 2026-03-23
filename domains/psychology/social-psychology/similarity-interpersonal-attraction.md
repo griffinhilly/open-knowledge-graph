@@ -17,7 +17,7 @@ tags:
 - values
 - relationships
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Similarity and Interpersonal Attraction

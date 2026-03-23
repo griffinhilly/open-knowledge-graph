@@ -14,7 +14,7 @@ tags:
 - density-matrices
 - mixed-states
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Density Matrices and the Density Operator

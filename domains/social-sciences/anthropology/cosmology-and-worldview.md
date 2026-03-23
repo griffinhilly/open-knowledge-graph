@@ -17,7 +17,7 @@ tags:
 - belief-systems
 - ontology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cosmology and Worldview Systems

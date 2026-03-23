@@ -16,7 +16,7 @@ tags:
 - context
 - convention
 stage: expert
-status: draft
+status: validated
 ---
 
 # Institutional Theory of Art

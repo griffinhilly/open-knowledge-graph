@@ -15,7 +15,7 @@ tags:
 - purchasing-power
 - economics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inflation and Purchasing Power Planning

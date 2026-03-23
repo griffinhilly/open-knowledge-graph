@@ -20,7 +20,7 @@ tags:
 - iron-limitation
 - redox-chemistry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nutrient Cycling and Biogeochemistry in the Ocean

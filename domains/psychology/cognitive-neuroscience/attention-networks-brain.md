@@ -15,7 +15,7 @@ tags:
 - networks
 - control
 stage: expert
-status: draft
+status: validated
 ---
 
 # Distributed Networks of Attention

@@ -19,7 +19,7 @@ tags:
 - river-input
 - ice
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Salinity Distribution and Sources and Sinks

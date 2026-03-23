@@ -13,7 +13,7 @@ tags:
 - pairing
 - condensed-matter
 stage: expert
-status: draft
+status: validated
 ---
 
 # Superconductivity and BCS Theory

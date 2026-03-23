@@ -17,7 +17,7 @@ tags:
 - analog-clock
 - skip-counting
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Telling Time to Five-Minute Intervals

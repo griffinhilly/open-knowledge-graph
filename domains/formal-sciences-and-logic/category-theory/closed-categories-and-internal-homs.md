@@ -18,7 +18,7 @@ tags:
 - internal-hom
 - curry-howard
 stage: expert
-status: draft
+status: validated
 ---
 
 # Closed Categories and Internal Hom-objects

@@ -16,7 +16,7 @@ tags:
 - migration
 - population-differentiation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gene Flow and Population Genetic Structure

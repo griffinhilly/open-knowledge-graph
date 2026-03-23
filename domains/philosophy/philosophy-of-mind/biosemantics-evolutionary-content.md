@@ -18,7 +18,7 @@ tags:
 - intentionality
 - representation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Biosemantics: Evolutionary Grounding of Content

@@ -12,7 +12,7 @@ tags:
 - nuclear-physics
 - radiation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Gamma Radiation and Nuclear Transitions

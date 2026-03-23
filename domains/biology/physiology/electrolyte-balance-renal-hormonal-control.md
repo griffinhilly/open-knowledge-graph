@@ -14,7 +14,7 @@ tags:
 - potassium
 - hormonal control
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electrolyte Balance and Renal-Hormonal Control

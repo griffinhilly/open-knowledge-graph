@@ -18,7 +18,7 @@ tags:
 - progressive-renal-failure
 - nephron-loss
 stage: expert
-status: draft
+status: validated
 ---
 
 # Chronic Kidney Disease and Progressive Renal Failure

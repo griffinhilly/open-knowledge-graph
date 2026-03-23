@@ -15,7 +15,7 @@ tags:
 - row-reduction
 - normal-form
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Row Echelon Form and Reduced Row Echelon Form

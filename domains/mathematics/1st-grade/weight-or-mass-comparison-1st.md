@@ -16,7 +16,7 @@ tags:
 - weight
 - comparison
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Comparing Weight or Mass

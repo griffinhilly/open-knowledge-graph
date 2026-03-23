@@ -18,7 +18,7 @@ tags:
 - binding
 - scope
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Open and Closed Formulas in First-Order Logic

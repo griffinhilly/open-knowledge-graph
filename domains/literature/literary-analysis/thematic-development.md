@@ -18,7 +18,7 @@ tags:
 - analysis
 - meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tracing Thematic Development Across a Text

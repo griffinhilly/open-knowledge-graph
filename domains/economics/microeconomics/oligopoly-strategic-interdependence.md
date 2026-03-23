@@ -15,7 +15,7 @@ tags:
 - interdependence
 - game-theory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Oligopoly and Strategic Interdependence

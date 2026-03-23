@@ -15,7 +15,7 @@ tags:
 - audience
 - communication
 stage: expert
-status: draft
+status: validated
 ---
 
 # Public History: History Beyond the Academy

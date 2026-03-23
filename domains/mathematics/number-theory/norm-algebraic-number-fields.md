@@ -15,7 +15,7 @@ tags:
 - field-extension
 - multiplicative
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Norm in Algebraic Number Fields

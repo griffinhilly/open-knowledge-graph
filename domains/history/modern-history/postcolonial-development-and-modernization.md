@@ -16,7 +16,7 @@ tags:
 - development
 - modernization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Postcolonial Nation-Building and Development

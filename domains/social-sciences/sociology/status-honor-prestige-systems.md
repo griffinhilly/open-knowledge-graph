@@ -15,7 +15,7 @@ tags:
 - esteem
 - weber
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Status, Honor, and Prestige Systems

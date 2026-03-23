@@ -16,7 +16,7 @@ tags:
 - tense
 - formal-semantics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Viewpoint Aspect (Perfective and Imperfective)

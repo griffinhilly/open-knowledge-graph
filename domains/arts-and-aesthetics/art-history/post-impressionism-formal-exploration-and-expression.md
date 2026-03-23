@@ -19,7 +19,7 @@ tags:
 - symbolism
 - modernism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Post-Impressionism: Formal Exploration and Expression

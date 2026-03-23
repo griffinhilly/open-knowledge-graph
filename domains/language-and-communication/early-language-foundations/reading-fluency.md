@@ -16,7 +16,7 @@ tags:
 - expression
 - prosody
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Reading Fluency

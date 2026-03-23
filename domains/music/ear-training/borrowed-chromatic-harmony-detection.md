@@ -17,7 +17,7 @@ tags:
 - chromatic
 - chromaticism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Borrowed Chords and Chromatic Harmony Detection

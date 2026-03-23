@@ -16,7 +16,7 @@ tags:
 - rule-following
 - public-criteria
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Private Language Argument

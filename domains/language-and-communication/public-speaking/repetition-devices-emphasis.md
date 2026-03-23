@@ -14,7 +14,7 @@ tags:
 - rhetoric
 - emphasis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Repetition Devices and Rhetorical Emphasis

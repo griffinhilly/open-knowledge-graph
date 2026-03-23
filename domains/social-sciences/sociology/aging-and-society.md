@@ -18,7 +18,7 @@ tags:
 - older-adults
 - life-course
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Aging and Society: Gerontological Perspectives

@@ -15,7 +15,7 @@ tags:
 - ideal-sources
 - source-characteristics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voltage and Current Source Characteristics

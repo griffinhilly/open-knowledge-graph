@@ -13,7 +13,7 @@ tags:
 - carmichael
 - prime-testing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Carmichael Function and Carmichael Numbers

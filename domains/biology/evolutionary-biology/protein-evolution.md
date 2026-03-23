@@ -19,7 +19,7 @@ tags:
 - selection
 - amino-acids
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Protein Evolution and Functional Constraint

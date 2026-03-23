@@ -17,7 +17,7 @@ tags:
 - air quality
 - hvac
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # HVAC System Components and Operation

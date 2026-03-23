@@ -17,7 +17,7 @@ tags:
 - acceptance-modes
 - formal-definition
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Pushdown Automata and Equivalence to CFGs

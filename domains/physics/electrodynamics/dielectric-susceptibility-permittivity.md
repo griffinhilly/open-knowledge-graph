@@ -16,7 +16,7 @@ tags:
 - polarization
 - constitutive-relations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dielectric Susceptibility and Permittivity

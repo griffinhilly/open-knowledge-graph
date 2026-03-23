@@ -14,7 +14,7 @@ tags:
 - coloring
 - bounds
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chromatic Number: Bounds and Algorithms

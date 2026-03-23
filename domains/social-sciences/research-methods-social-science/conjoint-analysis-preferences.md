@@ -19,7 +19,7 @@ tags:
 - experimental
 - choice-modeling
 stage: expert
-status: draft
+status: validated
 ---
 
 # Conjoint Analysis and Stated Preference Methods

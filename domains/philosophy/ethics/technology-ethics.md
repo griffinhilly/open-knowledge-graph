@@ -17,7 +17,7 @@ tags:
 - algorithmic-fairness
 - digital-rights
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Technology Ethics

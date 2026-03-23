@@ -18,7 +18,7 @@ tags:
 - acidosis
 - lipolysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Diabetic Ketoacidosis: Uncontrolled Lipolysis, Ketone Production, and Metabolic Acidosis

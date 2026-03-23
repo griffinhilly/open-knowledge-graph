@@ -22,7 +22,7 @@ tags:
 - binding
 - cooperativity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Oxygen-Hemoglobin Binding Cooperativity and the Oxygen Dissociation Curve

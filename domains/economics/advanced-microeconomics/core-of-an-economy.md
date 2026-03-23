@@ -12,7 +12,7 @@ tags:
 - general-equilibrium
 - coalition-formation
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Core of an Economy

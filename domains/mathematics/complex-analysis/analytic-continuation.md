@@ -11,7 +11,7 @@ tags:
 - extension
 - identity-theorem
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Analytic Continuation

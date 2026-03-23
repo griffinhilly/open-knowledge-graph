@@ -11,7 +11,7 @@ tags:
 - cycles
 - element-distribution
 stage: expert
-status: draft
+status: validated
 ---
 
 # Geochemical Cycles and Element Redistribution

@@ -13,7 +13,7 @@ tags:
 - moving-charges
 - applications
 stage: expert
-status: draft
+status: validated
 ---
 
 # Applications of Lienard-Wiechert Potentials

@@ -12,7 +12,7 @@ tags:
 - skip-counting
 - patterns
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Skip Counting by 2s

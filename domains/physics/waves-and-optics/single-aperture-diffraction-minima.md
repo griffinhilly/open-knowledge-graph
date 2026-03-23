@@ -13,7 +13,7 @@ tags:
 - diffraction
 - waves
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Single-Slit Diffraction and Diffraction Patterns

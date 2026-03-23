@@ -19,7 +19,7 @@ tags:
 - feedback-resistor
 - transimpedance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inverting Amplifier Analysis

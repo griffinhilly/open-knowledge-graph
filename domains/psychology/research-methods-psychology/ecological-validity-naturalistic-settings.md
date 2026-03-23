@@ -19,7 +19,7 @@ tags:
 - field-research
 - naturalistic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ecological Validity and Real-World Authenticity

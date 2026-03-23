@@ -16,7 +16,7 @@ tags:
 - geography
 - society
 stage: formal-systems
-status: draft
+status: validated
 ---
 # The Nile, Agriculture, and Egyptian Civilization
 

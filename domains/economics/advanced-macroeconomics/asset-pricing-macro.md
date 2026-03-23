@@ -15,7 +15,7 @@ tags:
 - returns
 - macroeconomy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Asset Pricing and Macroeconomic Implications

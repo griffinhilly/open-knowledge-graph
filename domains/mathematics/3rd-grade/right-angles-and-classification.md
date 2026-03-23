@@ -13,7 +13,7 @@ tags:
 - geometry
 - classification
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Right Angles and Angle Classification

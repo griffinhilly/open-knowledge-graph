@@ -17,7 +17,7 @@ tags:
 - systems
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pipe Network Analysis: Series and Parallel Configurations

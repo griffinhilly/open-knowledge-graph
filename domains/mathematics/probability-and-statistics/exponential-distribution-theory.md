@@ -12,7 +12,7 @@ tags:
 - exponential
 - waiting-time
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Exponential Distribution: Waiting Times and Lifetimes

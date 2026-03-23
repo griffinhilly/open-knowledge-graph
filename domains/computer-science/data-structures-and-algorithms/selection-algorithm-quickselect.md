@@ -13,7 +13,7 @@ tags:
 - algorithms
 - linear-time
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Selection Algorithms: Finding the kth Smallest Element

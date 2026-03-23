@@ -15,7 +15,7 @@ tags:
 - plant types
 - classification
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Trees, Shrubs, and Herbs

@@ -16,7 +16,7 @@ tags:
 - model-learning
 - world-models
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Model-Based Reinforcement Learning

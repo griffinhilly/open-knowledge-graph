@@ -14,7 +14,7 @@ tags:
 - will
 - metaphysics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Schopenhauer: Music as the Metaphysics of the Will

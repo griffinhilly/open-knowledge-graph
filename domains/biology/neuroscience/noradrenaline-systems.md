@@ -13,7 +13,7 @@ tags:
 - noradrenaline
 - arousal
 stage: expert
-status: draft
+status: validated
 ---
 
 # Noradrenergic System: Arousal and Attention

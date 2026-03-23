@@ -14,7 +14,7 @@ tags:
 - game-theory
 - repeated-interaction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Repeated Games and Trigger Strategies

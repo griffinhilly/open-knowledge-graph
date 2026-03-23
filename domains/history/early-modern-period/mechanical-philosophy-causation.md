@@ -18,7 +18,7 @@ tags:
 - worldview
 - epistemology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mechanical Philosophy and Material Causation

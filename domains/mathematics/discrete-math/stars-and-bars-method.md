@@ -12,7 +12,7 @@ tags:
 - combinatorics
 - counting
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stars and Bars: Combinatorial Method for Distributions

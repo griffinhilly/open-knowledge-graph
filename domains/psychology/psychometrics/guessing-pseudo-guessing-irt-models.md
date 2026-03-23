@@ -16,7 +16,7 @@ tags:
 - irt
 - pseudo-guessing
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Guessing Parameter and Three-Parameter IRT Models

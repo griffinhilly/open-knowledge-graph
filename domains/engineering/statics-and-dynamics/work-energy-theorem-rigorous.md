@@ -14,7 +14,7 @@ tags:
 - energy
 - theorem
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Work-Energy Theorem: Rigorous Derivation and Applications

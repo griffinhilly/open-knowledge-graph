@@ -16,7 +16,7 @@ tags:
 - debt
 - deficit
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Government Deficits and Debt Dynamics

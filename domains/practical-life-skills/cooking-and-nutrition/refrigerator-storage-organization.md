@@ -14,7 +14,7 @@ tags:
 - organization
 - refrigeration
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Proper Food Storage and Refrigerator Organization

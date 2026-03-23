@@ -15,7 +15,7 @@ tags:
 - philosophy
 - consciousness
 stage: expert
-status: draft
+status: validated
 ---
 
 # Historicism and Historical Consciousness

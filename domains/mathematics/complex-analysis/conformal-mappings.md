@@ -15,7 +15,7 @@ tags:
 - angle-preserving
 - geometry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Conformal Mappings

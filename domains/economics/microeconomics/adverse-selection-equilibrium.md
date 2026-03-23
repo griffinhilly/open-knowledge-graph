@@ -11,7 +11,7 @@ tags:
 - adverse selection
 - equilibrium
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Adverse Selection and Market Equilibrium

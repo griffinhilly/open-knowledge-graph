@@ -16,7 +16,7 @@ tags:
 - distant-reading
 - computational
 stage: expert
-status: draft
+status: validated
 ---
 
 # Digital Humanities and Computational Literary Analysis

@@ -17,7 +17,7 @@ tags:
 - line
 - independence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Melody Writing as Independent Line

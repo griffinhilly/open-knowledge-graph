@@ -16,7 +16,7 @@ tags:
 - stagflation
 - prices
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Supply Shocks and Their Aggregate Effects

@@ -15,7 +15,7 @@ tags:
 - infinite
 - aleph-0
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Countably Infinite Sets

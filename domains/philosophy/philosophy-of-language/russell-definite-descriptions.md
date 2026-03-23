@@ -22,7 +22,7 @@ tags:
 - reference
 - logical-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Russell's Theory of Definite Descriptions

@@ -19,7 +19,7 @@ tags:
 - forcing
 - masking
 stage: expert
-status: draft
+status: validated
 ---
 
 # Anthropogenic Aerosol Climate Effects

@@ -13,7 +13,7 @@ tags:
 - statements
 - foundations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Truth Values and Statements

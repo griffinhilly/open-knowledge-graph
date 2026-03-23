@@ -20,7 +20,7 @@ tags:
 - savings
 - optimization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Household Optimization and Consumption-Savings Decisions

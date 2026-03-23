@@ -13,7 +13,7 @@ tags:
 - solvability
 - radicals
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Insolvability of the Quintic

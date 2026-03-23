@@ -16,7 +16,7 @@ tags:
 - feedback
 - ux
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Micro-Interactions and User Feedback

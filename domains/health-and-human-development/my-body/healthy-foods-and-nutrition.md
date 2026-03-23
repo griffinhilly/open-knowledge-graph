@@ -14,7 +14,7 @@ tags:
 - healthy eating
 - food groups
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Healthy Foods and Nutrition Basics

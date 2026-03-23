@@ -17,7 +17,7 @@ tags:
 - harmonic-function
 - chord-recognition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Function Recognition by Ear

@@ -13,7 +13,7 @@ tags:
 - indexing
 - database
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # B-Trees: Multi-Level Indexing and Database Applications

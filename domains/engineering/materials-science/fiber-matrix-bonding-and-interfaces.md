@@ -17,7 +17,7 @@ tags:
 - bonding
 - mechanical-interlocking
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fiber-Matrix Bonding and Interfaces in Composites

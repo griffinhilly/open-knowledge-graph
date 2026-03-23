@@ -13,7 +13,7 @@ tags:
 - vector field
 - charge flow
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Current Density and Current Distribution

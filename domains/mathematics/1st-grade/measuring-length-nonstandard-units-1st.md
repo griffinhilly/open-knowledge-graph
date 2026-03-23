@@ -16,7 +16,7 @@ tags:
 - length
 - non-standard-units
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Measuring Length with Non-Standard Units

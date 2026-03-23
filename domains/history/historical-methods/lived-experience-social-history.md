@@ -18,7 +18,7 @@ tags:
 - methodology
 - non-elites
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reconstructing Lived Experience and Social History

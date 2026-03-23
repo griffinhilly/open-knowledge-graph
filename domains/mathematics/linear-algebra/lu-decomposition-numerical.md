@@ -13,7 +13,7 @@ tags:
 - forward-substitution
 - numerical-methods
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # LU Decomposition and Forward/Back Substitution

@@ -15,7 +15,7 @@ tags:
 - flow
 - eye-movement
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Movement, Rhythm, and Flow in Design

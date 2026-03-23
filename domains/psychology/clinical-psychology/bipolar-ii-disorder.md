@@ -14,7 +14,7 @@ tags:
 - bipolar II
 - hypomania
 stage: expert
-status: draft
+status: validated
 ---
 
 # Bipolar II Disorder and Hypomanic Episodes

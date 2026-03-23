@@ -19,7 +19,7 @@ tags:
 - heat-uptake
 - near-term-warming
 stage: expert
-status: draft
+status: validated
 ---
 
 # Transient Climate Response to Forcing

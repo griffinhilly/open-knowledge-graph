@@ -15,7 +15,7 @@ tags:
 - education
 - inequality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Cultural Reproduction and Educational Systems

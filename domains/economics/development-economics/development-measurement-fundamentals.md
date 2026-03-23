@@ -16,7 +16,7 @@ tags:
 - welfare
 - development-indicators
 stage: expert
-status: draft
+status: validated
 ---
 
 # Development Measurement: Beyond GDP

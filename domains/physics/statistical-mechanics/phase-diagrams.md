@@ -13,7 +13,7 @@ tags:
 - coexistence
 - thermodynamics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Phase Diagrams and Phase Boundaries

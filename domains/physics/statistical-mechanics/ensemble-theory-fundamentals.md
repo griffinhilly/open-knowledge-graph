@@ -17,7 +17,7 @@ tags:
 - probability
 - foundations
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ensemble Theory Fundamentals

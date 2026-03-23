@@ -15,7 +15,7 @@ tags:
 - image-size
 - angular-size
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linear and Angular Magnification in Optical Systems

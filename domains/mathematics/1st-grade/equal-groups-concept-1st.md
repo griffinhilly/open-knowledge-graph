@@ -16,7 +16,7 @@ tags:
 - grouping
 - equal-groups
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Equal Groups Concept

@@ -15,7 +15,7 @@ tags:
 - computation
 - function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Functionalism: Mind as Function

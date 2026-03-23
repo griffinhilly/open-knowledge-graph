@@ -15,7 +15,7 @@ tags:
 - parsing
 - expressions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stack Applications: Expression Evaluation and Parsing

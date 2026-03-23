@@ -17,7 +17,7 @@ tags:
 - horizons
 - geology
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Layers of Soil

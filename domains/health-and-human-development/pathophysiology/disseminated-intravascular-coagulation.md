@@ -13,7 +13,7 @@ tags:
 - coagulopathy
 - systemic-thrombosis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Disseminated Intravascular Coagulation (DIC)

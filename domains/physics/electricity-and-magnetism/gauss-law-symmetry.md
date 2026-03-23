@@ -13,7 +13,7 @@ tags:
 - flux
 - symmetry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gauss's Law and Symmetry Applications

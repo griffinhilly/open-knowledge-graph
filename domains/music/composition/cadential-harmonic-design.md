@@ -20,7 +20,7 @@ tags:
 - harmonic-function
 - closure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cadential Harmonic Design

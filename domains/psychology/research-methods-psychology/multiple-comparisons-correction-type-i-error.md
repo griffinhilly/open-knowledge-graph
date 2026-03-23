@@ -24,7 +24,7 @@ tags:
 - multiple-comparisons
 - correction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multiple Comparisons and Type I Error Rate Control

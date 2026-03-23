@@ -13,7 +13,7 @@ tags:
 - uniform-convergence
 - analytic
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Uniform Convergence of Power Series

@@ -13,7 +13,7 @@ tags:
 - polar-coordinates
 - jacobian
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Double Integrals in Polar Coordinates

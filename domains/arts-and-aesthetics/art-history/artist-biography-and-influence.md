@@ -14,7 +14,7 @@ tags:
 - influence
 - personality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Artist Biography and Historical Influence

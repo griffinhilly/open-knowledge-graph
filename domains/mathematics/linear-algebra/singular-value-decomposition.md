@@ -14,7 +14,7 @@ tags:
 - singular-values
 - decomposition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Singular Value Decomposition (SVD)

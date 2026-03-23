@@ -19,7 +19,7 @@ tags:
 - reduction
 - neural
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Token-Identity Theory

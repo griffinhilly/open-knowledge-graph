@@ -14,7 +14,7 @@ tags:
 - principal-part
 - singularities
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Laurent Series

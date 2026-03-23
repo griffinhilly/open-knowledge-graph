@@ -14,7 +14,7 @@ tags:
 - embeddings
 - latent-features
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Representation Learning

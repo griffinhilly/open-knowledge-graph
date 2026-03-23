@@ -15,7 +15,7 @@ tags:
 - performance
 - search
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Database Indexing: Structures and Performance

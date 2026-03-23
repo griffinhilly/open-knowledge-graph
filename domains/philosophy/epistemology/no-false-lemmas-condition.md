@@ -14,7 +14,7 @@ tags:
 - knowledge
 - false-lemmas
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The No False Lemmas Condition

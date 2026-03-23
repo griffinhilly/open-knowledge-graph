@@ -15,7 +15,7 @@ tags:
 - polyphony
 - technique
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fugue and Baroque Polyphony Peak

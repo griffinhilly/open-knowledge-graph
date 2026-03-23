@@ -14,7 +14,7 @@ tags:
 - gwas
 - gene-environment-interaction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Genetic Epidemiology: Heritability and Gene-Environment Interaction

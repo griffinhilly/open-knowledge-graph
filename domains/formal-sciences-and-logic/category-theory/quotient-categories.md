@@ -14,7 +14,7 @@ tags:
 - equivalence-relations
 - morphism-identification
 stage: expert
-status: draft
+status: validated
 ---
 # Quotient Categories
 

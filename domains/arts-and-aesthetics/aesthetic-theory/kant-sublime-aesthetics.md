@@ -14,7 +14,7 @@ tags:
 - overwhelm
 - greatness
 stage: expert
-status: draft
+status: validated
 ---
 
 # Kant: The Sublime

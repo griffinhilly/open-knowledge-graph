@@ -14,7 +14,7 @@ tags:
 - colors
 - filters
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Photometric Magnitude Systems and Color Indices

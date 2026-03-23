@@ -16,7 +16,7 @@ tags:
 - epigenetics
 - individual-differences
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gene-Environment Interactions in Development

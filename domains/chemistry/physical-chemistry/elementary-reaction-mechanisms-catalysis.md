@@ -16,7 +16,7 @@ tags:
 - catalysis
 - elementary-steps
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Elementary Reaction Mechanisms and Catalysis

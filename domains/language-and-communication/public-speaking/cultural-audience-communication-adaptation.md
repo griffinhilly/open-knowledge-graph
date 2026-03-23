@@ -15,7 +15,7 @@ tags:
 - cross-cultural
 - values
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Adapting Speech to Cultural Values and Communication Norms

@@ -12,7 +12,7 @@ tags:
 - combinatorics
 - multinomial
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Multinomial Theorem and Multinomial Coefficients

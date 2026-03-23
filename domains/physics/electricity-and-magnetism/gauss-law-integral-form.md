@@ -16,7 +16,7 @@ tags:
 - symmetry
 - charge
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gauss's Law: Integral Form and Meaning

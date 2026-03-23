@@ -16,7 +16,7 @@ tags:
 - public-speaking
 - communication
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Oral Presentation Basics

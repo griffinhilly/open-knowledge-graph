@@ -17,7 +17,7 @@ tags:
 - gradient
 - directional-derivative
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Directional Derivatives and the Gradient

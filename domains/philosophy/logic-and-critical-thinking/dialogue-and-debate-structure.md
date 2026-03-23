@@ -15,7 +15,7 @@ tags:
 - debate
 - reasoning-with-others
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dialogue and Debate Structure

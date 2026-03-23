@@ -15,7 +15,7 @@ tags:
 - universality
 - computation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Turing Machine Completeness

@@ -14,7 +14,7 @@ tags:
 - antenna-gain
 - beamwidth
 stage: expert
-status: draft
+status: validated
 ---
 
 # Radiation Directivity and Antenna Patterns

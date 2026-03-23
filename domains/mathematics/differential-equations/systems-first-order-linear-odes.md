@@ -18,7 +18,7 @@ tags:
 - matrix-form
 - fundamental
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Systems of First-Order Linear Differential Equations

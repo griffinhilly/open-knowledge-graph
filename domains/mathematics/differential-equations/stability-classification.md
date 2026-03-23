@@ -13,7 +13,7 @@ tags:
 - equilibrium
 - classification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stability Classification of Linear Systems

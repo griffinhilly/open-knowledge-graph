@@ -16,7 +16,7 @@ tags:
 - logic
 - rules
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fantasy Worldbuilding: Creating Internal Logic

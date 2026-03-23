@@ -18,7 +18,7 @@ tags:
 - necessity
 - semantics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Possible Worlds Framework

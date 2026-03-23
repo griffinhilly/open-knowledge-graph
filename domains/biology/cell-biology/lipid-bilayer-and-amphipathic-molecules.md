@@ -15,7 +15,7 @@ tags:
 - lipids
 - hydrophobic-effect
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Lipid Bilayer Structure and Amphipathic Molecules
 

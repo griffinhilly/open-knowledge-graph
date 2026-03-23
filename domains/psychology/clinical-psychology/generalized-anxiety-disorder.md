@@ -12,7 +12,7 @@ tags:
 - worry
 - uncontrollable
 stage: expert
-status: draft
+status: validated
 ---
 
 # Generalized Anxiety Disorder (GAD)

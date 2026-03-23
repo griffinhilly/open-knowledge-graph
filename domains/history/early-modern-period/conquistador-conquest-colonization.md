@@ -16,7 +16,7 @@ tags:
 - americas
 - indigenous
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conquistadors and the Conquest of the Americas

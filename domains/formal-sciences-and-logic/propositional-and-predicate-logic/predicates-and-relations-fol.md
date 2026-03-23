@@ -18,7 +18,7 @@ tags:
 - first-order-logic
 - predicates
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Predicates and Relations in First-Order Logic

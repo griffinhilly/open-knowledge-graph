@@ -17,7 +17,7 @@ tags:
 - form
 - boundaries
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Musical Phrase Structure and Boundaries

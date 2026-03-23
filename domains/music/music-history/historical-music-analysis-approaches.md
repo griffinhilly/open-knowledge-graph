@@ -13,7 +13,7 @@ tags:
 - methodology
 - interpretation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Historical Music Analysis Approaches

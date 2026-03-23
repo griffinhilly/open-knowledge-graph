@@ -15,7 +15,7 @@ tags:
 - conservative
 - potential
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conservative Vector Fields

@@ -11,7 +11,7 @@ tags:
 - complexity
 - big-o
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Algorithm Analysis and Big-O Notation

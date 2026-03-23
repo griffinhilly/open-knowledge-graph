@@ -15,7 +15,7 @@ tags:
 - Schedule-C
 - freelance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Self-Employment Tax Basics

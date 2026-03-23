@@ -14,7 +14,7 @@ tags:
 - pitch
 - frequency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Semitones and Whole Steps: Interval Building Blocks

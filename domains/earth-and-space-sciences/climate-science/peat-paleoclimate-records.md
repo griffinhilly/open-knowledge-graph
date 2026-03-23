@@ -18,7 +18,7 @@ tags:
 - testate-amoebae
 - paleohydrology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Peatlands as Paleoclimate Archives

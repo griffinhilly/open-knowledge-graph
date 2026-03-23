@@ -19,7 +19,7 @@ tags:
 - uniform-distribution
 - collision
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hash Function Design and Properties

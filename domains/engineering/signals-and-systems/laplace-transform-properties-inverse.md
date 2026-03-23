@@ -16,7 +16,7 @@ tags:
 - properties
 - inverse-transform
 stage: expert
-status: draft
+status: validated
 ---
 
 # Laplace Transform Properties and Inverse Transform

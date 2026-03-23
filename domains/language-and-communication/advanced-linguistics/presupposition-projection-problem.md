@@ -13,7 +13,7 @@ tags:
 - pragmatics
 - presupposition
 stage: expert
-status: draft
+status: validated
 ---
 
 # Presupposition and the Projection Problem

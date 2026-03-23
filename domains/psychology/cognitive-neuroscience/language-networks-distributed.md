@@ -13,7 +13,7 @@ tags:
 - networks
 - semantics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Distributed Language Networks

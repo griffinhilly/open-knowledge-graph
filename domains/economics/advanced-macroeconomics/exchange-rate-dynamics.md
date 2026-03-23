@@ -15,7 +15,7 @@ tags:
 - ppp
 - currency
 stage: expert
-status: draft
+status: validated
 ---
 
 # Exchange Rate Dynamics and Purchasing Power Parity

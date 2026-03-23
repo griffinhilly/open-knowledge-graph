@@ -13,7 +13,7 @@ tags:
 - toroid
 - field
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Magnetic Fields in Solenoids and Toroids

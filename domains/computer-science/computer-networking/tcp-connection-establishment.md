@@ -15,7 +15,7 @@ tags:
 - connection-setup
 - tcp-states
 stage: advanced
-status: draft
+status: validated
 ---
 
 # TCP Connection Establishment (Three-Way Handshake)

@@ -18,7 +18,7 @@ tags:
 - bioavailability
 - safety
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dietary Supplement Evaluation and Efficacy

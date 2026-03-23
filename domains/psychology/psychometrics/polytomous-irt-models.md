@@ -17,7 +17,7 @@ tags:
 - partial-credit
 - graded-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # Polytomous Item Response Theory Models

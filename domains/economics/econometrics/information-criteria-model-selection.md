@@ -14,7 +14,7 @@ tags:
 - aic
 - bic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Information Criteria: AIC and BIC for Model Selection

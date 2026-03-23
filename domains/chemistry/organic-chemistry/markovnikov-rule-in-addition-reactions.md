@@ -17,7 +17,7 @@ tags:
 - carbocation-stability
 - regiospecific
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Markovnikov's Rule and Regioselectivity in Addition Reactions

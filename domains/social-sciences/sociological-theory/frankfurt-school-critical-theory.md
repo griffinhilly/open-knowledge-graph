@@ -15,7 +15,7 @@ tags:
 - ideology
 - domination
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Frankfurt School and Critical Theory

@@ -18,7 +18,7 @@ tags:
 - cooling
 - heating
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Throttling and the Joule-Thomson Effect

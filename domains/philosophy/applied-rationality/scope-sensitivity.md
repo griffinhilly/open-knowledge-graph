@@ -13,7 +13,7 @@ builds-toward:
   - effective-altruism-and-scope
 tags: ["debiasing", "scope", "scale", "quantitative-reasoning", "altruism"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

@@ -10,7 +10,7 @@ tags:
 - behavioral-economics
 - decision-theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Prospect Theory: Loss Aversion and Reference Dependence

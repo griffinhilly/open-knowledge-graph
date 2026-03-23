@@ -16,7 +16,7 @@ tags:
 - bone-marrow
 - maturation
 stage: expert
-status: draft
+status: validated
 ---
 
 # B Cell Development in the Bone Marrow

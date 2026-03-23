@@ -17,7 +17,7 @@ tags:
 - complexity
 - mental-effort
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cognitive Load and Complexity in Design

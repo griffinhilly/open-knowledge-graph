@@ -15,7 +15,7 @@ tags:
 - description
 - concrete
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sensory Imagery and Description

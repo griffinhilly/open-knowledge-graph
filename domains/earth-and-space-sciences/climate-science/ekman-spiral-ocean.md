@@ -18,7 +18,7 @@ tags:
 - wind-driven
 - spiral
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Ekman Spiral and Wind-Driven Ocean Boundary Layers

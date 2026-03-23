@@ -23,7 +23,7 @@ tags:
 - bicarbonate
 - respiratory-compensation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Acid-Base Homeostasis Physiology

@@ -17,7 +17,7 @@ builds-toward:
   - likelihood-ratios-and-belief-updates
 tags: ["bayesian", "reasoning", "probability", "practice", "belief-updating"]
 stage: advanced
-status: draft
+status: validated
 ---
 
 ## Core Idea

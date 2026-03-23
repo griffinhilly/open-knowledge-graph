@@ -15,7 +15,7 @@ builds-toward:
   - puberty-and-adolescent-physical-development
 tags: [growth, development, puberty, adolescence, hormones]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Puberty Basics

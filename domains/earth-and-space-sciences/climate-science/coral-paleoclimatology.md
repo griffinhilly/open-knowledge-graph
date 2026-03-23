@@ -18,7 +18,7 @@ tags:
 - skeletal
 - chemistry
 stage: expert
-status: draft
+status: validated
 ---
 
 # Coral Paleoclimatology and Skeletal Geochemistry

@@ -15,7 +15,7 @@ tags:
 - heliocentric
 - scientific-revolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Copernicus and the Heliocentric Model

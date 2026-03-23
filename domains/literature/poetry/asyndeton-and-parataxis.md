@@ -11,7 +11,7 @@ tags:
 - coordination
 - compression
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Asyndeton and Parataxis: Omission and Coordination

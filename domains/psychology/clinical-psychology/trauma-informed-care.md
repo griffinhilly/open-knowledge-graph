@@ -15,7 +15,7 @@ tags:
 - safety
 - empowerment
 stage: expert
-status: draft
+status: validated
 ---
 
 # Trauma-Informed Care and Treatment Principles

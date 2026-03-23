@@ -20,7 +20,7 @@ tags:
 - IL-21
 - antibody-response
 stage: expert
-status: draft
+status: validated
 ---
 
 # Follicular Helper T Cells and Germinal Center Dynamics

@@ -15,7 +15,7 @@ tags:
 - protein-structure
 - energy-coupling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Carrier Proteins and Conformational Change

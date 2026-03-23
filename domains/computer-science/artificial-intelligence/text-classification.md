@@ -15,7 +15,7 @@ tags:
 - text-classification
 - document-classification
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Text Classification

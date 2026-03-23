@@ -15,7 +15,7 @@ tags:
 - duality
 - optimization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Duality: Expenditure and Indirect Utility

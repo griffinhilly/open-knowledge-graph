@@ -15,7 +15,7 @@ tags:
 - identity
 - normativity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Queer Theory and Literary Analysis

@@ -18,7 +18,7 @@ tags:
 - minimal-models
 - canonical-models
 stage: expert
-status: draft
+status: validated
 ---
 
 # Prime Models and Minimal Models

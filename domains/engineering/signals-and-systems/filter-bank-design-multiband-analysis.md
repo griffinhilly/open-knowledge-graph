@@ -17,7 +17,7 @@ tags:
 - decomposition
 - analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Filter Banks and Multiband Signal Decomposition

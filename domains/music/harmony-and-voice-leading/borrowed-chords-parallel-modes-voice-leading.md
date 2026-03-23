@@ -16,7 +16,7 @@ tags:
 - parallel-mode
 - chromatic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Borrowed Chords, Parallel Modes, and Voice-Leading Strategies

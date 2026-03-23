@@ -14,7 +14,7 @@ tags:
 - mineral-chemistry
 - geothermometry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermobarometry: Estimating Pressure and Temperature from Minerals

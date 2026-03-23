@@ -13,7 +13,7 @@ tags:
 - confidence-interval
 - measurement-precision
 stage: expert
-status: draft
+status: validated
 ---
 
 # Standard Error of Measurement and Confidence Intervals

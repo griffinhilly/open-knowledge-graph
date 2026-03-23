@@ -21,7 +21,7 @@ tags:
 - exercise
 - health
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # What My Body Needs to Grow

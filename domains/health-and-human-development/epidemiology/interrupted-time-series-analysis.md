@@ -13,7 +13,7 @@ tags:
 - policy-evaluation
 - intervention-effects
 stage: expert
-status: draft
+status: validated
 ---
 
 # Interrupted Time Series Design

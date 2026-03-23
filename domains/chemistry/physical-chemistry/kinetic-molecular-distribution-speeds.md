@@ -14,7 +14,7 @@ tags:
 - statistical
 - gas-properties
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Maxwell-Boltzmann Distribution and Molecular Speeds

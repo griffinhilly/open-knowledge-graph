@@ -13,7 +13,7 @@ tags:
 - simplicity
 - pragmatism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Theoretical Virtues in Theory Choice

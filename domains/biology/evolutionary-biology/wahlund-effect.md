@@ -18,7 +18,7 @@ tags:
 - heterozygosity
 - subpopulations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Wahlund Effect and Population Substructure

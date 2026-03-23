@@ -17,7 +17,7 @@ tags:
 - constraints
 - practical
 stage: expert
-status: draft
+status: validated
 ---
 
 # Actuator Dynamics and Physical Constraints

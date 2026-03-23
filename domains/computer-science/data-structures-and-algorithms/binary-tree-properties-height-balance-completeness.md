@@ -13,7 +13,7 @@ tags:
 - properties
 - analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binary Tree Properties: Height, Balance, Completeness

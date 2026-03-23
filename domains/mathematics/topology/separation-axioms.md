@@ -14,7 +14,7 @@ tags:
 - separation
 - axioms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Separation Axioms (T0 through T4)

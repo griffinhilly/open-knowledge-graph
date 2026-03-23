@@ -14,7 +14,7 @@ tags:
 - open-covers
 - finite-subcovers
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Compact Spaces and Open Covers

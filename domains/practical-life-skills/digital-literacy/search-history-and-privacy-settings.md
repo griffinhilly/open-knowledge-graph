@@ -14,7 +14,7 @@ tags:
 - privacy
 - data
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Search History and Privacy Settings

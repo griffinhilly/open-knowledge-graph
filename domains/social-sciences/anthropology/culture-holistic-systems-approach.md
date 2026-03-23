@@ -15,7 +15,7 @@ tags:
 - integration
 - holism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Culture as a Holistic System

@@ -15,7 +15,7 @@ tags:
 - invariance
 - equity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Test Bias Detection Methods and Statistical Approaches

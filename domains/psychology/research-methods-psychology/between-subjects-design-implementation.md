@@ -15,7 +15,7 @@ tags:
 - experimental
 - assignment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Between-Subjects Design Implementation and Assignment

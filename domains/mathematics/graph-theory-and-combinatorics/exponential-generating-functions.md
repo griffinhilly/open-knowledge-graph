@@ -10,7 +10,7 @@ tags:
 - combinatorics
 - generating-functions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Exponential Generating Functions and Labeled Structures

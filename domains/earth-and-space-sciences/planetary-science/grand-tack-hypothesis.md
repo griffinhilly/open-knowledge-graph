@@ -17,7 +17,7 @@ tags:
 - solar-system
 - formation
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Grand Tack Hypothesis

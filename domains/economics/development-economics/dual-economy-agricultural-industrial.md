@@ -13,7 +13,7 @@ tags:
 - dual-economy
 - sectors
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Dual Economy: Agricultural and Industrial Sectors

@@ -15,7 +15,7 @@ tags:
 - voice-leading
 - polyphony
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Polyphonic Voice Leading

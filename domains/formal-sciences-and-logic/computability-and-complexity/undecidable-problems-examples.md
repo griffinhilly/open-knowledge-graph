@@ -17,7 +17,7 @@ tags:
 - post-correspondence
 - context-free
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Undecidable Problems: Beyond the Halting Problem

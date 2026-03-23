@@ -16,7 +16,7 @@ tags:
 - cargo-internalization
 - receptor-internalization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Receptor-Mediated Endocytosis and Clathrin-Coated Vesicles

@@ -29,7 +29,7 @@ tags:
 - tuning
 - acoustics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Just Intonation and Harmonic-Series-Based Composition

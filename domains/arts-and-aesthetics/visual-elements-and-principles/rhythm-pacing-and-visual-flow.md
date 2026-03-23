@@ -19,7 +19,7 @@ tags:
 - visual-flow
 - variation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Rhythm: Pacing and Visual Flow

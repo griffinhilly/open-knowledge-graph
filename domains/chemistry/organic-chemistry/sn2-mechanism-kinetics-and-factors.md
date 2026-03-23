@@ -21,7 +21,7 @@ tags:
 - inversion
 - primary
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # SN2 Mechanism, Kinetics, and Factors Affecting Reactivity

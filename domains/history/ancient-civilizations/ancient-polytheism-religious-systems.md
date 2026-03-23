@@ -14,7 +14,7 @@ tags:
 - ancient-world
 - theology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ancient Polytheism and Religious Systems

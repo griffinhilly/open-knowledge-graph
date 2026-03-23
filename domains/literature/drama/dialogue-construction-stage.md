@@ -27,7 +27,7 @@ tags:
 - stage-writing
 - performance
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Dialogue Construction for Stage
 

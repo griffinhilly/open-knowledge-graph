@@ -14,7 +14,7 @@ tags:
 - reformation
 - soteriology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lutheran Theology and Salvation by Faith Alone

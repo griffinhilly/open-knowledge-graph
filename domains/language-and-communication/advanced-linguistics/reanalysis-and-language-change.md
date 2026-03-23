@@ -13,7 +13,7 @@ tags:
 - language-change
 - reanalysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Reanalysis and Language Change

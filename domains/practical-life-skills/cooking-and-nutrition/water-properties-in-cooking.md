@@ -14,7 +14,7 @@ tags:
 - ingredients
 - heat
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Water Properties in Cooking

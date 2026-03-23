@@ -12,7 +12,7 @@ tags:
 - crystallinity
 - processing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Polymer Structure, Properties, and Processing

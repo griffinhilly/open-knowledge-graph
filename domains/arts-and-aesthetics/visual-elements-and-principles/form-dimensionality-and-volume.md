@@ -16,7 +16,7 @@ tags:
 - 3d
 - dimension
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Form: Dimensionality and Volume

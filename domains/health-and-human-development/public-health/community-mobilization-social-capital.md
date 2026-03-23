@@ -14,7 +14,7 @@ tags:
 - collective-efficacy
 - bottom-up
 stage: expert
-status: draft
+status: validated
 ---
 
 # Community Mobilization and Social Capital

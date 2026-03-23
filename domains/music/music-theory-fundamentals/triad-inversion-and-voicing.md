@@ -17,7 +17,7 @@ tags:
 - chord-position
 - bass-note
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Triad Inversions: Root Position, First, and Second Inversion

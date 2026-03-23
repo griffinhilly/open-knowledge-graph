@@ -17,7 +17,7 @@ tags:
 - poisson-ratio
 - elastic-constants
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Elastic Deformation and Elastic Moduli

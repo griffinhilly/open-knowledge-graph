@@ -15,7 +15,7 @@ tags:
 - calcium-regulation
 - PTH
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bone Remodeling and Mineral Homeostasis

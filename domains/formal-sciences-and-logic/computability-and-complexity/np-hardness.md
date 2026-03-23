@@ -17,7 +17,7 @@ tags:
 - hardness
 - complexity-classification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # NP-Hardness: Definition and Properties

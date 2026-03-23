@@ -13,7 +13,7 @@ tags:
 - efficiency
 - information
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Price Discovery and Market Efficiency

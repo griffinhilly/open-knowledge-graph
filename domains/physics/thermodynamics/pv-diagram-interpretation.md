@@ -14,7 +14,7 @@ tags:
 - processes
 - work
 stage: formal-systems
-status: draft
+status: validated
 ---
 # P-V Diagram Interpretation and Thermodynamic Processes
 

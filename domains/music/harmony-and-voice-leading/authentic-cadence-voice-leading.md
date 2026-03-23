@@ -17,7 +17,7 @@ tags:
 - V-I
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Authentic Cadence Voice Leading: V to I

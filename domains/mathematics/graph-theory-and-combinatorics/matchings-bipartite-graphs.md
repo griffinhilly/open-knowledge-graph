@@ -14,7 +14,7 @@ tags:
 - bipartite-graphs
 - optimization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Matchings in Bipartite Graphs

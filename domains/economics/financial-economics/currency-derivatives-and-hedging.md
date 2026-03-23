@@ -13,7 +13,7 @@ tags:
 - hedging
 - derivatives
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Currency Derivatives and Foreign Exchange Hedging

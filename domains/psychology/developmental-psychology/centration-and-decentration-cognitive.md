@@ -15,7 +15,7 @@ tags:
 - attention
 - piaget
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Centration and Decentration in Cognitive Development

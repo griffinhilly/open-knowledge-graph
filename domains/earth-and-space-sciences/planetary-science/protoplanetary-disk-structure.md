@@ -16,7 +16,7 @@ tags:
 - radial-zones
 - snow-line
 stage: expert
-status: draft
+status: validated
 ---
 
 # Protoplanetary Disk Structure and Evolution

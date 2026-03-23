@@ -14,7 +14,7 @@ tags:
 - power-knowledge
 - discourse
 stage: expert
-status: draft
+status: validated
 ---
 
 # Michel Foucault and Genealogy

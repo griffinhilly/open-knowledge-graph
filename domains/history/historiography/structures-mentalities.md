@@ -13,7 +13,7 @@ tags:
 - culture
 - psychology
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mentalities and Structures: Collective Psychologies of the Past

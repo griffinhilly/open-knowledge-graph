@@ -17,7 +17,7 @@ tags:
 - validity
 - meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multiple Interpretations and Ambiguity

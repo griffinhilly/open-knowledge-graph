@@ -14,7 +14,7 @@ tags:
 - soviet-union
 - dictatorship
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stalinism and the Totalitarian State

@@ -17,7 +17,7 @@ tags:
 - alloys
 - equilibrium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reading and Interpreting Binary Phase Diagrams

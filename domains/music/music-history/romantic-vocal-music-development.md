@@ -14,7 +14,7 @@ tags:
 - vocal
 - poetry
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Romantic Song: The Lied and Vocal Poetry

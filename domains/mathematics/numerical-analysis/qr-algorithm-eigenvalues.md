@@ -11,7 +11,7 @@ tags:
 - eigenvalue-algorithm
 - convergence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # QR Algorithm for Eigenvalues

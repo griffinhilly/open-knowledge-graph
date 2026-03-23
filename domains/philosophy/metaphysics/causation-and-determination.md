@@ -15,7 +15,7 @@ tags:
 - determination
 - laws-of-nature
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Causation and Determination

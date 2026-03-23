@@ -14,7 +14,7 @@ tags:
 - anomaly
 - 3d-modeling
 stage: expert
-status: draft
+status: validated
 ---
 
 # Magnetic Dipole Anomalies and 3D Modeling

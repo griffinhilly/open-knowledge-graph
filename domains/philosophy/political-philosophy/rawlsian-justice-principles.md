@@ -17,7 +17,7 @@ tags:
 - fairness
 - difference-principle
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rawls's Two Principles of Justice

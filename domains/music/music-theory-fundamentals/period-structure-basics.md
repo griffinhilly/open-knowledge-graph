@@ -13,7 +13,7 @@ tags:
 - phrase
 - period
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Period Structure: Combining Phrases into Larger Forms

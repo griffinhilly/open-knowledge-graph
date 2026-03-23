@@ -15,7 +15,7 @@ tags:
 - birefringent-materials
 - polarization-control
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Wave Plates: Quarter-Wave and Half-Wave Plates

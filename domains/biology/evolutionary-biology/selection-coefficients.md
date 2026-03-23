@@ -16,7 +16,7 @@ tags:
 - s-coefficient
 - relative-fitness
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Selection Coefficients and Fitness Measures

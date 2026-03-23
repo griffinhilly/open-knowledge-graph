@@ -13,7 +13,7 @@ tags:
 - effect-size
 - significance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Effect Size and Practical Significance

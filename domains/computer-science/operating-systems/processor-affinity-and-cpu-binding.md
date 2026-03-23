@@ -13,7 +13,7 @@ tags:
 - multiprocessor
 - optimization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Processor Affinity and CPU Binding

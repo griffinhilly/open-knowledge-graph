@@ -18,7 +18,7 @@ tags:
 - propositional
 - first-order
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Atomic and Complex Formulas

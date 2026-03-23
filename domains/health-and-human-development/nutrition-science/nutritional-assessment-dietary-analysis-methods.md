@@ -14,7 +14,7 @@ tags:
 - methods
 - biomarkers
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nutritional Assessment: Dietary Analysis Methods and Interpretation

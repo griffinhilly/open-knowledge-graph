@@ -17,7 +17,7 @@ tags:
 - agriculture
 - civilization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Yellow River Civilization and Early Chinese Agriculture

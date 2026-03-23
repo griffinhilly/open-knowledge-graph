@@ -15,7 +15,7 @@ tags:
 - row-operations
 - solving-systems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gaussian Elimination and Row Reduction

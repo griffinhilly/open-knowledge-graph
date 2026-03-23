@@ -16,7 +16,7 @@ tags:
 - fault-tolerance
 - pbft
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Byzantine Fault Tolerance and Practical BFT

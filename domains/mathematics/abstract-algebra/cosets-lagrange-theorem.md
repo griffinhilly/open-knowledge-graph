@@ -17,7 +17,7 @@ tags:
 - lagrange
 - order-divides
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Cosets and Lagrange's Theorem

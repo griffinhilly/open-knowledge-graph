@@ -13,7 +13,7 @@ tags:
 - models
 - first-order-logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Satisfaction of Formulas in Structures

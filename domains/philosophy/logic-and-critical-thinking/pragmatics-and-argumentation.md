@@ -15,7 +15,7 @@ tags:
 - context
 - meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pragmatics and Argumentation

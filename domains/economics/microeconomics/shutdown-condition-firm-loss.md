@@ -15,7 +15,7 @@ tags:
 - variable-costs
 - operating-loss
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Shutdown Condition and Operating Decisions

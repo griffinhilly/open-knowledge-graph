@@ -18,7 +18,7 @@ tags:
 - logical-clocks
 - partial-order
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Happened-Before Relation and Causal Ordering

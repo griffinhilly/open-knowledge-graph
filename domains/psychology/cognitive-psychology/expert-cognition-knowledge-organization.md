@@ -15,7 +15,7 @@ tags:
 - learning
 - skill
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Expert Cognition and Knowledge Organization

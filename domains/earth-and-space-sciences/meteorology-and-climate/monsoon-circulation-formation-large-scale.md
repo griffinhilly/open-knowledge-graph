@@ -16,7 +16,7 @@ tags:
 - seasonal
 - circulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Monsoon Circulation Formation and Large-Scale Dynamics

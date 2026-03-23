@@ -18,7 +18,7 @@ tags:
 - osmosis
 - hemodynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Capillary Fluid Exchange and Starling Equilibrium

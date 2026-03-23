@@ -15,7 +15,7 @@ tags:
 - organization
 - best-practices
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # File Naming and Organization Practices
 

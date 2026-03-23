@@ -13,7 +13,7 @@ tags:
 - virulence
 - pathogenesis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Type III Secretion Systems and Bacterial Virulence

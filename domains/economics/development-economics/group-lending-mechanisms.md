@@ -13,7 +13,7 @@ tags:
 - incentives
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Group Lending and Social Collateral

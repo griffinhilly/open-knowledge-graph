@@ -13,7 +13,7 @@ tags:
 - legitimacy
 - authority
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Consent as a Source of Political Legitimacy

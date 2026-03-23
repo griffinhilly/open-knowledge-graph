@@ -22,7 +22,7 @@ tags:
 - lactate
 - ethanol
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fermentation Pathways and Metabolic End-Products

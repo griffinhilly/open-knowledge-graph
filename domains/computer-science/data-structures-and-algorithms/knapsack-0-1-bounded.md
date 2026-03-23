@@ -11,7 +11,7 @@ tags:
 - optimization
 - greedy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # 0/1 Knapsack Problem: Bounded Capacity DP

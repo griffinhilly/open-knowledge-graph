@@ -17,7 +17,7 @@ tags:
 - tropical
 - oscillation
 stage: expert
-status: draft
+status: validated
 ---
 
 # El Niño–Southern Oscillation: Mechanisms and Teleconnections

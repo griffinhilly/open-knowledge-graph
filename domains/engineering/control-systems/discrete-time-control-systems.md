@@ -16,7 +16,7 @@ tags:
 - discretization
 - sampling-theorem
 stage: expert
-status: draft
+status: validated
 ---
 
 # Discrete-Time Control Systems

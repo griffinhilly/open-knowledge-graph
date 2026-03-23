@@ -14,7 +14,7 @@ tags:
 - trajectories
 - energy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phase Space Trajectories

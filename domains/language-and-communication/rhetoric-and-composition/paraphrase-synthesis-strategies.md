@@ -17,7 +17,7 @@ tags:
 - synthesis
 - sources
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Paraphrase, Summary, and Synthesis Strategies

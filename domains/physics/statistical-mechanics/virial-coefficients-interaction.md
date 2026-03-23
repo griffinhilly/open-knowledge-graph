@@ -15,7 +15,7 @@ tags:
 - forces
 - perturbation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Virial Coefficients and Intermolecular Forces

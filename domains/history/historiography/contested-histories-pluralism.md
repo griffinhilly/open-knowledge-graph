@@ -13,7 +13,7 @@ tags:
 - pluralism
 - conflict
 stage: expert
-status: draft
+status: validated
 ---
 
 # Contested Histories and Historical Pluralism

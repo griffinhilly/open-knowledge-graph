@@ -17,7 +17,7 @@ tags:
 - transparency
 - preregistration
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pre-Registration and Open Science Practices

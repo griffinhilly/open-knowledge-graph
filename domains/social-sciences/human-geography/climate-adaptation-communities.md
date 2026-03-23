@@ -16,7 +16,7 @@ tags:
 - adaptation
 - resilience
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Climate Adaptation and Community Resilience

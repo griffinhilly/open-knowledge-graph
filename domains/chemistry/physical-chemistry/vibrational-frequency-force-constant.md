@@ -13,7 +13,7 @@ tags:
 - force-constants
 - bond-strength
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vibrational Frequency and Force Constant

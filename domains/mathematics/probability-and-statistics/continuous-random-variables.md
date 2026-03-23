@@ -18,7 +18,7 @@ tags:
 - pdf
 - cdf
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Continuous Random Variables

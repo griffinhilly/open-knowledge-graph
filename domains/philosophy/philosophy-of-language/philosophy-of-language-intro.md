@@ -14,7 +14,7 @@ tags:
 - reference
 - meaning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Introduction to Philosophy of Language

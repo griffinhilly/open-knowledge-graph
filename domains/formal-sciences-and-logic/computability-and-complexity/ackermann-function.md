@@ -13,7 +13,7 @@ tags:
 - recursive-functions
 - fast-growing-hierarchy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Ackermann Function

@@ -16,7 +16,7 @@ tags:
 - in-text citation
 - formatting
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Citation Formats: MLA, APA, and Chicago

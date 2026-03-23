@@ -15,7 +15,7 @@ tags:
 - inflation
 - forecasting
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Inflation Expectations Formation

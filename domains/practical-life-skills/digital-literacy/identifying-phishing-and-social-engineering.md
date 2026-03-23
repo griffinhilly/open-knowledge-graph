@@ -16,7 +16,7 @@ tags:
 - fraud
 - social-engineering
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Identifying Phishing and Social Engineering Attempts

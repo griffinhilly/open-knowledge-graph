@@ -18,7 +18,7 @@ tags:
 - experience
 - personality
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Emotional Engagement Through Design

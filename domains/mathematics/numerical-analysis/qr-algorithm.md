@@ -11,7 +11,7 @@ tags:
 - eigenvalues
 - qr-decomposition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # QR Algorithm

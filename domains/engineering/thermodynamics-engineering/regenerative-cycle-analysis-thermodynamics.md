@@ -13,7 +13,7 @@ tags:
 - efficiency-improvement
 - heat-recovery
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Regenerative Cycles and Efficiency Improvements

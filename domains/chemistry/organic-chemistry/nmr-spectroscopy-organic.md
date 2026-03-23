@@ -29,7 +29,7 @@ tags:
 - chemical-shift
 - integration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nuclear Magnetic Resonance Spectroscopy for Structure Determination

@@ -18,7 +18,7 @@ tags:
 - scheduling
 - efficiency
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # HVAC Thermostat Programming and Scheduling

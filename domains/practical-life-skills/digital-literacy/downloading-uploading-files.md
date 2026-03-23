@@ -14,7 +14,7 @@ tags:
 - file-transfer
 - attachments
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Downloading and Uploading Files

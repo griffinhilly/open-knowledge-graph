@@ -16,7 +16,7 @@ tags:
 - lr-parsing
 - shift-reduce
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Shift-Reduce Bottom-Up Parsing

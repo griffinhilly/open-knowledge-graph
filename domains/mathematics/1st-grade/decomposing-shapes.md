@@ -12,7 +12,7 @@ tags:
 - geometry
 - shapes
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Decomposing Shapes

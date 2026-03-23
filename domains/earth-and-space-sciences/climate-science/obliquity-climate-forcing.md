@@ -15,7 +15,7 @@ tags:
 - cycles
 - 41-ka
 stage: expert
-status: draft
+status: validated
 ---
 
 # Orbital Obliquity and Climate Forcing

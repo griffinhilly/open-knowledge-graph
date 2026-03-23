@@ -18,7 +18,7 @@ tags:
 - fallacy
 - logic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conjunction Fallacy and Probability Judgment Errors

@@ -15,7 +15,7 @@ tags:
 - density
 - equilibrium
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Isostasy: Crustal Buoyancy and Equilibrium

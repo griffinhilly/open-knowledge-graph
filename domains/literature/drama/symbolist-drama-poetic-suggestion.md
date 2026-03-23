@@ -19,7 +19,7 @@ tags:
 - atmosphere
 - aestheticism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Symbolist Drama: Poetic Suggestion

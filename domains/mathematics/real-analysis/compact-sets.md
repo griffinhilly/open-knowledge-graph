@@ -18,7 +18,7 @@ tags:
 - topology
 - sequences
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Compact Sets

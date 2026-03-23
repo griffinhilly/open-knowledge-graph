@@ -16,7 +16,7 @@ tags:
 - retrieval
 - transfer
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transfer-Appropriate Processing and Encoding-Retrieval Match

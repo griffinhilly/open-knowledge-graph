@@ -17,7 +17,7 @@ tags:
 - cardinality
 - infinity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Countable Sets and Enumeration

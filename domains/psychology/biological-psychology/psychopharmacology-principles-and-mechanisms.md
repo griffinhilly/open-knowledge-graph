@@ -14,7 +14,7 @@ tags:
 - psychoactive
 - pharmacology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Psychopharmacology: Principles and Mechanisms

@@ -16,7 +16,7 @@ tags:
 - ethos
 - engagement
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Humor as Strategic Persuasion

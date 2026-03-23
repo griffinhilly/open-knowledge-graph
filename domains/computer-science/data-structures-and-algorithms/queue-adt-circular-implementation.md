@@ -1,10 +1,10 @@
 ---
 id: queue-adt-circular-implementation
-title: 'Queue ADT: Circular Array and Linked-List Implementations'
+title: "Queue ADT: Circular Array and Linked-List Implementations"
 domain: computer-science
 course: data-structures-and-algorithms
 prerequisites:
-- id: arrays-and-indexed-collections
+- id: arrays-and-lists
   type: hard
 - id: linked-lists
   type: hard
@@ -16,9 +16,8 @@ tags:
 - adt
 - data-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Queue ADT: Circular Array and Linked-List Implementations
 
 ## Core Idea

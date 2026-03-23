@@ -16,7 +16,7 @@ tags:
 - proportion
 - observation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Mouth and Nose Structure

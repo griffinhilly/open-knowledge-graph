@@ -18,7 +18,7 @@ tags:
 - gravitational-forcing
 - harmonic-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tidal Mechanics and Astronomical Forcing

@@ -14,7 +14,7 @@ tags:
 - immune-function
 - enzyme-cofactor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Zinc: Immune Response, Protein Synthesis, and Enzyme Function

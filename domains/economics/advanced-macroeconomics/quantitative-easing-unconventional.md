@@ -13,7 +13,7 @@ tags:
 - unconventional-policy
 - balance-sheet
 stage: expert
-status: draft
+status: validated
 ---
 
 # Quantitative Easing and Unconventional Monetary Policy

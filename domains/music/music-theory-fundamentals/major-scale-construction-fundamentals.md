@@ -16,7 +16,7 @@ tags:
 - construction
 - whole-half-step-pattern
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constructing Major Scales

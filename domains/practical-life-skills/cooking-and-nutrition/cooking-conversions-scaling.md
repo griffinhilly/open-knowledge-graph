@@ -32,7 +32,7 @@ tags:
 - scaling
 - ratios
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cooking Conversions and Scaling

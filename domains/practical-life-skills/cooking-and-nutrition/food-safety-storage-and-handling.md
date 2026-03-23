@@ -15,7 +15,7 @@ tags:
 - bacteria
 - contamination
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Keeping Food Fresh and Safe

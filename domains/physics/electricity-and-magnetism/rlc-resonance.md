@@ -13,7 +13,7 @@ tags:
 - rlc
 - quality-factor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Resonance in RLC Circuits

@@ -13,7 +13,7 @@ tags:
 - word-problems
 - applications
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Multiplication Word Problems

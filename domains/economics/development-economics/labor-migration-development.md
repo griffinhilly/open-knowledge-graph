@@ -12,7 +12,7 @@ tags:
 - migration
 - labor
 stage: expert
-status: draft
+status: validated
 ---
 
 # Labor Migration and Development

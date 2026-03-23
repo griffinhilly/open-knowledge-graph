@@ -15,7 +15,7 @@ tags:
 - aphasia
 - lateralization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Language and the Brain

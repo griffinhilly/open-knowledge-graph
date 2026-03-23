@@ -14,7 +14,7 @@ tags:
 - lasso
 - elastic-net
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ridge, Lasso, and Elastic Net Regression

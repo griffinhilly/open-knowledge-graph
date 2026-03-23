@@ -13,7 +13,7 @@ tags:
 - inequality
 - historical
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Caste, Class, and Estate Systems of Stratification

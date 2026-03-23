@@ -15,7 +15,7 @@ tags:
 - categorical
 - intrinsic-nature
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Categorical Properties

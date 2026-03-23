@@ -16,7 +16,7 @@ tags:
 - reliability
 - bias
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Assessing Source Reliability and Credibility

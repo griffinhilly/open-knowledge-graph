@@ -16,7 +16,7 @@ tags:
 - tangent
 - geometry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Space Curves and Tangent Vectors

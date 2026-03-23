@@ -13,7 +13,7 @@ tags:
 - constraints
 - OT
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Constraint-Based Phonology: Formal Foundations

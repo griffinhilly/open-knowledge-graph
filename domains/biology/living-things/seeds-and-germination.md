@@ -14,7 +14,7 @@ tags:
 - sprouting
 - plants
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Seeds and Germination

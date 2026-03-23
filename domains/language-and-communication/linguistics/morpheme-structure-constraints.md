@@ -14,7 +14,7 @@ tags:
 - constraints
 - phonotactics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Morpheme Structure Constraints and Phonotactics

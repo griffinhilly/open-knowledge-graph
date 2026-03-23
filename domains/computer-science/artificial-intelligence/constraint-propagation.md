@@ -15,7 +15,7 @@ tags:
 - domain-reduction
 - inference
 stage: advanced
-status: draft
+status: validated
 ---
 # Constraint Propagation
 

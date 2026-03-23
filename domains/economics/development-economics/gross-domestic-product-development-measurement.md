@@ -13,7 +13,7 @@ tags:
 - GDP
 - developing-economies
 stage: expert
-status: draft
+status: validated
 ---
 
 # Measuring GDP in Developing Economies

@@ -14,7 +14,7 @@ tags:
 - nuclear-physics
 - atomic-physics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Nuclear Magnetic Moments and Hyperfine Structure

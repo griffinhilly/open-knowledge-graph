@@ -15,7 +15,7 @@ tags:
 - state-machine
 - fault-tolerance
 stage: advanced
-status: draft
+status: validated
 ---
 
 # State Machine Replication

@@ -15,7 +15,7 @@ tags:
 - crystallization
 - differentiation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fractional Crystallization and Magmatic Differentiation

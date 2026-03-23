@@ -16,7 +16,7 @@ tags:
 - knowledge
 - land-rights
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Indigenous Geographies and Territorial Knowledge

@@ -17,7 +17,7 @@ tags:
 - modeling
 - earth-structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Seismic Velocity and Depth Models

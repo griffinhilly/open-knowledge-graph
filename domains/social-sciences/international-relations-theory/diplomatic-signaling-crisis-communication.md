@@ -17,7 +17,7 @@ tags:
 - crisis
 - credibility
 stage: expert
-status: draft
+status: validated
 ---
 
 # Diplomatic Signaling and Crisis Communication

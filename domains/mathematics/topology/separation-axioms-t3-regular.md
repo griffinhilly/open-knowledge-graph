@@ -16,7 +16,7 @@ tags:
 - t4
 - separation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Regularity (T₃) and Normal Spaces (T₄)

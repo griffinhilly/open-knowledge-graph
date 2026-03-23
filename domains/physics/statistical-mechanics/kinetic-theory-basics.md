@@ -16,7 +16,7 @@ tags:
 - gases
 - transport
 stage: expert
-status: draft
+status: validated
 ---
 
 # Kinetic Theory of Gases

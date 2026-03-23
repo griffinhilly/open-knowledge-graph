@@ -16,7 +16,7 @@ tags:
 - late-medieval
 - transition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Feudalism in Decline: The Late Medieval Transition

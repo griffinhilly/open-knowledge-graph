@@ -11,7 +11,6 @@ prerequisites:
 builds-toward:
 - three-digit-addition
 - two-step-word-problems
-- three-digit-addition
 tags:
 - addition
 - within-100

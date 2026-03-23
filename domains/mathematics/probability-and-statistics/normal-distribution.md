@@ -17,7 +17,7 @@ tags:
 - gaussian
 - bell-curve
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Normal Distribution

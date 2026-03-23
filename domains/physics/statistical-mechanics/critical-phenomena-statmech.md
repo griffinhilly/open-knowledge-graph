@@ -17,7 +17,7 @@ tags:
 - singularities
 - divergences
 stage: expert
-status: draft
+status: validated
 ---
 
 # Critical Phenomena and Singularities

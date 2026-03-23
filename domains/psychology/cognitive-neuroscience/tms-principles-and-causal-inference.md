@@ -18,7 +18,7 @@ tags:
 - virtual-lesion
 - neuroplasticity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Transcranial Magnetic Stimulation: Principles and Causal Methods

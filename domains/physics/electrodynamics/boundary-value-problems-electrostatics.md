@@ -15,7 +15,7 @@ tags:
 - boundary-value-problems
 - electrostatics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Boundary Value Problems in Electrostatics

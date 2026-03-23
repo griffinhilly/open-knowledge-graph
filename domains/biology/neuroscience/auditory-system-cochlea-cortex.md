@@ -12,7 +12,7 @@ tags:
 - sensory-systems
 - hearing
 stage: expert
-status: draft
+status: validated
 ---
 
 # Auditory System: Cochlea to Auditory Cortex

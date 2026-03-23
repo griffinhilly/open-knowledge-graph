@@ -18,7 +18,7 @@ tags:
 - greek
 - roman
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ancient Historiography

@@ -15,7 +15,7 @@ tags:
 - traversal
 - bfs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Breadth-First Search (BFS)

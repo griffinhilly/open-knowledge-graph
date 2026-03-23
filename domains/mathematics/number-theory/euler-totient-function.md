@@ -16,7 +16,7 @@ tags:
 - coprime-integers
 - multiplicative-function
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Euler's Totient Function

@@ -18,7 +18,7 @@ tags:
 - relative
 - over
 stage: expert
-status: draft
+status: validated
 ---
 
 # Slice and Coslice Categories

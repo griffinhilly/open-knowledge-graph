@@ -15,7 +15,7 @@ tags:
 - reciprocating-engine
 - combustion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Otto Cycle and Spark-Ignition Reciprocating Engines

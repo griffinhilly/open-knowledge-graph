@@ -19,7 +19,7 @@ tags:
 - justice
 - equality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Property Rights and Principles of Distributive Justice

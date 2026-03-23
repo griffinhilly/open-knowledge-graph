@@ -19,7 +19,7 @@ tags:
 - geometry
 - application
 stage: expert
-status: draft
+status: validated
 ---
 
 # Real Closed Fields and O-Minimal Applications

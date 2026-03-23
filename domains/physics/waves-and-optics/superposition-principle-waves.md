@@ -14,7 +14,7 @@ tags:
 - linear-waves
 - principle
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Superposition Principle for Waves

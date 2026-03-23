@@ -19,7 +19,7 @@ tags:
 - crossover
 - interference
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Genetic Recombination and Linkage Analysis

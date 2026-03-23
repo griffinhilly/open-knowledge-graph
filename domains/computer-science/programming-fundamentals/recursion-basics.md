@@ -12,8 +12,15 @@ prerequisites:
   type: soft
 - id: mathematical-induction
   type: soft
+- id: functions-defining-calling
+  type: hard
+- id: call-stack-and-function-calls
+  type: hard
+- id: function-design-and-contracts
+  type: soft
 builds-toward:
 - algorithm-design-basics
+- tail-recursion-and-iterative-thinking
 tags:
 - recursion
 - base case
@@ -23,7 +30,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Recursion Basics
 
 ## Core Idea

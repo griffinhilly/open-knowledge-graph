@@ -15,7 +15,7 @@ tags:
 - orbital-overlap
 - star-notation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bonding and Antibonding Orbitals: Sigma, Pi, and the HOMO-LUMO Gap

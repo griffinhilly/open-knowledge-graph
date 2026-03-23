@@ -14,7 +14,7 @@ tags:
 - probability
 - risk
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Seismic Hazard Assessment: Earthquake Probability and Risk

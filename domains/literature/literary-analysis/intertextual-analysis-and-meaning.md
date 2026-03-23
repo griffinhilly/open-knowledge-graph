@@ -18,7 +18,7 @@ tags:
 - reference
 - meaning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Intertextuality: Literary Reference and Meaning

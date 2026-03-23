@@ -13,7 +13,7 @@ tags:
 - conditional
 - probability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conditional Probability Fundamentals

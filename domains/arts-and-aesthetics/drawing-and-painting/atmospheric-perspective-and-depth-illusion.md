@@ -19,7 +19,7 @@ tags:
 - distance
 - atmosphere
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Atmospheric Perspective and Depth Illusion

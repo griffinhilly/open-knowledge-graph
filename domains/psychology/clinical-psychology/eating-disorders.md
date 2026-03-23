@@ -13,7 +13,7 @@ tags:
 - eating disorders
 - body image
 stage: expert
-status: draft
+status: validated
 ---
 
 # Eating Disorders: Anorexia, Bulimia, and Binge Eating

@@ -13,7 +13,7 @@ tags:
 - closure
 - properties
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Closure Properties of Regular Languages

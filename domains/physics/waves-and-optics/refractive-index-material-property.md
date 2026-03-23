@@ -13,7 +13,7 @@ tags:
 - material-property
 - speed-of-light
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Refractive Index as a Material Property

@@ -15,7 +15,7 @@ tags:
 - transmission-dynamics
 - compartmental-models
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mathematical Models of Disease Transmission

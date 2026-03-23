@@ -13,7 +13,7 @@ tags:
 - arguments
 - environment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Command-Line Arguments and Environment Variables

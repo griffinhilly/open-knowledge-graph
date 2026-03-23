@@ -13,7 +13,7 @@ tags:
 - cultural-knowledge
 - intertextuality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Allusion in Poetry: Reference and Recognition

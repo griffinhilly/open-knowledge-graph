@@ -17,7 +17,7 @@ tags:
 - kinetic
 - coefficient
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Static and Kinetic Friction

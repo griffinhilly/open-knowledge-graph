@@ -16,7 +16,7 @@ tags:
 - syntax
 - English-structure
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # English Word Order: Subject-Verb-Object

@@ -15,7 +15,7 @@ tags:
 - grammars
 - ambiguity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Grammar Ambiguity and Resolution

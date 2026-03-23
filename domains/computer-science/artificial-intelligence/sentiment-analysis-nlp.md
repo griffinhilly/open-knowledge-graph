@@ -16,7 +16,7 @@ tags:
 - sentiment
 - opinion-mining
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sentiment Analysis in NLP

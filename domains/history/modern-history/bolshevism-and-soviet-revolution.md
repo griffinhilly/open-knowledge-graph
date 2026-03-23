@@ -17,7 +17,7 @@ tags:
 - communism
 - revolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bolshevism and the Creation of the Soviet Union

@@ -15,7 +15,7 @@ tags:
 - beat
 - subdivisions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Beat Subdivision and Counting

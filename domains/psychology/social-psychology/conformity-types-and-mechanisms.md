@@ -17,7 +17,7 @@ tags:
 - types
 - compliance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conformity: Types and Psychological Mechanisms

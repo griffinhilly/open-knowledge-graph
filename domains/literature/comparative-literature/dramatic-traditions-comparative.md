@@ -19,7 +19,7 @@ tags:
 - traditions
 - form
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dramatic Traditions in Comparative Perspective

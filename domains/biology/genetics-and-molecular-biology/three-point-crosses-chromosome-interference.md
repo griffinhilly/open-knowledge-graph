@@ -16,7 +16,7 @@ tags:
 - interference
 - linkage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Three-Point Crosses and Chromosome Interference

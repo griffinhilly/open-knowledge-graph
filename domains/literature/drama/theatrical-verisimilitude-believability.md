@@ -19,7 +19,7 @@ tags:
 - illusion
 - convention
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Verisimilitude: Theatrical Believability

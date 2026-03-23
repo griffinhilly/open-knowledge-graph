@@ -11,7 +11,7 @@ tags:
 - attrition
 - imputation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Missing Data: Mechanisms and Analytical Solutions

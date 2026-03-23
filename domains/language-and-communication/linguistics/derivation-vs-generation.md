@@ -15,7 +15,7 @@ tags:
 - grammar
 - computation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Derivation Versus Generation in Formal Grammar

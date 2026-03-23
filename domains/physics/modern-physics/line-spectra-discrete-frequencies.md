@@ -14,7 +14,7 @@ tags:
 - spectroscopy
 - atomic-physics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Line Spectra and Discrete Spectral Frequencies

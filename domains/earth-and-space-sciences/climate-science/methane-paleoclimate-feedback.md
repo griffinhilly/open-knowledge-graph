@@ -17,7 +17,7 @@ tags:
 - permafrost
 - paleoclimate-feedback
 stage: expert
-status: draft
+status: validated
 ---
 # Methane Sources and Paleoclimate Feedback
 

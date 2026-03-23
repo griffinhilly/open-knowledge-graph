@@ -17,7 +17,7 @@ tags:
 - first-order
 - integration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Separable Differential Equations

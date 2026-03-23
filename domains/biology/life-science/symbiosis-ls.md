@@ -21,7 +21,7 @@ tags:
 - parasitism
 - commensalism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Symbiosis
 

@@ -17,7 +17,7 @@ tags:
 - conversation
 - literature review
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Synthesizing Multiple Sources

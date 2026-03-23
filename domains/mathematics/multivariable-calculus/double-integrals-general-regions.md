@@ -13,7 +13,7 @@ tags:
 - integration-bounds
 - general-regions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Double Integrals over General Regions

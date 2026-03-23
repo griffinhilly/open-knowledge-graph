@@ -15,7 +15,7 @@ tags:
 - foundations
 - hypothesis-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Formulating Research Questions with Specificity

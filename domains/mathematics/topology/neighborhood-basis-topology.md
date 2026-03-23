@@ -13,7 +13,7 @@ tags:
 - neighborhoods
 - local-bases
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Neighborhood Basis and Local Bases

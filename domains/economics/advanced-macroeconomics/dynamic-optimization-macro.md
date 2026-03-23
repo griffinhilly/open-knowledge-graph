@@ -19,7 +19,7 @@ tags:
 - optimization
 - intertemporal-choice
 stage: expert
-status: draft
+status: validated
 ---
 
 # Dynamic Optimization in Macroeconomics

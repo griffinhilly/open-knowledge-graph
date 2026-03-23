@@ -14,7 +14,7 @@ tags:
 - ion-channels
 - action-potential
 stage: expert
-status: draft
+status: validated
 ---
 
 # Voltage-Gated Sodium Channels

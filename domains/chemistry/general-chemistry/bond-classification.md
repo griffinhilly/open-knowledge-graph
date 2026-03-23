@@ -15,7 +15,7 @@ tags:
 - metallic bonding
 - electronegativity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Classification of Bonds: Ionic, Covalent, and Metallic

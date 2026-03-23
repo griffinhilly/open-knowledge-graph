@@ -17,7 +17,7 @@ tags:
 - open-science
 - research-integrity
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Preregistration and Research Transparency Planning
 

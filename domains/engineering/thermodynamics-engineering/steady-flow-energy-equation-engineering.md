@@ -18,7 +18,7 @@ tags:
 - steady-flow
 - enthalpy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Steady-Flow Energy Equation

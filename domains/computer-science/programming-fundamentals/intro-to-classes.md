@@ -11,6 +11,7 @@ prerequisites:
 builds-toward:
 - objects-and-instances
 - methods-and-attributes
+- object-oriented-thinking-and-design
 tags:
 - classes
 - OOP
@@ -20,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Introduction to Classes
 
 ## Core Idea

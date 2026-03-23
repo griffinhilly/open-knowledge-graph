@@ -20,7 +20,7 @@ tags:
 - biodiversity
 - fossil-record
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Extinction
 

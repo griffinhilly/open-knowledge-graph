@@ -16,7 +16,7 @@ tags:
 - causality
 - confounds
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Internal Validity and Threats to Causal Inference

@@ -17,7 +17,7 @@ tags:
 - caregiver-infant
 - reunion-separation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Secure Attachment and the Strange Situation Paradigm

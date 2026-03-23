@@ -4,7 +4,7 @@ title: Do-While Loops and Post-Test Iteration
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- id: while-loop-iteration
+- id: while-loops
   type: hard
 builds-toward:
 - loop-control-statements
@@ -13,9 +13,8 @@ tags:
 - iteration
 - do-while
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Do-While Loops and Post-Test Iteration
 
 ## Core Idea

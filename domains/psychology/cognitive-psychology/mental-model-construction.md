@@ -16,7 +16,7 @@ tags:
 - reasoning
 - understanding
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mental Models in Understanding and Reasoning

@@ -19,7 +19,7 @@ tags:
 - rebalancing
 - portfolio
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Investment Diversification

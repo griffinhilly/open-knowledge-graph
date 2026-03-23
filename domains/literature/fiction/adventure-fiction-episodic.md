@@ -17,7 +17,7 @@ tags:
 - exploration
 - hero
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Adventure Fiction: Episodic Action and Exploration

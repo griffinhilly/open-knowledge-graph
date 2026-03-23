@@ -15,7 +15,7 @@ tags:
 - self-energy
 - classical-limit
 stage: expert
-status: draft
+status: validated
 ---
 
 # Classical Electron Radius and Radiation Effects

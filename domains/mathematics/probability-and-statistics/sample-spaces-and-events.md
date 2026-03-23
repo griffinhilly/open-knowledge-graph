@@ -12,7 +12,7 @@ tags:
 - probability
 - set-theory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sample Spaces and Events

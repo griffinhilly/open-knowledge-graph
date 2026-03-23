@@ -18,7 +18,7 @@ tags:
 - bandwidth
 - waterbed-effect
 stage: expert
-status: draft
+status: validated
 ---
 
 # Sensitivity and Disturbance Rejection

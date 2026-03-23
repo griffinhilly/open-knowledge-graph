@@ -14,7 +14,7 @@ tags:
 - information
 - Bayesian equilibrium
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bayesian Games and Information Uncertainty

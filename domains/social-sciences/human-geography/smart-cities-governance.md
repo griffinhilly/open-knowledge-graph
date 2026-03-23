@@ -16,7 +16,7 @@ tags:
 - governance
 - cities
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Smart Cities and Digital Urbanism

@@ -13,7 +13,7 @@ tags:
 - social-science
 - relativism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Constructivism and Social Construction of Knowledge

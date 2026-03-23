@@ -20,7 +20,7 @@ tags:
 - post-tonal
 - structural-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Pitch-Class Set Subsets and Supersets

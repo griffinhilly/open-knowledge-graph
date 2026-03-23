@@ -19,7 +19,7 @@ tags:
 - systems
 - unity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Consistency and Coherence in Design

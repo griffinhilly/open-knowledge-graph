@@ -16,7 +16,7 @@ tags:
 - sequences
 - limits
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sequential Characterization of Continuity

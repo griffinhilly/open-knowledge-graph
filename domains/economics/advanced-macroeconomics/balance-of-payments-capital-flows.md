@@ -11,7 +11,7 @@ tags:
 - capital-flows
 - current-account
 stage: expert
-status: draft
+status: validated
 ---
 
 # Balance of Payments and International Capital Flows

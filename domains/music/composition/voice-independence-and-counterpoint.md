@@ -16,7 +16,7 @@ tags:
 - polyphony
 - composition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voice Independence and Counterpoint in Composition

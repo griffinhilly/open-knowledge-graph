@@ -13,7 +13,7 @@ tags:
 - cramers rule
 - determinants
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cramer's Rule for Solving Systems

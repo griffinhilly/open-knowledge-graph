@@ -17,7 +17,7 @@ tags:
 - specialists
 - ritual-practitioners
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Religious Specialists and Shamanism

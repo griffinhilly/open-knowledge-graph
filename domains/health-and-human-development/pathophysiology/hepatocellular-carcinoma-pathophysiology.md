@@ -17,7 +17,7 @@ tags:
 - cirrhosis
 - carcinogenesis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hepatocellular Carcinoma: Cirrhotic Liver, Inflammation-to-Cancer Transition, and Metastatic Progression

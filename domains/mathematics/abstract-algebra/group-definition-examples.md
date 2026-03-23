@@ -17,7 +17,7 @@ tags:
 - identity
 - inverse
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Group Definition and Examples

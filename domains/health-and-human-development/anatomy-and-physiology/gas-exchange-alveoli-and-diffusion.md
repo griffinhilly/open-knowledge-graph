@@ -18,7 +18,7 @@ tags:
 - oxygen
 - carbon-dioxide
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gas Exchange: Alveoli and Diffusion Across the Respiratory Membrane

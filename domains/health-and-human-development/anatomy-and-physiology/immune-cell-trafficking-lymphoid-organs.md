@@ -23,7 +23,7 @@ tags:
 - lymphocyte-homing
 - lymphoid-organs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Immune Cell Trafficking and Lymphoid Organ Architecture

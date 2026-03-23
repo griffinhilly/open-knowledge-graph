@@ -15,7 +15,7 @@ tags:
 - compressibility
 - speed-of-sound
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mach Number and Compressibility Effects on Flow Properties

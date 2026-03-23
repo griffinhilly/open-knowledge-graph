@@ -16,7 +16,7 @@ tags:
 - sedimentology
 - correlation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stratigraphy: Superposition, Cross-Cutting, and Lateral Correlation

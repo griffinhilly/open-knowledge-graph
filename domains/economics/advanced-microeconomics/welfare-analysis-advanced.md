@@ -12,7 +12,7 @@ tags:
 - welfare-economics
 - policy-analysis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Welfare Analysis: Deadweight Loss and Policy Evaluation

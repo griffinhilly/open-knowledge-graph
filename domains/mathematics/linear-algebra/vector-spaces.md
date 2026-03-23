@@ -15,7 +15,7 @@ tags:
 - abstract-spaces
 - axioms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vector Spaces

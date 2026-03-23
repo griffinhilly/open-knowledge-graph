@@ -11,7 +11,7 @@ tags:
 - length
 - standard-units
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Measuring Length With a Ruler

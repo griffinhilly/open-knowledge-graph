@@ -13,7 +13,7 @@ tags:
 - classification
 - methodology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Historical Periodization in Music

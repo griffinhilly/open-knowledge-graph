@@ -14,7 +14,7 @@ tags:
 - nutrition
 - fetal-programming
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Maternal Health, Nutrition, and Fetal Development

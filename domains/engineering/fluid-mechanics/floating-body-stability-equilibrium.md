@@ -13,7 +13,7 @@ tags:
 - buoyancy
 - applications
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Floating Body Stability and Equilibrium

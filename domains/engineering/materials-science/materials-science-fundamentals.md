@@ -14,7 +14,7 @@ tags:
 - overview
 - introduction
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Introduction to Materials Science
 

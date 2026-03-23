@@ -15,7 +15,7 @@ tags:
 - halting
 - verification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Recursively Enumerable Languages: Semi-Decidability

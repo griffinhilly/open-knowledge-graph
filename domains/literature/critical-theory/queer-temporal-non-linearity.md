@@ -16,7 +16,7 @@ tags:
 - non-linearity
 - futurity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Queer Temporality and Non-Linear Time

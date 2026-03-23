@@ -22,7 +22,7 @@ tags:
 - conductance
 - gating-variables
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Hodgkin-Huxley Model

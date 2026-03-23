@@ -17,7 +17,7 @@ tags:
 - neumann
 - mixed-boundary-conditions
 stage: expert
-status: draft
+status: validated
 ---
 
 # Classification of Boundary Value Problems

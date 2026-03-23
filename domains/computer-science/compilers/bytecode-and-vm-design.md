@@ -15,7 +15,7 @@ tags:
 - VM
 - interpretation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bytecode Intermediate Representation and Virtual Machines

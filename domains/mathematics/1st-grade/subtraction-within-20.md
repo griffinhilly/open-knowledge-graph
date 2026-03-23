@@ -13,7 +13,7 @@ tags:
 - subtraction
 - arithmetic
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Subtraction Within 20

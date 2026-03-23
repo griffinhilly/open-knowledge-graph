@@ -15,7 +15,7 @@ tags:
 - mass-number
 - neutrons
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Isotopes: Same Element, Different Mass
 

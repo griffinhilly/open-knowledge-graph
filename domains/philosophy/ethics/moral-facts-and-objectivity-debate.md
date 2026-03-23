@@ -16,7 +16,7 @@ tags:
 - objectivity
 - moral-truth
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Facts and Objectivity

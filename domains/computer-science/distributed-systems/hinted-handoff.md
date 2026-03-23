@@ -15,7 +15,7 @@ tags:
 - recovery
 - fault-tolerance
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hinted Handoff Recovery

@@ -15,7 +15,7 @@ tags:
 - conditionals
 - deductive
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Contrapositive and Logical Equivalence

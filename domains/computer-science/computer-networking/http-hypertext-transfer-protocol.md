@@ -17,7 +17,7 @@ tags:
 - stateless
 - methods
 stage: advanced
-status: draft
+status: validated
 ---
 
 # HTTP: Hypertext Transfer Protocol

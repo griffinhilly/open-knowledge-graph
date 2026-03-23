@@ -13,7 +13,7 @@ tags:
 - double-integral
 - area-volume
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Double Integrals in Cartesian Coordinates

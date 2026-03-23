@@ -17,7 +17,7 @@ tags:
 - policy
 - randomized
 stage: expert
-status: draft
+status: validated
 ---
 
 # Field Experiments and Real-World Randomization

@@ -16,7 +16,7 @@ tags:
 - proto-consciousness
 - Russellian-monism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Panpsychism

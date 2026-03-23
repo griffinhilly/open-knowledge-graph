@@ -17,7 +17,7 @@ tags:
 - error-constant
 - accuracy
 stage: expert
-status: draft
+status: validated
 ---
 
 # Steady-State Error: System Type and Error Constants

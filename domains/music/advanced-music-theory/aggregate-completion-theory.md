@@ -20,7 +20,7 @@ tags:
 - completeness
 - form
 stage: expert
-status: draft
+status: validated
 ---
 
 # Twelve-Tone Aggregate Theory and Completion

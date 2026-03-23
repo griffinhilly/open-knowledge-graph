@@ -13,7 +13,7 @@ tags:
 - convergence
 - unbounded
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Improper Integrals (Rigorous)

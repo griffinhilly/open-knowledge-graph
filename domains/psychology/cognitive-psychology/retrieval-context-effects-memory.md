@@ -14,7 +14,7 @@ tags:
 - context
 - cues
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Retrieval Cues and Context-Dependent Memory

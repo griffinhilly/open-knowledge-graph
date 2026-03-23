@@ -16,7 +16,7 @@ tags:
 - reasoning
 - evidence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Historical Inference and Logical Reasoning

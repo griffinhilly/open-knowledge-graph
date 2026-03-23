@@ -13,7 +13,7 @@ tags:
 - relativistic
 - radiation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Synchrotron Radiation from Relativistic Charges

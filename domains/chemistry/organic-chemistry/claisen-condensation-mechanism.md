@@ -17,7 +17,7 @@ tags:
 - enolate
 - synthesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Claisen Condensation and Self-Condensation Reactions

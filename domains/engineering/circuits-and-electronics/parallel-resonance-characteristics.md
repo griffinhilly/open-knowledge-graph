@@ -14,7 +14,7 @@ tags:
 - parallel-circuits
 - frequency-response
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Parallel Resonance Characteristics

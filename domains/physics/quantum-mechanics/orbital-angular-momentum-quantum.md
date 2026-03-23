@@ -15,7 +15,7 @@ tags:
 - angular-momentum
 - quantum-mechanics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orbital Angular Momentum in Quantum Mechanics

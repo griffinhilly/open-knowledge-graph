@@ -18,7 +18,7 @@ tags:
 - osmium
 - permanganate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hydroxylation of Alkenes: OsO₄ and KMnO₄

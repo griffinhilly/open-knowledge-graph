@@ -16,7 +16,7 @@ tags:
 - consent
 - compliance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Political Legitimacy and the Consent of the Governed

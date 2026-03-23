@@ -12,7 +12,7 @@ tags:
 - justice
 - institutional-design
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Rule of Law

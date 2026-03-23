@@ -14,7 +14,7 @@ tags:
 - link-quality
 - transmission
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bandwidth, Latency, and Throughput

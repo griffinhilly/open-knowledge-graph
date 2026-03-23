@@ -13,7 +13,7 @@ tags:
 - incentives
 - attendance
 stage: expert
-status: draft
+status: validated
 ---
 
 # School Attendance, Incentives, and Learning

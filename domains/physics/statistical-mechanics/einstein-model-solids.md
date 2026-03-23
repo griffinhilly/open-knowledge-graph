@@ -14,7 +14,7 @@ tags:
 - phonons
 - heat-capacity
 stage: expert
-status: draft
+status: validated
 ---
 # Einstein Model of Solids
 

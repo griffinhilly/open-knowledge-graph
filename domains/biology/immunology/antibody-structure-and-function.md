@@ -21,7 +21,7 @@ tags:
 - effector-functions
 - structure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Antibody Structure and Biological Functions

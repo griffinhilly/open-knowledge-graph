@@ -21,7 +21,7 @@ tags:
 - counterflow
 - heat-transfer
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 # Heat Exchanger Basics
 

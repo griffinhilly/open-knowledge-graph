@@ -15,7 +15,7 @@ builds-toward:
   - calibration-training
 tags: ["rationality", "metacognition", "self-improvement", "debiasing"]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 ## Core Idea

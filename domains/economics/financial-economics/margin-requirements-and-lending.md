@@ -14,7 +14,7 @@ tags:
 - credit
 - trading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Margin Accounts and Leverage Mechanics

@@ -20,7 +20,7 @@ tags:
 - reduction
 - electron-transfer
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electrochemistry and Redox Reactions

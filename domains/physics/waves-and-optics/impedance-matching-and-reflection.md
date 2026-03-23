@@ -13,7 +13,7 @@ tags:
 - impedance-mismatch
 - boundary-conditions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Impedance Matching and Wave Reflection at Boundaries

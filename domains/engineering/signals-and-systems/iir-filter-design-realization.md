@@ -13,7 +13,7 @@ tags:
 - filter-design
 - digital-filters
 stage: expert
-status: draft
+status: validated
 ---
 
 # IIR Filter Design and Realization

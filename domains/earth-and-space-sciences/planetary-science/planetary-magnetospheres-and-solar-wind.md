@@ -16,7 +16,7 @@ tags:
 - space-weather
 - solar-wind
 stage: expert
-status: draft
+status: validated
 ---
 
 # Planetary Magnetospheres and Solar Wind Interaction

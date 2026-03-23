@@ -16,7 +16,7 @@ tags:
 - flow regimes
 - Darcy-Weisbach
 stage: formal-systems
-status: draft
+status: validated
 ---
 # Moody Diagram and Friction Factor
 

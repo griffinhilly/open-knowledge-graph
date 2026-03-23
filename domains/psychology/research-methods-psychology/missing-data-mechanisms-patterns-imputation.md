@@ -18,7 +18,7 @@ tags:
 - imputation
 - data-quality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Missing Data Mechanisms, Patterns, and Handling Methods

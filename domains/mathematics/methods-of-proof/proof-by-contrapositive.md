@@ -12,7 +12,7 @@ tags:
 - proof
 - contrapositive
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Proof by Contrapositive

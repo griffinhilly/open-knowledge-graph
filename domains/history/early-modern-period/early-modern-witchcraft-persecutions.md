@@ -17,7 +17,7 @@ tags:
 - religion
 - violence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Early Modern Witchcraft Persecutions

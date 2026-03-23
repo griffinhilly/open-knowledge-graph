@@ -14,7 +14,7 @@ tags:
 - adaptation
 - variance
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Directional and Stabilizing Selection

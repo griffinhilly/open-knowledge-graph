@@ -17,7 +17,7 @@ tags:
 - thematic-roles
 - linking
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Semantic Role Linking to Syntax

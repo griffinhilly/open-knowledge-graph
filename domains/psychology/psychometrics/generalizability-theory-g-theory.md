@@ -17,7 +17,7 @@ tags:
 - variance-components
 - facets
 stage: expert
-status: draft
+status: validated
 ---
 
 # Generalizability Theory and Multi-Faceted Reliability

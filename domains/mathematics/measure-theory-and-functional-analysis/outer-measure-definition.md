@@ -12,7 +12,7 @@ tags:
 - measure-theory
 - outer-measure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Outer Measure: Definition and Properties

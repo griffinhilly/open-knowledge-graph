@@ -20,7 +20,7 @@ tags:
 - glucagon
 - epinephrine
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Metabolic Integration and Hormonal Regulation

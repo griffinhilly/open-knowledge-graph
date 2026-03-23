@@ -13,7 +13,7 @@ tags:
 - visual-expression
 - mood
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Emotional Tone and Visual Personality

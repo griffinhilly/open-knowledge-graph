@@ -15,7 +15,7 @@ tags:
 - spin
 - two-level-systems
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Spin-1/2 Systems

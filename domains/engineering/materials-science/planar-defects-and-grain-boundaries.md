@@ -18,7 +18,7 @@ tags:
 - interfaces
 - stacking-faults
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Planar Defects: Grain Boundaries and Interfaces

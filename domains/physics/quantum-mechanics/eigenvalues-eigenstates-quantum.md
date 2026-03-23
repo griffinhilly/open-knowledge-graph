@@ -16,7 +16,7 @@ tags:
 - quantum-mechanics
 - eigenvalue-problem
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Eigenvalues and Eigenstates

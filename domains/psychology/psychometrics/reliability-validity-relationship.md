@@ -17,7 +17,7 @@ tags:
 - validity
 - measurement-quality
 stage: expert
-status: draft
+status: validated
 ---
 
 # Reliability and Validity: Foundational Relationship

@@ -18,7 +18,7 @@ tags:
 - mechanism-design
 - auction-theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Optimal Mechanism Design and Revenue Extraction

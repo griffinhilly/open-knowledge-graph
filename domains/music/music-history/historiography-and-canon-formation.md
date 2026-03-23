@@ -13,7 +13,7 @@ tags:
 - recovery
 - critical-history
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Historiography, Canon Formation, and Recovery

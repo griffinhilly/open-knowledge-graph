@@ -15,7 +15,7 @@ tags:
 - discretionary
 - policy-lags
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Discretionary Fiscal Policy

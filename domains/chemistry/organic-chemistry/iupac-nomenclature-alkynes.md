@@ -17,7 +17,7 @@ tags:
 - dienes
 - iupac
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # IUPAC Nomenclature of Alkynes and Conjugated Systems

@@ -23,7 +23,7 @@ tags:
 - dark-matter
 - mass-reconstruction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gravitational Lensing and Dark Matter Mapping

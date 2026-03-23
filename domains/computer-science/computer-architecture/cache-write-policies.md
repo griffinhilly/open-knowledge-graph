@@ -15,7 +15,7 @@ tags:
 - write-policy
 - memory-consistency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cache Write-Through and Write-Back Policies

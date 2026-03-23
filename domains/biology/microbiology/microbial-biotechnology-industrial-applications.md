@@ -16,7 +16,7 @@ tags:
 - fermentation
 - recombinant-proteins
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Microbial Biotechnology and Industrial Applications

@@ -16,7 +16,7 @@ tags:
 - governance
 - constitution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Roman Republic and Its Governmental Structure

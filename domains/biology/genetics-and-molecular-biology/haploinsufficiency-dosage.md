@@ -16,7 +16,7 @@ tags:
 - gene-dosage
 - heterozygous-effects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Haploinsufficiency and Gene Dosage Effects

@@ -13,7 +13,7 @@ tags:
 - field-forces
 - radiation-pressure
 stage: expert
-status: draft
+status: validated
 ---
 
 # Maxwell Stress Tensor and Field Forces

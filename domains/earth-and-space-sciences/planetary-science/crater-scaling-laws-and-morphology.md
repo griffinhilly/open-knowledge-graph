@@ -18,7 +18,7 @@ tags:
 - gravity
 - impact-mechanics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Impact Crater Scaling Laws and Morphological Transitions

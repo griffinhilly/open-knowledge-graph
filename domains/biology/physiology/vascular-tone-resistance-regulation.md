@@ -19,7 +19,7 @@ tags:
 - vasoconstriction
 - vasodilation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vascular Tone and Resistance Regulation

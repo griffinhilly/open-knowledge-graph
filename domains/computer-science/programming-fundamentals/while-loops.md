@@ -6,12 +6,18 @@ course: programming-fundamentals
 prerequisites:
 - id: conditional-statements
   type: hard
-- id: boolean-logic-programming
+- id: boolean-logic
   type: soft
+- id: program-structure
+  type: hard
+- id: comparison-operators
+  type: hard
 builds-toward:
 - for-loops
 - loop-control-statements
 - recursion-basics
+- nested-loops
+- loop-design-and-invariants
 tags:
 - while
 - iteration
@@ -21,7 +27,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # While Loops
 
 ## Core Idea

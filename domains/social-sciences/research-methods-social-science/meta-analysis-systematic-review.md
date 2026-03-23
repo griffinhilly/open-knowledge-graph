@@ -21,7 +21,7 @@ tags:
 - meta-analysis
 - systematic
 stage: expert
-status: draft
+status: validated
 ---
 
 # Meta-Analysis and Systematic Review

@@ -4,7 +4,7 @@ title: Counting Sort Algorithm
 domain: computer-science
 course: data-structures-and-algorithms
 prerequisites:
-- id: arrays-and-indexed-collections
+- id: arrays-and-lists
   type: hard
 - id: algorithm-design-basics
   type: soft
@@ -18,9 +18,8 @@ tags:
 - stable
 - integer-sorting
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Counting Sort Algorithm
 
 ## Core Idea

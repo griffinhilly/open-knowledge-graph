@@ -16,7 +16,7 @@ tags:
 - symmetry-breaking
 - magnetization
 stage: expert
-status: draft
+status: validated
 ---
 
 # Order Parameters and Phase Transitions

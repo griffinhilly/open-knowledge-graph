@@ -12,7 +12,7 @@ tags:
 - learning-memory
 - spatial-memory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hippocampus: Declarative Memory and Spatial Coding

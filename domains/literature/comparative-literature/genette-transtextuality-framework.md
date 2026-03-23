@@ -20,7 +20,7 @@ tags:
 - textual-relations
 - theory
 stage: expert
-status: draft
+status: validated
 ---
 
 # Genette's Transtextuality: A Taxonomy

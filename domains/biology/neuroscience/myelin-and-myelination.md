@@ -16,7 +16,7 @@ tags:
 - myelination
 - conduction-velocity
 stage: expert
-status: draft
+status: validated
 ---
 
 # Myelin Structure and Myelination

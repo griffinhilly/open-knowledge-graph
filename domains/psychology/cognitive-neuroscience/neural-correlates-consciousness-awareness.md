@@ -18,7 +18,7 @@ tags:
 - neural-correlates
 - subjective-experience
 stage: expert
-status: draft
+status: validated
 ---
 
 # Neural Correlates of Consciousness and Awareness

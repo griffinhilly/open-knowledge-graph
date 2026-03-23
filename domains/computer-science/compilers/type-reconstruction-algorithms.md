@@ -15,7 +15,7 @@ tags:
 - inference
 - algorithms
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Type Reconstruction and Inference

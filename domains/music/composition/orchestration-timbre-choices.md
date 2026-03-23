@@ -19,7 +19,7 @@ tags:
 - instruments
 - sonority
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Orchestration and Timbre Choices

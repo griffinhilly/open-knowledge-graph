@@ -15,7 +15,7 @@ tags:
 - dissonance
 - harmonic-function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Consonance and Dissonance in Harmony

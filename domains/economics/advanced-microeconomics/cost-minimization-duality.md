@@ -21,7 +21,7 @@ tags:
 - duality
 - cost
 stage: expert
-status: draft
+status: validated
 ---
 
 # Producer Duality: Cost and Profit Functions

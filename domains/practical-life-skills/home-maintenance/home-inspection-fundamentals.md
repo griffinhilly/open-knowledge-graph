@@ -14,7 +14,7 @@ tags:
 - assessment
 - documentation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Home Inspection Fundamentals and Documentation

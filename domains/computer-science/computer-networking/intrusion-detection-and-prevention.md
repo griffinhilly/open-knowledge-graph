@@ -12,7 +12,7 @@ tags:
 - intrusion-detection
 - anomaly-detection
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Intrusion Detection and Prevention Systems

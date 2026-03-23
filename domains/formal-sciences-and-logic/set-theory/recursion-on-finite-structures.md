@@ -16,7 +16,7 @@ tags:
 - induction
 - iteration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Recursive Definitions on Finite Sets

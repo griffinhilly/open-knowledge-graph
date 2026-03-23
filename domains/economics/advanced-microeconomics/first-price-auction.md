@@ -11,7 +11,7 @@ tags:
 - bidding
 - sealed-bid
 stage: expert
-status: draft
+status: validated
 ---
 
 # First-Price Sealed-Bid Auction

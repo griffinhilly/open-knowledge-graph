@@ -13,7 +13,7 @@ tags:
 - fundamentals
 - rn-spaces
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vectors in R^n

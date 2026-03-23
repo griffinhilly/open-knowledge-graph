@@ -17,7 +17,7 @@ tags:
 - internal-combustion
 - efficiency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Otto and Diesel Cycles: Internal Combustion Engines

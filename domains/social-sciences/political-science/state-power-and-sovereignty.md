@@ -16,7 +16,7 @@ tags:
 - territory
 - political-order
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # State Power and Sovereignty

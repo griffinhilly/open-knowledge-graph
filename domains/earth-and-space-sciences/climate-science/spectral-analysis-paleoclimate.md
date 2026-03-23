@@ -17,7 +17,7 @@ tags:
 - orbital-cycles
 - periodicities
 stage: expert
-status: draft
+status: validated
 ---
 
 # Spectral Analysis and Periodicity in Paleoclimate Records

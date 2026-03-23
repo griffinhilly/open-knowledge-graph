@@ -13,7 +13,7 @@ tags:
 - categories
 - minimalism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Labeling Algorithm and Syntactic Categories

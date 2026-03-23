@@ -16,7 +16,7 @@ tags:
 - qbf
 - pspace-complete
 stage: advanced
-status: draft
+status: validated
 ---
 
 # PSPACE and PSPACE-Completeness

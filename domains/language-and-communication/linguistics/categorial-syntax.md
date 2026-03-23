@@ -11,7 +11,7 @@ tags:
 - framework
 - types
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Categorial Grammar: Type-Based Syntax

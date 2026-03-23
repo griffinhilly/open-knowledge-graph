@@ -15,7 +15,7 @@ tags:
 - networking
 - connectivity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Diagnosing and Resolving Internet Connection Problems

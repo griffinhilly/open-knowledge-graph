@@ -17,7 +17,7 @@ tags:
 - modes
 - symmetry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Normal Modes and Collective Oscillations

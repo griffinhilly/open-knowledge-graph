@@ -13,7 +13,7 @@ tags:
 - differentiation
 - integration
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fundamental Theorem of Calculus (Rigorous)

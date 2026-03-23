@@ -13,7 +13,7 @@ tags:
 - heat-release
 - adiabatic-flame-temperature
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Combustion Thermodynamics and Adiabatic Flame Temperature

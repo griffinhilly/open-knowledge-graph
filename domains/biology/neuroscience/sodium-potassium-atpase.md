@@ -18,7 +18,7 @@ tags:
 - energy-metabolism
 - homeostasis
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Na+/K+-ATPase: Maintaining Ion Gradients

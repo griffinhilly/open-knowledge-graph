@@ -14,7 +14,7 @@ tags:
 - debate
 - argument
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Identifying and Refuting Logical Fallacies in Debate

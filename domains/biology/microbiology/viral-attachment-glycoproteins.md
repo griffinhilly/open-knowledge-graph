@@ -16,7 +16,7 @@ tags:
 - receptor-binding
 - tropism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Viral Attachment Proteins and Receptor Binding

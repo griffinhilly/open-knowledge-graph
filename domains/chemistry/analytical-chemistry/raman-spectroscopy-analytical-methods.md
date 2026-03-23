@@ -22,7 +22,7 @@ tags:
 - SERS
 - molecular-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Raman Spectroscopy: Analytical Methods and Applications

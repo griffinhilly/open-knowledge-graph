@@ -18,7 +18,7 @@ tags:
 - entities
 - relations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Knowledge Graphs

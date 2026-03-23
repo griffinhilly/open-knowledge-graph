@@ -19,7 +19,7 @@ tags:
 - hoffmann
 - anti-periplanar
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # E2 Elimination Mechanism and Hoffmann's Rule

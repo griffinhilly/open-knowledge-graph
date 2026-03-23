@@ -18,7 +18,7 @@ tags:
 - binary
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Simple Song Form (Binary and Ternary)

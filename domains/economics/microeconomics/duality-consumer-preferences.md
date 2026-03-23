@@ -17,7 +17,7 @@ tags:
 - expenditure
 - utility
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Duality in Consumer Theory: Utility and Expenditure

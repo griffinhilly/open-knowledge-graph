@@ -17,7 +17,7 @@ tags:
 - transmission
 - reliability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Textual Criticism and Manuscript Tradition

@@ -20,7 +20,7 @@ tags:
 - systematic
 - practice
 stage: expert
-status: draft
+status: validated
 ---
 
 # Systems of Historical Research and Writing

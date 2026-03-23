@@ -15,7 +15,7 @@ tags:
 - stratification
 - mantel-haenszel
 stage: expert
-status: draft
+status: validated
 ---
 
 # Stratified Analysis and Adjustment for Confounding

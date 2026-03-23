@@ -15,7 +15,7 @@ tags:
 - catalyst
 - regulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Enzymes in Cells: Catalysis and Regulation

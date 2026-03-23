@@ -17,7 +17,7 @@ tags:
 - fundamentals
 - practical
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Hand Tools: Identification and Basic Use

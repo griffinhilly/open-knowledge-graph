@@ -13,7 +13,7 @@ tags:
 - polyphony
 - motion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Voice-Leading Direction Recognition by Ear

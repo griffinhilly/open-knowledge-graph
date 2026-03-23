@@ -19,7 +19,7 @@ tags:
 - homogeneity
 - additivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linearity, Superposition, and Scaling

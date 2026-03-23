@@ -19,7 +19,7 @@ tags:
 - speciation
 - fossil-record
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Punctuated Equilibrium and Evolutionary Tempo

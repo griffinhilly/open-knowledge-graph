@@ -16,7 +16,7 @@ tags:
 - supremum
 - bounded
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Monotone Convergence Theorem

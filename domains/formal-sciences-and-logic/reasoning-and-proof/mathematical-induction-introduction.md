@@ -10,7 +10,7 @@ prerequisites:
     type: hard
   - id: conjectures-and-testing
     type: soft
-  - id: number-sequences-patterns
+  - id: number-patterns-logic
     type: soft
 builds-toward:
   - when-is-something-proven
@@ -19,7 +19,7 @@ builds-toward:
   - weak-induction
 tags: [induction, proof, natural-numbers, recursion]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Introduction to Mathematical Induction

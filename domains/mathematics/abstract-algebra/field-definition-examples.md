@@ -15,7 +15,7 @@ tags:
 - division-ring
 - characteristic
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Field Definition and Examples

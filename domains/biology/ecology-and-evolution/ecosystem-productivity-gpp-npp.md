@@ -19,7 +19,7 @@ tags:
 - npp
 - photosynthesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ecosystem Productivity: GPP and NPP

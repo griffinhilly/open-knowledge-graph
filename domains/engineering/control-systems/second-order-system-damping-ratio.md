@@ -17,7 +17,7 @@ tags:
 - underdamped
 - overdamped
 stage: expert
-status: draft
+status: validated
 ---
 
 # Second-Order System Response: Damping Ratio and Natural Frequency

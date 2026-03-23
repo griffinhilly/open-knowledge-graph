@@ -16,7 +16,7 @@ tags:
 - serialism
 - experimental
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Contemporary Compositional Approaches

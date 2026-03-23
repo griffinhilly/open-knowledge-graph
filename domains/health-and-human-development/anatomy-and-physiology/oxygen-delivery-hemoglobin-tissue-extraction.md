@@ -17,7 +17,7 @@ tags:
 - hemoglobin
 - aerobic-metabolism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Oxygen Delivery, Hemoglobin Saturation, and Tissue Extraction

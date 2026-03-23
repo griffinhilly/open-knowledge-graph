@@ -16,7 +16,7 @@ tags:
 - counterpoint
 - texture
 stage: expert
-status: draft
+status: validated
 ---
 
 # Voice-Leading Voice Exchange

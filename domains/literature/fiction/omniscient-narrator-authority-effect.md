@@ -14,7 +14,7 @@ tags:
 - authority
 - narrator
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Omniscient Narration: Authority and Effect

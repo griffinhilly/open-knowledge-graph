@@ -11,7 +11,7 @@ tags:
 - bose-condensate
 - quantum-phenomena
 stage: expert
-status: draft
+status: validated
 ---
 
 # Superfluidity

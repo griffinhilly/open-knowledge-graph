@@ -12,7 +12,7 @@ tags:
 - entanglement
 - correlations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Quantum Entanglement

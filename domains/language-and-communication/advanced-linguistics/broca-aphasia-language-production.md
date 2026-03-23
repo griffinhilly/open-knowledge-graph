@@ -11,7 +11,7 @@ tags:
 - aphasia
 - production
 stage: expert
-status: draft
+status: validated
 ---
 
 # Broca's Aphasia and Language Production

@@ -16,7 +16,7 @@ tags:
 - place
 - manner
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phonological Features

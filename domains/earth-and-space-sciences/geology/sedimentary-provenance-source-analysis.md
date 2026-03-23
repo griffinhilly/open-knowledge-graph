@@ -14,7 +14,7 @@ tags:
 - provenance
 - tectonics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sedimentary Provenance and Source-to-Sink Analysis

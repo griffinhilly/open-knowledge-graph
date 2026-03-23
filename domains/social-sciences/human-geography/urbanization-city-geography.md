@@ -17,7 +17,7 @@ tags:
 - urban-form
 - development
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Urbanization, City Development, and Urban Geography

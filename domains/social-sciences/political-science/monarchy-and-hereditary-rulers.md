@@ -16,7 +16,7 @@ tags:
 - royal-rule
 - feudalism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Monarchy and Hereditary Succession of Rule

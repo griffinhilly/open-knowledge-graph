@@ -20,7 +20,7 @@ tags:
 - singability
 - phrasing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Melody Construction Principles

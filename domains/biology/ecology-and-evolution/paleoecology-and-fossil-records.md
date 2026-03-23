@@ -16,7 +16,7 @@ tags:
 - past-ecosystems
 - inference
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Paleoecology and Inference from Fossil Records

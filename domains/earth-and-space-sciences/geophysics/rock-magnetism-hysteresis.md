@@ -14,7 +14,7 @@ tags:
 - domains
 - hysteresis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Rock Magnetism: Domains, Hysteresis, and Saturation

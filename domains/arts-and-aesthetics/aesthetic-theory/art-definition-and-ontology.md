@@ -17,7 +17,7 @@ tags:
 - essence
 - concept
 stage: expert
-status: draft
+status: validated
 ---
 
 # The Problem of Art Definition and Ontology

@@ -17,7 +17,7 @@ tags:
 - irt
 - item-banking
 stage: expert
-status: draft
+status: validated
 ---
 
 # Anchor Items and Scale Linking in Test Equating

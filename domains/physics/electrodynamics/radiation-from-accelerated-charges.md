@@ -15,7 +15,7 @@ tags:
 - radiation
 - acceleration
 stage: expert
-status: draft
+status: validated
 ---
 
 # Radiation from Accelerated Charges

@@ -14,7 +14,7 @@ tags:
 - conversion
 - radix
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Converting Between Binary, Decimal, and Hexadecimal

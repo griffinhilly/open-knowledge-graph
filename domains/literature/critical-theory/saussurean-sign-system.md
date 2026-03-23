@@ -26,7 +26,7 @@ tags:
 - meaning-production
 - structuralism
 stage: expert
-status: draft
+status: validated
 ---
 
 # Saussure's Sign System: Signifier and Signified

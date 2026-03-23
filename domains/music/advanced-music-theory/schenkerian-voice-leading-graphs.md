@@ -14,7 +14,7 @@ tags:
 - graphs
 - reduction
 stage: expert
-status: draft
+status: validated
 ---
 
 # Schenkerian Graphs and Reduction Notation

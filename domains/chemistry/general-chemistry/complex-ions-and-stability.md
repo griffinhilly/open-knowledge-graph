@@ -16,7 +16,7 @@ tags:
 - formation constant
 - coordination equilibrium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stability of Complex Ions and Formation Constants

@@ -17,7 +17,7 @@ tags:
 - voltage
 - scalar
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electric Potential and Potential Difference

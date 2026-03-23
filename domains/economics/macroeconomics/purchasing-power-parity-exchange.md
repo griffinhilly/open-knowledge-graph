@@ -15,7 +15,7 @@ tags:
 - parity
 - international
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Purchasing Power Parity and Exchange Rates

@@ -18,7 +18,7 @@ tags:
 - power
 - carnot
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Power Cycle Analysis and Thermal Efficiency

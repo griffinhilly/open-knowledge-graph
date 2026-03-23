@@ -15,7 +15,7 @@ tags:
 - adoption
 - development
 stage: expert
-status: draft
+status: validated
 ---
 
 # Technology Transfer, Adoption, and Diffusion

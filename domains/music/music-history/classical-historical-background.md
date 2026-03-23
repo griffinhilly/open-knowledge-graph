@@ -15,7 +15,7 @@ tags:
 - form
 - clarity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Classical Era: Enlightenment Ideals and Formal Clarity

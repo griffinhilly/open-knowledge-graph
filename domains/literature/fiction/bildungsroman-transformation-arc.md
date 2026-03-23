@@ -14,7 +14,7 @@ tags:
 - transformation
 - maturation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Bildungsroman: Protagonist Transformation

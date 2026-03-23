@@ -13,7 +13,7 @@ tags:
 - conflict-resolution
 - third-party
 stage: expert
-status: draft
+status: validated
 ---
 
 # Mediation and Third-Party Conflict Resolution

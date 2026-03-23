@@ -16,7 +16,7 @@ tags:
 - layers
 - sequence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stratigraphic Interpretation in Archaeology

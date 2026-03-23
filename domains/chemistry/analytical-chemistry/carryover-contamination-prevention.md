@@ -16,7 +16,7 @@ tags:
 - carryover
 - quality-control
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Carryover and Cross-Contamination Prevention

@@ -16,7 +16,7 @@ tags:
 - environments
 - facies
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sedimentary Depositional Environments and Facies

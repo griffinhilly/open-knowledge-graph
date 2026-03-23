@@ -16,7 +16,7 @@ tags:
 - labeling
 - oral-language
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Vocabulary Building

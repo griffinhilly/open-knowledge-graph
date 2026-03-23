@@ -19,7 +19,7 @@ tags:
 - nucleofugality
 - reactivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Leaving Groups and Nucleofugality

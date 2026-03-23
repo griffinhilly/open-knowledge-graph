@@ -16,7 +16,7 @@ tags:
 - truth-conditions
 - deductive
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conditional Statements and the Material Conditional

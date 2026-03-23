@@ -19,7 +19,7 @@ tags:
 - cardiovascular-disease
 - pressure-homeostasis
 stage: expert
-status: draft
+status: validated
 ---
 
 # Hypertension and End-Organ Damage

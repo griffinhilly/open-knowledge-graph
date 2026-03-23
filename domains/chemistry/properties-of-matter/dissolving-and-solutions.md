@@ -17,7 +17,7 @@ tags:
 - solute
 - solvent
 stage: concrete-operations
-status: draft
+status: validated
 ---
 # Dissolving and Solutions
 

@@ -18,7 +18,7 @@ tags:
 - cyclones
 - energy-dissipation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mesoscale Eddy Dynamics and Circular Ocean Currents

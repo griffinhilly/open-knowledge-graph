@@ -13,7 +13,7 @@ tags:
 - polynomials
 - approximation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Weierstrass Approximation Theorem

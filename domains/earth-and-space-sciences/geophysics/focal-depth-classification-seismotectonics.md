@@ -16,7 +16,7 @@ tags:
 - subduction
 - seismotectonics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Focal Depth Classification and Seismotectonics

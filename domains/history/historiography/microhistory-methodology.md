@@ -15,7 +15,7 @@ tags:
 - methodology
 - italian
 stage: expert
-status: draft
+status: validated
 ---
 
 # Microhistory: Magnifying the Small to Understand the Large

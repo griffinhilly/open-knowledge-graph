@@ -15,7 +15,7 @@ tags:
 - measurement
 - arrays
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Finding Area by Counting Unit Squares

@@ -16,7 +16,7 @@ tags:
 - energy
 - power
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Energy Transport and Wave Intensity

@@ -13,7 +13,7 @@ tags:
 - chaining
 - collision
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hash Tables: Collision Resolution by Chaining

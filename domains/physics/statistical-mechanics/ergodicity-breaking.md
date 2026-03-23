@@ -15,7 +15,7 @@ tags:
 - disorder
 - dynamics
 stage: expert
-status: draft
+status: validated
 ---
 
 # Ergodicity Breaking

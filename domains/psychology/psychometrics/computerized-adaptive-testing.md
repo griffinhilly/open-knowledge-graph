@@ -14,7 +14,7 @@ tags:
 - item-bank
 - efficiency
 stage: expert
-status: draft
+status: validated
 ---
 
 # Computerized Adaptive Testing and Dynamic Assessment

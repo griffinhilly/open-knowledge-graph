@@ -16,7 +16,7 @@ tags:
 - sentence-errors
 - punctuation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Comma Splices and Run-On Sentences

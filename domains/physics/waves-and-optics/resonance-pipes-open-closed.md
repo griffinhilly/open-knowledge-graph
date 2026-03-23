@@ -15,7 +15,7 @@ tags:
 - sound
 - pipes
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Resonance in Pipes: Open and Closed Ends

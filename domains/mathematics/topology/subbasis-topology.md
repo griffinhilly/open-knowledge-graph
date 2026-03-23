@@ -13,7 +13,7 @@ tags:
 - subbasis
 - construction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Subbasis for a Topology

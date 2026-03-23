@@ -1,10 +1,10 @@
 ---
 id: array-representation-operations-efficiency
-title: 'Array Data Structure: Representation and Operations'
+title: "Array Data Structure: Representation and Operations"
 domain: computer-science
 course: data-structures-and-algorithms
 prerequisites:
-- id: programming-fundamentals-arrays-and-lists
+- id: arrays-and-lists
   type: hard
 builds-toward:
 - list-abstract-data-type-interface
@@ -15,9 +15,8 @@ tags:
 - data-structure
 - memory
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Array Data Structure: Representation and Operations
 
 ## Core Idea

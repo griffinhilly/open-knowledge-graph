@@ -14,7 +14,7 @@ tags:
 - class-equation
 - center
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Class Equation

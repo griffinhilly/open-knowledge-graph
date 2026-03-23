@@ -14,7 +14,7 @@ tags:
 - quadratic-congruences
 - quadratic-equations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quadratic Congruences

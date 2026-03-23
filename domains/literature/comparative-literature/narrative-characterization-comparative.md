@@ -16,7 +16,7 @@ tags:
 - cultural-difference
 - literary-form
 stage: expert
-status: draft
+status: validated
 ---
 
 # Narrative and Characterization Across Cultures

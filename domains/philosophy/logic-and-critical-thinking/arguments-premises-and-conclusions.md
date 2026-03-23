@@ -14,7 +14,7 @@ tags:
 - reasoning
 - fundamentals
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Arguments, Premises, and Conclusions

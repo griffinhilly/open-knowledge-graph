@@ -16,7 +16,7 @@ tags:
 - risk-management
 - interest-rates
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interest Rate Risk and Duration Strategy

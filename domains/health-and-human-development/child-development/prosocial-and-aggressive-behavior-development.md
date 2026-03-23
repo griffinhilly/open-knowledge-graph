@@ -17,7 +17,7 @@ tags:
 - empathy
 - behavior-development
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Prosocial and Aggressive Behavior Development

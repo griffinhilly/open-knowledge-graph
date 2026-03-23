@@ -16,7 +16,7 @@ tags:
 - crystallization
 - equation-of-state
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # White Dwarf Cooling Sequences and Crystallization

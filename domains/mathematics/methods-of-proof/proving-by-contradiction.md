@@ -18,7 +18,7 @@ tags:
 - reductio ad absurdum
 - indirect
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Proving by Contradiction

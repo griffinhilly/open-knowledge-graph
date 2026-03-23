@@ -18,7 +18,7 @@ tags:
 - hom-sets
 - natural-transformation
 stage: expert
-status: draft
+status: validated
 ---
 
 # Adjunctions as Natural Hom-set Bijections

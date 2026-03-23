@@ -19,7 +19,7 @@ tags:
 - greenhouse
 - carbon-dioxide
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Anthropogenic Climate Change and Radiative Forcing

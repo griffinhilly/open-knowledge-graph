@@ -12,7 +12,7 @@ tags:
 - punctuation
 - commas
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Comma Rules: An Introduction

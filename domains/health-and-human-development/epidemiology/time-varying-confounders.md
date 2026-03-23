@@ -15,7 +15,7 @@ tags:
 - time-varying-confounding
 - exposure-dynamics
 stage: expert
-status: draft
+status: validated
 ---
 # Time-Varying Confounders and Longitudinal Exposure
 

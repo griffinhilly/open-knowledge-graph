@@ -20,7 +20,7 @@ tags:
 - peak-area
 - internal-standard
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gas Chromatography: Quantitative Analysis and Calibration

@@ -17,7 +17,7 @@ tags:
 - coefficients
 - mass conservation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chemical Equations: Writing and Balancing Reactions

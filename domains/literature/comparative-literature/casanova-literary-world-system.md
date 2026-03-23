@@ -18,7 +18,7 @@ tags:
 - casanova
 - world-system
 stage: expert
-status: draft
+status: validated
 ---
 
 # Casanova: The World Republic of Letters

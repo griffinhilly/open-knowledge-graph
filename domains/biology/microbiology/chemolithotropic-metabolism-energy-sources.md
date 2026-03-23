@@ -15,7 +15,7 @@ tags:
 - energy
 - metabolism
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Chemolithotropic Metabolism and Inorganic Energy Sources

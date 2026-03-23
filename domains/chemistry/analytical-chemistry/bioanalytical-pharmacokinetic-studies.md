@@ -16,7 +16,7 @@ tags:
 - pharmacokinetics
 - life-sciences
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bioanalytical Methods in Pharmacokinetic Studies

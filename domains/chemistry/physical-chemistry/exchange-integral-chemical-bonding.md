@@ -16,7 +16,7 @@ tags:
 - bonding
 - quantum-mechanics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Exchange Integral and Chemical Bonding

@@ -14,7 +14,7 @@ tags:
 - lp-spaces
 - completeness
 stage: expert
-status: draft
+status: validated
 ---
 
 # Completeness of Lᵖ (Riesz-Fischer Theorem)

@@ -15,7 +15,7 @@ tags:
 - iteration
 - common-ground
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Common Knowledge and Mutual Knowledge

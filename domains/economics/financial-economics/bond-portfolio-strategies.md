@@ -13,7 +13,7 @@ tags:
 - portfolio-management
 - strategy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bond Portfolio Strategies: Ladders and Barbells
