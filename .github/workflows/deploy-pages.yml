@@ -42,6 +42,21 @@ jobs:
       - name: Generate topic detail pages
         run: python tools/generate_topic_pages.py
 
+      - name: Generate domain maps
+        run: python tools/visualize_domain_map.py --all
+
+      - name: Generate assessment data
+        run: python tools/generate_assessment.py
+
+      - name: Generate assessment page
+        run: python tools/generate_assessment_page.py
+
+      - name: Generate quiz question bank
+        run: python tools/generate_assessment_questions.py
+
+      - name: Generate quiz page
+        run: python tools/generate_quiz_page.py
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
