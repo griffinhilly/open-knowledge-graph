@@ -6,6 +6,8 @@ course: anatomy-and-physiology
 prerequisites:
 - id: spinal-cord-and-peripheral-nerve-anatomy
   type: hard
+- id: autonomic-nervous-system-organ-effects
+  type: soft
 tags:
 - autonomic
 - somatic
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Autonomic and Somatic Nervous System Anatomy
 
 ## Core Idea

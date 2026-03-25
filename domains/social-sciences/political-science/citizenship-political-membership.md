@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: identity-and-interests
   type: soft
+- id: citizenship-political-participation
+  type: soft
 builds-toward:
 - individual-rights-and-freedoms
 - immigration-sovereignty-political-economy
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Citizenship and Political Membership
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: anthropology
 prerequisites:
 - id: ethnography-methods
   type: hard
+- id: participant-observation-reflexivity
+  type: soft
 builds-toward:
 - ethnographic-extended-fieldwork-immersion
 - research-ethics-human-subjects
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ethnographic Participant Observation
 
 ## Core Idea

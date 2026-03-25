@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: epiphenomenalism
   type: soft
+- id: mental-causation-efficacy-problem
+  type: soft
 tags:
 - causation
 - consciousness
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Causal Efficacy of Consciousness
 
 ## Core Idea

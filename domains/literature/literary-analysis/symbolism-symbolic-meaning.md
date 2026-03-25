@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: close-reading-techniques
   type: hard
+- id: symbol-interpretation-and-meaning
+  type: soft
+- id: symbol-interpretation-method
+  type: soft
 builds-toward:
 - symbol-interpretation-method
 - extended-metaphor-analysis
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Symbolism and Symbolic Interpretation
 
 ## Core Idea

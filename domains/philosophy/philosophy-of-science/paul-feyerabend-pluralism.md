@@ -6,6 +6,8 @@ course: philosophy-of-science
 prerequisites:
 - id: imre-lakatos-research-programs
   type: hard
+- id: feyerabend-methodology-anarchy
+  type: soft
 builds-toward:
 - values-in-science
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Paul Feyerabend and Methodological Pluralism
 
 ## Core Idea

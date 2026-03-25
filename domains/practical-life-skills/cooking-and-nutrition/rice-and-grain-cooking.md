@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: proportional-relationships
   type: soft
+- id: rice-cooking-water-ratios
+  type: soft
 tags:
 - rice
 - grains
@@ -19,7 +21,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Rice and Grain Cooking
 
 ## Core Idea

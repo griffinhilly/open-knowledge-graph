@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: democracy-and-self-governance
   type: soft
+- id: rousseauian-social-contract
+  type: soft
 builds-toward:
 - popular-sovereignty-principle
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Rousseau and the General Will
 
 ## Core Idea

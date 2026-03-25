@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: logical-form
   type: hard
+- id: skeptical-scenarios-knowledge-closure
+  type: soft
 builds-toward:
 - moorean-responses-skepticism
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Epistemic Closure and Logical Closure Principles
 
 ## Core Idea

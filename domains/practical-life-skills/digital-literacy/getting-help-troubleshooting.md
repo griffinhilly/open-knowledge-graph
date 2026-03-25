@@ -6,6 +6,8 @@ course: digital-literacy
 prerequisites:
 - id: operating-system-fundamentals
   type: hard
+- id: finding-and-using-online-help-and-support
+  type: soft
 builds-toward:
 - basic-computer-troubleshooting
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Getting Help and Basic Troubleshooting
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: email-security-and-professional-tone
   type: soft
+- id: detecting-fake-websites-and-scams
+  type: soft
 builds-toward:
 - recognizing-online-scams-fraud
 - keeping-yourself-safe-online
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Identifying Phishing and Social Engineering Attempts
 
 ## Core Idea

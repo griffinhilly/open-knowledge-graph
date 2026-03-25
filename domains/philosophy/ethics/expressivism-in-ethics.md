@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: moral-relativism
   type: soft
+- id: moral-non-cognitivism
+  type: soft
 builds-toward:
 - error-theory
 tags:

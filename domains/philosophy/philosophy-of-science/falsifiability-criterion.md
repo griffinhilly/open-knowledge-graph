@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: propositional-logic-introduction
   type: soft
+- id: falsifiability-as-demarcation-criterion
+  type: soft
 builds-toward:
 - kuhn-paradigm-theory
 - lakatos-research-programs
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # The Falsifiability Criterion and Its Problems
 
 ## Core Idea

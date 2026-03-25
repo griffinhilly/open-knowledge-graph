@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: composition-and-simples
   type: hard
+- id: unrestricted-vs-restricted-composition
+  type: soft
 builds-toward:
 - composition-as-identity
 - mereological-nihilism
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Mereological Composition
 
 ## Core Idea

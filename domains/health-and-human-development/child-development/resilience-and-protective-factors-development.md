@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: early-intervention-and-developmental-support
   type: soft
+- id: protective-factors-and-resilience-in-childhood
+  type: soft
 builds-toward:
 - school-age-cognitive-and-social-development
 - adolescent-brain-and-behavioral-development
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Resilience and Protective Factors in Development
 
 ## Core Idea

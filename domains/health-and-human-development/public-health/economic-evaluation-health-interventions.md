@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: burden-of-disease-metrics
   type: hard
+- id: cost-effectiveness-and-economic-evaluation-health
+  type: soft
 tags:
 - cost-effectiveness
 - cea
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Economic Evaluation of Health Interventions
 
 ## Core Idea

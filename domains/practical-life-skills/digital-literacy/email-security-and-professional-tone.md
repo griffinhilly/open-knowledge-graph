@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: identifying-misinformation-and-bias
   type: soft
+- id: email-etiquette
+  type: soft
 tags:
 - email
 - etiquette
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Email Safety & Professional Communication
 
 ## Core Idea

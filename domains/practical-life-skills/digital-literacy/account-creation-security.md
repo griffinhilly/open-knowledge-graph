@@ -6,6 +6,8 @@ course: digital-literacy
 prerequisites:
 - id: digital-literacy-fundamentals
   type: hard
+- id: password-management-and-accounts
+  type: soft
 builds-toward:
 - password-security
 - online-account-management
@@ -19,7 +21,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Account Creation and Security
 
 ## Core Idea

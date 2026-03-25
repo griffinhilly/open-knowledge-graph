@@ -6,6 +6,8 @@ course: ethics
 prerequisites:
 - id: metaethics-intro
   type: hard
+- id: moral-subjectivism-ethics
+  type: soft
 builds-toward:
 - expressivism-in-ethics
 - applied-ethics-intro
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Moral Relativism
 
 ## Core Idea

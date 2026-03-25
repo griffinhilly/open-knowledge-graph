@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: human-evolution-basics
   type: hard
+- id: ecological-anthropology-adaptation
+  type: soft
 builds-toward:
 - medical-anthropology
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Biocultural Human Ecology and Adaptation
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: digital-literacy
 prerequisites:
 - id: device-security-desktop-mobile
   type: soft
+- id: notification-management
+  type: soft
 builds-toward:
 - digital-wellness-and-screen-time
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Notification and Alert Management
 
 ## Core Idea

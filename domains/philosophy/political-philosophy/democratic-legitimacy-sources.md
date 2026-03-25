@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: popular-sovereignty-principle
   type: hard
+- id: rousseau-general-will-democracy
+  type: soft
 builds-toward:
 - liberal-democracy-theory
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Sources of Democratic Legitimacy
 
 ## Core Idea

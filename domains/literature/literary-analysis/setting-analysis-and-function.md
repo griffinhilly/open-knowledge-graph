@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: setting-and-atmosphere
   type: hard
+- id: setting-functional-analysis
+  type: soft
 builds-toward:
 - symbol-interpretation-and-meaning
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Setting: Analysis, Function, and Symbolism
 
 ## Core Idea

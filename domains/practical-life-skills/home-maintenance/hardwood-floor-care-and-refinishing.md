@@ -6,6 +6,8 @@ course: home-maintenance
 prerequisites:
 - id: floor-types-and-maintenance
   type: soft
+- id: carpet-stain-removal-and-care
+  type: soft
 tags:
 - flooring
 - refinishing
@@ -13,7 +15,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Hardwood Floor Care and Refinishing
 
 ## Core Idea

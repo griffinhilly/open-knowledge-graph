@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hand-tools-identification-and-basic-use
   type: hard
+- id: basic-electrical-maintenance-and-repairs
+  type: soft
 tags:
 - plumbing
 - repairs
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Common Plumbing Maintenance Tasks
 
 ## Core Idea

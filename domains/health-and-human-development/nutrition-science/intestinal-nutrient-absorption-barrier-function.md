@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: digestive-anatomy-and-motility
   type: hard
+- id: intestinal-barrier-function-and-nutrient-transport
+  type: soft
 builds-toward:
 - calcium-phosphate-bone-mineralization
 - iron-oxygen-transport-dna-synthesis
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Intestinal Barrier Function and Selective Nutrient Absorption
 
 ## Core Idea

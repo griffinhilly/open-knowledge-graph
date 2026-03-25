@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: research-ethics-human-subjects
   type: hard
+- id: participant-observation-reflexivity
+  type: soft
 builds-toward:
 - ethnography-advanced-methods
 - reflexivity-positionality-research
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ethnographic Fieldwork: Positionality and Research Ethics
 
 ## Core Idea

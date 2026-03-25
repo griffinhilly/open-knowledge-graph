@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: postcolonial-literature-theory
   type: soft
+- id: subaltern-postcolonial-voice
+  type: soft
 builds-toward:
 - postcolonial-rewriting-canon
 - literary-identity-nation-construction
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Spivak's Subaltern and the Politics of Representation
 
 ## Core Idea

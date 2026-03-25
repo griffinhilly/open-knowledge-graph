@@ -6,6 +6,8 @@ course: philosophy-of-language
 prerequisites:
 - id: austin-speech-acts
   type: soft
+- id: indirect-speech-acts
+  type: soft
 builds-toward:
 - grice-conversational-implicature
 - pragmatics-semantics-boundary
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Speech Acts and the Nature of Communication
 
 ## Core Idea

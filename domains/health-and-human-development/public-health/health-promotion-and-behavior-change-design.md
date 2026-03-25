@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: disease-prevention-levels
   type: soft
+- id: health-behavior-change-intervention-strategies
+  type: soft
 builds-toward:
 - health-communication-and-message-design
 - policy-analysis-and-health-impact-evaluation
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Health Promotion Program Design and Behavior Change Theories
 
 ## Core Idea

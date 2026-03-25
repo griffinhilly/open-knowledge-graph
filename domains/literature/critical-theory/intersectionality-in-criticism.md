@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: cultural-studies-approach
   type: soft
+- id: intersectionality-multiple-difference
+  type: soft
 tags:
 - intersectionality
 - Crenshaw
@@ -23,7 +25,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Intersectionality in Literary Criticism
 
 ## Core Idea

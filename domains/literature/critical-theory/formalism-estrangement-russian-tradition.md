@@ -6,6 +6,8 @@ course: critical-theory
 prerequisites:
 - id: critical-theory-introduction
   type: soft
+- id: formalist-estrangement-technique
+  type: soft
 builds-toward:
 - structuralism-relational-systems
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Russian Formalism and Estrangement
 
 ## Core Idea

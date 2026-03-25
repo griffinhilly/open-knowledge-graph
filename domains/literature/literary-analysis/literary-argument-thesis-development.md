@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: analytical-thesis-development
   type: hard
+- id: analytical-thesis-literary-essay
+  type: soft
 builds-toward:
 - literary-argument-writing
 - literary-argument-thesis
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Developing Literary Arguments and Theses
 
 ## Core Idea

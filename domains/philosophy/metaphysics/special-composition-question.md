@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: composition-principles-mereology
   type: hard
+- id: mereological-nihilism
+  type: soft
 builds-toward:
 - unrestricted-vs-restricted-composition
 - nihilism-composition
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Special Composition Question
 
 ## Core Idea

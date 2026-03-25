@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: de-re-attitudes
   type: soft
+- id: intentionality-semantic-content-mind
+  type: soft
+- id: narrow-content-individuation
+  type: soft
 builds-toward:
 - narrow-intrinsic-content-mind
 - thought-content-aboutness
@@ -22,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Content Externalism and Mental Individuation
 
 ## Core Idea

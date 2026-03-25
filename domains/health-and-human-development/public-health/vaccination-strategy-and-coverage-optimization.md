@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: force-of-infection
   type: soft
+- id: vaccination-herd-immunity-thresholds
+  type: soft
 builds-toward:
 - pandemic-preparedness-and-response-planning
 - public-health-ethics
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Vaccination Strategy and Coverage Optimization
 
 ## Core Idea

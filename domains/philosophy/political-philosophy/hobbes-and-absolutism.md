@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: social-contract-theory
   type: hard
+- id: hobbes-absolute-sovereign
+  type: soft
 builds-toward:
 - consent-and-legitimacy
 - political-obligation-sources
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Hobbes and the Case for Absolutism
 
 ## Core Idea

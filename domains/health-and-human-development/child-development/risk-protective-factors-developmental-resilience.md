@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: environmental-health-determinants
   type: soft
+- id: protective-factors-and-resilience-in-childhood
+  type: soft
 builds-toward:
 - early-intervention-and-developmental-support
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Risk and Protective Factors: Developmental Resilience
 
 ## Core Idea

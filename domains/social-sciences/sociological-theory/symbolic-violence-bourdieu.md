@@ -6,6 +6,8 @@ course: sociological-theory
 prerequisites:
 - id: bourdieu-habitus
   type: hard
+- id: legitimate-authority-weber
+  type: soft
 builds-toward: []
 tags:
 - bourdieu

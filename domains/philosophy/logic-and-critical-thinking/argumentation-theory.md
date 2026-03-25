@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: principle-of-charity
   type: soft
+- id: dialogue-and-argumentation
+  type: soft
 tags:
 - argumentation
 - pragma-dialectics
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Argumentation Theory
 
 ## Core Idea

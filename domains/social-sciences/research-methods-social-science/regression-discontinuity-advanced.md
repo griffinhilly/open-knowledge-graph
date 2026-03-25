@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: causal-inference-observational-data
   type: soft
+- id: interrupted-time-series
+  type: soft
 builds-toward:
 - multi-dimensional-rdd
 - spatial-discontinuity
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Advanced Regression Discontinuity Design
 
 ## Core Idea

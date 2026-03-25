@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: propositional-logic-introduction
   type: soft
+- id: affirming-the-consequent-error
+  type: soft
 builds-toward:
 - argument-structure
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Denying the Antecedent: Another Invalid Form
 
 ## Core Idea

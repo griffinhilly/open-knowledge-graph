@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: register-formality-control
   type: soft
+- id: diction-and-poetic-voice
+  type: soft
 tags:
 - register
 - vocabulary
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Poetic Diction and Register
 
 ## Core Idea

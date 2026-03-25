@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: disease-surveillance-systems
   type: hard
+- id: pandemic-preparedness-and-response-planning
+  type: soft
 tags:
 - pandemic
 - preparedness
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Pandemic Preparedness and Emergency Response
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: health-disparities-and-social-determinants
   type: hard
+- id: health-inequity-social-pathways-multilevel
+  type: soft
 builds-toward:
 - policy-analysis-and-health-impact-evaluation
 - health-promotion-and-behavior-change-design
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Health Disparities, Equity Frameworks, and Social Determinants
 
 ## Core Idea

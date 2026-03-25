@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: pragmatics-semantics-boundary
   type: hard
+- id: context-dependence-utterance
+  type: soft
 builds-toward:
 - indexicality-and-contextual-reference
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Semantic Underdetermination and Context
 
 ## Core Idea

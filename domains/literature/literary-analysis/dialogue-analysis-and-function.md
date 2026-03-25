@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: conversation-analysis
   type: soft
+- id: characterization-dialogue
+  type: soft
 builds-toward:
 - narrator-analysis-reliability
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Dialogue: Analysis and Narrative Function
 
 ## Core Idea

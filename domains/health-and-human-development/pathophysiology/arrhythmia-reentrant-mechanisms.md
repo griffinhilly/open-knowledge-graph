@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: action-potential-initiation
   type: hard
+- id: cardiac-arrhythmogenesis-mechanisms
+  type: soft
 builds-toward:
 - atrial-fibrillation-pathophysiology
 - sudden-cardiac-death-pathophysiology
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Cardiac Arrhythmias: Reentry, Automaticity, and Triggered Activity
 
 ## Core Idea

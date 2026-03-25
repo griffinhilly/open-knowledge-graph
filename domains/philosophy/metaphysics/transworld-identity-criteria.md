@@ -10,8 +10,10 @@ prerequisites:
   type: hard
 - id: rigid-designators-modal-reference
   type: soft
+- id: cross-world-identity-principles
+  type: soft
 builds-toward:
-  - haecceity-primitive-identity
+- haecceity-primitive-identity
 tags:
 - modality
 - identity

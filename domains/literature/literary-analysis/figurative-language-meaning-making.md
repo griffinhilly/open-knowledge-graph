@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: metaphor-analogy-rhetorical-strategy
   type: soft
+- id: figurative-language-analysis
+  type: soft
 builds-toward:
 - stylistic-analysis-and-effect
 tags:
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Figurative Language and Poetic Meaning
 
 ## Core Idea

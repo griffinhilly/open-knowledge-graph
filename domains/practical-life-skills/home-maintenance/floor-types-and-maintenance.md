@@ -6,6 +6,10 @@ course: home-maintenance
 prerequisites:
 - id: household-cleaning-systems
   type: hard
+- id: carpet-stain-removal-and-care
+  type: soft
+- id: flooring-selection-maintenance-and-care
+  type: soft
 builds-toward: []
 tags:
 - flooring
@@ -15,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Floor Types and Maintenance
 
 ## Core Idea

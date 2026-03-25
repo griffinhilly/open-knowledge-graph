@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: tax-deductions-vs-credits
   type: soft
+- id: tax-loss-harvesting-and-tax-efficiency
+  type: soft
 tags:
 - taxes
 - investing
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Tax-Efficient Investment Strategies
 
 ## Core Idea

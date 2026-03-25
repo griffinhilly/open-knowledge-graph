@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: social-contract-theory
   type: hard
+- id: locke-limited-government-and-rights
+  type: soft
 builds-toward:
 - libertarianism-political
 - human-rights-foundations
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Locke's Theory of Property and Limited Government
 
 ## Core Idea

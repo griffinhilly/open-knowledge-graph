@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: literary-analysis-overview
   type: soft
+- id: affective-intensity-sensation
+  type: soft
 builds-toward:
 - emotional-storytelling-rhetorical-technique
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Affect, Intensity, and Circulation
 
 ## Core Idea

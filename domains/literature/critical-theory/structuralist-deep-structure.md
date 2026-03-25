@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: literary-analysis-overview
   type: soft
+- id: structuralism-relational-systems
+  type: soft
 builds-toward:
 - semiotics-and-signs
 - barthes-mythologies-culture
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Structuralist Deep Structure and Underlying Systems
 
 ## Core Idea

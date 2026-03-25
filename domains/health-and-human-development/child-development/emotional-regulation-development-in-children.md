@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: attachment-theory-and-bonding
   type: soft
+- id: emotion-regulation-development-and-coping-skills
+  type: soft
 builds-toward:
 - self-concept-and-identity-development-children
 - peer-relationships-and-social-competence-children
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Emotional Regulation Development in Children
 
 ## Core Idea

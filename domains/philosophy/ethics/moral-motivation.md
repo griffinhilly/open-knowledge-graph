@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: metaethics-intro
   type: soft
+- id: moral-motivation-internalism
+  type: soft
 builds-toward:
 - expressivism-in-ethics
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Moral Motivation
 
 ## Core Idea

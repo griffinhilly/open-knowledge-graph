@@ -10,13 +10,16 @@ prerequisites:
   type: soft
 - id: phonological-features
   type: soft
+- id: alliteration-poetic-effect
+  type: soft
+- id: assonance-vowel-sound-repetition
+  type: soft
 tags:
 - sound-devices
 - phonetics
 stage: formal-systems
 status: validated
 ---
-
 # Consonance and Internal Consonant Patterns
 
 ## Core Idea

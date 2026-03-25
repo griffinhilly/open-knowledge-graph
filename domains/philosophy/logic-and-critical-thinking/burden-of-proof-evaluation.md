@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: arguments-premises-and-conclusions
   type: hard
+- id: relevance-of-premises
+  type: soft
 builds-toward:
 - burden-of-proof
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Understanding and Evaluating Burden of Proof
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: epithelial-and-connective-tissue-types
   type: hard
+- id: integumentary-system-anatomy
+  type: soft
 builds-toward:
 - thermoregulation-mechanisms
 - sensory-processing-pathways
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Integumentary Structure and Function
 
 ## Core Idea

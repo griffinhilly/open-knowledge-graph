@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: regime-change-and-democratization
   type: soft
+- id: democratic-peace-theory
+  type: soft
 builds-toward:
 - treaty-design-ratification-credibility
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Democratic Institutions and the Democratic Peace
 
 ## Core Idea

@@ -3,7 +3,9 @@ id: virtue-and-character-foundations
 title: Virtue and Character as Moral Fundamentals
 domain: philosophy
 course: ethics
-prerequisites: []
+prerequisites:
+- id: virtue-and-character-ethics
+  type: soft
 builds-toward:
 - virtue-ethics
 - vices-and-moral-defects
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Virtue and Character as Moral Fundamentals
 
 ## Core Idea

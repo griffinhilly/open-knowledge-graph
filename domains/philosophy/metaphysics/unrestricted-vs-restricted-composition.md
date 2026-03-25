@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: composition-principles-mereology
   type: hard
+- id: nihilism-composition
+  type: soft
 builds-toward:
 - nihilism-composition
 - liberal-vs-conservative-metaphysics
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Unrestricted Composition and Mereological Liberalism
 
 ## Core Idea

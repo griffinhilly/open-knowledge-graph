@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: attachment-theory-and-bonding
   type: soft
+- id: empathy-development-and-helping-behavior
+  type: soft
 builds-toward:
 - peer-relationships-and-social-competence-children
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Prosocial and Aggressive Behavior Development
 
 ## Core Idea

@@ -14,8 +14,10 @@ prerequisites:
   type: soft
 - id: fat-soluble-vitamins
   type: soft
+- id: bone-remodeling-mineral-homeostasis
+  type: soft
 builds-toward:
-  - fluid-balance-and-electrolytes
+- fluid-balance-and-electrolytes
 tags:
 - bone-remodeling
 - osteoblast

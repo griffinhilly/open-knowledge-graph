@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: kripke-causal-theory-naming
   type: soft
+- id: natural-kinds-and-essence
+  type: soft
 builds-toward:
 - modal-status-identity-statements
 - semantic-content-externalism
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Natural Kind Terms and Semantic Externalism
 
 ## Core Idea

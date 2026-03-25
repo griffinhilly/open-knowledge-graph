@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: keyboard-typing-and-shortcuts
   type: soft
+- id: saving-and-opening-files
+  type: soft
 builds-toward:
 - organizing-files-into-folders
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Creating, Saving & Opening Files
 
 ## Core Idea

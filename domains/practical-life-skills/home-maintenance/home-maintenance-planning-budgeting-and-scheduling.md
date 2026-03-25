@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: percent-of-a-number
   type: soft
+- id: maintenance-budget-and-planning
+  type: soft
 tags:
 - planning
 - budgeting
@@ -22,7 +24,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Home Maintenance Planning, Budgeting, and Scheduling
 
 ## Core Idea

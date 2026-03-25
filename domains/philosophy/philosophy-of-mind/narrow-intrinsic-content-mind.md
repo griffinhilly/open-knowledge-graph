@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: de-re-attitudes
   type: soft
+- id: intentionality-semantic-content-mind
+  type: soft
 builds-toward:
 - representationalism
 - computational-theory-of-mind
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Narrow Content and Intrinsic Mental Properties
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stylistic-analysis-and-effect
   type: soft
+- id: formalist-estrangement-technique
+  type: soft
 builds-toward:
 - new-criticism-and-formalism
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Formalist Defamiliarization (Ostranenie) and Literary Device
 
 ## Core Idea

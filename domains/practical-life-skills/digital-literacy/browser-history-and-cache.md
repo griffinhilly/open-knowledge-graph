@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: digital-privacy-fundamentals
   type: soft
+- id: search-history-and-privacy-settings
+  type: soft
 tags:
 - browser
 - cache
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Browser History and Cache
 
 ## Core Idea

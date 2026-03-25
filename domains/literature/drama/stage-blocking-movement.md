@@ -8,8 +8,10 @@ prerequisites:
   type: hard
 - id: stage-directions-and-performance-text
   type: soft
+- id: blocking-stage-movement
+  type: soft
 builds-toward:
-  - theatrical-period-movements
+- theatrical-period-movements
 tags:
 - blocking
 - movement

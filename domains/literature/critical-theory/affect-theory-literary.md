@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: psychoanalytic-criticism
   type: soft
+- id: affective-intensity-sensation
+  type: soft
 tags:
 - affect
 - emotion
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Affect Theory and Literary Analysis
 
 ## Core Idea

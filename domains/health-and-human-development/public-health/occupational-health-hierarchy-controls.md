@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: disease-prevention-levels
   type: hard
+- id: occupational-health-hazard-control-hierarchy
+  type: soft
 tags:
 - occupational-health
 - hazard-control
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Occupational Health and the Hierarchy of Controls
 
 ## Core Idea

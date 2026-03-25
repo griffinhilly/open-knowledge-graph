@@ -6,6 +6,8 @@ course: digital-literacy
 prerequisites:
 - id: mouse-and-trackpad-control
   type: soft
+- id: typing-a-web-address
+  type: soft
 builds-toward:
 - website-anatomy-and-links
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Web Browser Basics & Navigation
 
 ## Core Idea

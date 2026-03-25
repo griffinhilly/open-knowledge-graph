@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: causal-explanation-science
   type: soft
+- id: unificationist-theories-of-explanation
+  type: soft
 builds-toward:
 - explanatory-power-and-unification
 - scientific-realism
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # The Unificationist Model of Explanation
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: ethics
 prerequisites:
 - id: ethical-frameworks-comparison
   type: soft
+- id: moral-pluralism-values
+  type: soft
 builds-toward:
 - moral-pluralism-values
 - moral-dilemmas
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Moral Pluralism and Value Incommensurability
 
 ## Core Idea
