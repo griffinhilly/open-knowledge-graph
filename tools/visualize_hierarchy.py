@@ -1051,7 +1051,9 @@ canvas.addEventListener("mousemove", (e) => {{
   if (isDragging) {{
     const dx = e.clientX - dragStartX;
     const dy = e.clientY - dragStartY;
-    if (Math.abs(dx) > 3 || Math.abs(dy) > 3) dragMoved = true;
+    const totalDx = e.clientX - mouseDownX;
+    const totalDy = e.clientY - mouseDownY;
+    if (Math.abs(totalDx) > 3 || Math.abs(totalDy) > 3) dragMoved = true;
     camX += dx; camY += dy;
     dragStartX = e.clientX;
     dragStartY = e.clientY;
@@ -1086,12 +1088,15 @@ canvas.addEventListener("mousemove", (e) => {{
 }});
 
 let dragMoved = false;
+let mouseDownX = 0, mouseDownY = 0;
 canvas.addEventListener("mousedown", (e) => {{
   if (Date.now() - lastTouchTime < 500) return;
   isDragging = true;
   dragMoved = false;
   dragStartX = e.clientX;
   dragStartY = e.clientY;
+  mouseDownX = e.clientX;
+  mouseDownY = e.clientY;
   canvas.style.cursor = "grabbing";
 }});
 function showPanel(node, sx, sy) {{
@@ -1859,6 +1864,7 @@ draw();
 
 // --- Mouse interaction ---
 let isDragging = false, dragStartX, dragStartY, dragMoved = false;
+let mouseDownX2 = 0, mouseDownY2 = 0;
 let lastTouchTime = 0;
 
 canvas.addEventListener("mousemove", (e) => {{
@@ -1866,7 +1872,9 @@ canvas.addEventListener("mousemove", (e) => {{
   if (isDragging) {{
     const dx = e.clientX - dragStartX;
     const dy = e.clientY - dragStartY;
-    if (Math.abs(dx) > 3 || Math.abs(dy) > 3) dragMoved = true;
+    const totalDx = e.clientX - mouseDownX2;
+    const totalDy = e.clientY - mouseDownY2;
+    if (Math.abs(totalDx) > 3 || Math.abs(totalDy) > 3) dragMoved = true;
     camOffX += dx; camOffY += dy;
     dragStartX = e.clientX;
     dragStartY = e.clientY;
@@ -1917,6 +1925,7 @@ canvas.addEventListener("mousedown", (e) => {{
   isDragging = true;
   dragMoved = false;
   dragStartX = e.clientX; dragStartY = e.clientY;
+  mouseDownX2 = e.clientX; mouseDownY2 = e.clientY;
   canvas.style.cursor = "grabbing";
 }});
 function showPanel(node, sx, sy) {{

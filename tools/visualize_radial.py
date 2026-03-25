@@ -995,11 +995,13 @@ canvas.addEventListener("mousemove", (e) => {{
 }});
 
 let dragMoved = false;
+let mouseDownX = 0, mouseDownY = 0;
 canvas.addEventListener("mousedown", (e) => {{
   if (Date.now() - lastTouchTime < 500) return;
   isDragging = true;
   dragMoved = false;
   dragStartX = e.clientX; dragStartY = e.clientY;
+  mouseDownX = e.clientX; mouseDownY = e.clientY;
   canvas.style.cursor = "grabbing";
 }});
 const panel = document.getElementById("panel");
@@ -1111,8 +1113,8 @@ document.addEventListener("keydown", (e) => {{
 canvas.addEventListener("mousemove", (e) => {{
   if (Date.now() - lastTouchTime < 500) return;
   if (isDragging) {{
-    const dx = e.clientX - dragStartX;
-    const dy = e.clientY - dragStartY;
+    const dx = e.clientX - mouseDownX;
+    const dy = e.clientY - mouseDownY;
     if (Math.abs(dx) > 3 || Math.abs(dy) > 3) dragMoved = true;
   }}
 }});
