@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: asymptotic-notation-big-o-omega-theta
   type: soft
+- id: binary-tree-properties-height-balance-completeness
+  type: soft
+- id: recurrence-relations-analysis-techniques
+  type: soft
 builds-toward:
 - union-find
 - hash-tables
@@ -21,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Amortized Analysis
 
 ## Core Idea

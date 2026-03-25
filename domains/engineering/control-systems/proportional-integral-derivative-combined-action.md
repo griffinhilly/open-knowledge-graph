@@ -6,6 +6,8 @@ course: control-systems
 prerequisites:
 - id: pid-control
   type: hard
+- id: internal-model-principle-integral-action
+  type: soft
 builds-toward:
 - process-model-identification-relay-autotuning
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Proportional-Integral-Derivative Control: Combined Action
 
 ## Core Idea

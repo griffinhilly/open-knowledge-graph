@@ -6,6 +6,8 @@ course: music-theory-fundamentals
 prerequisites:
 - id: triad-construction-from-scale-degrees
   type: hard
+- id: triad-inversion-and-voicing
+  type: soft
 builds-toward:
 - voice-leading-smooth-motion-and-errors
 - harmonic-analysis-roman-numerals-basics
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Voicing Triads: Spacing and Position
 
 ## Core Idea

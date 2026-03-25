@@ -6,6 +6,8 @@ course: research-methods-psychology
 prerequisites:
 - id: empirical-questions-and-hypothesis-development
   type: hard
+- id: construct-validity-operationalization-measurement
+  type: soft
 builds-toward:
 - research-design-selection-and-matching
 - measurement-reliability-estimation
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Variables: Definition, Operationalization, and Measurement
 
 ## Core Idea

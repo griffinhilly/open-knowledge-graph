@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: chromatic-modulation-analysis
   type: soft
+- id: jazz-reharmonization-analysis
+  type: soft
 builds-toward:
 - jazz-improvisation-harmony
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Advanced Jazz Reharmonization and Chord Substitution
 
 ## Core Idea

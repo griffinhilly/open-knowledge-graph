@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: commutative-property-addition-1st
   type: soft
+- id: ten-frames-for-addition
+  type: soft
 builds-toward:
 - mental-math-add-subtract-tens
 - combining-like-terms
@@ -18,7 +20,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Associative Property of Addition
 
 ## Core Idea

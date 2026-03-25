@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electrochemical-kinetics
   type: soft
+- id: electroanalytical-overview
+  type: soft
 tags:
 - voltammetry
 - stripping-analysis
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Voltammetry and Electrochemical Stripping Analysis
 
 ## Core Idea

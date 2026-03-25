@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: countability-axioms-topology
   type: soft
+- id: dense-sets-topology-definition
+  type: soft
 builds-toward:
 - metrization-theorems
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Separability
 
 ## Core Idea

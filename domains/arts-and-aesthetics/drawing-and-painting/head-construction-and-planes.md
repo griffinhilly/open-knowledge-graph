@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: basic-facial-proportions-and-measuring
   type: hard
+- id: drawing-animals-basic-construction
+  type: soft
+- id: perspective-grid-construction
+  type: soft
 builds-toward:
 - portraiture-fundamentals
 - figure-drawing-fundamentals
@@ -19,7 +23,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Head Construction and Planes
 
 ## Core Idea

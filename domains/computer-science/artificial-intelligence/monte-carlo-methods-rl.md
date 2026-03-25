@@ -6,6 +6,8 @@ course: artificial-intelligence
 prerequisites:
 - id: reinforcement-learning-intro
   type: hard
+- id: model-based-reinforcement-learning
+  type: soft
 builds-toward:
 - temporal-difference-learning
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Monte Carlo Methods in Reinforcement Learning
 
 ## Core Idea

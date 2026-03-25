@@ -6,6 +6,8 @@ course: meteorology-and-climate
 prerequisites:
 - id: rossby-number-and-flow-regimes
   type: hard
+- id: thermodynamic-diagram-analysis
+  type: soft
 builds-toward:
 - quasi-geostrophic-approximation
 - gravity-waves-stable-air
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Scale Analysis of Atmospheric Equations
 
 ## Core Idea

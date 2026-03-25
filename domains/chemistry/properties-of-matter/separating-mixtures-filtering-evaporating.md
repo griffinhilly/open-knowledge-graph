@@ -1,12 +1,14 @@
 ---
 id: separating-mixtures-filtering-evaporating
-title: "Separating Mixtures: Filtering and Evaporating"
+title: 'Separating Mixtures: Filtering and Evaporating'
 domain: chemistry
 course: properties-of-matter
 prerequisites:
 - id: dissolving-and-solutions
   type: hard
 - id: evaporation-in-everyday-life
+  type: soft
+- id: separating-mixtures-magnets-and-sieves
   type: soft
 builds-toward:
 - matter-classification-and-properties

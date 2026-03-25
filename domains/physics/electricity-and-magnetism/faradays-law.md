@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: curl-and-divergence
   type: soft
+- id: motional-electromotive-force
+  type: soft
 builds-toward:
 - lenzs-law
 - inductance-and-inductors
@@ -24,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Faraday's Law of Electromagnetic Induction
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: spin-quantum-number
   type: soft
+- id: partial-wave-analysis
+  type: soft
 builds-toward:
 - total-angular-momentum
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Spin Angular Momentum
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: planetary-atmospheres-composition-structure
   type: soft
+- id: planetary-albedo-temperature-feedback
+  type: soft
 builds-toward:
 - surface-weathering-planetary-comparison
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Fluvial Processes and Water Erosion on Planetary Surfaces
 
 ## Core Idea

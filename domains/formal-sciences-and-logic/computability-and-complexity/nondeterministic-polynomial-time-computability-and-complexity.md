@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nondeterministic-turing-machines
   type: hard
+- id: polynomial-time-computation-fundamentals
+  type: soft
 builds-toward:
 - sat-and-np-complete-problems
 - np-complete-problems-standard
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Nondeterministic Polynomial Time and NP
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: volatile-inventory-and-escape-evolution
   type: soft
+- id: late-heavy-bombardment
+  type: soft
 builds-toward:
 - thermal-evolution-terrestrial-planets
 - habitable-zone-boundaries-constraints
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Impact-Induced Outgassing and Atmospheric Loss
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: portfolio-diversification
   type: soft
+- id: hedging-with-derivatives
+  type: soft
 builds-toward:
 - portfolio-insurance-strategy
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Optimal Hedging Ratios and Hedge Effectiveness
 
 ## Core Idea

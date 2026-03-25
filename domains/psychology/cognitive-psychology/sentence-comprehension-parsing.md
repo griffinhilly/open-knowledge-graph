@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: syntax-and-grammar-acquisition
   type: hard
+- id: garden-path-sentences-parsing
+  type: soft
 builds-toward:
 - mental-model-construction
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Sentence Comprehension and Parsing
 
 ## Core Idea

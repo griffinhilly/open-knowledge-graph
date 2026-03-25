@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: tree-ring-paleoclimatology
   type: soft
+- id: solar-variability-climate
+  type: soft
 builds-toward:
 - monsoon-paleoclimate-dynamics
 - multi-proxy-climate-reconstruction
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Holocene Climate Variability and Millennial-Scale Oscillations
 
 ## Core Idea

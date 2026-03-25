@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: happened-before-relation-causality
   type: hard
+- id: sequential-consistency
+  type: soft
+- id: read-after-write-consistency
+  type: soft
 builds-toward:
 - crdts-convergent-replicated-types
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Causal Consistency
 
 ## Core Idea

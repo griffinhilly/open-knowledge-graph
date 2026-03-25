@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: seismic-tomography-velocity-imaging
   type: hard
+- id: crustal-thickness-determination-gravity
+  type: soft
+- id: gravity-forward-modeling-inversion
+  type: soft
 tags:
 - inversion
 - gravity
@@ -16,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Joint Inversion of Gravity and Seismic Data
 
 ## Core Idea

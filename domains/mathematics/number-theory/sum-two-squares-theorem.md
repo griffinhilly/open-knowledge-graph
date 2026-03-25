@@ -6,6 +6,8 @@ course: number-theory
 prerequisites:
 - id: fundamental-theorem-arithmetic-rigorous
   type: hard
+- id: lagranges-four-square-theorem
+  type: soft
 tags:
 - sum-of-squares
 - diophantine
@@ -13,7 +15,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Sum of Two Squares Theorem
 
 ## Core Idea

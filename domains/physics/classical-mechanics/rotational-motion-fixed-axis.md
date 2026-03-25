@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: converting-degrees-and-radians
   type: soft
+- id: angular-momentum-of-rigid-body
+  type: soft
+- id: parallel-axis-theorem
+  type: soft
+- id: perpendicular-axis-theorem
+  type: soft
 builds-toward:
 - torque-angular-acceleration
 - rolling-motion-equations
@@ -20,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Rotational Motion About a Fixed Axis
 
 ## Core Idea

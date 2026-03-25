@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: instrument-evolution-and-technique
   type: soft
+- id: orchestral-timbre-identification-ear
+  type: soft
 builds-toward:
 - ensemble-arrangement-principles
 - texture-development-in-composition
@@ -21,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Orchestration and Timbre Choices
 
 ## Core Idea

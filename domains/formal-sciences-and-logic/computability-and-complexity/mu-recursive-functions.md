@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: general-recursive-functions
   type: hard
+- id: ackermann-function
+  type: soft
 builds-toward:
 - church-turing-thesis-formal
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Mu-Recursive Functions
 
 ## Core Idea

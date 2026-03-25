@@ -6,6 +6,8 @@ course: clinical-psychology
 prerequisites:
 - id: dsm-5-diagnostic-framework
   type: hard
+- id: antidepressant-medications
+  type: soft
 tags:
 - antidepressant
 - psychopharmacology
@@ -13,7 +15,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Antidepressants: Mechanisms and Clinical Application
 
 ## Core Idea

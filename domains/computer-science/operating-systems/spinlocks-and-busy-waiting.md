@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: context-switching-and-cpu-dispatch
   type: soft
+- id: barrier-synchronization-primitives
+  type: soft
 builds-toward: []
 tags:
 - synchronization

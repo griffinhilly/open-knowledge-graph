@@ -6,6 +6,8 @@ course: public-speaking
 prerequisites:
 - id: informative-speaking
   type: hard
+- id: technical-presentation-speaking
+  type: soft
 tags:
 - explanation
 - analogy
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Informative Explanation Techniques
 
 ## Core Idea

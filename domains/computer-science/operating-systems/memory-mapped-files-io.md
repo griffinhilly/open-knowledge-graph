@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: file-system-implementation
   type: soft
+- id: asynchronous-io-and-aio
+  type: soft
+- id: device-drivers-and-controllers
+  type: soft
+- id: file-descriptor-tables-and-redirection
+  type: soft
+- id: io-buffering-and-kernel-buffers
+  type: soft
 builds-toward:
 - io-buffering-and-kernel-buffers
 tags:
@@ -17,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Memory-Mapped Files and I/O
 
 ## Core Idea

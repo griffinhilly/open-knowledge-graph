@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: prime-and-composite-numbers
   type: soft
+- id: intro-to-fractions-4th-grade
+  type: soft
 builds-toward:
 - comparing-fractions
 - adding-fractions-like-denominators

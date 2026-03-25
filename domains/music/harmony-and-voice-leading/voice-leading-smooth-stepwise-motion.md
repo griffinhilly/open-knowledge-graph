@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: interval-quality
   type: soft
+- id: conjunct-motion-voice-leading-smoothness
+  type: soft
 builds-toward:
 - harmonic-function-voice-leading-tension-resolution
 - seventh-chord-voice-leading-resolution
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Smooth Voice Leading and Stepwise Motion
 
 ## Core Idea

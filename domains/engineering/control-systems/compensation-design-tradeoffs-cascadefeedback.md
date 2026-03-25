@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: root-locus-asymptote-centroid-breakaway
   type: soft
+- id: lead-lag-compensation-design
+  type: soft
 tags:
 - compensation
 - cascade-control
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Compensation Design: Cascade vs. Feedback Control Tradeoffs
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: bohr-model
   type: soft
+- id: quantum-superposition-states
+  type: soft
 builds-toward:
 - spectral-lines-transitions-wavelength
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Hydrogen Atom in Quantum Mechanics
 
 ## Core Idea

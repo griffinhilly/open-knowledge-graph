@@ -6,6 +6,8 @@ course: number-theory
 prerequisites:
 - id: norm-algebraic-number-fields
   type: hard
+- id: introduction-to-ideal-class-group
+  type: soft
 builds-toward:
 - introduction-ideal-class-group
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Failure of Unique Factorization
 
 ## Core Idea

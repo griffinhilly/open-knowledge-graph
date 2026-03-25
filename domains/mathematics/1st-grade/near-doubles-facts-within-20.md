@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: addition-within-20
   type: soft
+- id: doubles-and-near-doubles
+  type: soft
 builds-toward:
 - mental-math-strategies-addition-1st
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Near Doubles Facts Within 20
 
 ## Core Idea

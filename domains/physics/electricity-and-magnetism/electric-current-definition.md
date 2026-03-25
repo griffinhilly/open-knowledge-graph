@@ -6,6 +6,8 @@ course: electricity-and-magnetism
 prerequisites:
 - id: elementary-charge-conservation
   type: hard
+- id: energy-density-electric-field
+  type: soft
 builds-toward:
 - resistance-resistivity-temperature
 - ohms-law-circuits
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Electric Current and Current Density
 
 ## Core Idea

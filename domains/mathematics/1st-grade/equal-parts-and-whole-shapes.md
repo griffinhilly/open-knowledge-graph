@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: partition-shapes-equal-parts
   type: soft
+- id: fractions-halves-and-fourths-1st
+  type: soft
 builds-toward:
 - fractions-halves-thirds-fourths
 - unit-fractions
@@ -18,7 +20,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Understanding Equal Parts of Whole Shapes
 
 ## Core Idea

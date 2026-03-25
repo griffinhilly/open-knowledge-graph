@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: accidentals-and-enharmonics
   type: soft
+- id: accidental-detection-in-performance
+  type: soft
+- id: diatonic-vs-chromatic-tones-ear
+  type: soft
 builds-toward:
 - secondary-dominants
 - chromatic-modulation-analysis
@@ -21,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Chromatic Note Detection by Ear
 
 ## Core Idea

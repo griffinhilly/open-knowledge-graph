@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: halting-problem-formal
   type: hard
+- id: oracle-turing-machines-computability-and-complexity
+  type: soft
+- id: partial-vs-total-recursive-functions
+  type: soft
+- id: recursively-enumerable-languages-properties
+  type: soft
+- id: computability-complexity-overview
+  type: soft
 builds-toward:
 - arithmetical-hierarchy
 tags:
@@ -17,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Turing Degrees
 
 ## Core Idea

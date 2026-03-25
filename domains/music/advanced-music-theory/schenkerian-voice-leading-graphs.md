@@ -6,6 +6,10 @@ course: advanced-music-theory
 prerequisites:
 - id: schenkerian-levels-analysis
   type: hard
+- id: graphic-notation-interpretation
+  type: soft
+- id: schenkerian-linear-progression
+  type: soft
 builds-toward:
 - prolongation-structural-reduction
 tags:
@@ -16,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Schenkerian Graphs and Reduction Notation
 
 ## Core Idea

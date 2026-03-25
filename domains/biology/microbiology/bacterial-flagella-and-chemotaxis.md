@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cell-signaling-intro
   type: soft
+- id: bacterial-flagella-pili-motility-adhesion
+  type: soft
 builds-toward:
 - bacterial-virulence-and-disease-mechanisms
 - microbial-ecology-biogeochemical-cycling
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Bacterial Flagella, Motility, and Chemotaxis
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: circular-motion-kinematics
   type: soft
+- id: instantaneous-center-of-rotation
+  type: soft
 builds-toward:
 - rotational-kinetic-energy
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Rolling Without Slipping
 
 ## Core Idea

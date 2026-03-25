@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: correlation-covariance-assets
   type: hard
+- id: diversification-benefits-correlated
+  type: soft
+- id: correlation-and-covariance-matrices
+  type: soft
 builds-toward:
 - efficient-frontier-construction
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Two-Asset Portfolio Optimization
 
 ## Core Idea

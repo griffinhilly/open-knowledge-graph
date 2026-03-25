@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: addition-subtraction-word-problems
   type: soft
+- id: subtraction-word-problems-2nd
+  type: soft
+- id: making-change-transactions
+  type: soft
 builds-toward: []
 tags:
 - money

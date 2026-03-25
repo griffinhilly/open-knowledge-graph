@@ -6,6 +6,10 @@ course: organic-chemistry
 prerequisites:
 - id: electrophilic-aromatic-substitution
   type: hard
+- id: friedel-crafts-alkylation-acylation
+  type: soft
+- id: carbocation-rearrangement-1-2-shifts
+  type: soft
 builds-toward:
 - friedel-crafts-acylation
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Friedel-Crafts Alkylation and Limitations
 
 ## Core Idea

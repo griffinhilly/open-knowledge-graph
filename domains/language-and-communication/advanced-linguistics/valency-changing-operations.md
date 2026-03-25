@@ -8,13 +8,18 @@ prerequisites:
   type: hard
 - id: derivational-morphology
   type: hard
+- id: affix-ordering-constraints
+  type: soft
+- id: allomorphy-alternation
+  type: soft
+- id: morphological-composition
+  type: soft
 tags:
 - morphology
 - argument-structure
 stage: expert
 status: validated
 ---
-
 # Valency-Changing Operations
 
 ## Core Idea

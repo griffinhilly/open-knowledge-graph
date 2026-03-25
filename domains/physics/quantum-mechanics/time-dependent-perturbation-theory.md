@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: differential-equations-intro
   type: hard
+- id: degenerate-perturbation-theory
+  type: soft
 builds-toward:
 - fermi-golden-rule
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Time-Dependent Perturbation Theory
 
 ## Core Idea

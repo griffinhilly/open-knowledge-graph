@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: marine-food-webs
   type: hard
+- id: ocean-acidification-larval-development
+  type: soft
 tags:
 - pteropods
 - shell-dissolution
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Pteropods as Indicators of Ocean Acidification Stress
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: song-form-analysis-basics
   type: soft
+- id: rondo-composition-design
+  type: soft
 builds-toward:
 - sonata-form-composition
 - long-range-tonal-planning
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Form and Phrase Architecture
 
 ## Core Idea

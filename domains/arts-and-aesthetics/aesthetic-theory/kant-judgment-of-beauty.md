@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: the-aesthetic-attitude
   type: hard
+- id: aesthetic-universalism-and-relativism
+  type: soft
 builds-toward:
 - kant-disinterest-aesthetics
 - kant-sublime-aesthetics
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Kant: The Critique of Judgment and Aesthetic Beauty
 
 ## Core Idea

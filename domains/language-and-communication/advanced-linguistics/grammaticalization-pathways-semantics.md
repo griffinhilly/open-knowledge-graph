@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: language-variation-and-change
   type: hard
+- id: grammaticalization-pathways
+  type: soft
 tags:
 - language-change
 - grammaticalization
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Grammaticalization and Semantic Bleaching
 
 ## Core Idea

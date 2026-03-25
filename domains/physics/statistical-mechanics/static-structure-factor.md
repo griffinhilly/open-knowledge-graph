@@ -6,6 +6,8 @@ course: statistical-mechanics
 prerequisites:
 - id: pair-distribution-function
   type: hard
+- id: radial-distribution-function
+  type: soft
 tags:
 - structure
 - scattering
@@ -13,7 +15,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Static Structure Factor
 
 ## Core Idea

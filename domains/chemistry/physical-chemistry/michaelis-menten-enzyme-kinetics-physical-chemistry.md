@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: first-order-linear-odes
   type: soft
+- id: adsorption-isotherms-kinetics
+  type: soft
 builds-toward:
 - autocatalytic-reactions-mechanisms
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Michaelis-Menten Kinetics and Enzyme Catalysis
 
 ## Core Idea

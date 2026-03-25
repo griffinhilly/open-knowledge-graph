@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: wage-price-dynamics-and-inflation
   type: hard
+- id: supply-shocks-aggregate-disruptions
+  type: soft
+- id: demand-shock-output-inflation-effects
+  type: soft
 builds-toward:
 - phillips-curve-new-keynesian
 tags:
@@ -19,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Supply Shocks and Stagflation
 
 ## Core Idea

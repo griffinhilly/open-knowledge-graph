@@ -6,6 +6,10 @@ course: physical-chemistry
 prerequisites:
 - id: transition-state-theory
   type: hard
+- id: arrhenius-equation-temperature-dependence
+  type: soft
+- id: diffusion-controlled-reaction-kinetics
+  type: soft
 tags:
 - electrochemistry
 - electron-transfer
@@ -13,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Electrode Kinetics and Butler-Volmer Equation
 
 ## Core Idea

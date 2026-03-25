@@ -6,6 +6,8 @@ course: research-methods-psychology
 prerequisites:
 - id: statistical-inference-significance-testing
   type: hard
+- id: effect-size-reporting-interpretation
+  type: soft
 builds-toward:
 - qualitative-analysis-synthesis-meta-ethnography
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Effect Sizes, Practical Significance, and Results Reporting
 
 ## Core Idea

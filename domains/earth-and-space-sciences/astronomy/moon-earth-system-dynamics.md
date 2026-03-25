@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: terrestrial-planets-formation
   type: soft
+- id: cometary-orbits-and-dynamics
+  type: soft
 builds-toward:
 - lunar-geology-and-history
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Earth-Moon System Dynamics and Evolution
 
 ## Core Idea

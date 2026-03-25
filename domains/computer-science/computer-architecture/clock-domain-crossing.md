@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: flip-flops-and-latches
   type: soft
-builds-toward:
-- multi-core-system-design
 tags:
 - asynchronous
 - synchronization

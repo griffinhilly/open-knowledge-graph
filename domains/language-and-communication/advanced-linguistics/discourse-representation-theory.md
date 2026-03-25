@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: formal-pragmatics-context
   type: soft
+- id: relevance-theory-pragmatics
+  type: soft
 builds-toward:
 - context-update-semantics
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Discourse Representation Theory
 
 ## Core Idea

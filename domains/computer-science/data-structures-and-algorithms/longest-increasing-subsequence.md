@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: binary-search-algorithm
   type: soft
+- id: longest-common-subsequence
+  type: soft
+- id: knapsack-0-1-bounded
+  type: soft
 tags:
 - dynamic-programming
 - lis
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Longest Increasing Subsequence (LIS) Problem
 
 ## Core Idea

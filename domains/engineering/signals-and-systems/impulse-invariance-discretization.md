@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: aliasing-reconstruction-signals
   type: hard
+- id: bilinear-transform-digital-filters
+  type: soft
+- id: fir-filter-design-realization
+  type: soft
+- id: iir-filter-design-realization
+  type: soft
 tags:
 - filter-design
 - digital-filters
@@ -18,7 +24,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Impulse Invariance for Digital Filter Design
 
 ## Core Idea

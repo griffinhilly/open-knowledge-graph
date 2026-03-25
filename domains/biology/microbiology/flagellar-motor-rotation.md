@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: motor-proteins-cellular-movement
   type: soft
+- id: bacterial-flagella-and-chemotaxis
+  type: soft
+- id: bacterial-flagella-pili-motility-adhesion
+  type: soft
 builds-toward:
 - chemotaxis-signaling-phosphorylation
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Bacterial Flagellar Motor and Rotation Mechanics
 
 ## Core Idea

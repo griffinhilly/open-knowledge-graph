@@ -6,6 +6,8 @@ course: geology
 prerequisites:
 - id: plate-boundary-processes-interactions
   type: hard
+- id: continental-collision-orogeny-crustal-thickening
+  type: soft
 tags:
 - extension
 - rifting
@@ -13,7 +15,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Continental Rifting and Extensional Tectonics
 
 ## Core Idea

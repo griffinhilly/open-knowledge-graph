@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: division-equal-sharing-2nd
   type: hard
+- id: division-introduction-grouping
+  type: soft
 builds-toward:
 - division-facts-2nd-grade
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Division as Grouping
 
 ## Core Idea

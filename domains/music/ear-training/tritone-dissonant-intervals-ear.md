@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: interval-recognition-by-ear
   type: soft
+- id: tritone-and-diminished-interval
+  type: soft
 builds-toward:
 - seventh-chord-ear-training
 - harmonic-function-root-movement-ear
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Tritone and Dissonant Intervals by Ear
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: music-theory-fundamentals
 prerequisites:
 - id: major-scales
   type: hard
+- id: diatonic-modes-introduction
+  type: soft
 builds-toward:
 - harmonic-function-basics
 - diatonic-harmony
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Scale Degree Naming and Function
 
 ## Core Idea

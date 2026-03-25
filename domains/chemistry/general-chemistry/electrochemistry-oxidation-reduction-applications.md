@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: conservation-of-energy
   type: soft
+- id: galvanic-electrochemical-cells
+  type: soft
 builds-toward:
 - electrochemical-cells
 - galvanic-cells
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Electrochemistry and Redox Reactions
 
 ## Core Idea

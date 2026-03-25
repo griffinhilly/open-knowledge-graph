@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: angle-basics-and-classification
   type: soft
+- id: right-angles-and-classification
+  type: soft
 builds-toward:
 - classifying-quadrilaterals
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Identifying Right Angles in 2D Shapes
 
 ## Core Idea

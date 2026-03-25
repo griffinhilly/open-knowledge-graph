@@ -8,13 +8,14 @@ prerequisites:
   type: soft
 - id: single-aperture-diffraction-minima
   type: hard
+- id: fresnel-diffraction-near-field
+  type: soft
 tags:
 - diffraction
 - approximation
 stage: advanced
 status: validated
 ---
-
 # Far-Field Diffraction and the Fraunhofer Approximation
 
 ## Core Idea

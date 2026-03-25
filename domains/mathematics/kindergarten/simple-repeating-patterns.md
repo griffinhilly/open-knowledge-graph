@@ -6,6 +6,8 @@ course: kindergarten
 prerequisites:
 - id: sorting-by-attributes
   type: soft
+- id: abc-repeating-patterns
+  type: soft
 tags:
 - patterns
 - algebra-readiness
@@ -13,7 +15,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Simple Repeating Patterns (AB, ABC)
 
 ## Core Idea

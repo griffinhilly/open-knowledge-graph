@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rl-circuit-transient-analysis
   type: hard
+- id: transient-response-rlc-circuits
+  type: soft
 builds-toward:
 - circuit-resonance-concepts
 - second-order-passive-filters
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # RLC Circuit Transient Analysis Overview
 
 ## Core Idea

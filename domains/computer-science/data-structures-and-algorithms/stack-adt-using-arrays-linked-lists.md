@@ -1,6 +1,6 @@
 ---
 id: stack-adt-using-arrays-linked-lists
-title: "Stack ADT: Array and Linked-List Implementations"
+title: 'Stack ADT: Array and Linked-List Implementations'
 domain: computer-science
 course: data-structures-and-algorithms
 prerequisites:
@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: linked-lists
   type: hard
+- id: list-abstract-data-type-interface
+  type: soft
 builds-toward:
 - stack-applications-expression-parsing
 tags:

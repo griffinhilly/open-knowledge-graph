@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: agreement-comprehensive-overview
   type: soft
+- id: derivation-vs-generation
+  type: soft
+- id: computational-pragmatics
+  type: soft
 builds-toward:
 - lexical-functional-grammar
 - head-driven-phrase-structure-grammar
@@ -18,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Unification and Feature Agreement
 
 ## Core Idea

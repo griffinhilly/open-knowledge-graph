@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: nucleophile-electrophile-definitions
   type: hard
+- id: friedel-crafts-acylation-mechanism
+  type: soft
 builds-toward:
 - electrophilic-aromatic-substitution-directors
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Friedel-Crafts Alkylation and Acylation
 
 ## Core Idea

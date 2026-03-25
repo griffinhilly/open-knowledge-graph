@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: dry-friction-coulombs-law
   type: soft
+- id: friction-in-mechanical-devices
+  type: soft
+- id: belt-and-rope-friction
+  type: soft
 builds-toward:
 - multiforce-member-analysis
 tags:
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Screw Mechanics and Self-Locking
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: statistical-methods-analytical
   type: soft
+- id: optimization-of-analytical-method-parameters
+  type: soft
 builds-toward:
 - analytical-selectivity-and-specificity
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Analytical Method Validation: Core Performance Parameters
 
 ## Core Idea

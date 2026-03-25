@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: graph-connectivity-components
   type: soft
+- id: chromatic-polynomial-computation
+  type: soft
+- id: network-flows-algorithm
+  type: soft
 builds-toward:
 - minimum-spanning-trees
 tags:
@@ -16,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Trees, Forests, and Spanning Trees
 
 ## Core Idea

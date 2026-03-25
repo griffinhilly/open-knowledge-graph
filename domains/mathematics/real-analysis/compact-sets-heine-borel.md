@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: bolzano-weierstrass-theorem
   type: soft
+- id: uniform-continuity-compact-sets
+  type: soft
 builds-toward:
 - extreme-value-theorem-rigorous
 - uniform-continuity-compact-sets
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Compact Sets and the Heine-Borel Theorem
 
 ## Core Idea

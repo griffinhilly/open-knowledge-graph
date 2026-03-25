@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: morphological-structure
   type: hard
+- id: prefix-suffix-affixation
+  type: soft
+- id: reduplication-morphology
+  type: soft
 tags:
 - morphology
 - word-formation
@@ -16,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Zero Derivation (Conversion)
 
 ## Core Idea

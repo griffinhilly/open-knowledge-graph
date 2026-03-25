@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: organelles-overview
   type: hard
+- id: compartmentalization-cellular-organization
+  type: soft
 builds-toward:
 - endomembrane-system-integration
 - nuclear-organization-architecture
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Eukaryotic Cell Compartmentalization and Functional Specialization
 
 ## Core Idea

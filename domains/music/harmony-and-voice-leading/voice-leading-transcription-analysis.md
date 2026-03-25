@@ -8,6 +8,14 @@ prerequisites:
   type: soft
 - id: voice-leading-principles
   type: hard
+- id: minor-harmony-voice-leading-choices
+  type: soft
+- id: diatonic-progression-voice-leading-patterns
+  type: soft
+- id: voice-leading-error-recognition-and-correction
+  type: soft
+- id: cadential-six-four-harmonic-function
+  type: soft
 builds-toward:
 - voice-leading-in-composition
 tags:
@@ -17,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Voice-Leading Transcription and Analysis
 
 ## Core Idea

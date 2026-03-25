@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: systems-of-first-order-linear-odes
   type: soft
+- id: source-sink-population-models
+  type: soft
+- id: habitat-fragmentation-connectivity-corridors
+  type: soft
 builds-toward:
 - conservation-genetics-effective-size
 - extinction-vortex-populations
@@ -23,7 +27,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Metapopulation Dynamics and Habitat Connectivity
 
 ## Core Idea

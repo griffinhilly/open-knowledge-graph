@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: intermolecular-forces
   type: soft
+- id: colligative-properties-solutions
+  type: soft
 tags:
 - boiling-point-elevation
 - freezing-point-depression
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Colligative Properties
 
 ## Core Idea

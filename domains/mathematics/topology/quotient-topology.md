@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: equivalence-relations
   type: hard
+- id: subbasis-topology
+  type: soft
 builds-toward:
 - quotient-maps-and-identification
 - classification-compact-surfaces
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Quotient Topology
 
 ## Core Idea

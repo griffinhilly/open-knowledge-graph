@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: basic-facial-proportions-and-measuring
   type: hard
+- id: figure-foreshortening-in-practice
+  type: soft
 builds-toward:
 - portraiture-fundamentals
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Three-Quarter View Figure Proportions
 
 ## Core Idea

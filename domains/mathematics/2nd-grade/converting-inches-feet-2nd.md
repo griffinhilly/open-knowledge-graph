@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: measurement-conversions-customary
   type: soft
+- id: converting-centimeters-meters-2nd
+  type: soft
 tags:
 - measurement
 - conversion
@@ -16,7 +18,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Converting Between Inches and Feet
 
 ## Core Idea

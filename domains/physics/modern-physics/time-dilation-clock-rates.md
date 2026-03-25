@@ -6,6 +6,8 @@ course: modern-physics
 prerequisites:
 - id: time-dilation
   type: hard
+- id: length-contraction-measurement
+  type: soft
 builds-toward:
 - mass-energy-equivalence-relativity
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Time Dilation and Moving Clocks
 
 ## Core Idea

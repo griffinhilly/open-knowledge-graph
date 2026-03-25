@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: area-by-counting-squares
   type: hard
+- id: area-and-perimeter-relationship-3rd
+  type: soft
 builds-toward:
 - area-of-parallelograms
 - area-of-triangles
@@ -21,7 +23,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Area and Perimeter Problem Solving
 
 ## Core Idea

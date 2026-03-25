@@ -6,6 +6,8 @@ course: advanced-linguistics
 prerequisites:
 - id: optimality-theory-introduction
   type: hard
+- id: constraint-ranking-optimality-theory
+  type: soft
 tags:
 - phonology
 - typology
@@ -13,7 +15,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Constraint Ranking and Typology in Optimality Theory
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: syllable-structure-phonotactics
   type: hard
+- id: assimilation-phonological-process
+  type: soft
+- id: metathesis-sound-rearrangement
+  type: soft
 tags:
 - phonology
 - sound-change
@@ -15,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Epenthesis (Insertion Process)
 
 ## Core Idea

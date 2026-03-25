@@ -6,6 +6,8 @@ course: earth-and-weather
 prerequisites:
 - id: types-of-rocks
   type: hard
+- id: fossils-in-rocks
+  type: soft
 builds-toward:
 - minerals-basics
 - mineral-identification-diagnostic-properties
@@ -20,7 +22,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Properties of Rocks
 
 ## Core Idea

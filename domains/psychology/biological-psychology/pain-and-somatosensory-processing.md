@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: pain-nociception-processing
   type: hard
+- id: somatosensory-and-pain-perception
+  type: soft
 builds-toward:
 - psychopharmacology-basics
 tags:
@@ -23,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Pain and Somatosensory Processing
 
 ## Core Idea

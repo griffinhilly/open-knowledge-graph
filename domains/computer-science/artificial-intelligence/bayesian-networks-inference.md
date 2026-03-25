@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: bayes-theorem
   type: soft
+- id: semantic-networks
+  type: soft
 tags:
 - probabilistic-reasoning
 - graphical-models
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Bayesian Networks and Inference
 
 ## Core Idea

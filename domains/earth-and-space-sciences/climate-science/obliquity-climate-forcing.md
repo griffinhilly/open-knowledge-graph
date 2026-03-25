@@ -6,6 +6,8 @@ course: climate-science
 prerequisites:
 - id: milankovitch-orbital-cycles
   type: hard
+- id: glacial-interglacial-cycles
+  type: soft
 builds-toward:
 - glacial-interglacial-cycles
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Orbital Obliquity and Climate Forcing
 
 ## Core Idea

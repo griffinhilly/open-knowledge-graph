@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: tonicization-and-modulation-voice-leading
   type: soft
+- id: long-range-tonal-planning
+  type: soft
 builds-toward:
 - long-range-tonal-planning
 - sonata-form-composition
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Modulation and Compositional Planning
 
 ## Core Idea

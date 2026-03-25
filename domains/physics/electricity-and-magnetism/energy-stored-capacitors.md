@@ -6,6 +6,8 @@ course: electricity-and-magnetism
 prerequisites:
 - id: capacitor-geometry
   type: hard
+- id: capacitor-field-energy-storage
+  type: soft
 builds-toward:
 - capacitor-networks
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Energy Storage and Forces in Capacitors
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: databases
 prerequisites:
 - id: lost-update-problem
   type: hard
+- id: optimistic-concurrency-control
+  type: soft
 tags:
 - concurrency
 - locking
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Pessimistic Concurrency Control: Locking
 
 ## Core Idea

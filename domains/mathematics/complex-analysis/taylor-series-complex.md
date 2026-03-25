@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: taylor-series
   type: hard
+- id: complex-trigonometric-functions
+  type: soft
 builds-toward:
 - power-series-complex-plane
 - laurent-series
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Taylor Series for Complex Functions
 
 ## Core Idea

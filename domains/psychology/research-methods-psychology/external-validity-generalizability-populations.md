@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: internal-validity-threats-experimental-control
   type: soft
+- id: external-validity-generalization
+  type: soft
 builds-toward:
 - ecological-validity-naturalistic-settings
 - research-design-selection-matching-question
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # External Validity and Generalizability to Populations
 
 ## Core Idea

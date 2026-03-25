@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: artifact-examination-techniques
   type: soft
+- id: source-synthesis-and-triangulation
+  type: soft
 builds-toward:
 - visual-and-iconographic-sources
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Interpreting Material Culture and Physical Evidence
 
 ## Core Idea

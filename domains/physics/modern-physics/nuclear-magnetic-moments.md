@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: nuclear-structure
   type: soft
+- id: gamma-emission-nuclear-transitions
+  type: soft
+- id: spin-orbit-fine-structure
+  type: soft
+- id: periodic-table-filling-orbitals
+  type: soft
 builds-toward:
 - gamma-emission-nuclear-transitions
 tags:
@@ -16,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Nuclear Magnetic Moments and Hyperfine Structure
 
 ## Core Idea

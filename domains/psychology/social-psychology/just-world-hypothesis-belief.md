@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: attribution-theory
   type: soft
+- id: just-world-belief
+  type: soft
 builds-toward:
 - victim-blaming-defensive-attribution
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Just-World Hypothesis and Belief in a Just World
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: linear-algebra
 prerequisites:
 - id: gram-schmidt-orthogonalization
   type: hard
+- id: orthogonal-projections
+  type: soft
 builds-toward:
 - linear-regression
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Orthogonal Projections and Least Squares Approximation
 
 ## Core Idea

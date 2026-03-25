@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: materials-and-strength-testing
   type: soft
+- id: technology-in-everyday-life
+  type: soft
 builds-toward:
 - natural-vs-manufactured-materials
 - recycled-materials-in-engineering

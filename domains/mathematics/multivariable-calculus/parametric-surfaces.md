@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cross-product
   type: hard
+- id: tangent-planes-surfaces
+  type: soft
 builds-toward:
 - surface-integrals-scalar
 - flux-integrals
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Parametric Surfaces
 
 ## Core Idea

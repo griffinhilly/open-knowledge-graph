@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: population-genetics-intro
   type: soft
+- id: protein-evolution
+  type: soft
+- id: heterozygote-advantage
+  type: soft
 builds-toward:
 - mutation-selection-balance
 - efficacy-selection-finite-populations
@@ -21,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Purifying Selection and Deleterious Mutation Removal
 
 ## Core Idea

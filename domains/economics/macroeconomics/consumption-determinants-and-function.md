@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: consumer-theory-utility
   type: soft
+- id: consumption-function-and-income-dependency
+  type: soft
 builds-toward:
 - aggregate-demand
 - demand-shocks-and-multipliers
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Consumption Determinants and the Consumption Function
 
 ## Core Idea

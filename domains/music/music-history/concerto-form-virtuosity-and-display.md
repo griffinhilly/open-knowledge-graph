@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: sonata-form-advanced
   type: soft
+- id: virtuosity-and-performer-celebrity
+  type: soft
+- id: string-quartet-canonical-chamber-form
+  type: soft
+- id: medieval-vocal-music-forms
+  type: soft
 tags:
 - form
 - classical
@@ -17,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Concerto Form: Virtuosity and Display
 
 ## Core Idea

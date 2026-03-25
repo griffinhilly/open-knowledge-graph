@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: digital-history-tools
   type: soft
+- id: visual-and-iconographic-sources
+  type: soft
 tags:
 - audio-visual
 - video
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Audio-Visual Historical Sources
 
 ## Core Idea

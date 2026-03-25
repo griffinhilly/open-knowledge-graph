@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: axiom-of-separation
   type: soft
+- id: pairing-axiom
+  type: soft
 builds-toward:
 - ordinal-numbers-and-order
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Axiom of Union
 
 ## Core Idea

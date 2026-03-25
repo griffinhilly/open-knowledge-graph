@@ -6,6 +6,10 @@ course: clinical-psychology
 prerequisites:
 - id: case-conceptualization-clinical
   type: hard
+- id: cognitive-behavioral-therapy
+  type: soft
+- id: psychodynamic-psychotherapy-clinical
+  type: soft
 builds-toward:
 - exposure-therapy-techniques
 tags:
@@ -16,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Cognitive-Behavioral Therapy (CBT): Theory and Application
 
 ## Core Idea

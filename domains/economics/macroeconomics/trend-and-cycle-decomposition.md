@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: business-cycles
   type: soft
+- id: recession-definition-measurement-dating
+  type: soft
+- id: price-level-measurement-indices
+  type: soft
 builds-toward: []
 tags:
 - business-cycles

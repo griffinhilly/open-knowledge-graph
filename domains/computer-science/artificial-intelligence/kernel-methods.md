@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: dot-product
   type: soft
-builds-toward:
-  - kernel-ridge-regression
 tags:
 - kernel
 - kernel-trick

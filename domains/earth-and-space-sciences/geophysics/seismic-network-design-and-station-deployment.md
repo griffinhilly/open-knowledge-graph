@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: earthquake-location-and-hypocenter
   type: hard
+- id: gps-geodesy-and-crustal-deformation
+  type: soft
 builds-toward:
 - seismic-moment-and-magnitude
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Seismic Network Design and Station Deployment
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: context-free-grammars
   type: soft
+- id: domain-specific-language-design
+  type: soft
 builds-toward:
 - type-inference-algorithms
 - activation-records-runtime
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Programming Language Semantics
 
 ## Core Idea

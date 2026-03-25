@@ -6,6 +6,8 @@ course: methods-of-proof
 prerequisites:
 - id: cartesian-product
   type: hard
+- id: partial-orders-relations
+  type: soft
 builds-toward:
 - equivalence-relations
 - partial-orders
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Binary Relations
 
 ## Core Idea

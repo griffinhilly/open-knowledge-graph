@@ -6,6 +6,8 @@ course: signals-and-systems
 prerequisites:
 - id: transfer-functions-control
   type: hard
+- id: direct-form-transversal-filter-realization
+  type: soft
 builds-toward:
 - iir-filter-design-realization
 - cascade-filter-realization-structures
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Parallel Filter Realization Structures
 
 ## Core Idea

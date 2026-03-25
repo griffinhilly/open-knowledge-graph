@@ -6,6 +6,8 @@ course: advanced-music-theory
 prerequisites:
 - id: polyrhythmic-analysis
   type: hard
+- id: rhythmic-modulation-analysis
+  type: soft
 builds-toward:
 - metric-modulation-theory-advanced
 - temporal-proportions-ratios
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Rhythmic Dissonance and Resolution
 
 ## Core Idea

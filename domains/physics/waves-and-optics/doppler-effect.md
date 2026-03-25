@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: graphing-sine-and-cosine
   type: soft
+- id: doppler-applications-astronomy
+  type: soft
 tags:
 - Doppler
 - frequency shift

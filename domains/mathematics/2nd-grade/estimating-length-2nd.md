@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: measuring-length-inches-centimeters-2nd
   type: hard
+- id: measuring-length-with-ruler-2nd-grade
+  type: soft
 builds-toward:
 - estimation-strategies
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Estimating Length Before Measuring
 
 ## Core Idea

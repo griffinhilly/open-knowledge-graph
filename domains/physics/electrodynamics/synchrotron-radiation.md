@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: larmor-formula
   type: soft
+- id: cherenkov-radiation
+  type: soft
 tags:
 - synchrotron
 - relativistic
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Synchrotron Radiation from Relativistic Charges
 
 ## Core Idea

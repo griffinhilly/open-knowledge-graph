@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: lebesgue-integral-general-definition
   type: hard
+- id: measurable-functions
+  type: soft
 builds-toward:
 - dominated-convergence-theorem
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Comparison: Riemann and Lebesgue Integrals
 
 ## Core Idea

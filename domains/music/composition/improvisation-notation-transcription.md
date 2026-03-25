@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rhythmic-dictation-compound
   type: soft
+- id: lead-sheet-notation
+  type: soft
 tags:
 - improvisation
 - transcription
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Transcribing Improvisation to Notation
 
 ## Core Idea

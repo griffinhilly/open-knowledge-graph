@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: lexical-semantics
   type: soft
+- id: syntactic-choice-and-effect
+  type: soft
+- id: hyperbole-understatement-restraint
+  type: soft
 builds-toward:
 - rhetorical-devices-in-prose
 - revision-strategies
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Diction and Word Choice for Effect
 
 ## Core Idea

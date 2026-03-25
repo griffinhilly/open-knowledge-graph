@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: creep-in-materials
   type: soft
+- id: creep-deformation-mechanisms-materials
+  type: soft
 tags:
 - creep
 - high-temperature
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Creep Deformation at Elevated Temperatures
 
 ## Core Idea

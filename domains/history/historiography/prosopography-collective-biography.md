@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: quantitative-history-methods
   type: soft
+- id: annales-school-theory
+  type: soft
+- id: herodotus-inquiry-method
+  type: soft
 tags:
 - prosopography
 - methodology
@@ -15,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Prosopography: Collective Biography as Historical Method
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: parallel-axis-theorem-statics
   type: soft
+- id: area-moment-inertia-applications
+  type: soft
 builds-toward:
 - rigid-body-kinetics-force-acceleration
 - rigid-body-work-energy
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Mass Moment of Inertia
 
 ## Core Idea

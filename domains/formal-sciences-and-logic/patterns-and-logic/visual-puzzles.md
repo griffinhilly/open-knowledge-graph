@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: shape-patterns
   type: soft
+- id: logical-puzzles
+  type: soft
 builds-toward: []
 tags:
 - spatial-reasoning
@@ -19,7 +21,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Visual Puzzles
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: voice-leading-principles
   type: hard
+- id: diatonic-progression-voice-leading-patterns
+  type: soft
 builds-toward:
 - voice-leading-structural-analysis-reduction
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Voice Leading Patterns in Cadences
 
 ## Core Idea

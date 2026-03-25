@@ -6,6 +6,8 @@ course: circuits-and-electronics
 prerequisites:
 - id: circuit-variables-and-elements
   type: hard
+- id: current-divider-circuit
+  type: soft
 builds-toward:
 - voltage-divider-circuit
 - series-parallel-resistor-analysis
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Kirchhoff's Voltage Law (KVL)
 
 ## Core Idea

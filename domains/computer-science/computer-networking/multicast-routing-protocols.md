@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: routing-algorithms-overview
   type: hard
+- id: link-state-routing-protocols
+  type: soft
 tags:
 - multicast
 - pim
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Multicast Routing Protocols
 
 ## Core Idea

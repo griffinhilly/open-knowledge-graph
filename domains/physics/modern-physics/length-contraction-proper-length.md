@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: length-contraction
   type: soft
+- id: length-contraction-measurement
+  type: soft
 tags:
 - special-relativity
 - spacetime
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Length Contraction and Proper Length
 
 ## Core Idea

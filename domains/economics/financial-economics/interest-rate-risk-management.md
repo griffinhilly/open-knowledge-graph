@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: duration-and-convexity
   type: hard
+- id: floating-rate-bonds
+  type: soft
 tags:
 - interest-rate
 - risk
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Interest Rate Risk Management
 
 ## Core Idea

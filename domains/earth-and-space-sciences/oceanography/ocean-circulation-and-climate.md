@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: coriolis-effect
   type: soft
+- id: subtropical-ocean-gyres-formation
+  type: soft
 tags:
 - climate regulation
 - ocean heat transport
@@ -29,7 +31,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Ocean Circulation's Role in Climate Regulation
 
 ## Core Idea

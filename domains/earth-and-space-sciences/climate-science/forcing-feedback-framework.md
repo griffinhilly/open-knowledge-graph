@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: radiative-transfer-atmospheric
   type: soft
+- id: volcanic-aerosol-forcing
+  type: soft
 builds-toward:
 - climate-tipping-points
 - climate-model-evaluation
@@ -23,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Forcing-Feedback Framework in Climate
 
 ## Core Idea

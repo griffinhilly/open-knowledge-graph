@@ -6,6 +6,8 @@ course: developmental-psychology
 prerequisites:
 - id: self-concept-and-self-esteem-development
   type: soft
+- id: gender-identity-socialization-development
+  type: soft
 builds-toward:
 - identity-development-adolescence
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Gender Role Development and Socialization
 
 ## Core Idea

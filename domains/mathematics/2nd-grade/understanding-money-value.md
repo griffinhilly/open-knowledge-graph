@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: coins-and-their-values
   type: hard
+- id: money-coins-paper-bills-2nd
+  type: soft
 builds-toward:
 - counting-coins-and-bills
 - making-change-simple
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Understanding Money and Coin Values
 
 ## Core Idea

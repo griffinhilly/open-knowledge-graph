@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: anxiety-disorders-overview
   type: soft
+- id: cluster-a-odd-eccentric
+  type: soft
 tags:
 - cluster-c
 - personality-disorder
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Cluster C Personality Disorders: Fearful and Inhibited
 
 ## Core Idea

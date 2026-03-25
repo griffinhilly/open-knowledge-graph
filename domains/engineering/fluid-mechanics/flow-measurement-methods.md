@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: manometry-and-pressure-measurement
   type: soft
+- id: pitot-tube-velocity-measurement
+  type: soft
 tags:
 - venturi meter
 - orifice plate
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Flow Measurement: Venturi, Orifice, and Pitot Tube
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: hard
+- id: linearization-of-nonlinear-systems
+  type: soft
 tags:
 - linearization
 - jacobian
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Linearization of Nonlinear Systems Near Equilibria
 
 ## Core Idea

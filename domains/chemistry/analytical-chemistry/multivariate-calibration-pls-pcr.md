@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: matrix-operations
   type: soft
+- id: chemometrics-multivariate-calibration
+  type: soft
 builds-toward:
 - chromatographic-resolution-and-selectivity
 - multianalyte-panel-determination
@@ -21,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Multivariate Calibration: PLS and PCR Models
 
 ## Core Idea

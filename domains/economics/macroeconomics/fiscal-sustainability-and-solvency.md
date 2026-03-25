@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: fiscal-policy-sustainability
   type: soft
+- id: discretionary-fiscal-policy-decisions
+  type: soft
+- id: crowding-out-and-fiscal-effects
+  type: soft
 builds-toward:
 - fiscal-dominance-vs-monetary-independence
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Fiscal Sustainability and Solvency
 
 ## Core Idea

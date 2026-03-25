@@ -6,6 +6,8 @@ course: kindergarten
 prerequisites:
 - id: measurement-comparison-length
   type: soft
+- id: weight-comparison
+  type: soft
 builds-toward:
 - measurement-with-nonstandard-units
 tags:

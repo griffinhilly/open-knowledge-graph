@@ -6,6 +6,8 @@ course: thermodynamics
 prerequisites:
 - id: blackbody-radiation
   type: hard
+- id: ts-diagram-entropy-temperature
+  type: soft
 tags:
 - radiation
 - heat-transfer
@@ -13,7 +15,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Thermal Radiation and Stefan-Boltzmann Law
 
 ## Core Idea

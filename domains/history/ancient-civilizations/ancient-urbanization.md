@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: hydraulic-civilization-theory
   type: soft
+- id: ancient-sources-interpretation-methods
+  type: soft
 builds-toward:
 - ancient-social-stratification
 - comparing-ancient-civilizations

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: social-contract-theory-historical
   type: soft
+- id: montesquieu-separation-governmental-powers
+  type: soft
 builds-toward:
 - american-revolution
 - french-revolution-origins
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # John Locke and Liberal Political Philosophy
 
 ## Core Idea

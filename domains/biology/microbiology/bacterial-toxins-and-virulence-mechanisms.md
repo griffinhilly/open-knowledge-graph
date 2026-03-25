@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: protein-structure-and-function
   type: soft
+- id: viral-infection-and-pathogenesis-mechanisms
+  type: soft
 builds-toward:
 - antimicrobial-peptides-and-lysozyme
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Bacterial Toxins and Virulence Mechanisms
 
 ## Core Idea

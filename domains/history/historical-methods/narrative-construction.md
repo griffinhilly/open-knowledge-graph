@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: hayden-white-linguistic-turn
   type: soft
+- id: cultural-history-methods
+  type: soft
+- id: epigraphic-analysis-and-inscriptions
+  type: soft
+- id: photographic-evidence-analysis
+  type: soft
 tags:
 - narrative
 - writing
@@ -18,7 +24,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Narrative Construction and Historical Representation
 
 ## Core Idea

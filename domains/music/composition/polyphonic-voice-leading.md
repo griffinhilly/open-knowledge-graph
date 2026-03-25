@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: voice-leading-principles
   type: hard
+- id: contrapuntal-melody-combination
+  type: soft
 builds-toward:
 - voice-independence-and-counterpoint
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Polyphonic Voice Leading
 
 ## Core Idea

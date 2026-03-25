@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electromagnetic-waves-in-dielectrics
   type: soft
+- id: circular-waveguide-propagation
+  type: soft
 builds-toward:
 - resonant-cavities-em
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Electromagnetic Waveguides and Propagation Modes
 
 ## Core Idea

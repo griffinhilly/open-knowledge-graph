@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: feedback-mechanisms-in-climate
   type: soft
+- id: polar-oceanography-ice-ocean-interaction
+  type: soft
+- id: oceanography-fundamentals
+  type: soft
 builds-toward:
 - sea-level-change
 tags:
@@ -23,7 +27,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Polar Oceanography: Sea Ice and Polar Circulation
 
 ## Core Idea

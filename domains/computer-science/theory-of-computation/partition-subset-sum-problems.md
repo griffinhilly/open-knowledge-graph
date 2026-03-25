@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: dynamic-programming-intro
   type: soft
+- id: hamiltonian-path-cycle
+  type: soft
+- id: 3sat-satisfiability-variant
+  type: soft
 builds-toward:
 - approximation-algorithms-design
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Partition and Subset Sum Problems
 
 ## Core Idea

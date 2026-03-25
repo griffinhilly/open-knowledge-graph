@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: voice-leading-basics
   type: hard
+- id: bass-line-writing-harmonic-function
+  type: soft
 builds-toward:
 - voice-leading-smooth-conjunct-motion
 - diatonic-progression-voice-leading-patterns
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Chord Inversions and Voice-Leading Options
 
 ## Core Idea

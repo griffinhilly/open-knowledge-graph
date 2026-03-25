@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mathematical-induction
   type: soft
+- id: pigeonhole-principle-discrete
+  type: soft
 builds-toward:
 - graph-coloring
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Pigeonhole Principle
 
 ## Core Idea

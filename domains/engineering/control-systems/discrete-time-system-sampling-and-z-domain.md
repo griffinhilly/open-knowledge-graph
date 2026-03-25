@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: transfer-functions-control
   type: hard
+- id: discrete-time-control-systems
+  type: soft
 builds-toward:
 - practical-control-system-implementation
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Discrete-Time Systems: Sampling and z-Domain Analysis
 
 ## Core Idea

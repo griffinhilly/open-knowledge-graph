@@ -14,9 +14,11 @@ prerequisites:
   type: soft
 - id: three-digit-subtraction
   type: soft
+- id: subtraction-word-problems-2nd
+  type: soft
 builds-toward:
-  - multi-digit-addition
-  - multi-digit-subtraction
+- multi-digit-addition
+- multi-digit-subtraction
 tags:
 - word-problems
 - two-step

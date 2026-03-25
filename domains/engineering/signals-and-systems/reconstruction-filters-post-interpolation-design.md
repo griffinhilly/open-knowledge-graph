@@ -6,6 +6,8 @@ course: signals-and-systems
 prerequisites:
 - id: sampling-theorem-nyquist-rate
   type: hard
+- id: notch-filters-and-resonators
+  type: soft
 builds-toward:
 - interpolation-filtering-image-rejection
 - complex-baseband-iq-representation-analysis
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Reconstruction Filters and Post-Interpolation Design
 
 ## Core Idea

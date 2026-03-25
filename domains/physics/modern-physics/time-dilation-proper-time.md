@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: time-dilation
   type: soft
+- id: time-dilation-clock-rates
+  type: soft
+- id: length-contraction-proper-length
+  type: soft
+- id: simultaneity-different-reference-frames
+  type: soft
 builds-toward:
 - twin-paradox-proper-time
 tags:
@@ -17,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Time Dilation and Proper Time
 
 ## Core Idea

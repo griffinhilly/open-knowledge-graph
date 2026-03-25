@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: autonomic-nervous-system
   type: soft
+- id: cortisol-stress-axis-adaptation
+  type: soft
+- id: neuroendocrine-stress-integration
+  type: soft
 tags:
 - adrenal
 - cortisol
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Adrenal Steroid Hormones and the Stress Response
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: long-term-potentiation
   type: soft
+- id: brain-plasticity-recovery
+  type: soft
 tags:
 - plasticity
 - learning
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Experience-Dependent Plasticity and Learning
 
 ## Core Idea

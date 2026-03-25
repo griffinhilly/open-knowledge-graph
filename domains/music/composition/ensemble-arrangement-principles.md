@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: orchestration-harmonic-function
   type: soft
+- id: arrangement-ensemble-voicing
+  type: soft
 tags:
 - arrangement
 - orchestration
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ensemble Arrangement Principles
 
 ## Core Idea

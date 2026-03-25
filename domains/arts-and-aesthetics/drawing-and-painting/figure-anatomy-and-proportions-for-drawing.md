@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: geometric-form-and-spatial-construction
   type: soft
+- id: hand-and-foot-proportions
+  type: soft
 builds-toward:
 - portraiture-structure-features-and-character
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Figure Anatomy and Proportions for Drawing
 
 ## Core Idea

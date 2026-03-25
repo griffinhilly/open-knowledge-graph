@@ -6,6 +6,8 @@ course: developmental-psychology
 prerequisites:
 - id: piaget-concrete-operational
   type: hard
+- id: centration-and-decentration-cognitive
+  type: soft
 builds-toward:
 - metacognition-self-monitoring-cognition
 - formal-operational-adolescent-thought
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Transitive Inference in Concrete Operations
 
 ## Core Idea

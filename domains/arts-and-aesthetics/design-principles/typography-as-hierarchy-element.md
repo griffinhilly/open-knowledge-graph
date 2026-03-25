@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: visual-hierarchy-in-design
   type: hard
+- id: typography-readability-legibility
+  type: soft
 tags:
 - typography
 - hierarchy
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Typography as a Hierarchy Element
 
 ## Core Idea

@@ -6,9 +6,6 @@ course: artificial-intelligence
 prerequisites:
 - id: supervised-learning-intro
   type: hard
-builds-toward:
-- uncertainty-sampling
-- query-strategy
 tags:
 - active-learning
 - label-efficiency

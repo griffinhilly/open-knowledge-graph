@@ -6,6 +6,8 @@ course: methods-of-proof
 prerequisites:
 - id: predicates-and-quantifiers
   type: hard
+- id: de-morgans-laws
+  type: soft
 builds-toward:
 - proof-by-contradiction
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Negation of Quantified Statements
 
 ## Core Idea

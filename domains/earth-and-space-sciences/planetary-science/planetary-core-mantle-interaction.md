@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: planetary-interior-dynamics
   type: hard
+- id: mantle-convection-planets
+  type: soft
 tags:
 - interior-structure
 - geochemistry
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Planetary Core-Mantle Interaction and Chemical Exchange
 
 ## Core Idea

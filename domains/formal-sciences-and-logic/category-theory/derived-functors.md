@@ -18,6 +18,10 @@ prerequisites:
   type: soft
 - id: linear-transformations-definition
   type: soft
+- id: ext-derived-hom
+  type: soft
+- id: tor-derived-tensor
+  type: soft
 tags:
 - derived functor
 - Ext

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: vibrational-spectroscopy-theory
   type: hard
+- id: vibrational-frequency-force-constant
+  type: soft
 builds-toward:
 - vibrational-frequency-force-constant
 - infrared-spectroscopy-applications
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Vibrational Energy Levels and Selection Rules
 
 ## Core Idea

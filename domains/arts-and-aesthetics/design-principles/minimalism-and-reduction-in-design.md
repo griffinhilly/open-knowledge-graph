@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: whitespace-and-breathing-room
   type: soft
+- id: cognitive-load-and-complexity
+  type: soft
 builds-toward:
 - design-systems-and-consistency
 - user-experience-fundamentals
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Minimalism and Reduction in Design
 
 ## Core Idea

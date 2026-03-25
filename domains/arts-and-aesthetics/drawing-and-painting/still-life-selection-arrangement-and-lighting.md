@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: compositional-blocking-and-thumbnails
   type: soft
+- id: spatial-relationships-in-still-life
+  type: soft
 tags:
 - still-life
 - arrangement
@@ -19,7 +21,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Still Life: Selection, Arrangement, and Lighting
 
 ## Core Idea

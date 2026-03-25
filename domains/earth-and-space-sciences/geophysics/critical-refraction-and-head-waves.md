@@ -6,6 +6,8 @@ course: geophysics
 prerequisites:
 - id: seismic-ray-tracing-methods
   type: hard
+- id: seismic-refraction-surveys
+  type: soft
 builds-toward:
 - reflection-seismic-survey-design
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Critical Angle Refraction and Head Waves
 
 ## Core Idea

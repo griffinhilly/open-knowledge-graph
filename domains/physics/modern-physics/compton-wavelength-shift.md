@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conservation-of-momentum
   type: hard
+- id: compton-scattering-analysis
+  type: soft
 builds-toward:
 - matter-wave-de-broglie-momentum
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Compton Scattering and Wavelength Shift
 
 ## Core Idea

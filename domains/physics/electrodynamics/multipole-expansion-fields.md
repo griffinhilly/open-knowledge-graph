@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: spherical-coordinates
   type: soft
+- id: multipole-static-fields
+  type: soft
 builds-toward:
 - radiation-accelerating-charges
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Multipole Expansion of Electromagnetic Fields
 
 ## Core Idea

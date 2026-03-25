@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ultrafilters-in-logic
   type: soft
+- id: singular-cardinals
+  type: soft
 builds-toward:
 - large-cardinals-intro
 - consistency-strength-large-cardinals
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Measurable Cardinals and Ultrafilters
 
 ## Core Idea

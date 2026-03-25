@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: historiography-philosophy-intro
   type: hard
+- id: biographical-historical-method
+  type: soft
+- id: source-contextualization
+  type: soft
+- id: historiographical-influence-and-reception
+  type: soft
 tags:
 - historiography
 - schools
@@ -16,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Historiographical Positioning and Schools of Thought
 
 ## Core Idea

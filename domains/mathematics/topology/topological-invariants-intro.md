@@ -6,6 +6,8 @@ course: topology
 prerequisites:
 - id: homeomorphisms-topological-equivalence
   type: hard
+- id: topological-invariants
+  type: soft
 builds-toward:
 - fundamental-group-definition
 - connected-spaces
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Topological Invariants and Properties
 
 ## Core Idea

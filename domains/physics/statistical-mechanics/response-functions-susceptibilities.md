@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: partition-function-definition
   type: soft
+- id: distribution-functions-moments
+  type: soft
 tags:
 - response
 - fluctuations
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Response Functions and Susceptibilities
 
 ## Core Idea

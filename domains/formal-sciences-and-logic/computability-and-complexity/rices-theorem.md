@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: church-turing-thesis-formal
   type: soft
+- id: post-correspondence-problem-computability-and-complexity
+  type: soft
 builds-toward:
 - re-and-co-re-languages
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Rice's Theorem
 
 ## Core Idea

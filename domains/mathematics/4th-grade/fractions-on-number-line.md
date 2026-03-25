@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: unit-fractions
   type: soft
+- id: intro-to-fractions-4th-grade
+  type: soft
 builds-toward:
 - comparing-fractions
 - mixed-numbers-and-improper-fractions

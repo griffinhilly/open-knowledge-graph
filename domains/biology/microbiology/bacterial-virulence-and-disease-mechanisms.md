@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: bacterial-toxins-exotoxins-and-endotoxins
   type: hard
+- id: bacterial-toxins-and-virulence-mechanisms
+  type: soft
 builds-toward:
 - emerging-infectious-diseases
 - inflammatory-response-cellular
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Bacterial Virulence Factors and Pathogenic Mechanisms
 
 ## Core Idea

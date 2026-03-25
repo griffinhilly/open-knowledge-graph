@@ -8,8 +8,10 @@ prerequisites:
   type: hard
 - id: voice-leading-principles
   type: hard
+- id: invertible-counterpoint-extended
+  type: soft
 builds-toward:
-  - canonic-imitation-structures
+- canonic-imitation-structures
 tags:
 - counterpoint
 - voice-leading

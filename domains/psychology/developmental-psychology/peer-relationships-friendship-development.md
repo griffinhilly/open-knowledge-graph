@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: social-referencing-emotional-development
   type: soft
+- id: peer-influence-conformity-social-development
+  type: soft
 builds-toward:
 - adolescent-identity-exploration-commitment
 - gender-identity-socialization-development
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Peer Relationships and Friendship Development
 
 ## Core Idea

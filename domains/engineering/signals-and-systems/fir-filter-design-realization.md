@@ -6,6 +6,10 @@ course: signals-and-systems
 prerequisites:
 - id: digital-signal-processing-fundamentals
   type: hard
+- id: filter-classification-design-basics
+  type: soft
+- id: elliptic-filter-design
+  type: soft
 tags:
 - fir-filter
 - filter-design
@@ -13,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # FIR Filter Design and Realization
 
 ## Core Idea

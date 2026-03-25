@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: milankovitch-orbital-cycles
   type: soft
+- id: orbital-forcing-variations
+  type: soft
 builds-toward:
 - stadials-interstadials-glacial
 - glacial-interglacial-cycles
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Loess-Paleosol Sequences and Glacial Climate
 
 ## Core Idea

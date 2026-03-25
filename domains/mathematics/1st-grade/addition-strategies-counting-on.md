@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: number-line-0-to-20
   type: soft
+- id: making-ten-strategy-1st
+  type: soft
 builds-toward:
 - mental-math-add-subtract-tens
 - addition-fact-families
@@ -18,7 +20,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Addition Strategy: Counting On
 
 ## Core Idea

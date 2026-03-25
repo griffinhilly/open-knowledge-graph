@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: modular-arithmetic
   type: hard
+- id: law-of-quadratic-reciprocity
+  type: soft
 builds-toward:
 - eulers-criterion
 - law-quadratic-reciprocity
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Quadratic Residues and the Legendre Symbol
 
 ## Core Idea

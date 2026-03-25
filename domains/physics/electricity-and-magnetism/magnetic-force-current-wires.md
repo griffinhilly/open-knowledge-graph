@@ -6,6 +6,10 @@ course: electricity-and-magnetism
 prerequisites:
 - id: magnetic-force-moving-charges
   type: hard
+- id: magnetic-force-conductors
+  type: soft
+- id: force-between-parallel-current-wires
+  type: soft
 builds-toward:
 - magnetic-field-definition
 - magnetic-torque-dipole
@@ -16,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Magnetic Force on Current-Carrying Wires
 
 ## Core Idea

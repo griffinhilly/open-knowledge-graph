@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: limbic-system-and-emotion
   type: soft
+- id: schizoaffective-disorder
+  type: soft
 builds-toward:
 - persistent-depressive-disorder
 - bipolar-i-disorder
@@ -21,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Major Depressive Disorder (MDD)
 
 ## Core Idea

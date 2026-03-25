@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electric-potential-and-potential-energy
   type: hard
+- id: green-function-method-electrostatics
+  type: soft
 builds-toward:
 - boundary-value-problems-em
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Method of Images in Electrostatics
 
 ## Core Idea

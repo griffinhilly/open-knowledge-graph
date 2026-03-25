@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: newtons-second-law
   type: hard
+- id: phase-space-density-evolution
+  type: soft
 builds-toward:
 - fokker-planck-equation
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Langevin Equation
 
 ## Core Idea

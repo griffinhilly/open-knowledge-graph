@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: dynamic-programming-intro
   type: hard
+- id: temporal-difference-learning
+  type: soft
+- id: actor-critic-methods
+  type: soft
+- id: model-based-reinforcement-learning
+  type: soft
+- id: monte-carlo-methods-rl
+  type: soft
 tags:
 - reinforcement-learning
 - temporal-difference
@@ -15,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Q-Learning Algorithm
 
 ## Core Idea

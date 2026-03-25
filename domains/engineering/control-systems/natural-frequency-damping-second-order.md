@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: second-order-system-response-analysis
   type: hard
+- id: second-order-system-damping-ratio
+  type: soft
 builds-toward:
 - time-domain-performance-specifications
 - root-locus-pole-placement
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Natural Frequency and Damping Ratio
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conditional-probability
   type: hard
+- id: conditional-distributions-theory
+  type: soft
 builds-toward:
 - conditional-expectation
 - bivariate-normal-distribution
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Conditional Distributions
 
 ## Core Idea

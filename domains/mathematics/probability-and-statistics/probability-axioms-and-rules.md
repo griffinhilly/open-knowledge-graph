@@ -6,6 +6,8 @@ course: probability-and-statistics
 prerequisites:
 - id: set-fundamentals
   type: hard
+- id: weak-law-large-numbers
+  type: soft
 builds-toward:
 - conditional-probability
 - bayes-theorem
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Probability Axioms and Rules
 
 ## Core Idea

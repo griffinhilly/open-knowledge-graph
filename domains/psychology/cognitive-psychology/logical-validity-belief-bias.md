@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: reasoning-biases-and-errors
   type: hard
+- id: base-rate-integration-probability
+  type: soft
 builds-toward:
 - cognitive-biases-judgment-uncertainty
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Logical Validity and Belief Bias in Reasoning
 
 ## Core Idea

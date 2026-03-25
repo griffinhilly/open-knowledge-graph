@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: graph-connectivity
   type: soft
+- id: tonnetz-navigation-voice-leading
+  type: soft
 builds-toward:
 - orchestration-harmonic-function
 tags:
@@ -24,7 +26,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Voice-Leading as Graph Optimization
 
 ## Core Idea

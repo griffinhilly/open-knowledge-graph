@@ -4,16 +4,20 @@ title: Composition of Functions
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: function-notation-review
-    type: hard
+- id: function-notation-review
+  type: hard
+- id: step-functions
+  type: soft
 builds-toward:
-  - inverse-functions
-  - chain-rule
-tags: [functions, composition, substitution]
+- inverse-functions
+- chain-rule
+tags:
+- functions
+- composition
+- substitution
 stage: formal-systems
 status: validated
 ---
-
 # Composition of Functions
 
 ## Core Idea

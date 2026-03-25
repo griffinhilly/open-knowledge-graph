@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: linkage-disequilibrium-evolutionary
   type: soft
+- id: frequency-dependent-selection-polymorphism
+  type: soft
 builds-toward:
 - molecular-evolution
 - effective-population-size
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Genetic Hitchhiking and Background Selection
 
 ## Core Idea

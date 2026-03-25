@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: design-for-medium-and-context
   type: soft
+- id: context-appropriate-design
+  type: soft
 builds-toward:
 - branding-and-identity-design
 - visual-communication-strategy
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Cultural Context in Design
 
 ## Core Idea

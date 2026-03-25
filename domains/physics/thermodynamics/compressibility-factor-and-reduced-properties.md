@@ -6,6 +6,8 @@ course: thermodynamics
 prerequisites:
 - id: ideal-gas-law
   type: hard
+- id: compressibility-factor-z
+  type: soft
 tags:
 - compressibility
 - real-gases
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Compressibility Factor and Reduced Properties
 
 ## Core Idea

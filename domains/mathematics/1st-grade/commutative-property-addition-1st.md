@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: properties-of-operations
   type: soft
+- id: ten-frames-for-addition
+  type: soft
 builds-toward:
 - addition-fact-families
 - algebra-intro
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Commutative Property of Addition
 
 ## Core Idea

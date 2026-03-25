@@ -6,6 +6,8 @@ course: numerical-analysis
 prerequisites:
 - id: power-method-eigenvalues
   type: soft
+- id: qr-algorithm
+  type: soft
 tags:
 - qr-algorithm
 - eigenvalue-algorithm
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # QR Algorithm for Eigenvalues
 
 ## Core Idea

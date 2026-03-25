@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: multiplying-integers
   type: hard
+- id: surface-area-intro
+  type: soft
 builds-toward:
 - volume-of-prisms-and-cylinders
 tags:

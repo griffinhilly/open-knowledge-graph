@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: mass-spectrometry-analytical
   type: hard
+- id: gas-chromatography-mass-spectrometry-gc-ms
+  type: soft
 tags:
 - GC-MS
 - LC-MS
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Hyphenated Chromatography-Mass Spectrometry
 
 ## Core Idea

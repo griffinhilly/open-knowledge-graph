@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: emphasis-focal-point-and-hierarchy
   type: hard
+- id: integrating-elements-and-principles-in-design
+  type: soft
+- id: integrating-elements-principles-visual-design
+  type: soft
+- id: harmony-unity-and-visual-cohesion
+  type: soft
+- id: creating-emphasis-through-visual-weight
+  type: soft
 tags:
 - hierarchy
 - composition
@@ -16,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Visual Hierarchy Through Elements and Principles
 
 ## Core Idea

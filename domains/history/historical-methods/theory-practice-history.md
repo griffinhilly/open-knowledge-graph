@@ -8,6 +8,16 @@ prerequisites:
   type: hard
 - id: schools-of-historical-interpretation
   type: soft
+- id: material-symbolic-integration
+  type: soft
+- id: secondary-source-mining
+  type: soft
+- id: historiographical-influence-and-reception
+  type: soft
+- id: oral-history-documentation-and-ethics
+  type: soft
+- id: decolonizing-and-inclusive-historical-methods
+  type: soft
 tags:
 - theory
 - practice
@@ -16,7 +26,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Integration of Theory and Historical Practice
 
 ## Core Idea

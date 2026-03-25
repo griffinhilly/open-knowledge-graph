@@ -6,6 +6,8 @@ course: 1st-grade
 prerequisites:
 - id: skip-counting-by-5s
   type: hard
+- id: number-patterns-skip-counting-1st
+  type: soft
 builds-toward:
 - telling-time-to-5-minutes
 - counting-coins-and-bills
@@ -16,7 +18,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Skip Counting by 5s Fluency
 
 ## Core Idea

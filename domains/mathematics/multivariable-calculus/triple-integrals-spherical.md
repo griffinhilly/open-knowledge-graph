@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: triple-integrals
   type: hard
+- id: triple-integrals-cylindrical
+  type: soft
 builds-toward:
 - applications-multivariable
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Triple Integrals in Spherical Coordinates
 
 ## Core Idea

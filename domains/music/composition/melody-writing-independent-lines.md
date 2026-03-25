@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: scale-degree-names-and-function
   type: soft
+- id: contrapuntal-melody-combination
+  type: soft
+- id: melody-construction-principles
+  type: soft
 builds-toward:
 - voice-independence-and-counterpoint
 - melodic-gesture-and-contour
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Melody Writing as Independent Line
 
 ## Core Idea

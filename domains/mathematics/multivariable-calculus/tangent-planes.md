@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: gradient-vector
   type: soft
+- id: total-differential
+  type: soft
+- id: total-differential-approximation
+  type: soft
 builds-toward:
 - chain-rule-multivariable
 tags:
@@ -20,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Tangent Planes and Linear Approximation
 
 ## Core Idea

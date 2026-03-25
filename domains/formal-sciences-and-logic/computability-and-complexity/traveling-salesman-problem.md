@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: graph-theory-fundamentals
   type: soft
+- id: knapsack-problem-variations
+  type: soft
+- id: clique-problem-np-complete
+  type: soft
 builds-toward:
 - knapsack-problem-variations
 - approximation-algorithms
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Traveling Salesman Problem (TSP)
 
 ## Core Idea

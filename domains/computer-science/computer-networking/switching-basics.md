@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - vlans-virtual-area-networks
-- spanning-tree-protocol
+- spanning-tree-protocol-stp
 tags:
 - switch
 - forwarding

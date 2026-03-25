@@ -6,6 +6,8 @@ course: number-theory
 prerequisites:
 - id: modular-arithmetic
   type: hard
+- id: primes-arithmetic-progressions
+  type: soft
 tags:
 - modular-arithmetic
 - primes
@@ -14,7 +16,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Wilson's Theorem
 
 ## Core Idea

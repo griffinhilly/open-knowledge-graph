@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: compositional-semantics
   type: hard
+- id: selectional-restrictions
+  type: soft
 builds-toward:
 - formal-semantics-of-tense
 - formal-semantics-of-modality
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Semantic Types and Compositional Meaning
 
 ## Core Idea

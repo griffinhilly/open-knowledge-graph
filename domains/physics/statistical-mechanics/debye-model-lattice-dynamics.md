@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: quantum-harmonic-oscillator
   type: soft
+- id: einstein-model-solids
+  type: soft
 builds-toward:
 - einstein-model-solids
 - phase-transition-equilibrium
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # The Debye Model of Lattice Vibrations
 
 ## Core Idea

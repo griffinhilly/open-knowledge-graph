@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: systems-graphing
   type: soft
+- id: systems-word-problems
+  type: soft
 builds-toward:
 - linear-programming
 tags:

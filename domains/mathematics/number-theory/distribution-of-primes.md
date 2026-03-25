@@ -6,6 +6,10 @@ course: number-theory
 prerequisites:
 - id: fundamental-theorem-of-arithmetic-rigorous
   type: soft
+- id: distribution-primes-prime-number-theorem
+  type: soft
+- id: primes-arithmetic-progressions-dirichlet
+  type: soft
 builds-toward:
 - prime-number-theorem
 - prime-counting-function
@@ -16,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Distribution of Primes
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: bacterial-cell-structure
   type: hard
+- id: gram-staining-and-cell-wall-classification
+  type: soft
 builds-toward:
 - antibiotic-targets-and-resistance-development
 - bacterial-toxins-exotoxins-and-endotoxins
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Gram-Positive vs Gram-Negative Bacteria: Structural Differences
 
 ## Core Idea

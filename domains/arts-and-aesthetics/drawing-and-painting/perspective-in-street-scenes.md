@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: atmospheric-perspective
   type: soft
+- id: atmospheric-recession-in-landscape
+  type: soft
 tags:
 - perspective
 - landscape
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Perspective in Street Scenes and Outdoor Spaces
 
 ## Core Idea

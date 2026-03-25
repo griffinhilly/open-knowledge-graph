@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: diatonic-chord-quality-ear
   type: soft
+- id: borrowed-chromatic-harmony-detection
+  type: soft
+- id: borrowed-chord-recognition-ear
+  type: soft
+- id: diatonic-chromatic-tone-distinction
+  type: soft
 builds-toward:
 - neo-riemannian-analysis-advanced
 - chromatic-mediant-chords
@@ -23,7 +29,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Chromatic Alterations and Borrowed Chords by Ear
 
 ## Core Idea

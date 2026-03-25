@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: differential-equations-intro
   type: soft
+- id: endogenous-growth-lucas
+  type: soft
+- id: endogenous-growth-romer
+  type: soft
 builds-toward:
 - romer-growth-model
 - human-capital-accumulation
@@ -22,7 +26,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Endogenous Growth Theory
 
 ## Core Idea

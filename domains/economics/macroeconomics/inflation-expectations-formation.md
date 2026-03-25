@@ -6,6 +6,10 @@ course: macroeconomics
 prerequisites:
 - id: expectation-formation-mechanisms
   type: hard
+- id: real-interest-rate-and-fisher-equation
+  type: soft
+- id: central-bank-credibility-expectations
+  type: soft
 builds-toward:
 - inflation-dynamics-and-persistence
 - phillips-curve-new-keynesian
@@ -16,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Inflation Expectations and Expectation Formation
 
 ## Core Idea

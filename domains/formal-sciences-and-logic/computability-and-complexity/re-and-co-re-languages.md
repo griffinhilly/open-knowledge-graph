@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: rices-theorem
   type: soft
+- id: recursively-enumerable-languages-computability-and-complexity
+  type: soft
 builds-toward:
 - arithmetical-hierarchy
 - kolmogorov-complexity

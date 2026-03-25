@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: soft
+- id: multipole-static-fields
+  type: soft
 builds-toward:
 - electric-dipole-radiation
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Multipole Expansion and Far-Field Radiation
 
 ## Core Idea

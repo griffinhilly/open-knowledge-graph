@@ -3,7 +3,9 @@ id: music-history-introduction
 title: 'Music History: Foundations and Scope'
 domain: music
 course: music-history
-prerequisites: []
+prerequisites:
+- id: music-copyright-and-publishing-history
+  type: soft
 builds-toward:
 - medieval-music-contexts
 - jazz-history-and-development
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Music History: Foundations and Scope
 
 ## Core Idea

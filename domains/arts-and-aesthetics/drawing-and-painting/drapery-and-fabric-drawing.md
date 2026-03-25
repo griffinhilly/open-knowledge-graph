@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: observational-drawing-practice
   type: hard
+- id: cast-shadows-and-form-shadows
+  type: soft
+- id: gesture-drawing-capturing-movement
+  type: soft
 builds-toward:
 - figure-drawing-fundamentals
 tags:
@@ -19,7 +23,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Drapery and Fabric Drawing
 
 ## Core Idea

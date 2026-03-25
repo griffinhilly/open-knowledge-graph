@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: equilibrium-rigid-bodies
   type: soft
+- id: gyroscopic-motion-and-stability
+  type: soft
 tags:
 - stability
 - equilibrium
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Stability of Equilibrium: Stable, Unstable, and Neutral
 
 ## Core Idea

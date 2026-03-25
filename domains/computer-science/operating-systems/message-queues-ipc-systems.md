@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: semaphores
   type: soft
+- id: message-passing-ipc-semantics
+  type: soft
 tags:
 - ipc
 - message-queues
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Message Queues and Message Passing IPC
 
 ## Core Idea

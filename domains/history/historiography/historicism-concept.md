@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: historical-consciousness
   type: soft
+- id: historical-truth-theories
+  type: soft
+- id: marxist-historiography-theory
+  type: soft
 builds-toward:
 - ranke-school-legacy
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Historicism and Historical Consciousness
 
 ## Core Idea

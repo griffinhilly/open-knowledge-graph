@@ -6,6 +6,8 @@ course: numerical-analysis
 prerequisites:
 - id: floating-point-representation
   type: soft
+- id: stability-regions-ode
+  type: soft
 builds-toward:
 - condition-number-of-a-problem
 - condition-number-of-a-matrix
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Numerical Stability and Conditioning
 
 ## Core Idea

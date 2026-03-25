@@ -7,8 +7,8 @@ prerequisites:
 - id: hexadecimal-number-system
   type: hard
 builds-toward:
-- instruction-encoding-and-machine-code
-- memory-address-representation
+- instruction-set-architecture
+- memory-address-decoding
 tags:
 - number-systems
 - conversion

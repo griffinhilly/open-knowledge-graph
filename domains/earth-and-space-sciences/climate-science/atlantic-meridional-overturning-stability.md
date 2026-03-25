@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: climate-tipping-points
   type: soft
+- id: wind-buoyancy-driven-circulation
+  type: soft
 builds-toward:
 - climate-models-and-projections
 - climate-sensitivity-radiative-feedbacks
@@ -21,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Atlantic Meridional Overturning Circulation Stability
 
 ## Core Idea

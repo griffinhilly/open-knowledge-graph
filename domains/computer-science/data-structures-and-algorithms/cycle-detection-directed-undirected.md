@@ -6,6 +6,10 @@ course: data-structures-and-algorithms
 prerequisites:
 - id: depth-first-search
   type: hard
+- id: bipartite-graph-detection-coloring
+  type: soft
+- id: articulation-points-cut-vertices
+  type: soft
 builds-toward:
 - topological-sort
 tags:
@@ -15,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Cycle Detection in Directed and Undirected Graphs
 
 ## Core Idea

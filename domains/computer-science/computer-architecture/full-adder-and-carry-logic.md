@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: binary-adders
   type: soft
+- id: overflow-underflow-arithmetic
+  type: soft
 builds-toward:
 - carry-lookahead-adder-design
 - arithmetic-logic-unit
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Full Adder and Carry Propagation
 
 ## Core Idea

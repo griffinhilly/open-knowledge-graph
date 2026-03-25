@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ionotropic-vs-metabotropic-receptors
   type: hard
+- id: dendritic-spine-plasticity
+  type: soft
 builds-toward:
 - spike-timing-dependent-plasticity
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Long-Term Depression
 
 ## Core Idea

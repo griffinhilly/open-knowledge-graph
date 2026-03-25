@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: psychopharmacology-basics
   type: soft
+- id: anxiolytic-benzodiazepines
+  type: soft
+- id: mood-stabilizers
+  type: soft
 tags:
 - mood-stabilizers
 - anxiolytics
@@ -19,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Mood Stabilizers and Anxiolytic Medications
 
 ## Core Idea

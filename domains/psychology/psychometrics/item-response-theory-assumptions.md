@@ -16,6 +16,10 @@ prerequisites:
   type: hard
 - id: probability-axioms
   type: hard
+- id: multidimensional-item-response-theory
+  type: soft
+- id: polytomous-irt-models
+  type: soft
 builds-toward:
 - ability-parameter-estimation-theta-estimation
 - classical-vs-irt-item-analysis
@@ -27,7 +31,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Item Response Theory: Assumptions and Fundamentals
 
 ## Core Idea

@@ -8,13 +8,14 @@ prerequisites:
   type: hard
 - id: entanglement
   type: soft
+- id: quantum-observables
+  type: soft
 tags:
 - measurement
 - foundations
 stage: advanced
 status: validated
 ---
-
 # The Measurement Problem
 
 ## Core Idea

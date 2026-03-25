@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: lhopitals-rule
   type: soft
+- id: convergence-test-strategy
+  type: soft
 builds-toward:
 - maclaurin-series
 - taylor-series-common-functions

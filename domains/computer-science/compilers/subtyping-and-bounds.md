@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: hindley-milner-type-system
   type: soft
+- id: constraint-based-type-checking
+  type: soft
+- id: overload-resolution-typing
+  type: soft
+- id: dependent-types-programming
+  type: soft
 builds-toward:
 - gradual-typing-systems
 tags:
@@ -17,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Subtyping and Type Bounds
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: turbulent-flow-structure-properties
   type: soft
+- id: colebrook-white-friction-correlation
+  type: soft
 builds-toward:
 - pipe-flow-network-analysis
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Friction Factor and the Darcy-Weisbach Equation
 
 ## Core Idea

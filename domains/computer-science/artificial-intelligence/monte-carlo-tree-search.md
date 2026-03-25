@@ -6,7 +6,7 @@ course: artificial-intelligence
 prerequisites:
 - id: algorithm-design-basics
   type: hard
-- id: probability
+- id: probability-axioms
   type: soft
 - id: expected-value
   type: soft

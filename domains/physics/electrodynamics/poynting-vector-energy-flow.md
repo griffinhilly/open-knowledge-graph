@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: energy-stored-in-fields
   type: soft
+- id: poynting-theorem-conservation-law
+  type: soft
 builds-toward:
 - radiation-pressure
 - maxwell-stress-tensor
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Poynting Vector and Electromagnetic Energy Flow
 
 ## Core Idea

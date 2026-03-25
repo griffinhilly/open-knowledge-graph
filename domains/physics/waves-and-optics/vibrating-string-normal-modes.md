@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: wavelength-frequency-speed-relation
   type: hard
+- id: resonance-strings-fixed-ends
+  type: soft
+- id: fundamental-frequency-and-overtones
+  type: soft
 builds-toward:
 - fundamental-frequency-and-overtones
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Resonance in Strings and Normal Modes
 
 ## Core Idea

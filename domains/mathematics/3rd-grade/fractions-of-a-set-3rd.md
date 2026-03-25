@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: unit-fractions-halves-thirds-fourths-3rd
   type: hard
+- id: equivalent-fractions-intro-3rd
+  type: soft
 builds-toward:
 - multiplication-of-fractions
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Fractions of a Set
 
 ## Core Idea

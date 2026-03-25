@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: design-process-and-iteration
   type: soft
+- id: constraint-based-design
+  type: soft
+- id: constraint-driven-creative-problem-solving
+  type: soft
+- id: purpose-driven-design
+  type: soft
 builds-toward:
 - responsive-design-principles
 - context-appropriate-design
@@ -21,7 +27,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Constraint-Driven Design
 
 ## Core Idea

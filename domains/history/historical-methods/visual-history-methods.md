@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: material-culture-analysis
   type: soft
+- id: visual-and-iconographic-sources
+  type: soft
 builds-toward:
 - digital-history-tools
 - public-history-and-audience
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Visual Sources in History
 
 ## Core Idea

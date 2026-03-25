@@ -6,6 +6,8 @@ course: statics-and-dynamics
 prerequisites:
 - id: work-energy-particles
   type: hard
+- id: work-energy-systems-analysis
+  type: soft
 builds-toward:
 - lagrangian-mechanics-overview
 - conservation-of-energy-mechanical-systems
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Work-Energy Theorem: Rigorous Derivation and Applications
 
 ## Core Idea

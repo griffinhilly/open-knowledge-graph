@@ -6,6 +6,8 @@ course: advanced-macroeconomics
 prerequisites:
 - id: government-budget-and-debt
   type: soft
+- id: government-debt-fiscal-sustainability
+  type: soft
 tags:
 - fiscal-sustainability
 - government-debt
@@ -13,7 +15,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Fiscal Sustainability and Long-Run Debt Dynamics
 
 ## Core Idea

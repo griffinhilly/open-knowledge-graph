@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gene-expression-overview
   type: soft
+- id: alternative-splicing-mechanisms
+  type: soft
 builds-toward:
 - translation-initiation-start-codon
 - small-rnas-mirna-and-rnai
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Intron Splicing and Alternative Splicing
 
 ## Core Idea

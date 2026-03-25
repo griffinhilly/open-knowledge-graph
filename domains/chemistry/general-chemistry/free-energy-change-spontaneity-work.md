@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gibbs-free-energy-spontaneity
   type: soft
+- id: spontaneity-and-gibbs-free-energy-intro
+  type: soft
 builds-toward:
 - electrochemistry-basics
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Gibbs Free Energy and Spontaneity Prediction
 
 ## Core Idea

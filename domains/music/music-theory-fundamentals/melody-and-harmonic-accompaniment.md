@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: harmonic-progression-patterns
   type: soft
+- id: melody-from-harmony
+  type: soft
 tags:
 - melody
 - harmony
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Melody and Harmonic Accompaniment: Creating Musical Texture
 
 ## Core Idea

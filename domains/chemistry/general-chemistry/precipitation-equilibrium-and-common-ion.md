@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: solubility-product-constant-ksp-calculations
   type: hard
+- id: common-ion-effect
+  type: soft
 builds-toward:
 - analytical-chemistry-intro
 - qualitative-analysis
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Precipitation Reactions and the Common Ion Effect
 
 ## Core Idea

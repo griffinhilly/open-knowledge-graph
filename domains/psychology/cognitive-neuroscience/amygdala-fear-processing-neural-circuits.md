@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: fear-conditioning-circuits
   type: hard
+- id: amygdala-fear-learning
+  type: soft
 builds-toward:
 - prefrontal-amygdala-emotion-regulation
 - anxiety-disorders-amygdala-hyperactivity
@@ -21,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Amygdala Fear Processing and Threat Circuits
 
 ## Core Idea

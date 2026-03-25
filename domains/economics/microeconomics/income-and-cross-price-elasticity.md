@@ -6,6 +6,8 @@ course: microeconomics
 prerequisites:
 - id: price-elasticity-of-demand
   type: hard
+- id: elasticity-cross-price-substitutes-complements
+  type: soft
 builds-toward:
 - consumer-theory-utility
 - comparative-statics
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Income and Cross-Price Elasticity
 
 ## Core Idea

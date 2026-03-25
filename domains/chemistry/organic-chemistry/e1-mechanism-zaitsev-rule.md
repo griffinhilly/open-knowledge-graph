@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: alkene-structure-and-nomenclature
   type: hard
+- id: zaitsevs-rule-hofmann-elimination
+  type: soft
+- id: zaitsev-hofmann-elimination-selectivity
+  type: soft
 builds-toward:
 - competing-substitution-and-elimination
 tags:
@@ -21,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # E1 Elimination Mechanism and Zaitsev's Rule
 
 ## Core Idea

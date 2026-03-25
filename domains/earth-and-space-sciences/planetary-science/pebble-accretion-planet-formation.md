@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: protoplanetary-disk-structure
   type: hard
+- id: planetary-accretion-timescales
+  type: soft
+- id: planetary-accretion-chronology
+  type: soft
 builds-toward:
 - planetary-accretion-chronology
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Pebble Accretion in Planet Formation
 
 ## Core Idea

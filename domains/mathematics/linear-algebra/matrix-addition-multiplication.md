@@ -6,6 +6,10 @@ course: linear-algebra
 prerequisites:
 - id: matrices-intro
   type: hard
+- id: matrix-addition-subtraction
+  type: soft
+- id: matrix-transpose
+  type: soft
 builds-toward:
 - linear-transformations-definition
 - matrix-inverses-computation
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Matrix Addition, Multiplication, and Transpose
 
 ## Core Idea

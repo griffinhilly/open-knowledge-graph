@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: stress-assignment-rules
   type: hard
+- id: vocal-modulation-for-emphasis
+  type: soft
+- id: authentic-speaker-voice-development
+  type: soft
+- id: facial-expressions-gestures
+  type: soft
+- id: presence-and-stage-command
+  type: soft
 builds-toward:
 - repetition-devices-emphasis
 tags:
@@ -18,7 +26,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Vocal Emphasis and Linguistic Stress
 
 ## Core Idea

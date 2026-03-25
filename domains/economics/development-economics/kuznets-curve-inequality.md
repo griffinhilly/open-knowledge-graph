@@ -6,13 +6,16 @@ course: development-economics
 prerequisites:
 - id: income-inequality-measurement
   type: soft
+- id: inequality-kuznets-curve
+  type: soft
+- id: inequality-in-developing-economies
+  type: soft
 tags:
 - inequality
 - Kuznets
 stage: expert
 status: validated
 ---
-
 # The Kuznets Curve and Inequality Dynamics
 
 ## Core Idea

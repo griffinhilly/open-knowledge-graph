@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: stability-and-balance
   type: soft
+- id: building-bridges
+  type: soft
 builds-toward:
 - distributed-loads-beams
 tags:

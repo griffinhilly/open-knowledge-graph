@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: binomial-coefficients
   type: soft
+- id: twelve-tone-aggregate-formations
+  type: soft
+- id: derived-row-techniques
+  type: soft
 builds-toward:
 - aggregate-completion-theory
 tags:
@@ -26,7 +30,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Hexachordal Combinatoriality in Twelve-Tone Composition
 
 ## Core Idea

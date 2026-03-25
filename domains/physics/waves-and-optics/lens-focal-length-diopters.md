@@ -6,6 +6,12 @@ course: waves-and-optics
 prerequisites:
 - id: refraction-interface-snell-relation
   type: hard
+- id: lens-power-dioptric-strength
+  type: soft
+- id: thin-lenses-focal-length
+  type: soft
+- id: wavelength-color-refractive-index
+  type: soft
 builds-toward:
 - lens-equation-magnification-formula
 tags:
@@ -14,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Lens Focal Length and Optical Power
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: temperature-and-thermal-equilibrium
   type: soft
+- id: intensive-and-extensive-properties
+  type: soft
+- id: molar-heat-capacities
+  type: soft
 tags:
 - phase-state
 - subcooled
@@ -16,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Subcooled Liquid and Superheated Vapor
 
 ## Core Idea

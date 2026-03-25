@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: geometric-optics-ray-approximation
   type: hard
+- id: real-and-virtual-images-optics
+  type: soft
 builds-toward:
 - spherical-mirrors
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Mirror Image Formation and Ray Diagrams
 
 ## Core Idea

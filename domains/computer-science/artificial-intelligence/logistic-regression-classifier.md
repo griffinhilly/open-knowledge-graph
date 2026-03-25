@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: probability-rules-for-events
   type: soft
+- id: decision-boundary-classification
+  type: soft
 tags:
 - supervised-learning
 - classification
@@ -25,7 +27,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Logistic Regression for Classification
 
 ## Core Idea

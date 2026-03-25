@@ -6,6 +6,10 @@ course: macroeconomics
 prerequisites:
 - id: rational-expectations-macro
   type: hard
+- id: exchange-rate-regimes-and-monetary-policy
+  type: soft
+- id: stagflation-and-conflicting-policy
+  type: soft
 builds-toward:
 - central-bank-credibility-expectations
 tags:
@@ -16,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Time Inconsistency in Monetary Policy
 
 ## Core Idea

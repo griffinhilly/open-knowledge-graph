@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: linear-approximation
   type: hard
+- id: eulers-method-ode
+  type: soft
 builds-toward:
 - runge-kutta-methods
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Euler's Method for Numerical Solutions
 
 ## Core Idea

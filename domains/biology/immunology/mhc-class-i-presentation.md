@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: antigen-presentation-mechanisms
   type: hard
+- id: mhc-class-ii-presentation
+  type: soft
 builds-toward:
 - cd8-cytotoxic-t-cells
 - cross-presentation-exogenous-antigens
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # MHC Class I Antigen Presentation Pathway
 
 ## Core Idea

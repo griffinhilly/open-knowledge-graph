@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: emotional-connection-pathos
   type: soft
+- id: narrative-persuasion-structure
+  type: soft
+- id: speech-narrative-structure
+  type: soft
 tags:
 - storytelling
 - emotion
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Structuring Stories to Create Emotional Impact and Support Arguments
 
 ## Core Idea

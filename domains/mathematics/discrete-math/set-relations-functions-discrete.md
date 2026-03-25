@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: functions-domain-codomain-range
   type: hard
+- id: ceiling-floor-functions-discrete
+  type: soft
 builds-toward:
 - counting-fundamentals-discrete
 - cardinality-and-countability
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Sets, Relations, and Functions in Discrete Mathematics
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: fluid-kinematics
   type: soft
+- id: form-drag-pressure-drag-components
+  type: soft
+- id: mechanical-energy-head-forms
+  type: soft
 builds-toward:
 - isentropic-nozzle-flow-choked-conditions
 - rayleigh-line-flow-stagnation-conditions
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Stagnation Pressure and Total Head
 
 ## Core Idea

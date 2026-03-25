@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: classical-knowledge-preservation-transmission
   type: soft
+- id: medieval-scholastic-method-logic
+  type: soft
 tags:
 - scholastic
 - logic
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Scholastic Inquiry and Logical Method
 
 ## Core Idea

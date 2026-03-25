@@ -6,6 +6,8 @@ course: topology
 prerequisites:
 - id: basis-for-a-topology
   type: hard
+- id: first-countable-spaces
+  type: soft
 builds-toward:
 - metrization-theorems
 - separability-topology
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # First and Second Countability Axioms
 
 ## Core Idea

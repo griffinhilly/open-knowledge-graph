@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electric-power
   type: soft
+- id: capacitor-networks
+  type: soft
 builds-toward:
 - kirchhoffs-rules
 - rc-circuits
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # DC Circuits: Series and Parallel
 
 ## Core Idea

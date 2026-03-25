@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: poynting-vector-energy-flow
   type: soft
+- id: synchrotron-radiation
+  type: soft
+- id: cherenkov-radiation
+  type: soft
+- id: radiation-damping-radiation-reaction
+  type: soft
 builds-toward:
 - larmor-formula
 - electric-dipole-radiation
@@ -18,7 +24,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Radiation from Accelerating Charges
 
 ## Core Idea

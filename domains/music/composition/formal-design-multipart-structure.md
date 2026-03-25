@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: sectional-architecture-and-unity
   type: hard
+- id: rondo-composition-design
+  type: soft
+- id: form-and-phrase-architecture
+  type: soft
+- id: rhythmic-motif-and-structure
+  type: soft
+- id: cadential-design-and-structural-closure
+  type: soft
 builds-toward:
 - sonata-composition-structural
 - theme-and-variations-composition
@@ -19,7 +27,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Formal Design and Multipart Structure
 
 ## Core Idea

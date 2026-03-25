@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: observational-sketching-from-life
   type: soft
+- id: compositional-value-thumbnail-sketches
+  type: soft
 builds-toward:
 - emphasis-contrast-and-focal-points
 - still-life-selection-arrangement-and-lighting
@@ -22,7 +24,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Compositional Blocking and Value Thumbnails
 
 ## Core Idea

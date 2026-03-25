@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: depth-and-spatial-illusion
   type: soft
+- id: color-temperature-spatial-effects
+  type: soft
 builds-toward:
 - relative-size-and-spatial-perception-depth
 - value-structure-and-compositional-organization
@@ -25,7 +27,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Color Temperature and Spatial Depth: Warm and Cool Interactions
 
 ## Core Idea

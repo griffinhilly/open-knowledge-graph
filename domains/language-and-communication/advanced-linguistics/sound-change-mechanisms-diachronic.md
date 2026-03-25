@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: language-variation-and-change
   type: hard
+- id: grammaticalization-pathways
+  type: soft
 tags:
 - diachrony
 - sound-change
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Sound Change Mechanisms and Diachronic Phonology
 
 ## Core Idea

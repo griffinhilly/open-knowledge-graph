@@ -6,6 +6,8 @@ course: quantum-mechanics
 prerequisites:
 - id: harmonic-oscillator-quantum
   type: hard
+- id: pure-and-mixed-states
+  type: soft
 builds-toward:
 - path-integral-formulation
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Coherent States
 
 ## Core Idea

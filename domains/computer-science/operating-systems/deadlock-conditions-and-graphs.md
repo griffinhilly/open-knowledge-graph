@@ -6,8 +6,6 @@ course: operating-systems
 prerequisites:
 - id: deadlock-conditions
   type: hard
-- id: dining-philosophers-problem
-  type: soft
 - id: graph-adjacency-list-matrix-representations
   type: soft
 builds-toward:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: discourse-representation-theory
   type: hard
+- id: context-update-semantics
+  type: soft
 tags:
 - semantics
 - pragmatics
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Presupposition and the Projection Problem
 
 ## Core Idea

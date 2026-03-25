@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mole-concept
   type: hard
+- id: atomic-mass-and-molar-mass
+  type: soft
 builds-toward:
 - stoichiometry-calculations
 - empirical-and-molecular-formulas
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Elemental Composition and Atomic Mass
 
 ## Core Idea

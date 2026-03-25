@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: closure-properties-cfl
   type: soft
+- id: limitations-of-context-free
+  type: soft
 builds-toward:
 - turing-machines
 tags:

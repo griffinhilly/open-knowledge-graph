@@ -6,6 +6,8 @@ course: compilers
 prerequisites:
 - id: live-variable-analysis
   type: hard
+- id: common-subexpression-elimination
+  type: soft
 tags:
 - optimization
 - code-quality
@@ -13,7 +15,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Dead Code Elimination
 
 ## Core Idea

@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: comparative-statics
   type: soft
+- id: elasticity-supply-responsiveness
+  type: soft
+- id: elasticity-income-superior-inferior-goods
+  type: soft
 builds-toward:
 - income-and-cross-price-elasticity
 - price-discrimination

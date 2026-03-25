@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: minor-scales
   type: soft
+- id: major-minor-mode-quality-discrimination
+  type: soft
 builds-toward:
 - major-mode-vs-minor-mode-discrimination
 - modulation-detection-by-ear
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Relative vs. Parallel Minor: Hearing the Difference
 
 ## Core Idea

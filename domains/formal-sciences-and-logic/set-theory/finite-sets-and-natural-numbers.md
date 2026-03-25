@@ -6,6 +6,8 @@ course: set-theory
 prerequisites:
 - id: cardinality-and-equinumerosity
   type: hard
+- id: hereditarily-finite-sets
+  type: soft
 builds-toward:
 - countably-infinite-sets
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Finite Sets and Natural Numbers
 
 ## Core Idea

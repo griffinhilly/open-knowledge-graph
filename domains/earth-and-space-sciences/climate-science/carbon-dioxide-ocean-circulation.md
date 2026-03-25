@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: solubility-equilibria
   type: soft
+- id: carbon-cycle-long-term
+  type: soft
 builds-toward:
 - marine-biological-pump
 - ocean-acidification
@@ -21,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Carbon Dioxide Solubility and Ocean Circulation
 
 ## Core Idea

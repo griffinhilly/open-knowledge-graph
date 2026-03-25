@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: graph-coloring
   type: hard
+- id: brooks-theorem
+  type: soft
+- id: list-coloring
+  type: soft
 tags:
 - graph-theory
 - planar-graphs
@@ -15,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Four Color Theorem
 
 ## Core Idea

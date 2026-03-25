@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: haloalkane-structure-nomenclature
   type: hard
+- id: sn1-sn2-reaction-selectivity-factors
+  type: soft
 builds-toward:
 - competing-substitution-and-elimination
 - carbocation-hydride-shift-methyl-shift-rearrangement
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # SN1 Mechanism, Kinetics, and Factors Affecting Reactivity
 
 ## Core Idea

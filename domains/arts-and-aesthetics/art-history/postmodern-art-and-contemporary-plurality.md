@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: postmodern-aesthetics-and-critique-of-grand-narratives
   type: soft
+- id: rococo-art-and-elegance
+  type: soft
 tags:
 - postmodernism
 - contemporary-art
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Postmodern Art and Contemporary Plurality
 
 ## Core Idea

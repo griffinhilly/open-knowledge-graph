@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: control-flow-graphs
   type: hard
+- id: loop-invariant-code-motion
+  type: soft
 builds-toward:
 - vectorization-and-simd
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Loop Unrolling
 
 ## Core Idea

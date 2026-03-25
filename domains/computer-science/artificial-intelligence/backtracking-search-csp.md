@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: depth-first-search
   type: soft
+- id: backtracking-constraint-satisfaction-problems
+  type: soft
 builds-toward:
 - constraint-propagation
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Backtracking Search for CSPs
 
 ## Core Idea

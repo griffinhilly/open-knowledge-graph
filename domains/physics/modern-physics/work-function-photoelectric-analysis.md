@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: photon-model
   type: hard
+- id: compton-scattering-analysis
+  type: soft
 builds-toward:
 - stopping-potential-kinetic-energy
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Work Function and Photoelectric Energy Analysis
 
 ## Core Idea

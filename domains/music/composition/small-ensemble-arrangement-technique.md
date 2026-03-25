@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: arranging-for-small-ensemble
   type: soft
+- id: arrangement-principles-basics
+  type: soft
+- id: ensemble-arrangement-principles
+  type: soft
+- id: arrangement-ensemble-voicing
+  type: soft
 tags:
 - arrangement
 - orchestration
@@ -16,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Small Ensemble Arrangement Technique
 
 ## Core Idea

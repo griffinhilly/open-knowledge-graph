@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: late-antiquity-medieval-transition
   type: hard
+- id: medieval-periodization-debates
+  type: soft
 builds-toward:
 - medieval-world-definition-periodization
 - feudalism
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Early Middle Ages Periodization and Transition
 
 ## Core Idea

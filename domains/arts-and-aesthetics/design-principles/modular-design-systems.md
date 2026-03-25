@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: grid-systems-and-layout
   type: soft
+- id: modular-scale-typography
+  type: soft
+- id: design-patterns-and-components
+  type: soft
 builds-toward:
 - ui-design-fundamentals
 tags:
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Modular Design Systems
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: periodization
   type: hard
+- id: postcolonial-research-methods
+  type: soft
 builds-toward:
 - deep-history-approach
 - big-history-universal
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # The Making and Debate of Historical Periods
 
 ## Core Idea

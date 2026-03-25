@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cauchy-sequences-and-completeness
   type: soft
+- id: sequences-convergence-topology
+  type: soft
 builds-toward:
 - completeness-metric-spaces-definition
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Cauchy Sequences in Metric Spaces
 
 ## Core Idea

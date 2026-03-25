@@ -6,6 +6,8 @@ course: numerical-analysis
 prerequisites:
 - id: stiff-equations
   type: hard
+- id: stiff-differential-equations
+  type: soft
 tags:
 - stability
 - a-stability
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Stability Regions and A-Stability
 
 ## Core Idea

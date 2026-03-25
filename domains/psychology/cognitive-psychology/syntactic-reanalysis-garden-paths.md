@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: sentence-comprehension-parsing
   type: hard
+- id: garden-path-sentences-parsing
+  type: soft
 builds-toward:
 - pragmatic-implicature-context
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Syntactic Reanalysis and Garden-Path Phenomena
 
 ## Core Idea

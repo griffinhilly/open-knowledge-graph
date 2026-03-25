@@ -6,6 +6,8 @@ course: thermodynamics
 prerequisites:
 - id: ideal-gas-law
   type: hard
+- id: boyles-charles-law-ideal-gas
+  type: soft
 tags:
 - gas-mixtures
 - partial-pressure
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Dalton's Law of Partial Pressures
 
 ## Core Idea

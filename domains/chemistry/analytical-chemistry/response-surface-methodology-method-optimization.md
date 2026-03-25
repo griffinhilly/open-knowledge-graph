@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: constrained-optimization-lagrange
   type: soft
+- id: optimization-of-analytical-method-parameters
+  type: soft
 builds-toward:
 - optimization-of-analytical-method-parameters
 - method-robustness-stability-assessment
@@ -23,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Response Surface Methodology for Method Optimization
 
 ## Core Idea

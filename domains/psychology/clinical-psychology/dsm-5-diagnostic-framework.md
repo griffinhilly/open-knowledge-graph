@@ -6,6 +6,8 @@ course: clinical-psychology
 prerequisites:
 - id: clinical-assessment-and-diagnosis
   type: hard
+- id: dsm5-classification-system
+  type: soft
 builds-toward:
 - generalized-anxiety-disorder
 - major-depressive-disorder
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # DSM-5 Diagnostic Framework
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: astronomy
 prerequisites:
 - id: parallax-and-distance-ladders
   type: soft
+- id: photometric-magnitude-systems
+  type: soft
 builds-toward:
 - star-clusters-age-dating
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Stellar Photometry, Colors, and Spectral Classification
 
 ## Core Idea

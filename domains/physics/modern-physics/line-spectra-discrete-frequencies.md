@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: emission-absorption-spectra
   type: soft
+- id: rydberg-constant-spectroscopic-formula
+  type: soft
 builds-toward:
 - atomic-spectroscopy-intro
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Line Spectra and Discrete Spectral Frequencies
 
 ## Core Idea

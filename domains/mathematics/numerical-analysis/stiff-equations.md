@@ -6,6 +6,8 @@ course: numerical-analysis
 prerequisites:
 - id: multistep-methods-adams
   type: hard
+- id: stiff-differential-equations
+  type: soft
 builds-toward:
 - stability-regions-ode
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Stiff Differential Equations
 
 ## Core Idea

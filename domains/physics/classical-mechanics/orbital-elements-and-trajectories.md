@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: conic-sections-ellipses
   type: hard
+- id: reduced-mass-problem
+  type: soft
+- id: phase-space-trajectories
+  type: soft
 builds-toward:
 - stability-of-circular-orbits
 tags:
@@ -20,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Orbital Elements and Trajectories
 
 ## Core Idea

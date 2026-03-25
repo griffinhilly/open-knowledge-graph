@@ -6,6 +6,8 @@ course: fluid-mechanics
 prerequisites:
 - id: static-and-dynamic-pressure
   type: hard
+- id: form-drag-pressure-drag-components
+  type: soft
 builds-toward:
 - pitot-tube-velocity-measurement
 - cavitation-pressure-vapor-dynamics
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Absolute, Gauge, and Atmospheric Pressure
 
 ## Core Idea

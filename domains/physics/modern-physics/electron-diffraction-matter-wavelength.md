@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: wave-particle-duality
   type: hard
+- id: stern-gerlach-spin-quantization
+  type: soft
 builds-toward:
 - davisson-germer-crystal-diffraction
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Electron Diffraction and Matter Wave Properties
 
 ## Core Idea

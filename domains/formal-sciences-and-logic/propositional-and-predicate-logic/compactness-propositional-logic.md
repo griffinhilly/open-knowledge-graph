@@ -6,6 +6,8 @@ course: propositional-and-predicate-logic
 prerequisites:
 - id: logical-consequence-and-entailment
   type: hard
+- id: compactness-theorem-applications
+  type: soft
 builds-toward:
 - propositional-compactness
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Compactness Theorem for Propositional Logic
 
 ## Core Idea

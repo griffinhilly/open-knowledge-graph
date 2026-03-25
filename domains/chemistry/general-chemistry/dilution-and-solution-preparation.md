@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: proportions
   type: hard
+- id: solution-stoichiometry-dilution
+  type: soft
 builds-toward:
 - colligative-properties-solutions
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Dilution Calculations and Solution Preparation
 
 ## Core Idea

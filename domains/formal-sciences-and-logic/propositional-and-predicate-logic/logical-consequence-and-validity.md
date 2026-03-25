@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: logical-implication-entailment
   type: soft
+- id: syntactic-versus-semantic-consequence
+  type: soft
 builds-toward:
 - fol-soundness-completeness
 - model-theory-basics
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Logical Consequence and Validity
 
 ## Core Idea

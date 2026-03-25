@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: measure-spaces-definition
   type: hard
+- id: introduction-lebesgue-integral
+  type: soft
 builds-toward:
 - lebesgue-integral-non-negative
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Lebesgue Integral for Simple Functions
 
 ## Core Idea

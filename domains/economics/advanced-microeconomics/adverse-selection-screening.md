@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: constrained-optimization-lagrange
   type: soft
+- id: screening-and-self-selection
+  type: soft
+- id: pooling-separating-equilibrium
+  type: soft
 builds-toward:
 - labor-market-signaling
 - insurance-markets-and-selection
@@ -21,7 +25,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Adverse Selection and Screening Mechanisms
 
 ## Core Idea

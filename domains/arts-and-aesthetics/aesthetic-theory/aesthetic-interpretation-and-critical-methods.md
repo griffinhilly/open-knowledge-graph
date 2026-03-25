@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: art-historical-methods
   type: hard
+- id: aesthetic-interpretation-and-criticism
+  type: soft
 tags:
 - interpretation
 - critical theory
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Aesthetic Interpretation and Critical Methods
 
 ## Core Idea

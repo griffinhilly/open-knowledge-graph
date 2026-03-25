@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: asset-pricing-macro
   type: soft
+- id: accelerator-principle-investment
+  type: soft
+- id: investment-and-capital-formation
+  type: soft
 builds-toward:
 - business-cycles
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Tobin's Q and Investment
 
 ## Core Idea

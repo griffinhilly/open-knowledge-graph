@@ -6,6 +6,8 @@ course: evolutionary-biology
 prerequisites:
 - id: dna-mutations
   type: hard
+- id: horizontal-gene-transfer
+  type: soft
 builds-toward:
 - genomic-reorganization
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Transposable Elements and Evolution
 
 ## Core Idea

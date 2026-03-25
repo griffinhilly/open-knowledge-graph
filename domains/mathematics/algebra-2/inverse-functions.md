@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: composition-of-functions
   type: soft
+- id: step-functions
+  type: soft
 builds-toward:
 - logarithms-intro
 - radical-functions-and-graphs

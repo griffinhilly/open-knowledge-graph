@@ -6,6 +6,8 @@ course: artificial-intelligence
 prerequisites:
 - id: neural-networks-intro
   type: hard
+- id: semi-supervised-learning
+  type: soft
 builds-toward:
 - contrastive-learning
 - transfer-learning-neural
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Self-Supervised Learning
 
 ## Core Idea

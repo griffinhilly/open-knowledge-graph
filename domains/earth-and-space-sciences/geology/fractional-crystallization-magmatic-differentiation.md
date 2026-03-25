@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: equilibrium-expression-kc-kp-constants
   type: soft
+- id: bowen-fractional-crystallization
+  type: soft
 builds-toward:
 - crustal-composition-differentiation
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Fractional Crystallization and Magmatic Differentiation
 
 ## Core Idea

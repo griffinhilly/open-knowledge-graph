@@ -6,6 +6,8 @@ course: clinical-psychology
 prerequisites:
 - id: substance-use-disorders-overview
   type: hard
+- id: alcohol-use-disorder
+  type: soft
 builds-toward:
 - psychopharmacology-clinical-applications
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Opioid Use Disorder
 
 ## Core Idea

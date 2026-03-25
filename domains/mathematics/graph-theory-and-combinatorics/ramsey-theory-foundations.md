@@ -6,6 +6,10 @@ course: graph-theory-and-combinatorics
 prerequisites:
 - id: graph-theory-intro
   type: soft
+- id: lovasz-local-lemma
+  type: soft
+- id: polya-enumeration-theorem
+  type: soft
 builds-toward:
 - ramsey-numbers
 tags:
@@ -14,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ramsey Theory Foundations
 
 ## Core Idea

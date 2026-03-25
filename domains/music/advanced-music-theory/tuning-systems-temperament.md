@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: rational-numbers-operations
   type: soft
+- id: graphic-notation-interpretation
+  type: soft
 tags:
 - tuning
 - temperament
@@ -24,7 +26,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Tuning Systems and Temperament
 
 ## Core Idea

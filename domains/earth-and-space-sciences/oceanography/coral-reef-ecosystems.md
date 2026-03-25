@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: coastal-processes-and-waves
   type: soft
+- id: coral-symbiosis-reef-ecosystem
+  type: soft
 tags:
 - coral reefs
 - zooxanthellae
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Coral Reef Ecosystems: Biology and Threats
 
 ## Core Idea

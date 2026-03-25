@@ -6,6 +6,8 @@ course: early-modern-period
 prerequisites:
 - id: enlightenment-origins
   type: soft
+- id: montesquieu-separation-governmental-powers
+  type: soft
 builds-toward:
 - enlightenment-natural-rights-theory
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Separation of Powers Doctrine
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: moment-tensor-inversion
   type: hard
+- id: earthquake-stress-inversion
+  type: soft
 builds-toward:
 - coulomb-stress-transfer-faults
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Stress Tensor Inversion from Focal Mechanisms
 
 ## Core Idea

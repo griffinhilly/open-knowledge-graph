@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: proportions
   type: soft
+- id: percent-yield-and-limiting-reagent-analysis
+  type: soft
 builds-toward:
 - thermochemistry-heat-and-energy
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Percent Yield and Reaction Efficiency
 
 ## Core Idea

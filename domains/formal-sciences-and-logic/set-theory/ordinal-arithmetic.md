@@ -6,6 +6,8 @@ course: set-theory
 prerequisites:
 - id: ordinal-numbers-and-order
   type: hard
+- id: ordinal-addition-multiplication
+  type: soft
 builds-toward:
 - aleph-numbers
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ordinal Arithmetic
 
 ## Core Idea

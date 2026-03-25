@@ -6,13 +6,14 @@ course: graph-theory-and-combinatorics
 prerequisites:
 - id: generating-functions-advanced
   type: soft
+- id: ramsey-numbers
+  type: soft
 tags:
 - combinatorics
 - sequences
 stage: formal-systems
 status: validated
 ---
-
 # Catalan Numbers and Recursive Structures
 
 ## Core Idea

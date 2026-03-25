@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: separating-mixtures-filtering-evaporating
   type: soft
+- id: cooking-as-chemical-change
+  type: soft
 builds-toward:
 - matter-classification-and-properties
 tags:

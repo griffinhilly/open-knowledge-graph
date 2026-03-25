@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: addition-subtraction-relationship
   type: hard
+- id: part-part-whole-model-1st
+  type: soft
 builds-toward:
 - addition-within-100
 - subtraction-within-100
@@ -18,7 +20,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Fact Family Relationships
 
 ## Core Idea

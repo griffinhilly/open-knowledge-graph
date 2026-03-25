@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: vector-subspaces
   type: hard
+- id: null-space
+  type: soft
 builds-toward:
 - rank-nullity-theorem
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Kernel, Image, and Rank of Linear Transformations
 
 ## Core Idea

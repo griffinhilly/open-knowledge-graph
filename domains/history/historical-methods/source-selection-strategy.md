@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: archival-research
   type: hard
+- id: source-contextualization
+  type: soft
+- id: formulating-historical-questions
+  type: soft
+- id: bias-recognition-and-adjustment
+  type: soft
 builds-toward:
 - historical-inference-logic
 tags:
@@ -18,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Source Selection and Sampling Strategy
 
 ## Core Idea

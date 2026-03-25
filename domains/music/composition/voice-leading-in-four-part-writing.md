@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: doubling-rules-root-fifth-third
   type: soft
+- id: secondary-harmony-functional
+  type: soft
 tags:
 - voice-leading
 - four-part
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Voice Leading in Four-Part Writing
 
 ## Core Idea

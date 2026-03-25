@@ -10,6 +10,14 @@ prerequisites:
   type: soft
 - id: relative-clauses
   type: soft
+- id: pronoun-ambiguity-resolution
+  type: soft
+- id: articles-a-an-the-usage
+  type: soft
+- id: parts-of-speech-overview
+  type: soft
+- id: prepositions-location-time-direction
+  type: soft
 tags:
 - ambiguity
 - clarity
@@ -17,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Syntactic Ambiguity and Structural Clarity
 
 ## Core Idea

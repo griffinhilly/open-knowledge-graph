@@ -6,6 +6,8 @@ course: music-history
 prerequisites:
 - id: romantic-historical-context
   type: hard
+- id: symphony-and-large-forms
+  type: soft
 builds-toward:
 - early-modernism-20th-century
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Romantic Orchestration and Large-Scale Forms
 
 ## Core Idea

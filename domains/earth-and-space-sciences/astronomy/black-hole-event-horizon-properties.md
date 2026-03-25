@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: special-relativity-postulates
   type: soft
+- id: black-hole-accretion
+  type: soft
 tags:
 - compact-objects
 - black-holes
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Black Holes and Event Horizons
 
 ## Core Idea

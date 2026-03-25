@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: boundary-layer-theory
   type: soft
+- id: entrance-length-developing-flow
+  type: soft
+- id: adverse-pressure-gradient-separation
+  type: soft
+- id: laminar-entrance-length-development
+  type: soft
 builds-toward:
 - laminar-pipe-flow-hagen-poiseuille
 - transition-to-turbulence-reynolds
@@ -18,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Entrance Region and Developing Flow in Pipes
 
 ## Core Idea

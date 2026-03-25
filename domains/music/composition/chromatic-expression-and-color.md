@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: non-chord-tones
   type: hard
+- id: chromatic-embellishment-composition
+  type: soft
 builds-toward:
 - extended-harmonic-techniques
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Chromatic Expression and Color
 
 ## Core Idea

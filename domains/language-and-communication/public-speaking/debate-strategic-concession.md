@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: debate-rebuttal-technique
   type: soft
+- id: argument-strategy-in-debate
+  type: soft
 builds-toward:
 - refutation-reconstruction-debate
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Strategic Concession in Debate
 
 ## Core Idea

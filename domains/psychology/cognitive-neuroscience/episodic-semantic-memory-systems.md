@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hippocampus-memory
   type: hard
+- id: hippocampal-encoding-binding
+  type: soft
 tags:
 - memory
 - systems
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Episodic and Semantic Memory Systems
 
 ## Core Idea

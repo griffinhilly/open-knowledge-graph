@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cadence-types-and-function
   type: hard
+- id: form-and-phrase-architecture
+  type: soft
 builds-toward:
 - form-and-structure-composition
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Phrase and Period Structure
 
 ## Core Idea

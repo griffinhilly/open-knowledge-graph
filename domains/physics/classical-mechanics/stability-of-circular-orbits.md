@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: circular-motion-dynamics
   type: hard
+- id: orbital-stability-mechanics
+  type: soft
+- id: vis-viva-equation
+  type: soft
 tags:
 - orbits
 - stability
@@ -16,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Stability of Circular Orbits
 
 ## Core Idea

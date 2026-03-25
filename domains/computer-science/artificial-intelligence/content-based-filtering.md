@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: feature-engineering-selection
   type: soft
-builds-toward:
-- hybrid-recommendation
 tags:
 - content-based
 - item-features

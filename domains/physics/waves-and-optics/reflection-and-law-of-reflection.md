@@ -6,6 +6,8 @@ course: waves-and-optics
 prerequisites:
 - id: wave-properties-and-classification
   type: hard
+- id: impedance-matching-and-reflection
+  type: soft
 builds-toward:
 - plane-mirrors
 - spherical-mirrors
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Reflection and the Law of Reflection
 
 ## Core Idea

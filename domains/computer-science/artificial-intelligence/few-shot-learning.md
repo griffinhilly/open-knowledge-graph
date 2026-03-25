@@ -6,9 +6,10 @@ course: artificial-intelligence
 prerequisites:
 - id: transfer-learning-neural
   type: hard
+- id: zero-shot-learning
+  type: soft
 builds-toward:
 - zero-shot-learning
-- prototypical-networks
 tags:
 - few-shot
 - low-data
@@ -16,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Few-Shot Learning
 
 ## Core Idea

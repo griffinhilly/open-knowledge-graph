@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: risk-adjusted-performance-measures
   type: hard
+- id: efficient-frontier-construction
+  type: soft
+- id: diversification-benefits-correlated
+  type: soft
 tags:
 - portfolio-theory
 - efficient-frontier
@@ -15,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Capital Market Line and Optimal Portfolios
 
 ## Core Idea

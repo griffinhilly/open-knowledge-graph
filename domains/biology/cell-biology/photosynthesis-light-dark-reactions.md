@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: oxidation-reduction-basics
   type: soft
+- id: chloroplast-photosynthesis-organelle
+  type: soft
 tags:
 - photosynthesis
 - light-reactions
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Photosynthesis: Light and Dark Reactions
 
 ## Core Idea

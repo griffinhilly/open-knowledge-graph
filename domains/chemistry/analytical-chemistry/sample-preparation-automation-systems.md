@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: quantitative-analysis-sample-preparation
   type: hard
+- id: automated-and-high-throughput-analysis
+  type: soft
 builds-toward:
 - high-throughput-analytical-screening
 - automated-and-high-throughput-analysis
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Sample Preparation Automation Systems
 
 ## Core Idea

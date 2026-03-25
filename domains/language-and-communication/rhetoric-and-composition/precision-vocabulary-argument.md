@@ -8,8 +8,12 @@ prerequisites:
   type: hard
 - id: concision-and-clarity
   type: soft
+- id: claim-hierarchy-emphasis
+  type: soft
+- id: counterargument-integration-writing
+  type: soft
 builds-toward:
-  - sentence-construction-emphasis
+- sentence-construction-emphasis
 tags:
 - diction
 - vocabulary

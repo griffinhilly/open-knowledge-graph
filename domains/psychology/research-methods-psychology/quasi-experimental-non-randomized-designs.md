@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: true-experimental-randomized-designs
   type: soft
+- id: quasi-experimental-designs-nonequivalent-groups
+  type: soft
 builds-toward:
 - internal-validity-confounds-and-control
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Quasi-Experimental Designs and Non-Randomized Comparisons
 
 ## Core Idea

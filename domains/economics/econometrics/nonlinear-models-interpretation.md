@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: maximum-likelihood-econometrics
   type: hard
+- id: polynomial-regression-econometrics
+  type: soft
 tags:
 - nonlinear
 - interpretation
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Interpretation and Marginal Effects in Nonlinear Models
 
 ## Core Idea

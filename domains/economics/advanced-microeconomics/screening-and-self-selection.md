@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mechanism-design-basics
   type: hard
+- id: incentive-compatibility-constraints
+  type: soft
 tags:
 - contract-theory
 - information-asymmetry
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Screening and Contract Menus
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: snells-law
   type: hard
+- id: seismic-ray-theory
+  type: soft
 builds-toward:
 - critical-refraction-and-head-waves
 - reflection-seismic-survey-design
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Seismic Ray Tracing and Wave Path Geometry
 
 ## Core Idea

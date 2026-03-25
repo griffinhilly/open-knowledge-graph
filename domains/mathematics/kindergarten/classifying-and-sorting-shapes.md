@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: rectangle-identification
   type: soft
+- id: sorting-by-single-attribute
+  type: soft
 builds-toward:
 - sorting-by-attributes
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Sorting and Classifying Shapes
 
 ## Core Idea

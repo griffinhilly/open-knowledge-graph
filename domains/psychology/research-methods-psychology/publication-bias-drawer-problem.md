@@ -6,6 +6,8 @@ course: research-methods-psychology
 prerequisites:
 - id: replication-and-open-science
   type: soft
+- id: experimenter-bias-and-expectancy-effects
+  type: soft
 tags:
 - bias
 - publication
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Publication Bias and the File Drawer Problem
 
 ## Core Idea

@@ -6,6 +6,10 @@ course: cognitive-psychology
 prerequisites:
 - id: problem-solving-strategies
   type: hard
+- id: constraint-satisfaction-problems-cognitive-psychology
+  type: soft
+- id: problem-search-forward-backward
+  type: soft
 tags:
 - problem-solving
 - insight
@@ -14,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Insight and Constraint Relaxation in Problem-Solving
 
 ## Core Idea

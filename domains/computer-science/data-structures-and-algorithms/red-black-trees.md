@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: tree-node-structure-properties
   type: soft
+- id: avl-tree-rotations-balancing
+  type: soft
 tags:
 - red-black-trees
 - self-balancing
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Red-Black Trees
 
 ## Core Idea

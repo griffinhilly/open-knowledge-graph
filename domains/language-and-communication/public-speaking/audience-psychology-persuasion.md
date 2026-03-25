@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: persuasive-speech-design
   type: hard
+- id: audience-cultural-values-persuasion
+  type: soft
 tags:
 - psychology
 - persuasion
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Audience Psychology in Persuasion
 
 ## Core Idea

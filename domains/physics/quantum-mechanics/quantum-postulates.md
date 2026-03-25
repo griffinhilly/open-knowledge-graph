@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: hilbert-space-formalism
   type: hard
+- id: interpretations-quantum-mechanics
+  type: soft
+- id: bell-theorem-inequalities
+  type: soft
 builds-toward:
 - born-rule-and-measurement
 - operators-and-observables
@@ -18,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Postulates of Quantum Mechanics
 
 ## Core Idea

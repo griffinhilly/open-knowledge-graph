@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: replication-strategies-analysis
   type: soft
+- id: strong-eventual-consistency
+  type: soft
 builds-toward:
 - merkle-trees-data-consistency
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Read Repair and Anti-Entropy Mechanisms
 
 ## Core Idea

@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: hindley-milner-type-system
   type: soft
+- id: subtyping-and-bounds
+  type: soft
+- id: overload-resolution-typing
+  type: soft
+- id: constraint-based-type-checking
+  type: soft
+- id: dependent-types-programming
+  type: soft
 builds-toward:
 - intermediate-code-representation
 tags:
@@ -17,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Polymorphism and Type Variables
 
 ## Core Idea

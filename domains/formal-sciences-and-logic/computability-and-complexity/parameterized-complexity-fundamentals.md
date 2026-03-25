@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: polynomial-time-reductions
   type: soft
+- id: fixed-parameter-tractability
+  type: soft
 builds-toward:
 - kolmogorov-complexity-properties
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Parameterized Complexity and Fixed-Parameter Tractability
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: godels-incompleteness-theorems
   type: soft
+- id: descriptive-set-theory-intro
+  type: soft
 tags:
 - independence
 - forcing
@@ -20,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Independence Results in Set Theory
 
 ## Core Idea

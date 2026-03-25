@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: logos-and-logical-reasoning
   type: hard
+- id: argument-from-definition
+  type: soft
 tags:
 - logic
 - argumentation
@@ -15,7 +17,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Fallacy Identification and Analysis
 
 ## Core Idea

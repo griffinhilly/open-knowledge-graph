@@ -6,6 +6,12 @@ course: microeconomics
 prerequisites:
 - id: adverse-selection
   type: hard
+- id: market-clearing-equilibrium-price
+  type: soft
+- id: perfect-competition-firm-and-industry
+  type: soft
+- id: long-run-equilibrium-zero-profit
+  type: soft
 tags:
 - information asymmetry
 - adverse selection
@@ -13,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Adverse Selection and Market Equilibrium
 
 ## Core Idea

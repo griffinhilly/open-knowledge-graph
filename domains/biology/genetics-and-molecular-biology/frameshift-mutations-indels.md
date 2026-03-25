@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dna-mutations
   type: hard
+- id: frameshift-insertions-deletions
+  type: soft
 builds-toward:
 - missense-nonsense-silent-mutation-effects
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Frameshift Mutations and Reading Frame Disruption
 
 ## Core Idea

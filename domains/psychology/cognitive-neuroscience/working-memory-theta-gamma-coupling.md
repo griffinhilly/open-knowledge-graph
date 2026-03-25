@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: working-memory-prefrontal-parietal-mechanisms
   type: hard
+- id: attention-switching-theta-oscillations
+  type: soft
 builds-toward:
 - neural-oscillations-neural-coding
 - prefrontal-parietal-communication-oscillations
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Working Memory and Theta-Gamma Coupling
 
 ## Core Idea

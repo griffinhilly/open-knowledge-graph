@@ -24,7 +24,6 @@ prerequisites:
   type: soft
 builds-toward:
 - mixture-models
-- latent-variable-models
 tags:
 - em
 - expectation-maximization

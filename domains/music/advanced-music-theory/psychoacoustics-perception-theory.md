@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: fourier-analysis-musical-signals
   type: soft
+- id: information-theory-music
+  type: soft
 tags:
 - perception
 - psychoacoustics
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Psychoacoustics and Perception Theory
 
 ## Core Idea

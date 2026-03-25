@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: pid-control
   type: hard
+- id: compensation-design-tradeoffs-cascadefeedback
+  type: soft
 tags:
 - cascade-control
 - feedforward-control
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Cascade and Feedforward Control
 
 ## Core Idea

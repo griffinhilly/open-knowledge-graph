@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: skip-counting-by-5s
   type: hard
+- id: counting-to-100-2nd-grade
+  type: soft
 builds-toward:
 - dollars-and-cents-notation
 - making-change-simple
@@ -23,7 +25,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Counting Collections of Coins and Bills
 
 ## Core Idea

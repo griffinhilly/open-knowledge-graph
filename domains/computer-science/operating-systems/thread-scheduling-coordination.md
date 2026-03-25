@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: process-model-formalization
   type: hard
+- id: priority-scheduling-inversion
+  type: soft
+- id: scheduling-fairness-and-starvation
+  type: soft
 builds-toward:
 - critical-section-problem-formalization
 - semaphores
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Thread Scheduling and Coordination
 
 ## Core Idea

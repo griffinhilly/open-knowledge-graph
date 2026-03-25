@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mantle-convection-and-dynamics
   type: hard
+- id: mantle-adiabat-temperature
+  type: soft
 builds-toward:
 - subduction-zone-thermal-structure
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Mantle Rheology and Viscosity
 
 ## Core Idea

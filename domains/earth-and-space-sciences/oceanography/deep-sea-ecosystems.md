@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: seafloor-spreading-mid-ocean-ridges
   type: soft
+- id: bioluminescence-deep-sea
+  type: soft
 tags:
 - deep sea
 - hydrothermal vents
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Deep-Sea Ecosystems: Benthic and Hydrothermal
 
 ## Core Idea

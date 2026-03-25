@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cultural-context-and-musical-change
   type: hard
+- id: historiography-and-canon-formation
+  type: soft
 tags:
 - gender
 - women-composers
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Gender and Representation in Music History
 
 ## Core Idea

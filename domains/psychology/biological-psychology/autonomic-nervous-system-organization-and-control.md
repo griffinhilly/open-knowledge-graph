@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: autonomic-sympathetic-parasympathetic
   type: soft
+- id: sympathetic-parasympathetic-balance
+  type: soft
 builds-toward:
 - hypothalamic-pituitary-endocrine-axis
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Autonomic Nervous System Organization and Control
 
 ## Core Idea

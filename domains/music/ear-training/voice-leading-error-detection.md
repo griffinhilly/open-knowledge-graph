@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: interval-recognition-by-ear
   type: hard
+- id: accidental-detection-in-performance
+  type: soft
+- id: voice-leading-direction-ear
+  type: soft
 builds-toward:
 - four-part-writing
 - contrapuntal-composition
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Voice Leading Error Detection by Ear
 
 ## Core Idea

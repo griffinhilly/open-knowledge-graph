@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: information-asymmetry
   type: soft
+- id: agricultural-credit-markets
+  type: soft
 tags:
 - credit constraints
 - lending
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Credit Constraints and Development
 
 ## Core Idea

@@ -6,6 +6,12 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: banach-spaces-definition
   type: hard
+- id: closed-graph-theorem
+  type: soft
+- id: hahn-banach-theorem
+  type: soft
+- id: uniform-boundedness-principle
+  type: soft
 builds-toward:
 - closed-graph-theorem
 tags:
@@ -13,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Open Mapping Theorem
 
 ## Core Idea

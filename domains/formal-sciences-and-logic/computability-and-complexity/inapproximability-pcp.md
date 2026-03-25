@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: np-completeness-formal
   type: hard
+- id: approximation-hardness-results
+  type: soft
 tags:
 - approximation
 - hardness
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Inapproximability and the PCP Theorem
 
 ## Core Idea

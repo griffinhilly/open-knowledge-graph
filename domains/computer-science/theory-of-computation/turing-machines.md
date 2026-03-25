@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: formal-logic-propositions
   type: soft
+- id: theory-of-computation-overview
+  type: soft
 builds-toward:
 - turing-machine-variants
 - church-turing-thesis

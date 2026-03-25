@@ -6,6 +6,8 @@ course: fluid-mechanics
 prerequisites:
 - id: absolute-gauge-atmospheric-pressure
   type: hard
+- id: cavitation-sigma-number-prediction
+  type: soft
 tags:
 - cavitation
 - vapor
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Cavitation and Vapor Pressure Dynamics
 
 ## Core Idea

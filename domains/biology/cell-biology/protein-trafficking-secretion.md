@@ -6,6 +6,8 @@ course: cell-biology
 prerequisites:
 - id: protein-targeting-and-subcellular-localization
   type: hard
+- id: endocytosis-clathrin-mediated-pathway
+  type: soft
 tags:
 - protein-trafficking
 - secretion
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Protein Trafficking and Secretory Pathways
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: biochemistry
 prerequisites:
 - id: organic-chemistry-intro
   type: hard
+- id: nucleotide-salvage-pathways
+  type: soft
 builds-toward:
 - dna-replication-machinery
 - transcription-initiation-and-regulation
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Nucleotide Synthesis Pathways (De Novo and Salvage)
 
 ## Core Idea

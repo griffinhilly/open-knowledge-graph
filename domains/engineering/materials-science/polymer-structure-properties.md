@@ -6,6 +6,8 @@ course: materials-science
 prerequisites:
 - id: functional-groups-overview
   type: hard
+- id: polymer-mechanical-properties
+  type: soft
 tags:
 - polymers
 - molecular-structure
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Polymer Structure, Properties, and Processing
 
 ## Core Idea

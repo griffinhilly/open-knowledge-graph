@@ -8,8 +8,14 @@ prerequisites:
   type: hard
 - id: natural-transformations
   type: hard
+- id: braided-monoidal-categories
+  type: soft
+- id: closed-monoidal-categories
+  type: soft
+- id: tensor-products-categories
+  type: soft
 builds-toward:
-  - compact-closed-categories
+- compact-closed-categories
 tags:
 - symmetric
 - monoidal

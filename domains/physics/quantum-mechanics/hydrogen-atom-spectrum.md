@@ -6,6 +6,8 @@ course: quantum-mechanics
 prerequisites:
 - id: hydrogen-atom-quantum
   type: hard
+- id: transition-probabilities-quantum
+  type: soft
 builds-toward:
 - fine-structure-splitting
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Hydrogen Atom Spectral Series
 
 ## Core Idea

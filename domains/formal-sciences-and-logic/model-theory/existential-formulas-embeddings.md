@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: model-interpretation-and-satisfaction
   type: hard
+- id: universal-formulas-substructures
+  type: soft
 builds-toward:
 - model-completeness-theorems
 - definable-algebraic-closure
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Existential Formulas and Preservation under Embeddings
 
 ## Core Idea

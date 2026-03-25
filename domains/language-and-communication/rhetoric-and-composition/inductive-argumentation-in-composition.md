@@ -6,6 +6,12 @@ course: rhetoric-and-composition
 prerequisites:
 - id: inductive-and-deductive-reasoning
   type: hard
+- id: argument-from-definition
+  type: soft
+- id: argument-from-example
+  type: soft
+- id: fallacy-identification-and-analysis
+  type: soft
 tags:
 - argumentation
 - reasoning
@@ -13,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Inductive Argumentation in Composition
 
 ## Core Idea

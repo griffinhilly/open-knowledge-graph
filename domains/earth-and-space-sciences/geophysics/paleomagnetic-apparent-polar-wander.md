@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: magnetic-anomaly-interpretation-and-processing
   type: soft
+- id: magnetostratigraphy-dating
+  type: soft
 builds-toward:
 - paleomagnetic-poles-and-plate-reconstruction
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Paleomagnetic Poles and Apparent Polar Wander
 
 ## Core Idea

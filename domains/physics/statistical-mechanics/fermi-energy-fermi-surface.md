@@ -6,6 +6,8 @@ course: statistical-mechanics
 prerequisites:
 - id: ideal-fermi-gas-t-equals-zero
   type: hard
+- id: density-of-states-fermi-gas
+  type: soft
 builds-toward:
 - fermi-gas-finite-temperature
 - band-theory-intro
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Fermi Energy and Fermi Surface
 
 ## Core Idea

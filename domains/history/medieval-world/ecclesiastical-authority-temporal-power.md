@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: medieval-christendom-unity-concept
   type: soft
+- id: women-agency-medieval-society
+  type: soft
 builds-toward:
 - heresy-medieval-religious-dissent
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Church Authority in Temporal Affairs
 
 ## Core Idea

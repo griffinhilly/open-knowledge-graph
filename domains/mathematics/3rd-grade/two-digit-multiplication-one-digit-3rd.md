@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: area-as-multiplication-3rd
   type: soft
+- id: two-digit-by-one-digit-division
+  type: soft
 builds-toward:
 - two-digit-by-one-digit-multiplication
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Multiplying Two-Digit by One-Digit Numbers
 
 ## Core Idea

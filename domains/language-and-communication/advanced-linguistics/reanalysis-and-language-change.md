@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: movement-and-transformations
   type: soft
+- id: parsing-reanalysis-recovery
+  type: soft
+- id: garden-path-reanalysis-recovery
+  type: soft
 tags:
 - historical
 - language-change
@@ -15,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Reanalysis and Language Change
 
 ## Core Idea

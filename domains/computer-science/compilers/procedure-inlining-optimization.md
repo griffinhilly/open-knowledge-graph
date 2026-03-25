@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: control-flow-graphs
   type: hard
+- id: peephole-optimization
+  type: soft
 builds-toward:
 - instruction-selection-techniques
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Procedure Inlining Optimization
 
 ## Core Idea

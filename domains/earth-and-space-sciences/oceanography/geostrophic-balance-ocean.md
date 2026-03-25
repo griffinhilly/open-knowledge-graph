@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: pressure-gradient-force
   type: soft
+- id: deep-ocean-abyssal-currents
+  type: soft
 builds-toward:
 - ekman-boundary-layer-transport
 - mesoscale-eddy-dynamics
@@ -26,7 +28,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Geostrophic Balance in Ocean Currents
 
 ## Core Idea

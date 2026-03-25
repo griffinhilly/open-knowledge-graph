@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: adaptive-filtering-lms
   type: soft
+- id: rls-adaptive-filtering
+  type: soft
 tags:
 - system-identification
 - least-squares
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # System Identification Using Least-Squares Methods
 
 ## Core Idea

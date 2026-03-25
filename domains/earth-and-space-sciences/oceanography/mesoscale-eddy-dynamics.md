@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ocean-gyres-and-boundary-currents
   type: hard
+- id: deep-ocean-abyssal-currents
+  type: soft
 builds-toward:
 - ocean-heat-transport-mechanism
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Mesoscale Eddy Dynamics and Circular Ocean Currents
 
 ## Core Idea

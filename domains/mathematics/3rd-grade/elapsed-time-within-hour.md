@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: telling-time-5-minute-intervals-2nd
   type: hard
+- id: elapsed-time-multiple-hours-3rd
+  type: soft
+- id: elapsed-time-calculation-3rd
+  type: soft
 builds-toward:
 - elapsed-time
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Elapsed Time Within an Hour
 
 ## Core Idea

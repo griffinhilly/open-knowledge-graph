@@ -6,6 +6,8 @@ course: ancient-civilizations
 prerequisites:
 - id: greek-symposium-intellectual-gathering
   type: soft
+- id: greek-rational-philosophy-inquiry
+  type: soft
 builds-toward:
 - aristotle-logic-natural-science
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Socratic Method and Philosophical Inquiry
 
 ## Core Idea

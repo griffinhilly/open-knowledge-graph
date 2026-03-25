@@ -6,6 +6,8 @@ course: statics-and-dynamics
 prerequisites:
 - id: rigid-body-equilibrium-planar
   type: hard
+- id: constraint-forces-and-reactions
+  type: soft
 builds-toward:
 - truss-joint-and-section-methods
 - frame-and-machine-components
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Statically Determinate Systems Analysis
 
 ## Core Idea

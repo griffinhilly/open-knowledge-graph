@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: number-line-0-to-20
   type: soft
+- id: addition-strategies-counting-on
+  type: soft
+- id: making-ten-strategy-1st
+  type: soft
 builds-toward:
 - mental-math-add-subtract-tens
 - subtraction-fact-families
@@ -18,7 +22,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Subtraction Strategy: Counting Back
 
 ## Core Idea

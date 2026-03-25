@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: control-flow-graphs
   type: hard
+- id: alias-analysis
+  type: soft
 builds-toward:
 - alias-analysis
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Escape Analysis for Allocation Optimization
 
 ## Core Idea

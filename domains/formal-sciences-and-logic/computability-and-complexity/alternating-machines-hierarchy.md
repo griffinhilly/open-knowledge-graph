@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: pspace-completeness
   type: soft
+- id: alternation-in-turing-machines
+  type: soft
+- id: polynomial-hierarchy-levels
+  type: soft
+- id: alternating-turing-machines-computability-and-complexity
+  type: soft
+- id: polynomial-hierarchy-computability-and-complexity
+  type: soft
 builds-toward:
 - counting-complexity-sharp-p
 tags:
@@ -17,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Alternating Turing Machines and the Polynomial Hierarchy
 
 ## Core Idea

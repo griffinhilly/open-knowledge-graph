@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cournot-competition
   type: soft
+- id: cartel-and-collusion
+  type: soft
 builds-toward:
 - product-differentiation
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Bertrand Competition: Price Competition in Oligopoly
 
 ## Core Idea

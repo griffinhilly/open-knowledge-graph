@@ -6,6 +6,8 @@ course: astronomy
 prerequisites:
 - id: stellar-interior-structure-hydrostatic-equilibrium
   type: hard
+- id: main-sequence-lifetime-mass-luminosity-relation
+  type: soft
 builds-toward:
 - post-main-sequence-evolution-pathways
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Core Hydrogen Burning and the Main Sequence
 
 ## Core Idea

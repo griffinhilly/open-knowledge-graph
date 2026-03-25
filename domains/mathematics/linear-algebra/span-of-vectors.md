@@ -6,6 +6,8 @@ course: linear-algebra
 prerequisites:
 - id: vector-spaces
   type: hard
+- id: span-and-basis
+  type: soft
 builds-toward:
 - basis-and-dimension
 - column-space
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Span and Linear Combinations
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: diatonic-chord-quality-ear
   type: soft
+- id: root-movement-recognition-ear
+  type: soft
 builds-toward:
 - secondary-dominants-ear
 - cadence-function-ear
@@ -24,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Harmonic Function and Root Movement by Ear
 
 ## Core Idea

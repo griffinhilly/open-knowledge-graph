@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: binary-stars-and-stellar-systems
   type: soft
+- id: black-hole-event-horizon-properties
+  type: soft
+- id: white-dwarf-remnants
+  type: soft
 builds-toward:
 - active-galactic-nuclei
 - hubble-law-and-cosmic-expansion

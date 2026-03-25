@@ -6,6 +6,8 @@ course: genetics-and-molecular-biology
 prerequisites:
 - id: translation-elongation-elongation-factors
   type: hard
+- id: translation-elongation-and-termination
+  type: soft
 builds-toward:
 - post-translational-modifications
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Translation Termination and Release Factors
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: parallel-axis-theorem-statics
   type: hard
+- id: principal-axes-and-rotation
+  type: soft
 builds-toward:
 - rotation-about-arbitrary-axis
 - euler-equations-rigid-body-rotation
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Principal Moments of Inertia and Principal Axes
 
 ## Core Idea

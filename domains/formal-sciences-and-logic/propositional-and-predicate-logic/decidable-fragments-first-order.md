@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: first-order-logic-syntax
   type: soft
+- id: variable-substitution-capture-avoidance
+  type: soft
+- id: quantifier-instantiation-rules
+  type: soft
+- id: resolution-fol
+  type: soft
+- id: semantic-tableaux-fol
+  type: soft
 tags:
 - first-order-logic
 - decidability
@@ -15,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Decidable Fragments of First-Order Logic
 
 ## Core Idea

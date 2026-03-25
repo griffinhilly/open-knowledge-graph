@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dijkstras-algorithm
   type: hard
+- id: monte-carlo-tree-search
+  type: soft
 tags:
 - search
 - graphs
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # A* Search Algorithm
 
 ## Core Idea

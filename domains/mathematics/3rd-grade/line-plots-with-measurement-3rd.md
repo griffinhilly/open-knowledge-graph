@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: line-plots-measurement-data
   type: hard
+- id: line-plots-data-3rd
+  type: soft
 builds-toward:
 - line-plot-creation-interpretation
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Creating and Interpreting Line Plots
 
 ## Core Idea

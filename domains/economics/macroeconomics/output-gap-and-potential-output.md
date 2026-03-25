@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: steady-state-growth-path
   type: hard
+- id: output-gap-macroeconomic
+  type: soft
 builds-toward:
 - trend-and-cycle-decomposition
 - phillips-curve-new-keynesian
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # The Output Gap and Potential Output
 
 ## Core Idea

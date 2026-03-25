@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: multiplying-mixed-numbers
   type: soft
+- id: dividing-decimals
+  type: soft
 builds-toward:
 - mixed-number-arithmetic
 tags:

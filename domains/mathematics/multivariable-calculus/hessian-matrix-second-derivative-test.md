@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: higher-order-partials
   type: hard
+- id: second-partials-test-extrema
+  type: soft
 builds-toward:
 - unconstrained-optimization
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Hessian Matrix and Second Derivative Test
 
 ## Core Idea

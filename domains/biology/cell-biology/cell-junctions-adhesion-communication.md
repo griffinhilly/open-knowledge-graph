@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cytoskeleton-cellular-framework
   type: hard
+- id: gap-junctions-communication
+  type: soft
 tags:
 - junction
 - adhesion
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Cell Junctions: Adhesion and Communication
 
 ## Core Idea

@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: relative-major-minor
   type: hard
+- id: parallel-major-minor-comparison
+  type: soft
+- id: diatonic-modes-introduction
+  type: soft
 builds-toward:
 - diatonic-chord-construction
 tags:
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Parallel and Relative Major-Minor Relationships
 
 ## Core Idea

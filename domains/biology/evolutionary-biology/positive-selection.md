@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: molecular-evolution
   type: soft
+- id: directional-stabilizing-selection
+  type: soft
 builds-toward:
 - adaptive-radiation
 - molecular-evolution-rates
@@ -21,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Positive (Directional) Selection on Beneficial Mutations
 
 ## Core Idea

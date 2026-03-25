@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: digital-history-theory
   type: soft
+- id: computational-history-methods
+  type: soft
 builds-toward:
 - digital-history-tools
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Quantitative and Digital History: Theory and Practice
 
 ## Core Idea

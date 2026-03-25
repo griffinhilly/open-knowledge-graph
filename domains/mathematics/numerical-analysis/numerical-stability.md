@@ -6,6 +6,8 @@ course: numerical-analysis
 prerequisites:
 - id: catastrophic-cancellation
   type: hard
+- id: stability-regions-ode
+  type: soft
 builds-toward:
 - condition-number
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Numerical Stability and Conditioning
 
 ## Core Idea

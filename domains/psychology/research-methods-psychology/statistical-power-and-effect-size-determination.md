@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: standard-normal-z-scores-theory
   type: hard
+- id: sample-size-determination-practical-application
+  type: soft
+- id: effect-size-reporting-interpretation
+  type: soft
 builds-toward:
 - statistical-inference-significance-testing
 tags:
@@ -24,7 +28,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Statistical Power, Effect Size, and Sample Size Planning
 
 ## Core Idea

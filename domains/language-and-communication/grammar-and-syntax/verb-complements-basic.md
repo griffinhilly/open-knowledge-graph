@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: transitive-and-intransitive-verbs
   type: hard
+- id: object-types-direct-and-indirect
+  type: soft
 builds-toward:
 - gerunds-and-infinitives
 - complex-sentence-construction
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Verb Complements and Completers
 
 ## Core Idea

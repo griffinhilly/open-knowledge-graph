@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: sentence-parsing-garden-paths
   type: soft
+- id: computational-parsing-algorithms
+  type: soft
 tags:
 - parsing
 - preferences
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Parsing Preferences and Computational Complexity
 
 ## Core Idea

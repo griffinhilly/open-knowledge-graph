@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: attention-networks-brain
   type: soft
+- id: prefrontal-parietal-attention-networks
+  type: soft
 builds-toward:
 - working-memory-prefrontal-circuits
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Executive Control Networks and the Prefrontal Cortex
 
 ## Core Idea

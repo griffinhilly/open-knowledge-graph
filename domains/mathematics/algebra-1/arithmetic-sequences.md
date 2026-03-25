@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: function-tables
   type: soft
+- id: arithmetic-patterns-sequences-3rd
+  type: soft
 builds-toward:
 - geometric-sequences
 - arithmetic-sequences-and-series

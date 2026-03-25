@@ -10,8 +10,10 @@ prerequisites:
   type: hard
 - id: ice-core-paleoclimate-analysis
   type: soft
+- id: dansgaard-oeschger-oscillations
+  type: soft
 builds-toward:
-  - climate-tipping-points
+- climate-tipping-points
 tags:
 - abrupt-change
 - paleoclimate

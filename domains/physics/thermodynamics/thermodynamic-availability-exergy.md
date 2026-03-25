@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: gibbs-free-energy
   type: soft
+- id: clausius-inequality
+  type: soft
+- id: diesel-cycle-compression-ignition-thermodynamics
+  type: soft
 tags:
 - second-law
 - useful-work
@@ -15,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Thermodynamic Availability and Exergy
 
 ## Core Idea

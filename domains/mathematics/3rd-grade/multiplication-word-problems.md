@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: two-step-word-problems
   type: soft
+- id: multi-step-word-problems-mixed-operations-3rd
+  type: soft
 builds-toward:
 - division-word-problems
 - multi-step-word-problems-3rd
@@ -21,7 +23,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Multiplication Word Problems
 
 ## Core Idea

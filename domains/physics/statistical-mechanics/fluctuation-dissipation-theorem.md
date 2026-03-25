@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: canonical-ensemble
   type: hard
+- id: non-equilibrium-basics-statmech
+  type: soft
 builds-toward:
 - linear-response-theory
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Fluctuation-Dissipation Theorem
 
 ## Core Idea

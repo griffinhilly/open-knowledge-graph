@@ -6,6 +6,8 @@ course: ancient-civilizations
 prerequisites:
 - id: shang-dynasty-oracle-bones
   type: hard
+- id: taoism-ancient-philosophy
+  type: soft
 builds-toward:
 - confucianism-ancient-philosophy
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Zhou Dynasty and the Mandate of Heaven
 
 ## Core Idea

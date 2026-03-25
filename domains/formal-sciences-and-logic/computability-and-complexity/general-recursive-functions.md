@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: functions-and-function-properties
   type: hard
+- id: ackermann-function
+  type: soft
 builds-toward:
 - church-turing-thesis-formal
 tags:

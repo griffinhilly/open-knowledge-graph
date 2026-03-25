@@ -12,6 +12,12 @@ prerequisites:
   type: hard
 - id: precipitation-titration
   type: hard
+- id: quantitative-analysis-by-spectrophotometry
+  type: soft
+- id: gravimetric-analysis-advanced
+  type: soft
+- id: electroanalytical-overview
+  type: soft
 tags:
 - titrations
 - volumetric
@@ -19,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Titrimetric Analysis Methods Overview
 
 ## Core Idea

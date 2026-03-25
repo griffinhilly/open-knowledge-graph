@@ -6,6 +6,8 @@ course: thermodynamics
 prerequisites:
 - id: gibbs-free-energy
   type: hard
+- id: virial-equation-and-intermolecular-forces
+  type: soft
 builds-toward:
 - phase-equilibrium-coexistence
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Surface Tension and Capillarity
 
 ## Core Idea

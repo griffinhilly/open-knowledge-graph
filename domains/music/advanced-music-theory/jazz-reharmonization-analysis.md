@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: jazz-harmony-basics
   type: hard
+- id: jazz-rhythm-section-analysis
+  type: soft
 builds-toward:
 - jazz-rhythm-section-analysis
 - neo-riemannian-extended-systems
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Jazz Reharmonization and Analysis
 
 ## Core Idea

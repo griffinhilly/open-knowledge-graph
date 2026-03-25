@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: interval-quality
   type: soft
+- id: major-scale-ear-training
+  type: soft
 builds-toward:
 - minor-scales
 - key-signatures

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dopamine-system
   type: soft
+- id: schizophrenia-positive-negative-symptoms
+  type: soft
 builds-toward:
 - first-episode-psychosis
 - antipsychotic-medications
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Schizophrenia Spectrum Disorders
 
 ## Core Idea

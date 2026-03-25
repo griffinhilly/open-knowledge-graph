@@ -6,6 +6,8 @@ course: evolutionary-biology
 prerequisites:
 - id: inclusive-fitness
   type: hard
+- id: kin-selection-hamilton
+  type: soft
 builds-toward:
 - altruism-evolution
 - cooperation-evolution
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Hamilton's Rule
 
 ## Core Idea

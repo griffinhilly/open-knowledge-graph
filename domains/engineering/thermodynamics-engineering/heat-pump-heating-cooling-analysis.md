@@ -6,6 +6,8 @@ course: thermodynamics-engineering
 prerequisites:
 - id: vapor-compression-refrigeration-cycle
   type: hard
+- id: joule-thomson-coefficient-calculations
+  type: soft
 tags:
 - heat-pump
 - heating
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Heat Pump Systems for Heating and Cooling
 
 ## Core Idea

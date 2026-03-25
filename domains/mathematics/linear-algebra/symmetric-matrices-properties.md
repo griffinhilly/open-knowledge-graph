@@ -6,6 +6,8 @@ course: linear-algebra
 prerequisites:
 - id: diagonalization-similar-matrices
   type: hard
+- id: spectral-theorem
+  type: soft
 builds-toward:
 - positive-definite-matrices
 - spectral-theorem-symmetric
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Symmetric Matrices and the Spectral Theorem
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: boolean-algebra
   type: soft
+- id: resolution-fol
+  type: soft
 builds-toward:
 - resolution-fol
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Propositional Resolution
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: brittle-vs-ductile-fracture
   type: soft
+- id: fracture-mechanics-analysis
+  type: soft
+- id: fracture-mechanics-concepts
+  type: soft
 builds-toward:
 - fracture-mechanics
 - fatigue-crack-propagation-and-growth
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Stress Intensity Factor and Fracture Mechanics
 
 ## Core Idea

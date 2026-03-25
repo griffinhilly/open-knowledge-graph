@@ -4,24 +4,29 @@ title: Introduction to Mathematical Induction
 domain: formal-sciences-and-logic
 course: reasoning-and-proof
 prerequisites:
-  - id: direct-proof-introduction
-    type: hard
-  - id: deductive-vs-inductive-reasoning
-    type: hard
-  - id: conjectures-and-testing
-    type: soft
-  - id: number-patterns-logic
-    type: soft
+- id: direct-proof-introduction
+  type: hard
+- id: deductive-vs-inductive-reasoning
+  type: hard
+- id: conjectures-and-testing
+  type: soft
+- id: number-patterns-logic
+  type: soft
+- id: pigeonhole-principle-introduction
+  type: soft
 builds-toward:
-  - when-is-something-proven
-  - mathematical-induction-intro
-  - mathematical-induction
-  - weak-induction
-tags: [induction, proof, natural-numbers, recursion]
+- when-is-something-proven
+- mathematical-induction-intro
+- mathematical-induction
+- weak-induction
+tags:
+- induction
+- proof
+- natural-numbers
+- recursion
 stage: abstract-reasoning
 status: validated
 ---
-
 # Introduction to Mathematical Induction
 
 ## Core Idea

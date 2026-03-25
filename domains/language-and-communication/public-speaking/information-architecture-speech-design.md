@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: organizational-patterns-speeches
   type: soft
+- id: comparative-speech-structure
+  type: soft
 builds-toward:
 - speech-structure-and-organization
 - organizational-patterns-speeches
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Information Architecture in Speech Design
 
 ## Core Idea

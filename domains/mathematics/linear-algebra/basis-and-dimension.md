@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: span-of-vectors
   type: hard
+- id: span-and-basis
+  type: soft
 builds-toward:
 - rank-and-nullity-theorem
 - change-of-basis
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Basis and Dimension
 
 ## Core Idea

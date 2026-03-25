@@ -6,6 +6,8 @@ course: public-speaking
 prerequisites:
 - id: speech-critique-and-feedback
   type: hard
+- id: speech-anxiety-physical-techniques
+  type: soft
 tags:
 - rehearsal
 - practice
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Speech Rehearsal Techniques
 
 ## Core Idea

@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: production-function-microeconomics
   type: soft
+- id: green-revolution-agricultural-productivity
+  type: soft
+- id: health-and-economic-development
+  type: soft
+- id: agricultural-extension-and-information
+  type: soft
 builds-toward:
 - agricultural-credit-markets
 - green-growth-development
@@ -17,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Agricultural Productivity and Development
 
 ## Core Idea

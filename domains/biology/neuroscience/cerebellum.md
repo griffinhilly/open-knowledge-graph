@@ -8,13 +8,14 @@ prerequisites:
   type: hard
 - id: motor-cortex
   type: soft
+- id: basal-ganglia
+  type: soft
 tags:
 - motor-systems
 - learning
 stage: expert
 status: validated
 ---
-
 # Cerebellum: Motor Coordination and Learning
 
 ## Core Idea

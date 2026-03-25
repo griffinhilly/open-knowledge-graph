@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: power-and-work-rate
   type: soft
+- id: amplitude-intensity-and-energy
+  type: soft
 builds-toward:
 - sound-level-logarithmic-scale
 - wave-energy-and-intensity
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Energy Transport and Wave Intensity
 
 ## Core Idea

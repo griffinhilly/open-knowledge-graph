@@ -6,6 +6,8 @@ course: design-principles
 prerequisites:
 - id: design-principles-course-overview
   type: soft
+- id: balance-and-visual-equilibrium
+  type: soft
 builds-toward:
 - visual-weight-and-balance-perception
 - proportion-and-scale-relationships
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Balance, Symmetry, and Asymmetry
 
 ## Core Idea

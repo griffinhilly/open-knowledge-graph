@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: sampling-in-psychology
   type: soft
+- id: longitudinal-design-methods
+  type: soft
 builds-toward:
 - mediation-analysis-indirect-effects
 - exploratory-vs-confirmatory-analysis-strategies
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Longitudinal Designs and Study of Temporal Change Patterns
 
 ## Core Idea

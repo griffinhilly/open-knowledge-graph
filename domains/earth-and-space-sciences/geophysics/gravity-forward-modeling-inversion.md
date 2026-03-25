@@ -12,6 +12,14 @@ prerequisites:
   type: soft
 - id: calculus
   type: soft
+- id: pratt-isostasy-model
+  type: soft
+- id: crustal-thickness-determination-gravity
+  type: soft
+- id: seismic-velocity-density-relationships
+  type: soft
+- id: synthetic-seismogram-modeling
+  type: soft
 tags:
 - gravity
 - modeling
@@ -20,7 +28,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Gravity Forward Modeling and Density Inversion
 
 ## Core Idea

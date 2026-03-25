@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: atmospheric-stability-convection
   type: soft
+- id: lifted-index-stability
+  type: soft
 builds-toward:
 - thermodynamic-diagram-analysis
 - severe-weather-systems
@@ -23,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Convective Instability Indices and Stability Analysis
 
 ## Core Idea

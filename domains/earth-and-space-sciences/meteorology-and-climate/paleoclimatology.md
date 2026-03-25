@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: ocean-atmosphere-interactions
   type: soft
+- id: climate-classification-systems-koppen
+  type: soft
 builds-toward:
 - climate-change-science
 tags:

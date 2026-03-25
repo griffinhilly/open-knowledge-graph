@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: species-counterpoint
   type: soft
+- id: voice-independence-and-counterpoint
+  type: soft
 builds-toward:
 - two-part-invention-technique
 - canonic-writing-technique
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Imitative Counterpoint in Composition
 
 ## Core Idea

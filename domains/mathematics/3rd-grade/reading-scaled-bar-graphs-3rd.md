@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: collecting-and-organizing-data-3rd
   type: soft
+- id: scaled-graphs-reading
+  type: soft
 builds-toward:
 - data-analysis-and-interpretation
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Reading and Creating Scaled Bar Graphs
 
 ## Core Idea

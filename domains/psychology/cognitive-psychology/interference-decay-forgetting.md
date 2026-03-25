@@ -6,6 +6,8 @@ course: cognitive-psychology
 prerequisites:
 - id: memory-encoding-strategies
   type: hard
+- id: retrieval-induced-forgetting-blocking
+  type: soft
 tags:
 - memory
 - forgetting
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Interference and Decay in Forgetting
 
 ## Core Idea

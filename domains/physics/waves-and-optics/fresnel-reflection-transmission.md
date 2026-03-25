@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electromagnetic-waves
   type: soft
+- id: impedance-matching-and-reflection
+  type: soft
 builds-toward:
 - total-internal-reflection
 - thin-film-interference
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Fresnel Equations: Reflection and Transmission at Interfaces
 
 ## Core Idea

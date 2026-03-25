@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: labor-market-signaling
   type: soft
+- id: labor-migration-development
+  type: soft
+- id: environmental-sustainability-development
+  type: soft
 builds-toward:
 - inequality-kuznets-curve
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Migration, Remittances, and Development
 
 ## Core Idea

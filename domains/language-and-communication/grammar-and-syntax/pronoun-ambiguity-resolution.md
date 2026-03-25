@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: pronoun-reference-clarity
   type: soft
+- id: pronoun-types-and-usage
+  type: soft
 builds-toward: []
 tags:
 - pronouns
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Pronoun Ambiguity Resolution
 
 ## Core Idea

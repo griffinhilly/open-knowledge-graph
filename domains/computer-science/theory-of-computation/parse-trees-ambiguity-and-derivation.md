@@ -6,6 +6,8 @@ course: theory-of-computation
 prerequisites:
 - id: context-free-grammars
   type: hard
+- id: context-free-grammar-properties-and-ambiguity
+  type: soft
 builds-toward:
 - chomsky-normal-form
 - cyk-algorithm-membership-testing
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Parse Trees, Derivations, and Ambiguity in CFGs
 
 ## Core Idea

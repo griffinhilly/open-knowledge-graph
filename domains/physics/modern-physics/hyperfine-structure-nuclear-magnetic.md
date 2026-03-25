@@ -6,6 +6,10 @@ course: modern-physics
 prerequisites:
 - id: fine-structure-spin-orbit-coupling
   type: hard
+- id: atomic-term-symbols-ls-coupling
+  type: soft
+- id: bohr-model-to-quantum
+  type: soft
 tags:
 - hyperfine
 - nuclear-effects
@@ -13,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Hyperfine Structure: Nuclear-Electron Spin Coupling
 
 ## Core Idea

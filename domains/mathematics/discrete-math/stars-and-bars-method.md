@@ -6,6 +6,12 @@ course: discrete-math
 prerequisites:
 - id: combinations-and-selections
   type: hard
+- id: probabilistic-method-counting
+  type: soft
+- id: derangements
+  type: soft
+- id: multinomial-theorem
+  type: soft
 builds-toward:
 - generating-functions-discrete
 tags:
@@ -14,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Stars and Bars: Combinatorial Method for Distributions
 
 ## Core Idea

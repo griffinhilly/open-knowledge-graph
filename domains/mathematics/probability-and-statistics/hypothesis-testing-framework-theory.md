@@ -6,6 +6,8 @@ course: probability-and-statistics
 prerequisites:
 - id: conditional-probability-fundamentals
   type: hard
+- id: effect-size-in-hypothesis-tests
+  type: soft
 builds-toward:
 - z-test-for-means
 - chi-square-test
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Hypothesis Testing: Framework and Logic
 
 ## Core Idea

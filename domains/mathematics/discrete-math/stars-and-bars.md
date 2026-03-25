@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: counting-principles
   type: hard
+- id: stars-and-bars-method
+  type: soft
 builds-toward:
 - generating-functions-intro
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Stars and Bars: Combinations with Repetition
 
 ## Core Idea

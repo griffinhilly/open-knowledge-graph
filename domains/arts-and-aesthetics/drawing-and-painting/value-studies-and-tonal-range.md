@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: monochromatic-underpainting-and-values
   type: soft
+- id: compositional-value-thumbnail-sketches
+  type: soft
+- id: lost-and-found-edges
+  type: soft
+- id: value-scale-and-tonal-range
+  type: soft
+- id: tonal-underpainting-for-oil-and-acrylic
+  type: soft
 builds-toward:
 - composition-and-visual-organization
 tags:
@@ -18,7 +26,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Value Studies and Tonal Range
 
 ## Core Idea

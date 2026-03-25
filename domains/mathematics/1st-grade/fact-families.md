@@ -6,6 +6,10 @@ course: 1st-grade
 prerequisites:
 - id: addition-subtraction-relationship
   type: hard
+- id: subtraction-fact-families-1st
+  type: soft
+- id: part-part-whole-model-1st
+  type: soft
 builds-toward:
 - addition-subtraction-word-problems
 tags:
@@ -14,7 +18,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Fact Families
 
 ## Core Idea

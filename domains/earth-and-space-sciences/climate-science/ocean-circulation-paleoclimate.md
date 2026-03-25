@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ocean-atmosphere-interactions
   type: soft
+- id: wind-buoyancy-driven-circulation
+  type: soft
 builds-toward:
 - abrupt-climate-change-mechanisms
 - paleoclimate-data-model-comparison
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Ocean Circulation Changes and Paleoclimate Impact
 
 ## Core Idea

@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: chord-inversions
   type: hard
+- id: voice-leading-in-four-part-writing
+  type: soft
+- id: secondary-harmony-functional
+  type: soft
 builds-toward:
 - secondary-harmony-functional
 - borrowing-parallel-modes
@@ -21,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Harmonic Progression Construction and Voice Leading
 
 ## Core Idea

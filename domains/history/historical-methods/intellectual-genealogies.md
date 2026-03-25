@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: histoire-des-concepts
   type: soft
+- id: time-consciousness-periodization
+  type: soft
 builds-toward:
 - reception-history-methods
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Tracking Ideas and Intellectual Genealogies
 
 ## Core Idea

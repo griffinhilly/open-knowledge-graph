@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: place-value-tens-and-ones
   type: hard
+- id: building-and-decomposing-shapes
+  type: soft
+- id: number-bonds-to-20
+  type: soft
 builds-toward:
 - two-digit-addition-no-regrouping
 - two-digit-subtraction-with-regrouping
@@ -17,7 +21,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Composing and Decomposing Two-Digit Numbers
 
 ## Core Idea

@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: antithesis-chiasmus-balance
   type: soft
+- id: authentic-speaker-voice-development
+  type: soft
+- id: speech-anxiety-physical-techniques
+  type: soft
+- id: silence-pausing-strategic-use
+  type: soft
+- id: facial-expressions-gestures
+  type: soft
 tags:
 - rhetoric
 - emphasis
@@ -17,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Rhetorical Devices for Emphasis and Memorability in Speech
 
 ## Core Idea

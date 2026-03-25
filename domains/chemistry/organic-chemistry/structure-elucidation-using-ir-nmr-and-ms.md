@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: mass-spectrometry-organic
   type: hard
+- id: c-13-nmr-and-ir-structural-determination
+  type: soft
 builds-toward:
 - retrosynthetic-analysis
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Structure Elucidation Using IR, NMR, and Mass Spectrometry
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: motor-planning-premotor-cortex
   type: soft
+- id: cerebellum-coordination-learning
+  type: soft
 builds-toward:
 - addiction-and-reward-system-plasticity
 - obsessive-compulsive-disorder-neurobiology
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Basal Ganglia: Action Selection and Habit Formation
 
 ## Core Idea

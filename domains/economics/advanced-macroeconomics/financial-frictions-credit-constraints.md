@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: information-asymmetry
   type: hard
+- id: financial-frictions-amplification
+  type: soft
 tags:
 - financial-frictions
 - credit-constraints
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Financial Frictions and Credit Constraints
 
 ## Core Idea

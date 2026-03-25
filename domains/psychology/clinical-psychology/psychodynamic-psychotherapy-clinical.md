@@ -6,6 +6,10 @@ course: clinical-psychology
 prerequisites:
 - id: case-conceptualization-clinical
   type: hard
+- id: psychodynamic-psychotherapy
+  type: soft
+- id: trauma-focused-psychotherapy
+  type: soft
 tags:
 - psychodynamic
 - psychotherapy
@@ -13,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Psychodynamic Psychotherapy: Theory and Application
 
 ## Core Idea

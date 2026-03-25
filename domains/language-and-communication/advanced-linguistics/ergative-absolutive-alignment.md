@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: linguistic-typology
   type: hard
+- id: alignment-systems-typology
+  type: soft
 tags:
 - ergative
 - alignment
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Ergative-Absolutive Systems and Their Properties
 
 ## Core Idea

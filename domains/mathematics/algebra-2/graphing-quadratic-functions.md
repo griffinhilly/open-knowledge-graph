@@ -1,21 +1,26 @@
 ---
 id: graphing-quadratic-functions
-title: "Graphing Quadratic Functions: Vertex and Intercepts"
+title: 'Graphing Quadratic Functions: Vertex and Intercepts'
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: solving-quadratic-equations-completing-the-square
-    type: hard
-  - id: quadratic-formula-review
-    type: hard
+- id: solving-quadratic-equations-completing-the-square
+  type: hard
+- id: quadratic-formula-review
+  type: hard
+- id: vertex-form
+  type: soft
 builds-toward:
-  - quadratic-inequalities
-  - conic-sections-parabolas
-tags: [quadratics, graphing, vertex-form, parabolas]
+- quadratic-inequalities
+- conic-sections-parabolas
+tags:
+- quadratics
+- graphing
+- vertex-form
+- parabolas
 stage: abstract-reasoning
 status: validated
 ---
-
 # Graphing Quadratic Functions: Vertex and Intercepts
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: kinematics-particles-curvilinear
   type: soft
+- id: curvilinear-motion-components
+  type: soft
 builds-toward:
 - particle-dynamics-accelerated-motion
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Curvilinear Motion of Particles
 
 ## Core Idea

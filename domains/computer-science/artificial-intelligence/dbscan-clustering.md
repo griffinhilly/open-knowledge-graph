@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: metric-spaces-definition
   type: soft
+- id: hierarchical-clustering
+  type: soft
 tags:
 - clustering
 - density-based
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # DBSCAN Clustering
 
 ## Core Idea

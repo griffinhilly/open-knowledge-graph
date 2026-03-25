@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: species-interactions
   type: soft
+- id: rainfall-productivity-biogeographic-gradients
+  type: soft
 builds-toward:
 - endemism-and-range-restriction
 - conservation-genetics-and-population-recovery
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Biogeographic Patterns and Realms
 
 ## Core Idea

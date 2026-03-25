@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: color-accessibility-wcag
   type: soft
+- id: accessibility-inclusive-design-principles
+  type: soft
 builds-toward:
 - responsive-design-principles
 - user-experience-fundamentals
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Inclusive Design for Diverse Audiences
 
 ## Core Idea

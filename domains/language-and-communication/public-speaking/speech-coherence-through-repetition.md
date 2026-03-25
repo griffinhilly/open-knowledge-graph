@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: discourse-coherence-spoken
   type: soft
+- id: cognitive-coherence-spoken-language
+  type: soft
+- id: vocal-modulation-for-emphasis
+  type: soft
+- id: speaker-memory-systems
+  type: soft
 builds-toward:
 - repetition-devices-emphasis
 - discourse-coherence-spoken
@@ -19,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Creating Coherence Through Strategic Repetition
 
 ## Core Idea

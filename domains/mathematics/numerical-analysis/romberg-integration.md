@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: composite-quadrature
   type: hard
+- id: gaussian-quadrature
+  type: soft
 tags:
 - romberg
 - integration
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Romberg Integration
 
 ## Core Idea

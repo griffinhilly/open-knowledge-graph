@@ -8,13 +8,16 @@ prerequisites:
   type: hard
 - id: cauchy-sequences-metric-spaces
   type: soft
+- id: sequential-compactness
+  type: soft
+- id: baire-category-metric-spaces
+  type: soft
 tags:
 - sequential-compactness
 - metric-spaces
 stage: advanced
 status: validated
 ---
-
 # Sequential Compactness in Metric Spaces
 
 ## Core Idea

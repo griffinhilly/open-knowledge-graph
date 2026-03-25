@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: ceramic-materials-properties
   type: soft
+- id: ceramic-composite-materials
+  type: soft
 tags:
 - composites
 - fiber-reinforcement
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Composite Materials: Structure and Performance
 
 ## Core Idea

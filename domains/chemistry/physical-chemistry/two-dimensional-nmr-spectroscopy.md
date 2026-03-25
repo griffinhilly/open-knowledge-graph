@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nmr-quantum-theory
   type: hard
+- id: nmr-spectroscopy-spin-coupling
+  type: soft
 builds-toward:
 - chemical-exchange-kinetics-nmr
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Two-Dimensional NMR Techniques
 
 ## Core Idea

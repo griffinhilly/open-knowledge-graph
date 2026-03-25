@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: market-microstructure-fundamentals
   type: soft
+- id: margin-requirements-and-lending
+  type: soft
 builds-toward:
 - market-microstructure-fundamentals
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Market Maker Economics and Bid-Ask Spreads
 
 ## Core Idea

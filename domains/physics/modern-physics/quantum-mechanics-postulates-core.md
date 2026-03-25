@@ -6,6 +6,8 @@ course: modern-physics
 prerequisites:
 - id: wave-particle-duality-observations
   type: hard
+- id: classical-limit-correspondence
+  type: soft
 builds-toward:
 - schrodinger-equation-time-dependent
 - probability-amplitude-interpretation
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Core Postulates of Quantum Mechanics
 
 ## Core Idea

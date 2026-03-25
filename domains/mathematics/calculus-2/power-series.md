@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: binomial-theorem-expansion
   type: soft
+- id: convergence-test-strategy
+  type: soft
 builds-toward:
 - radius-and-interval-of-convergence
 - taylor-polynomials

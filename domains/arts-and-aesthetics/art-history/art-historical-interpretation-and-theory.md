@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: art-historical-methods
   type: soft
+- id: art-historical-interpretation-frameworks
+  type: soft
+- id: art-historical-periodization
+  type: soft
 builds-toward:
 - gender-and-artistic-representation
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Theories and Interpretive Frameworks in Art History
 
 ## Core Idea

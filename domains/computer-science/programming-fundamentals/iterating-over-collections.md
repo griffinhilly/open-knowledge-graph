@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: array-indexing
   type: hard
+- id: do-while-loops
+  type: soft
 builds-toward:
 - immutability-and-mutation
 - nested-loops

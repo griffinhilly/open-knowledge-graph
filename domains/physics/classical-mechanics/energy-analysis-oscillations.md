@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conservation-of-energy
   type: hard
+- id: energy-dissipation-in-damped-oscillations
+  type: soft
 builds-toward:
 - coupled-oscillator-equations
 - driven-harmonic-oscillator
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Energy Analysis in Oscillating Systems
 
 ## Core Idea

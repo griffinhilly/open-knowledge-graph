@@ -6,6 +6,8 @@ course: data-structures-and-algorithms
 prerequisites:
 - id: sorting-lower-bounds
   type: hard
+- id: radix-sort
+  type: soft
 tags:
 - sorting
 - linear-time
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Linear-Time Sorting: Counting Sort and Radix Sort
 
 ## Core Idea

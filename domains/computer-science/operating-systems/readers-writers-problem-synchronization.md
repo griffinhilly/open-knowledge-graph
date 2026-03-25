@@ -6,6 +6,8 @@ course: operating-systems
 prerequisites:
 - id: monitors-and-condition-variables
   type: hard
+- id: producer-consumer-classic-sync
+  type: soft
 tags:
 - synchronization-patterns
 - fairness
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Readers-Writers Problem and Lock Patterns
 
 ## Core Idea

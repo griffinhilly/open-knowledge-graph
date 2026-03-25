@@ -6,6 +6,8 @@ course: grammar-and-syntax
 prerequisites:
 - id: verbs-intro
   type: hard
+- id: verbs-action-and-state
+  type: soft
 builds-toward:
 - direct-and-indirect-objects
 - verb-complements-basic
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Transitive and Intransitive Verbs
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: wind-shear-and-vorticity
   type: hard
+- id: moisture-transport-and-advection
+  type: soft
 builds-toward:
 - potential-vorticity-conservation
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Absolute and Relative Vorticity
 
 ## Core Idea

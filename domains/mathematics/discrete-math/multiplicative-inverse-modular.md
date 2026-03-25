@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: euclidean-algorithm
   type: hard
+- id: divisors-and-divisor-sums
+  type: soft
 builds-toward:
 - cryptographic-applications-rsa
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Multiplicative Inverses in Modular Arithmetic
 
 ## Core Idea

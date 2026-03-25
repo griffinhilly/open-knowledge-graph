@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: torque
   type: hard
+- id: normal-modes-oscillations
+  type: soft
+- id: phase-and-amplitude-forced-oscillations
+  type: soft
 builds-toward:
 - small-angle-approximation
 tags:
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Physical Pendulum and Rotational Oscillations
 
 ## Core Idea

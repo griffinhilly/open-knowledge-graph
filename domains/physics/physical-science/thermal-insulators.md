@@ -6,6 +6,8 @@ course: physical-science
 prerequisites:
 - id: heat-conduction-basics
   type: hard
+- id: thermal-expansion-intro
+  type: soft
 builds-toward:
 - heat-transfer-conduction
 tags:

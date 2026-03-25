@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: welfare-analysis-microeconomics
   type: soft
+- id: arrow-impossibility-theorem
+  type: soft
 tags:
 - welfare-economics
 - social-choice
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Social Welfare Maximization and Optimal Taxation
 
 ## Core Idea

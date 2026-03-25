@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rectangular-waveguide-propagation
   type: soft
+- id: resonant-cavities-em
+  type: soft
 builds-toward:
 - cavity-resonator-quality-factor
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Electromagnetic Field Solutions in Cavities
 
 ## Core Idea

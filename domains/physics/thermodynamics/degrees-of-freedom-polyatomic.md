@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: equipartition-theorem
   type: soft
+- id: degrees-of-freedom-and-heat-capacity
+  type: soft
 builds-toward:
 - molar-heat-capacities
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Degrees of Freedom in Polyatomic Molecules
 
 ## Core Idea

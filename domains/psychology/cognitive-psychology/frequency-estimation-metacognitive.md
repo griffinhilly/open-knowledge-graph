@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cognitive-biases-judgment-uncertainty
   type: hard
+- id: logical-validity-belief-bias
+  type: soft
 builds-toward:
 - heuristics-and-judgment
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Frequency Estimation and Metacognitive Judgment
 
 ## Core Idea

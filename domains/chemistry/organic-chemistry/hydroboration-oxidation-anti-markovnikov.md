@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: alkene-structure-and-nomenclature
   type: hard
+- id: hydroboration-oxidation-alkenes
+  type: soft
 builds-toward:
 - catalytic-hydrogenation-lindlar-catalyst
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Hydroboration-Oxidation: Anti-Markovnikov Addition
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: fluid-mechanics
 prerequisites:
 - id: continuity-equation-fluid
   type: hard
+- id: momentum-equation-control-volume
+  type: soft
 builds-toward:
 - control-volume-momentum-applications
 - mechanical-energy-balance-pump-turbine
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Control Volume Analysis: Mass Balance
 
 ## Core Idea

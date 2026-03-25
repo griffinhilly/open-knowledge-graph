@@ -6,6 +6,8 @@ course: music-theory-fundamentals
 prerequisites:
 - id: interval-quality-basics
   type: hard
+- id: triad-inversion-and-voicing
+  type: soft
 builds-toward:
 - chord-inversions
 - voice-leading-basics
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Interval Inversion
 
 ## Core Idea

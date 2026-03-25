@@ -6,6 +6,8 @@ course: topology
 prerequisites:
 - id: open-sets-in-topological-spaces
   type: hard
+- id: subbasis-topology
+  type: soft
 builds-toward:
 - product-topology
 - quotient-topology
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Subspace Topology
 
 ## Core Idea

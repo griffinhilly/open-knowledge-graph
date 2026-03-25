@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: adjectives-and-adverbs
   type: soft
+- id: nouns-classification-concrete-abstract
+  type: soft
 builds-toward:
 - gerunds-and-infinitives
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Nominalization and Creating Nouns from Other Words
 
 ## Core Idea

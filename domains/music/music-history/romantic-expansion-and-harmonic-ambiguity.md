@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: romantic-period-overview
   type: hard
+- id: tonal-system-and-major-minor-tonality
+  type: soft
 builds-toward:
 - absolute-music-and-program-music-aesthetics
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Romantic Expansion and Harmonic Ambiguity
 
 ## Core Idea

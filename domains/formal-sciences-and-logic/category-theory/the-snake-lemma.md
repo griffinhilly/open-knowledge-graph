@@ -10,8 +10,12 @@ prerequisites:
   type: hard
 - id: commutative-diagrams-and-composition
   type: hard
+- id: the-five-lemma
+  type: soft
+- id: diagram-chasing-lemmas
+  type: soft
 builds-toward:
-  - the-five-lemma
+- the-five-lemma
 tags:
 - homological-algebra
 - diagram-chasing

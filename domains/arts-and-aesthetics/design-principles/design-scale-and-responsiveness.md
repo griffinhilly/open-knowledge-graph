@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: responsive-design-principles
   type: soft
+- id: context-appropriate-design
+  type: soft
+- id: proportion-and-scale-relationships
+  type: soft
+- id: cultural-context-in-design
+  type: soft
 builds-toward:
 - responsive-typography
 - ui-design-fundamentals
@@ -22,7 +28,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Design Scale and Responsiveness
 
 ## Core Idea

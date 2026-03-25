@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: state-machine-replication
   type: soft
+- id: multi-master-replication
+  type: soft
 builds-toward:
 - distributed-hash-tables
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Quorum-Based Replication
 
 ## Core Idea

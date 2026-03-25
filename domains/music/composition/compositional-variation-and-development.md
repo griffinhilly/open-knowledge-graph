@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: motivic-development-strategies
   type: soft
+- id: compositional-craft-revision-feedback
+  type: soft
 builds-toward:
 - theme-and-variations-composition
 - formal-design-multipart-structure
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Compositional Variation and Development
 
 ## Core Idea

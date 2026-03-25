@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: functions-of-several-variables
   type: hard
+- id: tangent-planes-surfaces
+  type: soft
+- id: contour-maps-level-curves
+  type: soft
 builds-toward:
 - contour-maps
 - tangent-planes-linear-approximation
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Level Sets and Surfaces in 3D
 
 ## Core Idea

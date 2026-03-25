@@ -6,6 +6,8 @@ course: linear-algebra
 prerequisites:
 - id: gaussian-elimination
   type: hard
+- id: row-echelon-form-rref
+  type: soft
 builds-toward:
 - reduced-row-echelon-form
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Row Echelon Form and Back Substitution
 
 ## Core Idea

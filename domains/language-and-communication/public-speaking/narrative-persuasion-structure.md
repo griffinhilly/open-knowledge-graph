@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: storytelling-in-public-speaking
   type: soft
+- id: humor-strategic-persuasion
+  type: soft
 builds-toward:
 - storytelling-in-public-speaking
 - narrative-writing
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Narrative Structure and Persuasion
 
 ## Core Idea

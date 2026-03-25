@@ -6,6 +6,8 @@ course: music-theory-fundamentals
 prerequisites:
 - id: interval-quality-basics
   type: hard
+- id: semitones-and-whole-steps
+  type: soft
 builds-toward:
 - voice-leading-smooth-progressions
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Interval Inversion
 
 ## Core Idea

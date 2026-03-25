@@ -6,6 +6,8 @@ course: signals-and-systems
 prerequisites:
 - id: frequency-response-and-bode-plots
   type: hard
+- id: linear-phase-filter-design-preservation
+  type: soft
 builds-toward:
 - all-pass-filters-phase-shaping
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Group Delay and Phase Characterization
 
 ## Core Idea

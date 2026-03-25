@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: algorithm-design-basics
   type: soft
+- id: belief-propagation-algorithm
+  type: soft
 builds-toward: []
 tags:
 - constraints

@@ -6,6 +6,8 @@ course: waves-and-optics
 prerequisites:
 - id: double-aperture-interference-fringe
   type: hard
+- id: fresnel-diffraction-near-field
+  type: soft
 builds-toward:
 - diffraction-resolution-angular-separation
 - far-field-diffraction-approximation
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Single-Slit Diffraction and Diffraction Patterns
 
 ## Core Idea

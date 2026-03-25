@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: atomic-absorption-spectroscopy
   type: hard
+- id: gravimetric-analysis-advanced
+  type: soft
 tags:
 - metallurgical analysis
 - metals
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Metals and Alloy Analysis Methods
 
 ## Core Idea

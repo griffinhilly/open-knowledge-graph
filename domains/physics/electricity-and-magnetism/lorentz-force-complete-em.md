@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: dot-product
   type: hard
+- id: maxwell-equations-overview
+  type: soft
 tags:
 - lorentz-force
 - maxwell
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Complete Lorentz Force Law and Maxwell's Framework
 
 ## Core Idea

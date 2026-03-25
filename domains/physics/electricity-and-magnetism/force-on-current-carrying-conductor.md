@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cross-product
   type: hard
+- id: magnetic-dipole-moment
+  type: soft
 builds-toward:
 - force-between-parallel-current-wires
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Force on Current-Carrying Conductors in Magnetic Fields
 
 ## Core Idea

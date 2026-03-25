@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: equilibrium-rigid-bodies
   type: hard
+- id: statically-determinate-analysis
+  type: soft
 builds-toward:
 - truss-method-of-joints
 - frames-machines-analysis
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Statically Determinate vs. Indeterminate Structures
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: clinical-psychology
 prerequisites:
 - id: anxiety-disorders-overview
   type: hard
+- id: specific-phobia-and-conditioning
+  type: soft
 tags:
 - phobia
 - anxiety
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Specific Phobias
 
 ## Core Idea

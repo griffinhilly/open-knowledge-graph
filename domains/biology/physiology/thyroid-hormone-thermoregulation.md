@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: anterior-pituitary-hormone-axes
   type: hard
+- id: thyroid-hormone-metabolism-and-effects
+  type: soft
 builds-toward:
 - energy-expenditure-metabolic-rate
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Thyroid Hormone Metabolism and Thermoregulation
 
 ## Core Idea

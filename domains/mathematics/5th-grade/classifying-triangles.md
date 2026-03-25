@@ -4,16 +4,21 @@ title: Classifying Triangles
 domain: mathematics
 course: 5th-grade
 prerequisites:
-  - id: classifying-2d-shapes
-    type: hard
-  - id: measuring-angles
-    type: soft
+- id: classifying-2d-shapes
+  type: hard
+- id: measuring-angles
+  type: soft
+- id: classifying-quadrilaterals
+  type: soft
 builds-toward: []
-tags: [geometry, triangles, classification, angles]
+tags:
+- geometry
+- triangles
+- classification
+- angles
 stage: concrete-operations
 status: validated
 ---
-
 # Classifying Triangles
 
 ## Core Idea

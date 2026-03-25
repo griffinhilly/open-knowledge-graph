@@ -6,6 +6,8 @@ course: art-history
 prerequisites:
 - id: art-history-iconography
   type: hard
+- id: religious-iconography-in-art-history
+  type: soft
 builds-toward:
 - art-historical-contextualization
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Religious Symbolism and Imagery in Art
 
 ## Core Idea

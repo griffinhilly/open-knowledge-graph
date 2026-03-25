@@ -6,6 +6,10 @@ course: astronomy
 prerequisites:
 - id: solar-system-zones-architecture
   type: hard
+- id: planetary-formation-core-accretion
+  type: soft
+- id: planetary-formation-disk-instability
+  type: soft
 builds-toward:
 - moon-earth-system-dynamics
 - planetary-interiors-and-differentiation
@@ -16,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Terrestrial Planet Formation and Properties
 
 ## Core Idea

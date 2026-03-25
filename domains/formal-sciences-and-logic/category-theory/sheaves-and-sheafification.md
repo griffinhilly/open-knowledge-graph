@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: adjoint-functors
   type: soft
+- id: presheaves-and-sheaves
+  type: soft
 builds-toward:
 - topos-theory-intro
 tags:

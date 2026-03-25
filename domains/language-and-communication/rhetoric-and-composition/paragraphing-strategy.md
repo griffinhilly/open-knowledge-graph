@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: body-paragraph-development
   type: soft
+- id: organizational-patterns-argument
+  type: soft
 builds-toward:
 - topic-sentence-thesis-coordination
 - claim-hierarchy-emphasis
@@ -19,7 +21,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Paragraph Strategy and Development
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: multiplication-division-relationship
   type: hard
+- id: estimation-multiplication-division
+  type: soft
 builds-toward:
 - fact-families
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Fact Families: Multiplication and Division
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: statics-and-dynamics
 prerequisites:
 - id: principal-moments-of-inertia
   type: hard
+- id: principal-axes-and-rotation
+  type: soft
 builds-toward:
 - euler-equations-rigid-body-rotation
 - gyroscopic-motion-and-stability
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Rotation About an Arbitrary Axis and Euler Angles
 
 ## Core Idea

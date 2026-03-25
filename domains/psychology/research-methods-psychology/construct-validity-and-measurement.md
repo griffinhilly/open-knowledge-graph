@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: validity-in-measurement
   type: soft
+- id: external-validity-generalization
+  type: soft
+- id: ecological-validity-naturalistic-settings
+  type: soft
 builds-toward:
 - external-validity-generalization
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Construct Validity and Measurement Validity
 
 ## Core Idea

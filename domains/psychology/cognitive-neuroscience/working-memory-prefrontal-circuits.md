@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: executive-control-networks
   type: soft
+- id: decision-making-neural-mechanisms
+  type: soft
+- id: episodic-semantic-memory-systems
+  type: soft
+- id: hippocampal-encoding-binding
+  type: soft
 tags:
 - memory
 - prefrontal
@@ -15,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Working Memory Neural Circuits
 
 ## Core Idea

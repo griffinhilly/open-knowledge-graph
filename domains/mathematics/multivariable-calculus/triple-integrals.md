@@ -6,6 +6,8 @@ course: multivariable-calculus
 prerequisites:
 - id: double-integrals-cartesian
   type: hard
+- id: area-volume-integrals
+  type: soft
 builds-toward:
 - triple-integrals-cylindrical
 - triple-integrals-spherical
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Triple Integrals in Cartesian Coordinates
 
 ## Core Idea

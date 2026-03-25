@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: harmonic-function-and-progression
   type: hard
+- id: bass-line-writing-structural
+  type: soft
 builds-toward:
 - tonal-planning-and-progression
 - sectional-architecture-and-unity
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Harmonic Rhythm and Pacing in Composition
 
 ## Core Idea

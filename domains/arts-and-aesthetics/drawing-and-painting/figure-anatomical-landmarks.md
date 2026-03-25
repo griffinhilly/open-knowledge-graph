@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: basic-facial-proportions-and-measuring
   type: soft
+- id: hand-and-foot-proportions
+  type: soft
 builds-toward:
 - figure-foreshortening-in-practice
 - portrait-eyes-and-expression
@@ -19,7 +21,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Anatomical Landmarks and Proportions
 
 ## Core Idea

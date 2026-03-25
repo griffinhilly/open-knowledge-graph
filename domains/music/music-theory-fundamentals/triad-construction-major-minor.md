@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: intervals-basics
   type: hard
+- id: key-signatures-reading-writing
+  type: soft
 builds-toward:
 - triad-quality-diminished-augmented
 - seventh-chord-construction
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Triad Construction: Major and Minor
 
 ## Core Idea

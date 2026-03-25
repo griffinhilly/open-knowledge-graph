@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cell-signaling-receptor-pathways
   type: hard
+- id: cell-polarity-asymmetry
+  type: soft
 tags:
 - differentiation
 - development
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Cell Differentiation: Specifying Cell Type
 
 ## Core Idea

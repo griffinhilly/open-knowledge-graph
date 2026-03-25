@@ -6,6 +6,10 @@ course: theory-of-computation
 prerequisites:
 - id: probabilistic-turing-machines
   type: hard
+- id: exptime-expspace-classes
+  type: soft
+- id: bpp-complexity-class
+  type: soft
 builds-toward:
 - bpp-complexity-class
 tags:
@@ -14,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # RP and coRP Complexity Classes
 
 ## Core Idea

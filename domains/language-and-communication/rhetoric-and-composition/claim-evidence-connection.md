@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: evidence-and-support
   type: hard
+- id: evidence-hierarchy-support
+  type: soft
 builds-toward:
 - argumentative-essay-structure
 - counterargument-and-rebuttal
@@ -19,7 +21,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Claim-Evidence Connection
 
 ## Core Idea

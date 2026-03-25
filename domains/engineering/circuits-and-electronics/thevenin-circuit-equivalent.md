@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ideal-voltage-and-current-sources
   type: hard
+- id: norton-circuit-equivalent
+  type: soft
 builds-toward:
 - maximum-power-transfer
 - sinusoidal-steady-state-analysis
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Thévenin Equivalent Circuits
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: mathematical-induction
   type: soft
+- id: soundness-theorem-proof-systems
+  type: soft
 builds-toward:
 - natural-deduction-propositional
 - natural-deduction-fol
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Deductive Reasoning and Formal Proof Systems
 
 ## Core Idea

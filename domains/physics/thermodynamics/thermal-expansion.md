@@ -6,6 +6,8 @@ course: thermodynamics
 prerequisites:
 - id: temperature-and-thermal-equilibrium
   type: hard
+- id: thermal-expansion-linear-and-volumetric
+  type: soft
 builds-toward:
 - heat-transfer-conduction
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Thermal Expansion
 
 ## Core Idea

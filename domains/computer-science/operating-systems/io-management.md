@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: system-calls
   type: soft
+- id: device-drivers-and-controllers
+  type: soft
 builds-toward:
 - disk-scheduling
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # I/O Management and Device Drivers
 
 ## Core Idea

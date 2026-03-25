@@ -6,6 +6,8 @@ course: discrete-math
 prerequisites:
 - id: modular-arithmetic-congruences
   type: hard
+- id: divisors-and-divisor-sums
+  type: soft
 builds-toward:
 - chinese-remainder-theorem
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Euclidean Algorithm and Greatest Common Divisor
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: lysogenic-conversion-virulence-factors
   type: soft
+- id: bacteriophage-and-lysogenic-cycles
+  type: soft
 builds-toward:
 - crispr-cas-systems-bacterial-defense
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Bacteriophages: Taxonomy and Lytic-Lysogenic Cycles
 
 ## Core Idea

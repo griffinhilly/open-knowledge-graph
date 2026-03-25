@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: economic-growth-theory
   type: soft
+- id: inequality-in-developing-economies
+  type: soft
 tags:
 - inequality
 - kuznets
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # The Kuznets Curve and Development Inequality
 
 ## Core Idea

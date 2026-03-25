@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: ratios
   type: soft
+- id: concentration-units
+  type: soft
 builds-toward:
 - dilution-and-solution-preparation
 - colligative-properties-solutions
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Concentration Units and Molarity Calculations
 
 ## Core Idea

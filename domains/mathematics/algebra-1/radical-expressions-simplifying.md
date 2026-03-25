@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: exponent-rules-product-power-quotient
   type: soft
+- id: rational-expressions-intro
+  type: soft
 builds-toward:
 - operations-with-radicals
 - quadratic-formula

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: visual-system-anatomy-and-physiology
   type: soft
+- id: attentional-blink-temporal-refractory
+  type: soft
 builds-toward:
 - attention-capacity-and-bottlenecks
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Inattentional Blindness and Failures of Perception
 
 ## Core Idea

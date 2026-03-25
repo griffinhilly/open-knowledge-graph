@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: harmonic-vs-melodic-intervals
   type: soft
+- id: passing-tones-and-embellishment
+  type: soft
 builds-toward:
 - melody-and-harmonic-accompaniment
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Passing Tones and Neighbor Tones: Melodic Decoration
 
 ## Core Idea

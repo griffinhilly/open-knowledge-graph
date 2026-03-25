@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: electromagnetic-waves
   type: soft
+- id: c-13-nmr-and-ir-structural-determination
+  type: soft
 builds-toward:
 - nmr-chemical-shift-prediction
 - proton-coupling-constants-jcoupling
@@ -31,7 +33,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Nuclear Magnetic Resonance Spectroscopy for Structure Determination
 
 ## Core Idea

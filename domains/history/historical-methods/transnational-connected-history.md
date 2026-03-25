@@ -10,6 +10,18 @@ prerequisites:
   type: soft
 - id: global-history-approach
   type: soft
+- id: oral-history-documentation-and-ethics
+  type: soft
+- id: reception-history-methods
+  type: soft
+- id: spatial-geographic-methods
+  type: soft
+- id: family-history-genealogy
+  type: soft
+- id: anachronism-and-historical-thinking
+  type: soft
+- id: political-history-approach
+  type: soft
 tags:
 - transnational
 - connected-history
@@ -18,7 +30,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Transnational and Connected History Methods
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: riemann-integral-properties
   type: hard
+- id: interchange-limit-derivative
+  type: soft
 tags:
 - limit-integral
 - interchange
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Interchange of Limit and Integral
 
 ## Core Idea

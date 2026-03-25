@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: scientific-revolution
   type: soft
+- id: bacon-induction-empirical-method
+  type: soft
 builds-toward:
 - mechanical-philosophy-causation
 - newtonian-synthesis-physics
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Galileo and the Method of Observation and Experimentation
 
 ## Core Idea

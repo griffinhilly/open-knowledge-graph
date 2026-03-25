@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: complex-sentence-construction
   type: hard
+- id: preposition-placement-and-stranding
+  type: soft
 builds-toward:
 - paragraph-structure
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Sentence Variety and Rhythm
 
 ## Core Idea

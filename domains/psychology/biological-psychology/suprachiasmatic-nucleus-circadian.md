@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: hypothalamus-pituitary-axis
   type: soft
+- id: adenosine-accumulation-and-sleep-homeostasis
+  type: soft
 builds-toward:
 - sleep-architecture-consolidation
 - circadian-misalignment-and-health
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Suprachiasmatic Nucleus and Circadian Rhythm Generation
 
 ## Core Idea

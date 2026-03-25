@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mass-moment-of-inertia
   type: hard
+- id: work-energy-systems-analysis
+  type: soft
 builds-toward:
 - virtual-work-method
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Work-Energy Methods for Rigid Bodies
 
 ## Core Idea

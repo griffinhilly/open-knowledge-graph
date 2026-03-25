@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: heat-exchanger-effectiveness-ntu
   type: hard
+- id: regenerative-cycle-analysis-thermodynamics
+  type: soft
 builds-toward:
 - combined-cycles-cogeneration
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Regenerative Heat Recovery and Cycle Efficiency
 
 ## Core Idea

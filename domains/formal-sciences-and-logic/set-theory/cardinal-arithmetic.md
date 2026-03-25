@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: zorns-lemma
   type: soft
+- id: ordinal-arithmetic-operations-and-exponentiation
+  type: soft
 builds-toward:
 - continuum-hypothesis
 tags:

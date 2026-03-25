@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: controllability-and-observability
   type: hard
+- id: root-locus-pole-placement
+  type: soft
 builds-toward:
 - observer-state-estimation-design
 - separation-principle-control-theory
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # State Feedback Control and Pole Placement
 
 ## Core Idea

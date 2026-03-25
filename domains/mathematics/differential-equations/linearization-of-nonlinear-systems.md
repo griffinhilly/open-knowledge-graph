@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: hard
+- id: eulers-method-ode
+  type: soft
 builds-toward: []
 tags:
 - nonlinear

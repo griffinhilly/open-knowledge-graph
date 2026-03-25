@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: bernoulli-real-fluid-limitations
   type: hard
+- id: mechanical-energy-head-forms
+  type: soft
 builds-toward:
 - centrifugal-pump-curves-selection
 - pipe-network-solutions-hardy-cross
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Mechanical Energy Balance with Pump and Turbine Work
 
 ## Core Idea

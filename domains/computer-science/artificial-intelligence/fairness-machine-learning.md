@@ -6,9 +6,6 @@ course: artificial-intelligence
 prerequisites:
 - id: ai-ethics-fairness-bias
   type: hard
-builds-toward:
-- bias-detection
-- algorithmic-auditing
 tags:
 - fairness
 - bias

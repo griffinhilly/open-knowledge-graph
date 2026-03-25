@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: formalism-in-aesthetics
   type: soft
+- id: postmodern-aesthetics-pastiche
+  type: soft
 builds-toward:
 - relational-aesthetics
 - the-avant-garde-and-artistic-transgression
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Postmodern Aesthetics and Critique of Grand Narratives
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: probabilistic-computation
   type: hard
+- id: co-np-and-complements
+  type: soft
 tags:
 - randomization
 - complexity-classes
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Randomized Complexity: RP, co-RP, and ZPP
 
 ## Core Idea

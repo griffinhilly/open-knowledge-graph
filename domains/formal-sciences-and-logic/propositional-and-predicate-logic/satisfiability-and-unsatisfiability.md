@@ -6,6 +6,8 @@ course: propositional-and-predicate-logic
 prerequisites:
 - id: logical-consequence-and-entailment
   type: hard
+- id: tautology-satisfiability-validity
+  type: soft
 builds-toward:
 - consistency-and-inconsistency
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Satisfiability and Unsatisfiability
 
 ## Core Idea

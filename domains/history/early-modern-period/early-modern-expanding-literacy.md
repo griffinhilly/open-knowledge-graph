@@ -6,6 +6,8 @@ course: early-modern-period
 prerequisites:
 - id: printing-press-gutenberg
   type: hard
+- id: early-modern-anatomy-and-medical-thought
+  type: soft
 builds-toward:
 - enlightenment-origins
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Early Modern Expansion of Literacy
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: databases
 prerequisites:
 - id: sql-data-retrieval-select
   type: hard
+- id: sql-delete-with-conditions
+  type: soft
 builds-toward:
 - sql-aggregation
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # DISTINCT: Eliminating Duplicate Rows
 
 ## Core Idea

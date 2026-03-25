@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: truth-tables-and-evaluation
   type: soft
+- id: resolution-propositional
+  type: soft
 builds-toward:
 - semantic-tableaux-fol
 - propositional-soundness-completeness
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Semantic Tableaux (Propositional)
 
 ## Core Idea

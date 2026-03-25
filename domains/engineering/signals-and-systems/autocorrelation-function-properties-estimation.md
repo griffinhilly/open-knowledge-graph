@@ -6,6 +6,8 @@ course: signals-and-systems
 prerequisites:
 - id: random-signals-autocorrelation-psd
   type: hard
+- id: cross-correlation-applications-estimation
+  type: soft
 builds-toward:
 - parametric-signal-models-ar-ma-arma
 - signal-detection-and-hypothesis-testing
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Autocorrelation Function Properties and Estimation
 
 ## Core Idea

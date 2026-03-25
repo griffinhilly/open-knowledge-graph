@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: heisenberg-uncertainty-principle
   type: soft
+- id: uncertainty-relation-measurements
+  type: soft
 builds-toward:
 - schrodinger-eigenvalue-problem
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Heisenberg Uncertainty Principle and Measurement Limits
 
 ## Core Idea

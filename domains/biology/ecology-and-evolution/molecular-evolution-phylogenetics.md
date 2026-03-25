@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: dna-sequence-divergence
   type: soft
+- id: molecular-dating-phylogenetic-clocks
+  type: soft
 builds-toward:
 - extinction-rates-phylogenetic-patterns
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Molecular Evolution and Phylogenetic Inference
 
 ## Core Idea

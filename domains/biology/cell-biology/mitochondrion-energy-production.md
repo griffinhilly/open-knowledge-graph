@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cellular-respiration-overview
   type: hard
+- id: cellular-respiration-pathways
+  type: soft
 builds-toward:
 - oxidative-phosphorylation-and-chemiosmosis
 - electron-transport-chain
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Mitochondria: Powerhouses of Energy Conversion
 
 ## Core Idea

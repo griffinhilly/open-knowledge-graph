@@ -6,6 +6,8 @@ course: cognitive-psychology
 prerequisites:
 - id: memory-retrieval-cues
   type: hard
+- id: state-dependent-memory-context-matching
+  type: soft
 builds-toward:
 - false-memory-source-misattribution
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Retrieval Cues and Context-Dependent Memory
 
 ## Core Idea

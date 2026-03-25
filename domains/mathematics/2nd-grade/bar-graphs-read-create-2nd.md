@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: collecting-organizing-data-2nd
   type: hard
+- id: picture-graph-creation-interpretation
+  type: soft
 builds-toward:
 - interpreting-data-bar-graphs
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Reading and Creating Bar Graphs
 
 ## Core Idea

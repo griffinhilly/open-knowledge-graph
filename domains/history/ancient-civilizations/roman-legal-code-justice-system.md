@@ -6,6 +6,8 @@ course: ancient-civilizations
 prerequisites:
 - id: roman-republic-political-conflicts
   type: soft
+- id: hammurabi-code-justice-system
+  type: soft
 tags:
 - rome
 - law
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Roman Legal Codes and the Justice System
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: yield-to-maturity
   type: hard
+- id: credit-spreads-bond-yields
+  type: soft
 builds-toward:
 - credit-risk-and-default
 - hedging-with-derivatives
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Corporate Bond Credit Spreads
 
 ## Core Idea

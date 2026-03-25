@@ -6,6 +6,10 @@ course: probability-and-statistics
 prerequisites:
 - id: probability-mass-functions-theory
   type: hard
+- id: least-squares-estimation-intro
+  type: soft
+- id: unbiased-and-consistent-estimators
+  type: soft
 builds-toward:
 - bayesian-inference-intro
 tags:
@@ -14,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Maximum Likelihood Estimation
 
 ## Core Idea

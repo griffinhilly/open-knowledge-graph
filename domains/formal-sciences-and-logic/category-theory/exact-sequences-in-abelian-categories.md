@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: chain-complexes-exact-sequences
   type: hard
+- id: abelian-categories-homology
+  type: soft
 builds-toward:
 - the-snake-lemma
 - the-five-lemma
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Exact Sequences in Abelian Categories
 
 ## Core Idea

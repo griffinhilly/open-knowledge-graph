@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: coriolis-effect
   type: hard
+- id: subtropical-ocean-gyres-formation
+  type: soft
 builds-toward:
 - ocean-upwelling
 - el-nino-southern-oscillation
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ocean Gyres and Western Boundary Currents
 
 ## Core Idea

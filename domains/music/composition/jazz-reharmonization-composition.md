@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: jazz-harmony-basics
   type: hard
+- id: jazz-chord-substitution-voice-leading
+  type: soft
+- id: lead-sheet-notation
+  type: soft
 tags:
 - jazz
 - reharmonization
@@ -16,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Jazz Reharmonization and Substitution in Composition
 
 ## Core Idea

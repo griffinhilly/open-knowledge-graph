@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nash-equilibrium-microeconomics
   type: soft
+- id: mixed-strategies-probability
+  type: soft
 builds-toward:
 - cartel-and-collusion
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Repeated Games and Trigger Strategies
 
 ## Core Idea

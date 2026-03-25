@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - switch-statements
-- switch-statements-and-pattern-matching
+- switch-statements
 - loop-design-and-invariants
 tags:
 - control-flow

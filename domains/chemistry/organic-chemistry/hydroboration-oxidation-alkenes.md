@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: markovnikov-rule-regioselectivity
   type: hard
+- id: anti-markovnikov-addition-hydroboration
+  type: soft
+- id: oxymercuration-mechanism
+  type: soft
 builds-toward:
 - alcohol-oxidation-to-carbonyls
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Hydroboration-Oxidation: Anti-Markovnikov Hydration
 
 ## Core Idea

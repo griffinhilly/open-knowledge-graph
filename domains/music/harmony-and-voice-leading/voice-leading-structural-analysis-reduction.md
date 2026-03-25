@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: harmonic-analysis-roman-numeral-function
   type: hard
+- id: voice-leading-form-structure-relationship
+  type: soft
+- id: voice-leading-analysis-transcription-method
+  type: soft
 tags:
 - analysis
 - voice-leading
@@ -15,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Voice Leading Analysis and Structural Reduction
 
 ## Core Idea

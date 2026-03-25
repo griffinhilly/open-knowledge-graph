@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: voice-leading-smooth-stepwise-motion
   type: soft
+- id: enharmonic-chromatic-modulation
+  type: soft
 builds-toward:
 - chromatic-bass-line-structural-function
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Enharmonic Pivot and Modulation Techniques
 
 ## Core Idea

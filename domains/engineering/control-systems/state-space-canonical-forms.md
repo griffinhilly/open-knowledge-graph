@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: transfer-function-derivation-differential-equations
   type: soft
+- id: state-space-to-transfer-function
+  type: soft
 builds-toward:
 - state-transformation-similarity-transform
 - observability-controllability-tests
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # State-Space Canonical Forms: Controllable and Observable Forms
 
 ## Core Idea

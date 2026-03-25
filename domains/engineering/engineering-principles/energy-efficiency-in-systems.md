@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: thermal-insulation-design
   type: soft
+- id: pneumatic-systems-engineering
+  type: soft
 builds-toward:
 - renewable-energy-systems-intro
 - environmental-impact-engineering

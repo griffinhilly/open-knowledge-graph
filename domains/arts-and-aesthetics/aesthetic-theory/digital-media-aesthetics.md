@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: contemporary-art-and-postmodernism
   type: soft
+- id: aesthetic-experience-and-cultivation
+  type: soft
 builds-toward:
 - conceptual-art-and-art-definition
 - technology-and-aesthetic-mediation
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Digital Media and Aesthetic Experience
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: kindergarten
 prerequisites:
 - id: recognizing-2d-shapes
   type: hard
+- id: shape-attributes-2d
+  type: soft
 builds-toward:
 - sorting-by-attributes
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Describing 2D Shapes by Their Attributes
 
 ## Core Idea

@@ -9,7 +9,7 @@ prerequisites:
 - id: finite-state-machine-processor-design
   type: soft
 builds-toward:
-- instruction-pipelining-design
+- pipelining-fundamentals
 tags:
 - processor-design
 - multi-cycle

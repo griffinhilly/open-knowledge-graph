@@ -6,12 +6,13 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: radon-nikodym-theorem
   type: hard
+- id: null-sets-almost-everywhere
+  type: soft
 tags:
 - measure-theory
 stage: expert
 status: validated
 ---
-
 # Signed Measures and Hahn-Jordan Decomposition
 
 ## Core Idea

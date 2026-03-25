@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: cache-memory-design
   type: soft
+- id: performance-and-benchmarking
+  type: soft
 tags:
 - performance
 - power
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Performance Metrics, Power, and Thermal Management
 
 ## Core Idea

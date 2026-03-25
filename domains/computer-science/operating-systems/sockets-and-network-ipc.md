@@ -6,6 +6,8 @@ course: operating-systems
 prerequisites:
 - id: inter-process-communication
   type: hard
+- id: shared-memory-inter-process-communication
+  type: soft
 tags:
 - ipc
 - sockets
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Sockets and Network Inter-Process Communication
 
 ## Core Idea

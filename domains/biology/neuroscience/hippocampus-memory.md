@@ -8,13 +8,14 @@ prerequisites:
   type: hard
 - id: long-term-depression
   type: hard
+- id: hippocampal-spatial-memory
+  type: soft
 tags:
 - learning-memory
 - spatial-memory
 stage: expert
 status: validated
 ---
-
 # Hippocampus: Declarative Memory and Spatial Coding
 
 ## Core Idea

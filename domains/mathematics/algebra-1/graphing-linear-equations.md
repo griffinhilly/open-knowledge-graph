@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: proportional-relationships
   type: soft
+- id: parallel-and-perpendicular-slopes
+  type: soft
 builds-toward:
 - systems-graphing
 - graphing-quadratics

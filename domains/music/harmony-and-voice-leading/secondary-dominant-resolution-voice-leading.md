@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: seventh-chord-resolution-tritone
   type: hard
+- id: secondary-dominant-extended-voice-leading
+  type: soft
 builds-toward:
 - chromatic-borrowed-chords-voice-leading
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Secondary Dominant Voice Leading and Resolution
 
 ## Core Idea

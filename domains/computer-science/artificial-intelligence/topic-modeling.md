@@ -7,7 +7,6 @@ prerequisites:
 - id: nlp-language-models
   type: hard
 builds-toward:
-- document-understanding
 - semantic-analysis
 tags:
 - topic-modeling

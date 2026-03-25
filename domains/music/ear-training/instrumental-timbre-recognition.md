@@ -6,6 +6,8 @@ course: ear-training
 prerequisites:
 - id: orchestration-ranges-and-timbres
   type: soft
+- id: orchestral-timbre-identification-ear
+  type: soft
 builds-toward:
 - orchestration-harmonic-function
 - timbre-evolution-analysis
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Instrumental Timbre Recognition by Ear
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: renaissance-polyphonic-sacred-music
   type: soft
+- id: baroque-vocal-genres
+  type: soft
+- id: opera-emergence-and-evolution
+  type: soft
 builds-toward:
 - classical-public-concert-culture
 - romantic-era-compositional-innovations
@@ -19,7 +23,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Opera as Baroque Synthesis
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: exact-sequences-in-abelian-categories
   type: hard
+- id: diagram-chasing-lemmas
+  type: soft
+- id: snake-lemma
+  type: soft
 builds-toward: []
 tags:
 - homological-algebra

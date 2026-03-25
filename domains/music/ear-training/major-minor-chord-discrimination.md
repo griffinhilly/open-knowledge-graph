@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: interval-recognition-by-ear
   type: hard
+- id: diatonic-vs-chromatic-tones-ear
+  type: soft
 builds-toward:
 - chord-quality-by-ear
 - harmonic-dictation-basic
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Major-Minor Chord Discrimination by Ear
 
 ## Core Idea

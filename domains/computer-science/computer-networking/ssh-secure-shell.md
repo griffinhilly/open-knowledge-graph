@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: network-security-fundamentals
   type: hard
+- id: ipsec-authentication-encryption
+  type: soft
 builds-toward:
 - vpn-virtual-private-networks
 - network-security-fundamentals
@@ -21,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # SSH: Secure Shell and Remote Access
 
 ## Core Idea

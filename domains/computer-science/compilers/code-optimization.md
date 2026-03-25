@@ -6,6 +6,10 @@ course: compilers
 prerequisites:
 - id: dataflow-analysis
   type: hard
+- id: peephole-optimization
+  type: soft
+- id: dead-code-elimination
+  type: soft
 builds-toward:
 - common-subexpression-elimination
 - loop-invariant-code-motion
@@ -17,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Code Optimization Fundamentals
 
 ## Core Idea

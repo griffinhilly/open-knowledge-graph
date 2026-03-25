@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: three-sat-reductions
   type: hard
+- id: approximation-hardness-results
+  type: soft
 tags:
 - approximation-hardness
 - inapproximability
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Hardness of Approximation Introduction
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: observational-drawing-practice
   type: hard
+- id: ear-structure-and-proportion
+  type: soft
+- id: three-quarter-view-figure-proportions
+  type: soft
 builds-toward:
 - portraiture-fundamentals
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Mouth and Nose Structure
 
 ## Core Idea

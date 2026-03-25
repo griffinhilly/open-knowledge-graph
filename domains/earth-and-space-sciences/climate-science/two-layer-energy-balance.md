@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: surface-energy-balance
   type: soft
+- id: transient-climate-response
+  type: soft
 builds-toward:
 - general-circulation-models
 - climate-models-and-projections
@@ -21,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Two-Layer Energy Balance Model
 
 ## Core Idea

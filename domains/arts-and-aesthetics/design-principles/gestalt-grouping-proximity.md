@@ -6,6 +6,8 @@ course: design-principles
 prerequisites:
 - id: gestalt-principles-in-design
   type: hard
+- id: gestalt-design-application
+  type: soft
 builds-toward:
 - visual-hierarchy-in-design
 - information-hierarchy-and-wayfinding
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Gestalt Grouping: Proximity and Association
 
 ## Core Idea

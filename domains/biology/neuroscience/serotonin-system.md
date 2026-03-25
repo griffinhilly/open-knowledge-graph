@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: synaptic-transmission
   type: soft
+- id: serotonin-systems
+  type: soft
 builds-toward:
 - mood-anxiety-circuits
 - depression-neurobiology
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # The Serotonin System
 
 ## Core Idea

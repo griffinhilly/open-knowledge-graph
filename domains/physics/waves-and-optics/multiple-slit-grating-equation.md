@@ -6,6 +6,8 @@ course: waves-and-optics
 prerequisites:
 - id: double-aperture-interference-fringe
   type: hard
+- id: far-field-diffraction-approximation
+  type: soft
 builds-toward:
 - diffraction-resolution-angular-separation
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Diffraction Gratings and the Grating Equation
 
 ## Core Idea

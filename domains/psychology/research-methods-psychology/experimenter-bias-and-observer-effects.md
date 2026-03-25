@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: control-and-experimental-groups
   type: soft
+- id: demand-characteristics-participant-awareness
+  type: soft
+- id: experimenter-bias-and-expectancy-effects
+  type: soft
 builds-toward:
 - measurement-standardization-procedural-fidelity
 - internal-validity-threats-experimental-control
@@ -21,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Experimenter Bias and Observer Effects in Research Conduct
 
 ## Core Idea

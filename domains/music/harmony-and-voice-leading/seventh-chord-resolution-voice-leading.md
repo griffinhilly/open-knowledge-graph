@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: dominant-seventh-function-resolution
   type: soft
+- id: suspension-appogiatura-voice-leading-function
+  type: soft
 builds-toward:
 - extended-harmony-voice-leading-handling
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Seventh Chord Resolution and Voice Leading
 
 ## Core Idea

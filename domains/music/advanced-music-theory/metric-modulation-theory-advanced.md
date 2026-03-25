@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: direct-and-inverse-variation
   type: soft
+- id: rhythmic-modulation-analysis
+  type: soft
 builds-toward:
 - temporal-proportions-ratios
 - free-jazz-organizational-structures
@@ -24,7 +26,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Advanced Metric Modulation Theory
 
 ## Core Idea

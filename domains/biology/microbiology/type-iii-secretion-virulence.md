@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: host-pathogen-interactions
   type: soft
+- id: bacterial-toxins-and-virulence-mechanisms
+  type: soft
+- id: bacterial-virulence-and-disease-mechanisms
+  type: soft
 tags:
 - secretion-system
 - virulence
@@ -15,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Type III Secretion Systems and Bacterial Virulence
 
 ## Core Idea

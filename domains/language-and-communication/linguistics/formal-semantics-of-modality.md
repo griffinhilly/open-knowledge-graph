@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: modal-semantics-necessity-possibility
   type: soft
+- id: formal-semantics-of-tense
+  type: soft
 tags:
 - semantics
 - modality
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Formal Semantics of Modality and Possibility
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: atmospheric-perspective
   type: hard
+- id: tree-and-foliage-rendering
+  type: soft
+- id: grid-transfer-method
+  type: soft
 builds-toward:
 - plein-air-painting
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Water and Reflections in Landscape
 
 ## Core Idea

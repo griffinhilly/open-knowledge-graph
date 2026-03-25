@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: development-definition-and-measurement
   type: hard
+- id: gross-domestic-product-development-measurement
+  type: soft
 builds-toward:
 - human-development-index
 - environmental-sustainability-development
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Beyond GDP: Limitations and Alternative Metrics
 
 ## Core Idea

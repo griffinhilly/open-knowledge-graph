@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: oxidation-reduction-basics
   type: hard
+- id: electrolytic-cells-and-electrolysis
+  type: soft
 builds-toward:
 - electrolytic-cells
 - electrochemical-kinetics
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Galvanic Cells and Spontaneous Redox Reactions
 
 ## Core Idea

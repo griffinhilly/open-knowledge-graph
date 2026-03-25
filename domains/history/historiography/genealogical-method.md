@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: archival-research
   type: soft
+- id: foucault-genealogy
+  type: soft
 builds-toward:
 - history-from-below-nonelites
 - prosopography-and-biography
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Genealogy as Historical Method
 
 ## Core Idea

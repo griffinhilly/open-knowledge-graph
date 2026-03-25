@@ -8,8 +8,12 @@ prerequisites:
   type: soft
 - id: orchestration-timbre-choices
   type: soft
+- id: register-and-spacing-in-composition
+  type: soft
+- id: borrowing-parallel-modes
+  type: soft
 builds-toward:
-  - orchestration-and-instrument-balance
+- orchestration-and-instrument-balance
 tags:
 - texture
 - timbre

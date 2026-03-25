@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: phillips-curve
   type: soft
+- id: inflation-dynamics-and-persistence
+  type: soft
+- id: hyperinflation-and-money-dynamics
+  type: soft
+- id: price-level-measurement-indices
+  type: soft
 builds-toward:
 - supply-shock-stagflation-effects
 tags:
@@ -19,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Wage-Price Dynamics and the Inflation Process
 
 ## Core Idea

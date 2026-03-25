@@ -6,6 +6,10 @@ course: propositional-and-predicate-logic
 prerequisites:
 - id: predicates-and-relations-fol
   type: hard
+- id: substitution-and-instantiation
+  type: soft
+- id: well-formed-formulas-logic
+  type: soft
 builds-toward:
 - formulas-and-well-formed-expressions
 tags:
@@ -14,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Terms and Atomic Formulas
 
 ## Core Idea

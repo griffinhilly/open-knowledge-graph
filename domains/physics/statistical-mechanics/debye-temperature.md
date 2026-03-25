@@ -6,6 +6,8 @@ course: statistical-mechanics
 prerequisites:
 - id: debye-model-solids
   type: hard
+- id: debye-model-lattice-dynamics
+  type: soft
 builds-toward:
 - phonon-statistics
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Debye Temperature
 
 ## Core Idea

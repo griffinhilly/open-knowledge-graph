@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: earnings-models-and-forecasting
   type: soft
+- id: earnings-multiple-valuation
+  type: soft
+- id: equity-valuation-growth-phases
+  type: soft
 builds-toward:
 - growth-vs-value-investing
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Equity Valuation Using Multiples
 
 ## Core Idea

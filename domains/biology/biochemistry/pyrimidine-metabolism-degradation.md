@@ -6,13 +6,14 @@ course: biochemistry
 prerequisites:
 - id: pyrimidine-metabolism-biosynthesis
   type: soft
+- id: purine-metabolism-degradation
+  type: soft
 tags:
 - pyrimidine
 - catabolism
 stage: advanced
 status: validated
 ---
-
 # Pyrimidine Degradation
 
 ## Core Idea

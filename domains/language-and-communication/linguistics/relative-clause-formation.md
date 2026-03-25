@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: wh-movement-operator-quantification
   type: hard
+- id: serial-verb-constructions
+  type: soft
+- id: linguistic-typology-formal
+  type: soft
 builds-toward:
 - long-distance-extraction
 tags:
@@ -20,7 +24,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Relative Clause Formation (Mechanisms and Strategies)
 
 ## Core Idea

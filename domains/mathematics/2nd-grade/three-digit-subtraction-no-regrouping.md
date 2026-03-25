@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: place-value-hundreds
   type: hard
+- id: three-digit-number-decomposition
+  type: soft
+- id: comparing-quantities-three-digit-2nd
+  type: soft
 builds-toward:
 - three-digit-subtraction-with-regrouping
 tags:
@@ -16,7 +20,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Three-Digit Subtraction Without Regrouping
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: newton-method-convergence
   type: hard
+- id: convergence-iterative-methods
+  type: soft
 tags:
 - convergence
 - error-reduction
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Order of Convergence
 
 ## Core Idea

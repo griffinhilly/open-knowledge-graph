@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: interrupts-and-dma
   type: soft
+- id: asynchronous-io-and-aio
+  type: soft
+- id: file-descriptor-tables-and-redirection
+  type: soft
+- id: io-buffering-and-kernel-buffers
+  type: soft
 tags:
 - drivers
 - hardware
@@ -15,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Device Drivers and I/O Controllers
 
 ## Core Idea

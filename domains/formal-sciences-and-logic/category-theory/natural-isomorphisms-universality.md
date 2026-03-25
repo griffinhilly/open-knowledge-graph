@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: universal-properties
   type: hard
+- id: natural-isomorphisms
+  type: soft
 builds-toward:
 - yoneda-embedding-full-faithful
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Natural Isomorphisms and Universal Constructions
 
 ## Core Idea

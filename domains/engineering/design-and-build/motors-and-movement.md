@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gears-and-wheels
   type: soft
+- id: led-circuits
+  type: soft
 builds-toward:
 - sensors-basics
 - technology-in-everyday-life

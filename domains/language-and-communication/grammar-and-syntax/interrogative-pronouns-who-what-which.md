@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: question-formation-inverted-word-order
   type: hard
+- id: subject-auxiliary-inversion
+  type: soft
 builds-toward:
 - relative-clauses
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Interrogative Pronouns in Questions
 
 ## Core Idea

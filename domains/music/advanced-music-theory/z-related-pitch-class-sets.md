@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: equivalence-relations
   type: soft
+- id: pitch-class-set-subsets-supsets
+  type: soft
 builds-toward:
 - pitch-class-set-cartography
 - neo-riemannian-extended-systems
@@ -24,7 +26,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Z-Related Pitch-Class Sets
 
 ## Core Idea

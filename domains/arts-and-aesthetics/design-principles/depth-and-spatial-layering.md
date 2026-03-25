@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: positive-and-negative-space
   type: soft
+- id: depth-and-spatial-illusion-2d
+  type: soft
 builds-toward:
 - visual-hierarchy-structure
 - responsive-design-principles
@@ -21,7 +23,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Depth and Spatial Layering in Design
 
 ## Core Idea

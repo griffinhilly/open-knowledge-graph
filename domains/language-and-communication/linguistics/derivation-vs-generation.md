@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: phrase-structure-rules
   type: soft
+- id: acquisition-of-formal-systems
+  type: soft
+- id: computational-pragmatics
+  type: soft
 builds-toward:
 - constraint-based-phonology-formal
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Derivation Versus Generation in Formal Grammar
 
 ## Core Idea

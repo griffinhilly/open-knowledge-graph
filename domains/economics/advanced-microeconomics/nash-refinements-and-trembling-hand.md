@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mixed-strategy-equilibrium
   type: soft
+- id: nash-equilibrium-refinements
+  type: soft
 builds-toward:
 - bayesian-games
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Nash Refinements: Trembling Hand Perfection
 
 ## Core Idea

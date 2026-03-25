@@ -6,6 +6,8 @@ course: ancient-civilizations
 prerequisites:
 - id: zhou-dynasty-mandate-heaven
   type: hard
+- id: taoism-ancient-philosophy
+  type: soft
 tags:
 - china
 - confucianism
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Confucianism and Ancient Chinese Thought
 
 ## Core Idea

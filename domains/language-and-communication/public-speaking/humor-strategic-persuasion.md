@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rhetorical-devices-in-prose
   type: soft
+- id: credibility-development-trajectory
+  type: soft
 builds-toward:
 - stylistic-emphasis-devices-speech
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Humor as Strategic Persuasion
 
 ## Core Idea

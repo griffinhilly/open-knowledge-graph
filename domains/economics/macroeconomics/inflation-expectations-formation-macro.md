@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: inflation-and-price-level
   type: hard
+- id: real-interest-rate-and-fisher-equation
+  type: soft
+- id: central-bank-credibility-expectations
+  type: soft
+- id: inflation-dynamics-and-persistence
+  type: soft
+- id: hyperinflation-and-money-dynamics
+  type: soft
 builds-toward:
 - expectations-augmented-phillips-curve-modern
 tags:
@@ -17,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Inflation Expectations Formation
 
 ## Core Idea

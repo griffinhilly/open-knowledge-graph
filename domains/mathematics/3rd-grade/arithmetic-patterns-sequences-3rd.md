@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: arithmetic-patterns-3rd
   type: soft
+- id: odd-and-even-numbers-patterns-3rd
+  type: soft
 builds-toward:
 - arithmetic-sequences
 tags:

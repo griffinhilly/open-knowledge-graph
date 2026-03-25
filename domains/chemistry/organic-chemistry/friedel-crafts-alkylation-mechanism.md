@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: carbocation-stability-rearrangement
   type: hard
+- id: friedel-crafts-acylation-mechanism
+  type: soft
 builds-toward:
 - directed-electrophilic-aromatic-substitution
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Friedel-Crafts Alkylation Mechanism
 
 ## Core Idea

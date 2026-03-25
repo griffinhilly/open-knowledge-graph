@@ -6,6 +6,8 @@ course: aesthetic-theory
 prerequisites:
 - id: aesthetics-and-philosophy-of-art-intro
   type: hard
+- id: aesthetic-universalism-and-relativism
+  type: soft
 builds-toward:
 - kant-the-sublime
 - beauty-and-taste-in-aesthetic-tradition
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Kant's Critique of Judgment and Aesthetic Theory
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: radiation-from-accelerated-charges
   type: soft
+- id: gauss-law-applications
+  type: soft
 tags:
 - potentials
 - moving-charges
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Applications of Lienard-Wiechert Potentials
 
 ## Core Idea

@@ -8,7 +8,6 @@ prerequisites:
   type: soft
 builds-toward:
 - shap-lime
-- feature-importance
 tags:
 - interpretability
 - explainability

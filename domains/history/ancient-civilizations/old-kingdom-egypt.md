@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: egyptian-civilization
   type: hard
+- id: egyptian-pyramids-burial-monuments
+  type: soft
 builds-toward:
 - middle-kingdom-egypt
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Old Kingdom Egypt and the Pyramid Age
 
 ## Core Idea

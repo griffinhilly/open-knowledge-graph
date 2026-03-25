@@ -6,6 +6,8 @@ course: differential-equations
 prerequisites:
 - id: frobenius-method
   type: hard
+- id: bessel-functions
+  type: soft
 builds-toward:
 - fourier-series-definition
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Legendre Equations and Legendre Polynomials
 
 ## Core Idea

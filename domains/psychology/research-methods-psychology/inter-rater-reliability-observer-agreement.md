@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: operational-definitions
   type: soft
+- id: measurement-error-and-attenuation
+  type: soft
 builds-toward:
 - qualitative-data-analysis-coding-themes
 - qualitative-research-validity-trustworthiness
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Inter-Rater Reliability and Observer Agreement in Measurement
 
 ## Core Idea

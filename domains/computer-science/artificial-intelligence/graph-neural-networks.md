@@ -12,9 +12,6 @@ prerequisites:
   type: soft
 - id: graph-adjacency-list-matrix-representations
   type: soft
-builds-toward:
-- graph-convolutions
-- message-passing
 tags:
 - graph-neural-network
 - gnn

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: boundary-value-problems-em
   type: soft
+- id: resonant-cavities-em
+  type: soft
 tags:
 - cavities
 - resonators
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Cavity Resonators and Standing Wave Patterns
 
 ## Core Idea

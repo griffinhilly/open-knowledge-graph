@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: plate-boundary-convergent
   type: soft
+- id: thermal-contact-metamorphism
+  type: soft
 tags:
 - metamorphism
 - orogeny
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Regional Metamorphism and Orogenic Belts
 
 ## Core Idea

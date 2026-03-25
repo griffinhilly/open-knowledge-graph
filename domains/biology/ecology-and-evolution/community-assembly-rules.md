@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: competition-types-outcomes
   type: soft
+- id: community-assembly-rules-and-coexistence
+  type: soft
 builds-toward:
 - biodiversity-patterns-richness-evenness
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Community Assembly Rules and Metacommunity Dynamics
 
 ## Core Idea

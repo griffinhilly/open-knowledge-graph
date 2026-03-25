@@ -6,6 +6,8 @@ course: early-modern-period
 prerequisites:
 - id: indulgence-practices-controversy
   type: hard
+- id: calvin-reformed-theology-predestination
+  type: soft
 builds-toward:
 - confessionalization-religious-division
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Lutheran Theology and Salvation by Faith Alone
 
 ## Core Idea

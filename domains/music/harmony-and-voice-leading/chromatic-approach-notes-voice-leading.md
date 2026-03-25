@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: voice-leading-principles
   type: hard
+- id: chromatic-bass-line-structural-function
+  type: soft
+- id: augmented-sixth-chord-voice-leading-patterns
+  type: soft
 builds-toward:
 - enharmonic-chromatic-modulation
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Chromatic Approach Notes in Voice Leading
 
 ## Core Idea

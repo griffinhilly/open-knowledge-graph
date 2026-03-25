@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: stoichiometry-calculations
   type: hard
+- id: percent-yield-and-limiting-reagent-analysis
+  type: soft
 builds-toward:
 - percent-yield-calculations
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Limiting Reagent and Theoretical Yield
 
 ## Core Idea

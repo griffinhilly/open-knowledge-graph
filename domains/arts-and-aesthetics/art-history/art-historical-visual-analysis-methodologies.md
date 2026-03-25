@@ -6,6 +6,8 @@ course: art-history
 prerequisites:
 - id: close-reading-techniques
   type: soft
+- id: art-historical-interpretation-frameworks
+  type: soft
 builds-toward:
 - iconography-symbolism-and-religious-meaning
 - postmodern-art-and-contemporary-plurality

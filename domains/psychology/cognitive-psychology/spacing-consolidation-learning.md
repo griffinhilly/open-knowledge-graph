@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: memory-consolidation-systems
   type: hard
+- id: memory-reconsolidation-post-retrieval
+  type: soft
 builds-toward:
 - expertise-knowledge-reorganization
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Spacing Effect and Memory Consolidation
 
 ## Core Idea

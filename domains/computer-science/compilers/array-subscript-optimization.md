@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: data-dependence-analysis
   type: hard
+- id: escape-analysis
+  type: soft
+- id: alias-analysis
+  type: soft
+- id: loop-unrolling-optimization
+  type: soft
 builds-toward:
 - instruction-selection-techniques
 tags:
@@ -17,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Array Subscript Optimization
 
 ## Core Idea

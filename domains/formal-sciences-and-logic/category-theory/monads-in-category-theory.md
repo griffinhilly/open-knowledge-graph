@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: equivalence-relations
   type: soft
+- id: commutative-diagrams-in-categories
+  type: soft
+- id: tensor-products-categories
+  type: soft
 builds-toward:
 - algebras-over-a-monad
 tags:
@@ -27,7 +31,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Monads in Category Theory
 
 ## Core Idea

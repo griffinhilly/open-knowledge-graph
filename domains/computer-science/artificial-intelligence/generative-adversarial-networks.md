@@ -6,7 +6,7 @@ course: artificial-intelligence
 prerequisites:
 - id: neural-networks-intro
   type: hard
-- id: probability-distributions
+- id: discrete-random-variables
   type: soft
 - id: probability-axioms
   type: soft
@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: probability-density-functions-theory
   type: soft
+- id: deep-q-networks
+  type: soft
 tags:
 - deep-learning
 - generative-models
@@ -25,7 +27,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Generative Adversarial Networks
 
 ## Core Idea

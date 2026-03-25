@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: postcolonial-aesthetics
   type: soft
+- id: political-propaganda-art-history
+  type: soft
+- id: linear-perspective-renaissance
+  type: soft
 builds-toward:
 - gender-and-artistic-representation
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Colonial Art History and Postcolonial Perspectives
 
 ## Core Idea

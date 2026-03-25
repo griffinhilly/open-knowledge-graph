@@ -6,6 +6,8 @@ course: circuits-and-electronics
 prerequisites:
 - id: impedance-admittance-networks
   type: hard
+- id: frequency-response-Bode-plot-basics
+  type: soft
 builds-toward:
 - filter-design-specifications
 - feedback-control-fundamentals
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Frequency Response and Bode Plot Analysis
 
 ## Core Idea

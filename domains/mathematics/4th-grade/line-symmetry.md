@@ -4,15 +4,19 @@ title: Line Symmetry
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: points-lines-rays-segments
-    type: soft
+- id: points-lines-rays-segments
+  type: soft
+- id: line-symmetry-in-shapes-3rd
+  type: soft
 builds-toward:
-  - classifying-2d-shapes
-tags: [geometry, symmetry, shapes]
+- classifying-2d-shapes
+tags:
+- geometry
+- symmetry
+- shapes
 stage: concrete-operations
 status: validated
 ---
-
 # Line Symmetry
 
 ## Core Idea

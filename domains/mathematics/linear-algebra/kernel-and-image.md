@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rank-nullity-theorem
   type: hard
+- id: null-space
+  type: soft
 builds-toward:
 - linear-transformations-advanced
 - least-squares-approximation
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Kernel and Image of Linear Transformations
 
 ## Core Idea

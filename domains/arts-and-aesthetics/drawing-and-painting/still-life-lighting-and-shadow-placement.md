@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: directional-light-and-shadow-casting
   type: hard
+- id: spatial-relationships-in-still-life
+  type: soft
 tags:
 - still-life
 - light
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Still Life Lighting and Shadow Placement
 
 ## Core Idea

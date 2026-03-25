@@ -8,6 +8,16 @@ prerequisites:
   type: hard
 - id: multilevel-feedback-queue-scheduling
   type: soft
+- id: priority-scheduling-inversion
+  type: soft
+- id: thread-scheduling-coordination
+  type: soft
+- id: scheduling-fairness-and-starvation
+  type: soft
+- id: disk-scheduling
+  type: soft
+- id: processor-affinity-and-cpu-binding
+  type: soft
 tags:
 - scheduling
 - real-time
@@ -15,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Real-Time Scheduling Algorithms
 
 ## Core Idea

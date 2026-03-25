@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: chemical-equilibrium
   type: hard
+- id: pteropod-ocean-acidification-indicator
+  type: soft
+- id: ocean-acidification-larval-development
+  type: soft
 builds-toward:
 - ocean-acidification
 - coral-reef-ecosystems
@@ -26,7 +30,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Ocean Carbonate Equilibrium and Acidification
 
 ## Core Idea

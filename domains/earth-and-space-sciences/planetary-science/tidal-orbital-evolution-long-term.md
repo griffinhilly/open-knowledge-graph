@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: orbital-mechanics
   type: soft
+- id: satellite-tidal-evolution
+  type: soft
 builds-toward:
 - thermal-evolution-terrestrial-planets
 - resonance-heating-icy-bodies
@@ -21,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Tidal Evolution and Long-Term Orbital Decay
 
 ## Core Idea

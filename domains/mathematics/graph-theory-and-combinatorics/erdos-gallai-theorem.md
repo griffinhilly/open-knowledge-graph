@@ -6,6 +6,8 @@ course: graph-theory-and-combinatorics
 prerequisites:
 - id: degree-sequences
   type: hard
+- id: degree-sequences-erdos-gallai
+  type: soft
 tags:
 - graph-theory
 - degree-sequences
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Erdős-Gallai Theorem
 
 ## Core Idea

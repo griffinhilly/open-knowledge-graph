@@ -6,6 +6,8 @@ course: analytical-chemistry
 prerequisites:
 - id: solid-phase-extraction
   type: hard
+- id: separation-science-fundamentals
+  type: soft
 tags:
 - SPE
 - sample preparation
@@ -13,7 +15,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Solid-Phase Extraction Practice and Applications
 
 ## Core Idea

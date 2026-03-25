@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: seismic-body-waves-p-and-s
   type: hard
+- id: seismic-refraction-surveys
+  type: soft
+- id: seismic-velocity-density-relationships
+  type: soft
 builds-toward:
 - seismic-tomography-velocity-imaging
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Crustal Velocity Structure and Seismic Layering
 
 ## Core Idea

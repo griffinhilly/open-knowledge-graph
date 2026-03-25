@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: theory-of-mind-development
   type: soft
+- id: pubertal-development-and-timing-effects
+  type: soft
 builds-toward:
 - identity-development-adolescence
 tags:

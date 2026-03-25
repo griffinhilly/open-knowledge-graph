@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: social-history-approach
   type: soft
+- id: lived-experience-social-history
+  type: soft
 tags:
 - local-history
 - community
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Local and Community History Approaches
 
 ## Core Idea

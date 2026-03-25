@@ -6,6 +6,8 @@ course: theory-of-computation
 prerequisites:
 - id: pumping-lemma-for-regular-languages
   type: hard
+- id: limitations-of-context-free
+  type: soft
 builds-toward:
 - context-free-grammars
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Limitations of Finite Automata and Non-Regular Languages
 
 ## Core Idea

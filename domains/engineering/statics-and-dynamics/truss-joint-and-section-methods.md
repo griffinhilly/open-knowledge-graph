@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: truss-method-of-sections
   type: soft
+- id: method-of-sections-detailed
+  type: soft
 builds-toward:
 - truss-applications-and-design
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Truss Analysis: Joint and Section Methods
 
 ## Core Idea

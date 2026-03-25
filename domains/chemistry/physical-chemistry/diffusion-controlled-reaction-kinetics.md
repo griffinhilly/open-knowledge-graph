@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: soft
+- id: autocatalytic-reactions-mechanisms
+  type: soft
 builds-toward:
 - bimolecular-collision-dynamics-trajectory
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Diffusion-Controlled Reaction Kinetics
 
 ## Core Idea

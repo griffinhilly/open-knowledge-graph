@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: user-centered-design-thinking
   type: soft
+- id: progressive-disclosure-in-design
+  type: soft
 builds-toward:
 - user-experience-fundamentals
 - minimalism-and-reduction-in-design
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Cognitive Load and Complexity in Design
 
 ## Core Idea

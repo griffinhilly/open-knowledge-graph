@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: color-temperature
   type: soft
+- id: color-palette-mixing
+  type: soft
 builds-toward:
 - watercolor-wet-techniques-and-transparency
 - oil-and-acrylic-painting-fundamentals
@@ -22,7 +24,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Color Mixing and Palette Management
 
 ## Core Idea

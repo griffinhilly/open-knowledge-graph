@@ -12,13 +12,10 @@ prerequisites:
   type: soft
 - id: markov-chains
   type: soft
-- id: calculus
-  type: soft
-- id: moving-averages-exponential-smoothing
+- id: derivative-as-slope-of-tangent
   type: soft
 builds-toward:
-- temporal-dependencies
-- seq2seq-models
+- sequence-to-sequence-models
 tags:
 - time-series
 - forecasting

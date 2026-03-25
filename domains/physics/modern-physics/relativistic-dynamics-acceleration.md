@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mass-energy-equivalence
   type: hard
+- id: relativistic-doppler-shift
+  type: soft
 builds-toward:
 - four-momentum-energy-conservation
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Relativistic Dynamics and Acceleration
 
 ## Core Idea

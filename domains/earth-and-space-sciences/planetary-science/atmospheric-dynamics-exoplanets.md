@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: atmospheric-circulation-planets
   type: hard
+- id: ring-particle-dynamics
+  type: soft
 tags:
 - exoplanet-atmospheres
 - dynamics
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Atmospheric Dynamics on Exoplanets
 
 ## Core Idea

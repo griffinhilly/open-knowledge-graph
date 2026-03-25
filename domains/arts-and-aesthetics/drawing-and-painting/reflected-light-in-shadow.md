@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: value-and-tone
   type: hard
+- id: cast-shadows-and-form-shadows
+  type: soft
+- id: drapery-and-fabric-drawing
+  type: soft
+- id: lost-and-found-edges
+  type: soft
 builds-toward:
 - chiaroscuro
 tags:
@@ -18,7 +24,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Reflected Light in Shadow
 
 ## Core Idea

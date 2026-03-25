@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: isostasy-and-crustal-balance
   type: soft
+- id: giant-impact-hypothesis
+  type: soft
 builds-toward:
 - impact-induced-outgassing
 - thermal-evolution-terrestrial-planets
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Large Impact Basin Formation and Deep Structural Response
 
 ## Core Idea

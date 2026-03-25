@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: color-theory-in-design
   type: soft
+- id: accessibility-inclusive-design-principles
+  type: soft
+- id: color-psychology-and-association
+  type: soft
 builds-toward:
 - responsive-design-principles
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Color Accessibility and WCAG Guidelines
 
 ## Core Idea

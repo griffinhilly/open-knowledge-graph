@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: diatonic-chord-quality-ear
   type: soft
+- id: suspension-identification-ear
+  type: soft
+- id: dominant-seventh-chord-unique-quality
+  type: soft
 builds-toward:
 - extended-chord-ear-training
 - secondary-dominants-ear
@@ -25,7 +29,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Seventh Chord Identification by Ear
 
 ## Core Idea

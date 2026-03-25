@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: bgp-border-gateway-protocol
   type: hard
+- id: bgp-route-filtering-hijacking-prevention
+  type: soft
 builds-toward:
 - network-standards-and-ietf
 - network-management-and-monitoring
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Routing Convergence, Flapping, and Damping
 
 ## Core Idea

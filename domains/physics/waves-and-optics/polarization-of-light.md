@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: electromagnetic-spectrum
   type: soft
+- id: polarization-production-and-analysis
+  type: soft
+- id: fiber-optics-and-waveguides
+  type: soft
 builds-toward:
 - malus-law
 tags:

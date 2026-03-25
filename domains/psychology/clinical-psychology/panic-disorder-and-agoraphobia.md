@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: amygdala-emotion
   type: soft
+- id: social-anxiety-disorder
+  type: soft
 builds-toward:
 - exposure-therapy-and-cbt
 - antidepressant-medications-ssris
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Panic Disorder and Agoraphobia
 
 ## Core Idea

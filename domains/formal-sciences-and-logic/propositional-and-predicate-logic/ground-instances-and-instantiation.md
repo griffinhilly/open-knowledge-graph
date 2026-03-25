@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: clausal-form-conversion
   type: soft
+- id: variable-substitution-capture-avoidance
+  type: soft
 builds-toward:
 - counterexample-and-refutation
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Ground Instances and Variable Instantiation
 
 ## Core Idea

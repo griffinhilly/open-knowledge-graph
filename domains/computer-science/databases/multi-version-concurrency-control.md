@@ -6,6 +6,10 @@ course: databases
 prerequisites:
 - id: concurrency-control-databases
   type: hard
+- id: optimistic-concurrency-control
+  type: soft
+- id: pessimistic-concurrency-control
+  type: soft
 tags:
 - concurrency
 - mvcc
@@ -13,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Multi-Version Concurrency Control (MVCC)
 
 ## Core Idea

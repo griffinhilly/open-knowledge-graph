@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: multiplication-equal-groups-3rd
   type: hard
+- id: fact-families-multiplication-and-division-3rd
+  type: soft
+- id: estimation-multiplication-division
+  type: soft
 builds-toward:
 - division-facts-within-100
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Division as the Inverse of Multiplication
 
 ## Core Idea

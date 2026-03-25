@@ -6,6 +6,8 @@ course: research-methods-psychology
 prerequisites:
 - id: scientific-method-psychology
   type: soft
+- id: ethical-oversight-transparency-integrity
+  type: soft
 builds-toward:
 - descriptive-research-methods
 - experimental-research-design
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ethics in Psychological Research
 
 ## Core Idea

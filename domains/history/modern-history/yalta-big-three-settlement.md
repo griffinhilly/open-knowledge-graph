@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: operation-barbarossa-eastern-struggle
   type: soft
+- id: league-of-nations-collective-security
+  type: soft
 builds-toward:
 - potsdam-occupation-reparations
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Yalta Conference and the Big Three Settlement
 
 ## Core Idea

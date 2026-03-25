@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: haloalkane-structure-nomenclature
   type: hard
+- id: walden-inversion-stereochemistry
+  type: soft
 builds-toward:
 - competing-substitution-and-elimination
 - williamson-ether-synthesis-sn2
@@ -23,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # SN2 Mechanism, Kinetics, and Factors Affecting Reactivity
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: stereotyping-and-implicit-bias
   type: soft
+- id: exposure-therapy-and-cbt
+  type: soft
+- id: obsessive-compulsive-disorder
+  type: soft
 builds-toward:
 - cognitive-behavioral-therapy-cbt
 - exposure-therapy-and-cbt
@@ -17,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Social Anxiety Disorder
 
 ## Core Idea

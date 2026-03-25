@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cognitive-load-theory
   type: soft
+- id: working-memory-resource-allocation
+  type: soft
 builds-toward:
 - expert-cognition-knowledge-organization
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Working Memory Capacity and Chunking
 
 ## Core Idea

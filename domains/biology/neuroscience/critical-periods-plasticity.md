@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: myelin-and-myelination
   type: soft
+- id: adult-neurogenesis
+  type: soft
 builds-toward:
 - sensory-system-development
 - learning-windows
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Critical Periods and Neural Plasticity
 
 ## Core Idea

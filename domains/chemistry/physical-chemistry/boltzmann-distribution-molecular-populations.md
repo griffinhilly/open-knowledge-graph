@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: exponential-distribution
   type: soft
+- id: kinetic-molecular-distribution-speeds
+  type: soft
+- id: gibbs-energy-molecular-basis
+  type: soft
+- id: van-der-waals-equation-of-state-advanced
+  type: soft
 builds-toward:
 - partition-function-thermodynamic-properties
 tags:
@@ -19,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Boltzmann Distribution and Molecular Populations
 
 ## Core Idea

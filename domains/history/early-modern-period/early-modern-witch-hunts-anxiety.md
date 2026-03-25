@@ -6,6 +6,8 @@ course: early-modern-period
 prerequisites:
 - id: early-modern-witchcraft-persecutions
   type: hard
+- id: early-modern-gender-and-family-relations
+  type: soft
 tags:
 - witch-hunts
 - gender
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Witch Hunts and Early Modern Social Anxiety
 
 ## Core Idea

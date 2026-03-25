@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: endogenous-growth-theory
   type: soft
+- id: technological-progress-and-productivity
+  type: soft
+- id: growth-accounting-decomposition
+  type: soft
 tags:
 - productivity
 - growth
@@ -15,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Total Factor Productivity and the Sources of Growth
 
 ## Core Idea

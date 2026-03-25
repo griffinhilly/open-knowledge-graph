@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: instrumental-variables
   type: hard
+- id: dynamic-panel-arellano-bond-estimator
+  type: soft
 builds-toward:
 - vector-autoregression-models
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Dynamic Panel Models and System GMM Estimation
 
 ## Core Idea

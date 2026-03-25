@@ -10,6 +10,16 @@ prerequisites:
   type: hard
 - id: dominant-seventh-function-resolution
   type: soft
+- id: chromatic-approach-notes-voice-leading
+  type: soft
+- id: chromatic-approach-voice-leading
+  type: soft
+- id: voice-leading-error-recognition-and-correction
+  type: soft
+- id: cadential-six-four-harmonic-function
+  type: soft
+- id: augmented-sixth-chord-voice-leading-patterns
+  type: soft
 builds-toward:
 - applied-chord-tonicization-process
 tags:
@@ -19,7 +29,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Secondary Dominant Voice Leading
 
 ## Core Idea

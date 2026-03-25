@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: logical-fallacies
   type: soft
+- id: argument-from-example
+  type: soft
 tags:
 - argumentation
 - evidence
@@ -15,7 +17,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Argument From Authority
 
 ## Core Idea

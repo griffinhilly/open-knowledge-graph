@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: probability-axioms
   type: soft
-- id: sampling
+- id: sampling-methods
   type: soft
 - id: statistics-descriptive
   type: soft

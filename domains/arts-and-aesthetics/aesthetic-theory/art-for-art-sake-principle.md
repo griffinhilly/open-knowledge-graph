@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: kant-disinterest-aesthetics
   type: hard
+- id: aesthetic-autonomy-thesis
+  type: soft
 builds-toward:
 - bell-significant-form
 - greenberg-modernism-criticism
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Art for Art's Sake: The Autonomy of Aesthetic Form
 
 ## Core Idea

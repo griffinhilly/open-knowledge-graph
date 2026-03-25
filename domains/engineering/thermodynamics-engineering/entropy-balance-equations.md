@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: second-law-of-thermodynamics
   type: hard
+- id: exergy-destruction-irreversibility
+  type: soft
 builds-toward:
 - second-law-analysis-practical
 - availability-exergy-analysis-systems
@@ -23,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Entropy Balance and Irreversibility Analysis
 
 ## Core Idea

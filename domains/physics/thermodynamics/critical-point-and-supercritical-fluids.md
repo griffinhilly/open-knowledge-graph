@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: phase-diagrams
   type: soft
+- id: phase-diagrams-thermodynamics
+  type: soft
+- id: critical-point-phenomena
+  type: soft
 tags:
 - critical-point
 - phase-diagram
@@ -15,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Critical Point and Supercritical Fluids
 
 ## Core Idea

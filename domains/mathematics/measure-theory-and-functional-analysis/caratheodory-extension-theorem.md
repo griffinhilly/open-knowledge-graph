@@ -6,6 +6,8 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: outer-measure-definition
   type: hard
+- id: outer-measure
+  type: soft
 builds-toward:
 - lebesgue-outer-measure
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Carathéodory's Extension Theorem
 
 ## Core Idea

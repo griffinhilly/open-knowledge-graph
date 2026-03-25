@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: equilibrium-expression-kc-kp-constants
   type: hard
+- id: reaction-quotient-q
+  type: soft
 builds-toward:
 - le-chatelier-principle-applications
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Reaction Quotient (Q) and Equilibrium Direction
 
 ## Core Idea

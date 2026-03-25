@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: major-minor-tonality-identification
   type: soft
+- id: interval-inversion-recognition
+  type: soft
 builds-toward:
 - improvisation-frameworks
 - jazz-reharmonization-substitution
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Transposition Recognition by Ear
 
 ## Core Idea

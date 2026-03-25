@@ -6,6 +6,8 @@ course: modern-physics
 prerequisites:
 - id: nuclear-structure
   type: hard
+- id: gamma-emission-nuclear-transitions
+  type: soft
 builds-toward:
 - binding-energy-stability-curve
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # The Strong Nuclear Force
 
 ## Core Idea

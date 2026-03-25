@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: baroque-counterpoint-and-fugue
   type: soft
+- id: medieval-vocal-music-forms
+  type: soft
+- id: renaissance-compositional-techniques
+  type: soft
 tags:
 - form
 - baroque
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Fugue and Baroque Polyphony Peak
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: just-world-hypothesis-belief
   type: soft
+- id: system-justification-belief
+  type: soft
 builds-toward:
 - social-dominance-orientation
 - authoritarianism-and-prejudice
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # System Justification and Ideological Reasoning
 
 ## Core Idea

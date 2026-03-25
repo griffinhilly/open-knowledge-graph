@@ -9,7 +9,7 @@ prerequisites:
 - id: memory-bus-interconnect
   type: soft
 builds-toward:
-- memory-hierarchy-design
+- memory-hierarchy-overview
 tags:
 - dram
 - memory-design

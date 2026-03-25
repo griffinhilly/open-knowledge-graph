@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 builds-toward:
 - multi-cycle-processor-design
-- instruction-level-parallelism
+- pipelining-fundamentals
 tags:
 - processor-design
 - single-cycle

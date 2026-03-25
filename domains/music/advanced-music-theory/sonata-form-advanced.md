@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: roman-numeral-analysis
   type: hard
+- id: variation-form-analysis
+  type: soft
 builds-toward:
 - cyclic-form-unity
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Sonata Form: Advanced Analysis
 
 ## Core Idea

@@ -6,13 +6,14 @@ course: graph-theory-and-combinatorics
 prerequisites:
 - id: graph-coloring
   type: hard
+- id: brooks-theorem
+  type: soft
 tags:
 - graph-theory
 - coloring
 stage: formal-systems
 status: validated
 ---
-
 # List Coloring and Choosability
 
 ## Core Idea

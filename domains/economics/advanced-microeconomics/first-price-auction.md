@@ -6,6 +6,10 @@ course: advanced-microeconomics
 prerequisites:
 - id: auction-theory
   type: hard
+- id: auction-formats-and-equivalence
+  type: soft
+- id: first-price-second-price-auctions
+  type: soft
 tags:
 - auctions
 - bidding
@@ -13,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # First-Price Sealed-Bid Auction
 
 ## Core Idea

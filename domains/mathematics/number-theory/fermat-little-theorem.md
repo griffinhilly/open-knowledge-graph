@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: group-definition-and-examples
   type: soft
+- id: wilson-theorem
+  type: soft
 builds-toward:
 - euler-theorem
 - rsa-cryptography
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Fermat's Little Theorem
 
 ## Core Idea

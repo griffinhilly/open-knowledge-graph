@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: spectroscopic-instrumentation
   type: hard
+- id: molecular-spectroscopy-structure-determination
+  type: soft
 builds-toward:
 - structure-elucidation-using-ir-nmr-and-ms
 - forensic-evidence-analytical-methods
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Hyphenated Analytical Techniques
 
 ## Core Idea

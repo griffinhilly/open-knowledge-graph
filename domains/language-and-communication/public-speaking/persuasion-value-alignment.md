@@ -8,8 +8,10 @@ prerequisites:
   type: hard
 - id: audience-psychology-persuasion
   type: soft
+- id: audience-cultural-values-persuasion
+  type: soft
 builds-toward:
-  - persuasive-speech-design
+- persuasive-speech-design
 tags:
 - persuasion
 - values

@@ -6,6 +6,8 @@ course: 3rd-grade
 prerequisites:
 - id: division-equal-sharing-2nd
   type: hard
+- id: two-digit-by-one-digit-division
+  type: soft
 builds-toward:
 - division-facts-within-100-3rd
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Division with Remainders
 
 ## Core Idea

@@ -12,8 +12,10 @@ prerequisites:
   type: soft
 - id: critical-points-extrema
   type: soft
+- id: genetic-algorithms
+  type: soft
 builds-toward:
-- training-neural-networks
+- backpropagation
 - hyperparameter-optimization
 tags:
 - optimization
@@ -23,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Optimization Algorithms: SGD, Adam, RMSprop
 
 ## Core Idea

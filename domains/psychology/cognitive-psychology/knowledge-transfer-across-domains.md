@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: analogical-reasoning-cognitive
   type: hard
+- id: analogical-mapping-abstraction
+  type: soft
 builds-toward:
 - expert-cognition-knowledge-organization
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Knowledge Transfer and Domain Generalization
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: group-definition-and-examples
   type: soft
+- id: primitive-roots-and-cyclic-groups-mod-p
+  type: soft
 builds-toward:
 - discrete-logarithms
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Primitive Roots and Cyclic Groups Mod p
 
 ## Core Idea

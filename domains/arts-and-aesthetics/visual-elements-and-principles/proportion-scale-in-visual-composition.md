@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: emphasis-establishing-focal-points
   type: soft
+- id: proportion-and-scale-relationships
+  type: soft
 builds-toward:
 - proportion-and-scale
 - proportion-and-human-perception-preference
@@ -21,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Proportion and Scale in Visual Composition
 
 ## Core Idea

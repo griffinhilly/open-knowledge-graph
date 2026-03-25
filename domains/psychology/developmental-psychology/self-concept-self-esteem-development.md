@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: egocentrism-perspective-taking-development
   type: soft
+- id: self-concept-and-self-esteem-development-developmental-psychology
+  type: soft
 builds-toward:
 - adolescent-identity-exploration-commitment
 - gender-identity-socialization-development
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Self-Concept and Self-Esteem Development Across Childhood
 
 ## Core Idea

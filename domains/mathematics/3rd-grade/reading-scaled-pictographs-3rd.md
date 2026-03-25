@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: collecting-and-organizing-data-3rd
   type: soft
+- id: line-plots-with-measurement-3rd
+  type: soft
 builds-toward:
 - data-analysis-and-interpretation
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Reading and Creating Scaled Pictographs
 
 ## Core Idea

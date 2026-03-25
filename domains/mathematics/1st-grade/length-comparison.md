@@ -6,13 +6,14 @@ course: 1st-grade
 prerequisites:
 - id: comparing-and-ordering-integers
   type: soft
+- id: comparing-and-measuring-lengths
+  type: soft
 tags:
 - measurement
 - comparison
 stage: concrete-operations
 status: validated
 ---
-
 # Length Comparison
 
 ## Core Idea

@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: transcription
   type: soft
+- id: major-evolutionary-innovations
+  type: soft
+- id: evolutionary-trade-offs
+  type: soft
+- id: exaptation
+  type: soft
 builds-toward:
 - evo-developmental-modules
 - phenotypic-evolution
@@ -21,7 +27,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Evolution of Gene Regulation and Cis-Elements
 
 ## Core Idea

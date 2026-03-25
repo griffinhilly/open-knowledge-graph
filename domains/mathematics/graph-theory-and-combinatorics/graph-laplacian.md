@@ -6,6 +6,8 @@ course: graph-theory-and-combinatorics
 prerequisites:
 - id: adjacency-matrix
   type: hard
+- id: graph-laplacian-spectrum
+  type: soft
 builds-toward:
 - matrix-tree-theorem
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Graph Laplacian and Spectral Properties
 
 ## Core Idea

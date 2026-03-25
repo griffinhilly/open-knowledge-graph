@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ordinal-arithmetic
   type: soft
+- id: ordinal-addition-multiplication
+  type: soft
 builds-toward:
 - transfinite-induction
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ordinal Arithmetic, Multiplication, and Exponentiation
 
 ## Core Idea

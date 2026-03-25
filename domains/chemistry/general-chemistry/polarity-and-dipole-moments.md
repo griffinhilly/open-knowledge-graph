@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: molecular-geometry-prediction
   type: hard
+- id: polar-covalent-bonds-and-dipoles
+  type: soft
 builds-toward:
 - intermolecular-forces-overview
 - solution-properties
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Molecular Polarity and Dipole Moments
 
 ## Core Idea

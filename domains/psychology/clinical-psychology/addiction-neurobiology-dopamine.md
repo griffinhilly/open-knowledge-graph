@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: dopamine-system
   type: soft
+- id: addiction-neurobiology
+  type: soft
+- id: antipsychotic-medications
+  type: soft
 tags:
 - addiction
 - neurobiology
@@ -21,7 +25,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Neurobiological Mechanisms of Addiction
 
 ## Core Idea

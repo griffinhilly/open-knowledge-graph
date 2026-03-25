@@ -6,6 +6,8 @@ course: probability-and-statistics
 prerequisites:
 - id: continuous-random-variables
   type: hard
+- id: geometric-distribution-properties
+  type: soft
 tags:
 - exponential
 - waiting-time
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Exponential Distribution
 
 ## Core Idea

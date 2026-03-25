@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: lalr-grammar-construction
   type: soft
+- id: lexical-error-handling-reporting
+  type: soft
 builds-toward:
 - semantic-analysis
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Syntax Error Recovery Techniques
 
 ## Core Idea

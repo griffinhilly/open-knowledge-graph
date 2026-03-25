@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: multiplication-facts-within-100
   type: hard
+- id: division-facts-as-inverse-multiplication
+  type: soft
 builds-toward:
 - multi-digit-division
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Division Facts within 100
 
 ## Core Idea

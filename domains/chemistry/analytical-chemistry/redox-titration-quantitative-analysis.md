@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: electrochemistry-nernst-equation
   type: soft
+- id: acid-base-titration-quantitative-analysis
+  type: soft
 builds-toward:
 - analytical-method-validation-core-parameters
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Redox Titration: Quantitative Determination
 
 ## Core Idea

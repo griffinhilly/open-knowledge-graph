@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: motor-cortex
   type: soft
+- id: cerebellum-coordination-learning
+  type: soft
+- id: primary-sensory-cortex-somatotopy
+  type: soft
 builds-toward:
 - motor-planning-premotor-cortex
 - basal-ganglia-selection-habits
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Primary Motor Cortex and Motor Representation
 
 ## Core Idea

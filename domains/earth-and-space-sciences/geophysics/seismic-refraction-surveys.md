@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: elastic-wave-propagation-in-solids
   type: hard
+- id: seismic-reflection-surveys
+  type: soft
 builds-toward:
 - seismic-reflection-surveys
 - near-surface-geophysics-methods
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Seismic Refraction Surveys and Interpretation
 
 ## Core Idea

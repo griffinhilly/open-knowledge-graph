@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: multiplication-word-problems
   type: soft
+- id: multi-step-word-problems-mixed-operations-3rd
+  type: soft
+- id: remainders-and-quotients-3rd
+  type: soft
 builds-toward:
 - multi-step-word-problems-3rd
 - intro-to-long-division
@@ -18,7 +22,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Division Word Problems
 
 ## Core Idea

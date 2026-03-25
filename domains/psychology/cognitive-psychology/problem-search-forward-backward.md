@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: constraint-satisfaction-problems
   type: hard
+- id: constraint-satisfaction-problems-cognitive-psychology
+  type: soft
 builds-toward:
 - problem-solving-strategies
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Forward and Backward Search Strategies in Problem Solving
 
 ## Core Idea

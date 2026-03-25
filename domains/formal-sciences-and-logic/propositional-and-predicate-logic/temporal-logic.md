@@ -6,6 +6,10 @@ course: propositional-and-predicate-logic
 prerequisites:
 - id: modal-logic-intro
   type: hard
+- id: finitary-vs-infinitary-logic
+  type: soft
+- id: boolean-algebra-propositional
+  type: soft
 builds-toward: []
 tags:
 - temporal-logic
@@ -17,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Temporal Logic
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: electronic-transitions-excited-states
   type: soft
+- id: fluorescence-spectroscopy-analysis
+  type: soft
+- id: atomic-emission-spectroscopy-icp-oes
+  type: soft
 tags:
 - fluorescence
 - luminescence
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Fluorescence Spectroscopy: Quantitative Methods
 
 ## Core Idea

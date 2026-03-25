@@ -6,13 +6,16 @@ course: quantum-mechanics
 prerequisites:
 - id: fermions-and-bosons
   type: hard
+- id: identical-particles-exchange
+  type: soft
+- id: exchange-symmetry
+  type: soft
 tags:
 - identical-particles
 - antisymmetry
 stage: advanced
 status: validated
 ---
-
 # Slater Determinants
 
 ## Core Idea

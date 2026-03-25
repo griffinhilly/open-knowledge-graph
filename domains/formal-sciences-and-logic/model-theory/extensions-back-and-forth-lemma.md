@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ehrenfeucht-fraisse-games-equivalence
   type: soft
+- id: back-and-forth-method-variants
+  type: soft
 builds-toward:
 - homogeneous-models-realization
 - automorphism-groups-of-models
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Extension Lemmas and Back-and-Forth Methods
 
 ## Core Idea

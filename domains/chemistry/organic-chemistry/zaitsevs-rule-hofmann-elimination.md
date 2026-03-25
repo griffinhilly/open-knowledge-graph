@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: alkene-structure-and-nomenclature
   type: soft
+- id: zaitsev-hofmann-elimination-selectivity
+  type: soft
 tags:
 - regioselectivity
 - elimination
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Zaitsev's Rule and Hofmann Elimination
 
 ## Core Idea

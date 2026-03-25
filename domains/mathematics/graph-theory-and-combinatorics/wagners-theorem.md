@@ -6,6 +6,12 @@ course: graph-theory-and-combinatorics
 prerequisites:
 - id: kuratowskis-theorem
   type: hard
+- id: vizings-theorem
+  type: soft
+- id: graph-minors
+  type: soft
+- id: turan-theorem
+  type: soft
 builds-toward:
 - graph-minors
 tags:
@@ -15,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Wagner's Theorem
 
 ## Core Idea

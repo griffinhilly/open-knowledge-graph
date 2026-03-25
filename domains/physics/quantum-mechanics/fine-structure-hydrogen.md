@@ -8,13 +8,14 @@ prerequisites:
   type: hard
 - id: spin-angular-momentum
   type: hard
+- id: dirac-equation
+  type: soft
 tags:
 - fine-structure
 - relativistic
 stage: advanced
 status: validated
 ---
-
 # Fine Structure and Relativistic Corrections
 
 ## Core Idea

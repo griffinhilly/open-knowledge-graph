@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: continuity-topological-spaces
   type: hard
+- id: homotopy-definition
+  type: soft
 builds-toward:
 - fundamental-group-definition
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Homotopy of Paths
 
 ## Core Idea

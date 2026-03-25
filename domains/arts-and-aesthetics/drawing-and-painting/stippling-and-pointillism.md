@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: value-and-tone
   type: hard
+- id: hatching-and-cross-hatching
+  type: soft
 builds-toward:
 - observational-drawing-practice
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Stippling and Pointillism
 
 ## Core Idea

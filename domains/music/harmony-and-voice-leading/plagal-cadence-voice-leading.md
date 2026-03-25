@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: diatonic-chords-major-minor-keys
   type: soft
+- id: cadential-voice-leading-patterns
+  type: soft
 builds-toward:
 - voice-leading-form-structure-relationship
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Plagal Cadence Voice Leading: IV to I
 
 ## Core Idea

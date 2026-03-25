@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: partition-function-definition
   type: soft
+- id: debye-model-lattice-dynamics
+  type: soft
 builds-toward:
 - einstein-model-solids
 - debye-temperature
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Debye Model of Solids
 
 ## Core Idea

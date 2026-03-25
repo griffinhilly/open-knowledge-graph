@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: variables-in-psychology
   type: soft
+- id: construct-validity-and-measurement
+  type: soft
 builds-toward:
 - measurement-standardization-procedural-fidelity
 - qualitative-research-validity-trustworthiness
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Construct Validity and Operationalization of Psychological Constructs
 
 ## Core Idea

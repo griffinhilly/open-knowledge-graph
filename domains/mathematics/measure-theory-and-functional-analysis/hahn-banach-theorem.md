@@ -6,6 +6,10 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: linear-functionals-dual-spaces
   type: hard
+- id: closed-graph-theorem
+  type: soft
+- id: uniform-boundedness-principle
+  type: soft
 builds-toward:
 - weak-convergence-banach
 tags:
@@ -13,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Hahn-Banach Theorem
 
 ## Core Idea

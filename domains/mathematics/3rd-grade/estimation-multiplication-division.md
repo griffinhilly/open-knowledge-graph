@@ -6,6 +6,8 @@ course: 3rd-grade
 prerequisites:
 - id: rounding-nearest-ten-3rd
   type: hard
+- id: estimation-products-3rd
+  type: soft
 builds-toward:
 - estimation-in-multiplication
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Estimation in Multiplication and Division
 
 ## Core Idea

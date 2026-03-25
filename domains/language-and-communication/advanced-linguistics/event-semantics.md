@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: argument-structure-thematic-roles
   type: hard
+- id: type-theory-semantics
+  type: soft
 tags:
 - events
 - argument-structure
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Event Semantics
 
 ## Core Idea

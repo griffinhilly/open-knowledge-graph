@@ -6,6 +6,8 @@ course: art-history
 prerequisites:
 - id: dramatic-structure
   type: soft
+- id: rococo-art-and-elegance
+  type: soft
 builds-toward:
 - neoclassicism-and-romanticism
 tags:

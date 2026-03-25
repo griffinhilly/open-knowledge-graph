@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: logic-gates-fundamentals
   type: hard
+- id: carry-lookahead-adder-design
+  type: soft
 builds-toward:
 - full-adder-and-carry-logic
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Half Adder Circuit Design
 
 ## Core Idea

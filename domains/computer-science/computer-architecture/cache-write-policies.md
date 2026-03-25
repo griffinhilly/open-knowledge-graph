@@ -6,6 +6,8 @@ course: computer-architecture
 prerequisites:
 - id: cache-memory-design
   type: hard
+- id: cache-line-and-offset
+  type: soft
 builds-toward:
 - cache-coherence-protocols
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Cache Write-Through and Write-Back Policies
 
 ## Core Idea

@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: tense-aspect-formal-semantics
   type: soft
+- id: viewpoint-aspect-perfective-imperfective
+  type: soft
+- id: event-semantics-formal
+  type: soft
+- id: syntax-semantics-interface-formal
+  type: soft
+- id: scope-and-binding-formally
+  type: soft
 tags:
 - semantics
 - tense
@@ -15,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Formal Semantics of Tense and Time
 
 ## Core Idea

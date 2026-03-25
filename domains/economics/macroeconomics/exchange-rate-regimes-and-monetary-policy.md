@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: mundell-fleming-open-economy
   type: soft
+- id: stagflation-and-conflicting-policy
+  type: soft
 builds-toward:
 - fiscal-dominance-vs-monetary-independence
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Exchange Rate Regimes and Monetary Policy
 
 ## Core Idea

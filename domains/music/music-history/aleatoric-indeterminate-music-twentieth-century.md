@@ -8,6 +8,24 @@ prerequisites:
   type: hard
 - id: contemporary-compositional-approaches
   type: soft
+- id: film-music-and-multimedia-traditions
+  type: soft
+- id: modernist-compositional-strategies
+  type: soft
+- id: popular-music-and-mass-media
+  type: soft
+- id: folk-traditions-and-art-music
+  type: soft
+- id: electronic-music-emergence-and-synthesis
+  type: soft
+- id: global-music-systems-and-exchange
+  type: soft
+- id: popular-music-genres-20th-century
+  type: soft
+- id: postmodern-and-contemporary-music
+  type: soft
+- id: world-music-traditions-context
+  type: soft
 tags:
 - 20th-century
 - avant-garde
@@ -17,7 +35,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Aleatoric and Indeterminate Music in Twentieth Century
 
 ## Core Idea

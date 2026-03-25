@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: adding-integers
   type: soft
+- id: ones-complement-representation
+  type: soft
+- id: sign-magnitude-encoding
+  type: soft
+- id: fixed-point-number-representation
+  type: soft
 builds-toward:
 - binary-adders
 - arithmetic-logic-unit
@@ -22,7 +28,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Two's Complement Representation
 
 ## Core Idea

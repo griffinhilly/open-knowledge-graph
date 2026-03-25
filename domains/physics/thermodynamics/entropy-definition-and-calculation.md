@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: logarithmic-functions-review
   type: hard
+- id: ts-diagram-entropy-temperature
+  type: soft
 tags:
 - entropy
 - reversible
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Entropy Definition and Calculation
 
 ## Core Idea

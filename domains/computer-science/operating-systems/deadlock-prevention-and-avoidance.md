@@ -6,6 +6,8 @@ course: operating-systems
 prerequisites:
 - id: deadlock-conditions-and-graphs
   type: hard
+- id: deadlock-detection-and-resource-recovery
+  type: soft
 tags:
 - deadlock
 - prevention
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Deadlock Prevention and Avoidance Strategies
 
 ## Core Idea

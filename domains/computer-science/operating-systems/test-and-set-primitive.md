@@ -6,7 +6,9 @@ course: operating-systems
 prerequisites:
 - id: software-mutual-exclusion-solutions
   type: hard
-- id: atomic-operations-compare-and-swap
+- id: atomic-operations-and-compare-swap
+  type: soft
+- id: barrier-synchronization-primitives
   type: soft
 builds-toward:
 - semaphores
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Test-and-Set and Atomic Primitives
 
 ## Core Idea

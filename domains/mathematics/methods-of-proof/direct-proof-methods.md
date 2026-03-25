@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: predicates-and-quantifiers-intro
   type: soft
+- id: counterexamples-and-disproofs
+  type: soft
 builds-toward:
 - mathematical-induction-intro
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Direct Proof
 
 ## Core Idea

@@ -6,6 +6,10 @@ course: methods-of-proof
 prerequisites:
 - id: strong-induction
   type: soft
+- id: strong-induction-and-wellordering
+  type: soft
+- id: strong-induction-well-ordering
+  type: soft
 tags:
 - induction
 - ordering
@@ -13,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Well-Ordering Principle
 
 ## Core Idea

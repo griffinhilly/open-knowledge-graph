@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: design-thinking-methodology
   type: soft
+- id: mental-models-and-expectation
+  type: soft
+- id: design-affordances
+  type: soft
+- id: progressive-disclosure
+  type: soft
 builds-toward:
 - ui-design-fundamentals
 - user-experience-fundamentals
@@ -19,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Design Conventions and User Expectations
 
 ## Core Idea

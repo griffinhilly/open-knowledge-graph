@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: existential-formulas-embeddings
   type: hard
+- id: tautology-satisfiability-validity
+  type: soft
 builds-toward:
 - resolution-fol
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Skolemization and Equisatisfiability
 
 ## Core Idea

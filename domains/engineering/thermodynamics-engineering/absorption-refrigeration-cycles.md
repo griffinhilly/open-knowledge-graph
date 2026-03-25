@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: psychrometrics-humid-air-properties
   type: soft
+- id: heat-pump-cycles-detailed
+  type: soft
 tags:
 - absorption
 - adsorption
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Absorption and Adsorption Refrigeration Cycles
 
 ## Core Idea

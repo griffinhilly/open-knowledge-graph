@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: bias-and-perspective
   type: hard
+- id: absence-evidence-and-silence
+  type: soft
 builds-toward:
 - positionality-in-history
 - oral-history-methods
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Silences in the Archive
 
 ## Core Idea

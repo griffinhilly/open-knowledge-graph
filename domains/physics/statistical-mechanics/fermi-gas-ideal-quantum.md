@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: grand-canonical-ensemble
   type: soft
+- id: density-of-states-fermi-gas
+  type: soft
 builds-toward:
 - debye-model-lattice-dynamics
 - critical-phenomena-statmech
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # The Ideal Fermi Gas: Ground State and Excitations
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: econometrics
 prerequisites:
 - id: maximum-likelihood-econometrics
   type: hard
+- id: feasible-generalized-least-squares-fgls
+  type: soft
 tags:
 - estimation
 - maximum-likelihood
@@ -13,7 +15,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Quasi-Maximum Likelihood Estimation
 
 ## Core Idea

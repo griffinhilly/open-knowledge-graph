@@ -6,13 +6,14 @@ course: computer-architecture
 prerequisites:
 - id: binary-number-system
   type: hard
+- id: ones-complement-representation
+  type: soft
 tags:
 - number-representation
 - signed-integers
 stage: formal-systems
 status: validated
 ---
-
 # Sign-Magnitude Representation
 
 ## Core Idea

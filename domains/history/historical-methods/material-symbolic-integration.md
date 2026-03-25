@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: bodily-experience-and-matter
   type: soft
+- id: material-culture-historical-interpretation
+  type: soft
 tags:
 - material-culture
 - symbolism
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Integrating Material Culture and Symbolic Meaning
 
 ## Core Idea

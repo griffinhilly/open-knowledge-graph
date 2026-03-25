@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: oxygen-isotope-paleothermometry
   type: soft
+- id: peat-paleoclimate-records
+  type: soft
 builds-toward:
 - holocene-climate-variability
 - monsoon-paleoclimate-dynamics
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Stalagmites and Stalactites as Paleoclimate Archives
 
 ## Core Idea

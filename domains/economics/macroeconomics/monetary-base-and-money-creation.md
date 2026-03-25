@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: central-banking-and-the-fed
   type: hard
+- id: monetary-base-money-supply-relationship
+  type: soft
 builds-toward:
 - money-multiplier-dynamics
 - monetary-policy-tools
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Monetary Base and Money Creation
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: fluid-mechanics
 prerequisites:
 - id: hydrostatic-pressure-distribution
   type: hard
+- id: hydrostatic-force-horizontal-submerged-surface
+  type: soft
 builds-toward:
 - floating-body-stability-equilibrium
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Forces on Submerged Surfaces
 
 ## Core Idea

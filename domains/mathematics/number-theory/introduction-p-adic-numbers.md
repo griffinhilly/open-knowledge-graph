@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: metric-spaces-definition
   type: soft
+- id: arithmetic-in-p-adic-numbers
+  type: soft
 builds-toward:
 - hensels-lemma
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Introduction to p-adic Numbers
 
 ## Core Idea

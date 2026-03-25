@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: working-memory-model
   type: soft
+- id: working-memory-capacity-chunking
+  type: soft
 builds-toward:
 - task-switching-executive-control-costs
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Attention Capacity and Bottlenecks
 
 ## Core Idea

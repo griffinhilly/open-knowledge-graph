@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: picture-graphs-with-scale
   type: hard
+- id: reading-scaled-pictographs-3rd
+  type: soft
 builds-toward:
 - data-analysis-3rd
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Reading and Interpreting Scaled Graphs
 
 ## Core Idea

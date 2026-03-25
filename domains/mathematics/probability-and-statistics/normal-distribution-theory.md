@@ -6,6 +6,8 @@ course: probability-and-statistics
 prerequisites:
 - id: probability-density-functions-theory
   type: hard
+- id: bivariate-normal-distribution
+  type: soft
 builds-toward:
 - standard-normal-and-z-scores
 - central-limit-theorem
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Normal Distribution: Properties and Fundamentals
 
 ## Core Idea

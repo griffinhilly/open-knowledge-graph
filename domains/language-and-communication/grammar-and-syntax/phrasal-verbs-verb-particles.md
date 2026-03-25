@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: prepositions-and-conjunctions
   type: hard
+- id: verbs-action-and-state
+  type: soft
+- id: irregular-nouns-and-verbs
+  type: soft
 builds-toward:
 - verb-complements-basic
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Phrasal Verbs: Verbs + Particles
 
 ## Core Idea

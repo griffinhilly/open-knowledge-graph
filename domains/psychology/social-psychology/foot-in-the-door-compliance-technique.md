@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: cognitive-dissonance
   type: soft
+- id: door-in-the-face-technique-reciprocity
+  type: soft
+- id: thats-not-all-technique-persuasion
+  type: soft
 builds-toward:
 - lowball-compliance-technique
 - consistency-based-influence
@@ -21,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Foot-in-the-Door Compliance Technique
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: composition-of-functions-sets
   type: soft
+- id: hereditarily-finite-sets
+  type: soft
 builds-toward:
 - natural-numbers-as-iterative-construction
 - well-founded-relations-and-recursion
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Recursive Definitions on Finite Sets
 
 ## Core Idea

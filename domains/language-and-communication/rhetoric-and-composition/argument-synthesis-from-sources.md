@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: source-credibility-assessment
   type: soft
+- id: paraphrase-synthesis-strategies
+  type: soft
 tags:
 - research
 - synthesis
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Argument Synthesis From Sources
 
 ## Core Idea

@@ -8,16 +8,19 @@ prerequisites:
   type: hard
 - id: nondeterministic-finite-automata
   type: soft
+- id: alternating-turing-machines
+  type: soft
+- id: oracle-turing-machines
+  type: soft
 builds-toward:
 - bpp-complexity-class
-- rp-corp-complexity
+- rp-corp-classes
 tags:
 - randomization
 - probabilistic-computation
 stage: advanced
 status: validated
 ---
-
 # Probabilistic Turing Machines
 
 ## Core Idea

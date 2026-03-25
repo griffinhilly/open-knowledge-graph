@@ -6,6 +6,8 @@ course: evolutionary-biology
 prerequisites:
 - id: kin-selection-theory
   type: hard
+- id: heterozygote-advantage
+  type: soft
 builds-toward:
 - hamilton-rule
 - altruism-evolution
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Inclusive Fitness
 
 ## Core Idea

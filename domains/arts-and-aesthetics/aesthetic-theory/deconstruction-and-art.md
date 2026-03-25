@@ -10,8 +10,10 @@ prerequisites:
   type: hard
 - id: representation-and-mimesis
   type: soft
+- id: aesthetic-semiotics
+  type: soft
 builds-toward:
-  - technology-and-aesthetic-mediation
+- technology-and-aesthetic-mediation
 tags:
 - deconstruction
 - postmodernism

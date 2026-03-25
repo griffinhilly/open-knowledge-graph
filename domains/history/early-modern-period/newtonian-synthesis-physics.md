@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mechanical-philosophy-causation
   type: hard
+- id: newton-laws-motion-gravity
+  type: soft
 builds-toward:
 - enlightenment-reason-and-scientific-thought
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Newtonian Synthesis and Mathematical Physics
 
 ## Core Idea

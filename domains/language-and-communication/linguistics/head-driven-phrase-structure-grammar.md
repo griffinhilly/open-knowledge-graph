@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: constituent-trees-and-notation
   type: soft
+- id: categorial-syntax
+  type: soft
 tags:
 - syntax
 - framework
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Head-Driven Phrase Structure Grammar
 
 ## Core Idea

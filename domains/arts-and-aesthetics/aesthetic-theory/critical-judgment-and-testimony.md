@@ -10,8 +10,10 @@ prerequisites:
   type: hard
 - id: aesthetics-and-philosophy-of-art-intro
   type: soft
+- id: aesthetic-normativity-in-criticism
+  type: soft
 builds-toward:
-  - aesthetic-universalism-and-relativism
+- aesthetic-universalism-and-relativism
 tags:
 - testimony
 - judgment

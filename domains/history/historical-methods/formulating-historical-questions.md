@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: historical-evidence-epistemology
   type: hard
+- id: research-design-and-historical-inquiry
+  type: soft
 builds-toward:
 - source-selection-strategy
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Formulating Historical Research Questions
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: phonological-rules-derivation
   type: hard
+- id: suppletion-irregular-forms
+  type: soft
+- id: evidentiality-information-source
+  type: soft
 builds-toward:
 - linguistic-typology-formal
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Morpho-Phonological Interaction and Cyclic Application
 
 ## Core Idea

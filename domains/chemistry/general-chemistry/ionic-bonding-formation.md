@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: periodic-trends-and-properties
   type: hard
+- id: electron-affinity
+  type: soft
 builds-toward:
 - writing-ionic-formulas
 - crystal-structures-and-properties
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ionic Bonding: Electron Transfer and Electrostatic Forces
 
 ## Core Idea

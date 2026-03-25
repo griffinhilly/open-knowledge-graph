@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: interval-singing
   type: soft
+- id: voice-independence-and-counterpoint
+  type: soft
+- id: two-part-invention-technique
+  type: soft
 builds-toward:
 - canon-and-fugue-basics
 - four-part-harmonic-writing
@@ -21,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Two-Voice Counterpoint
 
 ## Core Idea

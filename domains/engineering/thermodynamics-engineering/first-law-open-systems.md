@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: thermodynamic-systems-engineering
   type: hard
+- id: control-mass-first-law-applications
+  type: soft
 builds-toward:
 - control-volume-steady-flow
 - combustion-thermodynamic-analysis
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # First Law for Open Systems and Control Volumes
 
 ## Core Idea

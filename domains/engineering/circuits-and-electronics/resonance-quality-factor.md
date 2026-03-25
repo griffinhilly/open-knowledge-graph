@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: energy-storage-elements-l-and-c
   type: hard
+- id: transient-response-rlc-circuits
+  type: soft
 tags:
 - resonance
 - bandwidth
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Resonance and Quality Factor in RLC Circuits
 
 ## Core Idea

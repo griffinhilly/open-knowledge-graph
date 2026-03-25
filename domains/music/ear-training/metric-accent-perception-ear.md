@@ -8,6 +8,20 @@ prerequisites:
   type: hard
 - id: rhythm-and-beat-foundation
   type: soft
+- id: beat-subdivision-and-counting
+  type: soft
+- id: compound-meter-rhythmic-dictation
+  type: soft
+- id: metric-stress-and-weak-strong
+  type: soft
+- id: polyrhythmic-listening-ear
+  type: soft
+- id: harmonic-duration-between-chord-changes
+  type: soft
+- id: rhythmic-note-value-measurement
+  type: soft
+- id: syncopated-rhythm-vs-straight
+  type: soft
 builds-toward:
 - polyrhythmic-listening-ear
 - form-recognition-by-ear
@@ -18,7 +32,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Metric Accent and Stress Perception
 
 ## Core Idea

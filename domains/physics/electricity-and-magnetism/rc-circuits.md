@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: exponential-functions-and-graphs
   type: soft
+- id: rc-transient-response
+  type: soft
+- id: transient-response-rc-circuits-electricity-and-magnetism
+  type: soft
 builds-toward:
 - ac-circuits-fundamentals
 - lc-and-rlc-circuits
@@ -24,7 +28,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # RC Circuits
 
 ## Core Idea

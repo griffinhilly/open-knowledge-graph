@@ -6,6 +6,8 @@ course: ancient-civilizations
 prerequisites:
 - id: ancient-greece-polis
   type: hard
+- id: dark-ages-greece-transition
+  type: soft
 tags:
 - greece
 - colonization
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Greek Colonization and Expansion (Archaic Period)
 
 ## Core Idea

@@ -9,7 +9,6 @@ prerequisites:
 - id: ethernet-protocol
   type: soft
 builds-toward:
-- pppoe-protocol-over-ethernet
 - network-topologies
 tags:
 - link-layer

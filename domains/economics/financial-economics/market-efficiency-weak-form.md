@@ -6,6 +6,8 @@ course: financial-economics
 prerequisites:
 - id: efficient-market-hypothesis
   type: hard
+- id: price-discovery-and-efficiency
+  type: soft
 builds-toward:
 - technical-analysis-and-market-efficiency
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Market Efficiency: Weak, Semi-Strong, and Strong Forms
 
 ## Core Idea

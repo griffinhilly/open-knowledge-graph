@@ -6,6 +6,8 @@ course: methods-of-proof
 prerequisites:
 - id: injective-surjective-bijective-functions
   type: hard
+- id: function-types-and-bijections
+  type: soft
 builds-toward:
 - cardinality-countability-infinity
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Function Composition and Inverse Functions
 
 ## Core Idea

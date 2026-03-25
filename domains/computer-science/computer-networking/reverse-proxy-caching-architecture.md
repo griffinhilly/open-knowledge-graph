@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: load-balancing-server-selection
   type: hard
+- id: application-layer-gateways-proxies
+  type: soft
 builds-toward:
 - content-delivery-networks
 - network-management-and-monitoring
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Reverse Proxy and Caching Architecture
 
 ## Core Idea

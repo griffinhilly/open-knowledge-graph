@@ -6,6 +6,8 @@ course: multivariable-calculus
 prerequisites:
 - id: arc-length-curves-3d
   type: hard
+- id: curvature
+  type: soft
 builds-toward:
 - surface-parametrization
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Curvature and Torsion of Space Curves
 
 ## Core Idea

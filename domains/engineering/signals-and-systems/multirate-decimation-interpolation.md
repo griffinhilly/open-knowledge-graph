@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: dft-and-fft-algorithms
   type: soft
+- id: perfect-reconstruction-filter-banks
+  type: soft
+- id: decimation-anti-aliasing-and-downsampling
+  type: soft
+- id: interpolation-filtering-image-rejection
+  type: soft
 tags:
 - multirate
 - decimation
@@ -18,7 +24,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Multirate Signal Processing and Filter Banks
 
 ## Core Idea

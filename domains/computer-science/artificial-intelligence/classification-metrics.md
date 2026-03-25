@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conditional-probability
   type: soft
+- id: confusion-matrix
+  type: soft
 builds-toward:
 - roc-auc
 - confusion-matrix
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Classification Metrics and Evaluation
 
 ## Core Idea

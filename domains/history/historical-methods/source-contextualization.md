@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: source-criticism
   type: soft
+- id: bias-recognition-and-adjustment
+  type: soft
+- id: anachronism-and-historical-thinking
+  type: soft
 tags:
 - context
 - sources
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Source Contextualization and Historical Circumstance
 
 ## Core Idea

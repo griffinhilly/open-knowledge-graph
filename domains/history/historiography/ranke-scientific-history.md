@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: enlightenment-historiography
   type: soft
+- id: thucydides-scientific-history
+  type: soft
 builds-toward:
 - historical-positivism
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Leopold Ranke and Scientific History
 
 ## Core Idea

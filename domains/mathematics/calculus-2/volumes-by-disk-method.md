@@ -4,15 +4,20 @@ title: Volumes by Disk Method
 domain: mathematics
 course: calculus-2
 prerequisites:
-  - id: area-between-curves
-    type: hard
+- id: area-between-curves
+  type: hard
+- id: surface-area-of-revolution
+  type: soft
 builds-toward:
-  - volumes-by-washer-method
-tags: [integration, applications, volumes, revolution]
+- volumes-by-washer-method
+tags:
+- integration
+- applications
+- volumes
+- revolution
 stage: formal-systems
 status: validated
 ---
-
 # Volumes by Disk Method
 
 ## Core Idea

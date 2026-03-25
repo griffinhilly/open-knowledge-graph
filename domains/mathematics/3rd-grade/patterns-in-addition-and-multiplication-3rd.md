@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: number-patterns-and-relationships
   type: soft
+- id: arithmetic-patterns-sequences-3rd
+  type: soft
+- id: odd-and-even-numbers-patterns-3rd
+  type: soft
 builds-toward:
 - patterns-and-sequences
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Patterns in Addition and Multiplication
 
 ## Core Idea

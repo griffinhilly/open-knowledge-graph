@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: industrial-revolution
   type: soft
+- id: capitalism-industrial-markets
+  type: soft
 builds-toward:
 - digital-revolution
 tags:
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Globalization and Economic Integration
 
 ## Core Idea

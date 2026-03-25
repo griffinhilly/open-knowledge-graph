@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: space-complexity-classes-formal
   type: hard
+- id: time-hierarchy-theorem-computability-and-complexity
+  type: soft
+- id: arithmetical-hierarchy
+  type: soft
+- id: exponential-time-hypothesis
+  type: soft
 builds-toward:
 - polynomial-hierarchy-levels
 tags:
@@ -17,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Time and Space Hierarchy Theorems
 
 ## Core Idea

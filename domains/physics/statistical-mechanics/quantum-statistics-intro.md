@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: identical-particles-quantum
   type: hard
+- id: phonon-statistics
+  type: soft
 builds-toward:
 - fermi-gas-ideal-quantum
 - bose-gas-ideal-quantum
@@ -23,7 +25,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Quantum Statistics: Fermions vs Bosons
 
 ## Core Idea

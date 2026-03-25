@@ -6,6 +6,8 @@ course: music-history
 prerequisites:
 - id: symphony-and-symphonic-form-development
   type: hard
+- id: classical-instrumental-forms-development
+  type: soft
 builds-toward:
 - romantic-era-compositional-innovations
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Sonata Principle in the Classical Era
 
 ## Core Idea

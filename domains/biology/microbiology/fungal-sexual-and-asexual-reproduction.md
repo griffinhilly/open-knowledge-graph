@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: fungal-dimorphism-morphology
   type: hard
+- id: fungal-reproduction-and-life-cycles
+  type: soft
 builds-toward:
 - fungal-pathogenesis-and-mycosis
 - fungal-biology-overview
@@ -20,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Fungal Reproduction: Sexual and Asexual Strategies
 
 ## Core Idea

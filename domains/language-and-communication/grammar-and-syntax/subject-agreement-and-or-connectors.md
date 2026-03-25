@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: coordinating-conjunctions
   type: soft
+- id: correlative-conjunctions-pairs
+  type: soft
+- id: linking-verb-subject-complement-agreement
+  type: soft
+- id: subject-verb-agreement-rules
+  type: soft
 builds-toward:
 - subject-verb-agreement-complex
 tags:
@@ -18,7 +24,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Subject Agreement with and, or, nor Connectors
 
 ## Core Idea

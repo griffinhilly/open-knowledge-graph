@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: second-partials-test-hessian
   type: hard
+- id: unconstrained-optimization
+  type: soft
+- id: differentiability-multivariable
+  type: soft
 builds-toward:
 - lagrange-multipliers
 - constrained-optimization
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Optimization in Multiple Variables
 
 ## Core Idea

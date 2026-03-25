@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nash-equilibrium-microeconomics
   type: hard
+- id: nash-equilibrium-refinements
+  type: soft
 builds-toward:
 - mixed-strategy-equilibrium
 - nash-refinements-and-trembling-hand
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Strategic Form Games and Nash Equilibrium
 
 ## Core Idea

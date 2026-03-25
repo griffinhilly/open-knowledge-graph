@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: energy-balance-models
   type: soft
+- id: storm-track-dynamics-climate
+  type: soft
 builds-toward:
 - paleoclimate-data-model-comparison
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Ice-Sheet Dynamics and Climate Feedbacks
 
 ## Core Idea

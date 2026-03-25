@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: polymer-structure-and-properties
   type: soft
+- id: composite-materials-structure
+  type: soft
+- id: ceramic-composite-materials
+  type: soft
 tags:
 - composites
 - fiber-reinforced
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Composite Materials and Rule of Mixtures
 
 ## Core Idea

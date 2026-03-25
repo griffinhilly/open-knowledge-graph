@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: chord-progressions
   type: soft
+- id: bass-line-writing-harmonic-function
+  type: soft
 builds-toward:
 - four-part-writing
 - voice-leading-in-composition
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Melody Harmonization with Voice-Leading Principles
 
 ## Core Idea

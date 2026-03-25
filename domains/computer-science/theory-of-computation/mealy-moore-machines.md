@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: finite-state-machines
   type: hard
+- id: alternating-turing-machines
+  type: soft
 tags:
 - automata
 - output-machines
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Mealy and Moore Machines
 
 ## Core Idea

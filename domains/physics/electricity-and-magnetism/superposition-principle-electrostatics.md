@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: linear-superposition-principle
   type: hard
+- id: potential-difference-voltage
+  type: soft
 builds-toward:
 - electric-field-lines
 - gauss-law
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Superposition Principle in Electrostatics
 
 ## Core Idea

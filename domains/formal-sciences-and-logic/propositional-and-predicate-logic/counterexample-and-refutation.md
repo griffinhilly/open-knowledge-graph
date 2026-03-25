@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ground-instances-and-instantiation
   type: soft
+- id: resolution-propositional
+  type: soft
 tags:
 - first-order-logic
 - proof-methods
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Counterexamples and Refutation
 
 ## Core Idea

@@ -8,8 +8,10 @@ prerequisites:
   type: hard
 - id: canonical-ensemble
   type: soft
+- id: monte-carlo-methods-stat-mech
+  type: soft
 builds-toward:
-  - metropolis-algorithm
+- metropolis-algorithm
 tags:
 - monte-carlo
 - importance-sampling

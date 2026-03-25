@@ -6,6 +6,8 @@ course: waves-and-optics
 prerequisites:
 - id: refractive-index-material-property
   type: hard
+- id: dispersion-and-prisms
+  type: soft
 builds-toward:
 - dispersion-and-prisms
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Dispersion and Wavelength-Dependent Refraction
 
 ## Core Idea

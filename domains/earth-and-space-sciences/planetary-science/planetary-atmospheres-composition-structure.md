@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: hydrostatic-balance-pressure-profile
   type: soft
+- id: exoplanet-mass-radius-relation
+  type: soft
 builds-toward:
 - atmospheric-circulation-planets
 - atmospheric-escape-mechanisms
@@ -25,7 +27,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Planetary Atmospheres: Composition and Structure
 
 ## Core Idea

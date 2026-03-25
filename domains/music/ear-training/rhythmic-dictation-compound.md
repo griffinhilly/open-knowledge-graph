@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: adding-fractions-unlike-denominators
   type: soft
+- id: rhythmic-subdivision-precision-ear
+  type: soft
 builds-toward:
 - melodic-dictation-with-leaps
 tags:
@@ -23,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Rhythmic Dictation in Compound Meter
 
 ## Core Idea

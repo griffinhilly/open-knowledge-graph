@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: serotonin-system
   type: soft
+- id: schizoaffective-disorder
+  type: soft
 builds-toward:
 - behavioral-activation-depression
 - cognitive-behavioral-therapy-cbt
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Major Depressive Disorder
 
 ## Core Idea

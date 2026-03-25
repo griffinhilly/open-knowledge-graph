@@ -6,6 +6,8 @@ course: multivariable-calculus
 prerequisites:
 - id: surface-integrals-flux
   type: hard
+- id: divergence-theorem-applications
+  type: soft
 tags:
 - stokes-theorem
 - divergence-theorem
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Stokes' Theorem and the Divergence Theorem
 
 ## Core Idea

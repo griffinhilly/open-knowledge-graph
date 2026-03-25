@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: big-o-complexity-analysis
   type: soft
+- id: knapsack-0-1-bounded
+  type: soft
 builds-toward:
 - dijkstras-algorithm
 tags:
@@ -24,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Greedy Algorithms
 
 ## Core Idea

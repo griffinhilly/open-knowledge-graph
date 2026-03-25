@@ -6,6 +6,8 @@ course: biochemistry
 prerequisites:
 - id: amino-acid-degradation-overview
   type: hard
+- id: branched-chain-amino-acid-catabolism
+  type: soft
 builds-toward:
 - one-carbon-metabolism
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Sulfur Amino Acid Metabolism
 
 ## Core Idea

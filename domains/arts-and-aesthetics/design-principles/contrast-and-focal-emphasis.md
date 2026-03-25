@@ -6,6 +6,8 @@ course: design-principles
 prerequisites:
 - id: design-principles-course-overview
   type: soft
+- id: emphasis-contrast-and-focal-points
+  type: soft
 builds-toward:
 - visual-weight-and-balance-perception
 - color-psychology-and-association
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Contrast and Focal Emphasis
 
 ## Core Idea

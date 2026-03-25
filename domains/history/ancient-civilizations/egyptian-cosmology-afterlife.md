@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: egyptian-religion-and-afterlife
   type: hard
+- id: ancient-religions-and-worldviews
+  type: soft
 tags:
 - Egypt
 - afterlife
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Egyptian Cosmology and Afterlife Beliefs
 
 ## Core Idea

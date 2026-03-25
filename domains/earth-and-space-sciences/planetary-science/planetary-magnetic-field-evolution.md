@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: geomagnetic-dynamo-theory
   type: soft
+- id: mantle-convection-planets
+  type: soft
 tags:
 - magnetic-fields
 - core-dynamics
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Planetary Magnetic Field Evolution and Decay
 
 ## Core Idea

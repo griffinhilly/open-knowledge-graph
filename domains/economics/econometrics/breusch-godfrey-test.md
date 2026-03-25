@@ -8,6 +8,16 @@ prerequisites:
   type: hard
 - id: f-test-joint-significance
   type: hard
+- id: durbin-watson-statistic
+  type: soft
+- id: heteroskedasticity-detection-testing
+  type: soft
+- id: specification-error-reset-test
+  type: soft
+- id: graphical-diagnostic-tools
+  type: soft
+- id: variance-inflation-factor
+  type: soft
 builds-toward:
 - dynamic-panel-gmm
 tags:
@@ -17,7 +27,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Breusch-Godfrey Test for Serial Correlation
 
 ## Core Idea

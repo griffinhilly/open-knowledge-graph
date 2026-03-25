@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: expected-value-and-variance
   type: soft
+- id: cumulative-distribution-functions-theory
+  type: soft
 builds-toward:
 - uniform-distribution-continuous
 - exponential-distribution
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Continuous Random Variables
 
 ## Core Idea

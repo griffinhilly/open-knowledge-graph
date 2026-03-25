@@ -6,6 +6,8 @@ course: kindergarten
 prerequisites:
 - id: number-recognition-1-10
   type: hard
+- id: numeral-writing-0-10
+  type: soft
 builds-toward:
 - number-writing-1-20
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Writing Numerals 1–10
 
 ## Core Idea

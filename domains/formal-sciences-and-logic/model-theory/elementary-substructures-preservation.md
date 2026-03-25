@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: elementary-equivalence-indistinguishability
   type: hard
+- id: universal-formulas-substructures
+  type: soft
 builds-toward:
 - lowenheim-skolem-theorems-overview
 - extensions-back-and-forth-lemma
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Elementary Substructures and Preservation of Formulas
 
 ## Core Idea

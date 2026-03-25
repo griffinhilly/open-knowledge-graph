@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: dijkstras-algorithm
   type: soft
+- id: edit-distance-dynamic-programming
+  type: soft
+- id: longest-common-subsequence
+  type: soft
 tags:
 - shortest-path
 - all-pairs
@@ -17,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Floyd-Warshall Algorithm for All-Pairs Shortest Paths
 
 ## Core Idea

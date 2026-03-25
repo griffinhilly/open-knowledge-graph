@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: beers-law
   type: soft
+- id: atomic-absorption-spectroscopy-quantitative
+  type: soft
 tags:
 - IR-spectroscopy
 - quantitative-IR
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Infrared Spectroscopy: Quantitative Applications
 
 ## Core Idea

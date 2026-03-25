@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: inflectional-morphology
   type: hard
+- id: templatic-morphology
+  type: soft
 tags:
 - morphology
 - distributed
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Distributed Morphology
 
 ## Core Idea

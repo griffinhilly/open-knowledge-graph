@@ -11,8 +11,7 @@ prerequisites:
 - id: expected-value-and-variance
   type: soft
 builds-toward:
-- hyperparameter-tuning
-- acquisition-functions
+- hyperparameter-optimization
 tags:
 - bayesian-optimization
 - hyperparameter

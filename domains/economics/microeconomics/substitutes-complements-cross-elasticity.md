@@ -6,6 +6,8 @@ course: microeconomics
 prerequisites:
 - id: demand-curve-individual-consumer
   type: hard
+- id: input-substitution-elasticity
+  type: soft
 builds-toward:
 - income-and-cross-price-elasticity
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Substitutes and Complements: Cross-Price Elasticity
 
 ## Core Idea

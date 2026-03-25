@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: linearizability
   type: soft
+- id: hinted-handoff
+  type: soft
 builds-toward:
 - replication-strategies-analysis
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # State Machine Replication
 
 ## Core Idea

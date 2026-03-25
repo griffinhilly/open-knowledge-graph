@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: probability-rules-for-events
   type: soft
+- id: natural-selection-types-and-examples
+  type: soft
+- id: life-history-evolution-r-and-k-selection
+  type: soft
 builds-toward:
 - microevolution-and-macroevolution
 - evidence-for-evolution
@@ -20,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Evolution Through Natural Selection
 
 ## Core Idea

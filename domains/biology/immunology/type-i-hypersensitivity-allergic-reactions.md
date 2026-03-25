@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: inflammatory-response-cellular
   type: soft
+- id: type-ii-hypersensitivity-antibody-mediated
+  type: soft
 tags:
 - hypersensitivity
 - allergy
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Type I Hypersensitivity: Allergic Reactions and IgE
 
 ## Core Idea

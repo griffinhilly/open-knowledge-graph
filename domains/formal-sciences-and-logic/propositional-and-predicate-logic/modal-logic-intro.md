@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: intuitionistic-logic-intro
   type: soft
+- id: finitary-vs-infinitary-logic
+  type: soft
 tags:
 - modal-logic
 - possible-worlds
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Introduction to Modal Logic
 
 ## Core Idea

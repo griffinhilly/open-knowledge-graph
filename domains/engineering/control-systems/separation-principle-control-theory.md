@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: observer-state-estimation-design
   type: hard
+- id: output-feedback-and-dynamic-compensation
+  type: soft
 tags:
 - separation-principle
 - output-feedback
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Separation Principle and Output Feedback
 
 ## Core Idea

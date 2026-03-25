@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: catalan-numbers
   type: soft
+- id: lovasz-local-lemma
+  type: soft
+- id: matrix-tree-theorem
+  type: soft
+- id: matroids-introduction
+  type: soft
+- id: polya-enumeration-theorem
+  type: soft
 tags:
 - combinatorics
 - counting

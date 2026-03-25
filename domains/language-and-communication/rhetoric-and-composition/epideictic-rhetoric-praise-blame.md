@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: ethos-and-credibility
   type: soft
+- id: deliberative-rhetoric-policy
+  type: soft
 builds-toward:
 - ceremonial-and-special-occasion-speaking
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Epideictic Rhetoric: Praise and Blame
 
 ## Core Idea

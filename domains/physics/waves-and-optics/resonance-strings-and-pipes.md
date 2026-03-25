@@ -6,6 +6,12 @@ course: waves-and-optics
 prerequisites:
 - id: standing-waves
   type: hard
+- id: vibrating-string-normal-modes
+  type: soft
+- id: vibrating-air-column-modes
+  type: soft
+- id: fundamental-frequency-and-overtones
+  type: soft
 builds-toward:
 - sound-intensity-and-decibels
 tags:
@@ -18,7 +24,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Resonance in Strings and Pipes
 
 ## Core Idea

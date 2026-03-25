@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: strengthening-mechanisms
   type: soft
+- id: hardness-testing-and-strength-correlation
+  type: soft
 builds-toward:
 - materials-selection-design
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Hardness Testing Methods
 
 ## Core Idea

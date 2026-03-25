@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: sufficient-statistics
   type: hard
+- id: bayesian-point-estimation
+  type: soft
 builds-toward:
 - rao-blackwell-theorem
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Uniformly Minimum Variance Unbiased Estimation (UMVUE)
 
 ## Core Idea

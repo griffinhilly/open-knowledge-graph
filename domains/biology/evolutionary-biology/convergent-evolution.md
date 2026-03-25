@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: adaptation-and-fitness
   type: soft
+- id: evolvability
+  type: soft
+- id: exaptation
+  type: soft
+- id: chromosomal-evolution
+  type: soft
 builds-toward:
 - evolutionary-constraint
 tags:
@@ -17,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Convergent Evolution
 
 ## Core Idea

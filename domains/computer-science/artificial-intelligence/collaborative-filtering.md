@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: dimensionality-reduction
   type: soft
-builds-toward:
-- matrix-factorization
-- neural-collaborative-filtering
 tags:
 - collaborative-filtering
 - matrix-factorization

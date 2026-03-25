@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: sedimentary-rocks
   type: soft
+- id: pedogenesis-soil-horizons-classification
+  type: soft
+- id: paleoclimate-proxies-paleoclimatology
+  type: soft
 tags:
 - paleosol
 - paleoclimate
@@ -16,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Paleosols as Paleoclimatic and Weathering Indicators
 
 ## Core Idea

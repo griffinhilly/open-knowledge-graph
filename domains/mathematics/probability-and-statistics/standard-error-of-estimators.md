@@ -6,6 +6,8 @@ course: probability-and-statistics
 prerequisites:
 - id: sampling-distributions
   type: hard
+- id: unbiased-and-consistent-estimators
+  type: soft
 builds-toward:
 - confidence-intervals-framework
 - hypothesis-test-framework
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Standard Error of Estimators
 
 ## Core Idea

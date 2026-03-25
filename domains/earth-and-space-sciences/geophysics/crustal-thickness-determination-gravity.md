@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: airy-isostasy-model
   type: hard
+- id: pratt-isostasy-model
+  type: soft
 builds-toward:
 - lithosphere-thickness-and-age
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Determining Crustal Thickness from Gravity Data
 
 ## Core Idea

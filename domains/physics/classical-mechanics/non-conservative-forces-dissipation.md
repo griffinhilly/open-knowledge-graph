@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conservative-vector-fields-mechanics
   type: hard
+- id: mechanical-energy-and-non-conservative-forces
+  type: soft
 builds-toward:
 - energy-dissipation-and-irreversibility
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Non-Conservative Forces and Energy Dissipation
 
 ## Core Idea

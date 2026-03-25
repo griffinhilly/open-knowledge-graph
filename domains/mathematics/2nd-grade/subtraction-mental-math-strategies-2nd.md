@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: subtraction-within-100
   type: hard
+- id: mental-math-two-digit-addition-2nd
+  type: soft
 builds-toward:
 - subtraction-fluency-within-100
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Mental Math Strategies for Subtraction
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: rate-laws-experimental-determination-orders
   type: hard
+- id: raman-spectroscopy-analytical-methods
+  type: soft
+- id: derivatization-in-analytical-chemistry
+  type: soft
 tags:
 - kinetic methods
 - rate-based analysis
@@ -15,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Kinetic Methods in Analytical Chemistry
 
 ## Core Idea

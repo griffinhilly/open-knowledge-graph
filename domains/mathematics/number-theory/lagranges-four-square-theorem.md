@@ -6,6 +6,12 @@ course: number-theory
 prerequisites:
 - id: fundamental-theorem-arithmetic-rigorous
   type: hard
+- id: fermats-last-theorem-overview
+  type: soft
+- id: pell-equation
+  type: soft
+- id: pells-equation
+  type: soft
 tags:
 - four-squares
 - representation
@@ -13,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Lagrange's Four-Square Theorem
 
 ## Core Idea

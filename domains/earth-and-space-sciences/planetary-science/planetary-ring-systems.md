@@ -6,6 +6,8 @@ course: planetary-science
 prerequisites:
 - id: satellite-formation-and-orbital-mechanics
   type: hard
+- id: planetary-tectonics-comparative
+  type: soft
 tags:
 - rings
 - particles
@@ -13,7 +15,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Planetary Ring Systems
 
 ## Core Idea

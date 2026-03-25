@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: linear-transformations-definition
   type: soft
+- id: homological-dimension-intro
+  type: soft
 builds-toward:
 - snake-lemma
 - abelian-structure-properties
@@ -21,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Exact Sequences in Categories
 
 ## Core Idea

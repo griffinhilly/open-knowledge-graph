@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: adverb-placement-and-scope
   type: soft
+- id: adjective-comparison-forms
+  type: soft
+- id: relative-adverbs-where-when-why
+  type: soft
 builds-toward:
 - modifiers-adjectives-adverbs-placement
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Adjectives and Adverbs: How They Differ
 
 ## Core Idea

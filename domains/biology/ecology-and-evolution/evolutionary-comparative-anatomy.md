@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: evolutionary-developmental-biology
   type: soft
+- id: comparative-phylogenetic-methods
+  type: soft
 builds-toward:
 - phylogenetic-inference-methods
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Evolutionary Comparative Anatomy: Homology and Analogy
 
 ## Core Idea

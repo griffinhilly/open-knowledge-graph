@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: bond-energy-and-enthaly
   type: soft
+- id: allylic-oxidation-selectivity
+  type: soft
 tags:
 - free-radical
 - halogenation
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Free Radical Halogenation and Chain Reactions
 
 ## Core Idea

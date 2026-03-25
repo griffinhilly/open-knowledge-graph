@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: tone-and-register-in-writing
   type: soft
+- id: hyperbole-understatement-restraint
+  type: soft
 builds-toward:
 - rhetorical-devices-in-prose
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Irony and Its Uses
 
 ## Core Idea

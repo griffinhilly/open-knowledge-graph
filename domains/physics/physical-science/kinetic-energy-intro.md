@@ -1,6 +1,6 @@
 ---
 id: kinetic-energy-intro
-title: "Kinetic Energy: Energy of Motion"
+title: 'Kinetic Energy: Energy of Motion'
 domain: physics
 course: physical-science
 prerequisites:
@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: what-is-speed
   type: hard
+- id: motion-patterns
+  type: soft
 builds-toward:
 - kinetic-energy
 tags:

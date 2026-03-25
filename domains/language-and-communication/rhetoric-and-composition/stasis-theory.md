@@ -6,6 +6,8 @@ course: rhetoric-and-composition
 prerequisites:
 - id: argument-structure-toulmin
   type: soft
+- id: logical-consistency-argument
+  type: soft
 builds-toward:
 - claim-evidence-connection
 - counterargument-and-rebuttal
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Stasis Theory
 
 ## Core Idea

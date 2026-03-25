@@ -6,6 +6,8 @@ course: clinical-psychology
 prerequisites:
 - id: dsm-5-diagnostic-framework
   type: hard
+- id: cluster-b-personality-disorders
+  type: soft
 tags:
 - personality-disorders
 - paranoia
@@ -13,7 +15,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Cluster A Personality Disorders (Odd/Eccentric)
 
 ## Core Idea

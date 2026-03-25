@@ -4,7 +4,7 @@ title: Network Fundamentals
 domain: computer-science
 course: computer-networking
 prerequisites:
-- id: operating-systems
+- id: operating-systems-introduction
   type: hard
 builds-toward:
 - packet-switching-circuit-switching

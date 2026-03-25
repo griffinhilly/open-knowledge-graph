@@ -6,6 +6,8 @@ course: theory-of-computation
 prerequisites:
 - id: turing-machine-variants
   type: hard
+- id: theory-of-computation-overview
+  type: soft
 builds-toward:
 - church-turing-thesis
 - decidability
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Universal Turing Machine and Self-Simulation
 
 ## Core Idea

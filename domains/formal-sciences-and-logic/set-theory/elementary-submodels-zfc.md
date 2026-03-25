@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: absolute-formulas-models
   type: hard
+- id: zfc-axiom-system-consistency-and-limits
+  type: soft
 builds-toward:
 - reflection-principles-zfc
 - inner-models-relative-consistency
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Elementary Submodels of ZFC
 
 ## Core Idea

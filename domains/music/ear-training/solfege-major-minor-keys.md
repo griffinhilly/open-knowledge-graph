@@ -12,8 +12,10 @@ prerequisites:
   type: hard
 - id: movable-do-solfege
   type: soft
+- id: major-minor-thirds-ear
+  type: soft
 builds-toward:
-  - harmonic-function-root-movement-ear
+- harmonic-function-root-movement-ear
 tags:
 - solfege
 - singing

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: irregular-verb-forms-common
   type: hard
+- id: nouns-classification-concrete-abstract
+  type: soft
 tags:
 - irregular-forms
 - nouns
@@ -15,7 +17,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Irregular Nouns and Verbs
 
 ## Core Idea

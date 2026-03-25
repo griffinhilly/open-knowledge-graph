@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: bjt-amplifier-configurations
   type: soft
+- id: differential-amplifier-circuits
+  type: soft
 builds-toward:
 - differential-amplifier-circuits
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # MOSFET Amplifier Circuits
 
 ## Core Idea

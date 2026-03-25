@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: resonance-circuits
   type: soft
+- id: filter-design-specifications
+  type: soft
 builds-toward:
 - op-amp-circuit-applications
 tags:
@@ -25,7 +27,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Passive Filter Design
 
 ## Core Idea

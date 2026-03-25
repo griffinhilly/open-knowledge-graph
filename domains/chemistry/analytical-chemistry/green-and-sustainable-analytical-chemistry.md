@@ -6,6 +6,8 @@ course: analytical-chemistry
 prerequisites:
 - id: analytical-chemistry-intro
   type: hard
+- id: derivatization-in-analytical-chemistry
+  type: soft
 tags:
 - green chemistry
 - sustainability
@@ -13,7 +15,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Green and Sustainable Analytical Chemistry
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: harmonic-function-basics
   type: hard
+- id: seventh-chord-function-and-sound
+  type: soft
 builds-toward:
 - voice-leading-smooth-progressions
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Dominant Seventh Chords and Resolution
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: effective-population-size
   type: hard
+- id: adaptive-landscape-crossing
+  type: soft
 builds-toward:
 - molecular-evolution-rates
 - slightly-deleterious-mutations
@@ -21,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Nearly Neutral Evolution and Drift-Selection Balance
 
 ## Core Idea

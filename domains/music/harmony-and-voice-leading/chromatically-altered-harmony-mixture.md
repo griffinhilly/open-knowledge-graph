@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: chromatic-scale-construction
   type: soft
+- id: borrowed-chords-parallel-modes-voice-leading
+  type: soft
+- id: borrowed-chord-chromatic-mixture
+  type: soft
 builds-toward:
 - borrowed-chords-parallel-modes-voice-leading
 tags:
@@ -20,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Chromatic Alterations and Mixture Harmony
 
 ## Core Idea

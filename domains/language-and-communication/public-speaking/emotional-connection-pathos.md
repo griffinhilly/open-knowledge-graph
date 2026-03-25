@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: audience-engagement-techniques
   type: hard
+- id: audience-connection-psychological
+  type: soft
 tags:
 - pathos
 - emotion
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Creating Emotional Connection and Pathos
 
 ## Core Idea

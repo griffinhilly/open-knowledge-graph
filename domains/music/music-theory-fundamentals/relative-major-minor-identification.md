@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: natural-minor-scale-construction-fundamentals
   type: hard
+- id: parallel-major-minor-comparison
+  type: soft
+- id: parallel-vs-relative-minor
+  type: soft
 builds-toward:
 - key-signature-reading-writing
 - diatonic-chord-construction-fundamentals
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Identifying Relative Major and Minor Keys
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: continuity-multivariable
   type: soft
+- id: rates-of-change-partial-derivatives
+  type: soft
 builds-toward:
 - higher-order-partial-derivatives
 - directional-derivatives
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Partial Derivatives
 
 ## Core Idea

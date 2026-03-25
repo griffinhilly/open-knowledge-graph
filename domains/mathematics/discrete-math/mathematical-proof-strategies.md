@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mathematical-induction-intro
   type: hard
+- id: logical-inference-and-rules
+  type: soft
 builds-toward:
 - counting-fundamentals-discrete
 - divisibility-and-primes-discrete
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Proof Strategies in Discrete Mathematics
 
 ## Core Idea

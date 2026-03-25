@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: lcm-gcd
   type: soft
+- id: polyrhythmic-listening-ear
+  type: soft
+- id: polymetric-analysis
+  type: soft
 builds-toward:
 - rhythmic-dissonance-resolution
 - metric-modulation-theory-advanced
@@ -24,7 +28,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Polyrhythmic Analysis
 
 ## Core Idea

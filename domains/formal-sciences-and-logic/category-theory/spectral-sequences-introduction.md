@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: derived-functors
   type: hard
+- id: spectral-sequences-algebraic
+  type: soft
 builds-toward:
 - homology-and-cohomology
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Spectral Sequences Introduction
 
 ## Core Idea

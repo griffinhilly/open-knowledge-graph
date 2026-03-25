@@ -8,6 +8,14 @@ prerequisites:
   type: soft
 - id: context-dependent-interpretation
   type: soft
+- id: fallacy-identification-and-analysis
+  type: soft
+- id: logical-consistency-argument
+  type: soft
+- id: stasis-theory
+  type: soft
+- id: counterargument-integration-writing
+  type: soft
 builds-toward:
 - logical-fallacies
 - counterargument-and-rebuttal
@@ -19,7 +27,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Assumption and Inference Analysis
 
 ## Core Idea

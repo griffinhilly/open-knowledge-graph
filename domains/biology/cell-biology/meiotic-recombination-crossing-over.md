@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dna-replication
   type: soft
+- id: meiosis-gamete-recombination
+  type: soft
 builds-toward:
 - gametogenesis-sexual-reproduction
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Meiotic Recombination and Crossing Over
 
 ## Core Idea

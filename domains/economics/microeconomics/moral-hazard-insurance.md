@@ -6,6 +6,8 @@ course: microeconomics
 prerequisites:
 - id: moral-hazard
   type: hard
+- id: moral-hazard-contracting
+  type: soft
 tags:
 - moral-hazard
 - incentives
@@ -13,7 +15,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Moral Hazard in Insurance and Contracting
 
 ## Core Idea

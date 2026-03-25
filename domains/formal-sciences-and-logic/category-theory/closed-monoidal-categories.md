@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: adjoint-functors
   type: soft
+- id: braided-monoidal-categories
+  type: soft
 builds-toward:
 - cartesian-closed-categories
 tags:

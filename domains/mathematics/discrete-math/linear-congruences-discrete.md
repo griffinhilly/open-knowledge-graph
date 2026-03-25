@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: divisibility-and-gcd
   type: hard
+- id: multiplicative-inverse-modular
+  type: soft
 builds-toward:
 - simultaneous-congruences-crt
 - multiplicative-inverse-modular
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Linear Congruences and Solutions
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: orchestration-ranges-and-timbres
   type: soft
+- id: octave-register-identification
+  type: soft
 builds-toward:
 - voice-leading-principles
 - counterpoint-basics
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Range and Register Identification by Ear
 
 ## Core Idea

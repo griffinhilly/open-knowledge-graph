@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: comparing-unit-fractions-3rd
   type: hard
+- id: fractions-on-number-line-comparison-3rd
+  type: soft
 builds-toward:
 - comparing-fractions
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Comparing Unit Fractions
 
 ## Core Idea

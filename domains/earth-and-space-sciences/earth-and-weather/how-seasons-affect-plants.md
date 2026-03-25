@@ -6,6 +6,8 @@ course: earth-and-weather
 prerequisites:
 - id: four-seasons
   type: hard
+- id: how-seasons-affect-animals
+  type: soft
 builds-toward: []
 tags:
 - seasons
@@ -15,7 +17,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # How Seasons Affect Plants
 
 ## Core Idea

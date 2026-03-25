@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: constituent-trees-and-notation
   type: soft
+- id: head-driven-phrase-structure-grammar
+  type: soft
+- id: categorial-syntax
+  type: soft
+- id: acquisition-of-formal-systems
+  type: soft
 tags:
 - syntax
 - framework
@@ -15,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Lexical-Functional Grammar: Formal Framework
 
 ## Core Idea

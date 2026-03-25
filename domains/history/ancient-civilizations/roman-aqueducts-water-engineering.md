@@ -6,6 +6,10 @@ course: ancient-civilizations
 prerequisites:
 - id: roman-legal-code-justice-system
   type: soft
+- id: roman-engineering-infrastructure
+  type: soft
+- id: egyptian-engineering-pyramids
+  type: soft
 tags:
 - rome
 - aqueducts
@@ -15,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Roman Aqueducts and Water Engineering
 
 ## Core Idea

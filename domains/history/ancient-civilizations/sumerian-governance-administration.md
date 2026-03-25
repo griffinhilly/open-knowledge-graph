@@ -6,6 +6,8 @@ course: ancient-civilizations
 prerequisites:
 - id: mesopotamian-irrigation-technology
   type: soft
+- id: sumerian-governance-innovation
+  type: soft
 builds-toward:
 - hammurabi-code-law-society
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Sumerian City-States and Administrative Systems
 
 ## Core Idea

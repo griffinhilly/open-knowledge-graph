@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: contemporary-compositional-approaches
   type: soft
+- id: film-music-and-multimedia-traditions
+  type: soft
+- id: absolute-music-and-program-music-aesthetics
+  type: soft
 tags:
 - minimalism
 - 20th-century
@@ -17,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Minimalism: Aesthetics and Repetition
 
 ## Core Idea

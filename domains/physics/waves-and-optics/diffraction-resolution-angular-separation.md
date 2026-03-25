@@ -6,6 +6,8 @@ course: waves-and-optics
 prerequisites:
 - id: single-aperture-diffraction-minima
   type: hard
+- id: rayleigh-criterion-resolution
+  type: soft
 builds-toward:
 - optical-system-magnification
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Diffraction Limit and the Rayleigh Criterion
 
 ## Core Idea

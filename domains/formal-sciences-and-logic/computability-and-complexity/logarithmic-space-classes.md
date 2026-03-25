@@ -6,6 +6,8 @@ course: computability-and-complexity
 prerequisites:
 - id: space-complexity-classes-formal
   type: hard
+- id: space-hierarchy-theorem-computability-and-complexity
+  type: soft
 builds-toward:
 - nl-completeness
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Logarithmic Space Classes (L and NL)
 
 ## Core Idea

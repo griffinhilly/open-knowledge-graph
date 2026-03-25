@@ -6,6 +6,8 @@ course: ancient-civilizations
 prerequisites:
 - id: middle-kingdom-egypt
   type: hard
+- id: punic-wars-roman-expansion
+  type: soft
 tags:
 - egypt
 - new-kingdom
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # New Kingdom Egypt and Imperial Expansion
 
 ## Core Idea

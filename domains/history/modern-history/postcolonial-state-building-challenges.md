@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: african-independence-wave
   type: soft
+- id: postcolonial-development-and-modernization
+  type: soft
 builds-toward:
 - third-world-development-paths
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Postcolonial State-Building and Development Challenges
 
 ## Core Idea

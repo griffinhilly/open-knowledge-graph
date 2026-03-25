@@ -6,6 +6,8 @@ course: topology
 prerequisites:
 - id: basis-for-a-topology
   type: hard
+- id: neighborhoods-and-open-sets
+  type: soft
 builds-toward:
 - limit-points-convergence-topology
 - continuity-topological-spaces
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Neighborhoods and Local Properties
 
 ## Core Idea

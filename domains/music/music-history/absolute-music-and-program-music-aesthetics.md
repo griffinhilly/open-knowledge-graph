@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: romantic-period-overview
   type: soft
+- id: lied-and-art-song-tradition
+  type: soft
 tags:
 - aesthetics
 - romantic
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Absolute Music and Program Music Aesthetics
 
 ## Core Idea

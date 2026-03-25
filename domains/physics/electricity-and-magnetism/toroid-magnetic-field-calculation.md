@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: solenoid-magnetic-field-properties
   type: hard
+- id: magnetic-field-lines-flux-density
+  type: soft
+- id: magnetic-dipole-moment
+  type: soft
 builds-toward:
 - inductance-and-inductors
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Toroid Magnetic Field and Calculation
 
 ## Core Idea

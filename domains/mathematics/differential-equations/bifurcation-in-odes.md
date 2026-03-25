@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: phase-line-analysis
   type: hard
+- id: existence-and-uniqueness-theorems
+  type: soft
 builds-toward:
 - linearization-of-nonlinear-systems
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Bifurcation in Ordinary Differential Equations
 
 ## Core Idea

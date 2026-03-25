@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cloud-formation-and-types
   type: hard
+- id: warm-rain-process-collision-coalescence
+  type: soft
 builds-toward:
 - graupel-and-hail-formation
 - precipitation-types-and-processes
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Bergeron Process and Ice Crystal Precipitation
 
 ## Core Idea

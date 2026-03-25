@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: integrability-revealed-preference
   type: hard
+- id: preference-rationality-consistent-choices
+  type: soft
 builds-toward:
 - weak-strong-axiom-revealed-preference
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Demand Systems and Integrability Conditions
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: state-feedback-pole-placement
   type: hard
+- id: compensation-design-tradeoffs-cascadefeedback
+  type: soft
 builds-toward:
 - cascade-control-loop-interaction-analysis
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Output Feedback and Dynamic Compensation
 
 ## Core Idea

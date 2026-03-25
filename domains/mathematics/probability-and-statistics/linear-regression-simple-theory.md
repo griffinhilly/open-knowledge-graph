@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: covariance-correlation-theory
   type: hard
+- id: linear-regression-probability-and-statistics
+  type: soft
 builds-toward:
 - inference-in-linear-regression
 - regression-diagnostics
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Simple Linear Regression: Theory and Estimation
 
 ## Core Idea

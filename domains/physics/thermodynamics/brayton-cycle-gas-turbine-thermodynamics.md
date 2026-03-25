@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: isobaric-and-isochoric-processes
   type: hard
+- id: diesel-cycle-compression-ignition-thermodynamics
+  type: soft
 builds-toward:
 - pv-diagram-interpretation
 - ts-diagram-entropy-temperature
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Brayton Cycle and Gas Turbines
 
 ## Core Idea

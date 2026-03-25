@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: columbian-exchange
   type: soft
+- id: encomienda-labor-colonial-system
+  type: soft
+- id: encomienda-colonial-labor
+  type: soft
 builds-toward:
 - abolition-movement
 tags:
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Atlantic Racialized Slavery
 
 ## Core Idea

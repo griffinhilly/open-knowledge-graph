@@ -8,8 +8,10 @@ prerequisites:
   type: hard
 - id: rhetorical-devices-in-prose
   type: soft
+- id: periodic-sentence-structure
+  type: soft
 builds-toward:
-  - stylistic-analysis-and-imitation
+- stylistic-analysis-and-imitation
 tags:
 - syntax
 - emphasis

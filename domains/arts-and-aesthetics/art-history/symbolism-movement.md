@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: narrative-and-aesthetic-meaning
   type: soft
+- id: religious-imagery-in-artistic-tradition
+  type: soft
 builds-toward:
 - art-nouveau-design
 - modern-art-movements
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Symbolism and the Retreat from Realism
 
 ## Core Idea

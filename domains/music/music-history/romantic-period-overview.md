@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: opera-history
   type: soft
+- id: romantic-instrumental-expansion
+  type: soft
 builds-toward:
 - romantic-nationalism-in-music
 - impressionism-in-music

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: design-thinking-methodology
   type: soft
+- id: constraint-driven-creative-problem-solving
+  type: soft
 builds-toward:
 - design-critique-and-feedback
 - purpose-driven-design
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Principle Hierarchy and Priority
 
 ## Core Idea

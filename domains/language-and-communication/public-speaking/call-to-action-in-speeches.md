@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: speech-introductions-and-conclusions
   type: hard
+- id: monroes-motivated-sequence
+  type: soft
 builds-toward:
 - ceremonial-and-special-occasion-speaking
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Call to Action
 
 ## Core Idea

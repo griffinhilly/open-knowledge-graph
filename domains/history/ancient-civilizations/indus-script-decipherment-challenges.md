@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ancient-writing-systems-comparison
   type: hard
+- id: alphabet-phoenician-writing-origins
+  type: soft
 tags:
 - Indus
 - script
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Indus Script: Undeciphered Writing System
 
 ## Core Idea

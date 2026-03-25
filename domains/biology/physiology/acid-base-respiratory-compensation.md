@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: acid-base-balance-renal-regulation
   type: soft
+- id: acid-base-balance-three-regulatory-systems
+  type: soft
 builds-toward:
 - respiratory-control-mechanisms
 - ventilation-mechanics-control
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Acid-Base Balance and Respiratory Compensation
 
 ## Core Idea

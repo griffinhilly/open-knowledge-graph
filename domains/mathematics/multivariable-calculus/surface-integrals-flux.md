@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: parametric-surfaces
   type: hard
+- id: cross-product-geometry-3d
+  type: soft
 builds-toward:
 - stokes-and-divergence-theorems
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Surface Integrals and Flux of Vector Fields
 
 ## Core Idea

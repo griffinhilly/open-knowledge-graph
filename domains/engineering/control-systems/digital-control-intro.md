@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: pid-control
   type: soft
+- id: nonlinear-control-introduction
+  type: soft
 tags:
 - digital-control
 - z-transform
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Introduction to Digital Control Systems
 
 ## Core Idea

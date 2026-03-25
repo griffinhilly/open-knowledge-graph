@@ -6,6 +6,8 @@ course: thermodynamics
 prerequisites:
 - id: work-and-energy
   type: hard
+- id: pv-diagram-interpretation
+  type: soft
 builds-toward:
 - work-in-thermodynamic-processes
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Boundary Work and P-V Diagrams
 
 ## Core Idea

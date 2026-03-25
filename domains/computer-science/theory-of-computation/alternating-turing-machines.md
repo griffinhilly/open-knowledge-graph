@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nondeterministic-finite-automata
   type: soft
+- id: oracle-turing-machines
+  type: soft
 builds-toward:
 - polynomial-hierarchy
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Alternating Turing Machines
 
 ## Core Idea

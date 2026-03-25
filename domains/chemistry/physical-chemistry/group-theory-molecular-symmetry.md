@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: quantum-chemistry-foundations
   type: soft
+- id: raman-spectroscopy-theory
+  type: soft
 builds-toward: []
 tags:
 - group-theory
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Group Theory and Molecular Symmetry: Point Groups and Applications
 
 ## Core Idea

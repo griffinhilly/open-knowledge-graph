@@ -6,6 +6,8 @@ course: cognitive-psychology
 prerequisites:
 - id: schema-theory
   type: hard
+- id: semantic-category-hierarchies
+  type: soft
 builds-toward:
 - prototype-exemplar-category-learning
 - semantic-priming-spreading-activation
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Semantic Networks and Conceptual Organization
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: probability-and-statistics
 prerequisites:
 - id: linear-regression
   type: hard
+- id: multiple-regression-intro
+  type: soft
 builds-toward:
 - regression-diagnostics
 - inference-in-linear-regression
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Assumptions in Linear Regression
 
 ## Core Idea

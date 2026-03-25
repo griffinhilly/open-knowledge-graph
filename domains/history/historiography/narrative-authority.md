@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: writing-historical-narrative
   type: soft
+- id: historical-truth-and-representation
+  type: soft
 builds-toward:
 - hayden-white-linguistic-turn
 - postmodern-historiography
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Narrative Authority and Historical Meaning-Making
 
 ## Core Idea

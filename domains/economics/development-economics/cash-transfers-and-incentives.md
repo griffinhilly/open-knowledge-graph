@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: principal-agent-contracting
   type: soft
+- id: group-lending-mechanisms
+  type: soft
+- id: conditional-cash-transfers-cct
+  type: soft
 builds-toward:
 - school-attendance-and-incentives
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Cash Transfers: Conditional and Unconditional
 
 ## Core Idea

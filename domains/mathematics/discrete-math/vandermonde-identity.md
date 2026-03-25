@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: combinations
   type: hard
+- id: hockey-stick-binomial-identity
+  type: soft
 tags:
 - combinatorics
 - binomial-coefficients
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Vandermonde's Identity
 
 ## Core Idea

@@ -8,13 +8,14 @@ prerequisites:
   type: hard
 - id: hilbert-spaces-definition
   type: hard
+- id: compact-operators
+  type: soft
 tags:
 - spectral-theorem
 - operators
 stage: expert
 status: validated
 ---
-
 # Spectral Theorem for Compact Self-Adjoint Operators
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hypothesis-testing-framework-theory
   type: hard
+- id: independence-and-mutually-exclusive-events
+  type: soft
 builds-toward:
 - goodness-of-fit-test
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Chi-Square Test for Independence
 
 ## Core Idea

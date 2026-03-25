@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: triad-construction-major-minor
   type: soft
+- id: consonant-dissonant-intervals-classification
+  type: soft
 builds-toward:
 - seventh-chord-types-and-qualities
 - diatonic-triad-harmonization
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Building Triads Using Intervals
 
 ## Core Idea

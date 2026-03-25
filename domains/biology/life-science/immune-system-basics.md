@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cells-to-tissues-and-organs
   type: hard
+- id: animal-reproduction-basics
+  type: soft
 builds-toward:
 - body-systems-working-together
 - innate-immune-response

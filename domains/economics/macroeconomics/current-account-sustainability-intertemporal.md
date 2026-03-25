@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: euler-equation-intertemporal-choice
   type: soft
+- id: current-account-and-external-balance
+  type: soft
+- id: fiscal-sustainability-and-solvency
+  type: soft
+- id: capital-flows-and-financial-account
+  type: soft
 builds-toward:
 - twin-deficits-and-capital-flows
 tags:
@@ -17,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Current Account Sustainability
 
 ## Core Idea

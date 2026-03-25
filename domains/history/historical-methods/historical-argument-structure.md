@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: counterfactual-reasoning
   type: soft
+- id: historical-database-design-and-structure
+  type: soft
 builds-toward:
 - writing-historical-narrative
 - historiography-intro

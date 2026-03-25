@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: prepositions-and-conjunctions
   type: hard
+- id: prepositions-location-time-direction
+  type: soft
 tags:
 - prepositions
 - prescriptive-grammar
@@ -15,7 +17,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Preposition Placement and Sentence-Final Prepositions
 
 ## Core Idea

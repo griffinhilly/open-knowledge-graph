@@ -6,6 +6,8 @@ course: topology
 prerequisites:
 - id: topological-spaces-definition-and-examples
   type: hard
+- id: neighborhoods-and-open-sets
+  type: soft
 builds-toward:
 - basis-for-a-topology
 - neighborhoods-in-topology
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Open Sets in Topological Spaces
 
 ## Core Idea

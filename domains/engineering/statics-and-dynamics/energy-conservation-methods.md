@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: work-energy-particles
   type: hard
+- id: systems-of-particles-mechanics
+  type: soft
 builds-toward:
 - vibrations-simple-harmonic
 - collision-analysis-restitution
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Energy Conservation Methods for Systems
 
 ## Core Idea

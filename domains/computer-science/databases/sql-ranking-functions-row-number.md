@@ -6,6 +6,10 @@ course: databases
 prerequisites:
 - id: sql-window-functions-introduction
   type: hard
+- id: sql-lag-lead-offset-functions
+  type: soft
+- id: sql-coalesce-nullif-functions
+  type: soft
 builds-toward:
 - sql-lag-lead-offset-functions
 tags:
@@ -15,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ranking Functions: ROW_NUMBER, RANK, DENSE_RANK
 
 ## Core Idea

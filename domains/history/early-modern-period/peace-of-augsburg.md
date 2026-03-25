@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: religious-wars-europe
   type: soft
+- id: edict-of-nantes
+  type: soft
 builds-toward:
 - edict-of-nantes
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Peace of Augsburg
 
 ## Core Idea

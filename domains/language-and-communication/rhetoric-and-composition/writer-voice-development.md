@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: audience-and-purpose
   type: soft
+- id: imitation-stylistic-study
+  type: soft
 builds-toward:
 - grammatical-register-and-style
 - revision-strategies
@@ -19,7 +21,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Writer's Voice Development
 
 ## Core Idea

@@ -8,8 +8,10 @@ prerequisites:
   type: hard
 - id: postcolonial-historiography
   type: soft
+- id: entangled-histories-approach
+  type: soft
 builds-toward:
-  - postcolonial-historiography
+- postcolonial-historiography
 tags:
 - connected histories
 - entanglement

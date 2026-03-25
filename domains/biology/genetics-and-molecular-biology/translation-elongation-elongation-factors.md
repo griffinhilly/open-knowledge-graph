@@ -6,6 +6,8 @@ course: genetics-and-molecular-biology
 prerequisites:
 - id: ribosomal-initiation-factors-tRNA
   type: hard
+- id: translation-elongation-and-termination
+  type: soft
 builds-toward:
 - translation-termination-stop-codons-release-factors
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Translation Elongation and Elongation Factors
 
 ## Core Idea

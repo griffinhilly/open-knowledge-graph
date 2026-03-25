@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: crustal-heat-flow-and-geotherms
   type: soft
+- id: thermobarometry-estimates-metamorphic
+  type: soft
 builds-toward:
 - metamorphic-facies-rock-associations
 - subduction-zone-structure-metamorphism
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Metamorphic Grade and Pressure-Temperature Paths
 
 ## Core Idea

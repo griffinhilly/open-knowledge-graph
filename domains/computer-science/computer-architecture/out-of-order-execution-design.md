@@ -6,6 +6,12 @@ course: computer-architecture
 prerequisites:
 - id: superscalar-and-vliw-design
   type: hard
+- id: branch-prediction-techniques
+  type: soft
+- id: memory-access-timing
+  type: soft
+- id: power-thermal-performance-metrics
+  type: soft
 builds-toward:
 - power-thermal-performance-metrics
 tags:
@@ -16,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Out-of-Order Execution and Register Renaming
 
 ## Core Idea

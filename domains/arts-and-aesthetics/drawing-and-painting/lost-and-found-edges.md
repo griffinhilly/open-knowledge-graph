@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: value-and-tone
   type: hard
+- id: tonal-underpainting-for-oil-and-acrylic
+  type: soft
 builds-toward:
 - chiaroscuro
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Lost and Found Edges
 
 ## Core Idea

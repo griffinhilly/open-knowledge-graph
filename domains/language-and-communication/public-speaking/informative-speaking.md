@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: verbal-transitions-in-speaking
   type: soft
+- id: technical-presentation-speaking
+  type: soft
 builds-toward:
 - visual-aids-in-presentations
 - extemporaneous-speaking

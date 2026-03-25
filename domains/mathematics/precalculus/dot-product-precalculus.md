@@ -4,17 +4,21 @@ title: Dot Product
 domain: mathematics
 course: precalculus
 prerequisites:
-  - id: vector-operations
-    type: hard
-  - id: law-of-cosines
-    type: soft
+- id: vector-operations
+  type: hard
+- id: law-of-cosines
+  type: soft
+- id: dot-product-geometry
+  type: soft
 builds-toward:
-  - work-as-integral
-tags: [vectors, dot-product, orthogonality]
+- work-as-integral
+tags:
+- vectors
+- dot-product
+- orthogonality
 stage: formal-systems
 status: validated
 ---
-
 # Dot Product
 
 ## Core Idea

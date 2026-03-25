@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nucleophilic-acyl-substitution
   type: soft
+- id: friedel-crafts-alkylation-acylation
+  type: soft
 builds-toward:
 - directed-ortho-para-effects
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Friedel-Crafts Acylation and Aromatic Ketones
 
 ## Core Idea

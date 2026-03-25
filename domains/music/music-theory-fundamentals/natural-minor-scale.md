@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: intervals-basics
   type: hard
+- id: natural-minor-scale-ear-training
+  type: soft
 builds-toward:
 - minor-scales
 - harmonic-minor-scale
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Natural Minor Scale
 
 ## Core Idea

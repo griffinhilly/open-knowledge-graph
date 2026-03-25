@@ -6,6 +6,8 @@ course: medieval-world
 prerequisites:
 - id: medieval-urbanization-growth
   type: soft
+- id: castle-architecture-and-fortification
+  type: soft
 builds-toward:
 - renaissance-humanism
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Gothic and Romanesque Architecture: Medieval Building
 
 ## Core Idea

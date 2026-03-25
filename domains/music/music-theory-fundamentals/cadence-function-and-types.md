@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: voice-leading-smooth-motion-and-errors
   type: soft
+- id: cadence-authentic-plagal
+  type: soft
 builds-toward:
 - phrase-structure-and-closure-basics
 - harmonic-analysis-roman-numerals-basics
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Cadences: Function and Types
 
 ## Core Idea

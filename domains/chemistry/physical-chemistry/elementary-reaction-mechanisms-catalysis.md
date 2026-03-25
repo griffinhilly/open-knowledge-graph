@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: activation-energy-catalysis-reaction-pathways
   type: hard
+- id: adsorption-isotherms-kinetics
+  type: soft
+- id: michaelis-menten-enzyme-kinetics-physical-chemistry
+  type: soft
+- id: diffusion-controlled-reaction-kinetics
+  type: soft
 builds-toward:
 - transition-state-theory-and-kinetics
 tags:
@@ -18,7 +24,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Elementary Reaction Mechanisms and Catalysis
 
 ## Core Idea

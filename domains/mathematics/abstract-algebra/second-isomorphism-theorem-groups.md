@@ -6,6 +6,12 @@ course: abstract-algebra
 prerequisites:
 - id: first-isomorphism-theorem-groups
   type: hard
+- id: third-isomorphism-theorem-groups
+  type: soft
+- id: second-and-third-isomorphism-theorems
+  type: soft
+- id: fundamental-theorem-of-galois-theory
+  type: soft
 builds-toward:
 - direct-products-groups
 tags:
@@ -15,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Second Isomorphism Theorem for Groups
 
 ## Core Idea

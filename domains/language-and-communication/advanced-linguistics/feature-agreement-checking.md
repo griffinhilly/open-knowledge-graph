@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: minimalist-program-core-concepts
   type: hard
+- id: feature-geometry-underspecification
+  type: soft
 builds-toward:
 - null-elements-pro-drop
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Feature Agreement and Checking
 
 ## Core Idea

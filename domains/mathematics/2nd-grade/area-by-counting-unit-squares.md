@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: multiplication-introduction-arrays
   type: soft
+- id: area-rectangles-counting-squares-2nd
+  type: soft
 builds-toward:
 - area-of-rectangles
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Finding Area by Counting Unit Squares
 
 ## Core Idea

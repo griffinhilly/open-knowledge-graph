@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: diatonic-harmonic-progression-composition
   type: hard
+- id: borrowing-parallel-modes
+  type: soft
 builds-toward:
 - extended-harmony-composition
 - modulation-compositional-function
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Using Borrowed Chords in Composition
 
 ## Core Idea

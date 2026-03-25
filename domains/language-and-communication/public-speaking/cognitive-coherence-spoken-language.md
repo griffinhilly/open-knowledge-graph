@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: working-memory-sentence-comprehension
   type: soft
+- id: cohesive-transitions-spoken
+  type: soft
 builds-toward:
 - information-architecture-speech-design
 - speech-coherence-through-repetition
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Cognitive Coherence in Spoken Language
 
 ## Core Idea

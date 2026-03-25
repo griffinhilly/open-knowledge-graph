@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conduction-models-crustal-heat
   type: hard
+- id: subduction-zone-seismic-structure
+  type: soft
 tags:
 - subduction
 - thermal
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Subduction Zone Thermal Structure and Metamorphism
 
 ## Core Idea

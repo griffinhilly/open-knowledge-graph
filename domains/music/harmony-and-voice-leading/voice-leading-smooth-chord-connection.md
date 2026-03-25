@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: chord-progressions
   type: hard
+- id: conjunct-motion-voice-leading-smoothness
+  type: soft
+- id: voice-exchange-contrapuntal-technique
+  type: soft
 builds-toward:
 - secondary-dominant-voice-leading
 - harmonic-function-and-progression
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Smooth Voice Leading in Chord Progressions
 
 ## Core Idea

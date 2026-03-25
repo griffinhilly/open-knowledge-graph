@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nuclear-structure
   type: soft
+- id: alpha-emission-helium
+  type: soft
 builds-toward:
 - gamma-emission-nuclear-transitions
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Beta Decay and the Weak Nuclear Force
 
 ## Core Idea

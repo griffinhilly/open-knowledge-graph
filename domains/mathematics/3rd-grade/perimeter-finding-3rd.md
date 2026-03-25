@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: measurement-units-standard
   type: hard
+- id: perimeter-understanding-2nd
+  type: soft
 builds-toward:
 - perimeter-of-complex-shapes
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Finding Perimeter
 
 ## Core Idea

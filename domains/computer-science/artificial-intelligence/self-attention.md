@@ -9,8 +9,7 @@ prerequisites:
 - id: transformer-architecture
   type: hard
 builds-toward:
-- transformer-variants
-- vision-transformers
+- transformer-architecture
 tags:
 - self-attention
 - multi-head

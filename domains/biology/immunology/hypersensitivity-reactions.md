@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: antibody-structure-and-function
   type: soft
+- id: type-iii-and-iv-hypersensitivity
+  type: soft
 builds-toward:
 - autoimmunity-mechanisms
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Hypersensitivity Reactions (Types I–IV)
 
 ## Core Idea

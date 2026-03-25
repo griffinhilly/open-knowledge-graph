@@ -4,7 +4,7 @@ title: Converting ER Diagrams to Relational Schemas
 domain: computer-science
 course: databases
 prerequisites:
-- id: entity-relationship-diagram-advanced
+- id: entity-relationship-model-weak-entities-isa
   type: hard
 - id: relational-data-model
   type: hard

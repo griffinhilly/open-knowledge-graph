@@ -6,6 +6,10 @@ course: modern-physics
 prerequisites:
 - id: schrodinger-equation-time-dependent
   type: hard
+- id: uncertainty-relation-measurements
+  type: soft
+- id: stopping-potential-kinetic-energy
+  type: soft
 builds-toward:
 - probability-amplitude-interpretation
 - particle-in-box-1d
@@ -15,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Wavefunctions and Boundary Conditions
 
 ## Core Idea

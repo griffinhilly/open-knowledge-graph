@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: multipole-expansion-fields
   type: hard
+- id: magnetic-dipole-radiation
+  type: soft
 builds-toward:
 - multipole-expansion-fields
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Magnetic Dipole and Higher Multipole Radiation
 
 ## Core Idea

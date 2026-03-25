@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: completeness-metric-spaces
   type: hard
+- id: hahn-banach-theorem
+  type: soft
 builds-toward:
 - bounded-linear-operators
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Banach Spaces
 
 ## Core Idea

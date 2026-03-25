@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: poynting-vector-and-energy-flux
   type: hard
+- id: electromagnetic-angular-momentum-radiation
+  type: soft
 builds-toward:
 - em-angular-momentum-density
 - maxwell-stress-tensor-forces
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Momentum Density in Electromagnetic Fields
 
 ## Core Idea

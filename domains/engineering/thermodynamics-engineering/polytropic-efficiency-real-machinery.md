@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: isentropic-efficiency-devices
   type: hard
+- id: turbine-compressor-efficiency-definitions
+  type: soft
 builds-toward:
 - compressor-staging-multistage
 - turbine-staging-multistage
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Polytropic Efficiency and Real Machine Performance
 
 ## Core Idea

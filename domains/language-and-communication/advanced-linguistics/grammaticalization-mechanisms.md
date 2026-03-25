@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: language-variation-and-change
   type: hard
+- id: reanalysis-and-language-change
+  type: soft
 tags:
 - historical
 - language-change
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Grammaticalization: Mechanisms and Pathways
 
 ## Core Idea

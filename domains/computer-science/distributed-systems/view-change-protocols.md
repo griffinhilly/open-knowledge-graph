@@ -9,7 +9,7 @@ prerequisites:
 - id: state-machine-replication
   type: soft
 builds-toward:
-  - paxos-made-practical
+- paxos-algorithm
 tags:
 - failover
 - leader-change

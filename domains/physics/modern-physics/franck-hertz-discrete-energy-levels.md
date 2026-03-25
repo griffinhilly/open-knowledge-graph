@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hydrogen-energy-levels
   type: hard
+- id: stopping-potential-kinetic-energy
+  type: soft
 tags:
 - atomic-physics
 - energy-levels
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Franck-Hertz Experiment: Verification of Discrete Energy Levels
 
 ## Core Idea

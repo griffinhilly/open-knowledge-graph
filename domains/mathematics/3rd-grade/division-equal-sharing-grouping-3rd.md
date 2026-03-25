@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: division-grouping-2nd
   type: hard
+- id: division-introduction-sharing
+  type: soft
 builds-toward:
 - division-word-problems-3rd
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Division: Equal Sharing and Grouping
 
 ## Core Idea

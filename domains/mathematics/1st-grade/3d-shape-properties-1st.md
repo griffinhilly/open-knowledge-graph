@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: recognizing-3d-shapes
   type: soft
+- id: identifying-three-dimensional-shapes
+  type: soft
 builds-toward:
 - surface-area-intro
 - volume-intro
@@ -18,7 +20,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Properties of 3D Shapes
 
 ## Core Idea

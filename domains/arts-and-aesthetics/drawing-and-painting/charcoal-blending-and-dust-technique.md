@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: blending-and-smoothing-techniques
   type: hard
+- id: burnishing-and-layering-graphite
+  type: soft
 builds-toward:
 - figure-anatomy-skeletal-structure
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Charcoal Blending and Dust Technique
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: portraiture-fundamentals
   type: hard
+- id: head-construction-and-planes
+  type: soft
+- id: drawing-animals-basic-construction
+  type: soft
 builds-toward:
 - portrait-skin-rendering-and-values
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Portrait Mouth and Nose Construction
 
 ## Core Idea

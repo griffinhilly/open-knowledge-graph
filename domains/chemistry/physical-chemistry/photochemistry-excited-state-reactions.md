@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: reaction-mechanisms-elementary-steps
   type: hard
+- id: excited-state-decay-pathways
+  type: soft
+- id: photochemical-processes-excited-states
+  type: soft
+- id: fluorescence-quantum-yield-lifetime
+  type: soft
 builds-toward: []
 tags:
 - photochemistry

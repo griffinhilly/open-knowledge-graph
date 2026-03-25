@@ -6,6 +6,8 @@ course: harmony-and-voice-leading
 prerequisites:
 - id: voice-leading-basics
   type: hard
+- id: parallel-fifths-octaves-handling
+  type: soft
 builds-toward:
 - four-part-writing
 - voice-leading-in-composition
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Avoiding Parallel Perfect Intervals
 
 ## Core Idea

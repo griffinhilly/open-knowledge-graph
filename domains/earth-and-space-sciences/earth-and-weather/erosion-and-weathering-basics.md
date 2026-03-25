@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: rainy-days
   type: soft
+- id: earthquakes-basics
+  type: soft
 builds-toward:
 - weathering-and-erosion
 - erosion-agents-fluvial-glacial-coastal
@@ -23,7 +25,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Erosion and Weathering Basics
 
 ## Core Idea

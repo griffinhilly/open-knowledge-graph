@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: control-and-raising-constructions
   type: soft
+- id: applicative-voice-operations
+  type: soft
 tags:
 - syntax
 - voice
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Causative Voice Constructions
 
 ## Core Idea

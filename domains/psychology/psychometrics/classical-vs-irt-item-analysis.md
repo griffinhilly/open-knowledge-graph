@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: item-response-theory-assumptions
   type: hard
+- id: distractor-analysis-and-optimization
+  type: soft
 builds-toward:
 - multiple-choice-distractor-analysis
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Classical and IRT-Based Item Analysis Compared
 
 ## Core Idea

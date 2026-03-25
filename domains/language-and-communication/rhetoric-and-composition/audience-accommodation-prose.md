@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: audience-context-and-adaptation
   type: soft
+- id: clarity-and-accessibility-in-prose
+  type: soft
 builds-toward:
 - academic-writing-conventions
 - persuasive-writing
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Audience Accommodation and Register in Prose
 
 ## Core Idea

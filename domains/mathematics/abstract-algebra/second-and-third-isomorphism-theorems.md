@@ -6,6 +6,8 @@ course: abstract-algebra
 prerequisites:
 - id: first-isomorphism-theorem-for-groups
   type: hard
+- id: applications-sylow-theorems
+  type: soft
 tags:
 - isomorphism-theorems
 - subgroups
@@ -13,7 +15,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Second and Third Isomorphism Theorems
 
 ## Core Idea

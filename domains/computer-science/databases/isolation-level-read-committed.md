@@ -6,6 +6,8 @@ course: databases
 prerequisites:
 - id: concurrency-control-databases
   type: hard
+- id: isolation-level-serializable
+  type: soft
 builds-toward:
 - nonrepeatable-read-anomaly
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Isolation Level: READ COMMITTED
 
 ## Core Idea

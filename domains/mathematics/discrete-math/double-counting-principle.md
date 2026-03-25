@@ -6,6 +6,8 @@ course: discrete-math
 prerequisites:
 - id: counting-principles
   type: hard
+- id: stars-and-bars-method
+  type: soft
 builds-toward:
 - bijection-counting-principle
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Double Counting Principle
 
 ## Core Idea

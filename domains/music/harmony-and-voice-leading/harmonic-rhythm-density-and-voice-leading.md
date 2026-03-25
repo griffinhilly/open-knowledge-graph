@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: voice-leading-smooth-stepwise-motion
   type: soft
+- id: harmonic-rhythm-pacing-structure
+  type: soft
 tags:
 - harmonic-rhythm
 - texture
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Harmonic Rhythm, Density, and Voice-Leading Texture
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: seismic-body-waves-p-and-s
   type: hard
+- id: electrical-resistivity-tomography
+  type: soft
 tags:
 - seismology
 - tomography
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Seismic Tomography and Velocity Imaging
 
 ## Core Idea

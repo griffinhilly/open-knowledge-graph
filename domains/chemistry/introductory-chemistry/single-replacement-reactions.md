@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: metals-nonmetals-metalloids
   type: soft
+- id: periodic-trends-intro
+  type: soft
 builds-toward:
 - oxidation-reduction-basics
 tags:

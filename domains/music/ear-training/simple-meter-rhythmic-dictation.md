@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: rhythm-and-beat-foundation
   type: hard
+- id: beat-subdivision-and-counting
+  type: soft
+- id: rhythmic-subdivision-precision-ear
+  type: soft
 builds-toward:
 - compound-meter-rhythmic-dictation
 - syncopation-rhythm-ear
@@ -21,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Simple Meter Rhythmic Dictation
 
 ## Core Idea

@@ -8,13 +8,16 @@ prerequisites:
   type: hard
 - id: commas-with-introductory-dependent-clauses
   type: hard
+- id: apostrophe-usage-contractions-possession
+  type: soft
+- id: interjections-and-exclamations
+  type: soft
 tags:
 - punctuation
 - commas
 stage: abstract-reasoning
 status: validated
 ---
-
 # Comma Rules: An Introduction
 
 ## Core Idea

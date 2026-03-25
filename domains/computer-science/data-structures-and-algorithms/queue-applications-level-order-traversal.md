@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: breadth-first-search
   type: hard
+- id: graph-breadth-first-search-applications
+  type: soft
 builds-toward:
 - breadth-first-search
 - bipartite-graph-detection-coloring
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Queue Applications: Level-Order Traversal and Breadth-First Search
 
 ## Core Idea

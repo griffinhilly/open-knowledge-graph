@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: even-and-odd-numbers
   type: soft
+- id: number-patterns-skip-counting-1st
+  type: soft
 builds-toward:
 - arrays
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Skip Counting by 2s Fluency
 
 ## Core Idea

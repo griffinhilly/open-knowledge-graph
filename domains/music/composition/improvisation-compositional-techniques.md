@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: jazz-improvisation-harmony
   type: soft
+- id: improvisation-notation-transcription
+  type: soft
+- id: electronic-composition-fundamentals
+  type: soft
 tags:
 - improvisation
 - composition
@@ -16,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Improvisation and Spontaneous Composition
 
 ## Core Idea

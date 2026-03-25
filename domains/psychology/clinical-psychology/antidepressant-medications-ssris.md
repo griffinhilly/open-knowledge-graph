@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: serotonin-system
   type: hard
+- id: antidepressant-medications
+  type: soft
 builds-toward:
 - comorbidity-complex-presentations
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Antidepressant Medications: SSRIs and Mechanisms
 
 ## Core Idea

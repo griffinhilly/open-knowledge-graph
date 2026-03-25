@@ -11,7 +11,7 @@ prerequisites:
 - id: string-basics
   type: hard
 builds-toward:
-- type-conversion-casting
+- type-conversion
 tags:
 - types
 - type-safety

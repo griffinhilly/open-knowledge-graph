@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: technology-and-aesthetic-mediation
   type: soft
+- id: gender-and-artistic-representation
+  type: soft
 builds-toward:
 - impressionism-and-post-impressionism
 - contemporary-art-and-postmodernism
@@ -20,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Photography and the Crisis of Representation in Modern Art
 
 ## Core Idea

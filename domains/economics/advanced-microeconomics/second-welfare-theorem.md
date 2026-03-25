@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: first-welfare-theorem
   type: soft
+- id: welfare-analysis-advanced
+  type: soft
 builds-toward:
 - social-welfare-optimization
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Second Welfare Theorem: Efficiency and Income Redistribution
 
 ## Core Idea

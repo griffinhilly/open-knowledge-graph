@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: derivatives-of-logarithmic-functions
   type: soft
+- id: bond-convexity-price-effects
+  type: soft
 builds-toward: []
 tags:
 - bonds

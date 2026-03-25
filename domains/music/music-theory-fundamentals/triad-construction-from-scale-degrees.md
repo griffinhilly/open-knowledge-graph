@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: interval-quality-by-semitone-count
   type: hard
+- id: augmented-triads-construction
+  type: soft
 builds-toward:
 - diatonic-chord-construction-fundamentals
 - primary-harmony-functions
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Building Triads from Scale Degrees
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: measurement-reliability-estimation
   type: soft
+- id: construct-validity-and-measurement
+  type: soft
 builds-toward:
 - internal-validity-confounds-and-control
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Measurement Validity: Construct and Criterion Evidence
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: building-a-simple-circuit
   type: hard
+- id: led-circuits
+  type: soft
 builds-toward:
 - technology-in-everyday-life
 - adc-dac-fundamentals

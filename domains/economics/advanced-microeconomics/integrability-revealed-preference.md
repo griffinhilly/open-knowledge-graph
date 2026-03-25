@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: compensated-demand-curves
   type: hard
+- id: strong-axiom-revealed-preference
+  type: soft
 tags:
 - consumer-theory
 - demand
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Integrability and Preference Recovery
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: phillips-curve-dynamics
   type: soft
+- id: natural-rate-of-unemployment-nairu
+  type: soft
+- id: labor-force-participation-macro
+  type: soft
 builds-toward:
 - sectoral-shifts-and-reallocation-unemployment
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Wage Setting and Labor Market Equilibrium
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: chord-quality-by-ear
   type: hard
+- id: extended-chord-ear-training
+  type: soft
 builds-toward:
 - borrowed-chord-recognition-ear
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Extended Chord Quality Recognition by Ear
 
 ## Core Idea

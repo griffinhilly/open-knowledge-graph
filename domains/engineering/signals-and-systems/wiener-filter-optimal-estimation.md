@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: lti-systems-and-impulse-response
   type: hard
+- id: kalman-filter-state-estimation
+  type: soft
+- id: digital-spectral-analysis-nonparametric
+  type: soft
 builds-toward:
 - kalman-filter-state-estimation
 - adaptive-filtering-lms
@@ -19,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Wiener Filter for Optimal Estimation
 
 ## Core Idea

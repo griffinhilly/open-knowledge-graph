@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: liturgical-chant-and-medieval-foundations
   type: soft
+- id: folk-traditions-and-art-music
+  type: soft
 tags:
 - sacred-music
 - liturgy
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Sacred Music and Liturgical Traditions
 
 ## Core Idea

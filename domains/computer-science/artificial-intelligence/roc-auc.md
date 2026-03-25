@@ -6,9 +6,6 @@ course: artificial-intelligence
 prerequisites:
 - id: classification-metrics
   type: hard
-builds-toward:
-- threshold-optimization
-- ranking-metrics
 tags:
 - roc
 - auc

@@ -6,6 +6,8 @@ course: developmental-psychology
 prerequisites:
 - id: developmental-psychology-overview
   type: soft
+- id: secure-attachment-and-base-functions
+  type: soft
 builds-toward:
 - secure-attachment-and-base-functions
 - emotional-development-and-regulation-infancy

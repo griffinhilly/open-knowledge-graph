@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: interval-quality-basics
   type: hard
+- id: perfect-vs-diminished-augmented-interval
+  type: soft
 builds-toward:
 - chord-quality-by-ear
 - dominant-seventh-fundamentals
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Tritone and Diminished Intervals
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rlc-circuit-transient-analysis-overview
   type: hard
+- id: second-order-active-filters
+  type: soft
 builds-toward:
 - bandpass-and-bandstop-filter-design
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Second-Order Passive Filters
 
 ## Core Idea

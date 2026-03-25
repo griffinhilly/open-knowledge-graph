@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: enzyme-structure-and-function
   type: soft
+- id: kinetochore-structure-and-function
+  type: soft
 builds-toward:
 - cellular-respiration-overview
 - electron-transport-chain
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Mitochondria: Structure and Function
 
 ## Core Idea

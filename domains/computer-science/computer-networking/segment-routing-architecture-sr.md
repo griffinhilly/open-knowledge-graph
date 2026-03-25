@@ -8,8 +8,12 @@ prerequisites:
   type: hard
 - id: bgp-border-gateway-protocol
   type: hard
+- id: mpls-multiprotocol-label-switching
+  type: soft
+- id: multicast-routing-protocols
+  type: soft
 builds-toward:
-  - network-standards-and-ietf
+- network-standards-and-ietf
 tags:
 - routing
 - segment-routing

@@ -6,6 +6,8 @@ course: design-principles
 prerequisites:
 - id: information-architecture-fundamentals
   type: hard
+- id: progressive-disclosure
+  type: soft
 builds-toward:
 - ui-design-fundamentals
 - user-experience-fundamentals
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Progressive Disclosure in Design
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dielectrics
   type: hard
+- id: polarization-of-waves
+  type: soft
 builds-toward:
 - dispersion-relations-em-waves
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Electromagnetic Waves in Dielectric Materials
 
 ## Core Idea

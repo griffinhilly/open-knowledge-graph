@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: exoplanet-transmission-spectroscopy
   type: hard
+- id: biosignatures-exoplanet-atmospheres
+  type: soft
+- id: atmospheric-dynamics-exoplanets
+  type: soft
 tags:
 - biosignatures
 - spectroscopy
@@ -16,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Biosignature Detection and Atmospheric Spectroscopy
 
 ## Core Idea

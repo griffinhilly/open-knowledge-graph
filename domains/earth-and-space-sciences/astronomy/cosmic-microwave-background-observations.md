@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: electromagnetic-waves
   type: soft
+- id: cosmic-inflation-and-early-universe
+  type: soft
+- id: cosmic-distance-ladder-calibration
+  type: soft
 tags:
 - cosmology
 - cmb
@@ -21,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Cosmic Microwave Background Radiation
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: computability-and-complexity
 prerequisites:
 - id: np-and-polynomial-time
   type: hard
+- id: co-np
+  type: soft
 builds-toward:
 - inapproximability-pcp
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Co-NP and Complementary Complexity Classes
 
 ## Core Idea

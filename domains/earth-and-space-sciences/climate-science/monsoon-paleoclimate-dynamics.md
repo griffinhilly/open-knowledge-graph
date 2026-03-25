@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: milankovitch-orbital-cycles
   type: soft
+- id: orbital-forcing-variations
+  type: soft
+- id: solar-variability-climate
+  type: soft
+- id: storm-track-dynamics-climate
+  type: soft
 builds-toward: []
 tags:
 - monsoon

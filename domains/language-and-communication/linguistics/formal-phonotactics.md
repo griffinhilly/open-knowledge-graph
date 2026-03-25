@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: syllable-structure-phonotactics
   type: soft
+- id: morpheme-structure-constraints
+  type: soft
 builds-toward:
 - constraint-based-phonology-formal
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Formal Phonotactics: Constraints on Sound Sequences
 
 ## Core Idea

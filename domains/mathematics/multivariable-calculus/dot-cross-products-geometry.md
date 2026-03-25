@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: dot-product
   type: soft
+- id: dot-product-geometry
+  type: soft
+- id: cross-product-geometry-3d
+  type: soft
 builds-toward:
 - equations-lines-planes
 - curl-and-divergence
@@ -21,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Dot and Cross Products: Geometry and Computation
 
 ## Core Idea

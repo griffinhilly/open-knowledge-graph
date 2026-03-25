@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: maxwell-boltzmann-distribution
   type: hard
+- id: kinetic-molecular-distribution-speeds
+  type: soft
 builds-toward:
 - canonical-ensemble-physical-chemistry
 - pre-exponential-factor-collision-theory
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Statistical Distribution of Molecular Energies
 
 ## Core Idea

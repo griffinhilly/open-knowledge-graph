@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: sequences-convergence
   type: soft
+- id: vector-autoregression-models
+  type: soft
 builds-toward:
 - vector-autoregression-models
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # ARIMA Models and Time Series Forecasting
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: molecular-polarity
   type: hard
+- id: intermolecular-lennard-jones-potential
+  type: soft
 builds-toward:
 - van-der-waals-equation-of-state-advanced
 - hydrogen-bonding-energetics
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Intermolecular Potential Energy Surfaces
 
 ## Core Idea

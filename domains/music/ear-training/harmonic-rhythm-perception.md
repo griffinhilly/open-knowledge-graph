@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: chord-progressions
   type: soft
+- id: harmonic-rhythm-detection-ear
+  type: soft
 builds-toward:
 - schenkerian-analysis-fundamentals
 - metric-modulation-theory
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Harmonic Rhythm Perception by Ear
 
 ## Core Idea

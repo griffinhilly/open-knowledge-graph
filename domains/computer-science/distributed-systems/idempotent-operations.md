@@ -7,7 +7,7 @@ prerequisites:
 - id: distributed-systems-introduction
   type: hard
 builds-toward:
-  - distributed-transactions-2pc
+- two-phase-commit-protocol
 tags:
 - retry
 - fault-tolerance

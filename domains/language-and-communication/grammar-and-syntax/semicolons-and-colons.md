@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: run-on-sentences-and-fragments
   type: soft
+- id: appositives
+  type: soft
 builds-toward:
 - paragraph-structure
 tags:

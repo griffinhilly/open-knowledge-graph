@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: measuring-length-inches-centimeters-2nd
   type: hard
+- id: perimeter-rectangles-2nd
+  type: soft
 builds-toward:
 - area-and-perimeter-problems
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Understanding Perimeter as a Distance Around
 
 ## Core Idea

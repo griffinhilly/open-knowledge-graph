@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: logos-and-logical-reasoning
   type: soft
+- id: refutation-reconstruction-debate
+  type: soft
+- id: refuting-counterarguments-persuasion
+  type: soft
+- id: fallacy-recognition-live-response
+  type: soft
 builds-toward:
 - question-and-answer-management
 tags:
@@ -21,7 +27,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Refutation and Rebuttal in Debate
 
 ## Core Idea

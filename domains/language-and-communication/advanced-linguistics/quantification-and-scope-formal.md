@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: quantifiers-and-scope
   type: hard
+- id: quantifier-scope-and-ambiguity
+  type: soft
 builds-toward:
 - de-re-de-dicto-distinction
 - type-theory-semantics
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Quantification and Scope in Formal Semantics
 
 ## Core Idea

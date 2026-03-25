@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: hydrostatic-equilibrium
   type: soft
+- id: main-sequence-lifetime-mass-luminosity-relation
+  type: soft
 builds-toward:
 - stellar-end-states
 - galaxy-morphology-and-classification
@@ -31,7 +33,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Stellar Evolution: From Main Sequence to Stellar Death
 
 ## Core Idea

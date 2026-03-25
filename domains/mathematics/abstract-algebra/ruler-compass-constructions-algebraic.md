@@ -6,6 +6,8 @@ course: abstract-algebra
 prerequisites:
 - id: fundamental-theorem-galois-theory
   type: hard
+- id: ruler-and-compass-constructions
+  type: soft
 tags:
 - geometric-construction
 - constructible
@@ -14,7 +16,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Ruler and Compass Constructions (Algebraic Proof)
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: complex-analysis
   type: soft
+- id: nyquist-stability-from-frequency-response
+  type: soft
 builds-toward:
 - gain-margin-phase-margin-stability
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Nyquist Plot and Encirclement Criterion
 
 ## Core Idea

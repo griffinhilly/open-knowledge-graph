@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: simple-harmonic-motion
   type: soft
+- id: second-order-system-damping-ratio
+  type: soft
 builds-toward:
 - steady-state-error-analysis
 - routh-hurwitz-criterion
@@ -23,7 +25,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Second-Order System Time Response
 
 ## Core Idea

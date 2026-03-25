@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: turing-machines-formal
   type: hard
+- id: recursively-enumerable-languages-properties
+  type: soft
+- id: arithmetical-hierarchy
+  type: soft
+- id: computability-complexity-overview
+  type: soft
 builds-toward:
 - space-hierarchy-theorem
 tags:
@@ -17,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Time Hierarchy Theorem
 
 ## Core Idea

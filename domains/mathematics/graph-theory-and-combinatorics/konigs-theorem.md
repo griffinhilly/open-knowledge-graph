@@ -6,6 +6,8 @@ course: graph-theory-and-combinatorics
 prerequisites:
 - id: halls-marriage-theorem
   type: hard
+- id: konig-theorem
+  type: soft
 tags:
 - graph-theory
 - matching
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # König's Theorem and Matching-Cover Duality
 
 ## Core Idea

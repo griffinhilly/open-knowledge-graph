@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: matrix-operations
   type: soft
+- id: activation-functions
+  type: soft
+- id: graph-neural-networks
+  type: soft
 tags:
 - deep-learning
 - computer-vision
@@ -19,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Convolutional Neural Networks
 
 ## Core Idea

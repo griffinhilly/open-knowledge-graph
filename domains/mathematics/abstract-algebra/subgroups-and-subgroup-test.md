@@ -6,6 +6,8 @@ course: abstract-algebra
 prerequisites:
 - id: basic-group-properties
   type: hard
+- id: second-and-third-isomorphism-theorems
+  type: soft
 builds-toward:
 - cyclic-groups
 - cosets-and-lagrange-theorem
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Subgroups and Subgroup Test
 
 ## Core Idea

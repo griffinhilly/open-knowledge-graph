@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: interval-quality-basics
   type: hard
+- id: melody-from-harmony
+  type: soft
+- id: passing-tones-and-embellishment
+  type: soft
 builds-toward:
 - voice-leading-smooth-progressions
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Harmonic vs. Melodic Intervals
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: passive-transport
   type: soft
+- id: ventilation-mechanics-control
+  type: soft
 builds-toward:
 - alveolar-ventilation-and-dead-space
 - ventilation-control-chemoreceptor-feedback
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Pulmonary Ventilation Mechanics and Lung Compliance
 
 ## Core Idea

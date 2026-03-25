@@ -6,13 +6,18 @@ course: graph-theory-and-combinatorics
 prerequisites:
 - id: edge-coloring
   type: hard
+- id: edge-coloring-vizings-theorem
+  type: soft
+- id: mengers-theorem
+  type: soft
+- id: hamiltonian-cycles-dirac-ore
+  type: soft
 tags:
 - graph-theory
 - edge-coloring
 stage: formal-systems
 status: validated
 ---
-
 # Vizing's Theorem
 
 ## Core Idea

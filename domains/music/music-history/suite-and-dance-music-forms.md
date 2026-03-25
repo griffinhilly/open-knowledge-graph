@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: renaissance-music-style-and-context
   type: soft
+- id: baroque-instrumental-development
+  type: soft
+- id: fugue-and-baroque-polyphony-peak
+  type: soft
 tags:
 - form
 - baroque
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Suite and Dance Music Forms
 
 ## Core Idea

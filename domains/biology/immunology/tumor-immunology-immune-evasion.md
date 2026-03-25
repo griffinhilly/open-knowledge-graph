@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: innate-immune-response
   type: soft
+- id: antigenic-variation-and-immune-evasion
+  type: soft
 tags:
 - tumor-immunology
 - immune-evasion
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Tumor Immunology and Immune Evasion
 
 ## Core Idea

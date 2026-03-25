@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: morphological-structure
   type: hard
+- id: binding-theory-anaphora-coreference
+  type: soft
 tags:
 - syntax
 - morphology
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Case Theory and Abstract Case Assignment
 
 ## Core Idea

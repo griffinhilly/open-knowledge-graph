@@ -6,6 +6,8 @@ course: computer-architecture
 prerequisites:
 - id: binary-number-system
   type: hard
+- id: counters-design-analysis
+  type: soft
 builds-toward:
 - twos-complement
 - binary-adders
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Binary Arithmetic
 
 ## Core Idea

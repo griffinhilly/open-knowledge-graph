@@ -6,13 +6,14 @@ course: analytical-chemistry
 prerequisites:
 - id: functional-groups-overview
   type: hard
+- id: clinical-diagnostic-analytical-chemistry
+  type: soft
 tags:
 - derivatization
 - chemical modification
 stage: advanced
 status: validated
 ---
-
 # Derivatization in Analytical Chemistry
 
 ## Core Idea

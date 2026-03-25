@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: what-is-gravity
   type: hard
+- id: momentum-intro
+  type: soft
 builds-toward:
 - newtons-law-of-gravitation
 - free-fall

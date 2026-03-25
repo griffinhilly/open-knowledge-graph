@@ -7,7 +7,7 @@ prerequisites:
 - id: database-systems-introduction
   type: hard
 builds-toward:
-- buffer-pool-cache-management
+- buffer-pool-cache-replacement-policies
 - index-types-btree-hash-bitmap
 tags:
 - physical-storage

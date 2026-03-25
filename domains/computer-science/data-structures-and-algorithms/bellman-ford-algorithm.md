@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: breadth-first-search
   type: soft
+- id: floyd-warshall-all-pairs-shortest-path
+  type: soft
 tags:
 - shortest-path
 - Bellman-Ford
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Bellman-Ford Algorithm
 
 ## Core Idea

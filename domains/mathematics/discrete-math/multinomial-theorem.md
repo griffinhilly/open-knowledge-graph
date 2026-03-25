@@ -6,6 +6,10 @@ course: discrete-math
 prerequisites:
 - id: binomial-coefficients
   type: hard
+- id: derangements
+  type: soft
+- id: binomial-theorem-discrete
+  type: soft
 builds-toward:
 - inclusion-exclusion-principle
 tags:
@@ -14,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Multinomial Theorem and Multinomial Coefficients
 
 ## Core Idea

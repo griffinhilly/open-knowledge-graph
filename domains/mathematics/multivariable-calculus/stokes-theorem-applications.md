@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: surface-integrals-flux-vector
   type: hard
+- id: stokes-and-divergence-theorems
+  type: soft
+- id: work-circulation
+  type: soft
+- id: greens-theorem-applications
+  type: soft
 tags:
 - stokes-theorem
 - curl
@@ -15,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Stokes' Theorem: Circulation and Curl
 
 ## Core Idea

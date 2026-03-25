@@ -6,6 +6,8 @@ course: discrete-math
 prerequisites:
 - id: counting-principles-fundamentals
   type: hard
+- id: probabilistic-method-counting
+  type: soft
 builds-toward:
 - combinations-and-selections
 - derangements
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Permutations and Ordered Arrangements
 
 ## Core Idea

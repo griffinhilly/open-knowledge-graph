@@ -6,6 +6,8 @@ course: multivariable-calculus
 prerequisites:
 - id: higher-order-partial-derivatives
   type: hard
+- id: clairaut-theorem
+  type: soft
 builds-toward:
 - critical-points-multivariable
 - second-partials-test
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Mixed Partial Derivatives and Clairaut's Theorem
 
 ## Core Idea

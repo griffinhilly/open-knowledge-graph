@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hilbert-transform-analytic-signals
   type: soft
+- id: frequency-shift-keying-modulation
+  type: soft
 builds-toward:
 - phase-shift-keying-modulation
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Quadrature Modulation and I/Q Representation
 
 ## Core Idea

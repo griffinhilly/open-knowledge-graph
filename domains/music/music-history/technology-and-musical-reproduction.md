@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: notation-publishing-and-distribution
   type: soft
+- id: musical-notation-historical-development
+  type: soft
 builds-toward:
 - popular-music-and-mass-media
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Technology and Musical Reproduction
 
 ## Core Idea

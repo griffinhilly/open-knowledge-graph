@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: rock-forming-minerals
   type: soft
+- id: seismic-interpretation-structural-mapping
+  type: soft
+- id: earthquake-magnitude-frequency-gutenberg-richter
+  type: soft
+- id: seismic-signal-processing
+  type: soft
 builds-toward:
 - seismic-velocity-depth-models
 tags:
@@ -17,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Vp/Vs Ratio and Rock Properties
 
 ## Core Idea

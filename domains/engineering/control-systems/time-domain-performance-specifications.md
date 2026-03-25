@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: first-order-system-response-analysis
   type: soft
+- id: rise-time-settling-time-overshoot
+  type: soft
 builds-toward:
 - root-locus-pole-placement
 - lead-lag-compensation-design
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Time-Domain Performance Metrics and Specifications
 
 ## Core Idea

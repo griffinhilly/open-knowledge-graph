@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: kepler-laws-planetary-orbits
   type: hard
+- id: late-heavy-bombardment
+  type: soft
 builds-toward:
 - n-body-planetary-dynamics
 - multi-planet-system-architecture
@@ -21,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Orbital Resonance Capture and Locked Migration
 
 ## Core Idea

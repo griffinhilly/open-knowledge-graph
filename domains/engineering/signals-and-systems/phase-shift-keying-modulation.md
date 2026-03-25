@@ -6,6 +6,8 @@ course: signals-and-systems
 prerequisites:
 - id: quadrature-modulation-iq-representation
   type: hard
+- id: frequency-shift-keying-modulation
+  type: soft
 tags:
 - psk
 - bpsk
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Phase Shift Keying Modulation
 
 ## Core Idea

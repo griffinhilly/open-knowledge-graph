@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: currency-derivatives-and-hedging
   type: soft
+- id: spot-forward-rate-relationships
+  type: soft
 builds-toward:
 - exchange-rate-dynamics
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Currency Carry Trades and Interest Rate Differentials
 
 ## Core Idea

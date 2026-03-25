@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: radiative-transfer-atmospheric
   type: soft
+- id: cloud-feedback-paleoclimate
+  type: soft
 builds-toward:
 - ice-sheet-climate-coupling
 - paleoclimate-tipping-points
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Albedo Feedbacks and Paleoclimate
 
 ## Core Idea

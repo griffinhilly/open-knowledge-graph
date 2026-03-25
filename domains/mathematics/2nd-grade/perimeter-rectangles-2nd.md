@@ -6,6 +6,8 @@ course: 2nd-grade
 prerequisites:
 - id: perimeter
   type: hard
+- id: area-rectangles-counting-squares-2nd
+  type: soft
 tags:
 - perimeter
 - rectangles
@@ -13,7 +15,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Understanding Perimeter
 
 ## Core Idea

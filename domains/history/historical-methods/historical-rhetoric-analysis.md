@@ -6,6 +6,8 @@ course: historical-methods
 prerequisites:
 - id: textual-criticism-and-manuscript-tradition
   type: hard
+- id: linguistic-analysis-historical
+  type: soft
 builds-toward:
 - counter-narrative-analysis
 - historical-semantics-and-terminology-change
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Historical Rhetoric Analysis
 
 ## Core Idea

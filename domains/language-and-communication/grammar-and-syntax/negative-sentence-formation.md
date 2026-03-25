@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: auxiliary-verbs-and-modality
   type: hard
+- id: parallel-structure-in-sentences
+  type: soft
 builds-toward:
 - double-negatives-standard-usage
 - question-formation-inverted-word-order
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Forming Negative Sentences
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: crystallographic-planes-directions
   type: soft
+- id: dislocation-types-and-motion
+  type: soft
 builds-toward:
 - plastic-deformation-yielding-materials
 - strengthening-mechanisms-materials
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Dislocation Motion and Slip Systems
 
 ## Core Idea

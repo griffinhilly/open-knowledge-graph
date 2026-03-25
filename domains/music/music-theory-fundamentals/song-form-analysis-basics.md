@@ -6,6 +6,8 @@ course: music-theory-fundamentals
 prerequisites:
 - id: period-structure-basics
   type: hard
+- id: simple-song-form
+  type: soft
 tags:
 - form
 - analysis
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Song Form Fundamentals: Structure and Analysis
 
 ## Core Idea

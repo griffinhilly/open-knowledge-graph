@@ -6,6 +6,8 @@ course: kindergarten
 prerequisites:
 - id: counting-sequence-to-ten
   type: soft
+- id: ordinal-numbers-first-through-tenth
+  type: soft
 builds-toward:
 - ordinal-numbers-first-through-tenth
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Ordinal Position Language: First Through Tenth
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: aesthetic-theory
 prerequisites:
 - id: walter-benjamin-mechanical-reproduction
   type: hard
+- id: adorno-culture-industry-and-administered-aesthetics
+  type: soft
 builds-toward:
 - postmodern-aesthetics-pastiche
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Adorno: The Culture Industry and Standardized Art
 
 ## Core Idea

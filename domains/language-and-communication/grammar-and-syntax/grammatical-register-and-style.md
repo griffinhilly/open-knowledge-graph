@@ -8,6 +8,16 @@ prerequisites:
   type: soft
 - id: passive-voice
   type: soft
+- id: parallel-structure-in-sentences
+  type: soft
+- id: preposition-placement-and-stranding
+  type: soft
+- id: word-order-variation-emphasis
+  type: soft
+- id: double-negatives-standard-usage
+  type: soft
+- id: colons-dashes-parentheses
+  type: soft
 tags:
 - register
 - style
@@ -15,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Grammatical Register and Style: Formal vs. Informal
 
 ## Core Idea

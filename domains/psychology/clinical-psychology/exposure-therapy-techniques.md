@@ -6,6 +6,8 @@ course: clinical-psychology
 prerequisites:
 - id: cognitive-behavioral-therapy-clinical
   type: hard
+- id: exposure-therapy-and-cbt
+  type: soft
 tags:
 - exposure
 - cbt-technique
@@ -13,7 +15,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Exposure Therapy: Techniques and Applications
 
 ## Core Idea

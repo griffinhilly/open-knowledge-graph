@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: limits-continuity-multivariable
   type: hard
+- id: differentiability-multivariable
+  type: soft
 builds-toward:
 - total-differential
 - chain-rule-multivariable
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Differentiability in Multivariable Functions
 
 ## Core Idea

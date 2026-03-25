@@ -9,8 +9,7 @@ prerequisites:
 - id: lstm-gated-networks
   type: hard
 builds-toward:
-- sequence-modeling
-- temporal-modeling
+- sequence-to-sequence-models
 tags:
 - gru
 - gated-recurrent-unit

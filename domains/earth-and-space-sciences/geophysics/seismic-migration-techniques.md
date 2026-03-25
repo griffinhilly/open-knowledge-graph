@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: seismic-velocity-depth-models
   type: hard
+- id: seismic-ray-theory
+  type: soft
+- id: subduction-zone-seismic-structure
+  type: soft
 builds-toward:
 - seismic-interpretation-structural-mapping
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Seismic Migration and Depth Imaging
 
 ## Core Idea

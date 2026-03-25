@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: ocean-atmosphere-interactions
   type: soft
+- id: climate-classification-systems-koppen
+  type: soft
 builds-toward:
 - climate-feedback-ice-albedo-water-vapor
 - atmospheric-teleconnections-enso-nao
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Climate Oscillations and Modes: ENSO, NAO, and Others
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: compact-sets
   type: soft
+- id: weierstrass-approximation-theorem
+  type: soft
 builds-toward:
 - compact-sets
 - heine-borel-theorem
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Bolzano-Weierstrass Theorem
 
 ## Core Idea

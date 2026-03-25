@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: comparing-two-digit-numbers
   type: hard
+- id: comparing-two-digit-numbers-2nd-grade
+  type: soft
 builds-toward:
 - estimation-and-rounding-2nd
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Comparing and Ordering Three-Digit Numbers
 
 ## Core Idea

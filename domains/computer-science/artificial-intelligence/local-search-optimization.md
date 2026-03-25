@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: greedy-algorithms
   type: soft
+- id: heuristic-search-functions
+  type: soft
 builds-toward:
 - simulated-annealing
 - genetic-algorithms
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Local Search Optimization
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hydrogen-quantum-energy-levels
   type: soft
+- id: electron-cloud-orbital-shapes
+  type: soft
 builds-toward:
 - quantum-numbers-spherical-harmonics
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Atomic Orbitals: Shapes and Nodal Structure
 
 ## Core Idea

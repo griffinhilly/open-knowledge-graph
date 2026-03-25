@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: fact-families
   type: soft
+- id: multiplication-division-fact-families
+  type: soft
 builds-toward:
 - unknown-factor-problems
 - intro-to-long-division
@@ -22,7 +24,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Relationship Between Multiplication and Division
 
 ## Core Idea

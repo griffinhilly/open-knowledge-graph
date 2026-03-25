@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: chromatic-harmony
   type: soft
+- id: extended-harmonic-techniques
+  type: soft
+- id: borrowed-chord-composition
+  type: soft
+- id: chromatic-embellishment-composition
+  type: soft
 tags:
 - harmony
 - extended-chords
@@ -18,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Extended Harmony in Composition
 
 ## Core Idea

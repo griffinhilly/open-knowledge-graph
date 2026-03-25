@@ -6,6 +6,8 @@ course: clinical-psychology
 prerequisites:
 - id: personality-disorder-overview
   type: hard
+- id: cluster-b-dramatic-emotional
+  type: soft
 tags:
 - cluster-a
 - personality-disorder
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Cluster A Personality Disorders: Odd and Eccentric
 
 ## Core Idea

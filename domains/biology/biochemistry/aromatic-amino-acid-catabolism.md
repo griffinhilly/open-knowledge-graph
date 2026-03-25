@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electrophilic-aromatic-substitution
   type: soft
+- id: branched-chain-amino-acid-catabolism
+  type: soft
 builds-toward:
 - phenylketonuria-and-metabolic-disease
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Aromatic Amino Acid Metabolism
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: expectations-augmented-phillips-curve-modern
   type: hard
+- id: supply-shocks-aggregate-disruptions
+  type: soft
 tags:
 - stagflation
 - policy
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Stagflation and Policy Conflict
 
 ## Core Idea

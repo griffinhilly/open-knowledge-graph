@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: rhythm-and-beat-foundation
   type: soft
+- id: harmonic-duration-between-chord-changes
+  type: soft
+- id: rhythm-pattern-completion
+  type: soft
 builds-toward:
 - form-recognition-by-ear
 - chord-progression-patterns-ear
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Harmonic Rhythm Detection by Ear
 
 ## Core Idea

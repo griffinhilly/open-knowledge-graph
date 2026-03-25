@@ -6,6 +6,8 @@ course: numerical-analysis
 prerequisites:
 - id: floating-point-representation
   type: hard
+- id: machine-epsilon-and-rounding-errors
+  type: soft
 builds-toward:
 - rounding-errors
 - numerical-stability
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Machine Epsilon and Unit Roundoff
 
 ## Core Idea

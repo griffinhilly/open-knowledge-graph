@@ -6,6 +6,8 @@ course: research-methods-psychology
 prerequisites:
 - id: effect-size-practical-significance-reporting
   type: soft
+- id: qualitative-coding-reliability-and-analysis
+  type: soft
 tags:
 - meta-ethnography
 - qualitative-synthesis
@@ -14,7 +16,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Qualitative Research Synthesis and Meta-Ethnography
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: big-bang-cosmology
   type: soft
+- id: large-scale-structure-universe
+  type: soft
 tags:
 - bao
 - large-scale-structure
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Baryon Acoustic Oscillations and Large-Scale Structure
 
 ## Core Idea

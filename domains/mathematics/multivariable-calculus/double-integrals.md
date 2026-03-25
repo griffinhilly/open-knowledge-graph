@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: functions-of-several-variables
   type: hard
+- id: double-integrals-polar-coordinates
+  type: soft
 builds-toward:
 - iterated-integrals-fubini
 - double-integrals-rectangular-regions
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Double Integrals: Definition and Setup
 
 ## Core Idea

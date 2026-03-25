@@ -6,6 +6,8 @@ course: computer-architecture
 prerequisites:
 - id: cpu-control-unit
   type: hard
+- id: microinstruction-and-control-signals
+  type: soft
 builds-toward:
 - pipelining-fundamentals
 - superscalar-and-vliw-design
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Hardwired vs. Microprogrammed Control
 
 ## Core Idea

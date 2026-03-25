@@ -14,6 +14,18 @@ prerequisites:
   type: soft
 - id: mathematical-induction
   type: soft
+- id: decidable-fragments-first-order
+  type: soft
+- id: adequacy-of-connectives
+  type: soft
+- id: cut-elimination-gentzen-theorem
+  type: soft
+- id: soundness-theorem-proof-systems
+  type: soft
+- id: proof-strategies-natural-deduction
+  type: soft
+- id: syntactic-versus-semantic-consequence
+  type: soft
 builds-toward:
 - godels-incompleteness-theorems
 - compactness-theorem-applications
@@ -25,7 +37,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Gödel's Completeness Theorem for First-Order Logic
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gaba-glutamate-neurotransmission-balance
   type: soft
+- id: psychopharmacology-principles-and-mechanisms
+  type: soft
 builds-toward:
 - psychoactive-drugs-and-behavior
 - addiction-and-reward-system-plasticity
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Psychopharmacology: Agonists and Antagonists
 
 ## Core Idea

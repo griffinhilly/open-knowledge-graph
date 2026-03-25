@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: voice-leading-basics
   type: hard
+- id: passing-suspension-integration
+  type: soft
 builds-toward:
 - extended-harmony-upper-extensions-voice-leading
 - voice-leading-in-composition
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Chromatic Voice-Leading Through Approach and Passing Tones
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: minimalist-program-core-concepts
   type: hard
+- id: computational-parsing-algorithms
+  type: soft
+- id: parsing-preferences-complexity
+  type: soft
 tags:
 - computational-linguistics
 - parsing
@@ -15,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Syntactic Parsing Algorithms and Models
 
 ## Core Idea

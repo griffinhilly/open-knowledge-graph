@@ -14,6 +14,12 @@ prerequisites:
   type: soft
 - id: sequences-and-series-review
   type: soft
+- id: activation-functions
+  type: soft
+- id: graph-neural-networks
+  type: soft
+- id: deep-q-networks
+  type: soft
 tags:
 - deep-learning
 - sequence-models
@@ -21,7 +27,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Recurrent Neural Networks
 
 ## Core Idea

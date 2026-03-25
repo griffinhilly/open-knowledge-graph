@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: processor-status-flags-and-conditions
   type: soft
-builds-toward:
-- multi-core-system-design
 tags:
 - exceptions
 - interrupts

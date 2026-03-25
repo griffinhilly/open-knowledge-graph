@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: adding-subtracting-decimals
   type: soft
+- id: dividing-decimals
+  type: soft
 builds-toward: []
 tags:
 - decimals

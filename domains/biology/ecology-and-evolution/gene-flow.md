@@ -6,6 +6,8 @@ course: ecology-and-evolution
 prerequisites:
 - id: population-genetics-intro
   type: hard
+- id: gene-flow-selection-balance
+  type: soft
 builds-toward:
 - speciation
 - hardy-weinberg-equilibrium
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Gene Flow
 
 ## Core Idea

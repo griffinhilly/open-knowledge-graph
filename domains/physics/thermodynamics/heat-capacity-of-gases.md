@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: isobaric-and-isochoric-processes
   type: hard
+- id: mayer-relation-cp-cv-difference
+  type: soft
 builds-toward:
 - adiabatic-processes
 tags:
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Heat Capacities of Gases (Cv and Cp)
 
 ## Core Idea

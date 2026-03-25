@@ -8,13 +8,16 @@ prerequisites:
   type: hard
 - id: second-countable-spaces
   type: soft
+- id: metrization-theorems
+  type: soft
+- id: tietze-extension-theorem
+  type: soft
 tags:
 - metrization
 - urysohn
 stage: advanced
 status: validated
 ---
-
 # Urysohn Metrization Theorem
 
 ## Core Idea

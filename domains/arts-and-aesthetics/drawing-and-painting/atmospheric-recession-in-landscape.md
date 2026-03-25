@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: depth-and-spatial-illusion
   type: soft
+- id: atmospheric-perspective-and-depth-illusion
+  type: soft
+- id: water-and-reflections-in-landscape
+  type: soft
 builds-toward:
 - plein-air-painting
 tags:
@@ -20,7 +24,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Atmospheric Recession in Landscape
 
 ## Core Idea

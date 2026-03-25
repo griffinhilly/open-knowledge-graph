@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: radiative-transfer-atmospheric
   type: soft
+- id: atmospheric-dynamics-exoplanets
+  type: soft
+- id: planetary-system-stability
+  type: soft
 builds-toward:
 - planetary-thermal-inversion
 tags:
@@ -19,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Atmospheric Stability and Convective Dynamics
 
 ## Core Idea

@@ -8,6 +8,18 @@ prerequisites:
   type: hard
 - id: design-process-and-iteration
   type: soft
+- id: consistency-and-coherence
+  type: soft
+- id: modular-design-systems
+  type: soft
+- id: modular-scale-typography
+  type: soft
+- id: design-consistency-and-guidelines
+  type: soft
+- id: alignment-spacing-modular-rhythm
+  type: soft
+- id: repetition-and-visual-unity
+  type: soft
 builds-toward:
 - design-consistency-and-guidelines
 - design-documentation-and-rationale
@@ -19,7 +31,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Systems Thinking in Design
 
 ## Core Idea

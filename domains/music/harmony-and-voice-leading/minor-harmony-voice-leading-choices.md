@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: voice-leading-basics
   type: hard
+- id: melody-to-harmony-voice-leading-decisions
+  type: soft
 builds-toward:
 - diatonic-progression-voice-leading-patterns
 - voice-leading-in-composition
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Minor Tonality and Voice-Leading Choices
 
 ## Core Idea

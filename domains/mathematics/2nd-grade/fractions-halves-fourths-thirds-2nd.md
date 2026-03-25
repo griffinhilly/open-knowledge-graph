@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: partition-shapes-equal-parts
   type: soft
+- id: introduction-fractions-equal-parts
+  type: soft
 builds-toward:
 - comparing-unit-fractions
 - fractions-on-number-line
@@ -18,7 +20,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Fractions: Halves, Thirds, and Fourths
 
 ## Core Idea

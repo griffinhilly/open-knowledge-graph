@@ -6,6 +6,8 @@ course: astronomy
 prerequisites:
 - id: core-hydrogen-burning-main-sequence
   type: hard
+- id: white-dwarf-remnants
+  type: soft
 builds-toward:
 - neutron-star-structure-and-properties
 - black-hole-event-horizon-properties
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Post-Main-Sequence Evolution and Stellar Endpoints
 
 ## Core Idea

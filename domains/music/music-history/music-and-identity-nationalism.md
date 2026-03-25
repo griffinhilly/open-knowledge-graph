@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cultural-context-and-musical-change
   type: hard
+- id: nationalism-and-exoticism-19th-century
+  type: soft
 builds-toward:
 - global-music-systems-and-exchange
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Music, Identity, and Nationalism
 
 ## Core Idea

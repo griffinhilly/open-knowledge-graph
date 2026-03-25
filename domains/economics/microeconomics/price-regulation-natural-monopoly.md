@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: deadweight-loss-monopoly
   type: hard
+- id: monopoly-market-power-barriers
+  type: soft
 tags:
 - monopoly
 - regulation
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Price Regulation and Natural Monopoly
 
 ## Core Idea

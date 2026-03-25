@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: impressionism-and-post-impressionism
   type: soft
+- id: impressionist-technique
+  type: soft
 builds-toward:
 - post-impressionism-formal-exploration-and-expression
 - fauvism-expressionism-color-and-emotional-intensity
@@ -22,7 +24,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Impressionism: Color, Light, and Optical Perception
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: discrete-math
 prerequisites:
 - id: combinations-and-selections
   type: hard
+- id: binomial-theorem-discrete
+  type: soft
 builds-toward:
 - binomial-theorem
 - multinomial-theorem
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Binomial Coefficients and Pascal's Triangle
 
 ## Core Idea

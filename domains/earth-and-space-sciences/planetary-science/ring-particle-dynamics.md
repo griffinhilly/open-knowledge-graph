@@ -6,6 +6,8 @@ course: planetary-science
 prerequisites:
 - id: planetary-ring-systems
   type: hard
+- id: radiation-belt-dynamics
+  type: soft
 builds-toward:
 - ring-gap-formation
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Ring Particle Dynamics and Collisional Evolution
 
 ## Core Idea

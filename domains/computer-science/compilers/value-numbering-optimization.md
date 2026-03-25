@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dataflow-analysis
   type: soft
+- id: common-subexpression-elimination
+  type: soft
 tags:
 - optimization
 - redundancy
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Value Numbering and Redundancy Elimination
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: nervous-system-overview
   type: soft
+- id: ventilation-mechanics-control
+  type: soft
 tags:
 - breathing control
 - chemoreceptors
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Respiratory Control Mechanisms
 
 ## Core Idea

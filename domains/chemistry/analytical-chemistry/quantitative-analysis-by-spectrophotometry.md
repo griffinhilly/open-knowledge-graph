@@ -10,6 +10,14 @@ prerequisites:
   type: hard
 - id: linear-regression
   type: soft
+- id: fluorescence-spectroscopy-analysis
+  type: soft
+- id: nuclear-magnetic-resonance-quantitative
+  type: soft
+- id: molecular-spectroscopy-structure-determination
+  type: soft
+- id: conductometric-titration-and-analysis
+  type: soft
 tags:
 - spectrophotometry
 - UV-Vis
@@ -17,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Quantitative Analysis by Spectrophotometry
 
 ## Core Idea

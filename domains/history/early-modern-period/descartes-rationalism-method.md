@@ -6,6 +6,8 @@ course: early-modern-period
 prerequisites:
 - id: scientific-revolution
   type: soft
+- id: cartesian-rationalism-method
+  type: soft
 builds-toward:
 - enlightenment-reason-and-scientific-thought
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Descartes and Methodological Rationalism
 
 ## Core Idea

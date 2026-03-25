@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: initial-and-terminal-objects
   type: hard
+- id: closed-monoidal-categories
+  type: soft
+- id: compact-closed-categories
+  type: soft
 builds-toward:
 - topos-theory-intro
 tags:
@@ -21,7 +25,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Cartesian Closed Categories
 
 ## Core Idea

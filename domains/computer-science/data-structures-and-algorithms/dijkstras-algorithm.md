@@ -14,6 +14,12 @@ prerequisites:
   type: soft
 - id: dijkstras-shortest-path-routing
   type: soft
+- id: minimum-spanning-trees-kruskal-prim
+  type: soft
+- id: huffman-coding-optimal-prefixes
+  type: soft
+- id: greedy-activity-selection
+  type: soft
 builds-toward:
 - bellman-ford-algorithm
 tags:

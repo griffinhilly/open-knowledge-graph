@@ -6,6 +6,8 @@ course: propositional-and-predicate-logic
 prerequisites:
 - id: quantifier-notation-and-basics
   type: hard
+- id: quantifier-instantiation-rules
+  type: soft
 builds-toward:
 - free-variables-and-bound-variables
 - substitution-and-instantiation
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Universal Quantification: Meaning and Scope
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: early-modern-period
 prerequisites:
 - id: early-modern-global-trade-networks
   type: soft
+- id: british-east-india-company-colonialism
+  type: soft
 builds-toward:
 - joint-stock-corporations-trade
 - atlantic-slave-trade-commerce
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Mercantilism and National Economic Theory
 
 ## Core Idea

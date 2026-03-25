@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: complexity-class-p-definition
   type: hard
+- id: exptime-expspace-classes
+  type: soft
+- id: rp-corp-classes
+  type: soft
 builds-toward:
 - polynomial-hierarchy
 - pspace-complete-problems
@@ -17,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # PSPACE Complexity Class
 
 ## Core Idea

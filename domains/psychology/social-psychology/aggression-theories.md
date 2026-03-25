@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: limbic-system-and-emotion
   type: soft
+- id: dehumanization-intergroup-conflict
+  type: soft
 tags:
 - aggression
 - frustration-aggression
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Theories of Aggression
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: multiplication-facts-threes-through-nines
   type: hard
+- id: multiplication-strategies-arrays-3rd
+  type: soft
 builds-toward:
 - area-of-parallelograms
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Area as Multiplication
 
 ## Core Idea

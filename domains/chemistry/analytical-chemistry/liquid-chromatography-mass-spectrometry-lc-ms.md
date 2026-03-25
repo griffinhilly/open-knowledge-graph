@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: high-performance-liquid-chromatography-quantitative
   type: soft
+- id: gas-chromatography-mass-spectrometry-gc-ms
+  type: soft
 builds-toward:
 - two-dimensional-chromatography-comprehensive
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Liquid Chromatography-Mass Spectrometry: LC-MS
 
 ## Core Idea

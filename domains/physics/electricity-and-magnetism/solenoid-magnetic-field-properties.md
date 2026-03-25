@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: amperes-law
   type: hard
+- id: magnetic-field-lines-flux-density
+  type: soft
 builds-toward:
 - inductance-and-inductors
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Solenoid Magnetic Field and Properties
 
 ## Core Idea

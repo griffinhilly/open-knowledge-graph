@@ -6,6 +6,8 @@ course: discrete-math
 prerequisites:
 - id: degree-sequences-graphs
   type: soft
+- id: bipartite-graphs-matching
+  type: soft
 builds-toward:
 - graph-matching-halls-theorem
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Bipartite Graphs and 2-Colorability
 
 ## Core Idea

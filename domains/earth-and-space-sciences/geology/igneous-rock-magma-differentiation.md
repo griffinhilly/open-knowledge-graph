@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: fractional-crystallization-magmatic-differentiation
   type: soft
+- id: bowen-fractional-crystallization
+  type: soft
 builds-toward:
 - bowen-fractional-crystallization
 - volcano-classification-magma-types
@@ -25,7 +27,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Igneous Rock Formation and Magma Differentiation
 
 ## Core Idea

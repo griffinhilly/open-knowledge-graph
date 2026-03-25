@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: indus-valley-civilization
   type: hard
+- id: indus-citadels-urban-centers
+  type: soft
 builds-toward:
 - indus-script-decipherment-challenges
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Indus Valley Urban Planning and Standardization
 
 ## Core Idea

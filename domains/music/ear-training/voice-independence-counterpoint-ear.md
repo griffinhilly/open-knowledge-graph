@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: two-part-melodic-dictation
   type: soft
+- id: voice-leading-direction-ear
+  type: soft
 builds-toward:
 - fugal-analysis-counterpoint
 - species-counterpoint
@@ -23,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Voice Independence and Counterpoint by Ear
 
 ## Core Idea

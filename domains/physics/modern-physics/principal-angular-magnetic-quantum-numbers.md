@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hydrogen-atom-schrodinger-solution
   type: hard
+- id: rydberg-constant-spectroscopic-formula
+  type: soft
 builds-toward:
 - atomic-term-symbols-ls-coupling
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Principal, Angular, and Magnetic Quantum Numbers in Atoms
 
 ## Core Idea

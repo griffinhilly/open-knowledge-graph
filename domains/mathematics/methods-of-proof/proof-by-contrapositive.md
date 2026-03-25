@@ -8,13 +8,18 @@ prerequisites:
   type: hard
 - id: proof-structure-terminology
   type: hard
+- id: proving-by-contrapositive
+  type: soft
+- id: direct-proof-methods
+  type: soft
+- id: counterexamples-and-disproofs
+  type: soft
 tags:
 - proof
 - contrapositive
 stage: formal-systems
 status: validated
 ---
-
 # Proof by Contrapositive
 
 ## Core Idea

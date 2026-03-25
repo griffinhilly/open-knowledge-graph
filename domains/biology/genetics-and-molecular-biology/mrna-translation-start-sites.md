@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: translation
   type: soft
+- id: translation-initiation-start-codon
+  type: soft
 builds-toward:
 - ribosomal-initiation-factors-tRNA
 - translation-elongation-elongation-factors
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # mRNA Translation Start Sites and Initiation
 
 ## Core Idea

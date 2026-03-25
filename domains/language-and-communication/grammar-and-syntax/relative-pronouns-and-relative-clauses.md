@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: interrogative-pronouns-who-what-which
   type: soft
+- id: main-clause-vs-subordinate-clause
+  type: soft
+- id: sentence-structure-overview
+  type: soft
 tags:
 - relative-pronouns
 - clauses
@@ -15,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Relative Pronouns and Relative Clauses
 
 ## Core Idea

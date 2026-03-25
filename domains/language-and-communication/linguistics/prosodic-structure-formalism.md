@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: metrical-phonology-stress
   type: soft
+- id: lexical-organization-formal
+  type: soft
+- id: constraint-based-phonology-formal
+  type: soft
 tags:
 - phonology
 - prosody
@@ -15,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Prosodic Structure and Formal Constraints
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: sensory-pathways-overview
   type: soft
+- id: brainstem-reticular-consciousness
+  type: soft
 builds-toward:
 - primary-sensory-cortex-somatotopy
 - states-of-consciousness
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Thalamus: Sensory Relay and Gating of Consciousness
 
 ## Core Idea

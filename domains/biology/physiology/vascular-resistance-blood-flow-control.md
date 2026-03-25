@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cardiovascular-system-overview
   type: hard
+- id: blood-flow-redistribution-homeostasis
+  type: soft
 builds-toward:
 - capillary-fluid-exchange-starling-equilibrium
 - blood-pressure-regulation
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Vascular Resistance and Blood Flow Control
 
 ## Core Idea

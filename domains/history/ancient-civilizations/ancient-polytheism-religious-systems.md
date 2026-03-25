@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: origins-of-world-religions
   type: hard
+- id: ancient-slavery-systems-comparison
+  type: soft
 tags:
 - religion
 - polytheism
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ancient Polytheism and Religious Systems
 
 ## Core Idea

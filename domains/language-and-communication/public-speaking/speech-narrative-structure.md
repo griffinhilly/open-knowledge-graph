@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: speech-structure-and-organization
   type: hard
+- id: narrative-persuasion-structure
+  type: soft
 builds-toward:
 - emotional-connection-pathos
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Narrative Structure and Storytelling in Speeches
 
 ## Core Idea

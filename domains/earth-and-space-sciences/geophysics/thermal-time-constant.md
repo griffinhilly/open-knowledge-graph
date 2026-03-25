@@ -6,6 +6,8 @@ course: geophysics
 prerequisites:
 - id: crustal-age-and-cooling-curves
   type: hard
+- id: lithospheric-thermal-evolution
+  type: soft
 tags:
 - geothermics
 - thermal-modeling
@@ -13,7 +15,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Thermal Time Constants and Lithospheric Cooling
 
 ## Core Idea

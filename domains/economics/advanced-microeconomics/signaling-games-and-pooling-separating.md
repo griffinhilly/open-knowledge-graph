@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: adverse-selection-screening
   type: soft
+- id: nash-refinements-and-trembling-hand
+  type: soft
+- id: signaling-games
+  type: soft
 builds-toward:
 - labor-market-signaling
 tags:
@@ -16,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Signaling Games: Separating and Pooling Equilibria
 
 ## Core Idea

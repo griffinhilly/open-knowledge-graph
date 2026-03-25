@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: surface-chemistry-and-catalysis
   type: soft
+- id: brunnauer-emmett-teller-bET-theory
+  type: soft
 builds-toward: []
 tags:
 - adsorption-isotherms
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Advanced Adsorption Isotherms: BET, Freundlich, and Beyond
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: options-payoff-diagrams
   type: hard
+- id: binomial-option-pricing-model
+  type: soft
 builds-toward:
 - hedging-with-derivatives
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Option Trading Strategies
 
 ## Core Idea

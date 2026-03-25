@@ -1,6 +1,6 @@
 ---
 id: array-representation-operations-efficiency
-title: "Array Data Structure: Representation and Operations"
+title: 'Array Data Structure: Representation and Operations'
 domain: computer-science
 course: data-structures-and-algorithms
 prerequisites:
@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - list-abstract-data-type-interface
-- array-vs-linked-lists-tradeoffs
 - binary-search-algorithm
 tags:
 - arrays

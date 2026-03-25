@@ -6,6 +6,20 @@ course: drawing-and-painting
 prerequisites:
 - id: dramatic-structure
   type: soft
+- id: color-palette-mixing
+  type: soft
+- id: ink-drawing-and-pen-techniques
+  type: soft
+- id: hatching-and-cross-hatching
+  type: soft
+- id: stippling-and-pointillism
+  type: soft
+- id: contour-drawing-outline-and-edge
+  type: soft
+- id: gesture-drawing-capturing-movement
+  type: soft
+- id: sketchbook-practice-and-habit
+  type: soft
 builds-toward:
 - basic-mark-making-and-line-control
 - drawing-tools-papers-and-substrates

@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: redox-chemistry-intro
   type: soft
+- id: fad-fadh2-and-other-redox-carriers
+  type: soft
 builds-toward:
 - glycolysis
 - citric-acid-cycle-mechanism
@@ -30,7 +32,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # NAD+ and NADH: Structure and Redox Chemistry
 
 ## Core Idea

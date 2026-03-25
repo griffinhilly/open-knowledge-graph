@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: portfolio-diversification
   type: soft
+- id: bond-portfolio-strategies
+  type: soft
 builds-toward:
 - behavioral-finance-intro
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Portfolio Insurance and Protective Strategies
 
 ## Core Idea

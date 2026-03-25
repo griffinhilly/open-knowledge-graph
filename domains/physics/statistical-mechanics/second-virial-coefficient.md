@@ -6,6 +6,8 @@ course: statistical-mechanics
 prerequisites:
 - id: virial-coefficients-interaction
   type: hard
+- id: virial-theorem
+  type: soft
 builds-toward:
 - van-der-waals-derivation
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Second Virial Coefficient
 
 ## Core Idea

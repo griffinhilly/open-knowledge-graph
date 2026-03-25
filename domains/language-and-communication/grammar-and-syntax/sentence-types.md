@@ -6,6 +6,8 @@ course: grammar-and-syntax
 prerequisites:
 - id: sentence-structure-basics
   type: hard
+- id: imperative-sentences
+  type: soft
 builds-toward:
 - complex-sentence-construction
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Sentence Types: Declarative, Interrogative, Imperative, and Exclamatory
 
 ## Core Idea

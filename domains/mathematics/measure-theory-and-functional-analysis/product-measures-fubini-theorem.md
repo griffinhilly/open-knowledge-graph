@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: lebesgue-integral
   type: hard
+- id: fubini-theorem
+  type: soft
 builds-toward:
 - fourier-series-lp-theory
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Product Measures and Fubini's Theorem
 
 ## Core Idea

@@ -3,7 +3,9 @@ id: signal-classification-continuous-discrete
 title: 'Signal Classification: Continuous vs. Discrete Time'
 domain: engineering
 course: signals-and-systems
-prerequisites: []
+prerequisites:
+- id: signal-energy-and-power-classification
+  type: soft
 builds-toward:
 - elementary-signals-impulse-step-exponential
 - basic-signal-operations-transformations
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Signal Classification: Continuous vs. Discrete Time
 
 ## Core Idea

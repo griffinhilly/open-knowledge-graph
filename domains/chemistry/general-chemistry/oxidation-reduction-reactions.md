@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: chemical-equations-and-balancing
   type: hard
+- id: electrochemistry-oxidation-reduction-applications
+  type: soft
 builds-toward:
 - electrochemistry-intro
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Oxidation-Reduction Reactions: Electron Transfer
 
 ## Core Idea

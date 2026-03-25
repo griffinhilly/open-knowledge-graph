@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: type-spaces-and-stone-topology
   type: hard
+- id: indiscernibles-and-morley-theorem
+  type: soft
 builds-toward:
 - morleys-uncountable-categoricity
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Ryll-Nardzewski Theorem: Syntactic Characterization of Categoricity
 
 ## Core Idea

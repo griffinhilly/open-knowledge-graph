@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: orbital-angular-momentum-quantum
   type: soft
+- id: franck-hertz-discrete-energy-levels
+  type: soft
 builds-toward:
 - fine-structure-atomic-splitting
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Zeeman Effect: Magnetic Field Splitting of Energy Levels
 
 ## Core Idea

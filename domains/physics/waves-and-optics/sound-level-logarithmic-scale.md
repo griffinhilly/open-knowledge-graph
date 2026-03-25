@@ -6,6 +6,8 @@ course: waves-and-optics
 prerequisites:
 - id: energy-flow-rate-intensity
   type: hard
+- id: acoustic-pressure-and-amplitude
+  type: soft
 tags:
 - acoustics
 - sound
@@ -13,7 +15,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Sound Intensity Level and the Decibel Scale
 
 ## Core Idea

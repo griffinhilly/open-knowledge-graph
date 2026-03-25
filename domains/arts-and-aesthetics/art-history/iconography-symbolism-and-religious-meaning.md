@@ -6,6 +6,8 @@ course: art-history
 prerequisites:
 - id: art-historical-visual-analysis-methodologies
   type: soft
+- id: religious-iconography-in-art-history
+  type: soft
 builds-toward:
 - medieval-illuminated-manuscripts-and-page-decoration
 - islamic-art-ornament-geometry-and-sacred-decoration
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Iconography, Symbolism, and Religious Meaning in Art
 
 ## Core Idea

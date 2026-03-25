@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: time-domain-response-second-order
   type: soft
+- id: routh-stability-algorithm
+  type: soft
 builds-toward:
 - root-locus-method
 - gain-and-phase-margins

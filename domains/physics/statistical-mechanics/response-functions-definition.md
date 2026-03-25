@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: linear-response-theory-statmech
   type: hard
+- id: response-functions-susceptibilities
+  type: soft
 builds-toward:
 - green-kubo-formula
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Response Functions and Linear Response
 
 ## Core Idea

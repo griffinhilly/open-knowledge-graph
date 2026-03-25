@@ -6,13 +6,14 @@ course: quantum-mechanics
 prerequisites:
 - id: variational-principle-quantum
   type: hard
+- id: variational-method
+  type: soft
 tags:
 - variational-methods
 - approximations
 stage: advanced
 status: validated
 ---
-
 # The Variational Method: Application
 
 ## Core Idea

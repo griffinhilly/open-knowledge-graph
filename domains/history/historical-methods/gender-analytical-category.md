@@ -10,6 +10,14 @@ prerequisites:
   type: hard
 - id: social-history-approach
   type: soft
+- id: linguistic-analysis-historical
+  type: soft
+- id: lived-experience-social-history
+  type: soft
+- id: local-community-history
+  type: soft
+- id: family-history-genealogy
+  type: soft
 tags:
 - gender
 - methodology
@@ -18,7 +26,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Gender as an Analytical Historical Category
 
 ## Core Idea

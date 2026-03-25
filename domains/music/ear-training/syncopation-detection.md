@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: compound-meter
   type: soft
+- id: rhythm-pattern-completion
+  type: soft
+- id: syncopation-rhythm-ear
+  type: soft
+- id: syncopated-rhythm-vs-straight
+  type: soft
 builds-toward:
 - jazz-rhythm-section-analysis
 - polyrhythmic-analysis
@@ -19,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Syncopation Detection by Ear
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gravity-anomalies-and-interpretation
   type: soft
+- id: crater-morphology-and-degradation
+  type: soft
 builds-toward:
 - impact-basin-mechanics
 - surface-weathering-planetary-comparison
@@ -20,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Impact Crater Scaling Laws and Morphological Transitions
 
 ## Core Idea

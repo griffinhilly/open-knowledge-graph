@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: phonological-systems
   type: hard
+- id: allomorphy-alternation
+  type: soft
 tags:
 - morphology
 - allomorphy
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Allomorphy and Morphophonological Processes
 
 ## Core Idea

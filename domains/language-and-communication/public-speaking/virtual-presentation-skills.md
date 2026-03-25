@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: video-conferencing-basics
   type: soft
+- id: eye-contact-audience-connection
+  type: soft
 tags:
 - virtual
 - remote
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Virtual Presentation Skills
 
 ## Core Idea

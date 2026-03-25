@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: interval-quality-basics
   type: hard
+- id: melody-construction-principles
+  type: soft
+- id: harmonic-support-for-melody
+  type: soft
 builds-toward:
 - phrase-design-structural-units
 - cadential-motion-structural-function
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Melody Writing and Phrasing
 
 ## Core Idea

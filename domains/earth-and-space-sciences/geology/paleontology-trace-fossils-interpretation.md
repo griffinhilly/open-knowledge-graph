@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: fossils-and-paleontology
   type: soft
+- id: paleoclimate-proxies-paleoclimatology
+  type: soft
 tags:
 - paleontology
 - fossils
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Paleontology: Trace Fossils and Paleoenvironmental Interpretation
 
 ## Core Idea

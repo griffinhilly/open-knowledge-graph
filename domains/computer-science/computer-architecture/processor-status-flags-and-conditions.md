@@ -7,7 +7,7 @@ prerequisites:
 - id: arithmetic-logic-unit
   type: hard
 builds-toward:
-- branch-instruction-execution
+- branch-prediction-techniques
 - exception-handling-architecture
 tags:
 - status-flags

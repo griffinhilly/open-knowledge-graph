@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: harmonic-function-basics
   type: hard
+- id: harmonic-rhythm-pacing-and-motion
+  type: soft
+- id: bass-line-writing-structural
+  type: soft
 builds-toward:
 - phrase-design-structural-units
 - cadential-motion-structural-function
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Harmonic Rhythm and Structural Function
 
 ## Core Idea

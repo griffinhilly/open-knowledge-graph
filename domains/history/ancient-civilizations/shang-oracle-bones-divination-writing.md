@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: shang-dynasty-oracle-bones
   type: soft
+- id: oracle-bones-divination-writing
+  type: soft
 builds-toward:
 - zhou-feudalism-political-hierarchy
 tags:

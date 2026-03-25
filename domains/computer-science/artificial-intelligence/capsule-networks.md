@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: neural-networks-intro
   type: hard
-builds-toward:
-- 3d-vision
-- routing-algorithms
 tags:
 - capsule-network
 - capsnet

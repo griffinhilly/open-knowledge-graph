@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: voice-leading-principles
   type: soft
+- id: cadential-formulas-composition
+  type: soft
 builds-toward:
 - phrase-design-structural-units
 - sonata-composition-structural
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Cadential Motion and Phrase Punctuation
 
 ## Core Idea

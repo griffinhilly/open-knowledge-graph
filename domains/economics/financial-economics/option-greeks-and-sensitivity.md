@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: chain-rule
   type: hard
+- id: binomial-option-pricing-model
+  type: soft
 builds-toward:
 - option-trading-strategies
 - hedging-with-derivatives
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Option Greeks and Sensitivity Analysis
 
 ## Core Idea

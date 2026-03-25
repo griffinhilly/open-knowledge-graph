@@ -6,6 +6,8 @@ course: signals-and-systems
 prerequisites:
 - id: sampling-theorem-nyquist-rate
   type: hard
+- id: decimation-anti-aliasing-and-downsampling
+  type: soft
 builds-toward:
 - digital-signal-processing-fundamentals
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Aliasing, Anti-Aliasing Filters, and Signal Reconstruction
 
 ## Core Idea

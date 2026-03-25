@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: volcanoes-and-volcanism
   type: soft
+- id: anthropogenic-aerosol-forcing-effects
+  type: soft
 builds-toward:
 - climate-models-and-projections
 - anthropogenic-aerosol-forcing-effects
@@ -21,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Volcanic Aerosol Climate Forcing
 
 ## Core Idea

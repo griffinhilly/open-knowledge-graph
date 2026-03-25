@@ -6,6 +6,8 @@ course: numerical-analysis
 prerequisites:
 - id: machine-epsilon
   type: hard
+- id: machine-epsilon-and-rounding-errors
+  type: soft
 builds-toward:
 - catastrophic-cancellation
 - numerical-stability
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Rounding Errors and Error Propagation
 
 ## Core Idea

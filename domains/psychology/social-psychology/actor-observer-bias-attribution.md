@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: self-serving-bias
   type: soft
+- id: defensive-attribution-hypothesis
+  type: soft
+- id: hostile-attribution-bias-aggression
+  type: soft
 builds-toward:
 - blind-spot-bias-dual-perception
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Actor-Observer Bias in Attribution
 
 ## Core Idea

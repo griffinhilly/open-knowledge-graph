@@ -6,6 +6,8 @@ course: advanced-microeconomics
 prerequisites:
 - id: bayesian-games
   type: hard
+- id: incentive-compatibility-constraints
+  type: soft
 builds-toward:
 - mechanism-design-basics
 - screening-contracts
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Incentive Compatibility
 
 ## Core Idea

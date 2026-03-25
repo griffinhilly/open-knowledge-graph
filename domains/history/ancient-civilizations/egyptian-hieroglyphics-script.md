@@ -6,6 +6,8 @@ course: ancient-civilizations
 prerequisites:
 - id: egyptian-priesthood-institutions
   type: soft
+- id: alphabet-phoenician-writing-origins
+  type: soft
 tags:
 - egypt
 - writing
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Egyptian Hieroglyphics and Writing Systems
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: technology-and-musical-reproduction
   type: hard
+- id: electric-instruments-popular-music-recording-technology
+  type: soft
 tags:
 - popular-music
 - mass-media
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Popular Music and Mass Media
 
 ## Core Idea

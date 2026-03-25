@@ -6,6 +6,8 @@ course: multivariable-calculus
 prerequisites:
 - id: double-integrals-polar
   type: hard
+- id: area-volume-integrals
+  type: soft
 builds-toward:
 - triple-integrals
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Applications of Double Integrals: Area, Volume, and Mass
 
 ## Core Idea

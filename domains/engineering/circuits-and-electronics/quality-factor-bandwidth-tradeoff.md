@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: parallel-resonance-characteristics
   type: soft
+- id: resonance-quality-factor
+  type: soft
 builds-toward:
 - frequency-response-analysis-bode
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Quality Factor and Bandwidth Tradeoffs
 
 ## Core Idea

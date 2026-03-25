@@ -6,6 +6,8 @@ course: probability-and-statistics
 prerequisites:
 - id: sample-spaces-and-events
   type: hard
+- id: linear-transformations-of-random-variables
+  type: soft
 builds-toward:
 - probability-density-functions
 - expected-value
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Continuous Random Variables
 
 ## Core Idea

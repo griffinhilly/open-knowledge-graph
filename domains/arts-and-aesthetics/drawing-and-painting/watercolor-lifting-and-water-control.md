@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: wet-on-wet-watercolor-technique
   type: soft
+- id: grid-transfer-method
+  type: soft
 builds-toward:
 - landscape-and-atmospheric-perspective-practice
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Watercolor Lifting and Water Management
 
 ## Core Idea

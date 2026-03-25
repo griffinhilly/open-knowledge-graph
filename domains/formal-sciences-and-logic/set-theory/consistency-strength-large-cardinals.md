@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: measurable-cardinals-ultra-filters
   type: soft
+- id: cumulative-hierarchy-and-ranks
+  type: soft
+- id: aleph-and-beth-hierarchy-introduction
+  type: soft
 builds-toward:
 - inner-models-relative-consistency
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Consistency Strength and the Large-Cardinal Hierarchy
 
 ## Core Idea

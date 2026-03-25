@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ursatz-fundamental-structure
   type: hard
+- id: schenkerian-linear-progression
+  type: soft
 builds-toward:
 - sonata-form-variations-19th-century
 - cyclic-form-large-scale
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Schenkerian Interruption Structure
 
 ## Core Idea

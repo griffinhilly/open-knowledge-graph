@@ -6,6 +6,8 @@ course: propositional-and-predicate-logic
 prerequisites:
 - id: logical-consequence-and-validity
   type: hard
+- id: consistency-and-inconsistency
+  type: soft
 builds-toward:
 - model-theory-basics
 - complete-first-order-theories
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Consistency and Inconsistency
 
 ## Core Idea

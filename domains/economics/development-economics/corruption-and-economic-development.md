@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: asymmetric-information-markets
   type: soft
+- id: property-rights-and-development
+  type: soft
 builds-toward:
 - governance-and-institutional-quality
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Corruption as a Drag on Development
 
 ## Core Idea

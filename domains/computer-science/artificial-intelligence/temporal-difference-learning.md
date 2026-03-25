@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: expected-value
   type: soft
+- id: actor-critic-methods
+  type: soft
 builds-toward:
 - deep-q-networks
 - q-learning
@@ -23,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Temporal Difference Learning
 
 ## Core Idea

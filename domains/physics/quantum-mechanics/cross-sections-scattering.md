@@ -6,13 +6,14 @@ course: quantum-mechanics
 prerequisites:
 - id: scattering-theory-intro
   type: hard
+- id: born-approximation
+  type: soft
 tags:
 - cross-sections
 - scattering
 stage: advanced
 status: validated
 ---
-
 # Cross Sections in Quantum Scattering
 
 ## Core Idea

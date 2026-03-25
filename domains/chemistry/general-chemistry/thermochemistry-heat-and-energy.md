@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: energy-conservation
   type: soft
+- id: endothermic-and-exothermic-reactions
+  type: soft
 builds-toward:
 - oxidation-reduction-reactions
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Thermochemistry: Enthalpy and Heat of Reaction
 
 ## Core Idea

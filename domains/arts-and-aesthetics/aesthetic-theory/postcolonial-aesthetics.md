@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: non-western-art-traditions
   type: soft
+- id: queer-aesthetics-theory
+  type: soft
+- id: psychoanalytic-aesthetics
+  type: soft
 builds-toward:
 - art-political-intervention
 - aesthetic-universalism-and-relativism
@@ -22,7 +26,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Postcolonial Aesthetics
 
 ## Core Idea

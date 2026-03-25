@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - kernel-methods
-- regression-techniques
 tags:
 - svr
 - support-vector

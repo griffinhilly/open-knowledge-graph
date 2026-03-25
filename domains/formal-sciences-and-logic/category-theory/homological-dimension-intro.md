@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: injective-objects
   type: soft
+- id: abelian-categories-homology
+  type: soft
 builds-toward:
 - derived-functors
 - homology-and-cohomology
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Homological Dimension in Categories
 
 ## Core Idea

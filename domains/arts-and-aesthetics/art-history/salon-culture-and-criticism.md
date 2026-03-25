@@ -8,6 +8,24 @@ prerequisites:
   type: hard
 - id: aesthetic-judgment-taste
   type: soft
+- id: salon-culture-academic-training-and-artistic-authority
+  type: soft
+- id: cross-cultural-artistic-exchange
+  type: soft
+- id: architectural-styles-across-history
+  type: soft
+- id: art-historical-revival-movements
+  type: soft
+- id: decorative-arts-craftsmanship-history
+  type: soft
+- id: fresco-techniques-and-materials
+  type: soft
+- id: gothic-architecture-and-aesthetics
+  type: soft
+- id: impressionist-technique
+  type: soft
+- id: mannerism-artifice-and-stylization
+  type: soft
 builds-toward:
 - impressionism-and-post-impressionism
 - realism-and-social-observation
@@ -20,7 +38,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # The Salon System and the Formation of Artistic Taste
 
 ## Core Idea

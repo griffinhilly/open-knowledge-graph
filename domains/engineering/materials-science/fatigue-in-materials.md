@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stress-strain-behavior
   type: hard
+- id: fatigue-stress-cycles-and-failure
+  type: soft
 tags:
 - fatigue
 - S-N-curve
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Fatigue: Cyclic Loading and Failure
 
 ## Core Idea

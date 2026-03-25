@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: isotopes-and-atomic-mass
   type: hard
+- id: atomic-mass-and-molar-mass
+  type: soft
 builds-toward:
 - composition-of-compounds
 - stoichiometry-calculations
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Molar Mass Calculations and Mole Conversions
 
 ## Core Idea

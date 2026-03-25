@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: historical-argument-structure
   type: soft
+- id: history-science-debate
+  type: soft
 tags:
 - causation
 - explanation
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Theories of Historical Causation
 
 ## Core Idea

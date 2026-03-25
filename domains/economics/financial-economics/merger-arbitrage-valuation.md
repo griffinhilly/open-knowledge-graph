@@ -6,6 +6,12 @@ course: financial-economics
 prerequisites:
 - id: enterprise-value-calculation
   type: hard
+- id: collateral-haircut-valuation
+  type: soft
+- id: zero-coupon-bond-valuation
+  type: soft
+- id: spot-forward-rate-relationships
+  type: soft
 builds-toward:
 - market-anomalies-and-puzzles
 tags:
@@ -16,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Merger Arbitrage and Deal Valuation
 
 ## Core Idea

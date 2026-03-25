@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: diction-and-register-in-argument
   type: soft
+- id: rhetorical-purpose-and-intention
+  type: soft
+- id: integrating-rhetorical-appeals
+  type: soft
+- id: introduction-writing
+  type: soft
 tags:
 - audience
 - rhetoric
@@ -17,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Audience, Context, and Adaptation
 
 ## Core Idea

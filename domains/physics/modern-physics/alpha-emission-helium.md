@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nuclear-structure
   type: soft
+- id: alpha-decay-tunneling-nuclear
+  type: soft
 builds-toward:
 - fission-and-energy-release
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Alpha Decay and Helium Nucleus Emission
 
 ## Core Idea

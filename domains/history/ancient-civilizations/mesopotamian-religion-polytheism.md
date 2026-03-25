@@ -6,6 +6,8 @@ course: ancient-civilizations
 prerequisites:
 - id: mesopotamia-cradle-of-civilization
   type: hard
+- id: ancient-polytheism-religious-systems
+  type: soft
 builds-toward:
 - ancient-polytheism-religious-systems
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Mesopotamian Religion and Polytheistic Systems
 
 ## Core Idea

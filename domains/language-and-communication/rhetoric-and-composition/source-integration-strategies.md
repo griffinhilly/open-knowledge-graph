@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: quotation-and-dialogue-mechanics
   type: soft
+- id: evaluating-sources-writing
+  type: soft
 builds-toward:
 - evidence-integration-analysis
 - academic-writing-conventions
@@ -19,7 +21,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Source Integration Strategies
 
 ## Core Idea

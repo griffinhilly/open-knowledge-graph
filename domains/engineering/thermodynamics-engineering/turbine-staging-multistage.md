@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rankine-cycle-thermodynamic-analysis
   type: soft
+- id: compressor-staging-multistage
+  type: soft
 builds-toward:
 - rankine-cycle-reheat-regeneration
 - brayton-cycle-intercooling-reheating
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Multistage Turbine Design and Reheat
 
 ## Core Idea

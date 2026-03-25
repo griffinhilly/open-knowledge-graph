@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: place-value-whole-numbers
   type: hard
+- id: two-digit-number-composition-1st
+  type: soft
 builds-toward:
 - place-value-understanding-4th
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Decomposing Three-Digit Numbers by Place Value
 
 ## Core Idea

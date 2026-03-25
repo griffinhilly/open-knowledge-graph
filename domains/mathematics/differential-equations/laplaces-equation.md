@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: hard
+- id: solving-ivps-with-laplace-transforms
+  type: soft
 tags:
 - laplace-equation
 - pde
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Laplace's Equation and Boundary Value Problems
 
 ## Core Idea

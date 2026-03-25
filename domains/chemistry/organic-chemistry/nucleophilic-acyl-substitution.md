@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nucleophilic-addition-to-carbonyls
   type: hard
+- id: nucleophilic-aromatic-substitution
+  type: soft
 builds-toward:
 - amines-structure-and-properties
 - enols-and-enolate-chemistry
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Nucleophilic Acyl Substitution
 
 ## Core Idea

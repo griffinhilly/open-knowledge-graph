@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - fairness-machine-learning
-- feature-importance
 tags:
 - shap
 - lime

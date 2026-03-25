@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: autonomic-sympathetic-parasympathetic
   type: soft
+- id: hypothalamic-pituitary-adrenal-hpa-axis
+  type: soft
 builds-toward:
 - stress-response-and-coping
 - anxiety-disorders-physiology
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Autonomic Nervous System: Sympathetic and Parasympathetic Balance
 
 ## Core Idea

@@ -8,6 +8,16 @@ prerequisites:
   type: hard
 - id: cost-minimization-and-factor-demand
   type: soft
+- id: dividend-growth-valuation-model
+  type: soft
+- id: collateral-haircut-valuation
+  type: soft
+- id: financial-ratio-framework
+  type: soft
+- id: zero-coupon-bond-valuation
+  type: soft
+- id: merger-arbitrage-valuation
+  type: soft
 builds-toward:
 - growth-vs-value-investing
 tags:
@@ -17,7 +27,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Dividend Policy and Valuation
 
 ## Core Idea

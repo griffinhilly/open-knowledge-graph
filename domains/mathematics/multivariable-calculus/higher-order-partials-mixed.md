@@ -6,6 +6,8 @@ course: multivariable-calculus
 prerequisites:
 - id: partial-derivatives-definition
   type: hard
+- id: clairaut-theorem
+  type: soft
 builds-toward:
 - hessian-matrix-second-test
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Higher-Order Partial Derivatives and Mixed Partials
 
 ## Core Idea

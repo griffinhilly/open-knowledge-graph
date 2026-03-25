@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: genetic-code-wobble-pairing
   type: hard
+- id: frameshift-mutations-indels
+  type: soft
 builds-toward:
 - translation-initiation-start-codon
 - translation-elongation-and-termination
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Genetic Code: Reading Frame and Wobble Base Pairing
 
 ## Core Idea

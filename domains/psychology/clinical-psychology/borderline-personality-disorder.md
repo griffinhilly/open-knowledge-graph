@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: attachment-styles
   type: soft
+- id: antisocial-personality-disorder
+  type: soft
 builds-toward:
 - dialectical-behavior-therapy
 - psychodynamic-psychotherapy
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Borderline Personality Disorder
 
 ## Core Idea

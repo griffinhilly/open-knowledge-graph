@@ -6,6 +6,8 @@ course: 1st-grade
 prerequisites:
 - id: addition-within-10
   type: hard
+- id: doubles-and-near-doubles
+  type: soft
 builds-toward:
 - near-doubles-facts-within-20
 - addition-within-20
@@ -16,7 +18,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Doubles Facts Within 10
 
 ## Core Idea

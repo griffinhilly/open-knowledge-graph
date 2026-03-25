@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: feedback-mechanisms-in-climate
   type: soft
+- id: volcanic-aerosol-forcing
+  type: soft
 builds-toward:
 - climate-projections-modeling
 tags:
@@ -23,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Climate Sensitivity and Radiative Feedbacks
 
 ## Core Idea

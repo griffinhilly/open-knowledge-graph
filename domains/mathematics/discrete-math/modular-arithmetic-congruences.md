@@ -3,7 +3,13 @@ id: modular-arithmetic-congruences
 title: Modular Arithmetic and Congruences
 domain: mathematics
 course: discrete-math
-prerequisites: []
+prerequisites:
+- id: multiplicative-inverse-modular
+  type: soft
+- id: carmichael-function-and-numbers
+  type: soft
+- id: parity-arguments-discrete
+  type: soft
 builds-toward:
 - euclidean-algorithm-gcd
 - chinese-remainder-theorem
@@ -13,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Modular Arithmetic and Congruences
 
 ## Core Idea

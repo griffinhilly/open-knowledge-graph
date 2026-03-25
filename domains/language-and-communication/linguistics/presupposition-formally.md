@@ -8,6 +8,20 @@ prerequisites:
   type: hard
 - id: presupposition-and-semantic-content
   type: soft
+- id: formal-semantics-of-tense
+  type: soft
+- id: formal-semantics-of-modality
+  type: soft
+- id: event-semantics-formal
+  type: soft
+- id: derivational-morphology-formal
+  type: soft
+- id: syntax-semantics-interface-formal
+  type: soft
+- id: scope-and-binding-formally
+  type: soft
+- id: model-theoretic-semantics
+  type: soft
 tags:
 - semantics
 - presupposition
@@ -15,7 +29,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Presupposition in Formal Semantics
 
 ## Core Idea

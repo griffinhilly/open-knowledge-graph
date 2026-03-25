@@ -8,8 +8,10 @@ prerequisites:
   type: hard
 - id: endogenous-growth-theory
   type: soft
+- id: growth-accounting-decomposition
+  type: soft
 builds-toward:
-  - supply-shocks-aggregate-disruptions
+- supply-shocks-aggregate-disruptions
 tags:
 - productivity
 - technology

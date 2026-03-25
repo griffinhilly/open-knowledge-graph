@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: complex-exponential-function
   type: soft
+- id: spectral-harmony-overtone-analysis
+  type: soft
 builds-toward:
 - information-theory-music
 - psychoacoustics-perception-theory
@@ -24,7 +26,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Fourier Analysis of Musical Signals
 
 ## Core Idea

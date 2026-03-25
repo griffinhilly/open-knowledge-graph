@@ -6,6 +6,8 @@ course: cell-biology
 prerequisites:
 - id: cell-junctions-adhesion-communication
   type: hard
+- id: gap-junctions-communication
+  type: soft
 builds-toward:
 - cell-signaling-receptor-pathways
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Gap Junctions: Electrical and Metabolic Coupling
 
 ## Core Idea

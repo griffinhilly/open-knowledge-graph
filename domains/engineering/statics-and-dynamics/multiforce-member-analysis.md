@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: equilibrium-rigid-bodies
   type: hard
+- id: frame-and-machine-components
+  type: soft
 builds-toward:
 - internal-forces-members
 - shear-force-bending-moment-diagrams
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Multi-Force Member Analysis
 
 ## Core Idea

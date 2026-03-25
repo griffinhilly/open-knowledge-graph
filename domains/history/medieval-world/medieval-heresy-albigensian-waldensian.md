@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: scholasticism-medieval-thought
   type: soft
+- id: heretical-movements-cathars-waldensians
+  type: soft
 builds-toward:
 - counter-reformation
 - protestant-reformation
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Medieval Heresy: Albigensian and Waldensian Movements
 
 ## Core Idea

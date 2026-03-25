@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: buoyancy-and-archimedes
   type: soft
+- id: hydrostatic-force-horizontal-submerged-surface
+  type: soft
 builds-toward:
 - control-volume-momentum
 tags:

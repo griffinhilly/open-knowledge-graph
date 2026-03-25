@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: population-genetics-intro
   type: soft
+- id: bayesian-phylogenetics
+  type: soft
 builds-toward:
 - molecular-evolution-rates
 - bayesian-phylogenetics
@@ -21,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Genealogical and Coalescent Methods in Phylogenetics
 
 ## Core Idea

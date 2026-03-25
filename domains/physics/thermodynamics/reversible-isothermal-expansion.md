@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: boundary-work-pv-diagram
   type: hard
+- id: reversible-adiabatic-process-isentropic
+  type: soft
 tags:
 - reversible-processes
 - isothermal
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Reversible Isothermal Expansion
 
 ## Core Idea

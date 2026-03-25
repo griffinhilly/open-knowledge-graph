@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: flow-around-cylinders-spheres
   type: soft
+- id: adverse-pressure-gradient-separation
+  type: soft
 builds-toward:
 - aerodynamic-forces-lift-drag-coefficients
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Boundary Layer and Flow Separation
 
 ## Core Idea

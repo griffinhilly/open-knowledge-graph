@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cognitive-biases-overview
   type: soft
+- id: social-anxiety-disorder
+  type: soft
 builds-toward:
 - cognitive-behavioral-therapy-cbt
 - antidepressant-medications-ssris
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Generalized Anxiety Disorder
 
 ## Core Idea

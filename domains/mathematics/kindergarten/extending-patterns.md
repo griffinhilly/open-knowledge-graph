@@ -6,6 +6,8 @@ course: kindergarten
 prerequisites:
 - id: simple-ab-patterns
   type: hard
+- id: abc-repeating-patterns
+  type: soft
 builds-toward:
 - identifying-pattern-units
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Extending Repeating Patterns
 
 ## Core Idea

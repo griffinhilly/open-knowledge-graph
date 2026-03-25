@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: roman-military-legions-and-tactics
   type: hard
+- id: roman-engineering-infrastructure
+  type: soft
+- id: roman-legion-military-training-discipline
+  type: soft
 tags:
 - Rome
 - military
@@ -16,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Roman Military, Engineering, and Infrastructure
 
 ## Core Idea

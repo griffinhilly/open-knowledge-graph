@@ -6,6 +6,8 @@ course: discrete-math
 prerequisites:
 - id: counting-principles
   type: hard
+- id: pigeonhole-and-counting
+  type: soft
 builds-toward:
 - permutations-arrangements-discrete
 - combinations-selections-discrete
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Counting Fundamentals and the Multiplication Principle
 
 ## Core Idea

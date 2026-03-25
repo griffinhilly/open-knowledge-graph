@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: f-test-joint-significance
   type: hard
+- id: heteroskedasticity-detection-testing
+  type: soft
+- id: specification-error-reset-test
+  type: soft
 builds-toward:
 - generalized-least-squares
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # White Test and Detection of Heteroskedasticity
 
 ## Core Idea

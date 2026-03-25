@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: derivative-as-slope-of-tangent
   type: soft
+- id: marginal-product-diminishing-returns
+  type: soft
 builds-toward:
 - indifference-curves
 - budget-constraint
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Marginal Utility and Diminishing Returns
 
 ## Core Idea

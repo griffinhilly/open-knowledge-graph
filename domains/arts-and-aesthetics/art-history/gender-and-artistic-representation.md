@@ -8,6 +8,18 @@ prerequisites:
   type: soft
 - id: art-historical-contextualization
   type: soft
+- id: linear-perspective-renaissance
+  type: soft
+- id: political-propaganda-art-history
+  type: soft
+- id: art-nationalism-and-identity
+  type: soft
+- id: art-and-colonialism
+  type: soft
+- id: portraiture-evolution-through-history
+  type: soft
+- id: women-artists-in-art-history
+  type: soft
 tags:
 - gender
 - feminism
@@ -16,7 +28,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Gender, Representation, and Feminist Art History
 
 ## Core Idea

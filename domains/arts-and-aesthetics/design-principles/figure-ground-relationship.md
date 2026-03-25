@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gestalt-principles-in-design
   type: soft
+- id: figure-ground-and-visual-separation
+  type: soft
 builds-toward:
 - visual-hierarchy-in-design
 - icon-and-symbol-design
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Figure-Ground Relationship
 
 ## Core Idea

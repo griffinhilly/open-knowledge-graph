@@ -6,6 +6,10 @@ course: art-history
 prerequisites:
 - id: art-history-periodization
   type: soft
+- id: fresco-techniques-and-materials
+  type: soft
+- id: architectural-styles-across-history
+  type: soft
 builds-toward:
 - national-schools-painting-traditions
 - impressionist-technique
@@ -17,7 +21,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Evolution of Painting Techniques Across Historical Periods
 
 ## Core Idea

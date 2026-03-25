@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: markovnikov-rule-regioselectivity
   type: hard
+- id: oxymercuration-markovnikov-hydration
+  type: soft
 builds-toward:
 - alcohol-oxidation-to-carbonyls
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Oxymercuration: Hg(OAc)₂-Mediated Hydration
 
 ## Core Idea

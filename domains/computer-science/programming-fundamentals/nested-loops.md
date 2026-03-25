@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: loop-design-and-invariants
   type: soft
+- id: do-while-loops
+  type: soft
+- id: iterating-over-collections
+  type: soft
 builds-toward:
 - arrays-and-lists
 tags:

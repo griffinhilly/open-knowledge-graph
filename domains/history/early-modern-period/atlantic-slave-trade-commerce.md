@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: mercantilism-national-wealth
   type: soft
+- id: atlantic-racialized-slavery
+  type: soft
+- id: joint-stock-corporations-trade
+  type: soft
 builds-toward:
 - atlantic-racialized-slavery
 tags:
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Atlantic Slave Trade and Commercial Systems
 
 ## Core Idea

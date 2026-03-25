@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: autonomic-nervous-system
   type: soft
+- id: cortisol-stress-axis-adaptation
+  type: soft
 tags:
 - hpa-axis
 - stress-response
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Neuroendocrine Integration of the Stress Response
 
 ## Core Idea

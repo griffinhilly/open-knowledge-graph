@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: contextualism-historical
   type: hard
+- id: ranke-school-legacy
+  type: soft
 tags:
 - conceptual history
 - semantics
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Conceptual History (Begriffsgeschichte)
 
 ## Core Idea

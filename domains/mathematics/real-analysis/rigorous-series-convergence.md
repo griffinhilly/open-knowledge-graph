@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: epsilon-n-convergence
   type: hard
+- id: improper-integrals-rigorous
+  type: soft
 builds-toward:
 - absolute-convergence-rearrangement
 - uniform-convergence-power-series
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Rigorous Series Convergence
 
 ## Core Idea

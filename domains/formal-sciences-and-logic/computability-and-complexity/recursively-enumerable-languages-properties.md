@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: decidability-and-semi-decidability
   type: hard
+- id: recursively-enumerable-languages-computability-and-complexity
+  type: soft
 builds-toward:
 - enumeration-and-index-sets
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Properties of Recursively Enumerable Languages
 
 ## Core Idea

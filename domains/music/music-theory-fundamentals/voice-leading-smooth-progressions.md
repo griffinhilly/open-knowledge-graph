@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: harmonic-vs-melodic-intervals
   type: hard
+- id: harmonic-bass-line-analysis
+  type: soft
 builds-toward:
 - chord-progression-basic-patterns
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Voice Leading: Smooth Motion and Efficient Progressions
 
 ## Core Idea

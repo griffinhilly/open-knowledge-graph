@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: geologic-structures-folds-faults
   type: soft
+- id: crustal-velocity-structure
+  type: soft
 tags:
 - seismic
 - interpretation
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Seismic Interpretation and Structural Mapping
 
 ## Core Idea

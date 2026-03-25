@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: microbial-cell-organization-prokaryotic
   type: hard
+- id: bacterial-endospores-survival-and-germination
+  type: soft
 builds-toward:
 - bacterial-ribosomes-70s-translation
 - plasmids-and-horizontal-gene-transfer
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Bacterial Chromosome Structure and Gene Organization
 
 ## Core Idea

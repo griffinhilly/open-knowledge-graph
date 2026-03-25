@@ -4,16 +4,23 @@ title: Order of Operations
 domain: mathematics
 course: 5th-grade
 prerequisites:
-  - id: order-of-operations-intro
-    type: hard
+- id: order-of-operations-intro
+  type: hard
+- id: order-of-operations-intro-4th-grade
+  type: soft
+- id: mixed-number-arithmetic
+  type: soft
 builds-toward:
-  - writing-numerical-expressions
-  - evaluating-expressions-with-grouping
-tags: [arithmetic, algebra-readiness, operations, expressions]
+- writing-numerical-expressions
+- evaluating-expressions-with-grouping
+tags:
+- arithmetic
+- algebra-readiness
+- operations
+- expressions
 stage: concrete-operations
 status: validated
 ---
-
 # Order of Operations
 
 ## Core Idea

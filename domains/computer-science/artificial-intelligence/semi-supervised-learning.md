@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - self-supervised-learning
-- pseudo-labeling
 tags:
 - semi-supervised
 - unlabeled-data

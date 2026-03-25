@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: momentum-and-impulse
   type: hard
+- id: relativistic-doppler-shift
+  type: soft
 builds-toward:
 - relativistic-kinetic-energy
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Relativistic Momentum and Inertia
 
 ## Core Idea

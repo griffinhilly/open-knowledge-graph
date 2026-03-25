@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: memory-retrieval-cues
   type: hard
+- id: state-dependent-memory-context-matching
+  type: soft
 builds-toward:
 - memory-consolidation-systems
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Transfer-Appropriate Processing and Encoding-Retrieval Match
 
 ## Core Idea

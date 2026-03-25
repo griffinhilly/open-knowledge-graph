@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: emotional-connection-pathos
   type: soft
+- id: appeal-integration-persuasion
+  type: soft
 tags:
 - persuasion
 - rhetoric
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Integrating Ethos, Pathos, and Logos in Persuasive Speeches
 
 ## Core Idea

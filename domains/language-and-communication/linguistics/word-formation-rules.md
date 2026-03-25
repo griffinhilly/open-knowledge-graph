@@ -6,6 +6,10 @@ course: linguistics
 prerequisites:
 - id: morpheme-types
   type: hard
+- id: prefix-suffix-affixation
+  type: soft
+- id: reduplication-morphology
+  type: soft
 builds-toward:
 - derivational-morphology-formal
 - inflectional-morphology-formal
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Word Formation Rules and Productivity
 
 ## Core Idea

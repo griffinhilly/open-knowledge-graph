@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: movement-and-transformations
   type: hard
+- id: long-distance-extraction
+  type: soft
+- id: cleft-constructions
+  type: soft
 tags:
 - syntax
 - movement
@@ -16,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Tough-Movement Constructions
 
 ## Core Idea

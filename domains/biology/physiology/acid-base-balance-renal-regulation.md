@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: buffer-solutions
   type: soft
+- id: acid-base-balance-three-regulatory-systems
+  type: soft
 tags:
 - acid-base
 - pH-regulation
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Acid-Base Balance and Renal Regulation
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: multiple-regression-model
   type: soft
+- id: arima-models-forecasting
+  type: soft
+- id: cross-validation-model-evaluation
+  type: soft
 builds-toward:
 - arima-models-forecasting
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Prediction Intervals and Out-of-Sample Forecasting
 
 ## Core Idea

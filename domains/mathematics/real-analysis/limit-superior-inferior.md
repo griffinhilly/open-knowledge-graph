@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: monotone-convergence-theorem
   type: soft
+- id: interchange-limit-derivative
+  type: soft
 builds-toward:
 - uniform-convergence
 - root-test
@@ -22,7 +24,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Limit Superior and Inferior
 
 ## Core Idea

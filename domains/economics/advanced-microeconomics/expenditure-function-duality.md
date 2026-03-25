@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: consumer-theory-utility
   type: hard
+- id: dual-production-and-profit-functions
+  type: soft
 builds-toward:
 - cost-minimization-duality
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Duality: Expenditure and Indirect Utility
 
 ## Core Idea

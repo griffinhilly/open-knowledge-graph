@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: plate-tectonics
   type: hard
+- id: elastic-plate-flexure
+  type: soft
+- id: isostatic-flexure-lithosphere
+  type: soft
 tags:
 - lithosphere
 - cooling
@@ -16,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Lithospheric Cooling and Thermal Evolution of Plates
 
 ## Core Idea

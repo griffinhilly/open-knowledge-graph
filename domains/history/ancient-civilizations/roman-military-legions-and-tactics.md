@@ -6,6 +6,8 @@ course: ancient-civilizations
 prerequisites:
 - id: roman-republic-constitution
   type: hard
+- id: roman-legion-military-training-discipline
+  type: soft
 tags:
 - rome
 - military
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Roman Military System and the Legions
 
 ## Core Idea

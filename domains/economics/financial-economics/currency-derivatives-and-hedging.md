@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: covered-and-uncovered-interest-parity
   type: hard
+- id: hedging-with-derivatives
+  type: soft
+- id: optimal-hedge-ratio-calculation
+  type: soft
+- id: interest-rate-swaps-mechanics
+  type: soft
 tags:
 - fx
 - hedging
@@ -15,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Currency Derivatives and Foreign Exchange Hedging
 
 ## Core Idea

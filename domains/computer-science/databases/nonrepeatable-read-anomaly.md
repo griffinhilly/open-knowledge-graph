@@ -6,6 +6,8 @@ course: databases
 prerequisites:
 - id: isolation-level-read-committed
   type: hard
+- id: dirty-read-anomaly
+  type: soft
 tags:
 - concurrency
 - anomalies
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Non-Repeatable Read Anomaly
 
 ## Core Idea

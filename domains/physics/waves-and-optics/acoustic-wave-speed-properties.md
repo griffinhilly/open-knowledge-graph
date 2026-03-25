@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: kinetic-theory-of-gases
   type: soft
+- id: sound-speed-temperature-and-media
+  type: soft
+- id: sound-level-logarithmic-scale
+  type: soft
+- id: longitudinal-wave-characteristics
+  type: soft
+- id: acoustic-pressure-and-amplitude
+  type: soft
 builds-toward:
 - vibrating-string-normal-modes
 - vibrating-air-column-modes
@@ -18,7 +26,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Sound Wave Speed and Temperature Dependence
 
 ## Core Idea

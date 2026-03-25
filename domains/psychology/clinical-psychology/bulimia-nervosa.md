@@ -6,6 +6,8 @@ course: clinical-psychology
 prerequisites:
 - id: eating-disorders-overview
   type: hard
+- id: anorexia-nervosa
+  type: soft
 tags:
 - bulimia
 - eating-disorder
@@ -14,7 +16,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Bulimia Nervosa
 
 ## Core Idea

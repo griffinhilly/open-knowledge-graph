@@ -8,6 +8,26 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: hard
+- id: potential-difference-voltage
+  type: soft
+- id: energy-density-electric-field
+  type: soft
+- id: capacitor-field-energy-storage
+  type: soft
+- id: electric-field-lines
+  type: soft
+- id: eddy-currents-and-energy-dissipation
+  type: soft
+- id: electric-field-in-dielectrics
+  type: soft
+- id: induced-electric-field-non-conservative
+  type: soft
+- id: charged-particle-motion-in-fields
+  type: soft
+- id: cyclotron-motion-and-frequency
+  type: soft
+- id: thevenin-norton-circuit-equivalents
+  type: soft
 builds-toward:
 - scalar-and-vector-potentials
 - boundary-value-problems-em
@@ -18,7 +38,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Electric Potential and Potential Energy
 
 ## Core Idea

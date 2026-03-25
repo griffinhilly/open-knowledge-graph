@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: early-modern-state-formation
   type: soft
+- id: early-modern-anatomy-and-medical-thought
+  type: soft
+- id: early-modern-missionary-activity
+  type: soft
 builds-toward:
 - colonial-plantation-economy
 - enlightenment-origins
@@ -23,7 +27,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Mercantilism and Early Modern Economic Thought
 
 ## Core Idea

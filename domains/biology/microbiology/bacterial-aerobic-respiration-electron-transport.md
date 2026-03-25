@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electron-transport-chain
   type: hard
+- id: bacterial-anaerobic-respiration-and-fermentation
+  type: soft
 builds-toward:
 - bacterial-anaerobic-respiration-and-fermentation
 - chemolithotropic-metabolism-energy-sources
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Bacterial Aerobic Respiration and Electron Transport
 
 ## Core Idea

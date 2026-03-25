@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: cadence-identification-ear
   type: soft
+- id: chord-progression-patterns-ear
+  type: soft
+- id: harmonic-rhythm-perception
+  type: soft
 tags:
 - form
 - structure
@@ -17,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Musical Form Recognition by Ear
 
 ## Core Idea

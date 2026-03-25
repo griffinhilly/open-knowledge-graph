@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: adiabatic-lapse-rates
   type: hard
+- id: lifted-condensation-level-lcl
+  type: soft
 builds-toward:
 - cape-convective-available-potential
 - thermodynamic-diagrams
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Equivalent Potential Temperature as Conserved Variable
 
 ## Core Idea

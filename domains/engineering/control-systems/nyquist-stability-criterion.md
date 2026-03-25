@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: complex-functions-mappings
   type: soft
+- id: nyquist-stability-from-frequency-response
+  type: soft
 builds-toward:
 - gain-and-phase-margins
 tags:
@@ -25,7 +27,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Nyquist Stability Criterion
 
 ## Core Idea

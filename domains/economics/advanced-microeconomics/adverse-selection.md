@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: probability-axioms
   type: soft
+- id: insurance-markets-and-selection
+  type: soft
 builds-toward:
 - lemons-market
 - signaling-games
@@ -24,7 +26,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Adverse Selection
 
 ## Core Idea

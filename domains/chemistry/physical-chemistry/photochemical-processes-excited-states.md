@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: activation-energy-catalysis-reaction-pathways
   type: soft
+- id: excited-state-decay-pathways
+  type: soft
 tags:
 - photochemistry
 - photons
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Photochemistry and Photochemical Reaction Pathways
 
 ## Core Idea

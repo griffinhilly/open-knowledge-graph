@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: classifying-2d-shapes
   type: soft
+- id: 2d-shape-properties-1st
+  type: soft
+- id: building-and-decomposing-shapes
+  type: soft
 builds-toward:
 - composing-shapes
 - decomposing-shapes
@@ -18,7 +22,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Identifying Two-Dimensional Shapes
 
 ## Core Idea

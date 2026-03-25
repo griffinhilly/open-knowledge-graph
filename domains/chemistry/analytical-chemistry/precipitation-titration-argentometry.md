@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: titrimetric-analysis-intro
   type: soft
+- id: complexometric-titration-edta-methods
+  type: soft
 builds-toward:
 - analytical-method-validation-core-parameters
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Precipitation Titration: Argentometry and Related Methods
 
 ## Core Idea

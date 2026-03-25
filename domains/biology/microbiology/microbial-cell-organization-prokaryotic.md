@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: prokaryotic-cells
   type: hard
+- id: prokaryotic-cell-structural-features
+  type: soft
 builds-toward:
 - bacterial-cell-structure
 - gram-positive-vs-gram-negative-bacteria
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Prokaryotic Cell Organization and Structure
 
 ## Core Idea

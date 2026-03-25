@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: multiplication-equal-groups-2nd
   type: hard
+- id: arrays-2nd-grade
+  type: soft
 builds-toward:
 - multiplication-facts-basic-2nd
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Multiplication: Arrays
 
 ## Core Idea

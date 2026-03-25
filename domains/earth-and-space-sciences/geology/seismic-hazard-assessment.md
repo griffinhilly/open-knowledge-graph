@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: earthquakes-and-seismology
   type: soft
+- id: volcanic-hazards-assessment
+  type: soft
+- id: mass-movement-types-triggers-hazards
+  type: soft
 tags:
 - seismic-hazard
 - earthquakes
@@ -16,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Seismic Hazard Assessment: Earthquake Probability and Risk
 
 ## Core Idea

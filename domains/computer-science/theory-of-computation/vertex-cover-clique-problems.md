@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: boolean-satisfiability-and-reductions
   type: hard
+- id: hamiltonian-path-cycle
+  type: soft
+- id: partition-subset-sum-problems
+  type: soft
+- id: 3sat-satisfiability-variant
+  type: soft
 builds-toward:
 - approximation-algorithms-design
 tags:
@@ -17,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Vertex Cover and Clique Problems
 
 ## Core Idea

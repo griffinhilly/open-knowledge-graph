@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: heisenberg-uncertainty-principle
   type: soft
+- id: uncertainty-principle-canonical
+  type: soft
 builds-toward:
 - wkb-approximation
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Uncertainty Principle (Formal Treatment)
 
 ## Core Idea

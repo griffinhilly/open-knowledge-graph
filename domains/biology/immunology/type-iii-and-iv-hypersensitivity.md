@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: cd4-helper-t-cells
   type: hard
+- id: type-ii-hypersensitivity-antibody-mediated
+  type: soft
 builds-toward:
 - autoimmunity-mechanisms
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Type III and Type IV Hypersensitivity Reactions
 
 ## Core Idea

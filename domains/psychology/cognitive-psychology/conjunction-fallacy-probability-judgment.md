@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: probability-axioms
   type: soft
+- id: base-rate-integration-probability
+  type: soft
 builds-toward:
 - base-rate-integration-probability
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Conjunction Fallacy and Probability Judgment Errors
 
 ## Core Idea

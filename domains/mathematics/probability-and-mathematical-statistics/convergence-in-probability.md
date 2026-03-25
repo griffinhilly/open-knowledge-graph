@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: limit-definition-intuitive
   type: soft
+- id: markov-chains-convergence
+  type: soft
 builds-toward:
 - relationships-modes-convergence
 - weak-law-of-large-numbers
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Convergence in Probability
 
 ## Core Idea

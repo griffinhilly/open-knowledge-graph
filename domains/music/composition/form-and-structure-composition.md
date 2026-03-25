@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: sonata-form-advanced
   type: soft
+- id: rhythmic-motif-and-structure
+  type: soft
+- id: sonata-form-composition
+  type: soft
 builds-toward:
 - theme-and-variations-composition
 tags:
@@ -22,7 +26,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Large-Scale Form and Structure
 
 ## Core Idea

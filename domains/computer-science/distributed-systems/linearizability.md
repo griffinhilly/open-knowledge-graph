@@ -6,6 +6,8 @@ course: distributed-systems
 prerequisites:
 - id: consistency-models
   type: hard
+- id: sequential-consistency
+  type: soft
 builds-toward:
 - two-phase-commit-protocol
 - strong-eventual-consistency
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Linearizability
 
 ## Core Idea

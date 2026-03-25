@@ -6,6 +6,8 @@ course: financial-economics
 prerequisites:
 - id: duration-and-convexity
   type: hard
+- id: credit-analysis-bond-selection
+  type: soft
 builds-toward:
 - interest-rate-risk-management
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Bond Immunization Strategies
 
 ## Core Idea

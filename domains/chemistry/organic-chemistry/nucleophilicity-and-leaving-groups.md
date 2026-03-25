@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: acid-base-definitions
   type: hard
+- id: leaving-groups-nucleofugality
+  type: soft
 builds-toward:
 - sn1-sn2-reaction-selectivity-factors
 - zaitsevs-rule-hofmann-elimination
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Nucleophilicity, Basicity, and Leaving Group Ability
 
 ## Core Idea

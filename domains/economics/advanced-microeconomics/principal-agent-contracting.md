@@ -8,13 +8,16 @@ prerequisites:
   type: hard
 - id: adverse-selection-signaling
   type: hard
+- id: pooling-separating-equilibrium
+  type: soft
+- id: screening-and-self-selection
+  type: soft
 tags:
 - contract-theory
 - information-asymmetry
 stage: expert
 status: validated
 ---
-
 # The Principal-Agent Problem
 
 ## Core Idea

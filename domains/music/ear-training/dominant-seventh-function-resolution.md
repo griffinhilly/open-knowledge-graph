@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dominant-seventh-fundamentals
   type: hard
+- id: dominant-seventh-chord-unique-quality
+  type: soft
 builds-toward:
 - harmonic-dictation-basic
 - secondary-dominant-recognition
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Dominant Seventh: Function and Resolution
 
 ## Core Idea

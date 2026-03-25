@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: historical-consciousness
   type: soft
+- id: formulating-historical-questions
+  type: soft
 tags:
 - time
 - periodization
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Historical Concepts of Time and Periodization
 
 ## Core Idea

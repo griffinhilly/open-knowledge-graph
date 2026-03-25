@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: sterilization-and-disinfection
   type: soft
+- id: microbiology-scope-and-history
+  type: soft
 tags:
 - culture
 - serology

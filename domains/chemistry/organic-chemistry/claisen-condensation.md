@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nucleophilic-acyl-substitution
   type: hard
+- id: claisen-condensation-mechanism
+  type: soft
 builds-toward:
 - crossed-aldol-selective-condensation
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Claisen Condensation and β-Keto Esters
 
 ## Core Idea

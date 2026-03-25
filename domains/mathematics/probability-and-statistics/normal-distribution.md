@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: expected-value-and-variance
   type: soft
+- id: bivariate-normal-distribution
+  type: soft
 builds-toward:
 - standard-normal-and-z-scores
 - central-limit-theorem
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Normal Distribution
 
 ## Core Idea

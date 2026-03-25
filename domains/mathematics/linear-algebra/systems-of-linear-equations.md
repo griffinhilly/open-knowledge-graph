@@ -6,6 +6,8 @@ course: linear-algebra
 prerequisites:
 - id: matrices-definition
   type: hard
+- id: matrix-exponential
+  type: soft
 builds-toward:
 - gaussian-elimination
 - rank-nullity-theorem
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Systems of Linear Equations and Matrix Form
 
 ## Core Idea

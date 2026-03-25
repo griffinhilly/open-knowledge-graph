@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: instrumental-timbre-recognition
   type: soft
+- id: register-and-spacing-in-composition
+  type: soft
 builds-toward:
 - arrangement-principles-basics
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Orchestration and Texture Selection
 
 ## Core Idea

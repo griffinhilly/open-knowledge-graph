@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: non-harmonic-tone-usage
   type: soft
+- id: suspension-appogiatura-voice-leading-function
+  type: soft
+- id: passing-suspension-integration
+  type: soft
 builds-toward:
 - voice-leading-error-recognition-and-correction
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Suspension and Non-Harmonic Tone Resolution in Voice Leading
 
 ## Core Idea

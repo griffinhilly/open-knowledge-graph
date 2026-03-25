@@ -16,6 +16,8 @@ prerequisites:
   type: hard
 - id: thermochemistry-heat-and-energy
   type: soft
+- id: basin-formation-subsidence
+  type: soft
 builds-toward:
 - bowen-fractional-crystallization
 - subduction-magmatism
@@ -27,7 +29,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Magma Generation: Melting Conditions and Mechanisms
 
 ## Core Idea

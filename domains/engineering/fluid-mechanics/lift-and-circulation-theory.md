@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: potential-flow-theory
   type: hard
+- id: lift-and-circulation-generation-vortex
+  type: soft
 tags:
 - lift
 - circulation

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: mirror-equation
   type: soft
+- id: optical-instruments-magnification
+  type: soft
 tags:
 - camera
 - microscope
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Optical Instruments
 
 ## Core Idea

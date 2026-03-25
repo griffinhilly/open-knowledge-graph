@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: modulation-detection-by-ear
   type: soft
+- id: secondary-dominants-ear
+  type: soft
+- id: borrowed-chromatic-harmony-detection
+  type: soft
 tags:
 - tonicization
 - modulation
@@ -15,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Tonicization Detection by Ear
 
 ## Core Idea

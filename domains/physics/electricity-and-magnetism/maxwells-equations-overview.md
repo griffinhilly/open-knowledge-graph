@@ -1,6 +1,6 @@
 ---
 id: maxwells-equations-overview
-title: 'Maxwell''s Equations'
+title: Maxwell's Equations
 domain: physics
 course: electricity-and-magnetism
 prerequisites:
@@ -19,6 +19,8 @@ prerequisites:
 - id: stokes-theorem
   type: soft
 - id: energy-stored-in-fields
+  type: soft
+- id: maxwell-equations-overview
   type: soft
 builds-toward:
 - electromagnetic-waves

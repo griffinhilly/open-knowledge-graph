@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: quantum-mechanics-postulates-core
   type: soft
+- id: molecular-orbital-diagrams-polyatomic
+  type: soft
 builds-toward:
 - perturbation-theory-quantum-chemistry
 - selection-rules-electronic-spectroscopy
@@ -21,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Molecular Orbital Diagrams and Bond Order
 
 ## Core Idea

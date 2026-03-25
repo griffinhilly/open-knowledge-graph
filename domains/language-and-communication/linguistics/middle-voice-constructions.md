@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: argument-structure-thematic-roles
   type: hard
+- id: applicative-voice-operations
+  type: soft
+- id: tough-movement-constructions
+  type: soft
+- id: cleft-constructions
+  type: soft
 tags:
 - syntax
 - voice
@@ -16,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Middle Voice Constructions
 
 ## Core Idea

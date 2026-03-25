@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: special-relativity-postulates
   type: soft
+- id: large-scale-structure-universe
+  type: soft
 builds-toward:
 - large-scale-structure-universe
 tags:
@@ -25,7 +27,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Gravitational Lensing and Dark Matter Mapping
 
 ## Core Idea

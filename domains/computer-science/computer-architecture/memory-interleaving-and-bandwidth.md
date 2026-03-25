@@ -8,8 +8,10 @@ prerequisites:
   type: hard
 - id: dynamic-ram-dram-design
   type: soft
+- id: direct-memory-access-dma
+  type: soft
 builds-toward:
-- memory-hierarchy-design
+- memory-hierarchy-overview
 tags:
 - memory-interleaving
 - bandwidth
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Memory Interleaving and Bandwidth Optimization
 
 ## Core Idea

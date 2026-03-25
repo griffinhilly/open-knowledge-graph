@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: harmonic-analysis-roman-numeral-function
   type: hard
+- id: voice-leading-analysis-transcription-method
+  type: soft
+- id: implied-harmony-structural-voices
+  type: soft
+- id: voice-leading-form-structure-relationship
+  type: soft
 tags:
 - Schenker
 - reduction
@@ -17,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Voice-Leading Reduction and Schenkerian Analysis
 
 ## Core Idea

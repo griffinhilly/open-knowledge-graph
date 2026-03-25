@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: categories-and-morphisms
   type: soft
+- id: localization-of-categories
+  type: soft
+- id: quotient-categories
+  type: soft
 builds-toward:
 - fibered-categories
 tags:

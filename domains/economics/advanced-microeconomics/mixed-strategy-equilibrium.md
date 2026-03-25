@@ -8,13 +8,14 @@ prerequisites:
   type: hard
 - id: nash-equilibrium-microeconomics
   type: soft
+- id: mixed-strategies-probability
+  type: soft
 tags:
 - game-theory
 - probability
 stage: expert
 status: validated
 ---
-
 # Mixed Strategy Equilibrium and Equilibrium in Randomized Strategies
 
 ## Core Idea

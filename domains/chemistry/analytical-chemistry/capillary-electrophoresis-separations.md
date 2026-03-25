@@ -6,6 +6,8 @@ course: analytical-chemistry
 prerequisites:
 - id: electrochemistry-basics
   type: hard
+- id: capillary-electrophoresis-cze-methods
+  type: soft
 tags:
 - capillary electrophoresis
 - CE
@@ -13,7 +15,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Capillary Electrophoresis Separations
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: attention-selective
   type: soft
+- id: attentional-blink-temporal-refractory
+  type: soft
+- id: inattentional-blindness-unattended-stimuli
+  type: soft
 builds-toward:
 - perceptual-organization-gestalt-principles
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Selective Attention and Filter Models
 
 ## Core Idea

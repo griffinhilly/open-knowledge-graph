@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: kant-critique-of-judgment
   type: soft
+- id: schopenhauer-music-metaphysics
+  type: soft
 builds-toward:
 - nietzsche-apollonian-and-dionysian
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Schopenhauer: Will and Aesthetic Contemplation
 
 ## Core Idea

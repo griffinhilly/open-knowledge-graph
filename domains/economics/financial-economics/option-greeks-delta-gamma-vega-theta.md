@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: higher-order-partials
   type: soft
+- id: option-greeks-and-sensitivity
+  type: soft
 tags:
 - options
 - risk-sensitivity
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Option Greeks: Delta, Gamma, Vega, and Theta
 
 ## Core Idea

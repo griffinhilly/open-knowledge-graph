@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: food-webs-ls
   type: hard
+- id: human-impact-on-ecosystems
+  type: soft
+- id: competition-and-niches
+  type: soft
 builds-toward:
 - energy-flow-in-ecosystems
 tags:

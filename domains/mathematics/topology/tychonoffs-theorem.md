@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: compactness-hausdorff-spaces
   type: hard
+- id: tietze-extension-theorem
+  type: soft
 builds-toward:
 - stone-cech-compactification
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Tychonoff's Theorem
 
 ## Core Idea

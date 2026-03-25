@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: transfer-functions-control
   type: hard
+- id: disturbance-rejection-and-feedforward
+  type: soft
 builds-toward:
 - robust-control-basics
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Sensitivity and Disturbance Rejection
 
 ## Core Idea

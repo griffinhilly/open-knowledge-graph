@@ -6,6 +6,8 @@ course: statistical-mechanics
 prerequisites:
 - id: chapman-enskog-expansion
   type: hard
+- id: thermal-conductivity-kinetic
+  type: soft
 builds-toward: []
 tags:
 - transport

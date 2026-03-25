@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: natural-rate-hypothesis
   type: hard
+- id: demand-shock-output-inflation-effects
+  type: soft
+- id: natural-rate-of-unemployment-nairu
+  type: soft
+- id: supply-shock-stagflation-effects
+  type: soft
 builds-toward:
 - expectations-augmented-phillips-curve-modern
 - wage-setting-equilibrium-unemployment
@@ -20,7 +26,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # NAIRU: Non-Accelerating Inflation Rate of Unemployment
 
 ## Core Idea

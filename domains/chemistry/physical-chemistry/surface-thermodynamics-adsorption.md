@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: surface-chemistry-and-catalysis
   type: soft
+- id: equipartition-theorem-heat-capacities
+  type: soft
 builds-toward:
 - adsorption-isotherms-kinetics
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Surface Thermodynamics and Interfacial Phenomena
 
 ## Core Idea

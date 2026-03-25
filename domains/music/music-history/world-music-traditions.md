@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: time-signatures-and-meter
   type: soft
+- id: world-music-traditions-context
+  type: soft
+- id: global-music-systems-and-exchange
+  type: soft
 builds-toward:
 - romantic-nationalism-in-music
 tags:
@@ -25,7 +29,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # World Music Traditions and Non-Western Musical Cultures
 
 ## Core Idea

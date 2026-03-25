@@ -6,6 +6,8 @@ course: physical-chemistry
 prerequisites:
 - id: quantum-chemistry-foundations
   type: hard
+- id: rotational-quantum-numbers-energy
+  type: soft
 builds-toward:
 - fluorescence-and-phosphorescence-theory
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Quantized Energy Levels and Spectroscopic Transitions
 
 ## Core Idea

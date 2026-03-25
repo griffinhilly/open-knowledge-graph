@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: cyclic-groups
   type: soft
+- id: cyclic-unity-chamber-works
+  type: soft
 builds-toward:
 - formal-analysis-deformation
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Cyclic Form and Large-Scale Unity
 
 ## Core Idea

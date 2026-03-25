@@ -8,7 +8,11 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: soft
-- id: probability
+- id: probability-axioms
+  type: soft
+- id: vanishing-gradient-problem
+  type: soft
+- id: genetic-algorithms
   type: soft
 tags:
 - optimization
@@ -16,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Stochastic Gradient Descent and Variants
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: one-to-one-counting-correspondence
   type: soft
+- id: ordering-numbers-to-20
+  type: soft
 builds-toward:
 - comparing-two-digit-numbers
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Comparing and Ordering Numbers to 20
 
 ## Core Idea

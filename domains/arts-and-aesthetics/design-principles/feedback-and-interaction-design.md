@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: user-experience-fundamentals
   type: soft
+- id: affordance-signifiers-usability
+  type: soft
 builds-toward:
 - ui-design-fundamentals
 - motion-design-and-animation-principles
@@ -20,7 +22,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Feedback and Interaction Design
 
 ## Core Idea

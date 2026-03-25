@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: iupac-nomenclature-alkanes
   type: hard
+- id: nomenclature-carbonyls-carboxylic-acids
+  type: soft
 builds-toward:
 - electrophilic-addition-to-alkenes
 - addition-to-alkynes
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # IUPAC Nomenclature of Alkenes
 
 ## Core Idea

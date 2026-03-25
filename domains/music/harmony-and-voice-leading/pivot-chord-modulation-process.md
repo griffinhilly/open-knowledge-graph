@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: harmonic-analysis-roman-numeral-function
   type: soft
+- id: modulation-voice-leading-pivot-chords
+  type: soft
+- id: enharmonic-chromatic-modulation
+  type: soft
 builds-toward:
 - enharmonic-chromatic-modulation
 tags:
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Pivot Chord Modulation Process
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: transition-state-theory-and-kinetics
   type: soft
+- id: quantum-tunneling-barrier-penetration
+  type: soft
 tags:
 - quantum
 - tunneling
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Quantum Tunneling and Reaction Rate Enhancement
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: number-theory
 prerequisites:
 - id: prime-counting-function
   type: hard
+- id: prime-counting-function-chebyshev-bounds
+  type: soft
 tags:
 - chebyshev
 - bounds
@@ -13,7 +15,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Chebyshev's Bounds on π(x)
 
 ## Core Idea

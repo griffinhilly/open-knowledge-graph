@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: triad-quality-diminished-augmented
   type: hard
+- id: borrowed-chord-recognition-ear
+  type: soft
 builds-toward:
 - harmonic-dictation-basic
 - secondary-dominants
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Diminished Seventh Chord Recognition by Ear
 
 ## Core Idea

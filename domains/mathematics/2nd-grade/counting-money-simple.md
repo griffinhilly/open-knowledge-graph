@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: counting-coins-and-bills
   type: hard
+- id: money-coins-paper-bills-2nd
+  type: soft
+- id: counting-to-100-2nd-grade
+  type: soft
 builds-toward:
 - making-change-simple
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Counting Collections of Coins
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: probability-and-statistics
 prerequisites:
 - id: exponential-distribution
   type: soft
+- id: geometric-distribution-properties
+  type: soft
 builds-toward:
 - poisson-distribution-properties
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Exponential Distribution: Waiting Times and Lifetimes
 
 ## Core Idea

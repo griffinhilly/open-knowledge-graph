@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: production-function-microeconomics
   type: hard
+- id: long-run-cost-structure
+  type: soft
 builds-toward:
 - profit-maximization-microeconomics
 - perfect-competition
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Long-Run Costs and Economies of Scale
 
 ## Core Idea

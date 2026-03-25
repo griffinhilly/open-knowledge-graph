@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: how-animals-move
   type: soft
+- id: movement-does-not-mean-alive
+  type: soft
 builds-toward:
 - cardiovascular-system-overview
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Bones and Muscles
 
 ## Core Idea

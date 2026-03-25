@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: corruption-and-economic-development
   type: soft
+- id: education-and-economic-development
+  type: soft
 tags:
 - governance
 - institutions
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Governance Quality and Development Outcomes
 
 ## Core Idea

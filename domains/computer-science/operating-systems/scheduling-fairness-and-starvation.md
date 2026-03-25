@@ -6,6 +6,8 @@ course: operating-systems
 prerequisites:
 - id: cpu-scheduling-basics
   type: hard
+- id: fcfs-scheduling-algorithm
+  type: soft
 builds-toward:
 - multilevel-feedback-queue-scheduling
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Scheduling Fairness and Starvation Prevention
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: classical-mechanics
 prerequisites:
 - id: driven-harmonic-oscillator
   type: hard
+- id: normal-modes-oscillations
+  type: soft
 builds-toward:
 - resonance-and-resonance-frequency
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Phase and Amplitude in Forced Oscillations
 
 ## Core Idea

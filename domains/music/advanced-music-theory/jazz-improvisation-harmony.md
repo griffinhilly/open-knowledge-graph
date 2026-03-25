@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: functional-harmony
   type: hard
+- id: jazz-modal-improvisation
+  type: soft
+- id: jazz-reharmonization-analysis
+  type: soft
+- id: free-jazz-organizational-structures
+  type: soft
+- id: jazz-rhythm-section-analysis
+  type: soft
 tags:
 - jazz
 - improvisation
@@ -16,7 +24,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Harmonic Analysis of Jazz Improvisation
 
 ## Core Idea

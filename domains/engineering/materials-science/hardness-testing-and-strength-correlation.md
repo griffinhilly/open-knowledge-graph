@@ -6,6 +6,8 @@ course: materials-science
 prerequisites:
 - id: strengthening-mechanisms-materials
   type: hard
+- id: hardness-testing-and-equivalence
+  type: soft
 builds-toward:
 - fracture-mechanics-analysis
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Hardness Testing and Strength Correlation
 
 ## Core Idea

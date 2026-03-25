@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: covalent-bonding-formation
   type: hard
+- id: polar-covalent-bonds-and-dipoles
+  type: soft
 builds-toward:
 - crystal-structures-and-properties
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Classification of Bonds: Ionic, Covalent, and Metallic
 
 ## Core Idea

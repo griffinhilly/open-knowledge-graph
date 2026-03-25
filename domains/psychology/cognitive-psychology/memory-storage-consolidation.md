@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hippocampal-pattern-separation-overlap
   type: soft
+- id: memory-reconsolidation-post-retrieval
+  type: soft
 builds-toward:
 - declarative-vs-procedural-memory
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Memory Storage and Consolidation
 
 ## Core Idea

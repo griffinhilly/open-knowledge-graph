@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: theory-of-mind-development
   type: hard
+- id: false-belief-task-understanding-mind
+  type: soft
 builds-toward:
 - peer-relationships-friendship-development
 - prosocial-behavior-empathy-altruism
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Theory of Mind and False-Belief Understanding
 
 ## Core Idea

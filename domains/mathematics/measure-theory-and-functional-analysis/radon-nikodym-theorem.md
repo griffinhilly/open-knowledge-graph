@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: lp-spaces
   type: soft
+- id: null-sets-almost-everywhere
+  type: soft
 builds-toward:
 - signed-measures-hahn-jordan
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Radon-Nikodym Theorem
 
 ## Core Idea

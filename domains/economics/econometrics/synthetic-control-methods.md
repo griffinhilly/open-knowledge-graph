@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: difference-in-differences
   type: soft
+- id: matching-estimators-causal-inference
+  type: soft
 tags:
 - synthetic-control
 - causal-inference
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Synthetic Control Methods for Policy Evaluation
 
 ## Core Idea

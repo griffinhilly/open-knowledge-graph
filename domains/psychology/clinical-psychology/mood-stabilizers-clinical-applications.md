@@ -6,6 +6,12 @@ course: clinical-psychology
 prerequisites:
 - id: bipolar-i-disorder
   type: hard
+- id: antidepressants-clinical-applications
+  type: soft
+- id: antipsychotics-clinical-applications
+  type: soft
+- id: mood-stabilizers
+  type: soft
 tags:
 - mood-stabilizer
 - lithium
@@ -13,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Mood Stabilizers: Mechanisms and Clinical Application
 
 ## Core Idea

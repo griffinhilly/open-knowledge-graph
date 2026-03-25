@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: modal-semantics-necessity-possibility
   type: hard
+- id: formal-semantics-of-modality
+  type: soft
+- id: type-theory-semantics
+  type: soft
 tags:
 - semantics
 - modality
@@ -15,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Possible Worlds Semantics
 
 ## Core Idea

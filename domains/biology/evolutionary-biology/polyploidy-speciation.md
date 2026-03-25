@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: meiosis
   type: hard
+- id: polyploidy-instant-speciation
+  type: soft
+- id: parapatric-speciation
+  type: soft
+- id: peripatric-speciation
+  type: soft
 tags:
 - speciation
 - polyploidy
@@ -16,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Polyploidy and Instant Speciation in Plants
 
 ## Core Idea

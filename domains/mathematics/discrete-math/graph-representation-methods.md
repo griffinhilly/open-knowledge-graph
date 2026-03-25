@@ -6,6 +6,8 @@ course: discrete-math
 prerequisites:
 - id: graph-theory-fundamentals
   type: hard
+- id: graph-matrices-representations
+  type: soft
 builds-toward:
 - graph-isomorphism-equivalence
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Graph Representation: Adjacency Lists, Matrices, and Edge Lists
 
 ## Core Idea

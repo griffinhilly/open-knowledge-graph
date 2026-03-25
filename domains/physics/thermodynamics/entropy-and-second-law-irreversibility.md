@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: second-law-of-thermodynamics
   type: hard
+- id: clausius-inequality
+  type: soft
+- id: third-law-absolute-entropy
+  type: soft
 tags:
 - entropy
 - irreversibility
@@ -15,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Entropy and the Second Law: Irreversibility
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: linear-algebra
 prerequisites:
 - id: gaussian-elimination-pivoting
   type: hard
+- id: lu-decomposition
+  type: soft
 builds-toward:
 - matrix-norms-conditioning
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # LU Decomposition and Forward/Back Substitution
 
 ## Core Idea

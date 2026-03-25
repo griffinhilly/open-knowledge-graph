@@ -6,6 +6,8 @@ course: waves-and-optics
 prerequisites:
 - id: path-length-difference-analysis
   type: hard
+- id: beats-and-beat-frequency
+  type: soft
 builds-toward:
 - double-aperture-interference-fringe
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Fringe Spacing in Interference Patterns
 
 ## Core Idea

@@ -6,6 +6,10 @@ course: waves-and-optics
 prerequisites:
 - id: lens-equation-magnification-formula
   type: hard
+- id: optical-instruments-magnification
+  type: soft
+- id: compound-optical-systems
+  type: soft
 tags:
 - optics
 - magnification
@@ -13,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Compound Optical Systems and Total Magnification
 
 ## Core Idea

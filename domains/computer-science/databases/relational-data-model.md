@@ -9,8 +9,8 @@ prerequisites:
 - id: cartesian-product
   type: soft
 builds-toward:
-  - relational-algebra-fundamentals
-  - functional-dependency-schema
+- relational-algebra
+- functional-dependencies
 tags:
 - relational
 - model

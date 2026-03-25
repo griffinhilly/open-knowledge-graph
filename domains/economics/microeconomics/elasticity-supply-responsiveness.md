@@ -6,6 +6,10 @@ course: microeconomics
 prerequisites:
 - id: supply-and-demand-basics
   type: hard
+- id: substitutes-complements-cross-elasticity
+  type: soft
+- id: input-substitution-elasticity
+  type: soft
 builds-toward:
 - tax-incidence-and-elasticity
 - supply-curve-individual-firm
@@ -16,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Price Elasticity of Supply
 
 ## Core Idea

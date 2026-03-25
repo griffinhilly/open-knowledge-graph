@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electron-configuration
   type: hard
+- id: electron-affinity
+  type: soft
 builds-toward:
 - ionic-bonding
 - acid-base-definitions
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ion Formation from Electron Transfer
 
 ## Core Idea

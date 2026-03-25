@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: expression-theory-of-art
   type: soft
+- id: critical-judgment-and-testimony
+  type: soft
 builds-toward:
 - queer-aesthetics-theory
 - aesthetics-and-moral-philosophy
@@ -22,7 +24,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Emotion and Aesthetic Judgment
 
 ## Core Idea

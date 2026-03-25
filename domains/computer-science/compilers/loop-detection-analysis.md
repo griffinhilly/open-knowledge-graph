@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: control-flow-graphs
   type: hard
+- id: loop-unrolling-optimization
+  type: soft
+- id: use-definition-chains
+  type: soft
+- id: loop-invariant-code-motion
+  type: soft
 builds-toward:
 - array-subscript-optimization
 - code-optimization
@@ -18,7 +24,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Loop Detection and Analysis
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: protein-tertiary-structure
   type: soft
+- id: transcription-factor-binding-specificity
+  type: soft
 builds-toward:
 - enhancers-silencers-eukaryotic
 - gene-regulation-eukaryotes
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Transcription Factors and DNA-Binding Domains
 
 ## Core Idea

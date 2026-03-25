@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: canon-techniques-advanced
   type: soft
+- id: canon-and-fugue-basics
+  type: soft
 builds-toward:
 - baroque-counterpoint-and-fugue
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Canon and Fugue Composition Basics
 
 ## Core Idea

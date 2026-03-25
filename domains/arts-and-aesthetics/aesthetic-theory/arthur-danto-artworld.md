@@ -6,6 +6,8 @@ course: aesthetic-theory
 prerequisites:
 - id: art-definition-and-ontology
   type: hard
+- id: danto-artworld-and-indiscernibles
+  type: soft
 builds-toward:
 - george-dickie-institutional-theory-art
 - conceptual-art-and-meaning
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Arthur Danto: The Artworld and Transfiguration
 
 ## Core Idea

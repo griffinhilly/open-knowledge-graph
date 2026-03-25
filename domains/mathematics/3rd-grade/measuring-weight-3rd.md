@@ -6,6 +6,8 @@ course: 3rd-grade
 prerequisites:
 - id: weight-or-mass-comparison-1st
   type: soft
+- id: measuring-length-multiple-units-3rd
+  type: soft
 builds-toward:
 - measurement-conversions-customary
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Measuring Weight
 
 ## Core Idea

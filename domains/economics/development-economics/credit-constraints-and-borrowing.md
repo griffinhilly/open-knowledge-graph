@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: moral-hazard
   type: hard
+- id: agricultural-credit-markets
+  type: soft
+- id: banking-services-and-development
+  type: soft
+- id: labor-markets-developing-economies
+  type: soft
 builds-toward:
 - microfinance-and-microcredit
 tags:
@@ -19,7 +25,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Credit Constraints in Developing Markets
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: wavelength-frequency-speed-relationship
   type: hard
+- id: longitudinal-wave-characteristics
+  type: soft
 builds-toward:
 - doppler-shift-observer-motion
 - acoustic-resonance-pipes
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Sound Waves and Longitudinal Propagation
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: eulers-totient-function
   type: hard
+- id: wilsons-theorem
+  type: soft
 builds-toward:
 - cryptographic-applications-rsa
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Euler's Theorem
 
 ## Core Idea

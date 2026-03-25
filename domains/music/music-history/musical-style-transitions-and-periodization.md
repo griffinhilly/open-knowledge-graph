@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: baroque-music-overview
   type: soft
+- id: women-composers-and-musical-canon
+  type: soft
 tags:
 - periodization
 - style
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Musical Style Transitions and Periodization
 
 ## Core Idea

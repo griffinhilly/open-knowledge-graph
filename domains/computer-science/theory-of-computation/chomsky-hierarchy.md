@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: context-free-grammars
   type: hard
+- id: alphabets-and-language-definition
+  type: soft
 builds-toward:
 - context-sensitive-languages
 - recognizability-vs-decidability
@@ -20,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # The Chomsky Hierarchy
 
 ## Core Idea

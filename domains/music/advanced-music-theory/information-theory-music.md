@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: expected-value-theory
   type: soft
+- id: entropy-predictability-music
+  type: soft
 builds-toward:
 - psychoacoustics-perception-theory
 tags:
@@ -27,7 +29,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Information Theory in Music
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: probability-spaces-measure-theoretic
   type: soft
+- id: bayesian-statistics-fundamentals
+  type: soft
 builds-toward:
 - bayesian-point-estimation
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Introduction to Bayesian Inference
 
 ## Core Idea

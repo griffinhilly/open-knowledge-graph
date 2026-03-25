@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: taylor-series
   type: hard
+- id: newtons-method-convergence-analysis
+  type: soft
 builds-toward:
 - order-of-convergence
 - secant-method
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Newton's Method: Convergence Analysis
 
 ## Core Idea

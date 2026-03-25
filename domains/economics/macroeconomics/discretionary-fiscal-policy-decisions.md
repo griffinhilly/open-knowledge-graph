@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: fiscal-policy-macroeconomics
   type: hard
+- id: crowding-out-and-fiscal-effects
+  type: soft
 builds-toward:
 - fiscal-dominance-vs-monetary-independence
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Discretionary Fiscal Policy
 
 ## Core Idea

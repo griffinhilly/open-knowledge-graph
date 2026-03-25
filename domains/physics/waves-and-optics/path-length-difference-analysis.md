@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: two-sources-interference-pattern
   type: hard
+- id: constructive-destructive-interference
+  type: soft
 builds-toward:
 - bright-fringes-dark-fringes-spacing
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Path Difference and Constructive/Destructive Interference
 
 ## Core Idea

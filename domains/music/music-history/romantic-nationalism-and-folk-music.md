@@ -6,6 +6,8 @@ course: music-history
 prerequisites:
 - id: romantic-era-compositional-innovations
   type: hard
+- id: nationalism-and-exoticism-19th-century
+  type: soft
 builds-toward:
 - virtuosity-and-performer-celebrity
 - jazz-origins-and-cultural-synthesis
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Romantic Nationalism and Folk Music Integration
 
 ## Core Idea

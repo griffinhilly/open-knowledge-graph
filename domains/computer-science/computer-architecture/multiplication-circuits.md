@@ -6,13 +6,14 @@ course: computer-architecture
 prerequisites:
 - id: full-adder-and-carry-logic
   type: hard
+- id: half-adder-circuit-design
+  type: soft
 tags:
 - multiplier
 - arithmetic-circuits
 stage: formal-systems
 status: validated
 ---
-
 # Multiplication Circuit Design
 
 ## Core Idea

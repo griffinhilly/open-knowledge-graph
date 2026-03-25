@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: multivariate-normal-distribution
   type: soft
+- id: strong-law-of-large-numbers
+  type: soft
 builds-toward:
 - maximum-likelihood-estimation-theory
 - confidence-intervals-rigorous-theory
@@ -21,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Central Limit Theorem (Rigorous via Characteristic Functions)
 
 ## Core Idea

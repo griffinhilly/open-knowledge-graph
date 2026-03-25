@@ -6,6 +6,10 @@ course: clinical-psychology
 prerequisites:
 - id: schizophrenia-spectrum-disorders
   type: hard
+- id: antidepressants-clinical-applications
+  type: soft
+- id: antipsychotic-medications
+  type: soft
 tags:
 - antipsychotic
 - psychopharmacology
@@ -13,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Antipsychotics: Mechanisms and Clinical Application
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: melody-writing-phrasing
   type: soft
+- id: romantic-vocal-music-development
+  type: soft
 tags:
 - romantic
 - vocal-music
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Lied and Art Song Tradition
 
 ## Core Idea

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: absorption-and-emission-spectroscopy
   type: soft
+- id: greenhouse-gas-absorption-emission
+  type: soft
 builds-toward:
 - climate-model-parameterization
 - radiative-forcing-greenhouse-gases
@@ -25,7 +27,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Line-by-Line Radiative Transfer Calculations
 
 ## Core Idea

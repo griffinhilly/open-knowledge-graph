@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: greenhouse-effect
   type: soft
+- id: biosignatures-exoplanet-atmospheres
+  type: soft
+- id: planetary-cloud-physics
+  type: soft
 builds-toward:
 - exoplanet-atmospheric-composition-spectroscopy
 - habitable-zone-boundaries-constraints
@@ -19,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Planetary Thermal Inversions in Atmospheres
 
 ## Core Idea

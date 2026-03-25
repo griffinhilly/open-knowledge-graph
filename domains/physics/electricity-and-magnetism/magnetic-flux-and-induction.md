@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: biot-savart-law
   type: soft
+- id: motional-electromotive-force
+  type: soft
 builds-toward:
 - faradays-law
 tags:

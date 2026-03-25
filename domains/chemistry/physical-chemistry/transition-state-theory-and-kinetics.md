@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: elementary-reaction-mechanisms-catalysis
   type: soft
+- id: chemical-exchange-kinetics-nmr
+  type: soft
+- id: transition-state-geometry-activated-complex
+  type: soft
 builds-toward:
 - quantum-tunneling-and-reaction-rates
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Transition State Theory and Reaction Rate Constants
 
 ## Core Idea

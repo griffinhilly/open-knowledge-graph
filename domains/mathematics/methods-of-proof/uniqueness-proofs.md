@@ -6,6 +6,8 @@ course: methods-of-proof
 prerequisites:
 - id: existence-proofs
   type: hard
+- id: existence-and-uniqueness-proofs
+  type: soft
 builds-toward:
 - injective-surjective-bijective
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Uniqueness Proofs
 
 ## Core Idea

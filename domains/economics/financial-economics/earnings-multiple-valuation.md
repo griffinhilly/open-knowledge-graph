@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: stock-valuation-fundamentals
   type: soft
+- id: equity-valuation-growth-phases
+  type: soft
+- id: financial-ratio-framework
+  type: soft
 builds-toward:
 - equity-valuation-multiples
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Price-to-Earnings Multiples and Comparable Company Valuation
 
 ## Core Idea

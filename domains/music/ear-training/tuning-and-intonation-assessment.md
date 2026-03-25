@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: interval-quality-basics
   type: soft
+- id: mixed-interval-ear-training
+  type: soft
 builds-toward:
 - spectral-analysis-acoustics
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Tuning and Intonation Assessment by Ear
 
 ## Core Idea

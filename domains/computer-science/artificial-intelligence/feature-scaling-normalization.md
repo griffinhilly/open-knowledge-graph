@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: standard-normal-z-scores-theory
   type: soft
+- id: batch-normalization
+  type: soft
 builds-toward:
 - gradient-descent-optimization
 - neural-networks-intro
@@ -20,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Feature Scaling and Normalization
 
 ## Core Idea

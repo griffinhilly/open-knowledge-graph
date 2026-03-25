@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: social-influence-compliance
   type: soft
+- id: door-in-the-face-technique-reciprocity
+  type: soft
+- id: liking-principle-persuasion-attraction
+  type: soft
 builds-toward:
 - multi-tactic-persuasion-sequences
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # That's-Not-All Technique in Persuasion
 
 ## Core Idea

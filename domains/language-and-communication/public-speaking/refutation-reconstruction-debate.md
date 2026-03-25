@@ -8,8 +8,12 @@ prerequisites:
   type: hard
 - id: counterargument-speech-integration
   type: soft
+- id: argument-strategy-in-debate
+  type: soft
+- id: refuting-counterarguments-persuasion
+  type: soft
 builds-toward:
-  - debate-rebuttal-technique
+- debate-rebuttal-technique
 tags:
 - debate
 - refutation

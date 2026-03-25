@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: columbian-exchange
   type: soft
+- id: atlantic-racialized-slavery
+  type: soft
+- id: atlantic-slave-trade-commerce
+  type: soft
+- id: middle-passage-atlantic-forced-migration
+  type: soft
 builds-toward:
 - industrial-revolution
 tags:
@@ -18,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Atlantic Triangular Trade
 
 ## Core Idea

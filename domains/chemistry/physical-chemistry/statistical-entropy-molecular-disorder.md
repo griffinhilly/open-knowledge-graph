@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: entropy-and-disorder
   type: hard
+- id: gibbs-energy-molecular-basis
+  type: soft
+- id: van-der-waals-equation-of-state-advanced
+  type: soft
 builds-toward:
 - partition-function-thermodynamic-properties
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Statistical Entropy and Molecular Disorder
 
 ## Core Idea

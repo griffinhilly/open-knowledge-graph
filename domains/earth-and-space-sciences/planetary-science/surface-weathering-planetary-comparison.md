@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: weathering-and-erosion
   type: soft
+- id: fluvial-processes-planetary-surfaces
+  type: soft
+- id: planetary-tectonics-comparative
+  type: soft
 builds-toward:
 - habitable-zone-boundaries-constraints
 - volatile-inventory-and-escape-evolution
@@ -19,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Comparative Planetary Weathering and Surface Erosion
 
 ## Core Idea

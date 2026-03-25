@@ -6,6 +6,8 @@ course: oceanography
 prerequisites:
 - id: dissolved-oxygen-biogeochemical-cycles
   type: soft
+- id: deep-sea-ecosystems
+  type: soft
 builds-toward:
 - deep-sea-ecosystems
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Chemosynthesis and Deep-Sea Hydrothermal Vent Ecosystems
 
 ## Core Idea

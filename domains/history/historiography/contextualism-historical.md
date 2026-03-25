@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: intellectual-history-cambridge
   type: soft
+- id: anachronism-presentism
+  type: soft
 builds-toward:
 - quentin-skinner-contextualism
 - histoire-des-concepts
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Contextualism: Understanding Ideas in Their Historical Setting
 
 ## Core Idea

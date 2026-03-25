@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: comparing-lengths-longer-shorter
   type: soft
+- id: measuring-length-with-ruler-2nd-grade
+  type: soft
 builds-toward:
 - measuring-length-inches-centimeters-2nd
 - perimeter-rectangles-2nd
@@ -18,7 +20,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Measuring Length in Standard Units
 
 ## Core Idea

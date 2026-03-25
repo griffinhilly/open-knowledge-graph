@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: personality-disorder-overview
   type: soft
+- id: comorbidity-mental-disorders
+  type: soft
+- id: comorbidity-complex-presentations
+  type: soft
 tags:
 - comorbidity
 - cooccurrence
@@ -18,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Comorbidity and Integrated Treatment
 
 ## Core Idea

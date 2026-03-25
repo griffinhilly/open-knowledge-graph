@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: quasi-linear-preferences
   type: soft
+- id: individual-rationality-mechanism
+  type: soft
 builds-toward:
 - moral-hazard
 - mechanism-design-basics
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Incentive Compatibility and Individual Rationality
 
 ## Core Idea

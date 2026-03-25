@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: viral-replication-cycle
   type: hard
+- id: gram-staining-and-cell-wall-classification
+  type: soft
 builds-toward:
 - bacteriophage-taxonomy-lytic-lysogenic
 - viral-infection-and-pathogenesis-mechanisms
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Viral Classification and Genome Types
 
 ## Core Idea

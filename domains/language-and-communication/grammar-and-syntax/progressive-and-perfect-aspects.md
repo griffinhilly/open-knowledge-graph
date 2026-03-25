@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: verb-tense
   type: hard
+- id: verb-tense-simple-past-present-future
+  type: soft
 builds-toward:
 - tense-consistency
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Progressive and Perfect Verb Aspects
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: global-revision-strategies
   type: soft
+- id: revision-as-rhetorical-craft
+  type: soft
+- id: research-question-thesis-connection
+  type: soft
 builds-toward:
 - editing-coherence-techniques
 - peer-review-and-feedback
@@ -19,7 +23,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Revision Planning and Multiple-Pass Revision
 
 ## Core Idea

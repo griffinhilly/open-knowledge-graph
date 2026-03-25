@@ -8,12 +8,13 @@ prerequisites:
   type: hard
 - id: riemann-integral-via-darboux-sums
   type: hard
+- id: measurable-functions
+  type: soft
 tags:
 - integration
 stage: expert
 status: validated
 ---
-
 # Comparison of Riemann and Lebesgue Integrals
 
 ## Core Idea

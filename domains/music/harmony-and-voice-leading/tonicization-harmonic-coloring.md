@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: modulation-techniques
   type: soft
+- id: applied-chords-voice-leading-tonicization
+  type: soft
+- id: applied-chord-tonicization-process
+  type: soft
 builds-toward:
 - voice-leading-in-composition
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Tonicization and Harmonic Coloring
 
 ## Core Idea

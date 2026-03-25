@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: syntactic-structure
   type: hard
+- id: evidentiality-information-source
+  type: soft
+- id: serial-verb-constructions
+  type: soft
 tags:
 - syntax
 - information-structure
@@ -16,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Cleft Constructions
 
 ## Core Idea

@@ -6,6 +6,14 @@ course: graph-theory-and-combinatorics
 prerequisites:
 - id: graph-theory-intro
   type: hard
+- id: erdos-gallai-theorem
+  type: soft
+- id: turan-theorem
+  type: soft
+- id: hamiltonian-cycles-dirac-ore
+  type: soft
+- id: graph-operations-and-products
+  type: soft
 builds-toward:
 - extremal-graph-theory
 tags:
@@ -14,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Turán's Theorem and Extremal Graph Theory
 
 ## Core Idea

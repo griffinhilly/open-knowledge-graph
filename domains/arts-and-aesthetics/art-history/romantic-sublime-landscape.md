@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: kant-the-sublime
   type: soft
+- id: landscape-painting-development
+  type: soft
 builds-toward:
 - realism-and-social-observation
 - impressionism-and-post-impressionism
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Romantic Landscape and the Aesthetics of the Sublime
 
 ## Core Idea

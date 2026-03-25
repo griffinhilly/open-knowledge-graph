@@ -6,6 +6,12 @@ course: probability-and-statistics
 prerequisites:
 - id: correlation-coefficient
   type: hard
+- id: linear-regression-probability-and-statistics
+  type: soft
+- id: prediction-intervals-regression-probability-and-statistics
+  type: soft
+- id: least-squares-estimation-intro
+  type: soft
 builds-toward:
 - residuals-and-goodness-of-fit
 tags:
@@ -16,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Linear Regression Basics
 
 ## Core Idea

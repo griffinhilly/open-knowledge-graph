@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: statistical-ensembles-intro
   type: hard
+- id: liouville-theorem-statistical-mechanics
+  type: soft
 builds-toward:
 - boltzmann-equation-kinetic
 - fokker-planck-equation
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Phase Space Density and the Liouville Equation
 
 ## Core Idea

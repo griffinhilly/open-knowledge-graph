@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: dot-product
   type: hard
+- id: directional-derivatives-definition
+  type: soft
 builds-toward:
 - optimization-multivariable-basics
 - vector-fields
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Directional Derivatives and the Gradient
 
 ## Core Idea

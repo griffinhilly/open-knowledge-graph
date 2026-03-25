@@ -6,6 +6,10 @@ course: music-history
 prerequisites:
 - id: baroque-music-overview
   type: hard
+- id: baroque-vocal-genres
+  type: soft
+- id: opera-as-baroque-synthesis
+  type: soft
 builds-toward:
 - opera-history
 tags:
@@ -20,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Baroque Opera and Oratorio
 
 ## Core Idea

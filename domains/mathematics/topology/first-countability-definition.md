@@ -6,6 +6,8 @@ course: topology
 prerequisites:
 - id: neighborhoods-topology-definition
   type: hard
+- id: first-countable-spaces
+  type: soft
 builds-toward:
 - second-countable-spaces
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # First Countability and Bases
 
 ## Core Idea

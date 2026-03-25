@@ -6,6 +6,10 @@ course: computer-architecture
 prerequisites:
 - id: full-adder-and-carry-logic
   type: hard
+- id: carry-lookahead-adder-design
+  type: soft
+- id: half-adder-circuit-design
+  type: soft
 builds-toward:
 - carry-lookahead-adder-design
 tags:
@@ -14,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ripple Carry Adder Design
 
 ## Core Idea

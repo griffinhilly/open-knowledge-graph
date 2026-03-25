@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hplc
   type: hard
+- id: separation-science-fundamentals
+  type: soft
 builds-toward:
 - method-development-lifecycle
 - analytical-method-development-workflow
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Chromatographic Resolution and Selectivity
 
 ## Core Idea

@@ -6,6 +6,10 @@ course: ancient-civilizations
 prerequisites:
 - id: sumerian-governance-administration
   type: soft
+- id: hammurabi-code-justice-system
+  type: soft
+- id: babylonian-empire-and-law
+  type: soft
 builds-toward:
 - roman-legal-code-justice-system
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Code of Hammurabi and Legal Governance
 
 ## Core Idea

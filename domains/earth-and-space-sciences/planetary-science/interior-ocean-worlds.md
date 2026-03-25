@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: planetary-habitability-and-biosignatures
   type: hard
+- id: habitable-zone-climate-dynamics
+  type: soft
 tags:
 - oceans
 - moons
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Interior Ocean Worlds: Subsurface Habitability
 
 ## Core Idea

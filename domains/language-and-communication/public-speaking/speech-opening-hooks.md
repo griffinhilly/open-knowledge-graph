@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: audience-analysis-for-speaking
   type: hard
+- id: attention-management-throughout-speech
+  type: soft
 builds-toward:
 - appeal-integration-persuasion
 - audience-engagement-techniques
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Effective Speech Openings and Attention Hooks
 
 ## Core Idea

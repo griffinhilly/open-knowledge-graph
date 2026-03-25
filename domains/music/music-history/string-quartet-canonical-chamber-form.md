@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: chamber-music-social-music
   type: soft
+- id: absolute-music-and-program-music-aesthetics
+  type: soft
+- id: lied-and-art-song-tradition
+  type: soft
 tags:
 - form
 - chamber-music
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # String Quartet: Canonical Chamber Form
 
 ## Core Idea

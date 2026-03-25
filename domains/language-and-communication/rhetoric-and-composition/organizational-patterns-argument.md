@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rhetorical-situation-analysis
   type: soft
+- id: claim-hierarchy-emphasis
+  type: soft
 builds-toward:
 - argumentative-essay-structure
 - persuasive-writing
@@ -19,7 +21,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Organizational Patterns and Argumentation Structures
 
 ## Core Idea

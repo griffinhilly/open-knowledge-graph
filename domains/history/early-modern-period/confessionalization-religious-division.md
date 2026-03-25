@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: counter-reformation
   type: hard
+- id: calvin-reformed-theology-predestination
+  type: soft
+- id: lutheran-theology-sola-fide
+  type: soft
 builds-toward:
 - religious-toleration-theory-practice
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Confessionalization and Religious Identity Formation
 
 ## Core Idea

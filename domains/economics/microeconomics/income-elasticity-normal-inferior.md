@@ -6,6 +6,10 @@ course: microeconomics
 prerequisites:
 - id: demand-curve-individual-consumer
   type: hard
+- id: elasticity-income-superior-inferior-goods
+  type: soft
+- id: income-consumption-path-engel
+  type: soft
 builds-toward:
 - income-consumption-path
 tags:
@@ -15,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Income Elasticity: Normal and Inferior Goods
 
 ## Core Idea

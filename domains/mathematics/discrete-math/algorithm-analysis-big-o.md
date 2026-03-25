@@ -3,7 +3,9 @@ id: algorithm-analysis-big-o
 title: Algorithm Analysis and Big-O Notation
 domain: mathematics
 course: discrete-math
-prerequisites: []
+prerequisites:
+- id: dijkstra-algorithm
+  type: soft
 builds-toward:
 - complexity-classes-bounds
 tags:
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Algorithm Analysis and Big-O Notation
 
 ## Core Idea

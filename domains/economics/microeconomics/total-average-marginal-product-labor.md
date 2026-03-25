@@ -6,6 +6,8 @@ course: microeconomics
 prerequisites:
 - id: production-function-microeconomics
   type: hard
+- id: marginal-product-diminishing-returns
+  type: soft
 builds-toward:
 - marginal-revenue-product-factor
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Total, Average, and Marginal Product of Labor
 
 ## Core Idea

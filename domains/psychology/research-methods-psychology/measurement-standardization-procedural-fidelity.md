@@ -10,8 +10,10 @@ prerequisites:
   type: soft
 - id: inter-rater-reliability-observer-agreement
   type: soft
+- id: measurement-error-and-attenuation
+  type: soft
 builds-toward:
-  - qualitative-research-validity-trustworthiness
+- qualitative-research-validity-trustworthiness
 tags:
 - measurement
 - reliability

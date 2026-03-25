@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: harmonic-function-voice-leading-tension-resolution
   type: hard
+- id: cadential-voice-leading-patterns
+  type: soft
 builds-toward:
 - cadential-six-four-harmonic-function
 - tonicization-and-modulation-voice-leading
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Voice Leading in Authentic and Plagal Cadences
 
 ## Core Idea

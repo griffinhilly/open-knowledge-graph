@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: line-in-art
   type: soft
+- id: cross-cultural-artistic-exchange
+  type: soft
 builds-toward:
 - dutch-golden-age-painting
 - modern-art-movements
@@ -20,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Printmaking: Relief and Intaglio Traditions
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: pitch-and-frequency
   type: soft
+- id: perfect-vs-diminished-augmented-interval
+  type: soft
+- id: tritone-dissonant-intervals-ear
+  type: soft
 builds-toward:
 - major-minor-thirds-ear
 - diatonic-chord-quality-ear
@@ -24,7 +28,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Perfect Intervals by Ear
 
 ## Core Idea

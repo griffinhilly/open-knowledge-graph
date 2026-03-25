@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: portfolio-diversification
   type: soft
+- id: portfolio-insurance-strategy
+  type: soft
+- id: bond-portfolio-strategies
+  type: soft
 builds-toward:
 - value-at-risk-measurement
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Portfolio Rebalancing Strategies
 
 ## Core Idea

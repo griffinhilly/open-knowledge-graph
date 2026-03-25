@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: damping-and-resonance
   type: soft
+- id: rlc-circuit-applications
+  type: soft
 builds-toward:
 - laplace-transform-of-derivatives
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # RLC Circuit Applications of Differential Equations
 
 ## Core Idea

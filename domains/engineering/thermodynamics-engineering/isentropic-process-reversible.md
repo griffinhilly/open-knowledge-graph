@@ -6,6 +6,8 @@ course: thermodynamics-engineering
 prerequisites:
 - id: entropy-calculation-properties
   type: hard
+- id: maximum-work-availability-throttling
+  type: soft
 builds-toward:
 - isentropic-efficiency-devices
 - compressible-flow-isentropic-flow
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Isentropic Processes and Reversible Adiabatic Expansion/Compression
 
 ## Core Idea

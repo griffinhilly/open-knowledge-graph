@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: udp-user-datagram-protocol
   type: soft
+- id: snmp-simple-network-management-protocol
+  type: soft
 builds-toward:
 - network-management-and-monitoring
 - network-security-fundamentals
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Syslog: Network Logging and Log Aggregation
 
 ## Core Idea

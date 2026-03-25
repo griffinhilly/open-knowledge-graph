@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: conservation-of-energy
   type: hard
+- id: black-hole-accretion
+  type: soft
 builds-toward:
 - x-ray-binary-systems
 - active-galactic-nuclei
@@ -23,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Accretion Disk Physics and Radiative Efficiency
 
 ## Core Idea

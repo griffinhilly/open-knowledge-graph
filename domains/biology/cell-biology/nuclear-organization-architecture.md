@@ -6,6 +6,8 @@ course: cell-biology
 prerequisites:
 - id: nucleus-and-genetic-material
   type: hard
+- id: nucleus-structure-and-function
+  type: soft
 builds-toward:
 - chromatin-remodeling-accessibility
 - histone-modifications-epigenetic
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Nuclear Organization and Three-Dimensional Chromosome Architecture
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: test-score-interpretation-frameworks
   type: hard
+- id: neuropsychological-test-interpretation-and-profile-analysis
+  type: soft
 tags:
 - mmpi
 - personality-assessment
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Personality Test Interpretation: MMPI-2 and Profile Analysis
 
 ## Core Idea

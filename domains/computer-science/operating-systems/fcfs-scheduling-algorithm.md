@@ -6,6 +6,8 @@ course: operating-systems
 prerequisites:
 - id: cpu-scheduling-basics
   type: hard
+- id: round-robin-scheduling
+  type: soft
 builds-toward:
 - round-robin-scheduling
 - priority-scheduling-algorithms
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # First-Come-First-Served (FCFS) Scheduling
 
 ## Core Idea

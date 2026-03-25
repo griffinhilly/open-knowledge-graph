@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: grammatical-register-and-style
   type: soft
+- id: ceremonial-register-and-language
+  type: soft
 tags:
 - register
 - formality
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Adjusting Register and Formality Levels During Speech
 
 ## Core Idea

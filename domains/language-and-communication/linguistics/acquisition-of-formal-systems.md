@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: parameter-setting-universal-grammar
   type: soft
+- id: principles-and-parameters-theory
+  type: soft
+- id: prosodic-structure-formalism
+  type: soft
 tags:
 - acquisition
 - formalism
@@ -15,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Acquisition of Formal Grammar and Parameters
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: central-limit-theorem-theory
   type: hard
+- id: confidence-intervals-means-theory
+  type: soft
 builds-toward:
 - hypothesis-testing-fundamentals
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Confidence Intervals for Proportions
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: predators-and-prey
   type: soft
+- id: competition-and-niches
+  type: soft
 builds-toward:
 - energy-flow-in-ecosystems-ls
 - trophic-levels-and-food-webs

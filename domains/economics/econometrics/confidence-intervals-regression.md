@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: hypothesis-testing-regression
   type: hard
+- id: f-statistic-overall-significance
+  type: soft
+- id: t-statistic-individual-coefficient
+  type: soft
 builds-toward:
 - prediction-intervals-regression
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Confidence Intervals and Hypothesis Tests in Regression
 
 ## Core Idea

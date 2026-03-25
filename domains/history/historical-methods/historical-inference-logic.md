@@ -10,6 +10,14 @@ prerequisites:
   type: hard
 - id: explanation-in-history
   type: soft
+- id: literature-as-historical-evidence
+  type: soft
+- id: environmental-historical-methods
+  type: soft
+- id: counterfactual-and-speculative-historical-reasoning
+  type: soft
+- id: source-synthesis-and-triangulation
+  type: soft
 tags:
 - logic
 - methodology
@@ -18,7 +26,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Historical Inference and Logical Reasoning
 
 ## Core Idea

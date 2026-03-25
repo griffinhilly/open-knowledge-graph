@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: organic-chemistry-intro
   type: soft
+- id: conformational-isomerism-newman-projections
+  type: soft
 builds-toward:
 - fischer-projection-and-wedge-dash
 - e2-mechanism-hoffmann-rule
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Newman Projections and Conformational Analysis
 
 ## Core Idea

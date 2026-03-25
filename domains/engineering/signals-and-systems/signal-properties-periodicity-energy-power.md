@@ -6,6 +6,8 @@ course: signals-and-systems
 prerequisites:
 - id: signal-classification-continuous-discrete
   type: hard
+- id: basic-signal-operations-transformations
+  type: soft
 builds-toward:
 - fourier-series-representation
 - parseval-theorem-energy-analysis
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Signal Properties: Periodicity, Energy, and Power
 
 ## Core Idea

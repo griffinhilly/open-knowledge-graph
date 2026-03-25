@@ -18,6 +18,12 @@ prerequisites:
   type: hard
 - id: curl-and-divergence-operators
   type: hard
+- id: electromagnetic-induction-applications
+  type: soft
+- id: eddy-currents-and-energy-dissipation
+  type: soft
+- id: induced-electric-field-non-conservative
+  type: soft
 builds-toward:
 - lenz-law-induced-currents
 tags:
@@ -27,7 +33,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Faraday's Law of Electromagnetic Induction
 
 ## Core Idea

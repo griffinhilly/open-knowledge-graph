@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: fear-conditioning-circuits
   type: soft
+- id: acute-stress-disorder
+  type: soft
 builds-toward:
 - trauma-informed-care
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Post-Traumatic Stress Disorder (PTSD)
 
 ## Core Idea

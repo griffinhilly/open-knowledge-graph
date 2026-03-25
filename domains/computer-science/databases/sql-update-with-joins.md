@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: sql-joins
   type: hard
+- id: sql-delete-with-conditions
+  type: soft
+- id: sql-case-when-expressions
+  type: soft
 tags:
 - sql
 - dml
@@ -15,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # UPDATE with JOINs: Conditional Updates
 
 ## Core Idea

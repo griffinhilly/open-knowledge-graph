@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: metamorphic-facies-rock-associations
   type: soft
+- id: basin-formation-subsidence
+  type: soft
+- id: thermal-contact-metamorphism
+  type: soft
+- id: subduction-magmatism-arc-volcanism
+  type: soft
 builds-toward:
 - continental-collision-orogeny-crustal-thickening
 tags:
@@ -17,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Subduction Zone Structure and High-Pressure Metamorphism
 
 ## Core Idea

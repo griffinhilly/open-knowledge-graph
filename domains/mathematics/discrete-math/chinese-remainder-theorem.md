@@ -6,13 +6,16 @@ course: discrete-math
 prerequisites:
 - id: euclidean-algorithm-gcd
   type: hard
+- id: carmichael-function-and-numbers
+  type: soft
+- id: parity-arguments-discrete
+  type: soft
 tags:
 - number-theory
 - crt
 stage: formal-systems
 status: validated
 ---
-
 # The Chinese Remainder Theorem and Its Applications
 
 ## Core Idea

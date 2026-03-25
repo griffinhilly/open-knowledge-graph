@@ -6,6 +6,8 @@ course: data-structures-and-algorithms
 prerequisites:
 - id: linked-lists
   type: hard
+- id: circular-linked-lists
+  type: soft
 builds-toward:
 - deques-double-ended-queues
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Doubly Linked Lists
 
 ## Core Idea

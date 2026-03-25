@@ -6,6 +6,8 @@ course: design-principles
 prerequisites:
 - id: visual-perception-and-communication
   type: soft
+- id: feedback-and-interaction-design
+  type: soft
 builds-toward:
 - design-process-and-iteration
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Design Critique and Constructive Feedback
 
 ## Core Idea

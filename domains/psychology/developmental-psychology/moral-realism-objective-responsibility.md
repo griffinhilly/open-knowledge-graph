@@ -6,6 +6,8 @@ course: developmental-psychology
 prerequisites:
 - id: moral-development-kohlberg
   type: hard
+- id: conventional-to-postconventional-morality
+  type: soft
 builds-toward:
 - distributive-justice-development-principles
 - conventional-to-postconventional-morality
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Moral Realism and Objective Responsibility
 
 ## Core Idea

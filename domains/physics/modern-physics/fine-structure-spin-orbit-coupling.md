@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: fine-structure-hydrogen
   type: soft
+- id: spin-orbit-fine-structure
+  type: soft
+- id: atomic-term-symbols-ls-coupling
+  type: soft
+- id: bohr-model-to-quantum
+  type: soft
 builds-toward:
 - hyperfine-structure-nuclear-magnetic
 tags:
@@ -19,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Fine Structure: Spin-Orbit Coupling and Doublet Splitting
 
 ## Core Idea

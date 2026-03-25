@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: speciation
   type: soft
+- id: reproductive-isolation-accumulation
+  type: soft
 builds-toward:
 - sympatric-speciation
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Sexual Selection as a Driver of Speciation
 
 ## Core Idea

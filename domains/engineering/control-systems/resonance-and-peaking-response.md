@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: natural-frequency-damping-second-order
   type: soft
+- id: bandwidth-resonance-frequency-selection
+  type: soft
 builds-toward:
 - lead-lag-compensation-design
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Resonance, Peaking, and Bandwidth Relationships
 
 ## Core Idea

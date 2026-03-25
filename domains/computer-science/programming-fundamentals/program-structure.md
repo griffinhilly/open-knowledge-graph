@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - conditional-statements
-- loop-fundamentals
+- for-loops
 - variables-and-assignment
 - functions-defining-calling
 tags:

@@ -6,6 +6,8 @@ course: signals-and-systems
 prerequisites:
 - id: sampling-theorem-nyquist-rate
   type: hard
+- id: notch-filters-and-resonators
+  type: soft
 builds-toward:
 - decimation-anti-aliasing-and-downsampling
 - reconstruction-filters-post-interpolation-design
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Anti-Aliasing Filters and Pre-Sampling Design
 
 ## Core Idea

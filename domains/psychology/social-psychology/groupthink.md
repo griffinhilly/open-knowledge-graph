@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: social-comparison-theory
   type: soft
+- id: groupthink-decision-quality
+  type: soft
 tags:
 - groupthink
 - Janis

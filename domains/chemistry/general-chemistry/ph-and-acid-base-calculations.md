@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: logarithm-properties
   type: soft
+- id: buffer-chemistry-le-chatelier-application
+  type: soft
 tags:
 - pH
 - pOH
@@ -24,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # pH and Acid-Base Calculations
 
 ## Core Idea

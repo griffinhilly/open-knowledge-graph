@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: event-semantics
   type: hard
+- id: selectional-restrictions
+  type: soft
 builds-toward:
 - viewpoint-aspect-perfective-imperfective
 - tense-aspect-formal-semantics
@@ -21,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Aktionsart (Lexical Aspect)
 
 ## Core Idea

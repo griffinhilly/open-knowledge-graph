@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: probability-density-functions-theory
   type: hard
+- id: margin-of-error-and-sample-size
+  type: soft
 builds-toward:
 - conjugate-priors
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Bayesian Statistics: Prior, Posterior, Credible Intervals
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: grammar-and-syntax
 prerequisites:
 - id: pronouns-intro
   type: hard
+- id: pronoun-types-and-usage
+  type: soft
 builds-toward:
 - pronoun-ambiguity-resolution
 - pronoun-agreement
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Pronoun-Antecedent Identification
 
 ## Core Idea

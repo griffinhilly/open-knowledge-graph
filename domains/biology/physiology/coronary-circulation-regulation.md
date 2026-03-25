@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: blood-pressure-regulation
   type: soft
+- id: blood-flow-redistribution-homeostasis
+  type: soft
 tags:
 - coronary-arteries
 - myocardial-oxygen
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Coronary Circulation and Myocardial Blood Flow Regulation
 
 ## Core Idea

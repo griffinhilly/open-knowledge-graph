@@ -6,6 +6,8 @@ course: quantum-mechanics
 prerequisites:
 - id: quantum-entanglement
   type: hard
+- id: bell-theorem-inequalities
+  type: soft
 builds-toward:
 - bell-inequalities
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Bell's Theorem and Nonlocality
 
 ## Core Idea

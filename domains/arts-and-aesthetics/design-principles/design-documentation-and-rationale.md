@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: systems-thinking-in-design
   type: soft
+- id: design-consistency-and-guidelines
+  type: soft
 tags:
 - documentation
 - communication
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Design Documentation and Rationale
 
 ## Core Idea

@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: punctuation-basics
   type: soft
+- id: main-clause-vs-subordinate-clause
+  type: soft
+- id: relative-pronouns-and-relative-clauses
+  type: soft
+- id: restrictive-vs-nonrestrictive-clauses
+  type: soft
 builds-toward:
 - sentence-level-editing
 - complex-sentence-construction
@@ -19,7 +25,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Commas with Introductory Dependent Clauses
 
 ## Core Idea

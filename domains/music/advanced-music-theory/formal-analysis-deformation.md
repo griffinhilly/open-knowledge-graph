@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: cyclic-form-large-scale
   type: soft
+- id: polymetric-analysis
+  type: soft
+- id: gestalt-perception-analysis
+  type: soft
+- id: canonic-imitation-structures
+  type: soft
 tags:
 - form
 - analysis
@@ -15,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Formal Analysis of Deformation and Disruption
 
 ## Core Idea

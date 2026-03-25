@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: amino-acid-structure-and-properties
   type: soft
+- id: transposable-elements
+  type: soft
 builds-toward:
 - molecular-evolution-rates
 - positive-selection
@@ -21,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Protein Evolution and Functional Constraint
 
 ## Core Idea

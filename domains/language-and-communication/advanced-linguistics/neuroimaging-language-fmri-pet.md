@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: psycholinguistics-intro
   type: hard
+- id: aphasia-language-dissociations
+  type: soft
 tags:
 - neurolinguistics
 - neuroimaging
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Neuroimaging Studies of Language: fMRI and PET
 
 ## Core Idea

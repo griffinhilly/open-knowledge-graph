@@ -28,6 +28,10 @@ prerequisites:
   type: soft
 - id: vocal-delivery-techniques
   type: soft
+- id: rhetorical-appeals-integration
+  type: soft
+- id: information-architecture-speech-design
+  type: soft
 builds-toward:
 - call-to-action-in-speeches
 - refutation-in-debate

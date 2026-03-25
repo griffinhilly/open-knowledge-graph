@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hydrostatic-force-vertical-surfaces
   type: soft
+- id: floating-body-stability-equilibrium
+  type: soft
 builds-toward:
 - open-channel-flow
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Floating Body Stability and Metacentric Height
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: selection-rules-spectroscopy
   type: soft
+- id: selection-rules-electronic-spectroscopy
+  type: soft
 builds-toward:
 - electronic-transitions-excited-states
 - nmr-spectroscopy-spin-coupling
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Selection Rules in Molecular Spectroscopy
 
 ## Core Idea

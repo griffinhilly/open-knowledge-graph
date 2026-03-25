@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: voice-leading-principles
   type: hard
+- id: extended-harmony-voice-leading-handling
+  type: soft
 builds-toward:
 - voice-leading-in-composition
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Jazz Voice-Leading and Smooth Chord Changes
 
 ## Core Idea

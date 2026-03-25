@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: optimality-theory-introduction
   type: soft
+- id: morpheme-structure-constraints
+  type: soft
 tags:
 - phonology
 - constraints
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Constraint-Based Phonology: Formal Foundations
 
 ## Core Idea

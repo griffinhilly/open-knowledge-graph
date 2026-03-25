@@ -12,13 +12,16 @@ prerequisites:
   type: hard
 - id: constrained-optimization
   type: hard
+- id: product-differentiation
+  type: soft
+- id: collusion-cartel-stability
+  type: soft
 tags:
 - industrial-organization
 - sequential-games
 stage: expert
 status: validated
 ---
-
 # Stackelberg Competition: Sequential Quantity Leadership
 
 ## Core Idea

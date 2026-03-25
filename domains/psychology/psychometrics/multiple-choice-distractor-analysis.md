@@ -6,6 +6,8 @@ course: psychometrics
 prerequisites:
 - id: classical-vs-irt-item-analysis
   type: hard
+- id: distractor-analysis-and-optimization
+  type: soft
 tags:
 - multiple-choice
 - distractor-analysis
@@ -13,7 +15,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Distractor Analysis and Multiple-Choice Item Evaluation
 
 ## Core Idea

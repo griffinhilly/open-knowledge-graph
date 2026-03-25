@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: marine-primary-productivity
   type: hard
+- id: marine-nutrient-cycling-limitation
+  type: soft
 builds-toward:
 - marine-food-web-energy-transfer
 - marine-biological-pump
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Phytoplankton Productivity and Limiting Factors
 
 ## Core Idea

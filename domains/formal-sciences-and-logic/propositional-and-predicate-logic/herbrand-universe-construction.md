@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: set-operations-union-intersection-complement
   type: soft
+- id: decidable-fragments-first-order
+  type: soft
 builds-toward:
 - skolemization-and-equisatisfiability
 - resolution-fol
@@ -21,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Herbrand Universe and Herbrand Models
 
 ## Core Idea

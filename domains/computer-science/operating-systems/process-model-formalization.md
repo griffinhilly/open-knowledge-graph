@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: process-states-and-transitions
   type: hard
+- id: shell-execution-model
+  type: soft
 builds-toward:
 - thread-scheduling-coordination
 - context-switching-and-cpu-dispatch
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Process Model Formalization
 
 ## Core Idea

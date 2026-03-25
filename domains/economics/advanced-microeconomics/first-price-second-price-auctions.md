@@ -6,13 +6,14 @@ course: advanced-microeconomics
 prerequisites:
 - id: mechanism-design-basics
   type: hard
+- id: individual-rationality-mechanism
+  type: soft
 tags:
 - auction-theory
 - mechanism-design
 stage: expert
 status: validated
 ---
-
 # Auction Design: First-Price and Second-Price Sealed-Bid Auctions
 
 ## Core Idea

@@ -22,6 +22,8 @@ prerequisites:
   type: soft
 - id: user-centered-design-thinking
   type: soft
+- id: consistency-and-coherence
+  type: soft
 builds-toward: []
 tags:
 - design system

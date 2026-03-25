@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: technology-adoption-constraints
   type: soft
+- id: big-push-industrialization-model
+  type: soft
 builds-toward:
 - comparative-advantage-and-trade
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Industrial Catch-Up and Technology Transfer
 
 ## Core Idea

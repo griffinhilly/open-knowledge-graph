@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: scale-degree-tendencies
   type: soft
+- id: sight-singing-with-leaps
+  type: soft
+- id: melodic-leap-size-recognition
+  type: soft
 builds-toward:
 - harmonic-dictation-basic
 - bass-line-dictation

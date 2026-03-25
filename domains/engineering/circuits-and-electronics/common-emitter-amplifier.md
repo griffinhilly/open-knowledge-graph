@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: bjt-transistor-fundamentals
   type: hard
+- id: common-base-amplifier
+  type: soft
 builds-toward:
 - amplifier-biasing-stability
 - multi-stage-amplifiers
@@ -23,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Common-Emitter Amplifier
 
 ## Core Idea

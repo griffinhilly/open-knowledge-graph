@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: repeated-addition-to-multiplication
   type: soft
+- id: equal-groups-2nd-grade
+  type: soft
 builds-toward:
 - multiplication-facts-0-through-10s
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Multiplication: Equal Groups Model
 
 ## Core Idea

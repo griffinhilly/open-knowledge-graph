@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: types-of-rocks
   type: soft
+- id: earthquakes-basics
+  type: soft
 builds-toward:
 - volcanoes-and-volcanism
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Volcanoes Basics
 
 ## Core Idea

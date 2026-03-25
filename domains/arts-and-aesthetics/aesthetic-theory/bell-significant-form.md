@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: art-for-art-sake-principle
   type: hard
+- id: clive-bell-significant-form
+  type: soft
 builds-toward:
 - greenberg-modernism-criticism
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Clive Bell: Significant Form and Formalist Aesthetics
 
 ## Core Idea

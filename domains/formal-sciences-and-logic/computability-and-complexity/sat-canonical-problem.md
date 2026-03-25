@@ -6,6 +6,8 @@ course: computability-and-complexity
 prerequisites:
 - id: np-completeness-theorem
   type: hard
+- id: sat-boolean-satisfiability-computability-and-complexity
+  type: soft
 builds-toward:
 - three-sat-reductions
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Satisfiability Problem: The Canonical NP-Complete Problem
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nitrogen-fixation-microbiology
   type: soft
+- id: bacterial-anaerobic-respiration-and-fermentation
+  type: soft
 builds-toward:
 - microbial-succession-and-nutrient-cycling
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Chemolithotropic Metabolism and Inorganic Energy Sources
 
 ## Core Idea

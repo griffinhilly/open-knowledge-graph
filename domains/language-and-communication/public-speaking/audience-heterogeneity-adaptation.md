@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: context-adaptation-speaking
   type: soft
+- id: audience-expectation-and-adaptation
+  type: soft
 builds-toward:
 - audience-cultural-values-persuasion
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Addressing Audience Heterogeneity
 
 ## Core Idea

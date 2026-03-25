@@ -6,6 +6,8 @@ course: evolutionary-biology
 prerequisites:
 - id: selection-coefficient
   type: hard
+- id: directional-selection
+  type: soft
 builds-toward:
 - sexual-selection
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Directional and Stabilizing Selection
 
 ## Core Idea

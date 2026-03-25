@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: leader-election-algorithms
   type: soft
+- id: paxos-algorithm
+  type: soft
 builds-toward:
 - state-machine-replication
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Raft Consensus Algorithm
 
 ## Core Idea

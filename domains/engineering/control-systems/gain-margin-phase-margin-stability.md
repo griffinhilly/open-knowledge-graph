@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nyquist-plot-encirclement-criterion
   type: hard
+- id: robust-control-basics
+  type: soft
 builds-toward:
 - control-loop-design-via-bode-plots
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Gain Margin and Phase Margin Stability Quantification
 
 ## Core Idea

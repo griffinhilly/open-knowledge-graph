@@ -6,6 +6,8 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: sigma-algebras-formal-construction
   type: hard
+- id: outer-measure
+  type: soft
 builds-toward:
 - lebesgue-measure-real-line
 tags:
@@ -13,7 +15,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Measure Spaces
 
 ## Core Idea

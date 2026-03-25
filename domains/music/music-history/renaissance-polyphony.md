@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: modes
   type: soft
+- id: renaissance-compositional-techniques
+  type: soft
 builds-toward:
 - renaissance-madrigal
 - baroque-music-overview
@@ -24,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Renaissance Polyphony
 
 ## Core Idea

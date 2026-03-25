@@ -9,8 +9,8 @@ prerequisites:
 - id: sql-filtering-conditions
   type: hard
 builds-toward:
-- sql-cost-based-query-optimization
-- table-statistics-histogram
+- query-optimization
+- table-statistics-histogram-collection
 tags:
 - cardinality
 - selectivity

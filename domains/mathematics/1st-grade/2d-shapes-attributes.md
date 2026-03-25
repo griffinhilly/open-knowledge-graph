@@ -6,6 +6,8 @@ course: 1st-grade
 prerequisites:
 - id: recognizing-2d-shapes
   type: soft
+- id: 3d-shape-properties-1st
+  type: soft
 builds-toward:
 - composing-shapes
 - decomposing-shapes
@@ -16,7 +18,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # 2D Shapes and Their Attributes
 
 ## Core Idea

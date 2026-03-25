@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: product-topology
   type: hard
+- id: homotopy-definition
+  type: soft
 builds-toward:
 - fundamental-group-definition
 - covering-spaces
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Homotopy of Paths
 
 ## Core Idea

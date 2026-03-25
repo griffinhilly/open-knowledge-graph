@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: chord-inversion-recognition-ear
   type: soft
+- id: chord-progression-patterns-ear
+  type: soft
 builds-toward:
 - form-recognition-by-ear
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Cadence Identification by Ear
 
 ## Core Idea

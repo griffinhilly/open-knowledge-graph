@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cold-war-bipolar-conflict
   type: soft
+- id: postcolonial-development-and-modernization
+  type: soft
 builds-toward:
 - globalization-economic-integration
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Third World Development and Modernization Strategies
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: household-optimization-consumption-savings
   type: soft
+- id: disease-health-constraints
+  type: soft
 builds-toward:
 - demographic-transition-model
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Health, Productivity, and Development
 
 ## Core Idea

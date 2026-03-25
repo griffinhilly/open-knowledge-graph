@@ -6,6 +6,8 @@ course: circuits-and-electronics
 prerequisites:
 - id: circuit-resonance-concepts
   type: hard
+- id: parallel-RLC-resonance-characteristics
+  type: soft
 builds-toward:
 - passive-filter-transfer-function-analysis
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Series RLC Resonance Characteristics
 
 ## Core Idea

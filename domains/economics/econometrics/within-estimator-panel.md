@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: fixed-effects-models
   type: hard
+- id: first-difference-estimator-panel
+  type: soft
 builds-toward:
 - between-estimator-panel
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Within Estimator (Fixed Effects) for Panel Data
 
 ## Core Idea

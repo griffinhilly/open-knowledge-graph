@@ -6,6 +6,8 @@ course: development-economics
 prerequisites:
 - id: technology-transfer-and-adoption
   type: hard
+- id: industrial-catch-up-growth
+  type: soft
 tags:
 - technology
 - leapfrogging
@@ -13,7 +15,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Mobile Technology and Leapfrogging
 
 ## Core Idea

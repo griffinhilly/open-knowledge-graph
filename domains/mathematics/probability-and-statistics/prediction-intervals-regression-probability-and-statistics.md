@@ -6,6 +6,8 @@ course: probability-and-statistics
 prerequisites:
 - id: inference-in-linear-regression
   type: hard
+- id: bayesian-statistics-fundamentals
+  type: soft
 tags:
 - regression
 - prediction
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Prediction Intervals in Regression
 
 ## Core Idea

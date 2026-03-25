@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: extreme-value-theorem-rigorous
   type: soft
+- id: intermediate-value-theorem-rigorous
+  type: soft
 builds-toward:
 - lhopitals-rule-rigorous
 - taylors-theorem-remainder
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Mean Value Theorem (Rigorous)
 
 ## Core Idea

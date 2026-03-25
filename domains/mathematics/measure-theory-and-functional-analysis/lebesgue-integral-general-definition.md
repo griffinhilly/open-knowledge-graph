@@ -6,6 +6,8 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: lebesgue-integral-non-negative
   type: hard
+- id: introduction-lebesgue-integral
+  type: soft
 builds-toward:
 - lebesgue-integral-properties
 - riemann-vs-lebesgue-integrals
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Lebesgue Integral: General Definition
 
 ## Core Idea

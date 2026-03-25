@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: covering-spaces
   type: soft
+- id: fundamental-group-circle
+  type: soft
+- id: tychonoffs-theorem
+  type: soft
 builds-toward:
 - classification-compact-surfaces
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # van Kampen's Theorem
 
 ## Core Idea

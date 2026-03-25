@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: efficient-market-hypothesis
   type: soft
+- id: margin-requirements-and-lending
+  type: soft
 builds-toward:
 - bid-ask-spreads-and-liquidity
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Market Microstructure Fundamentals
 
 ## Core Idea

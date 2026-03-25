@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: sympatric-speciation
   type: soft
+- id: sexual-selection-speciation-driver
+  type: soft
 builds-toward:
 - adaptive-radiation-patterns
 - molecular-evolution-phylogenetics
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Modes of Speciation
 
 ## Core Idea

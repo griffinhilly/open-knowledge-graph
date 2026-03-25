@@ -6,6 +6,10 @@ course: topology
 prerequisites:
 - id: fundamental-group-definition
   type: hard
+- id: locally-connected-spaces
+  type: soft
+- id: connected-components-decomposition
+  type: soft
 builds-toward:
 - covering-spaces
 - van-kampen-theorem
@@ -16,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Simply Connected Spaces
 
 ## Core Idea

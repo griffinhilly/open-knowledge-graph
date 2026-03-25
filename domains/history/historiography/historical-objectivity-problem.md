@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: positionality-in-history
   type: hard
+- id: objectivity-and-perspective
+  type: soft
+- id: historical-positivism
+  type: soft
 builds-toward:
 - historical-truth-theories
 - ranke-school-legacy
@@ -20,7 +24,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # The Problem of Historical Objectivity
 
 ## Core Idea

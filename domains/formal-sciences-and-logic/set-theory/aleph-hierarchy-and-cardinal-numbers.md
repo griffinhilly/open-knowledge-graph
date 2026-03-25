@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: aleph-numbers
   type: soft
+- id: aleph-and-beth-hierarchy-introduction
+  type: soft
 builds-toward:
 - cardinal-arithmetic-operations-and-exponentiation
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Aleph Hierarchy and Cardinal Numbers
 
 ## Core Idea

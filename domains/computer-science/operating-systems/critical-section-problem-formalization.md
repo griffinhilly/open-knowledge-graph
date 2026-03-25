@@ -4,7 +4,7 @@ title: 'Critical Section Problem: Formal Definition'
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: race-conditions-and-critical-sections
+- id: synchronization-problem
   type: hard
 - id: threads-and-concurrency
   type: hard

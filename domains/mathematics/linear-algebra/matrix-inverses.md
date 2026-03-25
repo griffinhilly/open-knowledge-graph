@@ -6,6 +6,8 @@ course: linear-algebra
 prerequisites:
 - id: matrix-multiplication
   type: hard
+- id: matrices-intro-linear-algebra
+  type: soft
 builds-toward:
 - systems-of-linear-equations
 - rank-nullity-theorem
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Invertible Matrices and Matrix Inverses
 
 ## Core Idea

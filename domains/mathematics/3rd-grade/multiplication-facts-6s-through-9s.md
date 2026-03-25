@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: commutative-property-multiplication
   type: soft
+- id: division-facts-within-100-3rd
+  type: soft
 builds-toward:
 - multiplication-facts-within-100
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Multiplication Facts: 6s, 7s, 8s, and 9s
 
 ## Core Idea

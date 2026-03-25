@@ -6,6 +6,8 @@ course: set-theory
 prerequisites:
 - id: countably-infinite-sets
   type: hard
+- id: cantor-set-example-uncountable
+  type: soft
 builds-toward:
 - aleph-hierarchy-and-cardinal-numbers
 - continuum-hypothesis-and-independence
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Uncountable Sets and Cantor Diagonalization
 
 ## Core Idea

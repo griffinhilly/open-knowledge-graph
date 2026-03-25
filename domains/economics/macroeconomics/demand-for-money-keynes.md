@@ -6,6 +6,8 @@ course: macroeconomics
 prerequisites:
 - id: money-and-its-functions
   type: hard
+- id: money-demand-income-velocity
+  type: soft
 builds-toward:
 - liquidity-preference-theory-keynes
 - is-lm-model
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Keynes's Demand for Money
 
 ## Core Idea

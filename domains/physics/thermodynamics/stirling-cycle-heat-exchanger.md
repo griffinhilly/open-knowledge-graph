@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: isothermal-processes
   type: soft
+- id: brayton-cycle-gas-turbine-thermodynamics
+  type: soft
 builds-toward:
 - ts-diagram-entropy-temperature
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Stirling Cycle and Regenerative Heat Exchange
 
 ## Core Idea

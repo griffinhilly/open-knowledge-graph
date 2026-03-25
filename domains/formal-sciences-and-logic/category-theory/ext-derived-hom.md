@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: injective-objects
   type: hard
+- id: hom-functors-and-representability
+  type: soft
 builds-toward:
 - derived-functors
 - homology-and-cohomology
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Ext Functors as Derived Hom
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: phase-diagrams
   type: soft
+- id: phase-diagrams-thermodynamics
+  type: soft
 tags:
 - triple-point
 - phase-equilibrium
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Triple Point and Phase Coexistence
 
 ## Core Idea

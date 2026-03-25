@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: equivalence-of-categories
   type: hard
+- id: derived-categories
+  type: soft
 builds-toward:
 - derived-categories
 - quotient-categories
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Localization of Categories
 
 ## Core Idea

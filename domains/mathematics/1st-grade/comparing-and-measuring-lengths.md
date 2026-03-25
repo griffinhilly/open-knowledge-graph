@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: measurement-with-non-standard-units
   type: soft
+- id: length-comparison-kindergarten
+  type: soft
 builds-toward:
 - measuring-length-with-ruler
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Comparing and Measuring Lengths
 
 ## Core Idea

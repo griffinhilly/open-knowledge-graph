@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: polynomial-time-reductions
   type: hard
+- id: sat-and-np-complete-problems
+  type: soft
 builds-toward:
 - approximation-hardness-results
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Reductions for Proving NP-Completeness
 
 ## Core Idea

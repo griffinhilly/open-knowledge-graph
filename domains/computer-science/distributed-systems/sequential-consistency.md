@@ -6,6 +6,10 @@ course: distributed-systems
 prerequisites:
 - id: consistency-models
   type: hard
+- id: read-after-write-consistency
+  type: soft
+- id: total-order-broadcast
+  type: soft
 builds-toward:
 - read-after-write-consistency
 - strong-eventual-consistency
@@ -16,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Sequential Consistency
 
 ## Core Idea

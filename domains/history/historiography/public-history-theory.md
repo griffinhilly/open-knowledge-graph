@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: public-history-and-audience
   type: hard
+- id: memory-studies-theory
+  type: soft
 builds-toward:
 - contested-histories-pluralism
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Public History: History Beyond the Academy
 
 ## Core Idea

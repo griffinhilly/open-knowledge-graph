@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: grammaticalization-mechanisms
   type: soft
+- id: case-theory-and-abstract-case
+  type: soft
+- id: ergative-absolutive-alignment
+  type: soft
+- id: alignment-systems-typology
+  type: soft
 tags:
 - case
 - typology
@@ -15,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Case Systems and Their Typological Variation
 
 ## Core Idea

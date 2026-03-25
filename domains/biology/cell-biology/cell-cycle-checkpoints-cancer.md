@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dna-repair-mechanisms
   type: hard
+- id: cell-cycle-checkpoints-regulation
+  type: soft
 tags:
 - cell-cycle-checkpoints
 - p53
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Cell Cycle Checkpoints and Cancer Prevention
 
 ## Core Idea

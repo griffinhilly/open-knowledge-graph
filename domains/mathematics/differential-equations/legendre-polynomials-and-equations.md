@@ -6,6 +6,10 @@ course: differential-equations
 prerequisites:
 - id: frobenius-method
   type: hard
+- id: legendre-equations
+  type: soft
+- id: bessel-functions
+  type: soft
 builds-toward:
 - separation-of-variables-for-pdes
 tags:
@@ -15,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Legendre Polynomials and Legendre's Equation
 
 ## Core Idea

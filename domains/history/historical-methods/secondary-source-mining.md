@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: historiographical-positioning
   type: hard
+- id: research-design-and-historical-inquiry
+  type: soft
 tags:
 - methodology
 - historiography
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Secondary Sources as Evidence of Historiography
 
 ## Core Idea

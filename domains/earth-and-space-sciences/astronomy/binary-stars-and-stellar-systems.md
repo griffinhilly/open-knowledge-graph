@@ -24,6 +24,10 @@ prerequisites:
   type: soft
 - id: conservation-of-momentum
   type: soft
+- id: eclipsing-binary-stars-light-curves
+  type: soft
+- id: variable-stars-and-asteroseismology
+  type: soft
 builds-toward:
 - exoplanet-detection-methods
 - stellar-end-states
@@ -38,7 +42,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Binary Stars and Multiple Stellar Systems
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: 2nd-grade
 prerequisites:
 - id: partition-shapes-equal-parts
   type: hard
+- id: fractions-halves-and-fourths-1st
+  type: soft
 builds-toward:
 - fractions-halves-thirds-fourths
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Introduction to Fractions: Equal Parts
 
 ## Core Idea

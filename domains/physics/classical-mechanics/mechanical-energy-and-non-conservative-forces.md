@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: work-by-non-conservative-forces
   type: hard
+- id: energy-dissipation-in-damped-oscillations
+  type: soft
 builds-toward:
 - energy-dissipation-in-damped-oscillations
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Mechanical Energy and Non-Conservative Forces
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: analytical-chemistry
 prerequisites:
 - id: quality-assurance-analytical
   type: hard
+- id: reference-material-traceability
+  type: soft
 tags:
 - CRM
 - certified reference material
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Reference Materials and Traceability
 
 ## Core Idea

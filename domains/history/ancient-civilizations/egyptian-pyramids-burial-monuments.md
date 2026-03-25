@@ -6,6 +6,8 @@ course: ancient-civilizations
 prerequisites:
 - id: egyptian-nile-agriculture-society
   type: soft
+- id: egyptian-engineering-pyramids
+  type: soft
 builds-toward:
 - egyptian-priesthood-institutions
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Egyptian Pyramids and Monumental Architecture
 
 ## Core Idea

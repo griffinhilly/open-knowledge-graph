@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: predator-prey-dynamics
   type: soft
+- id: trophic-cascade-top-down-control
+  type: soft
 builds-toward:
 - ecosystem-stability-resilience-and-tipping-points
 - community-assembly-rules-and-coexistence
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Trophic Cascades and Food Web Dynamics
 
 ## Core Idea

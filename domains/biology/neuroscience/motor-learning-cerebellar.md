@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: long-term-depression
   type: hard
+- id: cerebellar-circuits
+  type: soft
+- id: receptor-desensitization
+  type: soft
 builds-toward:
 - cerebellar-circuits
 - error-correction
@@ -18,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Motor Learning and Cerebellar Adaptation
 
 ## Core Idea

@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: algorithm-complexity
   type: hard
+- id: co-np-and-complements
+  type: soft
+- id: randomized-complexity-rp-coerp
+  type: soft
 builds-toward:
 - p-versus-np
 - polynomial-hierarchy
@@ -22,7 +26,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Complexity Classes and the Complexity Hierarchy
 
 ## Core Idea

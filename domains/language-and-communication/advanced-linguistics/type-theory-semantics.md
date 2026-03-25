@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: montague-semantics
   type: hard
+- id: event-semantics-thematic-structure
+  type: soft
 builds-toward:
 - de-re-de-dicto-distinction
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Type Theory in Semantics
 
 ## Core Idea

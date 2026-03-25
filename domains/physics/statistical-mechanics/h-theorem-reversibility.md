@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: statistical-interpretation-of-entropy
   type: soft
+- id: h-theorem-irreversibility
+  type: soft
 builds-toward:
 - non-equilibrium-basics-statmech
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # The H-Theorem and the Arrow of Time
 
 ## Core Idea

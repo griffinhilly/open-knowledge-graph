@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: psychological-research-ethics
   type: soft
+- id: analysis-plan-preregistration-commitment
+  type: soft
 builds-toward: []
 tags:
 - transparency

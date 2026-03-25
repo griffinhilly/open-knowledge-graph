@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: test-development-specifications-blueprints
   type: hard
+- id: anchor-items-and-scale-linking
+  type: soft
+- id: score-linking-and-concordance-tables
+  type: soft
 tags:
 - equating
 - score-linking
@@ -16,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Score Linking and Test Equating Methods
 
 ## Core Idea

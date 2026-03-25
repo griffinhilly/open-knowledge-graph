@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: quantum-mechanics-postulates-core
   type: soft
+- id: raman-spectroscopy-theory
+  type: soft
 tags:
 - NMR
 - spin-1/2
@@ -24,7 +26,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Quantum Theory of NMR Spectroscopy
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: advanced-microeconomics
 prerequisites:
 - id: auction-theory
   type: hard
+- id: first-price-second-price-auctions
+  type: soft
 tags:
 - auctions
 - bidding
@@ -13,7 +15,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Second-Price Sealed-Bid Auction (Vickrey Auction)
 
 ## Core Idea

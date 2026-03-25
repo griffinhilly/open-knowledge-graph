@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: logical-fallacy-detection-debate
   type: soft
+- id: debate-strategic-concession
+  type: soft
+- id: oral-argument-development-dynamics
+  type: soft
 tags:
 - persuasion
 - argumentation
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Acknowledging and Refuting Opposing Viewpoints
 
 ## Core Idea

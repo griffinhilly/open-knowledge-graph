@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: spin-angular-momentum
   type: soft
+- id: periodic-table-filling-orbitals
+  type: soft
 builds-toward:
 - nuclear-magnetic-moments
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Spin-Orbit Coupling and Fine Structure
 
 ## Core Idea

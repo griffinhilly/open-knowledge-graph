@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: lambda-calculus-foundations
   type: hard
+- id: gradual-typing-systems
+  type: soft
 tags:
 - type-systems
 - dependent-types
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Dependent Types and Value-Level Type Constraints
 
 ## Core Idea

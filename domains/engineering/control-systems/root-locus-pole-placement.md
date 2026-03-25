@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: time-domain-performance-specifications
   type: hard
+- id: root-locus-gain-design
+  type: soft
 builds-toward:
 - state-feedback-control-design
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Root Locus Method and Pole Placement Design
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: developmental-psychology
 prerequisites:
 - id: egocentrism-and-perspective-taking
   type: soft
+- id: emerging-adulthood-development
+  type: soft
 builds-toward:
 - identity-development-adolescence
 - gender-role-development-and-socialization
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Self-Concept and Self-Esteem Development
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: sine-cosine-tangent-ratios
   type: hard
+- id: lensmakers-equation
+  type: soft
 tags:
 - Malus's law
 - intensity
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Malus's Law
 
 ## Core Idea

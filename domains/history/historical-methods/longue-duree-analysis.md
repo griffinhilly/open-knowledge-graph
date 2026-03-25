@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: structures-mentalities
   type: soft
+- id: spatial-geographic-methods
+  type: soft
 tags:
 - longue-duree
 - structures
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Longue Durée and Structural Analysis
 
 ## Core Idea

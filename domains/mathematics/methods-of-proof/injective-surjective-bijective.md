@@ -6,6 +6,8 @@ course: methods-of-proof
 prerequisites:
 - id: equivalence-relations
   type: soft
+- id: function-types-and-bijections
+  type: soft
 builds-toward:
 - cardinality-and-countability
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Injective, Surjective, and Bijective Functions
 
 ## Core Idea

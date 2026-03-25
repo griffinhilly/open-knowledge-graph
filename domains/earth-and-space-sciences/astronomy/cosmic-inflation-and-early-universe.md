@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: quantum-mechanics-postulates-core
   type: soft
+- id: cosmic-distance-ladder-calibration
+  type: soft
 tags:
 - inflation
 - early-universe
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Cosmic Inflation and Early Universe Dynamics
 
 ## Core Idea

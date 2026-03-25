@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: audience-and-purpose
   type: soft
+- id: conclusion-strategies-purposes
+  type: soft
+- id: research-question-thesis-connection
+  type: soft
 tags:
 - multimodal
 - composition
@@ -16,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Multimodal Composition
 
 ## Core Idea

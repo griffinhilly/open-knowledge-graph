@@ -6,6 +6,8 @@ course: developmental-psychology
 prerequisites:
 - id: emotional-development-and-regulation-infancy
   type: soft
+- id: friendship-formation-and-maintenance
+  type: soft
 builds-toward:
 - friendship-formation-and-maintenance
 - gender-role-development-and-socialization
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Peer Relationships and Social Competence
 
 ## Core Idea

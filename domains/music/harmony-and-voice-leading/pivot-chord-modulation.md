@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: tonicization
   type: soft
+- id: modulation-voice-leading-pivot-chords
+  type: soft
 builds-toward:
 - modulation-techniques
 tags:

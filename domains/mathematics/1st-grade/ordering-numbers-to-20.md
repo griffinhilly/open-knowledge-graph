@@ -6,6 +6,8 @@ course: 1st-grade
 prerequisites:
 - id: comparing-two-digit-numbers
   type: hard
+- id: ordering-two-digit-numbers
+  type: soft
 builds-toward:
 - number-line-0-to-20
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Ordering Numbers to 20
 
 ## Core Idea

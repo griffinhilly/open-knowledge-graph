@@ -10,9 +10,11 @@ prerequisites:
   type: hard
 - id: historical-argument-structure
   type: soft
+- id: narrative-authority
+  type: soft
 builds-toward:
-  - temporality-and-time
-  - explanation-in-history
+- temporality-and-time
+- explanation-in-history
 tags:
 - explanation
 - narrative

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: geostrophic-balance-ocean
   type: hard
+- id: oceanography-fundamentals
+  type: soft
 builds-toward:
 - ocean-heat-transport-mechanism
 - feedback-mechanisms-in-climate
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Western Boundary Current Intensification
 
 ## Core Idea

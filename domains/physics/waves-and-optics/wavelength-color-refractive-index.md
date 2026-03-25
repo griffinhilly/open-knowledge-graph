@@ -6,6 +6,10 @@ course: waves-and-optics
 prerequisites:
 - id: refraction-interface-snell-relation
   type: hard
+- id: dispersion-wavelength-dependent-refraction
+  type: soft
+- id: dispersion-and-prisms
+  type: soft
 tags:
 - dispersion
 - optics
@@ -13,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Dispersion: Wavelength and Refractive Index
 
 ## Core Idea

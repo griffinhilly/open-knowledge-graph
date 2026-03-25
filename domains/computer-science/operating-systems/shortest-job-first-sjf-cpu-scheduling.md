@@ -6,6 +6,8 @@ course: operating-systems
 prerequisites:
 - id: cpu-scheduling-basics
   type: hard
+- id: processor-affinity-and-cpu-binding
+  type: soft
 builds-toward:
 - multilevel-feedback-queue-scheduling
 - scheduling-fairness-and-starvation
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Shortest Job First (SJF) CPU Scheduling
 
 ## Core Idea

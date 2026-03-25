@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: exponential-distribution-theory
   type: soft
+- id: molecular-dating-fossil-calibration
+  type: soft
 builds-toward:
 - molecular-evolution-rates
 tags:
@@ -24,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Molecular Clocks and Phylogenetic Dating
 
 ## Core Idea

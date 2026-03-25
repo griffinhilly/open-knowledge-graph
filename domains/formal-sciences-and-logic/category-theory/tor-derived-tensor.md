@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: tensor-products-universal
   type: soft
+- id: ext-derived-hom
+  type: soft
 builds-toward:
 - derived-functors
 - homology-and-cohomology
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Tor Functors as Derived Tensor Product
 
 ## Core Idea

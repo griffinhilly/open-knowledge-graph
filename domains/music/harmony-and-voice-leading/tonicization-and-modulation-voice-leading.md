@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: harmonic-analysis-roman-numeral-function
   type: soft
+- id: secondary-dominant-extended-voice-leading
+  type: soft
 tags:
 - tonicization
 - modulation
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Voice-Leading Distinctions Between Tonicization and Modulation
 
 ## Core Idea

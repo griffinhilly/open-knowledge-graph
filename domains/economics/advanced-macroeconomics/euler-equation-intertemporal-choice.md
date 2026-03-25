@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: chain-rule
   type: soft
+- id: lifecycle-hypothesis-consumption
+  type: soft
 builds-toward:
 - solow-growth-model
 - consumption-smoothing-intertemporal
@@ -22,7 +24,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Euler Equation and Intertemporal Consumption Choice
 
 ## Core Idea

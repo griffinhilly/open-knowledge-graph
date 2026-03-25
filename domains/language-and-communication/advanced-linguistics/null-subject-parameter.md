@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: linguistic-typology
   type: soft
+- id: parameter-learning-acquisition
+  type: soft
 builds-toward:
 - parameter-setting-acquisition
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # The Null Subject Parameter
 
 ## Core Idea

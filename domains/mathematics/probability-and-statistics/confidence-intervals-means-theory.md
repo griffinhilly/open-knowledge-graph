@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: distribution-of-sample-mean-theory
   type: hard
+- id: confidence-intervals-proportions
+  type: soft
 builds-toward:
 - hypothesis-testing-fundamentals
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Confidence Intervals for Population Means
 
 ## Core Idea

@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: kmeans-clustering
   type: hard
-- id: probability-distributions
+- id: discrete-random-variables
   type: soft
 - id: probability-axioms
   type: soft
@@ -16,9 +16,6 @@ prerequisites:
   type: soft
 - id: expected-value
   type: soft
-builds-toward:
-- probabilistic-clustering
-- latent-class-analysis
 tags:
 - mixture-model
 - gmm

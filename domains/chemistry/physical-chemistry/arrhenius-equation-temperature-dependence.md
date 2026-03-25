@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: integrated-rate-laws
   type: hard
+- id: van-t-hoff-equation
+  type: soft
 builds-toward:
 - diffusion-controlled-reaction-kinetics
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Arrhenius Equation and Temperature Dependence
 
 ## Core Idea

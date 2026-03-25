@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: phase-of-oscillation-initial
   type: hard
+- id: beats-and-beat-frequency
+  type: soft
 builds-toward:
 - bright-fringes-dark-fringes-spacing
 - double-aperture-interference-fringe
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Interference from Two Coherent Sources
 
 ## Core Idea

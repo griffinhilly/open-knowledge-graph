@@ -6,6 +6,8 @@ course: evolutionary-biology
 prerequisites:
 - id: natural-selection
   type: hard
+- id: codon-bias-and-selection
+  type: soft
 builds-toward:
 - inclusive-fitness
 - hamilton-rule
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Kin Selection Theory
 
 ## Core Idea

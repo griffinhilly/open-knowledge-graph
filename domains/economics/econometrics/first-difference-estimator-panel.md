@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: fixed-effects-models
   type: hard
+- id: dynamic-panel-arellano-bond-estimator
+  type: soft
 builds-toward:
 - within-estimator-panel
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # First-Difference Estimator for Panel Data
 
 ## Core Idea

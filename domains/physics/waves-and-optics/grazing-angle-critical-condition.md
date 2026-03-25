@@ -6,6 +6,8 @@ course: waves-and-optics
 prerequisites:
 - id: refraction-interface-snell-relation
   type: hard
+- id: combined-optical-system-magnification
+  type: soft
 tags:
 - refraction
 - tir
@@ -13,7 +15,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Total Internal Reflection and the Critical Angle
 
 ## Core Idea

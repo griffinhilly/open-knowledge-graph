@@ -6,6 +6,8 @@ course: macroeconomics
 prerequisites:
 - id: monetary-base-and-money-creation
   type: hard
+- id: monetary-base-money-supply-relationship
+  type: soft
 builds-toward:
 - monetary-policy-tools
 - monetary-policy-transmission
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Money Multiplier and Money Supply Expansion
 
 ## Core Idea

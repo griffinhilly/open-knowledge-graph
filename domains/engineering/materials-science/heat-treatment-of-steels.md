@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: thermal-properties-of-materials
   type: soft
+- id: heat-treatment-steel-processing
+  type: soft
 tags:
 - annealing
 - quenching

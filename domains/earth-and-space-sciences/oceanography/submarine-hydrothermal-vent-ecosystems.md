@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: ocean-chemistry-and-nutrients
   type: soft
+- id: deep-sea-ecosystems
+  type: soft
 builds-toward:
 - submarine-canyon-sediment-dynamics
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Submarine Hydrothermal Vent Ecosystems and Chemosynthesis
 
 ## Core Idea

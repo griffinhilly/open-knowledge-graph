@@ -6,6 +6,8 @@ course: grammar-and-syntax
 prerequisites:
 - id: writing-systems
   type: soft
+- id: hyphenation-compound-words-numbers
+  type: soft
 builds-toward:
 - punctuation-basics
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Capitalization Conventions in English
 
 ## Core Idea

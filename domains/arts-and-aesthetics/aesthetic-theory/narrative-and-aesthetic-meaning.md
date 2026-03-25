@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: aristotle-tragedy-catharsis
   type: soft
+- id: deconstruction-and-art
+  type: soft
+- id: aesthetic-semiotics
+  type: soft
+- id: conceptual-art-and-art-definition
+  type: soft
 builds-toward:
 - emotion-in-aesthetic-judgment
 - aesthetic-normativity-in-criticism
@@ -22,7 +28,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Narrative and Aesthetic Meaning
 
 ## Core Idea

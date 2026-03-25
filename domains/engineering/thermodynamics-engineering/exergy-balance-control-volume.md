@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: second-law-thermodynamics-entropy
   type: hard
+- id: availability-exergy-analysis-systems
+  type: soft
 builds-toward:
 - second-law-efficiency-exergy-based
 - chemical-exergy-fuel-combustion
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Exergy (Availability) Balance for Control Volumes
 
 ## Core Idea

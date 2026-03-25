@@ -14,13 +14,16 @@ prerequisites:
   type: hard
 - id: compact-sets-definition
   type: soft
+- id: contract-curve
+  type: soft
+- id: core-of-an-economy
+  type: soft
 tags:
 - general-equilibrium
 - mathematical-economics
 stage: expert
 status: validated
 ---
-
 # Existence of General Equilibrium: Fixed-Point Theorems
 
 ## Core Idea

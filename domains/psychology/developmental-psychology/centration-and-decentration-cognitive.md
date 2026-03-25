@@ -6,6 +6,8 @@ course: developmental-psychology
 prerequisites:
 - id: piaget-preoperational-stage
   type: hard
+- id: animism-and-magical-thinking-preoperational
+  type: soft
 builds-toward:
 - transitive-inference-concrete-operations
 - conservation-cognitive-development
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Centration and Decentration in Cognitive Development
 
 ## Core Idea

@@ -3,7 +3,9 @@ id: introduction-to-statics-and-dynamics
 title: Introduction to Statics and Dynamics
 domain: engineering
 course: statics-and-dynamics
-prerequisites: []
+prerequisites:
+- id: stability-and-equilibrium-classification
+  type: soft
 builds-toward:
 - vector-analysis-and-components
 - free-body-diagram-methodology
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Introduction to Statics and Dynamics
 
 ## Core Idea

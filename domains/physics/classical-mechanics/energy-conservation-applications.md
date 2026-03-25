@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: work-energy-theorem
   type: soft
+- id: rotational-kinetic-energy
+  type: soft
 builds-toward:
 - effective-potential-central-forces
 - orbital-energy-and-escape-velocity
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Applications of Energy Conservation
 
 ## Core Idea

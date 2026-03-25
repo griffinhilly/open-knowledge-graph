@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: biodiversity-and-conservation
   type: soft
+- id: disturbance-ecology-and-succession-dynamics
+  type: soft
 tags:
 - restoration
 - native-species
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Restoration Ecology: Principles and Practices
 
 ## Core Idea

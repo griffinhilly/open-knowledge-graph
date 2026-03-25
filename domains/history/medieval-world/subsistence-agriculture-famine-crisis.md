@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: serfdom-medieval-unfree-peasantry
   type: soft
+- id: manorial-system-village-agriculture
+  type: soft
 builds-toward:
 - peasant-revolt-social-resistance
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Subsistence Agriculture and Famine Crisis
 
 ## Core Idea

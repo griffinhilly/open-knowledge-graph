@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: hydrogen-atom-schrodinger-solution
   type: soft
+- id: franck-hertz-discrete-energy-levels
+  type: soft
 tags:
 - electric-field
 - energy-levels
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Stark Effect: Energy Level Splitting in Electric Fields
 
 ## Core Idea

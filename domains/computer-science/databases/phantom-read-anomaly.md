@@ -6,6 +6,10 @@ course: databases
 prerequisites:
 - id: isolation-level-repeatable-read
   type: hard
+- id: nonrepeatable-read-anomaly
+  type: soft
+- id: dirty-read-anomaly
+  type: soft
 tags:
 - concurrency
 - anomalies
@@ -13,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Phantom Read Anomaly: New Rows Appearing
 
 ## Core Idea

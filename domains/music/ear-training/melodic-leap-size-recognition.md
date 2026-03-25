@@ -6,6 +6,8 @@ course: ear-training
 prerequisites:
 - id: interval-recognition-by-ear
   type: hard
+- id: sight-singing-with-leaps
+  type: soft
 builds-toward:
 - melodic-dictation-with-leaps
 - melodic-contour-recognition
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Melodic Leap Size Recognition
 
 ## Core Idea

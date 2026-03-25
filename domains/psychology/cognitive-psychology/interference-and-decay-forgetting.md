@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: retrieval-cues-encoding-specificity
   type: soft
+- id: retrieval-induced-forgetting-blocking
+  type: soft
 tags:
 - forgetting
 - interference
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Interference and Decay in Forgetting
 
 ## Core Idea

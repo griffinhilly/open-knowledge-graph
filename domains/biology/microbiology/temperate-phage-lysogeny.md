@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: specialized-transduction-excision
   type: soft
+- id: bacteriophage-and-lysogenic-cycles
+  type: soft
 builds-toward:
 - lysogenic-conversion-virulence-factors
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Temperate Phages and Lysogenic Pathways
 
 ## Core Idea

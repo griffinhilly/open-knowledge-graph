@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cadence-types-and-function
   type: hard
+- id: cadential-formulas-composition
+  type: soft
 builds-toward:
 - sectional-architecture-and-unity
 - formal-design-multipart-structure
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Phrase Design and Endings
 
 ## Core Idea

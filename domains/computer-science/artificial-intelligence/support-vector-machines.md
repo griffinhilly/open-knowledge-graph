@@ -18,6 +18,8 @@ prerequisites:
   type: hard
 - id: matrix-operations
   type: soft
+- id: gradient-boosting
+  type: soft
 tags:
 - supervised-learning
 - classification
@@ -25,7 +27,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Support Vector Machines
 
 ## Core Idea

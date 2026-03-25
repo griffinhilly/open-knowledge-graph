@@ -6,6 +6,10 @@ course: multivariable-calculus
 prerequisites:
 - id: double-integrals-cartesian-coordinates
   type: hard
+- id: double-integrals-rectangular-regions
+  type: soft
+- id: double-integrals-polar-coordinates
+  type: soft
 builds-toward:
 - applications-integrals-area-mass
 tags:
@@ -15,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Double Integrals over General Regions
 
 ## Core Idea

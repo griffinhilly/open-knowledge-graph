@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: exponential-functions-and-graphs
   type: soft
+- id: cumulative-distribution-function
+  type: soft
 builds-toward:
 - central-limit-theorem-theory
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Moment Generating Functions
 
 ## Core Idea

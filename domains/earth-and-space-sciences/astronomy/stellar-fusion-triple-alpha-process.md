@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: atomic-structure-and-atoms
   type: soft
+- id: stellar-fusion-cno-cycle
+  type: soft
 builds-toward:
 - red-giant-branch-evolution
 tags:
@@ -25,7 +27,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # The Triple-Alpha Process: Helium Fusion and Carbon Production
 
 ## Core Idea

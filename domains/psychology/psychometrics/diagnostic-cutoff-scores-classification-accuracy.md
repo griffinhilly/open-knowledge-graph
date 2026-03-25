@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: item-response-theory-assumptions
   type: soft
+- id: cut-scores-and-decision-rules
+  type: soft
 tags:
 - cutoff-scores
 - classification
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Diagnostic Cutoff Scores and Classification Accuracy
 
 ## Core Idea

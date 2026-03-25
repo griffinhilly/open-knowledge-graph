@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: evidence-and-support
   type: soft
+- id: deliberative-rhetoric-policy
+  type: soft
+- id: epideictic-rhetoric-praise-blame
+  type: soft
 builds-toward:
 - argumentative-essay-structure
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Forensic Rhetoric and Judicial Argument
 
 ## Core Idea

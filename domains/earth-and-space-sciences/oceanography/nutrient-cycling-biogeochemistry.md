@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: dissolved-oxygen-biogeochemical-cycles
   type: soft
+- id: marine-nutrient-cycling-limitation
+  type: soft
 builds-toward:
 - coastal-eutrophication-blooms
 - oxygen-minimum-zone-formation
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Nutrient Cycling and Biogeochemistry in the Ocean
 
 ## Core Idea

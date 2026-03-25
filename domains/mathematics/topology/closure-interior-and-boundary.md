@@ -6,6 +6,8 @@ course: topology
 prerequisites:
 - id: closed-sets-in-topological-spaces
   type: hard
+- id: boundary-set-topology
+  type: soft
 builds-toward:
 - limit-points-convergence-topology
 - interior-closure-operators
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Closure, Interior, and Boundary
 
 ## Core Idea

@@ -16,8 +16,10 @@ prerequisites:
   type: soft
 - id: combinatorics
   type: soft
+- id: derived-row-techniques
+  type: soft
 builds-toward:
-  - pitch-class-set-cartography
+- pitch-class-set-cartography
 tags:
 - serialism
 - twelve-tone

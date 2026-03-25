@@ -6,6 +6,8 @@ course: clinical-psychology
 prerequisites:
 - id: dsm-5-diagnostic-framework
   type: hard
+- id: cluster-a-personality-disorders
+  type: soft
 builds-toward:
 - cognitive-behavioral-therapy-clinical
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Cluster C Personality Disorders (Anxious/Fearful)
 
 ## Core Idea

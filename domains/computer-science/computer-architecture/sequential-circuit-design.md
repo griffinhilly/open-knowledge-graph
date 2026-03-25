@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: logic-gates-and-circuits
   type: soft
+- id: multiplication-circuits
+  type: soft
 builds-toward:
 - cpu-datapath
 - cpu-control-unit
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Sequential Circuit Design
 
 ## Core Idea

@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: parametric-equations-intro
   type: soft
+- id: reduced-mass-two-body
+  type: soft
 builds-toward:
 - projectile-motion
 - circular-motion-kinematics

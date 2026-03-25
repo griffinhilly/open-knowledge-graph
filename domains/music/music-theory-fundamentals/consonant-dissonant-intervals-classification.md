@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: interval-recognition-by-ear
   type: soft
+- id: consonance-dissonance-harmonic-function
+  type: soft
 builds-toward:
 - triad-construction-from-intervals
 - harmonic-function-basics
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Consonant and Dissonant Intervals
 
 ## Core Idea

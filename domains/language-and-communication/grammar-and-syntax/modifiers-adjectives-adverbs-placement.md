@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: dangling-modifier-repair
   type: hard
+- id: adjectives-and-adverbs-distinction
+  type: soft
+- id: adjective-comparison-forms
+  type: soft
 tags:
 - modifiers
 - adjectives
@@ -16,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Modifier Placement: Adjectives and Adverbs
 
 ## Core Idea

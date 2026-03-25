@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: moral-development-kohlberg
   type: soft
+- id: altruism-empathy-motivation
+  type: soft
 tags:
 - altruism
 - helping
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Prosocial Behavior and Altruism
 
 ## Core Idea

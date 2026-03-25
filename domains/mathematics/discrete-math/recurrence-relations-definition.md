@@ -6,6 +6,8 @@ course: discrete-math
 prerequisites:
 - id: generating-functions-discrete
   type: soft
+- id: fibonacci-identities
+  type: soft
 builds-toward:
 - linear-recurrence-solutions
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Recurrence Relations and Recursive Sequences
 
 ## Core Idea

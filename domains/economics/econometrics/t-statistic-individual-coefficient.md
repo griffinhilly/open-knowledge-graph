@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: hypothesis-testing-regression
   type: hard
+- id: f-statistic-overall-significance
+  type: soft
+- id: overidentification-test
+  type: soft
 builds-toward:
 - confidence-intervals-regression
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # T-Statistic for Individual Coefficients
 
 ## Core Idea

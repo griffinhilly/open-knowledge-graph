@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: demographic-analysis-and-census-records
   type: soft
+- id: quantitative-and-statistical-evidence
+  type: soft
+- id: literature-as-historical-evidence
+  type: soft
 tags:
 - quantitative
 - statistics
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Statistics and Quantitative Evidence in Historical Argument
 
 ## Core Idea

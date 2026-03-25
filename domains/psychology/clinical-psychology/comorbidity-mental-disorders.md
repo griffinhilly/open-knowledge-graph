@@ -6,6 +6,8 @@ course: clinical-psychology
 prerequisites:
 - id: dsm-5-diagnostic-framework
   type: hard
+- id: comorbidity-complex-presentations
+  type: soft
 tags:
 - comorbidity
 - diagnostic-overlap
@@ -13,7 +15,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Comorbidity in Mental Disorders: Patterns and Treatment
 
 ## Core Idea

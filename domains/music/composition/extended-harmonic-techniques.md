@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: extended-chords-upper-extensions-voicing
   type: soft
+- id: borrowed-chord-composition
+  type: soft
+- id: modulation-compositional-function
+  type: soft
 tags:
 - harmony
 - extended-harmony
@@ -16,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Extended Harmonic Techniques
 
 ## Core Idea

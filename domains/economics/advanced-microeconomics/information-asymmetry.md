@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: bayesian-games
   type: soft
+- id: market-for-lemons-unraveling
+  type: soft
 builds-toward:
 - lemons-market
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Information Asymmetry in Markets
 
 ## Core Idea

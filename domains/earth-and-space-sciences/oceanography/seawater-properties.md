@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: specific-heat-capacity
   type: soft
+- id: salinity-composition-seawater
+  type: soft
 builds-toward:
 - ocean-layering-and-stratification
 - thermohaline-circulation
@@ -27,7 +29,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Physical and Chemical Properties of Seawater
 
 ## Core Idea

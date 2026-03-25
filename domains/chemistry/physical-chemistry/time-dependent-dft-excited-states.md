@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electronic-spectroscopy-theory
   type: soft
+- id: configuration-interaction-methods
+  type: soft
 builds-toward:
 - selection-rules-electronic-spectroscopy
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Time-Dependent DFT for Excited States
 
 ## Core Idea

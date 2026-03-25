@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - algorithm-design-basics
-- object-oriented-thinking-and-design
 tags:
 - methods
 - attributes

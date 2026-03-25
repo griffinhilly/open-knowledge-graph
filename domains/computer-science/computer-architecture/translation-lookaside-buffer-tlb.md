@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cache-associativity-and-mapping
   type: soft
+- id: cache-line-and-offset
+  type: soft
 builds-toward:
 - exception-handling-architecture
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Translation Lookaside Buffer (TLB) Design
 
 ## Core Idea

@@ -4,17 +4,22 @@ title: Volumes by Washer Method
 domain: mathematics
 course: calculus-2
 prerequisites:
-  - id: volumes-by-disk-method
-    type: hard
-  - id: area-between-curves
-    type: hard
+- id: volumes-by-disk-method
+  type: hard
+- id: area-between-curves
+  type: hard
+- id: surface-area-of-revolution
+  type: soft
 builds-toward:
-  - volumes-by-shell-method
-tags: [integration, applications, volumes, revolution]
+- volumes-by-shell-method
+tags:
+- integration
+- applications
+- volumes
+- revolution
 stage: formal-systems
 status: validated
 ---
-
 # Volumes by Washer Method
 
 ## Core Idea

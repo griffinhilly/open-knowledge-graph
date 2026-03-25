@@ -6,6 +6,10 @@ course: analytical-chemistry
 prerequisites:
 - id: method-development-lifecycle
   type: hard
+- id: gas-chromatography-method-development
+  type: soft
+- id: liquid-chromatography-method-development
+  type: soft
 tags:
 - optimization
 - method development
@@ -13,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Optimization of Analytical Method Parameters
 
 ## Core Idea

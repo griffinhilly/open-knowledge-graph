@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: nondeterministic-polynomial-time
   type: hard
+- id: polynomial-hierarchy-computability-and-complexity
+  type: soft
+- id: nondeterministic-polynomial-time-computability-and-complexity
+  type: soft
+- id: polynomial-time-computation-fundamentals
+  type: soft
 builds-toward:
 - alternation-in-turing-machines
 tags:
@@ -17,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # The Polynomial Hierarchy Beyond NP
 
 ## Core Idea

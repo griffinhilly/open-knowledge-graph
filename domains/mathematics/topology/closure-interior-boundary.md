@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: open-sets-topology
   type: hard
+- id: boundary-set-topology
+  type: soft
 builds-toward:
 - limit-points-and-accumulation
 - continuous-functions-topology
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Closure, Interior, and Boundary of Sets
 
 ## Core Idea

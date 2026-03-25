@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: file-system-concepts
   type: soft
+- id: message-queues-ipc-systems
+  type: soft
+- id: message-passing-ipc-semantics
+  type: soft
 builds-toward:
 - shell-execution-model
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Pipes and Named Pipes (FIFOs) for IPC
 
 ## Core Idea

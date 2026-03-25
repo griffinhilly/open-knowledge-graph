@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: laminar-pipe-flow-hagen-poiseuille
   type: soft
+- id: laminar-turbulent-transition-critical-reynolds
+  type: soft
 builds-toward:
 - turbulent-flow-structure-properties
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Transition to Turbulence and Reynolds Number
 
 ## Core Idea

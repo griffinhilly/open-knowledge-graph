@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: liquid-chromatography-mass-spectrometry-lc-ms
   type: soft
+- id: bioanalytical-methods-in-pharmacology
+  type: soft
 builds-toward:
 - pharmaceutical-quality-analysis
 - method-validation
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Bioanalytical Methods in Pharmacokinetic Studies
 
 ## Core Idea

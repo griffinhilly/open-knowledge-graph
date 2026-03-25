@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: canonical-ensemble
   type: hard
+- id: virial-theorem
+  type: soft
 builds-toward:
 - virial-coefficients-interaction
 - van-der-waals-derivation
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Virial Expansion
 
 ## Core Idea

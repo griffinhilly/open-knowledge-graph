@@ -6,6 +6,14 @@ course: computer-architecture
 prerequisites:
 - id: pipelining-fundamentals
   type: hard
+- id: memory-access-timing
+  type: soft
+- id: branch-prediction-techniques
+  type: soft
+- id: power-thermal-performance-metrics
+  type: soft
+- id: performance-and-benchmarking
+  type: soft
 builds-toward:
 - out-of-order-execution-design
 - power-thermal-performance-metrics
@@ -17,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Superscalar and VLIW Processors
 
 ## Core Idea

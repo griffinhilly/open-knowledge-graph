@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: euler-circuits-and-paths
   type: soft
+- id: hamiltonian-cycles-discrete
+  type: soft
 tags:
 - hamiltonian-circuit
 - hamiltonian-path
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Hamiltonian Circuits and Paths
 
 ## Core Idea

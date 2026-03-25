@@ -8,8 +8,10 @@ prerequisites:
   type: hard
 - id: feminist-aesthetics-and-the-female-gaze
   type: hard
+- id: psychoanalytic-aesthetics
+  type: soft
 builds-toward:
-  - aesthetics-and-moral-philosophy
+- aesthetics-and-moral-philosophy
 tags:
 - queer-theory
 - sexuality

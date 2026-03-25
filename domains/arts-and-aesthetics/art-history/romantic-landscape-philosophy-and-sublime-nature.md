@@ -6,6 +6,16 @@ course: art-history
 prerequisites:
 - id: romantic-sublime-landscape
   type: soft
+- id: landscape-painting-development
+  type: soft
+- id: gothic-architecture-and-aesthetics
+  type: soft
+- id: east-asian-landscape-painting-and-scroll-traditions
+  type: soft
+- id: art-historical-revival-movements
+  type: soft
+- id: mannerism-artifice-and-stylization
+  type: soft
 builds-toward:
 - realist-painting-and-modern-social-observation
 - impressionism-color-light-and-optical-perception
@@ -20,7 +30,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Romantic Landscape, Philosophy, and the Sublime
 
 ## Core Idea

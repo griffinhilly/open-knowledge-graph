@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: chemical-potential
   type: hard
+- id: thermodynamic-equilibrium-mechanical-chemical
+  type: soft
+- id: critical-point-phenomena
+  type: soft
+- id: chemical-potential-thermodynamic
+  type: soft
 builds-toward:
 - clausius-clapeyron-equation
 tags:
@@ -17,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Phase Equilibrium and Coexistence Conditions
 
 ## Core Idea

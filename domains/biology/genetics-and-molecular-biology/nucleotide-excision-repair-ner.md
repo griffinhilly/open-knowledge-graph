@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: spontaneous-mutation-rates-causes
   type: soft
+- id: base-excision-repair-ber
+  type: soft
 builds-toward:
 - non-homologous-end-joining-nhej
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Nucleotide Excision Repair (NER) and UV Lesions
 
 ## Core Idea

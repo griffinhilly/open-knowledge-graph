@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: medieval-monasticism-communities
   type: soft
+- id: renaissance-classical-literature-revival
+  type: soft
 builds-toward:
 - humanist-education-studia-humanitatis
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Classical Revival and Renaissance Scholarship
 
 ## Core Idea

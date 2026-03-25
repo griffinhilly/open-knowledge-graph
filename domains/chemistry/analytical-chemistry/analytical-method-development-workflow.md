@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: method-development-lifecycle
   type: hard
+- id: selectivity-vs-sensitivity-analytical-tradeoffs
+  type: soft
 builds-toward:
 - analytical-method-validation-core-parameters
 - analytical-selectivity-and-specificity
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Analytical Method Development: Systematic Workflow
 
 ## Core Idea

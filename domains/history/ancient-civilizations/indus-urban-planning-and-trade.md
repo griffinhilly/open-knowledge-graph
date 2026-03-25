@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ancient-urbanization
   type: hard
+- id: indus-citadels-urban-centers
+  type: soft
 builds-toward:
 - ancient-world-trade-networks
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Indus Valley Urban Planning and Long-Distance Trade
 
 ## Core Idea

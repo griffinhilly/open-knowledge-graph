@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: probability-axioms
   type: hard
+- id: parsimony-phylogenetics
+  type: soft
 builds-toward:
 - bayesian-phylogenetics
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Maximum Likelihood Phylogenetics
 
 ## Core Idea

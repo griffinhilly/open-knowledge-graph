@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: observational-drawing-practice
   type: soft
+- id: value-studies-and-tonal-range
+  type: soft
 builds-toward:
 - compositional-sketching
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Compositional Thumbnails and Quick Studies
 
 ## Core Idea

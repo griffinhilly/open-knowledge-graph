@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - classification-metrics
-- oversampling-undersampling
 tags:
 - imbalance
 - class-weight

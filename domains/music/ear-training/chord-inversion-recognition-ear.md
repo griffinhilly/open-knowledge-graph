@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: interval-recognition-by-ear
   type: soft
+- id: extended-chord-quality-ear
+  type: soft
+- id: bass-line-ear-analysis
+  type: soft
+- id: compound-interval-ear
+  type: soft
+- id: root-movement-recognition-ear
+  type: soft
 builds-toward:
 - cadence-identification-ear
 - voice-leading-direction-ear
@@ -18,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Chord Inversion Recognition by Ear
 
 ## Core Idea

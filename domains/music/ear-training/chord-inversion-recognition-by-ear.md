@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: interval-recognition-by-ear
   type: hard
+- id: extended-chord-ear-training
+  type: soft
 builds-toward:
 - bass-line-dictation
 - harmonic-function-and-voice-leading-analysis
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Chord Inversion Recognition by Ear
 
 ## Core Idea

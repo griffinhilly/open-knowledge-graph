@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: visual-aids-in-presentations
   type: soft
+- id: outlining-and-speaking-notes
+  type: soft
 builds-toward:
 - impromptu-speaking
 - question-and-answer-management

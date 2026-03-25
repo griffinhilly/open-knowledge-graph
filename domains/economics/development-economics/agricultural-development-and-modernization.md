@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: production-function-microeconomics
   type: soft
+- id: green-revolution-agricultural-productivity
+  type: soft
 builds-toward:
 - technology-adoption-developing-countries
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Agricultural Development and Modernization
 
 ## Core Idea

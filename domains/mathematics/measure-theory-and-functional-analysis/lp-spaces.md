@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: vector-spaces
   type: hard
+- id: lp-space-completeness-riesz-fischer
+  type: soft
 builds-toward:
 - holder-inequality
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Lᵖ Spaces
 
 ## Core Idea

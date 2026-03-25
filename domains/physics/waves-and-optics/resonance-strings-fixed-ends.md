@@ -6,6 +6,8 @@ course: waves-and-optics
 prerequisites:
 - id: standing-waves
   type: hard
+- id: resonance-pipes-open-closed
+  type: soft
 builds-toward:
 - fundamental-frequency-and-overtones
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Resonance in Strings with Fixed Ends
 
 ## Core Idea

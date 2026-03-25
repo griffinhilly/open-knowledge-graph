@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: inductively-coupled-plasma-mass-spectrometry-icp-ms
   type: hard
+- id: metals-alloy-analysis-methods
+  type: soft
 builds-toward:
 - limit-of-detection-loq
 - environmental-sample-analysis-methods
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Trace Metals Analysis at Ultra-Low Concentrations
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: sentence-level-editing
   type: soft
+- id: imitation-stylistic-study
+  type: soft
+- id: clarity-and-accessibility-in-prose
+  type: soft
 tags:
 - style
 - writing-craft
@@ -15,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Stylistic Analysis and Imitation
 
 ## Core Idea

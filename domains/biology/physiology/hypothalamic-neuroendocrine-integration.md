@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hormone-signaling-mechanisms
   type: hard
+- id: lactation-neuroendocrine-control
+  type: soft
 builds-toward:
 - anterior-pituitary-hormone-axes
 - thyroid-hormone-thermoregulation
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Hypothalamic-Neuroendocrine Integration
 
 ## Core Idea

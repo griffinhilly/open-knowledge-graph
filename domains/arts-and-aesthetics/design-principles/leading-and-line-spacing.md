@@ -6,6 +6,8 @@ course: design-principles
 prerequisites:
 - id: typography-fundamentals
   type: hard
+- id: kerning-and-letter-spacing
+  type: soft
 builds-toward:
 - responsive-typography
 - typography-readability-legibility
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Leading and Line Spacing
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: differential-equations-intro
   type: soft
+- id: decision-making-neural-mechanisms
+  type: soft
 builds-toward:
 - working-memory-capacity-limits-neural-mechanisms
 - interference-resolution-working-memory
@@ -23,7 +25,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Working Memory: Prefrontal-Parietal Neural Mechanisms
 
 ## Core Idea

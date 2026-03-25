@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: time-hierarchy-theorem
   type: soft
+- id: time-space-hierarchy-theorems
+  type: soft
 tags:
 - separations
 - space-complexity
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Space Hierarchy Theorem
 
 ## Core Idea

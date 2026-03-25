@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: planetary-interior-dynamics
   type: soft
+- id: exoplanet-mass-radius-relation
+  type: soft
+- id: planetary-core-mantle-interaction
+  type: soft
 tags:
 - seismology
 - interior-structure
@@ -15,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Planetary Seismology and Interior Structure
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: capital-accumulation-steady-state
   type: soft
+- id: investment-function-accelerator
+  type: soft
 builds-toward:
 - aggregate-demand
 - demand-shocks-and-multipliers
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Investment Demand and Capital Formation
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: magnetic-torque-dipole
   type: soft
+- id: mutual-inductance-coupled-coils
+  type: soft
 builds-toward:
 - lorentz-force-complete-em
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Inductance and Transient Response in RL Circuits
 
 ## Core Idea

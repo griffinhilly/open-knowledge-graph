@@ -6,6 +6,8 @@ course: quantum-mechanics
 prerequisites:
 - id: total-angular-momentum
   type: hard
+- id: addition-of-angular-momenta
+  type: soft
 builds-toward:
 - clebsch-gordan-coefficients
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Angular Momentum Coupling
 
 ## Core Idea

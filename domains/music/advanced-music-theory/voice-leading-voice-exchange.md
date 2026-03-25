@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: four-part-writing
   type: hard
+- id: counterpoint-harmonic-texture-integration
+  type: soft
+- id: tonnetz-navigation-voice-leading
+  type: soft
 builds-toward:
 - species-counterpoint-free-composition
 - invertible-counterpoint-extended
@@ -18,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Voice-Leading Voice Exchange
 
 ## Core Idea

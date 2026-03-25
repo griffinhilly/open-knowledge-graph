@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: capillary-fluid-exchange-starling-equilibrium
   type: soft
+- id: glomerular-filtration-pressure
+  type: soft
 builds-toward:
 - tubular-reabsorption-secretion-selectivity
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Glomerular Filtration Rate and Autoregulation
 
 ## Core Idea

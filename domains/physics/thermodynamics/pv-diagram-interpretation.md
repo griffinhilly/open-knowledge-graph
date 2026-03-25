@@ -6,9 +6,11 @@ course: thermodynamics
 prerequisites:
 - id: thermodynamic-processes
   type: hard
+- id: polytropic-process-index
+  type: soft
 builds-toward:
-  - diesel-cycle-compression-ignition
-  - rankine-cycle-steam-power
+- diesel-cycle-compression-ignition
+- rankine-cycle-steam-power
 tags:
 - visualization
 - processes

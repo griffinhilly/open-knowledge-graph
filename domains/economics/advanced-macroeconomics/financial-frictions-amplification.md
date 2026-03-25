@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: dsge-models
   type: hard
+- id: financial-accelerator-mechanism
+  type: soft
 tags:
 - financial-stability
 - credit-constraints
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Financial Frictions and Amplification Mechanisms
 
 ## Core Idea

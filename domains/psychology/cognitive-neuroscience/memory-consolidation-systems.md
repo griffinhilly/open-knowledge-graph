@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: protein-synthesis
   type: soft
+- id: episodic-semantic-memory-systems
+  type: soft
 tags:
 - memory
 - sleep
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Systems Consolidation and Sleep-Dependent Memory
 
 ## Core Idea

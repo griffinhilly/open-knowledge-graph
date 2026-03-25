@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: life-history-strategies
   type: soft
+- id: life-history-evolution-r-and-k-selection
+  type: soft
 builds-toward:
 - population-viability-analysis
 - conservation-genetics-effective-size
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Population Age Structure and Life History
 
 ## Core Idea

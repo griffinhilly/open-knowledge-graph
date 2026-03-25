@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: scale-degree-names-and-function
   type: soft
+- id: scale-degree-ear-identification
+  type: soft
 builds-toward:
 - scale-degree-tendency-tone-recognition
 - harmonic-function-voice-leading-tension-resolution
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Scale Degree Function: The Leading Tone
 
 ## Core Idea

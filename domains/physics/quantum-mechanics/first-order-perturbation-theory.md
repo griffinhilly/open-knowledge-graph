@@ -6,6 +6,8 @@ course: quantum-mechanics
 prerequisites:
 - id: time-independent-perturbation-theory
   type: hard
+- id: first-order-perturbation-energy
+  type: soft
 builds-toward:
 - second-order-perturbation-theory
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # First-Order Perturbation Theory
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: t-test-for-means
   type: soft
+- id: multiple-regression-intro
+  type: soft
 builds-toward:
 - prediction-intervals-regression
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Inference in Linear Regression
 
 ## Core Idea

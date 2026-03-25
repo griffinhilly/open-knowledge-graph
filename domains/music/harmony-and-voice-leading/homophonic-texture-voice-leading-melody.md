@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: chord-progressions
   type: soft
+- id: counterpoint-harmonic-texture-integration
+  type: soft
+- id: melody-to-harmony-voice-leading-decisions
+  type: soft
 builds-toward:
 - melody-harmonization-with-voice-leading
 - voice-leading-in-composition
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Homophonic Texture and Voice-Leading with Melody
 
 ## Core Idea

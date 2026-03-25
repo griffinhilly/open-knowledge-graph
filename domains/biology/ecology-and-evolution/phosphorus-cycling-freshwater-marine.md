@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: ecosystem-structure-and-function
   type: soft
+- id: nitrogen-fixation-limitation-cycling
+  type: soft
+- id: nutrient-cycling-phosphorus-sulfur
+  type: soft
 builds-toward:
 - ecosystem-services
 tags:
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Phosphorus Cycling and Freshwater-Marine Differences
 
 ## Core Idea

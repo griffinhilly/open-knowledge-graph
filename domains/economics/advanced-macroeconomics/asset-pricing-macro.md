@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: euler-equation-consumption
   type: hard
+- id: asset-pricing-macroeconomy
+  type: soft
 builds-toward:
 - financial-frictions-credit-constraints
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Asset Pricing and Macroeconomic Implications
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: spin-angular-momentum
   type: hard
+- id: angular-momentum-addition
+  type: soft
+- id: partial-wave-analysis
+  type: soft
 builds-toward:
 - angular-momentum-coupling
 tags:
@@ -16,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Total Angular Momentum
 
 ## Core Idea

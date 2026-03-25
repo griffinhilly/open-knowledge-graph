@@ -6,6 +6,8 @@ course: aesthetic-theory
 prerequisites:
 - id: bell-significant-form
   type: hard
+- id: aesthetic-autonomy-thesis
+  type: soft
 builds-toward:
 - postmodern-aesthetics-pastiche
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Clement Greenberg: Modernism and Critical Formalism
 
 ## Core Idea

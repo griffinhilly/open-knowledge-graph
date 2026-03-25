@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: protoplanetary-disk-structure
   type: soft
+- id: planetary-formation-core-accretion
+  type: soft
 tags:
 - planet-formation
 - disk-instability
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Planetary Formation II: Gravitational Instability and Direct Collapse
 
 ## Core Idea

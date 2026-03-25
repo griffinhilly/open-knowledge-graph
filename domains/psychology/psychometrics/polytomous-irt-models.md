@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: two-parameter-logistic-model
   type: hard
+- id: multidimensional-item-response-theory
+  type: soft
 builds-toward:
 - dimensional-assessment-and-bifactor-models
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Polytomous Item Response Theory Models
 
 ## Core Idea

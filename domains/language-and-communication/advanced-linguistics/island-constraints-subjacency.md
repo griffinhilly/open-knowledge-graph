@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: x-bar-theory
   type: hard
+- id: head-movement-constraints
+  type: soft
 tags:
 - syntax
 - movement
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Island Constraints and Subjacency
 
 ## Core Idea

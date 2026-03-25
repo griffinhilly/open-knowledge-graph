@@ -6,6 +6,10 @@ course: discrete-math
 prerequisites:
 - id: graph-connectivity-components
   type: hard
+- id: chromatic-polynomial-computation
+  type: soft
+- id: network-flows-algorithm
+  type: soft
 builds-toward:
 - euler-paths-circuits
 - hamiltonian-paths-cycles
@@ -15,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Walks, Trails, Paths, and Cycles in Graphs
 
 ## Core Idea

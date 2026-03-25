@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: movement-and-transformations
   type: soft
+- id: agreement-and-feature-checking
+  type: soft
+- id: case-theory-and-abstract-case
+  type: soft
+- id: templatic-morphology
+  type: soft
 builds-toward:
 - distributed-morphology
 tags:
@@ -17,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # The Morphology-Syntax Interface
 
 ## Core Idea

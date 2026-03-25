@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: externalities-and-market-failure
   type: soft
+- id: green-growth-development
+  type: soft
 tags:
 - environmental sustainability
 - climate
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Environmental Sustainability and Development
 
 ## Core Idea

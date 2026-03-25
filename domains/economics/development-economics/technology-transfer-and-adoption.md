@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: endogenous-growth-theory
   type: soft
+- id: industrial-catch-up-growth
+  type: soft
 builds-toward:
 - mobile-technology-and-leapfrogging
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Technology Transfer, Adoption, and Diffusion
 
 ## Core Idea

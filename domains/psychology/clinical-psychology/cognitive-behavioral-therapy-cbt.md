@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cognitive-biases-overview
   type: soft
+- id: cognitive-behavioral-therapy
+  type: soft
 builds-toward:
 - exposure-therapy-and-cbt
 - behavioral-activation-depression
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Cognitive-Behavioral Therapy: Principles and Techniques
 
 ## Core Idea

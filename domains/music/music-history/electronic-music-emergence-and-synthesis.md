@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electronic-composition-basics
   type: soft
+- id: electric-instruments-popular-music-recording-technology
+  type: soft
 tags:
 - electronic-music
 - 20th-century
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Electronic Music Emergence and Synthesis
 
 ## Core Idea

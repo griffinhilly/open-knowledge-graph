@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: ordinal-numbers-and-order
   type: soft
+- id: axiom-of-choice-formulations-and-equivalences
+  type: soft
+- id: axiom-of-choice-and-well-ordering-equivalence
+  type: soft
 builds-toward:
 - martins-axiom-introduction
 tags:
@@ -20,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Axiom of Choice and Its Equivalences
 
 ## Core Idea

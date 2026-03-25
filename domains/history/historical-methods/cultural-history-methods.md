@@ -10,6 +10,16 @@ prerequisites:
   type: soft
 - id: material-culture-analysis
   type: soft
+- id: local-community-history
+  type: soft
+- id: reception-history-methods
+  type: soft
+- id: material-symbolic-integration
+  type: soft
+- id: historical-semantics-and-terminology-change
+  type: soft
+- id: photographic-evidence-analysis
+  type: soft
 tags:
 - cultural-history
 - methodology
@@ -18,7 +28,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Cultural History and Meaning-Making Approaches
 
 ## Core Idea

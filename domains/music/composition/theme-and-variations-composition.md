@@ -8,6 +8,24 @@ prerequisites:
   type: hard
 - id: motivic-development
   type: hard
+- id: compositional-variation-and-development
+  type: soft
+- id: sonata-composition-structural
+  type: soft
+- id: formal-design-multipart-structure
+  type: soft
+- id: accompaniment-patterns-and-figures
+  type: soft
+- id: electronic-composition-fundamentals
+  type: soft
+- id: improvisation-notation-transcription
+  type: soft
+- id: transition-writing-and-connections
+  type: soft
+- id: two-part-invention-technique
+  type: soft
+- id: compositional-craft-revision-feedback
+  type: soft
 tags:
 - form
 - variation
@@ -16,7 +34,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Theme and Variations Form
 
 ## Core Idea

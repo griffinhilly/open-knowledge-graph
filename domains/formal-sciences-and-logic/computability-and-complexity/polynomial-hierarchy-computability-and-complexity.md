@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: p-versus-np
   type: soft
+- id: nondeterministic-polynomial-time-computability-and-complexity
+  type: soft
 builds-toward:
 - pspace-completeness
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # The Polynomial Time Hierarchy: Levels Beyond NP
 
 ## Core Idea

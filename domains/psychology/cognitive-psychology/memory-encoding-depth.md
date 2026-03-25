@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: working-memory-prefrontal-circuits
   type: soft
+- id: transfer-appropriate-processing-encoding-match
+  type: soft
 builds-toward:
 - memory-storage-consolidation
 - semantic-memory-network-models
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Memory Encoding and Levels of Processing
 
 ## Core Idea

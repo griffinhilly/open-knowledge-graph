@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: genetic-drift
   type: soft
+- id: parapatric-speciation
+  type: soft
 tags:
 - speciation
 - genetic-drift
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Peripatric Speciation and Founder Effects
 
 ## Core Idea

@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: definite-integral-definition
   type: hard
+- id: rotational-kinetic-energy
+  type: soft
 builds-toward:
 - conservation-of-energy
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Work-Energy Theorem
 
 ## Core Idea

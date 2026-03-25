@@ -6,6 +6,8 @@ course: abstract-algebra
 prerequisites:
 - id: quotient-groups
   type: hard
+- id: first-isomorphism-theorem-for-rings
+  type: soft
 builds-toward:
 - second-isomorphism-theorem-groups
 - third-isomorphism-theorem-groups
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # First Isomorphism Theorem for Groups
 
 ## Core Idea

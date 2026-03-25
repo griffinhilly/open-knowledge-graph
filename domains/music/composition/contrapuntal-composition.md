@@ -12,8 +12,10 @@ prerequisites:
   type: soft
 - id: bass-line-composition
   type: soft
+- id: canonic-writing-technique
+  type: soft
 builds-toward:
-  - climax-and-tension-release
+- climax-and-tension-release
 tags:
 - counterpoint
 - polyphony

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dopamine-receptor-subtypes-and-signaling
   type: hard
+- id: nicotine-cholinergic-effects-and-addiction
+  type: soft
 builds-toward:
 - addiction-and-reward-system-plasticity
 - stimulant-use-disorder
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Psychostimulant Mechanisms: Cocaine and Methamphetamine
 
 ## Core Idea

@@ -6,6 +6,10 @@ course: set-theory
 prerequisites:
 - id: zfc-axioms-overview
   type: hard
+- id: union-axiom
+  type: soft
+- id: pairing-axiom
+  type: soft
 builds-toward:
 - pairing-axiom
 - naive-set-theory
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Axiom of Extensionality
 
 ## Core Idea

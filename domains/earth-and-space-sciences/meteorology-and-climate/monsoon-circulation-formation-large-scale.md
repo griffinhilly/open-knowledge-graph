@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: global-atmospheric-circulation
   type: hard
+- id: subtropical-anticyclone-formation
+  type: soft
+- id: zonal-meridional-circulation
+  type: soft
 builds-toward:
 - tropical-weather-systems
 - seasonal-climate-variability
@@ -18,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Monsoon Circulation Formation and Large-Scale Dynamics
 
 ## Core Idea

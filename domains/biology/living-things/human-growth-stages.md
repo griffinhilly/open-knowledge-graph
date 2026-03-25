@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: major-body-parts
   type: soft
+- id: egg-to-adult
+  type: soft
 builds-toward:
 - cell-differentiation-development
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Human Growth Stages
 
 ## Core Idea

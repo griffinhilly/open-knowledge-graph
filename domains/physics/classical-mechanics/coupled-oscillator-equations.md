@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: differential-equations-intro
   type: hard
+- id: equations-of-motion-from-free-body-diagrams
+  type: soft
 builds-toward:
 - normal-modes-oscillations
 tags:
@@ -23,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Coupled Oscillator Systems and Equations of Motion
 
 ## Core Idea

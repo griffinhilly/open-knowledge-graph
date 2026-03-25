@@ -6,6 +6,8 @@ course: social-psychology
 prerequisites:
 - id: social-influence-compliance
   type: hard
+- id: obedience-authority-legitimacy
+  type: soft
 builds-toward:
 - ethical-decision-making-institutional-settings
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Obedience to Authority in Organizational Contexts
 
 ## Core Idea

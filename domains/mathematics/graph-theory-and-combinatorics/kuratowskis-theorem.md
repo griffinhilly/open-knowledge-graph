@@ -6,6 +6,12 @@ course: graph-theory-and-combinatorics
 prerequisites:
 - id: planar-graphs
   type: hard
+- id: four-color-theorem
+  type: soft
+- id: planar-graphs-euler-formula
+  type: soft
+- id: graph-minors
+  type: soft
 builds-toward:
 - wagners-theorem
 - graph-minors
@@ -15,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Kuratowski's Theorem and Forbidden Minors
 
 ## Core Idea

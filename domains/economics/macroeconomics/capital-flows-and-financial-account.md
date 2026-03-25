@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: interest-rates-and-loanable-funds
   type: soft
+- id: capital-flows-equilibrium
+  type: soft
 builds-toward:
 - purchasing-power-parity-absolute
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Capital Flows and the Financial Account
 
 ## Core Idea

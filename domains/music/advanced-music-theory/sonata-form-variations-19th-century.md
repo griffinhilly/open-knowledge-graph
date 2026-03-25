@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: schenkerian-interruption-structure
   type: soft
+- id: cyclic-unity-chamber-works
+  type: soft
 builds-toward:
 - formal-analysis-deformation
 - cyclic-form-large-scale
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Sonata Form Variations in 19th-Century Music
 
 ## Core Idea

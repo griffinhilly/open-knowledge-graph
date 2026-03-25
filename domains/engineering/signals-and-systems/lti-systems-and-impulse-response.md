@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: elementary-signals-impulse-step-exponential
   type: hard
+- id: system-causality-and-realizability
+  type: soft
 builds-toward:
 - convolution-continuous-discrete-systems
 - transfer-function-poles-zeros
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # LTI Systems and Impulse Response
 
 ## Core Idea

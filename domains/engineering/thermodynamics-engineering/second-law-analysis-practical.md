@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: isentropic-process-reversible
   type: hard
+- id: shock-waves-compressible-flow-analysis
+  type: soft
 builds-toward:
 - availability-exergy-analysis-systems
 - power-cycle-thermal-efficiency
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Second Law Analysis and Minimizing Irreversibilities
 
 ## Core Idea

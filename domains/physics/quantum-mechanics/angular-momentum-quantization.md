@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: commutation-relations
   type: hard
+- id: wkb-quantization-rule
+  type: soft
 builds-toward:
 - spin-half-systems
 - angular-momentum-addition
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Angular Momentum Quantization
 
 ## Core Idea

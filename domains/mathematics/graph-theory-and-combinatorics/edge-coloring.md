@@ -6,6 +6,8 @@ course: graph-theory-and-combinatorics
 prerequisites:
 - id: graph-coloring
   type: hard
+- id: edge-coloring-vizings-theorem
+  type: soft
 builds-toward:
 - vizings-theorem
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Edge Coloring and Chromatic Index
 
 ## Core Idea

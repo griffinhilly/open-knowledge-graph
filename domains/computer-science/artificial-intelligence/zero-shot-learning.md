@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: transfer-learning-neural
   type: soft
-builds-toward:
-- semantic-similarity
-- knowledge-transfer
 tags:
 - zero-shot
 - semantic-attributes

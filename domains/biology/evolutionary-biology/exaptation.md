@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: coevolution
   type: soft
+- id: evolvability
+  type: soft
 builds-toward:
 - major-evolutionary-innovations
 - evolutionary-transitions
@@ -21,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Exaptation: Co-option of Traits for New Functions
 
 ## Core Idea

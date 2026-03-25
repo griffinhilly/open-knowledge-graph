@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: allopatric-speciation
   type: soft
+- id: polyploidy-instant-speciation
+  type: soft
 builds-toward:
 - modes-of-speciation-allopatric-peripatric-parapatric-sympatric
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Reproductive Isolation: Mechanism Accumulation During Divergence
 
 ## Core Idea

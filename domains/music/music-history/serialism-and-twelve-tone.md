@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: permutations
   type: soft
+- id: modernist-compositional-strategies
+  type: soft
 tags:
 - serialism
 - twelve-tone
@@ -25,7 +27,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Serialism and the Twelve-Tone Technique
 
 ## Core Idea

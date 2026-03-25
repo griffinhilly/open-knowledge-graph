@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: proof-structure-terminology
   type: hard
+- id: proving-by-contradiction
+  type: soft
 builds-toward:
 - proof-by-cases-exhaustion
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Proof by Contradiction
 
 ## Core Idea

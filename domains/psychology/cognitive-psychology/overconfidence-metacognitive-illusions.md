@@ -6,6 +6,8 @@ course: cognitive-psychology
 prerequisites:
 - id: metacognition
   type: hard
+- id: frequency-estimation-metacognitive
+  type: soft
 tags:
 - metacognition
 - confidence
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Overconfidence and Metacognitive Illusions
 
 ## Core Idea

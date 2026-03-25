@@ -8,9 +8,6 @@ prerequisites:
   type: soft
 - id: hidden-markov-models
   type: hard
-builds-toward:
-- structured-prediction
-- dependency-parsing
 tags:
 - sequence-labeling
 - crf

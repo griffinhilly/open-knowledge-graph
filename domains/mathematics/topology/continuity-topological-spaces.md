@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: neighborhoods-in-topology
   type: soft
+- id: convergence-in-topology
+  type: soft
 builds-toward:
 - homeomorphisms-topological-equivalence
 - topological-invariants
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Continuity in Topological Spaces
 
 ## Core Idea

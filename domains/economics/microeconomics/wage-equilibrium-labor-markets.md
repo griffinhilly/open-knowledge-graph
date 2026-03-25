@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: marginal-revenue-product-factor
   type: hard
+- id: market-clearing-equilibrium-price
+  type: soft
+- id: adverse-selection-equilibrium
+  type: soft
+- id: long-run-equilibrium-zero-profit
+  type: soft
+- id: opportunity-cost-concept
+  type: soft
 tags:
 - labor economics
 - wages
@@ -15,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Wage Determination and Labor Market Equilibrium
 
 ## Core Idea

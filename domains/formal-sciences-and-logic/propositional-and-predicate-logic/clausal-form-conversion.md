@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: skolemization-and-witnesses
   type: hard
+- id: skolemization-and-equisatisfiability
+  type: soft
+- id: literals-and-clauses-cnf
+  type: soft
 builds-toward:
 - ground-instances-and-instantiation
 tags:
@@ -19,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Conversion to Clausal Form
 
 ## Core Idea

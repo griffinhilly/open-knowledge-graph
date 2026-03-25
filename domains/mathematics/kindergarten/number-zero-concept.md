@@ -6,6 +6,8 @@ course: kindergarten
 prerequisites:
 - id: counting-to-20
   type: soft
+- id: understanding-zero
+  type: soft
 builds-toward:
 - cardinality-principle
 - counting-to-10

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: basis-for-a-topology
   type: soft
+- id: subspace-topology-definition
+  type: soft
 builds-toward:
 - metrization-theorems
 - completeness-metric-spaces
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Metric Topology
 
 ## Core Idea

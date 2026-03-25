@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: transitions-and-cohesion
   type: hard
+- id: revision-as-rhetorical-craft
+  type: soft
 builds-toward:
 - sentence-construction-emphasis
 - stylistic-analysis-and-imitation
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Editing for Coherence and Flow
 
 ## Core Idea

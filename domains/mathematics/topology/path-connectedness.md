@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: continuous-functions-topology
   type: soft
+- id: homotopy-paths
+  type: soft
 builds-toward:
 - homotopy-of-paths
 - fundamental-group-definition
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Path Connectedness
 
 ## Core Idea

@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: price-earnings-valuation
   type: soft
+- id: earnings-multiple-valuation
+  type: soft
+- id: dividend-growth-valuation-model
+  type: soft
+- id: residual-income-eva-valuation
+  type: soft
 tags:
 - equity-valuation
 - multiples
@@ -15,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Enterprise Value and Valuation Multiples
 
 ## Core Idea

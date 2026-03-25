@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: kernel-architecture
   type: soft
+- id: boot-process-and-kernel-initialization
+  type: soft
 tags:
 - allocation
 - kernel
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Slab Allocator for Kernel Memory
 
 ## Core Idea

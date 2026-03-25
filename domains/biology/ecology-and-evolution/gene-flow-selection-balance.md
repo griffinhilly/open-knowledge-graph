@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: population-genetics-intro
   type: hard
+- id: frequency-dependent-selection-polymorphism
+  type: soft
 builds-toward:
 - local-adaptation-genotype-by-environment
 - speciation
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Gene Flow and Selection: Opposing Forces
 
 ## Core Idea

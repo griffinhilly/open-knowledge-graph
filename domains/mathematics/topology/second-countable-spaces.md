@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: separability-topology
   type: soft
+- id: dense-sets-topology-definition
+  type: soft
 builds-toward:
 - urysohn-metrization-theorem
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Second Countability and Separability
 
 ## Core Idea

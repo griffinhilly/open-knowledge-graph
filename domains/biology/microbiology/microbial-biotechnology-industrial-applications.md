@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: molecular-cloning
   type: soft
+- id: industrial-fermentation-and-production-microbiology
+  type: soft
+- id: yeast-fermentation-and-metabolic-pathways
+  type: soft
 builds-toward:
 - crispr-gene-editing
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Microbial Biotechnology and Industrial Applications
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: data-structures-and-algorithms
 prerequisites:
 - id: dynamic-programming-intro
   type: hard
+- id: edit-distance-dynamic-programming
+  type: soft
 tags:
 - dynamic-programming
 - optimization
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # 0/1 Knapsack Problem: Bounded Capacity DP
 
 ## Core Idea

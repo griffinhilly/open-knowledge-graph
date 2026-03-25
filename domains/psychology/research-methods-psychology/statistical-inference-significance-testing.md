@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: central-limit-theorem-rigorous
   type: hard
+- id: exploratory-vs-confirmatory-analysis-strategies
+  type: soft
 builds-toward:
 - effect-size-practical-significance-reporting
 tags:
@@ -24,7 +26,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Inferential Statistics, Hypothesis Testing, and P-Values
 
 ## Core Idea

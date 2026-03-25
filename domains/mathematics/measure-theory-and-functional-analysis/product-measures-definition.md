@@ -6,6 +6,8 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: measure-spaces-definition
   type: hard
+- id: signed-measures-hahn-jordan
+  type: soft
 builds-toward:
 - fubini-theorem
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Product Measures
 
 ## Core Idea

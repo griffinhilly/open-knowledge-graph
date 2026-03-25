@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: context-free-grammars
   type: hard
+- id: alphabets-and-language-definition
+  type: soft
 builds-toward:
 - linear-bounded-automata
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Context-Sensitive Languages and Type 1 Grammars
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: forcing-intro
   type: hard
+- id: continuum-hypothesis-and-independence
+  type: soft
+- id: zfc-axiom-system-consistency-and-limits
+  type: soft
 tags:
 - independence
 - zfc
@@ -16,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Independence in ZFC and Limitations of Axiomatization
 
 ## Core Idea

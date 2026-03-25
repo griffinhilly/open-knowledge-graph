@@ -9,7 +9,7 @@ prerequisites:
 - id: memory-organization
   type: soft
 builds-toward:
-- register-file-design
+- registers-and-register-files
 - cache-memory-design
 tags:
 - sram

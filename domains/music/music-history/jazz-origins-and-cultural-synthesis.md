@@ -6,6 +6,8 @@ course: music-history
 prerequisites:
 - id: romantic-nationalism-and-folk-music
   type: soft
+- id: jazz-history-and-development
+  type: soft
 builds-toward:
 - electric-instruments-popular-music-recording-technology
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Jazz Origins and Cultural Synthesis
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: waves-and-optics
 prerequisites:
 - id: wave-motion-definition
   type: hard
+- id: transverse-wave-characteristics
+  type: soft
 builds-toward:
 - sound-waves-intro
 - acoustic-pressure-and-amplitude
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Longitudinal Wave Characteristics and Properties
 
 ## Core Idea

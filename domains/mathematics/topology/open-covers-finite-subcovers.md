@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: compact-sets
   type: soft
+- id: heine-borel-compact-sets
+  type: soft
 builds-toward:
 - sequential-compactness-metric-spaces
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Open Covers and Finite Subcovers
 
 ## Core Idea

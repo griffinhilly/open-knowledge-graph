@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: method-validation-and-acceptance-criteria
   type: hard
+- id: analytical-standard-operating-procedures
+  type: soft
+- id: analytical-method-equivalence-transfer
+  type: soft
 builds-toward:
 - iso-iec-17025-laboratory-accreditation
 - analytical-standard-operating-procedures
@@ -18,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Method Robustness and Stability Assessment
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: number-line-0-to-20
   type: soft
+- id: comparing-and-ordering-numbers-to-20
+  type: soft
 builds-toward:
 - ordering-two-digit-numbers
 - number-patterns-and-relationships
@@ -18,7 +20,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Ordering Numbers 1 to 20
 
 ## Core Idea

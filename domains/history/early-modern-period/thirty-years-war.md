@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: religious-wars-europe
   type: soft
+- id: peace-of-augsburg
+  type: soft
 builds-toward:
 - treaty-of-westphalia
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Thirty Years War
 
 ## Core Idea

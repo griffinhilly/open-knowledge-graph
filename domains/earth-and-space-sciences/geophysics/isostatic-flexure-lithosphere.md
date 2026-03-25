@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: plate-tectonics
   type: soft
+- id: elastic-plate-flexure
+  type: soft
 tags:
 - isostasy
 - flexure
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Isostatic Flexure and Elastic Thickness
 
 ## Core Idea

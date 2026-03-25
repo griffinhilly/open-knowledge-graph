@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - sentiment-analysis-nlp
-- intent-detection
 tags:
 - text-classification
 - document-classification

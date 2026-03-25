@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: oxidation-reduction-basics
   type: soft
+- id: lipolysis-and-fatty-acid-mobilization
+  type: soft
 builds-toward:
 - citric-acid-cycle-mechanism
 - metabolic-integration-hormonal-regulation
@@ -28,7 +30,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Fatty Acid Oxidation (β-Oxidation)
 
 ## Core Idea

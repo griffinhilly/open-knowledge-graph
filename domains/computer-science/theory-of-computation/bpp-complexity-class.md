@@ -8,13 +8,14 @@ prerequisites:
   type: hard
 - id: complexity-class-p-definition
   type: hard
+- id: reduction-many-one-polynomial
+  type: soft
 tags:
 - complexity-classes
 - randomized-algorithms
 stage: advanced
 status: validated
 ---
-
 # BPP: Bounded Error Probabilistic Polynomial Time
 
 ## Core Idea

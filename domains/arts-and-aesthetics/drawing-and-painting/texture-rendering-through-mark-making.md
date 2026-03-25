@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: texture-in-art
   type: hard
+- id: rhythm-through-brushwork-and-gestural-mark
+  type: soft
 builds-toward:
 - ink-drawing-and-pen-techniques
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Texture Rendering Through Mark-Making
 
 ## Core Idea

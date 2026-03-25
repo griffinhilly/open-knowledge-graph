@@ -6,6 +6,8 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: simple-functions-approximation
   type: hard
+- id: riemann-vs-lebesgue-integrals
+  type: soft
 builds-toward:
 - riemann-lebesgue-comparison
 - product-measures-fubini-theorem
@@ -14,7 +16,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Lebesgue Integral (Full Construction)
 
 ## Core Idea

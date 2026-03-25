@@ -6,6 +6,8 @@ course: grammar-and-syntax
 prerequisites:
 - id: english-word-order-svo
   type: hard
+- id: adjective-order-and-coordination
+  type: soft
 builds-toward:
 - sentence-variety-and-rhythm
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Word Order Variation for Emphasis and Meaning
 
 ## Core Idea

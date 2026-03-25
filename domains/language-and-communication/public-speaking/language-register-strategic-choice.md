@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: tone-and-register-in-writing
   type: soft
+- id: ceremonial-register-and-language
+  type: soft
+- id: appeal-integration-persuasion
+  type: soft
 builds-toward:
 - genre-and-register
 - grammatical-register-and-style
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Language Register and Strategic Choice
 
 ## Core Idea

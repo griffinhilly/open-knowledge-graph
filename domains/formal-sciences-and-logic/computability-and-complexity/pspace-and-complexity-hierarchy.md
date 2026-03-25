@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: algorithm-complexity
   type: soft
+- id: co-np
+  type: soft
 tags:
 - complexity
 - hierarchy
@@ -23,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # The Complexity Class Hierarchy
 
 ## Core Idea

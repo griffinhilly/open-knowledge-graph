@@ -8,8 +8,12 @@ prerequisites:
   type: hard
 - id: thermodynamic-processes
   type: hard
+- id: brayton-cycle-gas-turbine-thermodynamics
+  type: soft
+- id: stirling-cycle-heat-exchanger
+  type: soft
 builds-toward:
-  - ts-diagram-entropy-temperature
+- ts-diagram-entropy-temperature
 tags:
 - cycles
 - steam-power

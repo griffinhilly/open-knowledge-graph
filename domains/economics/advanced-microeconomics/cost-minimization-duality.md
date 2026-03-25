@@ -14,6 +14,12 @@ prerequisites:
   type: hard
 - id: constrained-optimization
   type: hard
+- id: dual-production-and-profit-functions
+  type: soft
+- id: consumer-duality-and-expenditure-function
+  type: soft
+- id: expenditure-function-duality
+  type: soft
 builds-toward:
 - factor-demands-and-elasticity
 tags:
@@ -23,7 +29,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Producer Duality: Cost and Profit Functions
 
 ## Core Idea

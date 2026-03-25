@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: metaphor-and-metonymy
   type: soft
+- id: syntactic-choice-and-effect
+  type: soft
 builds-toward:
 - pathos-and-emotional-appeal
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Hyperbole, Understatement, and Restraint
 
 ## Core Idea

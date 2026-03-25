@@ -8,13 +8,14 @@ prerequisites:
   type: hard
 - id: neuron-structure-and-function
   type: soft
+- id: saltatory-conduction
+  type: soft
 tags:
 - glial-cells
 - myelin
 stage: expert
 status: validated
 ---
-
 # Oligodendrocytes and Myelination
 
 ## Core Idea

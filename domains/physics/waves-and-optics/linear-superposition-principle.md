@@ -6,6 +6,8 @@ course: waves-and-optics
 prerequisites:
 - id: wave-equation-one-dimensional
   type: hard
+- id: circular-elliptical-polarization
+  type: soft
 builds-toward:
 - two-sources-interference-pattern
 - standing-waves
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Linear Superposition of Waves
 
 ## Core Idea

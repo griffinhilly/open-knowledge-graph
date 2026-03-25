@@ -6,6 +6,8 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: lebesgue-integral-non-negative
   type: hard
+- id: dominated-convergence-theorem
+  type: soft
 builds-toward:
 - dominated-convergence-theorem
 tags:
@@ -13,7 +15,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Fatou's Lemma
 
 ## Core Idea

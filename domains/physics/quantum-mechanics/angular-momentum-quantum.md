@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: eigenvalues-eigenvectors
   type: hard
+- id: angular-momentum-of-rigid-body
+  type: soft
 builds-toward:
 - orbital-angular-momentum-quantum
 - spin-angular-momentum
@@ -20,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Quantum Angular Momentum
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: romantic-nationalism-ethnic-identity
   type: soft
+- id: fascism-ethno-state
+  type: soft
+- id: totalitarian-state-control
+  type: soft
 builds-toward:
 - axis-expansion-world-war-ii
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Fascism and the Rise of Authoritarian Ideologies
 
 ## Core Idea

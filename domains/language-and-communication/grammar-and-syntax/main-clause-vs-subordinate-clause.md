@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: dependent-clauses
   type: hard
+- id: sentence-structure-overview
+  type: soft
+- id: object-types-direct-and-indirect
+  type: soft
+- id: appositives
+  type: soft
 builds-toward:
 - relative-pronouns-and-relative-clauses
 tags:
@@ -16,7 +22,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Main Clauses vs. Subordinate Clauses
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: impact-and-restitution
   type: soft
+- id: collision-analysis-restitution
+  type: soft
 tags:
 - collision
 - restitution
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Collision Analysis and Energy
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: fundamental-theorem-of-arithmetic-rigorous
   type: soft
+- id: lagrange-four-square-theorem
+  type: soft
 builds-toward:
 - pythagorean-triples-parametrization
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Sum of Two Squares Theorem
 
 ## Core Idea

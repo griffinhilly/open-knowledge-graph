@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: bacterial-conjugation-plasmid-transfer
   type: soft
+- id: antibiotic-resistance-mutations-downregulation
+  type: soft
+- id: antibiotic-targets-and-resistance-development
+  type: soft
 builds-toward:
 - antimicrobial-susceptibility-testing
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Antibiotic Resistance: Genetic Mechanisms and Evolution
 
 ## Core Idea

@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: ensemble-methods-advanced
   type: soft
-builds-toward:
-- model-compression
-- student-teacher
 tags:
 - distillation
 - teacher-student

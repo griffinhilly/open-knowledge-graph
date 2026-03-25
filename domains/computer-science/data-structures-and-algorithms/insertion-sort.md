@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: algorithm-design-basics
   type: soft
+- id: radix-sort
+  type: soft
 builds-toward:
 - sorting-lower-bounds
 tags:

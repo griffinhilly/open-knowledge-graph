@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: semaphores
   type: soft
+- id: producer-consumer-classic-sync
+  type: soft
 tags:
 - synchronization
 - coordination
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Barrier Synchronization Primitives
 
 ## Core Idea

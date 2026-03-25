@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: voice-leading-principles
   type: soft
+- id: chromatic-borrowed-chords-voice-leading
+  type: soft
 builds-toward:
 - applied-chord-tonicization-process
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Borrowed Chords and Chromatic Mixture
 
 ## Core Idea

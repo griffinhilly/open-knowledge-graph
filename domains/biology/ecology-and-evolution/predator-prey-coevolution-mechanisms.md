@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: coevolution
   type: hard
+- id: lotka-volterra-predation-cycles
+  type: soft
 builds-toward:
 - plant-animal-coevolutionary-networks
 - antipredator-defenses-and-mimicry
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Predator-Prey Coevolution and Evolutionary Arms Races
 
 ## Core Idea

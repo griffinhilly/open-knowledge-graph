@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: nationalism-and-nation-states
   type: soft
+- id: anticolonial-liberation
+  type: soft
 builds-toward:
 - indian-partition-independence
 - african-independence-wave
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Decolonization and Global Independence Movements
 
 ## Core Idea

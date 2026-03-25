@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: recursion
   type: soft
+- id: electroacoustic-composition
+  type: soft
 builds-toward:
 - musical-mathematics-symmetry
 - information-theory-music
@@ -24,7 +26,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Algorithmic Composition Theory
 
 ## Core Idea

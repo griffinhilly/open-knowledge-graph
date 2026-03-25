@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: measuring-length-inches-centimeters-2nd
   type: hard
+- id: estimating-length-2nd
+  type: soft
 builds-toward:
 - measurement-conversions-customary
 - measurement-conversions-metric
@@ -18,7 +20,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Measuring Length: Feet and Meters
 
 ## Core Idea

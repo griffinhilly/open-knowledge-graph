@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: fundamental-statistical-mechanics
   type: soft
+- id: two-dimensional-nmr-spectroscopy
+  type: soft
 builds-toward:
 - chemical-exchange-kinetics-nmr
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # NMR Relaxation Times and Correlation Functions
 
 ## Core Idea

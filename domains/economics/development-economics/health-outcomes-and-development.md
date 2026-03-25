@@ -6,6 +6,12 @@ course: development-economics
 prerequisites:
 - id: human-capital-accumulation-development
   type: hard
+- id: health-and-economic-development
+  type: soft
+- id: education-and-economic-development
+  type: soft
+- id: disease-health-constraints
+  type: soft
 builds-toward:
 - demographic-transition-model
 tags:
@@ -17,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Health, Nutrition, and Economic Development
 
 ## Core Idea

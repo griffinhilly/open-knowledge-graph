@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: working-memory-model
   type: soft
+- id: inhibition-of-return-location-suppression
+  type: soft
 builds-toward:
 - attention-networks-brain
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Attentional Blink and Temporal Attention Limits
 
 ## Core Idea

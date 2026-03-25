@@ -6,6 +6,8 @@ course: visual-elements-and-principles
 prerequisites:
 - id: the-seven-visual-elements
   type: hard
+- id: texture-visual-and-tactile-qualities
+  type: soft
 tags:
 - texture
 - element
@@ -14,7 +16,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Texture: Types and Qualities
 
 ## Core Idea

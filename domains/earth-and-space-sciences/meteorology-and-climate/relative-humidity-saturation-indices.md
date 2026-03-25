@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: water-vapor-saturation-mixing-ratio
   type: hard
+- id: mixing-ratio-saturation-mixing-ratio
+  type: soft
 builds-toward:
 - cape-convective-available-potential
 - lifted-condensation-level
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Relative Humidity, Saturation, and Moisture Indices
 
 ## Core Idea

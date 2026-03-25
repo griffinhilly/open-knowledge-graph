@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: proving-by-direct-method
   type: hard
+- id: proving-by-contradiction
+  type: soft
 builds-toward:
 - proving-by-contradiction
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Proving by Contrapositive
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: epsilon-delta-continuity
   type: hard
+- id: sequential-characterization-continuity
+  type: soft
+- id: sequential-continuity
+  type: soft
 builds-toward:
 - interchange-limit-integral
 - weierstrass-approximation-theorem
@@ -18,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Uniform Convergence Preserves Continuity
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: limit-of-detection-loq
   type: hard
+- id: analytical-method-equivalence-transfer
+  type: soft
 tags:
 - validation
 - acceptance criteria
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Method Validation and Acceptance Criteria
 
 ## Core Idea

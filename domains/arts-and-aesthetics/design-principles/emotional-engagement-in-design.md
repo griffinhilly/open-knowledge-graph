@@ -8,6 +8,30 @@ prerequisites:
   type: soft
 - id: visual-communication-strategy
   type: soft
+- id: emotional-tone-and-visual-personality
+  type: soft
+- id: heuristic-evaluation-in-design
+  type: soft
+- id: minimalism-and-clarity
+  type: soft
+- id: color-psychology-and-association
+  type: soft
+- id: depth-and-spatial-layering
+  type: soft
+- id: design-iteration-testing-methods
+  type: soft
+- id: alignment-spacing-modular-rhythm
+  type: soft
+- id: depth-and-spatial-illusion-2d
+  type: soft
+- id: design-affordances
+  type: soft
+- id: gesture-and-visual-flow
+  type: soft
+- id: repetition-and-visual-unity
+  type: soft
+- id: typeface-classification-and-selection
+  type: soft
 builds-toward:
 - branding-and-identity-design
 - user-experience-fundamentals
@@ -20,7 +44,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Emotional Engagement Through Design
 
 ## Core Idea

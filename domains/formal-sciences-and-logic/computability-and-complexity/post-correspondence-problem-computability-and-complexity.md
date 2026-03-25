@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: computability-reductions
   type: soft
+- id: regular-expressions-and-languages
+  type: soft
 tags:
 - computability
 - undecidability
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Post Correspondence Problem
 
 ## Core Idea

@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: p-values-and-significance
   type: soft
+- id: z-test-and-t-test-for-means
+  type: soft
+- id: z-test-t-test-means-theory
+  type: soft
 builds-toward:
 - t-test-for-means
 tags:

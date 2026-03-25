@@ -6,6 +6,12 @@ course: development-economics
 prerequisites:
 - id: gdp-and-national-income
   type: soft
+- id: gross-domestic-product-development-measurement
+  type: soft
+- id: human-development-index
+  type: soft
+- id: multidimensional-poverty-measurement
+  type: soft
 builds-toward:
 - kuznets-curve-inequality
 tags:
@@ -14,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Measuring and Understanding Income Inequality
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: atmospheric-pressure
   type: soft
+- id: control-systems-intro-engineering
+  type: soft
 builds-toward:
 - control-systems-intro-engineering
 tags:

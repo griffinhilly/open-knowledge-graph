@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: voice-leading-principles
   type: hard
+- id: chord-inversion-functional-choice
+  type: soft
+- id: jazz-voice-leading-chord-changes
+  type: soft
+- id: extended-harmony-upper-extensions-voice-leading
+  type: soft
 builds-toward:
 - harmonic-function-and-voice-leading-analysis
 tags:
@@ -17,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Voice-Leading as Expression of Harmonic Function
 
 ## Core Idea

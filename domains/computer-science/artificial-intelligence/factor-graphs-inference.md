@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: bayesian-networks-inference
   type: soft
+- id: markov-random-fields
+  type: soft
 builds-toward:
 - belief-propagation-algorithm
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Factor Graphs and Inference
 
 ## Core Idea

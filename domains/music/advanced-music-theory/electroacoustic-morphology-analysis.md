@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: timbre-evolution-analysis
   type: soft
+- id: electroacoustic-composition
+  type: soft
 builds-toward:
 - granular-synthesis-composition
 - algorithmic-composition-theory
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Electroacoustic Morphology and Analysis
 
 ## Core Idea

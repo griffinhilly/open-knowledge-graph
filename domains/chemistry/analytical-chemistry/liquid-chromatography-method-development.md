@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: diffusion-and-ficks-laws
   type: soft
+- id: gas-chromatography-method-development
+  type: soft
 tags:
 - HPLC
 - LC
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Liquid Chromatography Method Development
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ranke-scientific-history
   type: soft
+- id: ranke-school-legacy
+  type: soft
 builds-toward:
 - historical-positivism
 - quantitative-history-theory
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Is History a Science?
 
 ## Core Idea

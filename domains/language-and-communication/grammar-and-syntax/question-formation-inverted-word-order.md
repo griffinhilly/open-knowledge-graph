@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: subject-and-predicate
   type: hard
+- id: subject-auxiliary-inversion
+  type: soft
+- id: word-order-variation-emphasis
+  type: soft
+- id: adjective-order-and-coordination
+  type: soft
 builds-toward:
 - interrogative-pronouns-who-what-which
 - relative-adverbs-where-when-why
@@ -18,7 +24,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Forming Questions with Inverted Word Order
 
 ## Core Idea

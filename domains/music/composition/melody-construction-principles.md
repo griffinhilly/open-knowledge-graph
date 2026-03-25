@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: scale-degree-names-and-function
   type: soft
+- id: harmonic-support-for-melody
+  type: soft
 builds-toward:
 - harmonic-support-for-melody
 - motivic-development-strategies
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Melody Construction Principles
 
 ## Core Idea

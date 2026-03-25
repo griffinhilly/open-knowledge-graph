@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: present-value-and-discounting
   type: hard
+- id: investment-function-accelerator
+  type: soft
 builds-toward:
 - tobin-q-theory-investment
 - accelerator-principle-investment
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Investment Demand and Interest Rates
 
 ## Core Idea

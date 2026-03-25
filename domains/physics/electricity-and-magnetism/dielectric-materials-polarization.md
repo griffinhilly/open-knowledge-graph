@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: capacitor-circuits-series-parallel
   type: soft
+- id: electric-field-in-dielectrics
+  type: soft
 builds-toward:
 - dielectric-susceptibility-constant
 - energy-density-electric-field
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Dielectric Materials and Polarization
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nash-equilibrium-microeconomics
   type: hard
+- id: cartel-and-collusion
+  type: soft
 tags:
 - industrial-organization
 - collusion
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Collusion, Cartels, and Stability
 
 ## Core Idea

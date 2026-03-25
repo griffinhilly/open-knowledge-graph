@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: probability-axioms
   type: soft
-builds-toward:
-  - multi-class-evaluation
 tags:
 - confusion-matrix
 - tp

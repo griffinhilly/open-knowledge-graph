@@ -8,15 +8,13 @@ prerequisites:
   type: hard
 - id: generative-adversarial-networks
   type: soft
-- id: probability-distributions
+- id: discrete-random-variables
   type: soft
 - id: probability-density-functions
   type: hard
 - id: expected-value
   type: soft
 - id: probability-density-functions-theory
-  type: soft
-- id: kullback-leibler-divergence
   type: soft
 tags:
 - generative-models

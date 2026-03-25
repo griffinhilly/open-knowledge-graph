@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stress-tensor-inversion-from-earthquakes
   type: hard
+- id: earthquake-magnitude-frequency-gutenberg-richter
+  type: soft
 tags:
 - seismic
 - stress-transfer
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Coulomb Stress Transfer and Fault Interaction
 
 ## Core Idea

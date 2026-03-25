@@ -6,6 +6,8 @@ course: graph-theory-and-combinatorics
 prerequisites:
 - id: generating-functions-intro
   type: soft
+- id: exponential-generating-functions
+  type: soft
 builds-toward:
 - polya-enumeration-theorem
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Integer Partitions and Partition Functions
 
 ## Core Idea

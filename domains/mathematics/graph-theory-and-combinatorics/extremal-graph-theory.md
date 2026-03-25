@@ -6,13 +6,16 @@ course: graph-theory-and-combinatorics
 prerequisites:
 - id: turans-theorem
   type: soft
+- id: erdos-gallai-theorem
+  type: soft
+- id: graph-operations-and-products
+  type: soft
 tags:
 - graph-theory
 - extremal
 stage: formal-systems
 status: validated
 ---
-
 # Extremal Graph Theory and Forbidden Subgraphs
 
 ## Core Idea

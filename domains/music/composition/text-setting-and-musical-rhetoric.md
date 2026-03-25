@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: melodic-contour-recognition
   type: soft
+- id: prosody-and-text-setting-composition
+  type: soft
 tags:
 - text-setting
 - vocal-music
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Text Setting and Musical Rhetoric
 
 ## Core Idea

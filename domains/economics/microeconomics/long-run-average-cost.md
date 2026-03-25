@@ -6,6 +6,10 @@ course: microeconomics
 prerequisites:
 - id: short-run-cost-fixed-variable
   type: hard
+- id: economies-of-scale-long-run
+  type: soft
+- id: long-run-cost-structure
+  type: soft
 builds-toward:
 - profit-maximization-output-level
 - equilibrium-perfect-competition
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Long-Run Average Cost and Economies of Scale
 
 ## Core Idea

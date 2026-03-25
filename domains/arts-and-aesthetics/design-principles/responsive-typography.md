@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: responsive-design-principles
   type: hard
+- id: typography-readability-legibility
+  type: soft
+- id: typography-as-hierarchy-element
+  type: soft
+- id: kerning-and-letter-spacing
+  type: soft
+- id: typeface-classification-and-selection
+  type: soft
 tags:
 - typography
 - responsive
@@ -15,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Responsive Typography Across Devices
 
 ## Core Idea

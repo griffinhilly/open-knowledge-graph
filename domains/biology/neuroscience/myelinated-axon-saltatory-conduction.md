@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: neuron-structure-and-function
   type: hard
+- id: saltatory-conduction
+  type: soft
 builds-toward:
 - hodgkin-huxley-model
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Saltatory Conduction in Myelinated Axons
 
 ## Core Idea

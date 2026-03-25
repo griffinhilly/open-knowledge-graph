@@ -6,6 +6,8 @@ course: advanced-music-theory
 prerequisites:
 - id: canon-techniques-advanced
   type: hard
+- id: gestalt-perception-analysis
+  type: soft
 builds-toward:
 - invertible-counterpoint-extended
 - algorithmic-composition-theory
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Canonic Imitation and Structural Analysis
 
 ## Core Idea

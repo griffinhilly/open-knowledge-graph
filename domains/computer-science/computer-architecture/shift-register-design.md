@@ -9,7 +9,7 @@ prerequisites:
 - id: sequential-circuit-design
   type: soft
 builds-toward:
-- state-machine-in-processor-design
+- finite-state-machine-processor-design
 tags:
 - sequential-circuits
 - shift-register

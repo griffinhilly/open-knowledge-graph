@@ -6,6 +6,8 @@ course: methods-of-proof
 prerequisites:
 - id: statements-and-logical-connectives
   type: hard
+- id: biconditional-and-equivalence
+  type: soft
 builds-toward:
 - logical-equivalences
 - contrapositive-converse-and-inverse
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Conditional and Biconditional Statements
 
 ## Core Idea

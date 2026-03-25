@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: pencil-shading
   type: soft
+- id: ink-drawing-and-pen-techniques
+  type: soft
 builds-toward:
 - chiaroscuro
 - still-life-composition
@@ -21,7 +23,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Charcoal Drawing Techniques
 
 ## Core Idea

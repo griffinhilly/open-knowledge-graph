@@ -6,6 +6,8 @@ course: grammar-and-syntax
 prerequisites:
 - id: verbs-intro
   type: hard
+- id: irregular-nouns-and-verbs
+  type: soft
 builds-toward:
 - verb-tense-simple-past-present-future
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Verbs: Action and State
 
 ## Core Idea

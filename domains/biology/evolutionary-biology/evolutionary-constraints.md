@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: phylogenetic-inference
   type: soft
+- id: heterochrony-development-evolution
+  type: soft
 builds-toward:
 - evolvability
 - major-evolutionary-innovations
@@ -21,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Constraints on Evolutionary Change
 
 ## Core Idea

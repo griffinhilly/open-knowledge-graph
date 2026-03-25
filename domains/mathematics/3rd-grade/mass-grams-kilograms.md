@@ -6,6 +6,8 @@ course: 3rd-grade
 prerequisites:
 - id: measurement-comparison-weight
   type: hard
+- id: measuring-weight-objects-3rd
+  type: soft
 builds-toward:
 - measurement-conversions-metric
 - converting-metric-units
@@ -18,7 +20,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Mass: Grams and Kilograms
 
 ## Core Idea

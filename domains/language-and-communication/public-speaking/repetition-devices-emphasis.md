@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: vocal-emphasis-and-stress
   type: hard
+- id: silence-pausing-strategic-use
+  type: soft
 tags:
 - repetition
 - anaphora
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Repetition Devices and Rhetorical Emphasis
 
 ## Core Idea

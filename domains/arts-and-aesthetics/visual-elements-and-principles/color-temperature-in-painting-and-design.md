@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mixing-colors-additive-and-subtractive
   type: soft
+- id: color-temperature-spatial-effects
+  type: soft
 builds-toward:
 - visual-contrast-in-elements
 - harmony-unity-and-visual-cohesion
@@ -19,7 +21,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Color Temperature: Warm and Cool
 
 ## Core Idea

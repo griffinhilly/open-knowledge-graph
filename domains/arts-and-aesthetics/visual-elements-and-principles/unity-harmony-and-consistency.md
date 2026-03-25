@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: composition-and-visual-organization
   type: soft
+- id: harmony-unity-and-visual-cohesion
+  type: soft
 tags:
 - unity
 - principle
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Unity, Harmony, and Consistency
 
 ## Core Idea

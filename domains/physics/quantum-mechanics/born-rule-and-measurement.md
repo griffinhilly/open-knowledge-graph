@@ -6,6 +6,8 @@ course: quantum-mechanics
 prerequisites:
 - id: quantum-postulates
   type: hard
+- id: quantum-measurement-problem
+  type: soft
 builds-toward:
 - measurement-problem
 - entanglement
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Born Rule and Quantum Measurement
 
 ## Core Idea

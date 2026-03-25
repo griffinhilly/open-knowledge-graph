@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: adaptation-and-fitness
   type: soft
+- id: directional-selection
+  type: soft
 builds-toward:
 - evolution-of-sex
 - signal-evolution
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Sexual Selection
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: harmonic-function-voice-leading-tension-resolution
   type: hard
+- id: borrowed-chord-chromatic-mixture
+  type: soft
 tags:
 - borrowed-chord
 - mixture
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Borrowed Chords, Parallel Modes, and Voice-Leading Strategies
 
 ## Core Idea

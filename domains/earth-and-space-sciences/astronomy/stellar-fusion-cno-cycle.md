@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: carbon-chemistry
   type: soft
+- id: variable-stars-and-asteroseismology
+  type: soft
 builds-toward:
 - main-sequence-lifetime-mass-luminosity-relation
 tags:
@@ -26,7 +28,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # The CNO Cycle: Stellar Fusion in Massive Stars
 
 ## Core Idea

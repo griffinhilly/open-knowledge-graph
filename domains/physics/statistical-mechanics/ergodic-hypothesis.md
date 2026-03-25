@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ensemble-theory-fundamentals
   type: hard
+- id: liouville-theorem-statistical-mechanics
+  type: soft
 builds-toward:
 - ergodicity-breaking
 - time-correlation-functions
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # The Ergodic Hypothesis
 
 ## Core Idea

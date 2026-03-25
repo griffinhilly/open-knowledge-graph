@@ -6,6 +6,8 @@ course: discrete-math
 prerequisites:
 - id: directed-graphs-and-digraphs
   type: hard
+- id: topological-sorting
+  type: soft
 builds-toward:
 - directed-acyclic-graphs
 - strongly-connected-components
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Cycle Detection in Directed Graphs
 
 ## Core Idea

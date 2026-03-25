@@ -6,6 +6,8 @@ course: neuroscience
 prerequisites:
 - id: synaptic-transmission
   type: hard
+- id: serotonin-systems
+  type: soft
 builds-toward:
 - autonomic-sympathetic-parasympathetic
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Serotonergic System: Mood, Anxiety, and Behavioral Control
 
 ## Core Idea

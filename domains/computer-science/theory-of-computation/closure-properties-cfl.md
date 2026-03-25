@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: closure-properties-regular-languages
   type: soft
+- id: context-free-grammar-properties-and-ambiguity
+  type: soft
 builds-toward:
 - pumping-lemma-cfl
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Closure Properties of Context-Free Languages
 
 ## Core Idea

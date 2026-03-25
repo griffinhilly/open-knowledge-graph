@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: consumer-theory-utility
   type: soft
+- id: environmental-sustainability-development
+  type: soft
 tags:
 - inequality
 - distribution
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Inequality and Development
 
 ## Core Idea

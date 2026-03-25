@@ -8,8 +8,10 @@ prerequisites:
   type: hard
 - id: real-vs-nominal-gdp
   type: hard
+- id: recession-definition-measurement-dating
+  type: soft
 builds-toward:
-  - fiscal-policy-macroeconomics
+- fiscal-policy-macroeconomics
 tags:
 - cycles
 - gap

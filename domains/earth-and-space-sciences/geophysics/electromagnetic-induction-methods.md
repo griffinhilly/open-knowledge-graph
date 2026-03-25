@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: electromagnetic-waves
   type: soft
+- id: magnetotelluric-methods-em-induction
+  type: soft
 builds-toward:
 - magnetotelluric-methods-em-induction
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Electromagnetic Induction and Transient Methods
 
 ## Core Idea

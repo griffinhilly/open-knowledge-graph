@@ -6,6 +6,10 @@ course: advanced-linguistics
 prerequisites:
 - id: montague-semantics
   type: hard
+- id: presupposition-projection-problem
+  type: soft
+- id: context-update-semantics
+  type: soft
 builds-toward:
 - formal-pragmatics-context
 tags:
@@ -15,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Presupposition and Assertion
 
 ## Core Idea

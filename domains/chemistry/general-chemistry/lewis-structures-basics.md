@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electron-configuration
   type: soft
+- id: valence-electrons-and-reactivity
+  type: soft
 builds-toward:
 - molecular-geometry-prediction
 - resonance-structures
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Lewis Dot Structures: Representing Valence Electrons and Bonding
 
 ## Core Idea

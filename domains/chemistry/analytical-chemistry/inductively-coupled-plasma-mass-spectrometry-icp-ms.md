@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mass-spectrometry-analytical
   type: hard
+- id: atomic-emission-spectroscopy-icp-oes
+  type: soft
 tags:
 - ICP-MS
 - trace-analysis
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Inductively Coupled Plasma-Mass Spectrometry: ICP-MS
 
 ## Core Idea

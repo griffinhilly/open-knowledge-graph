@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: approximation-algorithms
   type: soft
+- id: fixed-parameter-tractability
+  type: soft
 tags:
 - parameterized-complexity
 - fpt
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Parameterized Complexity and Fixed-Parameter Tractability
 
 ## Core Idea

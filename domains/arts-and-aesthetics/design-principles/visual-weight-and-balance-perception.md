@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: contrast-and-focal-emphasis
   type: soft
+- id: balance-and-visual-equilibrium
+  type: soft
+- id: gestalt-grouping-proximity
+  type: soft
 tags:
 - visual-weight
 - balance
@@ -17,7 +21,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Visual Weight and Balance Perception
 
 ## Core Idea

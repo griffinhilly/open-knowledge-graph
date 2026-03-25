@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: observational-drawing-practice
   type: hard
+- id: ear-structure-and-proportion
+  type: soft
+- id: mouth-and-nose-structure
+  type: soft
+- id: tree-and-foliage-rendering
+  type: soft
 builds-toward:
 - portraiture-fundamentals
 tags:
@@ -18,7 +24,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Eye Structure and Portrait Rendering
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: disturbance-and-ecosystem-recovery
   type: soft
+- id: disturbance-ecology-and-succession-dynamics
+  type: soft
 builds-toward:
 - restoration-ecology-principles
 - community-stability-resistance-resilience
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Secondary Succession and Post-Disturbance Recovery
 
 ## Core Idea

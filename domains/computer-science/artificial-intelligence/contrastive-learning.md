@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: representation-learning
   type: hard
-builds-toward:
-- metric-learning
-- similarity-learning
 tags:
 - contrastive
 - similarity

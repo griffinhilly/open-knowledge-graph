@@ -6,6 +6,10 @@ course: econometrics
 prerequisites:
 - id: r-squared-goodness-of-fit
   type: hard
+- id: information-criteria-model-selection
+  type: soft
+- id: hausman-test-fe-versus-re
+  type: soft
 builds-toward:
 - information-criteria-model-selection
 tags:
@@ -14,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Adjusted R-Squared for Model Comparison
 
 ## Core Idea

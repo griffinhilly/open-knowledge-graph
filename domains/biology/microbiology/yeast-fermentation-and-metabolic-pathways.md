@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: microbial-fermentation
   type: hard
+- id: industrial-fermentation-and-production-microbiology
+  type: soft
 builds-toward:
 - microbial-biotechnology-industrial-applications
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Yeast Fermentation and Industrial Metabolic Applications
 
 ## Core Idea

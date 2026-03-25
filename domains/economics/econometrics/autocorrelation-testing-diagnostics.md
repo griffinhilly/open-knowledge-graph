@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: serial-correlation
   type: hard
+- id: durbin-watson-statistic
+  type: soft
 tags:
 - autocorrelation
 - durbin-watson
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Testing for Autocorrelation: Durbin-Watson and Breusch-Godfrey
 
 ## Core Idea

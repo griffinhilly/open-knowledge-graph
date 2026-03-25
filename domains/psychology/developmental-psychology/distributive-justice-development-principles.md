@@ -6,6 +6,8 @@ course: developmental-psychology
 prerequisites:
 - id: moral-development-kohlberg
   type: hard
+- id: care-versus-justice-frameworks-moral-reasoning
+  type: soft
 builds-toward:
 - conventional-to-postconventional-morality
 - peer-relationships-and-social-competence
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Distributive Justice Principles and Development
 
 ## Core Idea

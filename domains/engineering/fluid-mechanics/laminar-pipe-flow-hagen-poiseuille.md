@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: entrance-region-developing-flow-pipe
   type: soft
+- id: hagen-poiseuille-flow
+  type: soft
+- id: laminar-entrance-length-development
+  type: soft
 builds-toward:
 - friction-factor-darcy-weisbach-equation
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Laminar Pipe Flow (Hagen-Poiseuille)
 
 ## Core Idea

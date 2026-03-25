@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: inflation-expectations-formation-macro
   type: hard
+- id: supply-shock-stagflation-effects
+  type: soft
 builds-toward:
 - stagflation-and-conflicting-policy
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # The Expectations-Augmented Phillips Curve
 
 ## Core Idea

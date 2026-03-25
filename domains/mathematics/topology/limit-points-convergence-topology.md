@@ -6,6 +6,10 @@ course: topology
 prerequisites:
 - id: neighborhoods-in-topology
   type: hard
+- id: limit-points-topology-definition
+  type: soft
+- id: convergence-in-topology
+  type: soft
 builds-toward:
 - hausdorff-spaces
 - sequential-compactness
@@ -16,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Limit Points and Convergence
 
 ## Core Idea

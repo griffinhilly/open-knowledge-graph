@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: refractive-index-and-dispersion
   type: soft
+- id: wavelength-color-refractive-index
+  type: soft
 builds-toward:
 - dispersion-and-prisms
 - thin-lenses
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Refractive Index: Definition and Wavelength Dependence
 
 ## Core Idea

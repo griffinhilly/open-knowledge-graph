@@ -3,7 +3,9 @@ id: counting-to-five
 title: Counting to Five
 domain: mathematics
 course: kindergarten
-prerequisites: []
+prerequisites:
+- id: number-zero-concept
+  type: soft
 builds-toward:
 - counting-to-ten
 - subitizing-to-five
@@ -14,7 +16,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Counting to Five
 
 ## Core Idea

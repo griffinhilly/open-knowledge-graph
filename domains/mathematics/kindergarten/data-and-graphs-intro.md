@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: scaled-bar-graphs
   type: soft
+- id: picture-graph-simple
+  type: soft
 tags:
 - data
 - graphs

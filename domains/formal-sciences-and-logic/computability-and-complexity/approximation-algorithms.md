@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: algorithm-analysis-big-o
   type: soft
+- id: knapsack-problem-variations
+  type: soft
 tags:
 - complexity
 - approximation
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Approximation Algorithms
 
 ## Core Idea

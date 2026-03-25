@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: steady-state-error-analysis
   type: soft
+- id: root-locus-gain-design
+  type: soft
 builds-toward:
 - lead-lag-compensators
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Controller Design via Root Locus
 
 ## Core Idea

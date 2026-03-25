@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: graphing-sine-and-cosine
   type: soft
+- id: transverse-wave-characteristics
+  type: soft
 builds-toward:
 - wave-speed-medium
 - transverse-and-longitudinal-waves
@@ -25,7 +27,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Wave Properties: Wavelength, Frequency, and Amplitude
 
 ## Core Idea

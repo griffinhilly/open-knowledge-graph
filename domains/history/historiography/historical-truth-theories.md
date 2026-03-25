@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: historical-objectivity-problem
   type: hard
+- id: historical-truth-and-representation
+  type: soft
+- id: marxist-historiography-theory
+  type: soft
 builds-toward:
 - historical-narrative-theory
 - postmodern-historiography
@@ -18,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Theories of Historical Truth
 
 ## Core Idea

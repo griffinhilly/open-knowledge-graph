@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: bivariate-regression
   type: soft
+- id: interaction-terms-regression
+  type: soft
+- id: quasi-maximum-likelihood-estimation
+  type: soft
 builds-toward:
 - normal-linear-regression-model
 - coefficient-interpretation-regression
@@ -19,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Simple Linear Regression Estimation
 
 ## Core Idea

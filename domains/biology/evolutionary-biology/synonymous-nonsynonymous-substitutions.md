@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: molecular-evolution
   type: hard
+- id: codon-bias-and-selection
+  type: soft
+- id: nearly-neutral-evolution
+  type: soft
+- id: positive-selection
+  type: soft
+- id: horizontal-gene-transfer
+  type: soft
 builds-toward:
 - selection-detection
 - molecular-adaptation
@@ -17,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Synonymous vs. Non-synonymous Substitutions
 
 ## Core Idea

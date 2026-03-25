@@ -6,6 +6,8 @@ course: research-methods-psychology
 prerequisites:
 - id: research-question-formulation-specificity
   type: soft
+- id: sample-size-determination-practical-application
+  type: soft
 builds-toward:
 - hypothesis-construction-directional-nondirectional
 - internal-validity-and-threats
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Literature Review and Research Synthesis
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: lewis-structures
   type: hard
+- id: resonance-structures
+  type: soft
 builds-toward:
 - molecular-polarity
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Resonance and Formal Charge
 
 ## Core Idea

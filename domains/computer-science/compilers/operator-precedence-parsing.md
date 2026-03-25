@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: parsing-problem-overview
   type: hard
+- id: lookahead-and-parsing-power
+  type: soft
 builds-toward:
 - grammar-design-for-compilation
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Operator Precedence Parsing
 
 ## Core Idea

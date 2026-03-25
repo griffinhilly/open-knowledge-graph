@@ -9,7 +9,7 @@ prerequisites:
 - id: memory-bus-interconnect
   type: soft
 builds-toward:
-- io-subsystem-design
+- io-systems-overview
 tags:
 - dma
 - io-transfer

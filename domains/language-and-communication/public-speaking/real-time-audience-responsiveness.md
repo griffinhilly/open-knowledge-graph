@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: extemporaneous-speaking
   type: soft
+- id: audience-heterogeneity-adaptation
+  type: soft
+- id: audience-expectation-and-adaptation
+  type: soft
+- id: attention-management-throughout-speech
+  type: soft
 tags:
 - audience
 - adaptation
@@ -17,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Adapting Delivery and Content Based on Live Audience Feedback
 
 ## Core Idea

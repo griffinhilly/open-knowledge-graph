@@ -10,8 +10,10 @@ prerequisites:
   type: hard
 - id: positionality-in-history
   type: soft
+- id: historical-positivism
+  type: soft
 builds-toward:
-  - postmodern-historiography
+- postmodern-historiography
 tags:
 - objectivity
 - perspective

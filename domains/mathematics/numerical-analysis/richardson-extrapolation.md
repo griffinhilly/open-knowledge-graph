@@ -6,6 +6,8 @@ course: numerical-analysis
 prerequisites:
 - id: numerical-differentiation
   type: hard
+- id: richardsons-extrapolation
+  type: soft
 builds-toward:
 - romberg-integration
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Richardson Extrapolation
 
 ## Core Idea

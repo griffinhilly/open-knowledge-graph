@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: polar-coordinates
   type: hard
+- id: stability-of-circular-orbits
+  type: soft
+- id: orbital-stability-mechanics
+  type: soft
 tags:
 - central-forces
 - orbits
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Central Force Motion and Orbital Dynamics
 
 ## Core Idea

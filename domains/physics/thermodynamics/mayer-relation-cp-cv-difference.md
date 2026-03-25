@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: enthalpy-definition-and-significance
   type: hard
+- id: daltons-law-mixtures
+  type: soft
+- id: boyles-charles-law-ideal-gas
+  type: soft
 tags:
 - heat-capacity
 - ideal-gas
@@ -15,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Mayer's Relation: Cp − Cv = R
 
 ## Core Idea

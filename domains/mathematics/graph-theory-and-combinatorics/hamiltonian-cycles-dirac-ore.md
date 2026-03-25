@@ -6,13 +6,14 @@ course: graph-theory-and-combinatorics
 prerequisites:
 - id: hamiltonian-circuits
   type: hard
+- id: hamiltonian-cycle-conditions
+  type: soft
 tags:
 - graph-theory
 - hamiltonicity
 stage: formal-systems
 status: validated
 ---
-
 # Hamiltonian Cycles: Dirac and Ore Conditions
 
 ## Core Idea

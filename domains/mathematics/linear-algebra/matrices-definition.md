@@ -3,7 +3,9 @@ id: matrices-definition
 title: 'Matrices: Definition, Notation, and Special Types'
 domain: mathematics
 course: linear-algebra
-prerequisites: []
+prerequisites:
+- id: matrices-intro-linear-algebra
+  type: soft
 builds-toward:
 - matrix-addition-subtraction
 - matrix-multiplication
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Matrices: Definition, Notation, and Special Types
 
 ## Core Idea

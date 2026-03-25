@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: harmonic-dictation-basic
   type: hard
+- id: tonicization-detection-ear
+  type: soft
 builds-toward:
 - modulation-detection-by-ear
 - tonicization
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Tonicization and Secondary Dominants
 
 ## Core Idea

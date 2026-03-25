@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - arithmetic-operators
-- type-conversion-casting
-- type-conversion-intro
+- type-conversion
 tags:
 - types
 - numbers

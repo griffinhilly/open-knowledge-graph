@@ -9,7 +9,7 @@ prerequisites:
 - id: hardwired-microprogrammed-control
   type: soft
 builds-toward:
-- hazard-detection-and-stalling
+- data-hazards-control-hazards
 tags:
 - control-unit
 - processor-design

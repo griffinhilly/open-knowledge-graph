@@ -6,6 +6,8 @@ course: astronomy
 prerequisites:
 - id: post-main-sequence-evolution-pathways
   type: hard
+- id: pulsar-timing-and-physics
+  type: soft
 tags:
 - compact-objects
 - neutron-stars
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Neutron Stars and Pulsars
 
 ## Core Idea

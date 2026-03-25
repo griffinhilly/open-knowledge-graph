@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: functional-harmony
   type: soft
+- id: tonal-system-and-major-minor-tonality
+  type: soft
 builds-toward:
 - romantic-expansion-and-harmonic-ambiguity
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Harmonic Innovation: Baroque to Classical Transition
 
 ## Core Idea

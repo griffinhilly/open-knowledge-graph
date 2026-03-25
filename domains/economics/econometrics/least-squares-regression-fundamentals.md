@@ -20,6 +20,14 @@ prerequisites:
   type: soft
 - id: linear-regression
   type: soft
+- id: interaction-terms-regression
+  type: soft
+- id: polynomial-regression-econometrics
+  type: soft
+- id: feasible-generalized-least-squares-fgls
+  type: soft
+- id: weighted-least-squares
+  type: soft
 builds-toward:
 - gauss-markov-theorem-ols
 - estimator-consistency-unbiasedness
@@ -30,7 +38,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Least Squares Regression: Fundamentals and Derivation
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: quantum-mechanics
 prerequisites:
 - id: hydrogen-atom-solution
   type: hard
+- id: scattering-theory-quantum
+  type: soft
 builds-toward:
 - born-approximation
 - partial-wave-analysis
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Introduction to Scattering Theory
 
 ## Core Idea

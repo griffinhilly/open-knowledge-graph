@@ -8,6 +8,12 @@ prerequisites:
   type: soft
 - id: random-assignment
   type: soft
+- id: quasi-experimental-designs-nonequivalent-groups
+  type: soft
+- id: quasi-experimental-non-randomized-designs
+  type: soft
+- id: mixed-factorial-designs
+  type: soft
 builds-toward:
 - internal-validity-and-threats
 - longitudinal-design-methods
@@ -18,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Quasi-Experimental Designs and Interrupted Time Series
 
 ## Core Idea

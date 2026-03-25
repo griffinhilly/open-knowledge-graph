@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: universal-grammar-hypothesis
   type: hard
+- id: l2-acquisition-interlanguage
+  type: soft
 tags:
 - acquisition
 - parameters
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Parameter Learning in Language Acquisition
 
 ## Core Idea

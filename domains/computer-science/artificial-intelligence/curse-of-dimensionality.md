@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - principal-component-analysis
-- feature-selection
+- feature-engineering-selection
 tags:
 - dimensionality
 - high-dimensional

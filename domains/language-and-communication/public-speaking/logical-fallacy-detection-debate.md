@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: debate-format-and-structure
   type: hard
+- id: logical-chain-construction-orality
+  type: soft
 tags:
 - fallacies
 - logic
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Identifying and Refuting Logical Fallacies in Debate
 
 ## Core Idea

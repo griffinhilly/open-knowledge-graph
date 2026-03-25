@@ -6,6 +6,8 @@ course: differential-equations
 prerequisites:
 - id: integration-by-parts
   type: hard
+- id: rlc-circuits
+  type: soft
 builds-toward:
 - separable-differential-equations
 - first-order-linear-odes
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Introduction to Differential Equations
 
 ## Core Idea

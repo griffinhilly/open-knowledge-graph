@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: exponential-functions-and-graphs
   type: soft
+- id: frequency-modulation-synthesis-theory
+  type: soft
 builds-toward:
 - algorithmic-composition-theory
 - spectral-harmony-overtone-analysis
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Granular Synthesis and Composition
 
 ## Core Idea

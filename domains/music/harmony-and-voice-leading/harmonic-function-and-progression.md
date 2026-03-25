@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: harmonic-analysis-roman-numeral-function
   type: hard
+- id: voice-leading-serves-harmonic-function
+  type: soft
 builds-toward:
 - secondary-dominant-voice-leading
 - cadential-voice-leading-patterns
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Harmonic Function and Chord Progressions
 
 ## Core Idea

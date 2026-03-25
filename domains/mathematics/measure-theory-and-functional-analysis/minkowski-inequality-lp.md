@@ -6,6 +6,8 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: lp-norm-metric
   type: hard
+- id: holders-inequality
+  type: soft
 builds-toward:
 - lp-space-completeness-riesz-fischer
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Minkowski's Inequality for L^p Spaces
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: spacing-consolidation-learning
   type: soft
+- id: expert-cognition-knowledge-organization
+  type: soft
 tags:
 - expertise
 - learning
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Expertise and Knowledge Reorganization
 
 ## Core Idea

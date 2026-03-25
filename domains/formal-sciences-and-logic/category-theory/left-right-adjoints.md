@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: universal-properties
   type: hard
+- id: free-and-forgetful-functors
+  type: soft
 builds-toward:
 - kan-extensions
 - topos-theory-intro
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Left and Right Adjoints
 
 ## Core Idea

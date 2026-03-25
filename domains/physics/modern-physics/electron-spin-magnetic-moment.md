@@ -6,6 +6,8 @@ course: modern-physics
 prerequisites:
 - id: spin-angular-momentum
   type: hard
+- id: electron-cloud-orbital-shapes
+  type: soft
 builds-toward:
 - zeeman-effect-magnetic-splitting
 - stern-gerlach-sequential-measurements
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Electron Spin and Intrinsic Magnetic Moment
 
 ## Core Idea

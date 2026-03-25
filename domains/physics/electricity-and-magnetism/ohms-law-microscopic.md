@@ -6,6 +6,8 @@ course: electricity-and-magnetism
 prerequisites:
 - id: current-and-continuity
   type: hard
+- id: microscopic-ohms-law-drift-velocity
+  type: soft
 builds-toward:
 - resistor-combinations
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ohm's Law: Microscopic and Macroscopic Forms
 
 ## Core Idea

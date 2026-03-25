@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: source-credibility-assessment
   type: hard
+- id: academic-writing-conventions
+  type: soft
 builds-toward:
 - research-question-thesis-connection
 - evidence-hierarchy-support
@@ -19,7 +21,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Evaluating Sources for Academic Writing
 
 ## Core Idea

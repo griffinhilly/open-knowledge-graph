@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: independent-clauses
   type: hard
+- id: interjections-and-exclamations
+  type: soft
+- id: comma-rules-introduction
+  type: soft
 builds-toward:
 - semicolons-and-colons
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Comma Splices and Run-On Sentences
 
 ## Core Idea

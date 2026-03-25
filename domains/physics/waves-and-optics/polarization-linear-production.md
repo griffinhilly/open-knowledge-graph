@@ -6,6 +6,10 @@ course: waves-and-optics
 prerequisites:
 - id: polarization-of-light
   type: hard
+- id: polarization-production-and-analysis
+  type: soft
+- id: circular-elliptical-polarization
+  type: soft
 builds-toward:
 - polarization-production-and-analysis
 tags:
@@ -15,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Linear Polarization: Production and Analysis Methods
 
 ## Core Idea

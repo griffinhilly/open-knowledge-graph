@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: algorithm-design-basics
   type: hard
+- id: heuristic-search-functions
+  type: soft
 tags:
 - constraint-solving
 - search
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Constraint Satisfaction Problem Solving
 
 ## Core Idea

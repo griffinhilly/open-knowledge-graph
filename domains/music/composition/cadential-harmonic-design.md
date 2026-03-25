@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: cadential-motion-structural-function
   type: hard
+- id: cadential-design-and-structural-closure
+  type: soft
 builds-toward:
 - form-and-phrase-architecture
 - sonata-form-composition
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Cadential Harmonic Design
 
 ## Core Idea

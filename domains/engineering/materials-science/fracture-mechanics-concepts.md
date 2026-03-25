@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: fracture-mechanics
   type: soft
+- id: fracture-mechanics-analysis
+  type: soft
 tags:
 - fracture-mechanics
 - stress-intensity-factor
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Linear Elastic Fracture Mechanics
 
 ## Core Idea

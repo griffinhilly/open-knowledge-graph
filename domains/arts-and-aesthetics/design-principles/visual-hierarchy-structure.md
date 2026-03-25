@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: emphasis-and-focal-point
   type: hard
+- id: typography-as-hierarchy-element
+  type: soft
 builds-toward:
 - information-hierarchy-and-wayfinding
 - ui-design-fundamentals
@@ -20,7 +22,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Visual Hierarchy and Information Structure
 
 ## Core Idea

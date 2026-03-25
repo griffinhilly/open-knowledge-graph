@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: paleomagnetic-dating-and-stratigraphy
   type: hard
+- id: paleomagnetic-reversal-magnetostratigraphy
+  type: soft
 tags:
 - paleomagnetism
 - magnetostratigraphy
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Magnetostratigraphy and Paleomagnetic Dating
 
 ## Core Idea

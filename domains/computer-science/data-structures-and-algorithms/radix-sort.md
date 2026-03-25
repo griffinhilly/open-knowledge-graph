@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: algorithm-design-basics
   type: soft
+- id: selection-sort
+  type: soft
 tags:
 - sorting
 - radix-sort
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Radix Sort Algorithm
 
 ## Core Idea

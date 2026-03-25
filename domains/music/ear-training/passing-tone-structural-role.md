@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: harmonic-dictation-basic
   type: soft
+- id: passing-tone-identification-ear
+  type: soft
 builds-toward:
 - non-harmonic-tone-usage
 - diatonic-non-harmonic-tone-detection
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Passing Tone Identification and Structural Role
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dataflow-analysis
   type: hard
+- id: dead-code-elimination
+  type: soft
 builds-toward:
 - code-generation
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Vectorization and SIMD Code Generation
 
 ## Core Idea

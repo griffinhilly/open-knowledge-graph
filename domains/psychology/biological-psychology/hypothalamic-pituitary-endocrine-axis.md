@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: endocrine-system-overview
   type: soft
+- id: hypothalamic-pituitary-adrenal-hpa-axis
+  type: soft
 tags:
 - hypothalamus
 - pituitary
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Hypothalamic-Pituitary Endocrine Axis
 
 ## Core Idea

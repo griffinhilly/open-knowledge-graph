@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: systematic-observation-coding-analysis
   type: soft
+- id: missing-data-mechanisms-patterns-imputation
+  type: soft
 builds-toward:
 - descriptive-analysis-visualization-summary
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Data Preparation, Screening, and Quality Assurance
 
 ## Core Idea

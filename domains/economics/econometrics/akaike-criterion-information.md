@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: maximum-likelihood-econometrics
   type: soft
+- id: adjusted-r-squared-model-comparison
+  type: soft
+- id: hausman-test-fe-versus-re
+  type: soft
 builds-toward:
 - quasi-maximum-likelihood-estimation
 tags:
@@ -16,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Information Criteria: AIC and BIC for Model Selection
 
 ## Core Idea

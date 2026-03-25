@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: igneous-rocks-formation
   type: soft
+- id: volcanoes-basics
+  type: soft
 builds-toward:
 - volcanoes-and-volcanism
 - volcano-classification-magma-types
@@ -23,7 +25,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Volcanoes and Magma
 
 ## Core Idea

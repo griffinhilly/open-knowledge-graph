@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: economic-growth-theory
   type: soft
+- id: banking-services-and-development
+  type: soft
 builds-toward:
 - export-diversification-and-growth
 - foreign-direct-investment
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Trade, Comparative Advantage, and Development
 
 ## Core Idea

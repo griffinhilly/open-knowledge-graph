@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: graph-theory-fundamentals
   type: soft
+- id: clique-problem-np-complete
+  type: soft
 builds-toward:
 - fixed-parameter-tractability
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Vertex Cover and Set Cover Problems
 
 ## Core Idea

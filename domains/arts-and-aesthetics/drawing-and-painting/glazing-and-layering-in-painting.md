@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: monochromatic-underpainting-and-values
   type: soft
+- id: burnishing-and-layering-graphite
+  type: soft
 builds-toward:
 - oil-painting-basics
 - acrylic-painting-fundamentals
@@ -21,7 +23,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Glazing and Layering in Painting
 
 ## Core Idea

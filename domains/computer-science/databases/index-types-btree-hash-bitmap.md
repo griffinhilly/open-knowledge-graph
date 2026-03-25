@@ -7,7 +7,7 @@ prerequisites:
 - id: b-trees
   type: hard
 builds-toward:
-  - index-design-selection
+- index-selection-optimization
 tags:
 - index-types
 - B-tree

@@ -20,7 +20,7 @@ prerequisites:
   type: soft
 builds-toward:
 - algorithm-design-basics
-- tail-recursion-and-iterative-thinking
+- recursion-tail-recursion-optimization
 tags:
 - recursion
 - base case

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: jazz-as-art-and-culture
   type: soft
+- id: jazz-history-and-development
+  type: soft
+- id: popular-music-genres-20th-century
+  type: soft
 tags:
 - blues
 - african-american
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Blues: Structure and African American Roots
 
 ## Core Idea

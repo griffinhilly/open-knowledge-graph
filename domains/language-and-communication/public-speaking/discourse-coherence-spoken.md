@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: speech-structure-and-organization
   type: soft
+- id: cohesive-transitions-spoken
+  type: soft
+- id: speaker-memory-systems
+  type: soft
 tags:
 - coherence
 - organization
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Maintaining Logical Flow and Coherence in Live Speech
 
 ## Core Idea

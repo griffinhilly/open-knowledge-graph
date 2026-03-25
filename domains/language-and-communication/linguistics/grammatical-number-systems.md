@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: morphological-structure
   type: hard
+- id: grammatical-gender-systems
+  type: soft
 tags:
 - typology
 - morphology
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Grammatical Number Systems
 
 ## Core Idea

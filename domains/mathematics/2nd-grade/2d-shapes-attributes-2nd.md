@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: classifying-and-sorting-shapes
   type: soft
+- id: 3d-shapes-sorting-2nd
+  type: soft
 tags:
 - shapes
 - 2d-shapes
@@ -15,7 +17,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Attributes of Two-Dimensional Shapes
 
 ## Core Idea

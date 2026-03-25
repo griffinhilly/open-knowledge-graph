@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: support-reactions-beams
   type: hard
+- id: internal-forces-members
+  type: soft
 builds-toward:
 - rigid-body-kinetics-force-acceleration
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Shear Force and Bending Moment Diagrams
 
 ## Core Idea

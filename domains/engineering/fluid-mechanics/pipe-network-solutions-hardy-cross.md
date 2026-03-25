@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: minor-loss-coefficients-fittings
   type: soft
+- id: pipe-networks-series-parallel-analysis
+  type: soft
 tags:
 - networks
 - iteration
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Pipe Network Analysis: Hardy-Cross Iteration Method
 
 ## Core Idea

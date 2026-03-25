@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: synchronous-logic-and-clocks
   type: soft
+- id: processor-control-unit-design
+  type: soft
+- id: microinstruction-and-control-signals
+  type: soft
 builds-toward:
 - single-cycle-processor-design
 - multi-cycle-processor-design
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Finite State Machines in Processor Control
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: recursively-enumerable-languages
   type: hard
+- id: turing-degrees
+  type: soft
 builds-toward:
 - complexity-lower-bounds
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Turing Degrees and Degrees of Unsolvability
 
 ## Core Idea

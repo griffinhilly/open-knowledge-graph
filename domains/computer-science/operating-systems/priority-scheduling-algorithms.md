@@ -6,6 +6,10 @@ course: operating-systems
 prerequisites:
 - id: cpu-scheduling-basics
   type: hard
+- id: round-robin-scheduling
+  type: soft
+- id: fcfs-scheduling-algorithm
+  type: soft
 tags:
 - scheduling-algorithms
 - priority-based
@@ -13,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Priority Scheduling Algorithms
 
 ## Core Idea

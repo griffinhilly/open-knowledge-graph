@@ -6,6 +6,8 @@ course: 3rd-grade
 prerequisites:
 - id: multiplication-facts-threes-through-nines
   type: hard
+- id: making-change-and-money-word-problems
+  type: soft
 builds-toward:
 - multi-step-word-problems-3rd
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Multiplication Word Problems
 
 ## Core Idea

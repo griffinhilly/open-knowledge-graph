@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: carbonyl-reduction-to-alcohols
   type: soft
+- id: grignard-nucleophilic-applications
+  type: soft
 builds-toward:
 - wittig-reaction-mechanism
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Grignard and Organolithium Reagents in Synthesis
 
 ## Core Idea

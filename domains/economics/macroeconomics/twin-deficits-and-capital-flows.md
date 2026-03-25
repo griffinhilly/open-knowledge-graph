@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: government-deficit-and-debt-dynamics
   type: hard
+- id: capital-flows-equilibrium
+  type: soft
+- id: capital-flows-and-financial-account
+  type: soft
 tags:
 - deficits
 - capital-flows
@@ -15,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Twin Deficits and Capital Flows
 
 ## Core Idea

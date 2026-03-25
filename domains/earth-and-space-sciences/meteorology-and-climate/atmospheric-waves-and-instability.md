@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: wave-properties-and-classification
   type: soft
+- id: lifted-index-stability
+  type: soft
 builds-toward:
 - jet-stream-variability-climate
 - baroclinic-instability
@@ -23,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Atmospheric Waves and Barotropic Instability
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: ancient-civilizations
 prerequisites:
 - id: cuneiform-and-early-writing
   type: hard
+- id: egyptian-hieroglyphics-script
+  type: soft
 tags:
 - writing
 - cuneiform
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ancient Writing Systems: Cuneiform, Hieroglyphics, and Alphabets
 
 ## Core Idea

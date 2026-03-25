@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: thermochemistry-enthalpy
   type: hard
+- id: spontaneity-and-gibbs-free-energy-intro
+  type: soft
 builds-toward:
 - chemical-equilibrium
 - electrochemical-cells
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Entropy and Gibbs Free Energy
 
 ## Core Idea

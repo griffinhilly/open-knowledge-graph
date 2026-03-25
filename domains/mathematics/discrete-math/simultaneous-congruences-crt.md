@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: chinese-remainder-theorem
   type: hard
+- id: congruences-and-crt
+  type: soft
 tags:
 - number-theory
 - congruences
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Simultaneous Congruences and Chinese Remainder Theorem
 
 ## Core Idea

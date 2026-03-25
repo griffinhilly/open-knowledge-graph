@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: subject-verb-agreement
   type: hard
+- id: verb-tense-simple-past-present-future
+  type: soft
+- id: subject-verb-agreement-complex
+  type: soft
 tags:
 - agreement
 - verbs
@@ -15,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Subject-Verb Agreement Rules
 
 ## Core Idea

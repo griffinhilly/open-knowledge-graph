@@ -8,8 +8,12 @@ prerequisites:
   type: hard
 - id: structure-elucidation-using-ir-nmr-and-ms
   type: soft
+- id: raman-spectroscopy-analytical-methods
+  type: soft
+- id: confirmatory-testing-identification-methods
+  type: soft
 builds-toward:
-  - data-integrity-regulatory-compliance
+- data-integrity-regulatory-compliance
 tags:
 - forensic
 - identification

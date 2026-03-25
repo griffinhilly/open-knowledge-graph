@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: exchange-rate-dynamics
   type: hard
+- id: liquidity-preference-theory-keynes
+  type: soft
 builds-toward:
 - exchange-rate-regimes-and-monetary-policy
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Interest Rate Parity
 
 ## Core Idea

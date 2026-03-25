@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: latent-heat-and-phase-change
   type: hard
+- id: rankine-cycle-steam-power
+  type: soft
 tags:
 - two-phase
 - quality
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Two-Phase Region and Quality (Dryness Fraction)
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stress-strain-behavior
   type: soft
+- id: polymer-mechanical-properties
+  type: soft
 tags:
 - viscoelasticity
 - glass-transition
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Polymer Mechanical Behavior and Viscoelasticity
 
 ## Core Idea

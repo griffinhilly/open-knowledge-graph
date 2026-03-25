@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: feudal-hierarchy-vassal-system
   type: soft
+- id: women-agency-medieval-society
+  type: soft
 builds-toward:
 - papal-authority-and-reform
 - investiture-controversy
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Church and Secular Power: Competition and Tension
 
 ## Core Idea

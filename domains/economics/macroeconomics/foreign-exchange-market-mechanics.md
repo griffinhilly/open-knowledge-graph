@@ -6,6 +6,8 @@ course: macroeconomics
 prerequisites:
 - id: exchange-rate-dynamics
   type: soft
+- id: exchange-rate-regimes-and-monetary-policy
+  type: soft
 builds-toward:
 - purchasing-power-parity-absolute
 - international-capital-flows
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # The Foreign Exchange Market and Exchange Rate Determination
 
 ## Core Idea

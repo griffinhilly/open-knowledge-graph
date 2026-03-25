@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: ratios
   type: soft
+- id: semitones-and-whole-steps
+  type: soft
 builds-toward:
 - interval-quality
 - major-scales
@@ -23,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Intervals: Half Steps, Whole Steps, and Interval Numbers
 
 ## Core Idea

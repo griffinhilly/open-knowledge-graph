@@ -6,12 +6,13 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: spectral-theorem-compact-self-adjoint
   type: hard
+- id: compact-operators
+  type: soft
 tags:
 - spectral-theory
 stage: expert
 status: validated
 ---
-
 # Fredholm Alternative
 
 ## Core Idea

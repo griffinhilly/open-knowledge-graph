@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: motivic-development
   type: hard
+- id: texture-development-in-composition
+  type: soft
 builds-toward:
 - theme-variation-systematic
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Sonata Form Composition and Development
 
 ## Core Idea

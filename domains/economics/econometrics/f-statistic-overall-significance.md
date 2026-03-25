@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: f-test-joint-significance
   type: soft
+- id: overidentification-test
+  type: soft
 tags:
 - hypothesis-testing
 - inference
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # F-Statistic for Overall Model Significance
 
 ## Core Idea

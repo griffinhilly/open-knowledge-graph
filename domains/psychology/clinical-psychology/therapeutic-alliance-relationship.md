@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: social-psychology-overview
   type: soft
+- id: therapeutic-alliance
+  type: soft
 tags:
 - alliance
 - relationship
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Therapeutic Alliance and the Helping Relationship
 
 ## Core Idea

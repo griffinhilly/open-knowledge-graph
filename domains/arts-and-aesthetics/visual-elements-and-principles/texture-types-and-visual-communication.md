@@ -3,7 +3,9 @@ id: texture-types-and-visual-communication
 title: 'Texture: Types and Visual Communication'
 domain: arts-and-aesthetics
 course: visual-elements-and-principles
-prerequisites: []
+prerequisites:
+- id: texture-visual-and-tactile-qualities
+  type: soft
 builds-toward:
 - visual-contrast-in-elements
 - harmony-unity-and-visual-cohesion
@@ -15,7 +17,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Texture: Types and Visual Communication
 
 ## Core Idea

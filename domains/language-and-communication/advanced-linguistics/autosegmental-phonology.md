@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: suprasegmental-phonology
   type: hard
+- id: sound-change-mechanisms-diachronic
+  type: soft
 tags:
 - phonology
 - autosegmental
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Autosegmental Phonology
 
 ## Core Idea

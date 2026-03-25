@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: chord-quality-by-ear
   type: soft
+- id: passing-tone-identification-ear
+  type: soft
 tags:
 - non-harmonic-tones
 - harmony
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Suspension and Resolution Identification by Ear
 
 ## Core Idea

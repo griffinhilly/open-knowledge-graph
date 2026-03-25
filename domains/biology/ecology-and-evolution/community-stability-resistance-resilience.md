@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ecological-succession
   type: soft
+- id: secondary-succession-post-disturbance
+  type: soft
 builds-toward:
 - restoration-ecology-principles
 - climate-change-ecology
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Community Stability: Resistance and Resilience
 
 ## Core Idea

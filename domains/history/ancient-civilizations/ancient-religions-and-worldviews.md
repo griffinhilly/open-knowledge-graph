@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: origins-of-world-religions
   type: soft
+- id: ancient-polytheism-religious-systems
+  type: soft
+- id: ancient-mystery-religions-cults
+  type: soft
+- id: mesopotamian-religion-polytheism
+  type: soft
 tags:
 - religion
 - worldview
@@ -17,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ancient Religions and Competing Worldviews
 
 ## Core Idea

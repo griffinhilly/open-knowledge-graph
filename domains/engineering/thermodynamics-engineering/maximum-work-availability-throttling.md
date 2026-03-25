@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: second-law-thermodynamics-entropy
   type: hard
+- id: exergy-destruction-irreversibility
+  type: soft
 builds-toward:
 - second-law-efficiency-exergy-based
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Maximum Available Work: Carnot and Reversible Processes
 
 ## Core Idea

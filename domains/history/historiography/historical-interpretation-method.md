@@ -10,9 +10,21 @@ prerequisites:
   type: hard
 - id: source-criticism
   type: hard
+- id: anachronism-presentism
+  type: soft
+- id: history-science-debate
+  type: soft
+- id: annales-school-theory
+  type: soft
+- id: genealogical-method
+  type: soft
+- id: herodotus-inquiry-method
+  type: soft
+- id: postcolonial-research-methods
+  type: soft
 builds-toward:
-  - objectivity-and-perspective
-  - textual-hermeneutics-history
+- objectivity-and-perspective
+- textual-hermeneutics-history
 tags:
 - interpretation
 - methodology

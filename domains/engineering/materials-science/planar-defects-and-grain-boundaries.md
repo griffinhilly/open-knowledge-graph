@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: crystal-systems-and-bravais-lattices
   type: soft
+- id: grain-boundaries-interfaces
+  type: soft
 builds-toward:
 - grain-boundary-strengthening
 - grain-growth-and-recrystallization
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Planar Defects: Grain Boundaries and Interfaces
 
 ## Core Idea

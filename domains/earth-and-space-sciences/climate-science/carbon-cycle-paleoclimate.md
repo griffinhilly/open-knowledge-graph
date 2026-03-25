@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: anthropogenic-carbon-cycle
   type: soft
+- id: carbon-cycle-long-term
+  type: soft
 builds-toward:
 - methane-paleoclimate-feedback
 - paleoclimate-tipping-points
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Carbon Cycle Dynamics and Climate Change
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conservation-of-angular-momentum
   type: soft
+- id: giant-impact-hypothesis
+  type: soft
 builds-toward:
 - multi-planet-system-architecture
 - n-body-planetary-dynamics
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Disk Instability and Direct Fragmentation in Giant Planet Formation
 
 ## Core Idea

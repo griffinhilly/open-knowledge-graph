@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mixed-partials-clairaut
   type: hard
+- id: second-partials-test-extrema
+  type: soft
 builds-toward:
 - optimization-multivariable-basics
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Second Partial Test and the Hessian
 
 ## Core Idea

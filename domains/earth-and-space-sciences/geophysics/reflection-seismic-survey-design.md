@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: potential-field-methods-gravity-magnetics
   type: soft
+- id: seismic-reflection-surveys
+  type: soft
+- id: seismic-network-design-and-station-deployment
+  type: soft
 builds-toward:
 - seismic-data-processing-and-filtering
 - seismic-migration-techniques
@@ -19,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Reflection Seismic Survey Design and Acquisition
 
 ## Core Idea

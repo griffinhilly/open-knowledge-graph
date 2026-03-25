@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: supply-and-demand-basics
   type: hard
+- id: liquidity-preference-theory-keynes
+  type: soft
+- id: money-demand-motives
+  type: soft
 builds-toward:
 - crowding-out-and-fiscal-effects
 - real-interest-rate-and-fisher-equation
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Interest Rate Determination in the Loanable Funds Market
 
 ## Core Idea

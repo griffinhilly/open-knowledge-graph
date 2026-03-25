@@ -6,6 +6,8 @@ course: thermodynamics
 prerequisites:
 - id: real-gas-deviations
   type: hard
+- id: virial-equation-and-intermolecular-forces
+  type: soft
 builds-toward:
 - compressibility-factor-z
 - critical-point-phenomena
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The van der Waals Equation of State
 
 ## Core Idea

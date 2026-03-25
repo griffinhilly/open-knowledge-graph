@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: visual-perception-and-communication
   type: soft
+- id: affordance-signifiers-usability
+  type: soft
+- id: heuristic-evaluation-in-design
+  type: soft
+- id: figure-ground-and-visual-separation
+  type: soft
+- id: design-iteration-testing-methods
+  type: soft
 builds-toward:
 - ui-design-fundamentals
 - user-experience-fundamentals
@@ -19,7 +27,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Design Affordances
 
 ## Core Idea

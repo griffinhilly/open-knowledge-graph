@@ -6,6 +6,8 @@ course: statics-and-dynamics
 prerequisites:
 - id: rotation-fixed-axis-dynamics
   type: hard
+- id: instantaneous-center-of-rotation-method
+  type: soft
 builds-toward:
 - principal-moments-of-inertia
 - euler-equations-rigid-body-rotation
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Rigid Body Rotation: Angular Velocity and Acceleration
 
 ## Core Idea

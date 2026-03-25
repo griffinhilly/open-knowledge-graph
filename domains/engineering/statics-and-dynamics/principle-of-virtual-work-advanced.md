@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: generalized-coordinates
   type: hard
+- id: virtual-work-method
+  type: soft
 builds-toward:
 - lagrangian-mechanics-overview
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Principle of Virtual Work and Generalized Forces
 
 ## Core Idea

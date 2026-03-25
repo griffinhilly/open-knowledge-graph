@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: polynomial-time-reductions
   type: soft
+- id: np-completeness-reduction-proof-techniques
+  type: soft
 tags:
 - reductions
 - hardness
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Many-One and Turing Reducibility
 
 ## Core Idea

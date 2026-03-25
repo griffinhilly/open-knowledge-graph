@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: modes
   type: hard
+- id: free-jazz-organizational-structures
+  type: soft
 builds-toward:
 - free-jazz-organizational-structures
 - jazz-reharmonization-analysis
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Jazz Modal Improvisation
 
 ## Core Idea

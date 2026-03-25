@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: aesthetic-interpretation-and-critical-methods
   type: hard
+- id: aesthetic-interpretation-and-criticism
+  type: soft
 builds-toward:
 - aesthetic-experience-and-cultivation
 - narrative-and-aesthetic-meaning
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Gadamer: Horizon Fusion and Interpretation
 
 ## Core Idea

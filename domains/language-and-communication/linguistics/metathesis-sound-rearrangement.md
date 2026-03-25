@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: phonological-rules-derivation
   type: hard
+- id: assimilation-phonological-process
+  type: soft
 tags:
 - phonology
 - sound-change
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Metathesis (Sound Rearrangement)
 
 ## Core Idea

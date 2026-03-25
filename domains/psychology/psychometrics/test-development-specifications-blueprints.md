@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: measurement-scales-psychology
   type: soft
+- id: test-development-workflow-and-project-management
+  type: soft
 builds-toward:
 - score-linking-and-test-equating
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Test Development and Specification Tables
 
 ## Core Idea

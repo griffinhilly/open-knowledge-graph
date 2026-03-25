@@ -10,8 +10,12 @@ prerequisites:
   type: hard
 - id: ecological-succession
   type: soft
+- id: trophic-cascades-in-food-webs
+  type: soft
+- id: trophic-cascade-top-down-control
+  type: soft
 builds-toward:
-  - biodiversity-and-conservation
+- biodiversity-and-conservation
 tags:
 - keystone-species
 - trophic-cascade

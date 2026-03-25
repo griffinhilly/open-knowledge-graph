@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: subgroups-subgroup-test
   type: hard
+- id: cayley-theorem
+  type: soft
 builds-toward:
 - normal-subgroups
 - quotient-groups
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Cosets and Lagrange's Theorem
 
 ## Core Idea

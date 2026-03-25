@@ -6,6 +6,8 @@ course: fluid-mechanics
 prerequisites:
 - id: fluid-properties-and-continuum
   type: hard
+- id: static-pressure-and-temperature-relations
+  type: soft
 builds-toward:
 - laminar-turbulent-transition-critical-reynolds
 - darcy-weisbach-equation-application
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Viscosity-Temperature Dependence
 
 ## Core Idea

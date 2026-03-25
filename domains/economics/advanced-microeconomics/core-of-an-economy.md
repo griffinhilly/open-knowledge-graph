@@ -8,13 +8,14 @@ prerequisites:
   type: hard
 - id: walrasian-equilibrium
   type: hard
+- id: contract-curve
+  type: soft
 tags:
 - general-equilibrium
 - coalition-formation
 stage: expert
 status: validated
 ---
-
 # The Core of an Economy
 
 ## Core Idea

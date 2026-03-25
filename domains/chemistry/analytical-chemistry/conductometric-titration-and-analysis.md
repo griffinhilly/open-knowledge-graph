@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: titrimetric-analysis-intro
   type: soft
+- id: acid-base-titration-quantitative-analysis
+  type: soft
 builds-toward:
 - analytical-method-validation-core-parameters
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Conductometric Titration and Analysis
 
 ## Core Idea

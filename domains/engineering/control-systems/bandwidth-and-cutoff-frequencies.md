@@ -6,6 +6,8 @@ course: control-systems
 prerequisites:
 - id: frequency-response-magnitude-and-phase
   type: hard
+- id: bandwidth-resonance-frequency-selection
+  type: soft
 builds-toward:
 - gain-phase-margins-stability-robustness
 - resonance-and-peaking-response
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Bandwidth and Frequency Domain Specifications
 
 ## Core Idea

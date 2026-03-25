@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: functors
   type: hard
+- id: functor-composition
+  type: soft
+- id: two-categories-and-weak-functors
+  type: soft
 builds-toward:
 - equivalence-of-categories
 - adjoint-functors
@@ -18,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Natural Isomorphisms Between Functors
 
 ## Core Idea

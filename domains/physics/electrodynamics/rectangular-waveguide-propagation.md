@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: transverse-magnetic-modes
   type: hard
+- id: circular-waveguide-propagation
+  type: soft
 tags:
 - rectangular-waveguide
 - tmn-modes
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Propagation in Rectangular Waveguides
 
 ## Core Idea

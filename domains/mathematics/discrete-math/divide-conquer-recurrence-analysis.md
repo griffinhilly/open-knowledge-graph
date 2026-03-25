@@ -6,13 +6,16 @@ course: discrete-math
 prerequisites:
 - id: nonhomogeneous-recurrence-solutions
   type: soft
+- id: dijkstra-algorithm
+  type: soft
+- id: topological-sorting
+  type: soft
 tags:
 - recurrence-relations
 - algorithms
 stage: formal-systems
 status: validated
 ---
-
 # Divide-and-Conquer Recurrences and the Master Theorem
 
 ## Core Idea

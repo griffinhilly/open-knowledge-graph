@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: formal-arithmetic-and-expressibility
   type: hard
+- id: consistency-and-inconsistency
+  type: soft
 builds-toward:
 - godels-incompleteness-theorems
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Decidability of Theories
 
 ## Core Idea

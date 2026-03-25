@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: division-equal-sharing-grouping-3rd
   type: hard
+- id: making-change-and-money-word-problems
+  type: soft
+- id: remainders-and-quotients-3rd
+  type: soft
 builds-toward:
 - multi-step-word-problems-3rd
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Division Word Problems
 
 ## Core Idea

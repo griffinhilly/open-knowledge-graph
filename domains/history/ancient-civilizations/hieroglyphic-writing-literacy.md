@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ancient-writing-systems-comparison
   type: hard
+- id: egyptian-hieroglyphics-script
+  type: soft
 tags:
 - Egypt
 - hieroglyphics
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Hieroglyphic Writing and Literacy in Egypt
 
 ## Core Idea

@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: disciplinary-discourse-and-conventions
   type: soft
+- id: academic-writing-conventions
+  type: soft
+- id: introduction-writing
+  type: soft
+- id: cause-and-effect-writing
+  type: soft
+- id: reflective-and-personal-writing
+  type: soft
 tags:
 - convention
 - innovation
@@ -16,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Conventions and Innovation in Writing
 
 ## Core Idea

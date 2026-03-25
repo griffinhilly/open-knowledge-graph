@@ -6,6 +6,8 @@ course: thermodynamics
 prerequisites:
 - id: heat-and-internal-energy
   type: hard
+- id: degrees-of-freedom-and-heat-capacity
+  type: soft
 builds-toward:
 - calorimetry
 - heat-capacity-of-gases
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Specific Heat Capacity
 
 ## Core Idea

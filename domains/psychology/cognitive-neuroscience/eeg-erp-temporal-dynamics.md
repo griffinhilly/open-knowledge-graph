@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: frequency-oscillations-cognition
   type: soft
+- id: fmri-principles-and-interpretation
+  type: soft
 builds-toward:
 - erp-components-attention
 - frequency-oscillations-cognition
@@ -22,7 +24,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # EEG, Event-Related Potentials, and Neural Timing
 
 ## Core Idea

@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: optimization-multivariable-basics
   type: soft
+- id: auction-formats-and-equivalence
+  type: soft
 builds-toward:
 - first-price-auction
 - second-price-auction
@@ -24,7 +26,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Auction Theory
 
 ## Core Idea

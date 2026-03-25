@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: helmholtz-free-energy
   type: soft
+- id: maxwell-boltzmann-distribution-thermodynamics
+  type: soft
 builds-toward:
 - thermodynamic-availability-exergy
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Maxwell Relations
 
 ## Core Idea

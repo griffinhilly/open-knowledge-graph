@@ -12,13 +12,18 @@ prerequisites:
   type: soft
 - id: linear-independence
   type: soft
+- id: variance-inflation-factor
+  type: soft
+- id: graphical-diagnostic-tools
+  type: soft
+- id: breusch-godfrey-test
+  type: soft
 tags:
 - multicollinearity
 - diagnostics
 stage: advanced
 status: validated
 ---
-
 # Multicollinearity: Detection Using VIF
 
 ## Core Idea

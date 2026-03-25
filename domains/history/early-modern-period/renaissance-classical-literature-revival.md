@@ -6,6 +6,8 @@ course: early-modern-period
 prerequisites:
 - id: byzantine-preservation-classical-texts
   type: soft
+- id: neoplatonism-renaissance-philosophy
+  type: soft
 builds-toward:
 - renaissance-humanism
 - enlightenment-origins
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Renaissance Classical Literature Revival
 
 ## Core Idea

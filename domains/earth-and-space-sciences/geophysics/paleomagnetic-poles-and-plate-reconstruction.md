@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: plate-tectonics
   type: soft
+- id: magnetostratigraphy-dating
+  type: soft
 tags:
 - paleomagnetism
 - plate-motion
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Paleomagnetic Poles and Continental Plate Reconstruction
 
 ## Core Idea

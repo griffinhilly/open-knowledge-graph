@@ -6,6 +6,8 @@ course: geophysics
 prerequisites:
 - id: reflection-seismic-survey-design
   type: hard
+- id: seismic-signal-processing
+  type: soft
 builds-toward:
 - seismic-migration-techniques
 - seismic-interpretation-structural-mapping
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Seismic Data Processing and Noise Filtering
 
 ## Core Idea

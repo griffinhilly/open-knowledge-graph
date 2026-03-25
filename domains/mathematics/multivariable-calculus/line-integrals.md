@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: arc-length-parametric
   type: hard
+- id: work-circulation
+  type: soft
 builds-toward:
 - fundamental-theorem-line-integrals
 - conservative-fields-potential
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Line Integrals of Scalar and Vector Functions
 
 ## Core Idea

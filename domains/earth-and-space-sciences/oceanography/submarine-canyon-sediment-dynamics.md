@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: sediment-transport-and-deposition
   type: hard
+- id: coastal-sediment-transport-dynamics
+  type: soft
 tags:
 - submarine-canyons
 - turbidites
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Submarine Canyon Sediment Transport and Gravity Flows
 
 ## Core Idea

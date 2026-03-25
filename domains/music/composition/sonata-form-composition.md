@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: harmonic-function-voice-leading-analysis
   type: soft
+- id: tonal-planning-and-progression
+  type: soft
+- id: transition-writing-and-connections
+  type: soft
 tags:
 - sonata-form
 - form
@@ -18,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Sonata Form Composition
 
 ## Core Idea

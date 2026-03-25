@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: oxidation-numbers
   type: hard
+- id: electrochemistry-oxidation-reduction-applications
+  type: soft
 builds-toward:
 - balancing-redox-equations
 - galvanic-electrochemical-cells
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Half-Reactions and Oxidation States
 
 ## Core Idea

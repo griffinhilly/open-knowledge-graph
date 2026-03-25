@@ -6,6 +6,12 @@ course: materials-science
 prerequisites:
 - id: crystal-lattice-systems-classification
   type: hard
+- id: planar-defects-and-grain-boundaries
+  type: soft
+- id: grain-boundaries-interfaces
+  type: soft
+- id: grain-boundary-strengthening
+  type: soft
 builds-toward:
 - microstructure-development-control
 - strengthening-mechanisms-materials
@@ -18,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Grain Boundaries and Interfaces
 
 ## Core Idea

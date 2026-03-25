@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: form-content-aesthetics
   type: hard
+- id: nietzsche-apollonian-and-dionysian
+  type: soft
 builds-toward:
 - postmodern-aesthetics-pastiche
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Nietzsche: Apollonian and Dionysian Art
 
 ## Core Idea

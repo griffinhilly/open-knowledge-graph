@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: chi-square-test-independence-theory
   type: soft
+- id: test-bias-detection-methods
+  type: soft
 builds-toward:
 - measurement-invariance-equivalence
 tags:
@@ -24,7 +26,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Differential Item Functioning: Detection and Interpretation
 
 ## Core Idea

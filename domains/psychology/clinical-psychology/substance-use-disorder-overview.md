@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: dopamine-system
   type: soft
+- id: addiction-neurobiology
+  type: soft
 builds-toward:
 - addiction-neurobiology-dopamine
 - alcohol-use-disorder
@@ -22,7 +24,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Substance Use Disorders: Overview and Classification
 
 ## Core Idea

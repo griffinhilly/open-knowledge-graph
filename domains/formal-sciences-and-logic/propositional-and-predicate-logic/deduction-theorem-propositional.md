@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hilbert-system-propositional
   type: hard
+- id: compactness-propositional-logic
+  type: soft
 tags:
 - propositional-logic
 - deduction
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Deduction Theorem for Propositional Logic
 
 ## Core Idea

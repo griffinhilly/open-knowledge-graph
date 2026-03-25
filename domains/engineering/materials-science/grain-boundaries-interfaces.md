@@ -6,6 +6,8 @@ course: materials-science
 prerequisites:
 - id: dislocations-types-behavior
   type: hard
+- id: grain-boundary-strengthening
+  type: soft
 builds-toward:
 - phase-transformations-kinetics
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Grain Boundaries and Interfacial Defects
 
 ## Core Idea

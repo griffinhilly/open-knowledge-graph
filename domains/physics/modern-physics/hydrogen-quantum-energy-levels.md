@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: spherical-harmonics-electrostatics
   type: soft
+- id: stark-effect-electric-field-splitting
+  type: soft
 builds-toward:
 - atomic-orbitals-shapes-nodes
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Hydrogen Atom: Quantum Energy Levels and Orbitals
 
 ## Core Idea

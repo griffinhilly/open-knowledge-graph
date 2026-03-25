@@ -9,7 +9,7 @@ prerequisites:
 - id: memory-management-basics
   type: soft
 builds-toward:
-- crash-recovery-undo-redo
+- crash-recovery-undo-redo-logs
 - query-execution-plan-analysis-explain
 tags:
 - buffer-pool

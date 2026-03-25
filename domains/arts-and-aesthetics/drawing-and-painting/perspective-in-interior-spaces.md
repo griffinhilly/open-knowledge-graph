@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: two-point-perspective
   type: hard
+- id: perspective-grid-construction
+  type: soft
 builds-toward:
 - perspective-in-street-scenes
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Perspective in Interior Spaces
 
 ## Core Idea

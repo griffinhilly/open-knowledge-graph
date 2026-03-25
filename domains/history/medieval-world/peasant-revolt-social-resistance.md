@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: black-death
   type: soft
+- id: medieval-peasant-rebellions-uprisings
+  type: soft
 builds-toward:
 - feudal-decline-late-medieval
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Peasant Revolt and Social Resistance
 
 ## Core Idea

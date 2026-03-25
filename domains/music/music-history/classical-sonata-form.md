@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: modulation-techniques
   type: soft
+- id: classical-instrumental-forms-development
+  type: soft
+- id: symphony-and-large-forms
+  type: soft
+- id: baroque-instrumental-development
+  type: soft
 builds-toward:
 - romantic-period-overview
 tags:
@@ -23,7 +29,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Sonata Form and Classical Instrumental Genres
 
 ## Core Idea

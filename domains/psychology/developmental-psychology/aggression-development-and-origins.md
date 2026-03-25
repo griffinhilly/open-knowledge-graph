@@ -6,6 +6,10 @@ course: developmental-psychology
 prerequisites:
 - id: emotional-development-and-regulation-infancy
   type: soft
+- id: friendship-formation-and-maintenance
+  type: soft
+- id: peer-relationships-and-social-competence-developmental-psychology
+  type: soft
 builds-toward:
 - moral-emotions-guilt-shame-development
 tags:
@@ -16,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Aggression Development and Origins
 
 ## Core Idea

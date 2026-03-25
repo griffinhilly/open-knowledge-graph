@@ -22,6 +22,8 @@ prerequisites:
   type: soft
 - id: expected-value-and-variance
   type: soft
+- id: fairness-machine-learning
+  type: soft
 tags:
 - supervised-learning
 - regression
@@ -29,7 +31,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Linear Regression in Machine Learning
 
 ## Core Idea

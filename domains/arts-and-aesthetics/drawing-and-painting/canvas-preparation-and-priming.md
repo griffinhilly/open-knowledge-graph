@@ -6,6 +6,12 @@ course: drawing-and-painting
 prerequisites:
 - id: dramatic-structure
   type: soft
+- id: texture-rendering-through-mark-making
+  type: soft
+- id: contour-drawing-outline-and-edge
+  type: soft
+- id: sketchbook-practice-and-habit
+  type: soft
 builds-toward:
 - oil-painting-basics
 - acrylic-painting-fundamentals

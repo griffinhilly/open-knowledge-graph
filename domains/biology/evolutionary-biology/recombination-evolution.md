@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: genetic-drift
   type: soft
+- id: adaptive-landscape-crossing
+  type: soft
 builds-toward:
 - effective-recombination-rate
 - efficacy-selection-finite-populations
@@ -21,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Evolution of Recombination Rates
 
 ## Core Idea

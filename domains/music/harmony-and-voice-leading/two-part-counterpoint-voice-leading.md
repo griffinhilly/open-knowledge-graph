@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: motion-types-voice-leading-outer-voices
   type: soft
+- id: voice-exchange-contrapuntal-technique
+  type: soft
 builds-toward:
 - voice-leading-analysis-transcription-method
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Two-Part Counterpoint and Voice Leading Principles
 
 ## Core Idea

@@ -6,6 +6,10 @@ course: grammar-and-syntax
 prerequisites:
 - id: relative-clauses
   type: hard
+- id: apostrophe-usage-contractions-possession
+  type: soft
+- id: relative-adverbs-where-when-why
+  type: soft
 tags:
 - relative-clauses
 - punctuation
@@ -13,7 +17,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Restrictive vs. Nonrestrictive Relative Clauses
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: music-historiography-and-sources
   type: hard
+- id: performance-authenticity-and-interpretation
+  type: soft
 tags:
 - analysis
 - methodology
@@ -15,7 +17,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Historical Music Analysis Approaches
 
 ## Core Idea

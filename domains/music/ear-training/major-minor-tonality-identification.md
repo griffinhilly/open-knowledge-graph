@@ -10,6 +10,14 @@ prerequisites:
   type: hard
 - id: audiation-and-inner-hearing
   type: soft
+- id: major-minor-mode-quality-discrimination
+  type: soft
+- id: major-minor-thirds-ear
+  type: soft
+- id: relative-vs-parallel-minor-hearing
+  type: soft
+- id: solfege-major-minor-keys
+  type: soft
 builds-toward:
 - chord-quality-by-ear
 - harmonic-dictation-basic
@@ -23,7 +31,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Major vs. Minor Tonality Identification
 
 ## Core Idea

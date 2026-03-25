@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: evo-developmental-modules
   type: soft
+- id: evolutionary-trade-offs
+  type: soft
+- id: heterochrony-development-evolution
+  type: soft
 builds-toward:
 - evolutionary-transitions
 - adaptive-radiation-molecular-basis
@@ -21,7 +25,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Evolution of Major Novelties and Body Plans
 
 ## Core Idea

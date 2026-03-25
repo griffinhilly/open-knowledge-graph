@@ -6,6 +6,8 @@ course: real-analysis
 prerequisites:
 - id: pointwise-convergence-function-sequences
   type: hard
+- id: uniform-convergence-power-series
+  type: soft
 builds-toward:
 - uniform-convergence-preserves-continuity
 - interchange-limit-integral
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Uniform Convergence
 
 ## Core Idea

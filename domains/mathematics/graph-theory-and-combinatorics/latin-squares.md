@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: catalan-numbers
   type: soft
+- id: exponential-generating-functions
+  type: soft
 tags:
 - combinatorics
 - designs

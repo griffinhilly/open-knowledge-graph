@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: statistical-inference-significance-testing
   type: soft
+- id: mental-status-examination
+  type: soft
 builds-toward:
 - dsm-5-diagnostic-framework
 - case-conceptualization-clinical
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Clinical Assessment and Diagnosis
 
 ## Core Idea

@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: normal-distribution-theory
   type: hard
+- id: parallel-trends-assumption-validity
+  type: soft
 builds-toward:
 - t-statistic-individual-coefficient
 - f-statistic-overall-significance
@@ -25,7 +27,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Normal Linear Regression Model
 
 ## Core Idea

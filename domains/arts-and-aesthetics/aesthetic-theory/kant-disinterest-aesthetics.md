@@ -6,6 +6,8 @@ course: aesthetic-theory
 prerequisites:
 - id: kant-judgment-of-beauty
   type: hard
+- id: kant-sublime-aesthetics
+  type: soft
 builds-toward:
 - art-for-art-sake-principle
 - expression-theory-art
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Kant: Aesthetic Disinterestedness
 
 ## Core Idea

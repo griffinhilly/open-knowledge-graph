@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: tally-chart-data-collection-1st
   type: soft
+- id: organizing-data-picture-graphs
+  type: soft
+- id: picture-graph-simple
+  type: soft
 builds-toward:
 - bar-graphs-3rd
 - interpreting-data-bar-graphs
@@ -18,7 +22,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Creating and Reading Picture Graphs
 
 ## Core Idea

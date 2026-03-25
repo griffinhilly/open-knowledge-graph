@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: source-and-evidence-classification
   type: hard
+- id: oral-history-interview-techniques
+  type: soft
 builds-toward:
 - source-synthesis-and-triangulation
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Oral History: Collection, Preservation, and Ethical Practice
 
 ## Core Idea

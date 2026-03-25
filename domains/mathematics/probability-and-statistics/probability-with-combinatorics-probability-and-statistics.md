@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: sample-spaces-and-events
   type: hard
+- id: counting-principles-probability-and-statistics
+  type: soft
 builds-toward:
 - binomial-distribution
 - poisson-distribution
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Probability with Combinatorics
 
 ## Core Idea

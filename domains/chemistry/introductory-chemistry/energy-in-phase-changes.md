@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: endothermic-exothermic-intro
   type: hard
+- id: energy-in-chemical-reactions
+  type: soft
 builds-toward:
 - states-of-matter-phase-changes
 - thermochemistry-heat-and-energy

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: acoustic-wave-speed-properties
   type: hard
+- id: resonance-pipes-open-closed
+  type: soft
 tags:
 - resonance
 - acoustics
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Resonance in Air Columns and Pipes
 
 ## Core Idea

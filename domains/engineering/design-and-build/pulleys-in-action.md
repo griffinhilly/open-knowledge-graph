@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: what-is-engineering
   type: soft
+- id: safety-with-tools
+  type: soft
 builds-toward:
 - combining-simple-machines
 - mechanical-advantage-in-real-life

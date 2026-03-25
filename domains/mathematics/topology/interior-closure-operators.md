@@ -6,6 +6,8 @@ course: topology
 prerequisites:
 - id: closure-interior-and-boundary
   type: hard
+- id: closure-interior-boundary
+  type: soft
 builds-toward:
 - separation-axioms-t3-regular
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Interior and Closure Operators
 
 ## Core Idea

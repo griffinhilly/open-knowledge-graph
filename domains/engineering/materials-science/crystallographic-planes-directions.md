@@ -6,6 +6,8 @@ course: materials-science
 prerequisites:
 - id: crystal-lattice-systems-classification
   type: hard
+- id: crystal-planes-miller-indices
+  type: soft
 builds-toward:
 - dislocation-motion-and-slip
 - microstructure-development-control
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Crystallographic Planes and Directions
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: developmental-psychology
 prerequisites:
 - id: piaget-formal-operational
   type: hard
+- id: imaginary-audience-adolescent-egocentrism
+  type: soft
 builds-toward:
 - identity-development-adolescence
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Personal Fable in Adolescent Development
 
 ## Core Idea

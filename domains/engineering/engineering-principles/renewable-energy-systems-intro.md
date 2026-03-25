@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: constraints-and-tradeoffs
   type: soft
+- id: control-systems-intro-engineering
+  type: soft
 builds-toward:
 - environmental-impact-engineering
 tags:

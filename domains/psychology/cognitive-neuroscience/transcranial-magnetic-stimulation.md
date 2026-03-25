@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: motor-cortex
   type: soft
+- id: fmri-principles-and-interpretation
+  type: soft
 builds-toward:
 - causal-inference-neuroscience
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Transcranial Magnetic Stimulation and Brain Mapping
 
 ## Core Idea

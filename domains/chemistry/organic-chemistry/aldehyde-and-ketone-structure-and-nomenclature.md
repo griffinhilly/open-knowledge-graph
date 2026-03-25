@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: iupac-nomenclature-alkanes
   type: hard
+- id: alcohol-oxidation-to-carbonyls
+  type: soft
 builds-toward:
 - nucleophilic-addition-to-carbonyls
 - keto-enol-tautomerism-mechanism
@@ -23,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Aldehyde and Ketone Structure and Nomenclature
 
 ## Core Idea

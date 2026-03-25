@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: major-depressive-disorder-mdd
   type: soft
+- id: major-depressive-disorder
+  type: soft
+- id: behavioral-activation-depression
+  type: soft
 builds-toward:
 - behavioral-activation-depression
 tags:
@@ -16,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Persistent Depressive Disorder (Dysthymia)
 
 ## Core Idea

@@ -6,9 +6,6 @@ course: artificial-intelligence
 prerequisites:
 - id: neural-networks-intro
   type: hard
-builds-toward:
-- training-strategies
-- sample-weighting
 tags:
 - curriculum
 - difficulty-progression

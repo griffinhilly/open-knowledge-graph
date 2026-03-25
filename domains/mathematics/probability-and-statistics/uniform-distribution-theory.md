@@ -6,6 +6,8 @@ course: probability-and-statistics
 prerequisites:
 - id: probability-density-functions-theory
   type: hard
+- id: uniform-distribution-continuous
+  type: soft
 builds-toward:
 - normal-distribution-theory
 tags:
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Uniform Distribution: Theory and Applications
 
 ## Core Idea

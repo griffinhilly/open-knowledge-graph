@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mongol-conquest-effects
   type: soft
+- id: medieval-holy-roman-empire-formation
+  type: soft
 tags:
 - mongol
 - administration
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Mongol Administration and Governance Innovations
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: triad-construction-major-minor
   type: hard
+- id: seventh-chord-function-and-sound
+  type: soft
 builds-toward:
 - functional-harmony
 - basic-chord-progressions
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Harmonic Function Basics
 
 ## Core Idea

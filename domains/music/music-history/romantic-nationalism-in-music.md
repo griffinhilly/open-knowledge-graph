@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: world-music-traditions
   type: soft
+- id: musical-nationalism-and-folk-idiom
+  type: soft
 builds-toward:
 - early-20th-century-modernism
 tags:

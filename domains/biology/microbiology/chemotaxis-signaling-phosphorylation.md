@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cell-signaling-receptor-pathways
   type: soft
+- id: bacterial-flagella-and-chemotaxis
+  type: soft
 builds-toward:
 - quorum-sensing
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Bacterial Chemotaxis and Two-Component Signal Transduction
 
 ## Core Idea

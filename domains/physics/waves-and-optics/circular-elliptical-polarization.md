@@ -8,13 +8,16 @@ prerequisites:
   type: soft
 - id: phase-of-oscillation-initial
   type: hard
+- id: brewster-angle-and-polarization
+  type: soft
+- id: circular-polarization-production
+  type: soft
 tags:
 - polarization
 - waves
 stage: advanced
 status: validated
 ---
-
 # Polarization States: Linear, Circular, and Elliptical
 
 ## Core Idea

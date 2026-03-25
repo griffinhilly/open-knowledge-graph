@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: polar-coordinates
   type: hard
+- id: reduced-mass-problem
+  type: soft
 builds-toward:
 - central-force-motion-analysis
 - orbital-mechanics
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Reduced Mass and Two-Body Problems
 
 ## Core Idea

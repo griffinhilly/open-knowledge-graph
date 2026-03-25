@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: portfolio-diversification
   type: soft
+- id: options-greeks-trading-applications
+  type: soft
+- id: interest-rate-swaps-mechanics
+  type: soft
 builds-toward:
 - value-at-risk-measurement
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Hedging with Derivatives
 
 ## Core Idea

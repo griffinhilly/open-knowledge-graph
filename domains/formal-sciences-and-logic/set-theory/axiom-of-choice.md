@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: equivalence-relations
   type: soft
+- id: axiom-of-choice-formulations-and-equivalences
+  type: soft
 builds-toward:
 - well-ordering-theorem
 - zorns-lemma
@@ -25,7 +27,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Axiom of Choice
 
 ## Core Idea

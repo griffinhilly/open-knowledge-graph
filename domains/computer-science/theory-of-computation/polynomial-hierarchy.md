@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: pspace-complexity-class
   type: soft
+- id: space-hierarchy-theorem
+  type: soft
+- id: bpp-complexity-class
+  type: soft
+- id: reduction-many-one-polynomial
+  type: soft
 tags:
 - complexity-classes
 - quantified-formulas
@@ -15,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # The Polynomial Hierarchy
 
 ## Core Idea

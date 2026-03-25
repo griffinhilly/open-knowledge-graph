@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: fundamental-theorem-of-arithmetic-rigorous
   type: soft
+- id: norm-in-algebraic-number-fields
+  type: soft
 builds-toward:
 - introduction-to-ideal-class-group
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Failure of Unique Factorization in Algebraic Number Fields
 
 ## Core Idea

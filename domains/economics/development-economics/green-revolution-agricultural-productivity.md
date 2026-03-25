@@ -6,6 +6,8 @@ course: development-economics
 prerequisites:
 - id: agriculture-and-development
   type: hard
+- id: agricultural-extension-and-information
+  type: soft
 tags:
 - agriculture
 - technology
@@ -13,7 +15,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # The Green Revolution and Agricultural Productivity
 
 ## Core Idea

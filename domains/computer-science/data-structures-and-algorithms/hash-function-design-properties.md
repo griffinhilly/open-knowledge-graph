@@ -6,6 +6,8 @@ course: data-structures-and-algorithms
 prerequisites:
 - id: hash-tables
   type: hard
+- id: binary-tree-properties-height-balance-completeness
+  type: soft
 builds-toward:
 - hash-table-collision-resolution-chaining
 - bloom-filter-probabilistic-membership
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Hash Function Design: Properties and Requirements
 
 ## Core Idea

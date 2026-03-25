@@ -6,6 +6,10 @@ course: microeconomics
 prerequisites:
 - id: information-asymmetry
   type: hard
+- id: adverse-selection-equilibrium
+  type: soft
+- id: opportunity-cost-concept
+  type: soft
 tags:
 - information asymmetry
 - signaling
@@ -13,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Signaling and Market Equilibrium with Asymmetric Information
 
 ## Core Idea

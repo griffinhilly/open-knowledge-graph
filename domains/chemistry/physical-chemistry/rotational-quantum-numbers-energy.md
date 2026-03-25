@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rotational-spectroscopy
   type: hard
+- id: rotational-spectroscopy-quantum-theory
+  type: soft
 builds-toward:
 - vibrational-energy-levels-selection-rules
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Rotational Quantum Numbers and Energy Levels
 
 ## Core Idea

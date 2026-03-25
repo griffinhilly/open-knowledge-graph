@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mean-field-theory
   type: hard
+- id: renormalization-group-scaling
+  type: soft
 tags:
 - renormalization-group
 - scaling
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Renormalization Group: Introduction
 
 ## Core Idea

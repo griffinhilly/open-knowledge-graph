@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: global-atmospheric-circulation
   type: soft
+- id: zonal-meridional-circulation
+  type: soft
 builds-toward:
 - jet-stream-subtropical-polar
 - planetary-circulation-patterns-general
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Planetary Wind Circulation Cells and Their Drivers
 
 ## Core Idea

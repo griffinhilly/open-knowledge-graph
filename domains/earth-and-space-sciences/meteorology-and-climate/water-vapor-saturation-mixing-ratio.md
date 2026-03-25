@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: latent-heat-and-phase-transitions
   type: hard
+- id: mixing-ratio-saturation-mixing-ratio
+  type: soft
+- id: moisture-transport-and-advection
+  type: soft
 builds-toward:
 - wet-bulb-temperature
 - relative-humidity-saturation
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Water Vapor, Saturation, and Mixing Ratio
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: diatonic-chords-major-minor-keys
   type: soft
+- id: plagal-cadence-voice-leading
+  type: soft
 builds-toward:
 - modulation-voice-leading-pivot-chords
 - secondary-dominant-resolution-voice-leading
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Authentic Cadence Voice Leading: V to I
 
 ## Core Idea

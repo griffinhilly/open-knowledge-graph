@@ -6,6 +6,8 @@ course: theory-of-computation
 prerequisites:
 - id: nfa-to-dfa-conversion
   type: hard
+- id: regular-language-recognition-algorithms
+  type: soft
 builds-toward:
 - regular-languages-fundamentals
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # DFA Properties and Minimization Algorithms
 
 ## Core Idea

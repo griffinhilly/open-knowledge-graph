@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: port-addressing-sockets
   type: hard
+- id: email-protocols-smtp-pop3-imap
+  type: soft
 builds-toward:
 - network-security-fundamentals
 - ssh-secure-shell
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # FTP: File Transfer Protocol and SFTP
 
 ## Core Idea

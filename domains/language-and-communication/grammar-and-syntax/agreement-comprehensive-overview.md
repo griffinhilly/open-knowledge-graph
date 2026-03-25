@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: pronoun-agreement
   type: hard
+- id: subject-verb-agreement-rules
+  type: soft
+- id: parts-of-speech-overview
+  type: soft
 tags:
 - agreement
 - grammar-rules
@@ -15,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Grammatical Agreement: A Comprehensive Overview
 
 ## Core Idea

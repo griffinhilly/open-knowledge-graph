@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: spacetime-diagrams
   type: soft
+- id: invariant-mass-rest-frame
+  type: soft
 builds-toward:
 - time-dilation-clock-rates
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Relativity of Simultaneity
 
 ## Core Idea

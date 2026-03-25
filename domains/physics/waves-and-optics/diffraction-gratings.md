@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: electromagnetic-spectrum
   type: soft
+- id: multiple-slit-grating-equation
+  type: soft
 tags:
 - diffraction grating
 - spectroscopy

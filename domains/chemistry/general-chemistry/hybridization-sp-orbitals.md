@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: vsepr-theory
   type: hard
+- id: hybridization-introduction
+  type: soft
 builds-toward:
 - molecular-geometry
 - bonding-antibonding-orbitals
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Orbital Hybridization: sp, sp², and sp³
 
 ## Core Idea

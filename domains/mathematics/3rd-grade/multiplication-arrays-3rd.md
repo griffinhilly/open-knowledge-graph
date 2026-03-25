@@ -6,6 +6,8 @@ course: 3rd-grade
 prerequisites:
 - id: multiplication-equal-groups-3rd
   type: hard
+- id: multiplication-strategies-arrays-3rd
+  type: soft
 builds-toward:
 - multiplication-commutative-property
 - area-of-rectangles
@@ -16,7 +18,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Multiplication with Arrays
 
 ## Core Idea

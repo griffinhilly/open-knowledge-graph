@@ -6,6 +6,8 @@ course: computer-architecture
 prerequisites:
 - id: logic-gates-fundamentals
   type: hard
+- id: universal-logic-gates
+  type: soft
 builds-toward:
 - boolean-function-implementation
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # XOR and XNOR Gates
 
 ## Core Idea

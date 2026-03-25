@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: radical-expressions-simplifying
   type: soft
+- id: vertex-form
+  type: soft
 builds-toward:
 - discriminant
 - complex-numbers-intro

@@ -6,6 +6,10 @@ course: waves-and-optics
 prerequisites:
 - id: electromagnetic-waves
   type: hard
+- id: brewster-angle-and-polarization
+  type: soft
+- id: circular-polarization-production
+  type: soft
 builds-toward:
 - polarization-of-light
 tags:
@@ -15,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Polarization: Production and Analysis
 
 ## Core Idea

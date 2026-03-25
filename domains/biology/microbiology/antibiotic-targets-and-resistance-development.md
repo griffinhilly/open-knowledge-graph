@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: antibiotic-resistance-mechanisms-and-evolution
   type: hard
+- id: antibiotic-resistance-mutations-downregulation
+  type: soft
 builds-toward:
 - antimicrobial-resistance-epidemiology-and-spread
 - emerging-infectious-diseases
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Antibiotic Targets and Resistance Development Strategies
 
 ## Core Idea

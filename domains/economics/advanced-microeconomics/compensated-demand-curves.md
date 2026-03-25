@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: indifference-curves
   type: hard
+- id: conditional-factor-demand
+  type: soft
 builds-toward:
 - expenditure-function-duality
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Hicksian (Compensated) Demand
 
 ## Core Idea

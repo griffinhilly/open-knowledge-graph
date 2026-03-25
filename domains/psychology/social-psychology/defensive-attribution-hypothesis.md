@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: fundamental-attribution-error
   type: soft
+- id: just-world-belief
+  type: soft
 builds-toward:
 - motivated-attribution-biases
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Defensive Attribution Hypothesis
 
 ## Core Idea

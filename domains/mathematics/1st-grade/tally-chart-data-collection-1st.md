@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: data-and-graphs-intro
   type: soft
+- id: organizing-data-picture-graphs
+  type: soft
 builds-toward:
 - picture-graphs
 - bar-graphs-3rd
@@ -18,7 +20,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Creating Tally Charts
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: sample-spaces-and-events
   type: soft
+- id: conditional-distributions-theory
+  type: soft
 builds-toward:
 - discrete-random-variables
 - continuous-random-variables
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Random Variables
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: compact-spaces-open-covers
   type: hard
+- id: heine-borel-compact-sets
+  type: soft
 builds-toward:
 - topological-manifolds-introduction
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Tychonoff's Theorem
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: regrouping-addition-trading-ones-for-tens
   type: hard
+- id: three-digit-number-decomposition
+  type: soft
 builds-toward:
 - multi-digit-addition
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Three-Digit Addition With Regrouping
 
 ## Core Idea

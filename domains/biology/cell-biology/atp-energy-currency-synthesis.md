@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: atp-synthesis
   type: hard
+- id: chloroplast-photosynthesis-organelle
+  type: soft
 builds-toward:
 - metabolic-integration-and-regulation
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # ATP: The Universal Energy Currency
 
 ## Core Idea

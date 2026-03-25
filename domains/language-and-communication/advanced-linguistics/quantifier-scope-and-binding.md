@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: quantifiers-and-scope
   type: hard
+- id: quantifier-scope-and-ambiguity
+  type: soft
 tags:
 - semantics
 - quantification
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Quantifier Scope and Binding Relations
 
 ## Core Idea

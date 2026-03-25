@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: harmonic-function-basics
   type: hard
+- id: modulation-compositional-planning
+  type: soft
+- id: modulation-compositional-function
+  type: soft
 builds-toward:
 - sonata-composition-structural
 tags:
@@ -20,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Modulation: Function and Structural Purpose
 
 ## Core Idea

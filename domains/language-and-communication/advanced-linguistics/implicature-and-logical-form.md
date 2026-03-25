@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: formal-pragmatics-context
   type: hard
+- id: presupposition-projection-problem
+  type: soft
 tags:
 - pragmatics
 - implicature
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Implicature and Logical Form
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: logarithms-intro
   type: hard
+- id: acid-base-neutralization-reactions
+  type: soft
 builds-toward:
 - ph-and-acid-base-calculations
 tags:
@@ -23,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Acid-Base Chemistry
 
 ## Core Idea

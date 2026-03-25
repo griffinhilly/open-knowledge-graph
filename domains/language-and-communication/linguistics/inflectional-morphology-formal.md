@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: feature-agreement-checking
   type: hard
+- id: derivational-morphology-formal
+  type: soft
+- id: grammatical-gender-systems
+  type: soft
+- id: grammatical-number-systems
+  type: soft
+- id: suppletion-irregular-forms
+  type: soft
 builds-toward:
 - syntax-semantics-interface-formal
 tags:
@@ -18,7 +26,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Formal Analysis of Inflectional Morphology
 
 ## Core Idea

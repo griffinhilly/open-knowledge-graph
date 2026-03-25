@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: protestant-reformation
   type: soft
+- id: early-modern-gender-and-family-relations
+  type: soft
+- id: early-modern-missionary-activity
+  type: soft
 builds-toward:
 - gender-history
 - social-control-theory
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Early Modern Witchcraft Persecutions
 
 ## Core Idea

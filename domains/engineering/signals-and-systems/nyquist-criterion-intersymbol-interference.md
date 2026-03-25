@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: matched-filter-signal-detection
   type: soft
+- id: nyquist-stability-analysis-systems
+  type: soft
 builds-toward:
 - raised-cosine-pulse-shaping
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Nyquist Criterion for Zero Intersymbol Interference
 
 ## Core Idea

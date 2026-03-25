@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: hash-function-design-properties
   type: soft
-- id: probability
+- id: probability-axioms
   type: soft
 tags:
 - hashing

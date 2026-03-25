@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: spoken-pacing-and-rhythm
   type: soft
+- id: audience-connection-psychological
+  type: soft
 tags:
 - engagement
 - attention
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Maintaining Audience Attention Across a Full Speech
 
 ## Core Idea

@@ -12,6 +12,16 @@ prerequisites:
   type: soft
 - id: verb-phrases
   type: soft
+- id: correlative-conjunctions-pairs
+  type: soft
+- id: double-negatives-standard-usage
+  type: soft
+- id: double-subject-pronouns-avoidance
+  type: soft
+- id: linking-verb-subject-complement-agreement
+  type: soft
+- id: articles-a-an-the-usage
+  type: soft
 tags:
 - diagramming
 - visualization
@@ -19,7 +29,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Sentence Diagramming and Visual Grammar
 
 ## Core Idea

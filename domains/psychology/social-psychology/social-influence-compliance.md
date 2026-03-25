@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: persuasion-and-attitude-change
   type: soft
+- id: liking-principle-persuasion-attraction
+  type: soft
 tags:
 - compliance
 - influence
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Social Influence and Compliance Techniques
 
 ## Core Idea

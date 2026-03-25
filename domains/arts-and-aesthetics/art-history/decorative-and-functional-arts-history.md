@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: non-western-art-traditions
   type: soft
+- id: decorative-arts-craftsmanship-history
+  type: soft
 tags:
 - decorative-arts
 - craft
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Decorative Arts, Craft, and Design Traditions
 
 ## Core Idea

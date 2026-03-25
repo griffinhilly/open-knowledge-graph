@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: chromatic-scale-construction
   type: soft
+- id: diatonic-chromatic-tone-distinction
+  type: soft
 builds-toward:
 - borrowed-chord-recognition-ear
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Diatonic vs. Chromatic Tone Discrimination by Ear
 
 ## Core Idea

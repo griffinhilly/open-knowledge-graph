@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dominant-seventh-voice-leading-tritone
   type: soft
+- id: diminished-seventh-recognition
+  type: soft
 builds-toward:
 - chromatic-modulation-analysis
 - harmonic-dictation-basic
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Secondary Dominant Recognition by Ear
 
 ## Core Idea

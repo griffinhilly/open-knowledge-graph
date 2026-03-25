@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: voice-leading-smooth-progressions
   type: hard
+- id: chromatic-bass-line-structural-function
+  type: soft
 builds-toward:
 - melody-to-harmony-voice-leading-decisions
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Bass Line Writing with Harmonic Function and Voice Leading
 
 ## Core Idea

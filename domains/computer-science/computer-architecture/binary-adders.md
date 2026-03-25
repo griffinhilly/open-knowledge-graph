@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: binary-arithmetic
   type: soft
+- id: counters-design-analysis
+  type: soft
+- id: overflow-underflow-arithmetic
+  type: soft
 builds-toward:
 - arithmetic-logic-unit
 - fixed-point-number-representation
@@ -20,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Binary Adders: Half-Adders and Full-Adders
 
 ## Core Idea

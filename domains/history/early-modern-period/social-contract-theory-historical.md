@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: english-civil-war-glorious-revolution
   type: soft
+- id: rousseau-general-will-social-contract
+  type: soft
 builds-toward:
 - american-revolution
 - french-revolution-origins

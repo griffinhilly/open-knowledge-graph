@@ -6,6 +6,8 @@ course: signals-and-systems
 prerequisites:
 - id: signal-classification-continuous-discrete
   type: hard
+- id: system-causality-and-realizability
+  type: soft
 builds-toward:
 - lti-systems-and-impulse-response
 - transfer-function-poles-zeros
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # System Classification and Properties
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: deductive-argumentation-in-composition
   type: soft
+- id: evidence-integration-oral-argument
+  type: soft
 builds-toward:
 - logos-and-logical-reasoning
 - oral-argument-development-dynamics
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Constructing Logical Chains in Oral Argument
 
 ## Core Idea

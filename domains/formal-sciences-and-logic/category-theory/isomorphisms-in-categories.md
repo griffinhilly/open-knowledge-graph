@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: functions-and-function-properties
   type: soft
+- id: natural-isomorphisms
+  type: soft
 builds-toward:
 - equivalence-of-categories
 - universal-properties
@@ -22,7 +24,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Isomorphisms in Categories
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: pareto-efficiency-and-optimality
   type: hard
+- id: welfare-analysis-advanced
+  type: soft
 builds-toward:
 - second-welfare-theorem
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # First Welfare Theorem: Competitive Equilibrium Is Efficient
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: rhetoric-and-composition
 prerequisites:
 - id: evidence-and-support
   type: hard
+- id: quotation-integration-writing
+  type: soft
 builds-toward:
 - evidence-integration-analysis
 - analytical-writing
@@ -19,7 +21,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Evidence Types in Writing
 
 ## Core Idea

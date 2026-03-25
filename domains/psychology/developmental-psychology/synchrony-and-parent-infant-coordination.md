@@ -3,7 +3,13 @@ id: synchrony-and-parent-infant-coordination
 title: Synchrony and Parent-Infant Interaction
 domain: psychology
 course: developmental-psychology
-prerequisites: []
+prerequisites:
+- id: parent-infant-synchrony-interaction
+  type: soft
+- id: secure-attachment-and-base-functions
+  type: soft
+- id: separation-anxiety-and-stranger-anxiety
+  type: soft
 builds-toward:
 - secure-attachment-and-base-functions
 - emotional-development-and-regulation-infancy
@@ -15,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Synchrony and Parent-Infant Interaction
 
 ## Core Idea

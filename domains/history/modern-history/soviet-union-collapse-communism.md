@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: stalinism-totalitarian-state
   type: soft
+- id: korean-war-proxy-conflict
+  type: soft
 tags:
 - Soviet-Union
 - communism
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Soviet Union Collapse and the End of Cold War
 
 ## Core Idea

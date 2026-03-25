@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dopamine-reward-system
   type: soft
+- id: alcohol-use-disorder
+  type: soft
 builds-toward:
 - alcohol-use-disorder
 - opioid-use-disorder
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Substance Use Disorders: Overview and Neurobiology
 
 ## Core Idea

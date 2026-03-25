@@ -6,6 +6,10 @@ course: cognitive-psychology
 prerequisites:
 - id: cognitive-biases-overview
   type: hard
+- id: frequency-estimation-metacognitive
+  type: soft
+- id: representativeness-similarity-judgment
+  type: soft
 tags:
 - judgment
 - heuristic
@@ -14,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Availability Heuristic in Frequency Judgment
 
 ## Core Idea

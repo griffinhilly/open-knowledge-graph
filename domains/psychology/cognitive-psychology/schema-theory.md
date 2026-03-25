@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: memory-encoding-strategies
   type: soft
+- id: expert-cognition-knowledge-organization
+  type: soft
 builds-toward:
 - analogical-reasoning-cognitive
 - cognitive-biases-overview
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Schemas and Knowledge Organization
 
 ## Core Idea

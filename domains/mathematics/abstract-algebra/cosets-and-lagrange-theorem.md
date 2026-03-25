@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: order-of-group-element
   type: hard
+- id: cayley-theorem
+  type: soft
 builds-toward:
 - normal-subgroups
 - the-class-equation
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Cosets and Lagrange's Theorem
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: statements-and-logical-connectives
   type: hard
+- id: de-morgans-laws
+  type: soft
 builds-toward:
 - conditional-and-biconditional-statements
 - proof-by-contrapositive
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Logical Equivalences and Laws
 
 ## Core Idea

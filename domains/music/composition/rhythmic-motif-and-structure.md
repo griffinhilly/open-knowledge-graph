@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: motif-and-thematic-material
   type: soft
+- id: rhythmic-development-techniques
+  type: soft
 builds-toward:
 - compositional-variation-and-development
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Rhythmic Motif and Structure
 
 ## Core Idea

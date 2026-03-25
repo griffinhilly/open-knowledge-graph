@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: duration-and-convexity
   type: hard
+- id: bond-duration-application
+  type: soft
 builds-toward:
 - bond-immunization-liability-matching
 - bond-portfolio-strategies
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Interest Rate Risk and Duration Strategy
 
 ## Core Idea

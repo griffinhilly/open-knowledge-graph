@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: neuron-structure-and-function
   type: hard
+- id: somatosensory-touch-perception
+  type: soft
 tags:
 - sensory-systems
 - touch
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Somatosensory System Organization
 
 ## Core Idea

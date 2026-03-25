@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dna-replication-primers-helicase-synthesis
   type: soft
+- id: dna-proofreading-and-error-correction
+  type: soft
 builds-toward:
 - homologous-recombination-rad51-complex
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Mismatch Repair and MLH/MSH Proteins
 
 ## Core Idea

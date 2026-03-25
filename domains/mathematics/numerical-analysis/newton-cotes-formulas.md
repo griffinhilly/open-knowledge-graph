@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: lagrange-polynomial-interpolation
   type: hard
+- id: orthogonal-polynomials
+  type: soft
 builds-toward:
 - composite-quadrature
 - gaussian-quadrature
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Newton-Cotes Quadrature Formulas
 
 ## Core Idea

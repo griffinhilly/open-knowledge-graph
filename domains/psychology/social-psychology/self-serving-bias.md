@@ -6,6 +6,10 @@ course: social-psychology
 prerequisites:
 - id: attribution-theory
   type: hard
+- id: defensive-attribution-hypothesis
+  type: soft
+- id: correspondence-bias-situational
+  type: soft
 builds-toward:
 - prejudice-and-discrimination
 tags:
@@ -15,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Self-Serving Bias
 
 ## Core Idea

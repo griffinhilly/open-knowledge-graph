@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: phonological-features
   type: hard
+- id: feature-geometry-phonology
+  type: soft
+- id: sound-change-mechanisms-diachronic
+  type: soft
 builds-toward:
 - constraint-ranking-optimality-theory
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Markedness Constraints in Phonology
 
 ## Core Idea

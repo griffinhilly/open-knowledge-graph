@@ -6,6 +6,8 @@ course: neuroscience
 prerequisites:
 - id: neuronal-compartments
   type: soft
+- id: adult-neurogenesis
+  type: soft
 builds-toward:
 - critical-developmental-periods
 - hippocampus-memory-consolidation
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Adult Neurogenesis: Generation of New Neurons in Mature Brain
 
 ## Core Idea

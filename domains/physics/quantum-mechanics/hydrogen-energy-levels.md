@@ -6,13 +6,16 @@ course: quantum-mechanics
 prerequisites:
 - id: hydrogen-atom-solution
   type: hard
+- id: harmonic-oscillator-energy-levels
+  type: soft
+- id: fine-structure-splitting
+  type: soft
 tags:
 - hydrogen-atom
 - energy-levels
 stage: advanced
 status: validated
 ---
-
 # Energy Levels of the Hydrogen Atom
 
 ## Core Idea

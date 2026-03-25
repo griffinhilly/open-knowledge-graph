@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: franck-condon-principle
   type: hard
+- id: time-dependent-dft-excited-states
+  type: soft
+- id: fluorescence-quantum-yield-lifetime
+  type: soft
 builds-toward:
 - two-dimensional-nmr-spectroscopy
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Excited State Relaxation and Decay Pathways
 
 ## Core Idea

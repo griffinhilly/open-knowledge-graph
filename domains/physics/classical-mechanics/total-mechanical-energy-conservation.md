@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conservative-vector-fields-mechanics
   type: hard
+- id: mechanical-energy-and-non-conservative-forces
+  type: soft
 builds-toward:
 - energy-conservation-applications
 - effective-potential-central-forces
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Total Mechanical Energy and Energy Conservation
 
 ## Core Idea

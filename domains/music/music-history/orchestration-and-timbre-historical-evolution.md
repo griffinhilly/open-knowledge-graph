@@ -8,6 +8,26 @@ prerequisites:
   type: hard
 - id: orchestration-timbre-choices
   type: soft
+- id: romantic-instrumental-expansion
+  type: soft
+- id: romantic-vocal-music-development
+  type: soft
+- id: virtuosity-and-performer-celebrity
+  type: soft
+- id: musical-nationalism-and-folk-idiom
+  type: soft
+- id: opera-emergence-and-evolution
+  type: soft
+- id: musical-notation-historical-development
+  type: soft
+- id: performance-authenticity-and-interpretation
+  type: soft
+- id: historiography-and-canon-formation
+  type: soft
+- id: postmodern-and-contemporary-music
+  type: soft
+- id: women-composers-and-musical-canon
+  type: soft
 tags:
 - orchestration
 - timbre
@@ -17,7 +37,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Orchestration and Timbre: Historical Evolution
 
 ## Core Idea

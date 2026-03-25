@@ -9,7 +9,7 @@ prerequisites:
 - id: database-transactions
   type: hard
 builds-toward:
-- sql-triggers-and-events
+- sql-triggers-before-after-events
 - acid-properties
 tags:
 - stored-procedures

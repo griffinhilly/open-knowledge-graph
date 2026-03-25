@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: control-flow-graphs
   type: hard
+- id: vectorization-and-simd
+  type: soft
 tags:
 - optimization
 - loop-optimization
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Loop Invariant Code Motion (LICM)
 
 ## Core Idea

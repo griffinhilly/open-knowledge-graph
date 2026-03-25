@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: concave-convex-mirror-image
   type: soft
+- id: mirror-image-formation-ray-diagrams
+  type: soft
 builds-toward:
 - combined-optical-system-magnification
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Thin Lens Equation and Image Formation
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: variable-definition-and-operational-measurement
   type: hard
+- id: research-design-selection-matching-question
+  type: soft
 builds-toward:
 - true-experimental-randomized-designs
 - quasi-experimental-non-randomized-designs
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Selecting and Matching Research Designs to Questions
 
 ## Core Idea

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: type-i-type-ii-error-tradeoffs
   type: soft
+- id: assumption-violations-robustness
+  type: soft
 builds-toward:
 - multiple-comparisons-correction-type-i-error
 - exploratory-vs-confirmatory-analysis-strategies
@@ -23,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Statistical Conclusion Validity and Assumptions of Statistical Tests
 
 ## Core Idea

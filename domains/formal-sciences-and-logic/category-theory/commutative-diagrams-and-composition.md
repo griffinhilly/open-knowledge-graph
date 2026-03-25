@@ -6,6 +6,10 @@ course: category-theory
 prerequisites:
 - id: categories-and-morphisms
   type: hard
+- id: commutative-diagrams-in-categories
+  type: soft
+- id: functor-composition
+  type: soft
 builds-toward:
 - diagram-chasing-lemmas
 - natural-transformations
@@ -16,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Commutative Diagrams and Composition
 
 ## Core Idea

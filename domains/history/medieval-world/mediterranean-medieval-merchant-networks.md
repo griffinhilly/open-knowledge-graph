@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: silk-road-medieval-era
   type: soft
+- id: medieval-pilgrimage-routes-networks
+  type: soft
 builds-toward:
 - urban-burgher-merchant-class
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Mediterranean Medieval Trade and Merchant Networks
 
 ## Core Idea

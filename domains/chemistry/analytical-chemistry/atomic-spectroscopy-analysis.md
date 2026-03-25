@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: inductively-coupled-plasma
   type: hard
+- id: atomic-absorption-spectroscopy-quantitative
+  type: soft
 tags:
 - atomic spectroscopy
 - AAS
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Atomic Spectroscopy for Elemental Analysis
 
 ## Core Idea

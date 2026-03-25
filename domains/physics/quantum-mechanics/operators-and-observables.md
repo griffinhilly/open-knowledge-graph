@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: quantum-postulates
   type: hard
+- id: quantum-observables
+  type: soft
 builds-toward:
 - commutation-relations
 - expectation-values
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Operators and Observables
 
 ## Core Idea

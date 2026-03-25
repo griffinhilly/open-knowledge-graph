@@ -10,13 +10,16 @@ prerequisites:
   type: hard
 - id: lagrange-multipliers
   type: soft
+- id: rates-of-change-partial-derivatives
+  type: soft
+- id: unconstrained-optimization
+  type: soft
 tags:
 - applications
 - physics
 stage: advanced
 status: validated
 ---
-
 # Applications of Multivariable Calculus
 
 ## Core Idea

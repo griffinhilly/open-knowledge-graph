@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: plant-life-cycle
   type: hard
+- id: seeds-to-plants-to-seeds
+  type: soft
+- id: egg-to-adult
+  type: soft
 builds-toward:
 - cell-cycle-overview
 tags:
@@ -20,7 +24,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # What Is a Life Cycle?
 
 ## Core Idea

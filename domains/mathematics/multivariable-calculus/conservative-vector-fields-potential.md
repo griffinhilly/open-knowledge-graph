@@ -6,6 +6,8 @@ course: multivariable-calculus
 prerequisites:
 - id: line-integrals-definition-properties
   type: hard
+- id: conservative-vector-fields
+  type: soft
 builds-toward:
 - greens-theorem-applications
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Conservative Vector Fields and Potential Functions
 
 ## Core Idea

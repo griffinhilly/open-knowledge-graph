@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: auxiliary-verbs-and-modality
   type: soft
+- id: imperative-sentences
+  type: soft
 builds-toward:
 - subject-auxiliary-inversion
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Interrogative Sentences and Question Formation
 
 ## Core Idea

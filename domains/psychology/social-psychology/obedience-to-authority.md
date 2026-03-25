@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: psychological-research-ethics
   type: soft
+- id: obedience-authority-legitimacy
+  type: soft
+- id: obedience-authority-organizational-contexts
+  type: soft
 builds-toward:
 - deindividuation
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Obedience to Authority
 
 ## Core Idea

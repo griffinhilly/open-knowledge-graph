@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: design-conventions-and-expectations
   type: soft
+- id: emotional-resonance-design
+  type: soft
+- id: design-documentation-and-rationale
+  type: soft
 builds-toward:
 - branding-and-identity-design
 - emotional-resonance-design
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Design Metaphor and Visual Language
 
 ## Core Idea

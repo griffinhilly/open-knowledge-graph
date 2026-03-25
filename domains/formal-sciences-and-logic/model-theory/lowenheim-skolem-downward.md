@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cardinality-and-countability
   type: soft
+- id: lowenheim-skolem-upward
+  type: soft
 builds-toward:
 - skolem-functions-and-witnesses
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Downward Löwenheim-Skolem Theorem
 
 ## Core Idea

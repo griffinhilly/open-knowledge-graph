@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: threads-and-concurrency
   type: soft
+- id: disk-scheduling
+  type: soft
 tags:
 - FCFS
 - SJF
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # CPU Scheduling Algorithms
 
 ## Core Idea

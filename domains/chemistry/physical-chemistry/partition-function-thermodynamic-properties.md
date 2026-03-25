@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: statistical-ensembles-intro
   type: soft
+- id: canonical-ensemble-physical-chemistry
+  type: soft
 builds-toward:
 - gibbs-energy-molecular-basis
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Partition Function and Thermodynamic Properties
 
 ## Core Idea

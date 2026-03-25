@@ -6,6 +6,16 @@ course: data-structures-and-algorithms
 prerequisites:
 - id: graph-adjacency-list-matrix-representations
   type: hard
+- id: selection-algorithm-quickselect
+  type: soft
+- id: articulation-points-cut-vertices
+  type: soft
+- id: bipartite-graph-detection-coloring
+  type: soft
+- id: boyer-moore-algorithm-details
+  type: soft
+- id: cycle-detection-directed-undirected
+  type: soft
 tags:
 - graphs
 - flow
@@ -13,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Maximum Flow: Network Flow Problems and Algorithms
 
 ## Core Idea

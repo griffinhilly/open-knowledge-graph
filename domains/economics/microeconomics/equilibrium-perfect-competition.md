@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: perfect-competition
   type: soft
+- id: perfect-competition-firm-and-industry
+  type: soft
 builds-toward:
 - zero-profit-long-run-entry
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Market Equilibrium in Perfect Competition
 
 ## Core Idea

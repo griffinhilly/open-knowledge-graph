@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hydrogen-atom-solution-radial-wavefunction
   type: soft
+- id: electron-correlation-approximations
+  type: soft
 builds-toward:
 - variational-method-ground-state
 - density-functional-theory-intro
@@ -19,7 +21,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Electron Correlation in Multi-Electron Atoms
 
 ## Core Idea

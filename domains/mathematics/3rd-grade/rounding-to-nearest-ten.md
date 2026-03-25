@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: number-line-to-1000
   type: soft
+- id: rounding-application-in-estimation-3rd
+  type: soft
 builds-toward:
 - rounding-to-nearest-hundred
 - estimation-strategies
@@ -20,7 +22,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Rounding to the Nearest Ten
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: modern-physics
 prerequisites:
 - id: wavefunction-probability-density
   type: hard
+- id: quantum-superposition-states
+  type: soft
 builds-toward:
 - expectation-values
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Quantum Operators and Observables
 
 ## Core Idea

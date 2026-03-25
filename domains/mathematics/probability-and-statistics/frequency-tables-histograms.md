@@ -6,6 +6,8 @@ course: probability-and-statistics
 prerequisites:
 - id: frequency-distributions-and-tables
   type: hard
+- id: distribution-shape-skewness-kurtosis
+  type: soft
 builds-toward:
 - distribution-shape-skewness-kurtosis
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Histograms and Frequency Visualizations
 
 ## Core Idea

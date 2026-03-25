@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: directional-derivatives-gradient
   type: soft
+- id: vanishing-gradient-problem
+  type: soft
 tags:
 - optimization
 - first-order-methods
@@ -21,7 +23,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Gradient Descent and Optimization
 
 ## Core Idea

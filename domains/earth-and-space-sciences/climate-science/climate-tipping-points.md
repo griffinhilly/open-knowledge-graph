@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: forcing-feedback-framework
   type: soft
+- id: paleoclimate-tipping-points
+  type: soft
 builds-toward:
 - climate-models-and-projections
 - atlantic-meridional-overturning-stability
@@ -21,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Climate Tipping Points and Critical Transitions
 
 ## Core Idea

@@ -6,13 +6,16 @@ course: quantum-mechanics
 prerequisites:
 - id: first-order-perturbation-theory
   type: hard
+- id: first-order-perturbation-energy
+  type: soft
+- id: degenerate-perturbation-theory
+  type: soft
 tags:
 - perturbation-theory
 - corrections
 stage: advanced
 status: validated
 ---
-
 # Second-Order Perturbation Theory
 
 ## Core Idea

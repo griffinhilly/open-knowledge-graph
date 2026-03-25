@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: resonance-in-organic-intermediates
   type: hard
+- id: nucleophilic-aromatic-substitution
+  type: soft
 builds-toward:
 - retrosynthetic-analysis
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Directing Effects in Electrophilic Aromatic Substitution
 
 ## Core Idea

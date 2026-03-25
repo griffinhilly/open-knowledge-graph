@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ethos-and-credibility
   type: soft
+- id: eye-contact-audience-connection
+  type: soft
 tags:
 - audience
 - connection
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Building Emotional Rapport and Psychological Connection
 
 ## Core Idea

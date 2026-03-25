@@ -6,6 +6,10 @@ course: 3rd-grade
 prerequisites:
 - id: 2d-shapes-attributes-2nd
   type: hard
+- id: shape-attributes-2d
+  type: soft
+- id: right-angles-in-shapes-3rd
+  type: soft
 builds-toward:
 - classifying-quadrilaterals
 tags:
@@ -15,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # 2D Shapes and Their Attributes
 
 ## Core Idea

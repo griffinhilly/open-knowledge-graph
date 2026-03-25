@@ -6,6 +6,8 @@ course: thermodynamics
 prerequisites:
 - id: temperature-and-thermal-equilibrium
   type: hard
+- id: thermal-conductivity-coefficient
+  type: soft
 tags:
 - thermal-effects
 - dimensional-changes
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Thermal Expansion: Linear and Volumetric
 
 ## Core Idea

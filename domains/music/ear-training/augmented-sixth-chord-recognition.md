@@ -8,6 +8,16 @@ prerequisites:
   type: hard
 - id: seventh-chords
   type: soft
+- id: diminished-seventh-recognition
+  type: soft
+- id: chord-inversion-recognition-by-ear
+  type: soft
+- id: transposition-by-ear
+  type: soft
+- id: mixed-interval-ear-training
+  type: soft
+- id: form-phrase-structure-ear
+  type: soft
 builds-toward:
 - harmonic-dictation-basic
 - romantic-instrumental-expansion
@@ -19,7 +29,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Augmented Sixth Chord Recognition by Ear
 
 ## Core Idea

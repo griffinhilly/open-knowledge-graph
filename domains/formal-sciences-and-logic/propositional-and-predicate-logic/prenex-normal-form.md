@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: quantifier-scope-ambiguity
   type: soft
+- id: literals-and-clauses-cnf
+  type: soft
 builds-toward:
 - skolemization-and-witnesses
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Prenex Normal Form
 
 ## Core Idea

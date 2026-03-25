@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: observational-drawing-practice
   type: hard
+- id: three-quarter-view-figure-proportions
+  type: soft
 builds-toward:
 - portraiture-fundamentals
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Ear Structure and Proportion
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: curl-divergence
   type: hard
+- id: stokes-theorem-applications
+  type: soft
 builds-toward:
 - applications-multivariable
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Stokes' Theorem
 
 ## Core Idea

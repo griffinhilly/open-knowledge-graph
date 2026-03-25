@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: digital-signal-processing-fundamentals
   type: hard
+- id: bilinear-transform-digital-filters
+  type: soft
+- id: filter-classification-design-basics
+  type: soft
+- id: elliptic-filter-design
+  type: soft
 tags:
 - iir-filter
 - filter-design
@@ -15,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # IIR Filter Design and Realization
 
 ## Core Idea

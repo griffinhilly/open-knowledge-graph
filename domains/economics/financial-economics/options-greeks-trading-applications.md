@@ -6,6 +6,8 @@ course: financial-economics
 prerequisites:
 - id: option-greeks-delta-gamma-vega-theta
   type: hard
+- id: option-greeks-and-sensitivity
+  type: soft
 builds-toward:
 - portfolio-insurance-strategy
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Greeks and Hedging Applications in Practice
 
 ## Core Idea

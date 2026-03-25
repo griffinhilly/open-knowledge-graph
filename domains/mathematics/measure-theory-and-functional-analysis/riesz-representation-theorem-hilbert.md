@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dual-spaces-bounded-functionals
   type: hard
+- id: reflexive-spaces
+  type: soft
 builds-toward:
 - bessel-parseval
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Riesz Representation Theorem (Hilbert)
 
 ## Core Idea

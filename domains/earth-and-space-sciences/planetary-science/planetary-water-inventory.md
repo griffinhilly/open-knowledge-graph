@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: volatile-inventory-and-escape-evolution
   type: hard
+- id: fluvial-processes-planetary-surfaces
+  type: soft
+- id: habitable-zone-climate-dynamics
+  type: soft
 builds-toward:
 - planetary-habitability-and-biosignatures
 - habitable-zone-boundaries-constraints
@@ -19,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Planetary Water Inventory and Volatile Delivery
 
 ## Core Idea

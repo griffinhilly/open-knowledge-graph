@@ -6,6 +6,12 @@ course: numerical-analysis
 prerequisites:
 - id: intermediate-value-theorem
   type: hard
+- id: newtons-method-convergence-analysis
+  type: soft
+- id: secant-method
+  type: soft
+- id: secant-method-root-finding
+  type: soft
 builds-toward:
 - order-of-convergence
 tags:
@@ -15,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Bisection Method for Root Finding
 
 ## Core Idea

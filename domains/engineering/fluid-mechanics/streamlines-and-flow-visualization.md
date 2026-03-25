@@ -6,6 +6,8 @@ course: fluid-mechanics
 prerequisites:
 - id: fluid-kinematics
   type: hard
+- id: flow-visualization-techniques
+  type: soft
 builds-toward:
 - control-volume-mass-balance
 - boundary-layer-flow-separation
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Streamlines, Pathlines, and Flow Visualization
 
 ## Core Idea

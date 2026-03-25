@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: cache-coherence-protocols
   type: soft
-builds-toward:
-- multi-core-system-design
 tags:
 - cache-hierarchy
 - l1-l2-l3

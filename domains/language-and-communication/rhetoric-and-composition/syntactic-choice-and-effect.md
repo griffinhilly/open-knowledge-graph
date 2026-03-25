@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: sentence-variety-and-rhythm
   type: soft
+- id: sentence-construction-emphasis
+  type: soft
+- id: periodic-sentence-structure
+  type: soft
 tags:
 - syntax
 - style
@@ -18,7 +22,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Syntactic Choice and Effect
 
 ## Core Idea

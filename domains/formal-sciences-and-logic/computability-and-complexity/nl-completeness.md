@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: computability-reductions
   type: soft
+- id: np-completeness-reduction-proof-techniques
+  type: soft
 tags:
 - space-complexity
 - completeness
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # NL-Completeness and Space-Bounded Reductions
 
 ## Core Idea

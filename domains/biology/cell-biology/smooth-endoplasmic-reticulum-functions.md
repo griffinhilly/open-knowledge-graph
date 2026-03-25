@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: enzyme-structure-and-function
   type: soft
+- id: rough-endoplasmic-reticulum-ribosomes
+  type: soft
 builds-toward:
 - lipid-synthesis-and-metabolism
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Smooth Endoplasmic Reticulum Functions
 
 ## Core Idea

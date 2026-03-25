@@ -6,6 +6,8 @@ course: methods-of-proof
 prerequisites:
 - id: proving-by-direct-method
   type: hard
+- id: proof-by-cases-exhaustion
+  type: soft
 builds-toward:
 - vacuous-truth-and-trivial-cases
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Proving by Cases and Exhaustion
 
 ## Core Idea

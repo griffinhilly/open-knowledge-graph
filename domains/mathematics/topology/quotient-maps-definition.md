@@ -8,13 +8,14 @@ prerequisites:
   type: hard
 - id: quotient-topology
   type: soft
+- id: quotient-maps-and-identification
+  type: soft
 tags:
 - quotient-maps
 - identification
 stage: advanced
 status: validated
 ---
-
 # Quotient Maps and Quotient Topologies
 
 ## Core Idea

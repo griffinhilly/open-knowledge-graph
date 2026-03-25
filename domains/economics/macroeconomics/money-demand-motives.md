@@ -6,6 +6,8 @@ course: macroeconomics
 prerequisites:
 - id: money-and-its-functions
   type: hard
+- id: money-demand-income-velocity
+  type: soft
 builds-toward:
 - loanable-funds-equilibrium
 - monetary-policy-transmission
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Money Demand and Its Motives
 
 ## Core Idea

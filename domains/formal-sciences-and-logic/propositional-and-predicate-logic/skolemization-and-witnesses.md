@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: skolem-functions-and-witnesses
   type: soft
+- id: skolemization-and-equisatisfiability
+  type: soft
 builds-toward:
 - herbrand-universe-and-base
 - clausal-form-conversion
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Skolemization and Witness Functions
 
 ## Core Idea
