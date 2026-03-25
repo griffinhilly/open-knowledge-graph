@@ -15,7 +15,7 @@ tags:
 - weber
 - rationalization
 - modernity
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

@@ -4,7 +4,7 @@ title: Garbage Collection Algorithms
 domain: computer-science
 course: compilers
 prerequisites:
-- id: runtime-function-calls
+- id: activation-records-runtime
   type: hard
 - id: memory-management-basics
   type: hard

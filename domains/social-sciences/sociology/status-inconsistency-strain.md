@@ -6,7 +6,7 @@ course: sociology
 prerequisites:
 - id: social-stratification
   type: hard
-- id: symbolic-interactionism-foundations
+- id: symbolic-interactionism
   type: hard
 tags:
 - status-inconsistency

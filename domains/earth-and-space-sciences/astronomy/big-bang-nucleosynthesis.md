@@ -16,7 +16,7 @@ tags:
 - big-bang-nucleosynthesis
 - primordial-abundances
 - early-universe
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

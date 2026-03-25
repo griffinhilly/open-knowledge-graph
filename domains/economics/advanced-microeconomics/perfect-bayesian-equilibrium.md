@@ -4,7 +4,7 @@ title: Perfect Bayesian Equilibrium
 domain: economics
 course: advanced-microeconomics
 prerequisites:
-- id: bayesian-games-incomplete-info
+- id: bayesian-games
   type: hard
 - id: subgame-perfect-equilibrium
   type: hard

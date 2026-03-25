@@ -9,7 +9,7 @@ prerequisites:
 - id: cd4-helper-t-cells
   type: soft
 builds-toward:
-- immune-memory-and-secondary-immune-response
+- immunological-memory-secondary-response
 tags:
 - memory-t-cells
 - effector-memory

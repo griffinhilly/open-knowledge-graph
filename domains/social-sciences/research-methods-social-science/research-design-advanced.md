@@ -15,7 +15,7 @@ tags:
 - methodology
 - planning
 - validity
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

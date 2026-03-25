@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - sql-triggers-and-events
-- transaction-properties-acid
+- acid-properties
 tags:
 - stored-procedures
 - procedural

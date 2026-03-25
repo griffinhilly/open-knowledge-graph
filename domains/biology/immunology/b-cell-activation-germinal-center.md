@@ -4,14 +4,14 @@ title: B Cell Activation and Germinal Center Responses
 domain: biology
 course: immunology
 prerequisites:
-- id: b-cell-development-bone-marrow-maturation
+- id: b-cell-development-maturation
   type: hard
 - id: cd4-helper-t-cells
   type: hard
 builds-toward:
-- somatic-hypermutation-and-affinity-maturation
+- affinity-maturation-somatic-hypermutation
 - class-switch-recombination-isotype-switching
-- germinal-center-b-cell-response-dynamics
+- germinal-center-reactions
 tags:
 - b-cell-activation
 - germinal-center

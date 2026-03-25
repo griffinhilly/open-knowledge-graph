@@ -6,7 +6,7 @@ course: quantum-mechanics
 prerequisites:
 - id: time-independent-perturbation-theory
   type: hard
-- id: differential-equations
+- id: differential-equations-intro
   type: hard
 builds-toward:
 - fermi-golden-rule

@@ -6,6 +6,8 @@ course: advanced-microeconomics
 prerequisites:
 - id: oligopoly-and-strategic-behavior
   type: hard
+- id: game-theory-basics-microeconomics
+  type: hard
 - id: profit-maximization-microeconomics
   type: soft
 - id: constrained-optimization

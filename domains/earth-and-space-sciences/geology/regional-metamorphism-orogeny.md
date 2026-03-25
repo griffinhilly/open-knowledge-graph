@@ -13,7 +13,7 @@ tags:
 - orogeny
 - mountain-building
 - pressure
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -4,7 +4,7 @@ title: George Herbert Mead and Social Interaction
 domain: social-sciences
 course: sociological-theory
 prerequisites:
-- id: symbolic-interactionism-foundations
+- id: symbolic-interactionism
   type: hard
 builds-toward:
 - self-identity-social-interaction
@@ -13,7 +13,7 @@ tags:
 - interaction
 - self
 - mind
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -6,7 +6,7 @@ course: databases
 prerequisites:
 - id: concurrency-control-databases
   type: hard
-- id: mutex-and-locks
+- id: mutual-exclusion-and-locks
   type: soft
 - id: semaphores
   type: soft

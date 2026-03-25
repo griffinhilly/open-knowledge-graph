@@ -9,7 +9,7 @@ prerequisites:
 - id: cap-theorem
   type: hard
 builds-toward:
-- nosql-data-models-scalability
+- nosql-concepts
 tags:
 - replication
 - consistency

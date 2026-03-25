@@ -6,8 +6,6 @@ course: research-methods-social-science
 prerequisites:
 - id: longitudinal-data-analysis
   type: hard
-- id: time-series-social-phenomena
-  type: hard
 builds-toward:
 - vector-autoregression-var
 - dynamic-panel-models
@@ -16,7 +14,7 @@ tags:
 - comparative
 - countries-regions
 - dynamics
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

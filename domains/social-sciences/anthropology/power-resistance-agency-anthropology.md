@@ -4,7 +4,7 @@ title: Power, Resistance, and Human Agency
 domain: social-sciences
 course: anthropology
 prerequisites:
-- id: emic-etic-perspectives-anthropology
+- id: emic-etic-perspective
   type: hard
 builds-toward:
 - foucault-power-knowledge

@@ -15,7 +15,7 @@ tags:
 - integration
 - triangulation
 - sequential-concurrent
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

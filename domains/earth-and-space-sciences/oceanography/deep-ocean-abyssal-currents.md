@@ -4,7 +4,7 @@ title: Deep Ocean and Abyssal Currents
 domain: earth-and-space-sciences
 course: oceanography
 prerequisites:
-- id: thermohaline-overturning-circulation
+- id: thermohaline-circulation
   type: hard
 - id: water-mass-formation-types
   type: hard

@@ -6,11 +6,11 @@ course: operating-systems
 prerequisites:
 - id: process-concept
   type: hard
-- id: process-states-lifecycle
+- id: process-states-and-transitions
   type: hard
 builds-toward:
 - thread-scheduling-coordination
-- context-switching-analysis
+- context-switching-and-cpu-dispatch
 tags:
 - processes
 - state-machines

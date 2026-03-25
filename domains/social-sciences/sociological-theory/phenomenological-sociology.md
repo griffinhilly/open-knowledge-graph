@@ -12,7 +12,7 @@ tags:
 - lived-experience
 - consciousness
 - lifeworld
-stage: expert
+stage: formal-systems
 status: validated
 ---
 # Phenomenological Sociology

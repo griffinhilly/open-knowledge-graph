@@ -6,7 +6,7 @@ course: microeconomics
 prerequisites: []
 builds-toward:
 - opportunity-cost-concept
-- comparative-advantage-gains
+- comparative-advantage-and-trade
 tags:
 - foundations
 - scarcity

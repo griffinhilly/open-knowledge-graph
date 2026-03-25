@@ -12,7 +12,7 @@ tags:
 - inputs
 - outputs
 - technology
-stage: formal-systems
+stage: concrete-operations
 status: validated
 ---
 

@@ -4,7 +4,7 @@ title: Functional Dependencies
 domain: computer-science
 course: databases
 prerequisites:
-- id: relational-model-basics
+- id: relational-data-model
   type: hard
 - id: primary-and-foreign-keys
   type: hard

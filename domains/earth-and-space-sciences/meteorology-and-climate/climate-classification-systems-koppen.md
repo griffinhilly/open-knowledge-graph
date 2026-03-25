@@ -12,13 +12,13 @@ prerequisites:
   type: soft
 builds-toward:
 - climate-oscillations-modes-enso
-- anthropogenic-climate-change-forcing
+- anthropogenic-climate-forcing
 tags:
 - classification
 - koppen
 - climate-type
 - temperature-precipitation
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

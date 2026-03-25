@@ -4,7 +4,7 @@ title: Renewable vs. Nonrenewable Resources
 domain: earth-and-space-sciences
 course: earth-science
 prerequisites:
-- id: the-rock-cycle
+- id: rock-cycle
   type: soft
 - id: types-of-rocks
   type: soft

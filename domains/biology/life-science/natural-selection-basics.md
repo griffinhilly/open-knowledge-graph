@@ -22,7 +22,7 @@ tags:
 - natural-selection
 - adaptation
 - variation
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 # Natural Selection Basics

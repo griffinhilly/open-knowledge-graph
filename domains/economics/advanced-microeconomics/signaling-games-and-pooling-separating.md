@@ -4,7 +4,7 @@ title: 'Signaling Games: Separating and Pooling Equilibria'
 domain: economics
 course: advanced-microeconomics
 prerequisites:
-- id: bayesian-games-and-incomplete-information
+- id: bayesian-games
   type: hard
 - id: adverse-selection-screening
   type: soft

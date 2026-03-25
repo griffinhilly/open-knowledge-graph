@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: wind-driven-ocean-circulation
   type: hard
-- id: ekman-spiral-wind-driven-transport
+- id: ekman-boundary-layer-transport
   type: soft
 builds-toward:
 - coastal-eutrophication-blooms
@@ -18,7 +18,7 @@ tags:
 - fronts
 - upwelling
 - freshwater-discharge
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

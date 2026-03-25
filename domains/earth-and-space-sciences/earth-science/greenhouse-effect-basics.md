@@ -11,7 +11,7 @@ prerequisites:
 builds-toward:
 - greenhouse-effect
 - climate-change-science
-- anthropogenic-climate-change-forcing
+- anthropogenic-climate-forcing
 tags:
 - greenhouse-effect
 - greenhouse-gases

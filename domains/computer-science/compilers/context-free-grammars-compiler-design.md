@@ -6,7 +6,7 @@ course: compilers
 prerequisites:
 - id: context-free-grammars
   type: hard
-- id: parse-trees-derivations
+- id: parse-trees-ambiguity-and-derivation
   type: hard
 builds-toward:
 - parsing-problem-overview

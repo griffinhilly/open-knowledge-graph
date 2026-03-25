@@ -18,7 +18,7 @@ tags:
 - primase
 - DNA ligase
 - replication fork
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

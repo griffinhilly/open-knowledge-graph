@@ -4,7 +4,7 @@ title: Boyce-Codd Normal Form and Higher Normal Forms
 domain: computer-science
 course: databases
 prerequisites:
-- id: normalization-first-second-third
+- id: database-normalization-1nf-2nf
   type: hard
 builds-toward:
 - denormalization-strategy

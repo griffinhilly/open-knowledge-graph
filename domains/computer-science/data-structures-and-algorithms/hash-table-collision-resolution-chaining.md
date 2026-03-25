@@ -4,7 +4,7 @@ title: 'Hash Tables: Collision Resolution by Chaining'
 domain: computer-science
 course: data-structures-and-algorithms
 prerequisites:
-- id: hash-function-design-universal
+- id: hash-function-design-properties
   type: hard
 - id: hash-tables
   type: soft

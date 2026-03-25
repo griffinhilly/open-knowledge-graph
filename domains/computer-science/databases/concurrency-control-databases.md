@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: threads-and-concurrency
   type: soft
-- id: mutex-and-locks
+- id: mutual-exclusion-and-locks
   type: soft
 builds-toward:
 - two-phase-locking

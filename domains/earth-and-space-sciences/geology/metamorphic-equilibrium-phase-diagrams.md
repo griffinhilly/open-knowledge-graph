@@ -27,7 +27,7 @@ tags:
 - phase-diagram
 - equilibrium
 - pressure-temperature
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

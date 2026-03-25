@@ -4,8 +4,6 @@ title: Propensity Score Methods and Estimation
 domain: economics
 course: econometrics
 prerequisites:
-- id: matching-methods-causal-inference
-  type: hard
 - id: logit-probit-models
   type: hard
 tags:

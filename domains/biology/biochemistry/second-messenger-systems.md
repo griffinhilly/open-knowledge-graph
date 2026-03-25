@@ -15,7 +15,7 @@ tags:
 - IP3
 - DAG
 - second-messengers
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

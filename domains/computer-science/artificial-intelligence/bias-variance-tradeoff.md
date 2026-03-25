@@ -4,8 +4,6 @@ title: Bias-Variance Tradeoff
 domain: computer-science
 course: artificial-intelligence
 prerequisites:
-- id: probability-basics
-  type: hard
 - id: expected-value
   type: soft
 - id: variance-of-random-variables

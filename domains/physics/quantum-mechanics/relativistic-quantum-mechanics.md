@@ -6,12 +6,14 @@ course: quantum-mechanics
 prerequisites:
 - id: dirac-notation
   type: hard
+- id: special-relativity-postulates
+  type: hard
 builds-toward:
 - dirac-equation
 tags:
 - relativistic-qm
 - special-relativity
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -6,10 +6,10 @@ course: databases
 prerequisites:
 - id: bcnf-higher-normalization
   type: hard
-- id: sql-inner-join-combining-tables
+- id: sql-joins
   type: soft
 builds-toward:
-- index-structure-performance
+- index-types-btree-hash-bitmap
 tags:
 - denormalization
 - redundancy

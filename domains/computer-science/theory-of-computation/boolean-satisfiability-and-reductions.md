@@ -6,10 +6,10 @@ course: theory-of-computation
 prerequisites:
 - id: cook-levin-theorem
   type: hard
-- id: np-completeness-and-hardness
+- id: np-completeness
   type: soft
 builds-toward:
-- space-complexity-definitions
+- space-complexity-classes
 tags:
 - sat
 - 3sat

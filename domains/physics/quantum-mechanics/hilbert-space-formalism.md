@@ -4,9 +4,9 @@ title: Hilbert Space Formalism
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: linear-algebra
+- id: matrix-operations
   type: hard
-- id: complex-numbers
+- id: complex-numbers-intro
   type: hard
 - id: vector-spaces-definition
   type: hard

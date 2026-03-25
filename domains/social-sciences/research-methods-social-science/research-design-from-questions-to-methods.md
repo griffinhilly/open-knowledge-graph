@@ -8,12 +8,12 @@ prerequisites:
   type: hard
 builds-toward:
 - operationalization-construct-validity
-- validity-construct-internal-external
+- measurement-validity-social-science
 tags:
 - research-design
 - planning
 - logic
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

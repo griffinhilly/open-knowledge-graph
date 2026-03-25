@@ -11,7 +11,7 @@ prerequisites:
 - id: solubility-equilibria
   type: soft
 builds-toward:
-- marine-biological-pump-mechanisms
+- marine-biological-pump
 - ocean-acidification
 tags:
 - carbon-cycle

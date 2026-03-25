@@ -13,7 +13,7 @@ tags:
 - opportunity cost
 - tradeoffs
 - foundations
-stage: formal-systems
+stage: concrete-operations
 status: validated
 ---
 

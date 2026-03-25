@@ -6,7 +6,7 @@ course: genetics-and-molecular-biology
 prerequisites:
 - id: mendelian-genetics
   type: hard
-- id: dihybrid-inheritance-and-independent-assortment
+- id: dihybrid-crosses
   type: hard
 builds-toward:
 - quantitative-genetics-and-polygenic-traits

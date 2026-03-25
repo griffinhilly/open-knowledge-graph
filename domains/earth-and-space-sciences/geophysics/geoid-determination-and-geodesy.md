@@ -13,7 +13,7 @@ tags:
 - geoid
 - ellipsoid
 - gravity-field
-stage: expert
+stage: advanced
 status: validated
 ---
 

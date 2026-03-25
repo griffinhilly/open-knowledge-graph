@@ -14,7 +14,7 @@ tags:
 - reliability
 - construct
 - operationalization
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

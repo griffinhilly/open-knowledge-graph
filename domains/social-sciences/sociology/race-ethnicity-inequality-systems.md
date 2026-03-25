@@ -9,7 +9,7 @@ prerequisites:
 - id: cultural-relativism
   type: soft
 builds-toward:
-- intersectionality-sociology
+- intersectionality
 - feminist-sociology
 tags:
 - race

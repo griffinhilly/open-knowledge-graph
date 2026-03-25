@@ -9,13 +9,13 @@ prerequisites:
 - id: global-governance-polycentrism
   type: soft
 builds-toward:
-- humanitarian-intervention-sovereignty
+- human-rights-norms-sovereignty-intervention
 tags:
 - norms
 - diffusion
 - constructivism
 - international-society
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

@@ -6,14 +6,14 @@ course: research-methods-social-science
 prerequisites:
 - id: ethnography-advanced-methods
   type: soft
-- id: philosophy-social-science-research
+- id: philosophy-of-social-science-epistemology
   type: soft
 tags:
 - reflexivity
 - positionality
 - insider-outsider
 - research-accountability
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -7,7 +7,7 @@ prerequisites:
 - id: monopoly-microeconomics
   type: hard
 builds-toward:
-- price-discrimination-types-welfare
+- price-discrimination
 - monopoly-deadweight-loss
 tags:
 - monopoly

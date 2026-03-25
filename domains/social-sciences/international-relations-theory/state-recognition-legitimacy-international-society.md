@@ -15,7 +15,7 @@ tags:
 - international-society
 - statehood
 - identity
-stage: expert
+stage: formal-systems
 status: validated
 ---
 # State Recognition and International Legitimacy

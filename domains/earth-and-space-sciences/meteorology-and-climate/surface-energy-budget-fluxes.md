@@ -13,14 +13,14 @@ prerequisites:
 builds-toward:
 - ocean-atmosphere-interactions
 - monsoon-systems-and-climate
-- climate-feedbacks-and-sensitivity
+- feedback-mechanisms-in-climate
 tags:
 - energy-budget
 - sensible-heat
 - latent-heat
 - surface
 - flux
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

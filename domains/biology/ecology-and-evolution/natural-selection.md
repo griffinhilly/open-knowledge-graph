@@ -4,6 +4,8 @@ title: Natural Selection
 domain: biology
 course: ecology-and-evolution
 prerequisites:
+- id: mendelian-genetics
+  type: soft
 - id: population-genetics-intro
   type: hard
 - id: dna-mutations

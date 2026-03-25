@@ -6,6 +6,8 @@ course: sociological-theory
 prerequisites:
 - id: foucault-power-knowledge
   type: hard
+- id: authority-and-domination-sociology
+  type: soft
 builds-toward:
 - foucault-biopolitics
 tags:
@@ -14,7 +16,7 @@ tags:
 - surveillance
 - panopticon
 - normalization
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

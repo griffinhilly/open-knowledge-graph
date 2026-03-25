@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - floating-point-representation
-- arithmetic-logic-units-design
+- arithmetic-logic-unit
 tags:
 - representation
 - numbers

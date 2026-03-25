@@ -6,7 +6,7 @@ course: electrodynamics
 prerequisites:
 - id: electric-potential-and-potential-energy
   type: hard
-- id: multivariable-calculus
+- id: partial-derivatives
   type: hard
 builds-toward:
 - multipole-expansion-radiation

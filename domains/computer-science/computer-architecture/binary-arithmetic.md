@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - twos-complement
-- adder-circuits
+- binary-adders
 - arithmetic-logic-unit
 tags:
 - binary

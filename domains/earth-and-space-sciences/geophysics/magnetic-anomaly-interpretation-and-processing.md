@@ -6,7 +6,7 @@ course: geophysics
 prerequisites:
 - id: potential-field-methods-gravity-magnetics
   type: hard
-- id: magnetic-dipole-approximation-earths-field
+- id: magnetic-dipole-anomalies
   type: hard
 tags:
 - geomagnetism

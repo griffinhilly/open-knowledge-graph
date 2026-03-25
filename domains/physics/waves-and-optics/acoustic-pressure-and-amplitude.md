@@ -6,7 +6,7 @@ course: waves-and-optics
 prerequisites:
 - id: sound-waves-intro
   type: hard
-- id: pressure
+- id: pressure-force-over-area
   type: soft
 builds-toward:
 - sound-intensity-and-decibels

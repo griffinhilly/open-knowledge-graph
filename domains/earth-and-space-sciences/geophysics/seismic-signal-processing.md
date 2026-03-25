@@ -13,7 +13,7 @@ tags:
 - signal
 - processing
 - fourier
-stage: expert
+stage: advanced
 status: validated
 ---
 

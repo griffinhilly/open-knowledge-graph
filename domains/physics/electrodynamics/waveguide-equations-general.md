@@ -6,7 +6,7 @@ course: electrodynamics
 prerequisites:
 - id: maxwell-equations-differential-form
   type: hard
-- id: separation-of-variables-elliptic-equations
+- id: separation-variables-elliptic-equations
   type: hard
 builds-toward:
 - transverse-electric-modes

@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: coastal-eutrophication-blooms
   type: hard
-- id: ocean-stratification-water-column
+- id: ocean-layering-and-stratification
   type: soft
 tags:
 - hypoxia

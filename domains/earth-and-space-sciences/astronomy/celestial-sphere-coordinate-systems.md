@@ -6,7 +6,7 @@ course: astronomy
 prerequisites: []
 builds-toward:
 - apparent-magnitude-brightness-measurement
-- stellar-parallax-distance-measurement
+- stellar-parallax-and-distance
 tags:
 - observational
 - coordinates

@@ -4,7 +4,7 @@ title: NoSQL Database Concepts
 domain: computer-science
 course: databases
 prerequisites:
-- id: relational-model-basics
+- id: relational-data-model
   type: hard
 - id: acid-properties
   type: soft

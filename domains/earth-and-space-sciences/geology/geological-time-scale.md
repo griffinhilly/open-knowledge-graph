@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: rock-cycle
   type: soft
+- id: geologic-time-intro
+  type: hard
 builds-toward:
 - radiometric-dating
 - stratigraphy

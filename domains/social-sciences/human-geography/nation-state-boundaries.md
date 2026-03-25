@@ -4,7 +4,7 @@ title: Nation-State Formation and Contested Boundaries
 domain: social-sciences
 course: human-geography
 prerequisites:
-- id: state-sovereignty-territory
+- id: political-territory-power
   type: hard
 builds-toward: []
 tags:

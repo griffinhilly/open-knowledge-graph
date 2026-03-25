@@ -15,7 +15,7 @@ tags:
 - vorticity
 - wind
 - shear
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

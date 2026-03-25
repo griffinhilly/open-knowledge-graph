@@ -4,7 +4,7 @@ title: Molecular Clocks and Phylogenetic Dating
 domain: biology
 course: ecology-and-evolution
 prerequisites:
-- id: molecular-clock-hypothesis
+- id: molecular-clock
   type: hard
 - id: phylogenetic-inference-methods
   type: hard

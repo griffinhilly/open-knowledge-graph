@@ -4,14 +4,14 @@ title: SQL Subqueries and CTEs
 domain: computer-science
 course: databases
 prerequisites:
-- id: sql-select-basics
+- id: sql-data-retrieval-select
   type: hard
 - id: sql-joins
   type: soft
 - id: sql-aggregation
   type: soft
 builds-toward:
-- query-execution-plans
+- query-optimization
 tags:
 - SQL
 - subqueries

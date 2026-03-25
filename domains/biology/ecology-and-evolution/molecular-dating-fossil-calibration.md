@@ -4,7 +4,7 @@ title: Molecular Clock Calibration and Fossil Dating
 domain: biology
 course: ecology-and-evolution
 prerequisites:
-- id: molecular-clock-hypothesis
+- id: molecular-clock
   type: hard
 - id: molecular-evolution
   type: hard

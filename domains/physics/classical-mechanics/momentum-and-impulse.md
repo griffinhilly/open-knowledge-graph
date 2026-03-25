@@ -6,7 +6,7 @@ course: classical-mechanics
 prerequisites:
 - id: newtons-second-law
   type: hard
-- id: derivatives
+- id: power-rule
   type: soft
 builds-toward:
 - conservation-of-momentum

@@ -4,7 +4,7 @@ title: Education Quality and Economic Development
 domain: economics
 course: development-economics
 prerequisites:
-- id: human-capital-development-economics
+- id: human-capital-accumulation-development
   type: hard
 tags:
 - education

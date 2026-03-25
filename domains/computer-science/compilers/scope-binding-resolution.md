@@ -9,7 +9,7 @@ prerequisites:
 - id: symbol-tables-and-scope
   type: hard
 builds-toward:
-- name-binding-strategies
+- scope-binding-resolution
 tags:
 - scoping
 - name-resolution

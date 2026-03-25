@@ -16,7 +16,7 @@ tags:
 - binary
 - number-systems
 - representation
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

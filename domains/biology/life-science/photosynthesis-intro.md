@@ -20,7 +20,7 @@ tags:
 - energy
 - chloroplasts
 - producers
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 # Photosynthesis Introduction

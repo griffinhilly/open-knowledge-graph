@@ -6,7 +6,7 @@ course: operating-systems
 prerequisites:
 - id: io-systems-overview
   type: hard
-- id: interrupt-exception-handling
+- id: interrupts-and-dma
   type: soft
 tags:
 - drivers

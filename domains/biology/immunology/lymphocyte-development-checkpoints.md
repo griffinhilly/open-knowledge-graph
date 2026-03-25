@@ -6,7 +6,7 @@ course: immunology
 prerequisites:
 - id: t-cell-development-thymic-selection
   type: hard
-- id: b-cell-development-bone-marrow-maturation
+- id: b-cell-development-maturation
   type: hard
 - id: cell-cycle-regulation
   type: soft

@@ -6,8 +6,6 @@ course: data-structures-and-algorithms
 prerequisites:
 - id: stack-adt-using-arrays-linked-lists
   type: hard
-- id: stack-infix-postfix-expression-evaluation
-  type: hard
 builds-toward:
 - operator-precedence-parsing
 tags:

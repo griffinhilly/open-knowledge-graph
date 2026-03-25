@@ -18,7 +18,7 @@ tags:
 - equilibrium
 - feedback
 - projection-uncertainty
-stage: expert
+stage: advanced
 status: validated
 ---
 

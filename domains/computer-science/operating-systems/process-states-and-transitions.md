@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - context-switching-and-cpu-dispatch
-- cpu-scheduling-basic-concepts
+- cpu-scheduling-basics
 tags:
 - process-lifecycle
 - scheduling

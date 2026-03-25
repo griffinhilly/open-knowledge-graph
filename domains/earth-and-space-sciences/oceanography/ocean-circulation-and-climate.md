@@ -26,7 +26,7 @@ tags:
 - abrupt climate change
 - AMOC
 - carbon cycle
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

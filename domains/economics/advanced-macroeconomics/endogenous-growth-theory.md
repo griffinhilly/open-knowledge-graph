@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 builds-toward:
 - romer-growth-model
-- lucas-human-capital-model
+- human-capital-accumulation
 - ak-model-endogenous-growth
 tags:
 - growth-models

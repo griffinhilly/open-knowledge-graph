@@ -6,9 +6,9 @@ course: econometrics
 prerequisites:
 - id: hausman-specification-test
   type: hard
-- id: fixed-effects-within-transformation
+- id: fixed-effects-models
   type: hard
-- id: random-effects-error-components
+- id: random-effects-models
   type: hard
 tags:
 - panel-data

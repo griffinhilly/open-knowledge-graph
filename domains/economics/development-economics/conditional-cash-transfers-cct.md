@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - CCT
 - social-policy
-stage: expert
+stage: advanced
 status: validated
 ---
 

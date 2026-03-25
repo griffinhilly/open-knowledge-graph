@@ -8,7 +8,7 @@ prerequisites:
   type: soft
 builds-toward:
   - ocean-carbonate-system-buffering
-  - thermohaline-circulation-density-driven
+  - thermohaline-circulation
 tags:
 - salinity
 - dissolved-ions

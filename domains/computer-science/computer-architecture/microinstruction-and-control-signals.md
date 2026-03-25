@@ -6,7 +6,7 @@ course: computer-architecture
 prerequisites:
 - id: cpu-control-unit
   type: hard
-- id: instruction-encoding-format
+- id: addressing-modes-instruction-format
   type: soft
 tags:
 - control

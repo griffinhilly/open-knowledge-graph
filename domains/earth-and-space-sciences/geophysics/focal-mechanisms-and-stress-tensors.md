@@ -17,7 +17,7 @@ tags:
 - focal-mechanism
 - stress-tensor
 - earthquake-source
-stage: expert
+stage: advanced
 status: validated
 ---
 

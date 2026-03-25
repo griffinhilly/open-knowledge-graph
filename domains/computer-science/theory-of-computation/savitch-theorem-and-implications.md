@@ -4,7 +4,7 @@ title: Savitch Theorem and Time-Space Tradeoffs
 domain: computer-science
 course: theory-of-computation
 prerequisites:
-- id: space-complexity-definitions
+- id: space-complexity-classes
   type: hard
 tags:
 - savitch-theorem

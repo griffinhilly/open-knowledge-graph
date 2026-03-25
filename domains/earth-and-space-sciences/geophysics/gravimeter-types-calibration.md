@@ -13,7 +13,7 @@ tags:
 - calibration
 - survey
 - instruments
-stage: expert
+stage: advanced
 status: validated
 ---
 

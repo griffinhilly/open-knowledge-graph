@@ -15,7 +15,7 @@ tags:
 - electrophysiology
 - measurement-technique
 - quantitative-methods
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -17,7 +17,7 @@ tags:
 - cAMP
 - calcium
 - MAP kinase
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -23,7 +23,7 @@ tags:
 - cno-cycle
 - massive-stars
 - nuclear
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

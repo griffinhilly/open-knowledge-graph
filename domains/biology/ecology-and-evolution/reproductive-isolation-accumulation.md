@@ -4,7 +4,7 @@ title: 'Reproductive Isolation: Mechanism Accumulation During Divergence'
 domain: biology
 course: ecology-and-evolution
 prerequisites:
-- id: reproductive-isolation-types
+- id: reproductive-isolation
   type: hard
 - id: speciation
   type: hard

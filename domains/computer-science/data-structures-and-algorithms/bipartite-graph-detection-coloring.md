@@ -6,7 +6,7 @@ course: data-structures-and-algorithms
 prerequisites:
 - id: breadth-first-search
   type: hard
-- id: graph-connectivity-components-dfs
+- id: graph-depth-first-search-applications
   type: soft
 tags:
 - graphs

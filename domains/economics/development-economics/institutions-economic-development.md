@@ -9,12 +9,12 @@ prerequisites:
 - id: profit-maximization-microeconomics
   type: soft
 builds-toward:
-- property-rights-secure-development
-- rule-of-law-institutions
+- property-rights-and-incentives
+- governance-and-institutional-quality
 tags:
 - institutions
 - governance
-stage: expert
+stage: advanced
 status: validated
 ---
 

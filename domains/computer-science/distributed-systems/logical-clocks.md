@@ -4,12 +4,12 @@ title: Logical Clocks and Event Ordering
 domain: computer-science
 course: distributed-systems
 prerequisites:
-- id: distributed-systems-overview
+- id: distributed-systems-introduction
   type: hard
 - id: process-concept
   type: soft
 builds-toward:
-- lamport-timestamps
+- logical-clocks
 - vector-clocks
 tags:
 - time

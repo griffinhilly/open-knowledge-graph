@@ -4,7 +4,7 @@ title: 'Count Data Regression: Poisson and Negative Binomial Models'
 domain: social-sciences
 course: research-methods-social-science
 prerequisites:
-- id: logistic-regression-binary-categorical
+- id: logistic-regression-binary-outcomes
   type: hard
 - id: poisson-distribution
   type: hard
@@ -17,7 +17,7 @@ tags:
 - poisson
 - negative-binomial
 - overdispersion
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

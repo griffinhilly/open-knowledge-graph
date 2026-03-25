@@ -6,10 +6,6 @@ course: databases
 prerequisites:
 - id: b-trees
   type: hard
-- id: hash-indexes
-  type: hard
-- id: indexing-concepts
-  type: hard
 builds-toward:
   - index-design-selection
 tags:

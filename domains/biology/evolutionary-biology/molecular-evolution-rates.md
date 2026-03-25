@@ -4,11 +4,11 @@ title: Molecular Clock and Evolutionary Rate Variation
 domain: biology
 course: evolutionary-biology
 prerequisites:
-- id: molecular-clock-hypothesis
+- id: molecular-clock
   type: hard
 - id: substitution-rates
   type: hard
-- id: neutral-theory-molecular
+- id: neutral-theory-evolution
   type: hard
 - id: probability-axioms-and-rules
   type: soft

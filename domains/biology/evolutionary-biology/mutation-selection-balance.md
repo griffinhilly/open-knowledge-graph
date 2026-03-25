@@ -23,7 +23,7 @@ tags:
 - selection
 - mutation
 - equilibrium
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

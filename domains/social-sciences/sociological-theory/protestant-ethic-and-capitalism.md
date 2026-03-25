@@ -4,7 +4,7 @@ title: The Protestant Ethic and the Spirit of Capitalism
 domain: social-sciences
 course: sociological-theory
 prerequisites:
-- id: max-weber-rationalization-modernity
+- id: weber-rationalization
   type: hard
 builds-toward:
 - world-systems-theory
@@ -13,7 +13,7 @@ tags:
 - religion
 - capitalism
 - ethics
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

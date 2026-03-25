@@ -4,7 +4,7 @@ title: Dynamic RAM (DRAM) Organization and Refresh Cycles
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: memory-array-organization
+- id: memory-organization
   type: hard
 - id: memory-bus-interconnect
   type: soft

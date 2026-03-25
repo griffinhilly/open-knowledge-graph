@@ -9,7 +9,7 @@ prerequisites:
 - id: indifference-curves
   type: soft
 builds-toward:
-- mechanism-design-and-vickrey-clarke-groves
+- mechanism-design-basics
 tags:
 - preferences
 - utility

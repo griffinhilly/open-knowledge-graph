@@ -9,14 +9,14 @@ prerequisites:
 - id: balance-of-power
   type: soft
 builds-toward:
-- structural-realism-polarity-systems
+- structural-realism-waltz
 tags:
 - power-transition
 - hegemony
 - great-power-conflict
 - organski
 - status-quo
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

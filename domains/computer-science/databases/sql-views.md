@@ -4,7 +4,7 @@ title: SQL Views and Materialized Views
 domain: computer-science
 course: databases
 prerequisites:
-- id: sql-select-basics
+- id: sql-data-retrieval-select
   type: hard
 - id: sql-joins
   type: soft

@@ -6,12 +6,12 @@ course: databases
 prerequisites: []
 builds-toward:
 - relational-data-model
-- entity-relationship-conceptual-design
+- entity-relationship-diagrams
 tags:
 - fundamentals
 - databases
 - concepts
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

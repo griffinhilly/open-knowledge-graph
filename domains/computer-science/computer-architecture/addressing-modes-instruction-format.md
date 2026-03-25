@@ -7,7 +7,7 @@ prerequisites:
 - id: instruction-set-architecture
   type: hard
 builds-toward:
-- instruction-pipeline-organization
+- pipelining-fundamentals
 - memory-management-paging-segmentation
 tags:
 - addressing

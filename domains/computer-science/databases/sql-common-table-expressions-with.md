@@ -7,7 +7,7 @@ prerequisites:
 - id: sql-subqueries
   type: hard
 builds-toward:
-- sql-recursive-common-table-expressions
+- sql-common-table-expressions-with
 tags:
 - sql
 - subqueries

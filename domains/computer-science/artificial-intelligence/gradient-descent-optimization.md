@@ -4,8 +4,6 @@ title: Gradient Descent and Optimization
 domain: computer-science
 course: artificial-intelligence
 prerequisites:
-- id: calculus-derivatives-intro
-  type: hard
 - id: partial-derivatives
   type: soft
 - id: critical-points-extrema

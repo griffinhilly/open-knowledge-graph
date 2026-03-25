@@ -17,7 +17,7 @@ tags:
 - structure
 - anarchy
 - power
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

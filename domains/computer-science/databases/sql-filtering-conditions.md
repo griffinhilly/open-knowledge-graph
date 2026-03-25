@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - sql-sorting-limiting-results
-- sql-subquery-fundamentals
+- sql-subqueries
 tags:
 - SQL
 - WHERE

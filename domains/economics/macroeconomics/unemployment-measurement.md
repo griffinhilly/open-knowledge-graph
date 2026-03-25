@@ -17,7 +17,7 @@ tags:
 - BLS
 - participation-rate
 - measurement
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

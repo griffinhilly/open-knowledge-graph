@@ -6,7 +6,7 @@ course: sociology
 prerequisites:
 - id: social-structure-and-agency
   type: hard
-- id: max-weber-rationalization-modernity
+- id: weber-rationalization
   type: soft
 builds-toward:
   - globalization-and-society

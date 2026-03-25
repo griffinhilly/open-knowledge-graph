@@ -16,7 +16,7 @@ tags:
 - probability
 - representativeness
 - generalizability
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

@@ -19,6 +19,18 @@ courses:
 - id: databases
   title: Databases
   stage: formal-systems
+- id: computer-networking
+  title: Computer Networking
+  stage: formal-systems
 - id: theory-of-computation
   title: Theory of Computation
+  stage: advanced
+- id: artificial-intelligence
+  title: Artificial Intelligence
+  stage: advanced
+- id: compilers
+  title: Compilers
+  stage: advanced
+- id: distributed-systems
+  title: Distributed Systems
   stage: advanced

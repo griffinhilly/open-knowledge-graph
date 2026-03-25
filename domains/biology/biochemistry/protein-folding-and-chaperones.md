@@ -4,6 +4,8 @@ title: Protein Folding Pathways and Molecular Chaperones
 domain: biology
 course: biochemistry
 prerequisites:
+- id: protein-secondary-structure
+  type: hard
 - id: protein-denaturation-and-renaturation
   type: hard
 - id: enzyme-structure-and-function

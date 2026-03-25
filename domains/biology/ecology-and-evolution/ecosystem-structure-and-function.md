@@ -3,7 +3,9 @@ id: ecosystem-structure-and-function
 title: Ecosystem Structure and Function
 domain: biology
 course: ecology-and-evolution
-prerequisites: []
+prerequisites:
+- id: energy-flow-in-ecosystems-ls
+  type: hard
 builds-toward:
 - energy-flow-in-ecosystems
 - nutrient-cycling-phosphorus-sulfur

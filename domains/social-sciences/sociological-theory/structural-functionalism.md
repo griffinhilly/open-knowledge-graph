@@ -7,14 +7,14 @@ prerequisites:
 - id: sociological-imagination
   type: hard
 builds-toward:
-- talcott-parsons-action-systems
+- parsons-systems-theory
 - robert-merton-functional-analysis
 tags:
 - functionalism
 - macro-sociology
 - structure
 - function
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

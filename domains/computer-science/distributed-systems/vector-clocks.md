@@ -7,7 +7,7 @@ prerequisites:
 - id: logical-clocks
   type: hard
 builds-toward:
-- causal-ordering
+- happened-before-relation-causality
 - causal-consistency
 tags:
 - vector-clocks

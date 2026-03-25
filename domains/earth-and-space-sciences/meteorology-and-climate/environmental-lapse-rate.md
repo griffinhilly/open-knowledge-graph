@@ -11,7 +11,7 @@ prerequisites:
 builds-toward:
 - atmospheric-inversion-temperature
 - stable-neutral-unstable-classification
-- convective-available-potential-energy
+- cape-convective-available-potential
 tags:
 - temperature-profile
 - measurement

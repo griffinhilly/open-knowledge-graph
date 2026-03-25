@@ -6,7 +6,7 @@ course: political-science
 prerequisites:
 - id: social-movements
   type: hard
-- id: revolutionary-political-transformation
+- id: political-revolution-transformation
   type: soft
 builds-toward:
 - regime-change-and-democratization

@@ -16,7 +16,7 @@ tags:
 - ach
 - nicotinic
 - muscarinic
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

@@ -13,7 +13,7 @@ prerequisites:
 builds-toward:
 - solow-growth-model
 - ramsey-cass-koopmans-model
-- overlapping-generations-model
+- overlapping-generations-models
 tags:
 - mathematical-foundations
 - optimization

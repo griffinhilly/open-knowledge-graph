@@ -9,7 +9,7 @@ prerequisites:
 - id: dataflow-analysis
   type: hard
 builds-toward:
-- target-specific-code-generation
+- code-generation
 tags:
 - optimization
 - SIMD

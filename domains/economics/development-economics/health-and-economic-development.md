@@ -9,7 +9,7 @@ prerequisites:
 - id: household-optimization-consumption-savings
   type: soft
 builds-toward:
-- demographic-transition
+- demographic-transition-model
 tags:
 - health
 - productivity

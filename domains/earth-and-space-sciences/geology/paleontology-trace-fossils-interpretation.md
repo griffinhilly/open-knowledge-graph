@@ -4,7 +4,7 @@ title: 'Paleontology: Trace Fossils and Paleoenvironmental Interpretation'
 domain: earth-and-space-sciences
 course: geology
 prerequisites:
-- id: stratigraphy-law-superposition-correlation
+- id: stratigraphy
   type: hard
 - id: fossils-and-paleontology
   type: soft
@@ -12,7 +12,7 @@ tags:
 - paleontology
 - fossils
 - biostratigraphy
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

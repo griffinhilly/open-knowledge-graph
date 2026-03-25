@@ -6,7 +6,7 @@ course: anthropology
 prerequisites:
 - id: culture-concept
   type: hard
-- id: colonialism-postcolonial-legacies
+- id: colonialism-geographic-legacy
   type: soft
 builds-toward:
 - race-and-ethnicity

@@ -4,12 +4,12 @@ title: Primary Keys and Foreign Keys
 domain: computer-science
 course: databases
 prerequisites:
-- id: relational-model-basics
+- id: relational-data-model
   type: hard
 - id: entity-relationship-diagrams
   type: soft
 builds-toward:
-- sql-select-basics
+- sql-data-retrieval-select
 - sql-joins
 - functional-dependencies
 tags:

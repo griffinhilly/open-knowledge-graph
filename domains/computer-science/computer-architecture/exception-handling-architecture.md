@@ -4,7 +4,7 @@ title: Exception and Interrupt Handling Architecture
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: interrupt-exception-handling
+- id: interrupts-and-dma
   type: hard
 - id: processor-status-flags-and-conditions
   type: soft

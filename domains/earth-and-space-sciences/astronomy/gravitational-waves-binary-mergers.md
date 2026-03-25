@@ -4,7 +4,7 @@ title: Gravitational Waves from Compact Object Mergers
 domain: earth-and-space-sciences
 course: astronomy
 prerequisites:
-- id: neutron-star-properties
+- id: neutron-star-structure-and-properties
   type: soft
 - id: black-hole-formation-and-mechanics
   type: soft
@@ -20,7 +20,7 @@ tags:
 - gravitational-waves
 - compact-objects
 - multi-messenger-astronomy
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

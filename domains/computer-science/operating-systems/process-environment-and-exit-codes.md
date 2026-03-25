@@ -4,7 +4,7 @@ title: Process Environment and Exit Codes
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: process-concept-in-os
+- id: process-concept
   type: hard
 - id: system-calls
   type: soft

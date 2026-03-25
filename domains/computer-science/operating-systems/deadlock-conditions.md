@@ -4,12 +4,12 @@ title: 'Deadlock: Conditions and Modeling'
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: mutex-and-locks
+- id: mutual-exclusion-and-locks
   type: hard
 - id: semaphores
   type: soft
 builds-toward:
-- deadlock-handling
+- deadlock-conditions
 tags:
 - deadlock
 - Coffman-conditions

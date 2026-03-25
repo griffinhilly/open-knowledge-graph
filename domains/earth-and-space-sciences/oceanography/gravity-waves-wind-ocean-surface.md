@@ -13,7 +13,7 @@ tags:
 - gravity-waves
 - wind-driven
 - wave-energy
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -4,7 +4,7 @@ title: Division of Government into Branches
 domain: social-sciences
 course: political-science
 prerequisites:
-- id: constitutionalism-and-limitations
+- id: constitutionalism
   type: hard
 builds-toward:
 - institutional-checks-and-balances

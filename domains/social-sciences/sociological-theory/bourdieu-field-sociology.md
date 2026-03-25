@@ -9,13 +9,13 @@ prerequisites:
 - id: structural-functionalism
   type: soft
 builds-toward:
-- bourdieu-cultural-capital
+- cultural-capital-and-inequality
 tags:
 - bourdieu
 - field
 - space
 - competition
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

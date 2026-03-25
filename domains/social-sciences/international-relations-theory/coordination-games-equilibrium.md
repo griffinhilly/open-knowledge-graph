@@ -19,7 +19,7 @@ tags:
 - game-theory
 - coordination
 - equilibrium
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

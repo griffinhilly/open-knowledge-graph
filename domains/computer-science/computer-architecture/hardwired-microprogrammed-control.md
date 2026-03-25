@@ -4,10 +4,10 @@ title: Hardwired vs. Microprogrammed Control
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: cpu-control-path-design
+- id: cpu-control-unit
   type: hard
 builds-toward:
-- instruction-pipeline-organization
+- pipelining-fundamentals
 - superscalar-and-vliw-design
 tags:
 - control

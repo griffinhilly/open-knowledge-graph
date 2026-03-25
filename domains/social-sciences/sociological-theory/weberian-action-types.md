@@ -15,7 +15,7 @@ tags:
 - rationality
 - motivation
 - sociology-of-action
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

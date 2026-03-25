@@ -20,7 +20,7 @@ tags:
 - starch
 - glycogen
 - cellulose
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -4,10 +4,10 @@ title: 'DISTINCT: Eliminating Duplicate Rows'
 domain: computer-science
 course: databases
 prerequisites:
-- id: sql-select-basics
+- id: sql-data-retrieval-select
   type: hard
 builds-toward:
-- sql-group-aggregate-functions
+- sql-aggregation
 tags:
 - sql
 - queries

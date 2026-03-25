@@ -6,7 +6,7 @@ course: anthropology
 prerequisites:
 - id: cultural-change-innovation
   type: hard
-- id: colonialism-cultural-contact
+- id: colonialism-geographic-legacy
   type: soft
 builds-toward:
 - globalization-and-society

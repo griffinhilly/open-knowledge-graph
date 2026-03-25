@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: comparative-politics
   type: soft
+- id: liberalism-in-ir
+  type: hard
 builds-toward:
 - human-security-framework
 tags:
@@ -15,7 +17,7 @@ tags:
 - peace
 - war
 - institutional-constraints
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

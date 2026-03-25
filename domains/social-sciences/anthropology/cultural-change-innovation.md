@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - globalization-and-society
-- colonialism-cultural-contact
+- colonialism-geographic-legacy
 tags:
 - culture-change
 - innovation

@@ -4,12 +4,14 @@ title: "Stack ADT: Array and Linked-List Implementations"
 domain: computer-science
 course: data-structures-and-algorithms
 prerequisites:
+- id: stacks-data-structure
+  type: hard
 - id: arrays-and-lists
   type: hard
 - id: linked-lists
   type: hard
 builds-toward:
-- stack-infix-postfix-expression-evaluation
+- stack-applications-expression-parsing
 tags:
 - stack
 - adt

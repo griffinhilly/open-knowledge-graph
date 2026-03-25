@@ -6,6 +6,8 @@ course: human-geography
 prerequisites:
 - id: urban-geography-fundamentals
   type: hard
+- id: social-stratification
+  type: soft
 tags:
 - gentrification
 - displacement

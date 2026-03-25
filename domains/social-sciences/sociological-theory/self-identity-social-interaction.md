@@ -11,7 +11,7 @@ tags:
 - identity
 - interaction
 - symbolic-interactionism
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

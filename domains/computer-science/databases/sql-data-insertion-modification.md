@@ -7,7 +7,7 @@ prerequisites:
 - id: sql-table-creation-definition
   type: hard
 builds-toward:
-- transaction-properties-acid
+- acid-properties
 tags:
 - SQL
 - DML

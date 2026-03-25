@@ -9,7 +9,7 @@ prerequisites:
 - id: endogenous-regressors-bias
   type: hard
 builds-toward:
-- two-stage-least-squares-procedure
+- two-stage-least-squares
 tags:
 - instrumental-variables
 - exogeneity

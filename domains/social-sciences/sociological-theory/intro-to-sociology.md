@@ -11,7 +11,7 @@ tags:
 - foundational
 - sociology
 - social-science
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

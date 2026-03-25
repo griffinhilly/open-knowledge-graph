@@ -18,7 +18,7 @@ tags:
 - economy
 - culture
 - ideology
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

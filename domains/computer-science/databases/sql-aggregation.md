@@ -4,11 +4,11 @@ title: SQL Aggregation and GROUP BY
 domain: computer-science
 course: databases
 prerequisites:
-- id: sql-select-basics
+- id: sql-data-retrieval-select
   type: hard
 builds-toward:
 - sql-subqueries
-- query-execution-plans
+- query-optimization
 tags:
 - SQL
 - GROUP BY

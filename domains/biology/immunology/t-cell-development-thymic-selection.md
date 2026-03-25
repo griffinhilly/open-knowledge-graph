@@ -6,11 +6,11 @@ course: immunology
 prerequisites:
 - id: adaptive-immunity-overview
   type: hard
-- id: mhc-structure-function
+- id: major-histocompatibility-complex
   type: hard
 builds-toward:
-- t-cell-receptor-structure
-- regulatory-t-cells-immune-tolerance
+- t-cell-receptor-structure-and-function
+- regulatory-t-cells-immune-tolerance-immune-tolerance
 tags:
 - adaptive
 - t-cell

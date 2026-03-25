@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - church-turing-thesis
-- decidable-languages
+- decidability
 tags:
 - universal-turing-machine
 - self-simulation

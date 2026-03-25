@@ -9,7 +9,7 @@ prerequisites:
 - id: gene-regulation-eukaryotes
   type: soft
 builds-toward:
-- rna-processing-5-cap-3-poly-a
+- rna-processing
 - small-rnas-mirna-and-rnai
 tags:
 - ctd

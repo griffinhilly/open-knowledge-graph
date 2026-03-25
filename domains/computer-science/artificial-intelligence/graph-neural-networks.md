@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: matrices-intro
   type: soft
-- id: graph-theory-intro
-  type: soft
 - id: graph-adjacency-list-matrix-representations
   type: soft
 builds-toward:

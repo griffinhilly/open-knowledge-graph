@@ -4,7 +4,7 @@ title: Processor Status Flags and Condition Codes
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: arithmetic-logic-unit-design-details
+- id: arithmetic-logic-unit
   type: hard
 builds-toward:
 - branch-instruction-execution

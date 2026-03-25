@@ -4,7 +4,7 @@ title: Multiplication Circuit Design
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: full-adder-circuit-design
+- id: full-adder-and-carry-logic
   type: hard
 tags:
 - multiplier

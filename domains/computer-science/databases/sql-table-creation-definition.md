@@ -9,7 +9,7 @@ prerequisites:
 builds-toward:
 - sql-data-retrieval-select
 - sql-constraint-enforcement
-- primary-key-foreign-key-constraints
+- primary-and-foreign-keys
 tags:
 - SQL
 - DDL

@@ -9,7 +9,7 @@ prerequisites:
 - id: interest-rates-and-loanable-funds
   type: soft
 builds-toward:
-- quantitative-easing-mechanisms
+- quantitative-easing-unconventional-policy
 tags:
 - monetary-constraint
 - liquidity-trap

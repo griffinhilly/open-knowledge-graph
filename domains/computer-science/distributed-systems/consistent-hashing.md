@@ -6,7 +6,7 @@ course: distributed-systems
 prerequisites:
 - id: hash-tables
   type: hard
-- id: distributed-systems-overview
+- id: distributed-systems-introduction
   type: soft
 - id: modular-arithmetic-discrete
   type: soft

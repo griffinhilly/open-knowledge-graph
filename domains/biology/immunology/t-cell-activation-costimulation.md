@@ -4,16 +4,16 @@ title: T Cell Activation and Costimulatory Signals
 domain: biology
 course: immunology
 prerequisites:
-- id: t-cell-receptor-structure
+- id: t-cell-receptor-structure-and-function
   type: hard
 - id: antigen-presentation-mechanisms
   type: hard
 - id: cytokines-and-chemokines
   type: soft
 builds-toward:
-- cd4-t-helper-cells
+- cd4-helper-t-cells
 - cd8-cytotoxic-t-cells
-- regulatory-t-cells-immune-tolerance
+- regulatory-t-cells-immune-tolerance-immune-tolerance
 tags:
 - adaptive
 - t-cell

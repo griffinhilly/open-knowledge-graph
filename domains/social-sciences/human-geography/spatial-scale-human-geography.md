@@ -5,7 +5,7 @@ domain: social-sciences
 course: human-geography
 prerequisites: []
 builds-toward:
-- population-distribution-processes
+- population-distribution-density
 - migration-mobility-networks
 - urbanization-city-geography
 tags:

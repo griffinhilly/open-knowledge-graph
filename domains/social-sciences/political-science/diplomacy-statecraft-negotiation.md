@@ -4,9 +4,9 @@ title: Diplomacy, Statecraft, and International Negotiation
 domain: social-sciences
 course: political-science
 prerequisites:
-- id: international-state-system-basics
+- id: international-relations-overview
   type: hard
-- id: political-authority-legitimacy
+- id: authority-and-legitimacy
   type: soft
 tags:
 - diplomacy

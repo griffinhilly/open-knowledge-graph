@@ -6,8 +6,6 @@ course: artificial-intelligence
 prerequisites:
 - id: algorithm-design-basics
   type: soft
-- id: probability-basics
-  type: soft
 tags:
 - supervised-learning
 - learning-paradigm

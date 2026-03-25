@@ -21,3 +21,12 @@ courses:
 - id: astronomy
   title: Astronomy & Astrophysics
   stage: formal-systems
+- id: planetary-science
+  title: Planetary Science
+  stage: formal-systems
+- id: climate-science
+  title: Climate Science
+  stage: formal-systems
+- id: geophysics
+  title: Geophysics
+  stage: advanced

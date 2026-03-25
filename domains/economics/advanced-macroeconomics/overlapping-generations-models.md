@@ -6,7 +6,7 @@ course: advanced-macroeconomics
 prerequisites:
 - id: steady-state-analysis-growth
   type: hard
-- id: dynamic-optimization-macroeconomics
+- id: dynamic-optimization-macro
   type: hard
 - id: constrained-optimization-lagrange
   type: soft

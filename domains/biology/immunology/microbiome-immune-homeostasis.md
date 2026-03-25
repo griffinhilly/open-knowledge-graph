@@ -11,7 +11,7 @@ prerequisites:
 - id: innate-lymphoid-cells-ilcs
   type: soft
 builds-toward:
-- autoimmune-disease-pathogenesis
+- autoimmunity-mechanisms
 tags:
 - microbiome
 - dysbiosis

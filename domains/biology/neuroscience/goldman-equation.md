@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - electrophysiology
 - membrane-potential
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

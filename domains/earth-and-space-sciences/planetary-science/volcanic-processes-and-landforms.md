@@ -15,7 +15,7 @@ tags:
 - volcanism
 - magma
 - landforms
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - synoptic-dynamics
 - climate-variability
 - extreme-events
-stage: expert
+stage: advanced
 status: validated
 ---
 

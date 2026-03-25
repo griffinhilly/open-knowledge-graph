@@ -9,7 +9,7 @@ prerequisites:
 - id: cardinality-and-countability
   type: soft
 builds-toward:
-- undecidable-language-examples
+- undecidable-problems
 tags:
 - diagonalization
 - uncomputability

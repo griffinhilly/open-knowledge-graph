@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 builds-toward:
 - vaccine-response-and-immunogenicity
-- autoimmune-disease-pathogenesis
+- autoimmunity-mechanisms
 tags:
 - primary-immunodeficiency
 - genetic-immune-defects

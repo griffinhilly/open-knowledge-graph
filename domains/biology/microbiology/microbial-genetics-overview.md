@@ -14,7 +14,7 @@ builds-toward:
   - antibiotic-resistance-mechanisms
   - microbial-biotechnology
 tags: [plasmids, operons, horizontal-gene-transfer, conjugation, transduction, transformation, CRISPR]
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

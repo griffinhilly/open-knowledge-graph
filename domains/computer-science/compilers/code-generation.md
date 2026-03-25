@@ -9,7 +9,7 @@ prerequisites:
 - id: instruction-set-architecture
   type: hard
 builds-toward:
-- runtime-function-calls
+- activation-records-runtime
 - jit-compilation
 tags:
 - code-generation

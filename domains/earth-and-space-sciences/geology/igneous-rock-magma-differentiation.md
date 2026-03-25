@@ -15,14 +15,14 @@ prerequisites:
 - id: fractional-crystallization-magmatic-differentiation
   type: soft
 builds-toward:
-- bowen-reaction-series-crystallization
+- bowen-fractional-crystallization
 - volcano-classification-magma-types
 tags:
 - igneous
 - magma
 - crystallization
 - petrology
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -4,7 +4,7 @@ title: 'Conservatism: Tradition, Order, and Gradual Change'
 domain: social-sciences
 course: political-science
 prerequisites:
-- id: political-ideology-spectrum
+- id: political-ideologies
   type: hard
 builds-toward:
 - political-revolution-transformation

@@ -6,7 +6,7 @@ course: electrodynamics
 prerequisites:
 - id: electric-field-and-coulombs-law
   type: hard
-- id: multivariable-calculus
+- id: partial-derivatives
   type: hard
 builds-toward:
 - maxwells-equations-integral-form

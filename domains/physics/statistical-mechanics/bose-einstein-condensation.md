@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: grand-canonical-ensemble
   type: hard
+- id: bose-einstein-distribution-statistics
+  type: hard
 builds-toward:
 - superfluidity
 tags:

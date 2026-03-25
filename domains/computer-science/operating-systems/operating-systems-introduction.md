@@ -6,13 +6,13 @@ course: operating-systems
 prerequisites: []
 builds-toward:
 - kernel-mode-and-privilege-levels
-- process-concept-in-os
-- memory-management-paging
+- process-concept
+- paging
 tags:
 - foundational
 - os-concepts
 - resource-management
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

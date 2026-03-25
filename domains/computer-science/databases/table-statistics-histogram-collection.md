@@ -7,7 +7,7 @@ prerequisites:
 - id: query-cardinality-selectivity-estimation
   type: hard
 builds-toward:
-- sql-cost-based-query-optimization-plans
+- query-optimization
 tags:
 - statistics
 - histogram

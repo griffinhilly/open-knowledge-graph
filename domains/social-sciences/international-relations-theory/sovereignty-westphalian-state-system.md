@@ -17,7 +17,7 @@ tags:
 - state-system
 - legitimacy
 - international-law
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

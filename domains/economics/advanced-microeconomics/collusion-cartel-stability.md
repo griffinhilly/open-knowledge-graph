@@ -4,7 +4,7 @@ title: Collusion, Cartels, and Stability
 domain: economics
 course: advanced-microeconomics
 prerequisites:
-- id: cournot-quantity-competition
+- id: cournot-competition
   type: hard
 - id: nash-equilibrium-microeconomics
   type: hard

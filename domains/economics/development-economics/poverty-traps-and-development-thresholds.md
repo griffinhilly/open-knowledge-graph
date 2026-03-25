@@ -6,18 +6,18 @@ course: development-economics
 prerequisites:
 - id: economic-growth-theory
   type: hard
-- id: lewis-model-dual-economy
+- id: lewis-model-structural-transformation
   type: soft
 builds-toward:
-- human-capital-development-economics
-- microfinance-and-credit-access
+- human-capital-accumulation-development
+- microfinance-and-microcredit
 tags:
 - poverty trap
 - threshold
 - equilibrium
 - dynamics
 - nonconvexity
-stage: expert
+stage: advanced
 status: validated
 ---
 

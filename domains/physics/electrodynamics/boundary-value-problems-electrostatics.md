@@ -6,7 +6,7 @@ course: electrodynamics
 prerequisites:
 - id: laplace-poisson-equations-electrostatics
   type: hard
-- id: dirichlet-neumann-boundary-conditions
+- id: wavefunctions-boundary-conditions
   type: soft
 builds-toward:
 - method-of-images

@@ -6,6 +6,8 @@ course: sociological-theory
 prerequisites:
 - id: bourdieu-habitus
   type: hard
+- id: cultural-capital-and-inequality
+  type: hard
 builds-toward:
 - symbolic-violence-bourdieu
 tags:
@@ -14,7 +16,7 @@ tags:
 - culture
 - education
 - inequality
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

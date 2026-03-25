@@ -4,11 +4,11 @@ title: 'CASE WHEN: Conditional Expressions in SQL'
 domain: computer-science
 course: databases
 prerequisites:
-- id: sql-select-basics
+- id: sql-data-retrieval-select
   type: hard
 builds-toward:
 - sql-update-with-joins
-- sql-aggregate-window-functions
+- sql-window-functions-introduction
 tags:
 - sql
 - conditional-logic

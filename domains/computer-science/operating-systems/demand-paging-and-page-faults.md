@@ -4,7 +4,7 @@ title: Demand Paging and Page Faults
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: virtual-memory-and-demand-paging
+- id: virtual-memory-management
   type: hard
 - id: page-replacement-algorithms
   type: soft

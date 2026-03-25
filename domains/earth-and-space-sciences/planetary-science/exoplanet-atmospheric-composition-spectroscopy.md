@@ -18,7 +18,7 @@ tags:
 - composition
 - transmission-spectra
 - molecules
-stage: expert
+stage: advanced
 status: validated
 ---
 

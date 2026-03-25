@@ -4,8 +4,6 @@ title: Principal Component Analysis
 domain: computer-science
 course: artificial-intelligence
 prerequisites:
-- id: linear-algebra-basics
-  type: hard
 - id: eigenvalues-eigenvectors
   type: hard
 - id: eigenvalues-and-eigenvectors

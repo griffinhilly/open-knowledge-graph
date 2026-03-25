@@ -6,7 +6,7 @@ course: electricity-and-magnetism
 prerequisites:
 - id: electric-field-point-charges
   type: hard
-- id: integration-applications
+- id: definite-integral-definition
   type: hard
 builds-toward:
 - gauss-law-integral-form

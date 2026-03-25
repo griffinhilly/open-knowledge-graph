@@ -15,7 +15,7 @@ tags:
 - thermodynamics
 - conservation
 - stability
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

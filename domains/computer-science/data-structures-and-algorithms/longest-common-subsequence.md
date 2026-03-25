@@ -7,7 +7,7 @@ prerequisites:
 - id: dynamic-programming-intro
   type: hard
 builds-toward:
-- edit-distance-levenshtein
+- edit-distance-dynamic-programming
 tags:
 - dynamic-programming
 - lcs

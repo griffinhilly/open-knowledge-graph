@@ -4,10 +4,10 @@ title: 'Binary Tree Properties: Height, Balance, Completeness'
 domain: computer-science
 course: data-structures-and-algorithms
 prerequisites:
-- id: binary-tree-structure-node-representation
+- id: binary-trees
   type: hard
 builds-toward:
-- binary-search-tree-search-insert-delete
+- binary-search-trees
 tags:
 - binary-tree
 - properties

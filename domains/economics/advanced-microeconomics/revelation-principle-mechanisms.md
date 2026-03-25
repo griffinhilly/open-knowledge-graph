@@ -4,7 +4,7 @@ title: The Revelation Principle
 domain: economics
 course: advanced-microeconomics
 prerequisites:
-- id: bayesian-games-incomplete-info
+- id: bayesian-games
   type: hard
 - id: mechanism-design-basics
   type: hard

@@ -18,7 +18,7 @@ tags:
 - taxonomy
 - kingdoms
 - domains
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 # Kingdoms of Life

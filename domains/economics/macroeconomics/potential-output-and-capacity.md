@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 builds-toward:
 - output-gap-macroeconomic
-- okun-law
+- okuns-law-output-unemployment
 tags:
 - growth
 - capacity

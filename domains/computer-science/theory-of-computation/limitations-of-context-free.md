@@ -4,10 +4,10 @@ title: Limitations of Context-Free Languages
 domain: computer-science
 course: theory-of-computation
 prerequisites:
-- id: closure-properties-context-free
+- id: closure-properties-cfl
   type: hard
 builds-toward:
-- turing-machine-model
+- turing-machines
 tags:
 - context-free
 - non-cfl

@@ -21,7 +21,7 @@ tags:
 - stack
 - context-free
 - nondeterminism
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Pushdown Automata (PDA)

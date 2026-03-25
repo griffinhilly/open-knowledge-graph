@@ -9,7 +9,7 @@ prerequisites:
 - id: adaptive-immune-response
   type: hard
 builds-toward:
-- mhc-structure-function
+- major-histocompatibility-complex
 - t-cell-development-thymic-selection
 - b-cell-development-maturation
 tags:

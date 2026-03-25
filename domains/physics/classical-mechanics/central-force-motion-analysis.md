@@ -4,7 +4,7 @@ title: Central Force Motion and Orbital Dynamics
 domain: physics
 course: classical-mechanics
 prerequisites:
-- id: angular-momentum-conservation
+- id: conservation-of-angular-momentum
   type: hard
 - id: effective-potential-central-forces
   type: hard

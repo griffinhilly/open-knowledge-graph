@@ -6,7 +6,7 @@ course: development-economics
 prerequisites:
 - id: fiscal-policy-macroeconomics
   type: hard
-- id: institutions-and-economic-development
+- id: institutions-economic-development
   type: soft
 builds-toward:
 - cash-transfers-and-incentives

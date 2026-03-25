@@ -6,10 +6,10 @@ course: sociology
 prerequisites:
 - id: types-of-societies-evolutionary
   type: hard
-- id: max-weber-rationalization-modernity
+- id: weber-rationalization
   type: soft
 builds-toward:
-- urbanization-social-consequences
+- urbanization-and-city-life
 tags:
 - industrialization
 - modernity

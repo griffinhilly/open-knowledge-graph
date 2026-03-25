@@ -14,7 +14,7 @@ tags:
 - ER translocation
 - nuclear import
 - mitochondrial targeting
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

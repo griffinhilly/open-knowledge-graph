@@ -6,7 +6,7 @@ course: electrodynamics
 prerequisites:
 - id: scalar-and-vector-potentials
   type: hard
-- id: multivariable-calculus
+- id: partial-derivatives
   type: hard
 builds-toward:
 - lorentz-gauge

@@ -4,11 +4,11 @@ title: Types of Societies and Societal Evolution
 domain: social-sciences
 course: sociology
 prerequisites:
-- id: sociological-perspective-core
+- id: sociological-research-methods
   type: hard
 builds-toward:
 - industrialization-social-change
-- urbanization-social-consequences
+- urbanization-and-city-life
 tags:
 - society-types
 - macro-sociology

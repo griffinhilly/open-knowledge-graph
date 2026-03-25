@@ -15,7 +15,7 @@ tags:
 - regimes
 - institutions
 - cooperation
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

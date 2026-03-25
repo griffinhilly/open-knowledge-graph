@@ -4,7 +4,7 @@ title: Social Capital and Network Resources
 domain: social-sciences
 course: sociological-theory
 prerequisites:
-- id: granovetter-network-theory
+- id: granovetter-weak-ties
   type: soft
 tags:
 - social-capital
@@ -12,7 +12,7 @@ tags:
 - resources
 - trust
 - reciprocity
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

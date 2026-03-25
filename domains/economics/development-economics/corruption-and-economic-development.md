@@ -4,7 +4,7 @@ title: Corruption as a Drag on Development
 domain: economics
 course: development-economics
 prerequisites:
-- id: institutions-and-development
+- id: institutions-economic-development
   type: hard
 - id: asymmetric-information-markets
   type: soft

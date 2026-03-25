@@ -6,17 +6,17 @@ course: research-methods-social-science
 prerequisites:
 - id: linear-regression-social-science
   type: hard
-- id: validity-construct-internal-external
+- id: measurement-validity-social-science
   type: soft
 builds-toward:
-- multilevel-hierarchical-modeling-nesting
+- multilevel-modeling-hierarchical
 - missing-data-mechanisms-imputation
 tags:
 - regression
 - diagnostics
 - assumptions
 - robustness
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

@@ -4,7 +4,7 @@ title: 'Climate Feedbacks: Ice-Albedo and Water Vapor Feedback'
 domain: earth-and-space-sciences
 course: meteorology-and-climate
 prerequisites:
-- id: climate-feedbacks-and-sensitivity
+- id: feedback-mechanisms-in-climate
   type: hard
 - id: saturation-vapor-pressure-clausius
   type: soft

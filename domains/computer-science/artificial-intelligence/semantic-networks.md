@@ -6,7 +6,7 @@ course: artificial-intelligence
 prerequisites:
 - id: first-order-logic-ai
   type: hard
-- id: graph-theory-fundamentals
+- id: graph-adjacency-list-matrix-representations
   type: soft
 builds-toward: []
 tags:

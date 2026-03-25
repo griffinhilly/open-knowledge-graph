@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - mixing-ratio-saturation-mixing-ratio
-- convective-available-potential-energy
+- cape-convective-available-potential
 tags:
 - thermodynamics
 - water-vapor

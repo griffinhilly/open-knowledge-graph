@@ -9,7 +9,7 @@ prerequisites:
 - id: gravity-and-orbits-intro
   type: soft
 builds-toward:
-- galaxy-classification-and-morphology
+- galaxy-morphology-and-classification
 - milky-way-structure
 - large-scale-structure-universe
 tags:

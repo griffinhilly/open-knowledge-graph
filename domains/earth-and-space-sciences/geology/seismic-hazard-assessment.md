@@ -13,7 +13,7 @@ tags:
 - earthquakes
 - probability
 - risk
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

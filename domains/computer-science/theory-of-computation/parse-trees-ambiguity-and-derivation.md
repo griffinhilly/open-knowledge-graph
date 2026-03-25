@@ -4,11 +4,11 @@ title: Parse Trees, Derivations, and Ambiguity in CFGs
 domain: computer-science
 course: theory-of-computation
 prerequisites:
-- id: context-free-grammars-and-languages
+- id: context-free-grammars
   type: hard
 builds-toward:
-- normal-forms-for-context-free-grammars
-- cyk-parsing-algorithm
+- chomsky-normal-form
+- cyk-algorithm-membership-testing
 tags:
 - cfg
 - parse-trees

@@ -4,19 +4,19 @@ title: Western Boundary Current Intensification
 domain: earth-and-space-sciences
 course: oceanography
 prerequisites:
-- id: surface-wind-driven-circulation
+- id: wind-driven-ocean-circulation
   type: hard
-- id: geostrophic-current-balance
+- id: geostrophic-balance-ocean
   type: hard
 builds-toward:
 - ocean-heat-transport-mechanism
-- climate-feedbacks-and-sensitivity
+- feedback-mechanisms-in-climate
 tags:
 - boundary-currents
 - Gulf-Stream
 - Kuroshio
 - heat-transport
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

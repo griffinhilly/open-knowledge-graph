@@ -4,9 +4,9 @@ title: Magnetic Field and the Lorentz Force
 domain: physics
 course: electrodynamics
 prerequisites:
-- id: classical-mechanics
+- id: newtons-second-law
   type: hard
-- id: multivariable-calculus
+- id: partial-derivatives
   type: hard
 builds-toward:
 - vector-potential-and-curl

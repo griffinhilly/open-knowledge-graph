@@ -4,7 +4,7 @@ title: Synthetic Control Methods
 domain: social-sciences
 course: research-methods-social-science
 prerequisites:
-- id: natural-experiments-identification-strategy
+- id: natural-experiments-design
   type: hard
 - id: time-series-cross-section
   type: soft

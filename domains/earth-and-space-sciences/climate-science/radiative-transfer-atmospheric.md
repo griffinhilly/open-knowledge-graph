@@ -26,7 +26,7 @@ tags:
 - scattering
 - absorption
 - spectroscopy
-stage: expert
+stage: advanced
 status: validated
 ---
 

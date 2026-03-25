@@ -6,7 +6,7 @@ course: electrodynamics
 prerequisites:
 - id: magnetic-field-and-lorentz-force
   type: hard
-- id: multivariable-calculus
+- id: partial-derivatives
   type: hard
 builds-toward:
 - scalar-and-vector-potentials

@@ -12,7 +12,7 @@ tags:
 - alliance
 - dilemma
 - commitment
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

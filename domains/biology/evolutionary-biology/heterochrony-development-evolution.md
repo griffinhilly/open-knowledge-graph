@@ -4,7 +4,7 @@ title: 'Heterochrony: Changes in Developmental Timing'
 domain: biology
 course: evolutionary-biology
 prerequisites:
-- id: hox-genes-development
+- id: hox-genes-body-plan
   type: hard
 - id: developmental-constraints
   type: hard

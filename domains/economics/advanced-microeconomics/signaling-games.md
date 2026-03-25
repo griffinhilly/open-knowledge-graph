@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: game-theory-basics-microeconomics
   type: hard
-- id: bayesian-games-strategy
+- id: bayesian-games
   type: hard
 tags:
 - contract-theory

@@ -16,7 +16,7 @@ tags:
 - violence
 - asymmetric-warfare
 - insurgency
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

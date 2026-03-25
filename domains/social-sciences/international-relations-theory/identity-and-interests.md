@@ -14,7 +14,7 @@ tags:
 - identity
 - interests
 - theory
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

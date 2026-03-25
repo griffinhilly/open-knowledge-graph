@@ -6,7 +6,7 @@ course: quantum-mechanics
 prerequisites:
 - id: expectation-values
   type: hard
-- id: calculus-of-variations
+- id: lagrangian-mechanics-intro
   type: hard
 tags:
 - approximation-methods

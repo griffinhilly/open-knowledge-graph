@@ -10,7 +10,7 @@ tags:
 - conversation-analysis
 - interaction
 - turn-taking
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

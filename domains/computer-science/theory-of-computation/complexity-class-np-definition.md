@@ -11,7 +11,7 @@ prerequisites:
 - id: asymptotic-notation-big-o-omega-theta
   type: soft
 builds-toward:
-- np-completeness-and-hardness
+- np-completeness
 tags:
 - np-class
 - nondeterminism

@@ -6,7 +6,7 @@ course: astronomy
 prerequisites:
 - id: apparent-magnitude-brightness-measurement
   type: hard
-- id: kepler-laws-orbital-motion-derivation
+- id: kepler-laws-planetary-orbits
   type: soft
 - id: wave-properties-intro
   type: soft

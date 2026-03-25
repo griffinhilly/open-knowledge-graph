@@ -25,3 +25,12 @@ courses:
 - id: modern-physics
   title: Modern Physics
   stage: advanced
+- id: quantum-mechanics
+  title: Quantum Mechanics
+  stage: advanced
+- id: electrodynamics
+  title: Electrodynamics
+  stage: expert
+- id: statistical-mechanics
+  title: Statistical Mechanics
+  stage: expert

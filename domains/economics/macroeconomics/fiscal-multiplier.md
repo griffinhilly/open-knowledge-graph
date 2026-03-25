@@ -6,6 +6,8 @@ course: macroeconomics
 prerequisites:
 - id: fiscal-policy-macroeconomics
   type: hard
+- id: aggregate-demand
+  type: hard
 - id: gdp-components
   type: soft
 - id: geometric-series

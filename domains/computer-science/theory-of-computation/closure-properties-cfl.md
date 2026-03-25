@@ -6,7 +6,7 @@ course: theory-of-computation
 prerequisites:
 - id: cfg-pda-equivalence
   type: hard
-- id: closure-properties-regular
+- id: closure-properties-regular-languages
   type: soft
 builds-toward:
 - pumping-lemma-cfl

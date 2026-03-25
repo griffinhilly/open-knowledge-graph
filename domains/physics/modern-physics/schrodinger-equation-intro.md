@@ -11,7 +11,7 @@ prerequisites:
 - id: de-broglie-wavelength
   type: soft
 - id: complex-numbers-intro
-  type: soft
+  type: hard
 - id: partial-derivatives
   type: soft
 - id: differential-equations-intro
@@ -20,9 +20,9 @@ prerequisites:
   type: hard
 - id: eigenvalues-and-eigenvectors
   type: hard
-- id: linear-algebra
+- id: matrix-operations
   type: hard
-- id: partial-differential-equations
+- id: separation-variables-pde
   type: hard
 builds-toward:
 - particle-in-a-box

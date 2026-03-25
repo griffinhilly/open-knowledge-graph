@@ -15,7 +15,7 @@ prerequisites:
 builds-toward:
 - phillips-curve-dynamics
 - monetary-policy-transmission
-- dsge-models-framework
+- dsge-models
 tags:
 - new-keynesian
 - monetary-policy

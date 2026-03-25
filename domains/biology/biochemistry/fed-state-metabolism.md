@@ -10,7 +10,7 @@ tags:
 - fed-state
 - insulin
 - anabolism
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

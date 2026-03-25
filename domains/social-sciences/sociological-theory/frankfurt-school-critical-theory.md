@@ -8,13 +8,13 @@ prerequisites:
   type: hard
 builds-toward:
 - habermas-communicative-action
-- foucault-power-knowledge-sociology
+- foucault-power-knowledge
 tags:
 - critical-theory
 - frankfurt-school
 - ideology
 - domination
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

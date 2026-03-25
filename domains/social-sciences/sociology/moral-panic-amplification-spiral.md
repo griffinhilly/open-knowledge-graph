@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: collective-behavior-and-crowds
   type: hard
+- id: labeling-theory-secondary-deviance
+  type: hard
 tags:
 - moral-panic
 - media

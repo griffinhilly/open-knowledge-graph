@@ -15,7 +15,7 @@ tags:
 - self-awareness
 - interaction
 - development
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -11,7 +11,7 @@ tags:
 - philosophy
 - epistemology
 - foundations
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

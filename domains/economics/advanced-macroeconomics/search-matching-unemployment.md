@@ -6,7 +6,7 @@ course: advanced-macroeconomics
 prerequisites:
 - id: types-of-unemployment
   type: hard
-- id: dynamic-optimization-macroeconomics
+- id: dynamic-optimization-macro
   type: hard
 builds-toward:
 - wage-dynamics-labor-frictions

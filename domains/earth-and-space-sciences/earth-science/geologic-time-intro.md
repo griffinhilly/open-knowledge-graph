@@ -4,13 +4,13 @@ title: Introduction to Geologic Time
 domain: earth-and-space-sciences
 course: earth-science
 prerequisites:
-- id: the-rock-cycle
+- id: rock-cycle
   type: hard
 - id: sedimentary-rocks-formation
   type: soft
 builds-toward:
 - geological-time-scale
-- geochronology-radiometric-relative-dating
+- radiometric-dating
 - stratigraphy
 tags:
 - geologic-time

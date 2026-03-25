@@ -6,7 +6,7 @@ course: distributed-systems
 prerequisites:
 - id: distributed-system-models
   type: hard
-- id: lamport-timestamps
+- id: logical-clocks
   type: hard
 builds-toward:
 - chandy-lamport-algorithm

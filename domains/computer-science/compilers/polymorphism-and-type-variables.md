@@ -9,7 +9,7 @@ prerequisites:
 - id: hindley-milner-type-system
   type: soft
 builds-toward:
-- three-address-intermediate-code
+- intermediate-code-representation
 tags:
 - type-systems
 - generics

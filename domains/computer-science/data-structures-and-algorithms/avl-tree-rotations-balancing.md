@@ -11,7 +11,7 @@ prerequisites:
 builds-toward:
 - red-black-trees
 tags:
-- avl-trees
+- avl-tree-rotations-balancing
 - balancing
 - rotations
 - self-balancing

@@ -4,7 +4,7 @@ title: Representative Democracy and Delegation
 domain: social-sciences
 course: political-science
 prerequisites:
-- id: democratic-governance-principles
+- id: democracy-types-and-theory
   type: hard
 builds-toward:
 - voting-systems-and-mechanics

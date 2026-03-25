@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: surface-energy-balance
   type: hard
-- id: ice-core-paleoclimate-records
+- id: ice-core-paleoclimate-analysis
   type: soft
 builds-toward:
 - climate-tipping-points
@@ -18,7 +18,7 @@ tags:
 - polar-regions
 - amplification
 - feedbacks
-stage: expert
+stage: advanced
 status: validated
 ---
 

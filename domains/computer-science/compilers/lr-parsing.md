@@ -9,8 +9,8 @@ prerequisites:
 - id: stacks-data-structure
   type: hard
 builds-toward:
-- lr-state-machine-construction
-- shift-reduce-parsing
+- lr-parsing
+- shift-reduce-bottom-up-parsing
 tags:
 - bottom-up-parsing
 - shift-reduce

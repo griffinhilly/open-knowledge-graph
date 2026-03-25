@@ -4,7 +4,7 @@ title: Gender, Space, and Social Relations
 domain: social-sciences
 course: human-geography
 prerequisites:
-- id: place-space-social-construction
+- id: place-and-space-concepts
   type: hard
 - id: spatial-scale-human-geography
   type: hard

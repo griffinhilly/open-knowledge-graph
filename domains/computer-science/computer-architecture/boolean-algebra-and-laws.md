@@ -18,7 +18,7 @@ tags:
 - algebra
 - laws
 - simplification
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Boolean Algebra and Fundamental Laws

@@ -19,7 +19,7 @@ tags:
 - organization
 - supercell
 - squall-line
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

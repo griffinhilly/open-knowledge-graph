@@ -4,7 +4,7 @@ title: Readers-Writers Problem and Lock Patterns
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: condition-variables-and-monitors
+- id: monitors-and-condition-variables
   type: hard
 tags:
 - synchronization-patterns

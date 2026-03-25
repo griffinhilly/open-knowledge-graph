@@ -4,6 +4,8 @@ title: Mendelian Genetics
 domain: biology
 course: genetics-and-molecular-biology
 prerequisites:
+- id: meiosis
+  type: hard
 - id: chromosomal-theory-of-inheritance
   type: hard
 - id: simple-probability

@@ -14,7 +14,7 @@ tags:
 - envelope
 - lipids
 - glycoproteins
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

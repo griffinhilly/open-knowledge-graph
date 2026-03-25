@@ -14,7 +14,7 @@ tags:
 - inflation
 - early-universe
 - cosmology
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

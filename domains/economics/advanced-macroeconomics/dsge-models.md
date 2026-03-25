@@ -24,7 +24,7 @@ prerequisites:
   type: soft
 builds-toward:
 - monetary-policy-transmission
-- fiscal-multipliers-macro
+- fiscal-multiplier
 tags:
 - dsge
 - general-equilibrium

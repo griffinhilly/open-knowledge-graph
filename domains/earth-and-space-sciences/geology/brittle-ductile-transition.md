@@ -10,14 +10,14 @@ prerequisites:
   type: soft
 builds-toward:
 - fault-mechanics-rupture
-- fold-mechanics-layer-buckling
+- fold-structure-classification-mechanics
 tags:
 - rheology
 - brittle
 - ductile
 - temperature
 - depth
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

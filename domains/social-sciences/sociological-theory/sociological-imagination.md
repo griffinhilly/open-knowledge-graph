@@ -13,7 +13,7 @@ tags:
 - mills
 - sociological-perspective
 - individual-society
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

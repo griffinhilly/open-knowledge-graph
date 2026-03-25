@@ -18,7 +18,7 @@ tags:
 - evolution
 - error-correction
 - fidelity
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

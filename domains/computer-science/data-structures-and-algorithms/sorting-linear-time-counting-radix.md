@@ -4,7 +4,7 @@ title: 'Linear-Time Sorting: Counting Sort and Radix Sort'
 domain: computer-science
 course: data-structures-and-algorithms
 prerequisites:
-- id: sorting-comparison-based-lower-bounds
+- id: sorting-lower-bounds
   type: hard
 tags:
 - sorting

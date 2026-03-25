@@ -4,9 +4,9 @@ title: Priority Scheduling and Priority Inversion
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: scheduling-algorithm-analysis
+- id: scheduling-algorithms
   type: hard
-- id: mutex-and-locks
+- id: mutual-exclusion-and-locks
   type: hard
 builds-toward:
 - critical-section-problem-formalization

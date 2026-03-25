@@ -9,7 +9,7 @@ prerequisites:
 - id: rock-cycle
   type: soft
 builds-toward:
-- sediment-transport-erosion-mechanics
+- sediment-transport-and-deposition
 - diagenesis-burial-lithification
 tags:
 - sedimentation

@@ -4,7 +4,7 @@ title: 'Test of Overidentification: Hansen J-Test'
 domain: economics
 course: econometrics
 prerequisites:
-- id: two-stage-least-squares-procedure
+- id: two-stage-least-squares
   type: hard
 - id: reduced-form-equations
   type: soft

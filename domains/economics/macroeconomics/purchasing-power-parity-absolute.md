@@ -7,7 +7,7 @@ prerequisites:
 - id: foreign-exchange-market-mechanics
   type: hard
 builds-toward:
-- relative-purchasing-power-parity
+- purchasing-power-parity-absolute
 tags:
 - ppp
 - exchange-rates

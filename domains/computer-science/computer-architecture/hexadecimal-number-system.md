@@ -11,7 +11,7 @@ tags:
 - hexadecimal
 - number-systems
 - representation
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

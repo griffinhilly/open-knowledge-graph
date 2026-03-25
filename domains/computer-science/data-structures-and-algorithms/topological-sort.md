@@ -6,7 +6,7 @@ course: data-structures-and-algorithms
 prerequisites:
 - id: depth-first-search
   type: hard
-- id: graph-theory-intro
+- id: graph-adjacency-list-matrix-representations
   type: soft
 - id: graph-connectivity
   type: soft

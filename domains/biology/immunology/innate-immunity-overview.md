@@ -17,7 +17,7 @@ tags:
 - innate
 - first-line-defense
 - cellular
-stage: expert
+stage: advanced
 status: validated
 ---
 

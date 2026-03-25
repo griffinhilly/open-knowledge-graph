@@ -17,7 +17,7 @@ tags:
 - density
 - buoyancy
 - deep-ocean
-stage: expert
+stage: advanced
 status: validated
 ---
 

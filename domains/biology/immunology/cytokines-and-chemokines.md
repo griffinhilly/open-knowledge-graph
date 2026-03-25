@@ -10,13 +10,13 @@ prerequisites:
   type: soft
 builds-toward:
 - inflammatory-response-cellular
-- cd4-t-helper-cells
+- cd4-helper-t-cells
 - t-cell-activation-costimulation
 tags:
 - signaling
 - cell-communication
 - effector-molecules
-stage: expert
+stage: advanced
 status: validated
 ---
 

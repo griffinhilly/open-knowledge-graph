@@ -6,7 +6,7 @@ course: compilers
 prerequisites:
 - id: procedure-inlining-optimization
   type: hard
-- id: local-optimization-techniques
+- id: code-optimization
   type: hard
 tags:
 - optimization

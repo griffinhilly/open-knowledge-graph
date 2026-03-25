@@ -12,7 +12,7 @@ tags:
 - focus-groups
 - group-dynamics
 - interaction-analysis
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

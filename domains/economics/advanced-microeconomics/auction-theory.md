@@ -4,7 +4,7 @@ title: Auction Theory
 domain: economics
 course: advanced-microeconomics
 prerequisites:
-- id: mechanism-design-intro
+- id: mechanism-design-basics
   type: hard
 - id: probability-spaces-measure-theoretic
   type: soft

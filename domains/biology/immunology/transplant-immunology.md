@@ -4,9 +4,9 @@ title: Transplant Immunology and Rejection
 domain: biology
 course: immunology
 prerequisites:
-- id: mhc-structure-function
+- id: major-histocompatibility-complex
   type: hard
-- id: regulatory-t-cells-immune-tolerance
+- id: regulatory-t-cells-immune-tolerance-immune-tolerance
   type: hard
 - id: cd8-cytotoxic-t-cells
   type: soft

@@ -6,7 +6,7 @@ course: development-economics
 prerequisites:
 - id: trade-and-development
   type: hard
-- id: capital-flows-balance-of-payments
+- id: balance-of-payments-capital-flows
   type: soft
 builds-toward:
 - technology-transfer-and-adoption

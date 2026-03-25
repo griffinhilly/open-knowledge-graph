@@ -4,10 +4,10 @@ title: Ripple Carry Adder Design
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: full-adder-circuit-design
+- id: full-adder-and-carry-logic
   type: hard
 builds-toward:
-- carry-lookahead-optimization
+- carry-lookahead-adder-design
 tags:
 - adder
 - multi-bit-arithmetic

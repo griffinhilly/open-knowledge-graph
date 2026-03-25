@@ -7,7 +7,7 @@ prerequisites:
 - id: sql-data-retrieval-select
   type: hard
 builds-toward:
-- sql-inner-join-combining-tables
+- sql-joins
 tags:
 - SQL
 - ORDER BY

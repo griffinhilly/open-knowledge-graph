@@ -12,7 +12,7 @@ tags:
 - geomagnetic
 - secular-variation
 - long-term
-stage: expert
+stage: advanced
 status: validated
 ---
 

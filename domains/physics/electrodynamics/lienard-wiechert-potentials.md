@@ -6,7 +6,7 @@ course: electrodynamics
 prerequisites:
 - id: retarded-potentials
   type: hard
-- id: classical-mechanics
+- id: newtons-second-law
   type: soft
 builds-toward:
 - radiation-from-accelerated-charges

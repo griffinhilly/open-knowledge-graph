@@ -6,7 +6,7 @@ course: data-structures-and-algorithms
 prerequisites:
 - id: quicksort
   type: hard
-- id: algorithm-analysis-best-worst-average-case
+- id: big-o-complexity-analysis
   type: soft
 tags:
 - selection

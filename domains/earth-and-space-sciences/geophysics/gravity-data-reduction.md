@@ -15,7 +15,7 @@ tags:
 - data-reduction
 - corrections
 - bouguer
-stage: expert
+stage: advanced
 status: validated
 ---
 

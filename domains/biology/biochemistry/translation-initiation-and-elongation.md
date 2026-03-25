@@ -18,7 +18,7 @@ tags:
 - tRNA
 - initiation factors
 - elongation factors
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

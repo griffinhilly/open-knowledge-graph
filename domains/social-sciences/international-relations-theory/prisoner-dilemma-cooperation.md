@@ -11,12 +11,12 @@ prerequisites:
 - id: probability-axioms
   type: soft
 builds-toward:
-- arms-races-security-spiral
+- arms-race-dynamics-stabilization
 tags:
 - game-theory
 - cooperation
 - dilemma
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - biosignatures
 - life-detection
 - spectroscopy
-stage: expert
+stage: advanced
 status: validated
 ---
 

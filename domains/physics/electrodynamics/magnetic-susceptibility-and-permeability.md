@@ -6,8 +6,6 @@ course: electrodynamics
 prerequisites:
 - id: magnetic-field-intro
   type: hard
-- id: magnetization-and-fields
-  type: soft
 builds-toward:
 - ferromagnetism-microscopic-view
 - em-waves-anisotropic-media

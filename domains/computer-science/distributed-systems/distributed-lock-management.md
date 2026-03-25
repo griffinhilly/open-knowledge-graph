@@ -9,8 +9,8 @@ prerequisites:
 - id: leader-election-algorithms
   type: soft
 builds-toward:
-- paxos-made-practical
-- raft-leader-election
+- paxos-algorithm
+- raft-algorithm
 tags:
 - locks
 - mutual-exclusion

@@ -16,7 +16,7 @@ tags:
 - cortex
 - movement
 - voluntary-control
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

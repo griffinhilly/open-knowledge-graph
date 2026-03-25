@@ -4,7 +4,7 @@ title: 'Savepoints: Partial Rollback Within Transactions'
 domain: computer-science
 course: databases
 prerequisites:
-- id: transaction-begin-commit-rollback
+- id: database-transactions
   type: hard
 tags:
 - transactions

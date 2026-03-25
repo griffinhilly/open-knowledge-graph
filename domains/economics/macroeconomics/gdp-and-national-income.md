@@ -18,7 +18,7 @@ tags:
 - national-income
 - measurement
 - output
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

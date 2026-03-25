@@ -6,7 +6,7 @@ course: computer-architecture
 prerequisites:
 - id: flip-flops-and-latches
   type: hard
-- id: memory-array-organization
+- id: memory-organization
   type: soft
 builds-toward:
 - register-file-design

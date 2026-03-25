@@ -7,7 +7,7 @@ prerequisites:
 - id: development-measurement-fundamentals
   type: hard
 builds-toward:
-- poverty-traps-and-persistence
+- poverty-traps-and-development-thresholds
 tags:
 - poverty
 - measurement

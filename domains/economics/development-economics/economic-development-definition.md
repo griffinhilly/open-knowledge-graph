@@ -8,12 +8,12 @@ prerequisites:
   type: soft
 builds-toward:
 - human-development-index
-- multidimensional-poverty-index
+- multidimensional-poverty-measurement
 tags:
 - development
 - measurement
 - foundations
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

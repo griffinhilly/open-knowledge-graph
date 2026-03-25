@@ -4,7 +4,7 @@ title: Entity-Relationship Diagrams
 domain: computer-science
 course: databases
 prerequisites:
-- id: relational-model-basics
+- id: relational-data-model
   type: hard
 builds-toward:
 - database-schema-design

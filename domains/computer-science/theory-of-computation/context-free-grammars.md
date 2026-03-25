@@ -4,7 +4,7 @@ title: Context-Free Grammars (CFGs)
 domain: computer-science
 course: theory-of-computation
 prerequisites:
-- id: regular-language-properties
+- id: regular-languages-fundamentals
   type: soft
 - id: set-theory-basics
   type: soft
@@ -13,7 +13,7 @@ prerequisites:
 - id: formal-languages-and-strings
   type: soft
 builds-toward:
-- parse-trees-derivations
+- parse-trees-ambiguity-and-derivation
 - chomsky-normal-form
 - pushdown-automata
 - closure-properties-cfl
@@ -23,7 +23,7 @@ tags:
 - grammars
 - productions
 - derivation
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

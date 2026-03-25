@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: moral-hazard
   type: hard
-- id: dsge-models-framework
+- id: dsge-models
   type: hard
 tags:
 - financial-stability

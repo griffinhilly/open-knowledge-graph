@@ -10,14 +10,14 @@ prerequisites:
   type: soft
 builds-toward:
 - kleene-theorem
-- regular-language-properties
-- closure-properties-regular
+- regular-languages-fundamentals
+- closure-properties-regular-languages
 tags:
 - regular-expressions
 - formal-languages
 - regular
 - kleene-star
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - nuclear
 - strategy
 - credibility
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

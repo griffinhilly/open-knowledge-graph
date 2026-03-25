@@ -9,7 +9,7 @@ prerequisites:
 - id: price-controls-and-deadweight-loss
   type: hard
 builds-toward:
-- first-and-second-welfare-theorems
+- first-welfare-theorem
 tags:
 - surplus
 - welfare-analysis

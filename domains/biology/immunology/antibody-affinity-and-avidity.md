@@ -6,7 +6,7 @@ course: immunology
 prerequisites:
 - id: antibody-structure-and-function
   type: hard
-- id: somatic-hypermutation-and-affinity-maturation
+- id: affinity-maturation-somatic-hypermutation
   type: hard
 builds-toward:
 - affinity-maturation-somatic-hypermutation

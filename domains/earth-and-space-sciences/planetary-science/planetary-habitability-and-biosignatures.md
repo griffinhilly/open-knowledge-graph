@@ -17,7 +17,7 @@ tags:
 - habitability
 - biosignatures
 - life
-stage: expert
+stage: advanced
 status: validated
 ---
 

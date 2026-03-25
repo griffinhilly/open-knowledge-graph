@@ -15,7 +15,7 @@ tags:
 - migration
 - bombardment
 - asteroids
-stage: expert
+stage: advanced
 status: validated
 ---
 

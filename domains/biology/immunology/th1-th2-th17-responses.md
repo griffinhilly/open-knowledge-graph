@@ -6,10 +6,10 @@ course: immunology
 prerequisites:
 - id: cd4-helper-t-cells
   type: hard
-- id: inflammation-innate-response
+- id: inflammatory-response-cellular
   type: soft
 builds-toward:
-- autoimmune-disease-mechanisms
+- autoimmunity-mechanisms
 tags:
 - th1
 - th2

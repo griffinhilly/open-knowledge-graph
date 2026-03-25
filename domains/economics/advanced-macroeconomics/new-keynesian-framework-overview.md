@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - calvo-pricing-sticky-prices
-- monetary-policy-transmission-mechanisms
+- monetary-policy-transmission
 tags:
 - new-keynesian
 - price-stickiness

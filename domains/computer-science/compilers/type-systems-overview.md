@@ -11,7 +11,7 @@ prerequisites:
 builds-toward:
 - type-inference-algorithms
 - hindley-milner-type-system
-- polymorphism-parametric
+- polymorphism-and-type-variables
 tags:
 - type-systems
 - type-checking

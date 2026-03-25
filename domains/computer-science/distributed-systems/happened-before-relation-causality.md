@@ -4,13 +4,13 @@ title: Happened-Before Relation and Causal Ordering
 domain: computer-science
 course: distributed-systems
 prerequisites:
-- id: lamport-timestamps
+- id: logical-clocks
   type: hard
 - id: vector-clocks
   type: hard
 builds-toward:
-- causal-consistency-implementation
-- distributed-snapshots-chandy-lamport
+- causal-consistency
+- distributed-snapshots
 - total-order-broadcast
 tags:
 - causality

@@ -9,13 +9,13 @@ prerequisites:
 - id: genetic-drift-process
   type: hard
 builds-toward:
-- coalescent-theory-population
+- coalescent-theory
 tags:
 - population-size
 - drift
 - inbreeding
 - conservation
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

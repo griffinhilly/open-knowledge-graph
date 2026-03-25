@@ -4,7 +4,7 @@ title: Defensive Realism and Security Seeking
 domain: social-sciences
 course: international-relations-theory
 prerequisites:
-- id: structural-realism-polarity-systems
+- id: structural-realism-waltz
   type: hard
 - id: security-dilemma
   type: hard
@@ -16,7 +16,7 @@ tags:
 - security
 - intentions
 - jervis
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

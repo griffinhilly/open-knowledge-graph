@@ -7,7 +7,7 @@ prerequisites:
 - id: durkheim-social-facts
   type: hard
 builds-toward:
-- durkheim-mechanical-organic-solidarity
+- mechanical-organic-solidarity
 - culture-and-society
 tags:
 - durkheim
@@ -15,7 +15,7 @@ tags:
 - culture
 - morality
 - society
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

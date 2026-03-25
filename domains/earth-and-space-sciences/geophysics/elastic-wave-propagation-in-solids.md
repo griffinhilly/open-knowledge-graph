@@ -5,7 +5,7 @@ domain: earth-and-space-sciences
 course: geophysics
 prerequisites:
 - id: seismic-waves
-  type: soft
+  type: hard
 - id: differential-equations-intro
   type: hard
 - id: conservation-of-energy
@@ -23,7 +23,7 @@ tags:
 - waves
 - continuum-mechanics
 - elasticity
-stage: expert
+stage: advanced
 status: validated
 ---
 

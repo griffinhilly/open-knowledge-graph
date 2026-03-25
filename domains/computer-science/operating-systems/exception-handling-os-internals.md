@@ -6,7 +6,7 @@ course: operating-systems
 prerequisites:
 - id: interrupt-vector-dispatch
   type: hard
-- id: system-call-semantics
+- id: system-calls
   type: hard
 builds-toward:
 - page-fault-processing

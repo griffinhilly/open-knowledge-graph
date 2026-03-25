@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 builds-toward:
 - climate-change-science
-- climate-feedbacks-and-sensitivity
+- feedback-mechanisms-in-climate
 - radiative-forcing-greenhouse-gases
 tags:
 - radiation

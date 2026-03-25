@@ -7,8 +7,8 @@ prerequisites:
 - id: sql-table-creation-definition
   type: hard
 builds-toward:
-- primary-key-foreign-key-constraints
-- functional-dependency-schema
+- primary-and-foreign-keys
+- functional-dependencies
 tags:
 - SQL
 - constraint

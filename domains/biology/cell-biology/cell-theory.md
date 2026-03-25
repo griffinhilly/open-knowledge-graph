@@ -3,7 +3,9 @@ id: cell-theory
 title: Cell Theory
 domain: biology
 course: cell-biology
-prerequisites: []
+prerequisites:
+- id: what-is-a-cell
+  type: hard
 builds-toward:
 - prokaryotic-cells
 - eukaryotic-cells
@@ -11,7 +13,7 @@ tags:
 - foundations
 - history-of-biology
 - cell-theory
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

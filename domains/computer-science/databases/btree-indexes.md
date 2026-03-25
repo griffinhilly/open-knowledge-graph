@@ -4,7 +4,7 @@ title: B-Tree Indexes
 domain: computer-science
 course: databases
 prerequisites:
-- id: indexing-concepts
+- id: index-types-btree-hash-bitmap
   type: hard
 - id: binary-search-trees
   type: soft

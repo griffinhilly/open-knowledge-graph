@@ -7,14 +7,14 @@ prerequisites:
 - id: conflict-theory-sociology
   type: soft
 builds-toward:
-- intersectionality-sociology
+- intersectionality
 - postcolonial-sociology
 tags:
 - feminist-theory
 - gender
 - patriarchy
 - oppression
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

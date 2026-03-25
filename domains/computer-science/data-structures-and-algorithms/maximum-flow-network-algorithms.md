@@ -4,13 +4,13 @@ title: 'Maximum Flow: Network Flow Problems and Algorithms'
 domain: computer-science
 course: data-structures-and-algorithms
 prerequisites:
-- id: graph-adjacency-representation-analysis
+- id: graph-adjacency-list-matrix-representations
   type: hard
 tags:
 - graphs
 - flow
 - algorithms
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

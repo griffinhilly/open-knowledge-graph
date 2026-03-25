@@ -21,7 +21,7 @@ tags:
 - stability
 - security-dilemma
 - action-reaction
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

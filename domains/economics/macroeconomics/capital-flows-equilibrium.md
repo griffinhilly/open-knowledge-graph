@@ -9,7 +9,7 @@ prerequisites:
 - id: international-capital-flows
   type: soft
 builds-toward:
-- mundell-fleming-extended
+- mundell-fleming-open-economy
 tags:
 - capital-flows
 - interest-rates

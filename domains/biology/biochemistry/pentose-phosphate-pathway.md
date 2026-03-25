@@ -15,7 +15,7 @@ tags:
 - ribose
 - oxidative phase
 - reductive phase
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

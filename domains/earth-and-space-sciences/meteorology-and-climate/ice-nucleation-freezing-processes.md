@@ -4,12 +4,12 @@ title: Ice Nucleation and Freezing Processes in Clouds
 domain: earth-and-space-sciences
 course: meteorology-and-climate
 prerequisites:
-- id: cloud-condensation-nuclei
+- id: cloud-condensation-nuclei-activation
   type: hard
 - id: precipitation-types-and-processes
   type: soft
 builds-toward:
-- bergeron-process-precipitation
+- bergeron-process-ice-precipitation
 tags:
 - ice
 - nucleation

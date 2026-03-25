@@ -6,7 +6,7 @@ course: statistical-mechanics
 prerequisites:
 - id: brownian-motion
   type: hard
-- id: newton-second-law
+- id: newtons-second-law
   type: hard
 builds-toward:
 - fokker-planck-equation

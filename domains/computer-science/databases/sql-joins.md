@@ -4,13 +4,12 @@ title: SQL Joins
 domain: computer-science
 course: databases
 prerequisites:
-- id: sql-select-basics
+- id: sql-data-retrieval-select
   type: hard
 - id: primary-and-foreign-keys
   type: hard
 builds-toward:
 - sql-subqueries
-- query-execution-plans
 - query-optimization
 tags:
 - SQL

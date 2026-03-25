@@ -6,7 +6,7 @@ course: sociology
 prerequisites:
 - id: primary-secondary-groups
   type: hard
-- id: symbolic-interactionism-foundations
+- id: symbolic-interactionism
   type: soft
 builds-toward:
 - social-influence-mechanisms

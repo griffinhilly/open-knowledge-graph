@@ -9,7 +9,7 @@ prerequisites:
 - id: social-norms-and-values
   type: hard
 builds-toward:
-- intersectionality-sociology
+- intersectionality
 - feminist-sociology
 tags:
 - gender

@@ -4,10 +4,6 @@ title: Linear Regression in Machine Learning
 domain: computer-science
 course: artificial-intelligence
 prerequisites:
-- id: linear-algebra-basics
-  type: hard
-- id: probability-basics
-  type: soft
 - id: matrices-intro
   type: soft
 - id: eigenvalues-and-eigenvectors

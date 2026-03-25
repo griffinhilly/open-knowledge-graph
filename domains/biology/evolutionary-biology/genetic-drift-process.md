@@ -17,7 +17,7 @@ tags:
 - drift
 - stochastic-evolution
 - population-size
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

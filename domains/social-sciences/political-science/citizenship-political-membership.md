@@ -4,12 +4,12 @@ title: Citizenship and Political Membership
 domain: social-sciences
 course: political-science
 prerequisites:
-- id: state-concept-and-sovereignty
+- id: state-and-sovereignty
   type: hard
 - id: identity-and-interests
   type: soft
 builds-toward:
-- civil-liberties-rights-protection
+- individual-rights-and-freedoms
 - immigration-sovereignty-political-economy
 tags:
 - citizenship

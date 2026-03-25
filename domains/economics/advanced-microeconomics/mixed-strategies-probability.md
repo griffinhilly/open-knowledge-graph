@@ -4,7 +4,7 @@ title: Mixed Strategies and Probabilistic Play
 domain: economics
 course: advanced-microeconomics
 prerequisites:
-- id: strategic-form-game-theory
+- id: strategic-form-games
   type: hard
 - id: nash-equilibrium-microeconomics
   type: hard

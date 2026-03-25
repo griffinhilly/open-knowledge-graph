@@ -15,7 +15,7 @@ tags:
 - durkheim
 - social-facts
 - methodology
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

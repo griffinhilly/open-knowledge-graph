@@ -17,7 +17,7 @@ tags:
 - isotope
 - atmosphere
 - dating
-stage: expert
+stage: advanced
 status: validated
 ---
 

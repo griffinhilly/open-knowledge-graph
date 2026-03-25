@@ -6,11 +6,11 @@ course: immunology
 prerequisites:
 - id: mhc-class-i-presentation
   type: hard
-- id: antigen-processing-pathways
+- id: antigen-presentation-mechanisms
   type: hard
 builds-toward:
 - cd8-cytotoxic-t-cells
-- vaccine-design-immunogenicity-adjuvants
+- vaccine-response-and-immunogenicity
 tags:
 - cross-presentation
 - antigen-processing

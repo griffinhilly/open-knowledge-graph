@@ -11,7 +11,7 @@ prerequisites:
 - id: assembly-language-basics
   type: soft
 builds-toward:
-- process-states-lifecycle
+- process-states-and-transitions
 - threads-and-concurrency
 - inter-process-communication
 - os-security-basics

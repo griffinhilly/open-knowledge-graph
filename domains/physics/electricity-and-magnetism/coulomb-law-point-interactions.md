@@ -6,7 +6,7 @@ course: electricity-and-magnetism
 prerequisites:
 - id: elementary-charge-conservation
   type: hard
-- id: inverse-square-law
+- id: newtons-law-of-gravitation
   type: soft
 builds-toward:
 - electric-field-superposition-principle

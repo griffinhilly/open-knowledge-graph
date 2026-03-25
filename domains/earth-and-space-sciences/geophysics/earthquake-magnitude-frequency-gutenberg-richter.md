@@ -4,7 +4,7 @@ title: Magnitude Frequency and the Gutenberg-Richter Relation
 domain: earth-and-space-sciences
 course: geophysics
 prerequisites:
-- id: moment-magnitude-determination
+- id: seismic-moment-and-magnitude
   type: hard
 - id: earthquakes-and-seismology
   type: soft
@@ -15,7 +15,7 @@ tags:
 - magnitude
 - frequency
 - power-law
-stage: expert
+stage: advanced
 status: validated
 ---
 

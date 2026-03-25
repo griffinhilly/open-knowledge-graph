@@ -4,11 +4,11 @@ title: 'Thread Models: User-Level and Kernel Threads'
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: process-concept-in-os
+- id: process-concept
   type: hard
 builds-toward:
 - thread-creation-and-lifecycle
-- concurrency-and-race-conditions
+- synchronization-problem
 tags:
 - threading
 - lightweight-concurrency

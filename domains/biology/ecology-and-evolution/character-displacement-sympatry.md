@@ -6,7 +6,7 @@ course: ecology-and-evolution
 prerequisites:
 - id: modes-of-speciation-allopatric-peripatric-parapatric-sympatric
   type: hard
-- id: reproductive-isolation-types
+- id: reproductive-isolation
   type: soft
 builds-toward:
 - niche-concept-fundamental-realized

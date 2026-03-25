@@ -6,13 +6,13 @@ course: theory-of-computation
 prerequisites:
 - id: formal-languages-and-strings
   type: hard
-- id: grammar-fundamentals-and-definitions
+- id: automata-fundamentals-and-models
   type: hard
 - id: context-free-grammars
   type: hard
 builds-toward:
 - context-sensitive-languages
-- recursively-enumerable-languages
+- recognizability-vs-decidability
 tags:
 - formal-languages
 - classification

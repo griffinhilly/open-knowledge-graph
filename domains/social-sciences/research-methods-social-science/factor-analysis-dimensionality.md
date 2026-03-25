@@ -23,7 +23,7 @@ tags:
 - latent-variables
 - dimensionality
 - communalities
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

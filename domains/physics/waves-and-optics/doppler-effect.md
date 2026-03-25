@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: sound-intensity-and-decibels
   type: soft
-- id: trigonometric-functions-and-graphs
+- id: graphing-sine-and-cosine
   type: soft
 tags:
 - Doppler

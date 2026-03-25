@@ -4,7 +4,7 @@ title: Spatial Models of Politics and Ideological Positioning
 domain: social-sciences
 course: political-science
 prerequisites:
-- id: political-ideology-belief-systems
+- id: political-ideologies
   type: hard
 - id: voter-behavior-electoral-decision
   type: soft

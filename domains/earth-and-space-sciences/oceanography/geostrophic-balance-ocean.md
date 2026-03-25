@@ -15,7 +15,7 @@ prerequisites:
 - id: pressure-gradient-force
   type: soft
 builds-toward:
-- ekman-spiral-wind-driven-transport
+- ekman-boundary-layer-transport
 - mesoscale-eddy-dynamics
 tags:
 - geostrophy
@@ -23,7 +23,7 @@ tags:
 - coriolis-force
 - equilibrium
 - current-dynamics
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

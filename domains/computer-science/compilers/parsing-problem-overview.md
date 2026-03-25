@@ -6,7 +6,7 @@ course: compilers
 prerequisites:
 - id: context-free-grammars-compiler-design
   type: hard
-- id: lexical-analyzer-design
+- id: tokenization-and-lexemes
   type: hard
 - id: formal-languages-and-strings
   type: soft

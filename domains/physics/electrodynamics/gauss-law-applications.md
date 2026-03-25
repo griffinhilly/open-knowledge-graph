@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: electric-field
   type: hard
-- id: symmetry-arguments-physics
+- id: gauss-law-symmetry
   type: soft
 builds-toward:
 - maxwell-equations-integral-form

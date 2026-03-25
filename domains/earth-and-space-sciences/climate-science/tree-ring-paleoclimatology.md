@@ -14,7 +14,7 @@ tags:
 - dendrochronology
 - temperature
 - growth
-stage: expert
+stage: advanced
 status: validated
 ---
 

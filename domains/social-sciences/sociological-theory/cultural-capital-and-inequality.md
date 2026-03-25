@@ -4,16 +4,16 @@ title: Cultural Capital and Social Inequality
 domain: social-sciences
 course: sociological-theory
 prerequisites:
-- id: pierre-bourdieu-habitus-field
+- id: bourdieu-habitus
   type: hard
 builds-toward:
-- feminist-sociology-intersectionality
+- feminist-sociology
 tags:
 - bourdieu
 - cultural-capital
 - inequality
 - education
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

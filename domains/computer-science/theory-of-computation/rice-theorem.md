@@ -4,7 +4,7 @@ title: Rice's Theorem and Non-Trivial Turing Machine Properties
 domain: computer-science
 course: theory-of-computation
 prerequisites:
-- id: reductions-and-undecidability
+- id: reduction-techniques-undecidability
   type: hard
 tags:
 - rice-theorem

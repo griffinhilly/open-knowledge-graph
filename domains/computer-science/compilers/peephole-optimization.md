@@ -9,7 +9,7 @@ prerequisites:
 - id: basic-block-analysis
   type: hard
 builds-toward:
-- assembly-code-generation
+- code-generation
 tags:
 - optimization
 - code-generation

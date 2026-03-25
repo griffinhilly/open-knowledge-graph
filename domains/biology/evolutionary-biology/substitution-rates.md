@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 builds-toward:
 - molecular-evolution-rates
-- molecular-clock-hypothesis
+- molecular-clock
 tags:
 - molecular-clock
 - substitution

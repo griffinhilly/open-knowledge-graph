@@ -4,13 +4,13 @@ title: Continental Rifting and Extensional Tectonics
 domain: earth-and-space-sciences
 course: geology
 prerequisites:
-- id: plate-boundary-types-kinematics
+- id: plate-boundary-processes-interactions
   type: hard
 tags:
 - extension
 - rifting
 - tectonics
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

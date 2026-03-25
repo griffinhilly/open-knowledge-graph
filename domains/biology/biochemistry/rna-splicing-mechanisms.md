@@ -16,7 +16,7 @@ tags:
 - introns
 - exons
 - lariat intermediate
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

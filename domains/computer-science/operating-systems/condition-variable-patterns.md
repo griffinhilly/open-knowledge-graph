@@ -4,12 +4,12 @@ title: 'Condition Variables: Usage Patterns and Pitfalls'
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: condition-variables-and-monitors
+- id: monitors-and-condition-variables
   type: hard
-- id: mutex-and-locks
+- id: mutual-exclusion-and-locks
   type: hard
 builds-toward:
-- monitor-pattern-definition
+- monitors-and-condition-variables
 tags:
 - condition-variables
 - patterns

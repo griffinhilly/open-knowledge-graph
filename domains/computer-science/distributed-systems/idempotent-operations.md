@@ -4,7 +4,7 @@ title: Idempotent Operations in Distributed Systems
 domain: computer-science
 course: distributed-systems
 prerequisites:
-- id: distributed-systems-overview
+- id: distributed-systems-introduction
   type: hard
 builds-toward:
   - distributed-transactions-2pc

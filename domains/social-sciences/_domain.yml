@@ -11,6 +11,15 @@ courses:
 - id: political-science
   title: Political Science
   stage: abstract-reasoning
+- id: research-methods-social-science
+  title: Research Methods in Social Science
+  stage: abstract-reasoning
 - id: human-geography
   title: Human Geography
   stage: abstract-reasoning
+- id: sociological-theory
+  title: Sociological Theory
+  stage: formal-systems
+- id: international-relations-theory
+  title: International Relations Theory
+  stage: formal-systems

@@ -17,7 +17,7 @@ tags:
 - event-history
 - duration
 - censoring
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

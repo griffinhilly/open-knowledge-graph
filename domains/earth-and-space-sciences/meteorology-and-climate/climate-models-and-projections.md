@@ -17,7 +17,7 @@ tags:
 - SSP
 - ensemble
 - uncertainty
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - classical-theory
 - positivism
 - comte
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

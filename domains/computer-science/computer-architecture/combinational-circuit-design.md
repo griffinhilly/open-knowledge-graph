@@ -15,7 +15,7 @@ prerequisites:
 builds-toward:
 - multiplexers-and-demultiplexers
 - encoder-decoder-circuits
-- adder-circuits
+- binary-adders
 tags:
 - combinational-logic
 - circuit-design

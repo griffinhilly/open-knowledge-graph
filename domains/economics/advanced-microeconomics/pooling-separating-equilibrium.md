@@ -6,7 +6,7 @@ course: advanced-microeconomics
 prerequisites:
 - id: adverse-selection-signaling
   type: hard
-- id: bayesian-games-incomplete-info
+- id: bayesian-games
   type: hard
 tags:
 - contract-theory

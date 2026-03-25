@@ -16,7 +16,7 @@ tags:
 - interdependence
 - peace
 - trade
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

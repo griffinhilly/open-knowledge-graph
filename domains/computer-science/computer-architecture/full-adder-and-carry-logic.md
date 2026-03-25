@@ -4,13 +4,13 @@ title: Full Adder and Carry Propagation
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: combinational-logic-implementation
+- id: combinational-circuit-design
   type: hard
-- id: adder-circuits
+- id: binary-adders
   type: soft
 builds-toward:
 - carry-lookahead-adder-design
-- arithmetic-logic-unit-design-details
+- arithmetic-logic-unit
 tags:
 - arithmetic
 - adder

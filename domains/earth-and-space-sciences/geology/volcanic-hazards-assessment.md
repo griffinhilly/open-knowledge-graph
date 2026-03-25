@@ -4,7 +4,7 @@ title: 'Volcanic Hazards: Assessment and Mitigation'
 domain: earth-and-space-sciences
 course: geology
 prerequisites:
-- id: magma-composition-viscosity
+- id: magma-composition-viscosity-rheology
   type: hard
 - id: volcanic-processes-and-landforms
   type: soft

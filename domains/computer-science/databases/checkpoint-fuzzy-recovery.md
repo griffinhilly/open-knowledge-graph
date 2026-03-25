@@ -6,7 +6,7 @@ course: databases
 prerequisites:
 - id: crash-recovery-undo-redo-logs
   type: hard
-- id: write-ahead-logging-protocol-durability
+- id: write-ahead-logging
   type: hard
 tags:
 - checkpoint

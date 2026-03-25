@@ -9,7 +9,7 @@ prerequisites:
 - id: reaching-definitions-analysis
   type: hard
 builds-toward:
-- global-optimization-techniques
+- code-optimization
 tags:
 - analysis
 - use-def-chains

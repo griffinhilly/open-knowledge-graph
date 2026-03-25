@@ -4,7 +4,7 @@ title: Harmonic Waves and Sinusoidal Form
 domain: physics
 course: waves-and-optics
 prerequisites:
-- id: trigonometric-functions
+- id: graphing-sine-and-cosine
   type: hard
 - id: wave-equation-one-dimensional
   type: hard

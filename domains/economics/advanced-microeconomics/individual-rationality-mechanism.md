@@ -4,7 +4,7 @@ title: Individual Rationality (Participation Constraint)
 domain: economics
 course: advanced-microeconomics
 prerequisites:
-- id: mechanism-design-intro
+- id: mechanism-design-basics
   type: hard
 tags:
 - mechanism-design

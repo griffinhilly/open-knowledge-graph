@@ -4,7 +4,7 @@ title: The Division of Labor and Social Cohesion
 domain: social-sciences
 course: sociological-theory
 prerequisites:
-- id: durkheim-mechanical-organic-solidarity
+- id: mechanical-organic-solidarity
   type: hard
 builds-toward:
 - durkheim-anomie
@@ -14,7 +14,7 @@ tags:
 - modernity
 - integration
 - anomie
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

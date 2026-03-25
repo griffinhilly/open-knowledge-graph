@@ -4,7 +4,7 @@ title: Bureaucracy and Organizational Structure
 domain: social-sciences
 course: sociological-theory
 prerequisites:
-- id: max-weber-rationalization-modernity
+- id: weber-rationalization
   type: hard
 builds-toward:
 - structural-functionalism
@@ -14,7 +14,7 @@ tags:
 - bureaucracy
 - organization
 - rationalization
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - cooperation
 - wto
 - protectionism
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

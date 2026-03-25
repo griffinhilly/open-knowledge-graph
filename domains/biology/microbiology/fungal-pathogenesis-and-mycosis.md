@@ -6,7 +6,7 @@ course: microbiology
 prerequisites:
 - id: host-pathogen-interactions
   type: hard
-- id: fungal-cell-wall-composition-and-synthesis
+- id: fungal-cell-wall-polysaccharides
   type: hard
 builds-toward:
 - emerging-infectious-diseases

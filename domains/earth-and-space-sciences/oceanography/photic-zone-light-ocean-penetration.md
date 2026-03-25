@@ -11,7 +11,7 @@ tags:
 - light-absorption
 - transparency
 - euphotic-zone
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

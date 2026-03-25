@@ -4,7 +4,7 @@ title: Translation Lookaside Buffer (TLB) Design
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: virtual-memory-translation
+- id: virtual-memory-basics
   type: hard
 - id: cache-associativity-and-mapping
   type: soft

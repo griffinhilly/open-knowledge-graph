@@ -6,7 +6,7 @@ course: data-structures-and-algorithms
 prerequisites:
 - id: greedy-algorithms
   type: hard
-- id: heap-structure-and-heapify-operations
+- id: heaps-and-priority-queues
   type: soft
 - id: probability-axioms-and-rules
   type: soft

@@ -15,7 +15,7 @@ tags:
 - magnetosphere
 - space-weather
 - solar-wind
-stage: expert
+stage: advanced
 status: validated
 ---
 

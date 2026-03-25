@@ -14,7 +14,7 @@ tags:
 - fieldwork
 - participant-observation
 - reflexivity
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

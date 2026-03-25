@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - land-tenure-security
-- institutions-and-economic-development
+- institutions-economic-development
 tags:
 - property-rights
 - incentives

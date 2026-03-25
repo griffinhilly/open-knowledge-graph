@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: natural-logarithm-and-e
   type: soft
+- id: kinetic-theory-of-gases
+  type: soft
 tags:
 - Boltzmann
 - microstates

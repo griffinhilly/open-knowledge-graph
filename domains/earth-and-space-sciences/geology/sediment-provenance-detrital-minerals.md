@@ -15,7 +15,7 @@ tags:
 - detrital
 - minerals
 - source-area
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -6,13 +6,13 @@ course: databases
 prerequisites:
 - id: database-transactions
   type: hard
-- id: transaction-properties-acid
+- id: acid-properties
   type: hard
 - id: concurrency-control-databases
   type: hard
 builds-toward:
-- optimistic-concurrency-control-occ
-- multiversion-concurrency-mvcc
+- optimistic-concurrency-control
+- multi-version-concurrency-control
 tags:
 - isolation-levels
 - anomalies

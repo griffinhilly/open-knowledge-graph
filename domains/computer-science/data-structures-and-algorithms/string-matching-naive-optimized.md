@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - boyer-moore-algorithm-details
-- trie-implementation-applications
+- tries
 tags:
 - strings
 - matching

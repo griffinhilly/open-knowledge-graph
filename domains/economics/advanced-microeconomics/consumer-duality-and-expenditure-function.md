@@ -15,7 +15,7 @@ prerequisites:
 - id: constrained-optimization-lagrange
   type: hard
 builds-toward:
-- hicksian-demand-functions
+- hicksian-demand
 - compensating-and-equivalent-variation
 tags:
 - consumer-theory

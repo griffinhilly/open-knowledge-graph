@@ -8,9 +8,9 @@ prerequisites:
   type: hard
 - id: nondeterministic-complexity
   type: soft
-- id: big-o-notation
+- id: big-o-complexity-analysis
   type: soft
-- id: algorithm-complexity
+- id: asymptotic-notation-big-o-omega-theta
   type: soft
 tags:
 - PSPACE

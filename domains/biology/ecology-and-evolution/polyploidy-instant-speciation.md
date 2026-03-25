@@ -4,7 +4,7 @@ title: Polyploidy and Instant Reproductive Isolation
 domain: biology
 course: ecology-and-evolution
 prerequisites:
-- id: reproductive-isolation-types
+- id: reproductive-isolation
   type: hard
 - id: speciation
   type: hard

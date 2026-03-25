@@ -16,7 +16,7 @@ tags:
 - foraminifera
 - geochemistry
 - dating
-stage: expert
+stage: advanced
 status: validated
 ---
 

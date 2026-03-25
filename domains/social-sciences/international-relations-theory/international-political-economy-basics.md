@@ -16,7 +16,7 @@ tags:
 - trade
 - capital-flows
 - development
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

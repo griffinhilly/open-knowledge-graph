@@ -4,7 +4,7 @@ title: Thermal Conduction and Fourier's Law
 domain: physics
 course: thermodynamics
 prerequisites:
-- id: derivatives
+- id: power-rule
   type: soft
 tags:
 - heat-transfer

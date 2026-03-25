@@ -13,7 +13,7 @@ prerequisites:
 builds-toward:
 - tobin-q-theory-investment
 - accelerator-principle-investment
-- crowding-out-fiscal-monetary
+- crowding-out-and-fiscal-effects
 tags:
 - investment
 - interest-rates

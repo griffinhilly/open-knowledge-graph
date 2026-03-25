@@ -4,12 +4,10 @@ title: Interrupted Time Series Design
 domain: social-sciences
 course: research-methods-social-science
 prerequisites:
-- id: time-series-social-phenomena
+- id: time-series-cross-section
   type: hard
 - id: natural-experiments-design
   type: soft
-- id: time-series-cross-section
-  type: hard
 builds-toward:
 - segmented-regression-its
 tags:
@@ -17,7 +15,7 @@ tags:
 - policy
 - causal
 - temporal
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

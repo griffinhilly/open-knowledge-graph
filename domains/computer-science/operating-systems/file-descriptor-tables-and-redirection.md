@@ -6,7 +6,7 @@ course: operating-systems
 prerequisites:
 - id: file-system-concepts
   type: hard
-- id: process-concept-in-os
+- id: process-concept
   type: soft
 tags:
 - file-descriptors

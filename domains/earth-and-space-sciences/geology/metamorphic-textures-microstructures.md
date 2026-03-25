@@ -12,7 +12,7 @@ tags:
 - metamorphic
 - deformation
 - texture
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

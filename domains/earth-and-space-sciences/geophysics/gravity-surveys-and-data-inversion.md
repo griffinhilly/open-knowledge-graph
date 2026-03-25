@@ -13,7 +13,7 @@ tags:
 - surveys
 - inversion
 - data-processing
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -20,7 +20,7 @@ tags:
 - weathering
 - silicate-cycle
 - geological-timescales
-stage: expert
+stage: advanced
 status: validated
 ---
 

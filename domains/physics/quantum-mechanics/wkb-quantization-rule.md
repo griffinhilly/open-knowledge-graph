@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - wkb
 - quantization
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

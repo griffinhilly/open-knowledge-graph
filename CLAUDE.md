@@ -3,7 +3,7 @@
 Open-source, machine-readable knowledge graphs mapping prerequisite relationships between topics across every domain of human knowledge.
 
 ## Project Structure
-- `domains/` — 19 domains, 13,925 topics, 163 courses
+- `domains/` — 19 domains, 13,429 topics, 197 courses
 - `tools/` — Python tooling (validate.py, visualize_hierarchy.py, visualize_radial.py, generate_topic_pages.py, stats.py, reconcile.py, generate_assessment.py, generate_assessment_page.py, generate_assessment_questions.py, generate_quiz_page.py, diagnose_positioning.py, diagnose_radial_order.py, trace_topic.py)
 - `tools/overnight/` — Autonomous generation orchestrator (used to build the initial graph and Q+E content)
 - `meta/` — Schema definition, developmental stages, course list
@@ -33,7 +33,7 @@ Tool commands: see `guides/tools-reference.md`
 Visualization design: see `guides/visualization.md`
 
 ## Current Status
-- **13,925 topics** across **19 domains**, **163 courses**
+- **13,429 topics** across **19 domains**, **197 courses**
 - **6 developmental stages**: pre-formal, concrete-operations, abstract-reasoning, formal-systems, advanced, expert
 - **100% Q+E coverage**: All topics have Questions + Explainer sections
 - **All topics at `status: validated`**

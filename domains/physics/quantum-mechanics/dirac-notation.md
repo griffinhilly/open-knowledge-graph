@@ -4,7 +4,7 @@ title: Dirac Notation (Bra-Ket Notation)
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: linear-algebra
+- id: matrix-operations
   type: hard
 - id: vector-spaces
   type: soft

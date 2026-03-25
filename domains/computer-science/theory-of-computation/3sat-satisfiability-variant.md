@@ -4,7 +4,7 @@ title: 3-SAT and k-SAT Variants
 domain: computer-science
 course: theory-of-computation
 prerequisites:
-- id: sat-boolean-satisfiability
+- id: boolean-satisfiability-and-reductions
   type: hard
 - id: np-completeness
   type: hard

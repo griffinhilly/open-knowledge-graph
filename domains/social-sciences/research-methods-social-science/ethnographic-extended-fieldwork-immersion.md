@@ -15,7 +15,7 @@ tags:
 - fieldwork
 - immersion
 - observation
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

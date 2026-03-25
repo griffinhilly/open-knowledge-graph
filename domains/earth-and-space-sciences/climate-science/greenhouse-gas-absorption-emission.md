@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: electromagnetic-spectrum
   type: soft
+- id: greenhouse-effect
+  type: hard
 builds-toward:
 - radiative-forcing-greenhouse-gases
 - line-by-line-radiative-transfer
@@ -24,7 +26,7 @@ tags:
 - greenhouse-gases
 - infrared-radiation
 - molecular-properties
-stage: expert
+stage: advanced
 status: validated
 ---
 

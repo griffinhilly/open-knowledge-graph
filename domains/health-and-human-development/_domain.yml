@@ -21,3 +21,9 @@ courses:
 - id: child-development
   title: Child Development
   stage: abstract-reasoning
+- id: pathophysiology
+  title: Pathophysiology
+  stage: formal-systems
+- id: epidemiology
+  title: Epidemiology
+  stage: advanced

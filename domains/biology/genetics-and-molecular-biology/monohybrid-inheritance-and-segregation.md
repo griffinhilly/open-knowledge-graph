@@ -11,7 +11,7 @@ prerequisites:
 - id: dominance-and-recessiveness
   type: soft
 builds-toward:
-- dihybrid-inheritance-and-independent-assortment
+- dihybrid-crosses
 - test-cross-analysis-determining-genotypes
 tags:
 - segregation

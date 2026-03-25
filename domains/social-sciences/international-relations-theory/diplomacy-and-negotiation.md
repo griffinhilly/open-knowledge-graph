@@ -14,7 +14,7 @@ tags:
 - diplomacy
 - negotiation
 - bargaining
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

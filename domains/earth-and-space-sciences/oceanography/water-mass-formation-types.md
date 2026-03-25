@@ -9,7 +9,7 @@ prerequisites:
 - id: ocean-temperature-structure-thermocline
   type: hard
 builds-toward:
-  - thermohaline-overturning-circulation
+  - thermohaline-circulation
   - deep-ocean-abyssal-currents
 tags:
 - water-masses

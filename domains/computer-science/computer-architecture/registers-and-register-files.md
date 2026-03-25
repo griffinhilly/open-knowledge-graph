@@ -4,13 +4,13 @@ title: Registers and Register Files
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: d-flip-flop-design
+- id: flip-flops-and-latches
   type: hard
 - id: sequential-circuit-design
   type: soft
 builds-toward:
 - cpu-datapath
-- memory-array-organization
+- memory-organization
 tags:
 - registers
 - storage

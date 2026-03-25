@@ -9,8 +9,8 @@ prerequisites:
 - id: cpu-datapath
   type: soft
 builds-toward:
-- instruction-pipeline-organization
-- cpu-control-path-design
+- pipelining-fundamentals
+- cpu-control-unit
 tags:
 - instruction
 - fetch

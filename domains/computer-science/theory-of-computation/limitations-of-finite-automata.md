@@ -7,7 +7,7 @@ prerequisites:
 - id: pumping-lemma-for-regular-languages
   type: hard
 builds-toward:
-- context-free-grammars-and-languages
+- context-free-grammars
 tags:
 - automata-limits
 - non-regular

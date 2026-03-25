@@ -27,7 +27,7 @@ tags:
 - potential-theory
 - field-theory
 - inverse-problems
-stage: expert
+stage: advanced
 status: validated
 ---
 

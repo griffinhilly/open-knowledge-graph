@@ -19,7 +19,7 @@ prerequisites:
 builds-toward:
 - halting-problem
 - recognizability-vs-decidability
-- undecidability-reductions
+- undecidable-problems
 tags:
 - decidable
 - Turing-decidable

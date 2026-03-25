@@ -6,7 +6,7 @@ course: compilers
 prerequisites:
 - id: intermediate-code-representation
   type: hard
-- id: graph-theory-fundamentals
+- id: graph-adjacency-list-matrix-representations
   type: soft
 - id: directed-graphs-and-digraphs
   type: soft

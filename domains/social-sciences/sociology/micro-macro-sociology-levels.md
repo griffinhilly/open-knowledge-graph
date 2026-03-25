@@ -4,10 +4,10 @@ title: 'Micro and Macro Sociology: Levels of Analysis'
 domain: social-sciences
 course: sociology
 prerequisites:
-- id: sociological-perspective-core
+- id: sociological-research-methods
   type: hard
 builds-toward:
-- symbolic-interactionism-foundations
+- symbolic-interactionism
 - structural-functionalism
 tags:
 - theory

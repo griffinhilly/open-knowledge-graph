@@ -13,7 +13,7 @@ tags:
 - earthquake-location
 - hypocenter
 - arrival-times
-stage: expert
+stage: advanced
 status: validated
 ---
 

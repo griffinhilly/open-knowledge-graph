@@ -17,7 +17,7 @@ tags:
 - glucose
 - fructose
 - mutarotation
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -4,7 +4,7 @@ title: Extensive Form Games and Game Trees
 domain: economics
 course: advanced-microeconomics
 prerequisites:
-- id: strategic-form-game-theory
+- id: strategic-form-games
   type: hard
 - id: game-theory-basics-microeconomics
   type: hard

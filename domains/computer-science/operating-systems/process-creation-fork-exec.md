@@ -4,7 +4,7 @@ title: 'Process Creation: fork() and exec()'
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: process-concept-in-os
+- id: process-concept
   type: hard
 - id: kernel-mode-and-privilege-levels
   type: soft

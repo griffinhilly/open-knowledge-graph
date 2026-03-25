@@ -4,9 +4,9 @@ title: Microsociology and Everyday Interaction
 domain: social-sciences
 course: sociology
 prerequisites:
-- id: symbolic-interactionism-foundations
+- id: symbolic-interactionism
   type: hard
-- id: erving-goffman-dramaturgy
+- id: goffman-dramaturgy
   type: soft
 builds-toward:
 - conversation-analysis-social-order

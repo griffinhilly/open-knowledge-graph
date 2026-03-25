@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - electrophysiology
 - ion-channels
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

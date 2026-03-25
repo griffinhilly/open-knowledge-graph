@@ -15,7 +15,7 @@ tags:
 - cholesterol
 - HMG-CoA-reductase
 - sterol-regulation
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

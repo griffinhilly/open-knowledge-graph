@@ -16,7 +16,7 @@ tags:
 - receptors
 - ionotropic
 - synaptic-current
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

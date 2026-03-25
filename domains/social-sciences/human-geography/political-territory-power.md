@@ -6,7 +6,7 @@ course: human-geography
 prerequisites:
 - id: spatial-scale-human-geography
   type: hard
-- id: place-space-social-construction
+- id: place-and-space-concepts
   type: hard
 builds-toward:
 - indigenous-geography-territory

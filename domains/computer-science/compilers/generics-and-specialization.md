@@ -4,7 +4,7 @@ title: Generics and Template Specialization
 domain: computer-science
 course: compilers
 prerequisites:
-- id: polymorphism-parametric
+- id: polymorphism-and-type-variables
   type: hard
 tags:
 - generics

@@ -14,7 +14,7 @@ prerequisites:
   type: soft
 - id: converting-degrees-and-radians
   type: hard
-- id: trigonometric-functions-and-graphs
+- id: graphing-sine-and-cosine
   type: soft
 builds-toward:
 - torque

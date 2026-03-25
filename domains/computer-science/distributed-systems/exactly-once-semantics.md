@@ -4,11 +4,11 @@ title: Exactly-Once Delivery Semantics
 domain: computer-science
 course: distributed-systems
 prerequisites:
-- id: distributed-systems-overview
+- id: distributed-systems-introduction
   type: hard
 builds-toward:
 - idempotent-operations
-- distributed-transactions-2pc
+- two-phase-commit-protocol
 tags:
 - semantics
 - delivery

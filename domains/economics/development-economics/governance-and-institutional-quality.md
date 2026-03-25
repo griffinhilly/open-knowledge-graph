@@ -4,7 +4,7 @@ title: Governance Quality and Development Outcomes
 domain: economics
 course: development-economics
 prerequisites:
-- id: institutions-and-development
+- id: institutions-economic-development
   type: hard
 - id: corruption-and-economic-development
   type: soft

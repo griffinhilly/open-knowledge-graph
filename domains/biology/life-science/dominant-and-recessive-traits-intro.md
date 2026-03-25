@@ -17,7 +17,7 @@ tags:
 - recessive
 - traits
 - alleles
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 # Dominant and Recessive Traits Introduction

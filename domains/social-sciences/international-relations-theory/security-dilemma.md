@@ -16,7 +16,7 @@ tags:
 - conflict-spiral
 - anarchy
 - arms-race
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

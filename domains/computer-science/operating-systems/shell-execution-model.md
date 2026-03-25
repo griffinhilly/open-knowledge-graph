@@ -6,7 +6,7 @@ course: operating-systems
 prerequisites:
 - id: process-creation-fork-exec
   type: hard
-- id: inter-process-communication-mechanisms
+- id: inter-process-communication
   type: soft
 builds-toward:
 - file-descriptor-tables-and-redirection

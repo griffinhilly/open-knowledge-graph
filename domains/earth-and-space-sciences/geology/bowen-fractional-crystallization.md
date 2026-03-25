@@ -9,7 +9,7 @@ prerequisites:
 - id: mineral-properties-and-identification
   type: hard
 builds-toward:
-- magma-composition-viscosity
+- magma-composition-viscosity-rheology
 tags:
 - crystallization
 - Bowen

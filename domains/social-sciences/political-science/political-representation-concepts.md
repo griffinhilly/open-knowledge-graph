@@ -4,11 +4,11 @@ title: 'Political Representation: Concepts and Models'
 domain: social-sciences
 course: political-science
 prerequisites:
-- id: democracy-fundamentals
+- id: democracy-types-and-theory
   type: hard
 builds-toward:
-- electoral-systems-and-voting
-- political-parties-partisanship
+- electoral-systems
+- political-parties-and-party-systems
 - citizenship-political-participation
 tags:
 - representation

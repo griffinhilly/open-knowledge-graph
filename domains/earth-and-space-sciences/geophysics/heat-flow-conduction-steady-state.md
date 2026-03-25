@@ -15,7 +15,7 @@ tags:
 - geothermics
 - heat-flow
 - conduction
-stage: expert
+stage: advanced
 status: validated
 ---
 

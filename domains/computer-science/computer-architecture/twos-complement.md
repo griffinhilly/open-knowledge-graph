@@ -11,7 +11,7 @@ prerequisites:
 - id: adding-integers
   type: soft
 builds-toward:
-- adder-circuits
+- binary-adders
 - arithmetic-logic-unit
 - floating-point-representation
 tags:

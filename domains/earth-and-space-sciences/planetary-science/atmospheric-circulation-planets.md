@@ -16,7 +16,7 @@ tags:
 - circulation
 - winds
 - rotation
-stage: expert
+stage: advanced
 status: validated
 ---
 

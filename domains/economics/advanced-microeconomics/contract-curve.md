@@ -4,9 +4,9 @@ title: The Contract Curve
 domain: economics
 course: advanced-microeconomics
 prerequisites:
-- id: edgeworth-box
+- id: edgeworth-box-exchange
   type: hard
-- id: pareto-efficiency-microeconomics
+- id: pareto-efficiency-and-optimality
   type: hard
 tags:
 - general-equilibrium

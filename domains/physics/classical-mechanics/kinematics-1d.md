@@ -16,7 +16,7 @@ prerequisites:
   type: soft
 - id: functions-domain-codomain-range
   type: soft
-- id: derivatives
+- id: power-rule
   type: soft
 builds-toward:
 - kinematic-equations

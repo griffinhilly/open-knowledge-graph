@@ -8,8 +8,8 @@ prerequisites:
   type: hard
 builds-toward:
 - social-contract-theory
-- state-concept-and-sovereignty
-- authoritarian-governance
+- state-and-sovereignty
+- authoritarianism-and-autocracy
 tags:
 - legitimacy
 - authority

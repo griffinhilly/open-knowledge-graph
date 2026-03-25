@@ -18,7 +18,7 @@ tags:
 - sulfate
 - forcing
 - masking
-stage: expert
+stage: advanced
 status: validated
 ---
 

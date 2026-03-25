@@ -15,7 +15,7 @@ tags:
 - gravity
 - isostasy
 - crustal-structure
-stage: expert
+stage: advanced
 status: validated
 ---
 

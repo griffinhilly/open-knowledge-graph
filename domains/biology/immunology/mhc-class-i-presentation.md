@@ -6,7 +6,7 @@ course: immunology
 prerequisites:
 - id: major-histocompatibility-complex
   type: hard
-- id: antigen-processing-pathways
+- id: antigen-presentation-mechanisms
   type: hard
 builds-toward:
 - cd8-cytotoxic-t-cells

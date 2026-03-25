@@ -21,7 +21,7 @@ tags:
 - policy-evaluation
 - parallel-trends
 - natural-experiments
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

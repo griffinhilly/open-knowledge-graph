@@ -6,8 +6,6 @@ course: artificial-intelligence
 prerequisites:
 - id: linear-regression-ml
   type: hard
-- id: calculus-derivatives-intro
-  type: hard
 - id: vectors-in-rn
   type: soft
 - id: matrices-intro

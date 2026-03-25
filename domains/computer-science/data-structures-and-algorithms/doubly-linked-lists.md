@@ -4,7 +4,7 @@ title: Doubly Linked Lists
 domain: computer-science
 course: data-structures-and-algorithms
 prerequisites:
-- id: singly-linked-lists
+- id: linked-lists
   type: hard
 builds-toward:
 - deques-double-ended-queues

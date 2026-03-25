@@ -4,7 +4,7 @@ title: Procedure Inlining Optimization
 domain: computer-science
 course: compilers
 prerequisites:
-- id: global-optimization-techniques
+- id: code-optimization
   type: hard
 - id: control-flow-graphs
   type: hard

@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: ocean-sediment-proxies
   type: hard
-- id: coral-paleoclimate-records
+- id: coral-paleoclimatology
   type: soft
 builds-toward:
 - paleoclimate-reconstruction-methods
@@ -19,7 +19,7 @@ tags:
 - sediment-cores
 - reconstruction
 - paleoclimate
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

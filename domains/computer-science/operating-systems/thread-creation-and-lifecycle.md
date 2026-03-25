@@ -7,7 +7,7 @@ prerequisites:
 - id: thread-model-user-vs-kernel
   type: hard
 builds-toward:
-- concurrency-and-race-conditions
+- synchronization-problem
 tags:
 - threading
 - concurrency

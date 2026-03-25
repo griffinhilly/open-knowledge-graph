@@ -4,7 +4,7 @@ title: NP-Completeness and Cook-Levin Theorem
 domain: computer-science
 course: theory-of-computation
 prerequisites:
-- id: nondeterministic-polynomial-time
+- id: complexity-class-np-definition
   type: hard
 tags:
 - np-completeness

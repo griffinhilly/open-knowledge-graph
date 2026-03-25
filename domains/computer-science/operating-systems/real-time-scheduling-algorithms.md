@@ -12,7 +12,7 @@ tags:
 - scheduling
 - real-time
 - deterministic
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

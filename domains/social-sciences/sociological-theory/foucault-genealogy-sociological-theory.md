@@ -15,7 +15,7 @@ tags:
 - method
 - history
 - power
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

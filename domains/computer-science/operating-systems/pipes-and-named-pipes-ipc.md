@@ -4,7 +4,7 @@ title: Pipes and Named Pipes (FIFOs) for IPC
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: inter-process-communication-mechanisms
+- id: inter-process-communication
   type: hard
 - id: file-system-concepts
   type: soft

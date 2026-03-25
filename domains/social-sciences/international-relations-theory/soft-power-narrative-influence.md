@@ -14,7 +14,7 @@ tags:
 - influence
 - narrative
 - legitimacy
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -4,7 +4,7 @@ title: Modes of Speciation
 domain: biology
 course: ecology-and-evolution
 prerequisites:
-- id: reproductive-isolation-types
+- id: reproductive-isolation
   type: hard
 - id: allopatric-speciation
   type: soft

@@ -17,7 +17,7 @@ tags:
 - wind
 - upper-troposphere
 - circulation
-stage: expert
+stage: advanced
 status: validated
 ---
 

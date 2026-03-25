@@ -9,7 +9,7 @@ prerequisites:
 - id: string-basics
   type: hard
 builds-toward:
-- lexical-analyzer-design
+- tokenization-and-lexemes
 tags:
 - lexical-analysis
 - tokenization

@@ -9,8 +9,8 @@ prerequisites:
 - id: weathering-and-erosion
   type: soft
 builds-toward:
-- sedimentary-provenance-source-analysis
-- stratigraphy-law-superposition-correlation
+- sediment-provenance-detrital-minerals
+- stratigraphy
 tags:
 - sedimentary
 - deposition

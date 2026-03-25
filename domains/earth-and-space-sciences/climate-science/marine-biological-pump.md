@@ -17,7 +17,7 @@ tags:
 - carbon
 - productivity
 - sequestration
-stage: expert
+stage: advanced
 status: validated
 ---
 

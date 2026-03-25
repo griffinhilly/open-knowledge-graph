@@ -4,12 +4,12 @@ title: Credit Constraints and Poverty Persistence
 domain: economics
 course: development-economics
 prerequisites:
-- id: poverty-trap-mechanisms
+- id: poverty-traps-and-development-thresholds
   type: hard
 - id: asymmetric-information-markets
   type: soft
 builds-toward:
-- microfinance-credit-access
+- microfinance-and-microcredit
 - agricultural-credit-markets
 tags:
 - credit

@@ -4,9 +4,9 @@ title: Political Revolution and Social Transformation
 domain: social-sciences
 course: political-science
 prerequisites:
-- id: political-ideology-spectrum
+- id: political-ideologies
   type: hard
-- id: political-authority-legitimacy
+- id: authority-and-legitimacy
   type: hard
 tags:
 - revolution

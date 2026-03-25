@@ -12,7 +12,7 @@ tags:
 - neurotransmitters
 - noradrenaline
 - arousal
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

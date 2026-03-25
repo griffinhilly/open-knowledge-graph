@@ -6,7 +6,7 @@ course: distributed-systems
 prerequisites:
 - id: consistency-models
   type: hard
-- id: causal-ordering
+- id: happened-before-relation-causality
   type: hard
 builds-toward:
 - crdts-convergent-replicated-types

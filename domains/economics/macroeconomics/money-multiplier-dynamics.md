@@ -7,7 +7,7 @@ prerequisites:
 - id: monetary-base-and-money-creation
   type: hard
 builds-toward:
-- monetary-policy-implementation-and-tools
+- monetary-policy-tools
 - monetary-policy-transmission
 tags:
 - money-supply

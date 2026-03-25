@@ -4,7 +4,7 @@ title: 'Demand Shocks: Effects on Output and Inflation'
 domain: economics
 course: macroeconomics
 prerequisites:
-- id: okuns-law-unemployment-output-relation
+- id: okuns-law-output-unemployment
   type: hard
 - id: aggregate-demand-expenditure-approach
   type: hard

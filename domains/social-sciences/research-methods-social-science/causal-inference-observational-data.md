@@ -18,15 +18,15 @@ prerequisites:
   type: soft
 builds-toward:
 - instrumental-variables-methods
-- difference-in-differences-estimation
-- regression-discontinuity-causal
+- difference-in-differences
+- regression-discontinuity-sharp-fuzzy
 - propensity-score-methods
 tags:
 - causal-inference
 - potential-outcomes
 - confounding
 - identification
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

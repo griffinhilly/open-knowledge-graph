@@ -14,7 +14,7 @@ tags:
 - equilibrium
 - alignment
 - great-power
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

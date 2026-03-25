@@ -4,7 +4,7 @@ title: Processor Control Unit Design
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: instruction-decoding-logic
+- id: instruction-fetch-decode-execute
   type: hard
 - id: hardwired-microprogrammed-control
   type: soft

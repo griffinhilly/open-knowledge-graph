@@ -7,7 +7,7 @@ prerequisites: []
 builds-toward:
 - regional-economic-restructuring
 - global-production-networks
-- state-sovereignty-territory
+- political-territory-power
 tags:
 - scale
 - methodology

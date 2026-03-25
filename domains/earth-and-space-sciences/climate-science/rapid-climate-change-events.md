@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: paleoclimate-proxies
   type: hard
-- id: ice-core-paleoclimate-records
+- id: ice-core-paleoclimate-analysis
   type: soft
 builds-toward:
   - climate-tipping-points

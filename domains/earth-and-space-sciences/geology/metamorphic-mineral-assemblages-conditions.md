@@ -15,7 +15,7 @@ tags:
 - metamorphic
 - petrology
 - facies
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

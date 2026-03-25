@@ -16,7 +16,7 @@ tags:
 - PJNF
 - join-dependencies
 - lossless-decomposition
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

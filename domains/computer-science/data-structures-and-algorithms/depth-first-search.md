@@ -6,11 +6,9 @@ course: data-structures-and-algorithms
 prerequisites:
 - id: recursion-basics
   type: hard
-- id: graph-representation
+- id: graph-adjacency-list-matrix-representations
   type: hard
 - id: stacks-data-structure
-  type: soft
-- id: graph-theory-intro
   type: soft
 - id: tree-traversals
   type: soft

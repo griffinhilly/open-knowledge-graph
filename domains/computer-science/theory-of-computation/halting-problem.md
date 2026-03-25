@@ -13,7 +13,7 @@ prerequisites:
 - id: church-turing-thesis
   type: soft
 builds-toward:
-- undecidability-reductions
+- undecidable-problems
 - rice-theorem
 - recognizability-vs-decidability
 tags:

@@ -18,7 +18,7 @@ tags:
 - forcing
 - feedback
 - temporary-cooling
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: dining-philosophers-problem
   type: soft
-- id: graph-theory-intro
+- id: graph-adjacency-list-matrix-representations
   type: soft
 builds-toward:
 - deadlock-banker-algorithm

@@ -6,7 +6,7 @@ course: operating-systems
 prerequisites:
 - id: process-concept
   type: hard
-- id: process-states-lifecycle
+- id: process-states-and-transitions
   type: soft
 builds-toward:
 - synchronization-problem

@@ -4,7 +4,7 @@ title: CYK Algorithm and Membership Testing
 domain: computer-science
 course: theory-of-computation
 prerequisites:
-- id: grammar-normal-forms-analysis
+- id: chomsky-normal-form
   type: hard
 - id: dynamic-programming-intro
   type: soft

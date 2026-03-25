@@ -6,7 +6,7 @@ course: human-geography
 prerequisites: []
 builds-toward:
 - landscape-interpretation-reading
-- place-space-social-construction
+- place-and-space-concepts
 tags:
 - theory
 - history

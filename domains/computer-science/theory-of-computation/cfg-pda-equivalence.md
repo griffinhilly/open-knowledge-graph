@@ -4,10 +4,10 @@ title: Equivalence of CFGs and Pushdown Automata
 domain: computer-science
 course: theory-of-computation
 prerequisites:
-- id: pushdown-automata-and-recognition
+- id: pushdown-automata
   type: hard
 builds-toward:
-- normal-forms-for-context-free-grammars
+- chomsky-normal-form
 tags:
 - cfg
 - pda

@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 builds-toward:
 - hypersensitivity-reactions
-- inflammation-innate-response
+- inflammatory-response-cellular
 tags:
 - mast-cells
 - basophils

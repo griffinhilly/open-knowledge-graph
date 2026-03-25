@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - receptors
 - signal-transduction
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

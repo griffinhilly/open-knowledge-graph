@@ -16,7 +16,7 @@ tags:
 - visual
 - multimodal
 - qualitative
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

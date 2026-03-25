@@ -4,7 +4,7 @@ title: Snapshot Isolation and Write Skew Anomalies
 domain: computer-science
 course: databases
 prerequisites:
-- id: multiversion-concurrency-mvcc
+- id: multi-version-concurrency-control
   type: hard
 - id: sql-isolation-levels-anomalies
   type: hard
@@ -14,7 +14,7 @@ tags:
 - anomaly
 - SI
 - phantom
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

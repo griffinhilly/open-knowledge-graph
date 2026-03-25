@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: climate-human-geography
   type: hard
+- id: migration-theory-push-pull
+  type: hard
 builds-toward:
 - climate-adaptation-communities
 tags:

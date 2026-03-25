@@ -9,7 +9,7 @@ prerequisites:
 - id: earthquake-location-and-hypocenter
   type: hard
 builds-toward:
-- moment-magnitude-determination
+- seismic-moment-and-magnitude
 tags:
 - seismic
 - networks

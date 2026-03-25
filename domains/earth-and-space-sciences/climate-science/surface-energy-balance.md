@@ -18,7 +18,7 @@ tags:
 - energy-balance
 - radiative-budget
 - land-surface
-stage: expert
+stage: advanced
 status: validated
 ---
 

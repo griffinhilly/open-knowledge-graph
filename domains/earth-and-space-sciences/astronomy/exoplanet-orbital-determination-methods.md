@@ -4,9 +4,9 @@ title: Exoplanet Detection and Orbital Parameters
 domain: earth-and-space-sciences
 course: astronomy
 prerequisites:
-- id: kepler-laws-orbital-motion-derivation
+- id: kepler-laws-planetary-orbits
   type: hard
-- id: stellar-parallax-distance-measurement
+- id: stellar-parallax-and-distance
   type: soft
 builds-toward:
 - planetary-mass-determination-techniques

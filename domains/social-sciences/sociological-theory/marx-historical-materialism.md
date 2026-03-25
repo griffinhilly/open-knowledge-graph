@@ -9,15 +9,15 @@ prerequisites:
 - id: power-and-authority
   type: soft
 builds-toward:
-- marxist-alienation
+- alienation-capitalist-society
 - conflict-theory-sociology
-- wallerstein-world-systems
+- world-systems-theory
 tags:
 - classical-theory
 - marx
 - materialism
 - historical
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

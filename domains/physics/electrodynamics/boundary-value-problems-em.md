@@ -6,9 +6,9 @@ course: electrodynamics
 prerequisites:
 - id: method-of-images
   type: soft
-- id: differential-equations
+- id: differential-equations-intro
   type: hard
-- id: multivariable-calculus
+- id: partial-derivatives
   type: hard
 builds-toward:
 - cavity-resonators

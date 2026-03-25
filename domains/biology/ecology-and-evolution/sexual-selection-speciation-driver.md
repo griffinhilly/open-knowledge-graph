@@ -6,7 +6,7 @@ course: ecology-and-evolution
 prerequisites:
 - id: natural-selection
   type: hard
-- id: reproductive-isolation-types
+- id: reproductive-isolation
   type: hard
 - id: speciation
   type: soft

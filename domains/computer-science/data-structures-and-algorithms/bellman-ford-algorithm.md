@@ -4,13 +4,11 @@ title: Bellman-Ford Algorithm
 domain: computer-science
 course: data-structures-and-algorithms
 prerequisites:
-- id: graph-representation
+- id: graph-adjacency-list-matrix-representations
   type: hard
 - id: dijkstras-algorithm
-  type: soft
+  type: hard
 - id: breadth-first-search
-  type: soft
-- id: graph-theory-intro
   type: soft
 tags:
 - shortest-path

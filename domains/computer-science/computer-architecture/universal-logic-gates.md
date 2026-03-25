@@ -7,8 +7,8 @@ prerequisites:
 - id: boolean-algebra-and-laws
   type: hard
 builds-toward:
-- decoders-multiplexers
-- sr-flip-flop-design
+- multiplexers-and-demultiplexers
+- flip-flops-and-latches
 tags:
 - gates
 - universal

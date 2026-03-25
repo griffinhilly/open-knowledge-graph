@@ -4,10 +4,8 @@ title: Reduction Techniques for Proving Undecidability
 domain: computer-science
 course: theory-of-computation
 prerequisites:
-- id: undecidability-reductions
+- id: undecidable-problems
   type: hard
-- id: undecidable-language-examples
-  type: soft
 builds-toward:
 - post-correspondence-problem
 tags:

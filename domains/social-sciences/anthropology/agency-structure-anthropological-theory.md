@@ -9,7 +9,6 @@ prerequisites:
 - id: anthropology-overview
   type: soft
 builds-toward:
-- agency-structure-duality
 - social-structure-and-agency
 tags:
 - theory

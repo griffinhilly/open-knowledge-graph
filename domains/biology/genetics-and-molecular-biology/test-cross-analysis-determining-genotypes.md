@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: monohybrid-inheritance-and-segregation
   type: hard
-- id: dihybrid-inheritance-and-independent-assortment
+- id: dihybrid-crosses
   type: soft
 builds-toward:
 - genetic-recombination-and-linkage-mapping

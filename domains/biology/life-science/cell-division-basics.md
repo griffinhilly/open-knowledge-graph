@@ -18,7 +18,7 @@ tags:
 - cell-division
 - growth
 - reproduction
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 # Cell Division Basics

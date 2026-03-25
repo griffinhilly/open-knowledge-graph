@@ -4,9 +4,9 @@ title: Signal Handling and Delivery
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: process-concept-in-os
+- id: process-concept
   type: hard
-- id: interrupt-exception-handling
+- id: interrupts-and-dma
   type: soft
 tags:
 - signals

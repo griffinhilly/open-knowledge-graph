@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - earthquakes-and-seismology
-- fault-mechanics-rupture-propagation
+- fault-mechanics-rupture
 - seismic-waves-p-s-surface
 tags:
 - earthquakes

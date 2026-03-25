@@ -6,7 +6,7 @@ course: astronomy
 prerequisites:
 - id: inverse-square-law-stellar-radiation
   type: soft
-- id: stellar-spectra-and-classification-scheme
+- id: stellar-spectral-classification
   type: hard
 builds-toward:
 - core-hydrogen-burning-main-sequence

@@ -22,7 +22,7 @@ tags:
 - triple-alpha
 - carbon
 - nuclear
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

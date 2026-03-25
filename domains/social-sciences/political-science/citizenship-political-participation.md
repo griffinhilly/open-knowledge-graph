@@ -4,7 +4,7 @@ title: Citizenship and Political Participation
 domain: social-sciences
 course: political-science
 prerequisites:
-- id: democracy-fundamentals
+- id: democracy-types-and-theory
   type: hard
 tags:
 - citizenship

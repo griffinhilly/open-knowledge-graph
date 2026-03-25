@@ -16,7 +16,7 @@ tags:
 - temperature-reconstruction
 - paleoceanography
 - stable-isotopes
-stage: expert
+stage: advanced
 status: validated
 ---
 

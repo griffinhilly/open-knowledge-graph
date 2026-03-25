@@ -4,7 +4,7 @@ title: Variants of Turing Machines and Equivalence
 domain: computer-science
 course: theory-of-computation
 prerequisites:
-- id: turing-machine-model
+- id: turing-machines
   type: hard
 builds-toward:
 - universal-turing-machine

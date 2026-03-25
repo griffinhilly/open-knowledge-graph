@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - regime-change-and-democratization
-- constitutional-interpretation-power
+- constitutional-government-systems
 tags:
 - constitutional-amendment
 - constitution

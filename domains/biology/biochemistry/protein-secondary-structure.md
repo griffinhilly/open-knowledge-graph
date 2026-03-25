@@ -17,7 +17,7 @@ tags:
 - beta sheet
 - hydrogen bonding
 - Ramachandran plot
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

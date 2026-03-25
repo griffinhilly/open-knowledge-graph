@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - ekman-boundary-layer-transport
-- geostrophic-current-balance
+- geostrophic-balance-ocean
 - subtropical-ocean-gyres-formation
 tags:
 - coriolis

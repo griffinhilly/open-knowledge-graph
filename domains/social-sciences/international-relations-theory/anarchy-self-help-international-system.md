@@ -15,7 +15,7 @@ tags:
 - realism
 - foundations
 - anarchy
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

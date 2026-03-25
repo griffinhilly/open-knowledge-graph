@@ -15,7 +15,7 @@ tags:
 - tectonics
 - dynamics
 - seismicity
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -4,7 +4,7 @@ title: The WKB Approximation
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: differential-equations
+- id: differential-equations-intro
   type: hard
 - id: commutation-relations
   type: soft
@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - wkb
 - semiclassical
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # The WKB Approximation

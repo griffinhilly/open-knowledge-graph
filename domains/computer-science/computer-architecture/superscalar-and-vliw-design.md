@@ -4,7 +4,7 @@ title: Superscalar and VLIW Processors
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: instruction-pipeline-organization
+- id: pipelining-fundamentals
   type: hard
 builds-toward:
 - out-of-order-execution-design
@@ -14,7 +14,7 @@ tags:
 - vliw
 - parallelism
 - performance
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

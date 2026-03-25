@@ -16,7 +16,7 @@ tags:
 - liberal-peace
 - institutions
 - constraints
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

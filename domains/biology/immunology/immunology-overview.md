@@ -3,7 +3,9 @@ id: immunology-overview
 title: Foundations of Immunology
 domain: biology
 course: immunology
-prerequisites: []
+prerequisites:
+- id: inflammation-and-wound-healing
+  type: soft
 builds-toward:
 - innate-immunity-overview
 - adaptive-immunity-overview
@@ -11,7 +13,7 @@ tags:
 - intro
 - survey
 - immune-system
-stage: expert
+stage: advanced
 status: validated
 ---
 

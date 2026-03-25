@@ -12,7 +12,7 @@ tags:
 - RNA-polymerase
 - transcription
 - catalysis
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

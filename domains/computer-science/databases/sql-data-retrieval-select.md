@@ -6,12 +6,12 @@ course: databases
 prerequisites:
 - id: relational-data-model
   type: hard
-- id: relational-algebra-fundamentals
+- id: relational-algebra
   type: soft
 builds-toward:
 - sql-filtering-conditions
 - sql-sorting-limiting-results
-- sql-inner-join-combining-tables
+- sql-joins
 tags:
 - SQL
 - SELECT

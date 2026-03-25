@@ -7,8 +7,8 @@ prerequisites:
 - id: authority-and-legitimacy
   type: soft
 builds-toward:
-- democratic-governance-principles
-- constitutional-interpretation-power
+- democracy-types-and-theory
+- constitutional-government-systems
 - state-recognition-legitimacy-international-society
 tags:
 - legitimacy

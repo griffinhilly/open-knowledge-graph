@@ -6,6 +6,8 @@ course: geology
 prerequisites:
 - id: seismic-waves
   type: hard
+- id: earths-layers
+  type: soft
 tags:
 - crust
 - mantle

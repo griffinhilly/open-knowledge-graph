@@ -4,7 +4,7 @@ title: Directional and Stabilizing Selection
 domain: biology
 course: evolutionary-biology
 prerequisites:
-- id: selection-coefficients
+- id: selection-coefficient
   type: hard
 builds-toward:
 - sexual-selection

@@ -4,7 +4,7 @@ title: Quorum-Based Replication
 domain: computer-science
 course: distributed-systems
 prerequisites:
-- id: primary-backup-replication
+- id: replication-strategies-analysis
   type: soft
 - id: state-machine-replication
   type: soft

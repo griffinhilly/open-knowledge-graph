@@ -4,7 +4,7 @@ title: Critical Point and Supercritical Fluids
 domain: physics
 course: thermodynamics
 prerequisites:
-- id: clausius-clapeyron-phase-boundary
+- id: clausius-clapeyron-equation
   type: hard
 - id: phase-diagrams
   type: soft

@@ -4,7 +4,7 @@ title: Migration, Remittances, and Development
 domain: economics
 course: development-economics
 prerequisites:
-- id: demographic-transition
+- id: demographic-transition-model
   type: hard
 - id: labor-market-signaling
   type: soft

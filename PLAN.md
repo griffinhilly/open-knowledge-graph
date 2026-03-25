@@ -2,20 +2,24 @@
 
 ## Current State
 
-Phase 8.5 (K-12 STEM Expansion) COMPLETE. Phase 9 (Learning Platform) IN PROGRESS — 9A and 9B done, 9C next.
+Phase 8.5 COMPLETE. Phase 9 IN PROGRESS (9A+9B done, 9C next). Domain map v2 DONE. Data quality pass DONE (6 domains).
 
-**Last session (Mar 23, 2026):** Promoted all 11,508 draft topics to validated. CS programming-fundamentals deduped (116 → 50 topics, 66 merged). K-12 cross-domain prereq audit: 43 dangling refs fixed, 8 stage violations softened. All visualizations regenerated (13,925 topics). Quiz data regenerated.
+**Last session (Mar 25, 2026):** Domain map v2 + data quality cleanup. Rewrote `visualize_domain_map.py` (boxed labels, tier layout, branch X, connectivity sizing). Registered 34 missing courses across 15 domains. Ran 6-domain audit+fix swarms: 447 topics deduped, 586 restaged, 85 broken refs fixed, 5 prerequisite cycles resolved. All 19 domain maps now portrait orientation. 13,429 topics (was 13,925). Radial integration plan written.
 
 **Known issues:**
-- Quiz not tested on GitHub Pages (local file:// only)
-- cook-levin-theorem.md has malformed builds-toward field (pre-existing)
-- thermodynamics-engineering course not listed in engineering _domain.yml (pre-existing)
+- ~~Quiz + domain map NOT in CI workflow~~ — FIXED (Mar 25): Added domain maps, assessment, and quiz generation to `deploy-pages.yml`
+- CS has 99 dangling cross-domain prereq refs (pointing to math/logic topics by wrong ID)
+- `visualize_domain_map.py` uses regex YAML parsing (fragile, should use PyYAML)
+- Semantic zoom not implemented (single zoom level with text toggle)
+- Dedup agents may have introduced subtle reference issues — run `validate.py` next session
+- Leaf-topic pattern: many topics (40%+ in some domains) have zero successors, creating shallow chains
 
 **Next steps:**
-1. Push + deploy to GitHub Pages
-2. Test quiz end-to-end on GitHub Pages
-3. Phase 9C: Deep Dive assessment + Results screen redesign
-4. Phase 9D: Landing page redesign + polish
+1. ~~**Fix CI workflow**~~: DONE (Mar 25) — quiz, assessment, and domain map generation added to `deploy-pages.yml`
+3. **Radial graph integration**: Plan written in `tools/radial-branch-alignment.md`. Use domain map positions as base radial positioning. Auto-detect branch flip from cross-domain edge lengths.
+4. **Leaf-topic connector swarm**: Find topics with 0 successors, propose missing edges by keyword overlap
+5. **Replace regex YAML with PyYAML** in domain map script
+6. Phase 9C: Deep Dive assessment + Results screen redesign
 
 ## Phase 1: Foundation — DONE
 - [x] Schema design (meta/schema.md)
@@ -195,7 +199,7 @@ Expanding non-math domains from ~20 topics/course toward ~35-40 topics/course.
 - [ ] Add assessment generation to GitHub Actions workflow
 - [ ] Write announcement post
 
-## Phase 8.5: K-12 STEM Expansion — IN PROGRESS (Mar 22, 2026)
+## Phase 8.5: K-12 STEM Expansion — DONE (Mar 22, 2026)
 Add introductory courses (pre-formal through abstract-reasoning) to 7 STEM domains that currently have no content below formal-systems. ~500 new topics across ~16 new courses.
 
 ### Session 1: Physics + Chemistry — DONE (Mar 22, 2026)
@@ -218,7 +222,7 @@ Add introductory courses (pre-formal through abstract-reasoning) to 7 STEM domai
 - [x] Patterns & Logic (25 topics, concrete-operations)
 - [x] Reasoning & Proof (25 topics, abstract-reasoning)
 
-**Total: 473 new topics across 14 new courses, 7 domains. 13,991 topics total.**
+**Total: 473 new topics across 14 new courses, 7 domains. 13,991 topics at completion (later reduced to 13,925 by CS dedup).**
 
 ### Post-expansion
 - [x] Cross-domain prerequisite audit (43 dangling refs fixed, 8 stage violations softened)

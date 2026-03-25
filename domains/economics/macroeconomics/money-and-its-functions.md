@@ -18,7 +18,7 @@ tags:
 - store-of-value
 - unit-of-account
 - commodity-money
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - population-genetics
 - allele-frequency
 - evolution
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

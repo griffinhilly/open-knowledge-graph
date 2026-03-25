@@ -17,7 +17,7 @@ tags:
 - innate
 - inflammation
 - cellular-recruitment
-stage: expert
+stage: advanced
 status: validated
 ---
 

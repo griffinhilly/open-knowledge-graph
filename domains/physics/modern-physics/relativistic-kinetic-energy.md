@@ -6,7 +6,7 @@ course: modern-physics
 prerequisites:
 - id: relativistic-momentum-definition
   type: hard
-- id: energy-conservation
+- id: conservation-of-energy
   type: hard
 builds-toward:
 - mass-energy-equivalence

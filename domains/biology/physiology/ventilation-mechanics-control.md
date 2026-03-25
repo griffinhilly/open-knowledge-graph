@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 builds-toward:
 - respiratory-control-mechanisms
-- alveolar-gas-exchange-diffusion
+- gas-exchange-and-diffusion
 - oxygen-transport-hemoglobin-dynamics
 tags:
 - ventilation

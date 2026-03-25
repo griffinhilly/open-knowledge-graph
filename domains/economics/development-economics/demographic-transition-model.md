@@ -11,7 +11,7 @@ tags:
 - fertility
 - mortality
 - population
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -4,7 +4,7 @@ title: How Metamorphic Rocks Form
 domain: earth-and-space-sciences
 course: earth-science
 prerequisites:
-- id: the-rock-cycle
+- id: rock-cycle
   type: hard
 - id: types-of-rocks
   type: hard

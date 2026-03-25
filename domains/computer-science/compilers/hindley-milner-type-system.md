@@ -9,7 +9,7 @@ prerequisites:
 - id: lambda-calculus-foundations
   type: hard
 builds-toward:
-- polymorphism-parametric
+- polymorphism-and-type-variables
 tags:
 - type-inference
 - polymorphism

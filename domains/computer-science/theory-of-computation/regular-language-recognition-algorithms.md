@@ -9,7 +9,7 @@ prerequisites:
 - id: nondeterministic-finite-automata
   type: soft
 builds-toward:
-- dfa-state-minimization
+- dfa-properties-and-minimization
 tags:
 - dfa
 - simulation

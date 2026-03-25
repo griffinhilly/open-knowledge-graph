@@ -6,7 +6,7 @@ course: electrodynamics
 prerequisites:
 - id: maxwells-equations-differential-form
   type: hard
-- id: differential-equations
+- id: differential-equations-intro
   type: hard
 - id: wave-equation-one-dimensional
   type: hard

@@ -4,7 +4,7 @@ title: Optical Path Length and Its Role in Interference
 domain: physics
 course: waves-and-optics
 prerequisites:
-- id: optical-path-and-phase
+- id: phase-of-oscillation-initial
   type: soft
 - id: refractive-index-material-wavelength
   type: hard

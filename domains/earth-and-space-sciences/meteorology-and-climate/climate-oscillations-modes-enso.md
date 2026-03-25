@@ -16,7 +16,7 @@ tags:
 - enso
 - variability
 - teleconnection
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

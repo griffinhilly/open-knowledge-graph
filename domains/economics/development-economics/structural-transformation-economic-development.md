@@ -9,7 +9,7 @@ prerequisites:
 - id: production-function-microeconomics
   type: soft
 builds-toward:
-- lewis-model-dual-economy
+- lewis-model-structural-transformation
 - agricultural-development-and-modernization
 - technology-adoption-developing-countries
 tags:

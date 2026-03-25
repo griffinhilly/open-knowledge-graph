@@ -16,7 +16,7 @@ tags:
 - great-power
 - hegemony
 - conflict
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

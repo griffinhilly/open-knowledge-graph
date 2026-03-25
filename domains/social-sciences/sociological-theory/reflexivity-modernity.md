@@ -4,7 +4,7 @@ title: Reflexivity and Late Modernity
 domain: social-sciences
 course: sociological-theory
 prerequisites:
-- id: agency-structure-duality
+- id: social-structure-and-agency
   type: hard
 tags:
 - giddens

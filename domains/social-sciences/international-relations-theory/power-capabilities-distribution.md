@@ -13,7 +13,7 @@ tags:
 - measurement
 - capabilities
 - polarity
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 # Power and Capabilities Distribution

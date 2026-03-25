@@ -9,7 +9,7 @@ prerequisites:
 - id: digestive-system-overview
   type: soft
 builds-toward:
-- immune-memory-and-secondary-immune-response
+- immunological-memory-secondary-response
 tags:
 - mucosal-immunity
 - iga

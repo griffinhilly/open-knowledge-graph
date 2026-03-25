@@ -6,10 +6,10 @@ course: human-geography
 prerequisites:
 - id: landscape-interpretation-reading
   type: hard
-- id: place-space-social-construction
+- id: place-and-space-concepts
   type: hard
 builds-toward:
-- colonialism-geographic-patterns
+- colonialism-geographic-legacy
 tags:
 - culture
 - regions

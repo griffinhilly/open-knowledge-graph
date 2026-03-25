@@ -4,7 +4,7 @@ title: CPU Scheduling Fundamentals
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: process-states-lifecycle
+- id: process-states-and-transitions
   type: hard
 builds-toward:
 - scheduling-algorithms

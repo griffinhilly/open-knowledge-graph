@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 - id: loop-control-statements
   type: soft
-- id: big-o-notation
+- id: big-o-complexity-analysis
   type: soft
 - id: debugging-basics
   type: soft

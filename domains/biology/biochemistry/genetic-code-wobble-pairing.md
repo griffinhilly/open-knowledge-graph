@@ -10,7 +10,7 @@ tags:
 - genetic-code
 - wobble
 - codon-recognition
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

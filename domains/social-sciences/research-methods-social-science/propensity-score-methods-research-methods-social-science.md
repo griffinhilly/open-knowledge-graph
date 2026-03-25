@@ -18,8 +18,6 @@ prerequisites:
   type: soft
 - id: probability-axioms
   type: soft
-- id: logistic-regression-binary-categorical
-  type: soft
 - id: probability-density-functions
   type: hard
 tags:
@@ -27,7 +25,7 @@ tags:
 - matching
 - stratification
 - weighting
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

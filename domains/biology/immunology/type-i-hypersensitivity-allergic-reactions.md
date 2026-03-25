@@ -6,7 +6,7 @@ course: immunology
 prerequisites:
 - id: antibody-isotypes-and-effector-functions
   type: hard
-- id: inflammation-innate-response
+- id: inflammatory-response-cellular
   type: soft
 tags:
 - hypersensitivity

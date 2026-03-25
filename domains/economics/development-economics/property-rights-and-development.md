@@ -4,7 +4,7 @@ title: Property Rights and Economic Development
 domain: economics
 course: development-economics
 prerequisites:
-- id: institutions-and-development
+- id: institutions-economic-development
   type: hard
 - id: profit-maximization-microeconomics
   type: soft

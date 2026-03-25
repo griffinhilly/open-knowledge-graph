@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: trigonometric-ratios-review
   type: soft
-- id: trigonometric-functions
+- id: graphing-sine-and-cosine
   type: soft
 - id: boundary-value-problem-types
   type: soft

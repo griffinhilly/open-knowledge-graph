@@ -6,7 +6,7 @@ course: theory-of-computation
 prerequisites:
 - id: context-free-grammars
   type: hard
-- id: parse-trees-derivations
+- id: parse-trees-ambiguity-and-derivation
   type: soft
 builds-toward:
 - cfg-pda-equivalence

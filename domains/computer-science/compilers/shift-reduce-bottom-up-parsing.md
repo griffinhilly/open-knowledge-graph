@@ -6,7 +6,7 @@ course: compilers
 prerequisites:
 - id: grammar-design-for-compilation
   type: hard
-- id: parse-trees-derivations
+- id: parse-trees-ambiguity-and-derivation
   type: soft
 builds-toward:
 - lalr-grammar-construction

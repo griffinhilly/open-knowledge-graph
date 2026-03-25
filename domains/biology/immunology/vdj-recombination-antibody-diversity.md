@@ -9,7 +9,7 @@ prerequisites:
 - id: dna-recombination
   type: hard
 builds-toward:
-- somatic-hypermutation-and-affinity-maturation
+- affinity-maturation-somatic-hypermutation
 tags:
 - vdj-recombination
 - antibody-diversity

@@ -15,7 +15,7 @@ tags:
 - conflict
 - history
 - revolution
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

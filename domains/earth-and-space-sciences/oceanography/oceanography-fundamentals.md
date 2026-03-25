@@ -7,14 +7,14 @@ prerequisites:
 - id: ocean-circulation-and-climate
   type: soft
 builds-toward:
-- ocean-basin-global-structure
+- ocean-basin-structure
 - water-mass-formation-types
-- surface-wind-driven-circulation
+- wind-driven-ocean-circulation
 tags:
 - oceanography
 - introduction
 - disciplines
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

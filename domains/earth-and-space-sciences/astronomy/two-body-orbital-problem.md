@@ -21,7 +21,7 @@ tags:
 - orbital-mechanics
 - gravitation
 - conic-sections
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

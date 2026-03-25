@@ -14,7 +14,7 @@ tags:
 - comparative
 - bounded-system
 - within-case-analysis
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

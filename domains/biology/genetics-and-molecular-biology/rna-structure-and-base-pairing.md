@@ -7,7 +7,7 @@ prerequisites:
 - id: rna-types-and-structure
   type: hard
 builds-toward:
-- rna-processing-5-cap-3-poly-a
+- rna-processing
 - intron-removal-and-splicing
 - ribosomal-rna-and-ribosome-assembly
 - small-rnas-mirna-and-rnai

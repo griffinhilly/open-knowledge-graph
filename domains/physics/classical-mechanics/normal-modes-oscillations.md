@@ -16,7 +16,7 @@ tags:
 - oscillations
 - modes
 - symmetry
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

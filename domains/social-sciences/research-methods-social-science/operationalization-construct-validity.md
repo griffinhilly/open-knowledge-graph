@@ -9,13 +9,13 @@ prerequisites:
 - id: measurement-validity-social-science
   type: soft
 builds-toward:
-- validity-construct-internal-external
+- measurement-validity-social-science
 tags:
 - measurement
 - operationalization
 - validity
 - indicators
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

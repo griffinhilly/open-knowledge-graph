@@ -4,7 +4,7 @@ title: Development Policy Evaluation and Impact Assessment
 domain: economics
 course: development-economics
 prerequisites:
-- id: randomized-experiments-development-economics
+- id: randomized-experiments-development
   type: hard
 - id: causal-inference-econometrics
   type: soft

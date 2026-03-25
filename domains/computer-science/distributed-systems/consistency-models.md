@@ -4,14 +4,14 @@ title: Consistency Models in Distributed Systems
 domain: computer-science
 course: distributed-systems
 prerequisites:
-- id: causal-ordering
+- id: happened-before-relation-causality
   type: soft
-- id: distributed-systems-overview
+- id: distributed-systems-introduction
   type: hard
 builds-toward:
 - eventual-consistency
 - causal-consistency
-- strong-consistency-models
+- linearizability
 tags:
 - consistency
 - correctness

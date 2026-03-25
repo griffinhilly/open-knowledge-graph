@@ -13,7 +13,7 @@ tags:
 - power
 - domination
 - legitimacy
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

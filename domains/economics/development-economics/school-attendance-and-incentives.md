@@ -4,7 +4,7 @@ title: School Attendance, Incentives, and Learning
 domain: economics
 course: development-economics
 prerequisites:
-- id: human-capital-education-development
+- id: human-capital-accumulation-development
   type: hard
 - id: cash-transfers-and-incentives
   type: soft

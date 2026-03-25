@@ -4,11 +4,11 @@ title: 'Window Functions: Analytical Queries'
 domain: computer-science
 course: databases
 prerequisites:
-- id: sql-group-aggregate-functions
+- id: sql-aggregation
   type: hard
 builds-toward:
 - sql-ranking-functions-row-number
-- sql-aggregate-window-functions
+- sql-window-functions-introduction
 - sql-lag-lead-offset-functions
 tags:
 - sql

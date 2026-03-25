@@ -4,7 +4,7 @@ title: Counting Semaphores and Resource Pools
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: binary-semaphores-mutexes
+- id: semaphores
   type: hard
 builds-toward:
 - producer-consumer-classic-sync

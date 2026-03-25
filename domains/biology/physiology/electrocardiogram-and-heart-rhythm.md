@@ -6,7 +6,7 @@ course: physiology
 prerequisites:
 - id: cardiac-electrophysiology-action-potentials
   type: hard
-- id: pacemaker-automaticity-sinoatrial-node
+- id: cardiac-pacemaker-activity-sinoatrial-node
   type: soft
 tags:
 - ecg

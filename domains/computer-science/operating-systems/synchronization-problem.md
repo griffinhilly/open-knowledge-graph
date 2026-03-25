@@ -9,7 +9,7 @@ prerequisites:
 - id: inter-process-communication
   type: soft
 builds-toward:
-- mutex-and-locks
+- mutual-exclusion-and-locks
 - semaphores
 tags:
 - race-condition

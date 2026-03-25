@@ -13,7 +13,7 @@ tags:
 - speciation
 - geographic-isolation
 - macroevolution
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

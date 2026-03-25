@@ -13,7 +13,7 @@ prerequisites:
 - id: nucleophilic-acyl-substitution
   type: soft
 builds-toward:
-- antibody-class-switching
+- class-switch-recombination-isotype-switching
 - affinity-maturation-somatic-hypermutation
 tags:
 - adaptive

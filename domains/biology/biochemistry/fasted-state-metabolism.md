@@ -10,7 +10,7 @@ tags:
 - fasted-state
 - glucagon
 - catabolism
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

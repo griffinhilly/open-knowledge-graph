@@ -24,7 +24,7 @@ tags:
 - balance
 - temperature
 - feedback
-stage: expert
+stage: advanced
 status: validated
 ---
 

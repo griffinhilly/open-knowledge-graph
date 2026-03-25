@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: fixpoint-computation
   type: hard
-- id: graph-theory-fundamentals
-  type: soft
-- id: graph-theory-intro
+- id: graph-adjacency-list-matrix-representations
   type: soft
 builds-toward:
 - reaching-definitions-analysis

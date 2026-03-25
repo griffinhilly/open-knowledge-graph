@@ -4,7 +4,7 @@ title: Constitutional Government and Limited Authority
 domain: social-sciences
 course: political-science
 prerequisites:
-- id: separation-of-powers-branches
+- id: separation-of-powers
   type: hard
 builds-toward:
 - rule-of-law-and-justice

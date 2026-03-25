@@ -9,7 +9,7 @@ prerequisites:
 - id: logic-gates-fundamentals
   type: hard
 builds-toward:
-- full-adder-circuit-design
+- full-adder-and-carry-logic
 tags:
 - adder
 - arithmetic-circuits

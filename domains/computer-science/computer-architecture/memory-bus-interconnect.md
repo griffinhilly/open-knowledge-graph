@@ -9,8 +9,8 @@ prerequisites:
 - id: memory-address-decoding
   type: soft
 builds-toward:
-- io-architecture-system-integration
-- cache-design-principles
+- io-systems-overview
+- cache-memory-design
 tags:
 - bus
 - memory

@@ -9,7 +9,7 @@ prerequisites:
 - id: zooplankton-food-web-structure
   type: hard
 builds-toward:
-- coral-reef-ecosystem-structure
+- coral-reef-ecosystems
 - deep-sea-ecosystems
 tags:
 - food-web

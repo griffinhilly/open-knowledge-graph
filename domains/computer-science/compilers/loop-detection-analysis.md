@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - array-subscript-optimization
-- global-optimization-techniques
+- code-optimization
 tags:
 - analysis
 - loops

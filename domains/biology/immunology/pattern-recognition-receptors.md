@@ -15,7 +15,7 @@ tags:
 - innate
 - signaling
 - pattern-recognition
-stage: expert
+stage: advanced
 status: validated
 ---
 

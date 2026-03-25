@@ -6,7 +6,7 @@ course: distributed-systems
 prerequisites:
 - id: consensus-problem
   type: hard
-- id: lamport-timestamps
+- id: logical-clocks
   type: soft
 - id: mathematical-induction-intro
   type: soft

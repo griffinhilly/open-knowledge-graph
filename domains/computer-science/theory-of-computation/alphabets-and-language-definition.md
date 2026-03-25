@@ -13,7 +13,7 @@ tags:
 - formal-languages
 - strings
 - definitions
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

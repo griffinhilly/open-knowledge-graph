@@ -17,7 +17,7 @@ tags:
 - circulation
 - climate
 - meridional
-stage: expert
+stage: advanced
 status: validated
 ---
 

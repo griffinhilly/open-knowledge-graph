@@ -4,10 +4,10 @@ title: Index Design and Selection Strategy
 domain: computer-science
 course: databases
 prerequisites:
-- id: index-structure-performance
+- id: index-types-btree-hash-bitmap
   type: hard
 builds-toward:
-- execution-plan-query-optimization
+- query-optimization
 tags:
 - index selection
 - index design

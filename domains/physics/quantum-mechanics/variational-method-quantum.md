@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - variational-methods
 - approximations
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

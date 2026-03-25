@@ -4,7 +4,7 @@ title: Subtropical and Polar Jet Streams
 domain: earth-and-space-sciences
 course: meteorology-and-climate
 prerequisites:
-- id: thermal-wind-shear-geostrophic
+- id: thermal-wind-balance
   type: hard
 - id: planetary-wind-circulation-cells
   type: soft

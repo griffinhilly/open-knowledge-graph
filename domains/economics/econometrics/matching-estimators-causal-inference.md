@@ -4,7 +4,7 @@ title: 'Matching Estimators: Nearest Neighbor and Kernel Methods'
 domain: economics
 course: econometrics
 prerequisites:
-- id: propensity-score-matching
+- id: propensity-score-methods
   type: hard
 - id: treatment-effect-estimation
   type: hard

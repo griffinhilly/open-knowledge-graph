@@ -21,7 +21,7 @@ tags:
 - amino acid sequence
 - protein sequencing
 - genetic code
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

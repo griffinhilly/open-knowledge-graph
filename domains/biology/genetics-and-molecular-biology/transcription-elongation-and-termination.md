@@ -7,7 +7,7 @@ prerequisites:
 - id: transcription
   type: hard
 builds-toward:
-- rna-processing-5-cap-3-poly-a
+- rna-processing
 - transcription-initiation-eukaryotes
 tags:
 - elongation

@@ -4,7 +4,7 @@ title: Household Optimization and Consumption-Savings Decisions
 domain: economics
 course: advanced-macroeconomics
 prerequisites:
-- id: dynamic-optimization-macroeconomics
+- id: dynamic-optimization-macro
   type: hard
 - id: consumer-theory-utility
   type: hard

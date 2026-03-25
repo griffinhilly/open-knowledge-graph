@@ -13,7 +13,7 @@ tags:
 - reversal
 - chronology
 - stratigraphy
-stage: expert
+stage: advanced
 status: validated
 ---
 

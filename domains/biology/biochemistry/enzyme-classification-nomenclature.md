@@ -16,7 +16,7 @@ tags:
 - EC number
 - catalysis
 - enzyme naming
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

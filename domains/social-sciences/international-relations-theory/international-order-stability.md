@@ -12,7 +12,7 @@ tags:
 - international-order
 - stability
 - system
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

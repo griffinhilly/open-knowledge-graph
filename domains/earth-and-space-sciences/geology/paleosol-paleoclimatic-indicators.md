@@ -13,7 +13,7 @@ tags:
 - paleoclimate
 - weathering
 - soil-horizon
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

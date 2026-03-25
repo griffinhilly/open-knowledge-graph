@@ -10,7 +10,7 @@ tags:
 - paleomagnetism
 - dating
 - stratigraphy
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

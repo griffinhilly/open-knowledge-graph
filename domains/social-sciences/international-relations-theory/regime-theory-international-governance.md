@@ -16,7 +16,7 @@ tags:
 - governance
 - cooperation
 - issue-area
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - positivism
 - interpretivism
 - critical-realism
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

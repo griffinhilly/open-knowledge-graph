@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - tectonic-boundaries
-- plate-boundary-types-kinematics
+- plate-boundary-processes-interactions
 - plate-boundary-processes-interactions
 tags:
 - plate-tectonics

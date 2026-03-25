@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - marine-food-web-energy-transfer
-- marine-biological-pump-mechanisms
+- marine-biological-pump
 tags:
 - phytoplankton
 - primary-production

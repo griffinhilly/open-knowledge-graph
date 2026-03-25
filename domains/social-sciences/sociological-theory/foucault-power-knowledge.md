@@ -15,7 +15,7 @@ tags:
 - knowledge
 - discourse
 - subjectivity
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

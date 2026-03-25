@@ -6,13 +6,13 @@ course: geology
 prerequisites:
 - id: geologic-structures-folds-faults
   type: soft
-- id: ductile-brittle-transition-deformation
+- id: brittle-ductile-transition
   type: soft
 tags:
 - folds
 - structures
 - compression
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

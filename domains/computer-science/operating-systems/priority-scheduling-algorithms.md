@@ -4,7 +4,7 @@ title: Priority Scheduling Algorithms
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: cpu-scheduling-basic-concepts
+- id: cpu-scheduling-basics
   type: hard
 tags:
 - scheduling-algorithms

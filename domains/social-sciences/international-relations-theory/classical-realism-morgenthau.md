@@ -14,7 +14,7 @@ tags:
 - human-nature
 - power
 - morality
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

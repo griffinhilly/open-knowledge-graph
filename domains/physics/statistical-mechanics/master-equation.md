@@ -6,7 +6,7 @@ course: statistical-mechanics
 prerequisites:
 - id: fokker-planck-equation
   type: soft
-- id: probability-and-statistics
+- id: probability-axioms-and-rules
   type: soft
 tags:
 - stochastic

@@ -6,10 +6,10 @@ course: operating-systems
 prerequisites:
 - id: inter-process-communication
   type: hard
-- id: monitor-pattern-definition
+- id: monitors-and-condition-variables
   type: soft
 builds-toward:
-- shared-memory-ipc-mechanisms
+- shared-memory-inter-process-communication
 tags:
 - ipc
 - message-passing

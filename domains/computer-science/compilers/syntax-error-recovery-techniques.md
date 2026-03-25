@@ -9,7 +9,7 @@ prerequisites:
 - id: lalr-grammar-construction
   type: soft
 builds-toward:
-- semantic-error-detection-reporting
+- semantic-analysis
 tags:
 - error-recovery
 - error-handling

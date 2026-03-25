@@ -6,7 +6,7 @@ course: computer-architecture
 prerequisites:
 - id: pipelining-fundamentals
   type: soft
-- id: cache-design-principles
+- id: cache-memory-design
   type: soft
 tags:
 - performance

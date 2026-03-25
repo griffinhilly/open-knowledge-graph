@@ -15,7 +15,7 @@ tags:
 - tropical
 - seasonal
 - circulation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -4,7 +4,7 @@ title: Hazards in Pipelined Processors
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: instruction-pipeline-organization
+- id: pipelining-fundamentals
   type: hard
 - id: pipeline-hazards
   type: soft

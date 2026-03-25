@@ -4,9 +4,9 @@ title: Myhill-Nerode Theorem
 domain: computer-science
 course: theory-of-computation
 prerequisites:
-- id: dfa-state-minimization
+- id: dfa-properties-and-minimization
   type: hard
-- id: regular-language-properties
+- id: regular-languages-fundamentals
   type: hard
 tags:
 - automata

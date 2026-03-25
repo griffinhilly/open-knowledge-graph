@@ -4,12 +4,12 @@ title: Mutual Exclusion and Locks
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: concurrency-and-race-conditions
+- id: synchronization-problem
   type: hard
 builds-toward:
-- binary-semaphores-mutexes
+- semaphores
 - counting-semaphores-resource-pools
-- condition-variables-and-monitors
+- monitors-and-condition-variables
 tags:
 - synchronization
 - locks

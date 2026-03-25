@@ -11,7 +11,7 @@ prerequisites:
 - id: vector-spaces-definition
   type: hard
 builds-toward:
-- expectation-values-quantum
+- expectation-values
 tags:
 - quantum
 - superposition

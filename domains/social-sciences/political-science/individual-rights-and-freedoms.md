@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - liberalism-political-thought
-- democratic-governance-principles
+- democracy-types-and-theory
 tags:
 - rights
 - freedoms

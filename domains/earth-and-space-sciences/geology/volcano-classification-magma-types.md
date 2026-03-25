@@ -9,7 +9,7 @@ prerequisites:
 - id: plate-boundary-processes-interactions
   type: soft
 builds-toward:
-- volcanic-hazards-lahars-ash-flows
+- volcanic-hazards-assessment
 tags:
 - volcanism
 - magma

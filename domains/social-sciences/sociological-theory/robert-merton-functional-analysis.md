@@ -11,7 +11,7 @@ tags:
 - functionalism
 - latent-manifest
 - functions
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

@@ -12,7 +12,7 @@ tags:
 - speciation
 - reproductive-isolation
 - sympatry
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

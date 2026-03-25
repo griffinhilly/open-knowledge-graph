@@ -4,10 +4,10 @@ title: 'SQL: OUTER JOINs (LEFT, RIGHT, FULL)'
 domain: computer-science
 course: databases
 prerequisites:
-- id: sql-inner-join-combining-tables
+- id: sql-joins
   type: hard
 builds-toward:
-- sql-complex-join-types
+- sql-joins
 tags:
 - SQL
 - LEFT JOIN

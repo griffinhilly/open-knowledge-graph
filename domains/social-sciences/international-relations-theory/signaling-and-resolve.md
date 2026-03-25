@@ -9,14 +9,13 @@ prerequisites:
 - id: deterrence-nuclear-strategy
   type: soft
 builds-toward:
-- costly-signals-credibility
 - escalation-dynamics-crises
 tags:
 - crisis
 - signaling
 - credibility
 - game-theory
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

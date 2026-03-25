@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - pyrimidine
 - de-novo-synthesis
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

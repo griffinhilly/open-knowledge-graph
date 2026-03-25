@@ -4,7 +4,7 @@ title: Adverse Selection and Screening Mechanisms
 domain: economics
 course: advanced-microeconomics
 prerequisites:
-- id: bayesian-games-and-incomplete-information
+- id: bayesian-games
   type: hard
 - id: probability-theory
   type: hard

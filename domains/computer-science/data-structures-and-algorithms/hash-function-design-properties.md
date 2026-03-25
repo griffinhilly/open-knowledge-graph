@@ -4,7 +4,7 @@ title: 'Hash Function Design: Properties and Requirements'
 domain: computer-science
 course: data-structures-and-algorithms
 prerequisites:
-- id: hash-function-design-universal
+- id: hash-tables
   type: hard
 builds-toward:
 - hash-table-collision-resolution-chaining

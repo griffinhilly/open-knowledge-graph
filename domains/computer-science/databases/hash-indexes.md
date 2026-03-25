@@ -4,7 +4,7 @@ title: Hash Indexes
 domain: computer-science
 course: databases
 prerequisites:
-- id: indexing-concepts
+- id: index-types-btree-hash-bitmap
   type: hard
 - id: hash-tables
   type: soft

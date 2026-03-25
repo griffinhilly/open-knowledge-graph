@@ -4,7 +4,7 @@ title: Reference Groups and Social Comparison
 domain: social-sciences
 course: sociology
 prerequisites:
-- id: symbolic-interactionism-foundations
+- id: symbolic-interactionism
   type: hard
 - id: self-identity-social-interaction
   type: hard

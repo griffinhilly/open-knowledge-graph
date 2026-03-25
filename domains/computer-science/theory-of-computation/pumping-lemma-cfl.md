@@ -6,7 +6,7 @@ course: theory-of-computation
 prerequisites:
 - id: cfg-pda-equivalence
   type: hard
-- id: pumping-lemma-regular
+- id: pumping-lemma-for-regular-languages
   type: soft
 - id: chomsky-normal-form
   type: soft

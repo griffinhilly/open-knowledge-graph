@@ -4,10 +4,12 @@ title: Political Polarization and Affective Division
 domain: social-sciences
 course: political-science
 prerequisites:
-- id: political-ideology-belief-systems
+- id: political-ideologies
   type: hard
 - id: public-opinion-formation-change
   type: soft
+- id: political-parties-and-party-systems
+  type: hard
 builds-toward:
 - voter-behavior-electoral-decision
 - institutional-checks-and-balances

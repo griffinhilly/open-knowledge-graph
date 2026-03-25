@@ -15,7 +15,7 @@ tags:
 - refolding
 - Anfinsen
 - native state
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

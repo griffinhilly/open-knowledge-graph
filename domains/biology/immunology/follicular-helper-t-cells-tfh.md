@@ -4,7 +4,7 @@ title: Follicular Helper T Cells and Germinal Center Dynamics
 domain: biology
 course: immunology
 prerequisites:
-- id: t-helper-cell-differentiation-th1-th2
+- id: th1-th2-th17-responses
   type: hard
 - id: germinal-center-reactions
   type: hard
@@ -12,7 +12,7 @@ prerequisites:
   type: hard
 builds-toward:
 - memory-b-cells-and-long-lived-antibody-response
-- germinal-center-b-cell-response-dynamics
+- germinal-center-reactions
 tags:
 - Tfh
 - germinal-center

@@ -17,7 +17,7 @@ tags:
 - orbital-dynamics
 - stability
 - multi-planet-systems
-stage: expert
+stage: advanced
 status: validated
 ---
 

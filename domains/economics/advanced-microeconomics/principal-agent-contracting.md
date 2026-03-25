@@ -4,7 +4,7 @@ title: The Principal-Agent Problem
 domain: economics
 course: advanced-microeconomics
 prerequisites:
-- id: moral-hazard-monitoring
+- id: moral-hazard
   type: hard
 - id: adverse-selection-signaling
   type: hard

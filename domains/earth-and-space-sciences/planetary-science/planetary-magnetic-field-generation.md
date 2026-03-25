@@ -16,7 +16,7 @@ tags:
 - dynamo
 - magnetism
 - convection
-stage: expert
+stage: advanced
 status: validated
 ---
 

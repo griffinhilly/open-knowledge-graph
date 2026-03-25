@@ -17,7 +17,7 @@ tags:
 - measurement
 - definition
 - well-being
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

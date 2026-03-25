@@ -6,14 +6,14 @@ course: oceanography
 prerequisites: []
 builds-toward:
 - salinity-composition-seawater
-- thermohaline-circulation-density-driven
+- thermohaline-circulation
 - ocean-layering-and-stratification
 tags:
 - density
 - stratification
 - temperature
 - thermocline
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

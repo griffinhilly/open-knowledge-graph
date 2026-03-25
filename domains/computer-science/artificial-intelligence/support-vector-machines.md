@@ -4,8 +4,6 @@ title: Support Vector Machines
 domain: computer-science
 course: artificial-intelligence
 prerequisites:
-- id: linear-algebra-basics
-  type: hard
 - id: dot-product
   type: soft
 - id: vector-spaces

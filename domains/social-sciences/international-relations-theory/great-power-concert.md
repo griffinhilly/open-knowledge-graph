@@ -16,7 +16,7 @@ tags:
 - great-power
 - cooperation
 - concert
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

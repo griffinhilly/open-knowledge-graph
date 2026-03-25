@@ -4,7 +4,7 @@ title: Hybrid Logical Clocks
 domain: computer-science
 course: distributed-systems
 prerequisites:
-- id: lamport-timestamps
+- id: logical-clocks
   type: hard
 - id: vector-clocks
   type: soft

@@ -6,7 +6,7 @@ course: waves-and-optics
 prerequisites:
 - id: wave-speed-elastic-media
   type: hard
-- id: density
+- id: density-intro
   type: soft
 builds-toward:
 - impedance-matching-and-reflection

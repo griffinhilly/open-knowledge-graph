@@ -7,7 +7,7 @@ prerequisites:
 - id: process-states-and-transitions
   type: hard
 builds-toward:
-- cpu-scheduling-basic-concepts
+- cpu-scheduling-basics
 tags:
 - scheduling
 - performance

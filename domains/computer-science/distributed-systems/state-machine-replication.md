@@ -6,10 +6,10 @@ course: distributed-systems
 prerequisites:
 - id: consensus-problem
   type: hard
-- id: strong-consistency-models
+- id: linearizability
   type: soft
 builds-toward:
-- primary-backup-replication
+- replication-strategies-analysis
 tags:
 - replication
 - state-machine

@@ -12,7 +12,9 @@ prerequisites:
   type: hard
 - id: divide-and-conquer-recurrences
   type: soft
-- id: big-o-notation
+- id: big-o-complexity-analysis
+  type: soft
+- id: insertion-sort
   type: soft
 builds-toward:
 - sorting-lower-bounds

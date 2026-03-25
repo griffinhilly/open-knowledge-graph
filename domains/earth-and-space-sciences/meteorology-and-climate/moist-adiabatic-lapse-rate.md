@@ -12,7 +12,7 @@ prerequisites:
   type: hard
 builds-toward:
 - atmospheric-inversion-temperature
-- convective-available-potential-energy
+- cape-convective-available-potential
 - lifting-condensation-level
 tags:
 - thermodynamics

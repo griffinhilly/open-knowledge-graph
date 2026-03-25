@@ -15,7 +15,7 @@ tags:
 - metamorphism
 - PT-diagrams
 - grade
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

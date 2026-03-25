@@ -9,8 +9,8 @@ prerequisites:
 - id: nfa-to-dfa-conversion
   type: hard
 builds-toward:
-- regular-language-properties
-- closure-properties-regular
+- regular-languages-fundamentals
+- closure-properties-regular-languages
 tags:
 - kleene
 - equivalence

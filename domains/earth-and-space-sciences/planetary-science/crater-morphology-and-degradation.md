@@ -16,7 +16,7 @@ tags:
 - craters
 - morphology
 - degradation
-stage: expert
+stage: advanced
 status: validated
 ---
 

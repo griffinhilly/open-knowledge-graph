@@ -6,7 +6,7 @@ course: electrodynamics
 prerequisites:
 - id: larmor-formula
   type: hard
-- id: classical-mechanics
+- id: newtons-second-law
   type: soft
 builds-toward:
 - synchrotron-radiation

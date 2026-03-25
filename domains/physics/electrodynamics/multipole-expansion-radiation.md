@@ -6,7 +6,7 @@ course: electrodynamics
 prerequisites:
 - id: radiation-from-accelerated-charges
   type: hard
-- id: multivariable-calculus
+- id: partial-derivatives
   type: soft
 builds-toward:
 - electric-dipole-radiation

@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - selection
 - adaptive-peaks
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - speciation
 - diversity-dynamics
 - macroevolution
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

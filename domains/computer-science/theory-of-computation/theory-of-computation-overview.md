@@ -15,7 +15,7 @@ tags:
 - models
 - algorithms
 - decidability
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Theory of Computation Overview

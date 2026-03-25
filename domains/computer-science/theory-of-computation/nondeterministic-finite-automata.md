@@ -19,7 +19,7 @@ tags:
 - nondeterminism
 - NFA
 - regular
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

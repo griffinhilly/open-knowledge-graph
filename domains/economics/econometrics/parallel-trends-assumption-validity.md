@@ -4,7 +4,7 @@ title: 'Parallel Trends Assumption: Validity and Testing'
 domain: economics
 course: econometrics
 prerequisites:
-- id: difference-in-differences-estimation
+- id: difference-in-differences
   type: hard
 tags:
 - causal-inference

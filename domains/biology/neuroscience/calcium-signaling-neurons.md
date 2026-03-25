@@ -19,7 +19,7 @@ tags:
 - ca2+
 - signaling
 - plasticity
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

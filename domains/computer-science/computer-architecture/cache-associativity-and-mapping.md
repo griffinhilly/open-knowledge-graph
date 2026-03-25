@@ -4,7 +4,7 @@ title: Cache Associativity and Address Mapping Strategies
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: cache-design-principles
+- id: cache-memory-design
   type: hard
 - id: cache-replacement-policies
   type: soft

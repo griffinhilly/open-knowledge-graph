@@ -4,12 +4,10 @@ title: Big-O Notation and Complexity Analysis
 domain: computer-science
 course: data-structures-and-algorithms
 prerequisites:
-- id: algorithm-design-basics
-  type: hard
 - id: asymptotic-notation-big-o-omega-theta
   type: soft
 builds-toward:
-- amortized-time-complexity
+- amortized-analysis
 - time-complexity-classes
 tags:
 - complexity

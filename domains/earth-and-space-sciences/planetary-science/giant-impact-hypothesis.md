@@ -20,7 +20,7 @@ tags:
 - giant-impact
 - early-solar-system
 - angular-momentum
-stage: expert
+stage: advanced
 status: validated
 ---
 

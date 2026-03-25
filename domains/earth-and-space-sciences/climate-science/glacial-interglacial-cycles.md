@@ -16,7 +16,7 @@ tags:
 - obliquity
 - precession
 - feedback-amplification
-stage: expert
+stage: advanced
 status: validated
 ---
 

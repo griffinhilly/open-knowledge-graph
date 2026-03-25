@@ -9,7 +9,7 @@ prerequisites:
 builds-toward:
 - time-complexity-classes
 - space-complexity-classes
-- solving-recurrence-relations-master-theorem
+- recurrence-relations-analysis-techniques
 tags:
 - complexity-analysis
 - big-o

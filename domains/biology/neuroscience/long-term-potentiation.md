@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - synaptic-plasticity
 - learning
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

@@ -4,11 +4,11 @@ title: 'Binary Counters: Design and Analysis'
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: d-flip-flop-design
+- id: flip-flops-and-latches
   type: hard
 builds-toward:
-- instruction-pipeline-organization
-- io-architecture-system-integration
+- pipelining-fundamentals
+- io-systems-overview
 tags:
 - counters
 - binary

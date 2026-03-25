@@ -16,7 +16,7 @@ tags:
 - survey
 - refraction
 - velocity
-stage: expert
+stage: advanced
 status: validated
 ---
 

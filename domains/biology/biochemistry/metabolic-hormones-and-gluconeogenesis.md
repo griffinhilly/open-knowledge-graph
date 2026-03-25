@@ -16,7 +16,7 @@ tags:
 - glucagon
 - epinephrine
 - cortisol
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

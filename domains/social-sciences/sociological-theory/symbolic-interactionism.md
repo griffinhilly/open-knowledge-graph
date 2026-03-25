@@ -8,7 +8,7 @@ prerequisites:
   type: soft
 builds-toward:
 - goffman-dramaturgy
-- george-herbert-mead-sociology
+- george-herbert-mead-interaction
 - ethnomethodology
 - phenomenological-sociology
 tags:
@@ -16,7 +16,7 @@ tags:
 - interaction
 - meaning
 - symbols
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

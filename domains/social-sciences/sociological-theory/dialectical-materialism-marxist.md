@@ -15,7 +15,7 @@ tags:
 - materialism
 - dialectics
 - method
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

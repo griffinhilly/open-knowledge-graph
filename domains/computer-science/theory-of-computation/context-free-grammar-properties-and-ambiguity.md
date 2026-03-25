@@ -6,10 +6,10 @@ course: theory-of-computation
 prerequisites:
 - id: context-free-grammars
   type: hard
-- id: grammar-fundamentals-and-definitions
+- id: automata-fundamentals-and-models
   type: soft
 builds-toward:
-- grammar-normal-forms-analysis
+- chomsky-normal-form
 tags:
 - cfg
 - ambiguity

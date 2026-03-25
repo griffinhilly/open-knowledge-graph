@@ -4,9 +4,7 @@ title: Query Execution Plans and EXPLAIN Analysis
 domain: computer-science
 course: databases
 prerequisites:
-- id: query-execution-plans
-  type: hard
-- id: sql-cost-based-query-optimization-plans
+- id: query-optimization
   type: hard
 tags:
 - EXPLAIN

@@ -14,7 +14,7 @@ tags:
 - deformation
 - mechanical-behavior
 - plasticity
-stage: expert
+stage: advanced
 status: validated
 ---
 

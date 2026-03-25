@@ -4,7 +4,7 @@ title: Observability, Tracing, and Debugging in Distributed Systems
 domain: computer-science
 course: distributed-systems
 prerequisites:
-- id: distributed-snapshots-chandy-lamport
+- id: distributed-snapshots
   type: hard
 tags:
 - observability

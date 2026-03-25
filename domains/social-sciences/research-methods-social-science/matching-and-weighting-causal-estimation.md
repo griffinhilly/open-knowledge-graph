@@ -6,7 +6,7 @@ course: research-methods-social-science
 prerequisites:
 - id: propensity-score-methods
   type: hard
-- id: causal-inference-from-observation
+- id: causal-inference-observational-data
   type: soft
 - id: probability-mass-functions
   type: soft
@@ -17,7 +17,7 @@ tags:
 - stratification
 - weighting
 - covariate-balance
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

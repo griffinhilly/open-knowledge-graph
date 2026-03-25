@@ -18,7 +18,7 @@ tags:
 - cosmology
 - cmb
 - early-universe
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

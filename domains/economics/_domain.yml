@@ -12,6 +12,15 @@ courses:
 - id: econometrics
   title: Econometrics
   stage: formal-systems
+- id: advanced-microeconomics
+  title: Advanced Microeconomics
+  stage: formal-systems
+- id: advanced-macroeconomics
+  title: Advanced Macroeconomics
+  stage: formal-systems
 - id: financial-economics
   title: Financial Economics
   stage: formal-systems
+- id: development-economics
+  title: Development Economics
+  stage: advanced

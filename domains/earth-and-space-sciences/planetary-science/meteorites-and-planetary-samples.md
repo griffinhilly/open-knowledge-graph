@@ -14,7 +14,7 @@ tags:
 - meteorites
 - samples
 - dating
-stage: expert
+stage: advanced
 status: validated
 ---
 

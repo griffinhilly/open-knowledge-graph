@@ -6,7 +6,7 @@ course: microbiology
 prerequisites:
 - id: innate-immune-response
   type: hard
-- id: inflammation-innate-response
+- id: inflammatory-response-cellular
   type: soft
 builds-toward:
 - antibiotic-resistance-genetic-mechanisms

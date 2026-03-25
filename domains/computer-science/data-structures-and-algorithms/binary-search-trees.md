@@ -13,7 +13,7 @@ prerequisites:
 - id: binary-search-algorithm
   type: soft
 builds-toward:
-- avl-trees
+- avl-tree-rotations-balancing
 tags:
 - BST
 - binary-search-tree

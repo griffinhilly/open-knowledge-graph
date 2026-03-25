@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: latent-heat-and-phase-transitions
   type: hard
+- id: cloud-formation-and-types
+  type: hard
 builds-toward:
 - graupel-and-hail-formation
 - precipitation-types-and-processes

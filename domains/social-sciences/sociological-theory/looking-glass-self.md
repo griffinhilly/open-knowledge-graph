@@ -15,7 +15,7 @@ tags:
 - self
 - identity
 - interaction
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

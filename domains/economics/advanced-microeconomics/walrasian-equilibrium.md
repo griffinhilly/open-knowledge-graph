@@ -15,8 +15,8 @@ prerequisites:
 - id: systems-of-linear-equations
   type: soft
 builds-toward:
-- pareto-optimality
-- first-fundamental-welfare-theorem
+- pareto-efficiency-and-optimality
+- first-welfare-theorem
 tags:
 - general-equilibrium
 - markets

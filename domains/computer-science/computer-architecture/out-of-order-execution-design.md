@@ -13,7 +13,7 @@ tags:
 - execution
 - register-renaming
 - performance
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

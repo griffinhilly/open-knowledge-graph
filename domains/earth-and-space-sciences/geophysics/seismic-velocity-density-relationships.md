@@ -15,7 +15,7 @@ tags:
 - density
 - composition
 - relationship
-stage: expert
+stage: advanced
 status: validated
 ---
 

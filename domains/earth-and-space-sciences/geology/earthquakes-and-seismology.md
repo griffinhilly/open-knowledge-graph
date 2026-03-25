@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: geologic-structures-folds-faults
   type: soft
+- id: plate-tectonics
+  type: hard
 builds-toward:
 - seismic-waves
 - earth-interior-structure

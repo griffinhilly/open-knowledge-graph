@@ -13,7 +13,7 @@ tags:
 - compliance
 - enforcement
 - legitimacy
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

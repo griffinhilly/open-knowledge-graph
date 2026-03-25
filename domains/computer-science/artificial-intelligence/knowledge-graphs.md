@@ -6,9 +6,9 @@ course: artificial-intelligence
 prerequisites:
 - id: first-order-logic-ai
   type: hard
-- id: relational-model-basics
+- id: relational-data-model
   type: soft
-- id: graph-theory-intro
+- id: graph-adjacency-list-matrix-representations
   type: soft
 builds-toward:
 - semantic-networks

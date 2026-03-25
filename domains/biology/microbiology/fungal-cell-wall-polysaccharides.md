@@ -14,7 +14,7 @@ tags:
 - fungal-cell-wall
 - polysaccharides
 - chitin
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

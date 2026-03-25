@@ -13,7 +13,7 @@ tags:
 - sympathetic
 - parasympathetic
 - homeostasis
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

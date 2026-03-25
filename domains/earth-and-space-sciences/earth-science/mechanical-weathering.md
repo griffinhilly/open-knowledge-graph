@@ -6,7 +6,7 @@ course: earth-science
 prerequisites:
 - id: types-of-rocks
   type: hard
-- id: the-rock-cycle
+- id: rock-cycle
   type: soft
 builds-toward:
 - weathering-and-erosion

@@ -8,14 +8,14 @@ prerequisites:
   type: hard
 builds-toward:
 - authority-and-domination-sociology
-- pierre-bourdieu-habitus-field
+- bourdieu-habitus
 - world-systems-theory
 tags:
 - conflict
 - power
 - inequality
 - domination
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -4,12 +4,12 @@ title: Extinction and Interstellar Reddening
 domain: earth-and-space-sciences
 course: astronomy
 prerequisites:
-- id: stellar-spectra-and-classification-scheme
+- id: stellar-spectral-classification
   type: soft
 - id: apparent-magnitude-brightness-measurement
   type: hard
 builds-toward:
-- galaxy-classification-and-morphology
+- galaxy-morphology-and-classification
 tags:
 - interstellar
 - dust

@@ -21,7 +21,7 @@ tags:
 - heat storage
 - thermosteric sea level
 - climate buffer
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

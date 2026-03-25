@@ -6,7 +6,7 @@ course: electrodynamics
 prerequisites:
 - id: electric-current-and-resistance
   type: hard
-- id: oscillations-damping
+- id: damped-harmonic-oscillator
   type: soft
 builds-toward:
 - conductivity-complex-dielectric

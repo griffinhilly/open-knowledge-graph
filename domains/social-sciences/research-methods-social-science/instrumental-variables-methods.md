@@ -25,7 +25,7 @@ tags:
 - endogeneity
 - two-stage-least-squares
 - IV-validity
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

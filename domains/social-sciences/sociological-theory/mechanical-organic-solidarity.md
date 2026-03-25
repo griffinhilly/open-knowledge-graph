@@ -4,16 +4,16 @@ title: Mechanical and Organic Solidarity
 domain: social-sciences
 course: sociological-theory
 prerequisites:
-- id: emile-durkheim-social-facts
+- id: durkheim-social-facts
   type: hard
 builds-toward:
-- anomie-social-integration
+- durkheim-anomie
 tags:
 - durkheim
 - solidarity
 - social-integration
 - social-change
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

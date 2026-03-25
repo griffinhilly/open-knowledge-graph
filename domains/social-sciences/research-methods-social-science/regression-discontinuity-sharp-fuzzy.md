@@ -4,7 +4,7 @@ title: 'Regression Discontinuity: Sharp and Fuzzy Designs'
 domain: social-sciences
 course: research-methods-social-science
 prerequisites:
-- id: natural-experiments-identification-strategy
+- id: natural-experiments-design
   type: hard
 - id: functions-domain-codomain-range
   type: soft
@@ -12,7 +12,7 @@ tags:
 - regression-discontinuity
 - rdd
 - threshold
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

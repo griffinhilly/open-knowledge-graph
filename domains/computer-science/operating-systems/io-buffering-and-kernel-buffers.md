@@ -6,7 +6,7 @@ course: operating-systems
 prerequisites:
 - id: io-systems-overview
   type: hard
-- id: cache-design-principles
+- id: cache-memory-design
   type: soft
 tags:
 - io

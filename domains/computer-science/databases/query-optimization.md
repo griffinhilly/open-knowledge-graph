@@ -4,8 +4,6 @@ title: Query Optimization
 domain: computer-science
 course: databases
 prerequisites:
-- id: query-execution-plans
-  type: hard
 - id: relational-algebra
   type: soft
 - id: btree-indexes

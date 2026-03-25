@@ -9,8 +9,8 @@ prerequisites:
 - id: consistency-models
   type: hard
 builds-toward:
-- primary-backup-replication
-- causal-consistency-implementation
+- replication-strategies-analysis
+- causal-consistency
 - two-phase-commit-protocol
 tags:
 - replication

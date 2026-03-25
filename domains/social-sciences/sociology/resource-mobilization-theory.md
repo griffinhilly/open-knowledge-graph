@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: social-movements
   type: hard
+- id: social-stratification
+  type: soft
 tags:
 - social-movements
 - theory

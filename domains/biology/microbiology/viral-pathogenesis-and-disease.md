@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - emerging-infectious-diseases
-- vaccine-design-immunogenicity-adjuvants
+- vaccine-response-and-immunogenicity
 tags:
 - viral-pathogenesis
 - disease

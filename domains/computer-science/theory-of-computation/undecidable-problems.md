@@ -4,10 +4,10 @@ title: Undecidable Problems and the Halting Problem
 domain: computer-science
 course: theory-of-computation
 prerequisites:
-- id: recognizable-languages
+- id: recognizability-vs-decidability
   type: hard
 builds-toward:
-- reductions-and-undecidability
+- reduction-techniques-undecidability
 - rice-theorem
 tags:
 - undecidability

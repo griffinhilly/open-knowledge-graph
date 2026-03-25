@@ -17,7 +17,7 @@ tags:
 - Sun
 - gravitational-forcing
 - harmonic-analysis
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

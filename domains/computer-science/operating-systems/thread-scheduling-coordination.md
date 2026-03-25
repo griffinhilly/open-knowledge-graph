@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - critical-section-problem-formalization
-- semaphore-formal-definition
+- semaphores
 tags:
 - threads
 - scheduling

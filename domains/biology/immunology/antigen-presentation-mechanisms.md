@@ -4,13 +4,13 @@ title: Antigen Processing and Presentation Pathways
 domain: biology
 course: immunology
 prerequisites:
-- id: mhc-structure-function
+- id: major-histocompatibility-complex
   type: hard
 - id: protein-targeting-and-subcellular-localization
   type: hard
 builds-toward:
 - t-cell-activation-costimulation
-- cd4-t-helper-cells
+- cd4-helper-t-cells
 - cd8-cytotoxic-t-cells
 tags:
 - adaptive

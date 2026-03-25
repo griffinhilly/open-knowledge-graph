@@ -4,9 +4,9 @@ title: 'Crash Recovery: Undo and Redo Logging'
 domain: computer-science
 course: databases
 prerequisites:
-- id: write-ahead-logging-protocol-durability
+- id: write-ahead-logging
   type: hard
-- id: transaction-properties-acid
+- id: acid-properties
   type: hard
 builds-toward:
 - checkpoint-fuzzy-recovery

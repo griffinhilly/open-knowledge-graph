@@ -4,7 +4,7 @@ title: Models of Distributed Computation
 domain: computer-science
 course: distributed-systems
 prerequisites:
-- id: distributed-systems-overview
+- id: distributed-systems-introduction
   type: hard
 builds-toward:
 - synchronous-asynchronous-systems

@@ -4,7 +4,7 @@ title: Exchange Economy and Pareto Efficiency
 domain: economics
 course: microeconomics
 prerequisites:
-- id: pareto-efficiency-microeconomics
+- id: pareto-efficiency-and-optimality
   type: hard
 - id: edgeworth-box-exchange
   type: hard

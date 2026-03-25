@@ -4,12 +4,12 @@ title: Attribute Grammar Framework
 domain: computer-science
 course: compilers
 prerequisites:
-- id: ast-node-representation
+- id: abstract-syntax-trees
   type: hard
-- id: parse-trees-derivations
+- id: parse-trees-ambiguity-and-derivation
   type: soft
 builds-toward:
-- semantic-error-detection-reporting
+- semantic-analysis
 tags:
 - semantic-analysis
 - attributes

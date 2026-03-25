@@ -4,7 +4,7 @@ title: Message Queues and Message Passing IPC
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: inter-process-communication-mechanisms
+- id: inter-process-communication
   type: hard
 - id: semaphores
   type: soft

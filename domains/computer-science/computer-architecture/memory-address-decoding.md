@@ -4,7 +4,7 @@ title: Memory Address Decoding
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: decoders-multiplexers
+- id: multiplexers-and-demultiplexers
   type: hard
 - id: memory-organization
   type: hard

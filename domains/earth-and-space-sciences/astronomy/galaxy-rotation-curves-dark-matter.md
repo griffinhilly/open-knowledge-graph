@@ -4,9 +4,9 @@ title: Galaxy Rotation Curves and Dark Matter
 domain: earth-and-space-sciences
 course: astronomy
 prerequisites:
-- id: galaxy-classification-and-morphology
+- id: galaxy-morphology-and-classification
   type: hard
-- id: kepler-laws-orbital-motion-derivation
+- id: kepler-laws-planetary-orbits
   type: soft
 builds-toward:
 - cosmological-redshift-and-hubble-law

@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 - id: mathematical-induction
   type: soft
-- id: big-o-notation
+- id: big-o-complexity-analysis
   type: soft
 builds-toward:
 - dijkstras-algorithm

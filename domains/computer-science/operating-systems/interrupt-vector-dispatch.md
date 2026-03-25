@@ -4,9 +4,9 @@ title: Interrupt Vector Tables and Dispatch
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: interrupt-exception-handling
+- id: interrupts-and-dma
   type: hard
-- id: cpu-control-path-design
+- id: cpu-control-unit
   type: soft
 builds-toward:
 - exception-handling-os-internals

@@ -4,7 +4,7 @@ title: Replica Placement Strategies
 domain: computer-science
 course: distributed-systems
 prerequisites:
-- id: primary-backup-replication
+- id: replication-strategies-analysis
   type: hard
 - id: quorum-based-replication
   type: hard

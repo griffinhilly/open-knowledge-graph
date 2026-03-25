@@ -9,7 +9,7 @@ prerequisites:
 - id: dna-replication
   type: soft
 builds-toward:
-- meiotic-recombination-nodules-and-crossover
+- meiotic-recombination-crossing-over
 tags:
 - meiosis
 - synapsis

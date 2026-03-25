@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: particle-in-a-box
   type: soft
+- id: quantum-tunneling
+  type: soft
 tags:
 - solid-state
 - band-gap

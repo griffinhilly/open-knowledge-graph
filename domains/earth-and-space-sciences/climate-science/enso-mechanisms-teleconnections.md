@@ -16,7 +16,7 @@ tags:
 - teleconnection
 - tropical
 - oscillation
-stage: expert
+stage: advanced
 status: validated
 ---
 

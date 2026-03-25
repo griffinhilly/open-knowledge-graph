@@ -16,7 +16,7 @@ tags:
 - households
 - firms
 - flows
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -4,12 +4,12 @@ title: RNA Splicing, Introns, Exons, and the Spliceosome
 domain: biology
 course: genetics-and-molecular-biology
 prerequisites:
-- id: rna-5-capping-polyadenylation
+- id: rna-processing
   type: hard
 - id: rna-splicing-mechanisms
   type: soft
 builds-toward:
-- alternative-rna-splicing
+- alternative-splicing-mechanisms
 - rna-processing
 tags:
 - splicing

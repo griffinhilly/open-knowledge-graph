@@ -9,7 +9,7 @@ prerequisites:
 - id: mixed-strategy-equilibrium
   type: soft
 builds-toward:
-- bayesian-games-and-incomplete-information
+- bayesian-games
 tags:
 - game-theory
 - equilibrium-selection

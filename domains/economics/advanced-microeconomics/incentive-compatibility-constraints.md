@@ -4,13 +4,13 @@ title: Incentive Compatibility and Individual Rationality
 domain: economics
 course: advanced-microeconomics
 prerequisites:
-- id: bayesian-games-and-incomplete-information
+- id: bayesian-games
   type: hard
 - id: quasi-linear-preferences
   type: soft
 builds-toward:
-- moral-hazard-principal-agent
-- mechanism-design-and-vickrey-clarke-groves
+- moral-hazard
+- mechanism-design-basics
 tags:
 - contract-theory
 - mechanism-design

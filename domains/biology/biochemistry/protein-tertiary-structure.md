@@ -22,7 +22,7 @@ tags:
 - disulfide bonds
 - salt bridges
 - folding
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

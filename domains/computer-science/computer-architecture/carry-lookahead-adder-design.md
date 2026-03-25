@@ -6,10 +6,10 @@ course: computer-architecture
 prerequisites:
 - id: full-adder-and-carry-logic
   type: hard
-- id: combinational-logic-implementation
+- id: combinational-circuit-design
   type: soft
 builds-toward:
-- arithmetic-logic-unit-design-details
+- arithmetic-logic-unit
 tags:
 - adder
 - carry-logic

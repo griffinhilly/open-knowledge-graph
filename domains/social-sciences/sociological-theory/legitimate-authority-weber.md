@@ -15,7 +15,7 @@ tags:
 - legitimacy
 - power
 - domination
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

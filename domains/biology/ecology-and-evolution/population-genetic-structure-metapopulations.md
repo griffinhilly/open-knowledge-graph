@@ -4,7 +4,7 @@ title: Population Genetic Structure in Subdivided Populations
 domain: biology
 course: ecology-and-evolution
 prerequisites:
-- id: gene-flow-population-structure
+- id: gene-flow-migration
   type: hard
 - id: metapopulation-dynamics-connectivity
   type: hard

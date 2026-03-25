@@ -7,7 +7,7 @@ prerequisites:
 - id: authority-and-legitimacy
   type: hard
 builds-toward:
-- democratic-governance-principles
+- democracy-types-and-theory
 - liberalism-political-thought
 - individual-rights-and-freedoms
 tags:

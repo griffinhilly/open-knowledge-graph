@@ -9,7 +9,7 @@ prerequisites:
 - id: nuclear-organization-architecture
   type: hard
 builds-toward:
-- dna-methylation-epigenetic-regulation
+- dna-methylation-and-epigenetic-silencing
 tags:
 - chromatin
 - 30nm-fiber

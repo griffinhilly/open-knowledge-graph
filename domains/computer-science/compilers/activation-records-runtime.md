@@ -6,8 +6,6 @@ course: compilers
 prerequisites:
 - id: memory-management-basics
   type: hard
-- id: calling-conventions-abi
-  type: hard
 builds-toward:
 - exception-handling-compilation
 tags:

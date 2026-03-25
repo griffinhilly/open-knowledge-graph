@@ -9,7 +9,7 @@ prerequisites:
 - id: cap-theorem
   type: hard
 builds-toward:
-- distributed-transactions-2pc
+- two-phase-commit-protocol
 - leader-election-algorithms
 tags:
 - fault-tolerance

@@ -4,13 +4,13 @@ title: Time and Space Complexity
 domain: computer-science
 course: data-structures-and-algorithms
 prerequisites:
-- id: big-o-notation
+- id: big-o-complexity-analysis
   type: hard
 - id: algorithm-design-basics
   type: hard
 - id: recursion-basics
   type: soft
-- id: algorithm-complexity
+- id: asymptotic-notation-big-o-omega-theta
   type: soft
 - id: logarithms-intro
   type: soft

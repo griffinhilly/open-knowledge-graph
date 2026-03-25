@@ -6,7 +6,7 @@ course: waves-and-optics
 prerequisites:
 - id: simple-harmonic-motion
   type: hard
-- id: periodic-functions
+- id: amplitude-period-phase-shift
   type: soft
 builds-toward:
 - transverse-wave-characteristics

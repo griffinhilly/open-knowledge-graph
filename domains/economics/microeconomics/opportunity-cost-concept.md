@@ -7,13 +7,13 @@ prerequisites:
 - id: scarcity-choice-production-tradeoff
   type: hard
 builds-toward:
-- comparative-advantage-gains
+- comparative-advantage-and-trade
 - profit-maximization-microeconomics
 tags:
 - foundations
 - cost
 - decision-making
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

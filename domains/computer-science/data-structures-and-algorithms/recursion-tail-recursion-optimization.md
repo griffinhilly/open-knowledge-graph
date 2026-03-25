@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - backtracking-constraint-satisfaction-problems
-- solving-recurrence-relations-master-theorem
+- recurrence-relations-analysis-techniques
 tags:
 - recursion
 - tail-call

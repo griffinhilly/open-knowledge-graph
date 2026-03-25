@@ -16,7 +16,7 @@ tags:
 - strain
 - deformation
 - mechanics
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

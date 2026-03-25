@@ -24,3 +24,15 @@ courses:
 - id: microbiology
   title: Microbiology
   stage: formal-systems
+- id: biochemistry
+  title: Biochemistry
+  stage: formal-systems
+- id: evolutionary-biology
+  title: Evolutionary Biology
+  stage: formal-systems
+- id: neuroscience
+  title: Neuroscience
+  stage: advanced
+- id: immunology
+  title: Immunology
+  stage: advanced

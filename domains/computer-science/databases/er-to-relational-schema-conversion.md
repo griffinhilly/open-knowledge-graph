@@ -6,9 +6,9 @@ course: databases
 prerequisites:
 - id: entity-relationship-diagram-advanced
   type: hard
-- id: relational-model-basics
+- id: relational-data-model
   type: hard
-- id: primary-key-foreign-key-constraints
+- id: primary-and-foreign-keys
   type: hard
 builds-toward:
 - sql-table-creation-definition

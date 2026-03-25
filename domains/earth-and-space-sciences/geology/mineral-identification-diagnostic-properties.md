@@ -11,7 +11,7 @@ prerequisites:
 - id: ionic-bonding
   type: soft
 builds-toward:
-- crystal-symmetry-classification-systems
+- mineral-crystal-systems-classification
 - mineral-properties-weathering
 tags:
 - mineralogy

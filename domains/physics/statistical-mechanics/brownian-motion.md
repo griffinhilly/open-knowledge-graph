@@ -4,7 +4,7 @@ title: Brownian Motion
 domain: physics
 course: statistical-mechanics
 prerequisites:
-- id: kinetic-theory-basics
+- id: kinetic-theory-of-gases
   type: soft
 - id: maxwell-boltzmann-distribution
   type: soft

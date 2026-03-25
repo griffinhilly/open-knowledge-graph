@@ -21,7 +21,7 @@ tags:
 - centrality
 - clustering
 - social-capital
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

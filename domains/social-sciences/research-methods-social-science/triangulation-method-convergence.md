@@ -4,16 +4,14 @@ title: 'Triangulation: Convergent Validity and Method Confirmation'
 domain: social-sciences
 course: research-methods-social-science
 prerequisites:
-- id: mixed-methods-sequential-design
-  type: soft
-- id: mixed-methods-concurrent-integration
+- id: mixed-methods-integration
   type: soft
 tags:
 - triangulation
 - convergence
 - validity
 - multiple-methods
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

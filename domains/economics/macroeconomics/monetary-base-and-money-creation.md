@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - money-multiplier-dynamics
-- monetary-policy-implementation-and-tools
+- monetary-policy-tools
 tags:
 - money-supply
 - central-bank

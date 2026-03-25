@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - ion-channels
 - repolarization
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

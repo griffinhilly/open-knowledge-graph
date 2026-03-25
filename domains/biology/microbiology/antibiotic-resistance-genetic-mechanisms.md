@@ -6,7 +6,7 @@ course: microbiology
 prerequisites:
 - id: antibiotic-resistance-mechanisms
   type: hard
-- id: bacterial-conjugation-dna-transfer
+- id: bacterial-conjugation-plasmid-transfer
   type: soft
 builds-toward:
 - antimicrobial-susceptibility-testing

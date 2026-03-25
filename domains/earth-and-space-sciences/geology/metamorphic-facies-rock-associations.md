@@ -12,7 +12,7 @@ tags:
 - metamorphism
 - facies
 - equilibrium
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

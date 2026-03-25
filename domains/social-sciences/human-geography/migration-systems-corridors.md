@@ -6,7 +6,7 @@ course: human-geography
 prerequisites:
 - id: spatial-interaction-theory
   type: hard
-- id: population-distribution-processes
+- id: population-distribution-density
   type: soft
 builds-toward:
 - refugee-asylum-geographies

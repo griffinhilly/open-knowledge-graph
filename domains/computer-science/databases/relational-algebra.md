@@ -4,7 +4,7 @@ title: Relational Algebra
 domain: computer-science
 course: databases
 prerequisites:
-- id: relational-model-basics
+- id: relational-data-model
   type: hard
 - id: set-theory-basics
   type: soft
@@ -19,8 +19,7 @@ prerequisites:
 - id: set-operations-union-intersection-complement
   type: soft
 builds-toward:
-- sql-select-basics
-- query-execution-plans
+- sql-data-retrieval-select
 - query-optimization
 tags:
 - relational algebra

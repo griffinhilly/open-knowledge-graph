@@ -9,7 +9,7 @@ prerequisites:
 - id: interest-rates-and-loanable-funds
   type: soft
 builds-toward:
-- exchange-rate-purchasing-power-parity
+- purchasing-power-parity-absolute
 tags:
 - international
 - capital-flows

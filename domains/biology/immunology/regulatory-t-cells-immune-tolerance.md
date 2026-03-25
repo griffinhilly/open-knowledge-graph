@@ -6,7 +6,7 @@ course: immunology
 prerequisites:
 - id: t-cell-development-thymic-selection
   type: hard
-- id: cd4-t-helper-cells
+- id: cd4-helper-t-cells
   type: hard
 builds-toward:
 - autoimmunity-mechanisms

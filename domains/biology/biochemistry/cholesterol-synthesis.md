@@ -18,7 +18,7 @@ tags:
 - steroid synthesis
 - HMG-CoA reductase
 - mevalonate pathway
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: lr-parsing
   type: hard
-- id: lr-state-machine-construction
-  type: hard
 builds-toward:
 - parser-conflict-resolution
 tags:

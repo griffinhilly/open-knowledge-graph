@@ -6,7 +6,7 @@ course: statistical-mechanics
 prerequisites:
 - id: ensemble-theory-fundamentals
   type: hard
-- id: hamiltonian-mechanics
+- id: hamiltonian-mechanics-intro
   type: hard
 builds-toward:
 - ergodic-hypothesis

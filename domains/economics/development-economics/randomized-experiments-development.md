@@ -6,6 +6,8 @@ course: development-economics
 prerequisites:
 - id: causal-inference-econometrics
   type: hard
+- id: econometrics-intro
+  type: hard
 - id: hypothesis-testing-regression
   type: soft
 - id: probability-theory
@@ -17,7 +19,7 @@ builds-toward:
 tags:
 - RCT
 - experimental-design
-stage: expert
+stage: advanced
 status: validated
 ---
 

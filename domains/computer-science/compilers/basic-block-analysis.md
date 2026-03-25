@@ -4,7 +4,7 @@ title: Basic Block Analysis
 domain: computer-science
 course: compilers
 prerequisites:
-- id: quadruple-intermediate-representation
+- id: intermediate-code-representation
   type: hard
 - id: control-flow-graphs
   type: hard

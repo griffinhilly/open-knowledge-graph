@@ -9,7 +9,7 @@ prerequisites:
 - id: saturation-and-dew-point
   type: hard
 builds-toward:
-- convective-available-potential-energy
+- cape-convective-available-potential
 - lifted-index-stability
 tags:
 - moisture

@@ -16,7 +16,7 @@ tags:
 - collaborative
 - reflexive
 - engaged
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - heatwaves
 - precipitation
 - risk
-stage: expert
+stage: advanced
 status: validated
 ---
 # Climate Extremes and Event Attribution

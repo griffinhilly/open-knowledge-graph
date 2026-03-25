@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - kleene-theorem
-- regular-language-properties
+- regular-languages-fundamentals
 tags:
 - automata
 - subset-construction

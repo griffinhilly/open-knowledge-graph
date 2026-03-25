@@ -4,7 +4,7 @@ title: Intersectional Analysis and Methodology
 domain: social-sciences
 course: research-methods-social-science
 prerequisites:
-- id: feminist-sociology-intersectionality
+- id: feminist-sociology
   type: hard
 - id: research-design-advanced
   type: soft
@@ -16,7 +16,7 @@ tags:
 - inequality
 - qualitative-quantitative
 - standpoint
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

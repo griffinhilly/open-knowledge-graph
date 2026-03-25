@@ -15,7 +15,7 @@ tags:
 - strength
 - plate-tectonics
 - structure
-stage: expert
+stage: advanced
 status: validated
 ---
 

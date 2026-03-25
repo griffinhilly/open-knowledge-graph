@@ -4,7 +4,7 @@ title: Continental Collision and Orogenic Crustal Thickening
 domain: earth-and-space-sciences
 course: geology
 prerequisites:
-- id: plate-boundary-types-kinematics
+- id: plate-boundary-processes-interactions
   type: hard
 - id: subduction-zone-structure-metamorphism
   type: soft
@@ -12,7 +12,7 @@ tags:
 - orogeny
 - collision
 - tectonics
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

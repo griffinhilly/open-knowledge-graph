@@ -15,7 +15,7 @@ tags:
 - multimeric proteins
 - cooperativity
 - homo-oligomers
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

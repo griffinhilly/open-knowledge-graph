@@ -4,9 +4,9 @@ title: 'Virtual Address Translation: Paging and TLBs'
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: virtual-memory-translation
+- id: virtual-memory-basics
   type: hard
-- id: contiguous-allocation-strategies
+- id: contiguous-memory-allocation
   type: hard
 builds-toward:
 - page-fault-processing

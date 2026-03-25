@@ -4,7 +4,7 @@ title: Hinted Handoff Recovery
 domain: computer-science
 course: distributed-systems
 prerequisites:
-- id: primary-backup-replication
+- id: replication-strategies-analysis
   type: hard
 - id: failure-detection-heartbeats
   type: hard

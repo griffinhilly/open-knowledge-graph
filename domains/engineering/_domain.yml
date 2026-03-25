@@ -21,6 +21,12 @@ courses:
 - id: circuits-and-electronics
   title: Circuits & Electronics
   stage: formal-systems
+- id: signals-and-systems
+  title: Signals & Systems
+  stage: formal-systems
+- id: thermodynamics-engineering
+  title: Thermodynamics (Engineering)
+  stage: formal-systems
 - id: control-systems
   title: Control Systems
   stage: advanced

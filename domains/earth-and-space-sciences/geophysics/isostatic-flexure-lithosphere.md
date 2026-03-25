@@ -13,7 +13,7 @@ tags:
 - flexure
 - lithosphere
 - elastic-thickness
-stage: expert
+stage: advanced
 status: validated
 ---
 

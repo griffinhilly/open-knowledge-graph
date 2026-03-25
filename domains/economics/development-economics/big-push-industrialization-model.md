@@ -4,7 +4,7 @@ title: 'The Big Push Model: Rosenstein-Rodan'
 domain: economics
 course: development-economics
 prerequisites:
-- id: poverty-trap-low-equilibrium
+- id: poverty-traps-and-development-thresholds
   type: hard
 - id: production-function-microeconomics
   type: soft

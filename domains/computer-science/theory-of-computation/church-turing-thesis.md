@@ -7,7 +7,7 @@ prerequisites:
 - id: universal-turing-machine
   type: hard
 builds-toward:
-- decidable-languages
+- decidability
 - undecidable-problems
 tags:
 - church-turing-thesis

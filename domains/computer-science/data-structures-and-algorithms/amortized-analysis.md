@@ -6,11 +6,9 @@ course: data-structures-and-algorithms
 prerequisites:
 - id: time-space-complexity
   type: hard
-- id: big-o-notation
+- id: big-o-complexity-analysis
   type: soft
-- id: algorithm-complexity
-  type: soft
-- id: amortized-time-complexity
+- id: asymptotic-notation-big-o-omega-theta
   type: soft
 builds-toward:
 - union-find
@@ -20,7 +18,7 @@ tags:
 - complexity
 - analysis
 - aggregate
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

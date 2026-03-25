@@ -11,7 +11,7 @@ prerequisites:
 - id: primary-and-foreign-keys
   type: hard
 builds-toward:
-- indexing-concepts
+- index-types-btree-hash-bitmap
 - database-security
 tags:
 - schema design

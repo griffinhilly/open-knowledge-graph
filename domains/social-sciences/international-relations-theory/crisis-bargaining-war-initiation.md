@@ -20,7 +20,7 @@ tags:
 - escalation
 - war-initiation
 - signaling
-stage: expert
+stage: formal-systems
 status: validated
 ---
 # Crisis Bargaining and Escalation to War

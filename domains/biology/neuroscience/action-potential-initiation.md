@@ -18,7 +18,7 @@ tags:
 - action-potential
 - excitability
 - nonlinear-dynamics
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

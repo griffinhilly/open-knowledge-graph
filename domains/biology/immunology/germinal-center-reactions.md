@@ -6,7 +6,7 @@ course: immunology
 prerequisites:
 - id: affinity-maturation-somatic-hypermutation
   type: hard
-- id: cd4-t-helper-cells
+- id: cd4-helper-t-cells
   type: hard
 builds-toward:
 - immunological-memory-secondary-response

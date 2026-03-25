@@ -4,7 +4,7 @@ title: Migration, Mobility, and Geographic Networks
 domain: social-sciences
 course: human-geography
 prerequisites:
-- id: population-distribution-processes
+- id: population-distribution-density
   type: hard
 - id: spatial-scale-human-geography
   type: hard

@@ -15,7 +15,7 @@ tags:
 - gates
 - digital-logic
 - fundamentals
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

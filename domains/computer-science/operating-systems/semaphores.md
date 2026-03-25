@@ -4,7 +4,7 @@ title: Semaphores
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: mutex-and-locks
+- id: mutual-exclusion-and-locks
   type: hard
 builds-toward:
 - monitors-and-condition-variables

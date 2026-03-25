@@ -12,7 +12,7 @@ tags:
 - neurotransmitter-systems
 - inhibition
 - circuit-balance
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -4,7 +4,7 @@ title: Arithmetic Logic Unit (ALU)
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: adder-circuits
+- id: binary-adders
   type: hard
 - id: twos-complement
   type: hard

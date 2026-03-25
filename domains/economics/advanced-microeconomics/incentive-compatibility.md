@@ -7,7 +7,7 @@ prerequisites:
 - id: bayesian-games
   type: hard
 builds-toward:
-- mechanism-design-intro
+- mechanism-design-basics
 - screening-contracts
 tags:
 - mechanism-design

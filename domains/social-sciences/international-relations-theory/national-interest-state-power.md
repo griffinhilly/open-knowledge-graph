@@ -14,7 +14,7 @@ tags:
 - realism
 - state-behavior
 - power
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

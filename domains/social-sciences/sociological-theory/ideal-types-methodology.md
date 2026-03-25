@@ -14,7 +14,7 @@ tags:
 - methodology
 - ideal-type
 - concept-formation
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

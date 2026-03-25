@@ -9,7 +9,7 @@ prerequisites:
 - id: gender-and-sexuality
   type: hard
 - id: social-stratification
-  type: soft
+  type: hard
 - id: mean-median-mode
   type: soft
 - id: measures-of-spread

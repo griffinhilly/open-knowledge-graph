@@ -9,7 +9,7 @@ prerequisites:
 - id: cd4-helper-t-cells
   type: hard
 builds-toward:
-- autoimmune-disease-mechanisms
+- autoimmunity-mechanisms
 tags:
 - hypersensitivity
 - immune-complex

@@ -4,7 +4,7 @@ title: Planetary Mass Determination
 domain: earth-and-space-sciences
 course: astronomy
 prerequisites:
-- id: kepler-laws-orbital-motion-derivation
+- id: kepler-laws-planetary-orbits
   type: hard
 - id: exoplanet-orbital-determination-methods
   type: soft

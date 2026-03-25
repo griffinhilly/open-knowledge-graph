@@ -7,7 +7,7 @@ prerequisites:
 - id: consistency-models
   type: hard
 builds-toward:
-- distributed-transactions-2pc
+- two-phase-commit-protocol
 - strong-eventual-consistency
 tags:
 - consistency

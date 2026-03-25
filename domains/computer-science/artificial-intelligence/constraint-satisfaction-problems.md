@@ -4,7 +4,7 @@ title: Constraint Satisfaction Problem Solving
 domain: computer-science
 course: artificial-intelligence
 prerequisites:
-- id: graph-theory-intro
+- id: graph-adjacency-list-matrix-representations
   type: hard
 - id: algorithm-design-basics
   type: hard

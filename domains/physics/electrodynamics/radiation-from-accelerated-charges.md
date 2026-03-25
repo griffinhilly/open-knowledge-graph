@@ -6,7 +6,7 @@ course: electrodynamics
 prerequisites:
 - id: lienard-wiechert-potentials
   type: hard
-- id: classical-mechanics
+- id: newtons-second-law
   type: soft
 builds-toward:
 - larmor-formula

@@ -30,7 +30,7 @@ tags:
 - convection
 - dynamics
 - plate-tectonics
-stage: expert
+stage: advanced
 status: validated
 ---
 

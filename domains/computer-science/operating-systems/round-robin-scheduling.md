@@ -4,7 +4,7 @@ title: Round-Robin (RR) Scheduling
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: cpu-scheduling-basic-concepts
+- id: cpu-scheduling-basics
   type: hard
 builds-toward:
 - priority-scheduling-algorithms

@@ -4,7 +4,7 @@ title: Linear Bounded Automata
 domain: computer-science
 course: theory-of-computation
 prerequisites:
-- id: turing-machine-model-and-definition
+- id: turing-machines
   type: hard
 - id: context-sensitive-languages
   type: hard

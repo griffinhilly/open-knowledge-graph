@@ -7,7 +7,7 @@ prerequisites:
 - id: halting-problem
   type: hard
 builds-toward:
-- undecidability-reductions
+- undecidable-problems
 tags:
 - RE
 - co-RE

@@ -11,8 +11,8 @@ prerequisites:
 - id: array-subscript-optimization
   type: soft
 builds-toward:
-- graph-coloring-register-allocation
-- code-emission-target-generation
+- register-allocation
+- code-generation
 tags:
 - code-generation
 - backend

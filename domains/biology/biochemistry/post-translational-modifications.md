@@ -14,7 +14,7 @@ tags:
 - acetylation
 - ubiquitination
 - glycosylation
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

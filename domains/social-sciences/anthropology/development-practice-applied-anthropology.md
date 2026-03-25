@@ -4,9 +4,9 @@ title: Development Practice and Applied Anthropology
 domain: social-sciences
 course: anthropology
 prerequisites:
-- id: emic-etic-perspectives-anthropology
+- id: emic-etic-perspective
   type: hard
-- id: cross-cultural-comparison-typologies
+- id: cross-cultural-comparison
   type: hard
 builds-toward:
 - applied-sociology-evaluation

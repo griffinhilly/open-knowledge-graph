@@ -4,7 +4,7 @@ title: Savings Constraints and Capital Accumulation
 domain: economics
 course: development-economics
 prerequisites:
-- id: poverty-traps-and-persistence
+- id: poverty-traps-and-development-thresholds
   type: hard
 - id: euler-equation-consumption
   type: soft

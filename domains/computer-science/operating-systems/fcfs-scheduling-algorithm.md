@@ -4,7 +4,7 @@ title: First-Come-First-Served (FCFS) Scheduling
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: cpu-scheduling-basic-concepts
+- id: cpu-scheduling-basics
   type: hard
 builds-toward:
 - round-robin-scheduling

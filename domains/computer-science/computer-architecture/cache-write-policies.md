@@ -4,10 +4,8 @@ title: Cache Write-Through and Write-Back Policies
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: cache-design-principles
-  type: hard
 - id: cache-memory-design
-  type: soft
+  type: hard
 builds-toward:
 - cache-coherence-protocols
 tags:

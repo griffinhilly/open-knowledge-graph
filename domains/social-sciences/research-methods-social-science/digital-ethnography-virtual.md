@@ -16,7 +16,7 @@ tags:
 - digital
 - online
 - virtual-worlds
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

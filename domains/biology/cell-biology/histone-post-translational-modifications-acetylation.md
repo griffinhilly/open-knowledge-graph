@@ -9,7 +9,7 @@ prerequisites:
 - id: post-translational-modifications
   type: hard
 builds-toward:
-- mrna-5-capping-and-3-polyadenylation
+- rna-processing
 tags:
 - histone-acetylation
 - epigenetics

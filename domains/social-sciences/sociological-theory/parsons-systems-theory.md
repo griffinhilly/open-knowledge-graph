@@ -7,13 +7,13 @@ prerequisites:
 - id: structural-functionalism
   type: hard
 builds-toward:
-- structuration-theory
+- anthony-giddens-structuration
 tags:
 - parsons
 - systems-theory
 - abstraction
 - action
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

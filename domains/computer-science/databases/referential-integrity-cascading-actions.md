@@ -4,9 +4,9 @@ title: Referential Integrity and Cascading Delete/Update Actions
 domain: computer-science
 course: databases
 prerequisites:
-- id: primary-key-foreign-key-constraints
+- id: primary-and-foreign-keys
   type: hard
-- id: sql-constraint-types-domain-check
+- id: sql-constraint-enforcement
   type: hard
 builds-toward:
 - database-schema-design

@@ -6,10 +6,8 @@ course: data-structures-and-algorithms
 prerequisites:
 - id: queues-data-structure
   type: hard
-- id: graph-representation
+- id: graph-adjacency-list-matrix-representations
   type: hard
-- id: graph-theory-intro
-  type: soft
 - id: tree-traversals
   type: soft
 builds-toward:

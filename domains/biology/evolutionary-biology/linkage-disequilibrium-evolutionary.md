@@ -13,7 +13,7 @@ tags:
 - recombination
 - genetic-association
 - haplotype
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

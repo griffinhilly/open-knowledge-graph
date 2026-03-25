@@ -4,7 +4,7 @@ title: The Prisoner's Dilemma and Cooperation Failure
 domain: economics
 course: microeconomics
 prerequisites:
-- id: nash-equilibrium-simultaneous-move-games
+- id: nash-equilibrium-microeconomics
   type: hard
 tags:
 - prisoner-dilemma

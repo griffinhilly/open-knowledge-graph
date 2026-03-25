@@ -4,7 +4,7 @@ title: Gossip Protocols and Epidemic Algorithms
 domain: computer-science
 course: distributed-systems
 prerequisites:
-- id: distributed-systems-overview
+- id: distributed-systems-introduction
   type: hard
 - id: eventual-consistency
   type: soft

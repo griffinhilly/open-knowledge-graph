@@ -17,7 +17,7 @@ tags:
 - transcription factors
 - chromatin
 - histone acetylation
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

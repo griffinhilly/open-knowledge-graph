@@ -17,7 +17,7 @@ prerequisites:
 builds-toward:
 - expectation-formation-mechanisms
 - phillips-curve-dynamics
-- dsge-models-framework
+- dsge-models
 tags:
 - expectations
 - information

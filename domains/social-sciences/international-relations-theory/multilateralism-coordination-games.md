@@ -13,7 +13,7 @@ tags:
 - coordination
 - collective-action
 - institutions
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

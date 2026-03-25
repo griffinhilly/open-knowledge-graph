@@ -15,7 +15,7 @@ tags:
 - multivalued-dependencies
 - MVD
 - normalization
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

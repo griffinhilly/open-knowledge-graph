@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - phillips-curve-dynamics
-- dsge-models-framework
+- dsge-models
 tags:
 - expectations
 - bounded-rationality

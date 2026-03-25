@@ -4,7 +4,7 @@ title: Subduction Zone Structure and High-Pressure Metamorphism
 domain: earth-and-space-sciences
 course: geology
 prerequisites:
-- id: plate-boundary-types-kinematics
+- id: plate-boundary-processes-interactions
   type: hard
 - id: metamorphic-facies-rock-associations
   type: soft
@@ -14,7 +14,7 @@ tags:
 - subduction
 - metamorphism
 - plate-tectonics
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

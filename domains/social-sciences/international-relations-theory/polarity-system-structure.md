@@ -9,13 +9,13 @@ prerequisites:
 - id: power-capabilities-distribution
   type: hard
 builds-toward:
-- power-transition-theory
+- power-transition-hegemonic-dominance
 - international-order-stability
 tags:
 - realism
 - system-structure
 - polarity
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

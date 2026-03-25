@@ -20,7 +20,7 @@ tags:
 - instability
 - waves
 - dynamics
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

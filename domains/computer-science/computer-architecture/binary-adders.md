@@ -4,8 +4,6 @@ title: 'Binary Adders: Half-Adders and Full-Adders'
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: adder-circuits
-  type: hard
 - id: boolean-algebra-and-laws
   type: soft
 - id: boolean-algebra
@@ -13,7 +11,7 @@ prerequisites:
 - id: binary-arithmetic
   type: soft
 builds-toward:
-- arithmetic-logic-units-design
+- arithmetic-logic-unit
 - fixed-point-number-representation
 tags:
 - adders

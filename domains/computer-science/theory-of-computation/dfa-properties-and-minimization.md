@@ -4,7 +4,7 @@ title: DFA Properties and Minimization Algorithms
 domain: computer-science
 course: theory-of-computation
 prerequisites:
-- id: nfa-dfa-equivalence-construction
+- id: nfa-to-dfa-conversion
   type: hard
 builds-toward:
 - regular-languages-fundamentals

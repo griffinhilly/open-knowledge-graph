@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - ethnography-advanced-methods
-- bias-positionality-reflexivity-research
+- reflexivity-positionality-research
 tags:
 - ethnography
 - fieldwork

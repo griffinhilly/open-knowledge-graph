@@ -19,7 +19,7 @@ builds-toward:
 tags:
 - action-potential
 - electrophysiology
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

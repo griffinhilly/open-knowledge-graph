@@ -9,14 +9,14 @@ prerequisites:
 - id: structural-functionalism
   type: soft
 builds-toward:
-- bourdieu-cultural-capital
+- cultural-capital-and-inequality
 - bourdieu-field-sociology
 tags:
 - bourdieu
 - habitus
 - dispositions
 - internalization
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

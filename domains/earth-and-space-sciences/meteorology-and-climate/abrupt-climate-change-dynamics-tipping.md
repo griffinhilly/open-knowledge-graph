@@ -4,7 +4,7 @@ title: Abrupt Climate Change and Tipping Point Dynamics
 domain: earth-and-space-sciences
 course: meteorology-and-climate
 prerequisites:
-- id: climate-feedbacks-and-sensitivity
+- id: feedback-mechanisms-in-climate
   type: hard
 - id: climate-tipping-points
   type: soft
@@ -15,7 +15,7 @@ tags:
 - abrupt-change
 - tipping-points
 - nonlinear
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

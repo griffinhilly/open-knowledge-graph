@@ -18,3 +18,12 @@ courses:
 - id: social-psychology
   title: Social Psychology
   stage: abstract-reasoning
+- id: psychometrics
+  title: Psychometrics
+  stage: formal-systems
+- id: cognitive-neuroscience
+  title: Cognitive Neuroscience
+  stage: advanced
+- id: clinical-psychology
+  title: Clinical Psychology
+  stage: advanced

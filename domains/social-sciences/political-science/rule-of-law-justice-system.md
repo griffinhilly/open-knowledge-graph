@@ -4,7 +4,7 @@ title: Rule of Law and Justice Systems
 domain: social-sciences
 course: political-science
 prerequisites:
-- id: constitutionalism-and-limitations
+- id: constitutionalism
   type: hard
 builds-toward:
 - judicial-branch-systems

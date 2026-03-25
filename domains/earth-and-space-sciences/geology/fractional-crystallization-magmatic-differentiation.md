@@ -14,7 +14,7 @@ tags:
 - magmatism
 - crystallization
 - differentiation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

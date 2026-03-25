@@ -4,7 +4,7 @@ title: Shared Memory Inter-Process Communication
 domain: computer-science
 course: operating-systems
 prerequisites:
-- id: inter-process-communication-mechanisms
+- id: inter-process-communication
   type: hard
 - id: virtual-memory-management
   type: soft

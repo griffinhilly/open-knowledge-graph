@@ -22,7 +22,7 @@ tags:
 - thiamine
 - lipoic acid
 - oxidative decarboxylation
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

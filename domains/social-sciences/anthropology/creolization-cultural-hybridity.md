@@ -6,7 +6,7 @@ course: anthropology
 prerequisites:
 - id: acculturation-syncretism-processes
   type: soft
-- id: colonialism-postcolonial-legacies
+- id: colonialism-geographic-legacy
   type: soft
 builds-toward:
 - cultural-change-innovation

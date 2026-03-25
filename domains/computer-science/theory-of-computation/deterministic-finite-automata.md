@@ -14,14 +14,14 @@ prerequisites:
   type: soft
 builds-toward:
 - nondeterministic-finite-automata
-- regular-language-properties
-- closure-properties-regular
+- regular-languages-fundamentals
+- closure-properties-regular-languages
 tags:
 - automata
 - formal-languages
 - DFA
 - regular
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

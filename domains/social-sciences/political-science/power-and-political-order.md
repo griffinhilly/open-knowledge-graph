@@ -6,8 +6,8 @@ course: political-science
 prerequisites: []
 builds-toward:
 - authority-and-legitimacy
-- state-concept-and-sovereignty
-- authoritarian-governance
+- state-and-sovereignty
+- authoritarianism-and-autocracy
 tags:
 - foundational
 - power

@@ -8,10 +8,8 @@ prerequisites:
   type: hard
 - id: breadth-first-search
   type: hard
-- id: graph-representation
+- id: graph-adjacency-list-matrix-representations
   type: hard
-- id: graph-theory-intro
-  type: soft
 - id: greedy-algorithms
   type: soft
 - id: dijkstras-shortest-path-routing

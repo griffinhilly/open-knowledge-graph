@@ -6,7 +6,7 @@ course: distributed-systems
 prerequisites:
 - id: eventual-consistency
   type: hard
-- id: primary-backup-replication
+- id: replication-strategies-analysis
   type: soft
 builds-toward:
 - merkle-trees-data-consistency

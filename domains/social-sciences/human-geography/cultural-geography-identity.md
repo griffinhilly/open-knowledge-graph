@@ -4,7 +4,7 @@ title: Cultural Geography and Identity Formation
 domain: social-sciences
 course: human-geography
 prerequisites:
-- id: place-social-construction
+- id: place-and-space-concepts
   type: hard
 builds-toward:
 - diaspora-transnational-networks

@@ -6,7 +6,7 @@ course: advanced-microeconomics
 prerequisites:
 - id: bayesian-games
   type: hard
-- id: principal-agent-model
+- id: principal-agent-contracting
   type: hard
 - id: bayes-theorem
   type: soft

@@ -14,7 +14,7 @@ tags:
 - purine
 - de-novo-synthesis
 - PRPP
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

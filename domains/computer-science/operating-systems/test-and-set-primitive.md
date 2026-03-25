@@ -9,7 +9,7 @@ prerequisites:
 - id: atomic-operations-compare-and-swap
   type: soft
 builds-toward:
-- semaphore-formal-definition
+- semaphores
 tags:
 - synchronization
 - atomic

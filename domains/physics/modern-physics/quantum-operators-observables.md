@@ -7,7 +7,7 @@ prerequisites:
 - id: wavefunction-probability-density
   type: hard
 builds-toward:
-- expectation-values-quantum
+- expectation-values
 tags:
 - quantum
 - operators

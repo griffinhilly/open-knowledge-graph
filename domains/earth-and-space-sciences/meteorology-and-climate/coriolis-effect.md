@@ -26,7 +26,7 @@ tags:
 - deflection
 - wind
 - geostrophic
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -6,7 +6,7 @@ course: oceanography
 prerequisites:
 - id: ocean-chemistry-and-nutrients
   type: hard
-- id: marine-biological-pump-mechanisms
+- id: marine-biological-pump
   type: hard
 - id: dissolved-oxygen-biogeochemical-cycles
   type: soft

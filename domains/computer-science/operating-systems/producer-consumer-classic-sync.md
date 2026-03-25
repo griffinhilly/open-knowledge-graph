@@ -6,7 +6,7 @@ course: operating-systems
 prerequisites:
 - id: counting-semaphores-resource-pools
   type: hard
-- id: condition-variables-and-monitors
+- id: monitors-and-condition-variables
   type: soft
 tags:
 - synchronization-patterns

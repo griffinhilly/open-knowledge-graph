@@ -13,7 +13,7 @@ tags:
 - paleoenvironment
 - sedimentary-structures
 - interpretation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

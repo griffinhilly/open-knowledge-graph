@@ -4,7 +4,7 @@ title: Reduced Form and First-Stage Equations
 domain: economics
 course: econometrics
 prerequisites:
-- id: two-stage-least-squares-procedure
+- id: two-stage-least-squares
   type: hard
 builds-toward:
 - overidentification-test

@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: graphing-sine-and-cosine
   type: soft
-- id: trigonometric-functions-and-graphs
+- id: graphing-sine-and-cosine
   type: soft
 builds-toward:
 - wave-speed-medium

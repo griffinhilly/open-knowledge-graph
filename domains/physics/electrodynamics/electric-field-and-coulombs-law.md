@@ -4,9 +4,9 @@ title: Electric Field and Coulomb's Law
 domain: physics
 course: electrodynamics
 prerequisites:
-- id: multivariable-calculus
+- id: partial-derivatives
   type: hard
-- id: classical-mechanics
+- id: newtons-second-law
   type: soft
 builds-toward:
 - electric-potential-and-potential-energy

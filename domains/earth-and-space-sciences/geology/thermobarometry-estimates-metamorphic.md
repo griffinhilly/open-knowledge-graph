@@ -13,7 +13,7 @@ tags:
 - metamorphism
 - mineral-chemistry
 - geothermometry
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - participatory
 - engaged
 - reflexive
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

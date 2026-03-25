@@ -4,7 +4,7 @@ title: Autoimmunity and Autoimmune Disease
 domain: biology
 course: immunology
 prerequisites:
-- id: regulatory-t-cells-immune-tolerance
+- id: regulatory-t-cells-immune-tolerance-immune-tolerance
   type: hard
 - id: hypersensitivity-reactions
   type: soft

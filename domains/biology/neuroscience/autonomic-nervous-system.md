@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - autonomic
 - homeostasis
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

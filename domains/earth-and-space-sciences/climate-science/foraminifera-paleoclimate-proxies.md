@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - marine-isotope-stages
-- foraminifera-assemblage-paleoclimate
+- foraminifera-paleoclimate-proxies
 tags:
 - foraminifera
 - paleontology

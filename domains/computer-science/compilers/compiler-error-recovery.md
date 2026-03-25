@@ -6,7 +6,7 @@ course: compilers
 prerequisites:
 - id: syntax-error-recovery-techniques
   type: hard
-- id: semantic-error-detection-reporting
+- id: semantic-analysis
   type: hard
 - id: parser-generators
   type: soft

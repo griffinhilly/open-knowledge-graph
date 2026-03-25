@@ -4,12 +4,12 @@ title: Barrel Shifter and Rotation Circuits
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: multiplexer-circuits
+- id: multiplexers-and-demultiplexers
   type: hard
-- id: combinational-logic-implementation
+- id: combinational-circuit-design
   type: soft
 builds-toward:
-- arithmetic-logic-unit-design-details
+- arithmetic-logic-unit
 tags:
 - shifter
 - rotation

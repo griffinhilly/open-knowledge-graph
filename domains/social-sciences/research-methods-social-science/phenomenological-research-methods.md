@@ -4,7 +4,7 @@ title: Phenomenological Research Methods
 domain: social-sciences
 course: research-methods-social-science
 prerequisites:
-- id: philosophy-social-science-research
+- id: philosophy-of-social-science-epistemology
   type: soft
 builds-toward:
 - narrative-analysis-methods
@@ -13,7 +13,7 @@ tags:
 - lived-experience
 - consciousness
 - essence
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

@@ -17,7 +17,7 @@ tags:
 - body-waves
 - wave-modes
 - elastic-waves
-stage: expert
+stage: advanced
 status: validated
 ---
 

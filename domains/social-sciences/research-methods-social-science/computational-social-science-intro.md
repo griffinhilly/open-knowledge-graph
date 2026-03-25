@@ -15,7 +15,7 @@ tags:
 - agent-based-modeling
 - text-analysis
 - digital-methods
-stage: expert
+stage: abstract-reasoning
 status: validated
 ---
 

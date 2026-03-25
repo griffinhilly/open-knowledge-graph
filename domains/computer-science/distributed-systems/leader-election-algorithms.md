@@ -4,11 +4,11 @@ title: Leader Election Algorithms
 domain: computer-science
 course: distributed-systems
 prerequisites:
-- id: distributed-systems-overview
+- id: distributed-systems-introduction
   type: hard
 builds-toward:
 - raft-algorithm
-- primary-backup-replication
+- replication-strategies-analysis
 tags:
 - leader-election
 - coordination

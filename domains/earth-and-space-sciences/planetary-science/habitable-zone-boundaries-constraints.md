@@ -18,7 +18,7 @@ tags:
 - habitable-zone
 - liquid-water
 - climate-feedbacks
-stage: expert
+stage: advanced
 status: validated
 ---
 

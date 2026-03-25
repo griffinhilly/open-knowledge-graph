@@ -15,7 +15,7 @@ builds-toward:
 tags:
 - pyruvate
 - metabolic-integration
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

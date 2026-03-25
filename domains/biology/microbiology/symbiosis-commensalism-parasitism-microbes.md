@@ -6,7 +6,7 @@ course: microbiology
 prerequisites:
 - id: mutualism-and-symbiosis
   type: hard
-- id: microbial-communities-and-biogeochemical-cycling
+- id: microbial-ecology-biogeochemical-cycling
   type: soft
 builds-toward:
 - human-microbiome

@@ -4,17 +4,17 @@ title: Alienation in Capitalist Society
 domain: social-sciences
 course: sociological-theory
 prerequisites:
-- id: karl-marx-historical-materialism
+- id: marx-historical-materialism
   type: hard
 builds-toward:
-- class-struggle-consciousness
+- class-struggle-marxist
 - cultural-capital-and-inequality
 tags:
 - marx
 - alienation
 - labor
 - capitalism
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

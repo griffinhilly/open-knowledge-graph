@@ -9,7 +9,7 @@ prerequisites:
 builds-toward:
 - system-calls
 - process-creation-fork-exec
-- interrupt-exception-handling
+- interrupts-and-dma
 tags:
 - security
 - hardware-abstraction

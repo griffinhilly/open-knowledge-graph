@@ -14,7 +14,7 @@ tags:
 - war
 - bargaining
 - rationalism
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

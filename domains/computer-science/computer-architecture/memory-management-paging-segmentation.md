@@ -6,11 +6,11 @@ course: computer-architecture
 prerequisites:
 - id: virtual-memory-basics
   type: hard
-- id: memory-array-organization
+- id: memory-organization
   type: soft
 builds-toward:
-- cache-design-principles
-- io-architecture-system-integration
+- cache-memory-design
+- io-systems-overview
 tags:
 - memory
 - paging

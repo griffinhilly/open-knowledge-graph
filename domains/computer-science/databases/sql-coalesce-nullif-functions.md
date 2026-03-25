@@ -4,7 +4,7 @@ title: 'COALESCE and NULLIF: NULL Handling Functions'
 domain: computer-science
 course: databases
 prerequisites:
-- id: sql-select-basics
+- id: sql-data-retrieval-select
   type: hard
 builds-toward:
 - sql-case-when-expressions

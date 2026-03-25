@@ -7,12 +7,12 @@ prerequisites:
 - id: diplomacy-and-negotiation
   type: hard
 builds-toward:
-- humanitarian-intervention-sovereignty
+- human-rights-norms-sovereignty-intervention
 tags:
 - mediation
 - conflict-resolution
 - third-party
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 builds-toward:
 - perfect-bayesian-equilibrium
-- mechanism-design-intro
+- mechanism-design-basics
 tags:
 - game-theory
 - incomplete-information

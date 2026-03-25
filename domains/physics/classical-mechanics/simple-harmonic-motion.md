@@ -20,7 +20,7 @@ prerequisites:
   type: hard
 - id: differential-equations-intro
   type: hard
-- id: trigonometric-functions-and-graphs
+- id: graphing-sine-and-cosine
   type: soft
 builds-toward:
 - spring-mass-system

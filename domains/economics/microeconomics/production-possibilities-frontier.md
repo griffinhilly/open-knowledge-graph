@@ -14,7 +14,7 @@ tags:
 - efficiency
 - tradeoffs
 - scarcity
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -3,11 +3,9 @@ id: distributed-systems-introduction
 title: Introduction to Distributed Systems
 domain: computer-science
 course: distributed-systems
-prerequisites:
-- id: distributed-systems-overview
-  type: hard
+prerequisites: []
 builds-toward:
-- distributed-system-communication-models
+- distributed-system-models
 - network-partition-tolerance
 tags:
 - fundamentals

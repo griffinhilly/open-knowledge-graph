@@ -14,7 +14,7 @@ tags:
 - pacific
 - ocean-climate
 - variability
-stage: expert
+stage: advanced
 status: validated
 ---
 

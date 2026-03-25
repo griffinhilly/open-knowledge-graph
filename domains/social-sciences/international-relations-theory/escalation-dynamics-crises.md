@@ -13,7 +13,7 @@ tags:
 - escalation
 - conflict
 - war
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

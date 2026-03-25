@@ -15,7 +15,7 @@ tags:
 - vertical-motion
 - dynamics
 - diagnostic
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

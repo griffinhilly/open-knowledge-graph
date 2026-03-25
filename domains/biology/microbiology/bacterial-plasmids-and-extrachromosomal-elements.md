@@ -9,7 +9,7 @@ prerequisites:
 - id: microbial-genetics-overview
   type: soft
 builds-toward:
-- bacterial-conjugation-dna-transfer
+- bacterial-conjugation-plasmid-transfer
 - crispr-cas-systems-bacterial-defense
 tags:
 - plasmids

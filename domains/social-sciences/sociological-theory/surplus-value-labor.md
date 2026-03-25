@@ -6,7 +6,7 @@ course: sociological-theory
 prerequisites:
 - id: marxist-base-superstructure
   type: hard
-- id: marxist-alienation
+- id: alienation-capitalist-society
   type: soft
 builds-toward:
 - class-struggle-marxist
@@ -16,7 +16,7 @@ tags:
 - labor
 - exploitation
 - value
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

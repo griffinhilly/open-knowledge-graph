@@ -4,7 +4,7 @@ title: 'Auction Design: First-Price and Second-Price Sealed-Bid Auctions'
 domain: economics
 course: advanced-microeconomics
 prerequisites:
-- id: mechanism-design-and-vickrey-clarke-groves
+- id: mechanism-design-basics
   type: hard
 tags:
 - auction-theory

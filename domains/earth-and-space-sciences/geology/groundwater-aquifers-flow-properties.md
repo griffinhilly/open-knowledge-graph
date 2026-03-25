@@ -4,7 +4,7 @@ title: Groundwater and Aquifer Properties
 domain: earth-and-space-sciences
 course: geology
 prerequisites:
-- id: groundwater-flow-hydrogeology-porosity-permeability
+- id: hydrogeology-groundwater
   type: hard
 - id: mineral-crystal-systems-classification
   type: soft

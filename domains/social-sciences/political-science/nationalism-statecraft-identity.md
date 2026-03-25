@@ -4,10 +4,10 @@ title: Nationalism and National Identity in Politics
 domain: social-sciences
 course: political-science
 prerequisites:
-- id: state-power-and-sovereignty
+- id: state-and-sovereignty
   type: hard
 builds-toward:
-- international-state-system-basics
+- international-relations-overview
 - political-revolution-transformation
 tags:
 - nationalism

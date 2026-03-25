@@ -14,7 +14,7 @@ tags:
 - anomie
 - solidarity
 - deviance
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

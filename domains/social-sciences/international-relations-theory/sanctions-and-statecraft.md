@@ -14,7 +14,7 @@ tags:
 - coercion
 - statecraft
 - economics
-stage: expert
+stage: formal-systems
 status: validated
 ---
 # Sanctions and Economic Statecraft

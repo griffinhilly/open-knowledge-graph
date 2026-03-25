@@ -9,7 +9,7 @@ prerequisites:
 - id: parsing-problem-overview
   type: hard
 builds-toward:
-- grammar-ambiguity-resolution
+- grammar-design-for-compilation
 tags:
 - parsing
 - operators

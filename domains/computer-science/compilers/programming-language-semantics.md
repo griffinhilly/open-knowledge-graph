@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - type-inference-algorithms
-- runtime-function-calls
+- activation-records-runtime
 tags:
 - semantics
 - formal-methods

@@ -9,7 +9,7 @@ prerequisites:
 builds-toward:
 - rossby-waves-barotropic
 - baroclinic-instability
-- ekman-spiral-ocean
+- ekman-boundary-layer-transport
 tags:
 - vorticity
 - conservation

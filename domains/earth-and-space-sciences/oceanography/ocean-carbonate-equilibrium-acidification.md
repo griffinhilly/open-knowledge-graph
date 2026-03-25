@@ -16,14 +16,14 @@ prerequisites:
   type: hard
 builds-toward:
 - ocean-acidification
-- coral-reef-ecosystem-structure
+- coral-reef-ecosystems
 tags:
 - carbonate
 - pH
 - acidification
 - saturation
 - buffering
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -6,7 +6,7 @@ course: oceanography
 prerequisites:
 - id: coastal-processes-and-waves
   type: hard
-- id: sediment-transport-erosion-mechanics
+- id: sediment-transport-and-deposition
   type: hard
 builds-toward:
 - estuarine-mixing-salt-wedge

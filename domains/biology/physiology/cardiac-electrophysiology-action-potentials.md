@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 builds-toward:
 - electrocardiogram-and-heart-rhythm
-- pacemaker-automaticity-sinoatrial-node
+- cardiac-pacemaker-activity-sinoatrial-node
 tags:
 - cardiology
 - electrophysiology

@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - comparative-political-systems
-- constitutionalism-and-limitations
+- constitutionalism
 tags:
 - monarchy
 - hereditary
