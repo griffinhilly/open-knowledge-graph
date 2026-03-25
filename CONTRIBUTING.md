@@ -75,10 +75,19 @@ the order of operations.
 (optional -- known student errors)
 ```
 
-### 5. Validate locally
+### 5. Set up git hooks (first time only)
 
 ```bash
-python tools/validate.py
+git config core.hooksPath hooks
+```
+
+This enables the pre-push hook, which automatically validates the graph before each push (~7s).
+
+### 6. Validate locally
+
+```bash
+python tools/validate.py          # full validation (warnings + errors)
+python tools/validate.py --quick   # errors only: cycles, dupes, schema (~7s)
 ```
 
 Fix any errors before opening your PR.
