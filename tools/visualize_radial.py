@@ -33,6 +33,10 @@ ROOT = Path(__file__).resolve().parent.parent
 DOMAINS_DIR = ROOT / "domains"
 OUTPUT_DIR = ROOT / "output"
 
+# Import branch X-positions from domain map tool
+sys.path.insert(0, str(ROOT / "tools"))
+from visualize_domain_map import COURSE_BRANCH_X
+
 # --- Developmental stage → radial band mapping ---
 # Maps the stage field to approximate age ranges and radial bands.
 # Inner = youngest, outer = most advanced.
@@ -191,6 +195,111 @@ def compute_depths(all_data):
     return depth
 
 
+def get_branch_x(course_id, domain_courses):
+    """Get the branch X-position for a course (0.0-1.0).
+
+    Uses COURSE_BRANCH_X mapping from domain maps where available,
+    falls back to uniform spacing based on course order.
+    """
+    if course_id in COURSE_BRANCH_X:
+        return COURSE_BRANCH_X[course_id]
+    # Fallback: uniform spacing based on position in course list
+    if course_id in domain_courses:
+        idx = domain_courses.index(course_id)
+        return (idx + 0.5) / max(len(domain_courses), 1)
+    return 0.5
+
+
+def compute_branch_flips(all_data, domain_order, sectors, configs):
+    """Auto-detect branch flip per domain by minimizing cross-domain edge lengths.
+
+    For each domain, tests both flip=False and flip=True. Measures total
+    Euclidean distance of cross-domain edges to domains within 3 angular
+    positions in either direction. Picks the flip that produces shorter edges.
+    """
+    n_domains = len(domain_order)
+    domain_idx = {d: i for i, d in enumerate(domain_order)}
+
+    # Build cross-domain edge list: (domain_a, course_a, domain_b, course_b)
+    cross_edges = []
+    for tid, data in all_data.items():
+        domain_a = data.get("domain", "")
+        course_a = data.get("course", "")
+        if domain_a not in domain_idx:
+            continue
+        for p in data.get("prerequisites", []):
+            if not isinstance(p, dict):
+                continue
+            pid = p.get("id")
+            if pid and pid in all_data:
+                pdata = all_data[pid]
+                domain_b = pdata.get("domain", "")
+                course_b = pdata.get("course", "")
+                if domain_b != domain_a and domain_b in domain_idx:
+                    cross_edges.append((domain_a, course_a, domain_b, course_b))
+
+    flips = {}
+    for domain in domain_order:
+        di = domain_idx[domain]
+        sector = sectors[domain]
+        sector_width = sector["end"] - sector["start"]
+        course_ids = [c["id"] for c in configs.get(domain, {}).get("courses", [])]
+
+        # Find nearby domains (within 3 angular positions, wrapping)
+        nearby = set()
+        for offset in range(-3, 4):
+            if offset == 0:
+                continue
+            ni = (di + offset) % n_domains
+            nearby.add(domain_order[ni])
+
+        # Filter edges: this domain ↔ nearby domains
+        relevant_edges = [
+            (da, ca, db, cb) for da, ca, db, cb in cross_edges
+            if (da == domain and db in nearby) or (db == domain and da in nearby)
+        ]
+
+        if not relevant_edges:
+            flips[domain] = False
+            continue
+
+        # Test both flips
+        best_flip = False
+        best_dist = float("inf")
+
+        for flip in (False, True):
+            total_dist = 0.0
+            for da, ca, db, cb in relevant_edges:
+                # Get angular position for topic in domain being tested
+                if da == domain:
+                    bx = get_branch_x(ca, course_ids)
+                    if flip:
+                        bx = 1.0 - bx
+                    angle_a = sector["start"] + sector_width * bx
+                    # Other domain uses its sector midpoint (we don't know its flip yet)
+                    angle_b = sectors[db]["mid"]
+                else:
+                    bx = get_branch_x(cb, course_ids)
+                    if flip:
+                        bx = 1.0 - bx
+                    angle_b = sector["start"] + sector_width * bx
+                    angle_a = sectors[da]["mid"]
+
+                # Angular distance (shortest arc)
+                delta = abs(angle_a - angle_b)
+                if delta > math.pi:
+                    delta = 2 * math.pi - delta
+                total_dist += delta
+
+            if total_dist < best_dist:
+                best_dist = total_dist
+                best_flip = flip
+
+        flips[domain] = best_flip
+
+    return flips
+
+
 def build_radial_layout(all_data, configs, depths):
     """Compute positions using developmental-stage radial bands and polar force simulation."""
 
@@ -237,6 +346,12 @@ def build_radial_layout(all_data, configs, depths):
     for stage, depth_list in stage_depths.items():
         stage_depth_ranges[stage] = (min(depth_list), max(depth_list))
 
+    # Compute branch flips (auto-detected from cross-domain edge lengths)
+    branch_flips = compute_branch_flips(all_data, domain_order, sectors, configs)
+    print("  Branch flips (True = reversed):")
+    for d in domain_order:
+        print(f"    {d}: {'FLIP' if branch_flips[d] else 'normal'}")
+
     # Assign initial (r, theta) for each topic
     positions = {}
     for tid, data in all_data.items():
@@ -259,26 +374,23 @@ def build_radial_layout(all_data, configs, depths):
             depth_frac = 0.5
         r = (band_min + depth_frac * (band_max - band_min)) * max_radius
 
-        # Angular: course sub-sector within domain sector
+        # Angular: use domain map branch X-positions for semantic sub-placement
         sector = sectors[domain]
         course_ids = [c["id"] for c in configs.get(domain, {}).get("courses", [])]
-        n_courses = len(course_ids)
-
-        if course in course_ids:
-            course_idx = course_ids.index(course)
-        else:
-            course_idx = 0
-
         sector_width = sector["end"] - sector["start"]
-        if n_courses > 0:
-            course_frac = (course_idx + 0.5) / n_courses
-        else:
-            course_frac = 0.5
 
-        base_angle = sector["start"] + sector_width * course_frac
+        # Get branch X (0.0-1.0) and apply flip
+        bx = get_branch_x(course, course_ids)
+        if branch_flips.get(domain, False):
+            bx = 1.0 - bx
 
-        # Jitter for organic feel (radial jitter kept small to preserve depth ordering)
-        angle_jitter = (random.random() - 0.5) * sector_width / max(n_courses, 1) * 0.5
+        # Map branch X to angle within sector (with small margin to avoid edges)
+        margin = sector_width * 0.05
+        base_angle = sector["start"] + margin + bx * (sector_width - 2 * margin)
+
+        # Jitter for organic feel (scaled to course density)
+        n_courses = max(len(course_ids), 1)
+        angle_jitter = (random.random() - 0.5) * sector_width / n_courses * 0.3
         radial_jitter = (random.random() - 0.5) * (band_max - band_min) * max_radius * 0.05
 
         theta = base_angle + angle_jitter
@@ -291,7 +403,7 @@ def build_radial_layout(all_data, configs, depths):
             "x": x, "y": y,
             "r": r, "theta": theta,
             "target_r": r,  # For radial spring-back
-            "target_theta": base_angle,  # For angular spring-back (sector center for this course)
+            "target_theta": base_angle,  # For angular spring-back (branch X position)
             "stage": stage,
         }
 
