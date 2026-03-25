@@ -7,16 +7,19 @@ Phase 8.5 COMPLETE. Phase 9 IN PROGRESS (9A+9B done, 9C next). **13,411 topics**
 **Last session (Mar 25, 2026):** CI pipeline, pre-push hook, leaf connections, hierarchy→domain map swap, radial branch integration, PyYAML swap, 18-pair dedup.
 
 **Known issues:**
-- CS has 99 dangling cross-domain prereq refs (pointing to math/logic topics by wrong ID)
 - Semantic zoom not implemented (single zoom level with text toggle)
-- 3 closely related pairs flagged by dedup tool — not duplicates, could be connected
-- 1 uncertain pair (occupational health surveillance vs hazard control) — needs human review
-- Leaf topics still at 34.4% overall (5 domains done, 14 remaining)
+- 369 potential duplicates flagged by 14-domain leaf expansion — need dedup review
+- 3 closely related pairs + 1 uncertain pair from original dedup — need human review
+- Language-and-communication still at 44% leaves (highest remaining)
 
 **Next steps:**
-1. **Phase 9C**: Deep Dive assessment + Results screen redesign
-2. **Expand leaf connections** to remaining 14 domains
-3. **CS cross-domain ref fix**: 99 dangling refs using course names as prereq IDs
+1. **Domain map improvements**:
+   a. Fix topical search (not working on domain maps)
+   b. Include cross-domain edges in label sizing (e.g., Intro to Differential Equations appears small because only within-domain edges counted, but it's a major hub on the radial graph)
+   c. Toggle to show out-of-domain topics with connections to in-domain topics (grey "out-of-domain" course coloring, show cross-domain edge counts)
+   d. Rename `differential-equations-intro-separable` title from "Introduction to Differential Equations - Separable Equations" to "Separable Equations (Intro)" — it's a calc-2 preview, not the full DE treatment
+2. **Phase 9C**: Deep Dive assessment + Results screen redesign
+3. **Dedup review**: 369 new potential duplicates from leaf expansion
 4. Phase 9D: Landing page + polish
 5. Write announcement post
 
