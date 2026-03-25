@@ -17,6 +17,7 @@ import re
 import json
 import argparse
 import math
+import yaml
 from pathlib import Path
 from collections import defaultdict, deque
 
@@ -147,10 +148,6 @@ def smart_title(slug):
     return " ".join(w if w[0].isdigit() else w.capitalize() for w in words if w)
 
 
-# ---------------------------------------------------------------------------
-# YAML parsing (regex-based, no PyYAML dependency)
-# ---------------------------------------------------------------------------
-
 def parse_frontmatter(filepath):
     try:
         text = filepath.read_text(encoding="utf-8")
@@ -159,50 +156,41 @@ def parse_frontmatter(filepath):
     m = re.match(r"^---\s*\n(.*?)\n---\s*\n", text, re.DOTALL)
     if not m:
         return None
-    block = m.group(1)
+    raw = yaml.safe_load(m.group(1))
+    if not isinstance(raw, dict) or "id" not in raw:
+        return None
     data = {}
     for field in ("id", "title", "domain", "course", "stage"):
-        fm = re.search(rf"^{field}:\s*(.+)$", block, re.MULTILINE)
-        if fm:
-            data[field] = fm.group(1).strip()
-    tags = []
-    tm = re.search(r"^tags:\s*\n((?:- .+\n)*)", block, re.MULTILINE)
-    if tm:
-        for t in re.finditer(r"^- (.+)$", tm.group(1), re.MULTILINE):
-            tags.append(t.group(1).strip())
-    data["tags"] = tags
+        if field in raw:
+            data[field] = str(raw[field])
+    tags = raw.get("tags", [])
+    data["tags"] = [str(t) for t in tags] if isinstance(tags, list) else []
     prereqs = []
-    pm = re.search(r"^prerequisites:\s*\n((?:- .+\n|  .+\n)*)", block, re.MULTILINE)
-    if pm:
-        for p in re.finditer(
-            r"- id:\s*(.+?)(?:\n\s+type:\s*(.+?))?(?=\n- |\Z)",
-            pm.group(1), re.DOTALL
-        ):
+    for p in raw.get("prerequisites", []) or []:
+        if isinstance(p, dict) and "id" in p:
             prereqs.append({
-                "id": p.group(1).strip(),
-                "type": (p.group(2) or "hard").strip(),
+                "id": str(p["id"]),
+                "type": str(p.get("type", "hard")),
             })
     data["prerequisites"] = prereqs
-    return data if "id" in data else None
+    return data
 
 
 def parse_domain_yml(filepath):
-    text = filepath.read_text(encoding="utf-8")
+    raw = yaml.safe_load(filepath.read_text(encoding="utf-8"))
+    if not isinstance(raw, dict):
+        return {"courses": []}
     data = {}
-    m = re.search(r"^title:\s*(.+)$", text, re.MULTILINE)
-    if m:
-        data["title"] = m.group(1).strip()
+    if "title" in raw:
+        data["title"] = str(raw["title"])
     courses = []
-    cm = re.search(r"^courses:\s*\n((?:\s*- .+\n|\s+\w.+\n)*)", text, re.MULTILINE)
-    if cm:
-        for c in re.finditer(
-            r"\s*- id:\s*(.+?)\n(?:\s+title:\s*(.+?)\n)?(?:\s+stage:\s*(.+?)\n)?",
-            cm.group(1)
-        ):
+    for c in raw.get("courses", []) or []:
+        if isinstance(c, dict) and "id" in c:
+            cid = str(c["id"])
             courses.append({
-                "id": c.group(1).strip(),
-                "title": (c.group(2) or smart_title(c.group(1))).strip(),
-                "stage": (c.group(3) or "abstract-reasoning").strip(),
+                "id": cid,
+                "title": str(c.get("title", "") or smart_title(cid)),
+                "stage": str(c.get("stage", "") or "abstract-reasoning"),
             })
     data["courses"] = courses
     return data
