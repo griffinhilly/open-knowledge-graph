@@ -1,6 +1,6 @@
 ---
 id: differential-equations-intro-separable
-title: Introduction to Differential Equations - Separable Equations
+title: Separable Equations (Intro)
 domain: mathematics
 course: calculus-2
 prerequisites:
@@ -20,7 +20,7 @@ tags:
 stage: formal-systems
 status: validated
 ---
-# Introduction to Differential Equations - Separable Equations
+# Separable Equations (Intro)
 
 ## Core Idea
 A differential equation is an equation involving a function and its derivatives. A separable equation has the form dy/dx = f(x)g(y), which can be solved by separating variables: (1/g(y)) dy = f(x) dx, then integrating both sides. This technique solves many fundamental models: exponential growth/decay (dy/dx = ky), Newton's cooling law, logistic growth, and mixing problems. It is the first and most natural solution technique.

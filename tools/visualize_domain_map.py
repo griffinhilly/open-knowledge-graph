@@ -200,6 +200,30 @@ def parse_domain_yml(filepath):
 # Data loading
 # ---------------------------------------------------------------------------
 
+def count_cross_domain_edges(domain_nids):
+    """Count cross-domain edges for each node in a domain.
+
+    Scans ALL domains to find edges where one endpoint is in domain_nids
+    and the other is not. Returns dict: node_id -> count of cross-domain edges.
+    """
+    cross_counts = defaultdict(int)
+    for fp in sorted(DOMAINS_DIR.rglob("*.md")):
+        d = parse_frontmatter(fp)
+        if not d:
+            continue
+        tid = d["id"]
+        for p in d.get("prerequisites", []):
+            pid = p["id"]
+            # Edge: pid -> tid (pid is prereq of tid)
+            if pid in domain_nids and tid not in domain_nids:
+                cross_counts[pid] += 1  # domain node is depended on from outside
+            elif tid in domain_nids and pid not in domain_nids:
+                cross_counts[tid] += 1  # domain node depends on outside
+
+
+    return cross_counts
+
+
 def load_domain(domain, course_filter=None):
     """Load topics, edges, and config for a domain (optionally filtered to one course)."""
     domain_dir = DOMAINS_DIR / domain
@@ -1300,6 +1324,25 @@ searchInput.addEventListener("input", function() {{
   }});
   searchCount.textContent = searchMatches.length + " match"
     + (searchMatches.length !== 1 ? "es" : "");
+  if (searchMatches.length >= 1 && searchMatches.length <= 20) {{
+    // Pan/zoom to show all matches
+    var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    searchMatches.forEach(function(n) {{
+      if (n.x - n.w/2 < minX) minX = n.x - n.w/2;
+      if (n.y - n.h/2 < minY) minY = n.y - n.h/2;
+      if (n.x + n.w/2 > maxX) maxX = n.x + n.w/2;
+      if (n.y + n.h/2 > maxY) maxY = n.y + n.h/2;
+    }});
+    var pad = 100;
+    var bw = maxX - minX + pad * 2;
+    var bh = maxY - minY + pad * 2;
+    camScale = Math.min(W / bw, H / bh) * 0.85;
+    camScale = Math.max(0.05, Math.min(20, camScale));
+    var cx = (minX + maxX) / 2;
+    var cy = (minY + maxY) / 2;
+    camX = W / 2 - cx * camScale;
+    camY = H / 2 - cy * camScale;
+  }}
   if (searchMatches.length === 1) {{
     selectedNode = searchMatches[0]; hoveredNode = searchMatches[0];
     showPanel(searchMatches[0], W / 2, H / 2);
@@ -1374,6 +1417,11 @@ def generate_domain_map(domain):
     domain_title = config["title"]
 
     conn = compute_connectivity(nodes, edges)
+    # Add cross-domain edges to connectivity for proper sizing
+    print("  Counting cross-domain edges for sizing...")
+    cross_counts = count_cross_domain_edges(set(nodes.keys()))
+    for nid in conn:
+        conn[nid] += cross_counts.get(nid, 0)
     box_dims = estimate_box_dims(nodes, conn)
     course_stages = config.get("course_stages", {})
 
