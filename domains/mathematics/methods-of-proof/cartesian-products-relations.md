@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - functions-domain-codomain-range
-- equivalence-relations-partitions
+- equivalence-relations
 tags:
 - sets
 - relations

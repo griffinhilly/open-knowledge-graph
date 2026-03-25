@@ -6,7 +6,7 @@ course: real-analysis
 prerequisites:
 - id: uniform-convergence-functions
   type: hard
-- id: series-convergence-rigorous
+- id: rigorous-series-convergence
   type: hard
 builds-toward:
 - uniform-convergence-power-series

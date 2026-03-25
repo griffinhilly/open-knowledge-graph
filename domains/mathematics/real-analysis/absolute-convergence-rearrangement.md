@@ -4,7 +4,7 @@ title: Absolute Convergence and Rearrangement
 domain: mathematics
 course: real-analysis
 prerequisites:
-- id: series-convergence-rigorous
+- id: rigorous-series-convergence
   type: hard
 tags:
 - absolute-convergence

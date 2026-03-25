@@ -6,7 +6,7 @@ course: real-analysis
 prerequisites:
 - id: riemann-integral-properties
   type: hard
-- id: series-convergence-rigorous
+- id: rigorous-series-convergence
   type: soft
 tags:
 - improper-integrals

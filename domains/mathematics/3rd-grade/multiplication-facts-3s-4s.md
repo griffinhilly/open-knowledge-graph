@@ -7,7 +7,7 @@ prerequisites:
 - id: multiplication-facts-twos-fives-tens
   type: hard
 builds-toward:
-- multiplication-facts-6s-through-9s
+- multiplication-fluency-facts-6-through-9
 tags:
 - facts
 - multiplication

@@ -9,7 +9,7 @@ prerequisites:
 - id: regrouping-addition-trading-ones-for-tens
   type: hard
 builds-toward:
-- addition-three-digit-numbers-2nd
+- three-digit-addition
 tags:
 - addition
 - two-digit

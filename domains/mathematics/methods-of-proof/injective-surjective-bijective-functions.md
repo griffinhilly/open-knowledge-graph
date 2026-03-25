@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - function-composition-and-inverses
-- cardinality-countability-infinity
+- cardinality-and-countability-methods-of-proof
 tags:
 - functions
 - injectivity

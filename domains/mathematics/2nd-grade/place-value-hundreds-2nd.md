@@ -8,8 +8,8 @@ prerequisites:
   type: hard
 builds-toward:
 - comparing-ordering-three-digit-numbers-2nd
-- addition-three-digit-numbers-2nd
-- subtraction-three-digit-numbers-2nd
+- three-digit-addition
+- three-digit-subtraction
 tags:
 - place-value
 - hundreds

@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - lebesgue-integral-properties
-- riemann-vs-lebesgue-integrals
+- riemann-lebesgue-comparison
 - dominated-convergence-theorem
 tags:
 - integration

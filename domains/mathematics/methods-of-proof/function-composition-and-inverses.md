@@ -9,7 +9,7 @@ prerequisites:
 - id: function-types-and-bijections
   type: soft
 builds-toward:
-- cardinality-countability-infinity
+- cardinality-and-countability-methods-of-proof
 tags:
 - functions
 - composition

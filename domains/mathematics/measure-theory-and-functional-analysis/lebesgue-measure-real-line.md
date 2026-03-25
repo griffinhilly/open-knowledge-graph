@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - lebesgue-integral-simple-functions
-- riemann-vs-lebesgue-integrals
+- riemann-lebesgue-comparison
 tags:
 - measure-theory
 - lebesgue-measure

@@ -11,7 +11,7 @@ prerequisites:
 builds-toward:
 - eulers-theorem
 - primitive-roots-cyclic-groups-mod-p
-- cryptographic-applications-rsa
+- rsa-cryptography
 tags:
 - totient
 - euler-phi

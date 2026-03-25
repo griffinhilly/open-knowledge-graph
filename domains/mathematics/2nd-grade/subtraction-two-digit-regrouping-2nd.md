@@ -9,7 +9,7 @@ prerequisites:
 - id: regrouping-subtraction-trading-tens-for-ones
   type: hard
 builds-toward:
-- subtraction-three-digit-numbers-2nd
+- three-digit-subtraction
 tags:
 - subtraction
 - two-digit

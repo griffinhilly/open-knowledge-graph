@@ -11,7 +11,7 @@ prerequisites:
 - id: wilsons-theorem
   type: soft
 builds-toward:
-- cryptographic-applications-rsa
+- rsa-cryptography
 tags:
 - euler-theorem
 - totient

@@ -21,25 +21,24 @@ ROOT = Path(__file__).resolve().parent.parent
 DOMAINS_DIR = ROOT / "domains"
 
 # (delete_id, keep_id) — from duplicate analysis
+# Round 2: 16 pairs from high-confidence (≥0.8) leaf connector flagging
 DEDUP_PAIRS = [
-    ("reduction-intertheoretic-relations", "reduction-emergence-science"),
-    ("group-epistemology-collective", "collective-knowledge-and-group-epistemology"),
-    ("eliminative-materialism-thesis", "eliminative-materialism"),
-    ("incommensurability-of-paradigms", "incommensurability-kuhn"),
-    ("risk-protective-factors-developmental-resilience", "resilience-and-protective-factors-development"),
-    ("reading-following-simple-recipes", "reading-recipes"),
-    ("intertextuality-allusion-analysis", "intertextuality-and-allusion"),
-    ("gross-motor-development-and-locomotion", "gross-motor-milestones-locomotion"),
-    ("prose-poetry", "prose-poetry-hybrid-form"),
-    ("cosmopolitanism-global-justice", "international-justice-cosmopolitanism"),
-    ("narrow-content-individuation", "narrow-intrinsic-content-mind"),
-    ("unreliable-narrator-detection", "unreliable-narrator-analysis"),
-    ("bonds-and-fixed-income-securities", "bonds-and-fixed-income"),
-    ("subgroup-analysis-and-heterogeneity", "subgroup-analysis-heterogeneity"),
-    ("sleep-architecture-development-and-circadian-rhythms", "sleep-circadian-rhythm-and-development"),
-    ("mediation-analysis-epidemiology", "mediation-analysis-pathways"),
-    ("apostrophe-direct-address", "apostrophe-in-poetry"),
-    ("type-identity-theory-details", "type-identity-theory"),
+    ("cardinality-countability-infinity", "cardinality-and-countability-methods-of-proof"),
+    ("density-rationals", "density-of-rationals"),
+    ("interference-decay-forgetting", "interference-and-decay-forgetting"),
+    ("multiplication-arrays-2nd", "multiplication-introduction-arrays"),
+    ("riemann-vs-lebesgue-integrals", "riemann-lebesgue-comparison"),
+    ("series-convergence-rigorous", "rigorous-series-convergence"),
+    ("picture-graphs-simple-data", "picture-graphs-read-create-2nd"),
+    ("multiplication-facts-6s-through-9s", "multiplication-fluency-facts-6-through-9"),
+    ("equivalence-relations-partitions", "equivalence-relations"),
+    ("addition-three-digit-numbers-2nd", "three-digit-addition"),
+    ("cryptographic-applications-rsa", "rsa-cryptography"),
+    ("fractions-unit-comparison-3rd", "comparing-unit-fractions"),
+    ("panic-disorder", "panic-disorder-agoraphobia"),
+    ("subtraction-mental-math-strategies-2nd", "mental-math-two-digit-subtraction-2nd"),
+    ("subtraction-three-digit-numbers-2nd", "three-digit-subtraction"),
+    ("the-class-equation", "class-equation"),
 ]
 
 

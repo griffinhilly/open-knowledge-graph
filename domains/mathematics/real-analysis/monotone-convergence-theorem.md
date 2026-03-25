@@ -9,7 +9,7 @@ prerequisites:
 - id: completeness-axiom-lub
   type: hard
 builds-toward:
-- series-convergence-rigorous
+- rigorous-series-convergence
 tags:
 - convergence
 - monotone

@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 builds-toward:
 - normal-subgroups
-- the-class-equation
+- class-equation
 tags:
 - cosets
 - lagrange

@@ -4,7 +4,7 @@ title: Introduction to the Riemann Zeta Function
 domain: mathematics
 course: number-theory
 prerequisites:
-- id: series-convergence-rigorous
+- id: rigorous-series-convergence
   type: hard
 builds-toward:
 - dirichlet-series-l-functions

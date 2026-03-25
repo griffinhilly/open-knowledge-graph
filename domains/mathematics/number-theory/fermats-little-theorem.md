@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - eulers-theorem
-- cryptographic-applications-rsa
+- rsa-cryptography
 tags:
 - fermats-little-theorem
 - prime-powers

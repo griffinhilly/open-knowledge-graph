@@ -11,7 +11,7 @@ prerequisites:
 - id: divisors-and-divisor-sums
   type: soft
 builds-toward:
-- cryptographic-applications-rsa
+- rsa-cryptography
 tags:
 - number-theory
 - modular-arithmetic
