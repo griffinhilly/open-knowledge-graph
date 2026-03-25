@@ -2177,7 +2177,7 @@ def generate_index_html(domains_info):
     total_edges = 0
     for domain, info in sorted(domains_info.items()):
         label = smart_title(domain)
-        rows += f'<a href="{domain}-hierarchy.html" class="domain-card">'
+        rows += f'<a href="{domain}-map.html" class="domain-card">'
         rows += f'<h3>{label}</h3>'
         rows += f'<p>{info["topics"]} topics &middot; {info["edges"]} edges &middot; {info["courses"]} courses</p>'
         rows += '</a>\n'
@@ -2231,7 +2231,7 @@ h1 {{ color:#eee; margin-bottom:8px; font-size:28px; }}
 <a href="quiz.html" class="full-link" style="background:#2a3a5a; border-color:#4a9eff;">Knowledge Trivia</a>
 <a href="assessment.html" class="full-link" style="background:#3a2a3a;">Placement Assessment</a>
 <a href="radial-graph.html" class="full-link" style="background:#3a2a6a;">View Radial Graph (All Domains)</a>
-<a href="full-graph-hierarchy.html" class="full-link">View Hierarchy Graph (All Domains)</a>
+<a href="index.html" class="full-link">View All Domain Maps</a>
 </div>
 </body>
 </html>"""
@@ -2243,70 +2243,73 @@ def main():
     parser.add_argument("--course", help="Filter by course")
     parser.add_argument("--output", help="Output file path")
     parser.add_argument("--all", action="store_true", help="Generate all domain HTMLs + index")
+    parser.add_argument("--index-only", action="store_true", help="Generate only the index page (skip hierarchy HTMLs)")
     args = parser.parse_args()
 
     configs = load_all_domain_configs()
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    if args.all:
-        # Generate per-domain visualizations
+    if args.all or args.index_only:
+        # Collect domain stats
         domains_info = {}
         for domain, cfg in sorted(configs.items()):
-            print(f"Generating {domain}...")
             course_ids = cfg["course_ids"]
-            colors = generate_course_colors(domain, course_ids)
             nodes, edges = load_graph(domain_filter=domain)
             if not nodes:
                 continue
-
-            title = f"Open Knowledge Graph — {smart_title(domain)}"
-            html = generate_html(nodes, edges, title=title,
-                                course_colors=colors, course_order=course_ids)
-            out = OUTPUT_DIR / f"{domain}-hierarchy.html"
-            out.write_text(html, encoding="utf-8")
-
             domains_info[domain] = {
                 "topics": len(nodes),
                 "edges": len(edges),
                 "courses": len(course_ids),
             }
-            print(f"  {len(nodes)} topics, {len(edges)} edges -> {out.name}")
 
-        # Generate full cross-domain scatter graph
-        print("Generating full cross-domain scatter graph...")
-        all_data = load_all_topics()
+            # Generate per-domain hierarchy HTMLs (skip in index-only mode)
+            if not args.index_only:
+                print(f"Generating {domain}...")
+                colors = generate_course_colors(domain, course_ids)
+                title = f"Open Knowledge Graph — {smart_title(domain)}"
+                html = generate_html(nodes, edges, title=title,
+                                    course_colors=colors, course_order=course_ids)
+                out = OUTPUT_DIR / f"{domain}-hierarchy.html"
+                out.write_text(html, encoding="utf-8")
+                print(f"  {len(nodes)} topics, {len(edges)} edges -> {out.name}")
 
-        # Load configs with stage info (radial-compatible format)
-        scatter_configs = {}
-        for domain_dir in sorted(DOMAINS_DIR.iterdir()):
-            if domain_dir.is_dir() and (domain_dir / "_domain.yml").exists():
-                ddata = yaml.safe_load(
-                    (domain_dir / "_domain.yml").read_text(encoding="utf-8")
-                )
-                courses = ddata.get("courses", [])
-                course_list = []
-                for c in courses:
-                    if isinstance(c, dict) and "id" in c:
-                        course_list.append({
-                            "id": c["id"],
-                            "title": c.get("title", c["id"]),
-                            "stage": c.get("stage", DEFAULT_STAGE),
-                        })
-                scatter_configs[domain_dir.name] = {
-                    "title": ddata.get("title", domain_dir.name),
-                    "courses": course_list,
-                }
+        # Generate full cross-domain scatter graph (skip in index-only mode)
+        if not args.index_only:
+            print("Generating full cross-domain scatter graph...")
+            all_data = load_all_topics()
 
-        depths = compute_depths_from_data(all_data)
-        positions, sectors, domain_order, topic_stages, cw, ch, bands = \
-            build_scatter_layout(all_data, scatter_configs, depths)
+            # Load configs with stage info (radial-compatible format)
+            scatter_configs = {}
+            for domain_dir in sorted(DOMAINS_DIR.iterdir()):
+                if domain_dir.is_dir() and (domain_dir / "_domain.yml").exists():
+                    ddata = yaml.safe_load(
+                        (domain_dir / "_domain.yml").read_text(encoding="utf-8")
+                    )
+                    courses = ddata.get("courses", [])
+                    course_list = []
+                    for c in courses:
+                        if isinstance(c, dict) and "id" in c:
+                            course_list.append({
+                                "id": c["id"],
+                                "title": c.get("title", c["id"]),
+                                "stage": c.get("stage", DEFAULT_STAGE),
+                            })
+                    scatter_configs[domain_dir.name] = {
+                        "title": ddata.get("title", domain_dir.name),
+                        "courses": course_list,
+                    }
 
-        html = generate_scatter_html(
-            all_data, scatter_configs, depths, positions, sectors,
-            domain_order, topic_stages, cw, ch, bands)
-        out = OUTPUT_DIR / "full-graph-hierarchy.html"
-        out.write_text(html, encoding="utf-8")
-        print(f"  {len(all_data)} topics -> {out.name}")
+            depths = compute_depths_from_data(all_data)
+            positions, sectors, domain_order, topic_stages, cw, ch, bands = \
+                build_scatter_layout(all_data, scatter_configs, depths)
+
+            html = generate_scatter_html(
+                all_data, scatter_configs, depths, positions, sectors,
+                domain_order, topic_stages, cw, ch, bands)
+            out = OUTPUT_DIR / "full-graph-hierarchy.html"
+            out.write_text(html, encoding="utf-8")
+            print(f"  {len(all_data)} topics -> {out.name}")
 
         # Copy fluency.js to output
         fluency_src = ROOT / "lib" / "fluency.js"
@@ -2321,7 +2324,10 @@ def main():
         index_out = OUTPUT_DIR / "index.html"
         index_out.write_text(index_html, encoding="utf-8")
         print(f"\nIndex page -> {index_out}")
-        print(f"Done! {len(domains_info)} domain pages + full graph + index")
+        if args.index_only:
+            print(f"Done! Index page generated ({len(domains_info)} domains)")
+        else:
+            print(f"Done! {len(domains_info)} domain pages + full graph + index")
 
     else:
         # Single domain/course/full generation

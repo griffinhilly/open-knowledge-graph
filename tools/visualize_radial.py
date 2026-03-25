@@ -632,7 +632,6 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
 <canvas id="canvas"></canvas>
 <div id="nav">
   <a href="index.html">All Domains</a>
-  <a href="full-graph-hierarchy.html">Hierarchy Graph</a>
 </div>
 
 <div id="stats">
@@ -1091,7 +1090,7 @@ canvas.addEventListener("mouseup", (e) => {{
           if (start < 0) start += Math.PI * 2;
           if (end < 0) end += Math.PI * 2;
           if (clickAngle >= start && clickAngle <= end) {{
-            window.location.href = s.domain + "-hierarchy.html";
+            window.location.href = s.domain + "-map.html";
             break;
           }}
         }}

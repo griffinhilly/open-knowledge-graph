@@ -847,7 +847,7 @@ h1 {{
 </div>
 
 <div class="breadcrumb">
-  <a href="../{domain}-hierarchy.html">{html_mod.escape(domain_label)}</a> <span>›</span> <a href="../{domain}-hierarchy.html#{course}">{html_mod.escape(course_label)}</a>
+  <a href="../{domain}-map.html">{html_mod.escape(domain_label)}</a> <span>›</span> <a href="../{domain}-map.html#{course}">{html_mod.escape(course_label)}</a>
 </div>
 
 <h1>{html_mod.escape(title)}</h1>

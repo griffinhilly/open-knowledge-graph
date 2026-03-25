@@ -33,8 +33,8 @@ jobs:
       - name: Validate graph
         run: python tools/validate.py
 
-      - name: Generate hierarchy visualizations
-        run: python tools/visualize_hierarchy.py --all
+      - name: Generate index page
+        run: python tools/visualize_hierarchy.py --index-only
 
       - name: Generate radial visualization
         run: python tools/visualize_radial.py

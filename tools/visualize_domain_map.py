@@ -742,7 +742,6 @@ canvas {{ display:block; touch-action:none; }}
 <div id="legend"></div>
 <div id="nav">
   <a href="index.html">All Domains</a>
-  <a href="{domain}-hierarchy.html">Hierarchy</a>
   <a href="{domain}-map.html">Domain Map</a>
   <a href="radial-graph.html">Radial</a>
 </div>
@@ -841,6 +840,34 @@ function resetView() {{
   camY = (H / 2 - gh / 2) * camScale;
 }}
 resetView();
+
+// Anchor support: pan/zoom to a course section via URL hash (e.g. #algebra-1)
+function panToCourse(courseId) {{
+  var courseNodes = data.nodes.filter(function(n) {{ return n.course === courseId; }});
+  if (courseNodes.length === 0) return false;
+  var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+  courseNodes.forEach(function(n) {{
+    if (n.x < minX) minX = n.x;
+    if (n.y < minY) minY = n.y;
+    if (n.x + (n.w || 60) > maxX) maxX = n.x + (n.w || 60);
+    if (n.y + (n.h || 20) > maxY) maxY = n.y + (n.h || 20);
+  }});
+  var pad = 80;
+  var bw = maxX - minX + pad * 2;
+  var bh = maxY - minY + pad * 2;
+  camScale = Math.min(W / bw, H / bh) * 0.85;
+  var cx = (minX + maxX) / 2;
+  var cy = (minY + maxY) / 2;
+  camX = W / 2 - cx * camScale;
+  camY = H / 2 - cy * camScale;
+  return true;
+}}
+
+if (location.hash) {{
+  var courseId = location.hash.substring(1);
+  panToCourse(courseId);
+}}
+
 window.addEventListener("resize", function() {{ resize(); resetView(); draw(); }});
 
 function zoomBtn(f) {{
