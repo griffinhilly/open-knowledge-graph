@@ -2231,7 +2231,6 @@ h1 {{ color:#eee; margin-bottom:8px; font-size:28px; }}
 <a href="quiz.html" class="full-link" style="background:#2a3a5a; border-color:#4a9eff;">Knowledge Trivia</a>
 <a href="assessment.html" class="full-link" style="background:#3a2a3a;">Placement Assessment</a>
 <a href="radial-graph.html" class="full-link" style="background:#3a2a6a;">View Radial Graph (All Domains)</a>
-<a href="index.html" class="full-link">View All Domain Maps</a>
 </div>
 </body>
 </html>"""
