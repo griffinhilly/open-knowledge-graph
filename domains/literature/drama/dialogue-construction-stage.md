@@ -18,9 +18,11 @@ prerequisites:
   type: soft
 - id: dialogue-formatting-and-attribution
   type: soft
+- id: stage-blocking-movement
+  type: soft
 builds-toward:
-  - subtext-and-unspoken-meaning
-  - scene-beats-and-structure
+- subtext-and-unspoken-meaning
+- scene-beats-and-structure
 tags:
 - dialogue
 - character

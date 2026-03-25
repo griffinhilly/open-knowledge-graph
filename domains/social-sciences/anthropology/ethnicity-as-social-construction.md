@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: colonialism-geographic-legacy
   type: soft
+- id: transnational-identity-movement
+  type: soft
 builds-toward:
 - race-and-ethnicity
 - identity-and-selfhood-anthropology
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ethnicity as a Social Construction
 
 ## Core Idea

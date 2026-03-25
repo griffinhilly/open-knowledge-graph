@@ -6,6 +6,8 @@ course: ethics
 prerequisites:
 - id: normative-vs-metaethical-questions
   type: hard
+- id: moral-universalism-ethics
+  type: soft
 builds-toward:
 - moral-anti-realism-perspectives
 - moral-constructivism-ethics
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Moral Facts and Objectivity
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: international-relations-overview
   type: hard
+- id: anarchy-self-help-international-system
+  type: soft
+- id: national-interest-state-power
+  type: soft
 builds-toward:
 - balance-of-power
 - security-dilemma
@@ -20,7 +24,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Structural Realism (Neorealism)
 
 ## Core Idea

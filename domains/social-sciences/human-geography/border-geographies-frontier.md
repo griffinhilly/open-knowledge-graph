@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: political-territory-power
   type: hard
+- id: indigenous-geography-territory
+  type: soft
 builds-toward:
 - geopolitics-and-power
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Border Geographies and Frontier Regions
 
 ## Core Idea

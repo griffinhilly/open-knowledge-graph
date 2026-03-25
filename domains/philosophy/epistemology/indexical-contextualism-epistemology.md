@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: indexicals-context-sensitivity
   type: hard
+- id: contextualism-content-sensitivity
+  type: soft
 builds-toward:
 - margin-error-semantics
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Contextualism as Indexicalism in Epistemology
 
 ## Core Idea

@@ -6,6 +6,14 @@ course: sociological-theory
 prerequisites:
 - id: world-systems-theory
   type: hard
+- id: phenomenological-sociology
+  type: soft
+- id: sociology-of-knowledge
+  type: soft
+- id: comte-positivism-sociology
+  type: soft
+- id: rational-choice-sociology
+  type: soft
 tags:
 - postcolonial
 - colonialism
@@ -14,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Postcolonial Sociology
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: modal-logic-intro
   type: soft
+- id: actualism-in-metaphysics
+  type: soft
 builds-toward:
 - temporal-becoming
 - essence-intrinsic-nature
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Potentiality and Actuality
 
 ## Core Idea

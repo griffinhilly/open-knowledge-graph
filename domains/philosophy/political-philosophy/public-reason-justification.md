@@ -6,6 +6,8 @@ course: political-philosophy
 prerequisites:
 - id: public-reason
   type: hard
+- id: deliberative-democracy-and-legitimacy
+  type: soft
 builds-toward:
 - legitimacy-justification-standards
 - pluralism-stability
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Public Reason and the Constraints on Political Justification
 
 ## Core Idea

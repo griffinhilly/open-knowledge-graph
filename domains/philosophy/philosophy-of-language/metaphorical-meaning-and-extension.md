@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: literal-meaning-speaker-meaning
   type: hard
+- id: rule-following-and-meaning
+  type: soft
+- id: compositionality-semantic-limits
+  type: soft
+- id: meaning-holism
+  type: soft
+- id: two-dimensional-semantics
+  type: soft
 tags:
 - metaphor
 - meaning
@@ -15,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Metaphor and Semantic Innovation
 
 ## Core Idea

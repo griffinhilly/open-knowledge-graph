@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: characterization-methods
   type: soft
+- id: realism-fictional-technique
+  type: soft
 builds-toward:
 - naturalism-philosophical-system
 - psychological-novel-consciousness
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Realism and Verisimilitude in Prose
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: textual-evidence-and-citation
   type: soft
+- id: theme-analysis-craft
+  type: soft
 builds-toward:
 - literary-argument-writing
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Tracing Thematic Development Across a Text
 
 ## Core Idea

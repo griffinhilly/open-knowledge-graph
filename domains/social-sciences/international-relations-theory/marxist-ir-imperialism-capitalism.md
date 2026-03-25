@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: liberalism-in-ir
   type: soft
+- id: international-trade-cooperation-conflict
+  type: soft
+- id: power-transition-hegemonic-dominance
+  type: soft
 builds-toward:
 - postcolonial-ir-dependency
 tags:
@@ -19,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Marxist IR Theory and Imperialism
 
 ## Core Idea

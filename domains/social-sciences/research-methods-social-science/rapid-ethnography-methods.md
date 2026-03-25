@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: research-design-from-questions-to-methods
   type: soft
+- id: ethnographic-extended-fieldwork-immersion
+  type: soft
 builds-toward:
 - emergency-ethnography
 - crisis-research-methods
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Rapid Ethnography and Compressed Fieldwork
 
 ## Core Idea

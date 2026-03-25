@@ -6,6 +6,8 @@ course: cooking-and-nutrition
 prerequisites:
 - id: grocery-shopping-and-budgeting
   type: soft
+- id: ingredient-selection-freshness
+  type: soft
 builds-toward:
 - recipe-adaptation-and-substitutions
 - food-storage-and-preservation
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Ingredient Quality Selection
 
 ## Core Idea

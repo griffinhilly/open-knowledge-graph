@@ -6,6 +6,8 @@ course: financial-literacy
 prerequisites:
 - id: money-fundamentals-definition-and-characteristics
   type: soft
+- id: financial-numeracy-and-quantitative-literacy
+  type: soft
 builds-toward:
 - income-sources-and-tax-classifications
 - retirement-savings-fundamentals
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Financial Literacy Overview
 
 ## Core Idea

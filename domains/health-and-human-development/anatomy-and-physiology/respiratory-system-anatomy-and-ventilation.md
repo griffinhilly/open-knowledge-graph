@@ -6,6 +6,8 @@ course: anatomy-and-physiology
 prerequisites:
 - id: epithelial-and-connective-tissue-types
   type: soft
+- id: endocrine-and-reproductive-system-anatomy
+  type: soft
 builds-toward:
 - gas-exchange-alveoli-and-diffusion
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Respiratory System Anatomy and Ventilation
 
 ## Core Idea

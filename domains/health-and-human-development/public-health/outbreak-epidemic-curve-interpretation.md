@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: disease-frequency-measures
   type: hard
+- id: foodborne-outbreak-investigation-epidemiology
+  type: soft
 builds-toward:
 - outbreak-transmission-models
 - infectious-disease-surveillance
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Epidemic Curves and Outbreak Dynamics
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: statistical-methods-analytical
   type: soft
+- id: health-literacy-and-communication
+  type: soft
 builds-toward:
 - screening-and-early-detection
 tags:

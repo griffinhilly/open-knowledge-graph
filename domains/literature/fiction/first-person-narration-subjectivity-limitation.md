@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: deixis-and-reference
   type: soft
+- id: narration-and-narrative-constraint
+  type: soft
 builds-toward:
 - unreliable-narrator
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # First-Person Narration: Subjectivity and Limitation
 
 ## Core Idea

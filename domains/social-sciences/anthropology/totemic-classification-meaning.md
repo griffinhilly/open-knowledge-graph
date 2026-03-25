@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: kinship-and-descent
   type: hard
+- id: play-leisure-cultural-meaning
+  type: soft
 builds-toward:
 - myth-and-symbolism
 - structural-analysis-social-systems
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Totemism and Symbolic Classification
 
 ## Core Idea

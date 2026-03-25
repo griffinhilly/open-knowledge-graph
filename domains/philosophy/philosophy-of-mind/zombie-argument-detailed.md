@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hard-problem-of-consciousness
   type: hard
+- id: knowledge-argument-frank-jackson
+  type: soft
 builds-toward:
 - panpsychism
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Zombie Argument in Detail
 
 ## Core Idea

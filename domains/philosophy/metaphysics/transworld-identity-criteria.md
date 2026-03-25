@@ -12,6 +12,14 @@ prerequisites:
   type: soft
 - id: cross-world-identity-principles
   type: soft
+- id: possible-worlds-framework
+  type: soft
+- id: possible-worlds-semantics-metaphysics
+  type: soft
+- id: essence-intrinsic-nature
+  type: soft
+- id: rigid-designation-essentialism
+  type: soft
 builds-toward:
 - haecceity-primitive-identity
 tags:

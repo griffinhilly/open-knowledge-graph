@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: carpet-stain-removal-and-care
   type: soft
+- id: flooring-preservation-and-care
+  type: soft
 tags:
 - flooring
 - refinishing

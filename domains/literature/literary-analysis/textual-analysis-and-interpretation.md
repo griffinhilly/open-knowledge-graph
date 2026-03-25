@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: close-reading-techniques
   type: hard
+- id: close-reading-textual-analysis
+  type: soft
 builds-toward:
 - character-interpretation-texts
 - plot-analysis-and-meaning
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Textual Analysis and Close Interpretation
 
 ## Core Idea

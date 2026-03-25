@@ -6,6 +6,8 @@ course: financial-literacy
 prerequisites:
 - id: expense-tracking-and-categorization
   type: hard
+- id: bill-negotiation-and-rate-reduction
+  type: soft
 tags:
 - budgeting
 - cost-cutting
@@ -14,7 +16,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Recurring Subscription Audit and Elimination
 
 ## Core Idea

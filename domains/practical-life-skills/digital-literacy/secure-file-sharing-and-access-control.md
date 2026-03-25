@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: shared-document-editing-and-collaboration
   type: hard
+- id: document-collaboration-tools
+  type: soft
+- id: safe-downloads-and-source-verification
+  type: soft
+- id: operating-system-updates
+  type: soft
+- id: software-installation-management
+  type: soft
 builds-toward:
 - digital-identity-management
 tags:
@@ -17,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Secure File Sharing and Access Control
 
 ## Core Idea

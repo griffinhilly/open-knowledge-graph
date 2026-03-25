@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: commodity-chains-global
   type: hard
+- id: consumption-places-identity
+  type: soft
 builds-toward:
 - development-geography
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ethical Consumption and Fair Trade
 
 ## Core Idea

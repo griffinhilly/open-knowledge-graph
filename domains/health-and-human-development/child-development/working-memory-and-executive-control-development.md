@@ -6,6 +6,8 @@ course: child-development
 prerequisites:
 - id: adolescent-brain-and-behavioral-development
   type: soft
+- id: metacognition-and-learning-to-learn-children
+  type: soft
 builds-toward:
 - pragmatic-language-and-social-communication-skills
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Working Memory and Executive Control Development
 
 ## Core Idea

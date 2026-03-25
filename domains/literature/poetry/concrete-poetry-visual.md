@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: poetic-form-overview
   type: soft
+- id: concrete-vs-abstract-in-poetry
+  type: soft
 builds-toward:
 - digital-literature-circulation-comparison
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Concrete Poetry and Visual Form
 
 ## Core Idea

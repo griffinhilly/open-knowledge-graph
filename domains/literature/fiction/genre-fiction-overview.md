@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: short-story-form
   type: soft
+- id: literary-versus-genre-fiction
+  type: soft
 builds-toward:
 - literary-realism
 - fantasy-genre

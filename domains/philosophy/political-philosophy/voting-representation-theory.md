@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: representation-and-legitimacy
   type: soft
+- id: voting-representation-mechanisms
+  type: soft
 builds-toward:
 - majority-rule-constraints
 - democratic-legitimacy-participation
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Voting Systems and Democratic Representation
 
 ## Core Idea

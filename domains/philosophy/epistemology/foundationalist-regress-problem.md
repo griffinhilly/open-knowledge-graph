@@ -6,6 +6,10 @@ course: epistemology
 prerequisites:
 - id: foundationalism
   type: hard
+- id: regress-argument-structure
+  type: soft
+- id: foundational-basic-beliefs
+  type: soft
 builds-toward:
 - transmission-failure-justification
 - dogmatism-perceptual-justification
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Foundationalist Regress and Epistemic Support
 
 ## Core Idea

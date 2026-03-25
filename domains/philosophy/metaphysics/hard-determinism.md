@@ -6,6 +6,8 @@ course: metaphysics
 prerequisites:
 - id: free-will-and-determinism
   type: hard
+- id: manipulation-argument
+  type: soft
 tags:
 - hard determinism
 - incompatibilism
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Hard Determinism and Hard Incompatibilism
 
 ## Core Idea

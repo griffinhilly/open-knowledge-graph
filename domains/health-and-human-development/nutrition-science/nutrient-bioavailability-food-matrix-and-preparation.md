@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nutrient-interactions-synergies-and-antagonisms
   type: soft
+- id: gastrointestinal-motility-and-nutrient-bioavailability
+  type: soft
 builds-toward:
 - dietary-pattern-assessment-and-diet-quality-indices
 - nutrient-density-food-quality-and-index-metrics
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Nutrient Bioavailability: Food Matrix and Preparation Effects
 
 ## Core Idea

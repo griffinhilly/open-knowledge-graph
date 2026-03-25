@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: histograms-and-frequency-distributions
   type: soft
+- id: race-ethnicity-inequality-systems
+  type: soft
 builds-toward:
 - intersectionality
 tags:
@@ -26,7 +28,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Race and Ethnicity
 
 ## Core Idea

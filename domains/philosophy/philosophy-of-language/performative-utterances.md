@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: speech-act-content-and-force
   type: hard
+- id: perlocutionary-effects
+  type: soft
 tags:
 - performatives
 - speech-acts
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Performative Language and Utterance Acts
 
 ## Core Idea

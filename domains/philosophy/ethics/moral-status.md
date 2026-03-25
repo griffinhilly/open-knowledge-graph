@@ -6,6 +6,10 @@ course: ethics
 prerequisites:
 - id: applied-ethics-intro
   type: hard
+- id: moral-disagreement-sources
+  type: soft
+- id: moral-education-development
+  type: soft
 builds-toward:
 - animal-ethics
 - bioethics
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Moral Status
 
 ## Core Idea

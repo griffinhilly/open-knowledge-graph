@@ -6,6 +6,8 @@ course: home-maintenance
 prerequisites:
 - id: home-maintenance-fundamentals
   type: hard
+- id: exterior-caulking-and-sealant-maintenance
+  type: soft
 tags:
 - exterior
 - roofing
@@ -14,7 +16,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Exterior Maintenance: Roofing and Gutters
 
 ## Core Idea

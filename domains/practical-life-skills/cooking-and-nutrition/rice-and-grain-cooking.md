@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: rice-cooking-water-ratios
   type: soft
+- id: grain-and-starch-preparation-basics
+  type: soft
 tags:
 - rice
 - grains

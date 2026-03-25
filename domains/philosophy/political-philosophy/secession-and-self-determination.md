@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: democracy-and-self-governance
   type: soft
+- id: nationalism-self-determination
+  type: soft
 tags:
 - secession
 - self-determination
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Secession and Self-Determination
 
 ## Core Idea

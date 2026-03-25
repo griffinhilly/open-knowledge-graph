@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: migration-theory-push-pull
   type: hard
+- id: refugee-asylum-geographies
+  type: soft
+- id: gentrification-displacement
+  type: soft
 builds-toward:
 - climate-adaptation-communities
 tags:
@@ -20,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Climate Migration and Environmental Displacement
 
 ## Core Idea

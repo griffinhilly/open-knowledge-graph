@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: close-reading-techniques
   type: soft
+- id: phenomenological-hermeneutics
+  type: soft
 builds-toward:
 - affect-theory-literary
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Phenomenology and Literary Reading
 
 ## Core Idea

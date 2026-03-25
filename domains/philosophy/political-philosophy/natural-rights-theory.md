@@ -3,7 +3,9 @@ id: natural-rights-theory
 title: Natural Rights Theory
 domain: philosophy
 course: political-philosophy
-prerequisites: []
+prerequisites:
+- id: rights-liberties-political
+  type: soft
 builds-toward:
 - locke-and-property-rights
 - human-rights-foundations
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Natural Rights Theory
 
 ## Core Idea

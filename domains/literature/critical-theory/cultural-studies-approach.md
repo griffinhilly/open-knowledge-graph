@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: reader-response-theory
   type: soft
+- id: cultural-materialism-english-school
+  type: soft
 builds-toward:
 - intersectionality-in-criticism
 tags:

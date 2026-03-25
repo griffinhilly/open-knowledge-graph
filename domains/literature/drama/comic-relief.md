@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dramatic-structure
   type: soft
+- id: comedic-timing-and-pacing
+  type: soft
 builds-toward:
 - farce-and-physical-comedy
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Comic Relief and Humor in Drama
 
 ## Core Idea

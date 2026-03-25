@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: applied-ethics-intro
   type: soft
+- id: political-philosophy-foundations
+  type: soft
 tags:
 - feminist-philosophy
 - gender
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Feminist Political Philosophy
 
 ## Core Idea

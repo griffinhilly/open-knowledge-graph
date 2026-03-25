@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: phonological-features
   type: soft
+- id: refrain-and-repetition-structures
+  type: soft
 builds-toward:
 - consonance-internal-consonant-patterns
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Assonance and Vowel Sound Repetition
 
 ## Core Idea

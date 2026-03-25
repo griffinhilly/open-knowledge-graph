@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ghazal-form
   type: soft
+- id: internal-rhyme-within-lines
+  type: soft
 tags:
 - rhyme
 - constraint
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Monorhyme: Single Rhyme Sound
 
 ## Core Idea

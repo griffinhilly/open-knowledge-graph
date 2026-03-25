@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: power-and-authority
   type: soft
+- id: dialectical-materialism-marxist
+  type: soft
 builds-toward:
 - alienation-capitalist-society
 - conflict-theory-sociology
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Marx and Historical Materialism
 
 ## Core Idea

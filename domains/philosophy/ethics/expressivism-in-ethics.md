@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: moral-non-cognitivism
   type: soft
+- id: expressivism-and-noncognitivism
+  type: soft
 builds-toward:
 - error-theory
 tags:

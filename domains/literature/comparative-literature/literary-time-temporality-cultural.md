@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: comparative-literary-method
   type: soft
+- id: point-of-view-across-traditions
+  type: soft
+- id: literary-periodization-non-western
+  type: soft
 tags:
 - time
 - temporality
@@ -18,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Literary Time and Temporality Across Cultures
 
 ## Core Idea

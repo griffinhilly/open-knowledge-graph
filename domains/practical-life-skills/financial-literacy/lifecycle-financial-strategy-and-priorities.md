@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: behavioral-finance-and-cognitive-biases
   type: soft
+- id: financial-optionality-and-flexibility-value
+  type: soft
+- id: major-life-transitions-financial-planning
+  type: soft
 tags:
 - lifecycle
 - strategy
@@ -22,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Lifecycle Financial Strategy and Priorities
 
 ## Core Idea

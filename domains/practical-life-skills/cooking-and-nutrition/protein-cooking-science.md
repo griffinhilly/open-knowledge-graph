@@ -8,6 +8,12 @@ prerequisites:
   type: soft
 - id: heat-transfer-in-cooking
   type: soft
+- id: understanding-eggs-and-protein-basics
+  type: soft
+- id: egg-cooking-techniques
+  type: soft
+- id: protein-cooking-safety-doneness
+  type: soft
 builds-toward:
 - meat-and-protein-doneness
 - food-temperature-safety
@@ -19,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # How Cooking Transforms Proteins
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: counterfactual-causation
   type: soft
+- id: inductive-statistical-model-of-explanation
+  type: soft
 builds-toward:
 - laws-of-nature-metaphysics
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Causal Theories of Explanation
 
 ## Core Idea

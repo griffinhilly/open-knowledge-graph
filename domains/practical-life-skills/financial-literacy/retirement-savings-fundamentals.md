@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: exponential-growth-and-decay
   type: hard
+- id: banking-fundamentals
+  type: soft
+- id: healthcare-savings-accounts
+  type: soft
 builds-toward:
 - employer-sponsored-401k-plans
 - individual-retirement-accounts-iras
@@ -21,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Retirement Savings Fundamentals
 
 ## Core Idea

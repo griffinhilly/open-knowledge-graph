@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: apr-apy-and-interest-rate-calculation
   type: hard
+- id: behavioral-finance-and-investing-psychology
+  type: soft
+- id: sustainable-and-values-based-investing
+  type: soft
 builds-toward:
 - diversification-and-asset-allocation
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Bond Investing Basics
 
 ## Core Idea

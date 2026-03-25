@@ -6,6 +6,8 @@ course: child-development
 prerequisites:
 - id: infant-motor-development
   type: soft
+- id: gross-motor-milestones-locomotion
+  type: soft
 builds-toward:
 - fine-motor-skill-development-grasp-and-precision
 - peer-friendships-and-cooperative-play
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Gross Motor Skill Development: Milestones
 
 ## Core Idea

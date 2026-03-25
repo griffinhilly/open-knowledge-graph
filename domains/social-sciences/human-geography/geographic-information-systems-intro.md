@@ -20,6 +20,10 @@ prerequisites:
   type: soft
 - id: coordinate-geometry-proofs
   type: soft
+- id: spatial-representation-maps
+  type: soft
+- id: geographic-scale-analysis
+  type: soft
 builds-toward:
 - population-distribution-density
 - spatial-interaction-theory
@@ -34,7 +38,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Geographic Information Systems and Spatial Analysis
 
 ## Core Idea

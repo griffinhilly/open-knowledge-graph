@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: semiotics-and-signs
   type: hard
+- id: gaze-subjectivity-visuality
+  type: soft
 builds-toward:
 - semiotics-and-signs
 tags:
@@ -23,7 +25,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Barthes' Mythologies: Reading Culture Semiologically
 
 ## Core Idea

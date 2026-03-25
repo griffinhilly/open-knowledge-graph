@@ -6,6 +6,8 @@ course: political-philosophy
 prerequisites:
 - id: democracy-and-self-governance
   type: soft
+- id: deliberative-democracy-and-legitimacy
+  type: soft
 builds-toward:
 - democratic-legitimacy-participation
 - voting-representation-theory
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Forms of Democracy: Direct, Representative, Deliberative
 
 ## Core Idea

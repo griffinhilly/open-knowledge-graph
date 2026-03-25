@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: novel-form
   type: soft
+- id: novel-form-scope-complexity
+  type: soft
 tags:
 - novella
 - form
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Novella: Form Between Story and Novel
 
 ## Core Idea

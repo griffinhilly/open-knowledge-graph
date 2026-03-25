@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: facts-and-truthmakers
   type: hard
+- id: grounding-fundamentality-hierarchy
+  type: soft
+- id: truthmakers-and-grounding
+  type: soft
 builds-toward:
 - grounding-fundamentality-hierarchy
 - reduction-metaphysical-relations
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Truthmakers and Fundamental Facts
 
 ## Core Idea

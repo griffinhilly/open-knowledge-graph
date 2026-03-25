@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: language-and-culture
   type: soft
+- id: comparative-cross-cultural-analysis
+  type: soft
 builds-toward:
 - economic-anthropology
 - political-anthropology

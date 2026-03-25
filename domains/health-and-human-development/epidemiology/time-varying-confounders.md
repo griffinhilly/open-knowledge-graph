@@ -8,8 +8,10 @@ prerequisites:
   type: hard
 - id: confounding-epidemiology
   type: hard
+- id: time-varying-exposures-and-covariates
+  type: soft
 builds-toward:
-  - marginal-structural-models
+- marginal-structural-models
 tags:
 - longitudinal-analysis
 - time-varying-confounding

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: acute-inflammation-pathophysiology
   type: hard
+- id: inflammatory-response-wound-healing-repair
+  type: soft
 builds-toward:
 - pathological-fibrosis-and-excessive-scarring
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Tissue Repair and Wound Healing Phases
 
 ## Core Idea

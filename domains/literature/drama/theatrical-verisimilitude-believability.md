@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: literary-realism
   type: hard
+- id: fourth-wall-convention-and-breaking
+  type: soft
 builds-toward:
 - modern-realist-drama
 - naturalism-philosophical-system
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Verisimilitude: Theatrical Believability
 
 ## Core Idea

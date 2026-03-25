@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: status-attainment-processes
   type: soft
+- id: political-representation-concepts
+  type: soft
 builds-toward:
 - comparative-politics
 - representation-mechanisms
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Political Recruitment and Elite Circulation
 
 ## Core Idea

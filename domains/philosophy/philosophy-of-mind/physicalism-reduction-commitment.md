@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: physicalism-about-mind
   type: soft
+- id: emergence-reduction-consciousness
+  type: soft
+- id: token-identity-theory
+  type: soft
 builds-toward:
 - reductive-physicalism-theory
 - non-reductive-physicalism-details
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Physicalism: The Core Thesis
 
 ## Core Idea

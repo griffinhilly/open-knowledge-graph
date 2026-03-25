@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: arguments-premises-and-conclusions
   type: hard
+- id: vagueness-and-argument-clarity
+  type: soft
 builds-toward:
 - equivocation-fallacy
 - formal-vs-natural-language-semantics
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ambiguity and Vagueness in Arguments
 
 ## Core Idea

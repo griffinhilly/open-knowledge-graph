@@ -6,6 +6,10 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: informal-fallacies-intro
   type: hard
+- id: fallacy-categories-overview
+  type: soft
+- id: slippery-slope-fallacy
+  type: soft
 builds-toward:
 - argument-evaluation-holistic
 - dialogue-and-debate-structure
@@ -16,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Fallacy Detection in Reasoning
 
 ## Core Idea

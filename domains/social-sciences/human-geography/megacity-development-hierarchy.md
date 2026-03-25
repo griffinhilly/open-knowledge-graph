@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: world-cities-global-hierarchy
   type: hard
+- id: financial-hubs-global-capital
+  type: soft
+- id: smart-cities-governance
+  type: soft
 builds-toward:
 - urban-sprawl-suburbanization
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Megacity Development and Urban Hierarchies
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: home-maintenance
 prerequisites:
 - id: gutter-cleaning-and-maintenance
   type: hard
+- id: roofing-systems-overview
+  type: soft
 builds-toward: []
 tags:
 - gutters
@@ -15,7 +17,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Gutter and Downspout Systems
 
 ## Core Idea

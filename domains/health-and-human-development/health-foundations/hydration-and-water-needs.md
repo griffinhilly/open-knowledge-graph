@@ -4,16 +4,21 @@ title: Hydration and Water Needs
 domain: health-and-human-development
 course: health-foundations
 prerequisites:
-  - id: food-groups-and-balanced-diet
-    type: soft
+- id: food-groups-and-balanced-diet
+  type: soft
+- id: why-we-drink-water
+  type: soft
 builds-toward:
-  - hydration-and-electrolytes
-  - fluid-balance-and-electrolytes
-tags: [nutrition, hydration, water, health]
+- hydration-and-electrolytes
+- fluid-balance-and-electrolytes
+tags:
+- nutrition
+- hydration
+- water
+- health
 stage: concrete-operations
 status: validated
 ---
-
 # Hydration and Water Needs
 
 ## Core Idea

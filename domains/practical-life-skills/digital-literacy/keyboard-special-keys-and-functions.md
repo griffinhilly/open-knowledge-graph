@@ -6,8 +6,10 @@ course: digital-literacy
 prerequisites:
 - id: touch-typing-fundamentals
   type: soft
+- id: copy-paste-and-drag-drop-operations
+  type: soft
 builds-toward:
-  - keyboard-shortcuts-and-productivity
+- keyboard-shortcuts-and-productivity
 tags:
 - keyboard
 - shortcuts

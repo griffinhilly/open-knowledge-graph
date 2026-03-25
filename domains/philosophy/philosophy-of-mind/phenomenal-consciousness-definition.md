@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: qualia-and-phenomenal-consciousness
   type: soft
+- id: phenomenal-concepts-problem
+  type: soft
 builds-toward:
 - hard-problem-consciousness-definition
 - inverted-spectrum-thought-experiment
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Phenomenal Consciousness and Qualia
 
 ## Core Idea

@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: confounding-epidemiology
   type: hard
+- id: synthetic-control-methods-epidemiology
+  type: soft
+- id: case-crossover-design
+  type: soft
+- id: selection-bias-types
+  type: soft
 builds-toward:
 - stratification-and-adjustment
 tags:
@@ -17,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Matching in Case-Control Studies
 
 ## Core Idea

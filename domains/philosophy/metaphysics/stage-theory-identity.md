@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: personal-identity
   type: soft
+- id: growing-block-universe
+  type: soft
 builds-toward:
 - temporal-properties
 - persistence-and-change
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Stage Theory and Temporal Identity
 
 ## Core Idea

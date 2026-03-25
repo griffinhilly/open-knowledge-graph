@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: content-externalism-individuation
   type: soft
+- id: consciousness-and-representation
+  type: soft
 builds-toward:
 - representationalism
 - semantic-content-externalism
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Mental Content and Aboutness: What Makes Thoughts About Things
 
 ## Core Idea

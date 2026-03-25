@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: natural-kind-terms-semantics
   type: soft
+- id: externalism-about-content
+  type: soft
 builds-toward: []
 tags:
 - content

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: emotion-regulation-development-and-coping-skills
   type: soft
+- id: self-concept-and-identity-development-children
+  type: soft
 builds-toward:
 - self-concept-and-identity-development-children
 - peer-relationships-and-social-competence-children

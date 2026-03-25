@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: abductive-reasoning
   type: soft
+- id: evaluating-inductive-evidence
+  type: soft
 tags:
 - evidence
 - epistemology

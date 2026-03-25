@@ -6,6 +6,8 @@ course: cooking-and-nutrition
 prerequisites:
 - id: food-storage-and-preservation
   type: hard
+- id: refrigerator-storage-organization
+  type: soft
 builds-toward:
 - food-waste-reduction
 - grocery-shopping-and-budgeting
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Ingredient Shelf Life and Storage
 
 ## Core Idea

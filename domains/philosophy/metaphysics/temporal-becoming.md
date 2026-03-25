@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: temporal-logic
   type: soft
+- id: causal-order-temporal-order
+  type: soft
 builds-toward:
 - presentism-formalized
 - eternalism-formalized
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Temporal Becoming
 
 ## Core Idea

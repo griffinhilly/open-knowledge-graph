@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: unit-rates
   type: soft
+- id: hydration-and-beverages-nutrition
+  type: soft
 builds-toward:
 - bread-baking-yeast-fermentation
 - oven-baking-basics-and-safety
@@ -26,7 +28,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Dough Hydration and Gluten Development
 
 ## Core Idea

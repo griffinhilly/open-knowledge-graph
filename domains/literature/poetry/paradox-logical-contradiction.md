@@ -6,6 +6,8 @@ course: poetry
 prerequisites:
 - id: poetic-form-overview
   type: soft
+- id: oxymoron-paradox-juxtaposition
+  type: soft
 tags:
 - figurative-language
 - paradox

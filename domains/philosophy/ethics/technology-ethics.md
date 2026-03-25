@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: bioethics
   type: soft
+- id: environmental-ethics
+  type: soft
+- id: animal-ethics
+  type: soft
 builds-toward: []
 tags:
 - applied-ethics
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Technology Ethics
 
 ## Core Idea

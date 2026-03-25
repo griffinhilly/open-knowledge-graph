@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: propositional-soundness-completeness
   type: soft
+- id: truth-and-validity-distinction
+  type: soft
 builds-toward:
 - counterexample-method
 - modus-ponens-tollens
@@ -24,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Validity and Soundness
 
 ## Core Idea

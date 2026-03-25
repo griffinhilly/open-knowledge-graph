@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: hand-tools-identification-and-basic-use
   type: hard
+- id: garage-door-maintenance
+  type: soft
+- id: deck-and-fence-stain-and-sealant
+  type: soft
 tags:
 - electrical
 - repairs
@@ -16,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Basic Electrical Maintenance and Repairs
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: sociology
 prerequisites:
 - id: institution-theory-sociology
   type: hard
+- id: in-group-out-group-dynamics
+  type: soft
 builds-toward:
 - formal-organizations-structure
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Secondary Groups and Formal Organization
 
 ## Core Idea

@@ -4,18 +4,23 @@ title: Calories and Energy
 domain: health-and-human-development
 course: health-foundations
 prerequisites:
-  - id: food-groups-and-balanced-diet
-    type: hard
+- id: food-groups-and-balanced-diet
+  type: hard
+- id: hydration-and-water-needs
+  type: soft
 builds-toward:
-  - macronutrients-carbs-protein-fat
-  - reading-food-labels
-  - energy-metabolism-and-calories
-  - energy-balance-and-body-composition
-tags: [nutrition, calories, energy, metabolism]
+- macronutrients-carbs-protein-fat
+- reading-food-labels
+- energy-metabolism-and-calories
+- energy-balance-and-body-composition
+tags:
+- nutrition
+- calories
+- energy
+- metabolism
 stage: abstract-reasoning
 status: validated
 ---
-
 # Calories and Energy
 
 ## Core Idea

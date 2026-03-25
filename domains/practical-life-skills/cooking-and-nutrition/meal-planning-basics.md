@@ -22,6 +22,8 @@ prerequisites:
   type: soft
 - id: unit-rates
   type: soft
+- id: planning-a-balanced-daily-menu
+  type: soft
 builds-toward:
 - grocery-shopping-and-budgeting
 tags:

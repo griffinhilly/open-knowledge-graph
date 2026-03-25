@@ -6,6 +6,8 @@ course: political-science
 prerequisites:
 - id: democracy-types-and-theory
   type: hard
+- id: political-representation-concepts
+  type: soft
 builds-toward:
 - voting-systems-and-mechanics
 - political-parties-organization
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Representative Democracy and Delegation
 
 ## Core Idea

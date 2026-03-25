@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: genre-conventions-as-system
   type: soft
+- id: fourth-wall-convention-and-breaking
+  type: soft
 builds-toward:
 - dramatic-form-and-structure-types
 - ensemble-and-collective-drama
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Dramatic Conventions and the Audience Contract
 
 ## Core Idea

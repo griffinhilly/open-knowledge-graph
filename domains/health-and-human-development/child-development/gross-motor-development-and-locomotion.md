@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: motor-control-spinal-coordination
   type: soft
+- id: fine-motor-development-and-coordination
+  type: soft
 builds-toward:
 - peer-relationships-and-social-competence-children
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Gross Motor Development and Locomotion
 
 ## Core Idea

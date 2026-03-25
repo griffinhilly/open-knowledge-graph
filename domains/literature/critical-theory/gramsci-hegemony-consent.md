@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: discourse-and-power
   type: soft
+- id: cultural-materialism
+  type: soft
 builds-toward:
 - cultural-materialism
 - literature-politics-ideology
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Gramsci's Hegemony and Cultural Consent
 
 ## Core Idea

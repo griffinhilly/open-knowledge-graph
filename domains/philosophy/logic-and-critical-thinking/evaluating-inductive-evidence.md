@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: inductive-strength-and-weakness
   type: hard
+- id: burden-of-proof-evaluation
+  type: soft
 builds-toward:
 - probabilistic-reasoning
 - evaluating-evidence
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Evaluating Evidence in Inductive Arguments
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: public-health
 prerequisites:
 - id: epidemiology-foundations
   type: hard
+- id: epidemiologic-transition-model
+  type: soft
 builds-toward:
 - infectious-disease-epidemiology
 - disease-surveillance-systems
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Host-Agent-Environment Disease Model
 
 ## Core Idea

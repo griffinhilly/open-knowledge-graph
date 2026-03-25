@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: area-of-rectangles
   type: soft
+- id: caulk-selection-and-application
+  type: soft
 builds-toward:
 - interior-painting
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Paint Product Selection by Application
 
 ## Core Idea

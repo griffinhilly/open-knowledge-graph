@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: economic-geography-fundamentals
   type: soft
+- id: diaspora-transnational-networks
+  type: soft
+- id: informal-economies-livelihoods
+  type: soft
 builds-toward:
 - globalization-and-society
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Labor, Remittances, and Transnational Economies
 
 ## Core Idea

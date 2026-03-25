@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: philosophy-of-language-intro
   type: soft
+- id: rule-following-and-meaning
+  type: soft
+- id: meaning-convention-vs-intention
+  type: soft
 builds-toward:
 - semantic-content-externalism
 tags:
@@ -20,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Meaning Holism
 
 ## Core Idea

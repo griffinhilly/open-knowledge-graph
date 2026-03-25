@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: egalitarianism
   type: hard
+- id: minority-rights-and-tolerance
+  type: soft
 builds-toward:
 - voting-rights
 - discrimination-and-justice
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Political Equality and Equal Standing
 
 ## Core Idea

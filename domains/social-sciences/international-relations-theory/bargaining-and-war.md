@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: game-theory-basics-microeconomics
   type: soft
+- id: crisis-bargaining-war-initiation
+  type: soft
 builds-toward:
 - escalation-dynamics-crises
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Bargaining Theory and the Origins of War
 
 ## Core Idea

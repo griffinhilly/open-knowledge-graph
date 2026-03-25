@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: hemostasis-coagulation-cascade
   type: soft
+- id: hemostasis-platelet-coagulation-fibrinolysis
+  type: soft
 builds-toward:
 - thrombosis-pathophysiology
 - bleeding-disorders-overview
@@ -21,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Hemostasis and Coagulation Pathophysiology
 
 ## Core Idea

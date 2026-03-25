@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: password-security
   type: soft
+- id: keeping-yourself-safe-online
+  type: soft
 builds-toward:
 - account-login-and-password-recovery
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Form Filling and Data Entry Safety
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: cooking-and-nutrition
 prerequisites:
 - id: seasoning-and-flavor-basics
   type: hard
+- id: culinary-herbs-and-spices
+  type: soft
 builds-toward:
 - taste-balancing-and-evaluating
 - pan-sauces-and-deglazing
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Salt in Cooking: More Than Just Flavor
 
 ## Core Idea

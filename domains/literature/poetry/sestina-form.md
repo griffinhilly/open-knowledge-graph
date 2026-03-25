@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: poetic-repetition-and-refrain
   type: hard
+- id: pantoum-form
+  type: soft
+- id: acrostic-constraint-forms
+  type: soft
 tags:
 - form
 - constraint
@@ -16,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Sestina: Complex Form and Repetition
 
 ## Core Idea

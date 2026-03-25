@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hand-tools-identification-and-basic-use
   type: hard
+- id: interior-wall-and-ceiling-maintenance
+  type: soft
 tags:
 - drywall
 - walls
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Wall and Drywall Repair
 
 ## Core Idea

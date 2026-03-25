@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: poetic-repetition-and-refrain
   type: soft
+- id: anaphora-and-epistrophe
+  type: soft
 builds-toward:
 - epistrophe-terminal-repetition
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Anaphora: Repetition at Line Beginnings
 
 ## Core Idea

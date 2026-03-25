@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: sources-of-knowledge
   type: soft
+- id: dogmatism-perceptual-justification
+  type: soft
+- id: inductive-generalization-justification
+  type: soft
 tags:
 - phenomenal
 - experience
@@ -16,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Phenomenal Justification from Experience
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: philosophy-of-science
 prerequisites:
 - id: philosophy-of-science-intro
   type: hard
+- id: scientific-progress-and-convergence
+  type: soft
 builds-toward:
 - constructive-empiricism
 - instrumentalism-science
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Scientific Realism
 
 ## Core Idea

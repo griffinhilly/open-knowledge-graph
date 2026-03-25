@@ -6,6 +6,8 @@ course: my-body
 prerequisites:
 - id: staying-safe-at-home
   type: soft
+- id: asking-for-help
+  type: soft
 builds-toward: []
 tags:
 - safety
@@ -15,7 +17,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Stranger Safety
 
 ## Core Idea

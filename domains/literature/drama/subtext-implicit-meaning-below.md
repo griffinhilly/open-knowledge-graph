@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: dramatic-subtext
   type: hard
+- id: subtext-and-unspoken-meaning
+  type: soft
+- id: dramatic-exposition-revelation
+  type: soft
 builds-toward:
 - characterization-dialogue
 - character-interpretation-texts
@@ -21,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Subtext: The Unspoken Beneath Dialogue
 
 ## Core Idea

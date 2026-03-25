@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: burden-of-proof
   type: soft
+- id: evaluating-testimony-and-authority
+  type: soft
 tags:
 - testimony
 - credibility
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Testimony and Credibility
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: civil-disobedience-justification
   type: soft
+- id: civil-disobedience-and-resistance
+  type: soft
 builds-toward:
 - revolution-resistance-justified
 - legal-obligation-morality
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Civil Disobedience: Theory and Justification
 
 ## Core Idea

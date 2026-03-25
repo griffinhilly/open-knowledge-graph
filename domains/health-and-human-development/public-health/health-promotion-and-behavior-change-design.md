@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: health-behavior-change-intervention-strategies
   type: soft
+- id: risk-communication-behavior-change
+  type: soft
 builds-toward:
 - health-communication-and-message-design
 - policy-analysis-and-health-impact-evaluation

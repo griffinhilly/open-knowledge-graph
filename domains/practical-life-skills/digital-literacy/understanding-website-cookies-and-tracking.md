@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: digital-privacy-fundamentals
   type: soft
+- id: private-browsing-and-incognito-mode
+  type: soft
+- id: digital-identity-management
+  type: soft
+- id: form-filling-and-data-entry-safety
+  type: soft
+- id: keeping-yourself-safe-online
+  type: soft
 builds-toward:
 - configuring-privacy-settings-across-platforms
 tags:
@@ -17,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Understanding Website Cookies and Tracking
 
 ## Core Idea

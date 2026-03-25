@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: poetic-voice-and-tone
   type: soft
+- id: zeugma-and-wordplay
+  type: soft
 builds-toward:
 - irony-in-literature
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Zeugma: Semantic Yoking and Wit
 
 ## Core Idea

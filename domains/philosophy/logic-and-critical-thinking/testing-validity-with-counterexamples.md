@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conditional-statements-and-material-conditional
   type: soft
+- id: counterexample-construction
+  type: soft
 builds-toward:
 - argument-structure
 - counterexample-method
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Testing Validity with Counterexamples
 
 ## Core Idea

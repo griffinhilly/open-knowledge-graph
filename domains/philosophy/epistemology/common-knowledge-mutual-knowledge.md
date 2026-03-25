@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: first-order-logic-syntax
   type: soft
+- id: group-epistemology-collective
+  type: soft
 builds-toward:
 - collective-knowledge-and-group-epistemology
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Common Knowledge and Mutual Knowledge
 
 ## Core Idea

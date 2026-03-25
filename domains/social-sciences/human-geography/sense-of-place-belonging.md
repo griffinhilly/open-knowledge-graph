@@ -6,6 +6,8 @@ course: human-geography
 prerequisites:
 - id: place-and-space-concepts
   type: hard
+- id: consumption-places-identity
+  type: soft
 builds-toward:
 - diaspora-transnational-networks
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Sense of Place and Belonging
 
 ## Core Idea

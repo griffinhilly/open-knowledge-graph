@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: cognitive-biases-in-reasoning
   type: soft
+- id: vices-and-moral-defects
+  type: soft
+- id: moral-exemplars-and-ideals
+  type: soft
 tags:
 - moral-psychology
 - moral-intuition
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Moral Psychology
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: principle-of-charity
   type: soft
+- id: dialectical-reasoning-socratic-dialogue
+  type: soft
 tags:
 - dialogue
 - debate
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Dialogue and Debate Structure
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: speaker-meaning
   type: hard
+- id: meaning-convention-vs-intention
+  type: soft
+- id: conventional-implicature-meaning
+  type: soft
 builds-toward:
 - metaphorical-meaning-and-extension
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Literal Meaning and Speaker Meaning
 
 ## Core Idea

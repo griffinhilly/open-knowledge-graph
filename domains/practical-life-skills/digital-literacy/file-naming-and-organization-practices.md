@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: file-management-and-organization
   type: soft
+- id: file-management-best-practices
+  type: soft
+- id: download-location-and-file-retrieval
+  type: soft
 builds-toward: []
 tags:
 - files

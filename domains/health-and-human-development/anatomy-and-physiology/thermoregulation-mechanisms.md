@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: autonomic-nervous-system-physiology
   type: soft
+- id: body-thermoregulation-metabolic-heat-production
+  type: soft
 builds-toward:
 - fever-and-heat-illness
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Thermoregulation Mechanisms
 
 ## Core Idea

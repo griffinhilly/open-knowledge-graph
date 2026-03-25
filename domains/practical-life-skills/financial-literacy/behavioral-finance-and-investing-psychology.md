@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stock-market-investing-fundamentals
   type: soft
+- id: consumption-patterns-and-financial-identity
+  type: soft
 tags:
 - psychology
 - behavior
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Behavioral Finance and Investing Psychology
 
 ## Core Idea

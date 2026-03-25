@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: oxygen-hemoglobin-binding-cooperativity
   type: hard
+- id: gas-exchange-alveoli-and-diffusion
+  type: soft
 builds-toward:
 - oxygen-transport-and-hemoglobin
 - acid-base-homeostasis-physiology
@@ -23,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Respiratory Mechanics and Gas Exchange
 
 ## Core Idea

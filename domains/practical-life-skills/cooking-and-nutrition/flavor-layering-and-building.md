@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: taste-balancing-and-evaluating
   type: hard
+- id: green-vegetable-color-preservation
+  type: soft
+- id: building-aromatics-and-bases
+  type: soft
+- id: tasting-evaluating-food-flavor
+  type: soft
 builds-toward:
 - sauce-making-basics
 - pan-sauces-and-deglazing
@@ -19,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Flavor Layering and Building
 
 ## Core Idea

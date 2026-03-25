@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: mortgage-and-home-buying
   type: soft
+- id: auto-insurance-essentials
+  type: soft
+- id: disability-insurance-overview
+  type: soft
+- id: life-insurance-types
+  type: soft
+- id: assessing-personal-insurance-needs
+  type: soft
 tags:
 - insurance
 - homeowners
@@ -18,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Homeowners and Renters Insurance
 
 ## Core Idea

@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: responses-to-gettier
   type: soft
+- id: memorial-justification-preservation
+  type: soft
+- id: margin-error-semantics
+  type: soft
+- id: multi-case-analysis-knowledge
+  type: soft
 builds-toward:
 - defeater-networks-justification
 tags:
@@ -18,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Defeasibility Conditions and Knowledge
 
 ## Core Idea

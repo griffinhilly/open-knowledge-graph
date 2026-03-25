@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: computability-models-equivalence
   type: soft
+- id: substrate-independence
+  type: soft
 builds-toward:
 - machine-consciousness-functionalism
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Substrate Independence and Multiple Realization
 
 ## Core Idea

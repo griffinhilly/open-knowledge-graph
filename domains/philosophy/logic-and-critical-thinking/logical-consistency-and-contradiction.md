@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: propositional-logic-introduction
   type: soft
+- id: formal-logical-fallacies
+  type: soft
+- id: reductio-ad-absurdum-method
+  type: soft
 builds-toward:
 - paradox-and-self-reference
 - argument-evaluation-holistic
@@ -20,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Logical Consistency and Contradiction
 
 ## Core Idea

@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: proportional-relationships
   type: soft
+- id: breading-coating-techniques
+  type: soft
+- id: protein-cooking-science
+  type: soft
 builds-toward:
 - rice-and-grain-cooking
 - pasta-and-noodle-cooking
@@ -26,7 +30,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # How Starch Changes During Cooking
 
 ## Core Idea

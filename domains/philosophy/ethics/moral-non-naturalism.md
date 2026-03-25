@@ -6,6 +6,8 @@ course: ethics
 prerequisites:
 - id: moral-cognitivism
   type: hard
+- id: moral-naturalism
+  type: soft
 builds-toward:
 - moral-realism
 - moral-facts-and-objectivity-debate
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Moral Non-Naturalism: Special Moral Properties
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: measures-of-association
   type: hard
+- id: epidemiologic-transition-model
+  type: soft
 builds-toward:
 - disease-transmission-dynamics-modeling
 - epidemic-investigation-methodology
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Selecting Appropriate Epidemiologic Study Designs
 
 ## Core Idea

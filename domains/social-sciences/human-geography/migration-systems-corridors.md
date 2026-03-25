@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: population-distribution-density
   type: soft
+- id: diaspora-transnational-networks
+  type: soft
 builds-toward:
 - refugee-asylum-geographies
 - climate-migration-displacement
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Migration Systems and Corridors
 
 ## Core Idea

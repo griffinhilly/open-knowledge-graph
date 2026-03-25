@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: stability-classification
   type: soft
+- id: international-order-stability
+  type: soft
 builds-toward:
 - second-strike-capability-mutual-assured-destruction
 - crisis-bargaining-war-initiation
@@ -24,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Arms Race Dynamics and Stability
 
 ## Core Idea

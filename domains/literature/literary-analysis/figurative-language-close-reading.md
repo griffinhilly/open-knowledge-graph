@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: diction-and-style
   type: soft
+- id: figurative-language-meaning-making
+  type: soft
 builds-toward:
 - extended-metaphor-analysis
 - irony-analysis-types
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Analyzing Figurative Language in Context
 
 ## Core Idea

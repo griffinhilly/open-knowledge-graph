@@ -6,6 +6,8 @@ course: philosophy-of-mind
 prerequisites:
 - id: philosophy-of-mind-introduction
   type: soft
+- id: relational-consciousness-accounts
+  type: soft
 builds-toward:
 - phenomenal-consciousness-definition
 - access-consciousness-definition
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Defining Consciousness
 
 ## Core Idea

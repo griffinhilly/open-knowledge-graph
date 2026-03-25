@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: implicature-and-logical-form
   type: soft
+- id: dialogue-construction-stage
+  type: soft
 builds-toward:
 - character-transformation-arc
 - monologue-and-soliloquy-craft
@@ -28,7 +30,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Subtext and Unspoken Meaning in Drama
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: modal-logic-intro
   type: hard
+- id: two-dimensional-semantics
+  type: soft
+- id: modal-status-identity-statements
+  type: soft
 builds-toward:
 - temporal-semantics-and-tense
 - counterfactual-conditionals
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Modal Semantics and Possible Worlds
 
 ## Core Idea

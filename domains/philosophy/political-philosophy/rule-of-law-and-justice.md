@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: justice-and-fairness
   type: hard
+- id: capabilities-approach-to-justice
+  type: soft
 builds-toward:
 - constitutional-limits
 - legal-systems
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Rule of Law and Justice
 
 ## Core Idea

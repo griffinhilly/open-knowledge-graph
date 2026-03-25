@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: heat-transfer-in-cooking
   type: soft
+- id: grilling-basics
+  type: soft
 builds-toward:
 - sauteing-and-pan-cooking
 - frying-and-deep-frying
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Fats and Oils: Smoke Points and Uses
 
 ## Core Idea

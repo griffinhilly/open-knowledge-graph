@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: gutter-and-water-drainage-assessment
   type: soft
+- id: gutter-downspout-systems
+  type: soft
 builds-toward:
 - roof-system-types-and-inspection-basics
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Gutter Repair and Replacement
 
 ## Core Idea

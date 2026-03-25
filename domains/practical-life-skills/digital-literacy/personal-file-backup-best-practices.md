@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cloud-storage-basics
   type: soft
+- id: file-management-best-practices
+  type: soft
 builds-toward:
 - system-backup-and-recovery
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Personal File Backup: Best Practices and Automation
 
 ## Core Idea

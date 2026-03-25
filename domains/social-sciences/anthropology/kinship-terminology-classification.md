@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: binary-relations
   type: soft
+- id: marriage-exchange-systems
+  type: soft
 builds-toward:
 - marriage-exchange-systems
 - descent-systems-unilineal
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Kinship Terminology and Classification Systems
 
 ## Core Idea

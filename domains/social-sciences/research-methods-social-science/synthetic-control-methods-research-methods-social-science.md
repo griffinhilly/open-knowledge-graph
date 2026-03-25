@@ -10,6 +10,52 @@ prerequisites:
   type: soft
 - id: linear-regression
   type: soft
+- id: difference-in-differences-estimation-research-methods-social-science
+  type: soft
+- id: process-tracing-comparative
+  type: soft
+- id: grounded-theory-methods
+  type: soft
+- id: phenomenological-research-methods
+  type: soft
+- id: propensity-score-methods-research-methods-social-science
+  type: soft
+- id: participatory-action-research
+  type: soft
+- id: qualitative-impact-assessment
+  type: soft
+- id: conjoint-analysis-preferences
+  type: soft
+- id: survival-analysis-event-history
+  type: soft
+- id: conversation-analysis-social-order
+  type: soft
+- id: cost-effectiveness-analysis
+  type: soft
+- id: critical-discourse-analysis
+  type: soft
+- id: field-experiments-real-world
+  type: soft
+- id: intersectional-analysis-methods
+  type: soft
+- id: mediation-analysis-social
+  type: soft
+- id: meta-analysis-systematic-review
+  type: soft
+- id: missing-data-mechanisms-imputation
+  type: soft
+- id: moderation-analysis-interaction
+  type: soft
+- id: narrative-analysis-methods
+  type: soft
+- id: positivism-interpretivism-paradigm-debate
+  type: soft
+- id: qualitative-comparative-analysis
+  type: soft
+- id: sensitivity-analysis-unmeasured-confounding
+  type: soft
+- id: triangulation-method-convergence
+  type: soft
 builds-toward:
 - generalized-synthetic-control
 - augmented-synthetic-control
@@ -21,7 +67,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Synthetic Control Methods
 
 ## Core Idea

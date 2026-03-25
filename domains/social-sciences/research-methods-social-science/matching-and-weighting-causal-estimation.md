@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: optimization-multivariable-basics
   type: soft
+- id: propensity-score-methods-research-methods-social-science
+  type: soft
 tags:
 - matching
 - stratification
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Matching, Stratification, and Weighting: Creating Comparable Groups
 
 ## Core Idea

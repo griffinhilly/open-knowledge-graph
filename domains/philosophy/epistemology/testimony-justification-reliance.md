@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: sources-of-knowledge
   type: soft
+- id: inductive-generalization-justification
+  type: soft
+- id: phenomenal-justification-experience
+  type: soft
 tags:
 - testimony
 - trust
@@ -16,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Testimony as a Source of Justification
 
 ## Core Idea

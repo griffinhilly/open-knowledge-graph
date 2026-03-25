@@ -6,6 +6,8 @@ course: sociological-theory
 prerequisites:
 - id: sociological-imagination
   type: soft
+- id: comte-positivism-sociology
+  type: soft
 builds-toward:
 - weber-bureaucracy
 - structural-functionalism
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Weber and the Iron Cage of Rationalization
 
 ## Core Idea

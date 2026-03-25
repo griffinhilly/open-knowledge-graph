@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: smooth-muscle-structure-and-distribution
   type: hard
+- id: vascular-smooth-muscle-autoregulation
+  type: soft
 builds-toward:
 - blood-pressure-regulation-neural-hormonal
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Vascular Resistance and Control
 
 ## Core Idea

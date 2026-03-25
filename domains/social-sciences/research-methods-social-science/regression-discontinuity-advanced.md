@@ -10,6 +10,14 @@ prerequisites:
   type: soft
 - id: interrupted-time-series
   type: soft
+- id: panel-data-fixed-effects
+  type: soft
+- id: focus-group-research
+  type: soft
+- id: longitudinal-qualitative-research
+  type: soft
+- id: count-data-regression-models
+  type: soft
 builds-toward:
 - multi-dimensional-rdd
 - spatial-discontinuity

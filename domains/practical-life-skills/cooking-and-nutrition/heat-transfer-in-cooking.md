@@ -8,6 +8,22 @@ prerequisites:
   type: soft
 - id: rates-of-change-preview
   type: soft
+- id: pan-preheating-and-readiness
+  type: soft
+- id: pan-cooking-and-sauteing-basics
+  type: soft
+- id: meat-doneness-without-thermometer
+  type: soft
+- id: meat-resting-and-carryover-temperature
+  type: soft
+- id: oven-temperature-verification-and-adjustment
+  type: soft
+- id: cooking-for-dietary-restrictions
+  type: soft
+- id: creative-leftover-cooking
+  type: soft
+- id: modern-cooking-appliances
+  type: soft
 builds-toward:
 - pan-selection-heat-management
 - roasting-techniques
@@ -19,7 +35,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Heat Transfer in Cooking
 
 ## Core Idea

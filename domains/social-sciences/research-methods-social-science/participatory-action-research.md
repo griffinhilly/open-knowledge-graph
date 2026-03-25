@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: research-ethics-human-subjects
   type: hard
+- id: ethnographic-collaboration
+  type: soft
 builds-toward:
 - community-based-participatory
 - decolonial-research-methods
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Participatory Action Research Methods
 
 ## Core Idea

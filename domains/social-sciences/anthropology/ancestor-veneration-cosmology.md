@@ -6,6 +6,8 @@ course: anthropology
 prerequisites:
 - id: myth-and-symbolism
   type: hard
+- id: comparative-religion-worldviews
+  type: soft
 builds-toward:
 - religion-and-society
 - ritual-and-ceremony
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ancestor Veneration and Cosmology
 
 ## Core Idea

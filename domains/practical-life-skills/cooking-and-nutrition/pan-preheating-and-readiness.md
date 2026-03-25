@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: burner-heat-level-control
   type: soft
+- id: heat-spots-and-pan-adjustment
+  type: soft
 builds-toward:
 - searing-and-developing-crust
 - pan-cooking-and-sauteing-basics
@@ -20,7 +22,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Pan Preheating and Readiness
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: grice-cooperative-principle-maxims
   type: hard
+- id: scalar-implicature-pragmatics
+  type: soft
 builds-toward:
 - impliciture-and-enrichment
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Conventional Implicature and Non-Truth-Conditional Meaning
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: plumbing-basics
   type: hard
+- id: water-heater-basics
+  type: soft
+- id: pipe-insulation-freeze-protection
+  type: soft
 builds-toward:
 - fixing-leaky-faucets
 - unclogging-drains
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Plumbing System Layout and Components
 
 ## Core Idea

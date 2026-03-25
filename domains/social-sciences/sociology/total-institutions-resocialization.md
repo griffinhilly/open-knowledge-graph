@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: deviance-and-social-control
   type: hard
+- id: secondary-socialization-resocialization
+  type: soft
+- id: resocialization-identity-change
+  type: soft
 builds-toward:
 - institutional-legitimacy-compliance
 - secondary-socialization-resocialization
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Total Institutions and Resocialization
 
 ## Core Idea

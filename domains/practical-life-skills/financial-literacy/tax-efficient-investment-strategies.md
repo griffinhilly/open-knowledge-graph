@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: tax-loss-harvesting-and-tax-efficiency
   type: soft
+- id: lump-sum-vs-dollar-cost-averaging
+  type: soft
+- id: financial-optionality-and-flexibility-value
+  type: soft
 tags:
 - taxes
 - investing

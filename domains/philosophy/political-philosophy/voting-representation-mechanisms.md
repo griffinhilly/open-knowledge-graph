@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: democracy-and-self-governance
   type: hard
+- id: democracy-forms-legitimacy
+  type: soft
 builds-toward:
 - electoral-systems
 - deliberative-democracy
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Voting and Representation in Democracy
 
 ## Core Idea

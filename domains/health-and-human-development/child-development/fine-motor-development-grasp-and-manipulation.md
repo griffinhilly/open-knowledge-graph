@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: infant-motor-development
   type: soft
+- id: fine-motor-skill-development-grasp-and-precision
+  type: soft
 builds-toward:
 - literacy-acquisition-reading-and-writing
 - mathematical-thinking-and-number-sense
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Fine Motor Development: Grasp and Manipulation
 
 ## Core Idea

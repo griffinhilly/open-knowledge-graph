@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: renal-anatomy-and-filtration
   type: soft
+- id: hydration-and-water-needs
+  type: soft
 builds-toward:
 - sports-nutrition-basics
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Hydration, Water Balance, and Electrolyte Needs
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: financial-goal-setting
   type: soft
+- id: financial-constraint-optimization
+  type: soft
 builds-toward:
 - home-equity-access-and-leverage-decisions
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Rent vs. Buy Financial Decision Framework
 
 ## Core Idea

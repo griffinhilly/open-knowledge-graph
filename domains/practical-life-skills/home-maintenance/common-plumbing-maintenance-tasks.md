@@ -10,6 +10,16 @@ prerequisites:
   type: hard
 - id: basic-electrical-maintenance-and-repairs
   type: soft
+- id: plumbing-vent-system-function
+  type: soft
+- id: garage-door-maintenance
+  type: soft
+- id: home-maintenance-routine-and-scheduling
+  type: soft
+- id: deck-and-fence-stain-and-sealant
+  type: soft
+- id: hardwood-floor-care-and-refinishing
+  type: soft
 tags:
 - plumbing
 - repairs

@@ -10,6 +10,18 @@ prerequisites:
   type: soft
 - id: maillard-reaction-browning
   type: soft
+- id: pasta-water-starch-sauce-binding
+  type: soft
+- id: breading-coating-techniques
+  type: soft
+- id: heat-spots-and-pan-adjustment
+  type: soft
+- id: vinaigrette-emulsion-binding
+  type: soft
+- id: mise-en-place
+  type: soft
+- id: timing-multiple-dishes-coordination
+  type: soft
 builds-toward:
 - sauce-making-basics
 - sauteing-and-pan-cooking
@@ -21,7 +33,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Pan Sauces: Deglazing and Quick Reductions
 
 ## Core Idea

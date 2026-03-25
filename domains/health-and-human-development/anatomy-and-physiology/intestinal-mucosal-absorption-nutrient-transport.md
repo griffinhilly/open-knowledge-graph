@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: epithelial-vectorial-transport-secretion
   type: hard
+- id: nutrient-absorption-and-transport-anatomy-and-physiology
+  type: soft
 builds-toward:
 - nutrient-digestion-and-absorption
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Intestinal Mucosal Absorption and Nutrient Transport
 
 ## Core Idea

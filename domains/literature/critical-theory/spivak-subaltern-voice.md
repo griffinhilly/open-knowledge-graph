@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: subaltern-postcolonial-voice
   type: soft
+- id: said-orientalism-representation
+  type: soft
 builds-toward:
 - postcolonial-rewriting-canon
 - literary-identity-nation-construction

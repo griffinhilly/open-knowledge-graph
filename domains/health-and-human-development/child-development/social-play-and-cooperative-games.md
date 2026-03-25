@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: temperament-and-individual-differences
   type: soft
+- id: peer-relationships-and-social-competence-children
+  type: soft
+- id: peer-friendships-and-cooperative-play
+  type: soft
 builds-toward:
 - peer-relationships-and-social-competence
 - self-regulation-emotional-and-behavioral-control
@@ -22,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Social Play and Cooperative Games
 
 ## Core Idea

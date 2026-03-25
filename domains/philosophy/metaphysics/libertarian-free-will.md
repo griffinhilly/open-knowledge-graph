@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: modal-logic-intro
   type: soft
+- id: agent-causation
+  type: soft
 tags:
 - libertarianism
 - agent causation
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Libertarian Free Will
 
 ## Core Idea

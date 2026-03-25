@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: natural-rights-theory
   type: hard
+- id: natural-rights-foundations
+  type: soft
 builds-toward:
 - constitutional-government
 - liberal-rights-theory
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Locke: Limited Government and Natural Rights
 
 ## Core Idea

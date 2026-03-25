@@ -6,6 +6,44 @@ course: sociological-theory
 prerequisites:
 - id: conflict-theory-sociology
   type: hard
+- id: parsons-systems-theory
+  type: soft
+- id: anthony-giddens-structuration
+  type: soft
+- id: cultural-reproduction
+  type: soft
+- id: rational-choice-sociology
+  type: soft
+- id: bourdieu-field-sociology
+  type: soft
+- id: class-struggle-marxist
+  type: soft
+- id: coercion-social-domination
+  type: soft
+- id: dialectical-materialism-marxist
+  type: soft
+- id: durkheim-anomie
+  type: soft
+- id: habermas-communicative-action
+  type: soft
+- id: phenomenological-sociology
+  type: soft
+- id: protestant-ethic-and-capitalism
+  type: soft
+- id: robert-merton-functional-analysis
+  type: soft
+- id: role-taking-self-development
+  type: soft
+- id: social-capital-networks
+  type: soft
+- id: social-dysfunction-functionalism
+  type: soft
+- id: sociology-of-knowledge
+  type: soft
+- id: suicide-as-social-fact-durkheim
+  type: soft
+- id: surplus-value-labor
+  type: soft
 builds-toward:
 - postcolonial-sociology
 tags:
@@ -16,7 +54,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # World-Systems Theory
 
 ## Core Idea

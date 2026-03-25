@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: composition-and-simples
   type: soft
+- id: haecceity-primitive-identity
+  type: soft
 builds-toward: []
 tags:
 - sortals

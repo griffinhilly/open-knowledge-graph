@@ -6,6 +6,10 @@ course: financial-literacy
 prerequisites:
 - id: inflation-and-purchasing-power
   type: hard
+- id: income-potential-and-career-planning
+  type: soft
+- id: major-life-transitions-financial-planning
+  type: soft
 builds-toward:
 - financial-independence-and-passive-income
 - lifecycle-financial-strategy-and-priorities
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Inflation and Purchasing Power Planning
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: three-act-structure
   type: soft
+- id: melodrama
+  type: soft
 builds-toward:
 - well-made-play
 - modern-realist-drama
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Five-Act Classical Dramatic Structure
 
 ## Core Idea

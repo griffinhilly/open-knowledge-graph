@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: cognitive-biases-in-reasoning
   type: hard
+- id: anchoring-bias
+  type: soft
 tags:
 - cognitive-bias
 - availability
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Availability Heuristic
 
 ## Core Idea

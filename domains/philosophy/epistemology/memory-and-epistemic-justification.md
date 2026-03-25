@@ -6,6 +6,8 @@ course: epistemology
 prerequisites:
 - id: sources-of-knowledge
   type: hard
+- id: epistemic-properties-and-metrics
+  type: soft
 tags:
 - memory
 - preservation

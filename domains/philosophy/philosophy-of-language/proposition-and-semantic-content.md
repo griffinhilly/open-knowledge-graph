@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: first-order-logic-syntax
   type: soft
+- id: naturalism-semantic-facts
+  type: soft
 builds-toward:
 - truth-conditions-and-meaning
 - compositionality-principle
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Propositions and Semantic Content
 
 ## Core Idea

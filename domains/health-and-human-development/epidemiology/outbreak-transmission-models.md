@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: basic-reproduction-number
   type: hard
+- id: age-structured-epidemiological-models
+  type: soft
 tags:
 - mathematical-models
 - transmission-dynamics
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Mathematical Models of Disease Transmission
 
 ## Core Idea

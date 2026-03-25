@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: modal-logic-intro
   type: hard
+- id: infallibilist-knowledge-analysis
+  type: soft
+- id: stakes-pragmatic-knowledge-content
+  type: soft
 builds-toward:
 - epistemic-accessibility-relations
 - closure-principles-formalized
@@ -22,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Possible Worlds Semantics for Knowledge
 
 ## Core Idea

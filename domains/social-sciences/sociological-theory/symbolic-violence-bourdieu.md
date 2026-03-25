@@ -8,6 +8,32 @@ prerequisites:
   type: hard
 - id: legitimate-authority-weber
   type: soft
+- id: coercion-social-domination
+  type: soft
+- id: bourdieu-field-sociology
+  type: soft
+- id: cultural-reproduction
+  type: soft
+- id: foucault-genealogy-sociological-theory
+  type: soft
+- id: class-struggle-marxist
+  type: soft
+- id: durkheim-anomie
+  type: soft
+- id: habermas-communicative-action
+  type: soft
+- id: parsons-systems-theory
+  type: soft
+- id: protestant-ethic-and-capitalism
+  type: soft
+- id: robert-merton-functional-analysis
+  type: soft
+- id: social-capital-networks
+  type: soft
+- id: suicide-as-social-fact-durkheim
+  type: soft
+- id: surplus-value-labor
+  type: soft
 builds-toward: []
 tags:
 - bourdieu

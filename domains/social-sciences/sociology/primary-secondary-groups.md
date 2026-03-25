@@ -6,6 +6,8 @@ course: sociology
 prerequisites:
 - id: sociological-imagination
   type: hard
+- id: secondary-groups-formal-organizations
+  type: soft
 builds-toward:
 - group-dynamics-conformity
 - socialization
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Primary and Secondary Groups
 
 ## Core Idea

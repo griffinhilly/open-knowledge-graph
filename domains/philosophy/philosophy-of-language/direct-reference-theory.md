@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: russell-definite-descriptions
   type: soft
+- id: descriptivism-proper-names
+  type: soft
+- id: reference-failure-empty-names
+  type: soft
 builds-toward:
 - donnellan-reference-attributive
 - natural-kind-terms-semantics
@@ -21,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Direct Reference Theory
 
 ## Core Idea

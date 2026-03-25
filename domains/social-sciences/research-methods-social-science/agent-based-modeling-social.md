@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: differential-equations-intro
   type: soft
+- id: big-data-social-science
+  type: soft
+- id: machine-learning-social-science
+  type: soft
 builds-toward:
 - network-simulation-dynamics
 - simulation-modeling-social
@@ -25,7 +29,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Agent-Based Modeling in Social Science
 
 ## Core Idea

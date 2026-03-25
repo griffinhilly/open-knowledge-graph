@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: regularity-theory-of-causation
   type: soft
+- id: causation-and-determination
+  type: soft
 tags:
 - counterfactuals
 - David Lewis

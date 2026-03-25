@@ -8,6 +8,22 @@ prerequisites:
   type: hard
 - id: properties-intrinsic-extrinsic
   type: hard
+- id: categorical-properties
+  type: soft
+- id: collective-vs-distributive
+  type: soft
+- id: relational-vs-non-relational-properties
+  type: soft
+- id: scalar-vs-vectorial-properties
+  type: soft
+- id: dispositional-properties
+  type: soft
+- id: first-order-higher-order-properties
+  type: soft
+- id: persistence-through-change
+  type: soft
+- id: causal-order-temporal-order
+  type: soft
 builds-toward: []
 tags:
 - temporal

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: characterization-methods
   type: hard
+- id: character-foil-analysis
+  type: soft
 builds-toward:
 - dialogue-analysis-and-function
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Character Interpretation and Analysis
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: literary-terminology-core-concepts
   type: hard
+- id: interpretation-multiple-readings
+  type: soft
+- id: symbolism-symbolic-meaning
+  type: soft
 builds-toward:
 - theme-analysis-and-exploration
 - thematic-development
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Identifying and Analyzing Themes
 
 ## Core Idea

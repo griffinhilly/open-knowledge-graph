@@ -10,6 +10,14 @@ prerequisites:
   type: soft
 - id: detecting-fake-websites-and-scams
   type: soft
+- id: recognizing-online-scams-fraud
+  type: soft
+- id: safe-downloads-and-source-verification
+  type: soft
+- id: operating-system-updates
+  type: soft
+- id: software-installation-management
+  type: soft
 builds-toward:
 - recognizing-online-scams-fraud
 - keeping-yourself-safe-online

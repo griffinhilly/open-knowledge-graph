@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: categorical-imperative
   type: soft
+- id: moral-dilemmas
+  type: soft
 tags:
 - normative-ethics
 - autonomy
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Autonomy and Moral Worth
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: sociological-theory
 prerequisites:
 - id: durkheim-social-facts
   type: hard
+- id: division-of-labor-durkheim
+  type: soft
 builds-toward:
 - durkheim-anomie
 - sociological-research-methods
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Suicide as a Social Fact: Durkheim's Empirical Study
 
 ## Core Idea

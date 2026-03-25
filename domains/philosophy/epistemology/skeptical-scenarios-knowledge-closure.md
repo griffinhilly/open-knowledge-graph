@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: possible-worlds-semantics
   type: soft
+- id: deductive-closure-knowledge
+  type: soft
+- id: relevant-alternatives-semantics
+  type: soft
 tags:
 - skepticism
 - scenarios
@@ -20,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Skeptical Scenarios and Knowledge Closure
 
 ## Core Idea

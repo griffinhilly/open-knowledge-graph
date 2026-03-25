@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: language-and-culture
   type: soft
+- id: play-leisure-cultural-meaning
+  type: soft
 builds-toward:
 - ethnographic-extended-fieldwork-immersion
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Cultural Translation and Ethnographic Interpretation
 
 ## Core Idea

@@ -8,6 +8,16 @@ prerequisites:
   type: hard
 - id: common-plumbing-maintenance-tasks
   type: soft
+- id: gutter-repair-and-replacement
+  type: soft
+- id: toilet-repair-basics
+  type: soft
+- id: water-heater-basics
+  type: soft
+- id: siding-patch-and-repair
+  type: soft
+- id: tile-repair-and-regrouting
+  type: soft
 tags:
 - plumbing
 - leaks
@@ -15,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Faucet Repair and Replacement
 
 ## Core Idea

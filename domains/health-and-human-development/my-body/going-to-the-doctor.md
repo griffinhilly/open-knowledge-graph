@@ -6,6 +6,10 @@ course: my-body
 prerequisites:
 - id: my-body-parts
   type: soft
+- id: why-we-drink-water
+  type: soft
+- id: brushing-teeth
+  type: soft
 builds-toward:
 - disease-prevention-levels
 tags:
@@ -16,7 +20,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Going to the Doctor
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: digital-literacy
 prerequisites:
 - id: computer-parts-identification
   type: soft
+- id: computer-startup-and-shutdown
+  type: soft
 builds-toward:
 - using-a-mouse
 - using-a-keyboard
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Turning Computers On and Off
 
 ## Core Idea

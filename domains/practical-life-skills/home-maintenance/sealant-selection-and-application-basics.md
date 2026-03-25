@@ -6,6 +6,8 @@ course: home-maintenance
 prerequisites:
 - id: exterior-finish-damage-types-and-assessment
   type: soft
+- id: caulk-selection-and-application
+  type: soft
 builds-toward:
 - caulking-and-weatherstripping
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Sealant Selection and Application Basics
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: philosophy-of-science
 prerequisites:
 - id: problem-of-demarcation
   type: soft
+- id: normal-science-anomalies
+  type: soft
 builds-toward:
 - thomas-kuhn-paradigm-shifts
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Normal Science and Crisis
 
 ## Core Idea

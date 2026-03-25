@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: characterization-methods
   type: hard
+- id: literary-adaptation-media
+  type: soft
 builds-toward:
 - digital-humanities-literary-analysis
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Adaptation Theory and Cross-Media Transformation
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: sensory-neural-coding-perception
   type: soft
+- id: auditory-development-discrimination-and-language-readiness
+  type: soft
 builds-toward:
 - visual-development-acuity-and-perception
 - auditory-development-discrimination-and-language-readiness
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Sensory System Integration and Perceptual Development
 
 ## Core Idea

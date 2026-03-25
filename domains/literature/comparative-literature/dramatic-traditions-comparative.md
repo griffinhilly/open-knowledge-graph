@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: genre-comparison-cultural
   type: soft
+- id: literary-realism-comparative
+  type: soft
 builds-toward:
 - tragic-form-across-cultures
 - adaptation-dramatic-translation
@@ -21,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Dramatic Traditions in Comparative Perspective
 
 ## Core Idea

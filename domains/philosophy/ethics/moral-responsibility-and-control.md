@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: free-will-and-determinism
   type: soft
+- id: impartial-vs-partial-agents
+  type: soft
 builds-toward:
 - moral-desert-and-merit
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Moral Responsibility and Control
 
 ## Core Idea

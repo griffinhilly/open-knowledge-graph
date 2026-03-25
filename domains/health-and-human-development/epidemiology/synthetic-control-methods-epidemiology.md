@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: difference-in-differences
   type: soft
+- id: difference-in-differences-epidemiology
+  type: soft
 builds-toward:
 - interrupted-time-series-analysis
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Synthetic Control and Comparative Case Studies
 
 ## Core Idea

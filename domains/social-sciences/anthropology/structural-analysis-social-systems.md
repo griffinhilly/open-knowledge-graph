@@ -6,6 +6,8 @@ course: anthropology
 prerequisites:
 - id: holistic-analysis-cultural-systems
   type: hard
+- id: agency-structure-anthropological-theory
+  type: soft
 builds-toward:
 - symbolic-classification-systems
 - structural-functionalism
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Structural Analysis of Social Systems
 
 ## Core Idea

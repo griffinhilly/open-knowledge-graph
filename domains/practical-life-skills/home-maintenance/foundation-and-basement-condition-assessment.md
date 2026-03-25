@@ -6,6 +6,8 @@ course: home-maintenance
 prerequisites:
 - id: home-system-components-and-layout
   type: soft
+- id: foundation-and-structural-assessment
+  type: soft
 builds-toward:
 - water-damage-mold-basics
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Foundation and Basement Condition Assessment
 
 ## Core Idea

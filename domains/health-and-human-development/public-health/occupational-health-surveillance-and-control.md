@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: disease-surveillance-systems
   type: soft
+- id: occupational-health-hierarchy-controls
+  type: soft
+- id: passive-active-surveillance-systems
+  type: soft
 tags:
 - occupational-health
 - surveillance
@@ -15,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Occupational Health Surveillance and Hazard Control
 
 ## Core Idea

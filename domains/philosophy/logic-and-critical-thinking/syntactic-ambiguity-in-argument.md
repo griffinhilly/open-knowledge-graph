@@ -6,6 +6,10 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: argument-premise-and-conclusion
   type: hard
+- id: semantic-ambiguity-in-argument
+  type: soft
+- id: ambiguity-in-arguments
+  type: soft
 builds-toward:
 - fallacy-detection-in-reasoning
 - argument-evaluation-holistic
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Syntactic Ambiguity in Argument
 
 ## Core Idea

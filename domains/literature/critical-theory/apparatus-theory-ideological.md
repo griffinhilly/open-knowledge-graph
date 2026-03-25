@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ideological-criticism
   type: soft
+- id: althusserian-interpellation
+  type: soft
 tags:
 - apparatus
 - ideology
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Apparatus Theory and Ideological Formation
 
 ## Core Idea

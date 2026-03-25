@@ -6,6 +6,8 @@ course: philosophy-of-science
 prerequisites:
 - id: rationalism-vs-empiricism
   type: hard
+- id: constructive-empiricism
+  type: soft
 builds-toward:
 - problem-of-induction
 - logical-positivism-and-vienna-circle
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Empiricism and the Foundations of Science
 
 ## Core Idea

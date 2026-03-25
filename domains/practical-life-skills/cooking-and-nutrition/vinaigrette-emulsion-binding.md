@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: seasoning-and-flavor-basics
   type: soft
+- id: pasta-water-starch-sauce-binding
+  type: soft
 builds-toward:
 - sauce-making-basics
 - flavor-balance-salt-acid-fat
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Vinaigrette Emulsion and Binding
 
 ## Core Idea

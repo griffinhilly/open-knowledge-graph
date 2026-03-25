@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: myocardial-infarction-pathophysiology
   type: hard
+- id: atherosclerotic-plaque-rupture-and-thrombosis
+  type: soft
 builds-toward:
 - myocardial-infarction-pathophysiology
 - cardiogenic-shock-pathophysiology
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Coronary Artery Disease: Plaque Rupture, Thrombosis, and Acute Coronary Syndromes
 
 ## Core Idea

@@ -10,8 +10,14 @@ prerequisites:
   type: soft
 - id: modal-logic-intro
   type: soft
+- id: compositionality-semantic-limits
+  type: soft
+- id: meaning-holism
+  type: soft
+- id: formal-vs-natural-language-semantics
+  type: soft
 builds-toward:
-  - direct-reference-theory
+- direct-reference-theory
 tags:
 - semantics
 - modality

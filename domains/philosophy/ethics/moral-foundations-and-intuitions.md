@@ -6,6 +6,10 @@ course: ethics
 prerequisites:
 - id: metaethics-intro
   type: soft
+- id: contractarian-moral-foundations
+  type: soft
+- id: moral-sentiments-and-emotions
+  type: soft
 builds-toward:
 - moral-facts-and-objectivity-debate
 - moral-disagreement-sources

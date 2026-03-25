@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: infinitism
   type: soft
+- id: internalism-externalism-epistemology
+  type: soft
 builds-toward:
 - epistemic-virtues
 - epistemology-of-disagreement

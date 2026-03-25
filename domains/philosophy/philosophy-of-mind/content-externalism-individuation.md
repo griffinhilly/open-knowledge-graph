@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: narrow-content-individuation
   type: soft
+- id: wide-content-externalism
+  type: soft
+- id: externalism-about-content
+  type: soft
 builds-toward:
 - narrow-intrinsic-content-mind
 - thought-content-aboutness

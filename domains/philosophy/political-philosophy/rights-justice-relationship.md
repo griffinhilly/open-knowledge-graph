@@ -8,6 +8,14 @@ prerequisites:
   type: soft
 - id: justice-and-fairness
   type: soft
+- id: rawlsian-justice-as-fairness
+  type: soft
+- id: rawlsian-justice-principles
+  type: soft
+- id: property-rights-justification
+  type: soft
+- id: capabilities-approach-to-justice
+  type: soft
 builds-toward:
 - distributive-justice
 - rights-justice-tensions
@@ -19,7 +27,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Relationship Between Rights and Justice
 
 ## Core Idea

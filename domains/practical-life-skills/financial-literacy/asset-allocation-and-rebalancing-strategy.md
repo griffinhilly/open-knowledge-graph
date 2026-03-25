@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: proportions
   type: soft
+- id: risk-correlation-and-portfolio-construction
+  type: soft
 builds-toward:
 - lump-sum-vs-dollar-cost-averaging
 tags:
@@ -23,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Asset Allocation and Rebalancing Strategy
 
 ## Core Idea

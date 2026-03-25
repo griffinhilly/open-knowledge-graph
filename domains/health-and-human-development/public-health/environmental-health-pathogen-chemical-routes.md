@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: environmental-exposure-assessment
   type: soft
+- id: climate-change-health-impacts-mechanisms
+  type: soft
 builds-toward:
 - environmental-epidemiology-assessment
 - disease-prevention-levels
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Environmental Health: Contamination Pathways and Exposure Routes
 
 ## Core Idea

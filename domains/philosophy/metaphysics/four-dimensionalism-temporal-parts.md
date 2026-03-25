@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: persistence-and-change
   type: hard
+- id: three-dimensionalism-endurance
+  type: soft
 builds-toward:
 - three-dimensionalism-endurance
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Four-Dimensionalism and Temporal Parts
 
 ## Core Idea

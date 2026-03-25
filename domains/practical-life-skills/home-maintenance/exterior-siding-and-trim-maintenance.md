@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: exterior-siding-repair
   type: hard
+- id: exterior-maintenance-roofing-and-gutters
+  type: soft
+- id: exterior-caulking-and-sealant-maintenance
+  type: soft
 builds-toward:
 - caulking-and-weatherstripping
 - window-weatherization
@@ -18,7 +22,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Exterior Siding, Trim, and Weather Barrier Maintenance
 
 ## Core Idea

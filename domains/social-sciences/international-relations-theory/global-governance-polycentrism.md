@@ -8,6 +8,16 @@ prerequisites:
   type: hard
 - id: regime-theory-international-governance
   type: hard
+- id: coordination-games-equilibrium
+  type: soft
+- id: international-courts-justice
+  type: soft
+- id: democratic-institutions-democratic-peace-mechanisms
+  type: soft
+- id: monetary-cooperation-international-monetary-order
+  type: soft
+- id: treaty-design-ratification-credibility
+  type: soft
 tags:
 - governance
 - polycentrism
@@ -17,7 +27,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Global Governance and Polycentric Authority
 
 ## Core Idea

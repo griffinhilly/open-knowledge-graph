@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: saussurean-sign-system
   type: soft
+- id: reader-and-reception-audience-theory
+  type: soft
 builds-toward:
 - post-structuralism
 - ideological-criticism
@@ -31,7 +33,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Semiotics and Sign Theory
 
 ## Core Idea

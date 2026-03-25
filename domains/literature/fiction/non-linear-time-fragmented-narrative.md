@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: narrative-structures-cross-cultural
   type: soft
+- id: narrative-time-experimentation
+  type: soft
 tags:
 - time
 - non-linear
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Non-Linear Time and Fragmented Narrative
 
 ## Core Idea

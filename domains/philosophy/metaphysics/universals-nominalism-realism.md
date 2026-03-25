@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: abstract-entities-platonism
   type: soft
+- id: nominalism-abstract-objects
+  type: soft
+- id: tropes-vs-universals
+  type: soft
+- id: actualism-in-metaphysics
+  type: soft
 builds-toward:
 - categorical-dispositions-distinction
 - fundamental-properties-sparse-abundant
@@ -22,7 +28,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Universals: Nominalism and Realism
 
 ## Core Idea

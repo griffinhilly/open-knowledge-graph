@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: twin-earth-thought-experiment
   type: soft
+- id: proposition-and-semantic-content
+  type: soft
+- id: impliciture-and-enrichment
+  type: soft
 builds-toward: []
 tags:
 - externalism

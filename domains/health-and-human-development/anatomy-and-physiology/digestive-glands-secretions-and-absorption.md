@@ -6,6 +6,8 @@ course: anatomy-and-physiology
 prerequisites:
 - id: gastrointestinal-tract-anatomy-and-motility
   type: hard
+- id: nutrient-absorption-and-transport-anatomy-and-physiology
+  type: soft
 tags:
 - digestion
 - enzymes
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Digestive Glands, Secretions, and Nutrient Absorption
 
 ## Core Idea

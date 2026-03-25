@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: comparative-advantage-and-trade
   type: soft
+- id: monetary-cooperation-international-monetary-order
+  type: soft
 builds-toward:
 - monetary-cooperation-international-monetary-order
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # International Trade and Cooperation
 
 ## Core Idea

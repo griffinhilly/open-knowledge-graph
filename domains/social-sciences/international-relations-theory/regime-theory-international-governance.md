@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: neoliberal-institutionalism-keohane
   type: hard
+- id: trade-regimes-and-cooperation
+  type: soft
 builds-toward:
 - multilateralism-coordination-games
 - global-governance-polycentrism
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Regime Theory and International Governance
 
 ## Core Idea

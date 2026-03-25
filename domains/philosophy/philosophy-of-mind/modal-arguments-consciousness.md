@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: logical-operators-and-truth-functions
   type: soft
+- id: aspect-dualism-consciousness
+  type: soft
 builds-toward:
 - philosophical-zombies
 - substance-dualism
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Modal Arguments in Philosophy of Mind
 
 ## Core Idea

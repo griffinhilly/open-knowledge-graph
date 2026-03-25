@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: online-account-management
   type: soft
+- id: managing-login-credentials-securely
+  type: soft
 tags:
 - authentication
 - 2fa
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Two-Factor Authentication
 
 ## Core Idea

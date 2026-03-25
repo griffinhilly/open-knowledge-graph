@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: home-system-components-and-layout
   type: soft
+- id: identifying-hidden-water-damage
+  type: soft
+- id: roof-leak-identification-and-tracing
+  type: soft
 builds-toward:
 - basement-waterproofing-assessment-and-methods
 - moisture-and-mold-prevention-strategy
@@ -20,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Water Infiltration Problem Diagnosis
 
 ## Core Idea

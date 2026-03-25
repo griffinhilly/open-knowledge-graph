@@ -4,19 +4,25 @@ title: Vaccines and Immunity Basics
 domain: health-and-human-development
 course: health-foundations
 prerequisites:
-  - id: germs-bacteria-and-viruses
-    type: hard
-  - id: how-diseases-spread
-    type: hard
+- id: germs-bacteria-and-viruses
+  type: hard
+- id: how-diseases-spread
+  type: hard
+- id: allergies
+  type: soft
 builds-toward:
-  - herd-immunity-and-vaccination
-  - herd-immunity-vaccination-dynamics
-  - disease-prevention-levels
-tags: [disease, prevention, vaccines, immunity, immune-system]
+- herd-immunity-and-vaccination
+- herd-immunity-vaccination-dynamics
+- disease-prevention-levels
+tags:
+- disease
+- prevention
+- vaccines
+- immunity
+- immune-system
 stage: abstract-reasoning
 status: validated
 ---
-
 # Vaccines and Immunity Basics
 
 ## Core Idea

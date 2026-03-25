@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: possible-worlds-semantics
   type: soft
+- id: counterfactual-truth-modality
+  type: soft
 builds-toward:
 - modal-realism
 - counterfactual-causation

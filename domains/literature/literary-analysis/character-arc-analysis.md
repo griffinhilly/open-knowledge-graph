@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: close-reading-techniques
   type: soft
+- id: dialogue-characterization-analysis
+  type: soft
 builds-toward:
 - character-foil-analysis
 - unreliable-narrator-analysis
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Character Arc Analysis
 
 ## Core Idea

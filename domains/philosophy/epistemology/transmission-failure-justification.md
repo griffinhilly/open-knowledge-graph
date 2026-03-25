@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: external-world-skepticism
   type: soft
+- id: dogmatism-perceptual-justification
+  type: soft
+- id: foundational-basic-beliefs
+  type: soft
 builds-toward:
 - warrant-transmission-inference
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Transmission Failure and Epistemic Warrant
 
 ## Core Idea

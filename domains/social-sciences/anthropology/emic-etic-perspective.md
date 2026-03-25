@@ -6,6 +6,8 @@ course: anthropology
 prerequisites:
 - id: ethnography-methods
   type: hard
+- id: synchronic-diachronic-perspectives
+  type: soft
 builds-toward:
 - ethnographic-extended-fieldwork-immersion
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Emic and Etic Perspectives in Anthropology
 
 ## Core Idea

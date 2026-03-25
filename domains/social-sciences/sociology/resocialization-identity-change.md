@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: self-identity-social-interaction
   type: hard
+- id: organizational-culture-identity
+  type: soft
 builds-toward:
 - total-institutions-resocialization
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Resocialization and Adult Identity Transformation
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: prose-rhythm-sentence-craft
   type: hard
+- id: concrete-poetry
+  type: soft
+- id: concrete-poetry-visual
+  type: soft
 tags:
 - hybrid
 - form
@@ -16,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Prose Poetry: Hybrid Form
 
 ## Core Idea

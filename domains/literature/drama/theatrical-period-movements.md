@@ -10,8 +10,10 @@ prerequisites:
   type: hard
 - id: modern-realist-drama
   type: soft
+- id: kabuki-theatre-conventions
+  type: soft
 builds-toward:
-  - dramatic-conventions-audience-contract
+- dramatic-conventions-audience-contract
 tags:
 - history
 - period

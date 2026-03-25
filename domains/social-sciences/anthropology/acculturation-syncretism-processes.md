@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: colonialism-geographic-legacy
   type: soft
+- id: functional-explanations-anthropology
+  type: soft
 builds-toward:
 - globalization-and-society
 - religion-and-society
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Acculturation and Syncretism in Culture Change
 
 ## Core Idea

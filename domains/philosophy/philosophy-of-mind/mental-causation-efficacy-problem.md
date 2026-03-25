@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mental-causation
   type: soft
+- id: causal-closure-physical
+  type: soft
 tags:
 - mental-causation
 - efficacy
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Mental Causation and Causal Efficacy
 
 ## Core Idea

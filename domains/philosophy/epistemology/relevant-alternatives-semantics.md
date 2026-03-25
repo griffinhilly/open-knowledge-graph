@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: modal-logic-intro
   type: soft
+- id: contextualism-content-sensitivity
+  type: soft
 builds-toward:
 - indexical-contextualism-epistemology
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Relevant Alternatives Theory
 
 ## Core Idea

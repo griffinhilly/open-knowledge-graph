@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: anthropology-overview
   type: soft
+- id: cultural-evolution-theory
+  type: soft
 builds-toward:
 - human-biological-diversity
 - gender-and-sexuality
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Primate Sociality and Behavior
 
 ## Core Idea

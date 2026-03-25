@@ -6,6 +6,10 @@ course: drama
 prerequisites:
 - id: dramatic-structure
   type: hard
+- id: scene-beats-and-structure
+  type: soft
+- id: melodrama
+  type: soft
 builds-toward:
 - five-act-structure
 - well-made-play
@@ -16,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Three-Act Dramatic Structure
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: adaptation-theory-cross-media
   type: soft
+- id: literary-adaptation-media
+  type: soft
 builds-toward:
 - adaptation-dramatic-translation
 - narrative-structures-cross-cultural
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Myth in Comparative and Intermedial Contexts
 
 ## Core Idea

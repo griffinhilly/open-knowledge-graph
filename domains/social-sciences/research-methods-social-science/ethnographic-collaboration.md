@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: reflexivity-positionality-research
   type: hard
+- id: digital-ethnography-virtual
+  type: soft
 builds-toward:
 - participatory-ethnography
 - community-ethnography
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Collaborative and Reflexive Ethnography
 
 ## Core Idea

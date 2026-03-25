@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: culture-concept
   type: soft
+- id: culture-holistic-systems-approach
+  type: soft
 builds-toward:
 - economic-anthropology
 - globalization-cultural-change
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Material Culture
 
 ## Core Idea

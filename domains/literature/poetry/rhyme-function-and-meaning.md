@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: phonemic-awareness
   type: soft
+- id: couplet-two-line-form
+  type: soft
+- id: eye-rhyme-homographic-rhyme
+  type: soft
 tags:
 - rhyme
 - meaning-making
@@ -21,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Rhyme Function and Meaning-Making
 
 ## Core Idea

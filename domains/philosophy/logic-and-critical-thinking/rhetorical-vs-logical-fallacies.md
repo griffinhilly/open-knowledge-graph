@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: informal-fallacies-intro
   type: hard
+- id: composition-division-fallacies
+  type: soft
 tags:
 - rhetoric
 - fallacies
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Rhetorical vs. Logical Fallacies
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: social-norms-and-values
   type: soft
+- id: political-legitimacy-consent
+  type: soft
 builds-toward:
 - democracy-types-and-theory
 - authoritarianism-and-autocracy
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Political Ideologies
 
 ## Core Idea

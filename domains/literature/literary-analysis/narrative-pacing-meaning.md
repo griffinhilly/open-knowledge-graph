@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: close-reading-techniques
   type: hard
+- id: plot-analysis-and-meaning
+  type: soft
+- id: plot-structure-meaning
+  type: soft
+- id: irony-meaning-and-effect
+  type: soft
 builds-toward:
 - tone-development-analysis
 - authorial-intent-inference
@@ -21,7 +27,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Narrative Pacing and Its Effect on Meaning
 
 ## Core Idea

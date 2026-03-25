@@ -3,7 +3,9 @@ id: water-properties-in-cooking
 title: Water Properties in Cooking
 domain: practical-life-skills
 course: cooking-and-nutrition
-prerequisites: []
+prerequisites:
+- id: boiling-and-simmering-water-based-cooking
+  type: soft
 builds-toward:
 - rice-and-grain-cooking
 - pasta-and-noodle-cooking
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Water Properties in Cooking
 
 ## Core Idea

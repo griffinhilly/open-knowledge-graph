@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: argument-structure
   type: hard
+- id: agent-centered-vs-patient-centered-ethics
+  type: soft
 builds-toward:
 - utilitarianism
 - act-vs-rule-utilitarianism
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Consequentialism
 
 ## Core Idea

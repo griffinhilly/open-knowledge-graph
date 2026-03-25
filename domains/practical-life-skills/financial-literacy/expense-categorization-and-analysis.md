@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: addition-subtraction-word-problems
   type: soft
+- id: expense-baseline-and-discretionary-analysis
+  type: soft
+- id: cash-flow-analysis-and-management
+  type: soft
 builds-toward:
 - assets-liabilities-and-net-worth
 - financial-independence-and-passive-income
@@ -21,7 +25,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Expense Categorization and Analysis
 
 ## Core Idea

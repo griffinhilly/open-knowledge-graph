@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: measuring-length-standard-units-3rd
   type: soft
+- id: lawn-garden-and-landscape-maintenance
+  type: soft
 builds-toward:
 - pest-control-basics
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Garden and Planting Basics
 
 ## Core Idea

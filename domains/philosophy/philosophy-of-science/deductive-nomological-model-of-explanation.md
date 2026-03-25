@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: propositional-logic-introduction
   type: soft
+- id: covering-law-model-explanation
+  type: soft
 builds-toward:
 - inductive-statistical-model-of-explanation
 tags:
@@ -25,7 +27,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # The Deductive-Nomological Model of Explanation
 
 ## Core Idea

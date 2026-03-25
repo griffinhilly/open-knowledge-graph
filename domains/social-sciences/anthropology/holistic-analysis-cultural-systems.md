@@ -6,6 +6,8 @@ course: anthropology
 prerequisites:
 - id: anthropology-overview
   type: soft
+- id: culture-holistic-systems-approach
+  type: soft
 builds-toward:
 - functional-explanations-anthropology
 - structural-analysis-social-systems

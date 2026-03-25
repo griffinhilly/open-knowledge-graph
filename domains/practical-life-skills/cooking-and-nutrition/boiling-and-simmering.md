@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: reading-recipes
   type: soft
+- id: boiling-and-simmering-water-based-cooking
+  type: soft
 builds-toward:
 - egg-cooking-techniques
 - vegetable-preparation
@@ -20,7 +22,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Boiling and Simmering
 
 ## Core Idea

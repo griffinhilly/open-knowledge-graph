@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: grounding-and-fundamentality
   type: soft
+- id: truthmakers-and-grounding
+  type: soft
 builds-toward:
 - fundamental-properties-sparse-abundant
 - metaphysical-structure-and-architecture
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Truthmaker Fundamentalism and Truth-Making Relations
 
 ## Core Idea

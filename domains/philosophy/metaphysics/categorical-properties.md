@@ -8,6 +8,16 @@ prerequisites:
   type: hard
 - id: fundamental-properties-sparse-abundant
   type: soft
+- id: collective-vs-distributive
+  type: soft
+- id: relational-vs-non-relational-properties
+  type: soft
+- id: scalar-vs-vectorial-properties
+  type: soft
+- id: first-order-higher-order-properties
+  type: soft
+- id: substance-bearer-properties
+  type: soft
 builds-toward:
 - dispositional-properties
 tags:
@@ -17,7 +27,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Categorical Properties
 
 ## Core Idea

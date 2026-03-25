@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: setting-and-atmosphere
   type: soft
+- id: in-the-round-theatre-staging
+  type: soft
 builds-toward:
 - stage-blocking-movement
 - theme-in-dramatic-action
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Dramatic Space and Setting as Active Element
 
 ## Core Idea

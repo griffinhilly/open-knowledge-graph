@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: vascular-physiology-and-hemodynamics
   type: hard
+- id: glomerular-filtration-selective-tubular-reabsorption
+  type: soft
 builds-toward:
 - fluid-electrolyte-regulation-and-osmolarity
 - renal-regulation-acid-base
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Renal Filtration and Tubular Processing
 
 ## Core Idea

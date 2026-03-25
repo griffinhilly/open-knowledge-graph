@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: identity-theory
   type: soft
+- id: haecceity-primitive-identity
+  type: soft
+- id: material-constitution-problem
+  type: soft
+- id: sortal-identity-conditions
+  type: soft
 builds-toward:
 - physicalism-about-mind
 - functionalism-philosophy-of-mind
@@ -18,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Metaphysical Reduction
 
 ## Core Idea

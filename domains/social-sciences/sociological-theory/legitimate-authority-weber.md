@@ -6,6 +6,8 @@ course: sociological-theory
 prerequisites:
 - id: ideal-types-methodology
   type: hard
+- id: weber-bureaucracy
+  type: soft
 builds-toward:
 - weber-bureaucracy
 - power-and-authority
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Weber's Types of Legitimate Authority
 
 ## Core Idea

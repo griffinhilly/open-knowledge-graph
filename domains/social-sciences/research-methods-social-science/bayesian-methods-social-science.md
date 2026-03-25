@@ -16,6 +16,20 @@ prerequisites:
   type: hard
 - id: conditional-probability
   type: soft
+- id: grounded-theory-methods
+  type: soft
+- id: phenomenological-research-methods
+  type: soft
+- id: participatory-action-research
+  type: soft
+- id: qualitative-impact-assessment
+  type: soft
+- id: conjoint-analysis-preferences
+  type: soft
+- id: survival-analysis-event-history
+  type: soft
+- id: research-integrity-open-science-social
+  type: soft
 builds-toward:
 - bayesian-network-models-causal
 - hierarchical-bayesian-models
@@ -26,7 +40,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Bayesian Methods in Social Science
 
 ## Core Idea

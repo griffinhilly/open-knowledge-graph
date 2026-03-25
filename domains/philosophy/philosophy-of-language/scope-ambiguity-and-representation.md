@@ -10,8 +10,10 @@ prerequisites:
   type: hard
 - id: quantifier-scope-ambiguity
   type: hard
+- id: quantifier-scope-interactions
+  type: soft
 builds-toward:
-  - de-re-de-dicto-readings
+- de-re-de-dicto-readings
 tags:
 - logic
 - quantification

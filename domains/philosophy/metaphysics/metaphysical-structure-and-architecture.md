@@ -8,8 +8,10 @@ prerequisites:
   type: hard
 - id: ontological-categories
   type: hard
+- id: ontology-and-being
+  type: soft
 builds-toward:
-  - fundamental-properties-sparse-abundant
+- fundamental-properties-sparse-abundant
 tags:
 - structure
 - fundamentals

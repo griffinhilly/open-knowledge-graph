@@ -6,6 +6,12 @@ course: poetry
 prerequisites:
 - id: rhyme-scheme
   type: hard
+- id: eye-rhyme-homographic-rhyme
+  type: soft
+- id: caesura-line-internal-pause
+  type: soft
+- id: end-stopped-line
+  type: soft
 tags:
 - rhyme
 - line-structure
@@ -13,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Internal Rhyme and Rhyme Within Lines
 
 ## Core Idea

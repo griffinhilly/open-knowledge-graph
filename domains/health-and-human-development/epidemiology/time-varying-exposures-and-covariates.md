@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: person-time-follow-up-studies
   type: hard
+- id: propensity-score-methods-epidemiology
+  type: soft
 builds-toward:
 - marginal-structural-models
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Time-Varying Exposures and Confounders
 
 ## Core Idea

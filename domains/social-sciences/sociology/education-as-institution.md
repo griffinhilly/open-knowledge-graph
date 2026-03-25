@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: social-stratification
   type: hard
+- id: family-as-institution
+  type: soft
 tags:
 - education
 - schooling
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Education as a Social Institution
 
 ## Core Idea

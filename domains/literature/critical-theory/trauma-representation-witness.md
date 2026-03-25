@@ -8,6 +8,12 @@ prerequisites:
   type: soft
 - id: literary-analysis-overview
   type: soft
+- id: disability-epistemology-crip
+  type: soft
+- id: agamben-exception-sovereignty
+  type: soft
+- id: simulacra-hyperreality-baudrillard
+  type: soft
 builds-toward:
 - stream-of-consciousness-close-reading
 tags:
@@ -18,7 +24,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Trauma, Representation, and Witnessing
 
 ## Core Idea

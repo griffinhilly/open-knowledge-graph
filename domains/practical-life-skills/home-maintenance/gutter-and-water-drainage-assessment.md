@@ -6,6 +6,8 @@ course: home-maintenance
 prerequisites:
 - id: exterior-finish-damage-types-and-assessment
   type: soft
+- id: gutter-downspout-systems
+  type: soft
 builds-toward:
 - gutter-cleaning-and-maintenance
 - basement-moisture-management
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Gutter and Water Drainage Assessment
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: basic-nutrition-fundamentals
   type: hard
+- id: hydration-and-beverages-nutrition
+  type: soft
 builds-toward:
 - cooking-for-dietary-restrictions
 - meal-planning-basics
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Nutrition for Athletic Performance
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: visual-ethnography-theory
   type: soft
+- id: digital-ethnography-virtual
+  type: soft
+- id: ethnographic-collaboration
+  type: soft
 builds-toward:
 - material-culture-analysis
 - sensory-ethnography
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Visual and Multimodal Ethnography
 
 ## Core Idea

@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: intentionality
   type: soft
+- id: relational-consciousness-accounts
+  type: soft
+- id: illusionism-consciousness-theory
+  type: soft
 builds-toward:
 - illusionism-consciousness-theory
 - content-externalism-individuation
@@ -22,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Representationalism: Consciousness as Representation
 
 ## Core Idea

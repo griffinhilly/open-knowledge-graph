@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: what-is-knowledge
   type: soft
+- id: closure-principles-formalized
+  type: soft
 builds-toward:
 - skeptical-scenarios-knowledge-closure
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Deductive Closure and Knowledge
 
 ## Core Idea

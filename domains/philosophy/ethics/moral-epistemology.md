@@ -6,6 +6,10 @@ course: ethics
 prerequisites:
 - id: metaethics-intro
   type: hard
+- id: moral-authority-and-justification
+  type: soft
+- id: moral-knowledge
+  type: soft
 builds-toward:
 - moral-knowledge
 - moral-realism
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Moral Epistemology
 
 ## Core Idea

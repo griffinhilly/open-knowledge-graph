@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: investment-risk-and-return
   type: soft
+- id: income-potential-and-career-planning
+  type: soft
+- id: individual-retirement-accounts-iras
+  type: soft
 builds-toward:
 - financial-independence-and-early-retirement-planning
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Retirement Income and Withdrawal Strategies
 
 ## Core Idea

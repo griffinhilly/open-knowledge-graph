@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: contractualism
   type: soft
+- id: animal-ethics
+  type: soft
 tags:
 - applied-ethics
 - environmental-ethics

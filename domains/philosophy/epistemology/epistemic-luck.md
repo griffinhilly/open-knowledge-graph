@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gettier-problems
   type: soft
+- id: anti-luck-conditions-knowledge
+  type: soft
 builds-toward:
 - responses-to-gettier
 - reliabilism
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Epistemic Luck
 
 ## Core Idea

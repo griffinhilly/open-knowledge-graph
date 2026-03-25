@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: deterrence-nuclear-strategy
   type: soft
+- id: crisis-bargaining-war-initiation
+  type: soft
 tags:
 - crisis
 - escalation
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Escalation Dynamics and Crisis Management
 
 ## Core Idea

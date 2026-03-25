@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: substance-dualism
   type: soft
+- id: aspect-dualism-consciousness
+  type: soft
 builds-toward:
 - property-dualism-mental-causation
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Dualism: Substance and Property Variants
 
 ## Core Idea

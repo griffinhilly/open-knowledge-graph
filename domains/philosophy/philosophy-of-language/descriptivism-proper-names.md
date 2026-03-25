@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: meaning-and-reference-basics
   type: hard
+- id: donnellan-reference-attributive
+  type: soft
 builds-toward:
 - direct-reference-theory
 - reference-failure-empty-names
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Descriptivism About Proper Names
 
 ## Core Idea

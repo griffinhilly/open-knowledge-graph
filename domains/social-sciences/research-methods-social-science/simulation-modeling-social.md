@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: markov-chains
   type: soft
+- id: text-analysis-social-science
+  type: soft
+- id: network-analysis-structural-positions
+  type: soft
 builds-toward:
 - model-validation-social-simulation
 - complexity-social-systems
@@ -27,7 +31,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Computational Simulation of Social Systems
 
 ## Core Idea

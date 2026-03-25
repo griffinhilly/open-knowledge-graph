@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: poetic-repetition-and-refrain
   type: soft
+- id: anaphora-initial-repetition
+  type: soft
+- id: anaphora-and-epistrophe
+  type: soft
 builds-toward: []
 tags:
 - epistrophe

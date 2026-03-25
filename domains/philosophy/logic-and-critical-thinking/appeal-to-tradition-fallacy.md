@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: informal-fallacies-intro
   type: soft
+- id: appeal-to-popularity-fallacy
+  type: soft
 builds-toward:
 - evaluating-practical-arguments
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Appeal to Tradition: The Fallacy of 'We've Always Done It This Way'
 
 ## Core Idea

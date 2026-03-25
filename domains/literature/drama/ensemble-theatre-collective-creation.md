@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: dramatic-structure
   type: soft
+- id: ensemble-and-collective-drama
+  type: soft
 builds-toward:
 - devised-theatre-form
 - experimental-theatre-avant-garde
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ensemble Theatre: Collective Creation
 
 ## Core Idea

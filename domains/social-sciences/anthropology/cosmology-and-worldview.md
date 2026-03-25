@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: myth-and-symbolism
   type: soft
+- id: comparative-religion-worldviews
+  type: soft
+- id: ancestor-veneration-cosmology
+  type: soft
 builds-toward:
 - symbolic-classification-systems
 - cultural-relativism
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Cosmology and Worldview Systems
 
 ## Core Idea

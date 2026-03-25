@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: investment-risk-and-return
   type: hard
+- id: income-diversification-and-stability
+  type: soft
 builds-toward:
 - portfolio-rebalancing-and-maintenance
 - passive-investing-and-index-funds
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Risk Correlation and Portfolio Construction
 
 ## Core Idea

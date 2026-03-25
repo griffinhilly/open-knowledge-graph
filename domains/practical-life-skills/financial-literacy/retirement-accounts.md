@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: net-worth-tracking
   type: soft
+- id: employer-sponsored-401k-plans
+  type: soft
+- id: healthcare-savings-accounts
+  type: soft
 tags:
 - retirement
 - 401k

@@ -6,6 +6,8 @@ course: sociological-theory
 prerequisites:
 - id: theory-paradigm-sociology
   type: hard
+- id: weber-bureaucracy
+  type: soft
 builds-toward:
 - ideal-types-methodology
 - rational-choice-sociology
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Weber's Types of Social Action
 
 ## Core Idea

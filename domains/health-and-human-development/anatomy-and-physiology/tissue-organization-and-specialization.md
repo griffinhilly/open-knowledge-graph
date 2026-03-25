@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: cell-junctions-adhesion-tissue
   type: hard
+- id: anatomical-terminology-and-body-compartments
+  type: soft
 builds-toward:
 - organ-system-integration-and-homeostasis
 - skeletal-structure-and-biomechanics
@@ -25,7 +27,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Tissue Organization and Specialization
 
 ## Core Idea

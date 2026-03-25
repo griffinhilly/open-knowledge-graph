@@ -8,6 +8,16 @@ prerequisites:
   type: hard
 - id: electrical-safety-basics
   type: hard
+- id: electrical-breaker-panel-safety
+  type: soft
+- id: smoke-detector-and-co-alarm-maintenance
+  type: soft
+- id: power-tools-safety-and-operation
+  type: soft
+- id: outlet-and-switch-replacement
+  type: soft
+- id: major-system-failure-indicators-and-response
+  type: soft
 builds-toward:
 - outlet-and-switch-replacement
 tags:
@@ -17,7 +27,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Electrical System Components and Safety
 
 ## Core Idea

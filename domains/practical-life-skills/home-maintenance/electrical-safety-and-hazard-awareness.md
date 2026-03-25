@@ -6,6 +6,10 @@ course: home-maintenance
 prerequisites:
 - id: electrical-system-fundamentals
   type: hard
+- id: electrical-breaker-panel-safety
+  type: soft
+- id: pest-exclusion-and-sealing-entry-points
+  type: soft
 builds-toward:
 - basic-electrical-maintenance-and-repairs
 tags:
@@ -16,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Electrical Safety and Hazard Awareness
 
 ## Core Idea

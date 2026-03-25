@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: investment-risk-and-return
   type: hard
+- id: sustainable-and-values-based-investing
+  type: soft
 builds-toward:
 - diversification-and-asset-allocation
 - passive-investing-and-index-funds
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Stock Market Investing Fundamentals
 
 ## Core Idea

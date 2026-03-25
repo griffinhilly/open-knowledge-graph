@@ -6,6 +6,10 @@ course: cooking-and-nutrition
 prerequisites:
 - id: basic-nutrition-fundamentals
   type: hard
+- id: nutrition-food-groups-balance
+  type: soft
+- id: tea-and-coffee-preparation
+  type: soft
 builds-toward:
 - cooking-for-dietary-restrictions
 - reading-nutrition-labels
@@ -17,7 +21,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Hydration and Beverages Nutrition
 
 ## Core Idea

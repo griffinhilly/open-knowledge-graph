@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: maillard-reaction-browning
   type: soft
+- id: pan-preheating-and-readiness
+  type: soft
 builds-toward:
 - pan-sauces-and-deglazing
 - meat-and-protein-doneness
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Searing and Developing Crust
 
 ## Core Idea

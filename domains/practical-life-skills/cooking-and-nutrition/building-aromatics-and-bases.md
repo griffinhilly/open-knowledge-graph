@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: vegetable-preparation
   type: soft
+- id: vegetable-cutting-fundamentals
+  type: soft
+- id: green-vegetable-color-preservation
+  type: soft
 builds-toward:
 - soup-and-stock-making
 - sauce-making-basics
@@ -22,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Building Flavor with Aromatic Bases
 
 ## Core Idea

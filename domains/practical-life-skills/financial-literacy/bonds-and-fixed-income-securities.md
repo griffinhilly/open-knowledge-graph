@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: saving-versus-investing-fundamental-distinction
   type: soft
+- id: bond-investing-basics
+  type: soft
 builds-toward:
 - investment-diversification
 - risk-tolerance-asset-allocation
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Bonds and Fixed Income Securities
 
 ## Core Idea

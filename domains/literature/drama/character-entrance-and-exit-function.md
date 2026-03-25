@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stage-directions-and-performance-text
   type: hard
+- id: in-the-round-theatre-staging
+  type: soft
 builds-toward:
 - exposition-technique-and-info-delivery
 - rising-action-and-climax
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Character Entrance and Exit: Dramatic Function
 
 ## Core Idea

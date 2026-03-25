@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rational-choice-and-ethics
   type: hard
+- id: ought-implies-can
+  type: soft
 builds-toward:
 - contractualism
 - social-contract-theory
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Contractarian Moral Foundations
 
 ## Core Idea

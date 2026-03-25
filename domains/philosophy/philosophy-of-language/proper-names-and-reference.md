@@ -6,6 +6,10 @@ course: philosophy-of-language
 prerequisites:
 - id: kripke-causal-theory-naming
   type: hard
+- id: descriptivism-proper-names
+  type: soft
+- id: intensionality-and-opacity
+  type: soft
 builds-toward:
 - reference-determination
 - twin-earth-thought-experiment
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Proper Names: Their Meaning and Reference
 
 ## Core Idea

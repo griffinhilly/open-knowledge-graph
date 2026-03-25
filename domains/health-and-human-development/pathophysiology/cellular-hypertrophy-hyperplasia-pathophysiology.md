@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cell-cycle-overview
   type: hard
+- id: left-ventricular-hypertrophy
+  type: soft
 builds-toward:
 - cardiac-hypertrophy-left-ventricular-remodeling
 - vascular-smooth-muscle-remodeling
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Cellular Hypertrophy and Hyperplasia in Disease
 
 ## Core Idea

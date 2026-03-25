@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: autoimmune-disease-mechanisms
   type: hard
+- id: graves-disease-thyroid-pathophysiology
+  type: soft
 builds-toward:
 - hypothyroidism-replacement-therapy
 - myxedema-pathophysiology
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Hashimoto Thyroiditis: Autoimmune Destruction and Progressive Thyroid Failure
 
 ## Core Idea

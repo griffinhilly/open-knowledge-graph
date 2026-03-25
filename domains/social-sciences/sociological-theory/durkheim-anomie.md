@@ -6,6 +6,8 @@ course: sociological-theory
 prerequisites:
 - id: durkheim-social-facts
   type: hard
+- id: division-of-labor-durkheim
+  type: soft
 builds-toward:
 - conflict-theory-sociology
 - sociology-of-knowledge
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Anomie and Social Solidarity
 
 ## Core Idea

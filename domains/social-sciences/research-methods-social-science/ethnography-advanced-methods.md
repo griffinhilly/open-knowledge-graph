@@ -6,6 +6,8 @@ course: research-methods-social-science
 prerequisites:
 - id: ethnography-methods
   type: hard
+- id: ethnographic-extended-fieldwork-immersion
+  type: soft
 builds-toward:
 - mixed-methods-integration
 - reflexivity-positionality-research
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Advanced Ethnographic Methods
 
 ## Core Idea

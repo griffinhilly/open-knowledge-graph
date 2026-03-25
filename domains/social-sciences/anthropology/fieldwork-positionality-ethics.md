@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: participant-observation-reflexivity
   type: soft
+- id: ethnographic-participant-observation
+  type: soft
 builds-toward:
 - ethnography-advanced-methods
 - reflexivity-positionality-research

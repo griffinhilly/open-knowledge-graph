@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: data-privacy-personal-information
   type: hard
+- id: digital-identity-management
+  type: soft
+- id: managing-digital-subscriptions
+  type: soft
 builds-toward:
 - digital-identity-management
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Managing Your Digital Identity and Footprint
 
 ## Core Idea

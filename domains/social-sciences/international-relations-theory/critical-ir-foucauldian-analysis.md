@@ -6,6 +6,16 @@ course: international-relations-theory
 prerequisites:
 - id: international-relations-overview
   type: hard
+- id: national-interest-state-power
+  type: soft
+- id: power-transition-hegemonic-dominance
+  type: soft
+- id: soft-power-narrative-influence
+  type: soft
+- id: great-power-concert
+  type: soft
+- id: offensive-realism-mearsheimer
+  type: soft
 tags:
 - critical-theory
 - discourse
@@ -15,7 +25,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Critical IR Theory: Power, Knowledge, and Discourse
 
 ## Core Idea

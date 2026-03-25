@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gas-exchange-and-diffusion
   type: hard
+- id: hypercapnic-respiratory-failure-causes
+  type: soft
 builds-toward:
 - ards-pathophysiology
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Hypoxemic Respiratory Failure: Causes and Mechanisms
 
 ## Core Idea

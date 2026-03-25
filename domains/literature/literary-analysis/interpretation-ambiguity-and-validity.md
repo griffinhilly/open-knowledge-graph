@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: presupposition-and-semantic-content
   type: soft
+- id: textual-evidence-analysis-integration
+  type: soft
 tags:
 - interpretation
 - validity
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Interpretation, Ambiguity, and Validity in Literary Analysis
 
 ## Core Idea

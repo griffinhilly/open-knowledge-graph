@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: neural-correlates-of-consciousness
   type: soft
+- id: affect-consciousness-emotions
+  type: soft
 builds-toward:
 - unity-of-consciousness
 - consciousness-causation-efficacy
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Attention, Consciousness, and Phenomenal Experience
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: argument-structure
   type: hard
+- id: burden-of-proof-evaluation
+  type: soft
 builds-toward:
 - principle-of-charity
 - evaluating-evidence
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Burden of Proof and the Presumption Principle
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: herd-immunity-and-vaccination
   type: hard
+- id: herd-immunity-vaccination-dynamics
+  type: soft
 builds-toward:
 - vaccine-effectiveness-evaluation
 - outbreak-transmission-models
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Vaccination Coverage and Herd Immunity Thresholds
 
 ## Core Idea

@@ -4,18 +4,24 @@ title: Healthy Body Image
 domain: health-and-human-development
 course: health-foundations
 prerequisites:
-  - id: puberty-basics
-    type: hard
-  - id: emotional-changes-in-adolescence
-    type: soft
+- id: puberty-basics
+  type: hard
+- id: emotional-changes-in-adolescence
+  type: soft
+- id: growth-spurts
+  type: soft
 builds-toward:
-  - self-concept-and-self-esteem-development
-  - self-concept-and-identity-development-children
-tags: [growth, development, body-image, self-esteem, mental-health]
+- self-concept-and-self-esteem-development
+- self-concept-and-identity-development-children
+tags:
+- growth
+- development
+- body-image
+- self-esteem
+- mental-health
 stage: abstract-reasoning
 status: validated
 ---
-
 # Healthy Body Image
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hermeneutics-interpretation-theory
   type: soft
+- id: eco-unlimited-semiosis
+  type: soft
 tags:
 - community
 - interpretation
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Interpretive Community and Social Meaning-Making
 
 ## Core Idea

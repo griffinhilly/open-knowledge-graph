@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: exponential-growth-and-decay
   type: soft
+- id: financial-constraint-optimization
+  type: soft
 builds-toward:
 - financial-independence-and-passive-income
 tags:
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Fee Impact on Long-Term Wealth
 
 ## Core Idea

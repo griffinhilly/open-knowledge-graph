@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: person-time-follow-up-studies
   type: hard
+- id: matching-in-case-control-studies
+  type: soft
+- id: case-crossover-design
+  type: soft
+- id: selection-bias-types
+  type: soft
 builds-toward:
 - exposure-measurement-error-epi
 tags:
@@ -17,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Nested Case-Control and Case-Cohort Studies
 
 ## Core Idea

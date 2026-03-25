@@ -6,6 +6,8 @@ course: cooking-and-nutrition
 prerequisites:
 - id: egg-cooking-basics
   type: soft
+- id: egg-cooking-techniques
+  type: soft
 builds-toward:
 - simple-breakfast-food-preparation
 tags:

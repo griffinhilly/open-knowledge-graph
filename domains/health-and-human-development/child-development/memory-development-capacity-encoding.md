@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: hippocampus-memory-consolidation
   type: soft
+- id: memory-development-encoding-strategies-and-retrieval
+  type: soft
 builds-toward:
 - metacognition-and-learning-to-learn-children
 - problem-solving-reasoning-development-children
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Memory Development: Capacity, Encoding, and Retrieval
 
 ## Core Idea

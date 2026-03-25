@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: acid-base-chemistry
   type: soft
+- id: acid-base-balance-respiratory-renal-compensation
+  type: soft
 builds-toward:
 - metabolic-acidosis-alkalosis-disorders
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Renal Regulation of Acid-Base Balance
 
 ## Core Idea

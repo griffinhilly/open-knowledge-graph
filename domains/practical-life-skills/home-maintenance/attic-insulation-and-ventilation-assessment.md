@@ -6,6 +6,8 @@ course: home-maintenance
 prerequisites:
 - id: home-system-components-and-layout
   type: soft
+- id: pipe-insulation-freeze-protection
+  type: soft
 builds-toward:
 - attic-ventilation-insulation
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Attic Insulation and Ventilation Assessment
 
 ## Core Idea

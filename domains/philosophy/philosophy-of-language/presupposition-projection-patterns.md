@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: possible-worlds-semantics
   type: soft
+- id: presupposition-and-assertion
+  type: soft
 builds-toward:
 - presupposition-and-assertion
 - discourse-coherence-linguistic
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Presupposition Projection and Triggering
 
 ## Core Idea

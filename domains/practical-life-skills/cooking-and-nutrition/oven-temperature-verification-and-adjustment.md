@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: kitchen-equipment-essentials
   type: soft
+- id: oven-baking-basics-and-safety
+  type: soft
 builds-toward:
 - oven-baking-basics-and-safety
 - baking-basics
@@ -20,7 +22,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Oven Temperature Verification and Adjustment
 
 ## Core Idea

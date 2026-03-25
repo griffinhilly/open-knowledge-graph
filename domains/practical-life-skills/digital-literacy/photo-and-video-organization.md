@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: backup-and-data-protection
   type: soft
+- id: bookmark-organization-and-retrieval
+  type: soft
 tags:
 - photos
 - videos
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Photo and Video Organization
 
 ## Core Idea

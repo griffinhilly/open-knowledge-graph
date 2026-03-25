@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: identity-of-indiscernibles
   type: hard
+- id: material-constitution-problem
+  type: soft
+- id: stage-theory-identity
+  type: soft
 builds-toward:
 - substance-bearer-properties
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Composition as Identity
 
 ## Core Idea

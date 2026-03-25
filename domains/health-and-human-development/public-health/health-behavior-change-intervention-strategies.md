@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: epidemiology-foundations
   type: soft
+- id: risk-communication-behavior-change
+  type: soft
 builds-toward:
 - disease-prevention-levels
 - chronic-disease-epidemiology
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Health Behavior Change and Population Intervention Strategies
 
 ## Core Idea

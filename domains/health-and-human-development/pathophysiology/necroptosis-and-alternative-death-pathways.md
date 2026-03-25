@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: apoptosis-mechanisms-and-regulation
   type: soft
+- id: autophagy-in-cell-death-and-disease
+  type: soft
 builds-toward:
 - sepsis-and-sirs-pathophysiology
 - chronic-inflammation
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Necroptosis and Alternative Cell Death Pathways
 
 ## Core Idea

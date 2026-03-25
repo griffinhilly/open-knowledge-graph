@@ -6,6 +6,8 @@ course: poetry
 prerequisites:
 - id: poetic-line-and-lineation
   type: hard
+- id: stanza-structural-unit
+  type: soft
 tags:
 - form
 - stanza
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Tercet and Triplet: Three-Line Forms
 
 ## Core Idea

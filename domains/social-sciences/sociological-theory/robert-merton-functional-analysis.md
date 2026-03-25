@@ -6,6 +6,8 @@ course: sociological-theory
 prerequisites:
 - id: structural-functionalism
   type: hard
+- id: social-dysfunction-functionalism
+  type: soft
 tags:
 - merton
 - functionalism
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Robert Merton and Functional Analysis
 
 ## Core Idea

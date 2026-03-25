@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: conversation-analysis
   type: soft
+- id: subplot-and-subtext
+  type: soft
 builds-toward:
 - short-story-form
 - narrative-voice
@@ -27,7 +29,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Dialogue in Fiction
 
 ## Core Idea

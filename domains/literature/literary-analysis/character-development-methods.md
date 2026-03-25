@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: literary-terminology-core-concepts
   type: hard
+- id: character-foil-analysis
+  type: soft
 builds-toward:
 - character-arc-analysis
 - character-interpretation-texts
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Methods of Character Development
 
 ## Core Idea

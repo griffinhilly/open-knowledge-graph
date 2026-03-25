@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: myocardial-contractility-mechanisms
   type: soft
+- id: ischemia-reperfusion-injury-pathophysiology
+  type: soft
 builds-toward:
 - post-infarction-ventricular-remodeling
 - cardiogenic-shock
@@ -22,7 +24,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Myocardial Infarction and Ischemia-Reperfusion Injury
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: turing-machines-formal
   type: soft
+- id: artificial-minds-silicon-based
+  type: soft
 builds-toward:
 - chinese-room-understanding-computation
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Machine Consciousness and Artificial Systems
 
 ## Core Idea

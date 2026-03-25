@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: speech-act-theory
   type: soft
+- id: dialogue-characterization-analysis
+  type: soft
 builds-toward:
 - dialogue-analysis-and-function
 - character-interpretation-texts
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Characterization Through Dialogue
 
 ## Core Idea

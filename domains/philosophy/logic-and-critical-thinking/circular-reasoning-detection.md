@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: arguments-premises-and-conclusions
   type: hard
+- id: begging-the-question
+  type: soft
 builds-toward:
 - begging-the-question
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Detecting Circular Reasoning
 
 ## Core Idea

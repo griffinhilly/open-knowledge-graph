@@ -8,9 +8,11 @@ prerequisites:
   type: hard
 - id: weber-rationalization
   type: soft
+- id: industrialization-social-transformation
+  type: soft
 builds-toward:
-  - globalization-and-society
-  - social-movements
+- globalization-and-society
+- social-movements
 tags:
 - social-change
 - modernization

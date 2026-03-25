@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: sir-compartmental-model
   type: soft
+- id: cardiovascular-epidemiology
+  type: soft
 builds-toward:
 - contact-tracing-analysis
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Network Epidemiology and Disease Transmission
 
 ## Core Idea

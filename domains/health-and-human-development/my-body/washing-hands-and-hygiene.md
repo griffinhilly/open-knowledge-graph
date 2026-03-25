@@ -6,6 +6,8 @@ course: my-body
 prerequisites:
 - id: my-body-parts
   type: soft
+- id: brushing-teeth
+  type: soft
 builds-toward:
 - disease-prevention-levels
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Washing Hands and Hygiene
 
 ## Core Idea

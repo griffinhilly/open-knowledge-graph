@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: dose-response-relationships
   type: hard
+- id: environmental-hazard-characterization
+  type: soft
+- id: environmental-health-pathogen-chemical-routes
+  type: soft
 builds-toward:
 - occupational-health-surveillance-and-control
 - waterborne-disease-prevention-and-safety
@@ -18,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Environmental Hazard Assessment and Risk Characterization
 
 ## Core Idea

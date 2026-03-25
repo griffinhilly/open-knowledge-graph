@@ -8,6 +8,16 @@ prerequisites:
   type: hard
 - id: gender-and-sexuality
   type: soft
+- id: migration-sovereignty-political-economy
+  type: soft
+- id: international-norms-diffusion
+  type: soft
+- id: state-recognition-legitimacy-international-society
+  type: soft
+- id: anarchy-self-help-international-system
+  type: soft
+- id: relative-versus-absolute-gains
+  type: soft
 builds-toward:
 - postcolonial-ir-dependency
 - critical-ir-foucauldian-analysis
@@ -20,7 +30,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Feminist International Relations and Gender Analysis
 
 ## Core Idea

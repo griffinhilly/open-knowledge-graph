@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: probabilistic-reasoning
   type: soft
+- id: agent-evaluation-vs-action-evaluation
+  type: soft
+- id: impartial-vs-partial-agents
+  type: soft
+- id: ought-implies-can
+  type: soft
+- id: care-ethics
+  type: soft
 builds-toward:
 - preference-utilitarianism
 - contractualism
@@ -19,7 +27,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Rational Choice and Ethics
 
 ## Core Idea

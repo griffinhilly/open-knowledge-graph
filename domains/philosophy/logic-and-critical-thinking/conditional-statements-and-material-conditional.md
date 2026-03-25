@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: logical-operators-and-truth-functions
   type: hard
+- id: conditional-reasoning-basics
+  type: soft
 builds-toward:
 - necessary-and-sufficient-conditions
 - affirming-the-consequent-error
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Conditional Statements and the Material Conditional
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: percent-of-a-number
   type: soft
+- id: credit-card-mechanics-and-strategy
+  type: soft
 builds-toward:
 - credit-utilization-credit-score-mechanics
 - lifecycle-financial-strategy-and-priorities
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Cost of Borrowing and Interest Mechanics
 
 ## Core Idea

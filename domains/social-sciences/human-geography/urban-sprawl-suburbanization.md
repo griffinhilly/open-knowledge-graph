@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: housing-geography-access
   type: soft
+- id: informal-settlements-slums
+  type: soft
+- id: smart-cities-governance
+  type: soft
+- id: rural-urban-continuum
+  type: soft
 builds-toward:
 - spatial-inequality-uneven-development
 tags:
@@ -18,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Urban Sprawl and Suburbanization
 
 ## Core Idea

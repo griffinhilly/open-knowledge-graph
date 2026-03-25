@@ -6,6 +6,8 @@ course: cooking-and-nutrition
 prerequisites:
 - id: seasoning-and-flavor-basics
   type: hard
+- id: spice-freshness-and-storage
+  type: soft
 builds-toward:
 - flavor-pairing-and-umami
 - world-cuisine-flavor-profiles
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Culinary Herbs and Spices
 
 ## Core Idea

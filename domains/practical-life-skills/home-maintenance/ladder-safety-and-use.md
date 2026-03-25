@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: measuring-length-feet-meters
   type: soft
+- id: power-tools-safety-and-operation
+  type: soft
 builds-toward:
 - interior-painting
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Ladder Safety and Use
 
 ## Core Idea

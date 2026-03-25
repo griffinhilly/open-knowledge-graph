@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: burden-of-disease-and-comparative-health-assessment
   type: soft
+- id: screening-program-evaluation-and-optimization
+  type: soft
 tags:
 - economic-evaluation
 - cost-effectiveness
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Cost-Effectiveness Analysis and Economic Evaluation of Health Interventions
 
 ## Core Idea

@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: multiplication-word-problems
   type: soft
+- id: expense-baseline-and-discretionary-analysis
+  type: soft
+- id: cash-flow-analysis-and-management
+  type: soft
 builds-toward:
 - tax-efficient-investment-strategies
 tags:
@@ -21,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Investment Fees and Expense Analysis
 
 ## Core Idea

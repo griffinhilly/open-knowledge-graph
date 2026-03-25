@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: status-attainment-processes
   type: soft
+- id: race-ethnicity-inequality-systems
+  type: soft
 builds-toward:
 - occupational-prestige-hierarchy
 - meritocracy-myth-critique
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Social Mobility and Life Chances
 
 ## Core Idea

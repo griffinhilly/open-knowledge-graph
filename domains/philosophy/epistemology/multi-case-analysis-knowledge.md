@@ -6,6 +6,8 @@ course: epistemology
 prerequisites:
 - id: gettier-cases-formal-analysis
   type: hard
+- id: margin-error-semantics
+  type: soft
 builds-toward:
 - defeasibility-conditions-knowledge
 - anti-luck-conditions-knowledge
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Multi-Case Analysis and Knowledge Conditions
 
 ## Core Idea

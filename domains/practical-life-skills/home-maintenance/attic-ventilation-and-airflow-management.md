@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: hvac-system-basics-and-filter-maintenance
   type: soft
+- id: attic-insulation-and-ventilation-assessment
+  type: soft
+- id: moisture-and-mold-prevention-strategy
+  type: soft
 builds-toward:
 - insulation-and-air-sealing
 - seasonal-home-maintenance-tasks
@@ -20,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Attic Ventilation and Airflow Management
 
 ## Core Idea

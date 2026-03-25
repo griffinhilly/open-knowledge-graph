@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: volume-of-rectangular-prisms
   type: soft
+- id: toilet-repair-basics
+  type: soft
 builds-toward: []
 tags:
 - plumbing
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Water Heater Basics
 
 ## Core Idea

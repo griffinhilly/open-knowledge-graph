@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: tissue-types-and-histology
   type: hard
+- id: dysplasia-and-progression-to-malignancy
+  type: soft
 builds-toward:
 - carcinogenesis-multistep
 - metaplasia-dysplasia-malignant-progression
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Metaplasia and Dysplasia: Reversible and Irreversible Changes
 
 ## Core Idea

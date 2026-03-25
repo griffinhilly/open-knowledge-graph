@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: argument-structure
   type: soft
+- id: appeal-to-popularity-fallacy
+  type: soft
+- id: appeal-to-tradition-fallacy
+  type: soft
 builds-toward:
 - informal-fallacies-intro
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Equivocation and Shifting Word Meaning
 
 ## Core Idea

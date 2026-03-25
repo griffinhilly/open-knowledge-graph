@@ -6,6 +6,8 @@ course: political-philosophy
 prerequisites:
 - id: social-contract-theory
   type: hard
+- id: hobbesian-absolutism
+  type: soft
 builds-toward:
 - political-authority-and-legitimacy
 - political-obligation
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Hobbesian Sovereignty
 
 ## Core Idea

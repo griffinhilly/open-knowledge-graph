@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rhyme-scheme
   type: hard
+- id: couplet-two-line-form
+  type: soft
 tags:
 - form
 - tercet
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Terza Rima: Interlocking Tercets
 
 ## Core Idea

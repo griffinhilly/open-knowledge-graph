@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: argumentation-theory
   type: soft
+- id: moral-authority-and-justification
+  type: soft
+- id: moral-epistemology
+  type: soft
+- id: applied-ethics-frameworks
+  type: soft
 builds-toward:
 - reflective-equilibrium-method
 tags:
@@ -17,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Moral Reasoning and Justification
 
 ## Core Idea

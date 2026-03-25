@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: validity-and-soundness
   type: hard
+- id: rhetorical-vs-logical-fallacies
+  type: soft
 tags:
 - formal-fallacy
 - deduction
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Formal Logical Fallacies
 
 ## Core Idea

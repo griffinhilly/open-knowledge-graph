@@ -6,6 +6,8 @@ course: philosophy-of-mind
 prerequisites:
 - id: physicalism-reduction-commitment
   type: hard
+- id: non-reductive-physicalism-details
+  type: soft
 builds-toward:
 - type-identity-theory-details
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Reductive Physicalism and Mental Reduction
 
 ## Core Idea

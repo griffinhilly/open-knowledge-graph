@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: dramatic-conflict
   type: soft
+- id: character-entrance-and-exit-function
+  type: soft
+- id: dramatic-tension-management
+  type: soft
 builds-toward:
 - falling-action-and-resolution
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Rising Action and Climax
 
 ## Core Idea

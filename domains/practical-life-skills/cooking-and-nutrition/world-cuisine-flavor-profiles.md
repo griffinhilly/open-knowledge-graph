@@ -8,8 +8,10 @@ prerequisites:
   type: soft
 - id: seasoning-and-flavor-basics
   type: soft
+- id: spice-freshness-and-storage
+  type: soft
 builds-toward:
-  - recipe-adaptation-and-substitutions
+- recipe-adaptation-and-substitutions
 tags:
 - cuisine
 - flavor

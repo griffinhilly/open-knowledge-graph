@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: exponential-growth-and-decay
   type: soft
+- id: banking-fundamentals
+  type: soft
 builds-toward:
 - index-fund-investing
 tags:
@@ -27,7 +29,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Stock Market Fundamentals
 
 ## Core Idea

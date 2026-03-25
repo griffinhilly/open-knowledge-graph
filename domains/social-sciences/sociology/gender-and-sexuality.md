@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: simple-probability
   type: soft
+- id: gender-socialization-performance
+  type: soft
 builds-toward:
 - intersectionality
 tags:
@@ -24,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Gender, Sex, and Sexuality
 
 ## Core Idea

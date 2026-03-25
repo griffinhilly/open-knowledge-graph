@@ -6,6 +6,8 @@ course: human-geography
 prerequisites:
 - id: place-and-space-concepts
   type: hard
+- id: cultural-regions-identity
+  type: soft
 builds-toward:
 - diaspora-transnational-networks
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Cultural Geography and Identity Formation
 
 ## Core Idea

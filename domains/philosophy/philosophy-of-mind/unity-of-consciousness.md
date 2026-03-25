@@ -10,8 +10,10 @@ prerequisites:
   type: soft
 - id: neural-correlates-of-consciousness
   type: soft
+- id: mental-imagery-consciousness
+  type: soft
 builds-toward:
-  - temporal-consciousness
+- temporal-consciousness
 tags:
 - unity
 - binding

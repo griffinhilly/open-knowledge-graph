@@ -6,6 +6,8 @@ course: research-methods-social-science
 prerequisites:
 - id: research-design-advanced
   type: soft
+- id: process-tracing-comparative
+  type: soft
 builds-toward:
 - qualitative-comparative-analysis
 - natural-experiments-design
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Case Study Design and Comparative Methods
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: marxist-literary-criticism
   type: soft
+- id: postcolonial-translation-resistance
+  type: soft
 builds-toward:
 - postcolonial-literature-theory
 - literary-cosmopolitanism-ethics
@@ -21,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Literature, Politics, and Ideological Critique
 
 ## Core Idea

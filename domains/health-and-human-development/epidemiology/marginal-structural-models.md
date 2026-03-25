@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: inverse-probability-weighting
   type: hard
+- id: g-estimation-causal-effects
+  type: soft
 tags:
 - longitudinal-analysis
 - marginal-models
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Marginal Structural Models for Longitudinal Data
 
 ## Core Idea

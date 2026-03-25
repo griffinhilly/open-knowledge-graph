@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: evaluating-online-information
   type: soft
+- id: advanced-search-operators-and-filters
+  type: soft
 builds-toward:
 - evaluating-source-credibility-online
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Evaluating Search Results
 
 ## Core Idea

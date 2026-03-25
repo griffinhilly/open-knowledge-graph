@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: structural-realism-waltz
   type: hard
+- id: international-order-stability
+  type: soft
 builds-toward:
 - soft-power-narrative-influence
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Hegemonic Stability and Long-Term Order
 
 ## Core Idea

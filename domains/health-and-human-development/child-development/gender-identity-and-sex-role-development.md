@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: temperament-and-individual-differences
   type: soft
+- id: gender-development-and-sex-typed-behavior
+  type: soft
 builds-toward:
 - adolescent-brain-and-behavioral-development
 - self-concept-and-self-esteem-development
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Gender Identity and Sex Role Development
 
 ## Core Idea

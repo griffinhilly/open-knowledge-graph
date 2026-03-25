@@ -6,6 +6,8 @@ course: poetry
 prerequisites:
 - id: rhyme-scheme
   type: hard
+- id: tanka-form
+  type: soft
 tags:
 - form
 - rhyme
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Couplet: Two-Line Form
 
 ## Core Idea

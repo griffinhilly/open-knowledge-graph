@@ -6,6 +6,8 @@ course: philosophy-of-language
 prerequisites:
 - id: grice-conversational-implicature
   type: hard
+- id: what-is-said-grice
+  type: soft
 builds-toward:
 - metaphor-and-figurative-language
 - vagueness-sorites-paradox
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # The Pragmatics-Semantics Distinction
 
 ## Core Idea

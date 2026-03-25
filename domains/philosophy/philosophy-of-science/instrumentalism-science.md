@@ -6,6 +6,8 @@ course: philosophy-of-science
 prerequisites:
 - id: scientific-realism
   type: hard
+- id: instrumentalism-anti-realism
+  type: soft
 builds-toward:
 - scientific-models-representation
 - natural-kinds-classification
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Instrumentalism
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: basic-nutrition-fundamentals
   type: soft
+- id: refrigerator-storage-organization
+  type: soft
 builds-toward:
 - meal-planning-basics
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Food Storage and Preservation
 
 ## Core Idea

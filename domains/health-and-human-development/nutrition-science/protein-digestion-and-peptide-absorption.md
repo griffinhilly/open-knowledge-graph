@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: peptide-bonds-and-polypeptide-formation
   type: soft
+- id: carbohydrate-digestion-and-monosaccharide-absorption
+  type: soft
 builds-toward:
 - amino-acid-metabolism-and-protein-turnover
 - protein-quality-amino-acid-score-patterns
@@ -25,7 +27,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Protein Digestion and Peptide Absorption
 
 ## Core Idea

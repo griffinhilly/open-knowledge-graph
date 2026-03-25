@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: searle-illocutionary-acts
   type: hard
+- id: perlocutionary-effects
+  type: soft
 builds-toward:
 - performativity-and-language
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Indirect Speech Acts
 
 ## Core Idea

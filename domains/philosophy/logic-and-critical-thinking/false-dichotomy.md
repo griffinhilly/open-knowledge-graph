@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: informal-fallacies-intro
   type: hard
+- id: begging-the-question
+  type: soft
 tags:
 - false-dichotomy
 - dilemma
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # False Dichotomy (False Dilemma)
 
 ## Core Idea

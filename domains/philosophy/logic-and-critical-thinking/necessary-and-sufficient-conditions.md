@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: conditional-statements-and-material-conditional
   type: hard
+- id: contrapositive-logical-equivalence
+  type: soft
 builds-toward:
 - logical-form
 - argument-structure
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Necessary and Sufficient Conditions
 
 ## Core Idea

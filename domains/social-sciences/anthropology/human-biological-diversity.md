@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: anthropology-overview
   type: soft
+- id: functional-explanations-anthropology
+  type: soft
 builds-toward:
 - skeletal-analysis-methods
 - race-and-ethnicity
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Human Biological Diversity and Adaptation
 
 ## Core Idea

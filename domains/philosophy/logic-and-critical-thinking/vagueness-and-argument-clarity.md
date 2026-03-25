@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: vagueness-and-borderline
   type: soft
+- id: definition-and-conceptual-clarity
+  type: soft
 builds-toward:
 - analyzing-natural-language-arguments
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Vagueness in Language and Argument Clarity
 
 ## Core Idea

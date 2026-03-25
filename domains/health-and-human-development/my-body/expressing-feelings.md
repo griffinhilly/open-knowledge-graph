@@ -6,6 +6,8 @@ course: my-body
 prerequisites:
 - id: happy-sad-angry-scared
   type: hard
+- id: asking-for-help
+  type: soft
 builds-toward:
 - emotion-regulation-development-and-coping-skills
 - self-regulation-emotional-and-behavioral-control
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Expressing Feelings
 
 ## Core Idea

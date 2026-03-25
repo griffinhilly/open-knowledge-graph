@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: file-system-basics
   type: soft
+- id: download-location-and-file-retrieval
+  type: soft
+- id: bookmark-organization-and-retrieval
+  type: soft
+- id: file-compression-and-archives
+  type: soft
+- id: photo-and-video-organization
+  type: soft
 builds-toward:
 - backup-and-data-protection
 - system-backup-and-recovery
@@ -19,7 +27,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # File Management and Organization
 
 ## Core Idea

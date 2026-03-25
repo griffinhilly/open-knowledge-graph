@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: qualia-and-phenomenal-consciousness
   type: soft
+- id: attention-consciousness-relationship
+  type: soft
+- id: affect-consciousness-emotions
+  type: soft
+- id: unity-of-consciousness
+  type: soft
 tags:
 - time
 - phenomenology
@@ -16,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Consciousness of Time and Temporal Experience
 
 ## Core Idea

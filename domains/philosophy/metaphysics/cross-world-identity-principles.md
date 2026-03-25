@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: identity-of-indiscernibles
   type: soft
+- id: stage-theory-identity
+  type: soft
 builds-toward:
 - modal-status-identity-statements
 - rigid-designators-modal-reference
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Cross-World Identity and Counterpart Theory
 
 ## Core Idea

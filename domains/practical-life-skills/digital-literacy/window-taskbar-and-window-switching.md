@@ -6,6 +6,8 @@ course: digital-literacy
 prerequisites:
 - id: operating-system-fundamentals
   type: soft
+- id: right-click-menus-and-context-actions
+  type: soft
 builds-toward:
 - browser-tabs-and-window-organization
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Window, Taskbar, and Window Switching
 
 ## Core Idea

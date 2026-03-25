@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: status-honor-prestige-systems
   type: hard
+- id: age-grades-lifecycle-organization
+  type: soft
 builds-toward:
 - economic-anthropology
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Competitive Exchange and Prestige Economics
 
 ## Core Idea

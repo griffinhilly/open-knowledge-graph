@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: representationalism
   type: soft
+- id: inverted-spectrum-thought-experiment
+  type: soft
 builds-toward:
 - eliminative-materialism
 - physicalism-about-mind
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Illusionism About Consciousness
 
 ## Core Idea

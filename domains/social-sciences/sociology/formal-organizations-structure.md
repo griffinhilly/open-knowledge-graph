@@ -6,6 +6,8 @@ course: sociology
 prerequisites:
 - id: institution-theory-sociology
   type: hard
+- id: secondary-groups-formal-organizations
+  type: soft
 builds-toward:
 - organizational-culture-subculture
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Formal Organizations: Structure and Function
 
 ## Core Idea

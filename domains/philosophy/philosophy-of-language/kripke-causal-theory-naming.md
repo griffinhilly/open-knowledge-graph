@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: frege-sense-and-reference
   type: hard
+- id: reference-failure-empty-names
+  type: soft
 builds-toward:
 - rigid-designators-modal-reference
 - proper-names-and-reference
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Kripke's Causal Theory of Reference for Proper Names
 
 ## Core Idea

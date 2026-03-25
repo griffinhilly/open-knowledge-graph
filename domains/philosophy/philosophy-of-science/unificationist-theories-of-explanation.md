@@ -6,6 +6,10 @@ course: philosophy-of-science
 prerequisites:
 - id: scientific-explanation-introduction
   type: soft
+- id: causal-explanation-theories
+  type: soft
+- id: inductive-statistical-model-of-explanation
+  type: soft
 builds-toward:
 - theoretical-virtues-in-theory-choice
 tags:
@@ -15,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Unificationist Theories of Explanation
 
 ## Core Idea

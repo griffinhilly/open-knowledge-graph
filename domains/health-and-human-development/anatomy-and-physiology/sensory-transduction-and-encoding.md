@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ion-channels-selectivity
   type: hard
+- id: sensory-receptor-transduction-adaptation
+  type: soft
 builds-toward:
 - sensory-processing-pathways
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Sensory Transduction and Encoding
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: my-body
 prerequisites:
 - id: how-my-body-moves
   type: soft
+- id: being-kind-to-others
+  type: soft
 builds-toward:
 - gross-motor-development-and-locomotion
 - energy-balance-and-body-composition
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Exercise and Being Active
 
 ## Core Idea

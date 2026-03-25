@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: informal-fallacies-intro
   type: soft
+- id: appeal-to-emotion-fallacy
+  type: soft
 builds-toward:
 - evaluating-practical-arguments
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Appeal to Popularity and the Bandwagon Fallacy
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: sociological-theory
 prerequisites:
 - id: symbolic-interactionism
   type: hard
+- id: role-taking-self-development
+  type: soft
 builds-toward:
 - self-identity-social-interaction
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # George Herbert Mead and Social Interaction
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: indirect-speech-acts
   type: soft
+- id: what-is-said-grice
+  type: soft
 builds-toward:
 - grice-conversational-implicature
 - pragmatics-semantics-boundary

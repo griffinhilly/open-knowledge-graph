@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: speaker-meaning
   type: hard
+- id: conventional-implicature-meaning
+  type: soft
 builds-toward:
 - literal-meaning-speaker-meaning
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Linguistic Meaning: Convention Versus Intention
 
 ## Core Idea

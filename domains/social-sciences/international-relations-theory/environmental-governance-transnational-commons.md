@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: international-institutions-and-regimes
   type: soft
+- id: international-courts-justice
+  type: soft
+- id: sovereignty-westphalian-state-system
+  type: soft
 builds-toward:
 - global-governance-polycentrism
 tags:
@@ -19,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Transnational Environmental Governance
 
 ## Core Idea

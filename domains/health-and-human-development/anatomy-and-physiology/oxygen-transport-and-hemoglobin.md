@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: protein-quaternary-structure
   type: soft
+- id: oxygen-delivery-hemoglobin-tissue-extraction
+  type: soft
 builds-toward:
 - acid-base-homeostasis-physiology
 tags:
@@ -24,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Oxygen Transport and Hemoglobin
 
 ## Core Idea

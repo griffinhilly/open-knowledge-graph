@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: public-health-ethics
   type: soft
+- id: surveillance-system-performance-metrics
+  type: soft
 builds-toward:
 - health-policy-and-advocacy
 tags:

@@ -4,18 +4,26 @@ title: Reproductive System Basics
 domain: health-and-human-development
 course: health-foundations
 prerequisites:
-  - id: puberty-basics
-    type: hard
-  - id: how-body-systems-connect
-    type: soft
+- id: puberty-basics
+  type: hard
+- id: how-body-systems-connect
+  type: soft
+- id: growth-spurts
+  type: soft
+- id: healthy-body-image
+  type: soft
 builds-toward:
-  - reproductive-anatomy
-  - reproductive-hormonal-cycles-gametogenesis
-tags: [growth, development, reproductive-system, puberty, anatomy]
+- reproductive-anatomy
+- reproductive-hormonal-cycles-gametogenesis
+tags:
+- growth
+- development
+- reproductive-system
+- puberty
+- anatomy
 stage: abstract-reasoning
 status: validated
 ---
-
 # Reproductive System Basics
 
 ## Core Idea

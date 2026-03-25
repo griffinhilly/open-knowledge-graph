@@ -6,6 +6,12 @@ course: political-philosophy
 prerequisites:
 - id: political-authority-and-legitimacy
   type: hard
+- id: democratic-legitimacy-and-authority
+  type: soft
+- id: anarchism-and-political-necessity
+  type: soft
+- id: power-and-legitimate-authority
+  type: soft
 builds-toward:
 - civil-disobedience-justified
 - revolution-resistance-justified
@@ -17,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Political Authority and Sources of Legitimacy
 
 ## Core Idea

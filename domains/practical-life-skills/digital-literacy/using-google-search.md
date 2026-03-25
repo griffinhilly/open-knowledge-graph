@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: clicking-links-and-buttons
   type: hard
+- id: advanced-search-operators-and-filters
+  type: soft
 builds-toward:
 - picking-the-right-search-result
 - effective-web-searching
@@ -21,7 +23,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Using a Search Engine
 
 ## Core Idea

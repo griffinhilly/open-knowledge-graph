@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: counterfactual-causation
   type: soft
+- id: causal-closure-principle
+  type: soft
 builds-toward:
 - counterfactual-truth-modality
 tags:
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Causal Order and Temporal Order
 
 ## Core Idea

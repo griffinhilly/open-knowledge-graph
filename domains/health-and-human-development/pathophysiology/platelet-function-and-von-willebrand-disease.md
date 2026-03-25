@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: blood-composition-and-function
   type: soft
+- id: platelet-activation-and-aggregation-pathophysiology
+  type: soft
 builds-toward:
 - bleeding-disorders-overview
 - thrombosis-pathophysiology
@@ -20,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Platelet Function and Von Willebrand Disease
 
 ## Core Idea

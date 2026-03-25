@@ -18,6 +18,10 @@ prerequisites:
   type: soft
 - id: matrices-intro
   type: soft
+- id: instrumental-variables-methods
+  type: soft
+- id: operationalization-construct-validity
+  type: soft
 tags:
 - SEM
 - latent-variables
@@ -26,7 +30,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Structural Equation Modeling with Latent Variables
 
 ## Core Idea

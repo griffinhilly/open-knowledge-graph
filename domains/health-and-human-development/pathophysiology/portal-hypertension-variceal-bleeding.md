@@ -9,6 +9,8 @@ prerequisites:
   type: hard
 - id: blood-vessels-and-circulation
   type: hard
+- id: portal-hypertension-complications-and-outcomes
+  type: soft
 builds-toward:
 - shock-pathophysiology
 - hepatic-encephalopathy-pathophysiology
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Portal Hypertension and Esophageal Varices: Pathophysiology of Variceal Formation and Rupture
 
 ## Core Idea

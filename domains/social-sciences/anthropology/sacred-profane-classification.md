@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: ritual-and-ceremony
   type: soft
+- id: kinship-terminology-classification
+  type: soft
 builds-toward:
 - religion-and-society
 - myth-and-symbolism
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Sacred and Profane: Fundamental Classification Systems
 
 ## Core Idea

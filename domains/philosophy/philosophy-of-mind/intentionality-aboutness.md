@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mind-body-problem
   type: soft
+- id: naturalizing-intentionality
+  type: soft
 builds-toward:
 - externalism-about-content
 - naturalizing-intentionality
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Intentionality and Aboutness
 
 ## Core Idea

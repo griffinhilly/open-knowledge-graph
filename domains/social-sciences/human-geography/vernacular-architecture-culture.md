@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: landscape-interpretation-reading
   type: soft
+- id: cultural-geography-identity
+  type: soft
 builds-toward:
 - cultural-geography-identity
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Vernacular Architecture and Cultural Landscapes
 
 ## Core Idea

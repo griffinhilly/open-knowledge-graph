@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: basic-hand-tools
   type: soft
+- id: cabinet-and-storage-hardware-maintenance
+  type: soft
 builds-toward: []
 tags:
 - doors
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Interior Door Repair
 
 ## Core Idea

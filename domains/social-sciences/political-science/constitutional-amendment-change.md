@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: institutional-change-dynamics
   type: soft
+- id: constitutional-government-systems
+  type: soft
 builds-toward:
 - regime-change-and-democratization
 - constitutional-government-systems
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Constitutional Amendment and Constitutional Change
 
 ## Core Idea

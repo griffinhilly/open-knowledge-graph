@@ -6,6 +6,8 @@ course: home-maintenance
 prerequisites:
 - id: electrical-safety-basics
   type: soft
+- id: door-lock-and-deadbolt-repair
+  type: soft
 builds-toward: []
 tags:
 - security
@@ -15,7 +17,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Home Security Basics
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: modal-logic-intro
   type: soft
+- id: epistemic-properties-and-metrics
+  type: soft
 builds-toward:
 - knowledge-and-belief-operators
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Epistemic Accessibility Relations
 
 ## Core Idea

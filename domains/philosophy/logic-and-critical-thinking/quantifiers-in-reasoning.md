@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: first-order-logic-syntax
   type: soft
+- id: question-presuppositions
+  type: soft
 builds-toward:
 - categorical-logic-and-syllogisms
 - universal-and-existential-statements
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Quantifiers: ALL, SOME, and NONE
 
 ## Core Idea

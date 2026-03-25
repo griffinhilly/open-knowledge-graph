@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: argument-structure
   type: hard
+- id: charitable-interpretation-practice
+  type: soft
 builds-toward:
 - ad-hominem-and-genetic-fallacy
 - straw-man-fallacy
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Informal Fallacies: An Overview
 
 ## Core Idea

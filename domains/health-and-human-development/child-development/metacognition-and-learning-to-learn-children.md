@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: memory-development-capacity-encoding
   type: hard
+- id: memory-development-encoding-strategies-and-retrieval
+  type: soft
 builds-toward:
 - problem-solving-reasoning-development-children
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Metacognition and Learning-to-Learn in Children
 
 ## Core Idea

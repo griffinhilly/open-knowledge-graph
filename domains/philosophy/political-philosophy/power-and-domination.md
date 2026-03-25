@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: feminist-political-philosophy
   type: soft
+- id: liberty-domination-republicanism
+  type: soft
 tags:
 - power
 - domination
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Power and Domination
 
 ## Core Idea

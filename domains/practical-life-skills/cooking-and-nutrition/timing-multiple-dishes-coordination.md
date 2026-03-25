@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: meal-planning-basics
   type: soft
+- id: mise-en-place
+  type: soft
 builds-toward:
 - meal-planning-basics
 - planning-a-balanced-daily-menu
@@ -20,7 +22,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Timing Multiple Dishes Coordination
 
 ## Core Idea

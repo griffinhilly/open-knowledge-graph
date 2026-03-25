@@ -20,6 +20,10 @@ prerequisites:
   type: soft
 - id: political-anthropology
   type: soft
+- id: creolization-cultural-hybridity
+  type: soft
+- id: cultural-evolution-theory
+  type: soft
 builds-toward:
 - identity-and-selfhood-anthropology
 tags:

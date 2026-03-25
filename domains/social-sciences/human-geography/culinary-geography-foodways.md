@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: economic-geography-fundamentals
   type: soft
+- id: health-geography-place
+  type: soft
 builds-toward:
 - agricultural-geography
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Culinary Geography and Foodways
 
 ## Core Idea

@@ -6,6 +6,10 @@ course: home-maintenance
 prerequisites:
 - id: understanding-home-structure-and-systems
   type: hard
+- id: major-system-failure-indicators-and-response
+  type: soft
+- id: outlet-and-switch-replacement
+  type: soft
 builds-toward:
 - electrical-safety-and-hazard-awareness
 - basic-electrical-maintenance-and-repairs
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Electrical System Fundamentals
 
 ## Core Idea

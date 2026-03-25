@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: burner-heat-level-control
   type: soft
+- id: meat-doneness-without-thermometer
+  type: soft
 builds-toward:
 - meat-and-protein-doneness
 - roasting-techniques
@@ -20,7 +22,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Cooking Doneness and Temperature Indicators
 
 ## Core Idea

@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: skeptical-scenarios-knowledge-closure
   type: soft
+- id: deductive-closure-knowledge
+  type: soft
+- id: closure-principles-formalized
+  type: soft
 builds-toward:
 - moorean-responses-skepticism
 tags:

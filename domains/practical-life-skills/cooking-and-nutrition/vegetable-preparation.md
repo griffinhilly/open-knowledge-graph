@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: boiling-and-simmering
   type: soft
+- id: vegetable-cutting-fundamentals
+  type: soft
+- id: tea-and-coffee-preparation
+  type: soft
 builds-toward:
 - sauteing-and-pan-cooking
 - roasting-techniques

@@ -1,20 +1,25 @@
 ---
 id: newcombs-problem
-title: "Newcomb's Problem"
+title: Newcomb's Problem
 domain: philosophy
 course: applied-rationality
 prerequisites:
-  - id: expected-value-decision-making
-    type: hard
-  - id: rational-choice-and-ethics
-    type: soft
+- id: expected-value-decision-making
+  type: hard
+- id: rational-choice-and-ethics
+  type: soft
+- id: sunk-cost-recognition
+  type: soft
 builds-toward:
-  - causal-vs-evidential-decision-theory
-tags: ["decision-theory", "thought-experiment", "newcomb", "rationality"]
+- causal-vs-evidential-decision-theory
+tags:
+- decision-theory
+- thought-experiment
+- newcomb
+- rationality
 stage: advanced
 status: validated
 ---
-
 ## Core Idea
 
 Newcomb's problem presents a choice: take both boxes (getting $1,000 plus whatever a nearly perfect predictor placed in the opaque box) or take only the opaque box (getting $1,000,000 if the predictor predicted you would one-box, $0 if it predicted you would two-box). The predictor has been right 99% of the time with previous players. One-boxing gets you $1,000,000 almost certainly; two-boxing gets you $1,000 almost certainly (the predictor foresaw your greed and left the box empty). This simple setup reveals a deep split in decision theory: causal decision theory says to two-box (your choice cannot causally change what is already in the box), while evidential decision theory says to one-box (one-boxing is strong evidence that the box contains $1,000,000). The problem has no consensus solution and illuminates fundamental questions about the relationship between choice, causation, and rationality.

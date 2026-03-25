@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: diction-and-style
   type: hard
+- id: pun-wordplay-multiple-meaning
+  type: soft
 tags:
 - semantic-wit
 - wordplay
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Zeugma and Wordplay: Semantic Wit
 
 ## Core Idea

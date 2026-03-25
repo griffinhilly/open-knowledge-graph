@@ -6,6 +6,8 @@ course: metaphysics
 prerequisites:
 - id: personal-identity
   type: hard
+- id: bodily-continuity-theory
+  type: soft
 tags:
 - psychological continuity
 - personal identity
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Psychological Continuity Theory of Personal Identity
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: predictive-values-diagnostics
   type: hard
+- id: screening-predictive-value-prevalence
+  type: soft
 builds-toward:
 - cost-effectiveness-and-economic-evaluation-health
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Screening Program Evaluation and Population-Level Optimization
 
 ## Core Idea

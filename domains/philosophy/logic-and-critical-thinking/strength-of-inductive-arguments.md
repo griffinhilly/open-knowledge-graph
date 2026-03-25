@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: analogical-reasoning
   type: soft
+- id: evaluating-inductive-evidence
+  type: soft
+- id: analogy-strength-evaluation
+  type: soft
 builds-toward:
 - statistical-reasoning-basics
 - argument-evaluation-holistic
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Strength of Inductive Arguments
 
 ## Core Idea

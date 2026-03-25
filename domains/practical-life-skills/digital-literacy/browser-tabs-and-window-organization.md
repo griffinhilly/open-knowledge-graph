@@ -6,6 +6,8 @@ course: digital-literacy
 prerequisites:
 - id: web-browser-essentials
   type: soft
+- id: window-taskbar-and-window-switching
+  type: soft
 builds-toward:
 - browser-bookmarks-and-favorites
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Browser Tabs and Window Organization
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: functionalism-philosophy-of-mind
   type: soft
+- id: inverted-spectrum-thought-experiment
+  type: soft
 tags:
 - inverted-qualia
 - Shoemaker
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Spectrum Inversion
 
 ## Core Idea

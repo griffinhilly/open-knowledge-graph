@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: debt-management-strategies
   type: soft
+- id: assessing-personal-insurance-needs
+  type: soft
+- id: auto-insurance-essentials
+  type: soft
+- id: disability-insurance-overview
+  type: soft
 builds-toward:
 - home-emergency-response-planning
 - major-life-transitions-financial-planning
@@ -22,7 +28,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Financial Shock Preparedness and Resilience
 
 ## Core Idea

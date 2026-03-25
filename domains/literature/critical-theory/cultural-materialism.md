@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: discourse-and-power
   type: soft
+- id: cultural-materialism-english-school
+  type: soft
 builds-toward:
 - new-historicism
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Cultural Materialism
 
 ## Core Idea

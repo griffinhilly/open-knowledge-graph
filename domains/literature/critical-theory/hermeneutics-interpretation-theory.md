@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: reading-comprehension-basics
   type: soft
+- id: eco-unlimited-semiosis
+  type: soft
 builds-toward:
 - phenomenology-literary-reading
 tags:
@@ -24,7 +26,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Hermeneutics and Interpretation Theory
 
 ## Core Idea

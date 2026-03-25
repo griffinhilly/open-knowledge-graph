@@ -6,6 +6,8 @@ course: poetry
 prerequisites:
 - id: meter-and-rhythm-in-poetry
   type: hard
+- id: syllabic-meter-syllable-counting
+  type: soft
 builds-toward:
 - iambic-and-trochaic-feet
 - dactylic-anapestic-feet
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Metrical Foot: Basic Unit of Meter
 
 ## Core Idea

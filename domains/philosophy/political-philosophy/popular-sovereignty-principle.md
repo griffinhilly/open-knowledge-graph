@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rousseau-popular-will
   type: soft
+- id: hobbesian-absolutism
+  type: soft
 builds-toward:
 - democratic-legitimacy-sources
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Popular Sovereignty
 
 ## Core Idea

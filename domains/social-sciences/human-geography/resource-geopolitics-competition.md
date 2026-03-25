@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: resource-geography
   type: hard
+- id: spatial-representation-maps
+  type: soft
 builds-toward:
 - geopolitics-and-power
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Resource Geopolitics and Competition
 
 ## Core Idea

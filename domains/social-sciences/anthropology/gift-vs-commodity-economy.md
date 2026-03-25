@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: reciprocity-gift-economy
   type: soft
+- id: marriage-exchange-systems
+  type: soft
 builds-toward:
 - social-capital-networks
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Gift Exchange Versus Commodity Exchange
 
 ## Core Idea

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: epistemic-virtues
   type: soft
+- id: rational-belief-epistemic-virtue
+  type: soft
+- id: infallibilist-knowledge-analysis
+  type: soft
 tags:
 - virtue
 - character
@@ -16,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Virtue Epistemology and Knowledge
 
 ## Core Idea

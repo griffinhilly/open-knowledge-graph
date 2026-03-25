@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: first-order-logic-syntax
   type: soft
+- id: underdetermination-duhem-quine
+  type: soft
 builds-toward:
 - scientific-realism
 - theoretical-virtues-in-theory-choice
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Underdetermination of Theory by Evidence
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: anthropology
 prerequisites:
 - id: anthropology-overview
   type: soft
+- id: structural-analysis-social-systems
+  type: soft
 builds-toward:
 - cultural-change-innovation
 - cultural-transmission-intergenerational

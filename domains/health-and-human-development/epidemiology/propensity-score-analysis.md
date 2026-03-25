@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: multivariable-regression-epi
   type: hard
+- id: propensity-score-methods-epidemiology
+  type: soft
+- id: mediation-analysis-pathways
+  type: soft
 builds-toward:
 - inverse-probability-weighting
 - g-estimation-causal-effects
@@ -18,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Propensity Score Analysis
 
 ## Core Idea

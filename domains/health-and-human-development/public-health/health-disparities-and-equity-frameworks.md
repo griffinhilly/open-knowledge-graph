@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: health-inequity-social-pathways-multilevel
   type: soft
+- id: health-disparities-equity-frameworks
+  type: soft
 builds-toward:
 - policy-analysis-and-health-impact-evaluation
 - health-promotion-and-behavior-change-design

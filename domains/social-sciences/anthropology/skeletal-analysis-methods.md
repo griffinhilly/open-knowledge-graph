@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: human-biological-diversity
   type: soft
+- id: structural-analysis-social-systems
+  type: soft
 builds-toward:
 - settlement-archaeology-patterns
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Skeletal Analysis in Bioarchaeology
 
 ## Core Idea

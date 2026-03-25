@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: percent-of-a-number
   type: soft
+- id: income-diversification-and-stability
+  type: soft
+- id: liquidity-and-asset-liquidity-spectrum
+  type: soft
 builds-toward:
 - passive-investing-and-index-funds
 - portfolio-rebalancing-and-maintenance
@@ -21,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Diversification and Asset Allocation
 
 ## Core Idea

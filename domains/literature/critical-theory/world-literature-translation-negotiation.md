@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: literary-cosmopolitanism-ethics
   type: soft
+- id: agamben-exception-sovereignty
+  type: soft
+- id: simulacra-hyperreality-baudrillard
+  type: soft
 builds-toward:
 - literary-value-aesthetics-comparative
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # World Literature, Translation, and Ethical Negotiation
 
 ## Core Idea

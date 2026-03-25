@@ -3,7 +3,9 @@ id: keyboard-typing-and-shortcuts
 title: Keyboard Typing & Basic Shortcuts
 domain: practical-life-skills
 course: digital-literacy
-prerequisites: []
+prerequisites:
+- id: keyboard-special-keys-and-functions
+  type: soft
 builds-toward:
 - creating-saving-and-opening-files
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Keyboard Typing & Basic Shortcuts
 
 ## Core Idea

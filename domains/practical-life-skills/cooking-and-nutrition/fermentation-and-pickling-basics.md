@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: acid-in-cooking-chemistry
   type: soft
+- id: grilling-basics
+  type: soft
 builds-toward:
 - food-waste-reduction
 - flavor-pairing-and-umami
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Fermentation and Pickling Basics
 
 ## Core Idea

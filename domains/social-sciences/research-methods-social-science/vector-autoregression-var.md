@@ -16,6 +16,50 @@ prerequisites:
   type: soft
 - id: eigenvalues-and-eigenvectors
   type: soft
+- id: panel-data-fixed-effects
+  type: soft
+- id: count-data-regression-models
+  type: soft
+- id: conversation-analysis-social-order
+  type: soft
+- id: cost-effectiveness-analysis
+  type: soft
+- id: critical-discourse-analysis
+  type: soft
+- id: difference-in-differences-estimation-research-methods-social-science
+  type: soft
+- id: field-experiments-real-world
+  type: soft
+- id: focus-group-research
+  type: soft
+- id: instrumental-variables-methods
+  type: soft
+- id: intersectional-analysis-methods
+  type: soft
+- id: longitudinal-qualitative-research
+  type: soft
+- id: mediation-analysis-social
+  type: soft
+- id: meta-analysis-systematic-review
+  type: soft
+- id: missing-data-mechanisms-imputation
+  type: soft
+- id: moderation-analysis-interaction
+  type: soft
+- id: narrative-analysis-methods
+  type: soft
+- id: operationalization-construct-validity
+  type: soft
+- id: positivism-interpretivism-paradigm-debate
+  type: soft
+- id: qualitative-comparative-analysis
+  type: soft
+- id: rapid-ethnography-methods
+  type: soft
+- id: sensitivity-analysis-unmeasured-confounding
+  type: soft
+- id: triangulation-method-convergence
+  type: soft
 builds-toward:
 - structural-var-models
 - impulse-response-analysis
@@ -27,7 +71,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Vector Autoregression (VAR) Models
 
 ## Core Idea

@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: metaphor-conceptual-transformation
   type: soft
+- id: paradox-logical-contradiction
+  type: soft
+- id: concrete-vs-abstract-in-poetry
+  type: soft
 tags:
 - figurative-language
 - comparison
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Metaphor and Simile in Poetry
 
 ## Core Idea

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: mental-causation-efficacy-problem
   type: soft
+- id: causal-closure-physical
+  type: soft
 tags:
 - causation
 - consciousness

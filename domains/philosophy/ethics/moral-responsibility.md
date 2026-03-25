@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: compatibilism
   type: soft
+- id: moral-disagreement-sources
+  type: soft
 builds-toward:
 - moral-luck
 - moral-psychology
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Moral Responsibility
 
 ## Core Idea

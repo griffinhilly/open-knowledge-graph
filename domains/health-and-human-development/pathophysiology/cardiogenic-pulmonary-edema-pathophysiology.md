@@ -9,6 +9,8 @@ prerequisites:
   type: hard
 - id: respiratory-system-overview
   type: hard
+- id: pulmonary-edema-pathophysiology-and-mechanisms
+  type: soft
 builds-toward:
 - acute-respiratory-distress-syndrome-pathophysiology
 - acute-respiratory-failure-pathophysiology
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Cardiogenic Pulmonary Edema: Elevated Hydrostatic Pressure, Fluid Accumulation, and Hypoxemia
 
 ## Core Idea

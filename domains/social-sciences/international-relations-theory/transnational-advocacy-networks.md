@@ -8,6 +8,34 @@ prerequisites:
   type: hard
 - id: civil-society
   type: soft
+- id: terrorism-nonstate-actors-political-violence
+  type: soft
+- id: alliance-dilemmas-entrapment
+  type: soft
+- id: coordination-games-equilibrium
+  type: soft
+- id: defensive-realism-security-seeking-intentions
+  type: soft
+- id: democratic-institutions-democratic-peace-mechanisms
+  type: soft
+- id: escalation-dynamics-crises
+  type: soft
+- id: international-norms-diffusion
+  type: soft
+- id: mediation-and-conflict-resolution
+  type: soft
+- id: relative-versus-absolute-gains
+  type: soft
+- id: sanctions-and-statecraft
+  type: soft
+- id: second-strike-capability-mutual-assured-destruction
+  type: soft
+- id: signaling-and-resolve
+  type: soft
+- id: state-recognition-legitimacy-international-society
+  type: soft
+- id: treaty-design-ratification-credibility
+  type: soft
 builds-toward:
 - global-governance-polycentrism
 tags:
@@ -19,7 +47,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Transnational Actors and Advocacy Networks
 
 ## Core Idea

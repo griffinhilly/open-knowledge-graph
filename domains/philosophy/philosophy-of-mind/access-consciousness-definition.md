@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: phenomenal-vs-access-consciousness
   type: soft
+- id: reflexivity-self-awareness-consciousness
+  type: soft
+- id: privileged-access-problem
+  type: soft
 tags:
 - access
 - consciousness
@@ -15,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Access Consciousness: Information Availability
 
 ## Core Idea

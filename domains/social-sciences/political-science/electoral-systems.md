@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: proportions
   type: soft
+- id: voting-systems-and-mechanics
+  type: soft
 builds-toward:
 - political-parties-and-party-systems
 - political-culture-and-participation
@@ -26,7 +28,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Electoral Systems
 
 ## Core Idea

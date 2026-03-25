@@ -8,8 +8,12 @@ prerequisites:
   type: hard
 - id: five-act-structure
   type: soft
+- id: character-entrance-and-exit-function
+  type: soft
+- id: scene-beats-and-structure
+  type: soft
 builds-toward:
-  - scene-beats-and-structure
+- scene-beats-and-structure
 tags:
 - tension
 - pacing

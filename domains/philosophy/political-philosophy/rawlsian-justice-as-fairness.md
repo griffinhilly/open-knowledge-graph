@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rawlsian-justice
   type: hard
+- id: rawlsian-justice-principles
+  type: soft
 builds-toward:
 - difference-principle
 - social-contract-modern
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Rawlsian Justice and the Original Position
 
 ## Core Idea

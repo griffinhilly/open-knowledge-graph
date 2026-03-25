@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: counterfactual-framework
   type: soft
+- id: interrupted-time-series-analysis
+  type: soft
 builds-toward:
 - regression-discontinuity-design
 - difference-in-differences
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Natural Experiments and Quasi-Experimental Design
 
 ## Core Idea

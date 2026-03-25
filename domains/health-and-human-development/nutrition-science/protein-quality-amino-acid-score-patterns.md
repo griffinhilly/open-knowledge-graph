@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: nutrient-digestion-and-absorption
   type: hard
+- id: amino-acid-metabolism-and-protein-turnover
+  type: soft
 tags:
 - protein
 - amino-acids
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Protein Quality, Amino Acid Scoring Patterns, and Bioavailability
 
 ## Core Idea

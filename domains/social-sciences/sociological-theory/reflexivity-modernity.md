@@ -6,6 +6,8 @@ course: sociological-theory
 prerequisites:
 - id: social-structure-and-agency
   type: hard
+- id: anthony-giddens-structuration
+  type: soft
 tags:
 - giddens
 - modernity
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Reflexivity and Late Modernity
 
 ## Core Idea

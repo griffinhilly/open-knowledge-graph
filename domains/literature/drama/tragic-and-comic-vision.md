@@ -8,8 +8,12 @@ prerequisites:
   type: hard
 - id: comedy-and-comic-structure
   type: hard
+- id: comic-relief
+  type: soft
+- id: farce-and-physical-comedy
+  type: soft
 builds-toward:
-  - dramatic-form-and-structure-types
+- dramatic-form-and-structure-types
 tags:
 - tragedy
 - comedy

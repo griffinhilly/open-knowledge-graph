@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: snack-selection-and-preparation
   type: soft
+- id: nutrition-food-groups-balance
+  type: soft
 tags:
 - meal-planning
 - nutrition
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Planning Balanced Meals for a Day
 
 ## Core Idea

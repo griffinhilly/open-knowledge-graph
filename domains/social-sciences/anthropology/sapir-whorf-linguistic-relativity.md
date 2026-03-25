@@ -6,6 +6,8 @@ course: anthropology
 prerequisites:
 - id: language-and-culture
   type: hard
+- id: linguistic-relativity-worldview
+  type: soft
 builds-toward:
 - symbolic-classification-systems
 - myth-and-symbolism
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # The Sapir-Whorf Hypothesis and Linguistic Relativity
 
 ## Core Idea

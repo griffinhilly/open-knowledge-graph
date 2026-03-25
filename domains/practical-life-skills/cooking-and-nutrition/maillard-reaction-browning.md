@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: seasoning-and-flavor-basics
   type: soft
+- id: protein-cooking-science
+  type: soft
 builds-toward:
 - flavor-pairing-and-umami
 - pan-sauces-and-deglazing
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Maillard Reaction and Browning
 
 ## Core Idea

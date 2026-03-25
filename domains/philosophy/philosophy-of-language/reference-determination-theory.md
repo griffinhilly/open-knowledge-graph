@@ -8,6 +8,16 @@ prerequisites:
   type: hard
 - id: putnam-semantic-externalism
   type: hard
+- id: direct-reference-theory
+  type: soft
+- id: intensionality-and-opacity
+  type: soft
+- id: proper-names-and-reference
+  type: soft
+- id: proposition-and-semantic-content
+  type: soft
+- id: naturalism-semantic-facts
+  type: soft
 builds-toward:
 - natural-kinds-and-essence
 - empty-names-fictional
@@ -18,7 +28,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Reference Determination and Semantic Reference
 
 ## Core Idea

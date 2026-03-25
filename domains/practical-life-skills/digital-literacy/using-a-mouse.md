@@ -6,6 +6,8 @@ course: digital-literacy
 prerequisites:
 - id: turning-on-and-powering-off
   type: soft
+- id: right-click-menus-and-context-actions
+  type: soft
 builds-toward:
 - clicking-links-and-buttons
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Using a Computer Mouse
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: pathophysiology
 prerequisites:
 - id: cell-biology-intro
   type: hard
+- id: left-ventricular-hypertrophy
+  type: soft
 builds-toward:
 - left-ventricular-hypertrophy
 - obesity-and-metabolic-syndrome
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Cellular Adaptation: Hypertrophy and Hyperplasia
 
 ## Core Idea

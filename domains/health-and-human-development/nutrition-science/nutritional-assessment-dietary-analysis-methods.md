@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dietary-guidelines-and-recommendations
   type: soft
+- id: dietary-pattern-assessment-and-diet-quality-indices
+  type: soft
 tags:
 - assessment
 - dietary-analysis
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Nutritional Assessment: Dietary Analysis Methods and Interpretation
 
 ## Core Idea

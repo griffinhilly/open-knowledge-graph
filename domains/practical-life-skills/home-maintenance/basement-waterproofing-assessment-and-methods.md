@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: basement-moisture-management
   type: soft
+- id: concrete-sealing-and-waterproofing
+  type: soft
 builds-toward:
 - water-damage-mold-basics
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Basement Waterproofing Assessment and Methods
 
 ## Core Idea

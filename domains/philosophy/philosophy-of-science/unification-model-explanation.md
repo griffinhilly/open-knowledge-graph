@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: unificationist-theories-of-explanation
   type: soft
+- id: covering-law-model-explanation
+  type: soft
 builds-toward:
 - explanatory-power-and-unification
 - scientific-realism

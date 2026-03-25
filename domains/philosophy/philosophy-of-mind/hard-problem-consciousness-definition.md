@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: explanatory-gap
   type: soft
+- id: epistemic-gap-consciousness
+  type: soft
 builds-toward:
 - knowledge-argument-frank-jackson
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Hard Problem of Consciousness
 
 ## Core Idea

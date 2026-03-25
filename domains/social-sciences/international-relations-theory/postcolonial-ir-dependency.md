@@ -8,6 +8,22 @@ prerequisites:
   type: hard
 - id: postcolonial-sociology
   type: soft
+- id: migration-sovereignty-political-economy
+  type: soft
+- id: sovereignty-westphalian-state-system
+  type: soft
+- id: terrorism-nonstate-actors-political-violence
+  type: soft
+- id: soft-power-narrative-influence
+  type: soft
+- id: alliance-dilemmas-entrapment
+  type: soft
+- id: mediation-and-conflict-resolution
+  type: soft
+- id: sanctions-and-statecraft
+  type: soft
+- id: second-strike-capability-mutual-assured-destruction
+  type: soft
 builds-toward:
 - critical-ir-foucauldian-analysis
 tags:
@@ -19,7 +35,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Postcolonial IR and Global Hierarchies
 
 ## Core Idea

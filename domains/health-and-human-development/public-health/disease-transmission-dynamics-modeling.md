@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: force-of-infection
   type: soft
+- id: host-agent-environment-disease-model
+  type: soft
 builds-toward:
 - pandemic-preparedness-and-response-planning
 - communicable-disease-control-strategy-selection
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Disease Transmission Dynamics and Mathematical Modeling
 
 ## Core Idea

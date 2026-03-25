@@ -3,7 +3,9 @@ id: intentions-in-moral-evaluation
 title: Intentions and Moral Evaluation
 domain: philosophy
 course: ethics
-prerequisites: []
+prerequisites:
+- id: agent-evaluation-vs-action-evaluation
+  type: soft
 builds-toward:
 - moral-emotions-and-sentiment
 - ethical-frameworks-comparison
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Intentions and Moral Evaluation
 
 ## Core Idea

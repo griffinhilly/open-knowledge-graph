@@ -6,6 +6,8 @@ course: ethics
 prerequisites:
 - id: moral-responsibility
   type: hard
+- id: moral-desert-and-merit
+  type: soft
 builds-toward:
 - applied-ethics-intro
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Moral Luck
 
 ## Core Idea

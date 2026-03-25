@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: executive-function-subcomponents-development
   type: soft
+- id: abstract-reasoning-and-hypothetical-thinking
+  type: soft
 tags:
 - cognitive-development
 - reasoning
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Problem-Solving and Reasoning Development in Children
 
 ## Core Idea

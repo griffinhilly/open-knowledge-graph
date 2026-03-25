@@ -24,6 +24,8 @@ prerequisites:
   type: soft
 - id: utilitarianism
   type: soft
+- id: applied-ethics-frameworks
+  type: soft
 builds-toward:
 - bioethics
 - environmental-ethics

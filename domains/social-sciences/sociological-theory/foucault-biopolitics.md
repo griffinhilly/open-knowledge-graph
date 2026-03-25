@@ -6,6 +6,8 @@ course: sociological-theory
 prerequisites:
 - id: foucault-discipline-surveillance
   type: hard
+- id: foucault-genealogy-sociological-theory
+  type: soft
 tags:
 - foucault
 - biopolitics
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Biopolitics and Population Governance
 
 ## Core Idea

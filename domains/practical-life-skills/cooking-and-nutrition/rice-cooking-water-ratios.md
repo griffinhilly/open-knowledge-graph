@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: proportions
   type: soft
+- id: grain-and-starch-preparation-basics
+  type: soft
 builds-toward:
 - rice-and-grain-cooking
 - starch-and-grain-cooking
@@ -29,7 +31,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Cooking Rice—Water Ratios and Methods
 
 ## Core Idea

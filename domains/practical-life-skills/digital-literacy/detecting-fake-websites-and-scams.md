@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: evaluating-source-credibility-online
   type: hard
+- id: recognizing-online-scams-fraud
+  type: soft
 builds-toward:
 - keeping-yourself-safe-online
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Detecting Fake Websites and Online Scams
 
 ## Core Idea

@@ -6,6 +6,12 @@ course: metaphysics
 prerequisites:
 - id: categorical-dispositions-distinction
   type: hard
+- id: categorical-properties
+  type: soft
+- id: substance-bearer-properties
+  type: soft
+- id: dispositions-manifestation-partners
+  type: soft
 builds-toward:
 - causation-and-determination
 tags:
@@ -16,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Dispositional Properties
 
 ## Core Idea

@@ -9,6 +9,8 @@ prerequisites:
   type: hard
 - id: chronic-inflammation
   type: hard
+- id: nonalcoholic-fatty-liver-disease-mechanisms
+  type: soft
 builds-toward:
 - chronic-kidney-disease-progression
 - renal-osteodystrophy
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Tubulointerstitial Inflammation: Tubular Injury, Fibrosis, and Chronic Kidney Disease Progression
 
 ## Core Idea

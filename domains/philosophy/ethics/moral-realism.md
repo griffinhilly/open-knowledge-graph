@@ -10,6 +10,18 @@ prerequisites:
   type: soft
 - id: first-order-semantics
   type: soft
+- id: moral-naturalism
+  type: soft
+- id: moral-non-naturalism
+  type: soft
+- id: moral-nihilism-ethics
+  type: soft
+- id: moral-particularism
+  type: soft
+- id: moral-constructivism-essentials
+  type: soft
+- id: moral-motivation
+  type: soft
 builds-toward:
 - expressivism-in-ethics
 - error-theory
@@ -22,7 +34,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Moral Realism
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: biostatistics-in-public-health
   type: soft
+- id: subgroup-analysis-heterogeneity
+  type: soft
 tags:
 - meta-analysis
 - systematic-review
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Meta-Analysis Methods and Heterogeneity Assessment
 
 ## Core Idea

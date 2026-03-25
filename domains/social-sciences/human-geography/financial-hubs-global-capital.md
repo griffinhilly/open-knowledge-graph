@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: economic-geography-fundamentals
   type: hard
+- id: ethical-consumption-trade
+  type: soft
 builds-toward:
 - geopolitics-and-power
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Financial Hubs and Global Capital
 
 ## Core Idea

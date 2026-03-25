@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: mind-body-problem
   type: soft
+- id: modal-arguments-consciousness
+  type: soft
+- id: illusionism-consciousness-theory
+  type: soft
+- id: mental-property-supervenience
+  type: soft
 builds-toward:
 - dualism-substance-and-variants
 - physicalism-reduction-commitment
@@ -18,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Mind-Body Problem
 
 ## Core Idea

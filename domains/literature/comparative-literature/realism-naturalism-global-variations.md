@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: literary-realism
   type: soft
+- id: literary-realism-comparative
+  type: soft
 tags:
 - realism
 - naturalism
@@ -16,7 +18,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Realism and Naturalism: Global Variations
 
 ## Core Idea

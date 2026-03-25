@@ -6,6 +6,8 @@ course: child-development
 prerequisites:
 - id: language-acquisition-in-children
   type: hard
+- id: language-pragmatics-discourse-development
+  type: soft
 builds-toward:
 - school-age-cognitive-and-social-development
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Pragmatic Language and Social Communication Skills
 
 ## Core Idea

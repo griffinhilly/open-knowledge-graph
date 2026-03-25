@@ -6,6 +6,8 @@ course: anthropology
 prerequisites:
 - id: identity-and-selfhood-anthropology
   type: soft
+- id: transnational-identity-movement
+  type: soft
 builds-toward:
 - agency-structure-anthropological-theory
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Personhood and Self Concepts Across Cultures
 
 ## Core Idea

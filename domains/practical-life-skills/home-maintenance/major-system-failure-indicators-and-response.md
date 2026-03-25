@@ -6,6 +6,10 @@ course: home-maintenance
 prerequisites:
 - id: home-system-components-and-layout
   type: soft
+- id: smoke-detector-and-co-alarm-maintenance
+  type: soft
+- id: home-security-basics
+  type: soft
 builds-toward:
 - home-emergency-response-planning
 tags:
@@ -15,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Major System Failure Indicators and Response
 
 ## Core Idea

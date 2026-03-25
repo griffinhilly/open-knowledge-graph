@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: ratios
   type: soft
+- id: credit-card-mechanics-and-strategy
+  type: soft
 builds-toward:
 - lifecycle-financial-strategy-and-priorities
 tags:
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Credit Utilization and Credit Score Mechanics
 
 ## Core Idea

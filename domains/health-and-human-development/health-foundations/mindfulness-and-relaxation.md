@@ -4,16 +4,22 @@ title: Mindfulness and Relaxation
 domain: health-and-human-development
 course: health-foundations
 prerequisites:
-  - id: stress-and-coping
-    type: soft
+- id: stress-and-coping
+  type: soft
+- id: getting-help-when-needed
+  type: soft
 builds-toward:
-  - emotion-regulation-development-and-coping-skills
-  - self-regulation-emotional-and-behavioral-control
-tags: [mental-health, mindfulness, relaxation, stress-management, wellness]
+- emotion-regulation-development-and-coping-skills
+- self-regulation-emotional-and-behavioral-control
+tags:
+- mental-health
+- mindfulness
+- relaxation
+- stress-management
+- wellness
 stage: concrete-operations
 status: validated
 ---
-
 # Mindfulness and Relaxation
 
 ## Core Idea

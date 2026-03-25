@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: point-of-view-technical-effects
   type: soft
+- id: stream-of-consciousness-close-reading
+  type: soft
 builds-toward:
 - irony-analysis-types
 - tone-development-analysis
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Detecting and Analyzing Unreliable Narrators
 
 ## Core Idea

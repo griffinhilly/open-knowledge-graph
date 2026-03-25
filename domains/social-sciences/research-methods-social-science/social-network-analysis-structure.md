@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: connected-components
   type: soft
+- id: network-analysis-structural-positions
+  type: soft
 builds-toward:
 - computational-social-science-intro
 tags:
@@ -24,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Social Network Analysis
 
 ## Core Idea

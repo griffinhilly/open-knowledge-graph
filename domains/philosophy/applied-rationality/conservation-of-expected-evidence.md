@@ -1,23 +1,28 @@
 ---
 id: conservation-of-expected-evidence
-title: "Conservation of Expected Evidence"
+title: Conservation of Expected Evidence
 domain: philosophy
 course: applied-rationality
 prerequisites:
-  - id: bayesian-thinking-in-practice
-    type: hard
-  - id: conditionalization-and-bayesian-updating
-    type: soft
-  - id: expected-value
-    type: soft
+- id: bayesian-thinking-in-practice
+  type: hard
+- id: conditionalization-and-bayesian-updating
+  type: soft
+- id: expected-value
+  type: soft
+- id: causal-vs-evidential-decision-theory
+  type: soft
 builds-toward:
-  - absence-of-evidence
-  - calibration-training
-tags: ["bayesian", "evidence", "probability", "rationality"]
+- absence-of-evidence
+- calibration-training
+tags:
+- bayesian
+- evidence
+- probability
+- rationality
 stage: advanced
 status: validated
 ---
-
 ## Core Idea
 
 Before you observe evidence, your expected posterior probability must equal your prior probability — averaged over all possible observations, weighted by their likelihood. This means you cannot rationally expect to be convinced of something you do not already believe: if you expect the evidence to support hypothesis H, then you should already believe H more strongly. Conservation of expected evidence is a powerful diagnostic for motivated reasoning: if you expect to find evidence confirming your current belief no matter what happens, something has gone wrong with your reasoning. Genuine inquiry must admit the possibility that evidence will push you in either direction.

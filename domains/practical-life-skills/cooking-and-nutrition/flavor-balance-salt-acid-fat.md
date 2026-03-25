@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: unit-rates
   type: soft
+- id: flavor-layering-and-building
+  type: soft
+- id: culinary-herbs-and-spices
+  type: soft
 builds-toward:
 - taste-balancing-and-evaluating
 - sauce-making-basics
@@ -22,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Balancing Salt, Acid, Fat, and Heat in Cooking
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: counterfactual-framework
   type: hard
+- id: reproducibility-in-epidemiology
+  type: soft
 builds-toward:
 - mendelian-randomization
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Instrumental Variables in Epidemiology
 
 ## Core Idea

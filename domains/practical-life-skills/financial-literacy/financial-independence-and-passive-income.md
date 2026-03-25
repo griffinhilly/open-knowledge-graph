@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: inflation-and-purchasing-power-planning
   type: hard
+- id: financial-independence-and-early-retirement-planning
+  type: soft
 builds-toward:
 - lifecycle-financial-strategy-and-priorities
 tags:
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Financial Independence and Passive Income
 
 ## Core Idea

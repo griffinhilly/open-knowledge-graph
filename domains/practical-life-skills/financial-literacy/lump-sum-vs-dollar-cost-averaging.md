@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: compound-interest
   type: soft
+- id: behavioral-finance-and-investing-psychology
+  type: soft
+- id: consumption-patterns-and-financial-identity
+  type: soft
 tags:
 - investing
 - timing
@@ -17,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Lump Sum vs. Dollar-Cost Averaging
 
 ## Core Idea

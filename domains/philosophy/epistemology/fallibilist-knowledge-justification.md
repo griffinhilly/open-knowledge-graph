@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: reliabilism
   type: soft
+- id: basing-relation-justified-belief
+  type: soft
 tags:
 - fallibilism
 - reliability
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Fallibilism and Justified Belief
 
 ## Core Idea

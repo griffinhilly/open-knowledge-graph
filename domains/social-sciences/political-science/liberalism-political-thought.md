@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: social-contract-theory
   type: hard
+- id: socialism-and-leftist-ideology
+  type: soft
 builds-toward:
 - comparative-political-ideologies
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Liberalism in Political Thought and Practice
 
 ## Core Idea

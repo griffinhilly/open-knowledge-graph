@@ -3,7 +3,9 @@ id: door-and-window-function-troubleshooting
 title: Door and Window Function Troubleshooting
 domain: practical-life-skills
 course: home-maintenance
-prerequisites: []
+prerequisites:
+- id: window-weatherization
+  type: soft
 builds-toward:
 - interior-door-repair
 - home-emergency-response-planning
@@ -14,7 +16,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Door and Window Function Troubleshooting
 
 ## Core Idea

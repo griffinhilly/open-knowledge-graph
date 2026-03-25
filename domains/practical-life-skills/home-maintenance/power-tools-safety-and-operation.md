@@ -6,6 +6,8 @@ course: home-maintenance
 prerequisites:
 - id: hand-tools-identification-and-basic-use
   type: hard
+- id: basic-carpentry-tools-and-techniques
+  type: soft
 builds-toward:
 - wall-and-drywall-repair
 - interior-surface-preparation-and-painting
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Power Tools: Safety and Operation
 
 ## Core Idea

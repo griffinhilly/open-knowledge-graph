@@ -14,8 +14,10 @@ prerequisites:
   type: soft
 - id: implicature-and-logical-form
   type: soft
+- id: irony-meaning-and-effect
+  type: soft
 builds-toward:
-  - authorial-intent-inference
+- authorial-intent-inference
 tags:
 - irony
 - analysis

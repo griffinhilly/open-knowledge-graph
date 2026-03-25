@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: email-etiquette
   type: soft
+- id: instant-messaging-and-chat-etiquette
+  type: soft
+- id: writing-and-sending-an-email
+  type: soft
 tags:
 - email
 - etiquette

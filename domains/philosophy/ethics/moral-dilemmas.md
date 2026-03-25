@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: moral-responsibility
   type: soft
+- id: moral-constraints-vs-promotion
+  type: soft
 builds-toward:
 - double-effect-doctrine
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Moral Dilemmas
 
 ## Core Idea

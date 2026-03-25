@@ -6,6 +6,8 @@ course: public-health
 prerequisites:
 - id: health-promotion-models
   type: hard
+- id: health-communication-and-message-design
+  type: soft
 tags:
 - health-literacy
 - plain-language
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Health Literacy and Public Health Communication
 
 ## Core Idea

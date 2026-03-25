@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: natural-kinds-classification
   type: soft
+- id: emergence-reduction-consciousness
+  type: soft
+- id: emergence-and-levels
+  type: soft
 builds-toward:
 - scientific-progress-and-convergence
 tags:
@@ -17,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Reduction and Emergence
 
 ## Core Idea

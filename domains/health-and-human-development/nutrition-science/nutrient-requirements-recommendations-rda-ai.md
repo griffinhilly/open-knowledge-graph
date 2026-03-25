@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: satiety-signals-appetite-regulation
   type: soft
+- id: nutrient-requirements-and-dietary-reference-intakes
+  type: soft
 builds-toward:
 - nutritional-assessment-methods
 - nutrition-across-the-lifespan
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Nutrient Requirements and Recommendations: RDA, AI, and UL Concepts
 
 ## Core Idea

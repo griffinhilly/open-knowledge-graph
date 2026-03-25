@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: arguments-premises-and-conclusions
   type: hard
+- id: logical-operators-arguments
+  type: soft
 builds-toward:
 - argument-structure
 - argumentation-theory
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Complex Arguments with Multiple Stages
 
 ## Core Idea

@@ -6,6 +6,8 @@ course: metaphysics
 prerequisites:
 - id: what-is-metaphysics
   type: hard
+- id: ontology-and-being
+  type: soft
 builds-toward:
 - substance-and-property
 - universals-and-particulars
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ontological Categories
 
 ## Core Idea

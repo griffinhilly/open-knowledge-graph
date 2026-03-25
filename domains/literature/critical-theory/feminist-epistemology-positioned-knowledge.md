@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gender-performativity-constitution
   type: soft
+- id: disability-epistemology-crip
+  type: soft
 builds-toward:
 - intersectionality-in-criticism
 - subject-and-interpellation
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Feminist Epistemology and Positioned Knowledge
 
 ## Core Idea

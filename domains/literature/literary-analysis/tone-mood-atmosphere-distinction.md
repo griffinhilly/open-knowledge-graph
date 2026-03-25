@@ -8,8 +8,10 @@ prerequisites:
   type: hard
 - id: tone-development-analysis
   type: hard
+- id: setting-mood-atmosphere
+  type: soft
 builds-toward:
-  - tone-register-and-effect
+- tone-register-and-effect
 tags:
 - tone
 - mood

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: effective-web-searching
   type: soft
+- id: picking-the-right-search-result
+  type: soft
+- id: digital-accessibility-tools
+  type: soft
 tags:
 - artificial-intelligence
 - ai-assistants
@@ -16,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # AI Tools and Literacy
 
 ## Core Idea

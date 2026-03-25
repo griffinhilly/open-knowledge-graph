@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: imagery-in-poetry
   type: soft
+- id: prose-poetry-hybrid-form
+  type: soft
 tags:
 - visual
 - spatial
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Concrete Poetry and Visual Form
 
 ## Core Idea

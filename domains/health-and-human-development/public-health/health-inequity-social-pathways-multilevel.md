@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: epidemiology-foundations
   type: hard
+- id: health-disparities-equity-frameworks
+  type: soft
 builds-toward:
 - health-policy-and-advocacy
 - chronic-disease-epidemiology
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Health Inequity, Social Determinants, and Multilevel Pathways
 
 ## Core Idea

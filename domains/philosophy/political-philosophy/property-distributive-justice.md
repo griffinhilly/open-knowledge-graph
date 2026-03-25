@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: distributive-justice
   type: soft
+- id: minority-rights-and-tolerance
+  type: soft
+- id: political-equality-and-standing
+  type: soft
+- id: egalitarian-principles
+  type: soft
 builds-toward:
 - economic-systems-justice
 - welfare-redistribution
@@ -21,7 +27,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Property Rights and Principles of Distributive Justice
 
 ## Core Idea

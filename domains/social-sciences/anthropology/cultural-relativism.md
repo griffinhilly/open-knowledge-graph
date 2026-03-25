@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: ethnography-methods
   type: soft
+- id: linguistic-relativity-worldview
+  type: soft
 builds-toward:
 - cross-cultural-comparison
 - medical-anthropology

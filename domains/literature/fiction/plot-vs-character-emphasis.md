@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: characterization-methods
   type: hard
+- id: novel-form-scope-complexity
+  type: soft
+- id: novella-form-three-act
+  type: soft
 builds-toward:
 - adventure-fiction-episodic
 - psychological-novel-consciousness
@@ -20,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Plot-Driven Versus Character-Driven Narrative
 
 ## Core Idea

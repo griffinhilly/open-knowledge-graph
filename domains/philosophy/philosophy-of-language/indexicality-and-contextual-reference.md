@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: semantic-underdetermination-context
   type: soft
+- id: ostensive-definition
+  type: soft
 tags:
 - indexicals
 - demonstratives
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Indexicality and Demonstratives
 
 ## Core Idea

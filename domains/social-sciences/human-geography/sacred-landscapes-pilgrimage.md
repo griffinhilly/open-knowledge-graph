@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: religion-and-society
   type: soft
+- id: cultural-geography-identity
+  type: soft
+- id: culinary-geography-foodways
+  type: soft
+- id: health-geography-place
+  type: soft
 builds-toward:
 - cultural-geography-identity
 tags:
@@ -18,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Sacred Landscapes and Pilgrimage Geography
 
 ## Core Idea

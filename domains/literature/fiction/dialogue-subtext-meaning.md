@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: implicature-and-logical-form
   type: soft
+- id: subplot-and-subtext
+  type: soft
 tags:
 - dialogue
 - subtext
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Dialogue: Speech and Subtext
 
 ## Core Idea

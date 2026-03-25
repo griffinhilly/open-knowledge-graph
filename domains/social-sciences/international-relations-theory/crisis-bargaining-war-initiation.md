@@ -12,8 +12,10 @@ prerequisites:
   type: soft
 - id: optimization-multivariable-basics
   type: soft
+- id: signaling-and-resolve
+  type: soft
 builds-toward:
-  - power-transition-hegemonic-dominance
+- power-transition-hegemonic-dominance
 tags:
 - bargaining
 - crisis

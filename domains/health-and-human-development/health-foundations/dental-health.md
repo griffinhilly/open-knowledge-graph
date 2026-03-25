@@ -4,17 +4,23 @@ title: Dental Health
 domain: health-and-human-development
 course: health-foundations
 prerequisites:
-  - id: germs-bacteria-and-viruses
-    type: soft
-  - id: washing-hands-and-hygiene
-    type: soft
+- id: germs-bacteria-and-viruses
+  type: soft
+- id: washing-hands-and-hygiene
+  type: soft
+- id: allergies
+  type: soft
 builds-toward:
-  - disease-prevention-levels
-tags: [dental, hygiene, prevention, teeth, health]
+- disease-prevention-levels
+tags:
+- dental
+- hygiene
+- prevention
+- teeth
+- health
 stage: concrete-operations
 status: validated
 ---
-
 # Dental Health
 
 ## Core Idea

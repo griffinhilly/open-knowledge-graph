@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: argument-structure
   type: hard
+- id: moral-constraints-vs-promotion
+  type: soft
+- id: stoic-ethics
+  type: soft
 builds-toward:
 - kantian-deontology
 - trolley-problem
@@ -22,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Deontological Ethics
 
 ## Core Idea

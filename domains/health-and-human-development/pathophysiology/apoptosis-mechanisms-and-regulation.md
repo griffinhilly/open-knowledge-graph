@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: apoptosis-cell-death
   type: soft
+- id: apoptosis-necrosis-distinction-mechanisms
+  type: soft
 builds-toward:
 - oncogenes-and-tumor-suppressors
 - autoimmune-disease-pathophysiology-adv
@@ -21,7 +23,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Apoptosis Mechanisms and Regulation
 
 ## Core Idea

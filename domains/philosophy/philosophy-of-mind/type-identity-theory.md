@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: physicalism-about-mind
   type: hard
+- id: token-identity-theory
+  type: soft
 builds-toward:
 - token-identity-theory
 - multiple-realizability
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Type Identity Theory
 
 ## Core Idea

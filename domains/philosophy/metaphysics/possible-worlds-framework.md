@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: modal-logic-intro
   type: soft
+- id: counterfactual-truth-modality
+  type: soft
 builds-toward:
 - abstract-objects-existence
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Possible Worlds Framework
 
 ## Core Idea

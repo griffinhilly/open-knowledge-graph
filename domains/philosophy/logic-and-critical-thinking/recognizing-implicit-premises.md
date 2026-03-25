@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: argument-structure
   type: soft
+- id: charitable-interpretation-practice
+  type: soft
 builds-toward:
 - fallacy-detection-in-reasoning
 - argument-evaluation-holistic
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Recognizing Implicit Premises
 
 ## Core Idea

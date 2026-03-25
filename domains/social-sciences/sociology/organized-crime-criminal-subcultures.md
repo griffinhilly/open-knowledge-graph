@@ -6,6 +6,8 @@ course: sociology
 prerequisites:
 - id: deviance-and-social-control
   type: hard
+- id: subcultures-countercultures
+  type: soft
 builds-toward:
 - labeling-theory-secondary-deviance
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Organized Crime and Criminal Subcultures
 
 ## Core Idea

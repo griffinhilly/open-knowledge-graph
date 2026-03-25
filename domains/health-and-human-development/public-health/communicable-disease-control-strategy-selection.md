@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: disease-transmission-dynamics-modeling
   type: soft
+- id: contact-tracing-strategy-evaluation
+  type: soft
 builds-toward:
 - pandemic-preparedness-and-response-planning
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Communicable Disease Control Strategy Selection by Transmission Route
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cultural-relativism
   type: soft
+- id: gender-socialization-performance
+  type: soft
 builds-toward:
 - intersectionality
 - feminist-sociology
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Race, Ethnicity, and Social Inequality
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: first-order-semantics
   type: soft
+- id: biosemantics-evolutionary-content
+  type: soft
 builds-toward:
 - representationalism
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Intentionality and Mental Content
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: reader-response-theory
   type: soft
+- id: phenomenological-hermeneutics
+  type: soft
 builds-toward:
 - affect-theory-literary
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Phenomenological Reading and Embodied Experience
 
 ## Core Idea

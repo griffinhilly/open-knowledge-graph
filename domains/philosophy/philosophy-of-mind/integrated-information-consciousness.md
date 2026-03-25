@@ -10,8 +10,12 @@ prerequisites:
   type: hard
 - id: binding-problem-consciousness
   type: soft
+- id: access-consciousness-definition
+  type: soft
+- id: heterophenomenology-methodology
+  type: soft
 builds-toward:
-  - global-workspace-theory
+- global-workspace-theory
 tags:
 - consciousness
 - information-theory

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: post-structuralism
   type: soft
+- id: derrida-difference-trace
+  type: soft
 tags:
 - deconstruction
 - derrida
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Différance and Undecidability
 
 ## Core Idea

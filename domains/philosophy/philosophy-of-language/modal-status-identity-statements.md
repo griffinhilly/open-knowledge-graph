@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: possible-worlds-semantics
   type: soft
+- id: performativity-and-language
+  type: soft
 builds-toward:
 - two-dimensional-semantics
 tags:
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Modal Status of Identity Statements
 
 ## Core Idea

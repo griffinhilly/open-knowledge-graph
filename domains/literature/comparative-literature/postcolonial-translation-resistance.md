@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: language-variation-and-change
   type: soft
+- id: postcolonial-rewriting-canon
+  type: soft
 builds-toward:
 - literary-identity-nation-construction
 tags:
@@ -26,7 +28,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Translation as Postcolonial Resistance and Rewriting
 
 ## Core Idea

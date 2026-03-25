@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: informal-fallacies-intro
   type: hard
+- id: appeal-to-emotion-fallacy
+  type: soft
 tags:
 - ad-hominem
 - genetic-fallacy
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Ad Hominem and the Genetic Fallacy
 
 ## Core Idea

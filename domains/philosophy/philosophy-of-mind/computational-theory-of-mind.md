@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: lambda-calculus
   type: soft
+- id: social-cognition-theory-of-mind
+  type: soft
 builds-toward:
 - substrate-independence
 - artificial-minds-silicon-based
@@ -26,7 +28,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Computational Theory of Mind
 
 ## Core Idea

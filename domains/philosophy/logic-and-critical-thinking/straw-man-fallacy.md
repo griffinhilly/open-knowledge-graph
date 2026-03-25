@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: principle-of-charity
   type: soft
+- id: fallacy-detection-in-reasoning
+  type: soft
+- id: slippery-slope-fallacy
+  type: soft
 tags:
 - straw-man
 - misrepresentation
@@ -15,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Straw Man Fallacy
 
 ## Core Idea

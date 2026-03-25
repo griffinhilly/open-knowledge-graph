@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: sound-devices-in-poetry
   type: soft
+- id: epistrophe-terminal-repetition
+  type: soft
 tags:
 - repetition
 - refrain
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Refrain and Repetition Structures
 
 ## Core Idea

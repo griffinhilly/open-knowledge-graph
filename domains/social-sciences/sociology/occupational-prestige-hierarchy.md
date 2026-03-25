@@ -6,6 +6,8 @@ course: sociology
 prerequisites:
 - id: status-honor-prestige-systems
   type: hard
+- id: caste-class-estate-stratification
+  type: soft
 builds-toward:
 - occupational-closure-monopoly
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Occupational Prestige and Status Systems
 
 ## Core Idea

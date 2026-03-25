@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: formal-organizations-structure
   type: soft
+- id: organized-crime-criminal-subcultures
+  type: soft
 builds-toward:
 - labeling-theory-secondary-deviance
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # White-Collar Crime and Organizational Deviance
 
 ## Core Idea

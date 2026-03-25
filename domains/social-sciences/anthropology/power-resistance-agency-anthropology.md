@@ -6,6 +6,8 @@ course: anthropology
 prerequisites:
 - id: emic-etic-perspective
   type: hard
+- id: agency-structure-anthropological-theory
+  type: soft
 builds-toward:
 - foucault-power-knowledge
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Power, Resistance, and Human Agency
 
 ## Core Idea

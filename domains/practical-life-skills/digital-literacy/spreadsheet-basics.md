@@ -22,6 +22,8 @@ prerequisites:
   type: soft
 - id: variables-and-expressions-review
   type: soft
+- id: screenshot-and-screen-capture-basics
+  type: soft
 tags:
 - spreadsheets
 - excel
@@ -31,7 +33,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Spreadsheet Basics
 
 ## Core Idea

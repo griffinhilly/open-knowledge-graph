@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: theme-identification
   type: hard
+- id: theme-analysis-craft
+  type: soft
+- id: motif-analysis-recognition
+  type: soft
+- id: interpretation-multiple-readings
+  type: soft
+- id: symbolism-symbolic-meaning
+  type: soft
 builds-toward:
 - symbol-interpretation-and-meaning
 tags:
@@ -18,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Theme: Identification, Analysis, and Development
 
 ## Core Idea

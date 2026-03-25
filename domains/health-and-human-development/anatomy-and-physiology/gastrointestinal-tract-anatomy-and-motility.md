@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: gut-motility-and-secretion
   type: soft
+- id: gastrointestinal-motility-sphincter-coordination
+  type: soft
 builds-toward:
 - digestive-glands-secretions-and-absorption
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Gastrointestinal Tract Anatomy and Motility
 
 ## Core Idea

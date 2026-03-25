@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: password-security
   type: soft
+- id: document-collaboration-tools
+  type: soft
 builds-toward:
 - document-collaboration-tools
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Shared Document Editing and Collaboration
 
 ## Core Idea

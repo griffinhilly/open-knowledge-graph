@@ -8,8 +8,10 @@ prerequisites:
   type: hard
 - id: dramatic-structure
   type: soft
+- id: dramatic-action-and-activity
+  type: soft
 builds-toward:
-  - tragic-and-comic-vision
+- tragic-and-comic-vision
 tags:
 - theme
 - meaning

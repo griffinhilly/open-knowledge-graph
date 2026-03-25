@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: internet-safety-basics
   type: soft
+- id: diagnosing-and-resolving-internet-problems
+  type: soft
+- id: computer-startup-and-shutdown
+  type: soft
+- id: copy-paste-and-drag-drop-operations
+  type: soft
+- id: managing-digital-subscriptions
+  type: soft
 tags:
 - vpn
 - privacy
@@ -16,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # VPN Basics and Use Cases
 
 ## Core Idea

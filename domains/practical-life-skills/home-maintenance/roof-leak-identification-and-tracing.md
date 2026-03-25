@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: roof-system-types-and-inspection-basics
   type: soft
+- id: identifying-hidden-water-damage
+  type: soft
+- id: roofing-systems-overview
+  type: soft
 builds-toward:
 - gutter-repair-and-replacement
 - seasonal-home-maintenance
@@ -20,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Roof Leak Identification and Tracing
 
 ## Core Idea

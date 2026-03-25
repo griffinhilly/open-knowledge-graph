@@ -12,8 +12,12 @@ prerequisites:
   type: soft
 - id: first-order-logic-syntax
   type: soft
+- id: presupposition-and-assertion
+  type: soft
+- id: linguistic-relativity-sapir-whorf
+  type: soft
 builds-toward:
-  - intensionality-and-opacity
+- intensionality-and-opacity
 tags:
 - semantics
 - truth-conditions

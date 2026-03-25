@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: language-acquisition-in-children
   type: soft
+- id: self-concept-and-identity-development-children
+  type: soft
 builds-toward:
 - school-age-cognitive-and-social-development
 - adolescent-brain-and-behavioral-development
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Self-Concept and Self-Esteem Development
 
 ## Core Idea

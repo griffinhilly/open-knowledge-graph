@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: vegetable-preparation
   type: soft
+- id: oven-baking-basics-and-safety
+  type: soft
 builds-toward:
 - seasoning-and-flavor-basics
 tags:

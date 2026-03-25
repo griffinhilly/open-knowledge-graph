@@ -22,6 +22,12 @@ prerequisites:
   type: soft
 - id: linear-algebra-basics
   type: soft
+- id: big-data-social-science
+  type: soft
+- id: text-analysis-social-science
+  type: soft
+- id: research-integrity-open-science-social
+  type: soft
 builds-toward:
 - interpretable-machine-learning
 - fairness-bias-ml
@@ -33,7 +39,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Machine Learning Applications in Social Science
 
 ## Core Idea

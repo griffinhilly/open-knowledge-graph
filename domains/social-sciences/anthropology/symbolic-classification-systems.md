@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: myth-and-symbolism
   type: soft
+- id: kinship-terminology-classification
+  type: soft
 builds-toward:
 - language-and-culture
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Symbolic Classification and Categorical Systems
 
 ## Core Idea

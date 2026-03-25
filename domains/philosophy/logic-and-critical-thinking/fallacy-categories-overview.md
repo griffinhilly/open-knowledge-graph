@@ -6,6 +6,12 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: arguments-premises-and-conclusions
   type: hard
+- id: circular-reasoning-detection
+  type: soft
+- id: rhetorical-vs-logical-fallacies
+  type: soft
+- id: composition-division-fallacies
+  type: soft
 builds-toward:
 - formal-logical-fallacies
 - informal-fallacies-intro
@@ -16,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Categories of Logical Fallacies
 
 ## Core Idea

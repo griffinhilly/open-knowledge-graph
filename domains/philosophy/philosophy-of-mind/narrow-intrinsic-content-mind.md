@@ -12,6 +12,12 @@ prerequisites:
   type: soft
 - id: intentionality-semantic-content-mind
   type: soft
+- id: thought-content-aboutness
+  type: soft
+- id: biosemantics-evolutionary-content
+  type: soft
+- id: consciousness-and-representation
+  type: soft
 builds-toward:
 - representationalism
 - computational-theory-of-mind

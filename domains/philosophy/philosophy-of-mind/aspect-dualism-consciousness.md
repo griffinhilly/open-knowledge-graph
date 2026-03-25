@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: property-dualism
   type: soft
+- id: mental-property-supervenience
+  type: soft
 builds-toward:
 - physicalism-about-mind
 - phenomenal-vs-access-consciousness
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Aspect Dualism Without Substance Dualism
 
 ## Core Idea

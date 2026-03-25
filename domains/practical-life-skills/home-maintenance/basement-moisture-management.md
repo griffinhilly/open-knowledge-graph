@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: plumbing-basics
   type: soft
+- id: moisture-and-mold-prevention-strategy
+  type: soft
+- id: concrete-sealing-and-waterproofing
+  type: soft
 builds-toward:
 - landscape-drainage-grading
 tags:
@@ -18,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Basement Moisture Management
 
 ## Core Idea

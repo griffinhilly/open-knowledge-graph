@@ -6,6 +6,8 @@ course: poetry
 prerequisites:
 - id: metrical-foot-basic-unit
   type: hard
+- id: dactylic-anapestic-feet
+  type: soft
 builds-toward:
 - metrical-variation-substitution
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Iambic and Trochaic Feet: Common Patterns
 
 ## Core Idea

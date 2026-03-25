@@ -6,6 +6,8 @@ course: digital-literacy
 prerequisites:
 - id: password-security
   type: hard
+- id: managing-login-credentials-securely
+  type: soft
 builds-toward:
 - digital-identity-management
 - account-creation-security
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Account Login and Password Recovery
 
 ## Core Idea

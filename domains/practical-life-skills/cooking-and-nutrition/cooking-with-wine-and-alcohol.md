@@ -8,6 +8,12 @@ prerequisites:
   type: soft
 - id: pan-sauces-and-deglazing
   type: soft
+- id: cooking-for-dietary-restrictions
+  type: soft
+- id: creative-leftover-cooking
+  type: soft
+- id: modern-cooking-appliances
+  type: soft
 builds-toward:
 - sauce-making-basics
 - flavor-pairing-and-umami
@@ -20,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Cooking with Wine and Alcohol
 
 ## Core Idea

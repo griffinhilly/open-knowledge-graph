@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: consent-and-legitimacy
   type: hard
+- id: consent-and-political-obligation
+  type: soft
 builds-toward:
 - civil-disobedience-justification
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Sources of Political Obligation
 
 ## Core Idea

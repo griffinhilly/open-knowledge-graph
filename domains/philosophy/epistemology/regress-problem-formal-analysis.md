@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: logical-structure-and-form
   type: soft
+- id: foundationalist-regress-problem
+  type: soft
+- id: regress-argument-structure
+  type: soft
 builds-toward:
 - justification-structures-and-hierarchies
 tags:
@@ -21,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Regress Problem: Formal Analysis
 
 ## Core Idea

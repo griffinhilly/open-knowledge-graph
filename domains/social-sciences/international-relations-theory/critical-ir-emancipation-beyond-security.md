@@ -6,6 +6,8 @@ course: international-relations-theory
 prerequisites:
 - id: critical-ir-foucauldian-analysis
   type: hard
+- id: defensive-realism-security-seeking-intentions
+  type: soft
 builds-toward:
 - feminist-ir-gender-power
 - postcolonial-ir-dependency
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Critical IR Theory and Emancipation
 
 ## Core Idea

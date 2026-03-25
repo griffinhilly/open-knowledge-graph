@@ -6,6 +6,10 @@ course: digital-literacy
 prerequisites:
 - id: keyboard-typing-and-shortcuts
   type: soft
+- id: writing-and-sending-an-email
+  type: soft
+- id: instant-messaging-and-chat-etiquette
+  type: soft
 builds-toward:
 - email-security-and-professional-tone
 tags:
@@ -16,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Email Composition, Sending & Organization
 
 ## Core Idea

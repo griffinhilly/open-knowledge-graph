@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: desire-lack-unconscious
   type: hard
+- id: lacanian-unconscious-language
+  type: soft
 builds-toward:
 - lacanian-unconscious-language
 - jouissance-excess-psychoanalytic
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Psychoanalytic Symptom Analysis and Defense Mechanisms
 
 ## Core Idea

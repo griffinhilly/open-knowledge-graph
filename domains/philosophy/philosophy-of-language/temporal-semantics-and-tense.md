@@ -10,8 +10,12 @@ prerequisites:
   type: soft
 - id: temporal-logic
   type: soft
+- id: linguistic-relativity-sapir-whorf
+  type: soft
+- id: formal-vs-natural-language-semantics
+  type: soft
 builds-toward:
-  - anaphora-and-discourse-dynamics
+- anaphora-and-discourse-dynamics
 tags:
 - temporality
 - tense

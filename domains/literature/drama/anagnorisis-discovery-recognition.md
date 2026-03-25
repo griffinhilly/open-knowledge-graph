@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dramatic-structure
   type: soft
+- id: peripeteia-reversal-of-fortune
+  type: soft
 builds-toward:
 - tragic-form-across-cultures
 - dramatic-irony-in-drama
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Anagnorisis: Discovery and Recognition
 
 ## Core Idea

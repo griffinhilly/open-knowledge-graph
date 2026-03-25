@@ -8,6 +8,12 @@ prerequisites:
   type: soft
 - id: measurement-length-standard-units-3rd
   type: soft
+- id: wall-and-drywall-repair
+  type: soft
+- id: interior-wall-and-ceiling-maintenance
+  type: soft
+- id: paint-brush-and-roller-techniques
+  type: soft
 tags:
 - drywall
 - interior
@@ -15,7 +21,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Drywall Patch and Finish Techniques
 
 ## Core Idea

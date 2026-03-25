@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: context-dependence-utterance
   type: soft
+- id: ostensive-definition
+  type: soft
+- id: scalar-implicature-pragmatics
+  type: soft
 builds-toward:
 - indexicality-and-contextual-reference
 tags:

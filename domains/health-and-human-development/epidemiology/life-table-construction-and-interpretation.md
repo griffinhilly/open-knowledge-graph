@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: kaplan-meier-estimator
   type: soft
+- id: life-table-methods
+  type: soft
 builds-toward:
 - disability-adjusted-life-years
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Life Table Construction and Interpretation
 
 ## Core Idea

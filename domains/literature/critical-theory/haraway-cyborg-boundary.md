@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: gender-and-sexuality-in-literature
   type: soft
+- id: gaze-subjectivity-visuality
+  type: soft
 builds-toward:
 - object-oriented-ontology-literature
 tags:
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Haraway's Cyborg: Dissolving Nature-Culture Boundaries
 
 ## Core Idea

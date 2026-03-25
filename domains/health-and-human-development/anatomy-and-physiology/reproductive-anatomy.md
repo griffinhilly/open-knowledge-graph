@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: meiosis
   type: soft
+- id: endocrine-and-reproductive-system-anatomy
+  type: soft
 tags:
 - reproductive-organs
 - menstrual-cycle
@@ -22,7 +24,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Reproductive System Anatomy and the Hormonal Cycle
 
 ## Core Idea

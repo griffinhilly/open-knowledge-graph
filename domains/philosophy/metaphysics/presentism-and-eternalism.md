@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: temporal-logic
   type: soft
+- id: eternalism-formalized
+  type: soft
+- id: presentism-formalized
+  type: soft
 tags:
 - presentism
 - eternalism
@@ -19,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Presentism and Eternalism
 
 ## Core Idea

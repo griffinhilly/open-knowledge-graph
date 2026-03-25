@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: motor-learning-cerebellar
   type: soft
+- id: fine-motor-skill-development-grasp-and-precision
+  type: soft
 builds-toward:
 - language-pragmatics-discourse-development
 tags:
@@ -23,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Fine Motor Development and Coordination
 
 ## Core Idea

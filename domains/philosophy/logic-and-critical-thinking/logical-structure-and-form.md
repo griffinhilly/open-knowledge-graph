@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: deductive-validity-introduction
   type: hard
+- id: truth-and-validity-distinction
+  type: soft
 builds-toward:
 - logical-form
 - categorical-logic-and-syllogisms
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Logical Form and Validity
 
 ## Core Idea

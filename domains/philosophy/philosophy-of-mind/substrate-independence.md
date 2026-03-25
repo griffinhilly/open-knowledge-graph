@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: computability-models-equivalence
   type: soft
+- id: artificial-minds-silicon-based
+  type: soft
 builds-toward:
 - artificial-minds-silicon-based
 - emergence-reduction-consciousness
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Substrate Independence
 
 ## Core Idea

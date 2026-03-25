@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: thermostat-and-hvac-control
   type: hard
+- id: hvac-thermostat-programming-and-scheduling
+  type: soft
 builds-toward:
 - hvac-filter-maintenance
 - seasonal-home-maintenance
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # HVAC System Components and Operation
 
 ## Core Idea

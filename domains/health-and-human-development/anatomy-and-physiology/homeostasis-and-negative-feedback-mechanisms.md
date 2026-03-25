@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: homeostasis-feedback-regulation-physiology
   type: hard
+- id: hormonal-axes-feedback-regulation
+  type: soft
 builds-toward:
 - anatomical-terminology-and-body-compartments
 - kidney-anatomy-and-urine-formation
@@ -20,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Homeostasis and Negative Feedback Mechanisms
 
 ## Core Idea

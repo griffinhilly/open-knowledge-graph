@@ -6,6 +6,8 @@ course: political-philosophy
 prerequisites:
 - id: social-contract-theory
   type: hard
+- id: anarchism-and-political-necessity
+  type: soft
 builds-toward:
 - political-obligation-sources
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Consent as a Source of Political Legitimacy
 
 ## Core Idea

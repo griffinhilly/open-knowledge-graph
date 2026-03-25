@@ -6,6 +6,8 @@ course: drama
 prerequisites:
 - id: soliloquy-and-aside
   type: hard
+- id: monologue-and-soliloquy-craft
+  type: soft
 builds-toward:
 - dramatic-monologue-in-poetry
 - character-arc-analysis
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Monologue: Extended Solo Speech
 
 ## Core Idea

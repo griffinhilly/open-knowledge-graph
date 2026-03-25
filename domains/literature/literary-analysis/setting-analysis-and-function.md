@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: setting-functional-analysis
   type: soft
+- id: setting-mood-atmosphere
+  type: soft
 builds-toward:
 - symbol-interpretation-and-meaning
 tags:

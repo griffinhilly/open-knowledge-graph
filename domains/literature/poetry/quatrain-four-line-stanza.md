@@ -6,6 +6,10 @@ course: poetry
 prerequisites:
 - id: poetic-line-and-lineation
   type: hard
+- id: stanza-structural-unit
+  type: soft
+- id: poetic-argument-and-structure
+  type: soft
 tags:
 - form
 - stanza
@@ -13,7 +17,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Quatrain: Four-Line Stanza
 
 ## Core Idea

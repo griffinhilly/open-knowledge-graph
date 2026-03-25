@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: balance-of-power
   type: hard
+- id: great-power-concert
+  type: soft
 builds-toward:
 - hegemonic-stability-theory
 - deterrence-nuclear-strategy
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Offensive Realism and Great Power Competition
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: regulatory-t-cells-immune-tolerance
   type: soft
+- id: pericarditis-pericardial-effusion-pathophysiology
+  type: soft
 builds-toward:
 - autoimmune-disease-pathophysiology-adv
 - liver-cirrhosis-pathophysiology
@@ -19,7 +21,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Chronic Inflammation
 
 ## Core Idea

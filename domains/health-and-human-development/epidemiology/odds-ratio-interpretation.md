@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: epidemiologic-study-designs
   type: hard
+- id: matching-in-case-control-studies
+  type: soft
 builds-toward:
 - attributable-risk-calculation
 - multivariable-regression-epi
@@ -18,7 +20,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Odds Ratio and Case-Control Study Analysis
 
 ## Core Idea

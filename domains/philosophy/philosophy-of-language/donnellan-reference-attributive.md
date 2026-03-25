@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: kripke-causal-theory-naming
   type: soft
+- id: language-games-wittgenstein
+  type: soft
 builds-toward:
 - context-dependence-utterance
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Donnellan's Referential-Attributive Distinction
 
 ## Core Idea

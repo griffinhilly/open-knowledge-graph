@@ -20,6 +20,12 @@ prerequisites:
   type: hard
 - id: electrolyte-balance-renal-hormonal-control
   type: soft
+- id: acid-base-balance-respiratory-renal-compensation
+  type: soft
+- id: fluid-electrolyte-regulation-and-osmolarity
+  type: soft
+- id: body-water-electrolyte-osmotic-balance
+  type: soft
 tags:
 - fluid-compartments
 - osmolarity

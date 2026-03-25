@@ -6,6 +6,8 @@ course: home-maintenance
 prerequisites:
 - id: hand-tools-identification-and-basic-use
   type: hard
+- id: paint-brush-and-roller-techniques
+  type: soft
 builds-toward:
 - wall-and-drywall-repair
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Interior Surface Preparation and Painting
 
 ## Core Idea

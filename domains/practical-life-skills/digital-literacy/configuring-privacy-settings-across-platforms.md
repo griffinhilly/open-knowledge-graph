@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: managing-digital-identity-footprint
   type: soft
+- id: private-browsing-and-incognito-mode
+  type: soft
+- id: form-filling-and-data-entry-safety
+  type: soft
+- id: app-permissions-and-privacy
+  type: soft
 builds-toward:
 - digital-identity-management
 tags:
@@ -17,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Configuring Privacy Settings Across Platforms
 
 ## Core Idea

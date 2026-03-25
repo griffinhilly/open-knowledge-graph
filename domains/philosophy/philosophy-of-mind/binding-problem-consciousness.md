@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: neural-correlates-of-consciousness
   type: soft
+- id: hard-problem-consciousness-definition
+  type: soft
+- id: unity-of-consciousness
+  type: soft
+- id: heterophenomenology-methodology
+  type: soft
 builds-toward:
 - unity-of-consciousness
 - global-workspace-theory
@@ -20,7 +26,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # The Binding Problem in Consciousness
 
 ## Core Idea

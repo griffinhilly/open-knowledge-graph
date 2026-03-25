@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: higher-order-theories
   type: soft
+- id: access-consciousness-definition
+  type: soft
+- id: privileged-access-problem
+  type: soft
+- id: reflexivity-self-awareness-consciousness
+  type: soft
+- id: epistemic-gap-consciousness
+  type: soft
 builds-toward:
 - heterophenomenology-methodology
 - illusionism-consciousness-theory
@@ -20,7 +28,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Transparency and Privileged Access to Consciousness
 
 ## Core Idea

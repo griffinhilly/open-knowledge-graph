@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: symbolism-in-literature
   type: soft
+- id: intersectionality-in-criticism
+  type: soft
 builds-toward:
 - archetypal-criticism
 tags:
@@ -22,7 +24,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Psychoanalytic Literary Criticism
 
 ## Core Idea

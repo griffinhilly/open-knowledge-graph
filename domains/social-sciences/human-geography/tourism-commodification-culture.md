@@ -10,6 +10,16 @@ prerequisites:
   type: hard
 - id: sense-of-place-belonging
   type: soft
+- id: culinary-geography-foodways
+  type: soft
+- id: cultural-regions-identity
+  type: soft
+- id: ethical-consumption-trade
+  type: soft
+- id: financial-hubs-global-capital
+  type: soft
+- id: sacred-landscapes-pilgrimage
+  type: soft
 builds-toward:
 - cultural-geography-identity
 - globalization-and-society
@@ -21,7 +31,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Tourism and Cultural Commodification
 
 ## Core Idea
