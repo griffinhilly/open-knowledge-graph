@@ -75,27 +75,29 @@ DOMAIN_ORDER = [
     "music",
 ]
 
-# Domain hue assignments (HSL degrees) — hand-tuned for visual distinction
+# Domain hue assignments (HSL degrees) — stride-8 permutation of 19
+# evenly-spaced hues. Adjacent domains are ~152° apart. No warm/cool
+# cluster even when topics drift across sector boundaries.
 DOMAIN_HUES = {
-    "mathematics":                42,
-    "formal-sciences-and-logic": 185,
-    "philosophy":                260,
-    "computer-science":          200,
-    "engineering":                28,
-    "physics":                   215,
-    "chemistry":                   0,
-    "earth-and-space-sciences":  170,
-    "biology":                   120,
-    "health-and-human-development": 148,
-    "psychology":                280,
-    "social-sciences":            60,
-    "economics":                  48,
-    "practical-life-skills":      80,
-    "history":                    18,
-    "language-and-communication": 155,
-    "literature":                310,
-    "arts-and-aesthetics":       335,
-    "music":                     290,
+    "mathematics":                   5,  # red
+    "formal-sciences-and-logic":   157,  # green-teal
+    "philosophy":                  309,  # magenta
+    "computer-science":            100,  # lime-green
+    "engineering":                 252,  # blue-violet
+    "physics":                      43,  # amber
+    "earth-and-space-sciences":    195,  # cyan
+    "chemistry":                   347,  # red-pink
+    "biology":                     138,  # green
+    "health-and-human-development":290,  # purple
+    "psychology":                   81,  # yellow-green
+    "social-sciences":             233,  # blue
+    "economics":                    24,  # orange
+    "practical-life-skills":       176,  # teal-cyan
+    "history":                     328,  # pink-magenta
+    "language-and-communication":  119,  # green-lime
+    "literature":                  271,  # violet
+    "arts-and-aesthetics":          62,  # yellow
+    "music":                       214,  # sky-blue
 }
 
 
