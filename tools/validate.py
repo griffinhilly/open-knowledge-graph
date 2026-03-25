@@ -12,6 +12,7 @@ Checks:
 8. Questions section schema (warning only)
 """
 
+import argparse
 import sys
 import os
 import re
@@ -268,7 +269,15 @@ def load_domain_courses(domain_dir):
 
 
 def main():
-    print("Validating Open Knowledge Graph...\n")
+    parser = argparse.ArgumentParser(description="Validate the Open Knowledge Graph")
+    parser.add_argument("--quick", action="store_true",
+                        help="Errors-only mode: schema + cycles + duplicate IDs. "
+                             "Skips builds-toward, question validation, and warnings. (~12s)")
+    args = parser.parse_args()
+    quick = args.quick
+
+    mode = "quick" if quick else "full"
+    print(f"Validating Open Knowledge Graph ({mode})...\n")
 
     # Collect all topic files
     all_topics = {}  # id -> filepath
@@ -301,10 +310,11 @@ def main():
         courses = domain_courses.get(domain, set())
         validate_topic(filepath, data, courses)
 
-        # Validate Questions section if present
-        text = filepath.read_text(encoding="utf-8")
-        if validate_questions(filepath, text):
-            topics_with_questions += 1
+        # Validate Questions section if present (skip in quick mode)
+        if not quick:
+            text = filepath.read_text(encoding="utf-8")
+            if validate_questions(filepath, text):
+                topics_with_questions += 1
 
         if topic_id:
             if topic_id in all_topics:
@@ -322,28 +332,29 @@ def main():
             if not isinstance(prereq, dict):
                 continue
             prereq_id = prereq.get("id")
-            if prereq_id and prereq_id not in all_topics:
+            if not quick and prereq_id and prereq_id not in all_topics:
                 warn(all_topics[topic_id], f"Prerequisite '{prereq_id}' not found (may not exist yet)")
             if prereq_id:
                 prereq_graph[topic_id].append(prereq_id)
 
-    # Check builds-toward consistency
-    for topic_id, data in all_data.items():
-        builds = data.get("builds-toward", [])
-        if not isinstance(builds, list):
-            continue
-        for target_id in builds:
-            if not isinstance(target_id, str):
+    # Check builds-toward consistency (skip in quick mode)
+    if not quick:
+        for topic_id, data in all_data.items():
+            builds = data.get("builds-toward", [])
+            if not isinstance(builds, list):
                 continue
-            if target_id not in all_topics:
-                warn(all_topics[topic_id], f"builds-toward '{target_id}' not found")
-            elif target_id in all_data:
-                # Check that the target lists this topic as a prerequisite
-                target_prereqs = all_data[target_id].get("prerequisites", [])
-                target_prereq_ids = [p.get("id") for p in target_prereqs if isinstance(p, dict)]
-                if topic_id not in target_prereq_ids:
-                    warn(all_topics[topic_id],
-                         f"builds-toward '{target_id}' but that topic doesn't list '{topic_id}' as prerequisite")
+            for target_id in builds:
+                if not isinstance(target_id, str):
+                    continue
+                if target_id not in all_topics:
+                    warn(all_topics[topic_id], f"builds-toward '{target_id}' not found")
+                elif target_id in all_data:
+                    # Check that the target lists this topic as a prerequisite
+                    target_prereqs = all_data[target_id].get("prerequisites", [])
+                    target_prereq_ids = [p.get("id") for p in target_prereqs if isinstance(p, dict)]
+                    if topic_id not in target_prereq_ids:
+                        warn(all_topics[topic_id],
+                             f"builds-toward '{target_id}' but that topic doesn't list '{topic_id}' as prerequisite")
 
     # Check for cycles
     cycles = find_cycles(prereq_graph)
@@ -353,31 +364,34 @@ def main():
 
     # Report
     print(f"  Scanned {len(topic_files)} files, {len(all_topics)} valid topics")
-    print(f"  Topics with questions: {topics_with_questions} of {len(all_topics)}\n")
+    if not quick:
+        print(f"  Topics with questions: {topics_with_questions} of {len(all_topics)}")
+    print()
 
-    # Stats by course
-    course_counts = defaultdict(int)
-    for data in all_data.values():
-        course = data.get("course", "unknown")
-        course_counts[course] += 1
-    if course_counts:
-        print("  Topics by course:")
-        for course, count in sorted(course_counts.items()):
-            print(f"    {course}: {count}")
-        print()
+    # Stats by course (skip in quick mode)
+    if not quick:
+        course_counts = defaultdict(int)
+        for data in all_data.values():
+            course = data.get("course", "unknown")
+            course_counts[course] += 1
+        if course_counts:
+            print("  Topics by course:")
+            for course, count in sorted(course_counts.items()):
+                print(f"    {course}: {count}")
+            print()
 
-    # Orphan check (topics with no prerequisites and not listed as prerequisite by anyone)
-    all_prereq_targets = set()
-    for prereqs in prereq_graph.values():
-        all_prereq_targets.update(prereqs)
-    roots = [tid for tid in all_topics if tid not in all_prereq_targets and not prereq_graph.get(tid)]
-    if roots:
-        print(f"  Root topics (no prerequisites, not depended on): {len(roots)}")
-        for r in sorted(roots)[:10]:
-            print(f"    - {r}")
-        if len(roots) > 10:
-            print(f"    ... and {len(roots) - 10} more")
-        print()
+        # Orphan check (topics with no prerequisites and not listed as prerequisite by anyone)
+        all_prereq_targets = set()
+        for prereqs in prereq_graph.values():
+            all_prereq_targets.update(prereqs)
+        roots = [tid for tid in all_topics if tid not in all_prereq_targets and not prereq_graph.get(tid)]
+        if roots:
+            print(f"  Root topics (no prerequisites, not depended on): {len(roots)}")
+            for r in sorted(roots)[:10]:
+                print(f"    - {r}")
+            if len(roots) > 10:
+                print(f"    ... and {len(roots) - 10} more")
+            print()
 
     if warnings:
         print(f"Warnings ({len(warnings)}):")
