@@ -17,7 +17,7 @@ prerequisites:
 - id: exponents-intro
   type: soft
 builds-toward:
-- bonds-and-fixed-income-securities
+- bonds-and-fixed-income
 - economic-indicators-and-personal-finance-impact
 - compound-interest
 tags:

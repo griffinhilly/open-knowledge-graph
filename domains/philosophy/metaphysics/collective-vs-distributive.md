@@ -9,7 +9,7 @@ prerequisites:
 - id: mereology-basics
   type: hard
 builds-toward:
-- group-epistemology-collective
+- collective-knowledge-and-group-epistemology
 tags:
 - properties
 - collective

@@ -9,7 +9,7 @@ prerequisites:
 - id: financial-goal-setting
   type: soft
 builds-toward:
-- bonds-and-fixed-income-securities
+- bonds-and-fixed-income
 - liquidity-and-asset-liquidity-spectrum
 - investment-diversification
 tags:

@@ -9,7 +9,7 @@ prerequisites:
 - id: karl-popper-falsificationism
   type: soft
 builds-toward:
-- incommensurability-of-paradigms
+- incommensurability-kuhn
 - scientific-progress-and-convergence
 tags:
 - kuhn

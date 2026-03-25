@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: intentionality-semantic-content-mind
   type: soft
-- id: narrow-content-individuation
-  type: soft
 - id: wide-content-externalism
   type: soft
 - id: externalism-about-content

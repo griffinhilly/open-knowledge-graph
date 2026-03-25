@@ -9,7 +9,7 @@ prerequisites:
 - id: non-reductive-physicalism-details
   type: soft
 builds-toward:
-- type-identity-theory-details
+- type-identity-theory
 tags:
 - reduction
 - type-identity

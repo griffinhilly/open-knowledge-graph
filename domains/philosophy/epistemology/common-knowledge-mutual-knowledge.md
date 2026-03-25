@@ -8,10 +8,7 @@ prerequisites:
   type: hard
 - id: first-order-logic-syntax
   type: soft
-- id: group-epistemology-collective
-  type: soft
-builds-toward:
-- collective-knowledge-and-group-epistemology
+builds-toward: []
 tags:
 - group-knowledge
 - iteration

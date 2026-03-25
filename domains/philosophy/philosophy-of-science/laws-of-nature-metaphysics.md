@@ -9,7 +9,7 @@ prerequisites:
 - id: necessity-and-contingency
   type: hard
 builds-toward:
-- reduction-intertheoretic-relations
+- reduction-emergence-science
 tags:
 - laws
 - nature

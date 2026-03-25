@@ -9,7 +9,7 @@ prerequisites:
 builds-toward:
 - skeletal-system-anatomy
 - muscular-system-anatomy
-- gross-motor-development-and-locomotion
+- gross-motor-milestones-locomotion
 tags:
 - movement
 - muscles

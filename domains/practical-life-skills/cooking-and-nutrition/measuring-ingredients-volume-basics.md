@@ -19,7 +19,7 @@ prerequisites:
 - id: measuring-capacity-liquid-containers-3rd
   type: soft
 builds-toward:
-- reading-following-simple-recipes
+- reading-recipes
 - grain-and-starch-preparation-basics
 - simple-breakfast-food-preparation
 - pan-cooking-and-sauteing-basics

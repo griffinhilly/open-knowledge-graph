@@ -4,7 +4,7 @@ title: Token Identity and Physical Realizability
 domain: philosophy
 course: philosophy-of-mind
 prerequisites:
-- id: type-identity-theory-details
+- id: type-identity-theory
   type: hard
 - id: multiple-realizability
   type: soft

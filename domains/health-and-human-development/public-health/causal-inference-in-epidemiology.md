@@ -9,7 +9,7 @@ prerequisites:
 - id: confounding-epidemiology
   type: hard
 builds-toward:
-- mediation-analysis-epidemiology
+- mediation-analysis-pathways
 - instrumental-variables-epidemiology
 tags:
 - causal-inference

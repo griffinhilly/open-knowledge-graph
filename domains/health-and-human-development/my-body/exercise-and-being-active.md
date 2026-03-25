@@ -9,7 +9,7 @@ prerequisites:
 - id: being-kind-to-others
   type: soft
 builds-toward:
-- gross-motor-development-and-locomotion
+- gross-motor-milestones-locomotion
 - energy-balance-and-body-composition
 tags:
 - exercise

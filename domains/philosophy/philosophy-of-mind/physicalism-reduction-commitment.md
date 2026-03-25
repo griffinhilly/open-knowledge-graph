@@ -15,7 +15,7 @@ prerequisites:
 builds-toward:
 - reductive-physicalism-theory
 - non-reductive-physicalism-details
-- eliminative-materialism-thesis
+- eliminative-materialism
 tags:
 - physicalism
 - materialism
