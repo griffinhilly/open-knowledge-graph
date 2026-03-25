@@ -3,8 +3,9 @@
 Open-source, machine-readable knowledge graphs mapping prerequisite relationships between topics across every domain of human knowledge.
 
 ## Project Structure
-- `domains/` — 19 domains, 13,429 topics, 197 courses
-- `tools/` — Python tooling (validate.py, visualize_hierarchy.py, visualize_radial.py, generate_topic_pages.py, stats.py, reconcile.py, generate_assessment.py, generate_assessment_page.py, generate_assessment_questions.py, generate_quiz_page.py, diagnose_positioning.py, diagnose_radial_order.py, trace_topic.py)
+- `domains/` — 19 domains, 13,411 topics, 197 courses
+- `tools/` — Python tooling (validate.py, visualize_hierarchy.py, visualize_radial.py, visualize_domain_map.py, generate_topic_pages.py, generate_quiz_page.py, generate_assessment.py, generate_assessment_page.py, generate_assessment_questions.py, connect_leaves.py, dedup_pairs.py, stats.py, reconcile.py)
+- `hooks/` — Git hooks (pre-push: cycle detection + CI script check). Setup: `git config core.hooksPath hooks`
 - `tools/overnight/` — Autonomous generation orchestrator (used to build the initial graph and Q+E content)
 - `meta/` — Schema definition, developmental stages, course list
 - `output/` — Generated HTML visualizations (gitignored)
@@ -33,12 +34,12 @@ Tool commands: see `guides/tools-reference.md`
 Visualization design: see `guides/visualization.md`
 
 ## Current Status
-- **13,429 topics** across **19 domains**, **197 courses**
+- **13,411 topics** across **19 domains**, **197 courses**
 - **6 developmental stages**: pre-formal, concrete-operations, abstract-reasoning, formal-systems, advanced, expert
 - **100% Q+E coverage**: All topics have Questions + Explainer sections
 - **All topics at `status: validated`**
 - GitHub Pages live at `griffinhilly.github.io/open-knowledge-graph/`
-- GitHub Actions CI: validates graph + deploys visualizations on every push
+- GitHub Actions CI: validates → generates index + radial + topic pages + domain maps + assessment + quiz → deploys to Pages
 - **Phase 8.5 (K-12 STEM) DONE**: 473 new topics, 14 K-12 courses across 7 STEM domains
 - **CS programming-fundamentals deduped**: 116 → 50 topics (66 duplicates merged)
 - **Phase 9A (Fluency Model) DONE**: `lib/fluency.js` with Bayesian updates, prerequisite propagation, two color modes.

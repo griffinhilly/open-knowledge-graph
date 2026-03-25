@@ -2,24 +2,23 @@
 
 ## Current State
 
-Phase 8.5 COMPLETE. Phase 9 IN PROGRESS (9A+9B done, 9C next). Domain map v2 DONE. Data quality pass DONE (6 domains).
+Phase 8.5 COMPLETE. Phase 9 IN PROGRESS (9A+9B done, 9C next). **13,411 topics** across 19 domains, 197 courses.
 
-**Last session (Mar 25, 2026):** Domain map v2 + data quality cleanup. Rewrote `visualize_domain_map.py` (boxed labels, tier layout, branch X, connectivity sizing). Registered 34 missing courses across 15 domains. Ran 6-domain audit+fix swarms: 447 topics deduped, 586 restaged, 85 broken refs fixed, 5 prerequisite cycles resolved. All 19 domain maps now portrait orientation. 13,429 topics (was 13,925). Radial integration plan written.
+**Last session (Mar 25, 2026):** CI pipeline, pre-push hook, leaf connections, hierarchy→domain map swap, radial branch integration, PyYAML swap, 18-pair dedup.
 
 **Known issues:**
-- ~~Quiz + domain map NOT in CI workflow~~ — FIXED (Mar 25): Added domain maps, assessment, and quiz generation to `deploy-pages.yml`
 - CS has 99 dangling cross-domain prereq refs (pointing to math/logic topics by wrong ID)
-- `visualize_domain_map.py` uses regex YAML parsing (fragile, should use PyYAML)
 - Semantic zoom not implemented (single zoom level with text toggle)
-- Dedup agents may have introduced subtle reference issues — run `validate.py` next session
-- Leaf-topic pattern: many topics (40%+ in some domains) have zero successors, creating shallow chains
+- 3 closely related pairs flagged by dedup tool — not duplicates, could be connected
+- 1 uncertain pair (occupational health surveillance vs hazard control) — needs human review
+- Leaf topics still at 34.4% overall (5 domains done, 14 remaining)
 
 **Next steps:**
-1. ~~**Fix CI workflow**~~: DONE (Mar 25) — quiz, assessment, and domain map generation added to `deploy-pages.yml`
-3. **Radial graph integration**: Plan written in `tools/radial-branch-alignment.md`. Use domain map positions as base radial positioning. Auto-detect branch flip from cross-domain edge lengths.
-4. **Leaf-topic connector swarm**: Find topics with 0 successors, propose missing edges by keyword overlap
-5. **Replace regex YAML with PyYAML** in domain map script
-6. Phase 9C: Deep Dive assessment + Results screen redesign
+1. **Phase 9C**: Deep Dive assessment + Results screen redesign
+2. **Expand leaf connections** to remaining 14 domains
+3. **CS cross-domain ref fix**: 99 dangling refs using course names as prereq IDs
+4. Phase 9D: Landing page + polish
+5. Write announcement post
 
 ## Phase 1: Foundation — DONE
 - [x] Schema design (meta/schema.md)
@@ -196,7 +195,14 @@ Expanding non-math domains from ~20 topics/course toward ~35-40 topics/course.
   - All 13,518 topics now have both Questions and Explainer sections (100% coverage)
 - [x] Promote all topics to validated (11,508 promoted Mar 23)
 - [x] CS programming-fundamentals dedup: 116 → 50 topics (66 duplicates merged, 168 refs updated)
-- [ ] Add assessment generation to GitHub Actions workflow
+- [x] Add assessment + quiz + domain map generation to GitHub Actions workflow (Mar 25)
+- [x] Pre-push hook: cycle detection + CI script tracking (`hooks/pre-push`, ~7s)
+- [x] Navigation swap: all links → domain maps, hierarchy pages removed from CI
+- [x] Domain map course anchor support (`#course-id` pans/zooms to course)
+- [x] Radial branch integration: COURSE_BRANCH_X positions + auto-detected flips (3-domain angular window)
+- [x] Leaf connector: 1,069 connections across 5 domains (39.8% → 34.4% leaves)
+- [x] Dedup: 18 duplicate pairs merged (13,429 → 13,411 topics)
+- [x] Replace regex YAML with PyYAML in `visualize_domain_map.py`
 - [ ] Write announcement post
 
 ## Phase 8.5: K-12 STEM Expansion — DONE (Mar 22, 2026)

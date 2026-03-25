@@ -1,13 +1,15 @@
 # Open Knowledge Graph Memory
 
 ## Status (Mar 25, 2026)
-- **13,429 topics** across **19 domains**, **197 courses** (34 courses registered this session)
+- **13,411 topics** across **19 domains**, **197 courses**
 - **6 developmental stages**: pre-formal, concrete-operations, abstract-reasoning, formal-systems, advanced, expert
 - **All topics at `status: validated`**, **100% Q+E coverage**
 - GitHub Pages: `griffinhilly.github.io/open-knowledge-graph/`
 - Phase 9A COMPLETE, Phase 9B BUILT, Phase 8.5 (K-12 STEM) COMPLETE
-- **Domain map v2 DONE**: All 19 domains portrait orientation. Course maps via `--course`.
-- **Data quality pass DONE**: 447 deduped, 586 restaged, 85 refs fixed across 6 domains (CS, Physics, Biology, Earth & Space, Economics, Social Sciences)
+- **Domain maps are primary navigation** — hierarchy views removed from CI and all links
+- **CI pipeline**: validate → index → radial → topic pages → domain maps → assessment → quiz
+- **Pre-push hook**: `hooks/pre-push` — cycle detection + CI script tracking (~7s). Setup: `git config core.hooksPath hooks`
+- **Leaf topics**: 34.4% overall (was 39.8%). 5 domains done, 14 remaining.
 
 ## 6-Stage Schema (Mar 22, 2026)
 - **Added "expert" stage** for graduate/research content (2,662 topics)
@@ -45,15 +47,14 @@
 - **Sizing**: `area ∝ degree`, out-degree weighted 2x. DEGREE_CEILING=25 for consistent sizing across views.
 - **Row splitting**: 3x depth multiplier, recursive splitting (3 passes, cap 20 topics/row).
 - **Centroid-anchored placement**: Each layer anchors on connected-neighbor centroid, then 10 rounds of 40% neighbor drift.
-- **Radial integration plan**: Written in `tools/radial-branch-alignment.md`. Auto-detect branch flip from cross-domain edge lengths. Each domain's left-right axis should face its more-related angular neighbor.
-- **Next**: Radial integration, leaf-connector swarm, replace regex YAML with PyYAML.
+- **Radial integration DONE** (Mar 25): `visualize_radial.py` imports `COURSE_BRANCH_X` from domain map. Auto-detects `BRANCH_FLIP` per domain using cross-domain edge lengths within 3-domain angular window. Plan doc: `tools/radial-branch-alignment.md`.
+- **Leaf connector tool**: `tools/connect_leaves.py` — tag/title overlap scoring, cycle-safe apply, duplicate detection. Used for 5 domains so far.
+- **Dedup tool**: `tools/dedup_pairs.py` — delete weaker file + redirect references. Caveat: broad text replacement can corrupt IDs/tags if delete_id is substring of keep_id (fixed in code but verify after runs).
 
 ## Gotchas
 - **Python f-string + JS templates**: `\'` inside f-string produces `'` not `\'`. Use `"'" +` concatenation instead.
 - **Inline JSON size limit**: Browsers choke on 700KB+ single-line `<script>` data. Use `indent=1` for multi-line or external `.js` file.
 - **Click-vs-drag in canvas views**: If two `mousemove` handlers share `dragStartX/Y`, track original position separately (`mouseDownX/Y`) for displacement detection.
-- ~~**CI workflow gap**~~: FIXED (Mar 25). `deploy-pages.yml` now includes: validate → hierarchy → radial → topic pages → domain maps → assessment → quiz.
-- **Dedup agents introduce cycles**: Batch find-and-replace during dedup can create mutual prerequisite references. Always run cycle detection after dedup swarms (Kahn's algorithm).
+- **Dedup agents introduce cycles**: Batch find-and-replace during dedup can create mutual prerequisite references. Always run cycle detection after dedup swarms. Also: broad text replace can corrupt IDs when delete_id is substring of keep_id (e.g., `prose-poetry` → `prose-poetry-hybrid-form` corrupted the keep file's own ID).
 - **Dangling cross-domain refs**: 394 total across all domains (pre-existing, not from dedup). Mostly course names used as prereq IDs (`probability-and-statistics`, `macroeconomics`) instead of actual topic IDs. Doesn't affect domain maps (within-domain only).
-- **Validation (Mar 25)**: 13,429 topics, 0 self-refs, 0 within-domain cycles, 394 cross-domain dangling refs (pre-existing). Graph is structurally clean after dedup.
-- **_domain.yml indentation varies**: Math uses 2-space, physics uses 0-space for course entries. Regex parser needed `\s*` instead of fixed indent.
+- **Validation (Mar 25)**: 13,411 topics, 0 self-refs, 0 within-domain cycles, 394 cross-domain dangling refs (pre-existing). Graph is structurally clean.
