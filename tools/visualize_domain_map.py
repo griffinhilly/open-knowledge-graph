@@ -561,7 +561,8 @@ def generate_course_colors(n_courses):
 
 def generate_html(domain, title, nodes, edges, positions, box_dims, canvas_w,
                   canvas_h, depth_map, course_ids, course_colors, course_titles,
-                  course_separators=None, is_course_map=False):
+                  course_separators=None, is_course_map=False,
+                  cross_counts=None):
     """Generate self-contained HTML with boxed-label canvas visualization."""
 
     # Build node list
@@ -572,6 +573,7 @@ def generate_html(domain, title, nodes, edges, positions, box_dims, canvas_w,
         p = positions[nid]
         bd = box_dims[nid]
         cidx = course_ids.index(node["course"]) if node["course"] in course_ids else 0
+        xd = cross_counts.get(nid, 0) if cross_counts else 0
         node_list.append({
             "id": nid,
             "title": node["title"],
@@ -585,6 +587,7 @@ def generate_html(domain, title, nodes, edges, positions, box_dims, canvas_w,
             "h": bd["h"],
             "fontSize": bd["fontSize"],
             "degree": bd["degree"],
+            "crossDomain": xd,
             "color": course_colors[cidx] if cidx < len(course_colors) else "hsl(0,0%,50%)",
         })
 
@@ -989,6 +992,21 @@ function draw() {{
       ctx.fillStyle = "#fff";
       ctx.fillText(n.title, n.x, n.y);
     }}
+
+    // Cross-domain badge: small purple dot at top-right corner
+    if (n.crossDomain > 0 && camScale > 0.15) {{
+      var bdr = Math.max(3, Math.min(6, n.crossDomain / 10 + 3));
+      ctx.beginPath();
+      ctx.arc(n.x + n.w / 2 - 1, n.y - n.h / 2 + 1, bdr, 0, Math.PI * 2);
+      ctx.fillStyle = "rgba(180,120,255,0.8)";
+      ctx.fill();
+      if (camScale > 0.5 && bdr >= 4) {{
+        ctx.font = "bold " + Math.max(6, bdr) + "px sans-serif";
+        ctx.textAlign = "center"; ctx.textBaseline = "middle";
+        ctx.fillStyle = "#fff";
+        ctx.fillText(n.crossDomain, n.x + n.w / 2 - 1, n.y - n.h / 2 + 1);
+      }}
+    }}
   }});
 
   // Highlight selected/hovered
@@ -1125,7 +1143,7 @@ canvas.addEventListener("mousemove", function(e) {{
     if (hoveredNode !== hit) {{ hoveredNode = hit; draw(); }}
     var cl = hit.course ? hit.course.replace(/-/g, " ") : "";
     tooltip.innerHTML = '<h4>' + hit.title + '</h4><div class="meta">'
-      + cl + ' &middot; ' + hit.degree + ' connections'
+      + cl + ' &middot; ' + hit.degree + ' connections' + (hit.crossDomain ? ' (+' + hit.crossDomain + ' cross-domain)' : '')
       + ' &middot; Depth ' + hit.depth + '</div>';
     tooltip.style.display = "block";
     tooltip.style.left = (e.clientX + 14) + "px";
@@ -1177,7 +1195,7 @@ function showPanel(node, sx, sy) {{
   var cl = node.course ? node.course.replace(/-/g, " ") : "";
   var html = '<button class="panel-close" onclick="hidePanel()">&times;</button>';
   html += '<h3><a href="topics/' + node.id + '.html" target="_blank">' + node.title + '</a></h3>';
-  html += '<div class="panel-meta">' + cl + ' &middot; ' + node.degree + ' connections &middot; depth ' + node.depth + '</div>';
+  html += '<div class="panel-meta">' + cl + ' &middot; ' + node.degree + ' connections' + (node.crossDomain ? ' (+' + node.crossDomain + ' cross-domain)' : '') + ' &middot; depth ' + node.depth + '</div>';
   if (prereqs.length > 0) {{
     html += '<div class="panel-section"><h4>Prerequisites (' + prereqs.length + ')</h4>';
     prereqs.forEach(function(e) {{
@@ -1509,7 +1527,7 @@ def generate_domain_map(domain):
     html = generate_html(
         domain, title, nodes, edges, positions, box_dims, cw, ch,
         depth_map, course_ids, colors, course_titles,
-        is_course_map=False)
+        is_course_map=False, cross_counts=cross_counts)
 
     out = OUTPUT_DIR / f"{domain}-map.html"
     out.write_text(html, encoding="utf-8")
